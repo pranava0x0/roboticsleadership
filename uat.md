@@ -61,7 +61,7 @@ These should always pass. If one regresses, log it as `critical` in `issues.md`.
    - Hash on load activates the matching tab
    - **Hashchange post-load also activates the matching tab** (regression guard for the 2026-05-18 bug)
 8. **Dashboard — archive-link parity with news.html.** For every card in `#recent-news`, if the underlying news record has `archive_url`, the card must render an `.archive-link`. Regression guard for the 2026-05-18 bug.
-8a. **Agencies table renders.** 8 rows (DOE, ARPA-E, DOC, NIST, NSF, NASA, Space Force, DARPA); at least 30 external links; navigation marks `aria-current="page"`. At ≤540px viewport: page does not horizontally scroll (the nav internally scrolls instead).
+8a. **Agencies table renders.** 9 rows (OSTP, DOE, ARPA-E, DOC, NIST, NSF, NASA, Space Force, DARPA) with OSTP as the lead row; at least 40 external links; navigation marks `aria-current="page"`. At ≤540px viewport: page does not horizontally scroll (the nav internally scrolls instead).
 9. **Accessibility baseline.**
    - `.skip-link` exists and points to `#main`
    - Skip link's computed `left` becomes `0px` when focused
