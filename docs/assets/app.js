@@ -266,10 +266,22 @@
     if (backdrop) backdrop.classList.remove('open');
   }
 
+  // ---------- Header "Updated <date>" populator ----------
+  async function loadHeaderUpdated() {
+    const el = document.querySelector('.header-updated-date');
+    if (!el) return;
+    try {
+      const sources = await loadData('sources');
+      const date = sources?._meta?.last_updated;
+      if (date) el.textContent = formatDate(date);
+    } catch (e) { /* leave the dash placeholder */ }
+  }
+
   // ---------- Boot sequence ----------
   function init() {
     initThemePicker();
     highlightActiveNav();
+    loadHeaderUpdated();
   }
 
   if (document.readyState === 'loading') {

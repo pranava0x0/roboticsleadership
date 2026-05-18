@@ -22,9 +22,9 @@
 
   <header class="site-header" role="banner">
     <div class="site-header-inner">
-      <a href="index.html" class="brand" aria-label="Robotics Tracker home" style="border-bottom:none;color:inherit;">
-        <span class="brand-name">Robotics Tracker</span>
-        <span class="brand-tag">Industry · Policy · Deployment</span>
+      <a href="index.html" class="header-updated" aria-label="Home — last data refresh">
+        <span class="header-updated-label">Updated</span>
+        <span class="header-updated-date tnum">—</span>
       </a>
       <nav class="primary-nav" aria-label="Primary">
         <a href="index.html">Dashboard</a>
@@ -49,12 +49,9 @@
   </header>
 
   <main id="main">
-    <p class="eyebrow">Dashboard · updated <span id="last-updated" class="tnum">—</span></p>
+    <p class="eyebrow">Dashboard</p>
     <h1 class="page-title">Robotics — How the U.S. can Lead</h1>
-    <p class="page-lede">
-      Funding, deployments, Congressional bills, executive actions, and state incentives — curated, sourced, and refreshed weekly.
-      A single source of truth for investors, policymakers, founders, and Congressional staff tracking the robotics acceleration.
-    </p>
+    <p class="page-lede">Funding, deployments, and U.S. policy — sourced and refreshed weekly.</p>
 
     <!-- KPI strip -->
     <section aria-label="Key indicators">
@@ -108,16 +105,6 @@
   <script defer>
   document.addEventListener('DOMContentLoaded', async () => {
     const { companies, policies, news, themes } = await RT.loadAll();
-
-    // ---------- Last updated ----------
-    const allDates = []
-      .concat(companies.map(c => c.last_updated))
-      .concat(policies.map(p => p.last_updated))
-      .concat(themes.map(t => t.last_updated))
-      .filter(Boolean)
-      .sort();
-    const lastUpd = allDates[allDates.length - 1];
-    document.getElementById('last-updated').textContent = RT.formatDate(lastUpd);
 
     // ---------- KPI strip ----------
     const thisYear = new Date().getFullYear();

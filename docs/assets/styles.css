@@ -305,23 +305,31 @@ input, select, textarea {
   height: var(--header-h);
 }
 
-.brand {
+/* Header status block (replaces the old brand wordmark). Wrapped in an
+   <a href="index.html"> so the upper-left area still navigates home. */
+.header-updated {
   display: flex;
   flex-direction: column;
   gap: 0;
-  line-height: 1.1;
+  line-height: 1.15;
+  color: var(--text-muted);
+  border-bottom: none;
+  transition: color var(--transition-base, 120ms);
 }
-.brand-name {
+.header-updated:hover { color: var(--text); border-bottom: none; }
+.header-updated-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-faint);
+  font-weight: 600;
+}
+.header-updated-date {
   font-family: var(--font-serif);
   font-weight: 700;
-  font-size: 17px;
-  letter-spacing: -0.01em;
-}
-.brand-tag {
-  font-size: 10.5px;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  font-size: 14px;
+  letter-spacing: -0.005em;
+  color: var(--text);
 }
 
 nav.primary-nav {
@@ -1014,12 +1022,15 @@ button, [role="button"], a.btn {
 /* Mobile nav adjustment */
 @media (max-width: 540px) {
   .site-header-inner { gap: 8px; padding: 8px 12px; }
-  .brand-name { font-size: 15px; }
-  .brand-tag { display: none; }
-  /* The brand wordmark already links home — drop the "Dashboard" link to save ~80px */
+  .header-updated-label { display: none; }
+  .header-updated-date { font-size: 13px; }
+  /* The header-updated block already links home — drop the "Dashboard" link to save ~80px */
   nav.primary-nav a[href="index.html"] { display: none; }
   nav.primary-nav { gap: 0; }
   nav.primary-nav a { padding: 8px 7px; font-size: 13px; }
+  /* Drop the picker's text label below 540px; the chevron is enough */
+  .theme-picker > summary { padding: 0 8px; gap: 4px; }
+  .theme-picker-current { display: none; }
   h1.page-title { font-size: 24px; }
   main { padding: 16px 12px 60px; }
 }
@@ -1075,6 +1086,11 @@ button, [role="button"], a.btn {
 .theme-picker[open] .theme-picker-chevron { transform: rotate(180deg); }
 
 .theme-picker-menu {
+  /* Hidden by default. position:absolute alone doesn't hide the menu —
+     the native <details> rendering only suppresses non-absolute children
+     of a closed <details>. So we must explicitly display:none here and
+     re-enable display:flex on [open]. */
+  display: none;
   position: absolute;
   top: calc(100% + 6px);
   right: 0;
@@ -1088,9 +1104,11 @@ button, [role="button"], a.btn {
   margin: 0;
   padding: 6px;
   min-width: 240px;
-  display: flex;
   flex-direction: column;
   gap: 2px;
+}
+.theme-picker[open] > .theme-picker-menu {
+  display: flex;
 }
 .theme-option {
   display: grid;
