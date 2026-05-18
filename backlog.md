@@ -5,7 +5,6 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 ## High
 
 - **GitHub Actions cron for scrapers** — daily news, weekly policy. Spec'd but not wired; manual runs only for now.
-- **Source-link rot mitigation** — capture archive.org snapshot URL on each news record at ingest. Article URLs go 404 within months.
 - **Per-company comparison view** — Figure vs. Agility vs. 1X vs. Tesla Optimus, side-by-side. Spec calls for this; deferred from v1.
 - **Confidence-scoring rubric** — document what `high / medium / low` means per entity in `data_curation.md`. Without a rubric the field drifts.
 - **Search across all four datasets** — global search bar in header; Lunr.js or simple regex over JSON.
