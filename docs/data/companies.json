@@ -1,0 +1,1084 @@
+[
+  {
+    "id": "figure-ai",
+    "name": "Figure AI",
+    "founded": "2022",
+    "hq": { "city": "San Jose", "state": "CA", "country": "USA" },
+    "website": "https://www.figure.ai",
+    "funding_rounds": [
+      {
+        "date": "2023-05",
+        "round": "Seed",
+        "amount_usd": 70000000,
+        "valuation_usd": null,
+        "investors": ["Parkway Venture Capital", "Aliya Capital", "Bold Capital"],
+        "url": "https://www.figure.ai/news/figure-emerges-from-stealth",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2024-02",
+        "round": "Series B",
+        "amount_usd": 675000000,
+        "valuation_usd": 2600000000,
+        "investors": ["Microsoft", "OpenAI Startup Fund", "NVIDIA", "Jeff Bezos (Explore Investments)", "Intel Capital"],
+        "url": "https://www.figure.ai/news/figure-raises-675m",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2025-09",
+        "round": "Series C",
+        "amount_usd": 1000000000,
+        "valuation_usd": 39000000000,
+        "investors": ["Parkway Venture Capital", "Tiger Global", "Macquarie", "T-Mobile Ventures"],
+        "url": "https://www.figure.ai",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 1745000000,
+    "latest_valuation_usd": 39000000000,
+    "robot_types": ["humanoid"],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Figure 02",
+    "deployments": [
+      {
+        "customer": "BMW",
+        "location": "Spartanburg, SC, USA",
+        "robot_count": 3,
+        "start_date": "2024-08",
+        "status": "active",
+        "use_case": "sheet metal handling on body shop line",
+        "source_url": "https://www.figure.ai/news/bmw-manufacturing"
+      }
+    ],
+    "headcount": 500,
+    "headcount_date": "2025-12",
+    "target_price_usd": 30000,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Brett Adcock", "role": "CEO / Founder", "twitter": "@adcock_brett" }
+    ],
+    "ceo": "Brett Adcock",
+    "tags": ["humanoid", "unicorn", "us-manufactured", "manufacturing", "openai-backed"],
+    "data_confidence": "high",
+    "sources": [
+      "https://www.figure.ai/news",
+      "https://techcrunch.com/2024/02/29/figure-raises-675m-from-jeff-bezos-microsoft-nvidia-others/"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "apptronik",
+    "name": "Apptronik",
+    "founded": "2016",
+    "hq": { "city": "Austin", "state": "TX", "country": "USA" },
+    "website": "https://apptronik.com",
+    "funding_rounds": [
+      {
+        "date": "2025-02",
+        "round": "Series A",
+        "amount_usd": 350000000,
+        "valuation_usd": 1700000000,
+        "investors": ["B Capital", "Capital Factory", "Mercedes-Benz"],
+        "url": "https://apptronik.com/news",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-02",
+        "round": "Series A Extension",
+        "amount_usd": 520000000,
+        "valuation_usd": 5500000000,
+        "investors": ["Google", "Mercedes-Benz", "B Capital"],
+        "url": "https://www.bloomberg.com/news/articles/2026-02-11/apptronik-raises-520-million-in-new-funding-to-build-more-humanoids",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 935000000,
+    "latest_valuation_usd": 5500000000,
+    "robot_types": ["humanoid"],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Apollo",
+    "deployments": [
+      {
+        "customer": "Mercedes-Benz",
+        "location": "Berlin, Germany",
+        "robot_count": null,
+        "start_date": "2024-03",
+        "status": "pilot",
+        "use_case": "kitting and assembly line tasks",
+        "source_url": "https://apptronik.com/news"
+      },
+      {
+        "customer": "GXO Logistics",
+        "location": "USA (multiple)",
+        "robot_count": null,
+        "start_date": "2024-12",
+        "status": "pilot",
+        "use_case": "warehouse handling",
+        "source_url": "https://apptronik.com/news"
+      }
+    ],
+    "headcount": 200,
+    "headcount_date": "2026-02",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Jeff Cardenas", "role": "CEO / Co-Founder" },
+      { "name": "Nicholas Paine", "role": "CTO / Co-Founder" }
+    ],
+    "ceo": "Jeff Cardenas",
+    "tags": ["humanoid", "unicorn", "us-manufactured", "manufacturing", "google-backed"],
+    "data_confidence": "high",
+    "sources": [
+      "https://techcrunch.com/2026/02/11/humanoid-robot-startup-apptronik-has-now-raised-935m-at-a-5b-valuation/",
+      "https://www.bloomberg.com/news/articles/2026-02-11/apptronik-raises-520-million-in-new-funding-to-build-more-humanoids"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "1x-technologies",
+    "name": "1X Technologies",
+    "founded": "2014",
+    "hq": { "city": "Moss", "state": "N/A", "country": "Norway" },
+    "website": "https://www.1x.tech",
+    "funding_rounds": [
+      {
+        "date": "2023-03",
+        "round": "Series A2",
+        "amount_usd": 23500000,
+        "valuation_usd": null,
+        "investors": ["OpenAI Startup Fund", "Tiger Global"],
+        "url": "https://www.1x.tech",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2024-01",
+        "round": "Series B",
+        "amount_usd": 100000000,
+        "valuation_usd": null,
+        "investors": ["EQT Ventures", "Samsung NEXT", "OpenAI Startup Fund"],
+        "url": "https://www.1x.tech",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 123500000,
+    "latest_valuation_usd": null,
+    "robot_types": ["humanoid"],
+    "primary_use_case": "consumer",
+    "flagship_product": "NEO",
+    "deployments": [
+      {
+        "customer": "Consumer pre-orders",
+        "location": "USA",
+        "robot_count": 10000,
+        "start_date": "2026-04",
+        "status": "pilot",
+        "use_case": "household assistance — opening doors, fetching items, lighting control",
+        "source_url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": 20000,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Bernt Børnich", "role": "CEO / Founder" }
+    ],
+    "ceo": "Bernt Børnich",
+    "tags": ["humanoid", "consumer", "openai-backed", "norway", "preorder"],
+    "data_confidence": "high",
+    "sources": [
+      "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/",
+      "https://sifted.eu/articles/1x-humanoid-robot-launch"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "agility-robotics",
+    "name": "Agility Robotics",
+    "founded": "2015",
+    "hq": { "city": "Salem", "state": "OR", "country": "USA" },
+    "website": "https://www.agilityrobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2022-04",
+        "round": "Series B",
+        "amount_usd": 150000000,
+        "valuation_usd": null,
+        "investors": ["DCVC", "Playground Global", "Amazon"],
+        "url": "https://www.agilityrobotics.com",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2025-03",
+        "round": "Series C",
+        "amount_usd": 400000000,
+        "valuation_usd": 1750000000,
+        "investors": ["WP Global Partners", "DCVC"],
+        "url": "https://www.agilityrobotics.com",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 550000000,
+    "latest_valuation_usd": 1750000000,
+    "robot_types": ["humanoid", "warehouse_robot"],
+    "primary_use_case": "logistics",
+    "flagship_product": "Digit v4",
+    "deployments": [
+      {
+        "customer": "Amazon",
+        "location": "Spanaway, WA, USA",
+        "robot_count": null,
+        "start_date": "2023-10",
+        "status": "active",
+        "use_case": "tote handling in fulfillment center",
+        "source_url": "https://www.agilityrobotics.com"
+      },
+      {
+        "customer": "GXO Logistics",
+        "location": "Flowery Branch, GA, USA",
+        "robot_count": null,
+        "start_date": "2024-06",
+        "status": "active",
+        "use_case": "container loading — first humanoid RaaS contract",
+        "source_url": "https://www.agilityrobotics.com"
+      },
+      {
+        "customer": "Toyota Motor Manufacturing Canada",
+        "location": "Woodstock, ON, Canada",
+        "robot_count": 7,
+        "start_date": "2026-02",
+        "status": "active",
+        "use_case": "RAV4 logistics — Robots-as-a-Service",
+        "source_url": "https://blog.robozaps.com/b/agility-robotics-digit-review"
+      }
+    ],
+    "headcount": 180,
+    "headcount_date": "2025-06",
+    "target_price_usd": 250000,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Jonathan Hurst", "role": "Co-Founder / Chief Robot Officer" },
+      { "name": "Damion Shelton", "role": "Co-Founder" }
+    ],
+    "ceo": "Peggy Johnson",
+    "tags": ["humanoid", "unicorn", "us-manufactured", "logistics", "amazon-backed"],
+    "data_confidence": "high",
+    "sources": [
+      "https://www.agilityrobotics.com",
+      "https://blog.robozaps.com/b/agility-robotics-digit-review"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "boston-dynamics",
+    "name": "Boston Dynamics",
+    "founded": "1992",
+    "hq": { "city": "Waltham", "state": "MA", "country": "USA" },
+    "website": "https://www.bostondynamics.com",
+    "funding_rounds": [
+      {
+        "date": "2020-12",
+        "round": "Acquisition",
+        "amount_usd": 1100000000,
+        "valuation_usd": 1100000000,
+        "investors": ["Hyundai Motor Group"],
+        "url": "https://www.bostondynamics.com",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 1100000000,
+    "latest_valuation_usd": 1100000000,
+    "robot_types": ["humanoid", "quadruped"],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Atlas (electric) and Spot",
+    "deployments": [
+      {
+        "customer": "Hyundai Motor",
+        "location": "Multiple plants, global",
+        "robot_count": null,
+        "start_date": "2024-04",
+        "status": "pilot",
+        "use_case": "electric Atlas pilot at Hyundai plants",
+        "source_url": "https://www.bostondynamics.com"
+      },
+      {
+        "customer": "Multiple (Spot)",
+        "location": "Global",
+        "robot_count": 1500,
+        "start_date": "2020-06",
+        "status": "active",
+        "use_case": "industrial inspection, security, data capture",
+        "source_url": "https://www.bostondynamics.com"
+      }
+    ],
+    "headcount": 500,
+    "headcount_date": "2024-12",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Marc Raibert", "role": "Founder (now Chairman)" }
+    ],
+    "ceo": "Robert Playter",
+    "tags": ["humanoid", "quadruped", "us-manufactured", "hyundai-owned", "established"],
+    "data_confidence": "high",
+    "sources": [
+      "https://www.bostondynamics.com"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "tesla-optimus",
+    "name": "Tesla (Optimus)",
+    "founded": "2003",
+    "hq": { "city": "Austin", "state": "TX", "country": "USA" },
+    "website": "https://www.tesla.com/AI",
+    "funding_rounds": [],
+    "total_funding_usd": 0,
+    "latest_valuation_usd": null,
+    "robot_types": ["humanoid"],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Optimus Gen 2",
+    "deployments": [
+      {
+        "customer": "Tesla (internal)",
+        "location": "Fremont, CA, USA",
+        "robot_count": null,
+        "start_date": "2024-01",
+        "status": "pilot",
+        "use_case": "internal factory tasks — battery cell sorting",
+        "source_url": "https://www.tesla.com/AI"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": 25000,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Elon Musk", "role": "CEO" }
+    ],
+    "ceo": "Elon Musk",
+    "tags": ["humanoid", "public-company", "us-manufactured", "internal-use"],
+    "data_confidence": "medium",
+    "sources": [
+      "https://www.tesla.com/AI"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "sanctuary-ai",
+    "name": "Sanctuary AI",
+    "founded": "2018",
+    "hq": { "city": "Vancouver", "state": "BC", "country": "Canada" },
+    "website": "https://www.sanctuary.ai",
+    "funding_rounds": [
+      {
+        "date": "2022-03",
+        "round": "Series A",
+        "amount_usd": 58300000,
+        "valuation_usd": null,
+        "investors": ["Bell", "BDC Capital", "Magna International"],
+        "url": "https://www.sanctuary.ai",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2024-04",
+        "round": "Federal Grant",
+        "amount_usd": 26000000,
+        "valuation_usd": null,
+        "investors": ["Government of Canada"],
+        "url": "https://www.sanctuary.ai",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 84300000,
+    "latest_valuation_usd": null,
+    "robot_types": ["humanoid"],
+    "primary_use_case": "general_purpose",
+    "flagship_product": "Phoenix",
+    "deployments": [
+      {
+        "customer": "Magna International",
+        "location": "Aurora, ON, Canada",
+        "robot_count": null,
+        "start_date": "2024-04",
+        "status": "pilot",
+        "use_case": "automotive assembly tasks",
+        "source_url": "https://www.sanctuary.ai"
+      }
+    ],
+    "headcount": 110,
+    "headcount_date": "2024-12",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Geordie Rose", "role": "CEO / Founder" },
+      { "name": "Suzanne Gildert", "role": "Co-Founder" }
+    ],
+    "ceo": "Geordie Rose",
+    "tags": ["humanoid", "canada", "general-purpose"],
+    "data_confidence": "medium",
+    "sources": [
+      "https://www.sanctuary.ai"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "skild-ai",
+    "name": "Skild AI",
+    "founded": "2023",
+    "hq": { "city": "Pittsburgh", "state": "PA", "country": "USA" },
+    "website": "https://www.skild.ai",
+    "funding_rounds": [
+      {
+        "date": "2024-07",
+        "round": "Series A",
+        "amount_usd": 300000000,
+        "valuation_usd": 1500000000,
+        "investors": ["Lightspeed", "Coatue", "SoftBank", "Bezos Expeditions", "Sequoia Capital"],
+        "url": "https://www.skild.ai",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-01",
+        "round": "Series B",
+        "amount_usd": 1400000000,
+        "valuation_usd": 14000000000,
+        "investors": ["SoftBank", "Jeff Bezos", "Coatue", "Lightspeed"],
+        "url": "https://www.skild.ai",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 1700000000,
+    "latest_valuation_usd": 14000000000,
+    "robot_types": ["foundation_model"],
+    "primary_use_case": "ai_foundation_model",
+    "flagship_product": "Skild Brain (general robot foundation model)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Deepak Pathak", "role": "CEO / Co-Founder" },
+      { "name": "Abhinav Gupta", "role": "President / Co-Founder" }
+    ],
+    "ceo": "Deepak Pathak",
+    "tags": ["foundation-model", "unicorn", "us-manufactured", "ai-software", "pittsburgh"],
+    "data_confidence": "high",
+    "sources": [
+      "https://www.skild.ai"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "physical-intelligence",
+    "name": "Physical Intelligence",
+    "founded": "2024",
+    "hq": { "city": "San Francisco", "state": "CA", "country": "USA" },
+    "website": "https://www.physicalintelligence.company",
+    "funding_rounds": [
+      {
+        "date": "2024-03",
+        "round": "Seed",
+        "amount_usd": 70000000,
+        "valuation_usd": 400000000,
+        "investors": ["Thrive Capital", "Khosla Ventures", "Lux Capital", "Sequoia Capital"],
+        "url": "https://www.physicalintelligence.company",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2024-11",
+        "round": "Series A",
+        "amount_usd": 400000000,
+        "valuation_usd": 2400000000,
+        "investors": ["Jeff Bezos", "Thrive Capital", "Lux Capital", "OpenAI"],
+        "url": "https://www.physicalintelligence.company",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 470000000,
+    "latest_valuation_usd": 2400000000,
+    "robot_types": ["foundation_model"],
+    "primary_use_case": "ai_foundation_model",
+    "flagship_product": "π0 (foundation model)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": true,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Karol Hausman", "role": "Co-Founder" },
+      { "name": "Sergey Levine", "role": "Co-Founder" },
+      { "name": "Chelsea Finn", "role": "Co-Founder" }
+    ],
+    "ceo": "Karol Hausman",
+    "tags": ["foundation-model", "unicorn", "open-source", "us-manufactured", "ai-software"],
+    "data_confidence": "high",
+    "sources": [
+      "https://www.physicalintelligence.company"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "unitree",
+    "name": "Unitree Robotics",
+    "founded": "2016",
+    "hq": { "city": "Hangzhou", "state": "Zhejiang", "country": "China" },
+    "website": "https://www.unitree.com",
+    "funding_rounds": [
+      {
+        "date": "2024-02",
+        "round": "Series B+",
+        "amount_usd": 140000000,
+        "valuation_usd": null,
+        "investors": ["Meituan", "Source Code Capital"],
+        "url": "https://www.unitree.com",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 140000000,
+    "latest_valuation_usd": null,
+    "robot_types": ["quadruped", "humanoid"],
+    "primary_use_case": "research",
+    "flagship_product": "H1, G1, H2",
+    "deployments": [
+      {
+        "customer": "Multiple research labs",
+        "location": "Global",
+        "robot_count": 5500,
+        "start_date": "2025-01",
+        "status": "active",
+        "use_case": "2025 shipment volume across products",
+        "source_url": "https://autonews.gasgoo.com/articles/news/xiaozhi-weekly-news-unitree-humanoid-robot-shipments-exceed-5500-units-2015824041443430400"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": 16000,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Wang Xingxing", "role": "CEO / Founder" }
+    ],
+    "ceo": "Wang Xingxing",
+    "tags": ["humanoid", "quadruped", "china", "research-tools", "high-volume"],
+    "data_confidence": "medium",
+    "sources": [
+      "https://www.unitree.com",
+      "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "ubtech",
+    "name": "UBTECH Robotics",
+    "founded": "2012",
+    "hq": { "city": "Shenzhen", "state": "Guangdong", "country": "China" },
+    "website": "https://www.ubtrobot.com",
+    "funding_rounds": [
+      {
+        "date": "2023-12",
+        "round": "IPO",
+        "amount_usd": 130000000,
+        "valuation_usd": 4900000000,
+        "investors": ["Hong Kong Stock Exchange listing"],
+        "url": "https://www.ubtrobot.com",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 130000000,
+    "latest_valuation_usd": 4900000000,
+    "robot_types": ["humanoid"],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Walker S",
+    "deployments": [
+      {
+        "customer": "Multiple — automotive, logistics, semi-fab",
+        "location": "China (multiple)",
+        "robot_count": 1079,
+        "start_date": "2025-01",
+        "status": "active",
+        "use_case": "industrial humanoid deployments — first company globally over 1,000 units",
+        "source_url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Zhou Jian", "role": "CEO / Founder" }
+    ],
+    "ceo": "Zhou Jian",
+    "tags": ["humanoid", "china", "public-company", "high-volume", "manufacturing"],
+    "data_confidence": "high",
+    "sources": [
+      "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "agibot",
+    "name": "AgiBot (智元机器人)",
+    "founded": "2023",
+    "hq": { "city": "Shanghai", "state": "Shanghai", "country": "China" },
+    "website": "https://www.agibot.com",
+    "funding_rounds": [
+      {
+        "date": "2024-12",
+        "round": "Series B",
+        "amount_usd": 200000000,
+        "valuation_usd": null,
+        "investors": ["Hillhouse", "Tencent", "BYD"],
+        "url": "https://www.agibot.com",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 200000000,
+    "latest_valuation_usd": null,
+    "robot_types": ["humanoid"],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Yuanzheng A2",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Peng Zhihui (Zhi Hui Jun)", "role": "Co-Founder" }
+    ],
+    "ceo": null,
+    "tags": ["humanoid", "china", "manufacturing", "byd-backed"],
+    "data_confidence": "medium",
+    "sources": [
+      "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "robotera",
+    "name": "RobotEra",
+    "founded": "2023",
+    "hq": { "city": "Beijing", "state": "Beijing", "country": "China" },
+    "website": "https://www.robotera.ai",
+    "funding_rounds": [
+      {
+        "date": "2025-03",
+        "round": "Series A",
+        "amount_usd": 70000000,
+        "valuation_usd": null,
+        "investors": ["Lightspeed China Partners", "Capital Today"],
+        "url": "https://www.robotera.ai",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 70000000,
+    "latest_valuation_usd": null,
+    "robot_types": ["humanoid"],
+    "primary_use_case": "logistics",
+    "flagship_product": "Star1",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Chen Jianyu", "role": "CEO / Founder" }
+    ],
+    "ceo": "Chen Jianyu",
+    "tags": ["humanoid", "china", "logistics"],
+    "data_confidence": "low",
+    "sources": [
+      "https://www.robotera.ai"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "engineai",
+    "name": "EngineAI",
+    "founded": "2023",
+    "hq": { "city": "Shenzhen", "state": "Guangdong", "country": "China" },
+    "website": "https://www.engineai.com.cn",
+    "funding_rounds": [
+      {
+        "date": "2025-02",
+        "round": "Angel+",
+        "amount_usd": 14000000,
+        "valuation_usd": null,
+        "investors": ["Hongshan (Sequoia China)"],
+        "url": "https://www.engineai.com.cn",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 14000000,
+    "latest_valuation_usd": null,
+    "robot_types": ["humanoid"],
+    "primary_use_case": "general_purpose",
+    "flagship_product": "SE01",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Zhao Tongyang", "role": "Co-Founder" }
+    ],
+    "ceo": null,
+    "tags": ["humanoid", "china", "early-stage"],
+    "data_confidence": "low",
+    "sources": [
+      "https://www.engineai.com.cn"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "symbotic",
+    "name": "Symbotic",
+    "founded": "2007",
+    "hq": { "city": "Wilmington", "state": "MA", "country": "USA" },
+    "website": "https://www.symbotic.com",
+    "funding_rounds": [
+      {
+        "date": "2022-06",
+        "round": "IPO (SPAC)",
+        "amount_usd": 723000000,
+        "valuation_usd": 4500000000,
+        "investors": ["Nasdaq: SYM"],
+        "url": "https://www.symbotic.com",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 723000000,
+    "latest_valuation_usd": null,
+    "robot_types": ["warehouse_robot", "AMR"],
+    "primary_use_case": "logistics",
+    "flagship_product": "SymBot",
+    "deployments": [
+      {
+        "customer": "Walmart",
+        "location": "USA (42 distribution centers contracted)",
+        "robot_count": null,
+        "start_date": "2017-06",
+        "status": "active",
+        "use_case": "high-throughput case handling",
+        "source_url": "https://www.symbotic.com"
+      },
+      {
+        "customer": "Target",
+        "location": "USA",
+        "robot_count": null,
+        "start_date": "2024-03",
+        "status": "active",
+        "use_case": "regional distribution automation",
+        "source_url": "https://www.symbotic.com"
+      }
+    ],
+    "headcount": 1500,
+    "headcount_date": "2024-12",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Rick Cohen", "role": "CEO / Founder" }
+    ],
+    "ceo": "Rick Cohen",
+    "tags": ["warehouse", "public-company", "us-manufactured", "logistics", "established"],
+    "data_confidence": "high",
+    "sources": [
+      "https://www.symbotic.com"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "locus-robotics",
+    "name": "Locus Robotics",
+    "founded": "2014",
+    "hq": { "city": "Wilmington", "state": "MA", "country": "USA" },
+    "website": "https://locusrobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2022-02",
+        "round": "Series F",
+        "amount_usd": 117000000,
+        "valuation_usd": 2000000000,
+        "investors": ["G2 Venture Partners", "Hercules Capital"],
+        "url": "https://locusrobotics.com",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 423000000,
+    "latest_valuation_usd": 2000000000,
+    "robot_types": ["AMR"],
+    "primary_use_case": "logistics",
+    "flagship_product": "LocusBot",
+    "deployments": [
+      {
+        "customer": "DHL, GEODIS, others",
+        "location": "Global (300+ sites)",
+        "robot_count": 25000,
+        "start_date": "2017-01",
+        "status": "active",
+        "use_case": "warehouse pick assistance — RaaS model",
+        "source_url": "https://locusrobotics.com"
+      }
+    ],
+    "headcount": 600,
+    "headcount_date": "2024-06",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Bruce Welty", "role": "Co-Founder" },
+      { "name": "Rick Faulk", "role": "CEO" }
+    ],
+    "ceo": "Rick Faulk",
+    "tags": ["AMR", "unicorn", "us-manufactured", "logistics", "raas"],
+    "data_confidence": "high",
+    "sources": [
+      "https://locusrobotics.com"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "diligent-robotics",
+    "name": "Diligent Robotics",
+    "founded": "2017",
+    "hq": { "city": "Austin", "state": "TX", "country": "USA" },
+    "website": "https://diligentrobots.com",
+    "funding_rounds": [
+      {
+        "date": "2022-06",
+        "round": "Series B",
+        "amount_usd": 30000000,
+        "valuation_usd": null,
+        "investors": ["Tiger Global", "DNX Ventures"],
+        "url": "https://diligentrobots.com",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2024-06",
+        "round": "Series B Extension",
+        "amount_usd": 25000000,
+        "valuation_usd": null,
+        "investors": ["Canaan", "Next Coast Ventures"],
+        "url": "https://diligentrobots.com",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 70000000,
+    "latest_valuation_usd": null,
+    "robot_types": ["service_robot"],
+    "primary_use_case": "healthcare",
+    "flagship_product": "Moxi",
+    "deployments": [
+      {
+        "customer": "Multiple hospital systems",
+        "location": "USA (24+ sites)",
+        "robot_count": null,
+        "start_date": "2020-06",
+        "status": "active",
+        "use_case": "supply-room fetching, nurse-assist tasks",
+        "source_url": "https://diligentrobots.com"
+      }
+    ],
+    "headcount": 80,
+    "headcount_date": "2024-12",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Andrea Thomaz", "role": "CEO / Co-Founder" },
+      { "name": "Vivian Chu", "role": "CTO / Co-Founder" }
+    ],
+    "ceo": "Andrea Thomaz",
+    "tags": ["service-robot", "healthcare", "us-manufactured", "women-founded"],
+    "data_confidence": "high",
+    "sources": [
+      "https://diligentrobots.com"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "anduril",
+    "name": "Anduril Industries",
+    "founded": "2017",
+    "hq": { "city": "Costa Mesa", "state": "CA", "country": "USA" },
+    "website": "https://www.anduril.com",
+    "funding_rounds": [
+      {
+        "date": "2024-08",
+        "round": "Series F",
+        "amount_usd": 1500000000,
+        "valuation_usd": 14000000000,
+        "investors": ["Founders Fund", "Sands Capital", "Fidelity"],
+        "url": "https://www.anduril.com",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 3700000000,
+    "latest_valuation_usd": 14000000000,
+    "robot_types": ["UAV", "USV", "ground_robot"],
+    "primary_use_case": "defense",
+    "flagship_product": "Lattice / Roadrunner / Ghost",
+    "deployments": [
+      {
+        "customer": "US Department of Defense",
+        "location": "USA + allied bases",
+        "robot_count": null,
+        "start_date": "2018-01",
+        "status": "active",
+        "use_case": "autonomous defense systems — UAV, counter-UAS, maritime",
+        "source_url": "https://www.anduril.com"
+      }
+    ],
+    "headcount": 4000,
+    "headcount_date": "2024-12",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": true,
+    "founders": [
+      { "name": "Palmer Luckey", "role": "Founder" },
+      { "name": "Trae Stephens", "role": "Co-Founder" }
+    ],
+    "ceo": "Brian Schimpf",
+    "tags": ["defense", "unicorn", "us-manufactured", "autonomous-systems"],
+    "data_confidence": "high",
+    "sources": [
+      "https://www.anduril.com"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "shield-ai",
+    "name": "Shield AI",
+    "founded": "2015",
+    "hq": { "city": "San Diego", "state": "CA", "country": "USA" },
+    "website": "https://shield.ai",
+    "funding_rounds": [
+      {
+        "date": "2024-11",
+        "round": "Series F",
+        "amount_usd": 240000000,
+        "valuation_usd": 5300000000,
+        "investors": ["Riot Ventures", "Hanwha Aerospace", "L3Harris"],
+        "url": "https://shield.ai",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 1200000000,
+    "latest_valuation_usd": 5300000000,
+    "robot_types": ["UAV"],
+    "primary_use_case": "defense",
+    "flagship_product": "V-BAT / Hivemind",
+    "deployments": [
+      {
+        "customer": "US DoD, allies",
+        "location": "USA + Ukraine + Asia-Pacific",
+        "robot_count": null,
+        "start_date": "2018-01",
+        "status": "active",
+        "use_case": "autonomous aerial reconnaissance + edge AI",
+        "source_url": "https://shield.ai"
+      }
+    ],
+    "headcount": 1100,
+    "headcount_date": "2024-11",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": true,
+    "founders": [
+      { "name": "Ryan Tseng", "role": "CEO / Co-Founder" },
+      { "name": "Brandon Tseng", "role": "President / Co-Founder" }
+    ],
+    "ceo": "Ryan Tseng",
+    "tags": ["defense", "uav", "unicorn", "us-manufactured"],
+    "data_confidence": "high",
+    "sources": [
+      "https://shield.ai"
+    ],
+    "last_updated": "2026-05-17"
+  },
+  {
+    "id": "covariant",
+    "name": "Covariant",
+    "founded": "2017",
+    "hq": { "city": "Berkeley", "state": "CA", "country": "USA" },
+    "website": "https://covariant.ai",
+    "funding_rounds": [
+      {
+        "date": "2024-08",
+        "round": "Acquihire",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": ["Amazon (talent + tech licensing)"],
+        "url": "https://covariant.ai",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 222000000,
+    "latest_valuation_usd": null,
+    "robot_types": ["warehouse_robot", "foundation_model"],
+    "primary_use_case": "logistics",
+    "flagship_product": "Covariant Brain (RFM-1)",
+    "deployments": [
+      {
+        "customer": "Multiple warehousing customers",
+        "location": "USA + EU",
+        "robot_count": null,
+        "start_date": "2020-01",
+        "status": "active",
+        "use_case": "AI software for pick-and-place arms",
+        "source_url": "https://covariant.ai"
+      }
+    ],
+    "headcount": 200,
+    "headcount_date": "2024-06",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      { "name": "Pieter Abbeel", "role": "Co-Founder" },
+      { "name": "Peter Chen", "role": "CEO / Co-Founder" }
+    ],
+    "ceo": "Peter Chen",
+    "tags": ["ai-software", "warehouse", "us-manufactured", "acquired"],
+    "data_confidence": "medium",
+    "sources": [
+      "https://covariant.ai"
+    ],
+    "last_updated": "2026-05-17"
+  }
+]

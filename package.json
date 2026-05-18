@@ -1,0 +1,16 @@
+{
+  "name": "robotics-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Static-site dashboard for tracking robotics startups, government policy, and industry signals.",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "scrape:news": "node scripts/scraper-news.js",
+    "scrape:policy": "node scripts/scraper-policy.js",
+    "serve": "python3 -m http.server -d docs 8000"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

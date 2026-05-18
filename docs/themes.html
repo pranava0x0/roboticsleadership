@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Cross-cutting themes in robotics: China scale, foundation models, cost trajectory, defense procurement, deployment wave, policy momentum." />
+  <title>Themes · Robotics Tracker</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="preload" as="fetch" href="data/themes.json" crossorigin />
+  <style>
+    /* Page-local — TOC anchor strip + theme section dividers */
+    .toc {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      padding: 10px 12px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin: 8px 0 28px;
+      position: sticky;
+      top: var(--header-h);
+      z-index: 30;
+      backdrop-filter: saturate(180%) blur(12px);
+      -webkit-backdrop-filter: saturate(180%) blur(12px);
+      background: color-mix(in srgb, var(--surface) 92%, transparent);
+    }
+    .toc a {
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-muted);
+      border-bottom: none;
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+      transition: color 120ms, background 120ms, border-color 120ms;
+      min-height: 28px;
+      display: inline-flex;
+      align-items: center;
+    }
+    .toc a:hover {
+      color: var(--text);
+      border-color: var(--border-strong);
+      background: var(--surface);
+    }
+
+    .theme-section {
+      scroll-margin-top: calc(var(--header-h) + 64px); /* room for sticky TOC */
+      padding: 24px 0 8px;
+      border-top: 1px solid var(--border);
+    }
+    .theme-section:first-of-type { border-top: 0; padding-top: 8px; }
+
+    .theme-head {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: baseline;
+      margin-bottom: 6px;
+    }
+    .theme-head h2 {
+      font-family: var(--font-serif);
+      font-size: 26px;
+      font-weight: 700;
+      margin: 0;
+      letter-spacing: -0.012em;
+      line-height: 1.15;
+    }
+
+    .metrics-strip {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 1fr;
+      margin: 16px 0 18px;
+    }
+    @media (min-width: 540px) { .metrics-strip { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1024px) { .metrics-strip { grid-template-columns: repeat(4, 1fr); } }
+    .metric-cell {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+      box-shadow: var(--shadow-rest);
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .metric-label {
+      font-size: 10.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+    .metric-value {
+      font-family: var(--font-serif);
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 1.15;
+      letter-spacing: -0.005em;
+    }
+    .metric-date { font-size: 11px; color: var(--text-faint); }
+
+    .related-block { margin: 14px 0 6px; }
+    .related-block h3 {
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin: 0 0 8px;
+    }
+    .related-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .related-chips a {
+      font-size: 12.5px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+      color: var(--text);
+      border-bottom: none;
+      transition: border-color 120ms, background 120ms;
+    }
+    .related-chips a:hover { border-color: var(--accent); background: var(--surface); }
+
+    .related-news-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .related-news-list li a {
+      display: block;
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
+      color: inherit;
+      border-bottom: 1px solid var(--border);
+      transition: border-color 120ms, background 120ms;
+    }
+    .related-news-list li a:hover { border-color: var(--accent); }
+    .related-news-list .news-meta {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 11.5px;
+      color: var(--text-muted);
+      margin-bottom: 2px;
+    }
+    .related-news-list .news-title {
+      font-family: var(--font-serif);
+      font-size: 14px;
+      line-height: 1.3;
+    }
+
+    .recommended-actions {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin-top: 12px;
+    }
+    .recommended-actions h3 {
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 600;
+      margin: 0 0 8px;
+      color: var(--text);
+    }
+    .recommended-actions ul {
+      margin: 0;
+      padding-left: 18px;
+      font-size: 14px;
+    }
+    .recommended-actions li { margin: 2px 0; }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header" role="banner">
+    <div class="site-header-inner">
+      <a href="index.html" class="brand" aria-label="Robotics Tracker home" style="border-bottom:none;color:inherit;">
+        <span class="brand-name">Robotics Tracker</span>
+        <span class="brand-tag">Industry · Policy · Deployment</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="index.html">Dashboard</a>
+        <a href="companies.html">Companies</a>
+        <a href="policies.html">Policy</a>
+        <a href="news.html">News</a>
+        <a href="themes.html">Themes</a>
+      </nav>
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle theme">☾</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <p class="eyebrow">Cross-cutting</p>
+    <h1 class="page-title">Themes to watch.</h1>
+    <p class="page-lede">
+      The six narratives that explain what's happening — across companies, policies, and news. Each is a curator-written synthesis with explicit metrics, related records, and (where applicable) a policy ask.
+    </p>
+
+    <nav id="toc" class="toc" aria-label="Themes on this page"></nav>
+
+    <div id="themes-root"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Narratives are curator-written and dated. The data underneath each — companies, policies, news — is sourced and linked.</p>
+  </footer>
+
+  <script src="assets/app.js" defer></script>
+  <script defer>
+  document.addEventListener('DOMContentLoaded', async () => {
+    const { themes, companies, policies, news } = await RT.loadAll();
+
+    // ---- TOC ----
+    document.getElementById('toc').innerHTML = themes.map(t => `
+      <a href="#${encodeURIComponent(t.id)}">${RT.escapeHTML(t.name)}</a>
+    `).join('');
+
+    // ---- Each theme section ----
+    const root = document.getElementById('themes-root');
+    root.innerHTML = themes.map(t => renderTheme(t, companies, policies, news)).join('');
+
+    // Smooth-scroll the TOC links (manual handler so we can adjust offset)
+    document.querySelectorAll('#toc a').forEach(a => {
+      a.addEventListener('click', (e) => {
+        const id = decodeURIComponent(a.getAttribute('href').slice(1));
+        const el = document.getElementById(id);
+        if (!el) return;
+        e.preventDefault();
+        el.scrollIntoView({ block: 'start', behavior: 'smooth' });
+        history.replaceState(null, '', '#' + id);
+      });
+    });
+
+    // If URL has a hash on load, defer scroll until layout settles
+    if (location.hash) {
+      const id = decodeURIComponent(location.hash.slice(1));
+      const el = document.getElementById(id);
+      if (el) requestAnimationFrame(() => el.scrollIntoView({ block: 'start' }));
+    }
+  });
+
+  function renderTheme(t, companies, policies, news) {
+    const directionPill = `<span class="pill dir-${t.direction.toLowerCase()}">${RT.escapeHTML(t.direction)}</span>`;
+    const policyReady = t.government_intervention_ready
+      ? '<span class="pill outline">Policy-ready</span>'
+      : '<span class="pill outline">Watching</span>';
+
+    const metricsHTML = (t.key_metrics || []).map(m => `
+      <div class="metric-cell">
+        <span class="metric-label">${RT.escapeHTML(m.name)}</span>
+        <span class="metric-value tnum">${formatMetricValue(m.value, m.unit)}</span>
+        <span class="metric-date">${RT.escapeHTML(RT.formatDate(m.date))}</span>
+      </div>
+    `).join('');
+
+    const relCompanies = (t.related_companies || [])
+      .map(id => companies.find(c => c.id === id))
+      .filter(Boolean);
+    const relPolicies = (t.related_policies || [])
+      .map(id => policies.find(p => p.id === id))
+      .filter(Boolean);
+    const relNews = (t.related_news || [])
+      .map(id => news.find(n => n.id === id))
+      .filter(Boolean)
+      .concat(
+        // Also surface any news tagged with this theme even if not explicitly listed
+        news.filter(n => (n.themes || []).includes(t.id))
+      );
+    // Dedupe related news by id
+    const seen = new Set();
+    const relNewsUnique = relNews.filter(n => {
+      if (seen.has(n.id)) return false;
+      seen.add(n.id);
+      return true;
+    }).sort((a, b) => (a.date < b.date ? 1 : -1)).slice(0, 8);
+
+    const companiesChips = relCompanies.length
+      ? `<div class="related-chips">${relCompanies.map(c => `
+          <a href="companies.html?focus=${encodeURIComponent(c.id)}">${RT.escapeHTML(c.name)}</a>
+        `).join('')}</div>`
+      : '<p class="muted">No companies linked.</p>';
+
+    const policiesChips = relPolicies.length
+      ? `<div class="related-chips">${relPolicies.map(p => `
+          <a href="policies.html?focus=${encodeURIComponent(p.id)}">${RT.escapeHTML(p.bill_number || p.title.slice(0, 48))}</a>
+        `).join('')}</div>`
+      : '<p class="muted">No policies linked.</p>';
+
+    const newsList = relNewsUnique.length
+      ? `<ul class="related-news-list">${relNewsUnique.map(n => `
+          <li>
+            <a href="news.html#${encodeURIComponent(n.id)}">
+              <div class="news-meta">
+                <span class="pill cat-${n.category.toLowerCase().replace(/\s+/g, '')}">${RT.escapeHTML(n.category)}</span>
+                <span>${RT.escapeHTML(n.source)}</span>
+                <span class="sep"></span>
+                <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
+              </div>
+              <div class="news-title">${RT.escapeHTML(n.title)}</div>
+            </a>
+          </li>
+        `).join('')}</ul>`
+      : '<p class="muted">No news linked yet.</p>';
+
+    const actionsHTML = (t.recommended_actions || []).length
+      ? `<div class="recommended-actions">
+           <h3>Recommended government action</h3>
+           <ul>${t.recommended_actions.map(a => `<li>${RT.escapeHTML(a)}</li>`).join('')}</ul>
+         </div>`
+      : '';
+
+    return `
+      <section class="theme-section" id="${RT.escapeHTML(t.id)}">
+        <div class="theme-head">
+          <h2>${RT.escapeHTML(t.name)}</h2>
+          ${directionPill}
+          ${policyReady}
+          <span class="row-end muted" style="font-size:12px;">Updated <span class="tnum">${RT.escapeHTML(RT.formatDate(t.last_updated))}</span></span>
+        </div>
+
+        <p class="curator-narrative">${RT.escapeHTML(t.narrative)}</p>
+
+        ${metricsHTML ? `<div class="metrics-strip">${metricsHTML}</div>` : ''}
+
+        <div class="related-block">
+          <h3>Related companies (${relCompanies.length})</h3>
+          ${companiesChips}
+        </div>
+
+        <div class="related-block">
+          <h3>Related policy items (${relPolicies.length})</h3>
+          ${policiesChips}
+        </div>
+
+        <div class="related-block">
+          <h3>Recent news on this theme (${relNewsUnique.length})</h3>
+          ${newsList}
+        </div>
+
+        ${actionsHTML}
+      </section>
+    `;
+  }
+
+  function formatMetricValue(value, unit) {
+    if (value == null) return '—';
+    if (unit === 'USD') return RT.formatUSD(value);
+    if (typeof value === 'number') return RT.formatNumber(value) + (unit && unit !== 'units' ? ' ' + RT.escapeHTML(unit) : '');
+    return RT.escapeHTML(String(value));
+  }
+  </script>
+</body>
+</html>

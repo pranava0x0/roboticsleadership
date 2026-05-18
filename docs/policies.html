@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Federal bills, state incentives, regulatory items, and procurement programs affecting robotics." />
+  <title>Policy · Robotics Tracker</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="preload" as="fetch" href="data/policies.json" crossorigin />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header" role="banner">
+    <div class="site-header-inner">
+      <a href="index.html" class="brand" aria-label="Robotics Tracker home" style="border-bottom:none;color:inherit;">
+        <span class="brand-name">Robotics Tracker</span>
+        <span class="brand-tag">Industry · Policy · Deployment</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="index.html">Dashboard</a>
+        <a href="companies.html">Companies</a>
+        <a href="policies.html">Policy</a>
+        <a href="news.html">News</a>
+        <a href="themes.html">Themes</a>
+      </nav>
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle theme">☾</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <p class="eyebrow">Policy tracker</p>
+    <h1 class="page-title">Federal bills, state incentives, procurement.</h1>
+    <p class="page-lede">
+      Every robotics-related policy item we track: Congressional bills, regulatory rules, state tax credits, federal grant programs, and procurement initiatives. Status updated weekly.
+    </p>
+
+    <!-- Top KPIs -->
+    <div class="kpi-strip" id="policy-kpis"></div>
+
+    <!-- Filter bar -->
+    <form class="filter-bar" id="filter-form" onsubmit="return false;" aria-label="Filter policies">
+      <fieldset>
+        <legend>Filters</legend>
+        <input class="filter-input filter-search" type="search" id="f-search" placeholder="Search title, sponsor, summary…" autocomplete="off" />
+        <select class="filter-select" id="f-level" aria-label="Level"><option value="">All levels</option></select>
+        <select class="filter-select" id="f-status" aria-label="Status"><option value="">All statuses</option></select>
+        <select class="filter-select" id="f-type" aria-label="Type"><option value="">All types</option></select>
+        <select class="filter-select" id="f-sort" aria-label="Sort">
+          <option value="introduced-desc">Newest first</option>
+          <option value="introduced-asc">Oldest first</option>
+          <option value="budget-desc">Budget (high to low)</option>
+          <option value="title-asc">Title (A–Z)</option>
+        </select>
+        <button class="btn ghost" type="button" id="f-reset">Reset</button>
+        <span class="filter-result-count" id="result-count" aria-live="polite"></span>
+      </fieldset>
+    </form>
+
+    <h2 class="section-title">Federal bills + regulations</h2>
+    <div class="table-wrap">
+      <table class="data-table" id="federal-table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Status</th>
+            <th class="hide-mobile">Sponsor / agency</th>
+            <th class="num hide-mobile">Est. budget</th>
+            <th class="hide-mobile">Introduced</th>
+          </tr>
+        </thead>
+        <tbody id="federal-tbody"></tbody>
+      </table>
+    </div>
+
+    <h2 class="section-title">State incentives</h2>
+    <div class="table-wrap">
+      <table class="data-table" id="state-table">
+        <thead>
+          <tr>
+            <th>State</th>
+            <th>Program</th>
+            <th class="hide-mobile">Status</th>
+            <th class="hide-mobile">Startup eligible</th>
+            <th class="hide-mobile">Updated</th>
+          </tr>
+        </thead>
+        <tbody id="state-tbody"></tbody>
+      </table>
+    </div>
+
+    <div id="empty" class="empty-state" hidden>No policies match those filters.</div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Every record links to its primary source (Congress.gov, Federal Register, state agency, etc).</p>
+  </footer>
+
+  <script src="assets/app.js" defer></script>
+  <script defer>
+  document.addEventListener('DOMContentLoaded', async () => {
+    const policies = await RT.loadData('policies');
+    const news = await RT.loadData('news');
+
+    // ---- KPI strip ----
+    const inProgress = policies.filter(p => ['Introduced','Committee','Passed House','Passed Senate'].includes(p.status)).length;
+    const inEffect = policies.filter(p => ['In effect','Signed'].includes(p.status)).length;
+    const federalCount = policies.filter(p => p.level === 'Federal').length;
+    const stateCount = policies.filter(p => p.level === 'State').length;
+
+    document.getElementById('policy-kpis').innerHTML = [
+      { label: 'In progress', value: inProgress, sub: 'pre-enactment, advancing' },
+      { label: 'In effect / signed', value: inEffect, sub: 'currently operational' },
+      { label: 'Federal items', value: federalCount, sub: 'bills, regs, programs' },
+      { label: 'State incentives', value: stateCount, sub: 'tax credits + grants' },
+    ].map(k => `
+      <div class="kpi-card">
+        <span class="kpi-label">${k.label}</span>
+        <span class="kpi-value tnum">${k.value}</span>
+        <span class="kpi-sub">${k.sub}</span>
+      </div>
+    `).join('');
+
+    // ---- Build filter options ----
+    fillSelect('f-level', unique(policies.map(p => p.level)).sort());
+    fillSelect('f-status', unique(policies.map(p => p.status)).sort());
+    fillSelect('f-type', unique(policies.map(p => p.type)).sort());
+
+    // ---- Restore URL state ----
+    const q = RT.readQuery();
+    ['search','level','status','type','sort'].forEach(k => {
+      const el = document.getElementById(`f-${k}`);
+      if (el && q[k]) el.value = q[k];
+    });
+
+    ['f-search','f-level','f-status','f-type','f-sort'].forEach(id => {
+      const el = document.getElementById(id);
+      const ev = el.tagName === 'SELECT' ? 'change' : 'input';
+      el.addEventListener(ev, render);
+    });
+    document.getElementById('f-reset').addEventListener('click', () => {
+      ['f-search','f-level','f-status','f-type'].forEach(id => { document.getElementById(id).value = ''; });
+      document.getElementById('f-sort').value = 'introduced-desc';
+      render();
+    });
+
+    function render() {
+      const search = document.getElementById('f-search').value.trim();
+      const level = document.getElementById('f-level').value;
+      const status = document.getElementById('f-status').value;
+      const type = document.getElementById('f-type').value;
+      const sort = document.getElementById('f-sort').value;
+      RT.writeQuery({ search, level, status, type, sort });
+
+      let rows = policies.filter(p => {
+        if (level && p.level !== level) return false;
+        if (status && p.status !== status) return false;
+        if (type && p.type !== type) return false;
+        if (search) {
+          const blob = [p.title, p.summary, p.sponsor, p.bill_number, (p.tags || []).join(' '), p.robotics_scope]
+            .join(' ').toLowerCase();
+          if (!blob.includes(search.toLowerCase())) return false;
+        }
+        return true;
+      });
+
+      const [sortKey, sortDir] = sort.split('-');
+      const keyFns = {
+        introduced: p => p.introduced_date || '',
+        budget: p => p.estimated_budget_usd || 0,
+        title: p => (p.title || '').toLowerCase(),
+      };
+      rows = RT.sortBy(rows, keyFns[sortKey] || keyFns.introduced, sortDir);
+
+      const federalRows = rows.filter(p => p.level === 'Federal');
+      const stateRows = rows.filter(p => p.level === 'State' || p.level === 'City');
+
+      document.getElementById('federal-tbody').innerHTML = federalRows.length
+        ? federalRows.map(p => `
+          <tr data-id="${RT.escapeHTML(p.id)}" tabindex="0">
+            <td>
+              <strong>${RT.escapeHTML(p.title)}</strong>
+              <span class="secondary-line">${RT.escapeHTML(p.type)} · ${RT.escapeHTML(p.robotics_scope || '')}</span>
+            </td>
+            <td>${statusPill(p.status)}</td>
+            <td class="hide-mobile">${RT.escapeHTML(p.sponsor || p.agency_responsible?.[0] || '—')}<span class="secondary-line">${RT.escapeHTML(p.bill_number || '')}</span></td>
+            <td class="num hide-mobile">${RT.formatUSD(p.estimated_budget_usd, { fallback: '—' })}</td>
+            <td class="hide-mobile tnum">${RT.escapeHTML(RT.formatDate(p.introduced_date))}</td>
+          </tr>
+        `).join('')
+        : '<tr><td colspan="5" class="muted center">No federal items match.</td></tr>';
+
+      document.getElementById('state-tbody').innerHTML = stateRows.length
+        ? stateRows.map(p => `
+          <tr data-id="${RT.escapeHTML(p.id)}" tabindex="0">
+            <td><strong class="mono">${RT.escapeHTML(p.state)}</strong></td>
+            <td>
+              ${RT.escapeHTML(p.title)}
+              <span class="secondary-line">${RT.escapeHTML(p.robotics_scope || '')}</span>
+            </td>
+            <td class="hide-mobile">${statusPill(p.status)}</td>
+            <td class="hide-mobile">${p.startup_eligible ? '<span class="pill positive">Eligible</span>' : '<span class="pill outline">Limited</span>'}</td>
+            <td class="hide-mobile tnum">${RT.escapeHTML(RT.formatDate(p.last_updated))}</td>
+          </tr>
+        `).join('')
+        : '<tr><td colspan="5" class="muted center">No state items match.</td></tr>';
+
+      // Wire row clicks
+      document.querySelectorAll('[data-id]').forEach(tr => {
+        tr.addEventListener('click', () => openPolicy(tr.dataset.id));
+        tr.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openPolicy(tr.dataset.id); }
+        });
+      });
+
+      document.getElementById('result-count').textContent =
+        `${rows.length} ${rows.length === 1 ? 'policy' : 'policies'}`;
+      document.getElementById('empty').hidden = rows.length > 0;
+    }
+
+    function openPolicy(id) {
+      const p = policies.find(x => x.id === id);
+      if (!p) return;
+      RT.writeQuery({ focus: id });
+      const related = news
+        .filter(n => (n.policies || []).includes(p.id))
+        .sort((a, b) => (a.date < b.date ? 1 : -1));
+
+      RT.openDetail(`
+        <div class="detail-header">
+          <div>
+            <h2 class="detail-title" id="detail-title">${RT.escapeHTML(p.title)}</h2>
+            <p class="detail-sub">${RT.escapeHTML(p.type)} · ${RT.escapeHTML(p.level)}${p.state && p.state !== 'N/A' ? ' · ' + RT.escapeHTML(p.state) : ''} · ${RT.escapeHTML(p.bill_number || 'no number')}</p>
+            <div class="row" style="gap:6px;margin-top:8px;">
+              ${statusPill(p.status)}
+              ${p.startup_eligible ? '<span class="pill positive">Startup eligible</span>' : ''}
+            </div>
+          </div>
+          <button class="detail-close" data-detail-close aria-label="Close">✕</button>
+        </div>
+
+        <p class="serif" style="font-size:15px;margin:14px 0 8px;line-height:1.55;">${RT.escapeHTML(p.summary)}</p>
+
+        <dl class="kv">
+          <dt>Sponsor</dt><dd>${RT.escapeHTML(p.sponsor) || '<span class="muted-cell">—</span>'}</dd>
+          <dt>Introduced</dt><dd class="tnum">${RT.escapeHTML(RT.formatDate(p.introduced_date))}</dd>
+          <dt>Status</dt><dd>${statusPill(p.status)}</dd>
+          <dt>Scope</dt><dd>${RT.escapeHTML(p.robotics_scope)}</dd>
+          <dt>Budget</dt><dd class="tnum">${RT.formatUSD(p.estimated_budget_usd, { fallback: '<span class="muted-cell">Not specified</span>' })}</dd>
+          <dt>Agencies</dt><dd>${(p.agency_responsible || []).map(a => `<span class="pill outline">${RT.escapeHTML(a)}</span>`).join(' ') || '<span class="muted-cell">—</span>'}</dd>
+          <dt>Beneficiaries</dt><dd>${(p.beneficiaries || []).map(b => RT.escapeHTML(b)).join(', ') || '<span class="muted-cell">—</span>'}</dd>
+          <dt>Application</dt><dd>${p.application_url ? `<a href="${RT.escapeHTML(p.application_url)}" target="_blank" rel="noopener">Apply / details →</a>` : '<span class="muted-cell">Not applicable</span>'}</dd>
+        </dl>
+
+        <div class="detail-section">
+          <h3>Tags</h3>
+          <div class="row" style="gap:6px;">${(p.tags || []).map(t => `<span class="pill outline">${RT.escapeHTML(t)}</span>`).join('') || '<span class="muted-cell">—</span>'}</div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Related news</h3>
+          ${related.length ? `
+            <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
+              ${related.slice(0, 6).map(n => `
+                <li>
+                  <a href="news.html#${encodeURIComponent(n.id)}" style="color:inherit;border-bottom:none;">
+                    <div class="card-meta" style="font-size:11.5px;">
+                      <span class="pill cat-${n.category.toLowerCase().replace(/\s+/g, '')}">${RT.escapeHTML(n.category)}</span>
+                      <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
+                    </div>
+                    <div class="serif" style="font-size:14px;margin-top:2px;">${RT.escapeHTML(n.title)}</div>
+                  </a>
+                </li>
+              `).join('')}
+            </ul>
+          ` : '<p class="muted">No news tracked yet for this item.</p>'}
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="link-list">
+            ${p.full_text_url ? `<li><a href="${RT.escapeHTML(p.full_text_url)}" target="_blank" rel="noopener">Full text</a></li>` : ''}
+            ${(p.sources || []).map(s => `<li><a href="${RT.escapeHTML(s)}" target="_blank" rel="noopener">${RT.escapeHTML(s)}</a></li>`).join('') || '<li class="muted-cell">No sources listed</li>'}
+          </ul>
+          <p class="muted" style="font-size:12px;margin-top:8px;">Last updated <span class="tnum">${RT.escapeHTML(RT.formatDate(p.last_updated))}</span></p>
+        </div>
+      `);
+    }
+
+    function statusPill(s) {
+      if (!s) return '';
+      const map = {
+        'Introduced': 'mixed',
+        'Committee': 'mixed',
+        'Passed House': 'positive',
+        'Passed Senate': 'positive',
+        'Signed': 'positive',
+        'In effect': 'positive',
+        'Expired': 'outline',
+      };
+      return `<span class="pill ${map[s] || 'outline'}">${RT.escapeHTML(s)}</span>`;
+    }
+
+    function fillSelect(id, values) {
+      const sel = document.getElementById(id);
+      values.filter(Boolean).forEach(v => {
+        const o = document.createElement('option');
+        o.value = v; o.textContent = v;
+        sel.appendChild(o);
+      });
+    }
+    function unique(arr) { return [...new Set(arr.filter(Boolean))]; }
+
+    render();
+    if (q.focus) setTimeout(() => openPolicy(q.focus), 50);
+  });
+  </script>
+</body>
+</html>
