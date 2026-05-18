@@ -3,7 +3,7 @@
 > Living UAT plan. Run the **Critical flows** every pass. **Exploration** is open territory — vary it each run. Update `last_tested` per section as you go. New bugs land in `issues.md`.
 
 _Created: 2026-05-18_
-_Last run: 2026-05-18_
+_Last run: 2026-05-18_ (second pass — added agencies page)
 
 ---
 
@@ -11,7 +11,7 @@ _Last run: 2026-05-18_
 
 - **Stack:** vanilla HTML / CSS / JS + JSON data files. Zero runtime dependencies.
 - **Dev server:** `node scripts/serve.js` → <http://localhost:8765>. Or via the Claude Code preview tool (`name: tracker` in `.claude/launch.json`).
-- **Entry pages:** `docs/index.html`, `docs/companies.html`, `docs/policies.html`, `docs/news.html`, `docs/themes.html`.
+- **Entry pages:** `docs/index.html`, `docs/companies.html`, `docs/policies.html`, `docs/agencies.html`, `docs/news.html`, `docs/themes.html`.
 - **Shared:** `docs/assets/styles.css` + `docs/assets/app.js`.
 - **Themes:** four — `caves`, `naked-sun`, `dawn` (default light), `robot-dreams` (default dark). See [DESIGN.md § 15](DESIGN.md).
 - **Data:** `docs/data/{companies,policies,news,themes,sources}.json`. Validated by `scripts/validate.js`.
@@ -22,7 +22,7 @@ _Last run: 2026-05-18_
 
 These should always pass. If one regresses, log it as `critical` in `issues.md`.
 
-1. **All five pages load without console errors.** Visit each at the default theme (Dawn) and verify `preview_console_logs --level error` returns empty.
+1. **All six pages load without console errors.** Visit Dashboard / Companies / Policy / Agencies / News / Themes at the default theme (Dawn) and verify `preview_console_logs --level error` returns empty.
 2. **All four themes activate.** From any page, switch through `caves → naked-sun → robot-dreams → dawn` via the picker. After each switch, verify:
    - `document.documentElement.getAttribute('data-theme')` matches the selected theme
    - `localStorage.theme` matches
@@ -61,6 +61,7 @@ These should always pass. If one regresses, log it as `critical` in `issues.md`.
    - Hash on load activates the matching tab
    - **Hashchange post-load also activates the matching tab** (regression guard for the 2026-05-18 bug)
 8. **Dashboard — archive-link parity with news.html.** For every card in `#recent-news`, if the underlying news record has `archive_url`, the card must render an `.archive-link`. Regression guard for the 2026-05-18 bug.
+8a. **Agencies table renders.** 8 rows (DOE, ARPA-E, DOC, NIST, NSF, NASA, Space Force, DARPA); at least 30 external links; navigation marks `aria-current="page"`. At ≤540px viewport: page does not horizontally scroll (the nav internally scrolls instead).
 9. **Accessibility baseline.**
    - `.skip-link` exists and points to `#main`
    - Skip link's computed `left` becomes `0px` when focused
@@ -81,6 +82,7 @@ These should always pass. If one regresses, log it as `critical` in `issues.md`.
 | Policies | 2026-05-18 | Stable. Three branch tables. |
 | News | 2026-05-18 | Stable. 16 of 26 records have archive_url. |
 | Themes | 2026-05-18 | Stable post-fix. Hashchange regression worth keeping an eye on. |
+| Agencies | 2026-05-18 | New. Pure HTML (no JSON data file); content is curator-written. Verify external links don't 404 on a quarterly cadence. |
 | Theme picker | 2026-05-18 | Stable post-fix. The native `<details>` interaction is the source of past bugs — visually verify open/close each pass. |
 | Archive links | 2026-05-18 | Surface on all 4 pages; verify on each in turn. |
 

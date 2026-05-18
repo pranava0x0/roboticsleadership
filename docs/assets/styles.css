@@ -1026,8 +1026,18 @@ button, [role="button"], a.btn {
   .header-updated-date { font-size: 13px; }
   /* The header-updated block already links home — drop the "Dashboard" link to save ~80px */
   nav.primary-nav a[href="index.html"] { display: none; }
-  nav.primary-nav { gap: 0; }
-  nav.primary-nav a { padding: 8px 7px; font-size: 13px; }
+  /* Let the nav scroll horizontally as a chip strip when the remaining
+     links still don't fit. Page-level h-scroll stays at 0. */
+  nav.primary-nav {
+    gap: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    min-width: 0;
+  }
+  nav.primary-nav::-webkit-scrollbar { display: none; }
+  nav.primary-nav a { padding: 8px 7px; font-size: 13px; white-space: nowrap; }
   /* Drop the picker's text label below 540px; the chevron is enough */
   .theme-picker > summary { padding: 0 8px; gap: 4px; }
   .theme-picker-current { display: none; }

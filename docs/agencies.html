@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="What U.S. federal agencies are doing on robotics — policy, R&D, applications, manufacturing, investment. One table, sourced." />
+  <title>Agencies · Robotics — How the U.S. can Lead</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Orbitron:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
+  <script>
+    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <style>
+    /* Page-local: wider table cells, more vertical breathing room */
+    .agency-table { font-size: 13px; }
+    .agency-table th, .agency-table td { vertical-align: top; padding: 12px 14px; }
+    .agency-table td strong { font-family: var(--font-serif); font-size: 15px; letter-spacing: -0.005em; }
+    .agency-table td.agency-cell { min-width: 130px; }
+    .agency-table .agency-sub {
+      display: block;
+      color: var(--text-muted);
+      font-size: 11.5px;
+      margin-top: 2px;
+      font-weight: 400;
+    }
+    .agency-table ul { margin: 0; padding-left: 16px; }
+    .agency-table li { margin: 2px 0; line-height: 1.4; }
+    .agency-table .investment { font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .agency-table tr td { border-bottom: 1px solid var(--border); }
+    .agency-table tr:hover { background: transparent; cursor: default; } /* no row-click here */
+    .agency-table tbody tr:hover td { background: var(--surface-2); }
+
+    @media (max-width: 900px) {
+      .agency-table .col-manufacturing { display: none; }
+    }
+    @media (max-width: 700px) {
+      .agency-table .col-applications { display: none; }
+    }
+    @media (max-width: 540px) {
+      .agency-table .col-rd { display: none; }
+      .agency-table { font-size: 12.5px; }
+      .agency-table th, .agency-table td { padding: 10px 10px; }
+    }
+
+    .note-block {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 18px 0;
+      font-size: 13px;
+      color: var(--text);
+    }
+    .note-block strong { font-family: var(--font-serif); font-weight: 700; }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header" role="banner">
+    <div class="site-header-inner">
+      <a href="index.html" class="header-updated" aria-label="Home — last data refresh">
+        <span class="header-updated-label">Updated</span>
+        <span class="header-updated-date tnum">—</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="index.html">Dashboard</a>
+        <a href="companies.html">Companies</a>
+        <a href="policies.html">Policy</a>
+        <a href="agencies.html">Agencies</a>
+        <a href="news.html">News</a>
+        <a href="themes.html">Themes</a>
+      </nav>
+      <details class="theme-picker" id="theme-picker">
+        <summary aria-label="Theme picker">
+          <span class="theme-picker-current">Dawn</span>
+          <svg class="theme-picker-chevron" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="theme-picker-menu" role="radiogroup" aria-label="Choose theme">
+          <label class="theme-option"><input type="radio" name="theme" value="caves"><span class="theme-option-name">Caves of Steel</span><span class="theme-option-tag">Earth</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Cosmic</span></label>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+    <p class="eyebrow">Federal</p>
+    <h1 class="page-title">What U.S. agencies are doing on robotics.</h1>
+    <p class="page-lede">One table, sourced. Where each agency funds robotics, what it deploys, and where to apply or follow.</p>
+
+    <div class="table-wrap">
+      <table class="data-table agency-table">
+        <thead>
+          <tr>
+            <th>Agency</th>
+            <th class="col-rd">R&amp;D focus</th>
+            <th class="col-applications">Applications</th>
+            <th class="col-manufacturing">Manufacturing</th>
+            <th>Programs &amp; investment</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td class="agency-cell">
+              <strong><a href="https://www.energy.gov/" target="_blank" rel="noopener">DOE</a></strong>
+              <span class="agency-sub">Department of Energy + 17 national labs</span>
+            </td>
+            <td class="col-rd">National-lab robotics + AI-driven materials and manufacturing. <a href="https://www.ornl.gov/" target="_blank" rel="noopener">ORNL</a>, <a href="https://www.anl.gov/" target="_blank" rel="noopener">Argonne</a>, <a href="https://www.sandia.gov/" target="_blank" rel="noopener">Sandia</a>, <a href="https://inl.gov/" target="_blank" rel="noopener">INL</a> all run robotics + self-driving-lab programs.</td>
+            <td class="col-applications">Grid inspection, nuclear fuel-cycle handling, AI-enabled defense manufacturing.</td>
+            <td class="col-manufacturing"><a href="https://www.energy.gov/eere/amo/advanced-manufacturing-office" target="_blank" rel="noopener">EERE Advanced Manufacturing Office</a>; <a href="https://arminstitute.org/" target="_blank" rel="noopener">ARM Institute</a> (Manufacturing USA, robotics-specific).</td>
+            <td>
+              <ul>
+                <li><strong>Exascale Foundry</strong> — ORNL + Autonomous Resource Corp, AI-enabled defense manufacturing partnership (<a href="https://www.hpcwire.com/off-the-wire/autonomous-resource-corporation-ornl-partner-to-accelerate-ai-enabled-defense-manufacturing/" target="_blank" rel="noopener">May 2026</a>).</li>
+                <li>National-lab LDRD funds self-driving labs across ORNL / Argonne / LBNL (<a href="https://ifp.org/lab-directed-rd-at-the-national-labs/" target="_blank" rel="noopener">IFP brief</a>).</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="agency-cell">
+              <strong><a href="https://arpa-e.energy.gov/" target="_blank" rel="noopener">ARPA-E</a></strong>
+              <span class="agency-sub">Advanced Research Projects Agency — Energy (DOE sub-agency)</span>
+            </td>
+            <td class="col-rd">High-risk energy R&amp;D; periodic solicitations for embodied AI / robotics applied to energy systems.</td>
+            <td class="col-applications">Robot-driven grid maintenance, fuel-cycle automation, autonomous wind/solar O&amp;M.</td>
+            <td class="col-manufacturing">Adjacent — manufacturing tooling shows up in some open program-area awards.</td>
+            <td>
+              <ul>
+                <li><a href="https://arpa-e.energy.gov/programs-and-initiatives/program-overview" target="_blank" rel="noopener">Embodied AI for Energy Systems</a> open call; typical award $1–10M.</li>
+                <li><a href="https://arpa-e.energy.gov/sites/default/files/2025-09/doe-fy-2026-vol-2-arpa-e.pdf" target="_blank" rel="noopener">FY 2026 request</a> ≈ $478M total; up to 4 new focused solicitations in FY26.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="agency-cell">
+              <strong><a href="https://www.commerce.gov/" target="_blank" rel="noopener">DOC</a></strong>
+              <span class="agency-sub">Department of Commerce (parent of NIST, NTIA, EDA)</span>
+            </td>
+            <td class="col-rd">Industrial policy + standards rather than direct R&amp;D.</td>
+            <td class="col-applications">Semiconductor fab automation; regional robotics clusters via Tech Hubs.</td>
+            <td class="col-manufacturing">Central — administers CHIPS funding and designates Regional Tech Hubs.</td>
+            <td>
+              <ul>
+                <li><a href="https://www.congress.gov/bill/117th-congress/house-bill/4346" target="_blank" rel="noopener">CHIPS and Science Act</a> — $52.7B for semiconductor manufacturing + advanced manufacturing R&amp;D.</li>
+                <li><a href="https://www.eda.gov/funding/programs/regional-technology-and-innovation-hubs" target="_blank" rel="noopener">EDA Regional Tech Hubs</a> — Phase 2 designation includes robotics-anchored clusters.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="agency-cell">
+              <strong><a href="https://www.nist.gov/" target="_blank" rel="noopener">NIST</a></strong>
+              <span class="agency-sub">National Institute of Standards and Technology (within DOC)</span>
+            </td>
+            <td class="col-rd"><a href="https://www.nist.gov/el" target="_blank" rel="noopener">Engineering Lab</a>: Intelligent Systems Division, robotics performance test protocols.</td>
+            <td class="col-applications">Industrial humanoid performance metrics; safety standards for human-robot shared workspaces.</td>
+            <td class="col-manufacturing"><a href="https://www.nist.gov/mep" target="_blank" rel="noopener">Manufacturing Extension Partnership (MEP)</a> — small-manufacturer assistance.</td>
+            <td>
+              <ul>
+                <li><a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener">AI Risk Management Framework</a> (NIST AI 100-1) — voluntary; increasingly cited in procurement.</li>
+                <li>Standards-setting role; not a direct grant funder.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="agency-cell">
+              <strong><a href="https://www.nsf.gov/" target="_blank" rel="noopener">NSF</a></strong>
+              <span class="agency-sub">National Science Foundation</span>
+            </td>
+            <td class="col-rd">Foundational + academic robotics research across CISE and Engineering Directorates.</td>
+            <td class="col-applications">Co-robots, human-robot interaction, integrative systems, agricultural + healthcare robotics.</td>
+            <td class="col-manufacturing">Through Engineering Directorate and Manufacturing USA partnerships.</td>
+            <td>
+              <ul>
+                <li><a href="https://www.nsf.gov/funding/opportunities/nri-30-national-robotics-initiative-30-innovations-integration/503641/nsf21-559" target="_blank" rel="noopener">NRI 3.0</a> — up to $3M/award; multi-agency (NSF, USDA, NASA, DoT, NIH, NIOSH).</li>
+                <li><a href="https://www.nsf.gov/funding/opportunities/foundational-research-robotics" target="_blank" rel="noopener">Foundational Research in Robotics (FRR)</a> — rolling submissions.</li>
+                <li><a href="https://cra.org/govaffairs/blog/2025/12/fy26-house-cjs/" target="_blank" rel="noopener">FY26 House mark</a> proposes NSF cuts; AI + quantum prioritized.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="agency-cell">
+              <strong><a href="https://www.nasa.gov/" target="_blank" rel="noopener">NASA</a></strong>
+              <span class="agency-sub">National Aeronautics and Space Administration</span>
+            </td>
+            <td class="col-rd"><a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener">JPL</a> robotics — rovers, manipulators, autonomous exploration.</td>
+            <td class="col-applications">Mars rovers (<a href="https://mars.nasa.gov/mars2020/" target="_blank" rel="noopener">Perseverance</a>), <a href="https://www.nasa.gov/astrobee/" target="_blank" rel="noopener">Astrobee</a> (ISS), <a href="https://www.nasa.gov/clps/" target="_blank" rel="noopener">CLPS</a> lunar landers.</td>
+            <td class="col-manufacturing">In-space assembly + manufacturing via <a href="https://aerospaceamerica.aiaa.org/year-in-review/expanding-the-final-frontier-with-robots/" target="_blank" rel="noopener">COSMIC industry consortium</a>.</td>
+            <td>
+              <ul>
+                <li><strong><a href="https://spacenews.com/nasa-reaffirms-decision-to-cancel-osam-1/" target="_blank" rel="noopener">OSAM-1 cancelled</a></strong> Feb 2024 after cost growth $0.7B → $2B+.</li>
+                <li><a href="https://www.darpa.mil/research/programs/robotic-servicing-of-geosynchronous-satellites" target="_blank" rel="noopener">DARPA RSGS</a> — provides expertise; no longer prime.</li>
+                <li>FY24 budget ≈ $24.8B total agency.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="agency-cell">
+              <strong><a href="https://www.spaceforce.mil/" target="_blank" rel="noopener">Space Force</a></strong>
+              <span class="agency-sub">U.S. Space Force (USSF)</span>
+            </td>
+            <td class="col-rd">Autonomous space systems, on-orbit servicing in partnership with AFRL + DARPA.</td>
+            <td class="col-applications">Satellite servicing, refueling, dynamic space operations, in-orbit inspection.</td>
+            <td class="col-manufacturing">Procures; doesn't manufacture. Drives commercial robotic-satellite-service market.</td>
+            <td>
+              <ul>
+                <li><strong>4 servicing missions launching 2026</strong>: <a href="https://www.airandspaceforces.com/us-on-obit-satellite-servicing-4-missions-2026/" target="_blank" rel="noopener">DARPA RSGS, Astroscale refueler, Tetra-5 (with AFRL), Otter</a>.</li>
+                <li><a href="https://breakingdefense.com/2026/02/space-force-buys-second-otter-spacecraft-to-power-satellites-on-orbit/" target="_blank" rel="noopener">Otter contract</a> — $54.5M to Starfish Space.</li>
+                <li><a href="https://csps.aerospace.org/sites/default/files/2025-08/FY26BudgetBrief_20250805.pdf" target="_blank" rel="noopener">FY26 SAML</a> budget ≈ $9.7M (down 66% from $29.2M).</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="agency-cell">
+              <strong><a href="https://www.darpa.mil/" target="_blank" rel="noopener">DARPA</a></strong>
+              <span class="agency-sub">Defense Advanced Research Projects Agency (DoD)</span>
+            </td>
+            <td class="col-rd">High-risk autonomy research; technology-transition to services + commercial primes.</td>
+            <td class="col-applications">Autonomous aerial / ground / maritime systems; satellite servicing.</td>
+            <td class="col-manufacturing">Funds prototype manufacturing through cooperative agreements.</td>
+            <td>
+              <ul>
+                <li><a href="https://www.darpa.mil/research/programs/robotic-servicing-of-geosynchronous-satellites" target="_blank" rel="noopener">RSGS</a> — Mission Robotic Vehicle launches 2026 via Space Logistics; NRL-built arm.</li>
+                <li><a href="https://www.defense.gov/News/Releases/Release/Article/3490150/" target="_blank" rel="noopener">Replicator</a> initiative (DoD-wide, DIU-led) — $1B Tranche 1 + Tranche 2 expanding to ground.</li>
+              </ul>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note-block">
+      <p style="margin:0;"><strong>Cross-cutting:</strong> The most consequential federal robotics money in 2026 sits at the intersection of <a href="policies.html?focus=dod-replicator">DoD Replicator</a> (procurement at scale), <a href="policies.html?focus=chips-act-advanced-manufacturing">CHIPS Act</a> (manufacturing), and <a href="policies.html?focus=obbba-bonus-depreciation">100% bonus depreciation</a> (demand-side). The R&amp;D agencies (ARPA-E, NSF, NASA JPL) generate the technology; DoD + Commerce buy and scale it.</p>
+    </div>
+
+    <p class="muted" style="font-size:12px;margin-top:18px;">
+      This table summarizes publicly documented agency activity through May 2026. Each link points to a primary source (agency page, budget document, or independent reporting). Cross-reference with the <a href="policies.html">Policy</a> tab for specific bills and programs already in this tracker, and <a href="themes.html#policy-momentum">Federal Policy Momentum</a> for the broader narrative.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>Agency descriptions are curator-written from primary sources. Submit corrections via the repository.</p>
+  </footer>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
