@@ -8,9 +8,10 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
-  group: data-mutation
+  group: scrape-news
   cancel-in-progress: false
 
 jobs:
@@ -20,6 +21,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -32,15 +35,44 @@ jobs:
       - name: Validate JSON after scrape
         run: node scripts/validate.js
 
-      - name: Commit changes if any
+      - name: Open PR for curator review
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/news.json docs/data/sources.json
-          if git diff --staged --quiet; then
-            echo "No new news items — nothing to commit."
+          if git diff --quiet docs/data/news.json docs/data/sources.json; then
+            echo "No new news items — nothing to PR."
             exit 0
           fi
+
+          STAMP="$(date -u +%Y-%m-%d-%H%M%S)"
+          BRANCH="auto/news-$STAMP"
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git checkout -b "$BRANCH"
+          git add docs/data/news.json docs/data/sources.json
           git commit -m "data(news): auto-scrape $(date -u +%Y-%m-%d)"
-          git push
+          git push --set-upstream origin "$BRANCH"
+
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "data(news): auto-scrape $(date -u +%Y-%m-%d)" \
+            --body "$(cat <<'PRBODY'
+Automated news scrape — pending curator review.
+
+Each new record is auto-tagged with `_requires_curator_review: true` and
+`_scraped: true`. Curator pass before merge:
+
+- [ ] Remove any records that aren't actually robotics-relevant.
+- [ ] Tag `companies[]`, `policies[]`, `themes[]` where applicable.
+- [ ] Set `impact_tier` (currently `Medium` by default).
+- [ ] Set `sentiment` (currently `Neutral`).
+- [ ] Confirm or refine the auto-assigned `category`.
+- [ ] Remove the `_requires_curator_review` and `_scraped` flags once reviewed.
+
+Merging this PR triggers the Pages deploy automatically.
+PRBODY
+)"
