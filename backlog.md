@@ -11,6 +11,8 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ## Medium
 
+- **Extract `renderNewsCard()` into `app.js`** — the news-card markup is duplicated between `docs/index.html` (recent-news on dashboard) and `docs/news.html` (the feed). Edits to one silently miss the other; the 2026-05-18 dashboard archive-link bug landed because of this. A shared helper closes the gap.
+
 - **Mapbox / Leaflet deployment map** — pin customer sites with robot counts. Defer until users actually ask for geographic browsing.
 - **Funding timeline charts on company detail panel** — currently rendered as a table; SVG line + bar chart per company.
 - **Weekly briefing generator** — `scripts/weekly-rollup.js` writes `docs/briefings/YYYY-MM-DD.md`. Email delivery is out of scope; static markdown is the artifact.

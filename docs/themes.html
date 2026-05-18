@@ -347,6 +347,13 @@
     const hashId = decodeURIComponent(location.hash.slice(1));
     const initial = themes.find(t => t.id === hashId)?.id || themes[0].id;
     activate(initial, { updateHash: false });
+
+    // React to hash changes after load — covers in-page anchor clicks and
+    // address-bar edits. Without this, only the initial load respected #fragment.
+    window.addEventListener('hashchange', () => {
+      const id = decodeURIComponent(location.hash.slice(1));
+      if (themes.find(t => t.id === id)) activate(id, { updateHash: false });
+    });
   });
 
   function renderThemeBody(t, companies, policies, news) {

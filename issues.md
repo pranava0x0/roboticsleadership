@@ -15,6 +15,23 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 ## Fixed
 
+### 2026-05-18 — UAT — themes page didn't react to hashchange after load
+
+- **Status:** Fixed.
+- **Root cause:** code bug — the themes page activated the tab matching `location.hash` only once, inside the DOMContentLoaded handler. After the initial activation it had no listener on `hashchange`, so any later anchor click or address-bar edit silently did nothing.
+- **Repro:** open `themes.html` → click a tab to land on, say, `#china-scale` → manually paste `themes.html#defense-procurement` into the address bar without reloading → expected: tab switches; actual: nothing happens.
+- **Fix:** added a `window.addEventListener('hashchange', …)` inside the themes-page init that re-invokes `activate(id)` for any valid theme id. The original initial-activation path is unchanged.
+- **Regression test:** in `uat.md` as "Themes — hash deep-link." A UAT pass dispatches `hashchange` and asserts the active tab matches.
+
+### 2026-05-18 — UAT — dashboard "Recent activity" cards never showed archive links
+
+- **Status:** Fixed.
+- **Root cause:** code bug — when the source-link rot mitigation shipped, the news-feed renderer in `news.html` was updated to append `RT.archiveLink(n.archive_url)` after the "Read original" link. The dashboard renders its own copy of the news card markup in `index.html` and that copy was never updated.
+- **Repro:** open `index.html`; the top recent-news cards never showed an "archived ↗" link, even when the underlying record had `archive_url` populated (3 of the top 5 had snapshots).
+- **Fix:** added `${RT.archiveLink(n.archive_url)}` next to the "Read original →" link in the dashboard's recent-news template.
+- **Regression test:** in `uat.md` as "Dashboard — archive-link parity with news.html." A UAT pass diffs `count(.archive-link in #recent-news)` against the count of recent-news records with `archive_url`.
+- **Lesson:** the news-card template is duplicated between `index.html` and `news.html`. Future changes to it should touch both — or, better, extract a `renderNewsCard()` helper into `app.js` so the next divergence is impossible. Tracked in backlog.
+
 ### 2026-05-17 — CI scrapers pushed raw scraper output directly to main
 
 - **Status:** Fixed (commit `862f3f0` reverts; new workflow design opens PRs instead).
