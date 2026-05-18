@@ -44,35 +44,16 @@ jobs:
             echo "No new news items — nothing to PR."
             exit 0
           fi
-
           STAMP="$(date -u +%Y-%m-%d-%H%M%S)"
           BRANCH="auto/news-$STAMP"
-
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git checkout -b "$BRANCH"
           git add docs/data/news.json docs/data/sources.json
           git commit -m "data(news): auto-scrape $(date -u +%Y-%m-%d)"
           git push --set-upstream origin "$BRANCH"
-
           gh pr create \
             --base main \
             --head "$BRANCH" \
             --title "data(news): auto-scrape $(date -u +%Y-%m-%d)" \
-            --body "$(cat <<'PRBODY'
-Automated news scrape — pending curator review.
-
-Each new record is auto-tagged with `_requires_curator_review: true` and
-`_scraped: true`. Curator pass before merge:
-
-- [ ] Remove any records that aren't actually robotics-relevant.
-- [ ] Tag `companies[]`, `policies[]`, `themes[]` where applicable.
-- [ ] Set `impact_tier` (currently `Medium` by default).
-- [ ] Set `sentiment` (currently `Neutral`).
-- [ ] Confirm or refine the auto-assigned `category`.
-- [ ] Remove the `_requires_curator_review` and `_scraped` flags once reviewed.
-
-Merging this PR triggers the Pages deploy automatically.
-PRBODY
-)"
+            --body-file .github/pr-body-news.md

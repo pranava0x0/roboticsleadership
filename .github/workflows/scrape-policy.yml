@@ -44,34 +44,16 @@ jobs:
             echo "No new policy items — nothing to PR."
             exit 0
           fi
-
           STAMP="$(date -u +%Y-%m-%d-%H%M%S)"
           BRANCH="auto/policy-$STAMP"
-
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git checkout -b "$BRANCH"
           git add docs/data/policies.json docs/data/sources.json
           git commit -m "data(policy): auto-scrape $(date -u +%Y-%m-%d)"
           git push --set-upstream origin "$BRANCH"
-
           gh pr create \
             --base main \
             --head "$BRANCH" \
             --title "data(policy): auto-scrape $(date -u +%Y-%m-%d)" \
-            --body "$(cat <<'PRBODY'
-Automated policy scrape (Federal Register) — pending curator review.
-
-Federal Register returns broad keyword matches; many entries here will
-not actually be robotics-relevant. Curator pass before merge:
-
-- [ ] **Delete records that aren't actually robotics-relevant.** This is the most important step — most auto-scraped Federal Register hits are noise.
-- [ ] Refine `robotics_scope` from the placeholder "Federal Register — robotics-related".
-- [ ] Set `status` correctly (`In effect` vs `Introduced`) based on document type.
-- [ ] Populate `beneficiaries[]` and any state-specific fields.
-- [ ] Remove the `_requires_curator_review` and `_scraped` flags once reviewed.
-
-Merging this PR triggers the Pages deploy automatically.
-PRBODY
-)"
+            --body-file .github/pr-body-policy.md
