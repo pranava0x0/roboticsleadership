@@ -29,9 +29,9 @@
         "round": "Series C",
         "amount_usd": 1000000000,
         "valuation_usd": 39000000000,
-        "investors": ["Parkway Venture Capital", "Tiger Global", "Macquarie", "T-Mobile Ventures"],
-        "url": "https://www.figure.ai",
-        "confidence": "reported"
+        "investors": ["Parkway Venture Capital", "Brookfield Asset Management", "NVIDIA", "Macquarie Capital", "Intel Capital", "Salesforce", "T-Mobile Ventures", "Qualcomm Ventures"],
+        "url": "https://www.figure.ai/news/series-c",
+        "confidence": "confirmed"
       }
     ],
     "total_funding_usd": 1745000000,
@@ -151,7 +151,7 @@
         "amount_usd": 23500000,
         "valuation_usd": null,
         "investors": ["OpenAI Startup Fund", "Tiger Global"],
-        "url": "https://www.1x.tech",
+        "url": "https://venturebeat.com/ai/1x-robotic-startup-backed-by-openai-receives-100m-in-funding",
         "confidence": "confirmed"
       },
       {
@@ -159,8 +159,8 @@
         "round": "Series B",
         "amount_usd": 100000000,
         "valuation_usd": null,
-        "investors": ["EQT Ventures", "Samsung NEXT", "OpenAI Startup Fund"],
-        "url": "https://www.1x.tech",
+        "investors": ["EQT Ventures", "Samsung NEXT", "Nistad Group", "OpenAI Startup Fund"],
+        "url": "https://www.1x.tech/discover/1x-secures-100m-in-series-b-funding",
         "confidence": "confirmed"
       }
     ],
@@ -218,9 +218,9 @@
         "date": "2025-03",
         "round": "Series C",
         "amount_usd": 400000000,
-        "valuation_usd": 1750000000,
-        "investors": ["WP Global Partners", "DCVC"],
-        "url": "https://www.agilityrobotics.com",
+        "valuation_usd": 2120000000,
+        "investors": ["WP Global Partners", "SoftBank", "DCVC", "Playground Global", "Amazon Industrial Innovation Fund", "NVentures"],
+        "url": "https://www.geekwire.com/2025/agility-robotics-reportedly-raising-400m-for-humanoid-warehouse-robots/",
         "confidence": "reported"
       }
     ],

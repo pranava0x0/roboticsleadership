@@ -5,20 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="color-scheme" content="light dark" />
   <meta name="description" content="Cross-cutting themes in robotics: China scale, foundation models, cost trajectory, defense procurement, deployment wave, policy momentum." />
-  <title>Themes · Robotics Tracker</title>
+  <title>Themes · Robotics — How the U.S. can Lead</title>
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/themes.json" crossorigin />
   <style>
-    /* Page-local — TOC anchor strip + theme section dividers */
-    .toc {
+    /* Tablist strip */
+    .tablist {
       display: flex;
       flex-wrap: wrap;
       gap: 6px;
-      padding: 10px 12px;
+      padding: 8px;
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 12px;
-      margin: 8px 0 28px;
+      margin: 4px 0 18px;
       position: sticky;
       top: var(--header-h);
       z-index: 30;
@@ -26,32 +26,38 @@
       -webkit-backdrop-filter: saturate(180%) blur(12px);
       background: color-mix(in srgb, var(--surface) 92%, transparent);
     }
-    .toc a {
-      padding: 6px 10px;
+    .tablist [role="tab"] {
+      padding: 7px 12px;
       border-radius: 999px;
-      font-size: 12px;
+      font-size: 12.5px;
       font-weight: 600;
       color: var(--text-muted);
-      border-bottom: none;
       border: 1px solid var(--border);
       background: var(--surface-2);
       transition: color 120ms, background 120ms, border-color 120ms;
-      min-height: 28px;
+      min-height: 32px;
       display: inline-flex;
       align-items: center;
+      cursor: pointer;
     }
-    .toc a:hover {
+    .tablist [role="tab"]:hover {
       color: var(--text);
       border-color: var(--border-strong);
       background: var(--surface);
     }
+    .tablist [role="tab"][aria-selected="true"] {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .tablist [role="tab"]:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
 
     .theme-section {
-      scroll-margin-top: calc(var(--header-h) + 64px); /* room for sticky TOC */
-      padding: 24px 0 8px;
-      border-top: 1px solid var(--border);
+      padding: 6px 0 8px;
     }
-    .theme-section:first-of-type { border-top: 0; padding-top: 8px; }
 
     .theme-head {
       display: flex;
@@ -101,7 +107,24 @@
       line-height: 1.15;
       letter-spacing: -0.005em;
     }
-    .metric-date { font-size: 11px; color: var(--text-faint); }
+    .metric-foot {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      font-size: 11px;
+      color: var(--text-faint);
+    }
+    .metric-source {
+      color: var(--link);
+      border-bottom: none;
+      font-size: 12px;
+      line-height: 1;
+    }
+    .metric-source:hover { text-decoration: underline; }
+    .metric-source-note {
+      font-style: italic;
+      color: var(--text-faint);
+    }
 
     .related-block { margin: 14px 0 6px; }
     .related-block h3 {
@@ -185,6 +208,31 @@
       font-size: 14px;
     }
     .recommended-actions li { margin: 2px 0; }
+
+    /* Sources footer */
+    .narrative-sources {
+      margin-top: 14px;
+      padding: 12px 14px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+    .narrative-sources h3 {
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin: 0 0 6px;
+    }
+    .narrative-sources ol {
+      margin: 0;
+      padding-left: 20px;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    .narrative-sources li { margin: 2px 0; }
+    .narrative-sources a { word-break: break-word; }
   </style>
 </head>
 <body>
@@ -210,16 +258,16 @@
     <p class="eyebrow">Cross-cutting</p>
     <h1 class="page-title">Themes to watch.</h1>
     <p class="page-lede">
-      The six narratives that explain what's happening — across companies, policies, and news. Each is a curator-written synthesis with explicit metrics, related records, and (where applicable) a policy ask.
+      The six narratives that explain what's happening — across companies, policies, and news. Each metric links to its primary source; the "Sources" block at the end of each tab lists the citations behind the narrative.
     </p>
 
-    <nav id="toc" class="toc" aria-label="Themes on this page"></nav>
+    <div id="tablist" class="tablist" role="tablist" aria-label="Themes"></div>
 
-    <div id="themes-root"></div>
+    <div id="panels"></div>
   </main>
 
   <footer class="site-footer">
-    <p>Narratives are curator-written and dated. The data underneath each — companies, policies, news — is sourced and linked.</p>
+    <p>Narratives are curator-written and dated. Numeric claims cite primary sources inline; click any metric's link icon for the source.</p>
   </footer>
 
   <script src="assets/app.js" defer></script>
@@ -227,48 +275,93 @@
   document.addEventListener('DOMContentLoaded', async () => {
     const { themes, companies, policies, news } = await RT.loadAll();
 
-    // ---- TOC ----
-    document.getElementById('toc').innerHTML = themes.map(t => `
-      <a href="#${encodeURIComponent(t.id)}">${RT.escapeHTML(t.name)}</a>
+    const tablist = document.getElementById('tablist');
+    const panels = document.getElementById('panels');
+
+    // Build tabs + panels
+    tablist.innerHTML = themes.map((t, i) => `
+      <button role="tab" id="tab-${RT.escapeHTML(t.id)}" aria-controls="panel-${RT.escapeHTML(t.id)}" aria-selected="false" tabindex="-1" data-id="${RT.escapeHTML(t.id)}">${RT.escapeHTML(t.name)}</button>
     `).join('');
 
-    // ---- Each theme section ----
-    const root = document.getElementById('themes-root');
-    root.innerHTML = themes.map(t => renderTheme(t, companies, policies, news)).join('');
+    panels.innerHTML = themes.map(t => `
+      <section class="theme-section" role="tabpanel" id="panel-${RT.escapeHTML(t.id)}" aria-labelledby="tab-${RT.escapeHTML(t.id)}" tabindex="0" hidden>
+        ${renderThemeBody(t, companies, policies, news)}
+      </section>
+    `).join('');
 
-    // Smooth-scroll the TOC links (manual handler so we can adjust offset)
-    document.querySelectorAll('#toc a').forEach(a => {
-      a.addEventListener('click', (e) => {
-        const id = decodeURIComponent(a.getAttribute('href').slice(1));
-        const el = document.getElementById(id);
-        if (!el) return;
-        e.preventDefault();
-        el.scrollIntoView({ block: 'start', behavior: 'smooth' });
-        history.replaceState(null, '', '#' + id);
+    // Tab activation
+    function activate(id, opts = {}) {
+      const target = themes.find(t => t.id === id) || themes[0];
+      tablist.querySelectorAll('[role="tab"]').forEach(btn => {
+        const active = btn.dataset.id === target.id;
+        btn.setAttribute('aria-selected', active ? 'true' : 'false');
+        btn.tabIndex = active ? 0 : -1;
       });
+      panels.querySelectorAll('[role="tabpanel"]').forEach(p => {
+        p.hidden = p.id !== `panel-${target.id}`;
+      });
+      if (opts.focusTab) tablist.querySelector(`[data-id="${target.id}"]`)?.focus();
+      if (opts.updateHash !== false) history.replaceState(null, '', '#' + target.id);
+    }
+
+    // Click handler
+    tablist.addEventListener('click', (e) => {
+      const btn = e.target.closest('[role="tab"]');
+      if (!btn) return;
+      activate(btn.dataset.id);
     });
 
-    // If URL has a hash on load, defer scroll until layout settles
-    if (location.hash) {
-      const id = decodeURIComponent(location.hash.slice(1));
-      const el = document.getElementById(id);
-      if (el) requestAnimationFrame(() => el.scrollIntoView({ block: 'start' }));
-    }
+    // Keyboard navigation per ARIA tab pattern
+    tablist.addEventListener('keydown', (e) => {
+      const tabs = [...tablist.querySelectorAll('[role="tab"]')];
+      const i = tabs.indexOf(document.activeElement);
+      if (i < 0) return;
+      let next = i;
+      if (e.key === 'ArrowRight') next = (i + 1) % tabs.length;
+      else if (e.key === 'ArrowLeft') next = (i - 1 + tabs.length) % tabs.length;
+      else if (e.key === 'Home') next = 0;
+      else if (e.key === 'End') next = tabs.length - 1;
+      else return;
+      e.preventDefault();
+      activate(tabs[next].dataset.id, { focusTab: true });
+    });
+
+    // Initial activation from hash, else first
+    const hashId = decodeURIComponent(location.hash.slice(1));
+    const initial = themes.find(t => t.id === hashId)?.id || themes[0].id;
+    activate(initial, { updateHash: false });
   });
 
-  function renderTheme(t, companies, policies, news) {
+  function renderThemeBody(t, companies, policies, news) {
     const directionPill = `<span class="pill dir-${t.direction.toLowerCase()}">${RT.escapeHTML(t.direction)}</span>`;
     const policyReady = t.government_intervention_ready
       ? '<span class="pill outline">Policy-ready</span>'
       : '<span class="pill outline">Watching</span>';
 
-    const metricsHTML = (t.key_metrics || []).map(m => `
-      <div class="metric-cell">
-        <span class="metric-label">${RT.escapeHTML(m.name)}</span>
-        <span class="metric-value tnum">${formatMetricValue(m.value, m.unit)}</span>
-        <span class="metric-date">${RT.escapeHTML(RT.formatDate(m.date))}</span>
-      </div>
-    `).join('');
+    const metricsHTML = (t.key_metrics || []).map(m => {
+      const valueStr = formatMetricValue(m.value, m.unit);
+      const srcLink = m.source_url
+        ? `<a class="metric-source" href="${RT.escapeHTML(m.source_url)}" target="_blank" rel="noopener" aria-label="Source for ${RT.escapeHTML(m.name)}" title="${RT.escapeHTML(m.source_url)}">↗</a>`
+        : '';
+      const srcNote = m.source_note && !m.source_url
+        ? `<span class="metric-source-note">${RT.escapeHTML(m.source_note)}</span>`
+        : '';
+      const srcNoteWithLink = m.source_note && m.source_url
+        ? `<span class="metric-source-note" title="${RT.escapeHTML(m.source_note)}">·</span>`
+        : '';
+      return `
+        <div class="metric-cell">
+          <span class="metric-label">${RT.escapeHTML(m.name)}</span>
+          <span class="metric-value tnum">${valueStr}</span>
+          <span class="metric-foot">
+            <span>${RT.escapeHTML(RT.formatDate(m.date))}</span>
+            ${srcLink}
+            ${srcNote}
+            ${srcNoteWithLink}
+          </span>
+        </div>
+      `;
+    }).join('');
 
     const relCompanies = (t.related_companies || [])
       .map(id => companies.find(c => c.id === id))
@@ -279,11 +372,7 @@
     const relNews = (t.related_news || [])
       .map(id => news.find(n => n.id === id))
       .filter(Boolean)
-      .concat(
-        // Also surface any news tagged with this theme even if not explicitly listed
-        news.filter(n => (n.themes || []).includes(t.id))
-      );
-    // Dedupe related news by id
+      .concat(news.filter(n => (n.themes || []).includes(t.id)));
     const seen = new Set();
     const relNewsUnique = relNews.filter(n => {
       if (seen.has(n.id)) return false;
@@ -326,43 +415,63 @@
          </div>`
       : '';
 
+    const sourcesHTML = (t.narrative_sources || []).length
+      ? `<div class="narrative-sources">
+           <h3>Sources (${t.narrative_sources.length})</h3>
+           <ol>${t.narrative_sources.map(s => `
+             <li><a href="${RT.escapeHTML(s.url)}" target="_blank" rel="noopener">${RT.escapeHTML(s.label)}</a></li>
+           `).join('')}</ol>
+         </div>`
+      : '';
+
     return `
-      <section class="theme-section" id="${RT.escapeHTML(t.id)}">
-        <div class="theme-head">
-          <h2>${RT.escapeHTML(t.name)}</h2>
-          ${directionPill}
-          ${policyReady}
-          <span class="row-end muted" style="font-size:12px;">Updated <span class="tnum">${RT.escapeHTML(RT.formatDate(t.last_updated))}</span></span>
-        </div>
+      <div class="theme-head">
+        <h2>${RT.escapeHTML(t.name)}</h2>
+        ${directionPill}
+        ${policyReady}
+        <span class="row-end muted" style="font-size:12px;">Updated <span class="tnum">${RT.escapeHTML(RT.formatDate(t.last_updated))}</span></span>
+      </div>
 
-        <p class="curator-narrative">${RT.escapeHTML(t.narrative)}</p>
+      <p class="curator-narrative">${RT.escapeHTML(t.narrative)}</p>
 
-        ${metricsHTML ? `<div class="metrics-strip">${metricsHTML}</div>` : ''}
+      ${metricsHTML ? `<div class="metrics-strip">${metricsHTML}</div>` : ''}
 
-        <div class="related-block">
-          <h3>Related companies (${relCompanies.length})</h3>
-          ${companiesChips}
-        </div>
+      <div class="related-block">
+        <h3>Related companies (${relCompanies.length})</h3>
+        ${companiesChips}
+      </div>
 
-        <div class="related-block">
-          <h3>Related policy items (${relPolicies.length})</h3>
-          ${policiesChips}
-        </div>
+      <div class="related-block">
+        <h3>Related policy items (${relPolicies.length})</h3>
+        ${policiesChips}
+      </div>
 
-        <div class="related-block">
-          <h3>Recent news on this theme (${relNewsUnique.length})</h3>
-          ${newsList}
-        </div>
+      <div class="related-block">
+        <h3>Recent news on this theme (${relNewsUnique.length})</h3>
+        ${newsList}
+      </div>
 
-        ${actionsHTML}
-      </section>
+      ${actionsHTML}
+
+      ${sourcesHTML}
     `;
   }
 
   function formatMetricValue(value, unit) {
     if (value == null) return '—';
-    if (unit === 'USD') return RT.formatUSD(value);
-    if (typeof value === 'number') return RT.formatNumber(value) + (unit && unit !== 'units' ? ' ' + RT.escapeHTML(unit) : '');
+    if (unit === 'USD') {
+      // Allow string-formatted values like "<30000" or "≥250000"
+      if (typeof value === 'string') {
+        const m = value.match(/^([<>≤≥]?)(\d+)$/);
+        if (m) return `${m[1]}${RT.formatUSD(parseInt(m[2], 10))}`;
+        return RT.escapeHTML(value);
+      }
+      return RT.formatUSD(value);
+    }
+    if (unit === 'bills' || unit === 'units' || unit === 'members') {
+      return RT.formatNumber(value) + (unit && unit !== 'units' ? ' ' + RT.escapeHTML(unit) : '');
+    }
+    if (typeof value === 'number') return RT.formatNumber(value);
     return RT.escapeHTML(String(value));
   }
   </script>

@@ -751,6 +751,14 @@ footer.site-footer {
 }
 .chart svg { display: block; width: 100%; height: auto; overflow: visible; }
 .chart .axis-label { fill: var(--text-muted); font-size: 10px; }
+.chart-source {
+  margin: 10px 0 0;
+  font-size: 11px;
+  color: var(--text-faint);
+  line-height: 1.4;
+}
+.chart-source a { color: var(--text-muted); border-bottom: 1px dotted var(--border-strong); }
+.chart-source a:hover { color: var(--text); border-bottom-color: var(--text); }
 .chart .grid-line { stroke: var(--border); }
 .chart .series-line { fill: none; stroke: var(--accent); stroke-width: 2; }
 .chart .series-dot { fill: var(--accent); }
