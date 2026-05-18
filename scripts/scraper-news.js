@@ -179,7 +179,6 @@ function buildRecord(item, src, existingIds) {
     companies: [],
     policies: [],
     themes: [],
-    impact_tier: 'Medium',
     sentiment: 'Neutral',
     confidence: 'Medium',
     tags: ['auto-scraped', `source:${src.id}`],

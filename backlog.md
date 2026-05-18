@@ -23,6 +23,7 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ## Low
 
+- **News impact-tier signal (revisit)** — removed 2026-05-17 because tiers were curator-set and added noise without driving any feature. Bring back only when there's a clear consuming surface: e.g., a "weekly briefing" digest that filters to High-impact items, or a homepage "what changed this week" strip. If we bring it back, define the tier rubric in `data_curation.md` first (what makes something High vs Medium) so the field doesn't drift.
 - **Crunchbase API integration** — paid, deferred until we have a budget line.
 - **Sentiment analysis on news** — leave as curator-only per AGENTS.md; revisit if curation becomes bottleneck.
 - **Mobile app** — web-first; mobile responsive covers most of the use case.

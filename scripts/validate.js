@@ -65,14 +65,11 @@ const SCHEMAS = {
     },
   },
   news: {
-    required: ['id', 'title', 'date', 'source', 'source_url', 'summary', 'category', 'impact_tier', 'sentiment', 'confidence'],
+    required: ['id', 'title', 'date', 'source', 'source_url', 'summary', 'category', 'sentiment', 'confidence'],
     custom: (rec, addError) => {
       const validCategories = ['Funding', 'Deployment', 'Policy', 'Competitive', 'Supply Chain', 'Geopolitics', 'Research'];
       if (!validCategories.includes(rec.category)) {
         addError(`category "${rec.category}" not in canonical set`);
-      }
-      if (!['High', 'Medium', 'Low'].includes(rec.impact_tier)) {
-        addError(`impact_tier "${rec.impact_tier}" not in {High, Medium, Low}`);
       }
       if (!['Positive', 'Neutral', 'Negative', 'Mixed'].includes(rec.sentiment)) {
         addError(`sentiment "${rec.sentiment}" not in {Positive, Neutral, Negative, Mixed}`);

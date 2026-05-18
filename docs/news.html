@@ -40,17 +40,10 @@
         <legend>Filters</legend>
         <input class="filter-input filter-search" type="search" id="f-search" placeholder="Search title, summary, company…" autocomplete="off" />
         <select class="filter-select" id="f-category" aria-label="Category"><option value="">All categories</option></select>
-        <select class="filter-select" id="f-impact" aria-label="Impact tier">
-          <option value="">All impact tiers</option>
-          <option value="High">High impact only</option>
-          <option value="Medium">Medium impact only</option>
-          <option value="Low">Low impact only</option>
-        </select>
         <select class="filter-select" id="f-company" aria-label="Company"><option value="">All companies</option></select>
         <select class="filter-select" id="f-sort" aria-label="Sort">
           <option value="date-desc">Newest first</option>
           <option value="date-asc">Oldest first</option>
-          <option value="impact-desc">Highest impact first</option>
         </select>
         <button class="btn ghost" type="button" id="f-reset">Reset</button>
         <span class="filter-result-count" id="result-count" aria-live="polite"></span>
@@ -87,18 +80,18 @@
 
     // ---- Restore URL state ----
     const q = RT.readQuery();
-    ['search','category','impact','company','sort'].forEach(k => {
+    ['search','category','company','sort'].forEach(k => {
       const el = document.getElementById(`f-${k}`);
       if (el && q[k]) el.value = q[k];
     });
 
-    ['f-search','f-category','f-impact','f-company','f-sort'].forEach(id => {
+    ['f-search','f-category','f-company','f-sort'].forEach(id => {
       const el = document.getElementById(id);
       const ev = el.tagName === 'SELECT' ? 'change' : 'input';
       el.addEventListener(ev, render);
     });
     document.getElementById('f-reset').addEventListener('click', () => {
-      ['f-search','f-category','f-impact','f-company'].forEach(id => { document.getElementById(id).value = ''; });
+      ['f-search','f-category','f-company'].forEach(id => { document.getElementById(id).value = ''; });
       document.getElementById('f-sort').value = 'date-desc';
       render();
     });
@@ -106,14 +99,12 @@
     function render() {
       const search = document.getElementById('f-search').value.trim();
       const category = document.getElementById('f-category').value;
-      const impact = document.getElementById('f-impact').value;
       const company = document.getElementById('f-company').value;
       const sort = document.getElementById('f-sort').value;
-      RT.writeQuery({ search, category, impact, company, sort });
+      RT.writeQuery({ search, category, company, sort });
 
       let rows = news.filter(n => {
         if (category && n.category !== category) return false;
-        if (impact && n.impact_tier !== impact) return false;
         if (company && !(n.companies || []).includes(company)) return false;
         if (search) {
           const blob = [n.title, n.summary, n.source, (n.tags || []).join(' '), (n.companies || []).join(' ')]
@@ -126,9 +117,6 @@
       const [sortKey, sortDir] = sort.split('-');
       if (sortKey === 'date') {
         rows = RT.sortBy(rows, n => n.date, sortDir);
-      } else if (sortKey === 'impact') {
-        const rank = { High: 3, Medium: 2, Low: 1 };
-        rows = RT.sortBy(rows, n => rank[n.impact_tier] || 0, sortDir);
       }
 
       const feed = document.getElementById('feed');
@@ -155,9 +143,6 @@
       const sentimentPill = n.sentiment
         ? `<span class="pill ${pillFor(n.sentiment)}">${RT.escapeHTML(n.sentiment)}</span>`
         : '';
-      const impactPill = n.impact_tier
-        ? `<span class="pill ${n.impact_tier === 'High' ? 'positive' : n.impact_tier === 'Low' ? 'outline' : 'mixed'}">${RT.escapeHTML(n.impact_tier)} impact</span>`
-        : '';
       const companyPills = (n.companies || []).map(id => {
         const c = companies.find(x => x.id === id);
         const name = c ? c.name : id;
@@ -177,7 +162,6 @@
         <article class="feed-card" id="${RT.escapeHTML(n.id)}">
           <div class="top-row">
             <span class="pill cat-${catSlug}">${RT.escapeHTML(n.category)}</span>
-            ${impactPill}
             ${sentimentPill}
             ${conf}
             <span class="row-end">

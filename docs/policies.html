@@ -36,7 +36,7 @@
     </p>
 
     <!-- Top KPIs -->
-    <div class="kpi-strip" id="policy-kpis"></div>
+    <div class="kpi-strip cols-4" id="policy-kpis"></div>
 
     <!-- Filter bar -->
     <form class="filter-bar" id="filter-form" onsubmit="return false;" aria-label="Filter policies">
@@ -57,19 +57,37 @@
       </fieldset>
     </form>
 
-    <h2 class="section-title">Federal bills + regulations</h2>
+    <h2 class="section-title">Congressional actions</h2>
+    <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Bills introduced or moving through the 119th Congress.</p>
     <div class="table-wrap">
-      <table class="data-table" id="federal-table">
+      <table class="data-table" id="congress-table">
         <thead>
           <tr>
             <th>Title</th>
             <th>Status</th>
-            <th class="hide-mobile">Sponsor / agency</th>
+            <th class="hide-mobile">Sponsor</th>
             <th class="num hide-mobile">Est. budget</th>
             <th class="hide-mobile">Introduced</th>
           </tr>
         </thead>
-        <tbody id="federal-tbody"></tbody>
+        <tbody id="congress-tbody"></tbody>
+      </table>
+    </div>
+
+    <h2 class="section-title">Executive actions</h2>
+    <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Executive orders, agency regulations, federal grant programs, and procurement initiatives.</p>
+    <div class="table-wrap">
+      <table class="data-table" id="executive-table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Status</th>
+            <th class="hide-mobile">Agency</th>
+            <th class="num hide-mobile">Est. budget</th>
+            <th class="hide-mobile">Effective</th>
+          </tr>
+        </thead>
+        <tbody id="executive-tbody"></tbody>
       </table>
     </div>
 
@@ -104,15 +122,15 @@
 
     // ---- KPI strip ----
     const inProgress = policies.filter(p => ['Introduced','Committee','Passed House','Passed Senate'].includes(p.status)).length;
-    const inEffect = policies.filter(p => ['In effect','Signed'].includes(p.status)).length;
-    const federalCount = policies.filter(p => p.level === 'Federal').length;
+    const congressCount = policies.filter(p => p.level === 'Federal' && p.type === 'Bill').length;
+    const executiveCount = policies.filter(p => p.level === 'Federal' && p.type !== 'Bill').length;
     const stateCount = policies.filter(p => p.level === 'State').length;
 
     document.getElementById('policy-kpis').innerHTML = [
-      { label: 'In progress', value: inProgress, sub: 'pre-enactment, advancing' },
-      { label: 'In effect / signed', value: inEffect, sub: 'currently operational' },
-      { label: 'Federal items', value: federalCount, sub: 'bills, regs, programs' },
+      { label: 'Congressional actions', value: congressCount, sub: 'bills in the 119th' },
+      { label: 'Executive actions', value: executiveCount, sub: 'EOs, regs, programs' },
       { label: 'State incentives', value: stateCount, sub: 'tax credits + grants' },
+      { label: 'In progress', value: inProgress, sub: 'pre-enactment, advancing' },
     ].map(k => `
       <div class="kpi-card">
         <span class="kpi-label">${k.label}</span>
@@ -172,23 +190,39 @@
       };
       rows = RT.sortBy(rows, keyFns[sortKey] || keyFns.introduced, sortDir);
 
-      const federalRows = rows.filter(p => p.level === 'Federal');
+      const congressRows = rows.filter(p => p.level === 'Federal' && p.type === 'Bill');
+      const executiveRows = rows.filter(p => p.level === 'Federal' && p.type !== 'Bill');
       const stateRows = rows.filter(p => p.level === 'State' || p.level === 'City');
 
-      document.getElementById('federal-tbody').innerHTML = federalRows.length
-        ? federalRows.map(p => `
+      document.getElementById('congress-tbody').innerHTML = congressRows.length
+        ? congressRows.map(p => `
+          <tr data-id="${RT.escapeHTML(p.id)}" tabindex="0">
+            <td>
+              <strong>${RT.escapeHTML(p.title)}</strong>
+              <span class="secondary-line">${RT.escapeHTML(p.robotics_scope || '')}</span>
+            </td>
+            <td>${statusPill(p.status)}</td>
+            <td class="hide-mobile">${RT.escapeHTML(p.sponsor || '—')}<span class="secondary-line">${RT.escapeHTML(p.bill_number || '')}</span></td>
+            <td class="num hide-mobile">${RT.formatUSD(p.estimated_budget_usd, { fallback: '—' })}</td>
+            <td class="hide-mobile tnum">${RT.escapeHTML(RT.formatDate(p.introduced_date))}</td>
+          </tr>
+        `).join('')
+        : '<tr><td colspan="5" class="muted center">No congressional items match.</td></tr>';
+
+      document.getElementById('executive-tbody').innerHTML = executiveRows.length
+        ? executiveRows.map(p => `
           <tr data-id="${RT.escapeHTML(p.id)}" tabindex="0">
             <td>
               <strong>${RT.escapeHTML(p.title)}</strong>
               <span class="secondary-line">${RT.escapeHTML(p.type)} · ${RT.escapeHTML(p.robotics_scope || '')}</span>
             </td>
             <td>${statusPill(p.status)}</td>
-            <td class="hide-mobile">${RT.escapeHTML(p.sponsor || p.agency_responsible?.[0] || '—')}<span class="secondary-line">${RT.escapeHTML(p.bill_number || '')}</span></td>
+            <td class="hide-mobile">${RT.escapeHTML((p.agency_responsible || [])[0] || p.sponsor || '—')}<span class="secondary-line">${RT.escapeHTML((p.agency_responsible || []).slice(1).join(', '))}</span></td>
             <td class="num hide-mobile">${RT.formatUSD(p.estimated_budget_usd, { fallback: '—' })}</td>
             <td class="hide-mobile tnum">${RT.escapeHTML(RT.formatDate(p.introduced_date))}</td>
           </tr>
         `).join('')
-        : '<tr><td colspan="5" class="muted center">No federal items match.</td></tr>';
+        : '<tr><td colspan="5" class="muted center">No executive items match.</td></tr>';
 
       document.getElementById('state-tbody').innerHTML = stateRows.length
         ? stateRows.map(p => `

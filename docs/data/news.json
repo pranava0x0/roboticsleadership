@@ -8,13 +8,22 @@
     "source_url": "https://www.bloomberg.com/news/articles/2026-02-11/apptronik-raises-520-million-in-new-funding-to-build-more-humanoids",
     "summary": "Apptronik raised $520 million in a Series A extension led by Google, Mercedes-Benz, and B Capital, valuing the Austin-based humanoid robot maker at more than $5.5 billion. Total raised across the Series A and extension reaches $935 million. Apptronik has commercial partnerships with Google DeepMind, GXO Logistics, and Mercedes-Benz.",
     "category": "Funding",
-    "companies": ["apptronik"],
+    "companies": [
+      "apptronik"
+    ],
     "policies": [],
-    "themes": ["foundation-models", "industrial-deployments"],
-    "impact_tier": "High",
+    "themes": [
+      "foundation-models",
+      "industrial-deployments"
+    ],
     "sentiment": "Positive",
     "confidence": "High",
-    "tags": ["funding", "humanoid", "unicorn", "google-backed"]
+    "tags": [
+      "funding",
+      "humanoid",
+      "unicorn",
+      "google-backed"
+    ]
   },
   {
     "id": "skild-series-b",
@@ -25,13 +34,21 @@
     "source_url": "https://www.bloomberg.com/",
     "summary": "Skild AI raised approximately $1.4 billion at a valuation above $14 billion, backed by SoftBank, Jeff Bezos, Coatue, and Lightspeed. The Pittsburgh-based startup is building a general-purpose foundation model intended to drive many robot bodies. Founders Deepak Pathak and Abhinav Gupta come from Carnegie Mellon University.",
     "category": "Funding",
-    "companies": ["skild-ai"],
+    "companies": [
+      "skild-ai"
+    ],
     "policies": [],
-    "themes": ["foundation-models"],
-    "impact_tier": "High",
+    "themes": [
+      "foundation-models"
+    ],
     "sentiment": "Positive",
     "confidence": "High",
-    "tags": ["funding", "foundation-model", "unicorn", "softbank"]
+    "tags": [
+      "funding",
+      "foundation-model",
+      "unicorn",
+      "softbank"
+    ]
   },
   {
     "id": "1x-neo-preorders",
@@ -42,13 +59,21 @@
     "source_url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/",
     "summary": "Norwegian humanoid maker 1X said its NEO preorder campaign booked out next-year production capacity in five days, totaling 10,000 NEOs. NEO will be available for $20,000 to US consumers, with buyers receiving delivery in 2026. The robot is positioned for household tasks including door-opening, fetching items, and lighting control.",
     "category": "Deployment",
-    "companies": ["1x-technologies"],
+    "companies": [
+      "1x-technologies"
+    ],
     "policies": [],
-    "themes": ["cost-trajectory"],
-    "impact_tier": "High",
+    "themes": [
+      "cost-trajectory"
+    ],
     "sentiment": "Positive",
     "confidence": "High",
-    "tags": ["consumer", "humanoid", "preorder", "household"]
+    "tags": [
+      "consumer",
+      "humanoid",
+      "preorder",
+      "household"
+    ]
   },
   {
     "id": "agility-toyota-canada",
@@ -59,13 +84,21 @@
     "source_url": "https://www.agilityrobotics.com/news",
     "summary": "Following a successful pilot, Agility Robotics signed a Robots-as-a-Service agreement with Toyota Motor Manufacturing Canada at Woodstock, Ontario. Seven or more commercial Digit units are now actively supporting RAV4 logistics. Agility's CFO has stated the company is targeting cash-flow positive operations on the back of expanding RaaS contracts.",
     "category": "Deployment",
-    "companies": ["agility-robotics"],
+    "companies": [
+      "agility-robotics"
+    ],
     "policies": [],
-    "themes": ["industrial-deployments"],
-    "impact_tier": "High",
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Positive",
     "confidence": "High",
-    "tags": ["deployment", "automotive", "raas", "toyota"]
+    "tags": [
+      "deployment",
+      "automotive",
+      "raas",
+      "toyota"
+    ]
   },
   {
     "id": "unitree-20000-target",
@@ -76,13 +109,21 @@
     "source_url": "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/",
     "summary": "Unitree plans to ship up to 20,000 humanoid robots in 2026, a significant jump from 2025 shipments of more than 5,500 units. Unitree's revenue from humanoids surpassed quadruped revenue for the first time in 2025, representing over 51% of the total. The company plans to reach an annual capacity of 75,000 humanoids over the next five years.",
     "category": "Competitive",
-    "companies": ["unitree"],
+    "companies": [
+      "unitree"
+    ],
     "policies": [],
-    "themes": ["china-scale"],
-    "impact_tier": "High",
+    "themes": [
+      "china-scale"
+    ],
     "sentiment": "Mixed",
     "confidence": "High",
-    "tags": ["china", "scale", "humanoid", "unitree"]
+    "tags": [
+      "china",
+      "scale",
+      "humanoid",
+      "unitree"
+    ]
   },
   {
     "id": "ubtech-1000-milestone",
@@ -93,13 +134,22 @@
     "source_url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/",
     "summary": "UBTECH reported 2025 total revenue of ¥2.001 billion, up 53.3% year-on-year. Full-size humanoid revenue reached ¥820 million on 1,079 robot unit sales — making UBTECH the first company globally to deliver more than 1,000 industrial humanoids. Deployments span automotive, smart logistics, 3C electronics, semiconductor fabrication, and aerospace manufacturing.",
     "category": "Competitive",
-    "companies": ["ubtech"],
+    "companies": [
+      "ubtech"
+    ],
     "policies": [],
-    "themes": ["china-scale"],
-    "impact_tier": "High",
+    "themes": [
+      "china-scale"
+    ],
     "sentiment": "Mixed",
     "confidence": "High",
-    "tags": ["china", "scale", "humanoid", "ubtech", "industrial"]
+    "tags": [
+      "china",
+      "scale",
+      "humanoid",
+      "ubtech",
+      "industrial"
+    ]
   },
   {
     "id": "global-humanoid-16k",
@@ -110,13 +160,23 @@
     "source_url": "https://roboticsandautomationnews.com/2026/01/30/global-humanoid-robot-installations-reach-16000-units-as-commercial-deployments-accelerate/98422/",
     "summary": "Global humanoid robot installations reached roughly 16,000 units in 2025, with China accounting for over 80% of that total. TrendForce forecasts a growth of up to 94% in Chinese humanoid robot production by 2026 as commercialization accelerates in the second half of the year. Unitree Robotics and AgiBot could together account for nearly 80% of the country's shipments.",
     "category": "Geopolitics",
-    "companies": ["unitree", "agibot", "ubtech"],
+    "companies": [
+      "unitree",
+      "agibot",
+      "ubtech"
+    ],
     "policies": [],
-    "themes": ["china-scale"],
-    "impact_tier": "High",
+    "themes": [
+      "china-scale"
+    ],
     "sentiment": "Mixed",
     "confidence": "High",
-    "tags": ["china", "scale", "market-data", "geopolitics"]
+    "tags": [
+      "china",
+      "scale",
+      "market-data",
+      "geopolitics"
+    ]
   },
   {
     "id": "hr-7334-introduced",
@@ -128,12 +188,19 @@
     "summary": "Rep. Jay Obernolte (R-CA) introduced H.R. 7334, the National Commission on Robotics Act, directing the Department of Commerce to establish an 18-member commission of recognized robotics experts. The Commission would submit an interim report within one year and a final report with actionable recommendations on U.S. robotics competitiveness within two years.",
     "category": "Policy",
     "companies": [],
-    "policies": ["hr-7334-national-commission-robotics"],
-    "themes": ["policy-momentum"],
-    "impact_tier": "High",
+    "policies": [
+      "hr-7334-national-commission-robotics"
+    ],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Positive",
     "confidence": "High",
-    "tags": ["federal", "bill-introduced", "national-strategy"]
+    "tags": [
+      "federal",
+      "bill-introduced",
+      "national-strategy"
+    ]
   },
   {
     "id": "hr-8189-introduced",
@@ -145,12 +212,22 @@
     "summary": "Rep. Pat Harrigan (R-NC) introduced H.R. 8189, the American Security Robotics Act of 2026, which would restrict federal procurement of humanoid robots and robotic systems manufactured in countries of concern. The bill establishes a covered-entity list maintained jointly by Commerce and the Department of Defense.",
     "category": "Policy",
     "companies": [],
-    "policies": ["hr-8189-american-security-robotics"],
-    "themes": ["china-scale", "defense-procurement", "policy-momentum"],
-    "impact_tier": "High",
+    "policies": [
+      "hr-8189-american-security-robotics"
+    ],
+    "themes": [
+      "china-scale",
+      "defense-procurement",
+      "policy-momentum"
+    ],
     "sentiment": "Mixed",
     "confidence": "High",
-    "tags": ["federal", "bill-introduced", "national-security", "china-competition"]
+    "tags": [
+      "federal",
+      "bill-introduced",
+      "national-security",
+      "china-competition"
+    ]
   },
   {
     "id": "obbba-depreciation",
@@ -162,12 +239,22 @@
     "summary": "The One Big Beautiful Bill Act, as passed by the House, restores 100% bonus depreciation for qualifying equipment placed in service through 2029. Industrial robots, conveyors, welding systems, and palletizers all qualify. The provision reverses the depreciation phaseout that would have hit 0% by 2027, directly improving the unit-economics of robot deployment for US manufacturers.",
     "category": "Policy",
     "companies": [],
-    "policies": ["obbba-bonus-depreciation"],
-    "themes": ["industrial-deployments", "cost-trajectory", "policy-momentum"],
-    "impact_tier": "High",
+    "policies": [
+      "obbba-bonus-depreciation"
+    ],
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory",
+      "policy-momentum"
+    ],
     "sentiment": "Positive",
     "confidence": "Medium",
-    "tags": ["federal", "tax", "manufacturing", "capex"]
+    "tags": [
+      "federal",
+      "tax",
+      "manufacturing",
+      "capex"
+    ]
   },
   {
     "id": "rfa-launches",
@@ -179,12 +266,19 @@
     "summary": "Industry leaders launched Robots For America (RFA) at the SCSP AI+ Expo in Washington, D.C., responding to a call from U.S. government officials for a unified plan to enhance automation in manufacturing. RFA's initial policy framework focuses on five areas: reducing financial risks for robotic trials, modernizing tax treatment of automation, streamlining regulatory processes, building a supportive workforce, and enabling autonomous logistics.",
     "category": "Policy",
     "companies": [],
-    "policies": ["rfa-coalition-launch"],
-    "themes": ["policy-momentum"],
-    "impact_tier": "High",
+    "policies": [
+      "rfa-coalition-launch"
+    ],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Positive",
     "confidence": "High",
-    "tags": ["coalition", "industry", "policy-framework"]
+    "tags": [
+      "coalition",
+      "industry",
+      "policy-framework"
+    ]
   },
   {
     "id": "figure-39b-valuation",
@@ -195,13 +289,22 @@
     "source_url": "https://www.figure.ai",
     "summary": "Figure AI exceeded $1 billion in committed Series C capital at a $39 billion post-money valuation. The round reportedly includes Parkway Venture Capital, Tiger Global, Macquarie, and T-Mobile Ventures. Figure has been deploying its humanoid robots in pilot operations at BMW's Spartanburg plant since 2024.",
     "category": "Funding",
-    "companies": ["figure-ai"],
+    "companies": [
+      "figure-ai"
+    ],
     "policies": [],
-    "themes": ["industrial-deployments", "cost-trajectory"],
-    "impact_tier": "High",
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ],
     "sentiment": "Positive",
     "confidence": "Medium",
-    "tags": ["funding", "humanoid", "unicorn", "figure"]
+    "tags": [
+      "funding",
+      "humanoid",
+      "unicorn",
+      "figure"
+    ]
   },
   {
     "id": "humanoid-funding-32b",
@@ -212,13 +315,26 @@
     "source_url": "https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/",
     "summary": "Humanoid robotics companies raised $3.2 billion globally in 2025, more than the previous six years combined. The category's center of gravity remains in the US (Figure, Apptronik, 1X partially) for capital raised, but Chinese players (UBTECH, Unitree, AgiBot) lead on unit volume.",
     "category": "Funding",
-    "companies": ["figure-ai", "apptronik", "1x-technologies", "unitree", "ubtech", "agibot"],
+    "companies": [
+      "figure-ai",
+      "apptronik",
+      "1x-technologies",
+      "unitree",
+      "ubtech",
+      "agibot"
+    ],
     "policies": [],
-    "themes": ["foundation-models", "china-scale"],
-    "impact_tier": "High",
+    "themes": [
+      "foundation-models",
+      "china-scale"
+    ],
     "sentiment": "Positive",
     "confidence": "High",
-    "tags": ["funding", "market-data", "humanoid"]
+    "tags": [
+      "funding",
+      "market-data",
+      "humanoid"
+    ]
   },
   {
     "id": "1x-eqt-partnership",
@@ -229,13 +345,20 @@
     "source_url": "https://www.therobotreport.com/1x-partners-with-eqt-to-roll-out-humanoids-across-its-portfolio-companies/",
     "summary": "1X Technologies announced a partnership with European private-equity firm EQT to roll out humanoid robots across EQT's portfolio companies. The arrangement represents a non-traditional go-to-market — selling into an investor's portfolio rather than direct enterprise sales.",
     "category": "Deployment",
-    "companies": ["1x-technologies"],
+    "companies": [
+      "1x-technologies"
+    ],
     "policies": [],
-    "themes": ["industrial-deployments"],
-    "impact_tier": "Medium",
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Positive",
     "confidence": "High",
-    "tags": ["partnership", "deployment", "humanoid"]
+    "tags": [
+      "partnership",
+      "deployment",
+      "humanoid"
+    ]
   },
   {
     "id": "figure-ups-talks",
@@ -246,13 +369,21 @@
     "source_url": "https://www.reuters.com/",
     "summary": "Figure AI is reportedly in advanced discussions with UPS to deploy humanoid robots in logistics operations at the tens-of-thousands scale. If finalized, the contract would represent the largest commercial humanoid deployment to date. Neither company has confirmed the contract structure or timeline publicly.",
     "category": "Deployment",
-    "companies": ["figure-ai"],
+    "companies": [
+      "figure-ai"
+    ],
     "policies": [],
-    "themes": ["industrial-deployments"],
-    "impact_tier": "High",
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Positive",
     "confidence": "Low",
-    "tags": ["deployment", "logistics", "humanoid", "rumored"]
+    "tags": [
+      "deployment",
+      "logistics",
+      "humanoid",
+      "rumored"
+    ]
   },
   {
     "id": "anduril-series-f",
@@ -263,13 +394,23 @@
     "source_url": "https://techcrunch.com/2024/08/08/anduril/",
     "summary": "Defense technology company Anduril Industries raised $1.5 billion at a $14 billion valuation, led by Founders Fund with participation from Sands Capital and Fidelity. Anduril supplies autonomous defense systems to the US Department of Defense and allied militaries, with growing involvement in the DoD Replicator initiative.",
     "category": "Funding",
-    "companies": ["anduril"],
-    "policies": ["dod-replicator"],
-    "themes": ["defense-procurement"],
-    "impact_tier": "High",
+    "companies": [
+      "anduril"
+    ],
+    "policies": [
+      "dod-replicator"
+    ],
+    "themes": [
+      "defense-procurement"
+    ],
     "sentiment": "Positive",
     "confidence": "High",
-    "tags": ["funding", "defense", "unicorn", "autonomous"]
+    "tags": [
+      "funding",
+      "defense",
+      "unicorn",
+      "autonomous"
+    ]
   },
   {
     "id": "shield-ai-series-f",
@@ -280,13 +421,22 @@
     "source_url": "https://shield.ai/news",
     "summary": "Shield AI raised $240 million in a Series F round at a $5.3 billion valuation, with participation from Riot Ventures, Hanwha Aerospace, and L3Harris. The funding supports international expansion of its V-BAT autonomous aerial system and the Hivemind autonomy stack now deployed in Ukraine and across the Asia-Pacific.",
     "category": "Funding",
-    "companies": ["shield-ai"],
-    "policies": ["dod-replicator"],
-    "themes": ["defense-procurement"],
-    "impact_tier": "High",
+    "companies": [
+      "shield-ai"
+    ],
+    "policies": [
+      "dod-replicator"
+    ],
+    "themes": [
+      "defense-procurement"
+    ],
     "sentiment": "Positive",
     "confidence": "High",
-    "tags": ["funding", "defense", "uav"]
+    "tags": [
+      "funding",
+      "defense",
+      "uav"
+    ]
   },
   {
     "id": "physical-intelligence-open-source",
@@ -297,13 +447,20 @@
     "source_url": "https://www.physicalintelligence.company/blog",
     "summary": "Physical Intelligence published and open-sourced π0, its foundation model for general robot control, alongside a $400M Series A at a $2.4B valuation. The open-source release contrasts with closed-model strategies pursued by Skild AI, Figure, and Tesla. Founders Sergey Levine, Chelsea Finn, and Karol Hausman come from UC Berkeley and Stanford.",
     "category": "Research",
-    "companies": ["physical-intelligence"],
+    "companies": [
+      "physical-intelligence"
+    ],
     "policies": [],
-    "themes": ["foundation-models"],
-    "impact_tier": "High",
+    "themes": [
+      "foundation-models"
+    ],
     "sentiment": "Positive",
     "confidence": "High",
-    "tags": ["research", "open-source", "foundation-model"]
+    "tags": [
+      "research",
+      "open-source",
+      "foundation-model"
+    ]
   },
   {
     "id": "replicator-tranche-2",
@@ -314,13 +471,26 @@
     "source_url": "https://www.defense.gov/",
     "summary": "Deputy Secretary of Defense announced the second tranche of the Replicator initiative, expanding scope from aerial systems to attritable ground and counter-UAS systems. Total commitment for Tranche 2 is in the range of $500M–$1B. Non-traditional defense suppliers including Anduril, Shield AI, and several humanoid manufacturers are reportedly competing.",
     "category": "Policy",
-    "companies": ["anduril", "shield-ai", "boston-dynamics"],
-    "policies": ["dod-replicator"],
-    "themes": ["defense-procurement", "policy-momentum"],
-    "impact_tier": "High",
+    "companies": [
+      "anduril",
+      "shield-ai",
+      "boston-dynamics"
+    ],
+    "policies": [
+      "dod-replicator"
+    ],
+    "themes": [
+      "defense-procurement",
+      "policy-momentum"
+    ],
     "sentiment": "Positive",
     "confidence": "Medium",
-    "tags": ["federal", "defense", "procurement", "replicator"]
+    "tags": [
+      "federal",
+      "defense",
+      "procurement",
+      "replicator"
+    ]
   },
   {
     "id": "ubtech-walker-mass-deploy",
@@ -331,13 +501,22 @@
     "source_url": "https://www.eweek.com/news/china-deploys-humanoid-robots-ubtech-walker/",
     "summary": "UBTECH detailed Walker humanoid deployments across multiple Chinese automotive plants, including BYD, Geely, and FAW. The company stated 2025 unit sales reached 1,079, with 2026 targets of 5,000 units. Deployments span assembly, kitting, and quality-inspection tasks.",
     "category": "Deployment",
-    "companies": ["ubtech"],
+    "companies": [
+      "ubtech"
+    ],
     "policies": [],
-    "themes": ["china-scale", "industrial-deployments"],
-    "impact_tier": "High",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
     "sentiment": "Mixed",
     "confidence": "High",
-    "tags": ["china", "automotive", "deployment", "ubtech"]
+    "tags": [
+      "china",
+      "automotive",
+      "deployment",
+      "ubtech"
+    ]
   },
   {
     "id": "robotsforamerica-coverage",
@@ -348,13 +527,27 @@
     "source_url": "https://www.manufacturingdive.com/news/robotics-experts-urge-congress-act-automation-policy-national-strategy/818431/",
     "summary": "At the SCSP AI+ Expo, robotics executives and policy experts urged Congress to act immediately on a national strategy, citing China's commanding lead in commercial deployment volume. Speakers from Apptronik, Boston Dynamics, and Agility Robotics warned that capital intensity alone is insufficient without coordinated industrial policy.",
     "category": "Policy",
-    "companies": ["apptronik", "boston-dynamics", "agility-robotics"],
-    "policies": ["rfa-coalition-launch", "hr-7334-national-commission-robotics"],
-    "themes": ["policy-momentum", "china-scale"],
-    "impact_tier": "Medium",
+    "companies": [
+      "apptronik",
+      "boston-dynamics",
+      "agility-robotics"
+    ],
+    "policies": [
+      "rfa-coalition-launch",
+      "hr-7334-national-commission-robotics"
+    ],
+    "themes": [
+      "policy-momentum",
+      "china-scale"
+    ],
     "sentiment": "Mixed",
     "confidence": "High",
-    "tags": ["coalition", "industry", "policy", "congress"]
+    "tags": [
+      "coalition",
+      "industry",
+      "policy",
+      "congress"
+    ]
   },
   {
     "id": "ny-times-silicon-valley-playbook",
@@ -366,12 +559,22 @@
     "summary": "Federal officials describe an emerging coordinated strategy treating robotics as critical national infrastructure, including procurement preference, tax treatment, and R&D priority. The framing — explicitly compared to the post-1980s semiconductor playbook — has gained traction across both parties.",
     "category": "Geopolitics",
     "companies": [],
-    "policies": ["hr-7334-national-commission-robotics", "hr-8189-american-security-robotics", "chips-act-advanced-manufacturing"],
-    "themes": ["policy-momentum", "china-scale"],
-    "impact_tier": "Medium",
+    "policies": [
+      "hr-7334-national-commission-robotics",
+      "hr-8189-american-security-robotics",
+      "chips-act-advanced-manufacturing"
+    ],
+    "themes": [
+      "policy-momentum",
+      "china-scale"
+    ],
     "sentiment": "Positive",
     "confidence": "Medium",
-    "tags": ["federal", "policy-frame", "industrial-policy"]
+    "tags": [
+      "federal",
+      "policy-frame",
+      "industrial-policy"
+    ]
   },
   {
     "id": "agility-cash-flow-target",
@@ -382,13 +585,21 @@
     "source_url": "https://www.therobotreport.com/",
     "summary": "Agility Robotics' CFO outlined a path to cash-flow positive operations as Digit RaaS contracts scale across Amazon, GXO, and Toyota. The company is developing a next-generation Digit with 50 lb payload, improved battery life, and ISO functional safety certification targeted for mid-to-late 2026.",
     "category": "Deployment",
-    "companies": ["agility-robotics"],
+    "companies": [
+      "agility-robotics"
+    ],
     "policies": [],
-    "themes": ["industrial-deployments"],
-    "impact_tier": "Medium",
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Positive",
     "confidence": "Medium",
-    "tags": ["agility", "raas", "scale", "humanoid"]
+    "tags": [
+      "agility",
+      "raas",
+      "scale",
+      "humanoid"
+    ]
   },
   {
     "id": "boston-dynamics-atlas-electric",
@@ -399,13 +610,21 @@
     "source_url": "https://www.bostondynamics.com/",
     "summary": "Boston Dynamics retired its hydraulic Atlas and unveiled an all-electric Atlas designed for industrial deployments. The new platform is positioned for pilot operations at Hyundai Motor Group manufacturing plants. Boston Dynamics remains owned by Hyundai following the $1.1B 2020 acquisition.",
     "category": "Deployment",
-    "companies": ["boston-dynamics"],
+    "companies": [
+      "boston-dynamics"
+    ],
     "policies": [],
-    "themes": ["industrial-deployments"],
-    "impact_tier": "Medium",
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Positive",
     "confidence": "High",
-    "tags": ["humanoid", "automotive", "deployment", "hyundai"]
+    "tags": [
+      "humanoid",
+      "automotive",
+      "deployment",
+      "hyundai"
+    ]
   },
   {
     "id": "covariant-amazon-acquihire",
@@ -416,13 +635,20 @@
     "source_url": "https://covariant.ai",
     "summary": "Amazon agreed to license Covariant's robotics foundation models and hire approximately a quarter of the company's staff, including the three co-founders. The deal mirrors similar Microsoft-Inflection and Google-Character arrangements: a non-traditional structure that captures talent and IP without a full acquisition.",
     "category": "Competitive",
-    "companies": ["covariant"],
+    "companies": [
+      "covariant"
+    ],
     "policies": [],
-    "themes": ["foundation-models"],
-    "impact_tier": "High",
+    "themes": [
+      "foundation-models"
+    ],
     "sentiment": "Mixed",
     "confidence": "High",
-    "tags": ["acquihire", "amazon", "foundation-model"]
+    "tags": [
+      "acquihire",
+      "amazon",
+      "foundation-model"
+    ]
   },
   {
     "id": "agibot-shanghai-factory",
@@ -433,12 +659,20 @@
     "source_url": "https://roboticsandautomationnews.com/",
     "summary": "Shanghai-based AgiBot opened a humanoid mass-production facility targeting thousands of units in 2026, backed by Tencent, Hillhouse, and BYD. Co-founder Peng Zhihui (known online as Zhi Hui Jun) stated production-line capacity is the determining factor for the next phase of commercial humanoid deployment.",
     "category": "Supply Chain",
-    "companies": ["agibot"],
+    "companies": [
+      "agibot"
+    ],
     "policies": [],
-    "themes": ["china-scale"],
-    "impact_tier": "Medium",
+    "themes": [
+      "china-scale"
+    ],
     "sentiment": "Mixed",
     "confidence": "Medium",
-    "tags": ["china", "manufacturing", "agibot", "byd-backed"]
+    "tags": [
+      "china",
+      "manufacturing",
+      "agibot",
+      "byd-backed"
+    ]
   }
 ]

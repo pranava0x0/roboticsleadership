@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="color-scheme" content="light dark" />
-  <meta name="description" content="Live dashboard of robotics startups, government policy, funding, and deployments. Curated, sourced, refreshed weekly." />
-  <title>Robotics Tracker — dashboard</title>
+  <meta name="description" content="Robotics — How the U.S. can Lead. Live dashboard of robotics startups, government policy, funding, and deployments. Curated, sourced, refreshed weekly." />
+  <title>Robotics — How the U.S. can Lead</title>
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/companies.json" crossorigin />
   <link rel="preload" as="fetch" href="data/news.json" crossorigin />
@@ -32,19 +32,20 @@
 
   <main id="main">
     <p class="eyebrow">Dashboard · updated <span id="last-updated" class="tnum">—</span></p>
-    <h1 class="page-title">The state of robotics, at a glance.</h1>
+    <h1 class="page-title">Robotics — How the U.S. can Lead</h1>
     <p class="page-lede">
-      Funding, deployments, federal bills, and state incentives — curated, sourced, and refreshed weekly.
+      Funding, deployments, Congressional bills, executive actions, and state incentives — curated, sourced, and refreshed weekly.
       A single source of truth for investors, policymakers, founders, and Congressional staff tracking the robotics acceleration.
     </p>
 
     <!-- KPI strip -->
     <section aria-label="Key indicators">
       <div id="kpi-strip" class="kpi-strip">
-        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:30px;"></span></div>
-        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:30px;"></span></div>
-        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:30px;"></span></div>
-        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:30px;"></span></div>
+        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
       </div>
     </section>
 
@@ -112,15 +113,21 @@
       return sum + (c.deployments || []).filter(d => d.status === 'active').length;
     }, 0);
 
-    const policiesInProgress = policies.filter(p =>
-      ['Introduced', 'Committee', 'Passed House', 'Passed Senate'].includes(p.status)
+    const inProgress = ['Introduced', 'Committee', 'Passed House', 'Passed Senate'];
+    const inEffect = ['Signed', 'In effect'];
+    const congressInProgress = policies.filter(p =>
+      p.level === 'Federal' && p.type === 'Bill' && inProgress.includes(p.status)
+    ).length;
+    const executiveInEffect = policies.filter(p =>
+      p.level === 'Federal' && p.type !== 'Bill' && inEffect.includes(p.status)
     ).length;
 
     const kpis = [
       { label: `Tracked funding · ${thisYear}`, value: RT.formatUSD(ytdFunding), sub: `${companies.length} companies tracked` },
       { label: 'Unicorns', value: String(unicornCount), sub: 'companies ≥ $1B valuation' },
       { label: 'Active deployments', value: String(activeDeployments), sub: 'production / commercial' },
-      { label: 'Bills in progress', value: String(policiesInProgress), sub: 'federal + state, pre-enactment' },
+      { label: 'Congress · in progress', value: String(congressInProgress), sub: 'bills, pre-enactment' },
+      { label: 'Executive · in effect', value: String(executiveInEffect), sub: 'agency rules, programs' },
     ];
 
     const strip = document.getElementById('kpi-strip');
@@ -143,7 +150,6 @@
       <article class="feed-card">
         <div class="top-row">
           <span class="pill cat-${n.category.toLowerCase().replace(/\s+/g, '')}">${RT.escapeHTML(n.category)}</span>
-          ${impactPill(n.impact_tier)}
           <span>${RT.escapeHTML(n.source)}</span>
           <span class="sep"></span>
           <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
@@ -200,11 +206,6 @@
   function truncate(s, n) {
     if (!s) return '';
     return s.length > n ? s.slice(0, n - 1).replace(/[\s.,;:]+$/, '') + '…' : s;
-  }
-  function impactPill(tier) {
-    if (!tier) return '';
-    const cls = tier === 'High' ? 'positive' : tier === 'Low' ? 'outline' : 'mixed';
-    return `<span class="pill ${cls}">${tier} impact</span>`;
   }
 
   function renderFundingByYear(companies) {
