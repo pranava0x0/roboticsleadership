@@ -1,43 +1,162 @@
 /* ============================================================
    Robotics Industry & Policy Tracker — design system
-   Per DESIGN.md: system fonts, editorial serif display, tabular numerals,
-   CSS-var theming, mobile-first.
+   Per DESIGN.md § 15: four named themes (caves / naked-sun /
+   dawn / robot-dreams), role-based CSS variables, web fonts
+   justified as theme identity. WCAG 2.1 AA across all themes.
    ============================================================ */
 
+/* --- Universal tokens (theme-independent) --- */
+
 :root {
-  /* Type stacks (system only) */
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
-    "Helvetica Neue", Arial, sans-serif;
-  --font-serif: "Charter", "Source Serif 4", "Source Serif Pro",
-    "Iowan Old Style", "Apple Garamond", "Palatino", "Georgia",
-    "Times New Roman", serif;
+  /* Type stacks: each theme overrides --font-serif (display) and
+     --font-sans (body). Mono stays universal. */
+  --font-sans: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --font-serif: "Charter", "Iowan Old Style", Georgia, serif;
   --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas,
     monospace;
 
-  /* Light theme — editorial, FT-adjacent cream/slate */
-  --bg: #fbf8f3;
-  --surface: #ffffff;
-  --surface-2: #f3efe8;
-  --border: #e4ddd0;
-  --border-strong: #c9bfac;
-  --text: #1c1a17;
-  --text-muted: #6b6457;
-  --text-faint: #948b7c;
-  --accent: #aa3a2e;
-  --accent-soft: #f4dcd8;
-  --link: #1a4d7a;
+  /* Layout */
+  --max-w: 1280px;
+  --header-h: 56px;
 
-  /* Semantic — meaning, not brand */
-  --status-positive: #2f7d4f;
-  --status-positive-soft: #d9ecdf;
-  --status-warning: #b07b1a;
-  --status-warning-soft: #f3e6c8;
-  --status-negative: #a93020;
+  /* Theme-tunable aesthetic tokens (defaults if no theme is set) */
+  --radius-card: 10px;
+  --radius-pill: 999px;
+  --surface-backdrop: none;
+  --transition-fast: 90ms;
+  --transition-base: 120ms;
+  --transition-slow: 200ms;
+
+  /* Tabular numerals everywhere */
+  font-feature-settings: "tnum";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- Theme 1: Caves of Steel (Earth) ---
+   Industrial, subterranean, high-density. Sharp borders. */
+
+[data-theme="caves"] {
+  --font-serif: "Barlow Condensed", "Arial Narrow", "Helvetica Condensed", "Impact", sans-serif;
+  --font-sans: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+
+  --bg: #121212;
+  --surface: #1a1a1a;
+  --surface-2: #242424;
+  --border: #2f2f2f;
+  --border-strong: #4a4a4a;
+  --text: #f5f5f5;
+  --text-muted: #b0b0b0;
+  --text-faint: #7a7a7a;
+  --accent: #ffc700;
+  --accent-soft: #3a2f00;
+  --accent-on: #121212;
+  --link: #ffc700;
+
+  --status-positive: #00ff66;
+  --status-positive-soft: #003a18;
+  --status-warning: #ffc700;
+  --status-warning-soft: #3a2f00;
+  --status-negative: #ff5252;
+  --status-negative-soft: #3a1414;
+  --status-neutral: #b0b0b0;
+  --status-neutral-soft: #2a2a2a;
+
+  --cat-funding: #c9a0ff;
+  --cat-deployment: #6de2db;
+  --cat-policy: #ffd66e;
+  --cat-competitive: #ff8fb6;
+  --cat-supplychain: #8fb6ff;
+  --cat-geopolitics: #ff9d7e;
+  --cat-research: #a3e1a5;
+
+  --dir-accelerating: #00ff66;
+  --dir-stable: #b0b0b0;
+  --dir-slowing: #ffc700;
+
+  --radius-card: 4px;
+  --radius-pill: 4px;
+  --shadow-rest: 0 0 0 1px rgba(0, 0, 0, 0.5);
+  --shadow-elevated: 0 0 0 1px var(--border-strong);
+}
+
+/* --- Theme 2: The Naked Sun (Solaria) ---
+   Hyper-minimalist, sterile, ultra-isolated. Whitespace + slow motion. */
+
+[data-theme="naked-sun"] {
+  --font-serif: "Didot", "Bodoni MT", "Bodoni Moda", "Big Caslon", "Palatino Linotype", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+
+  --bg: #FAFAFA;
+  --surface: #FFFFFF;
+  --surface-2: #F0ECE1;
+  --border: #E5E0D5;
+  --border-strong: #C9C2B0;
+  --text: #1A1A1A;
+  --text-muted: #5a5a5a;
+  --text-faint: #9a9388;
+  --accent: #1C4E3A;
+  --accent-soft: #d8e3dc;
+  --accent-on: #FAFAFA;
+  --link: #1C4E3A;
+
+  --status-positive: #1C4E3A;
+  --status-positive-soft: #d8e3dc;
+  --status-warning: #8a6b1a;
+  --status-warning-soft: #efe6cc;
+  --status-negative: #8a2a1a;
+  --status-negative-soft: #f0d8d2;
+  --status-neutral: #5a5a5a;
+  --status-neutral-soft: #ececec;
+
+  --cat-funding: #4a3a7a;
+  --cat-deployment: #1a5a5a;
+  --cat-policy: #7a4a1a;
+  --cat-competitive: #8a2a5a;
+  --cat-supplychain: #2a4a7a;
+  --cat-geopolitics: #5a2a2a;
+  --cat-research: #2a5a2a;
+
+  --dir-accelerating: #1C4E3A;
+  --dir-stable: #5a5a5a;
+  --dir-slowing: #7a4a1a;
+
+  --radius-card: 14px;
+  --shadow-rest: none;
+  --shadow-elevated: 0 2px 20px rgba(0, 0, 0, 0.04);
+  --transition-base: 200ms;
+  --transition-slow: 320ms;
+}
+
+/* --- Theme 3: Robots of Dawn (Aurora) ---
+   Utopian, premium, serene. Rounded cards, soft depth. */
+
+[data-theme="dawn"] {
+  --font-serif: "Cormorant Garamond", Georgia, "Iowan Old Style", "Apple Garamond", "Palatino", serif;
+  --font-sans: "Montserrat", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+
+  --bg: #FFF9F5;
+  --surface: #FFFFFF;
+  --surface-2: #EFE3D8;
+  --border: #E4D8C7;
+  --border-strong: #C9B89F;
+  --text: #2D2520;
+  --text-muted: #6b5e54;
+  --text-faint: #a59585;
+  --accent: #8C4303;
+  --accent-soft: #f5e3d1;
+  --accent-on: #FFF9F5;
+  --link: #8C4303;
+
+  --status-positive: #406b3a;
+  --status-positive-soft: #e0ead4;
+  --status-warning: #8C4303;
+  --status-warning-soft: #f5e3d1;
+  --status-negative: #8a2a1a;
   --status-negative-soft: #f3d6d0;
-  --status-neutral: #5a6066;
-  --status-neutral-soft: #e6e3df;
+  --status-neutral: #6b5e54;
+  --status-neutral-soft: #ede5dc;
 
-  /* Category — distinguish without ranking */
   --cat-funding: #5f4291;
   --cat-deployment: #1f6a6a;
   --cat-policy: #a05a1a;
@@ -46,61 +165,60 @@
   --cat-geopolitics: #6b3838;
   --cat-research: #467044;
 
-  /* Direction (theme trend) */
-  --dir-accelerating: #1f6a4a;
-  --dir-stable: #6b6457;
+  --dir-accelerating: #406b3a;
+  --dir-stable: #6b5e54;
   --dir-slowing: #a05a1a;
 
-  /* Shadows */
-  --shadow-rest: 0 1px 2px rgba(28, 26, 23, 0.06);
-  --shadow-elevated: 0 4px 18px rgba(28, 26, 23, 0.08);
-
-  /* Layout */
-  --max-w: 1280px;
-  --header-h: 56px;
-
-  /* Tabular numerals everywhere */
-  font-feature-settings: "tnum";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --radius-card: 16px;
+  --shadow-rest: 0 1px 3px rgba(45, 37, 32, 0.08);
+  --shadow-elevated: 0 8px 24px rgba(45, 37, 32, 0.10);
 }
 
-[data-theme="dark"] {
-  --bg: #14130f;
-  --surface: #1d1c18;
-  --surface-2: #26241f;
-  --border: #34312a;
-  --border-strong: #524d42;
-  --text: #ece6d8;
-  --text-muted: #a59f8e;
-  --text-faint: #6f6a5c;
-  --accent: #d96b5a;
-  --accent-soft: #3a2421;
-  --link: #88b4d8;
+/* --- Theme 4: Robot Dreams (Subconscious) ---
+   Cosmic, ethereal dark. Glassmorphism + cyan glow. */
 
-  --status-positive: #6dbf85;
-  --status-positive-soft: #1f3a28;
-  --status-warning: #d9a440;
-  --status-warning-soft: #3a2e15;
-  --status-negative: #d96b5a;
-  --status-negative-soft: #3a2421;
-  --status-neutral: #a59f8e;
-  --status-neutral-soft: #2a2823;
+[data-theme="robot-dreams"] {
+  --font-serif: "Orbitron", "Courier New", "SF Mono", Menlo, Consolas, monospace;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
 
-  --cat-funding: #b59cda;
-  --cat-deployment: #6dbab9;
-  --cat-policy: #d9a464;
-  --cat-competitive: #db8bb0;
-  --cat-supplychain: #88b4d8;
-  --cat-geopolitics: #c79090;
-  --cat-research: #a3c89f;
+  --bg: #0A0915;
+  --surface: rgba(25, 24, 48, 0.6);
+  --surface-2: rgba(25, 24, 48, 0.42);
+  --border: rgba(170, 200, 240, 0.18);
+  --border-strong: rgba(170, 200, 240, 0.32);
+  --text: #E0E6ED;
+  --text-muted: #8a96a8;
+  --text-faint: #5a667a;
+  --accent: #00E5FF;
+  --accent-soft: rgba(0, 229, 255, 0.14);
+  --accent-on: #0A0915;        /* MUST be used for text inside any cyan fill */
+  --link: #00E5FF;
 
-  --dir-accelerating: #6dbf85;
-  --dir-stable: #a59f8e;
-  --dir-slowing: #d9a464;
+  --status-positive: #5dffae;
+  --status-positive-soft: rgba(93, 255, 174, 0.14);
+  --status-warning: #ffd66e;
+  --status-warning-soft: rgba(255, 214, 110, 0.14);
+  --status-negative: #ff7a8a;
+  --status-negative-soft: rgba(255, 122, 138, 0.14);
+  --status-neutral: #8a96a8;
+  --status-neutral-soft: rgba(138, 150, 168, 0.14);
 
-  --shadow-rest: 0 1px 2px rgba(0, 0, 0, 0.4);
-  --shadow-elevated: 0 4px 18px rgba(0, 0, 0, 0.45);
+  --cat-funding: #c9a0ff;
+  --cat-deployment: #5dffae;
+  --cat-policy: #ffd66e;
+  --cat-competitive: #ff8fb6;
+  --cat-supplychain: #8fb6ff;
+  --cat-geopolitics: #ff9d7e;
+  --cat-research: #a3e1a5;
+
+  --dir-accelerating: #5dffae;
+  --dir-stable: #8a96a8;
+  --dir-slowing: #ffd66e;
+
+  --radius-card: 12px;
+  --shadow-rest: 0 0 0 1px rgba(0, 229, 255, 0.08);
+  --shadow-elevated: 0 0 24px rgba(0, 229, 255, 0.18);
+  --surface-backdrop: blur(12px) saturate(140%);
 }
 
 /* Reset */
@@ -309,8 +427,10 @@ footer.site-footer {
 
 .kpi-card {
   background: var(--surface);
+  -webkit-backdrop-filter: var(--surface-backdrop, none);
+  backdrop-filter: var(--surface-backdrop, none);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: var(--radius-card);
   padding: 10px 12px;
   box-shadow: var(--shadow-rest);
   display: flex;
@@ -391,8 +511,10 @@ footer.site-footer {
 
 .card {
   background: var(--surface);
+  -webkit-backdrop-filter: var(--surface-backdrop, none);
+  backdrop-filter: var(--surface-backdrop, none);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: var(--radius-card);
   padding: 16px 18px;
   box-shadow: var(--shadow-rest);
   display: flex;
@@ -454,8 +576,10 @@ footer.site-footer {
   align-items: center;
   padding: 12px 14px;
   background: var(--surface);
+  -webkit-backdrop-filter: var(--surface-backdrop, none);
+  backdrop-filter: var(--surface-backdrop, none);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: var(--radius-card);
   margin-bottom: 18px;
 }
 .filter-bar fieldset { border: 0; margin: 0; padding: 0; display: contents; }
@@ -522,8 +646,10 @@ footer.site-footer {
 
 .table-wrap {
   background: var(--surface);
+  -webkit-backdrop-filter: var(--surface-backdrop, none);
+  backdrop-filter: var(--surface-backdrop, none);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: var(--radius-card);
   overflow: hidden;
 }
 .data-table {
@@ -665,10 +791,7 @@ footer.site-footer {
 }
 .detail-close:hover { background: var(--surface-2); color: var(--text); }
 
-@media (prefers-reduced-motion: reduce) {
-  .detail-panel,
-  .detail-backdrop { transition: none; }
-}
+/* (Reduced-motion is consolidated at the bottom of the file.) */
 
 /* Key-value grids */
 .kv {
@@ -731,8 +854,10 @@ footer.site-footer {
 
 .chart {
   background: var(--surface);
+  -webkit-backdrop-filter: var(--surface-backdrop, none);
+  backdrop-filter: var(--surface-backdrop, none);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: var(--radius-card);
   padding: 18px 16px 14px;
   box-shadow: var(--shadow-rest);
 }
@@ -785,11 +910,13 @@ footer.site-footer {
 }
 .feed-card {
   background: var(--surface);
+  -webkit-backdrop-filter: var(--surface-backdrop, none);
+  backdrop-filter: var(--surface-backdrop, none);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: var(--radius-card);
   padding: 16px 18px;
   box-shadow: var(--shadow-rest);
-  transition: border-color 120ms, box-shadow 120ms;
+  transition: border-color var(--transition-base, 120ms), box-shadow var(--transition-base, 120ms);
 }
 .feed-card:hover { border-color: var(--border-strong); box-shadow: var(--shadow-elevated); }
 
@@ -864,9 +991,7 @@ footer.site-footer {
   0% { background-position: 200% 0; }
   100% { background-position: -200% 0; }
 }
-@media (prefers-reduced-motion: reduce) {
-  .skeleton { animation: none; background: var(--surface-2); }
-}
+/* (Skeleton reduced-motion handled at the bottom of the file.) */
 
 /* Touch / interaction */
 button, [role="button"], a.btn {
@@ -884,6 +1009,148 @@ button, [role="button"], a.btn {
   nav.primary-nav a { padding: 8px 7px; font-size: 13px; }
   h1.page-title { font-size: 24px; }
   main { padding: 16px 12px 60px; }
+}
+
+/* ============================================================
+   Theme picker (DESIGN.md § 15.4)
+   Native <details> for disclosure, radios for selection.
+   ============================================================ */
+
+.theme-picker {
+  position: relative;
+  font-family: var(--font-sans);
+}
+.theme-picker > summary {
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 10px 0 12px;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  transition: background var(--transition-base, 120ms), color var(--transition-base, 120ms), border-color var(--transition-base, 120ms);
+}
+.theme-picker > summary::-webkit-details-marker { display: none; }
+.theme-picker > summary::marker { content: ""; }
+.theme-picker > summary:hover {
+  background: var(--surface-2);
+  color: var(--text);
+  border-color: var(--border-strong);
+}
+.theme-picker > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.theme-picker-current {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.theme-picker-chevron {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  flex: 0 0 10px;
+  transition: transform var(--transition-base, 120ms);
+}
+.theme-picker[open] .theme-picker-chevron { transform: rotate(180deg); }
+
+.theme-picker-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 60;
+  background: var(--surface);
+  -webkit-backdrop-filter: var(--surface-backdrop, none);
+  backdrop-filter: var(--surface-backdrop, none);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-elevated);
+  margin: 0;
+  padding: 6px;
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.theme-option {
+  display: grid;
+  grid-template-columns: 18px 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--text);
+  min-height: 36px;
+  transition: background var(--transition-fast, 90ms);
+}
+.theme-option:hover { background: var(--surface-2); }
+.theme-option input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border-strong);
+  background: transparent;
+  margin: 0;
+  cursor: pointer;
+  transition: border-color var(--transition-fast, 90ms);
+  display: inline-grid;
+  place-items: center;
+}
+.theme-option input[type="radio"]:checked {
+  border-color: var(--accent);
+}
+.theme-option input[type="radio"]:checked::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.theme-option input[type="radio"]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.theme-option-name { font-weight: 500; }
+.theme-option-tag {
+  font-size: 10.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-faint);
+  white-space: nowrap;
+}
+
+/* Override: cyan accent in Robot Dreams needs explicit on-text */
+[data-theme="robot-dreams"] .btn.primary,
+[data-theme="robot-dreams"] .pill.cat-accent {
+  color: var(--accent-on);
+}
+
+/* Reduced-motion: kill transitions across themes + picker.
+   This is the single source of truth for motion gating. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+    animation-iteration-count: 1 !important;
+  }
+  .skeleton { animation: none; background: var(--surface-2); }
+  .detail-panel,
+  .detail-backdrop,
+  .theme-picker-chevron { transition: none !important; }
 }
 
 /* Utility */

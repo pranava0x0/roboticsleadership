@@ -101,27 +101,67 @@
       .replace(/'/g, '&#39;');
   }
 
-  // ---------- Theme toggle ----------
-  function initThemeToggle() {
+  // ---------- Theme picker (4-up; see DESIGN.md § 15) ----------
+  const THEMES = [
+    { id: 'caves',         name: 'Caves of Steel',  tag: 'Earth' },
+    { id: 'naked-sun',     name: 'The Naked Sun',   tag: 'Solaria' },
+    { id: 'dawn',          name: 'Robots of Dawn',  tag: 'Aurora' },
+    { id: 'robot-dreams',  name: 'Robot Dreams',    tag: 'Cosmic' },
+  ];
+  const THEME_IDS = new Set(THEMES.map((t) => t.id));
+  const LEGACY = { light: 'naked-sun', dark: 'caves' }; // migrate old values
+
+  function resolveInitialTheme() {
     const stored = localStorage.getItem('theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const initial = stored || (prefersDark ? 'dark' : 'light');
+    if (stored) {
+      if (THEME_IDS.has(stored)) return stored;
+      if (LEGACY[stored]) {
+        localStorage.setItem('theme', LEGACY[stored]); // persist migration
+        return LEGACY[stored];
+      }
+    }
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'caves' : 'dawn';
+  }
+
+  function applyTheme(id) {
+    if (!THEME_IDS.has(id)) return;
+    document.documentElement.setAttribute('data-theme', id);
+    localStorage.setItem('theme', id);
+  }
+
+  function initThemePicker() {
+    const initial = resolveInitialTheme();
     document.documentElement.setAttribute('data-theme', initial);
 
-    const btn = document.getElementById('theme-toggle');
-    if (!btn) return;
-    function refresh() {
-      const cur = document.documentElement.getAttribute('data-theme');
-      btn.setAttribute('aria-label', `Switch to ${cur === 'dark' ? 'light' : 'dark'} theme`);
-      btn.textContent = cur === 'dark' ? '☀' : '☾';
+    const root = document.getElementById('theme-picker');
+    if (!root) return;
+    const current = root.querySelector('.theme-picker-current');
+    const radios = root.querySelectorAll('input[type="radio"][name="theme"]');
+
+    function refresh(id) {
+      const t = THEMES.find((x) => x.id === id);
+      if (current && t) current.textContent = t.name;
+      radios.forEach((r) => { r.checked = r.value === id; });
     }
-    refresh();
-    btn.addEventListener('click', () => {
-      const cur = document.documentElement.getAttribute('data-theme');
-      const next = cur === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('theme', next);
-      refresh();
+    refresh(initial);
+
+    radios.forEach((r) => {
+      r.addEventListener('change', () => {
+        if (!r.checked) return;
+        applyTheme(r.value);
+        refresh(r.value);
+        // Close the disclosure after selection
+        root.open = false;
+      });
+    });
+
+    // Close on Escape or outside click while open
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && root.open) { root.open = false; root.querySelector('summary').focus(); }
+    });
+    document.addEventListener('click', (e) => {
+      if (!root.open) return;
+      if (!root.contains(e.target)) root.open = false;
     });
   }
 
@@ -219,7 +259,7 @@
 
   // ---------- Boot sequence ----------
   function init() {
-    initThemeToggle();
+    initThemePicker();
     highlightActiveNav();
   }
 

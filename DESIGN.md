@@ -280,6 +280,141 @@ Decisions made by *omission*:
 
 ---
 
+## 15. Theme system — the four Asimov themes
+
+> **Project-specific.** Most rules in this document are universal. The four themes below are the concrete visual identity of the Robotics Tracker project. They override § 2's "no web fonts" default with an explicit justification: **the typography is the theme identity**. Without distinct type, the themes collapse into "just a palette swap."
+
+The project ships four named themes, each evoking a setting from Isaac Asimov's Robot series. The aesthetic philosophy of each theme is enforced by typography, color, density, and motion — not by extra components or layouts.
+
+### 15.1 Architecture
+
+- **Single source of truth: CSS custom properties** on the `<html>` element, scoped by `[data-theme="<name>"]`. JS reads `getComputedStyle()` for any value it needs; no hex codes live outside the theme blocks.
+- **Token names are role-based, not theme-specific.** `--bg`, `--surface`, `--surface-2`, `--text`, `--text-muted`, `--accent` mean the same role in every theme; only the value changes. The variable `--font-serif` is the "display / headers" font even when the theme's chosen face is technically condensed-sans (Caves) or monospace (Robot Dreams).
+- **`<html data-theme="...">` is set before first paint** by a tiny inline boot script reading `localStorage` and falling back to `prefers-color-scheme`. Avoids FOUC.
+- **Persistence:** `localStorage.theme` stores one of `caves` / `naked-sun` / `dawn` / `robot-dreams`. Legacy values `light` and `dark` migrate to `naked-sun` and `caves` respectively.
+- **Default rule:** `prefers-color-scheme: dark` → `caves`, otherwise `dawn`. Any stored choice wins over both.
+- **Per-theme aesthetic tokens** allow a single component (`.card`, `.pill`, `.surface`) to look different across themes without theme-specific CSS classes. Tokens that vary per theme: `--radius-card`, `--shadow-rest`, `--shadow-elevated`, `--surface-backdrop` (the last only set in Robot Dreams).
+
+### 15.2 Accessibility — WCAG 2.1 AA
+
+All four themes meet or exceed 4.5:1 contrast for body text and 3:1 for large display text. Specific minima verified:
+
+| Theme           | Body on bg                  | Accent on bg              | Notes |
+|-----------------|-----------------------------|---------------------------|-------|
+| Caves of Steel  | #F5F5F5 on #121212 ≈ 17:1   | #FFC700 on #121212 ≈ 13:1 | Status green #00FF66 used only on dark — never on white. |
+| Naked Sun       | #1A1A1A on #FAFAFA ≈ 16:1   | #1C4E3A on #FAFAFA ≈ 8.7:1 | — |
+| Robots of Dawn  | #2D2520 on #FFF9F5 ≈ 12:1   | #8C4303 on #FFF9F5 ≈ 6.4:1 | Accent passes AA Normal and AAA Large. |
+| Robot Dreams    | #E0E6ED on #0A0915 ≈ 13:1   | #00E5FF on #0A0915 ≈ 14:1 | **Text inside any cyan-filled component must be `#0A0915`** (cyan against silver-blue is only 1.2:1). |
+
+Other accessibility requirements every theme respects:
+
+- **Fallback font stacks** declared after every web font; if the network fails or the font is being fetched, the system fallback is visually close.
+- **`@media (prefers-reduced-motion: reduce)`** kills theme-specific transitions (Naked Sun's slow fades, Robot Dreams' glow pulses).
+- **Focus indicators** never go below 2px solid outline at 2px offset; cyan inside Robot Dreams uses `outline-color: var(--accent)` so it's visible against any surface.
+- **No information conveyed by color alone.** Status pills always pair color with a label.
+
+### 15.3 Theme specs
+
+#### Theme 1 — Caves of Steel (Earth)
+
+**Aesthetic.** Industrial, subterranean, high-density. Sharp borders replace open whitespace; numbers and tables dominate. Edges are flat (no ambient shadow).
+
+```
+Display font  Barlow Condensed, "Arial Narrow", "Helvetica Condensed", sans-serif
+Body font     Roboto, system-ui, "Segoe UI", Arial, sans-serif
+
+--bg          #121212  carbon matte black
+--surface     #1a1a1a  bay-level gray (one step above bg)
+--surface-2   #242424  concrete gray
+--border      #2f2f2f
+--text        #f5f5f5  stark off-white     17:1
+--text-muted  #b0b0b0                       7:1
+--accent      #FFC700  sodium yellow       13:1 on bg
+--status-positive #00FF66 system green      Used only on dark surfaces
+--radius-card 4px      sharp
+--shadow-rest 0 0 0 1px rgba(0,0,0,0.4)     flat, no blur
+```
+
+#### Theme 2 — The Naked Sun (Solaria)
+
+**Aesthetic.** Hyper-minimalist, sterile, ultra-isolated. Single-column reading, immense padding, slow deliberate transitions. The only "decoration" is whitespace.
+
+```
+Display font  Didot, "Bodoni MT", "Bodoni Moda", "Big Caslon", Georgia, serif
+Body font     Inter, system-ui, -apple-system, "Segoe UI", sans-serif
+
+--bg          #FAFAFA  pristine white
+--surface     #FFFFFF  pure white
+--surface-2   #F0ECE1  alabaster stone
+--border      #E5E0D5
+--text        #1A1A1A  near black          16:1
+--text-muted  #5a5a5a                       8:1
+--accent      #1C4E3A  deep cypress green   8.7:1
+--radius-card 14px     soft
+--shadow-rest none     intentionally flat
+--space-page  generous (page lede max-width 56ch, body padding scales up)
+--transition-slow 320ms (transitions use this)
+```
+
+#### Theme 3 — The Robots of Dawn (Aurora)
+
+**Aesthetic.** Utopian, premium, serene, automated. Rounded cards, soft depth, generous-but-not-empty whitespace. Reads like an Atlantic feature.
+
+```
+Display font  Cormorant Garamond, Georgia, "Iowan Old Style", "Apple Garamond", serif
+Body font     Montserrat, system-ui, -apple-system, "Segoe UI", sans-serif
+
+--bg          #FFF9F5  dawn blush
+--surface     #FFFFFF
+--surface-2   #EFE3D8  warm marble beige
+--border      #E4D8C7
+--text        #2D2520  rich espresso brown 12:1
+--text-muted  #6b5e54                       6:1
+--accent      #8C4303  terracotta gold      6.4:1
+--radius-card 16px     pronounced
+--shadow-rest 0 1px 3px rgba(45,37,32,0.08)
+--shadow-elevated 0 8px 24px rgba(45,37,32,0.10)
+```
+
+#### Theme 4 — Robot Dreams (Subconscious)
+
+**Aesthetic.** Cosmic, mathematical, ethereal dark mode. Glassmorphic surfaces over a deep midnight blue; cyan glows on interactive elements; mono headers signal the systemic / computed nature of the data.
+
+```
+Display font  Orbitron, "Courier New", "SF Mono", Menlo, monospace
+Body font     Plus Jakarta Sans, system-ui, -apple-system, sans-serif
+
+--bg          #0A0915  positronic midnight
+--surface     rgba(25, 24, 48, 0.6)   glass
+--surface-2   rgba(25, 24, 48, 0.42)
+--surface-backdrop blur(12px) saturate(140%)
+--border      rgba(170, 200, 240, 0.18)
+--text        #E0E6ED  silver-blue          13:1
+--text-muted  #8a96a8                       6:1
+--accent      #00E5FF  electric cyan        14:1 on bg
+--accent-on   #0A0915  text color inside any cyan-filled component
+--radius-card 12px
+--shadow-rest 0 0 0 1px rgba(0, 229, 255, 0.08)
+--shadow-elevated 0 0 24px rgba(0, 229, 255, 0.18)   subtle glow
+```
+
+> **Robot Dreams pitfall.** The `backdrop-filter: blur(...)` rule violates the § 10 "no filter on hot panes" pitfall *for content panes* (maps, scrolling feeds). It is acceptable here because it's applied only to bounded card surfaces, not to a viewport-sized scrolling layer. If we later add a map view, the cards must drop blur when overlaid on map tiles or perf collapses on mobile.
+
+### 15.4 Toggle UI
+
+A single disclosure element in the header. Native `<details>` for show/hide (zero JS for the open/close primitive), a `<fieldset>` with four `<input type="radio">` for selection. Keyboard accessible by HTML default; semantic; no ARIA roles needed beyond the labeled fieldset.
+
+Why not a `<select>`: native select chrome can't be styled across browsers without invasive overrides, and it doesn't accommodate per-option preview/description chips.
+Why not a popover menu with `role="menu"`: more JS for the same UX as a `<details>` + radios.
+
+The disclosure is sticky-in-header on every page so a user reading on one page can switch themes without losing position.
+
+### 15.5 When to add a fifth theme
+
+The four cover four distinct moods. Don't add a fifth unless an editorial use case demands it (e.g. a print-friendly mode, or a colorblind-safe mode that the four can't all satisfy via tokens alone). Each new theme is a maintenance tax — every component template has to be visually validated against every theme.
+
+---
+
 ## Influences
 
 - **FT, Bloomberg Businessweek, ProPublica, Greater Greater Washington** — editorial gravitas through typography and restraint, not dependencies.
