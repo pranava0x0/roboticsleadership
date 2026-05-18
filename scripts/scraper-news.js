@@ -172,6 +172,7 @@ function buildRecord(item, src, existingIds) {
     source: src.id,
     source_type: src.type === 'rss' ? 'News' : src.type === 'federal-register-search' ? 'Press Release' : 'News',
     source_url: item.link,
+    archive_url: null,  // populated by scripts/archive-sources.js on a subsequent pass
     summary:
       (item.description?.slice(0, 700) || '').trim() ||
       `(no abstract from feed — see original: ${title.slice(0, 100)})`,

@@ -13,14 +13,33 @@
     "full_text_url": "https://www.congress.gov/bill/119th-congress/house-bill/7334/text",
     "robotics_scope": "National robotics strategy and coordination",
     "estimated_budget_usd": 50000000,
-    "beneficiaries": ["All US robotics companies", "Federal research agencies", "Defense", "Academia"],
-    "agency_responsible": ["Department of Commerce", "NIST", "NSF"],
+    "beneficiaries": [
+      "All US robotics companies",
+      "Federal research agencies",
+      "Defense",
+      "Academia"
+    ],
+    "agency_responsible": [
+      "Department of Commerce",
+      "NIST",
+      "NSF"
+    ],
     "startup_eligible": false,
     "application_url": null,
-    "tags": ["federal", "introduced", "national-strategy", "2026"],
+    "tags": [
+      "federal",
+      "introduced",
+      "national-strategy",
+      "2026"
+    ],
     "sources": [
-      "https://www.congress.gov/bill/119th-congress/house-bill/7334/text",
-      "https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/"
+      {
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7334/text"
+      },
+      {
+        "url": "https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/",
+        "archive_url": "https://web.archive.org/web/20260306200257/https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/"
+      }
     ],
     "last_updated": "2026-05-17"
   },
@@ -38,14 +57,33 @@
     "full_text_url": "https://www.congress.gov/bill/119th-congress/house-bill/8189",
     "robotics_scope": "Federal procurement restrictions on foreign-made robots",
     "estimated_budget_usd": null,
-    "beneficiaries": ["US robotics manufacturers", "Defense contractors"],
-    "agency_responsible": ["Department of Commerce", "Department of Defense", "GSA"],
+    "beneficiaries": [
+      "US robotics manufacturers",
+      "Defense contractors"
+    ],
+    "agency_responsible": [
+      "Department of Commerce",
+      "Department of Defense",
+      "GSA"
+    ],
     "startup_eligible": false,
     "application_url": null,
-    "tags": ["federal", "introduced", "national-security", "china-competition", "procurement", "2026"],
+    "tags": [
+      "federal",
+      "introduced",
+      "national-security",
+      "china-competition",
+      "procurement",
+      "2026"
+    ],
     "sources": [
-      "https://www.congress.gov/bill/119th-congress/house-bill/8189",
-      "https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/"
+      {
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8189"
+      },
+      {
+        "url": "https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/",
+        "archive_url": "https://web.archive.org/web/20260306200257/https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/"
+      }
     ],
     "last_updated": "2026-05-17"
   },
@@ -63,15 +101,32 @@
     "full_text_url": "https://www.congress.gov/",
     "robotics_scope": "Tax treatment of automation capex",
     "estimated_budget_usd": null,
-    "beneficiaries": ["All US manufacturers buying robots", "Logistics operators", "Automation buyers"],
-    "agency_responsible": ["Treasury", "IRS"],
+    "beneficiaries": [
+      "All US manufacturers buying robots",
+      "Logistics operators",
+      "Automation buyers"
+    ],
+    "agency_responsible": [
+      "Treasury",
+      "IRS"
+    ],
     "startup_eligible": true,
     "application_url": null,
-    "tags": ["federal", "passed-house", "tax", "manufacturing", "capex"],
-    "sources": [
-      "https://standardbots.com/blog/obbb-robotics"
+    "tags": [
+      "federal",
+      "passed-house",
+      "tax",
+      "manufacturing",
+      "capex"
     ],
-    "last_updated": "2026-05-17"
+    "sources": [
+      {
+        "url": "https://standardbots.com/blog/obbb-robotics",
+        "archive_url": "https://web.archive.org/web/20260115081542/https://standardbots.com/blog/obbb-robotics"
+      }
+    ],
+    "last_updated": "2026-05-17",
+    "archive_url": "https://web.archive.org/web/20260517181442/https://www.congress.gov/"
   },
   {
     "id": "nist-ai-rmf",
@@ -87,13 +142,25 @@
     "full_text_url": "https://www.nist.gov/itl/ai-risk-management-framework",
     "robotics_scope": "AI / autonomy safety standards",
     "estimated_budget_usd": null,
-    "beneficiaries": ["All robotics companies deploying AI"],
-    "agency_responsible": ["NIST"],
+    "beneficiaries": [
+      "All robotics companies deploying AI"
+    ],
+    "agency_responsible": [
+      "NIST"
+    ],
     "startup_eligible": false,
     "application_url": null,
-    "tags": ["federal", "in-effect", "standards", "ai-safety", "nist"],
+    "tags": [
+      "federal",
+      "in-effect",
+      "standards",
+      "ai-safety",
+      "nist"
+    ],
     "sources": [
-      "https://www.nist.gov/itl/ai-risk-management-framework"
+      {
+        "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      }
     ],
     "last_updated": "2026-05-17"
   },
@@ -111,15 +178,34 @@
     "full_text_url": "https://www.congress.gov/bill/117th-congress/house-bill/4346",
     "robotics_scope": "Advanced manufacturing R&D, Manufacturing USA institutes",
     "estimated_budget_usd": 52700000000,
-    "beneficiaries": ["Semiconductor + advanced manufacturing", "Robotics R&D consortia", "ARM Institute"],
-    "agency_responsible": ["Department of Commerce", "NIST", "NSF"],
+    "beneficiaries": [
+      "Semiconductor + advanced manufacturing",
+      "Robotics R&D consortia",
+      "ARM Institute"
+    ],
+    "agency_responsible": [
+      "Department of Commerce",
+      "NIST",
+      "NSF"
+    ],
     "startup_eligible": true,
     "application_url": "https://www.manufacturingusa.com/",
-    "tags": ["federal", "signed", "manufacturing", "rd", "established"],
-    "sources": [
-      "https://www.congress.gov/bill/117th-congress/house-bill/4346"
+    "tags": [
+      "federal",
+      "signed",
+      "manufacturing",
+      "rd",
+      "established"
     ],
-    "last_updated": "2026-05-17"
+    "sources": [
+      {
+        "url": "https://www.congress.gov/bill/117th-congress/house-bill/4346",
+        "archive_url": "https://web.archive.org/web/20260513130038/https://www.congress.gov/bill/117th-congress/house-bill/4346"
+      }
+    ],
+    "last_updated": "2026-05-17",
+    "archive_url": "https://web.archive.org/web/20260513130038/https://www.congress.gov/bill/117th-congress/house-bill/4346",
+    "archive_url_application": "https://web.archive.org/web/20260513181409/https://www.manufacturingusa.com/"
   },
   {
     "id": "nsf-nri-3",
@@ -135,13 +221,29 @@
     "full_text_url": "https://new.nsf.gov/funding/opportunities/foundational-research-robotics",
     "robotics_scope": "Robotics R&D — human-robot interaction, integrative systems",
     "estimated_budget_usd": 50000000,
-    "beneficiaries": ["Academic researchers", "Industry partners on academic grants"],
-    "agency_responsible": ["NSF", "USDA", "NIH", "DOE"],
+    "beneficiaries": [
+      "Academic researchers",
+      "Industry partners on academic grants"
+    ],
+    "agency_responsible": [
+      "NSF",
+      "USDA",
+      "NIH",
+      "DOE"
+    ],
     "startup_eligible": true,
     "application_url": "https://new.nsf.gov/funding/opportunities/foundational-research-robotics",
-    "tags": ["federal", "in-effect", "rd-grant", "nsf", "academic"],
+    "tags": [
+      "federal",
+      "in-effect",
+      "rd-grant",
+      "nsf",
+      "academic"
+    ],
     "sources": [
-      "https://new.nsf.gov/funding/opportunities/foundational-research-robotics"
+      {
+        "url": "https://new.nsf.gov/funding/opportunities/foundational-research-robotics"
+      }
     ],
     "last_updated": "2026-05-17"
   },
@@ -159,13 +261,30 @@
     "full_text_url": "https://www.defense.gov/News/Releases/Release/Article/3490150/",
     "robotics_scope": "Mass-deployable autonomous defense systems",
     "estimated_budget_usd": 1000000000,
-    "beneficiaries": ["Anduril", "Shield AI", "Skydio", "Defense robotics startups"],
-    "agency_responsible": ["Department of Defense", "Defense Innovation Unit"],
+    "beneficiaries": [
+      "Anduril",
+      "Shield AI",
+      "Skydio",
+      "Defense robotics startups"
+    ],
+    "agency_responsible": [
+      "Department of Defense",
+      "Defense Innovation Unit"
+    ],
     "startup_eligible": true,
     "application_url": "https://www.diu.mil/",
-    "tags": ["federal", "in-effect", "defense", "procurement", "autonomous-systems"],
+    "tags": [
+      "federal",
+      "in-effect",
+      "defense",
+      "procurement",
+      "autonomous-systems"
+    ],
     "sources": [
-      "https://www.defense.gov/"
+      {
+        "url": "https://www.defense.gov/",
+        "archive_url": "https://web.archive.org/web/20260105224154/http://defense.gov/"
+      }
     ],
     "last_updated": "2026-05-17"
   },
@@ -183,13 +302,28 @@
     "full_text_url": "https://comptroller.texas.gov/economy/local/tef/",
     "robotics_scope": "Manufacturing capex incentive",
     "estimated_budget_usd": null,
-    "beneficiaries": ["Manufacturers locating in Texas", "Robotics OEMs"],
-    "agency_responsible": ["Texas Comptroller", "Office of the Governor"],
+    "beneficiaries": [
+      "Manufacturers locating in Texas",
+      "Robotics OEMs"
+    ],
+    "agency_responsible": [
+      "Texas Comptroller",
+      "Office of the Governor"
+    ],
     "startup_eligible": true,
     "application_url": "https://comptroller.texas.gov/economy/local/tef/",
-    "tags": ["state", "texas", "in-effect", "tax-credit", "manufacturing"],
+    "tags": [
+      "state",
+      "texas",
+      "in-effect",
+      "tax-credit",
+      "manufacturing"
+    ],
     "sources": [
-      "https://comptroller.texas.gov/"
+      {
+        "url": "https://comptroller.texas.gov/",
+        "archive_url": "https://web.archive.org/web/20260514152214/https://comptroller.texas.gov/"
+      }
     ],
     "last_updated": "2026-05-17"
   },
@@ -207,15 +341,32 @@
     "full_text_url": "https://www.michiganbusiness.org/",
     "robotics_scope": "R&D, mobility, AV/robotics testing",
     "estimated_budget_usd": null,
-    "beneficiaries": ["Mobility startups", "Robotics R&D operations"],
-    "agency_responsible": ["MEDC"],
+    "beneficiaries": [
+      "Mobility startups",
+      "Robotics R&D operations"
+    ],
+    "agency_responsible": [
+      "MEDC"
+    ],
     "startup_eligible": true,
     "application_url": "https://www.michiganbusiness.org/",
-    "tags": ["state", "michigan", "in-effect", "tax-credit", "rd", "mobility"],
-    "sources": [
-      "https://www.michiganbusiness.org/"
+    "tags": [
+      "state",
+      "michigan",
+      "in-effect",
+      "tax-credit",
+      "rd",
+      "mobility"
     ],
-    "last_updated": "2026-05-17"
+    "sources": [
+      {
+        "url": "https://www.michiganbusiness.org/",
+        "archive_url": "https://web.archive.org/web/20260515100314/https://www.michiganbusiness.org/"
+      }
+    ],
+    "last_updated": "2026-05-17",
+    "archive_url": "https://web.archive.org/web/20260515100314/https://www.michiganbusiness.org/",
+    "archive_url_application": "https://web.archive.org/web/20260515100314/https://www.michiganbusiness.org/"
   },
   {
     "id": "pa-pittsburgh-robotics",
@@ -231,13 +382,25 @@
     "full_text_url": "https://dced.pa.gov/",
     "robotics_scope": "Cluster incentives, R&D infrastructure",
     "estimated_budget_usd": null,
-    "beneficiaries": ["Pittsburgh-area robotics startups"],
-    "agency_responsible": ["PA DCED"],
+    "beneficiaries": [
+      "Pittsburgh-area robotics startups"
+    ],
+    "agency_responsible": [
+      "PA DCED"
+    ],
     "startup_eligible": true,
     "application_url": "https://www.pittsburghroboticsnetwork.org/",
-    "tags": ["state", "pennsylvania", "in-effect", "cluster", "pittsburgh"],
+    "tags": [
+      "state",
+      "pennsylvania",
+      "in-effect",
+      "cluster",
+      "pittsburgh"
+    ],
     "sources": [
-      "https://www.pittsburghroboticsnetwork.org/"
+      {
+        "url": "https://www.pittsburghroboticsnetwork.org/"
+      }
     ],
     "last_updated": "2026-05-17"
   },
@@ -255,13 +418,27 @@
     "full_text_url": "https://edpnc.com/incentives/jdig/",
     "robotics_scope": "Major manufacturing investment",
     "estimated_budget_usd": null,
-    "beneficiaries": ["Large robotics manufacturers", "Suppliers locating in NC"],
-    "agency_responsible": ["NC Department of Commerce", "Economic Investment Committee"],
+    "beneficiaries": [
+      "Large robotics manufacturers",
+      "Suppliers locating in NC"
+    ],
+    "agency_responsible": [
+      "NC Department of Commerce",
+      "Economic Investment Committee"
+    ],
     "startup_eligible": false,
     "application_url": "https://edpnc.com/incentives/jdig/",
-    "tags": ["state", "north-carolina", "in-effect", "grant", "manufacturing"],
+    "tags": [
+      "state",
+      "north-carolina",
+      "in-effect",
+      "grant",
+      "manufacturing"
+    ],
     "sources": [
-      "https://edpnc.com/incentives/jdig/"
+      {
+        "url": "https://edpnc.com/incentives/jdig/"
+      }
     ],
     "last_updated": "2026-05-17"
   },
@@ -279,15 +456,31 @@
     "full_text_url": "https://arpa-e.energy.gov/",
     "robotics_scope": "Robotics + AI for energy infrastructure",
     "estimated_budget_usd": 30000000,
-    "beneficiaries": ["Energy + robotics startups", "National labs"],
-    "agency_responsible": ["DOE / ARPA-E"],
+    "beneficiaries": [
+      "Energy + robotics startups",
+      "National labs"
+    ],
+    "agency_responsible": [
+      "DOE / ARPA-E"
+    ],
     "startup_eligible": true,
     "application_url": "https://arpa-e.energy.gov/",
-    "tags": ["federal", "in-effect", "rd-grant", "energy", "arpa-e"],
-    "sources": [
-      "https://arpa-e.energy.gov/"
+    "tags": [
+      "federal",
+      "in-effect",
+      "rd-grant",
+      "energy",
+      "arpa-e"
     ],
-    "last_updated": "2026-05-17"
+    "sources": [
+      {
+        "url": "https://arpa-e.energy.gov/",
+        "archive_url": "https://web.archive.org/web/20260509040423/https://arpa-e.energy.gov/"
+      }
+    ],
+    "last_updated": "2026-05-17",
+    "archive_url": "https://web.archive.org/web/20260509040423/https://arpa-e.energy.gov/",
+    "archive_url_application": "https://web.archive.org/web/20260509040423/https://arpa-e.energy.gov/"
   },
   {
     "id": "ny-rd-credit",
@@ -303,15 +496,29 @@
     "full_text_url": "https://esd.ny.gov/excelsior-jobs-program",
     "robotics_scope": "Strategic industry incentives",
     "estimated_budget_usd": null,
-    "beneficiaries": ["NY-based robotics + AI firms"],
-    "agency_responsible": ["Empire State Development"],
+    "beneficiaries": [
+      "NY-based robotics + AI firms"
+    ],
+    "agency_responsible": [
+      "Empire State Development"
+    ],
     "startup_eligible": true,
     "application_url": "https://esd.ny.gov/excelsior-jobs-program",
-    "tags": ["state", "new-york", "in-effect", "tax-credit"],
-    "sources": [
-      "https://esd.ny.gov/excelsior-jobs-program"
+    "tags": [
+      "state",
+      "new-york",
+      "in-effect",
+      "tax-credit"
     ],
-    "last_updated": "2026-05-17"
+    "sources": [
+      {
+        "url": "https://esd.ny.gov/excelsior-jobs-program",
+        "archive_url": "https://web.archive.org/web/20260123150850/https://esd.ny.gov/excelsior-jobs-program"
+      }
+    ],
+    "last_updated": "2026-05-17",
+    "archive_url": "https://web.archive.org/web/20260123150850/https://esd.ny.gov/excelsior-jobs-program",
+    "archive_url_application": "https://web.archive.org/web/20260123150850/https://esd.ny.gov/excelsior-jobs-program"
   },
   {
     "id": "rfa-coalition-launch",
@@ -327,13 +534,24 @@
     "full_text_url": "https://www.design-engineering.com/robots-for-america-launches-national-coalition-to-advance-u-s-robotics-deployment-policy-1004048555/",
     "robotics_scope": "Industry coalition policy framework",
     "estimated_budget_usd": null,
-    "beneficiaries": ["All US robotics companies"],
-    "agency_responsible": ["Multi-agency target (Commerce, Labor, DoT)"],
+    "beneficiaries": [
+      "All US robotics companies"
+    ],
+    "agency_responsible": [
+      "Multi-agency target (Commerce, Labor, DoT)"
+    ],
     "startup_eligible": false,
     "application_url": null,
-    "tags": ["federal", "coalition", "industry-framework", "2026"],
+    "tags": [
+      "federal",
+      "coalition",
+      "industry-framework",
+      "2026"
+    ],
     "sources": [
-      "https://www.design-engineering.com/robots-for-america-launches-national-coalition-to-advance-u-s-robotics-deployment-policy-1004048555/"
+      {
+        "url": "https://www.design-engineering.com/robots-for-america-launches-national-coalition-to-advance-u-s-robotics-deployment-policy-1004048555/"
+      }
     ],
     "last_updated": "2026-05-17"
   }

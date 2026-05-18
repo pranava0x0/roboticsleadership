@@ -328,7 +328,10 @@
         <div class="detail-section">
           <h3>Sources</h3>
           <ul class="link-list">
-            ${(c.sources || []).map(s => `<li><a href="${RT.escapeHTML(s)}" target="_blank" rel="noopener">${RT.escapeHTML(s)}</a></li>`).join('') || '<li class="muted-cell">No sources listed</li>'}
+            ${(c.sources || []).map(s => {
+              const url = RT.sourceURL(s), arc = RT.sourceArchive(s);
+              return `<li><a href="${RT.escapeHTML(url)}" target="_blank" rel="noopener">${RT.escapeHTML(url)}</a>${RT.archiveLink(arc)}</li>`;
+            }).join('') || '<li class="muted-cell">No sources listed</li>'}
           </ul>
           <p class="muted" style="font-size:12px;margin-top:8px;">Last updated <span class="tnum">${RT.escapeHTML(RT.formatDate(c.last_updated))}</span></p>
         </div>

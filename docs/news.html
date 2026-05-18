@@ -192,7 +192,10 @@
           <p class="summary">${RT.escapeHTML(n.summary)}</p>
           <div class="footer-row">
             ${companyPills}${policyPills}
-            <span class="row-end"><a href="${RT.escapeHTML(n.source_url)}" target="_blank" rel="noopener">Read original →</a></span>
+            <span class="row-end">
+              <a href="${RT.escapeHTML(n.source_url)}" target="_blank" rel="noopener">Read original →</a>
+              ${RT.archiveLink(n.archive_url)}
+            </span>
           </div>
         </article>
       `;

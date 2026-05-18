@@ -1,0 +1,72 @@
+name: Archive sources (monthly)
+
+# Walks every source URL in the dataset and captures the nearest
+# Wayback Machine snapshot. Opens a PR if any URLs were updated.
+# Runs on the first of every month + on demand.
+
+on:
+  schedule:
+    - cron: '0 8 1 * *'  # 08:00 UTC on the 1st of each month
+  workflow_dispatch:
+    inputs:
+      save_missing:
+        description: 'Trigger Wayback Save Page Now for URLs without snapshots'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: archive-sources
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run archive-sources
+        run: |
+          if [ "${{ github.event.inputs.save_missing }}" = "true" ]; then
+            node scripts/archive-sources.js --save-missing
+          else
+            node scripts/archive-sources.js
+          fi
+
+      - name: Validate after archive
+        run: node scripts/validate.js
+
+      - name: Open PR if data changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          if git diff --quiet docs/data/; then
+            echo "No new archive URLs — nothing to PR."
+            exit 0
+          fi
+          STAMP="$(date -u +%Y-%m-%d-%H%M%S)"
+          BRANCH="auto/archive-$STAMP"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add docs/data/
+          git commit -m "data(archive): refresh Wayback snapshots $(date -u +%Y-%m-%d)"
+          git push --set-upstream origin "$BRANCH"
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "data(archive): refresh Wayback snapshots $(date -u +%Y-%m-%d)" \
+            --body-file .github/pr-body-archive.md

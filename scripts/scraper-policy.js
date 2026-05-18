@@ -85,8 +85,9 @@ function buildPolicy(r, existingIds) {
     agency_responsible: (r.agencies || []).map((a) => a.name),
     startup_eligible: false,
     application_url: null,
+    archive_url: null,  // populated by scripts/archive-sources.js on a subsequent pass
     tags: ['federal', 'federal-register', 'auto-scraped'],
-    sources: [r.html_url],
+    sources: [{ url: r.html_url }],
     last_updated: new Date().toISOString().slice(0, 10),
     _scraped: true,
     _requires_curator_review: true,

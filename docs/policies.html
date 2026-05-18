@@ -330,8 +330,11 @@
         <div class="detail-section">
           <h3>Sources</h3>
           <ul class="link-list">
-            ${p.full_text_url ? `<li><a href="${RT.escapeHTML(p.full_text_url)}" target="_blank" rel="noopener">Full text</a></li>` : ''}
-            ${(p.sources || []).map(s => `<li><a href="${RT.escapeHTML(s)}" target="_blank" rel="noopener">${RT.escapeHTML(s)}</a></li>`).join('') || '<li class="muted-cell">No sources listed</li>'}
+            ${p.full_text_url ? `<li><a href="${RT.escapeHTML(p.full_text_url)}" target="_blank" rel="noopener">Full text</a>${RT.archiveLink(p.archive_url)}</li>` : ''}
+            ${(p.sources || []).map(s => {
+              const url = RT.sourceURL(s), arc = RT.sourceArchive(s);
+              return `<li><a href="${RT.escapeHTML(url)}" target="_blank" rel="noopener">${RT.escapeHTML(url)}</a>${RT.archiveLink(arc)}</li>`;
+            }).join('') || '<li class="muted-cell">No sources listed</li>'}
           </ul>
           <p class="muted" style="font-size:12px;margin-top:8px;">Last updated <span class="tnum">${RT.escapeHTML(RT.formatDate(p.last_updated))}</span></p>
         </div>

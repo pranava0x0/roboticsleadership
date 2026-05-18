@@ -360,6 +360,7 @@
       const srcLink = m.source_url
         ? `<a class="metric-source" href="${RT.escapeHTML(m.source_url)}" target="_blank" rel="noopener" aria-label="Source for ${RT.escapeHTML(m.name)}" title="${RT.escapeHTML(m.source_url)}">↗</a>`
         : '';
+      const archLink = RT.archiveLink(m.archive_url);
       const srcNote = m.source_note && !m.source_url
         ? `<span class="metric-source-note">${RT.escapeHTML(m.source_note)}</span>`
         : '';
@@ -373,6 +374,7 @@
           <span class="metric-foot">
             <span>${RT.escapeHTML(RT.formatDate(m.date))}</span>
             ${srcLink}
+            ${archLink}
             ${srcNote}
             ${srcNoteWithLink}
           </span>
@@ -436,7 +438,7 @@
       ? `<div class="narrative-sources">
            <h3>Sources (${t.narrative_sources.length})</h3>
            <ol>${t.narrative_sources.map(s => `
-             <li><a href="${RT.escapeHTML(s.url)}" target="_blank" rel="noopener">${RT.escapeHTML(s.label)}</a></li>
+             <li><a href="${RT.escapeHTML(s.url)}" target="_blank" rel="noopener">${RT.escapeHTML(s.label)}</a>${RT.archiveLink(s.archive_url)}</li>
            `).join('')}</ol>
          </div>`
       : '';

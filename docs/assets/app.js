@@ -101,6 +101,15 @@
       .replace(/'/g, '&#39;');
   }
 
+  // ---------- Source / archive helpers ----------
+  // sources[] entries are either strings (legacy) or { url, archive_url } objects.
+  function sourceURL(s) { return typeof s === 'string' ? s : (s && s.url) || ''; }
+  function sourceArchive(s) { return typeof s === 'string' ? null : (s && s.archive_url) || null; }
+  function archiveLink(archiveUrl, label) {
+    if (!archiveUrl) return '';
+    return `<a class="archive-link" href="${escapeHTML(archiveUrl)}" target="_blank" rel="noopener" title="Wayback Machine snapshot">${escapeHTML(label || 'archived')} ↗</a>`;
+  }
+
   // ---------- Theme picker (4-up; see DESIGN.md § 15) ----------
   const THEMES = [
     { id: 'caves',         name: 'Caves of Steel',  tag: 'Earth' },
@@ -279,6 +288,9 @@
     relativeDate,
     prettyHQ,
     escapeHTML,
+    sourceURL,
+    sourceArchive,
+    archiveLink,
     readQuery,
     writeQuery,
     sortBy,

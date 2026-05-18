@@ -35,6 +35,12 @@ const SCHEMAS = {
       if (!Array.isArray(rec.sources) || rec.sources.length === 0) {
         addError('record has no sources[] — every record must cite at least one primary source');
       }
+      // sources[] entries may be a string (legacy) or { url, archive_url? } (current)
+      (rec.sources || []).forEach((s, i) => {
+        if (typeof s === 'string') return;
+        if (s && typeof s === 'object' && typeof s.url === 'string') return;
+        addError(`sources[${i}] must be a URL string or { url, archive_url? } object`);
+      });
       (rec.funding_rounds || []).forEach((r, i) => {
         if (!r.date) addError(`funding_rounds[${i}] missing date`);
         if (!r.round) addError(`funding_rounds[${i}] missing round name`);
@@ -62,6 +68,11 @@ const SCHEMAS = {
       if (!Array.isArray(rec.sources) || rec.sources.length === 0) {
         addError('record has no sources[]');
       }
+      (rec.sources || []).forEach((s, i) => {
+        if (typeof s === 'string') return;
+        if (s && typeof s === 'object' && typeof s.url === 'string') return;
+        addError(`sources[${i}] must be a URL string or { url, archive_url? } object`);
+      });
     },
   },
   news: {
