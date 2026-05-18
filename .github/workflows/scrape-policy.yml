@@ -1,0 +1,46 @@
+name: Scrape policy (weekly)
+
+on:
+  schedule:
+    # Monday 14:00 UTC = ~10:00 ET.
+    - cron: '0 14 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-mutation
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run policy scraper
+        run: node scripts/scraper-policy.js
+
+      - name: Validate JSON after scrape
+        run: node scripts/validate.js
+
+      - name: Commit changes if any
+        run: |
+          set -e
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/policies.json docs/data/sources.json
+          if git diff --staged --quiet; then
+            echo "No new policy items — nothing to commit."
+            exit 0
+          fi
+          git commit -m "data(policy): auto-scrape $(date -u +%Y-%m-%d)"
+          git push
