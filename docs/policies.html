@@ -137,6 +137,14 @@
   document.addEventListener('DOMContentLoaded', async () => {
     const policies = await RT.loadData('policies');
     const news = await RT.loadData('news');
+    const agencies = await RT.loadData('agencies');
+
+    const agencyMap = {};
+    const agencyFullMap = {};
+    agencies.forEach(a => {
+      agencyMap[a.id] = a.name;
+      agencyFullMap[a.id] = a.full_name;
+    });
 
     // ---- KPI strip ----
     const inProgress = policies.filter(p => ['Introduced','Committee','Passed House','Passed Senate'].includes(p.status)).length;
@@ -193,7 +201,12 @@
         if (status && p.status !== status) return false;
         if (type && p.type !== type) return false;
         if (search) {
-          const blob = [p.title, p.summary, p.sponsor, p.bill_number, (p.tags || []).join(' '), p.robotics_scope]
+          const resolvedAgencies = (p.agency_responsible || []).flatMap(id => [
+            id,
+            agencyMap[id] || '',
+            agencyFullMap[id] || ''
+          ]);
+          const blob = [p.title, p.summary, p.sponsor, p.bill_number, (p.tags || []).join(' '), p.robotics_scope, ...resolvedAgencies]
             .join(' ').toLowerCase();
           if (!blob.includes(search.toLowerCase())) return false;
         }
@@ -228,18 +241,25 @@
         : '<tr><td colspan="5" class="muted center">No congressional items match.</td></tr>';
 
       document.getElementById('executive-tbody').innerHTML = executiveRows.length
-        ? executiveRows.map(p => `
-          <tr data-id="${RT.escapeHTML(p.id)}" tabindex="0">
-            <td>
-              <strong>${RT.escapeHTML(p.title)}</strong>
-              <span class="secondary-line">${RT.escapeHTML(p.type)} · ${RT.escapeHTML(p.robotics_scope || '')}</span>
-            </td>
-            <td>${statusPill(p.status)}</td>
-            <td class="hide-mobile">${RT.escapeHTML((p.agency_responsible || [])[0] || p.sponsor || '—')}<span class="secondary-line">${RT.escapeHTML((p.agency_responsible || []).slice(1).join(', '))}</span></td>
-            <td class="num hide-mobile">${RT.formatUSD(p.estimated_budget_usd, { fallback: '—' })}</td>
-            <td class="hide-mobile tnum">${RT.escapeHTML(RT.formatDate(p.introduced_date))}</td>
-          </tr>
-        `).join('')
+        ? executiveRows.map(p => {
+            const primaryRaw = (p.agency_responsible || [])[0];
+            const primary = primaryRaw ? (agencyMap[primaryRaw] || primaryRaw) : (p.sponsor || '—');
+            const secondary = (p.agency_responsible || []).slice(1)
+              .map(id => agencyMap[id] || id)
+              .join(', ');
+            return `
+              <tr data-id="${RT.escapeHTML(p.id)}" tabindex="0">
+                <td>
+                  <strong>${RT.escapeHTML(p.title)}</strong>
+                  <span class="secondary-line">${RT.escapeHTML(p.type)} · ${RT.escapeHTML(p.robotics_scope || '')}</span>
+                </td>
+                <td>${statusPill(p.status)}</td>
+                <td class="hide-mobile">${RT.escapeHTML(primary)}<span class="secondary-line">${RT.escapeHTML(secondary)}</span></td>
+                <td class="num hide-mobile">${RT.formatUSD(p.estimated_budget_usd, { fallback: '—' })}</td>
+                <td class="hide-mobile tnum">${RT.escapeHTML(RT.formatDate(p.introduced_date))}</td>
+              </tr>
+            `;
+          }).join('')
         : '<tr><td colspan="5" class="muted center">No executive items match.</td></tr>';
 
       document.getElementById('state-tbody').innerHTML = stateRows.length
@@ -299,7 +319,7 @@
           <dt>Status</dt><dd>${statusPill(p.status)}</dd>
           <dt>Scope</dt><dd>${RT.escapeHTML(p.robotics_scope)}</dd>
           <dt>Budget</dt><dd class="tnum">${RT.formatUSD(p.estimated_budget_usd, { fallback: '<span class="muted-cell">Not specified</span>' })}</dd>
-          <dt>Agencies</dt><dd>${(p.agency_responsible || []).map(a => `<span class="pill outline">${RT.escapeHTML(a)}</span>`).join(' ') || '<span class="muted-cell">—</span>'}</dd>
+          <dt>Agencies</dt><dd>${(p.agency_responsible || []).map(a => `<span class="pill outline">${RT.escapeHTML(agencyMap[a] || a)}</span>`).join(' ') || '<span class="muted-cell">—</span>'}</dd>
           <dt>Beneficiaries</dt><dd>${(p.beneficiaries || []).map(b => RT.escapeHTML(b)).join(', ') || '<span class="muted-cell">—</span>'}</dd>
           <dt>Application</dt><dd>${p.application_url ? `<a href="${RT.escapeHTML(p.application_url)}" target="_blank" rel="noopener">Apply / details →</a>` : '<span class="muted-cell">Not applicable</span>'}</dd>
         </dl>
