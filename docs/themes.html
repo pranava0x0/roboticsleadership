@@ -72,7 +72,7 @@
       
       grid.innerHTML = themes.map(t => {
         return `
-          <div class="theme-card" data-id="${RT.escapeHTML(t.id)}" tabindex="0" style="cursor:pointer;border:1px solid var(--border);border-radius:8px;padding:20px;background:var(--bg-elevated);position:relative;display:flex;flex-direction:column;gap:12px;">
+          <div class="theme-card" data-id="${RT.escapeHTML(t.id)}" tabindex="0" style="cursor:pointer;border:1px solid var(--border);border-radius:8px;padding:20px;background:var(--surface);position:relative;display:flex;flex-direction:column;gap:12px;">
             <div style="display:flex;justify-content:space-between;align-items:flex-start;">
               <h2 style="margin:0;font-size:18px;">${RT.escapeHTML(t.name)}</h2>
               ${t.direction === 'Accelerating' ? '<span class="pill positive">Accelerating</span>' : ''}
