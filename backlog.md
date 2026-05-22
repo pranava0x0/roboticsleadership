@@ -22,6 +22,8 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 - **Regulatory timeline Gantt chart** — currently a table. SVG Gantt would be ~150 LOC.
 - **Substack / RSS aggregation for industry writers** — Mike Kalil, Shriftman, Robotics Observer. Public posts only.
 - **Federal contract tracker (USAspending.gov)** — robotics-related awards table.
+- **Federal preemption vs. state AI legislation matrix** — Track interaction between the March 2026 U.S. Federal AI Policy Framework's preemption recommendations and state-level laws (e.g. California, Colorado) governing autonomous physical systems.
+- **Compliance checklists for ANSI/A3 R15.06-2025 & ISO 10218** — Interactive safety checklist for system-level risk assessments and cyber-physical security controls mandated by the latest collaborative/industrial robot standards.
 
 ## Low
 
@@ -33,3 +35,5 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 - **LLM-generated theme narratives** — curator writes for now; consider after 5+ themes accumulate enough data.
 - **Company logos** — visually nice, but pulling third-party brand assets has legal questions (per DESIGN.md § 3.2). Use brand-adjacent text treatments instead.
 - **Investor portfolio rollup** — "all Sequoia robotics bets" view. Nice cross-cut once data is denser.
+- **Lights-out factory case studies** — Track fully autonomous 24/7 manufacturing and self-maintenance initiatives (e.g. Tesla Fremont humanoid lines, Samsung, BMW) to compile operational metrics.
+- **Edge AI compute infrastructure tracker** — Track hardware deployment trends for local, real-time edge learning (e.g. CSIRO's Vetra network) that eliminates cloud latency in dynamic physical environments.
