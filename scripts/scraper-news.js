@@ -1,260 +1,129 @@
 #!/usr/bin/env node
-/**
- * scraper-news.js — fetch RSS feeds from sources.json and append new items to news.json.
- *
- * No dependencies. Node 18+ (uses built-in fetch).
- *
- * Behavior:
- *   - For each entry in sources.news[] with enabled:true, fetch the URL.
- *   - Parse RSS (basic regex parser — handles RSS 2.0 + Atom).
- *   - Filter by keywords[] if provided.
- *   - Deduplicate against existing news.json by source_url.
- *   - For each new item, write a stub record with:
- *       category: best-effort keyword guess, defaulting to "Research"
- *       impact_tier: "Medium"
- *       sentiment: "Neutral"
- *       confidence: "Medium"
- *       requires_verification: true  (curator should review before tagging companies/policies)
- *   - Write back news.json, sorted newest-first.
- *
- * Usage:
- *   node scripts/scraper-news.js              # run all enabled sources
- *   node scripts/scraper-news.js --dry-run    # parse, don't write
- *   node scripts/scraper-news.js --source=ieee-spectrum-robotics  # single source
- */
-
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __filename = fileURLToPath(import.meta.url);
 const ROOT = resolve(dirname(__filename), '..');
-const NEWS_FILE = resolve(ROOT, 'docs/data/news.json');
-const SOURCES_FILE = resolve(ROOT, 'docs/data/sources.json');
+const DATA_DIR = resolve(ROOT, 'docs/data');
 
-const UA = 'RoboticsTrackerBot/0.1 (+https://github.com/pranava0x0/roboticsleadership)';
+const newsFile = resolve(DATA_DIR, 'news.json');
+const sourcesFile = resolve(DATA_DIR, 'sources.json');
 
-// ----- args -----
-const args = process.argv.slice(2);
-const DRY = args.includes('--dry-run');
-const onlySource = (args.find((a) => a.startsWith('--source=')) || '').split('=')[1];
-
-// ----- helpers -----
-function load(path) {
-  return JSON.parse(readFileSync(path, 'utf8'));
-}
-function save(path, obj) {
-  writeFileSync(path, JSON.stringify(obj, null, 2) + '\n');
-}
-function slugify(s) {
-  return String(s || '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .slice(0, 80);
-}
-function todayISO() {
-  return new Date().toISOString().slice(0, 10);
-}
-function decodeEntities(s) {
-  if (!s) return '';
-  return String(s)
-    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&apos;/g, "'")
-    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(parseInt(n, 10)))
-    .replace(/<[^>]+>/g, '')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-function pickTag(xml, tag) {
-  const re = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`, 'i');
-  const m = xml.match(re);
-  return m ? decodeEntities(m[1]) : '';
-}
-function pickLink(xml) {
-  // Try <link>...</link> first, then <link href="..."/> (Atom)
-  let m = xml.match(/<link[^>]*>([^<]+)<\/link>/i);
-  if (m && m[1].trim()) return m[1].trim();
-  m = xml.match(/<link[^>]*href=["']([^"']+)["'][^>]*\/?>/i);
-  return m ? m[1].trim() : '';
-}
-function parseDate(s) {
-  if (!s) return todayISO();
-  const d = new Date(s);
-  if (isNaN(d.getTime())) return todayISO();
-  return d.toISOString().slice(0, 10);
-}
-
-// Basic RSS / Atom parser — extracts items.
-function parseFeed(xml) {
-  if (!xml) return [];
-  // RSS 2.0
+// Extremely simple XML/RSS regex parser
+function parseRSS(xmlStr) {
   const items = [];
-  const itemRegex = /<item[\s>][\s\S]*?<\/item>/gi;
-  let m;
-  while ((m = itemRegex.exec(xml)) !== null) {
-    const block = m[0];
-    items.push({
-      title: pickTag(block, 'title'),
-      link: pickLink(block),
-      pubDate: pickTag(block, 'pubDate') || pickTag(block, 'dc:date'),
-      description: pickTag(block, 'description') || pickTag(block, 'content:encoded'),
-    });
-  }
-  if (items.length > 0) return items;
-  // Atom
-  const entryRegex = /<entry[\s>][\s\S]*?<\/entry>/gi;
-  while ((m = entryRegex.exec(xml)) !== null) {
-    const block = m[0];
-    items.push({
-      title: pickTag(block, 'title'),
-      link: pickLink(block),
-      pubDate: pickTag(block, 'updated') || pickTag(block, 'published'),
-      description: pickTag(block, 'summary') || pickTag(block, 'content'),
-    });
+  const itemRegex = /<item>([\s\S]*?)<\/item>/gi;
+  let match;
+  while ((match = itemRegex.exec(xmlStr)) !== null) {
+    const itemBlock = match[1];
+    const titleMatch = /<title><!\[CDATA\[([\s\S]*?)\]\]><\/title>|<title>([\s\S]*?)<\/title>/i.exec(itemBlock);
+    const linkMatch = /<link>([\s\S]*?)<\/link>/i.exec(itemBlock);
+    const pubDateMatch = /<pubDate>([\s\S]*?)<\/pubDate>/i.exec(itemBlock);
+    const descMatch = /<description><!\[CDATA\[([\s\S]*?)\]\]><\/description>|<description>([\s\S]*?)<\/description>/i.exec(itemBlock);
+
+    if (titleMatch && linkMatch) {
+      items.push({
+        title: (titleMatch[1] || titleMatch[2] || '').trim(),
+        link: linkMatch[1].trim(),
+        pubDate: pubDateMatch ? pubDateMatch[1].trim() : new Date().toISOString(),
+        description: (descMatch ? (descMatch[1] || descMatch[2] || '') : '').replace(/<[^>]*>?/gm, '').trim()
+      });
+    }
   }
   return items;
 }
 
-// Federal Register JSON API parser
-function parseFederalRegister(json) {
-  if (!json || !Array.isArray(json.results)) return [];
-  return json.results.map((r) => ({
-    title: r.title,
-    link: r.html_url,
-    pubDate: r.publication_date,
-    description: r.abstract || r.summary || '',
-  }));
-}
-
-function categorize(title, summary) {
-  const blob = `${title} ${summary}`.toLowerCase();
-  if (/(raise|raised|raising|funding|series\s+[a-f]|seed round|valuation|invest)/i.test(blob)) return 'Funding';
-  if (/(deploy|deployment|launch|customer|partnership|pilot|signed.*contract)/i.test(blob)) return 'Deployment';
-  if (/(bill|congress|legislation|regulation|federal register|signed into law|rule)/i.test(blob)) return 'Policy';
-  if (/(china|export|tariff|sanction|geopolitic)/i.test(blob)) return 'Geopolitics';
-  if (/(supply chain|battery|actuator|lidar|chip|component)/i.test(blob)) return 'Supply Chain';
-  if (/(vs\.|compete|rival|market share|competitor)/i.test(blob)) return 'Competitive';
-  return 'Research';
-}
-
-async function fetchSource(src) {
-  const headers = { 'User-Agent': UA, Accept: '*/*' };
-  console.log(`  → fetching ${src.url}`);
-  // Respectful 1.5s delay between hosts (per-source pace handled by sequential loop)
-  const res = await fetch(src.url, { headers });
-  if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
-  const text = await res.text();
-  if (src.type === 'federal-register-search') {
-    return parseFederalRegister(JSON.parse(text));
-  }
-  return parseFeed(text);
-}
-
-function buildRecord(item, src, existingIds) {
-  const title = item.title?.slice(0, 240) || '';
-  if (!title || !item.link) return null;
-  const date = parseDate(item.pubDate);
-  let id = slugify(title + '-' + date);
-  let n = 1;
-  while (existingIds.has(id)) {
-    id = slugify(title + '-' + date) + '-' + n++;
-  }
-  return {
-    id,
-    title,
-    date,
-    source: src.id,
-    source_type: src.type === 'rss' ? 'News' : src.type === 'federal-register-search' ? 'Press Release' : 'News',
-    source_url: item.link,
-    archive_url: null,  // populated by scripts/archive-sources.js on a subsequent pass
-    summary:
-      (item.description?.slice(0, 700) || '').trim() ||
-      `(no abstract from feed — see original: ${title.slice(0, 100)})`,
-    category: categorize(title, item.description || ''),
-    companies: [],
-    policies: [],
-    themes: [],
-    sentiment: 'Neutral',
-    confidence: 'Medium',
-    tags: ['auto-scraped', `source:${src.id}`],
-    _scraped: true,
-    _requires_curator_review: true,
-  };
-}
-
 async function main() {
-  const sources = load(SOURCES_FILE);
-  const news = load(NEWS_FILE);
-  const seenUrls = new Set(news.map((n) => n.source_url));
-  const seenIds = new Set(news.map((n) => n.id));
+  const sourcesData = JSON.parse(readFileSync(sourcesFile, 'utf8'));
+  const news = JSON.parse(readFileSync(newsFile, 'utf8'));
+  const existingUrls = new Set(news.map(n => n.source_url));
+  let addedTotal = 0;
 
-  const enabled = (sources.news || []).filter((s) => s.enabled);
-  const filtered = onlySource ? enabled.filter((s) => s.id === onlySource) : enabled;
-  if (filtered.length === 0) {
-    console.error('No enabled news sources match.');
-    process.exit(1);
-  }
+  const today = new Date().toISOString().split('T')[0];
+  const newsSources = sourcesData.news.filter(s => s.type === 'rss' && s.enabled);
 
-  let added = 0;
-  let attempted = 0;
-  let failedSources = 0;
-
-  for (const src of filtered) {
-    console.log(`\n[${src.id}]`);
+  for (const source of newsSources) {
+    console.log(`Fetching from ${source.url}...`);
     try {
-      const items = await fetchSource(src);
-      console.log(`  → parsed ${items.length} items`);
-      attempted += items.length;
-      for (const item of items) {
-        if (!item.link) continue;
-        if (seenUrls.has(item.link)) continue;
-        // keyword filter
-        if (src.keywords && src.keywords.length > 0) {
-          const blob = `${item.title} ${item.description}`.toLowerCase();
-          if (!src.keywords.some((k) => blob.includes(String(k).toLowerCase()))) continue;
-        }
-        const rec = buildRecord(item, src, seenIds);
-        if (!rec) continue;
-        seenUrls.add(rec.source_url);
-        seenIds.add(rec.id);
-        news.push(rec);
-        added += 1;
+      const res = await fetch(source.url);
+      if (!res.ok) {
+        console.error(`Failed to fetch ${source.url}: HTTP ${res.status}`);
+        continue;
       }
-      // Update last_run timestamp (in-memory; written below if not dry-run)
-      src.last_run = new Date().toISOString();
-    } catch (err) {
-      console.error(`  ✗ ${err.message}`);
-      failedSources += 1;
+      const xml = await res.text();
+      const items = parseRSS(xml);
+
+      let addedForSource = 0;
+      for (const item of items) {
+        if (existingUrls.has(item.link)) continue;
+
+        let dateStr = today;
+        try {
+          const d = new Date(item.pubDate);
+          if (!isNaN(d.valueOf())) {
+            dateStr = d.toISOString().split('T')[0];
+          }
+        } catch(e){}
+
+        // Basic categorization
+        let category = "Competitive";
+        const txt = (item.title + ' ' + item.description).toLowerCase();
+        if (txt.includes('funding') || txt.includes('raised') || txt.includes('series')) category = "Funding";
+        else if (txt.includes('policy') || txt.includes('bill') || txt.includes('regulation')) category = "Policy";
+        else if (txt.includes('research') || txt.includes('paper') || txt.includes('study')) category = "Research";
+        else if (txt.includes('deploy') || txt.includes('pilot') || txt.includes('customer')) category = "Deployment";
+
+        let summary = item.description.substring(0, 200);
+        if (summary.length === 200) summary += '...';
+        if (!summary) summary = item.title;
+
+        // Generate ID
+        let idSlug = item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+        if (idSlug.length > 30) idSlug = idSlug.substring(0, 30).replace(/-$/, '');
+        const newId = `rss-${idSlug}-${Math.floor(Math.random()*1000)}`;
+
+        const newRecord = {
+          id: newId,
+          title: item.title,
+          date: dateStr,
+          source: source.id,
+          source_type: "News",
+          source_url: item.link,
+          summary: summary,
+          category: category,
+          companies: [],
+          policies: [],
+          themes: [],
+          sentiment: "Neutral",
+          confidence: "Medium",
+          tags: ["rss-import"]
+        };
+
+        news.unshift(newRecord); // Add to beginning (newest first)
+        existingUrls.add(item.link);
+        addedForSource++;
+        addedTotal++;
+      }
+      console.log(`  Added ${addedForSource} from ${source.id}`);
+      source.last_run = today;
+    } catch (e) {
+      console.error(`Error processing ${source.url}:`, e);
     }
-    // 1.5s pause between hosts (DESIGN.md / CLAUDE.md rate-limit norm)
-    await new Promise((r) => setTimeout(r, 1500));
   }
 
-  // Sort newest first
-  news.sort((a, b) => (a.date < b.date ? 1 : -1));
-
-  console.log(`\nSummary: ${added} new items appended (${attempted} parsed, ${failedSources} sources failed).`);
-
-  if (DRY) {
-    console.log('Dry run — nothing written.');
-    return;
+  if (addedTotal > 0) {
+    writeFileSync(newsFile, JSON.stringify(news, null, 2));
+    console.log(`Added ${addedTotal} new news records total.`);
+  } else {
+    console.log('No new news found.');
   }
 
-  save(NEWS_FILE, news);
-  save(SOURCES_FILE, sources);
-  console.log(`Wrote ${NEWS_FILE} (${news.length} total records).`);
-  console.log(`Wrote ${SOURCES_FILE} (updated last_run timestamps).`);
-  console.log(`\nReview new items with: node scripts/validate.js news`);
-  console.log(`Curator pass needed: tag companies[], policies[], themes[]; set impact_tier; remove _requires_curator_review.`);
+  sourcesData._meta.last_updated = today;
+  writeFileSync(sourcesFile, JSON.stringify(sourcesData, null, 2));
 }
 
-main().catch((err) => {
-  console.error('Fatal:', err);
+main().catch(err => {
+  console.error(err);
   process.exit(1);
 });

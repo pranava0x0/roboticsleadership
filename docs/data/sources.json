@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraper configuration. Each entry is consumed by scripts/scraper-*.js. Set enabled:false to skip. last_run is updated by the scraper on each invocation.",
-    "last_updated": "2026-05-18"
+    "last_updated": "2026-05-22"
   },
   "news": [
     {
@@ -11,7 +11,7 @@
       "frequency": "daily",
       "keywords": [],
       "enabled": true,
-      "last_run": null
+      "last_run": "2026-05-22"
     },
     {
       "id": "techcrunch-robotics-tag",
@@ -20,7 +20,7 @@
       "frequency": "daily",
       "keywords": [],
       "enabled": true,
-      "last_run": null
+      "last_run": "2026-05-22"
     },
     {
       "id": "the-robot-report",
@@ -29,14 +29,20 @@
       "frequency": "daily",
       "keywords": [],
       "enabled": true,
-      "last_run": null
+      "last_run": "2026-05-22"
     },
     {
       "id": "reddit-robotics",
       "type": "reddit-json",
       "url": "https://www.reddit.com/r/robotics/.json",
       "frequency": "daily",
-      "keywords": ["funding", "startup", "deployment", "raises", "humanoid"],
+      "keywords": [
+        "funding",
+        "startup",
+        "deployment",
+        "raises",
+        "humanoid"
+      ],
       "enabled": false,
       "notes": "Disabled by default — high noise. Enable with curator review.",
       "last_run": null
@@ -46,7 +52,11 @@
       "type": "federal-register-search",
       "url": "https://www.federalregister.gov/api/v1/documents.json?conditions[term]=robot",
       "frequency": "weekly",
-      "keywords": ["robot", "automation", "humanoid"],
+      "keywords": [
+        "robot",
+        "automation",
+        "humanoid"
+      ],
       "enabled": true,
       "last_run": null
     }
@@ -77,7 +87,12 @@
       "type": "api",
       "url": "https://api.congress.gov/v3/bill",
       "frequency": "weekly",
-      "keywords": ["robot", "automation", "humanoid", "manufacturing"],
+      "keywords": [
+        "robot",
+        "automation",
+        "humanoid",
+        "manufacturing"
+      ],
       "enabled": false,
       "notes": "Requires CONGRESS_API_KEY env var. Free, but rate-limited.",
       "last_run": null
@@ -87,9 +102,12 @@
       "type": "federal-register-search",
       "url": "https://www.federalregister.gov/api/v1/documents.json?conditions[term]=robotics",
       "frequency": "weekly",
-      "keywords": ["robot", "automation"],
+      "keywords": [
+        "robot",
+        "automation"
+      ],
       "enabled": true,
-      "last_run": null
+      "last_run": "2026-05-22"
     },
     {
       "id": "arpa-e",
@@ -105,7 +123,11 @@
       "type": "api",
       "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
       "frequency": "monthly",
-      "keywords": ["robot", "humanoid", "autonomous"],
+      "keywords": [
+        "robot",
+        "humanoid",
+        "autonomous"
+      ],
       "enabled": false,
       "notes": "Free, no auth. Enable once we wire a results-handler.",
       "last_run": null
