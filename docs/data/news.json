@@ -509,7 +509,9 @@
     "category": "Research",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -531,7 +533,9 @@
     "category": "Funding",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "defense-procurement"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -579,7 +583,9 @@
     "category": "Research",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -1591,7 +1597,9 @@
     "category": "Research",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "impact_tier": "Medium",
     "sentiment": "Neutral",
     "confidence": "Medium",
@@ -1789,7 +1797,9 @@
     "category": "Deployment",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "defense-procurement"
+    ],
     "impact_tier": "Medium",
     "sentiment": "Neutral",
     "confidence": "Medium",
@@ -1809,9 +1819,13 @@
     "source_url": "https://spectrum.ieee.org/quadruped-farming-robots",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNAEnjoy today’s videos! Our robots Lynx M20 help transport harvested crops in mountainous farmland—tackling the rural “last mile” logistics challenge.[ Deep Robotics ]Once again, I would point out that now that we are reaching peak humanoid robots doing humanoid things, we are inevitably about to see humanoid robots doing nonhumanoid things.[ Unitree ]In a study, a team of researchers from the Max Planck Institute for Inte",
     "category": "Funding",
-    "companies": [],
+    "companies": [
+      "unitree"
+    ],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "china-scale"
+    ],
     "impact_tier": "Medium",
     "sentiment": "Neutral",
     "confidence": "Medium",
@@ -1853,9 +1867,13 @@
     "source_url": "https://spectrum.ieee.org/robot-martial-arts",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNAEnjoy today’s videos! So humanoid robots are nearing peak human performance. I would point out, though, that this is likely very far from peak robot performance, which has yet to be effectively exploited, because it requires more than just copying humans.[ Unitree ]“The Street Dance of China”: Turning lightness into gravity, and rhythm into impact.This is a head-on collision between metal and beats. This Chinese New Year",
     "category": "Funding",
-    "companies": [],
+    "companies": [
+      "unitree"
+    ],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "china-scale"
+    ],
     "impact_tier": "Medium",
     "sentiment": "Neutral",
     "confidence": "Medium",
@@ -1929,7 +1947,10 @@
     "category": "Policy",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "defense-procurement",
+      "policy-momentum"
+    ],
     "impact_tier": "Medium",
     "sentiment": "Neutral",
     "confidence": "Medium",
@@ -1951,7 +1972,9 @@
     "category": "Policy",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "impact_tier": "Medium",
     "sentiment": "Neutral",
     "confidence": "Medium",
@@ -2133,7 +2156,9 @@
     "category": "Funding",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "impact_tier": "Medium",
     "sentiment": "Neutral",
     "confidence": "Medium",
@@ -2237,7 +2262,9 @@
     "category": "Funding",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "impact_tier": "Medium",
     "sentiment": "Neutral",
     "confidence": "Medium",
@@ -2311,7 +2338,9 @@
     "category": "Research",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "impact_tier": "Medium",
     "sentiment": "Neutral",
     "confidence": "Medium",
@@ -2359,7 +2388,9 @@
     "category": "Funding",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "impact_tier": "Medium",
     "sentiment": "Neutral",
     "confidence": "Medium",

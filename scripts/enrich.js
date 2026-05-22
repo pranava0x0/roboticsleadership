@@ -207,6 +207,7 @@ function enrichPolicies() {
     let currentAgencies = [];
     if (Array.isArray(item.agency_responsible)) {
       for (const val of item.agency_responsible) {
+        if (typeof val !== 'string' || !val) continue;
         // If it's already a valid ID, keep it.
         const ruleMatch = AGENCY_RULES.find(r => r.id === val.toLowerCase());
         if (ruleMatch) {

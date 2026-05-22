@@ -55,10 +55,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Justice Department",
-      "Drug Enforcement Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -74,7 +71,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-schedules-of-controlled-substances-placement-of-4f-mdmb-butica-adb-4en-pinaca-5f-edmb-p",
@@ -91,10 +91,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Justice Department",
-      "Drug Enforcement Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -110,7 +107,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-request-for-comments-on-the-national-weather-service-cooperative-observing-program-coop",
@@ -127,10 +127,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Commerce Department",
-      "National Oceanic and Atmospheric Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -146,7 +143,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "industrial-deployments"
+    ]
   },
   {
     "id": "fr-renewal-of-department-of-defense-federal-advisory-committees-u-s-army-science-board-202",
@@ -164,8 +164,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Defense Department",
-      null
+      "dod"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -182,7 +181,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "defense-procurement"
+    ]
   },
   {
     "id": "fr-renewal-of-department-of-defense-federal-advisory-committees-air-university-board-of-vi",
@@ -200,8 +202,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Defense Department",
-      "Defense Department"
+      "dod"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -218,7 +219,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "defense-procurement"
+    ]
   },
   {
     "id": "fr-notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-the-ope",
@@ -235,10 +239,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Justice Department",
-      "Antitrust Division"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -254,7 +255,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-excepted-fertility-benefits-2026-05",
@@ -272,11 +276,8 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Treasury Department",
-      "Internal Revenue Service",
-      "Labor Department",
-      "Employee Benefits Security Administration",
-      "Health and Human Services Department"
+      "treasury",
+      "irs"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -293,7 +294,11 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "cost-trajectory",
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-event-data-recorders-2026-05",
@@ -311,8 +316,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Transportation Department",
-      "National Highway Traffic Safety Administration"
+      "dot"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -329,7 +333,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-crystalline-silicon-photovoltaic-cells-whether-or-not-assembled-into-modules-from-india",
@@ -347,7 +354,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "International Trade Commission"
+      "doc"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -364,7 +371,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-automated-commercial-environment-ace-export-manifest-for-air-cargo-test-renewal-of-test",
@@ -381,10 +391,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Homeland Security Department",
-      "U.S. Customs and Border Protection"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -400,7 +407,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "industrial-deployments"
+    ]
   },
   {
     "id": "fr-accessible-emergency-information-and-apparatus-requirements-for-emergency-information-a",
@@ -417,9 +427,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Federal Communications Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -435,7 +443,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "doe-genesis-mission",
@@ -589,9 +600,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Personnel Management Office"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -607,7 +616,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-spectrum-abundance-for-weird-space-stuff-2026-04",
@@ -624,9 +634,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Federal Communications Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -642,7 +650,11 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "industrial-deployments",
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-special-conditions-skyryse-robinson-helicopter-company-model-r66-helicopter-flight-cont",
@@ -659,10 +671,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Transportation Department",
-      "Federal Aviation Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -678,7 +687,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-space-launch-frequency-coordination-portal-web-application-launch-2026-04",
@@ -695,10 +705,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Commerce Department",
-      "National Telecommunications and Information Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -714,7 +721,12 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "defense-procurement",
+      "industrial-deployments",
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-solicitation-of-proposals-for-annual-combating-human-trafficking-in-transportation-impa",
@@ -732,8 +744,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Transportation Department",
-      "Transportation Department"
+      "dot"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -750,7 +761,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-single-family-housing-guaranteed-loan-program-limited-party-concessions-2026-04",
@@ -768,8 +782,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Agriculture Department",
-      "Rural Housing Service"
+      "usda"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -786,7 +799,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-self-regulatory-organizations-the-nasdaq-stock-market-llc-notice-of-filing-of-amendment",
@@ -803,9 +819,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Securities and Exchange Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -821,7 +835,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-schedules-of-controlled-substances-placement-of-mdmb-4en-pinaca-in-schedule-i-2026-04",
@@ -838,10 +855,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Justice Department",
-      "Drug Enforcement Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -857,7 +871,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-request-for-information-regarding-enhancing-and-streamlining-data-collection-from-credi",
@@ -874,9 +891,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "National Credit Union Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -892,7 +907,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-request-for-information-icebreaker-collaboration-effort-ice-pact-2026-04",
@@ -909,10 +925,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Transportation Department",
-      "Maritime Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -928,7 +941,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-renewable-fuel-standard-rfs-program-standards-for-2026-and-2027-partial-waiver-of-2025-",
@@ -945,9 +959,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Environmental Protection Agency"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -963,7 +975,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-parts-and-accessories-necessary-for-safe-operation-application-for-exemption-from-auror",
@@ -980,10 +995,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Transportation Department",
-      "Federal Motor Carrier Safety Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -999,7 +1011,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "industrial-deployments"
+    ]
   },
   {
     "id": "fr-operating-limitations-at-chicago-o-hare-international-airport-order-establishing-schedu",
@@ -1016,10 +1031,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Transportation Department",
-      "Federal Aviation Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1035,7 +1047,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-new-mailing-standards-for-domestic-mailing-services-products-2026-04",
@@ -1052,9 +1065,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Postal Service"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1070,7 +1081,11 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "cost-trajectory",
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-medicare-program-contract-year-2027-and-certain-contract-year-2026-policy-and-technical",
@@ -1087,10 +1102,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Health and Human Services Department",
-      "Centers for Medicare & Medicaid Services"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1106,7 +1118,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-medicare-and-medicaid-programs-patient-protection-and-affordable-care-act-interoperabil",
@@ -1123,11 +1138,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Health and Human Services Department",
-      "Centers for Medicare & Medicaid Services",
-      null
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1143,7 +1154,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "cost-trajectory"
+    ]
   },
   {
     "id": "fr-joint-industry-plan-notice-of-filing-of-amendment-no-1-and-order-instituting-proceeding",
@@ -1160,9 +1174,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Securities and Exchange Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1178,7 +1190,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-frontline-decision-making-in-the-adjudication-of-applications-request-for-comments-2026",
@@ -1195,9 +1210,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Administrative Conference of the United States"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1213,7 +1226,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-form-pf-reporting-requirements-for-all-filers-2026-04",
@@ -1230,10 +1244,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Commodity Futures Trading Commission",
-      "Securities and Exchange Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1249,7 +1260,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-final-priority-and-definitions-secretary-s-supplemental-priority-and-definitions-on-adv",
@@ -1266,9 +1280,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Education Department"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1284,7 +1296,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-110-to-accommodate-ads",
@@ -1302,8 +1315,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Transportation Department",
-      "National Highway Traffic Safety Administration"
+      "dot"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -1320,7 +1332,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-ensuring-citizenship-verification-and-integrity-in-federal-elections-2026-04",
@@ -1337,9 +1350,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Executive Office of the President"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1355,7 +1366,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-crystalline-silicon-photovoltaic-cells-whether-or-not-assembled-into-modules-from-the-l",
@@ -1373,8 +1385,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Commerce Department",
-      "International Trade Administration"
+      "doc"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -1391,7 +1402,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-crystalline-silicon-photovoltaic-cells-whether-or-not-assembled-into-modules-from-indon",
@@ -1409,8 +1421,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Commerce Department",
-      "International Trade Administration"
+      "doc"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -1427,7 +1438,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-crystalline-silicon-photovoltaic-cells-whether-or-not-assembled-into-modules-from-india-1",
@@ -1445,8 +1457,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Commerce Department",
-      "International Trade Administration"
+      "doc"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -1463,7 +1474,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-concept-release-on-consolidated-audit-trail-and-other-audit-trails-and-data-sources-202",
@@ -1480,9 +1492,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Securities and Exchange Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1498,7 +1508,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-agency-information-collection-activities-submission-to-the-office-of-management-and-bud",
@@ -1516,8 +1529,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Transportation Department",
-      "National Highway Traffic Safety Administration"
+      "dot"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -1534,7 +1546,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-agency-information-collection-activities-notice-and-request-for-comment-novel-human-mac",
@@ -1552,8 +1567,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Transportation Department",
-      "National Highway Traffic Safety Administration"
+      "dot"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -1570,7 +1584,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-agency-information-collection-activities-federal-claims-collection-methods-for-suppleme",
@@ -1587,10 +1604,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Agriculture Department",
-      "Food and Nutrition Service"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1606,7 +1620,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fedreg-2026-05925",
@@ -1686,8 +1703,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Agriculture Department",
-      "Rural Housing Service"
+      "usda"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -1704,7 +1720,11 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "industrial-deployments",
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-self-regulatory-organizations-the-nasdaq-stock-market-llc-notice-of-filing-of-proposed-",
@@ -1721,9 +1741,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Securities and Exchange Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1739,7 +1757,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-self-regulatory-organizations-national-securities-clearing-corporation-order-approving-",
@@ -1756,9 +1777,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Securities and Exchange Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1774,7 +1793,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-self-regulatory-organizations-cboe-edgx-exchange-inc-notice-of-filing-and-immediate-eff",
@@ -1791,9 +1813,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Securities and Exchange Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1809,7 +1829,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-self-regulatory-organizations-cboe-edga-exchange-inc-notice-of-filing-and-immediate-eff",
@@ -1826,9 +1849,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Securities and Exchange Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1844,7 +1865,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-self-regulatory-organizations-cboe-bzx-exchange-inc-notice-of-filing-and-immediate-effe",
@@ -1861,9 +1885,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Securities and Exchange Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1879,7 +1901,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-self-regulatory-organizations-cboe-byx-exchange-inc-notice-of-filing-and-immediate-effe",
@@ -1896,9 +1921,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Securities and Exchange Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1914,7 +1937,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-schedules-of-controlled-substances-temporary-placement-of-bromazolam-in-schedule-i-2026",
@@ -1931,10 +1957,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Justice Department",
-      "Drug Enforcement Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1950,7 +1973,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-schedules-of-controlled-substances-placement-of-3-methoxyphencyclidine-1-1-3-methoxyphe",
@@ -1967,10 +1993,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Justice Department",
-      "Drug Enforcement Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -1986,7 +2009,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-risk-informed-technology-inclusive-regulatory-framework-for-advanced-reactors-2026-03",
@@ -2003,9 +2029,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Nuclear Regulatory Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -2021,7 +2045,11 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "industrial-deployments",
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-review-of-the-commission-s-rules-governing-the-896-901-935-940-mhz-band-2026-03",
@@ -2038,9 +2066,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Federal Communications Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -2056,7 +2082,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-publication-or-submission-of-quotations-without-specified-information-2026-03",
@@ -2073,9 +2102,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Securities and Exchange Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -2091,7 +2118,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-z-wave-",
@@ -2108,10 +2138,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Justice Department",
-      "Antitrust Division"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -2127,7 +2154,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-notice-of-revision-of-a-currently-approved-information-collection-omb-no-0570-0067-2026",
@@ -2145,8 +2175,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Agriculture Department",
-      "Rural Business-Cooperative Service"
+      "usda"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -2163,7 +2192,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-internet-based-telecommunications-relay-service-modernization-2026-03",
@@ -2180,9 +2212,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Federal Communications Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -2198,7 +2228,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-initiation-of-section-301-investigations-acts-policies-and-practices-of-certain-economi",
@@ -2215,9 +2248,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Trade Representative, Office of United States"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -2233,7 +2264,11 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "industrial-deployments",
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-103-and-fmvss-no-104-t",
@@ -2251,8 +2286,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Transportation Department",
-      "National Highway Traffic Safety Administration"
+      "dot"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -2269,7 +2303,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-102-to-accommodate-ads",
@@ -2287,8 +2324,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Transportation Department",
-      "National Highway Traffic Safety Administration"
+      "dot"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -2305,7 +2341,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-agency-information-collection-activities-notice-and-request-for-comment-crash-report-sa",
@@ -2323,8 +2362,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Transportation Department",
-      "National Highway Traffic Safety Administration"
+      "dot"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -2341,7 +2379,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-administrative-simplification-adoption-of-standards-for-health-care-claims-attachments-",
@@ -2358,10 +2399,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Health and Human Services Department",
-      null
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -2377,7 +2415,11 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "cost-trajectory",
+      "policy-momentum"
+    ]
   },
   {
     "id": "fedreg-2026-02906",
@@ -2580,7 +2622,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "National Science Foundation"
+      "nsf"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -2597,7 +2639,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-defense",
@@ -2614,10 +2657,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Justice Department",
-      "Antitrust Division"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -2633,7 +2673,11 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "defense-procurement",
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-john-bender-m-d-decision-and-order-2026-02",
@@ -2650,10 +2694,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Justice Department",
-      "Drug Enforcement Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -2669,7 +2710,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-foreign-trade-zone-ftz-183-notification-of-proposed-production-activity-ultra-clean-tec",
@@ -2686,10 +2728,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Commerce Department",
-      "Foreign-Trade Zones Board"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -2705,7 +2744,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-dekra-certification-inc-application-for-expansion-of-recognition-and-proposed-modificat",
@@ -2722,10 +2762,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Labor Department",
-      "Occupational Safety and Health Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -2741,7 +2778,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-air-plan-approval-ohio-source-specific-non-ctg-ract-and-sip-strengthening-for-ohio-2026",
@@ -2758,9 +2796,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Environmental Protection Agency"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -2776,7 +2812,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fedreg-2026-00091",
@@ -2994,9 +3031,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Securities and Exchange Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3012,7 +3047,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-notice-pursuant-to-the-national-cooperative-research-and-production-act-oo-1993-odva-in",
@@ -3029,10 +3067,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Justice Department",
-      "Antitrust Division"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3048,7 +3083,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-informa",
@@ -3065,10 +3101,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Justice Department",
-      "Antitrust Division"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3084,7 +3117,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-foreign-trade-zone-ftz-18-notification-of-proposed-production-activity-rose-electronics",
@@ -3101,10 +3137,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Commerce Department",
-      "Foreign-Trade Zones Board"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3120,7 +3153,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-der",
@@ -3137,9 +3171,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Executive Office of the President"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3155,7 +3187,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "industrial-deployments"
+    ]
   },
   {
     "id": "darpa-rsgs",
@@ -3243,9 +3278,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Homeland Security Department"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3261,7 +3294,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-university-of-washington-et-al-notice-of-decision-on-applicationfor-duty-free-entry-of-",
@@ -3278,10 +3312,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Commerce Department",
-      "International Trade Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3297,7 +3328,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-self-regulatory-organizations-the-nasdaq-stock-market-llc-notice-of-filing-and-immediat",
@@ -3314,9 +3346,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Securities and Exchange Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3332,7 +3362,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-performance-review-board-membership-2025-12",
@@ -3349,10 +3382,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Defense Department",
-      "Army Department"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3368,7 +3398,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "defense-procurement"
+    ]
   },
   {
     "id": "fr-health-data-technology-and-interoperability-astp-onc-deregulatory-actions-to-unleash-pr",
@@ -3385,10 +3418,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Health and Human Services Department",
-      null
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3404,7 +3434,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-hazardous-materials-modernizing-regulations-to-facilitate-transportation-of-hazardous-m",
@@ -3421,10 +3454,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Transportation Department",
-      "Pipeline and Hazardous Materials Safety Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3440,7 +3470,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-foreign-trade-zone-ftz-45-notification-of-proposed-production-activity-nanoverse-techno",
@@ -3457,10 +3488,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Commerce Department",
-      "Foreign-Trade Zones Board"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3476,7 +3504,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center",
@@ -3493,11 +3522,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Health and Human Services Department",
-      "Centers for Medicare & Medicaid Services",
-      null
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3513,7 +3538,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "cost-trajectory"
+    ]
   },
   {
     "id": "fr-medicare-and-medicaid-programs-cy-2026-payment-policies-under-the-physician-fee-schedul",
@@ -3530,10 +3558,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Health and Human Services Department",
-      "Centers for Medicare & Medicaid Services"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3549,7 +3574,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-launching-the-genesis-mission-2025-11",
@@ -3566,9 +3594,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Executive Office of the President"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3584,7 +3610,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-review-of-submarine-cable-landing-license-rules-and-procedures-to-assess-evolving-natio-1",
@@ -3601,9 +3628,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Federal Communications Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3619,7 +3644,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-review-of-submarine-cable-landing-license-rules-and-procedures-to-assess-evolving-natio",
@@ -3636,9 +3664,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Federal Communications Commission"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3654,7 +3680,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fedreg-2025-18778",
@@ -3870,10 +3899,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Commerce Department",
-      "International Trade Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3889,7 +3915,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-notice-of-request-for-information-technology-roadmap-to-increase-wildfire-firefighting-",
@@ -3907,7 +3934,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Science and Technology Policy Office"
+      "ostp"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -3924,7 +3951,10 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fr-computer-software-assurance-for-production-and-quality-system-software-guidance-for-ind",
@@ -3941,10 +3971,7 @@
     "robotics_scope": "Federal Register — robotics-related",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [
-      "Health and Human Services Department",
-      "Food and Drug Administration"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "archive_url": null,
@@ -3960,7 +3987,8 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": []
   },
   {
     "id": "fr-advisory-circular-no-450-169-1a-launch-and-reentry-collision-avoidance-analysis-2025-09",
@@ -3978,8 +4006,8 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Transportation Department",
-      "Federal Aviation Administration"
+      "nasa",
+      "dot"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -3996,7 +4024,11 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "defense-procurement",
+      "industrial-deployments"
+    ]
   },
   {
     "id": "fr-additions-and-revisions-to-the-entity-list-2025-09",
@@ -4014,8 +4046,7 @@
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
-      "Commerce Department",
-      "Industry and Security Bureau"
+      "doc"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -4032,7 +4063,11 @@
     ],
     "last_updated": "2026-05-18",
     "_scraped": true,
-    "_requires_curator_review": true
+    "_requires_curator_review": true,
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ]
   },
   {
     "id": "arpa-e-embodied-ai",
