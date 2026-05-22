@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="color-scheme" content="light dark" />
-  <meta name="description" content="Cross-cutting themes in robotics: China scale, foundation models, cost trajectory, defense procurement, deployment wave, policy momentum." />
-  <title>Themes · Robotics — How the U.S. can Lead</title>
+  <meta name="description" content="Cross-cutting narratives, cost trajectories, and key themes driving the robotics industry." />
+  <title>Themes · Robotics Tracker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Orbitron:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
@@ -14,232 +14,6 @@
   </script>
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/themes.json" crossorigin />
-  <style>
-    /* Tablist strip */
-    .tablist {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      padding: 8px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      margin: 4px 0 18px;
-      position: sticky;
-      top: var(--header-h);
-      z-index: 30;
-      backdrop-filter: saturate(180%) blur(12px);
-      -webkit-backdrop-filter: saturate(180%) blur(12px);
-      background: color-mix(in srgb, var(--surface) 92%, transparent);
-    }
-    .tablist [role="tab"] {
-      padding: 7px 12px;
-      border-radius: 999px;
-      font-size: 12.5px;
-      font-weight: 600;
-      color: var(--text-muted);
-      border: 1px solid var(--border);
-      background: var(--surface-2);
-      transition: color 120ms, background 120ms, border-color 120ms;
-      min-height: 32px;
-      display: inline-flex;
-      align-items: center;
-      cursor: pointer;
-    }
-    .tablist [role="tab"]:hover {
-      color: var(--text);
-      border-color: var(--border-strong);
-      background: var(--surface);
-    }
-    .tablist [role="tab"][aria-selected="true"] {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: #fff;
-    }
-    .tablist [role="tab"]:focus-visible {
-      outline: 2px solid var(--accent);
-      outline-offset: 2px;
-    }
-
-    .theme-section {
-      padding: 6px 0 8px;
-    }
-
-    .theme-head {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      align-items: baseline;
-      margin-bottom: 6px;
-    }
-    .theme-head h2 {
-      font-family: var(--font-serif);
-      font-size: 26px;
-      font-weight: 700;
-      margin: 0;
-      letter-spacing: -0.012em;
-      line-height: 1.15;
-    }
-
-    .metrics-strip {
-      display: grid;
-      gap: 10px;
-      grid-template-columns: 1fr;
-      margin: 16px 0 18px;
-    }
-    @media (min-width: 540px) { .metrics-strip { grid-template-columns: repeat(2, 1fr); } }
-    @media (min-width: 1024px) { .metrics-strip { grid-template-columns: repeat(4, 1fr); } }
-    .metric-cell {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 10px 12px;
-      box-shadow: var(--shadow-rest);
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
-    .metric-label {
-      font-size: 10.5px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      font-weight: 600;
-      color: var(--text-muted);
-    }
-    .metric-value {
-      font-family: var(--font-serif);
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 1.15;
-      letter-spacing: -0.005em;
-    }
-    .metric-foot {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-      font-size: 11px;
-      color: var(--text-faint);
-    }
-    .metric-source {
-      color: var(--link);
-      border-bottom: none;
-      font-size: 12px;
-      line-height: 1;
-    }
-    .metric-source:hover { text-decoration: underline; }
-    .metric-source-note {
-      font-style: italic;
-      color: var(--text-faint);
-    }
-
-    .related-block { margin: 14px 0 6px; }
-    .related-block h3 {
-      font-size: 11.5px;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--text-muted);
-      font-weight: 600;
-      margin: 0 0 8px;
-    }
-    .related-chips {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
-    .related-chips a {
-      font-size: 12.5px;
-      padding: 4px 10px;
-      border-radius: 999px;
-      border: 1px solid var(--border);
-      background: var(--surface-2);
-      color: var(--text);
-      border-bottom: none;
-      transition: border-color 120ms, background 120ms;
-    }
-    .related-chips a:hover { border-color: var(--accent); background: var(--surface); }
-
-    .related-news-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
-    .related-news-list li a {
-      display: block;
-      padding: 8px 12px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: var(--surface);
-      color: inherit;
-      border-bottom: 1px solid var(--border);
-      transition: border-color 120ms, background 120ms;
-    }
-    .related-news-list li a:hover { border-color: var(--accent); }
-    .related-news-list .news-meta {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-      flex-wrap: wrap;
-      font-size: 11.5px;
-      color: var(--text-muted);
-      margin-bottom: 2px;
-    }
-    .related-news-list .news-title {
-      font-family: var(--font-serif);
-      font-size: 14px;
-      line-height: 1.3;
-    }
-
-    .recommended-actions {
-      background: var(--surface-2);
-      border: 1px solid var(--border);
-      border-left: 3px solid var(--accent);
-      border-radius: 10px;
-      padding: 12px 14px;
-      margin-top: 12px;
-    }
-    .recommended-actions h3 {
-      font-size: 11.5px;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      font-weight: 600;
-      margin: 0 0 8px;
-      color: var(--text);
-    }
-    .recommended-actions ul {
-      margin: 0;
-      padding-left: 18px;
-      font-size: 14px;
-    }
-    .recommended-actions li { margin: 2px 0; }
-
-    /* Sources footer */
-    .narrative-sources {
-      margin-top: 14px;
-      padding: 12px 14px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-    }
-    .narrative-sources h3 {
-      font-size: 11.5px;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--text-muted);
-      font-weight: 600;
-      margin: 0 0 6px;
-    }
-    .narrative-sources ol {
-      margin: 0;
-      padding-left: 20px;
-      font-size: 13px;
-      line-height: 1.45;
-    }
-    .narrative-sources li { margin: 2px 0; }
-    .narrative-sources a { word-break: break-word; }
-  </style>
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to content</a>
@@ -273,19 +47,17 @@
   </header>
 
   <main id="main">
-    <p class="eyebrow">Cross-cutting</p>
-    <h1 class="page-title">Themes to watch.</h1>
+    <p class="eyebrow">Strategic context</p>
+    <h1 class="page-title">Themes & narratives.</h1>
     <p class="page-lede">
-      The six narratives that explain what's happening — across companies, policies, and news. Each metric links to its primary source; the "Sources" block at the end of each tab lists the citations behind the narrative.
+      Cross-cutting trends driving the robotics acceleration. Each theme tracks the underlying data, key metrics, and recommended interventions for policymakers and investors.
     </p>
 
-    <div id="tablist" class="tablist" role="tablist" aria-label="Themes"></div>
-
-    <div id="panels"></div>
+    <div class="themes-grid" id="themes-grid" style="display:grid;gap:20px;grid-template-columns:repeat(auto-fill, minmax(320px, 1fr));margin-top:24px;"></div>
   </main>
 
   <footer class="site-footer">
-    <p>Narratives are curator-written and dated. Numeric claims cite primary sources inline; click any metric's link icon for the source.</p>
+    <p>Every record links to its primary source.</p>
   </footer>
 
   <script src="assets/app.js" defer></script>
@@ -293,214 +65,139 @@
   document.addEventListener('DOMContentLoaded', async () => {
     const { themes, companies, policies, news } = await RT.loadAll();
 
-    const tablist = document.getElementById('tablist');
-    const panels = document.getElementById('panels');
+    const q = RT.readQuery();
 
-    // Build tabs + panels
-    tablist.innerHTML = themes.map((t, i) => `
-      <button role="tab" id="tab-${RT.escapeHTML(t.id)}" aria-controls="panel-${RT.escapeHTML(t.id)}" aria-selected="false" tabindex="-1" data-id="${RT.escapeHTML(t.id)}">${RT.escapeHTML(t.name)}</button>
-    `).join('');
+    function render() {
+      const grid = document.getElementById('themes-grid');
+      
+      grid.innerHTML = themes.map(t => {
+        return `
+          <div class="theme-card" data-id="${RT.escapeHTML(t.id)}" tabindex="0" style="cursor:pointer;border:1px solid var(--border);border-radius:8px;padding:20px;background:var(--bg-elevated);position:relative;display:flex;flex-direction:column;gap:12px;">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+              <h2 style="margin:0;font-size:18px;">${RT.escapeHTML(t.name)}</h2>
+              ${t.direction === 'Accelerating' ? '<span class="pill positive">Accelerating</span>' : ''}
+            </div>
+            <div class="curator-narrative" style="border-left:3px solid var(--accent);padding-left:12px;font-family:var(--font-serif);font-size:15px;line-height:1.5;color:var(--text);">${RT.escapeHTML(t.narrative)}</div>
+            <div style="font-size:12px;color:var(--text-muted);margin-top:auto;">Updated ${RT.escapeHTML(RT.formatDate(t.last_updated))}</div>
+          </div>
+        `;
+      }).join('');
 
-    panels.innerHTML = themes.map(t => `
-      <section class="theme-section" role="tabpanel" id="panel-${RT.escapeHTML(t.id)}" aria-labelledby="tab-${RT.escapeHTML(t.id)}" tabindex="0" hidden>
-        ${renderThemeBody(t, companies, policies, news)}
-      </section>
-    `).join('');
-
-    // Tab activation
-    function activate(id, opts = {}) {
-      const target = themes.find(t => t.id === id) || themes[0];
-      tablist.querySelectorAll('[role="tab"]').forEach(btn => {
-        const active = btn.dataset.id === target.id;
-        btn.setAttribute('aria-selected', active ? 'true' : 'false');
-        btn.tabIndex = active ? 0 : -1;
+      document.querySelectorAll('.theme-card').forEach(card => {
+        card.addEventListener('click', () => openTheme(card.dataset.id));
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openTheme(card.dataset.id); }
+        });
       });
-      panels.querySelectorAll('[role="tabpanel"]').forEach(p => {
-        p.hidden = p.id !== `panel-${target.id}`;
-      });
-      if (opts.focusTab) tablist.querySelector(`[data-id="${target.id}"]`)?.focus();
-      if (opts.updateHash !== false) history.replaceState(null, '', '#' + target.id);
     }
 
-    // Click handler
-    tablist.addEventListener('click', (e) => {
-      const btn = e.target.closest('[role="tab"]');
-      if (!btn) return;
-      activate(btn.dataset.id);
-    });
+    function openTheme(id) {
+      const t = themes.find(x => x.id === id);
+      if (!t) return;
+      RT.writeQuery({ focus: id });
+      
+      const relatedComps = (t.related_companies || []).map(cid => companies.find(c => c.id === cid)).filter(Boolean);
+      const relatedPols = (t.related_policies || []).map(pid => policies.find(p => p.id === pid)).filter(Boolean);
+      const relatedNews = (t.related_news || []).map(nid => news.find(n => n.id === nid)).filter(Boolean).sort((a, b) => a.date < b.date ? 1 : -1);
 
-    // Keyboard navigation per ARIA tab pattern
-    tablist.addEventListener('keydown', (e) => {
-      const tabs = [...tablist.querySelectorAll('[role="tab"]')];
-      const i = tabs.indexOf(document.activeElement);
-      if (i < 0) return;
-      let next = i;
-      if (e.key === 'ArrowRight') next = (i + 1) % tabs.length;
-      else if (e.key === 'ArrowLeft') next = (i - 1 + tabs.length) % tabs.length;
-      else if (e.key === 'Home') next = 0;
-      else if (e.key === 'End') next = tabs.length - 1;
-      else return;
-      e.preventDefault();
-      activate(tabs[next].dataset.id, { focusTab: true });
-    });
-
-    // Initial activation from hash, else first
-    const hashId = decodeURIComponent(location.hash.slice(1));
-    const initial = themes.find(t => t.id === hashId)?.id || themes[0].id;
-    activate(initial, { updateHash: false });
-
-    // React to hash changes after load — covers in-page anchor clicks and
-    // address-bar edits. Without this, only the initial load respected #fragment.
-    window.addEventListener('hashchange', () => {
-      const id = decodeURIComponent(location.hash.slice(1));
-      if (themes.find(t => t.id === id)) activate(id, { updateHash: false });
-    });
-  });
-
-  function renderThemeBody(t, companies, policies, news) {
-    const directionPill = `<span class="pill dir-${t.direction.toLowerCase()}">${RT.escapeHTML(t.direction)}</span>`;
-    const policyReady = t.government_intervention_ready
-      ? '<span class="pill outline">Policy-ready</span>'
-      : '<span class="pill outline">Watching</span>';
-
-    const metricsHTML = (t.key_metrics || []).map(m => {
-      const valueStr = formatMetricValue(m.value, m.unit);
-      const srcLink = m.source_url
-        ? `<a class="metric-source" href="${RT.escapeHTML(m.source_url)}" target="_blank" rel="noopener" aria-label="Source for ${RT.escapeHTML(m.name)}" title="${RT.escapeHTML(m.source_url)}">↗</a>`
-        : '';
-      const archLink = RT.archiveLink(m.archive_url);
-      const srcNote = m.source_note && !m.source_url
-        ? `<span class="metric-source-note">${RT.escapeHTML(m.source_note)}</span>`
-        : '';
-      const srcNoteWithLink = m.source_note && m.source_url
-        ? `<span class="metric-source-note" title="${RT.escapeHTML(m.source_note)}">·</span>`
-        : '';
-      return `
-        <div class="metric-cell">
-          <span class="metric-label">${RT.escapeHTML(m.name)}</span>
-          <span class="metric-value tnum">${valueStr}</span>
-          <span class="metric-foot">
-            <span>${RT.escapeHTML(RT.formatDate(m.date))}</span>
-            ${srcLink}
-            ${archLink}
-            ${srcNote}
-            ${srcNoteWithLink}
-          </span>
+      RT.openDetail(`
+        <div class="detail-header">
+          <div>
+            <h2 class="detail-title" id="detail-title">${RT.escapeHTML(t.name)}</h2>
+            <div class="row" style="gap:6px;margin-top:8px;">
+              <span class="pill ${t.direction === 'Accelerating' ? 'positive' : 'mixed'}">${RT.escapeHTML(t.direction)}</span>
+              ${t.government_intervention_ready ? '<span class="pill positive" style="background:var(--accent);color:var(--bg);">Intervention ready</span>' : ''}
+            </div>
+          </div>
+          <button class="detail-close" data-detail-close aria-label="Close">✕</button>
         </div>
-      `;
-    }).join('');
 
-    const relCompanies = (t.related_companies || [])
-      .map(id => companies.find(c => c.id === id))
-      .filter(Boolean);
-    const relPolicies = (t.related_policies || [])
-      .map(id => policies.find(p => p.id === id))
-      .filter(Boolean);
-    const relNews = (t.related_news || [])
-      .map(id => news.find(n => n.id === id))
-      .filter(Boolean)
-      .concat(news.filter(n => (n.themes || []).includes(t.id)));
-    const seen = new Set();
-    const relNewsUnique = relNews.filter(n => {
-      if (seen.has(n.id)) return false;
-      seen.add(n.id);
-      return true;
-    }).sort((a, b) => (a.date < b.date ? 1 : -1)).slice(0, 8);
+        <div class="curator-narrative" style="border-left:3px solid var(--accent);padding-left:16px;margin:20px 0;font-family:var(--font-serif);font-size:16px;line-height:1.6;">
+          ${RT.escapeHTML(t.narrative)}
+        </div>
 
-    const companiesChips = relCompanies.length
-      ? `<div class="related-chips">${relCompanies.map(c => `
-          <a href="companies.html?focus=${encodeURIComponent(c.id)}">${RT.escapeHTML(c.name)}</a>
-        `).join('')}</div>`
-      : '<p class="muted">No companies linked.</p>';
-
-    const policiesChips = relPolicies.length
-      ? `<div class="related-chips">${relPolicies.map(p => `
-          <a href="policies.html?focus=${encodeURIComponent(p.id)}">${RT.escapeHTML(p.bill_number || p.title.slice(0, 48))}</a>
-        `).join('')}</div>`
-      : '<p class="muted">No policies linked.</p>';
-
-    const newsList = relNewsUnique.length
-      ? `<ul class="related-news-list">${relNewsUnique.map(n => `
-          <li>
-            <a href="news.html#${encodeURIComponent(n.id)}">
-              <div class="news-meta">
-                <span class="pill cat-${n.category.toLowerCase().replace(/\s+/g, '')}">${RT.escapeHTML(n.category)}</span>
-                <span>${RT.escapeHTML(n.source)}</span>
-                <span class="sep"></span>
-                <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
+        ${t.key_metrics && t.key_metrics.length ? `
+          <div class="kpi-strip cols-2" style="margin-bottom:24px;">
+            ${t.key_metrics.map(m => `
+              <div class="kpi-card" style="padding:12px;">
+                <span class="kpi-label">${RT.escapeHTML(m.name)}</span>
+                <span class="kpi-value tnum" style="font-size:20px;">${m.unit === 'USD' ? RT.formatUSD(m.value) : RT.formatNumber(m.value)}</span>
+                <span class="kpi-sub tnum">${RT.escapeHTML(m.unit)} · ${RT.escapeHTML(RT.formatDate(m.date))}</span>
               </div>
-              <div class="news-title">${RT.escapeHTML(n.title)}</div>
-            </a>
-          </li>
-        `).join('')}</ul>`
-      : '<p class="muted">No news linked yet.</p>';
+            `).join('')}
+          </div>
+        ` : ''}
 
-    const actionsHTML = (t.recommended_actions || []).length
-      ? `<div class="recommended-actions">
-           <h3>Recommended government action</h3>
-           <ul>${t.recommended_actions.map(a => `<li>${RT.escapeHTML(a)}</li>`).join('')}</ul>
-         </div>`
-      : '';
+        ${t.recommended_actions && t.recommended_actions.length ? `
+          <div class="detail-section">
+            <h3 style="color:var(--accent);">Recommended actions</h3>
+            <ul style="padding-left:20px;line-height:1.5;">
+              ${t.recommended_actions.map(act => `<li>${RT.escapeHTML(act)}</li>`).join('')}
+            </ul>
+          </div>
+        ` : ''}
 
-    const sourcesHTML = (t.narrative_sources || []).length
-      ? `<div class="narrative-sources">
-           <h3>Sources (${t.narrative_sources.length})</h3>
-           <ol>${t.narrative_sources.map(s => `
-             <li><a href="${RT.escapeHTML(s.url)}" target="_blank" rel="noopener">${RT.escapeHTML(s.label)}</a>${RT.archiveLink(s.archive_url)}</li>
-           `).join('')}</ol>
-         </div>`
-      : '';
+        <div class="detail-section" style="display:flex;flex-direction:column;gap:24px;">
+          
+          ${relatedComps.length ? `
+            <div>
+              <h3>Related companies</h3>
+              <div style="display:flex;flex-wrap:wrap;gap:8px;">
+                ${relatedComps.map(c => `<a href="companies.html?focus=${encodeURIComponent(c.id)}" class="pill outline" style="text-decoration:none;border-color:var(--border);color:var(--text);">${RT.escapeHTML(c.name)}</a>`).join('')}
+              </div>
+            </div>
+          ` : ''}
+          
+          ${relatedPols.length ? `
+            <div>
+              <h3>Related policy</h3>
+              <div style="display:flex;flex-direction:column;gap:8px;">
+                ${relatedPols.map(p => `
+                  <a href="policies.html?focus=${encodeURIComponent(p.id)}" style="display:block;padding:8px 12px;border:1px solid var(--border);border-radius:6px;text-decoration:none;color:var(--text);">
+                    <div style="font-weight:500;">${RT.escapeHTML(p.title)}</div>
+                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">${RT.escapeHTML(p.type)} · ${RT.escapeHTML(p.status)}</div>
+                  </a>
+                `).join('')}
+              </div>
+            </div>
+          ` : ''}
 
-    return `
-      <div class="theme-head">
-        <h2>${RT.escapeHTML(t.name)}</h2>
-        ${directionPill}
-        ${policyReady}
-        <span class="row-end muted" style="font-size:12px;">Updated <span class="tnum">${RT.escapeHTML(RT.formatDate(t.last_updated))}</span></span>
-      </div>
+          ${relatedNews.length ? `
+            <div>
+              <h3>Related news</h3>
+              <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
+                ${relatedNews.slice(0, 5).map(n => `
+                  <li>
+                    <a href="news.html#${encodeURIComponent(n.id)}" style="color:inherit;text-decoration:none;">
+                      <div class="card-meta" style="font-size:11.5px;margin-bottom:4px;">
+                        <span class="pill cat-${n.category.toLowerCase().replace(/\s+/g, '')}">${RT.escapeHTML(n.category)}</span>
+                        <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
+                      </div>
+                      <div class="serif" style="font-size:14px;line-height:1.4;font-weight:500;">${RT.escapeHTML(n.title)}</div>
+                    </a>
+                  </li>
+                `).join('')}
+              </ul>
+            </div>
+          ` : ''}
 
-      <p class="curator-narrative">${RT.escapeHTML(t.narrative)}</p>
+        </div>
 
-      ${metricsHTML ? `<div class="metrics-strip">${metricsHTML}</div>` : ''}
-
-      <div class="related-block">
-        <h3>Related companies (${relCompanies.length})</h3>
-        ${companiesChips}
-      </div>
-
-      <div class="related-block">
-        <h3>Related policy items (${relPolicies.length})</h3>
-        ${policiesChips}
-      </div>
-
-      <div class="related-block">
-        <h3>Recent news on this theme (${relNewsUnique.length})</h3>
-        ${newsList}
-      </div>
-
-      ${actionsHTML}
-
-      ${sourcesHTML}
-    `;
-  }
-
-  function formatMetricValue(value, unit) {
-    if (value == null) return '—';
-    if (unit === 'USD') {
-      // Allow string-formatted values like "<30000" or "≥250000"
-      if (typeof value === 'string') {
-        const m = value.match(/^([<>≤≥]?)(\d+)$/);
-        if (m) return `${m[1]}${RT.formatUSD(parseInt(m[2], 10))}`;
-        return RT.escapeHTML(value);
-      }
-      return RT.formatUSD(value);
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="link-list">
+            ${(t.narrative_sources || []).map(s => {
+              return \`<li><a href="\${RT.escapeHTML(s.url)}" target="_blank" rel="noopener">\${RT.escapeHTML(s.label)}</a>\${RT.archiveLink(s.archive_url)}</li>\`;
+            }).join('') || '<li class="muted-cell">No sources listed</li>'}
+          </ul>
+          <p class="muted" style="font-size:12px;margin-top:8px;">Last updated <span class="tnum">${RT.escapeHTML(RT.formatDate(t.last_updated))}</span></p>
+        </div>
+      `);
     }
-    if (unit === 'bills' || unit === 'units' || unit === 'members') {
-      return RT.formatNumber(value) + (unit && unit !== 'units' ? ' ' + RT.escapeHTML(unit) : '');
-    }
-    if (typeof value === 'number') return RT.formatNumber(value);
-    return RT.escapeHTML(String(value));
-  }
+
+    render();
+    if (q.focus) setTimeout(() => openTheme(q.focus), 50);
+  });
   </script>
 </body>
 </html>
