@@ -2,7 +2,7 @@
 
 > Refresh this file (and re-fetch <https://pranava0x0.github.io/vibe-coding-security/llms-ctx.txt>) if `Last updated` below is more than 7 days old, before any `npm install` / `pip install` / dep upgrade.
 
-**Last updated:** 2026-05-17
+**Last updated:** 2026-05-22
 
 ---
 
@@ -48,3 +48,4 @@ This site collects nothing client-side: no analytics, no cookies, no tracking pi
 | Date         | Source                                                                 | Result                                                |
 | ------------ | ---------------------------------------------------------------------- | ----------------------------------------------------- |
 | 2026-05-17   | <https://pranava0x0.github.io/vibe-coding-security/llms-ctx.txt>      | Pending check (no installs to gate this build).      |
+| 2026-05-22   | <https://pranava0x0.github.io/vibe-coding-security/llms-ctx.txt>      | Checked for recent active vulnerabilities (node-ipc, Mini Shai-Hulud). Project remains at zero dependencies and is not affected. |
