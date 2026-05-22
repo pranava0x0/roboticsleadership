@@ -1,134 +1,16 @@
 [
   {
-    "id": "rss-why-the-world-s-most-successfu-838",
-    "title": "Why the world’s most successful robotics founders are systems thinkers",
-    "date": "2026-05-16",
-    "source": "the-robot-report",
+    "id": "rss-video-friday-atlas-versus-a-fr-547",
+    "title": "Video Friday: Atlas Versus a Fridge",
+    "date": "2026-05-22",
+    "source": "ieee-spectrum-robotics",
     "source_type": "News",
-    "source_url": "https://www.therobotreport.com/why-the-worlds-most-successful-robotics-founders-are-systems-thinkers/",
-    "summary": "Join Ajay Agarwal as he reveals how systems thinking in robotics unlocks massive productivity and multibillion-dollar markets.\nThe post Why the world’s most successful robotics founders are systems th...",
+    "source_url": "https://spectrum.ieee.org/video-friday-humanoid-robot-learning",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
     "category": "Policy",
-    "companies": [],
-    "policies": [],
-    "themes": [
-      "policy-momentum"
-    ],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-fraunhofer-ipa-offers-new-test-132",
-    "title": "Fraunhofer IPA offers new test benchmark for humanoids",
-    "date": "2026-05-17",
-    "source": "the-robot-report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/fraunhofer-ipa-offers-new-test-benchmark-for-humanoid-robots/",
-    "summary": "To be used in industrial applications, humanoid robots must meet application-relevant criteria. Fraunhofer IPA has developed a benchmark for third-party analysis.\nThe post Fraunhofer IPA offers new te...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [
-      "nist-humanoid-benchmark"
-    ],
-    "themes": [
-      "industrial-deployments",
-      "cost-trajectory",
-      "foundation-models"
-    ],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-faraday-future-obtains-25m-to-335",
-    "title": "Faraday Future obtains $25M to ship 1,500 robots by year&#8217;s end",
-    "date": "2026-05-18",
-    "source": "the-robot-report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/faraday-future-obtains-25m-ship-1500-robots-years-end/",
-    "summary": "Combined with the $45 million financing announced in April, Faraday Future has secured a total of $70 million over the past two months.\nThe post Faraday Future obtains $25M to ship 1,500 robots by yea...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-fanuc-strengthens-robot-integr-52",
-    "title": "FANUC strengthens robot integration with NVIDIA Isaac Sim",
-    "date": "2026-05-18",
-    "source": "the-robot-report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/fanuc-strengthens-robot-integration-nvidia-isaac-sim/",
-    "summary": "FANUC is integrating its robots and teach pendant with NVIDIA simulation and AI technology for smoother, smarter action.\nThe post FANUC strengthens robot integration with NVIDIA Isaac Sim appeared fir...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [
-      "industrial-deployments"
-    ],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-locus-array-expands-picking-ab-131",
-    "title": "Locus Array expands picking ability with Nexera Robotics&#8217; NeuraGrasp",
-    "date": "2026-05-19",
-    "source": "the-robot-report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/locus-array-expands-picking-ability-with-nexera-robotics-neuragrip/",
-    "summary": "Nexera Robotics' adaptive NeuraGrasp will enable the Locus Array mobile manipulator to pick many more e-commerce SKUs.\nThe post Locus Array expands picking ability with Nexera Robotics&#8217; NeuraGra...",
-    "category": "Competitive",
     "companies": [
-      "locus-robotics"
+      "boston-dynamics"
     ],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-learn-about-the-latest-in-logi-958",
-    "title": "Learn about the latest in logistics automation at the Robotics Summit",
-    "date": "2026-05-19",
-    "source": "the-robot-report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/learn-about-latest-logistics-automation-2026-robotics-summit/",
-    "summary": "The 2026 Robotics Summit &#038; Expo, which takes place May 27 and 28, will feature an entire session track focused on robots in logistics.\nThe post Learn about the latest in logistics automation at t...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-opentrons-launches-compliance-211",
-    "title": "Opentrons launches Compliance Ready Software for Flex lab robots",
-    "date": "2026-05-19",
-    "source": "the-robot-report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/opentrons-launches-compliance-ready-software-flex-lab-robots/",
-    "summary": "Opentrons says that 10,000 laboratory robots deployed worldwide can comply with strict FDA regulations thanks to its new software.\nThe post Opentrons launches Compliance Ready Software for Flex lab ro...",
-    "category": "Policy",
-    "companies": [],
     "policies": [],
     "themes": [
       "policy-momentum"
@@ -140,13 +22,13 @@
     ]
   },
   {
-    "id": "rss-regal-rexnord-to-bring-its-mot-773",
-    "title": "Regal Rexnord to bring its motion control portfolio to the Robotics Summit",
-    "date": "2026-05-19",
+    "id": "rss-robotics-summit-keynote-to-pre-475",
+    "title": "Robotics Summit keynote to present open foundation for AI-powered robots",
+    "date": "2026-05-22",
     "source": "the-robot-report",
     "source_type": "News",
-    "source_url": "https://www.therobotreport.com/regal-rexnord-brings-motion-control-portfolio-2026-robotics-summit/",
-    "summary": "At the event, Regal Rexnord will demonstrate how its unified motion ecosystem supports modern robotic system design.\nThe post Regal Rexnord to bring its motion control portfolio to the Robotics Summit...",
+    "source_url": "https://www.therobotreport.com/robotics-summit-keynote-present-open-robotics-ai-foundation/",
+    "summary": "Brian Gerkey of Open Robotics will explain how the open-source community is ushering in the age of robots and AI at the Robotics Summit.\nThe post Robotics Summit keynote to present open foundation for...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -158,13 +40,13 @@
     ]
   },
   {
-    "id": "rss-rovex-and-sphaira-pioneer-auto-668",
-    "title": "Rovex and Sphaira pioneer autonomous patient transport",
-    "date": "2026-05-20",
+    "id": "rss-ge-vernova-to-acquire-robotech-670",
+    "title": "GE Vernova to acquire Robotech Automation to expand robotics integration",
+    "date": "2026-05-22",
     "source": "the-robot-report",
     "source_type": "News",
-    "source_url": "https://www.therobotreport.com/rovex-sphaira-pioneer-autonomous-patient-transport/",
-    "summary": "Patient mobility in hospital settings is ripe for automation, with Rovex and Sphaira among the innovators taking different approaches.\nThe post Rovex and Sphaira pioneer autonomous patient transport a...",
+    "source_url": "https://www.therobotreport.com/ge-vernova-acquire-robotech-automation-expand-robotics-integration/",
+    "summary": "Energy company GE Vernova is already working with systems integrator Robotech on supply chain projects.\nThe post GE Vernova to acquire Robotech Automation to expand robotics integration appeared first...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -176,17 +58,37 @@
     ]
   },
   {
-    "id": "rss-inside-verobotics-8217-edge-ai-804",
-    "title": "Inside Verobotics&#8217; edge AI robotics deployment at NVIDIA&#8217;s Israel campus",
-    "date": "2026-05-20",
-    "source": "the-robot-report",
+    "id": "rss-the-future-of-physical-ai-isn-174",
+    "title": "The Future of Physical AI Isn’t Smarter Robots, It’s Smarter Interfaces",
+    "date": "2026-05-21",
+    "source": "ieee-spectrum-robotics",
     "source_type": "News",
-    "source_url": "https://www.therobotreport.com/inside-verobotics-edge-ai-robotics-deployment-at-nvidias-israel-campus/",
-    "summary": "Verobotics said its robot turns vertical surfaces from risky, one-off access zones into repeatable, data-rich robotic workspaces.\nThe post Inside Verobotics&#8217; edge AI robotics deployment at NVIDI...",
-    "category": "Deployment",
+    "source_url": "https://spectrum.ieee.org/wetour-robotics-physical-ai-human-interfaces",
+    "summary": "This sponsored article is brought to you by Wetour Robotics.A field technician on a wind turbine, harness clipped, both hands on a wrench, needs to send a command to the diagnostic device hanging at h...",
+    "category": "Competitive",
     "companies": [],
     "policies": [],
     "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-open-source-software-is-starti-414",
+    "title": "Open-Source Software Is Starting to Help Robots Think",
+    "date": "2026-05-21",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/open-source-robot-ai-platforms",
+    "summary": "When a group of academics started making open-source robotics hardware, a generation of roboticists got years of their lives back. Now, the bigger challenge is getting robots to think—and that’s start...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -248,13 +150,31 @@
     ]
   },
   {
-    "id": "rss-ge-vernova-to-acquire-robotech-670",
-    "title": "GE Vernova to acquire Robotech Automation to expand robotics integration",
-    "date": "2026-05-22",
+    "id": "rss-will-robotics-have-a-chatgpt-m-109",
+    "title": "Will Robotics Have a ChatGPT Moment?",
+    "date": "2026-05-20",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/robotics-ai-breakthrough",
+    "summary": "Over the next few decades, billions of autonomous, AI-powered robots will work alongside people in factories, perform tedious tasks in warehouses, care for the elderly, assist in unsafe disaster areas...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-rovex-and-sphaira-pioneer-auto-668",
+    "title": "Rovex and Sphaira pioneer autonomous patient transport",
+    "date": "2026-05-20",
     "source": "the-robot-report",
     "source_type": "News",
-    "source_url": "https://www.therobotreport.com/ge-vernova-acquire-robotech-automation-expand-robotics-integration/",
-    "summary": "Energy company GE Vernova is already working with systems integrator Robotech on supply chain projects.\nThe post GE Vernova to acquire Robotech Automation to expand robotics integration appeared first...",
+    "source_url": "https://www.therobotreport.com/rovex-sphaira-pioneer-autonomous-patient-transport/",
+    "summary": "Patient mobility in hospital settings is ripe for automation, with Rovex and Sphaira among the innovators taking different approaches.\nThe post Rovex and Sphaira pioneer autonomous patient transport a...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -266,13 +186,51 @@
     ]
   },
   {
-    "id": "rss-robotics-summit-keynote-to-pre-475",
-    "title": "Robotics Summit keynote to present open foundation for AI-powered robots",
-    "date": "2026-05-22",
+    "id": "rss-inside-verobotics-8217-edge-ai-804",
+    "title": "Inside Verobotics&#8217; edge AI robotics deployment at NVIDIA&#8217;s Israel campus",
+    "date": "2026-05-20",
     "source": "the-robot-report",
     "source_type": "News",
-    "source_url": "https://www.therobotreport.com/robotics-summit-keynote-present-open-robotics-ai-foundation/",
-    "summary": "Brian Gerkey of Open Robotics will explain how the open-source community is ushering in the age of robots and AI at the Robotics Summit.\nThe post Robotics Summit keynote to present open foundation for...",
+    "source_url": "https://www.therobotreport.com/inside-verobotics-edge-ai-robotics-deployment-at-nvidias-israel-campus/",
+    "summary": "Verobotics said its robot turns vertical surfaces from risky, one-off access zones into repeatable, data-rich robotic workspaces.\nThe post Inside Verobotics&#8217; edge AI robotics deployment at NVIDI...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-robots-could-turn-e-waste-into-534",
+    "title": "Robots Could Turn E-Waste Into a Source of Legacy Chips",
+    "date": "2026-05-19",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/e-waste-recycling-robots-ram",
+    "summary": "Electronic waste is moving up on regulatory agendas in 2026. New European waste-shipment rules, expanded recycling fees on products with non-removable batteries in California, and an e-waste import ba...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-regal-rexnord-to-bring-its-mot-773",
+    "title": "Regal Rexnord to bring its motion control portfolio to the Robotics Summit",
+    "date": "2026-05-19",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/regal-rexnord-brings-motion-control-portfolio-2026-robotics-summit/",
+    "summary": "At the event, Regal Rexnord will demonstrate how its unified motion ecosystem supports modern robotic system design.\nThe post Regal Rexnord to bring its motion control portfolio to the Robotics Summit...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -284,14 +242,910 @@
     ]
   },
   {
-    "id": "rss-techcrunch-is-heading-to-tokyo-676",
-    "title": "TechCrunch is heading to Tokyo — and bringing the Startup Battlefield with it",
-    "date": "2026-04-10",
+    "id": "rss-opentrons-launches-compliance-211",
+    "title": "Opentrons launches Compliance Ready Software for Flex lab robots",
+    "date": "2026-05-19",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/opentrons-launches-compliance-ready-software-flex-lab-robots/",
+    "summary": "Opentrons says that 10,000 laboratory robots deployed worldwide can comply with strict FDA regulations thanks to its new software.\nThe post Opentrons launches Compliance Ready Software for Flex lab ro...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-locus-array-expands-picking-ab-131",
+    "title": "Locus Array expands picking ability with Nexera Robotics&#8217; NeuraGrasp",
+    "date": "2026-05-19",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/locus-array-expands-picking-ability-with-nexera-robotics-neuragrip/",
+    "summary": "Nexera Robotics' adaptive NeuraGrasp will enable the Locus Array mobile manipulator to pick many more e-commerce SKUs.\nThe post Locus Array expands picking ability with Nexera Robotics&#8217; NeuraGra...",
+    "category": "Competitive",
+    "companies": [
+      "locus-robotics"
+    ],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-learn-about-the-latest-in-logi-958",
+    "title": "Learn about the latest in logistics automation at the Robotics Summit",
+    "date": "2026-05-19",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/learn-about-latest-logistics-automation-2026-robotics-summit/",
+    "summary": "The 2026 Robotics Summit &#038; Expo, which takes place May 27 and 28, will feature an entire session track focused on robots in logistics.\nThe post Learn about the latest in logistics automation at t...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-home-robot-safety-is-all-about-100",
+    "title": "Home Robot Safety Is All About Relationships",
+    "date": "2026-05-19",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/domestic-humanoid-robot-safety-standards",
+    "summary": "The International Organization for Standardization (ISO) is updating its 12-year-old safety requirements for personal care robots. A lot has happened since the last revision, both on the technology si...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-google-s-genie-world-model-can-306",
+    "title": "Google’s Genie world model can now simulate real streets with Street View",
+    "date": "2026-05-19",
     "source": "techcrunch-robotics-tag",
     "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/",
-    "summary": "SusHi Tech 2026 is zeroing in on four technology domains reshaping society: AI, Robotics, Resilience, and Entertainment. Expect live demos of humanoid robots, sessions on autonomous driving's software...",
+    "source_url": "https://techcrunch.com/2026/05/19/googles-genie-world-model-can-now-simulate-real-streets-with-street-view/",
+    "summary": "Google DeepMind is integrating Street View with Project Genie to create immersive, interactive world simulations for robotics, gaming, and travel, allowing users to explore environments, weather chang...",
     "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-what-makes-a-job-dull-dirty-or-357",
+    "title": "What Makes a Job Dull, Dirty, or Dangerous?",
+    "date": "2026-05-18",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/dull-dirty-dangerous-robots",
+    "summary": "For years, the field of robotics has used the terms “dull, dirty, and dangerous” (DDD) to describe the types of tasks or jobs where robots might be useful—by doing work that’s undesirable for people. ...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-faraday-future-obtains-25m-to-335",
+    "title": "Faraday Future obtains $25M to ship 1,500 robots by year&#8217;s end",
+    "date": "2026-05-18",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/faraday-future-obtains-25m-ship-1500-robots-years-end/",
+    "summary": "Combined with the $45 million financing announced in April, Faraday Future has secured a total of $70 million over the past two months.\nThe post Faraday Future obtains $25M to ship 1,500 robots by yea...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-fanuc-strengthens-robot-integr-52",
+    "title": "FANUC strengthens robot integration with NVIDIA Isaac Sim",
+    "date": "2026-05-18",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/fanuc-strengthens-robot-integration-nvidia-isaac-sim/",
+    "summary": "FANUC is integrating its robots and teach pendant with NVIDIA simulation and AI technology for smoother, smarter action.\nThe post FANUC strengthens robot integration with NVIDIA Isaac Sim appeared fir...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-agentic-ai-for-robot-teams-413",
+    "title": "Agentic AI for Robot Teams",
+    "date": "2026-05-18",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://events.bizzabo.com/867156",
+    "summary": "This presentation highlights recent efforts at the Johns Hopkins Applied Physics Laboratory to advance agentic AI for collaborative robotic teams. It begins by framing the core challenges of enabling ...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-fraunhofer-ipa-offers-new-test-132",
+    "title": "Fraunhofer IPA offers new test benchmark for humanoids",
+    "date": "2026-05-17",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/fraunhofer-ipa-offers-new-test-benchmark-for-humanoid-robots/",
+    "summary": "To be used in industrial applications, humanoid robots must meet application-relevant criteria. Fraunhofer IPA has developed a benchmark for third-party analysis.\nThe post Fraunhofer IPA offers new te...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [
+      "nist-humanoid-benchmark"
+    ],
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory",
+      "foundation-models"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-why-the-world-s-most-successfu-838",
+    "title": "Why the world’s most successful robotics founders are systems thinkers",
+    "date": "2026-05-16",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/why-the-worlds-most-successful-robotics-founders-are-systems-thinkers/",
+    "summary": "Join Ajay Agarwal as he reveals how systems thinking in robotics unlocks massive productivity and multibillion-dollar markets.\nThe post Why the world’s most successful robotics founders are systems th...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-video-friday-heavy-robotic-mac-19",
+    "title": "Video Friday: Heavy Robotic Machinery Operates Itself",
+    "date": "2026-05-15",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-material-handling-robots",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "figure-ups-talks",
+    "title": "Figure AI reportedly in advanced talks to supply tens of thousands of robots to UPS",
+    "date": "2026-05-15",
+    "source": "Reuters",
+    "source_type": "News",
+    "source_url": "https://www.reuters.com/",
+    "summary": "Figure AI is reportedly in advanced discussions with UPS to deploy humanoid robots in logistics operations at the tens-of-thousands scale. If finalized, the contract would represent the largest commercial humanoid deployment to date. Neither company has confirmed the contract structure or timeline publicly.",
+    "category": "Deployment",
+    "companies": [
+      "figure-ai"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Low",
+    "tags": [
+      "deployment",
+      "logistics",
+      "humanoid",
+      "rumored"
+    ],
+    "archive_url": "https://web.archive.org/web/20260506131742/https://www.reuters.com/"
+  },
+  {
+    "id": "rss-two-weeks-left-startup-battlef-95",
+    "title": "Two weeks left: Startup Battlefield 200 applications close May 27",
+    "date": "2026-05-14",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/05/14/two-weeks-left-startup-battlefield-200-applications-close-may-27/",
+    "summary": "Your shot at VC access, global visibility, TechCrunch coverage, and $100K equity-free funding is running out. Deadline to apply is May 27. Apply now.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-rivian-spinoff-mind-robotics-r-77",
+    "title": "Rivian spinoff Mind Robotics raises another $400M",
+    "date": "2026-05-13",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m/",
+    "summary": "Mind Robotics, which was first revealed in late 2025, has now raised more than $1 billion to date.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-introducing-the-6-stages-at-te-467",
+    "title": "Introducing the 6 stages at TechCrunch Disrupt 2026 — built for today’s tougher startup market",
+    "date": "2026-05-13",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/05/13/introducing-the-6-stages-of-techcrunch-disrupt-2026-built-for-todays-tougher-startup-market/",
+    "summary": "From October 13-15, TechCrunch Disrupt 2026 will feature 200+ sessions across six stages, led by 250+ tech leaders shaping the industry today. Register now to save up to $410, plus 50% off a second pa...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-hello-robot-sets-the-standard-512",
+    "title": "Hello Robot Sets the Standard for Practical, Safe Home Robots",
+    "date": "2026-05-12",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/stretch-4-home-robot",
+    "summary": "Many roboticists (and at least one robotics journalist) have been seduced by the dream of a robot butler. And the rampant popularity of videos showing humanoid robots doing household tasks in improbab...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "robotsforamerica-coverage",
+    "title": "Robotics stakeholders urge Congress to act now to regain global leadership",
+    "date": "2026-05-12",
+    "source": "Manufacturing Dive",
+    "source_type": "News",
+    "source_url": "https://www.manufacturingdive.com/news/robotics-experts-urge-congress-act-automation-policy-national-strategy/818431/",
+    "summary": "At the SCSP AI+ Expo, robotics executives and policy experts urged Congress to act immediately on a national strategy, citing China's commanding lead in commercial deployment volume. Speakers from Apptronik, Boston Dynamics, and Agility Robotics warned that capital intensity alone is insufficient without coordinated industrial policy.",
+    "category": "Policy",
+    "companies": [
+      "apptronik",
+      "boston-dynamics",
+      "agility-robotics"
+    ],
+    "policies": [
+      "rfa-coalition-launch",
+      "hr-7334-national-commission-robotics"
+    ],
+    "themes": [
+      "policy-momentum",
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sentiment": "Mixed",
+    "confidence": "High",
+    "tags": [
+      "coalition",
+      "industry",
+      "policy",
+      "congress"
+    ],
+    "archive_url": "https://web.archive.org/web/20260428032235/https://www.manufacturingdive.com/news/robotics-experts-urge-congress-act-automation-policy-national-strategy/818431/"
+  },
+  {
+    "id": "rss-korea-8217-s-biggest-manufactu-820",
+    "title": "Korea&#8217;s biggest manufacturers back Config, the TSMC of robot data",
+    "date": "2026-05-11",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/05/11/koreas-biggest-manufacturers-back-config-the-tsmc-of-robot-data/",
+    "summary": "Instead of building robots themselves, the team is focused on a simpler goal — providing data that robots need to learn and operate. They believe that better data will be key to making robots more use...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rfa-launches",
+    "title": "Robots For America coalition launches at SCSP AI+ Expo",
+    "date": "2026-05-11",
+    "source": "Design Engineering",
+    "source_type": "News",
+    "source_url": "https://www.design-engineering.com/robots-for-america-launches-national-coalition-to-advance-u-s-robotics-deployment-policy-1004048555/",
+    "summary": "Industry leaders launched Robots For America (RFA) at the SCSP AI+ Expo in Washington, D.C., responding to a call from U.S. government officials for a unified plan to enhance automation in manufacturing. RFA's initial policy framework focuses on five areas: reducing financial risks for robotic trials, modernizing tax treatment of automation, streamlining regulatory processes, building a supportive workforce, and enabling autonomous logistics.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "rfa-coalition-launch"
+    ],
+    "themes": [
+      "policy-momentum",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "coalition",
+      "industry",
+      "policy-framework"
+    ]
+  },
+  {
+    "id": "obbba-depreciation",
+    "title": "House passes One Big Beautiful Bill with 100% bonus depreciation for automation equipment",
+    "date": "2026-05-10",
+    "source": "Standard Bots",
+    "source_type": "Blog",
+    "source_url": "https://standardbots.com/blog/obbb-robotics",
+    "summary": "The One Big Beautiful Bill Act, as passed by the House, restores 100% bonus depreciation for qualifying equipment placed in service through 2029. Industrial robots, conveyors, welding systems, and palletizers all qualify. The provision reverses the depreciation phaseout that would have hit 0% by 2027, directly improving the unit-economics of robot deployment for US manufacturers.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "obbba-bonus-depreciation"
+    ],
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory",
+      "policy-momentum"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "federal",
+      "tax",
+      "manufacturing",
+      "capex"
+    ],
+    "archive_url": "https://web.archive.org/web/20260115081542/https://standardbots.com/blog/obbb-robotics"
+  },
+  {
+    "id": "rss-video-friday-ai-gives-robot-ha-321",
+    "title": "Video Friday: AI Gives Robot Hands Humanlike Dexterity",
+    "date": "2026-05-09",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-robotic-hand-dexterity",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-last-24-hours-to-get-50-off-a-9",
+    "title": "Last 24 hours to get 50% off a second pass to TechCrunch Disrupt 2026",
+    "date": "2026-05-08",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/05/08/last-24-hours-to-get-50-off-a-second-pass-to-techcrunch-disrupt-2026/",
+    "summary": "Last day to buy one pass and get a second one at 50% off to TechCrunch Disrupt 2026. Bring a partner, co-founder, or colleague at half off. Register now.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-exhibit-at-techcrunch-disrupt-328",
+    "title": "Exhibit at TechCrunch Disrupt 2026: Get in front of 10,000 decision-makers before space runs out",
+    "date": "2026-05-07",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/05/07/exhibit-at-techcrunch-disrupt-2026-get-in-front-of-10000-decision-makers-before-space-runs-out/",
+    "summary": "If startup visibility, traction, and real deals matter, you should be on the TechCrunch Disrupt 2026 exhibit floor. Get your 6' exhibit table before your competitor does.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-2-days-left-get-50-off-a-secon-399",
+    "title": "2 days left: Get 50% off a second pass to TechCrunch Disrupt 2026",
+    "date": "2026-05-07",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/05/07/2-days-left-get-50-off-a-second-pass-to-techcrunch-disrupt-2026/",
+    "summary": "Two days left to save up to $410 on your pass, and get a second one at 50% off to TechCrunch Disrupt 2026. Offer ends May 8, 11:59 p.m. PT. Register now.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-khosla-backed-robotics-startup-58",
+    "title": "Khosla-backed robotics startup Genesis AI has gone full stack, demo shows",
+    "date": "2026-05-06",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
+    "summary": "Genesis AI, a startup that raised a $105 million seed round to build foundational AI for robotics, has unveiled its first model, GENE-26.5, but also a demo showcasing a set of robotic hands performing...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-3-days-left-to-lock-in-50-off-210",
+    "title": "3 days left to lock in 50% off a second ticket to TechCrunch Disrupt 2026",
+    "date": "2026-05-06",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/05/06/3-days-left-to-lock-in-50-off-a-second-ticket-to-techcrunch-disrupt-2026/",
+    "summary": "Three days left to lock in 50% off a second ticket to Disrupt 2026. Buy one TechCrunch Disrupt 2026 ticket, and get a second ticket at 50% off. Gain more visibility in the tech industry. Offer ends Ma...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-4-days-left-get-50-off-a-secon-885",
+    "title": "4 days left: Get 50% off a second TechCrunch Disrupt 2026 pass to make more deals faster",
+    "date": "2026-05-05",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/05/05/4-days-left-get-50-off-a-second-techcrunch-disrupt-2026-pass-to-make-more-deals-faster/",
+    "summary": "For the next four days only, you can buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type. That window closes May 8 at 11:59 p.m. PT. After that, prices go up, and ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-irobot-founder-wants-to-put-a-89",
+    "title": "iRobot Founder Wants to Put a Robotic Familiar Into Your Home",
+    "date": "2026-05-04",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/familiar-machines-and-magic",
+    "summary": "Two years ago, Colin Angle stepped down as CEO of iRobot, the company that he cofounded and the most successful home robot company the world has ever seen. Angle almost immediately founded a stealthy ...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-daimon-robotics-wants-to-give-131",
+    "title": "DAIMON Robotics Wants to Give Robot Hands a Sense of Touch",
+    "date": "2026-05-04",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/daimon-robotics-physical-ai",
+    "summary": "This article is brought to you by DAIMON Robotics.This April, Hong Kong-based DAIMON Robotics has released Daimon-Infinity, which it describes as the largest omni-modal robotic dataset for physical AI...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-5-days-only-bring-a-partner-or-878",
+    "title": "5 days only: Bring a partner or colleague and get 50% off a second TechCrunch Disrupt 2026 pass",
+    "date": "2026-05-04",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/05/04/5-days-only-bring-a-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/",
+    "summary": "The BOGO offer is live. For a limited time, buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type. Offer ends this Friday, May 8. Save here.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-video-friday-figure-1x-ramp-up-806",
+    "title": "Video Friday: Figure, 1X Ramp Up Humanoid Robot Production",
+    "date": "2026-05-01",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-humanoid-robot-production",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Policy",
+    "companies": [
+      "figure-ai",
+      "1x-technologies"
+    ],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "1x-neo-preorders",
+    "title": "1X books 10,000 NEO preorders in five days at $20,000 consumer price",
+    "date": "2026-04-30",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/",
+    "summary": "Norwegian humanoid maker 1X said its NEO preorder campaign booked out next-year production capacity in five days, totaling 10,000 NEOs. NEO will be available for $20,000 to US consumers, with buyers receiving delivery in 2026. The robot is positioned for household tasks including door-opening, fetching items, and lighting control.",
+    "category": "Deployment",
+    "companies": [
+      "1x-technologies"
+    ],
+    "policies": [],
+    "themes": [
+      "cost-trajectory"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "consumer",
+      "humanoid",
+      "preorder",
+      "household"
+    ]
+  },
+  {
+    "id": "rss-colby-adcock-8217-s-scout-ai-r-536",
+    "title": "Colby Adcock&#8217;s Scout AI raises $100M to train its models for war: We visited its bootcamp",
+    "date": "2026-04-29",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/",
+    "summary": "We visited Scout AI's training ground where it's working on AI agents that can help individual soldiers control fleets of autonomous vehicles.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-why-tokyo-is-the-most-importan-374",
+    "title": "Why Tokyo is the most important tech destination of 2026",
+    "date": "2026-04-25",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/",
+    "summary": "SusHi Tech Tokyo 2026 has four tightly defined technology domains, each backed by live demonstrations, dedicated exhibit floors, and sessions featuring the people actually building and funding these t...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-apple-under-ternus-what-comes-888",
+    "title": "Apple under Ternus: what comes next for the tech giant’s hardware strategy",
+    "date": "2026-04-25",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/",
+    "summary": "John Ternus, Apple's incoming CEO, is a hardware guy, signaling Apple may be putting devices back at the center of its strategy.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-video-friday-who-wins-in-robot-373",
+    "title": "Video Friday: Who Wins in Robot vs. Pro Ping-Pong Player?",
+    "date": "2026-04-24",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-ping-pong-robot",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-this-roboticist-turned-teacher-848",
+    "title": "This Roboticist-Turned-Teacher Built a Life-Size Replica of ENIAC",
+    "date": "2026-04-23",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/roboticist-turned-teacher-eniac-replica",
+    "summary": "Tom Burick has always considered himself a builder. Over the years he’s designed robots, constructed a vintage teardrop trailer, and most recently, led a group of students in building a full-scale rep...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-proposed-chinese-robot-ban-is-605",
+    "title": "Proposed Chinese Robot Ban Is Latest U.S. Tech Sovereignty Move",
+    "date": "2026-04-22",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/chinese-robots-us-ban",
+    "summary": "The American Security Robotics Act, a bipartisan bill introduced in March by Senators Tom Cotton (R-Ark.) and Chuck Schumer (D-N.Y.) and Representative Elise Stefanik (R-N.Y.), proposes to limit U.S. ...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "hr-8189-american-security-robotics"
+    ],
+    "themes": [
+      "china-scale",
+      "policy-momentum",
+      "defense-procurement"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "hr-8189-introduced",
+    "title": "American Security Robotics Act introduced; would restrict federal buy of Chinese humanoids",
+    "date": "2026-04-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/",
+    "summary": "Rep. Pat Harrigan (R-NC) introduced H.R. 8189, the American Security Robotics Act of 2026, which would restrict federal procurement of humanoid robots and robotic systems manufactured in countries of concern. The bill establishes a covered-entity list maintained jointly by Commerce and the Department of Defense.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "hr-8189-american-security-robotics"
+    ],
+    "themes": [
+      "china-scale",
+      "defense-procurement",
+      "policy-momentum"
+    ],
+    "sentiment": "Mixed",
+    "confidence": "High",
+    "tags": [
+      "federal",
+      "bill-introduced",
+      "national-security",
+      "china-competition"
+    ],
+    "archive_url": "https://web.archive.org/web/20260306200257/https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/"
+  },
+  {
+    "id": "rss-the-usc-professor-who-pioneere-167",
+    "title": "The USC Professor Who Pioneered Socially Assistive Robotics",
+    "date": "2026-04-20",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/socially-assistive-robotics",
+    "summary": "When the robotics engineering field that Maja Matarić wanted to work in didn’t exist, she helped create it. In 2005 she helped define the new area of socially assistive robotics.As an associate profes...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-robots-beat-human-records-at-b-602",
+    "title": "Robots beat human records at Beijing half-marathon",
+    "date": "2026-04-19",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/04/19/robots-beat-human-records-at-beijing-half-marathon/",
+    "summary": "The winning time is a massive improvement over last year’s race, when the fastest robot finished in two hours and 40 minutes.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "ny-times-silicon-valley-playbook",
+    "title": "Washington brings Silicon Valley-building playbook to robotics",
+    "date": "2026-04-18",
+    "source": "Yahoo Finance",
+    "source_type": "News",
+    "source_url": "https://finance.yahoo.com/news/robotics-become-america-most-important-135500537.html",
+    "summary": "Federal officials describe an emerging coordinated strategy treating robotics as critical national infrastructure, including procurement preference, tax treatment, and R&D priority. The framing — explicitly compared to the post-1980s semiconductor playbook — has gained traction across both parties.",
+    "category": "Geopolitics",
+    "companies": [],
+    "policies": [
+      "hr-7334-national-commission-robotics",
+      "hr-8189-american-security-robotics",
+      "chips-act-advanced-manufacturing"
+    ],
+    "themes": [
+      "policy-momentum",
+      "china-scale",
+      "defense-procurement",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "federal",
+      "policy-frame",
+      "industrial-policy"
+    ],
+    "archive_url": "https://web.archive.org/web/20251222231701/https://finance.yahoo.com/news/robotics-become-america-most-important-135500537.html"
+  },
+  {
+    "id": "rss-video-friday-digit-learns-to-d-375",
+    "title": "Video Friday: Digit Learns to Deadlift",
+    "date": "2026-04-17",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/robot-learning",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Policy",
+    "companies": [
+      "agility-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-chef-robotics-escaped-the-robo-447",
+    "title": "Chef Robotics escaped the robot cooking graveyard and says it&#8217;s thriving &#8212; here&#8217;s why",
+    "date": "2026-04-17",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/04/17/chef-robotics-escaped-the-robot-cooking-graveyard-and-says-its-thriving-heres-why/",
+    "summary": "The company, which deploys AI-guided robot arms for food production, says it is looking to expand its services to provide for a broader array of customers.",
+    "category": "Deployment",
     "companies": [],
     "policies": [],
     "themes": [],
@@ -343,341 +1197,17 @@
     ]
   },
   {
-    "id": "rss-chef-robotics-escaped-the-robo-447",
-    "title": "Chef Robotics escaped the robot cooking graveyard and says it&#8217;s thriving &#8212; here&#8217;s why",
-    "date": "2026-04-17",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/04/17/chef-robotics-escaped-the-robot-cooking-graveyard-and-says-its-thriving-heres-why/",
-    "summary": "The company, which deploys AI-guided robot arms for food production, says it is looking to expand its services to provide for a broader array of customers.",
-    "category": "Deployment",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-robots-beat-human-records-at-b-602",
-    "title": "Robots beat human records at Beijing half-marathon",
-    "date": "2026-04-19",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/04/19/robots-beat-human-records-at-beijing-half-marathon/",
-    "summary": "The winning time is a massive improvement over last year’s race, when the fastest robot finished in two hours and 40 minutes.",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [
-      "china-scale"
-    ],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-apple-under-ternus-what-comes-888",
-    "title": "Apple under Ternus: what comes next for the tech giant’s hardware strategy",
-    "date": "2026-04-25",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/",
-    "summary": "John Ternus, Apple's incoming CEO, is a hardware guy, signaling Apple may be putting devices back at the center of its strategy.",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-why-tokyo-is-the-most-importan-374",
-    "title": "Why Tokyo is the most important tech destination of 2026",
-    "date": "2026-04-25",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/",
-    "summary": "SusHi Tech Tokyo 2026 has four tightly defined technology domains, each backed by live demonstrations, dedicated exhibit floors, and sessions featuring the people actually building and funding these t...",
-    "category": "Funding",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-colby-adcock-8217-s-scout-ai-r-536",
-    "title": "Colby Adcock&#8217;s Scout AI raises $100M to train its models for war: We visited its bootcamp",
-    "date": "2026-04-29",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/",
-    "summary": "We visited Scout AI's training ground where it's working on AI agents that can help individual soldiers control fleets of autonomous vehicles.",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-5-days-only-bring-a-partner-or-878",
-    "title": "5 days only: Bring a partner or colleague and get 50% off a second TechCrunch Disrupt 2026 pass",
-    "date": "2026-05-04",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/05/04/5-days-only-bring-a-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/",
-    "summary": "The BOGO offer is live. For a limited time, buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type. Offer ends this Friday, May 8. Save here.",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-4-days-left-get-50-off-a-secon-885",
-    "title": "4 days left: Get 50% off a second TechCrunch Disrupt 2026 pass to make more deals faster",
-    "date": "2026-05-05",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/05/05/4-days-left-get-50-off-a-second-techcrunch-disrupt-2026-pass-to-make-more-deals-faster/",
-    "summary": "For the next four days only, you can buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type. That window closes May 8 at 11:59 p.m. PT. After that, prices go up, and ...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-3-days-left-to-lock-in-50-off-210",
-    "title": "3 days left to lock in 50% off a second ticket to TechCrunch Disrupt 2026",
-    "date": "2026-05-06",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/05/06/3-days-left-to-lock-in-50-off-a-second-ticket-to-techcrunch-disrupt-2026/",
-    "summary": "Three days left to lock in 50% off a second ticket to Disrupt 2026. Buy one TechCrunch Disrupt 2026 ticket, and get a second ticket at 50% off. Gain more visibility in the tech industry. Offer ends Ma...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-khosla-backed-robotics-startup-58",
-    "title": "Khosla-backed robotics startup Genesis AI has gone full stack, demo shows",
-    "date": "2026-05-06",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
-    "summary": "Genesis AI, a startup that raised a $105 million seed round to build foundational AI for robotics, has unveiled its first model, GENE-26.5, but also a demo showcasing a set of robotic hands performing...",
-    "category": "Funding",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-2-days-left-get-50-off-a-secon-399",
-    "title": "2 days left: Get 50% off a second pass to TechCrunch Disrupt 2026",
-    "date": "2026-05-07",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/05/07/2-days-left-get-50-off-a-second-pass-to-techcrunch-disrupt-2026/",
-    "summary": "Two days left to save up to $410 on your pass, and get a second one at 50% off to TechCrunch Disrupt 2026. Offer ends May 8, 11:59 p.m. PT. Register now.",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-exhibit-at-techcrunch-disrupt-328",
-    "title": "Exhibit at TechCrunch Disrupt 2026: Get in front of 10,000 decision-makers before space runs out",
-    "date": "2026-05-07",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/05/07/exhibit-at-techcrunch-disrupt-2026-get-in-front-of-10000-decision-makers-before-space-runs-out/",
-    "summary": "If startup visibility, traction, and real deals matter, you should be on the TechCrunch Disrupt 2026 exhibit floor. Get your 6' exhibit table before your competitor does.",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-last-24-hours-to-get-50-off-a-9",
-    "title": "Last 24 hours to get 50% off a second pass to TechCrunch Disrupt 2026",
-    "date": "2026-05-08",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/05/08/last-24-hours-to-get-50-off-a-second-pass-to-techcrunch-disrupt-2026/",
-    "summary": "Last day to buy one pass and get a second one at 50% off to TechCrunch Disrupt 2026. Bring a partner, co-founder, or colleague at half off. Register now.",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-korea-8217-s-biggest-manufactu-820",
-    "title": "Korea&#8217;s biggest manufacturers back Config, the TSMC of robot data",
-    "date": "2026-05-11",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/05/11/koreas-biggest-manufacturers-back-config-the-tsmc-of-robot-data/",
-    "summary": "Instead of building robots themselves, the team is focused on a simpler goal — providing data that robots need to learn and operate. They believe that better data will be key to making robots more use...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-introducing-the-6-stages-at-te-467",
-    "title": "Introducing the 6 stages at TechCrunch Disrupt 2026 — built for today’s tougher startup market",
-    "date": "2026-05-13",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/05/13/introducing-the-6-stages-of-techcrunch-disrupt-2026-built-for-todays-tougher-startup-market/",
-    "summary": "From October 13-15, TechCrunch Disrupt 2026 will feature 200+ sessions across six stages, led by 250+ tech leaders shaping the industry today. Register now to save up to $410, plus 50% off a second pa...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-rivian-spinoff-mind-robotics-r-77",
-    "title": "Rivian spinoff Mind Robotics raises another $400M",
-    "date": "2026-05-13",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m/",
-    "summary": "Mind Robotics, which was first revealed in late 2025, has now raised more than $1 billion to date.",
-    "category": "Funding",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-two-weeks-left-startup-battlef-95",
-    "title": "Two weeks left: Startup Battlefield 200 applications close May 27",
-    "date": "2026-05-14",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/05/14/two-weeks-left-startup-battlefield-200-applications-close-may-27/",
-    "summary": "Your shot at VC access, global visibility, TechCrunch coverage, and $100K equity-free funding is running out. Deadline to apply is May 27. Apply now.",
-    "category": "Funding",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-google-s-genie-world-model-can-306",
-    "title": "Google’s Genie world model can now simulate real streets with Street View",
-    "date": "2026-05-19",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/05/19/googles-genie-world-model-can-now-simulate-real-streets-with-street-view/",
-    "summary": "Google DeepMind is integrating Street View with Project Genie to create immersive, interactive world simulations for robotics, gaming, and travel, allowing users to explore environments, weather chang...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-the-coming-drone-war-inflectio-886",
-    "title": "The Coming Drone-War Inflection in Ukraine",
-    "date": "2026-03-24",
+    "id": "rss-boston-dynamics-and-google-dee-523",
+    "title": "​Boston Dynamics and Google DeepMind Teach Spot to Reason​",
+    "date": "2026-04-14",
     "source": "ieee-spectrum-robotics",
     "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/autonomous-drone-warfare",
-    "summary": "WHEN KYIV-BORN ENGINEER Yaroslav Azhnyuk thinks about the future, his mind conjures up dystopian images. He talks about “swarms of autonomous drones carrying other autonomous drones to protect them ag...",
-    "category": "Funding",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-30-years-ago-robots-learned-to-768",
-    "title": "30 Years Ago, Robots Learned to Walk Without Falling",
-    "date": "2026-03-25",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/honda-p2-robot-ieee-milestone",
-    "summary": "When you hear the term humanoid robot, you may think of C-3PO, the human-cyborg-relations android from Star Wars. C-3PO was designed to assist humans in communicating with robots and alien species. Th...",
+    "source_url": "https://spectrum.ieee.org/boston-dynamics-spot-google-deepmind",
+    "summary": "The amazing and frustrating thing about robots is that they can do almost anything you want them to do, as long as you know how to ask properly. In the not-so-distant past, asking properly meant writi...",
     "category": "Research",
-    "companies": [],
+    "companies": [
+      "boston-dynamics"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -687,12 +1217,12 @@
     ]
   },
   {
-    "id": "rss-video-friday-beep-beep-roadrun-109",
-    "title": "Video Friday: Beep! Beep! Roadrunner Bipedal Bot Breaks the Mold",
-    "date": "2026-03-27",
+    "id": "rss-video-friday-this-floor-lamp-w-550",
+    "title": "Video Friday: This Floor Lamp Will Do Your Chores",
+    "date": "2026-04-10",
     "source": "ieee-spectrum-robotics",
     "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/roadrunner-bipedal-robot",
+    "source_url": "https://spectrum.ieee.org/video-friday-robot-lamp",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
     "category": "Policy",
     "companies": [],
@@ -707,15 +1237,119 @@
     ]
   },
   {
-    "id": "rss-scientists-build-living-robots-162",
-    "title": "Scientists Build Living Robots With Nervous Systems",
-    "date": "2026-04-02",
+    "id": "rss-techcrunch-is-heading-to-tokyo-676",
+    "title": "TechCrunch is heading to Tokyo — and bringing the Startup Battlefield with it",
+    "date": "2026-04-10",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/",
+    "summary": "SusHi Tech 2026 is zeroing in on four technology domains reshaping society: AI, Robotics, Resilience, and Entertainment. Expect live demos of humanoid robots, sessions on autonomous driving's software...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "last-24-hours-save-up-to-500-on-your-techcrunch-disrupt-2026-pass-2026-04-10",
+    "title": "Last 24 hours: Save up to $500 on your TechCrunch Disrupt 2026 pass",
+    "date": "2026-04-10",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/04/10/final-24-hours-save-up-to-500-on-your-techcrunch-disrupt-2026-pass/",
+    "summary": "This is it. Tonight is your last chance to lock in savings of up to $500 for your TechCrunch Disrupt 2026 pass. These discounts end at 11:59 p.m. PT.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "impact_tier": "Medium",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "auto-scraped",
+      "source:techcrunch-robotics-tag"
+    ],
+    "_scraped": true,
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-goztasp-a-zero-trust-platform-340",
+    "title": "GoZTASP: A Zero-Trust Platform for Governing Autonomous Systems at Mission Scale",
+    "date": "2026-04-09",
     "source": "ieee-spectrum-robotics",
     "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/neurobot-living-robot-nervous-system",
-    "summary": "Engineers have long tried to mimic life. They’ve built machine learning algorithms modeled after the human brain, designed machines that walk like dogs or fly like insects, and taught robots to adapt,...",
-    "category": "Funding",
+    "source_url": "https://content.knowledgehub.wiley.com/goztasp-a-zero-trust-platform-for-governing-autonomous-systems-at-mission-scale/",
+    "summary": "ZTASP is a mission-scale assurance and governance platform designed for autonomous systems operating in real-world environments. It integrates heterogeneous systems—including drones, robots, sensors, ...",
+    "category": "Research",
     "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "ubtech-walker-mass-deploy",
+    "title": "UBTECH announces mass deployment of Walker humanoids across Chinese auto plants",
+    "date": "2026-04-08",
+    "source": "eWeek",
+    "source_type": "News",
+    "source_url": "https://www.eweek.com/news/china-deploys-humanoid-robots-ubtech-walker/",
+    "summary": "UBTECH detailed Walker humanoid deployments across multiple Chinese automotive plants, including BYD, Geely, and FAW. The company stated 2025 unit sales reached 1,079, with 2026 targets of 5,000 units. Deployments span assembly, kitting, and quality-inspection tasks.",
+    "category": "Deployment",
+    "companies": [
+      "ubtech"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sentiment": "Mixed",
+    "confidence": "High",
+    "tags": [
+      "china",
+      "automotive",
+      "deployment",
+      "ubtech"
+    ]
+  },
+  {
+    "id": "rss-what-happened-when-we-set-up-a-139",
+    "title": "What Happened When We Set Up a Robotics Lab in a Mall",
+    "date": "2026-04-05",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/boston-dynamics-spot-interaction",
+    "summary": "Building the next generation of robots for successful integration into our homes, offices, and factories is more than just solving the hardware and software problems—we also need to understand how the...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-video-friday-digit-learns-to-d-727",
+    "title": "Video Friday: Digit Learns to Dance—Virtually Overnight",
+    "date": "2026-04-03",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-humanoid-dancing",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Research",
+    "companies": [
+      "agility-robotics"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -733,6 +1367,24 @@
     "source_url": "https://spectrum.ieee.org/robotics-in-nuclear-industry",
     "summary": "Researchers have made a Wi-Fi receiver that’s tough enough to work inside a nuclear reactor. They hope the receiver might be part of a wireless communications system for robotics used to decommission ...",
     "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-scientists-build-living-robots-162",
+    "title": "Scientists Build Living Robots With Nervous Systems",
+    "date": "2026-04-02",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/neurobot-living-robot-nervous-system",
+    "summary": "Engineers have long tried to mimic life. They’ve built machine learning algorithms modeled after the human brain, designed machines that walk like dogs or fly like insects, and taught robots to adapt,...",
+    "category": "Funding",
     "companies": [],
     "policies": [],
     "themes": [],
@@ -764,113 +1416,72 @@
     ]
   },
   {
-    "id": "rss-video-friday-digit-learns-to-d-727",
-    "title": "Video Friday: Digit Learns to Dance—Virtually Overnight",
-    "date": "2026-04-03",
-    "source": "ieee-spectrum-robotics",
+    "id": "agility-cash-flow-target",
+    "title": "Agility Robotics targets cash-flow positive on RaaS scale-up",
+    "date": "2026-03-30",
+    "source": "The Robot Report",
     "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/video-humanoid-dancing",
-    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
-    "category": "Research",
+    "source_url": "https://www.therobotreport.com/",
+    "summary": "Agility Robotics' CFO outlined a path to cash-flow positive operations as Digit RaaS contracts scale across Amazon, GXO, and Toyota. The company is developing a next-generation Digit with 50 lb payload, improved battery life, and ISO functional safety certification targeted for mid-to-late 2026.",
+    "category": "Deployment",
     "companies": [
       "agility-robotics"
     ],
     "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-what-happened-when-we-set-up-a-139",
-    "title": "What Happened When We Set Up a Robotics Lab in a Mall",
-    "date": "2026-04-05",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/boston-dynamics-spot-interaction",
-    "summary": "Building the next generation of robots for successful integration into our homes, offices, and factories is more than just solving the hardware and software problems—we also need to understand how the...",
-    "category": "Research",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-goztasp-a-zero-trust-platform-340",
-    "title": "GoZTASP: A Zero-Trust Platform for Governing Autonomous Systems at Mission Scale",
-    "date": "2026-04-09",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://content.knowledgehub.wiley.com/goztasp-a-zero-trust-platform-for-governing-autonomous-systems-at-mission-scale/",
-    "summary": "ZTASP is a mission-scale assurance and governance platform designed for autonomous systems operating in real-world environments. It integrates heterogeneous systems—including drones, robots, sensors, ...",
-    "category": "Research",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-video-friday-this-floor-lamp-w-550",
-    "title": "Video Friday: This Floor Lamp Will Do Your Chores",
-    "date": "2026-04-10",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/video-friday-robot-lamp",
-    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
-    "category": "Policy",
-    "companies": [],
-    "policies": [],
     "themes": [
-      "policy-momentum"
+      "industrial-deployments"
     ],
-    "sentiment": "Neutral",
+    "sentiment": "Positive",
     "confidence": "Medium",
     "tags": [
-      "rss-import"
-    ]
+      "agility",
+      "raas",
+      "scale",
+      "humanoid"
+    ],
+    "archive_url": "https://web.archive.org/web/20260508123643/https://www.therobotreport.com/"
   },
   {
-    "id": "rss-boston-dynamics-and-google-dee-523",
-    "title": "​Boston Dynamics and Google DeepMind Teach Spot to Reason​",
-    "date": "2026-04-14",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/boston-dynamics-spot-google-deepmind",
-    "summary": "The amazing and frustrating thing about robots is that they can do almost anything you want them to do, as long as you know how to ask properly. In the not-so-distant past, asking properly meant writi...",
-    "category": "Research",
+    "id": "replicator-tranche-2",
+    "title": "DoD announces Replicator Tranche 2 expanding to ground systems",
+    "date": "2026-03-28",
+    "source": "Defense Department",
+    "source_type": "Press Release",
+    "source_url": "https://www.defense.gov/",
+    "summary": "Deputy Secretary of Defense announced the second tranche of the Replicator initiative, expanding scope from aerial systems to attritable ground and counter-UAS systems. Total commitment for Tranche 2 is in the range of $500M–$1B. Non-traditional defense suppliers including Anduril, Shield AI, and several humanoid manufacturers are reportedly competing.",
+    "category": "Policy",
     "companies": [
+      "anduril",
+      "shield-ai",
       "boston-dynamics"
     ],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
+    "policies": [
+      "dod-replicator"
+    ],
+    "themes": [
+      "defense-procurement",
+      "policy-momentum"
+    ],
+    "sentiment": "Positive",
     "confidence": "Medium",
     "tags": [
-      "rss-import"
-    ]
+      "federal",
+      "defense",
+      "procurement",
+      "replicator"
+    ],
+    "archive_url": "https://web.archive.org/web/20260105224154/http://defense.gov/"
   },
   {
-    "id": "rss-video-friday-digit-learns-to-d-375",
-    "title": "Video Friday: Digit Learns to Deadlift",
-    "date": "2026-04-17",
+    "id": "rss-video-friday-beep-beep-roadrun-109",
+    "title": "Video Friday: Beep! Beep! Roadrunner Bipedal Bot Breaks the Mold",
+    "date": "2026-03-27",
     "source": "ieee-spectrum-robotics",
     "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/robot-learning",
+    "source_url": "https://spectrum.ieee.org/roadrunner-bipedal-robot",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
     "category": "Policy",
-    "companies": [
-      "agility-robotics"
-    ],
+    "companies": [],
     "policies": [],
     "themes": [
       "policy-momentum"
@@ -882,13 +1493,35 @@
     ]
   },
   {
-    "id": "rss-the-usc-professor-who-pioneere-167",
-    "title": "The USC Professor Who Pioneered Socially Assistive Robotics",
-    "date": "2026-04-20",
+    "id": "notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-",
+    "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-The National Advanced Mobility Consortium, Inc. (Formerly Known as the Robotics Technology Consortium)",
+    "date": "2026-03-26",
+    "source": "federal-register-robotics",
+    "source_type": "Press Release",
+    "source_url": "https://www.federalregister.gov/documents/2026/03/26/2026-05925/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-the-national",
+    "summary": "(no abstract from feed — see original: Notice Pursuant to the National Cooperative Research and Production Act of 1993-The National Advance)",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "impact_tier": "Medium",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "auto-scraped",
+      "source:federal-register-robotics"
+    ],
+    "_scraped": true,
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-30-years-ago-robots-learned-to-768",
+    "title": "30 Years Ago, Robots Learned to Walk Without Falling",
+    "date": "2026-03-25",
     "source": "ieee-spectrum-robotics",
     "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/socially-assistive-robotics",
-    "summary": "When the robotics engineering field that Maja Matarić wanted to work in didn’t exist, she helped create it. In 2005 she helped define the new area of socially assistive robotics.As an associate profes...",
+    "source_url": "https://spectrum.ieee.org/honda-p2-robot-ieee-milestone",
+    "summary": "When you hear the term humanoid robot, you may think of C-3PO, the human-cyborg-relations android from Star Wars. C-3PO was designed to assist humans in communicating with robots and alien species. Th...",
     "category": "Research",
     "companies": [],
     "policies": [],
@@ -900,410 +1533,250 @@
     ]
   },
   {
-    "id": "rss-proposed-chinese-robot-ban-is-605",
-    "title": "Proposed Chinese Robot Ban Is Latest U.S. Tech Sovereignty Move",
-    "date": "2026-04-22",
+    "id": "rss-the-coming-drone-war-inflectio-886",
+    "title": "The Coming Drone-War Inflection in Ukraine",
+    "date": "2026-03-24",
     "source": "ieee-spectrum-robotics",
     "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/chinese-robots-us-ban",
-    "summary": "The American Security Robotics Act, a bipartisan bill introduced in March by Senators Tom Cotton (R-Ark.) and Chuck Schumer (D-N.Y.) and Representative Elise Stefanik (R-N.Y.), proposes to limit U.S. ...",
-    "category": "Policy",
+    "source_url": "https://spectrum.ieee.org/autonomous-drone-warfare",
+    "summary": "WHEN KYIV-BORN ENGINEER Yaroslav Azhnyuk thinks about the future, his mind conjures up dystopian images. He talks about “swarms of autonomous drones carrying other autonomous drones to protect them ag...",
+    "category": "Funding",
     "companies": [],
-    "policies": [
-      "hr-8189-american-security-robotics"
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "video-friday-humanoid-learns-tennis-skills-playing-humans-2026-03-21",
+    "title": "Video Friday: Humanoid Learns Tennis Skills Playing Humans",
+    "date": "2026-03-21",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/tennis-playing-robot",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNASummer School on Multi-Robot Systems: 29 July–4 August 2026, PRAGUEEnjoy today’s videos! Human athletes demonstrate versatile and highly dynamic tennis skills to successfully conduct competitive rallies with a high-speed tennis ball. However, reproducing such behaviors on humanoid robots is difficult, partially due to the lack of perfect humanoid action data or human kinematic motion data in tennis scenarios as reference",
+    "category": "Supply Chain",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "impact_tier": "Medium",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "auto-scraped",
+      "source:ieee-spectrum-robotics"
     ],
+    "_scraped": true,
+    "_requires_curator_review": true
+  },
+  {
+    "id": "overcoming-core-engineering-barriers-in-humanoid-robotics-development-2026-03-19",
+    "title": "Overcoming Core Engineering Barriers in Humanoid Robotics Development",
+    "date": "2026-03-19",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://content.knowledgehub.wiley.com/engineering-challenges-and-component-strategies-in-humanoid-robotics-from-prototype-to-production/",
+    "summary": "A technical examination of the sensing, motion control, power, and thermal challenges facing humanoid robotics engineers — with component-level design strategies for real-world deployment.What Attendees will LearnWhy motion control remains the hardest unsolved problem — Explore the modelling complexity, real-time feedback requirements, and sensor fusion demands of maintaining stable bipedal locomotion across dynamic environments.How sensing architectures enable perception and safety — Understand the role of inertial measurement units, force/torque feedback, and tactile sensing in achieving reliable human-robot interaction and collision avoidance.What power and thermal constraints mean for sy",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "impact_tier": "Medium",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "auto-scraped",
+      "source:ieee-spectrum-robotics"
+    ],
+    "_scraped": true,
+    "_requires_curator_review": true
+  },
+  {
+    "id": "ubtech-1000-milestone",
+    "title": "UBTECH becomes first company to deliver more than 1,000 industrial humanoids globally",
+    "date": "2026-03-15",
+    "source": "humanoid.guide",
+    "source_type": "Blog",
+    "source_url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/",
+    "summary": "UBTECH reported 2025 total revenue of ¥2.001 billion, up 53.3% year-on-year. Full-size humanoid revenue reached ¥820 million on 1,079 robot unit sales — making UBTECH the first company globally to deliver more than 1,000 industrial humanoids. Deployments span automotive, smart logistics, 3C electronics, semiconductor fabrication, and aerospace manufacturing.",
+    "category": "Competitive",
+    "companies": [
+      "ubtech"
+    ],
+    "policies": [],
     "themes": [
       "china-scale",
-      "policy-momentum",
-      "defense-procurement"
+      "industrial-deployments"
     ],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
+    "sentiment": "Mixed",
+    "confidence": "High",
     "tags": [
-      "rss-import"
+      "china",
+      "scale",
+      "humanoid",
+      "ubtech",
+      "industrial"
     ]
   },
   {
-    "id": "rss-this-roboticist-turned-teacher-848",
-    "title": "This Roboticist-Turned-Teacher Built a Life-Size Replica of ENIAC",
-    "date": "2026-04-23",
+    "id": "video-friday-these-robots-were-born-to-run-2026-03-13",
+    "title": "Video Friday: These Robots Were Born to Run",
+    "date": "2026-03-13",
     "source": "ieee-spectrum-robotics",
     "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/roboticist-turned-teacher-eniac-replica",
-    "summary": "Tom Burick has always considered himself a builder. Over the years he’s designed robots, constructed a vintage teardrop trailer, and most recently, led a group of students in building a full-scale rep...",
-    "category": "Competitive",
+    "source_url": "https://spectrum.ieee.org/legged-modular-robot",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNAEnjoy today’s videos! All legged robots deployed “in the wild” to date were given a body plan that was predefined by human designers and could not be redefined in situ. The manual and permanent nature of this process has resulted in very few species of agile terrestrial robots beyond familiar four-limbed forms. Here, we introduce highly athletic modular building blocks and show how they enable the automatic design and ra",
+    "category": "Deployment",
     "companies": [],
     "policies": [],
     "themes": [],
+    "impact_tier": "Medium",
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
-      "rss-import"
-    ]
+      "auto-scraped",
+      "source:ieee-spectrum-robotics"
+    ],
+    "_scraped": true,
+    "_requires_curator_review": true
   },
   {
-    "id": "rss-video-friday-who-wins-in-robot-373",
-    "title": "Video Friday: Who Wins in Robot vs. Pro Ping-Pong Player?",
-    "date": "2026-04-24",
+    "id": "video-friday-a-robot-hand-with-artificial-muscles-and-tendons-2026-03-06",
+    "title": "Video Friday: A Robot Hand With Artificial Muscles and Tendons",
+    "date": "2026-03-06",
     "source": "ieee-spectrum-robotics",
     "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/video-friday-ping-pong-robot",
-    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
-    "category": "Research",
+    "source_url": "https://spectrum.ieee.org/video-friday-robot-hand-artificial-muscles",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNAEnjoy today’s videos! The functional replication and actuation of complex structures inspired by nature is a longstanding goal for humanity. Creating such complex structures combining soft and rigid features and actuating them with artificial muscles would further our understanding of natural kinematic structures. We printed a biomimetic hand in a single print process composed of a rigid skeleton, soft joint capsules, te",
+    "category": "Deployment",
     "companies": [],
     "policies": [],
     "themes": [],
+    "impact_tier": "Medium",
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
-      "rss-import"
-    ]
+      "auto-scraped",
+      "source:ieee-spectrum-robotics"
+    ],
+    "_scraped": true,
+    "_requires_curator_review": true
   },
   {
-    "id": "rss-video-friday-figure-1x-ramp-up-806",
-    "title": "Video Friday: Figure, 1X Ramp Up Humanoid Robot Production",
-    "date": "2026-05-01",
-    "source": "ieee-spectrum-robotics",
+    "id": "1x-eqt-partnership",
+    "title": "1X partners with EQT to roll out humanoids across portfolio companies",
+    "date": "2026-03-04",
+    "source": "The Robot Report",
     "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/video-friday-humanoid-robot-production",
-    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
-    "category": "Policy",
+    "source_url": "https://www.therobotreport.com/1x-partners-with-eqt-to-roll-out-humanoids-across-its-portfolio-companies/",
+    "summary": "1X Technologies announced a partnership with European private-equity firm EQT to roll out humanoid robots across EQT's portfolio companies. The arrangement represents a non-traditional go-to-market — selling into an investor's portfolio rather than direct enterprise sales.",
+    "category": "Deployment",
     "companies": [
-      "figure-ai",
       "1x-technologies"
     ],
     "policies": [],
     "themes": [
-      "policy-momentum"
-    ],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-daimon-robotics-wants-to-give-131",
-    "title": "DAIMON Robotics Wants to Give Robot Hands a Sense of Touch",
-    "date": "2026-05-04",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/daimon-robotics-physical-ai",
-    "summary": "This article is brought to you by DAIMON Robotics.This April, Hong Kong-based DAIMON Robotics has released Daimon-Infinity, which it describes as the largest omni-modal robotic dataset for physical AI...",
-    "category": "Research",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-irobot-founder-wants-to-put-a-89",
-    "title": "iRobot Founder Wants to Put a Robotic Familiar Into Your Home",
-    "date": "2026-05-04",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/familiar-machines-and-magic",
-    "summary": "Two years ago, Colin Angle stepped down as CEO of iRobot, the company that he cofounded and the most successful home robot company the world has ever seen. Angle almost immediately founded a stealthy ...",
-    "category": "Funding",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-video-friday-ai-gives-robot-ha-321",
-    "title": "Video Friday: AI Gives Robot Hands Humanlike Dexterity",
-    "date": "2026-05-09",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/video-friday-robotic-hand-dexterity",
-    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
-    "category": "Research",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-hello-robot-sets-the-standard-512",
-    "title": "Hello Robot Sets the Standard for Practical, Safe Home Robots",
-    "date": "2026-05-12",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/stretch-4-home-robot",
-    "summary": "Many roboticists (and at least one robotics journalist) have been seduced by the dream of a robot butler. And the rampant popularity of videos showing humanoid robots doing household tasks in improbab...",
-    "category": "Research",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-video-friday-heavy-robotic-mac-19",
-    "title": "Video Friday: Heavy Robotic Machinery Operates Itself",
-    "date": "2026-05-15",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/video-friday-material-handling-robots",
-    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
-    "category": "Research",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-agentic-ai-for-robot-teams-413",
-    "title": "Agentic AI for Robot Teams",
-    "date": "2026-05-18",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://events.bizzabo.com/867156",
-    "summary": "This presentation highlights recent efforts at the Johns Hopkins Applied Physics Laboratory to advance agentic AI for collaborative robotic teams. It begins by framing the core challenges of enabling ...",
-    "category": "Research",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-what-makes-a-job-dull-dirty-or-357",
-    "title": "What Makes a Job Dull, Dirty, or Dangerous?",
-    "date": "2026-05-18",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/dull-dirty-dangerous-robots",
-    "summary": "For years, the field of robotics has used the terms “dull, dirty, and dangerous” (DDD) to describe the types of tasks or jobs where robots might be useful—by doing work that’s undesirable for people. ...",
-    "category": "Policy",
-    "companies": [],
-    "policies": [],
-    "themes": [
-      "policy-momentum"
-    ],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-home-robot-safety-is-all-about-100",
-    "title": "Home Robot Safety Is All About Relationships",
-    "date": "2026-05-19",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/domestic-humanoid-robot-safety-standards",
-    "summary": "The International Organization for Standardization (ISO) is updating its 12-year-old safety requirements for personal care robots. A lot has happened since the last revision, both on the technology si...",
-    "category": "Policy",
-    "companies": [],
-    "policies": [],
-    "themes": [
-      "policy-momentum"
-    ],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-robots-could-turn-e-waste-into-534",
-    "title": "Robots Could Turn E-Waste Into a Source of Legacy Chips",
-    "date": "2026-05-19",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/e-waste-recycling-robots-ram",
-    "summary": "Electronic waste is moving up on regulatory agendas in 2026. New European waste-shipment rules, expanded recycling fees on products with non-removable batteries in California, and an e-waste import ba...",
-    "category": "Deployment",
-    "companies": [],
-    "policies": [],
-    "themes": [
-      "policy-momentum"
-    ],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-will-robotics-have-a-chatgpt-m-109",
-    "title": "Will Robotics Have a ChatGPT Moment?",
-    "date": "2026-05-20",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/robotics-ai-breakthrough",
-    "summary": "Over the next few decades, billions of autonomous, AI-powered robots will work alongside people in factories, perform tedious tasks in warehouses, care for the elderly, assist in unsafe disaster areas...",
-    "category": "Funding",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-the-future-of-physical-ai-isn-174",
-    "title": "The Future of Physical AI Isn’t Smarter Robots, It’s Smarter Interfaces",
-    "date": "2026-05-21",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/wetour-robotics-physical-ai-human-interfaces",
-    "summary": "This sponsored article is brought to you by Wetour Robotics.A field technician on a wind turbine, harness clipped, both hands on a wrench, needs to send a command to the diagnostic device hanging at h...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-open-source-software-is-starti-414",
-    "title": "Open-Source Software Is Starting to Help Robots Think",
-    "date": "2026-05-21",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/open-source-robot-ai-platforms",
-    "summary": "When a group of academics started making open-source robotics hardware, a generation of roboticists got years of their lives back. Now, the bigger challenge is getting robots to think—and that’s start...",
-    "category": "Policy",
-    "companies": [],
-    "policies": [],
-    "themes": [
-      "policy-momentum"
-    ],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-video-friday-atlas-versus-a-fr-547",
-    "title": "Video Friday: Atlas Versus a Fridge",
-    "date": "2026-05-22",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/video-friday-humanoid-robot-learning",
-    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
-    "category": "Policy",
-    "companies": [
-      "boston-dynamics"
-    ],
-    "policies": [],
-    "themes": [
-      "policy-momentum"
-    ],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "apptronik-935m-feb2026",
-    "title": "Apptronik raises $520M Series A extension at $5.5B valuation",
-    "date": "2026-02-11",
-    "source": "Bloomberg",
-    "source_type": "News",
-    "source_url": "https://www.bloomberg.com/news/articles/2026-02-11/apptronik-raises-520-million-in-new-funding-to-build-more-humanoids",
-    "summary": "Apptronik raised $520 million in a Series A extension led by Google, Mercedes-Benz, and B Capital, valuing the Austin-based humanoid robot maker at more than $5.5 billion. Total raised across the Series A and extension reaches $935 million. Apptronik has commercial partnerships with Google DeepMind, GXO Logistics, and Mercedes-Benz.",
-    "category": "Funding",
-    "companies": [
-      "apptronik"
-    ],
-    "policies": [],
-    "themes": [
-      "foundation-models",
       "industrial-deployments"
     ],
     "sentiment": "Positive",
     "confidence": "High",
     "tags": [
-      "funding",
-      "humanoid",
-      "unicorn",
-      "google-backed"
-    ]
+      "partnership",
+      "deployment",
+      "humanoid"
+    ],
+    "archive_url": "https://web.archive.org/web/20260112210652/https://www.therobotreport.com/1x-partners-with-eqt-to-roll-out-humanoids-across-its-portfolio-companies/"
   },
   {
-    "id": "skild-series-b",
-    "title": "Skild AI raises $1.4B at $14B valuation for robotics foundation model",
-    "date": "2026-01-09",
-    "source": "Bloomberg",
+    "id": "what-military-drones-can-teach-self-driving-cars-2026-03-02",
+    "title": "What Military Drones Can Teach Self-Driving Cars",
+    "date": "2026-03-02",
+    "source": "ieee-spectrum-robotics",
     "source_type": "News",
-    "source_url": "https://www.bloomberg.com/",
-    "summary": "Skild AI raised approximately $1.4 billion at a valuation above $14 billion, backed by SoftBank, Jeff Bezos, Coatue, and Lightspeed. The Pittsburgh-based startup is building a general-purpose foundation model intended to drive many robot bodies. Founders Deepak Pathak and Abhinav Gupta come from Carnegie Mellon University.",
-    "category": "Funding",
-    "companies": [
-      "skild-ai"
-    ],
-    "policies": [],
-    "themes": [
-      "foundation-models"
-    ],
-    "sentiment": "Positive",
-    "confidence": "High",
-    "tags": [
-      "funding",
-      "foundation-model",
-      "unicorn",
-      "softbank"
-    ],
-    "archive_url": "https://web.archive.org/web/20260513200449/https://www.bloomberg.com/"
-  },
-  {
-    "id": "1x-neo-preorders",
-    "title": "1X books 10,000 NEO preorders in five days at $20,000 consumer price",
-    "date": "2026-04-30",
-    "source": "The Robot Report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/",
-    "summary": "Norwegian humanoid maker 1X said its NEO preorder campaign booked out next-year production capacity in five days, totaling 10,000 NEOs. NEO will be available for $20,000 to US consumers, with buyers receiving delivery in 2026. The robot is positioned for household tasks including door-opening, fetching items, and lighting control.",
+    "source_url": "https://spectrum.ieee.org/military-drones-self-driving-cars",
+    "summary": "Self-driving cars often struggle with situations that are commonplace for human drivers. When confronted with construction zones, school buses, power outages, or misbehaving pedestrians, these vehicles often behave unpredictably, leading to crashes or freezing events, causing significant disruption to local traffic and possibly blocking first responders from doing their jobs. Because self-driving cars cannot successfully handle such routine problems, self-driving companies use human babysitters to remotely supervise them and intervene when necessary.This idea—humans supervising autonomous vehicles from a distance—is not new. The U.S. military has been doing it since the 1980s with unmanned a",
     "category": "Deployment",
-    "companies": [
-      "1x-technologies"
-    ],
+    "companies": [],
     "policies": [],
-    "themes": [
-      "cost-trajectory"
-    ],
-    "sentiment": "Positive",
-    "confidence": "High",
+    "themes": [],
+    "impact_tier": "Medium",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
     "tags": [
-      "consumer",
-      "humanoid",
-      "preorder",
-      "household"
-    ]
+      "auto-scraped",
+      "source:ieee-spectrum-robotics"
+    ],
+    "_scraped": true,
+    "_requires_curator_review": true
+  },
+  {
+    "id": "video-friday-robot-dogs-haul-produce-from-the-field-2026-02-27",
+    "title": "Video Friday: Robot Dogs Haul Produce From the Field",
+    "date": "2026-02-27",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/quadruped-farming-robots",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNAEnjoy today’s videos! Our robots Lynx M20 help transport harvested crops in mountainous farmland—tackling the rural “last mile” logistics challenge.[ Deep Robotics ]Once again, I would point out that now that we are reaching peak humanoid robots doing humanoid things, we are inevitably about to see humanoid robots doing nonhumanoid things.[ Unitree ]In a study, a team of researchers from the Max Planck Institute for Inte",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "impact_tier": "Medium",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "auto-scraped",
+      "source:ieee-spectrum-robotics"
+    ],
+    "_scraped": true,
+    "_requires_curator_review": true
+  },
+  {
+    "id": "perseverance-smashes-autonomous-driving-record-on-mars-2026-02-25",
+    "title": "Perseverance Smashes Autonomous Driving Record on Mars",
+    "date": "2026-02-25",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/perseverance-mars-rover-autonomous-driving",
+    "summary": "This article is part of our exclusive IEEE Journal Watch series in partnership with IEEE Xplore.In past missions to Mars, like with the Curiosity and Opportunity rovers, the robots relied mostly on human instructions from millions of miles away in order to safely navigate the Martian landscape. The Perseverance rover, on the other hand, has zipped across the alien, boulder-ridden land almost completely autonomously, smashing previous records for autonomous driving on Mars. Whereas the Curiosity rover completed about 6.2 percent of its travels autonomously, Perseverance had completed about 90 percent of its travels autonomously, as of its 1,312th Martian day since landing (28 October 2024). P",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "impact_tier": "Medium",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "auto-scraped",
+      "source:ieee-spectrum-robotics"
+    ],
+    "_scraped": true,
+    "_requires_curator_review": true
+  },
+  {
+    "id": "video-friday-humanoid-robots-celebrate-spring-2026-02-20",
+    "title": "Video Friday: Humanoid Robots Celebrate Spring",
+    "date": "2026-02-20",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/robot-martial-arts",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNAEnjoy today’s videos! So humanoid robots are nearing peak human performance. I would point out, though, that this is likely very far from peak robot performance, which has yet to be effectively exploited, because it requires more than just copying humans.[ Unitree ]“The Street Dance of China”: Turning lightness into gravity, and rhythm into impact.This is a head-on collision between metal and beats. This Chinese New Year",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "impact_tier": "Medium",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "auto-scraped",
+      "source:ieee-spectrum-robotics"
+    ],
+    "_scraped": true,
+    "_requires_curator_review": true
   },
   {
     "id": "agility-toyota-canada",
@@ -1332,55 +1805,97 @@
     "archive_url": "https://web.archive.org/web/20250218233545/https://agilityrobotics.com/news"
   },
   {
-    "id": "unitree-20000-target",
-    "title": "Unitree targets 20,000 humanoid shipments in 2026",
-    "date": "2026-01-22",
-    "source": "eWeek",
+    "id": "apptronik-935m-feb2026",
+    "title": "Apptronik raises $520M Series A extension at $5.5B valuation",
+    "date": "2026-02-11",
+    "source": "Bloomberg",
     "source_type": "News",
-    "source_url": "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/",
-    "summary": "Unitree plans to ship up to 20,000 humanoid robots in 2026, a significant jump from 2025 shipments of more than 5,500 units. Unitree's revenue from humanoids surpassed quadruped revenue for the first time in 2025, representing over 51% of the total. The company plans to reach an annual capacity of 75,000 humanoids over the next five years.",
-    "category": "Competitive",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-02-11/apptronik-raises-520-million-in-new-funding-to-build-more-humanoids",
+    "summary": "Apptronik raised $520 million in a Series A extension led by Google, Mercedes-Benz, and B Capital, valuing the Austin-based humanoid robot maker at more than $5.5 billion. Total raised across the Series A and extension reaches $935 million. Apptronik has commercial partnerships with Google DeepMind, GXO Logistics, and Mercedes-Benz.",
+    "category": "Funding",
     "companies": [
-      "unitree"
+      "apptronik"
     ],
     "policies": [],
     "themes": [
-      "china-scale"
+      "foundation-models",
+      "industrial-deployments"
     ],
-    "sentiment": "Mixed",
+    "sentiment": "Positive",
     "confidence": "High",
     "tags": [
-      "china",
-      "scale",
+      "funding",
       "humanoid",
-      "unitree"
+      "unicorn",
+      "google-backed"
     ]
   },
   {
-    "id": "ubtech-1000-milestone",
-    "title": "UBTECH becomes first company to deliver more than 1,000 industrial humanoids globally",
-    "date": "2026-03-15",
-    "source": "humanoid.guide",
-    "source_type": "Blog",
-    "source_url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/",
-    "summary": "UBTECH reported 2025 total revenue of ¥2.001 billion, up 53.3% year-on-year. Full-size humanoid revenue reached ¥820 million on 1,079 robot unit sales — making UBTECH the first company globally to deliver more than 1,000 industrial humanoids. Deployments span automotive, smart logistics, 3C electronics, semiconductor fabrication, and aerospace manufacturing.",
-    "category": "Competitive",
-    "companies": [
-      "ubtech"
-    ],
+    "id": "notice-of-intent-to-grant-a-partially-exclusive-patent-license-2026-02-10",
+    "title": "Notice of Intent To Grant a Partially Exclusive Patent License",
+    "date": "2026-02-10",
+    "source": "federal-register-robotics",
+    "source_type": "Press Release",
+    "source_url": "https://www.federalregister.gov/documents/2026/02/10/2026-02596/notice-of-intent-to-grant-a-partially-exclusive-patent-license",
+    "summary": "Pursuant to the Bayh-Dole Act and implementing regulations, the Department of the Air Force hereby gives notice of its intent to grant a partially exclusive, the field to include foreign object debris detection on paved surfaces, patent license to Airtrek Robotics, Inc. having a place of business at 2900 Reading Road, Cincinnati, OH 45206.",
+    "category": "Policy",
+    "companies": [],
     "policies": [],
-    "themes": [
-      "china-scale",
-      "industrial-deployments"
+    "themes": [],
+    "impact_tier": "Medium",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "auto-scraped",
+      "source:federal-register-robotics"
     ],
-    "sentiment": "Mixed",
+    "_scraped": true,
+    "_requires_curator_review": true
+  },
+  {
+    "id": "petition-for-reconsideration-of-action-in-rulemaking-proceeding-application-for-",
+    "title": "Petition for Reconsideration of Action in Rulemaking Proceeding Application for Review of Action in Rulemaking Proceeding",
+    "date": "2026-02-05",
+    "source": "federal-register-robotics",
+    "source_type": "Press Release",
+    "source_url": "https://www.federalregister.gov/documents/2026/02/05/2026-02285/petition-for-reconsideration-of-action-in-rulemaking-proceeding-application-for-review-of-action-in",
+    "summary": "Petition for Reconsideration (Petition) has been filed in the Commission's proceeding by Travis LeBlanc on behalf of SZ DJI Technology Co., Ltd. Application for Review (AFR) has been filed in the Commission's proceeding by Fan Liang, Zhiyu Liang on behalf of Autel Robotics Co., Ltd.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "impact_tier": "Medium",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "auto-scraped",
+      "source:federal-register-robotics"
+    ],
+    "_scraped": true,
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hr-7334-introduced",
+    "title": "National Commission on Robotics Act introduced in House",
+    "date": "2026-02-05",
+    "source": "Congress.gov",
+    "source_type": "Press Release",
+    "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/7334/text",
+    "summary": "Rep. Jay Obernolte (R-CA) introduced H.R. 7334, the National Commission on Robotics Act, directing the Department of Commerce to establish an 18-member commission of recognized robotics experts. The Commission would submit an interim report within one year and a final report with actionable recommendations on U.S. robotics competitiveness within two years.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "hr-7334-national-commission-robotics"
+    ],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Positive",
     "confidence": "High",
     "tags": [
-      "china",
-      "scale",
-      "humanoid",
-      "ubtech",
-      "industrial"
+      "federal",
+      "bill-introduced",
+      "national-strategy"
     ]
   },
   {
@@ -1412,136 +1927,55 @@
     ]
   },
   {
-    "id": "hr-7334-introduced",
-    "title": "National Commission on Robotics Act introduced in House",
-    "date": "2026-02-05",
-    "source": "Congress.gov",
-    "source_type": "Press Release",
-    "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/7334/text",
-    "summary": "Rep. Jay Obernolte (R-CA) introduced H.R. 7334, the National Commission on Robotics Act, directing the Department of Commerce to establish an 18-member commission of recognized robotics experts. The Commission would submit an interim report within one year and a final report with actionable recommendations on U.S. robotics competitiveness within two years.",
-    "category": "Policy",
-    "companies": [],
-    "policies": [
-      "hr-7334-national-commission-robotics"
-    ],
-    "themes": [
-      "policy-momentum"
-    ],
-    "sentiment": "Positive",
-    "confidence": "High",
-    "tags": [
-      "federal",
-      "bill-introduced",
-      "national-strategy"
-    ]
-  },
-  {
-    "id": "hr-8189-introduced",
-    "title": "American Security Robotics Act introduced; would restrict federal buy of Chinese humanoids",
-    "date": "2026-04-22",
-    "source": "The Robot Report",
+    "id": "unitree-20000-target",
+    "title": "Unitree targets 20,000 humanoid shipments in 2026",
+    "date": "2026-01-22",
+    "source": "eWeek",
     "source_type": "News",
-    "source_url": "https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/",
-    "summary": "Rep. Pat Harrigan (R-NC) introduced H.R. 8189, the American Security Robotics Act of 2026, which would restrict federal procurement of humanoid robots and robotic systems manufactured in countries of concern. The bill establishes a covered-entity list maintained jointly by Commerce and the Department of Defense.",
-    "category": "Policy",
-    "companies": [],
-    "policies": [
-      "hr-8189-american-security-robotics"
+    "source_url": "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/",
+    "summary": "Unitree plans to ship up to 20,000 humanoid robots in 2026, a significant jump from 2025 shipments of more than 5,500 units. Unitree's revenue from humanoids surpassed quadruped revenue for the first time in 2025, representing over 51% of the total. The company plans to reach an annual capacity of 75,000 humanoids over the next five years.",
+    "category": "Competitive",
+    "companies": [
+      "unitree"
     ],
+    "policies": [],
     "themes": [
-      "china-scale",
-      "defense-procurement",
-      "policy-momentum"
+      "china-scale"
     ],
     "sentiment": "Mixed",
     "confidence": "High",
     "tags": [
-      "federal",
-      "bill-introduced",
-      "national-security",
-      "china-competition"
-    ],
-    "archive_url": "https://web.archive.org/web/20260306200257/https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/"
-  },
-  {
-    "id": "obbba-depreciation",
-    "title": "House passes One Big Beautiful Bill with 100% bonus depreciation for automation equipment",
-    "date": "2026-05-10",
-    "source": "Standard Bots",
-    "source_type": "Blog",
-    "source_url": "https://standardbots.com/blog/obbb-robotics",
-    "summary": "The One Big Beautiful Bill Act, as passed by the House, restores 100% bonus depreciation for qualifying equipment placed in service through 2029. Industrial robots, conveyors, welding systems, and palletizers all qualify. The provision reverses the depreciation phaseout that would have hit 0% by 2027, directly improving the unit-economics of robot deployment for US manufacturers.",
-    "category": "Policy",
-    "companies": [],
-    "policies": [
-      "obbba-bonus-depreciation"
-    ],
-    "themes": [
-      "industrial-deployments",
-      "cost-trajectory",
-      "policy-momentum"
-    ],
-    "sentiment": "Positive",
-    "confidence": "Medium",
-    "tags": [
-      "federal",
-      "tax",
-      "manufacturing",
-      "capex"
-    ],
-    "archive_url": "https://web.archive.org/web/20260115081542/https://standardbots.com/blog/obbb-robotics"
-  },
-  {
-    "id": "rfa-launches",
-    "title": "Robots For America coalition launches at SCSP AI+ Expo",
-    "date": "2026-05-11",
-    "source": "Design Engineering",
-    "source_type": "News",
-    "source_url": "https://www.design-engineering.com/robots-for-america-launches-national-coalition-to-advance-u-s-robotics-deployment-policy-1004048555/",
-    "summary": "Industry leaders launched Robots For America (RFA) at the SCSP AI+ Expo in Washington, D.C., responding to a call from U.S. government officials for a unified plan to enhance automation in manufacturing. RFA's initial policy framework focuses on five areas: reducing financial risks for robotic trials, modernizing tax treatment of automation, streamlining regulatory processes, building a supportive workforce, and enabling autonomous logistics.",
-    "category": "Policy",
-    "companies": [],
-    "policies": [
-      "rfa-coalition-launch"
-    ],
-    "themes": [
-      "policy-momentum",
-      "industrial-deployments"
-    ],
-    "sentiment": "Positive",
-    "confidence": "High",
-    "tags": [
-      "coalition",
-      "industry",
-      "policy-framework"
+      "china",
+      "scale",
+      "humanoid",
+      "unitree"
     ]
   },
   {
-    "id": "figure-39b-valuation",
-    "title": "Figure AI closes Series C exceeding $1B at $39B post-money valuation",
-    "date": "2025-09-15",
-    "source": "The Information",
+    "id": "agibot-shanghai-factory",
+    "title": "AgiBot opens humanoid mass-production facility in Shanghai",
+    "date": "2026-01-20",
+    "source": "Robotics & Automation News",
     "source_type": "News",
-    "source_url": "https://www.figure.ai",
-    "summary": "Figure AI exceeded $1 billion in committed Series C capital at a $39 billion post-money valuation. The round reportedly includes Parkway Venture Capital, Tiger Global, Macquarie, and T-Mobile Ventures. Figure has been deploying its humanoid robots in pilot operations at BMW's Spartanburg plant since 2024.",
-    "category": "Funding",
+    "source_url": "https://roboticsandautomationnews.com/",
+    "summary": "Shanghai-based AgiBot opened a humanoid mass-production facility targeting thousands of units in 2026, backed by Tencent, Hillhouse, and BYD. Co-founder Peng Zhihui (known online as Zhi Hui Jun) stated production-line capacity is the determining factor for the next phase of commercial humanoid deployment.",
+    "category": "Supply Chain",
     "companies": [
-      "figure-ai"
+      "agibot"
     ],
     "policies": [],
     "themes": [
-      "industrial-deployments",
-      "cost-trajectory"
+      "china-scale",
+      "industrial-deployments"
     ],
-    "sentiment": "Positive",
+    "sentiment": "Mixed",
     "confidence": "Medium",
     "tags": [
-      "funding",
-      "humanoid",
-      "unicorn",
-      "figure"
-    ],
-    "archive_url": "https://web.archive.org/web/20260516042903/https://www.figure.ai/"
+      "china",
+      "manufacturing",
+      "agibot",
+      "byd-backed"
+    ]
   },
   {
     "id": "humanoid-funding-32b",
@@ -1575,82 +2009,79 @@
     "archive_url": "https://web.archive.org/web/20260321121614/https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/"
   },
   {
-    "id": "1x-eqt-partnership",
-    "title": "1X partners with EQT to roll out humanoids across portfolio companies",
-    "date": "2026-03-04",
-    "source": "The Robot Report",
+    "id": "skild-series-b",
+    "title": "Skild AI raises $1.4B at $14B valuation for robotics foundation model",
+    "date": "2026-01-09",
+    "source": "Bloomberg",
     "source_type": "News",
-    "source_url": "https://www.therobotreport.com/1x-partners-with-eqt-to-roll-out-humanoids-across-its-portfolio-companies/",
-    "summary": "1X Technologies announced a partnership with European private-equity firm EQT to roll out humanoid robots across EQT's portfolio companies. The arrangement represents a non-traditional go-to-market — selling into an investor's portfolio rather than direct enterprise sales.",
-    "category": "Deployment",
-    "companies": [
-      "1x-technologies"
-    ],
-    "policies": [],
-    "themes": [
-      "industrial-deployments"
-    ],
-    "sentiment": "Positive",
-    "confidence": "High",
-    "tags": [
-      "partnership",
-      "deployment",
-      "humanoid"
-    ],
-    "archive_url": "https://web.archive.org/web/20260112210652/https://www.therobotreport.com/1x-partners-with-eqt-to-roll-out-humanoids-across-its-portfolio-companies/"
-  },
-  {
-    "id": "figure-ups-talks",
-    "title": "Figure AI reportedly in advanced talks to supply tens of thousands of robots to UPS",
-    "date": "2026-05-15",
-    "source": "Reuters",
-    "source_type": "News",
-    "source_url": "https://www.reuters.com/",
-    "summary": "Figure AI is reportedly in advanced discussions with UPS to deploy humanoid robots in logistics operations at the tens-of-thousands scale. If finalized, the contract would represent the largest commercial humanoid deployment to date. Neither company has confirmed the contract structure or timeline publicly.",
-    "category": "Deployment",
-    "companies": [
-      "figure-ai"
-    ],
-    "policies": [],
-    "themes": [
-      "industrial-deployments"
-    ],
-    "sentiment": "Positive",
-    "confidence": "Low",
-    "tags": [
-      "deployment",
-      "logistics",
-      "humanoid",
-      "rumored"
-    ],
-    "archive_url": "https://web.archive.org/web/20260506131742/https://www.reuters.com/"
-  },
-  {
-    "id": "anduril-series-f",
-    "title": "Anduril raises $1.5B Series F at $14B valuation",
-    "date": "2024-08-08",
-    "source": "TechCrunch",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2024/08/08/anduril/",
-    "summary": "Defense technology company Anduril Industries raised $1.5 billion at a $14 billion valuation, led by Founders Fund with participation from Sands Capital and Fidelity. Anduril supplies autonomous defense systems to the US Department of Defense and allied militaries, with growing involvement in the DoD Replicator initiative.",
+    "source_url": "https://www.bloomberg.com/",
+    "summary": "Skild AI raised approximately $1.4 billion at a valuation above $14 billion, backed by SoftBank, Jeff Bezos, Coatue, and Lightspeed. The Pittsburgh-based startup is building a general-purpose foundation model intended to drive many robot bodies. Founders Deepak Pathak and Abhinav Gupta come from Carnegie Mellon University.",
     "category": "Funding",
     "companies": [
-      "anduril"
+      "skild-ai"
     ],
-    "policies": [
-      "dod-replicator"
-    ],
+    "policies": [],
     "themes": [
-      "defense-procurement"
+      "foundation-models"
     ],
     "sentiment": "Positive",
     "confidence": "High",
     "tags": [
       "funding",
-      "defense",
+      "foundation-model",
       "unicorn",
-      "autonomous"
-    ]
+      "softbank"
+    ],
+    "archive_url": "https://web.archive.org/web/20260513200449/https://www.bloomberg.com/"
+  },
+  {
+    "id": "notice-of-request-for-public-comments-on-section-232-national-security-investiga",
+    "title": "Notice of Request for Public Comments on Section 232 National Security Investigation of Imports of Robotics and Industrial Machinery",
+    "date": "2025-09-26",
+    "source": "federal-register-robotics",
+    "source_type": "Press Release",
+    "source_url": "https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of",
+    "summary": "On September 2, 2025, the Secretary of Commerce initiated an investigation to determine the effects on the national security of imports of robotics and industrial machinery. This investigation has been initiated under section 232 of the Trade Expansion Act of 1962, as amended (Section 232). Interested parties are invited to submit written comments, data, analyses, or other information pertinent to the investigation to the Department of Commerce's (Department) Bureau of Industry and Security (BIS), Office of Strategic Industries and Economic Security. This notice identifies issues on which the Department is especially interested in obtaining the public's views.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "impact_tier": "Medium",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "auto-scraped",
+      "source:federal-register-robotics"
+    ],
+    "_scraped": true,
+    "_requires_curator_review": true
+  },
+  {
+    "id": "figure-39b-valuation",
+    "title": "Figure AI closes Series C exceeding $1B at $39B post-money valuation",
+    "date": "2025-09-15",
+    "source": "The Information",
+    "source_type": "News",
+    "source_url": "https://www.figure.ai",
+    "summary": "Figure AI exceeded $1 billion in committed Series C capital at a $39 billion post-money valuation. The round reportedly includes Parkway Venture Capital, Tiger Global, Macquarie, and T-Mobile Ventures. Figure has been deploying its humanoid robots in pilot operations at BMW's Spartanburg plant since 2024.",
+    "category": "Funding",
+    "companies": [
+      "figure-ai"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "funding",
+      "humanoid",
+      "unicorn",
+      "figure"
+    ],
+    "archive_url": "https://web.archive.org/web/20260516042903/https://www.figure.ai/"
   },
   {
     "id": "shield-ai-series-f",
@@ -1708,150 +2139,100 @@
     "archive_url": "https://web.archive.org/web/20251212133427/https://www.physicalintelligence.company/blog"
   },
   {
-    "id": "replicator-tranche-2",
-    "title": "DoD announces Replicator Tranche 2 expanding to ground systems",
-    "date": "2026-03-28",
-    "source": "Defense Department",
+    "id": "certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commissi",
+    "title": "Certain Robotic Floor Cleaning Devices and Components Thereof; Notice of Commission Decision To Vacate the Portion of Its Final Determination Relating to an Expired Patent, To Institute a Rescission Proceeding, and To Rescind the Remedial O",
+    "date": "2024-08-20",
+    "source": "federal-register-robotics",
     "source_type": "Press Release",
-    "source_url": "https://www.defense.gov/",
-    "summary": "Deputy Secretary of Defense announced the second tranche of the Replicator initiative, expanding scope from aerial systems to attritable ground and counter-UAS systems. Total commitment for Tranche 2 is in the range of $500M–$1B. Non-traditional defense suppliers including Anduril, Shield AI, and several humanoid manufacturers are reportedly competing.",
-    "category": "Policy",
+    "source_url": "https://www.federalregister.gov/documents/2024/08/20/2024-18543/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-decision-to",
+    "summary": "Notice is hereby given that the U.S. International Trade Commission has determined to vacate the portion of its final determination relating to U.S. Patent No. 10,813,517 (\"the '517 patent\"), which has now expired, and to dismiss the related portion of the complaint. The Commission has also determined to institute a rescission proceeding and to rescind the limited exclusion order and cease and desist orders (collectively, \"the remedial orders\") issued in the underlying investigation which are based on the '517 patent. The rescission proceeding is terminated.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "impact_tier": "Medium",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "auto-scraped",
+      "source:federal-register-robotics"
+    ],
+    "_scraped": true,
+    "_requires_curator_review": true
+  },
+  {
+    "id": "covariant-amazon-acquihire",
+    "title": "Amazon acquires Covariant talent and tech in non-traditional structure",
+    "date": "2024-08-16",
+    "source": "The Information",
+    "source_type": "News",
+    "source_url": "https://covariant.ai",
+    "summary": "Amazon agreed to license Covariant's robotics foundation models and hire approximately a quarter of the company's staff, including the three co-founders. The deal mirrors similar Microsoft-Inflection and Google-Character arrangements: a non-traditional structure that captures talent and IP without a full acquisition.",
+    "category": "Competitive",
     "companies": [
-      "anduril",
-      "shield-ai",
-      "boston-dynamics"
+      "covariant"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models"
+    ],
+    "sentiment": "Mixed",
+    "confidence": "High",
+    "tags": [
+      "acquihire",
+      "amazon",
+      "foundation-model"
+    ],
+    "archive_url": "https://web.archive.org/web/20260405151233/https://covariant.ai/"
+  },
+  {
+    "id": "anduril-series-f",
+    "title": "Anduril raises $1.5B Series F at $14B valuation",
+    "date": "2024-08-08",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2024/08/08/anduril/",
+    "summary": "Defense technology company Anduril Industries raised $1.5 billion at a $14 billion valuation, led by Founders Fund with participation from Sands Capital and Fidelity. Anduril supplies autonomous defense systems to the US Department of Defense and allied militaries, with growing involvement in the DoD Replicator initiative.",
+    "category": "Funding",
+    "companies": [
+      "anduril"
     ],
     "policies": [
       "dod-replicator"
     ],
     "themes": [
-      "defense-procurement",
-      "policy-momentum"
+      "defense-procurement"
     ],
     "sentiment": "Positive",
-    "confidence": "Medium",
-    "tags": [
-      "federal",
-      "defense",
-      "procurement",
-      "replicator"
-    ],
-    "archive_url": "https://web.archive.org/web/20260105224154/http://defense.gov/"
-  },
-  {
-    "id": "ubtech-walker-mass-deploy",
-    "title": "UBTECH announces mass deployment of Walker humanoids across Chinese auto plants",
-    "date": "2026-04-08",
-    "source": "eWeek",
-    "source_type": "News",
-    "source_url": "https://www.eweek.com/news/china-deploys-humanoid-robots-ubtech-walker/",
-    "summary": "UBTECH detailed Walker humanoid deployments across multiple Chinese automotive plants, including BYD, Geely, and FAW. The company stated 2025 unit sales reached 1,079, with 2026 targets of 5,000 units. Deployments span assembly, kitting, and quality-inspection tasks.",
-    "category": "Deployment",
-    "companies": [
-      "ubtech"
-    ],
-    "policies": [],
-    "themes": [
-      "china-scale",
-      "industrial-deployments"
-    ],
-    "sentiment": "Mixed",
     "confidence": "High",
     "tags": [
-      "china",
-      "automotive",
-      "deployment",
-      "ubtech"
+      "funding",
+      "defense",
+      "unicorn",
+      "autonomous"
     ]
   },
   {
-    "id": "robotsforamerica-coverage",
-    "title": "Robotics stakeholders urge Congress to act now to regain global leadership",
-    "date": "2026-05-12",
-    "source": "Manufacturing Dive",
-    "source_type": "News",
-    "source_url": "https://www.manufacturingdive.com/news/robotics-experts-urge-congress-act-automation-policy-national-strategy/818431/",
-    "summary": "At the SCSP AI+ Expo, robotics executives and policy experts urged Congress to act immediately on a national strategy, citing China's commanding lead in commercial deployment volume. Speakers from Apptronik, Boston Dynamics, and Agility Robotics warned that capital intensity alone is insufficient without coordinated industrial policy.",
-    "category": "Policy",
-    "companies": [
-      "apptronik",
-      "boston-dynamics",
-      "agility-robotics"
-    ],
-    "policies": [
-      "rfa-coalition-launch",
-      "hr-7334-national-commission-robotics"
-    ],
-    "themes": [
-      "policy-momentum",
-      "china-scale",
-      "industrial-deployments"
-    ],
-    "sentiment": "Mixed",
-    "confidence": "High",
-    "tags": [
-      "coalition",
-      "industry",
-      "policy",
-      "congress"
-    ],
-    "archive_url": "https://web.archive.org/web/20260428032235/https://www.manufacturingdive.com/news/robotics-experts-urge-congress-act-automation-policy-national-strategy/818431/"
-  },
-  {
-    "id": "ny-times-silicon-valley-playbook",
-    "title": "Washington brings Silicon Valley-building playbook to robotics",
-    "date": "2026-04-18",
-    "source": "Yahoo Finance",
-    "source_type": "News",
-    "source_url": "https://finance.yahoo.com/news/robotics-become-america-most-important-135500537.html",
-    "summary": "Federal officials describe an emerging coordinated strategy treating robotics as critical national infrastructure, including procurement preference, tax treatment, and R&D priority. The framing — explicitly compared to the post-1980s semiconductor playbook — has gained traction across both parties.",
-    "category": "Geopolitics",
+    "id": "proposed-data-collection-submitted-for-public-comment-and-recommendations-2024-0",
+    "title": "Proposed Data Collection Submitted for Public Comment and Recommendations",
+    "date": "2024-04-23",
+    "source": "federal-register-robotics",
+    "source_type": "Press Release",
+    "source_url": "https://www.federalregister.gov/documents/2024/04/23/2024-08596/proposed-data-collection-submitted-for-public-comment-and-recommendations",
+    "summary": "The Centers for Disease Control and Prevention (CDC), as part of its continuing effort to reduce public burden and maximize the utility of government information, invites the general public and other Federal agencies the opportunity to comment on a proposed information collection, as required by the Paperwork Reduction Act of 1995. This notice invites comment on a proposed information collection project titled Direct Reading Methodologies, Sensors, and Robotics Technology Assessment in Lab/Simulator-based Settings. The proposed data collection will allow NIOSH to assess the safety and health considerations of these rapidly changing direct reading methods, sensor, and robotics technologies.",
+    "category": "Research",
     "companies": [],
-    "policies": [
-      "hr-7334-national-commission-robotics",
-      "hr-8189-american-security-robotics",
-      "chips-act-advanced-manufacturing"
-    ],
-    "themes": [
-      "policy-momentum",
-      "china-scale",
-      "defense-procurement",
-      "industrial-deployments"
-    ],
-    "sentiment": "Positive",
-    "confidence": "Medium",
-    "tags": [
-      "federal",
-      "policy-frame",
-      "industrial-policy"
-    ],
-    "archive_url": "https://web.archive.org/web/20251222231701/https://finance.yahoo.com/news/robotics-become-america-most-important-135500537.html"
-  },
-  {
-    "id": "agility-cash-flow-target",
-    "title": "Agility Robotics targets cash-flow positive on RaaS scale-up",
-    "date": "2026-03-30",
-    "source": "The Robot Report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/",
-    "summary": "Agility Robotics' CFO outlined a path to cash-flow positive operations as Digit RaaS contracts scale across Amazon, GXO, and Toyota. The company is developing a next-generation Digit with 50 lb payload, improved battery life, and ISO functional safety certification targeted for mid-to-late 2026.",
-    "category": "Deployment",
-    "companies": [
-      "agility-robotics"
-    ],
     "policies": [],
-    "themes": [
-      "industrial-deployments"
-    ],
-    "sentiment": "Positive",
+    "themes": [],
+    "impact_tier": "Medium",
+    "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
-      "agility",
-      "raas",
-      "scale",
-      "humanoid"
+      "auto-scraped",
+      "source:federal-register-robotics"
     ],
-    "archive_url": "https://web.archive.org/web/20260508123643/https://www.therobotreport.com/"
+    "_scraped": true,
+    "_requires_curator_review": true
   },
   {
     "id": "boston-dynamics-atlas-electric",
@@ -1880,54 +2261,25 @@
     "archive_url": "https://web.archive.org/web/20260508103946/https://bostondynamics.com/"
   },
   {
-    "id": "covariant-amazon-acquihire",
-    "title": "Amazon acquires Covariant talent and tech in non-traditional structure",
-    "date": "2024-08-16",
-    "source": "The Information",
-    "source_type": "News",
-    "source_url": "https://covariant.ai",
-    "summary": "Amazon agreed to license Covariant's robotics foundation models and hire approximately a quarter of the company's staff, including the three co-founders. The deal mirrors similar Microsoft-Inflection and Google-Character arrangements: a non-traditional structure that captures talent and IP without a full acquisition.",
-    "category": "Competitive",
-    "companies": [
-      "covariant"
-    ],
+    "id": "certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commissi-1",
+    "title": "Certain Robotic Floor Cleaning Devices and Components Thereof; Notice of Commission Final Determination Finding a Violation of Section 337; Issuance of a Limited Exclusion Order and Cease and Desist Orders; Termination of the Investigation",
+    "date": "2023-03-27",
+    "source": "federal-register-robotics",
+    "source_type": "Press Release",
+    "source_url": "https://www.federalregister.gov/documents/2023/03/27/2023-06222/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-final",
+    "summary": "Notice is hereby given that the U.S. International Trade Commission has found a violation of section 337 of the Tariff Act of 1930, as amended, in the above-captioned investigation. The Commission has issued a limited exclusion order (\"LEO\") prohibiting the importation of certain robotic floor cleaning devices and components thereof that are imported by or on behalf of SharkNinja Operating LLC, SharkNinja Management LLC, SharkNinja Management Co., SharkNinja Sales Co., EP Midco LLC, and SharkNinja Hong Kong Co. Ltd., and that infringe claims 1 and 9 of U.S. Patent No. 10,813,517 (\"the '517 patent\"). The Commission has also issued cease and desist orders (\"CDOs\") against each Respondent. The",
+    "category": "Funding",
+    "companies": [],
     "policies": [],
-    "themes": [
-      "foundation-models"
-    ],
-    "sentiment": "Mixed",
-    "confidence": "High",
-    "tags": [
-      "acquihire",
-      "amazon",
-      "foundation-model"
-    ],
-    "archive_url": "https://web.archive.org/web/20260405151233/https://covariant.ai/"
-  },
-  {
-    "id": "agibot-shanghai-factory",
-    "title": "AgiBot opens humanoid mass-production facility in Shanghai",
-    "date": "2026-01-20",
-    "source": "Robotics & Automation News",
-    "source_type": "News",
-    "source_url": "https://roboticsandautomationnews.com/",
-    "summary": "Shanghai-based AgiBot opened a humanoid mass-production facility targeting thousands of units in 2026, backed by Tencent, Hillhouse, and BYD. Co-founder Peng Zhihui (known online as Zhi Hui Jun) stated production-line capacity is the determining factor for the next phase of commercial humanoid deployment.",
-    "category": "Supply Chain",
-    "companies": [
-      "agibot"
-    ],
-    "policies": [],
-    "themes": [
-      "china-scale",
-      "industrial-deployments"
-    ],
-    "sentiment": "Mixed",
+    "themes": [],
+    "impact_tier": "Medium",
+    "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
-      "china",
-      "manufacturing",
-      "agibot",
-      "byd-backed"
-    ]
+      "auto-scraped",
+      "source:federal-register-robotics"
+    ],
+    "_scraped": true,
+    "_requires_curator_review": true
   }
 ]
