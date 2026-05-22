@@ -188,7 +188,7 @@
           <h3>Sources</h3>
           <ul class="link-list">
             ${(t.narrative_sources || []).map(s => {
-              return \`<li><a href="\${RT.escapeHTML(s.url)}" target="_blank" rel="noopener">\${RT.escapeHTML(s.label)}</a>\${RT.archiveLink(s.archive_url)}</li>\`;
+              return `<li><a href="${RT.escapeHTML(s.url)}" target="_blank" rel="noopener">${RT.escapeHTML(s.label)}</a>${RT.archiveLink(s.archive_url)}</li>`;
             }).join('') || '<li class="muted-cell">No sources listed</li>'}
           </ul>
           <p class="muted" style="font-size:12px;margin-top:8px;">Last updated <span class="tnum">${RT.escapeHTML(RT.formatDate(t.last_updated))}</span></p>
