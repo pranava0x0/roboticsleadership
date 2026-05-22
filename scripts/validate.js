@@ -57,11 +57,11 @@ const SCHEMAS = {
       themes: 'array'
     },
     custom: (rec, addError) => {
-      const validStatuses = ['Introduced', 'Committee', 'Passed House', 'Passed Senate', 'Signed', 'In effect', 'Expired'];
+      const validStatuses = ['Introduced', 'Committee', 'Passed House', 'Passed Senate', 'Signed', 'In effect', 'Expired', 'Active', 'In development', 'Draft'];
       if (!validStatuses.includes(rec.status)) {
         addError(`status "${rec.status}" not in canonical set`);
       }
-      const validTypes = ['Bill', 'Executive Order', 'Regulation', 'Incentive Program', 'Procurement'];
+      const validTypes = ['Bill', 'Executive Order', 'Regulation', 'Incentive Program', 'Procurement', 'Initiative', 'Standard'];
       if (!validTypes.includes(rec.type)) {
         addError(`type "${rec.type}" not in canonical set`);
       }
@@ -106,7 +106,7 @@ const SCHEMAS = {
     },
   },
   agencies: {
-    required: ['id', 'name', 'full_name', 'parent', 'url', 'show_in_rd_table'],
+    required: ['id', 'name', 'full_name', 'parent', 'url', 'show_in_rd_table', 'notes'],
     types: {
       id: 'string',
       name: 'string',
@@ -114,18 +114,26 @@ const SCHEMAS = {
       parent: 'string',
       url: 'string',
       show_in_rd_table: 'boolean',
+      notes: 'array'
     },
     custom: (rec, addError) => {
+      if (rec.programs !== undefined) {
+        addError('programs field is deprecated; convert programs to first-class policies in policies.json and use notes instead');
+      }
       if (rec.show_in_rd_table === true) {
-        const condFields = ['rd_focus', 'applications', 'manufacturing', 'programs'];
+        const condFields = ['rd_focus', 'applications', 'manufacturing'];
         condFields.forEach(f => {
           if (rec[f] == null || rec[f] === '') {
             addError(`missing field "${f}" required when show_in_rd_table is true`);
           }
         });
-        if (rec.programs && !Array.isArray(rec.programs)) {
-          addError('programs should be an array when show_in_rd_table is true');
-        }
+      }
+      if (rec.notes) {
+        rec.notes.forEach((note, idx) => {
+          if (typeof note !== 'string') {
+            addError(`notes[${idx}] must be a string`);
+          }
+        });
       }
     }
   },

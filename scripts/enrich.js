@@ -39,8 +39,8 @@ const COMPANY_RULES = [
 
 const THEME_RULES = [
   { id: 'china-scale', keywords: [/\bchina\b/i, /\bchinese\b/i, /\bbeijing\b/i, /\bunitree\b/i, /\bubtech\b/i, /\bagibot\b/i, /\brobotera\b/i, /\bengineai\b/i, /\bgalbot\b/i, /\blimx\b/i] },
-  { id: 'foundation-models', keywords: [/\bfoundation model\b/i, /\bvla\b/i, /\bllm\b/i, /\bgpt\b/i, /\bneural network\b/i, /\bskild\b/i, /\bphysical intelligence\b/i, /\bcovariant\b/i, /\brfm-1\b/i, /\bπ0\b/i, /\bpi0\b/i] },
-  { id: 'cost-trajectory', keywords: [/\bcost\b/i, /\bprice\b/i, /\bcheap\b/i, /\baffordable\b/i, /under \$\d+/i, /\bbill of materials\b/i, /\bbom\b/i] },
+  { id: 'foundation-models', keywords: [/\bfoundation model\b/i, /\bvla\b/i, /\bllm\b/i, /\bgpt\b/i, /\bneural network\b/i, /\bskild\b/i, /\bphysical intelligence\b/i, /\bcovariant\b/i, /\brfm-1\b/i, /\bπ0\b/i, /\bpi0\b/i, /\bembodied ai\b/i, /\bai safety\b/i, /\bai rmf\b/i, /\brisk management framework\b/i] },
+  { id: 'cost-trajectory', keywords: [/\bunit cost\b/i, /\bunit-cost\b/i, /\bhardware cost\b/i, /\bbill of materials\b/i, /\bbom\b/i, /\bprice tag\b/i, /\bprice\b/i, /\bcheap\b/i, /\baffordable\b/i, /under \$\d+/i] },
   { id: 'defense-procurement', keywords: [/\bdefense\b/i, /\bmilitary\b/i, /\bpentagon\b/i, /\bdod\b/i, /\breplicator\b/i, /\banduril\b/i, /\bshield ai\b/i, /\bdarpa\b/i, /\bspace force\b/i, /\bnavy\b/i, /\barmy\b/i, /\bair force\b/i] },
   { id: 'industrial-deployments', keywords: [/\bdeploy\b/i, /\bpilot\b/i, /\bwarehouse\b/i, /\bfactory\b/i, /\bfacility\b/i, /\bmanufacturing\b/i, /\bautomotive\b/i, /\bbmw\b/i, /\bmercedes\b/i, /\bnvidia isaac\b/i, /\bcommercial\b/i] },
   { id: 'policy-momentum', keywords: [/\bpolicy\b/i, /\bbill\b/i, /\blegislation\b/i, /\bcongress\b/i, /\bcommission\b/i, /\bact of\b/i, /\bincentive\b/i, /\bexpensing\b/i, /\bdepreciation\b/i, /\bsection 174\b/i, /\bh\.r\.\b/i, /\bs\.\b/i, /\bregulation\b/i, /\bregulatory\b/i] }
@@ -62,7 +62,21 @@ const POLICY_RULES = [
   { id: 'nc-advanced-mfg', keywords: [/north carolina/i, /nc jdig/i] },
   { id: 'arpa-e-embodied-ai', keywords: [/arpa-e/i, /embodied ai for energy/i] },
   { id: 'ny-rd-credit', keywords: [/new york/i, /excelsior jobs/i] },
-  { id: 'rfa-coalition-launch', keywords: [/robots for america/i, /scsp ai/i] }
+  { id: 'rfa-coalition-launch', keywords: [/robots for america/i, /scsp ai/i] },
+  { id: 'ostp-ai-action-plan', keywords: [/america's ai action plan/i, /ai action plan/i, /ostp.*ai/i] },
+  { id: 'doe-genesis-mission', keywords: [/genesis mission/i, /doe genesis/i] },
+  { id: 'doe-exascale-foundry', keywords: [/exascale foundry/i] },
+  { id: 'doc-eda-tech-hubs', keywords: [/eda tech hubs/i, /eda regional tech/i] },
+  { id: 'nist-humanoid-benchmark', keywords: [/humanoid.*benchmark/i, /nist humanoid/i] },
+  { id: 'nist-sp-1227-draft', keywords: [/sp 1227/i, /nist sp 1227/i] },
+  { id: 'nsf-foundational-research-robotics', keywords: [/foundational research in robotics/i, /nsf foundational research/i] },
+  { id: 'spaceforce-otter-contract', keywords: [/otter spacecraft/i, /otter contract/i] },
+  { id: 'spaceforce-servicing-missions', keywords: [/satellite servicing missions/i, /on-orbit.*servicing/i] },
+  { id: 'darpa-rsgs', keywords: [/rsgs/i, /robotic servicing of geosynchronous/i] },
+  { id: 'usda-nsf-ai-institutes-ag', keywords: [/agaid\b/i, /aifarms\b/i, /agri.*ai institute/i] },
+  { id: 'usda-nsf-ag-robotics', keywords: [/agricultural robotics partnership/i, /usda-nsf ag/i] },
+  { id: 'nih-nibib-robotics-grants', keywords: [/nibib robotics/i, /surgical robotics.*nih/i] },
+  { id: 'dot-av-uas-oversight', keywords: [/av and uas safety/i, /nhtsa.*safety/i, /faa.*safety/i] }
 ];
 
 const AGENCY_RULES = [
@@ -111,6 +125,15 @@ function deduplicate(arr) {
 function enrichNews() {
   const filePath = resolve(DATA_DIR, 'news.json');
   const news = JSON.parse(readFileSync(filePath, 'utf8'));
+
+  // Read policies.json to prepare transitive theme inheritance mapping
+  const policiesPath = resolve(DATA_DIR, 'policies.json');
+  const policies = JSON.parse(readFileSync(policiesPath, 'utf8'));
+  const policyThemesMap = new Map();
+  for (const p of policies) {
+    policyThemesMap.set(p.id, p.themes || []);
+  }
+
   let updatedCount = 0;
 
   for (const item of news) {
@@ -130,9 +153,16 @@ function enrichNews() {
     const matchedPols = findMatches(searchString, POLICY_RULES);
     item.policies = deduplicate([...(item.policies || []), ...matchedPols]);
 
+    // Inherit themes from linked policies (transitive)
+    const inheritedThemes = [];
+    for (const policyId of item.policies) {
+      const themes = policyThemesMap.get(policyId) || [];
+      inheritedThemes.push(...themes);
+    }
+
     // Match themes
     const matchedThemes = findMatches(searchString, THEME_RULES);
-    item.themes = deduplicate([...(item.themes || []), ...matchedThemes]);
+    item.themes = deduplicate([...(item.themes || []), ...matchedThemes, ...inheritedThemes]);
 
     const afterStr = JSON.stringify({
       companies: item.companies,

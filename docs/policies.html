@@ -352,6 +352,9 @@
         'Signed': 'positive',
         'In effect': 'positive',
         'Expired': 'outline',
+        'Active': 'positive',
+        'In development': 'mixed',
+        'Draft': 'outline',
       };
       return `<span class="pill ${map[s] || 'outline'}">${RT.escapeHTML(s)}</span>`;
     }

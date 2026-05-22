@@ -162,8 +162,11 @@
               const policyItems = agencyPolicies.map(p => 
                 `<strong>Tracked Policy:</strong> <a href="policies.html?focus=${encodeURIComponent(p.id)}">${RT.escapeHTML(p.title)}</a> (${RT.escapeHTML(p.status)})`
               );
-              const combinedPrograms = [...(a.programs || []), ...policyItems];
-              const programsList = combinedPrograms.map(p => `<li>${p}</li>`).join('');
+              const noteItems = (a.notes || []).map(note => 
+                `<strong>Note:</strong> ${RT.escapeHTML(note)}`
+              );
+              const combinedItems = [...policyItems, ...noteItems];
+              const programsList = combinedItems.map(p => `<li>${p}</li>`).join('');
               
               return `
                 <tr>

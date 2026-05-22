@@ -29,8 +29,14 @@
     "summary": "To be used in industrial applications, humanoid robots must meet application-relevant criteria. Fraunhofer IPA has developed a benchmark for third-party analysis.\nThe post Fraunhofer IPA offers new te...",
     "category": "Competitive",
     "companies": [],
-    "policies": [],
-    "themes": [],
+    "policies": [
+      "nist-humanoid-benchmark"
+    ],
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory",
+      "foundation-models"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -908,7 +914,8 @@
     ],
     "themes": [
       "china-scale",
-      "policy-momentum"
+      "policy-momentum",
+      "defense-procurement"
     ],
     "sentiment": "Neutral",
     "confidence": "Medium",
@@ -1807,7 +1814,9 @@
     ],
     "themes": [
       "policy-momentum",
-      "china-scale"
+      "china-scale",
+      "defense-procurement",
+      "industrial-deployments"
     ],
     "sentiment": "Positive",
     "confidence": "Medium",

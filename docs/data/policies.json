@@ -174,7 +174,9 @@
       }
     ],
     "last_updated": "2026-05-17",
-    "themes": []
+    "themes": [
+      "foundation-models"
+    ]
   },
   {
     "id": "chips-act-advanced-manufacturing",
@@ -433,7 +435,8 @@
     ],
     "last_updated": "2026-05-17",
     "themes": [
-      "cost-trajectory"
+      "industrial-deployments",
+      "policy-momentum"
     ]
   },
   {
@@ -517,7 +520,9 @@
     "last_updated": "2026-05-17",
     "archive_url": "https://web.archive.org/web/20260509040423/https://arpa-e.energy.gov/",
     "archive_url_application": "https://web.archive.org/web/20260509040423/https://arpa-e.energy.gov/",
-    "themes": []
+    "themes": [
+      "foundation-models"
+    ]
   },
   {
     "id": "ny-rd-credit",
@@ -1316,6 +1321,581 @@
     ],
     "last_updated": "2026-05-22",
     "themes": [
+      "industrial-deployments"
+    ]
+  },
+  {
+    "id": "ostp-ai-action-plan",
+    "title": "America's AI Action Plan",
+    "type": "Initiative",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2025-07",
+    "status": "In effect",
+    "bill_number": "OSTP Policy",
+    "sponsor": "White House Office of Science and Technology Policy",
+    "summary": "Action plan containing 90+ recommendations across innovation, infrastructure, and diplomacy pillars to secure U.S. leadership in artificial intelligence.",
+    "full_text_url": "https://www.whitehouse.gov/wp-content/uploads/2026/01/WHOSTP-2025-Wins.pdf",
+    "robotics_scope": "AI strategy and coordination",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "All US robotics companies",
+      "Federal research agencies",
+      "Defense",
+      "Academia"
+    ],
+    "agency_responsible": [
+      "ostp"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "in-effect",
+      "national-strategy"
+    ],
+    "sources": [
+      {
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2026/01/WHOSTP-2025-Wins.pdf"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "policy-momentum",
+      "foundation-models"
+    ]
+  },
+  {
+    "id": "doe-genesis-mission",
+    "title": "DOE Genesis Mission",
+    "type": "Incentive Program",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-05",
+    "status": "In effect",
+    "bill_number": "DOE Office of Science",
+    "sponsor": "Department of Energy",
+    "summary": "Office of Science initiative investing $320M in FY26 across 14 robotics and automated-lab projects (including OPAL at PNNL for agentic biology design-build-test-learn, ACMAS for autonomous nuclear-materials characterization, and SYNAPS-I at LBNL for autonomous imaging at neutron/photon facilities).",
+    "full_text_url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
+    "robotics_scope": "Autonomous research laboratories and robotics R&D",
+    "estimated_budget_usd": 320000000,
+    "beneficiaries": [
+      "National labs",
+      "Academic researchers",
+      "Robotics developers"
+    ],
+    "agency_responsible": [
+      "doe"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "in-effect",
+      "rd-grant",
+      "national-labs"
+    ],
+    "sources": [
+      {
+        "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
+      },
+      {
+        "url": "https://www.executivegov.com/articles/doe-investment-genesis-mission-ai"
+      },
+      {
+        "url": "https://www.hpcwire.com/2026/05/04/inside-the-doe-genesis-mission-core-components/"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "industrial-deployments",
+      "policy-momentum"
+    ]
+  },
+  {
+    "id": "doe-exascale-foundry",
+    "title": "DOE Exascale Foundry",
+    "type": "Initiative",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-05",
+    "status": "In effect",
+    "bill_number": "ORNL Partnership",
+    "sponsor": "Oak Ridge National Laboratory + Autonomous Resource Corp",
+    "summary": "Public-private partnership to accelerate AI-enabled defense manufacturing using national lab supercomputing capabilities and autonomous fabrication tools.",
+    "full_text_url": "https://www.hpcwire.com/off-the-wire/autonomous-resource-corporation-ornl-partner-to-accelerate-ai-enabled-defense-manufacturing/",
+    "robotics_scope": "AI-enabled defense manufacturing",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "Defense manufacturers",
+      "National labs"
+    ],
+    "agency_responsible": [
+      "doe",
+      "dod"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "in-effect",
+      "defense",
+      "manufacturing"
+    ],
+    "sources": [
+      {
+        "url": "https://www.hpcwire.com/off-the-wire/autonomous-resource-corporation-ornl-partner-to-accelerate-ai-enabled-defense-manufacturing/"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "industrial-deployments",
+      "defense-procurement"
+    ]
+  },
+  {
+    "id": "doc-eda-tech-hubs",
+    "title": "EDA Regional Technology and Innovation Hubs (Robotics Clusters)",
+    "type": "Incentive Program",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2023-10",
+    "status": "In effect",
+    "bill_number": "EDA Regional Tech Hubs",
+    "sponsor": "Economic Development Administration",
+    "summary": "Regional hubs designation and funding, including robotics-anchored advanced manufacturing clusters, designed to build regional technology ecosystems across the U.S.",
+    "full_text_url": "https://www.eda.gov/funding/programs/regional-technology-and-innovation-hubs",
+    "robotics_scope": "Regional robotics clusters",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "Regional robotics hubs",
+      "Advanced manufacturing startups",
+      "Local governments"
+    ],
+    "agency_responsible": [
+      "doc"
+    ],
+    "startup_eligible": true,
+    "application_url": "https://www.eda.gov/funding/programs/regional-technology-and-innovation-hubs",
+    "tags": [
+      "federal",
+      "in-effect",
+      "cluster",
+      "regional"
+    ],
+    "sources": [
+      {
+        "url": "https://www.eda.gov/funding/programs/regional-technology-and-innovation-hubs"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "industrial-deployments",
+      "policy-momentum"
+    ]
+  },
+  {
+    "id": "nist-humanoid-benchmark",
+    "title": "NIST Humanoid Robot Baseline Performance Benchmark",
+    "type": "Standard",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-01",
+    "status": "In development",
+    "bill_number": "NIST Benchmark",
+    "sponsor": "NIST Intelligent Systems Division",
+    "summary": "Locomotion and manipulation test protocols for humanoid robots. NIST will fabricate and freely distribute test apparatuses to U.S. humanoid manufacturers and regional testing facilities as physical and virtual testbeds.",
+    "full_text_url": "https://www.nist.gov/el/intelligent-systems-division-73500/humanoid-robot-baseline-performance-benchmark",
+    "robotics_scope": "Humanoid performance metrics and baseline standards",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "U.S. humanoid manufacturers",
+      "Robotics testing facilities"
+    ],
+    "agency_responsible": [
+      "nist"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "in-development",
+      "standards",
+      "humanoids"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nist.gov/el/intelligent-systems-division-73500/humanoid-robot-baseline-performance-benchmark"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory",
+      "foundation-models"
+    ]
+  },
+  {
+    "id": "nist-sp-1227-draft",
+    "title": "NIST SP 1227 (Draft) — Performance Metrics for Robotic Assembly & Manipulation",
+    "type": "Standard",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2025-09",
+    "status": "Draft",
+    "bill_number": "NIST SP 1227",
+    "sponsor": "NIST",
+    "summary": "Draft special publication outlining performance metrics and test methods for robotic assembly and manipulation in manufacturing environments.",
+    "full_text_url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1227-draft.pdf",
+    "robotics_scope": "Robotic assembly standards",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "Robotics OEMs",
+      "System integrators",
+      "Manufacturers"
+    ],
+    "agency_responsible": [
+      "nist"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "draft",
+      "standards"
+    ],
+    "sources": [
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1227-draft.pdf"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "industrial-deployments"
+    ]
+  },
+  {
+    "id": "nsf-foundational-research-robotics",
+    "title": "NSF Foundational Research in Robotics (FRR)",
+    "type": "Incentive Program",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2020-09",
+    "status": "In effect",
+    "bill_number": "NSF FRR Program",
+    "sponsor": "NSF CISE & Engineering Directorates",
+    "summary": "A joint program across NSF directorates supporting foundational and academic research in robotics, spanning manipulation, locomotion, sensing, and human-robot interaction.",
+    "full_text_url": "https://www.nsf.gov/funding/opportunities/foundational-research-robotics",
+    "robotics_scope": "Foundational academic robotics research",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "Academic researchers",
+      "Research universities"
+    ],
+    "agency_responsible": [
+      "nsf"
+    ],
+    "startup_eligible": false,
+    "application_url": "https://www.nsf.gov/funding/opportunities/foundational-research-robotics",
+    "tags": [
+      "federal",
+      "in-effect",
+      "rd-grant"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nsf.gov/funding/opportunities/foundational-research-robotics"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "policy-momentum"
+    ]
+  },
+  {
+    "id": "spaceforce-otter-contract",
+    "title": "Space Force Otter Spacecraft Contract",
+    "type": "Procurement",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-02",
+    "status": "Active",
+    "bill_number": "Otter Contract",
+    "sponsor": "U.S. Space Force",
+    "summary": "A $54.5M procurement contract awarded to Starfish Space for their Otter spacecraft to perform on-orbit satellite servicing and refueling.",
+    "full_text_url": "https://breakingdefense.com/2026/02/space-force-buys-second-otter-spacecraft-to-power-satellites-on-orbit/",
+    "robotics_scope": "On-orbit satellite servicing spacecraft",
+    "estimated_budget_usd": 54500000,
+    "beneficiaries": [
+      "Commercial space startups",
+      "Starfish Space",
+      "Defense logistics"
+    ],
+    "agency_responsible": [
+      "space-force"
+    ],
+    "startup_eligible": true,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "active",
+      "procurement",
+      "defense",
+      "space"
+    ],
+    "sources": [
+      {
+        "url": "https://breakingdefense.com/2026/02/space-force-buys-second-otter-spacecraft-to-power-satellites-on-orbit/"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "defense-procurement",
+      "industrial-deployments"
+    ]
+  },
+  {
+    "id": "spaceforce-servicing-missions",
+    "title": "Space Force On-Orbit Satellite Servicing Missions",
+    "type": "Initiative",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-01",
+    "status": "In effect",
+    "bill_number": "Servicing Missions",
+    "sponsor": "U.S. Space Force",
+    "summary": "Initiative to launch 4 satellite servicing, refueling, and inspection missions in 2026 in partnership with AFRL and DARPA: DARPA RSGS, Astroscale refueler, Tetra-5 (with AFRL), and Starfish Otter.",
+    "full_text_url": "https://www.airandspaceforces.com/us-on-obit-satellite-servicing-4-missions-2026/",
+    "robotics_scope": "Satellite servicing and refueling autonomy",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "Space robotics developers",
+      "Defense research partners"
+    ],
+    "agency_responsible": [
+      "space-force",
+      "darpa"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "in-effect",
+      "space",
+      "autonomy"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airandspaceforces.com/us-on-obit-satellite-servicing-4-missions-2026/"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "defense-procurement",
+      "industrial-deployments"
+    ]
+  },
+  {
+    "id": "darpa-rsgs",
+    "title": "DARPA Robotic Servicing of Geosynchronous Satellites (RSGS)",
+    "type": "Initiative",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-01",
+    "status": "In effect",
+    "bill_number": "DARPA RSGS",
+    "sponsor": "DARPA",
+    "summary": "Program developing a robotic servicing vehicle equipped with NRL-built robotic arms to repair, inspect, and upgrade satellites in geosynchronous orbit, scheduled for a 2026 launch.",
+    "full_text_url": "https://www.darpa.mil/research/programs/robotic-servicing-of-geosynchronous-satellites",
+    "robotics_scope": "Space robotics, manipulator autonomy",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "Defense space contractors",
+      "Robotic arm manufacturers"
+    ],
+    "agency_responsible": [
+      "darpa",
+      "space-force"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "in-effect",
+      "space",
+      "robot-arms"
+    ],
+    "sources": [
+      {
+        "url": "https://www.darpa.mil/research/programs/robotic-servicing-of-geosynchronous-satellites"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "defense-procurement",
+      "industrial-deployments"
+    ]
+  },
+  {
+    "id": "usda-nsf-ai-institutes-ag",
+    "title": "USDA/NSF Artificial Intelligence Research Institutes (Agriculture Track)",
+    "type": "Incentive Program",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2020-08",
+    "status": "In effect",
+    "bill_number": "Ag AI Institutes",
+    "sponsor": "USDA NIFA + NSF",
+    "summary": "Jointly funded AI institutes focusing on agriculture, including AgAID (for agricultural workforce and specialty crops) and AIFARMS (focusing on livestock and soil health).",
+    "full_text_url": "https://www.nifa.usda.gov/grants/programs/data-science-food-agricultural-systems-dsfas/artificial-intelligence",
+    "robotics_scope": "AI and robotics in agriculture",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "Agricultural researchers",
+      "Ag-tech startups",
+      "Farmers"
+    ],
+    "agency_responsible": [
+      "usda",
+      "nsf"
+    ],
+    "startup_eligible": true,
+    "application_url": "https://agaid.wsu.edu/",
+    "tags": [
+      "federal",
+      "in-effect",
+      "agriculture",
+      "ai-research"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nifa.usda.gov/grants/programs/data-science-food-agricultural-systems-dsfas/artificial-intelligence"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "industrial-deployments",
+      "policy-momentum"
+    ]
+  },
+  {
+    "id": "usda-nsf-ag-robotics",
+    "title": "USDA/NSF Agricultural Robotics Partnership",
+    "type": "Initiative",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2021-08",
+    "status": "In effect",
+    "bill_number": "USDA-NSF NIFA Partnership",
+    "sponsor": "USDA NIFA + NSF",
+    "summary": "Partnership between NIFA and NSF to fund collaborative proposals for agricultural robotics innovation under the National Robotics Initiative framework.",
+    "full_text_url": "https://www.nifa.usda.gov/about-nifa/press-releases/nsf-usda-join-forces-boost-innovation-agricultural-robotics",
+    "robotics_scope": "Collaborative agricultural robotics",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "Academic researchers",
+      "Ag-tech developers"
+    ],
+    "agency_responsible": [
+      "usda",
+      "nsf"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "in-effect",
+      "agriculture",
+      "partnership"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nifa.usda.gov/about-nifa/press-releases/nsf-usda-join-forces-boost-innovation-agricultural-robotics"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "industrial-deployments"
+    ]
+  },
+  {
+    "id": "nih-nibib-robotics-grants",
+    "title": "NIH NIBIB Bioengineering Research Grants (Robotics)",
+    "type": "Incentive Program",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2021-01",
+    "status": "In effect",
+    "bill_number": "NIBIB SBIR/STTR Track",
+    "sponsor": "NIBIB (NIH)",
+    "summary": "Funding track supporting bioengineering research and SBIR/STTR grants for surgical, assistive, and rehabilitation robotics.",
+    "full_text_url": "https://www.nibib.nih.gov/",
+    "robotics_scope": "Medical, assistive, and surgical robotics",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "Surgical robotics startups",
+      "Medical researchers",
+      "Assistive tech developers"
+    ],
+    "agency_responsible": [
+      "nih"
+    ],
+    "startup_eligible": true,
+    "application_url": "https://www.nibib.nih.gov/",
+    "tags": [
+      "federal",
+      "in-effect",
+      "medical",
+      "rd-grant"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nibib.nih.gov/"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "industrial-deployments"
+    ]
+  },
+  {
+    "id": "dot-av-uas-oversight",
+    "title": "DOT Automated Vehicle and UAS Safety Oversight",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2021-01",
+    "status": "In effect",
+    "bill_number": "NHTSA-FAA Oversight",
+    "sponsor": "NHTSA / FAA",
+    "summary": "Safety frameworks, testing guidelines, and airspace/on-road operational authorizations for autonomous vehicles and commercial unmanned aircraft systems (drones).",
+    "full_text_url": "https://www.nhtsa.gov/automated-vehicles-safety",
+    "robotics_scope": "Autonomous vehicles and UAS regulatory framework",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "Autonomous vehicle developers",
+      "Drone logistics operators",
+      "Robotics buyers"
+    ],
+    "agency_responsible": [
+      "dot"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "in-effect",
+      "standards",
+      "safety"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nhtsa.gov/automated-vehicles-safety"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "policy-momentum",
       "industrial-deployments"
     ]
   }

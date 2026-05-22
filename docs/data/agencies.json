@@ -9,10 +9,9 @@
     "rd_focus": "Doesn't fund R&D directly; coordinates federal priorities through the National Science and Technology Council (NSTC) and advises POTUS via PCAST.",
     "applications": "Cross-cutting AI policy — embodied AI, autonomous systems, safety, workforce — sets agency priorities downstream at NSF / DOE / NIST / NASA.",
     "manufacturing": "Indirect — shapes CHIPS Act implementation priorities and Manufacturing USA emphases.",
-    "programs": [
-      "<a href=\"https://www.whitehouse.gov/wp-content/uploads/2026/01/WHOSTP-2025-Wins.pdf\" target=\"_blank\" rel=\"noopener\">Winning the AI Race: America's AI Action Plan</a> (July 2025) — 90+ recs across Innovation / Infrastructure / Diplomacy pillars.",
-      "Director <a href=\"https://www.science.org/content/article/trump-names-ostp-director-part-white-house-tech-team\" target=\"_blank\" rel=\"noopener\">Michael Kratsios</a> (confirmed Mar 2025); Lynne Parker as Counselor + PCAST exec director.",
-      "<a href=\"https://iapp.org/news/a/how-ostp-s-kratsios-views-future-of-us-ai-legislation-nist-s-role\" target=\"_blank\" rel=\"noopener\">Public statements</a> emphasize NIST AI RMF as the federal procurement baseline."
+    "notes": [
+      "Director Michael Kratsios (confirmed Mar 2025); Lynne Parker as Counselor + PCAST exec director.",
+      "Public statements emphasize NIST AI RMF as the federal procurement baseline."
     ]
   },
   {
@@ -25,10 +24,8 @@
     "rd_focus": "National-lab robotics + AI-driven materials and manufacturing. ORNL, Argonne, Sandia, INL all run robotics + self-driving-lab programs.",
     "applications": "Grid inspection, nuclear fuel-cycle handling, AI-enabled defense manufacturing.",
     "manufacturing": "EERE Advanced Manufacturing Office; ARM Institute (Manufacturing USA, robotics-specific).",
-    "programs": [
-      "<strong><a href=\"https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission\" target=\"_blank\" rel=\"noopener\">Genesis Mission</a></strong> — DOE Office of Science, <a href=\"https://www.executivegov.com/articles/doe-investment-genesis-mission-ai\" target=\"_blank\" rel=\"noopener\">$320M</a> FY26; <strong>14 robotics + automated-lab projects</strong> (<a href=\"https://www.hpcwire.com/2026/05/04/inside-the-doe-genesis-mission-core-components/\" target=\"_blank\" rel=\"noopener\">HPCwire breakdown</a>). Includes <a href=\"https://science.osti.gov/grants/FOAs/FOAs/2026/DE-FOA-0003612\" target=\"_blank\" rel=\"noopener\">OPAL</a> (PNNL — agentic biology design-build-test-learn), ACMAS (autonomous nuclear-materials characterization), SYNAPS-I (LBNL autonomous imaging at neutron/photon facilities).",
-      "<strong>Exascale Foundry</strong> — ORNL + Autonomous Resource Corp, AI-enabled defense manufacturing (<a href=\"https://www.hpcwire.com/off-the-wire/autonomous-resource-corporation-ornl-partner-to-accelerate-ai-enabled-defense-manufacturing/\" target=\"_blank\" rel=\"noopener\">May 2026</a>).",
-      "National-lab LDRD funds self-driving labs at ORNL / Argonne / LBNL (<a href=\"https://ifp.org/lab-directed-rd-at-the-national-labs/\" target=\"_blank\" rel=\"noopener\">IFP brief</a>)."
+    "notes": [
+      "National-lab LDRD funds self-driving labs at ORNL / Argonne / LBNL."
     ]
   },
   {
@@ -41,9 +38,8 @@
     "rd_focus": "High-risk energy R&D; periodic solicitations for embodied AI / robotics applied to energy systems.",
     "applications": "Robot-driven grid maintenance, fuel-cycle automation, autonomous wind/solar O&M.",
     "manufacturing": "Adjacent — manufacturing tooling shows up in some open program-area awards.",
-    "programs": [
-      "<a href=\"https://arpa-e.energy.gov/programs-and-initiatives/program-overview\" target=\"_blank\" rel=\"noopener\">Embodied AI for Energy Systems</a> open call; typical award $1–10M.",
-      "<a href=\"https://arpa-e.energy.gov/sites/default/files/2025-09/doe-fy-2026-vol-2-arpa-e.pdf\" target=\"_blank\" rel=\"noopener\">FY 2026 request</a> ≈ $478M total; up to 4 new focused solicitations in FY26."
+    "notes": [
+      "FY 2026 request ≈ $478M total; up to 4 new focused solicitations in FY26."
     ]
   },
   {
@@ -56,9 +52,7 @@
     "rd_focus": "Industrial policy + standards rather than direct R&D.",
     "applications": "Semiconductor fab automation; regional robotics clusters via Tech Hubs.",
     "manufacturing": "Central — administers CHIPS funding and designates Regional Tech Hubs.",
-    "programs": [
-      "<a href=\"https://www.eda.gov/funding/programs/regional-technology-and-innovation-hubs\" target=\"_blank\" rel=\"noopener\">EDA Regional Tech Hubs</a> — Phase 2 designation includes robotics-anchored clusters."
-    ]
+    "notes": []
   },
   {
     "id": "nist",
@@ -70,9 +64,7 @@
     "rd_focus": "Engineering Lab: Intelligent Systems Division, robotics performance test protocols.",
     "applications": "Industrial humanoid performance metrics; safety standards for human-robot shared workspaces.",
     "manufacturing": "Manufacturing Extension Partnership (MEP) — small-manufacturer assistance.",
-    "programs": [
-      "<strong><a href=\"https://www.nist.gov/el/intelligent-systems-division-73500/humanoid-robot-baseline-performance-benchmark\" target=\"_blank\" rel=\"noopener\">Humanoid Robot Baseline Performance Benchmark</a></strong> — locomotion + manipulation test protocol; NIST will fabricate and freely distribute apparatuses to U.S. humanoid manufacturers and regional testing facilities; designs published as physical and virtual testbed.",
-      "<a href=\"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1227-draft.pdf\" target=\"_blank\" rel=\"noopener\">NIST SP 1227 (draft)</a> — performance metrics + test methods for robotic assembly + manipulation.",
+    "notes": [
       "Standards-setting role; not a direct grant funder."
     ]
   },
@@ -86,9 +78,8 @@
     "rd_focus": "Foundational + academic robotics research across CISE and Engineering Directorates.",
     "applications": "Co-robots, human-robot interaction, integrative systems, agricultural + healthcare robotics.",
     "manufacturing": "Through Engineering Directorate and Manufacturing USA partnerships.",
-    "programs": [
-      "<a href=\"https://www.nsf.gov/funding/opportunities/foundational-research-robotics\" target=\"_blank\" rel=\"noopener\">Foundational Research in Robotics (FRR)</a> — rolling submissions.",
-      "<a href=\"https://cra.org/govaffairs/blog/2025/12/fy26-house-cjs/\" target=\"_blank\" rel=\"noopener\">FY26 House mark</a> proposes NSF cuts; AI + quantum prioritized."
+    "notes": [
+      "FY26 House mark proposes NSF cuts; AI + quantum prioritized."
     ]
   },
   {
@@ -101,9 +92,9 @@
     "rd_focus": "JPL robotics — rovers, manipulators, autonomous exploration.",
     "applications": "Mars rovers (<a href=\"https://mars.nasa.gov/mars2020/\" target=\"_blank\" rel=\"noopener\">Perseverance</a>), <a href=\"https://www.nasa.gov/astrobee/\" target=\"_blank\" rel=\"noopener\">Astrobee</a> (ISS), <a href=\"https://www.nasa.gov/clps/\" target=\"_blank\" rel=\"noopener\">CLPS</a> lunar landers.",
     "manufacturing": "In-space assembly + manufacturing via <a href=\"https://aerospaceamerica.aiaa.org/year-in-review/expanding-the-final-frontier-with-robots/\" target=\"_blank\" rel=\"noopener\">COSMIC industry consortium</a>.",
-    "programs": [
-      "<strong><a href=\"https://spacenews.com/nasa-reaffirms-decision-to-cancel-osam-1/\" target=\"_blank\" rel=\"noopener\">OSAM-1 cancelled</a></strong> Feb 2024 after cost growth $0.7B → $2B+.",
-      "<a href=\"https://www.darpa.mil/research/programs/robotic-servicing-of-geosynchronous-satellites\" target=\"_blank\" rel=\"noopener\">DARPA RSGS</a> — provides expertise; no longer prime.",
+    "notes": [
+      "OSAM-1 cancelled Feb 2024 after cost growth $0.7B → $2B+.",
+      "DARPA RSGS — provides expertise; no longer prime.",
       "FY24 budget ≈ $24.8B total agency."
     ]
   },
@@ -117,10 +108,8 @@
     "rd_focus": "Autonomous space systems, on-orbit servicing in partnership with AFRL + DARPA.",
     "applications": "Satellite servicing, refueling, dynamic space operations, in-orbit inspection.",
     "manufacturing": "Procures; doesn't manufacture. Drives commercial robotic-satellite-service market.",
-    "programs": [
-      "<strong>4 servicing missions launching 2026</strong>: <a href=\"https://www.airandspaceforces.com/us-on-obit-satellite-servicing-4-missions-2026/\" target=\"_blank\" rel=\"noopener\">DARPA RSGS, Astroscale refueler, Tetra-5 (with AFRL), Otter</a>.",
-      "<a href=\"https://breakingdefense.com/2026/02/space-force-buys-second-otter-spacecraft-to-power-satellites-on-orbit/\" target=\"_blank\" rel=\"noopener\">Otter contract</a> — $54.5M to Starfish Space.",
-      "<a href=\"https://csps.aerospace.org/sites/default/files/2025-08/FY26BudgetBrief_20250805.pdf\" target=\"_blank\" rel=\"noopener\">FY26 SAML</a> budget ≈ $9.7M (down 66% from $29.2M)."
+    "notes": [
+      "FY26 SAML budget ≈ $9.7M (down 66% from $29.2M)."
     ]
   },
   {
@@ -133,9 +122,7 @@
     "rd_focus": "High-risk autonomy research; technology-transition to services + commercial primes.",
     "applications": "Autonomous aerial / ground / maritime systems; satellite servicing.",
     "manufacturing": "Funds prototype manufacturing through cooperative agreements.",
-    "programs": [
-      "<a href=\"https://www.darpa.mil/research/programs/robotic-servicing-of-geosynchronous-satellites\" target=\"_blank\" rel=\"noopener\">RSGS</a> — Mission Robotic Vehicle launches 2026 via Space Logistics; NRL-built arm."
-    ]
+    "notes": []
   },
   {
     "id": "usda",
@@ -147,9 +134,7 @@
     "rd_focus": "Agricultural robotics + autonomous farm systems. Co-funder of NSF NRI 3.0.",
     "applications": "Harvesting, livestock management, soil/crop sensing, autonomous tractors.",
     "manufacturing": "Specialty-crop equipment; ag-tech regional clusters.",
-    "programs": [
-      "<a href=\"https://www.nifa.usda.gov/grants/programs/data-science-food-agricultural-systems-dsfas/artificial-intelligence\" target=\"_blank\" rel=\"noopener\">AI Institutes — Ag track</a>: <a href=\"https://agaid.wsu.edu/\" target=\"_blank\" rel=\"noopener\">AgAID</a> (workforce + specialty crops) and <a href=\"https://aifarms.illinois.edu/\" target=\"_blank\" rel=\"noopener\">AIFARMS</a> (livestock + soil) — co-funded with NSF.",
-      "<a href=\"https://www.nifa.usda.gov/about-nifa/press-releases/nsf-usda-join-forces-boost-innovation-agricultural-robotics\" target=\"_blank\" rel=\"noopener\">NIFA × NSF agricultural-robotics partnership</a>.",
+    "notes": [
       "AFRI Foundational A1541 (next cycle opens late summer 2026)."
     ]
   },
@@ -163,10 +148,7 @@
     "rd_focus": "Surgical, rehabilitation, and assistive robotics across <a href=\"https://www.nibib.nih.gov/\" target=\"_blank\" rel=\"noopener\">NIBIB</a>, NCI, NICHD, NINDS.",
     "applications": "Robotic surgery, prosthetics, in-home elder care, telerehab.",
     "manufacturing": "Indirect — medical-device pathways via FDA.",
-    "programs": [
-      "NRI 3.0 co-funder (health + assistive track).",
-      "NIBIB Bioengineering Research Grants and SBIR/STTR include robotics topics."
-    ]
+    "notes": []
   },
   {
     "id": "dot",
@@ -178,10 +160,7 @@
     "rd_focus": "Autonomous-vehicle safety research; freight automation; UAS integration.",
     "applications": "On-road AVs, autonomous freight rail, commercial UAS, urban air mobility.",
     "manufacturing": "Indirect — sets safety + certification pathways.",
-    "programs": [
-      "NRI 3.0 co-funder (AV-safety track).",
-      "NHTSA <a href=\"https://www.nhtsa.gov/automated-vehicles-safety\" target=\"_blank\" rel=\"noopener\">AV oversight</a>; FAA UAS integration office."
-    ]
+    "notes": []
   },
   {
     "id": "dod",
@@ -189,7 +168,8 @@
     "full_name": "Department of Defense",
     "parent": "Federal",
     "url": "https://www.defense.gov/",
-    "show_in_rd_table": false
+    "show_in_rd_table": false,
+    "notes": []
   },
   {
     "id": "gsa",
@@ -197,7 +177,8 @@
     "full_name": "General Services Administration",
     "parent": "Federal",
     "url": "https://www.gsa.gov/",
-    "show_in_rd_table": false
+    "show_in_rd_table": false,
+    "notes": []
   },
   {
     "id": "treasury",
@@ -205,7 +186,8 @@
     "full_name": "Department of the Treasury",
     "parent": "Federal",
     "url": "https://home.treasury.gov/",
-    "show_in_rd_table": false
+    "show_in_rd_table": false,
+    "notes": []
   },
   {
     "id": "irs",
@@ -213,7 +195,8 @@
     "full_name": "Internal Revenue Service",
     "parent": "Treasury",
     "url": "https://www.irs.gov/",
-    "show_in_rd_table": false
+    "show_in_rd_table": false,
+    "notes": []
   },
   {
     "id": "diu",
@@ -221,7 +204,8 @@
     "full_name": "Defense Innovation Unit",
     "parent": "DoD",
     "url": "https://www.diu.mil/",
-    "show_in_rd_table": false
+    "show_in_rd_table": false,
+    "notes": []
   },
   {
     "id": "dol",
@@ -229,7 +213,8 @@
     "full_name": "Department of Labor",
     "parent": "Federal",
     "url": "https://www.dol.gov/",
-    "show_in_rd_table": false
+    "show_in_rd_table": false,
+    "notes": []
   },
   {
     "id": "tx-comptroller",
@@ -237,7 +222,8 @@
     "full_name": "Texas Comptroller of Public Accounts",
     "parent": "Texas",
     "url": "https://comptroller.texas.gov/",
-    "show_in_rd_table": false
+    "show_in_rd_table": false,
+    "notes": []
   },
   {
     "id": "tx-gov",
@@ -245,7 +231,8 @@
     "full_name": "Office of the Texas Governor",
     "parent": "Texas",
     "url": "https://gov.texas.gov/",
-    "show_in_rd_table": false
+    "show_in_rd_table": false,
+    "notes": []
   },
   {
     "id": "medc",
@@ -253,7 +240,8 @@
     "full_name": "Michigan Economic Development Corporation",
     "parent": "Michigan",
     "url": "https://www.michiganbusiness.org/",
-    "show_in_rd_table": false
+    "show_in_rd_table": false,
+    "notes": []
   },
   {
     "id": "pa-dced",
@@ -261,7 +249,8 @@
     "full_name": "Pennsylvania Department of Community & Economic Development",
     "parent": "Pennsylvania",
     "url": "https://dced.pa.gov/",
-    "show_in_rd_table": false
+    "show_in_rd_table": false,
+    "notes": []
   },
   {
     "id": "nc-doc",
@@ -269,7 +258,8 @@
     "full_name": "North Carolina Department of Commerce",
     "parent": "North Carolina",
     "url": "https://www.commerce.nc.gov/",
-    "show_in_rd_table": false
+    "show_in_rd_table": false,
+    "notes": []
   },
   {
     "id": "nc-eic",
@@ -277,7 +267,8 @@
     "full_name": "North Carolina Economic Investment Committee",
     "parent": "North Carolina",
     "url": "https://www.commerce.nc.gov/",
-    "show_in_rd_table": false
+    "show_in_rd_table": false,
+    "notes": []
   },
   {
     "id": "esd",
@@ -285,6 +276,7 @@
     "full_name": "Empire State Development",
     "parent": "New York",
     "url": "https://esd.ny.gov/",
-    "show_in_rd_table": false
+    "show_in_rd_table": false,
+    "notes": []
   }
 ]
