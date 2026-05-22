@@ -20,9 +20,9 @@
       "Academia"
     ],
     "agency_responsible": [
-      "Department of Commerce",
-      "NIST",
-      "NSF"
+      "doc",
+      "nist",
+      "nsf"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -41,7 +41,10 @@
         "archive_url": "https://web.archive.org/web/20260306200257/https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "hr-8189-american-security-robotics",
@@ -62,9 +65,9 @@
       "Defense contractors"
     ],
     "agency_responsible": [
-      "Department of Commerce",
-      "Department of Defense",
-      "GSA"
+      "doc",
+      "dod",
+      "gsa"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -85,7 +88,12 @@
         "archive_url": "https://web.archive.org/web/20260306200257/https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "china-scale",
+      "defense-procurement",
+      "policy-momentum"
+    ]
   },
   {
     "id": "obbba-bonus-depreciation",
@@ -107,8 +115,8 @@
       "Automation buyers"
     ],
     "agency_responsible": [
-      "Treasury",
-      "IRS"
+      "treasury",
+      "irs"
     ],
     "startup_eligible": true,
     "application_url": null,
@@ -126,7 +134,10 @@
       }
     ],
     "last_updated": "2026-05-17",
-    "archive_url": "https://web.archive.org/web/20260517181442/https://www.congress.gov/"
+    "archive_url": "https://web.archive.org/web/20260517181442/https://www.congress.gov/",
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "nist-ai-rmf",
@@ -146,7 +157,7 @@
       "All robotics companies deploying AI"
     ],
     "agency_responsible": [
-      "NIST"
+      "nist"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -162,7 +173,8 @@
         "url": "https://www.nist.gov/itl/ai-risk-management-framework"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": []
   },
   {
     "id": "chips-act-advanced-manufacturing",
@@ -184,9 +196,10 @@
       "ARM Institute"
     ],
     "agency_responsible": [
-      "Department of Commerce",
-      "NIST",
-      "NSF"
+      "doc",
+      "nist",
+      "nsf",
+      "doe"
     ],
     "startup_eligible": true,
     "application_url": "https://www.manufacturingusa.com/",
@@ -205,7 +218,10 @@
     ],
     "last_updated": "2026-05-17",
     "archive_url": "https://web.archive.org/web/20260513130038/https://www.congress.gov/bill/117th-congress/house-bill/4346",
-    "archive_url_application": "https://web.archive.org/web/20260513181409/https://www.manufacturingusa.com/"
+    "archive_url_application": "https://web.archive.org/web/20260513181409/https://www.manufacturingusa.com/",
+    "themes": [
+      "industrial-deployments"
+    ]
   },
   {
     "id": "nsf-nri-3",
@@ -226,10 +242,10 @@
       "Industry partners on academic grants"
     ],
     "agency_responsible": [
-      "NSF",
-      "USDA",
-      "NIH",
-      "DOE"
+      "nsf",
+      "usda",
+      "nih",
+      "doe"
     ],
     "startup_eligible": true,
     "application_url": "https://new.nsf.gov/funding/opportunities/foundational-research-robotics",
@@ -245,7 +261,8 @@
         "url": "https://new.nsf.gov/funding/opportunities/foundational-research-robotics"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": []
   },
   {
     "id": "dod-replicator",
@@ -268,8 +285,9 @@
       "Defense robotics startups"
     ],
     "agency_responsible": [
-      "Department of Defense",
-      "Defense Innovation Unit"
+      "dod",
+      "diu",
+      "darpa"
     ],
     "startup_eligible": true,
     "application_url": "https://www.diu.mil/",
@@ -286,7 +304,10 @@
         "archive_url": "https://web.archive.org/web/20260105224154/http://defense.gov/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "defense-procurement"
+    ]
   },
   {
     "id": "tx-robotics-investment",
@@ -307,8 +328,8 @@
       "Robotics OEMs"
     ],
     "agency_responsible": [
-      "Texas Comptroller",
-      "Office of the Governor"
+      "tx-comptroller",
+      "tx-gov"
     ],
     "startup_eligible": true,
     "application_url": "https://comptroller.texas.gov/economy/local/tef/",
@@ -317,7 +338,8 @@
       "texas",
       "in-effect",
       "tax-credit",
-      "manufacturing"
+      "manufacturing",
+      "tax"
     ],
     "sources": [
       {
@@ -325,7 +347,11 @@
         "archive_url": "https://web.archive.org/web/20260514152214/https://comptroller.texas.gov/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "industrial-deployments",
+      "policy-momentum"
+    ]
   },
   {
     "id": "mi-mobility-r-d",
@@ -346,7 +372,7 @@
       "Robotics R&D operations"
     ],
     "agency_responsible": [
-      "MEDC"
+      "medc"
     ],
     "startup_eligible": true,
     "application_url": "https://www.michiganbusiness.org/",
@@ -356,7 +382,8 @@
       "in-effect",
       "tax-credit",
       "rd",
-      "mobility"
+      "mobility",
+      "tax"
     ],
     "sources": [
       {
@@ -366,7 +393,8 @@
     ],
     "last_updated": "2026-05-17",
     "archive_url": "https://web.archive.org/web/20260515100314/https://www.michiganbusiness.org/",
-    "archive_url_application": "https://web.archive.org/web/20260515100314/https://www.michiganbusiness.org/"
+    "archive_url_application": "https://web.archive.org/web/20260515100314/https://www.michiganbusiness.org/",
+    "themes": []
   },
   {
     "id": "pa-pittsburgh-robotics",
@@ -386,7 +414,7 @@
       "Pittsburgh-area robotics startups"
     ],
     "agency_responsible": [
-      "PA DCED"
+      "pa-dced"
     ],
     "startup_eligible": true,
     "application_url": "https://www.pittsburghroboticsnetwork.org/",
@@ -395,14 +423,18 @@
       "pennsylvania",
       "in-effect",
       "cluster",
-      "pittsburgh"
+      "pittsburgh",
+      "tax"
     ],
     "sources": [
       {
         "url": "https://www.pittsburghroboticsnetwork.org/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "cost-trajectory"
+    ]
   },
   {
     "id": "nc-advanced-mfg",
@@ -423,8 +455,8 @@
       "Suppliers locating in NC"
     ],
     "agency_responsible": [
-      "NC Department of Commerce",
-      "Economic Investment Committee"
+      "nc-doc",
+      "nc-eic"
     ],
     "startup_eligible": false,
     "application_url": "https://edpnc.com/incentives/jdig/",
@@ -440,7 +472,10 @@
         "url": "https://edpnc.com/incentives/jdig/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "industrial-deployments"
+    ]
   },
   {
     "id": "arpa-e-embodied-ai",
@@ -461,7 +496,8 @@
       "National labs"
     ],
     "agency_responsible": [
-      "DOE / ARPA-E"
+      "doe",
+      "arpa-e"
     ],
     "startup_eligible": true,
     "application_url": "https://arpa-e.energy.gov/",
@@ -480,7 +516,8 @@
     ],
     "last_updated": "2026-05-17",
     "archive_url": "https://web.archive.org/web/20260509040423/https://arpa-e.energy.gov/",
-    "archive_url_application": "https://web.archive.org/web/20260509040423/https://arpa-e.energy.gov/"
+    "archive_url_application": "https://web.archive.org/web/20260509040423/https://arpa-e.energy.gov/",
+    "themes": []
   },
   {
     "id": "ny-rd-credit",
@@ -500,7 +537,7 @@
       "NY-based robotics + AI firms"
     ],
     "agency_responsible": [
-      "Empire State Development"
+      "esd"
     ],
     "startup_eligible": true,
     "application_url": "https://esd.ny.gov/excelsior-jobs-program",
@@ -508,7 +545,8 @@
       "state",
       "new-york",
       "in-effect",
-      "tax-credit"
+      "tax-credit",
+      "tax"
     ],
     "sources": [
       {
@@ -518,7 +556,8 @@
     ],
     "last_updated": "2026-05-17",
     "archive_url": "https://web.archive.org/web/20260123150850/https://esd.ny.gov/excelsior-jobs-program",
-    "archive_url_application": "https://web.archive.org/web/20260123150850/https://esd.ny.gov/excelsior-jobs-program"
+    "archive_url_application": "https://web.archive.org/web/20260123150850/https://esd.ny.gov/excelsior-jobs-program",
+    "themes": []
   },
   {
     "id": "rfa-coalition-launch",
@@ -538,7 +577,9 @@
       "All US robotics companies"
     ],
     "agency_responsible": [
-      "Multi-agency target (Commerce, Labor, DoT)"
+      "doc",
+      "dol",
+      "dot"
     ],
     "startup_eligible": false,
     "application_url": null,
@@ -546,14 +587,18 @@
       "federal",
       "coalition",
       "industry-framework",
-      "2026"
+      "2026",
+      "tax"
     ],
     "sources": [
       {
         "url": "https://www.design-engineering.com/robots-for-america-launches-national-coalition-to-advance-u-s-robotics-deployment-policy-1004048555/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fedreg-2025-18749",
@@ -570,7 +615,9 @@
     "robotics_scope": "Federal Register publication",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [],
+    "agency_responsible": [
+      "doc"
+    ],
     "startup_eligible": false,
     "application_url": null,
     "tags": [
@@ -582,7 +629,10 @@
         "url": "https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fedreg-2026-02285",
@@ -611,7 +661,10 @@
         "url": "https://www.federalregister.gov/documents/2026/02/05/2026-02285/petition-for-reconsideration-of-action-in-rulemaking-proceeding-application-for-review-of-action-in"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fedreg-2026-02596",
@@ -640,7 +693,10 @@
         "url": "https://www.federalregister.gov/documents/2026/02/10/2026-02596/notice-of-intent-to-grant-a-partially-exclusive-patent-license"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": [
+      "defense-procurement"
+    ]
   },
   {
     "id": "fedreg-2026-05925",
@@ -669,7 +725,10 @@
         "url": "https://www.federalregister.gov/documents/2026/03/26/2026-05925/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-the-national"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fedreg-2024-08596",
@@ -698,7 +757,10 @@
         "url": "https://www.federalregister.gov/documents/2024/04/23/2024-08596/proposed-data-collection-submitted-for-public-comment-and-recommendations"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fedreg-2024-18543",
@@ -727,7 +789,10 @@
         "url": "https://www.federalregister.gov/documents/2024/08/20/2024-18543/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-decision-to"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fedreg-2026-02906",
@@ -744,7 +809,9 @@
     "robotics_scope": "Federal Register publication",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [],
+    "agency_responsible": [
+      "nih"
+    ],
     "startup_eligible": false,
     "application_url": null,
     "tags": [
@@ -756,7 +823,8 @@
         "url": "https://www.federalregister.gov/documents/2026/02/13/2026-02906/government-owned-inventions-available-for-license-gait-assistance-systems-and-methods-of-control"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": []
   },
   {
     "id": "fedreg-2025-17901",
@@ -773,7 +841,9 @@
     "robotics_scope": "Federal Register publication",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [],
+    "agency_responsible": [
+      "doe"
+    ],
     "startup_eligible": false,
     "application_url": null,
     "tags": [
@@ -785,7 +855,8 @@
         "url": "https://www.federalregister.gov/documents/2025/09/16/2025-17901/lawrence-berkeley-national-laboratory-et-al-notice-of-decision-on-application-for-duty-free-entry-of"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": []
   },
   {
     "id": "fedreg-2025-24076",
@@ -814,7 +885,8 @@
         "url": "https://www.federalregister.gov/documents/2025/12/31/2025-24076/ul-llc-grant-of-expansion-of-recognition-and-modification-to-the-nrtl-programs-list-of-appropriate"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": []
   },
   {
     "id": "fedreg-2025-15542",
@@ -831,7 +903,9 @@
     "robotics_scope": "Federal Register publication",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [],
+    "agency_responsible": [
+      "doe"
+    ],
     "startup_eligible": false,
     "application_url": null,
     "tags": [
@@ -843,7 +917,8 @@
         "url": "https://www.federalregister.gov/documents/2025/08/15/2025-15542/lawrence-berkeley-national-laboratory-et-al-applications-for-duty-free-entry-of-scientific"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": []
   },
   {
     "id": "fedreg-2025-18778",
@@ -872,7 +947,8 @@
         "url": "https://www.federalregister.gov/documents/2025/09/29/2025-18778/ul-llc-application-for-expansion-of-recognition-and-proposed-modification-to-the-nrtl-programs-list"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": []
   },
   {
     "id": "fedreg-2023-06222",
@@ -901,7 +977,10 @@
         "url": "https://www.federalregister.gov/documents/2023/03/27/2023-06222/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-final"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fedreg-2025-03223",
@@ -930,7 +1009,10 @@
         "url": "https://www.federalregister.gov/documents/2025/02/28/2025-03223/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-expeditionary"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fedreg-2025-10813",
@@ -959,7 +1041,10 @@
         "url": "https://www.federalregister.gov/documents/2025/06/13/2025-10813/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-medical-technology"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fedreg-2026-00091",
@@ -988,7 +1073,10 @@
         "url": "https://www.federalregister.gov/documents/2026/01/07/2026-00091/agency-information-collection-activities-supplemental-nutrition-assistance-program-snap-a-review-of"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fedreg-2025-16829",
@@ -1017,7 +1105,8 @@
         "url": "https://www.federalregister.gov/documents/2025/09/03/2025-16829/magnuson-stevens-act-provisions-atlantic-coastal-fisheries-cooperative-management-act-provisions"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": []
   },
   {
     "id": "fedreg-2025-18729",
@@ -1034,7 +1123,9 @@
     "robotics_scope": "Federal Register publication",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [],
+    "agency_responsible": [
+      "doc"
+    ],
     "startup_eligible": false,
     "application_url": null,
     "tags": [
@@ -1046,7 +1137,10 @@
         "url": "https://www.federalregister.gov/documents/2025/09/26/2025-18729/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fedreg-2025-01249",
@@ -1075,7 +1169,10 @@
         "url": "https://www.federalregister.gov/documents/2025/01/21/2025-01249/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-the-national"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "fedreg-2025-01161",
@@ -1092,7 +1189,9 @@
     "robotics_scope": "Federal Register publication",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [],
+    "agency_responsible": [
+      "doe"
+    ],
     "startup_eligible": false,
     "application_url": null,
     "tags": [
@@ -1104,7 +1203,8 @@
         "url": "https://www.federalregister.gov/documents/2025/01/17/2025-01161/notice-of-request-for-information-rfi-on-autonomous-experimentation-platforms-from-material-genome"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": []
   },
   {
     "id": "fedreg-2026-04729",
@@ -1133,6 +1233,90 @@
         "url": "https://www.federalregister.gov/documents/2026/03/11/2026-04729/dekra-certification-inc-grant-of-expansion-of-recognition-and-modification-to-the-nrtl-programs-list"
       }
     ],
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-05-22",
+    "themes": []
+  },
+  {
+    "id": "sec-174-rd-expensing",
+    "title": "Section 174 R&D Expensing",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-01",
+    "status": "In effect",
+    "bill_number": "IRC §174",
+    "sponsor": "N/A",
+    "summary": "Restores full first-year deduction for domestic R&D expenses (foreign R&D still amortized over 15 years), reversing the amortization requirement. Provides material cash-flow relief for pre-revenue robotics startups whose payroll is the bulk of Qualified Research Expenses.",
+    "full_text_url": "https://www.rehmann.com/resource/understanding-obbbs-rd-tax-credits-and-section-174-updates/",
+    "robotics_scope": "Tax treatment of domestic research & development payroll and expenses",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "Robotics startups",
+      "R&D-intensive companies"
+    ],
+    "agency_responsible": [
+      "treasury",
+      "irs"
+    ],
+    "startup_eligible": true,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "tax",
+      "in-effect",
+      "rd"
+    ],
+    "sources": [
+      {
+        "url": "https://www.rehmann.com/resource/understanding-obbbs-rd-tax-credits-and-section-174-updates/"
+      },
+      {
+        "url": "https://dhjj.com/understanding-rd-tax-credits-and-section-174-in-2026/"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "policy-momentum"
+    ]
+  },
+  {
+    "id": "rd-tax-credit",
+    "title": "Research and Development Tax Credit",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "1981",
+    "status": "In effect",
+    "bill_number": "IRC §41",
+    "sponsor": "N/A",
+    "summary": "Permanent tax credit on qualified research expenses (QREs) including employee wages, supplies, cloud computing, and contractor fees. Routinely claimed by robotics companies for prototype builds, control-system R&D, and manufacturing process optimization.",
+    "full_text_url": "https://www.irs.gov/newsroom/research-activities-tax-credit",
+    "robotics_scope": "Tax credit for qualified research activities",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "Robotics developers",
+      "Robotics manufacturers"
+    ],
+    "agency_responsible": [
+      "treasury",
+      "irs"
+    ],
+    "startup_eligible": true,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "tax",
+      "in-effect",
+      "rd"
+    ],
+    "sources": [
+      {
+        "url": "https://www.striketax.com/sub-industries/robotics-rd-tax-credits"
+      }
+    ],
+    "last_updated": "2026-05-22",
+    "themes": [
+      "industrial-deployments"
+    ]
   }
 ]

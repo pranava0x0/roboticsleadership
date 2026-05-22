@@ -24,29 +24,47 @@
   }
 
   async function loadAll() {
-    const [companies, policies, news, themes, sources] = await Promise.all([
+    const [companies, policies, news, themes, sources, agencies] = await Promise.all([
       loadData('companies'),
       loadData('policies'),
       loadData('news'),
       loadData('themes'),
       loadData('sources'),
+      loadData('agencies'),
     ]);
-    return { companies, policies, news, themes, sources };
+    return { companies, policies, news, themes, sources, agencies };
   }
 
-  // ---------- Formatters ----------
   function formatUSD(n, opts = {}) {
-    if (n == null || isNaN(n)) return opts.fallback ?? '—';
-    const abs = Math.abs(n);
-    if (abs >= 1e9) return `$${(n / 1e9).toFixed(n % 1e9 === 0 ? 0 : 1)}B`;
-    if (abs >= 1e6) return `$${(n / 1e6).toFixed(n % 1e6 === 0 ? 0 : 1)}M`;
-    if (abs >= 1e3) return `$${(n / 1e3).toFixed(0)}K`;
-    return `$${n.toLocaleString('en-US')}`;
+    if (n == null || n === '') return opts.fallback ?? '—';
+    const str = String(n).trim();
+    const num = Number(str.replace(/[^0-9.-]/g, ''));
+    if (isNaN(num)) {
+      return str;
+    }
+    const prefixMatch = str.match(/^([<>=≥≤$]+)/);
+    const prefix = prefixMatch ? prefixMatch[1] : '';
+    const suffixMatch = str.match(/([%+\s]+)$/);
+    const suffix = suffixMatch ? suffixMatch[1] : '';
+    const abs = Math.abs(num);
+    let formattedNum;
+    if (abs >= 1e9) formattedNum = `${(num / 1e9).toFixed(num % 1e9 === 0 ? 0 : 1)}B`;
+    else if (abs >= 1e6) formattedNum = `${(num / 1e6).toFixed(num % 1e6 === 0 ? 0 : 1)}M`;
+    else if (abs >= 1e3) formattedNum = `${(num / 1e3).toFixed(0)}K`;
+    else formattedNum = num.toLocaleString('en-US');
+    const hasDollar = prefix.includes('$') || str.includes('$');
+    const dollarSign = hasDollar ? '' : '$';
+    const cleanPrefix = prefix.replace(/\$/g, '');
+    return `${cleanPrefix}${dollarSign}${formattedNum}${suffix}`;
   }
 
   function formatNumber(n, opts = {}) {
-    if (n == null || isNaN(n)) return opts.fallback ?? '—';
-    return n.toLocaleString('en-US');
+    if (n == null || n === '') return opts.fallback ?? '—';
+    const num = Number(n);
+    if (isNaN(num)) {
+      return String(n);
+    }
+    return num.toLocaleString('en-US');
   }
 
   function formatDate(s, opts = {}) {

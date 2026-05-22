@@ -4,25 +4,6 @@
     "name": "China Manufacturing Scale",
     "narrative": "China captured over 80% of global humanoid robot installations in 2025 (~16,000 units worldwide). Unitree shipped 5,500+ units and targets 20,000 in 2026; UBTECH became the first company globally to deliver more than 1,000 industrial humanoids and is targeting 5,000 in 2026 and 10,000 in 2027. US firms lead on AI software and capital raised, but commercial deployment volume remains 10–50× behind. The gap is now the central policy question.",
     "direction": "Accelerating",
-    "related_companies": [
-      "unitree",
-      "ubtech",
-      "agibot",
-      "robotera",
-      "engineai",
-      "figure-ai",
-      "apptronik"
-    ],
-    "related_policies": [
-      "hr-8189-american-security-robotics",
-      "hr-7334-national-commission-robotics",
-      "rfa-coalition-launch"
-    ],
-    "related_news": [
-      "unitree-20000-target",
-      "ubtech-1000-milestone",
-      "rfa-launches"
-    ],
     "key_metrics": [
       {
         "name": "Global humanoid installations 2025",
@@ -86,21 +67,6 @@
     "name": "Robotics Foundation Models",
     "narrative": "The bet that one large model can drive many robot bodies is now well-funded: Skild AI raised $1.4B at a $14B+ valuation in January 2026; Physical Intelligence raised $470M at $2.4B by late 2024 and open-sourced its π0 weights. The unresolved question is whether the right architecture is closed-source-and-vertically-integrated (Figure, Tesla, Apptronik building model + body) or open-source-and-horizontal (Physical Intelligence). Outcome shapes the next decade of robotics IP.",
     "direction": "Accelerating",
-    "related_companies": [
-      "skild-ai",
-      "physical-intelligence",
-      "covariant",
-      "figure-ai",
-      "apptronik"
-    ],
-    "related_policies": [
-      "nist-ai-rmf",
-      "nsf-nri-3"
-    ],
-    "related_news": [
-      "skild-series-b",
-      "physical-intelligence-open-source"
-    ],
     "key_metrics": [
       {
         "name": "Skild AI valuation",
@@ -152,21 +118,6 @@
     "name": "Humanoid Cost Trajectory",
     "narrative": "1X opened consumer preorders for NEO at $20,000 in April 2026 — the first humanoid priced for households. China's Unitree priced its G1 at $16,000, putting downward pressure on the research-tier segment. Tesla has publicly targeted sub-$30,000 for Optimus. Industrial humanoids remain materially more expensive: Agility's Digit is reported to cost upwards of $250,000 per unit in commercial deployments. The watch-this-space question: when do US-built industrial humanoids match Chinese unit-economics, and what does the cost curve look like at 10× volume?",
     "direction": "Accelerating",
-    "related_companies": [
-      "1x-technologies",
-      "unitree",
-      "agility-robotics",
-      "figure-ai",
-      "apptronik",
-      "tesla-optimus"
-    ],
-    "related_policies": [
-      "obbba-bonus-depreciation"
-    ],
-    "related_news": [
-      "1x-neo-preorders",
-      "unitree-20000-target"
-    ],
     "key_metrics": [
       {
         "name": "1X NEO target price (consumer)",
@@ -221,20 +172,6 @@
     "name": "Defense Robotics Procurement",
     "narrative": "DoD Replicator initiative committed $1B to fielding thousands of attritable autonomous systems within 18–24 months. Anduril ($14B valuation) and Shield AI ($5.3B) are the marquee non-traditional primes; both raised heavily on Replicator tailwinds. HR 8189 (American Security Robotics Act) would further restrict federal procurement of foreign-made humanoids. The defense channel is now the most reliable revenue line for robotics startups outside warehouse automation.",
     "direction": "Accelerating",
-    "related_companies": [
-      "anduril",
-      "shield-ai"
-    ],
-    "related_policies": [
-      "dod-replicator",
-      "hr-8189-american-security-robotics",
-      "chips-act-advanced-manufacturing"
-    ],
-    "related_news": [
-      "replicator-tranche-2",
-      "anduril-series-f",
-      "shield-ai-series-f"
-    ],
     "key_metrics": [
       {
         "name": "Replicator initial budget",
@@ -287,23 +224,6 @@
     "name": "Industrial Humanoid Deployment Wave",
     "narrative": "After years of demos, 2025–2026 saw the first contracted commercial deployments. Figure at BMW Spartanburg (sheet metal). Agility at Amazon, GXO, and Toyota Motor Manufacturing Canada (RaaS). Apptronik at Mercedes-Benz and GXO. The economics still depend on subsidized pilot pricing — the next 12 months reveal whether unit-economics support standalone procurement.",
     "direction": "Accelerating",
-    "related_companies": [
-      "figure-ai",
-      "agility-robotics",
-      "apptronik",
-      "boston-dynamics",
-      "tesla-optimus"
-    ],
-    "related_policies": [
-      "obbba-bonus-depreciation",
-      "rfa-coalition-launch"
-    ],
-    "related_news": [
-      "agility-toyota-canada",
-      "boston-dynamics-atlas-electric",
-      "apptronik-935m-feb2026",
-      "figure-ups-talks"
-    ],
     "key_metrics": [
       {
         "name": "Agility deployments at Toyota Canada",
@@ -349,27 +269,6 @@
     "name": "Federal Policy Momentum",
     "narrative": "After years of dispersed activity, 2026 brought concentrated movement: HR 7334 (National Commission on Robotics) and HR 8189 (American Security Robotics Act) introduced in the 119th Congress; the One Big Beautiful Bill Act includes 100% bonus depreciation favoring automation capex; Robots For America launched May 11, 2026 as the industry's coordinated coalition. The watch list for the next six months: whether HR 7334 advances out of committee, OBBB final passage with depreciation provisions intact, and Replicator Tranche 2 size.",
     "direction": "Accelerating",
-    "related_companies": [
-      "figure-ai",
-      "apptronik",
-      "agility-robotics",
-      "anduril",
-      "shield-ai"
-    ],
-    "related_policies": [
-      "hr-7334-national-commission-robotics",
-      "hr-8189-american-security-robotics",
-      "obbba-bonus-depreciation",
-      "rfa-coalition-launch",
-      "dod-replicator"
-    ],
-    "related_news": [
-      "hr-7334-introduced",
-      "hr-8189-introduced",
-      "obbba-depreciation",
-      "rfa-launches",
-      "robotsforamerica-coverage"
-    ],
     "key_metrics": [
       {
         "name": "Federal robotics bills tracked in 119th Congress",

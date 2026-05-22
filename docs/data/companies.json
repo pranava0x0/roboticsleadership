@@ -106,7 +106,14 @@
         "url": "https://techcrunch.com/2024/02/29/figure-raises-675m-from-jeff-bezos-microsoft-nvidia-others/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "china-scale",
+      "foundation-models",
+      "cost-trajectory",
+      "industrial-deployments",
+      "policy-momentum"
+    ]
   },
   {
     "id": "apptronik",
@@ -206,7 +213,14 @@
         "url": "https://www.bloomberg.com/news/articles/2026-02-11/apptronik-raises-520-million-in-new-funding-to-build-more-humanoids"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "china-scale",
+      "foundation-models",
+      "cost-trajectory",
+      "industrial-deployments",
+      "policy-momentum"
+    ]
   },
   {
     "id": "1x-technologies",
@@ -295,7 +309,10 @@
         "url": "https://sifted.eu/articles/1x-humanoid-robot-launch"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "cost-trajectory"
+    ]
   },
   {
     "id": "agility-robotics",
@@ -415,7 +432,12 @@
         "archive_url": "https://web.archive.org/web/20260325193410/https://blog.robozaps.com/b/agility-robotics-digit-review"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "cost-trajectory",
+      "industrial-deployments",
+      "policy-momentum"
+    ]
   },
   {
     "id": "boston-dynamics",
@@ -498,7 +520,10 @@
         "archive_url": "https://web.archive.org/web/20260508103946/https://bostondynamics.com/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "industrial-deployments"
+    ]
   },
   {
     "id": "tesla-optimus",
@@ -554,7 +579,11 @@
         "url": "https://www.tesla.com/AI"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "cost-trajectory",
+      "industrial-deployments"
+    ]
   },
   {
     "id": "sanctuary-ai",
@@ -638,7 +667,8 @@
         "url": "https://www.sanctuary.ai"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": []
   },
   {
     "id": "skild-ai",
@@ -722,7 +752,10 @@
         "archive_url": "https://web.archive.org/web/20260504184313/https://www.skild.ai/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "foundation-models"
+    ]
   },
   {
     "id": "physical-intelligence",
@@ -809,7 +842,10 @@
         "archive_url": "https://web.archive.org/web/20251206101652/https://www.physicalintelligence.company/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "foundation-models"
+    ]
   },
   {
     "id": "unitree",
@@ -886,7 +922,11 @@
         "url": "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ]
   },
   {
     "id": "ubtech",
@@ -956,7 +996,10 @@
         "url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "china-scale"
+    ]
   },
   {
     "id": "agibot",
@@ -1017,7 +1060,10 @@
         "url": "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "china-scale"
+    ]
   },
   {
     "id": "robotera",
@@ -1077,7 +1123,10 @@
         "archive_url": "https://web.archive.org/web/20240716052756/https://robotera.ai/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "china-scale"
+    ]
   },
   {
     "id": "engineai",
@@ -1136,7 +1185,10 @@
         "archive_url": "https://web.archive.org/web/20260307125510/https://www.engineai.com.cn/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "china-scale"
+    ]
   },
   {
     "id": "symbotic",
@@ -1219,7 +1271,8 @@
         "archive_url": "https://web.archive.org/web/20260506210620/https://www.symbotic.com/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": []
   },
   {
     "id": "locus-robotics",
@@ -1296,7 +1349,8 @@
         "archive_url": "https://web.archive.org/web/20260430225422/https://locusrobotics.com/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": []
   },
   {
     "id": "diligent-robotics",
@@ -1385,7 +1439,8 @@
         "archive_url": "https://web.archive.org/web/20260412134505/https://www.diligentrobots.com/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": []
   },
   {
     "id": "anduril",
@@ -1464,7 +1519,11 @@
         "archive_url": "https://web.archive.org/web/20260511102010/https://www.anduril.com/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "defense-procurement",
+      "policy-momentum"
+    ]
   },
   {
     "id": "shield-ai",
@@ -1538,7 +1597,11 @@
         "url": "https://shield.ai"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "defense-procurement",
+      "policy-momentum"
+    ]
   },
   {
     "id": "covariant",
@@ -1614,6 +1677,9 @@
         "archive_url": "https://web.archive.org/web/20260405151233/https://covariant.ai/"
       }
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-17",
+    "themes": [
+      "foundation-models"
+    ]
   }
 ]

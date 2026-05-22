@@ -19,7 +19,7 @@ const DATA_DIR = resolve(ROOT, 'docs/data');
 
 const SCHEMAS = {
   companies: {
-    required: ['id', 'name', 'founded', 'hq', 'website', 'funding_rounds', 'tags', 'data_confidence', 'sources', 'last_updated'],
+    required: ['id', 'name', 'founded', 'hq', 'website', 'funding_rounds', 'tags', 'data_confidence', 'sources', 'last_updated', 'themes'],
     types: {
       id: 'string',
       name: 'string',
@@ -27,6 +27,7 @@ const SCHEMAS = {
       deployments: 'array',
       tags: 'array',
       sources: 'array',
+      themes: 'array',
     },
     custom: (rec, addError) => {
       if (rec.data_confidence && !['high', 'medium', 'low'].includes(rec.data_confidence)) {
@@ -51,7 +52,10 @@ const SCHEMAS = {
     },
   },
   policies: {
-    required: ['id', 'title', 'type', 'level', 'introduced_date', 'status', 'summary', 'robotics_scope', 'sources', 'last_updated'],
+    required: ['id', 'title', 'type', 'level', 'introduced_date', 'status', 'summary', 'robotics_scope', 'sources', 'last_updated', 'themes'],
+    types: {
+      themes: 'array'
+    },
     custom: (rec, addError) => {
       const validStatuses = ['Introduced', 'Committee', 'Passed House', 'Passed Senate', 'Signed', 'In effect', 'Expired'];
       if (!validStatuses.includes(rec.status)) {
@@ -100,6 +104,30 @@ const SCHEMAS = {
         addError(`direction "${rec.direction}" not in {Accelerating, Stable, Slowing}`);
       }
     },
+  },
+  agencies: {
+    required: ['id', 'name', 'full_name', 'parent', 'url', 'show_in_rd_table'],
+    types: {
+      id: 'string',
+      name: 'string',
+      full_name: 'string',
+      parent: 'string',
+      url: 'string',
+      show_in_rd_table: 'boolean',
+    },
+    custom: (rec, addError) => {
+      if (rec.show_in_rd_table === true) {
+        const condFields = ['rd_focus', 'applications', 'manufacturing', 'programs'];
+        condFields.forEach(f => {
+          if (rec[f] == null || rec[f] === '') {
+            addError(`missing field "${f}" required when show_in_rd_table is true`);
+          }
+        });
+        if (rec.programs && !Array.isArray(rec.programs)) {
+          addError('programs should be an array when show_in_rd_table is true');
+        }
+      }
+    }
   },
 };
 
@@ -160,19 +188,22 @@ function validateFile(name) {
 function checkCrossRefs() {
   // Catches drift where a news / theme record points to a deleted company / policy / news id.
   const errs = [];
-  let companies, policies, news, themes;
+  let companies, policies, news, themes, agencies;
   try {
     companies = JSON.parse(readFileSync(resolve(DATA_DIR, 'companies.json'), 'utf8'));
     policies  = JSON.parse(readFileSync(resolve(DATA_DIR, 'policies.json'),  'utf8'));
     news      = JSON.parse(readFileSync(resolve(DATA_DIR, 'news.json'),      'utf8'));
     themes    = JSON.parse(readFileSync(resolve(DATA_DIR, 'themes.json'),    'utf8'));
+    agencies  = JSON.parse(readFileSync(resolve(DATA_DIR, 'agencies.json'),  'utf8'));
   } catch (e) {
-    return [`Could not load all four data files for cross-ref check: ${e.message}`];
+    return [`Could not load all five data files for cross-ref check: ${e.message}`];
   }
   const C = new Set(companies.map((c) => c.id));
   const P = new Set(policies.map((p) => p.id));
   const N = new Set(news.map((n) => n.id));
   const T = new Set(themes.map((t) => t.id));
+  const A = new Set(agencies.map((a) => a.id));
+
   const check = (rec, kind, field, refSet) =>
     (rec[field] || []).forEach((id) => {
       if (!refSet.has(id)) errs.push(`${kind} "${rec.id}" → unknown ${field.replace(/^related_/, '')} id "${id}"`);
@@ -182,10 +213,20 @@ function checkCrossRefs() {
     check(n, 'news', 'policies', P);
     check(n, 'news', 'themes', T);
   });
-  themes.forEach((t) => {
-    check(t, 'theme', 'related_companies', C);
-    check(t, 'theme', 'related_policies',  P);
-    check(t, 'theme', 'related_news',      N);
+  companies.forEach((c) => {
+    check(c, 'company', 'themes', T);
+  });
+  policies.forEach((p) => {
+    check(p, 'policy', 'themes', T);
+    if (p.agency_responsible) {
+      if (!Array.isArray(p.agency_responsible)) {
+        errs.push(`policy "${p.id}" → agency_responsible should be an array`);
+      } else {
+        p.agency_responsible.forEach((id) => {
+          if (!A.has(id)) errs.push(`policy "${p.id}" → unknown agency id "${id}"`);
+        });
+      }
+    }
   });
   return errs;
 }
@@ -194,7 +235,7 @@ function main() {
   const requested = process.argv[2];
   const files = requested
     ? [requested]
-    : ['companies', 'policies', 'news', 'themes', 'sources'];
+    : ['companies', 'policies', 'news', 'themes', 'sources', 'agencies'];
 
   let allOk = true;
   for (const name of files) {

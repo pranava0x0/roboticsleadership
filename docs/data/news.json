@@ -10,7 +10,9 @@
     "category": "Policy",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -64,7 +66,9 @@
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -80,7 +84,9 @@
     "source_url": "https://www.therobotreport.com/locus-array-expands-picking-ability-with-nexera-robotics-neuragrip/",
     "summary": "Nexera Robotics' adaptive NeuraGrasp will enable the Locus Array mobile manipulator to pick many more e-commerce SKUs.\nThe post Locus Array expands picking ability with Nexera Robotics&#8217; NeuraGra...",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "locus-robotics"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -118,7 +124,9 @@
     "category": "Policy",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -314,9 +322,14 @@
     "source_url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
     "summary": "The new model, called π0.7, represents what the company describes as an early but meaningful step toward the long-sought goal of a general-purpose robot brain.",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "figure-ai",
+      "physical-intelligence"
+    ],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "foundation-models"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -352,7 +365,9 @@
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "china-scale"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -676,7 +691,9 @@
     "category": "Policy",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -730,7 +747,10 @@
     "category": "Policy",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "defense-procurement",
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -746,7 +766,9 @@
     "source_url": "https://spectrum.ieee.org/video-humanoid-dancing",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
     "category": "Research",
-    "companies": [],
+    "companies": [
+      "agility-robotics"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -802,7 +824,9 @@
     "category": "Policy",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -818,7 +842,9 @@
     "source_url": "https://spectrum.ieee.org/boston-dynamics-spot-google-deepmind",
     "summary": "The amazing and frustrating thing about robots is that they can do almost anything you want them to do, as long as you know how to ask properly. In the not-so-distant past, asking properly meant writi...",
     "category": "Research",
-    "companies": [],
+    "companies": [
+      "boston-dynamics"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -836,9 +862,13 @@
     "source_url": "https://spectrum.ieee.org/robot-learning",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
     "category": "Policy",
-    "companies": [],
+    "companies": [
+      "agility-robotics"
+    ],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -873,8 +903,13 @@
     "summary": "The American Security Robotics Act, a bipartisan bill introduced in March by Senators Tom Cotton (R-Ark.) and Chuck Schumer (D-N.Y.) and Representative Elise Stefanik (R-N.Y.), proposes to limit U.S. ...",
     "category": "Policy",
     "companies": [],
-    "policies": [],
-    "themes": [],
+    "policies": [
+      "hr-8189-american-security-robotics"
+    ],
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -926,9 +961,14 @@
     "source_url": "https://spectrum.ieee.org/video-friday-humanoid-robot-production",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
     "category": "Policy",
-    "companies": [],
+    "companies": [
+      "figure-ai",
+      "1x-technologies"
+    ],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -1054,7 +1094,9 @@
     "category": "Policy",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -1072,7 +1114,9 @@
     "category": "Policy",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -1090,7 +1134,9 @@
     "category": "Deployment",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -1144,7 +1190,9 @@
     "category": "Policy",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -1160,9 +1208,13 @@
     "source_url": "https://spectrum.ieee.org/video-friday-humanoid-robot-learning",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
     "category": "Policy",
-    "companies": [],
+    "companies": [
+      "boston-dynamics"
+    ],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -1311,7 +1363,8 @@
     ],
     "policies": [],
     "themes": [
-      "china-scale"
+      "china-scale",
+      "industrial-deployments"
     ],
     "sentiment": "Mixed",
     "confidence": "High",
@@ -1339,7 +1392,8 @@
     ],
     "policies": [],
     "themes": [
-      "china-scale"
+      "china-scale",
+      "industrial-deployments"
     ],
     "sentiment": "Mixed",
     "confidence": "High",
@@ -1444,7 +1498,8 @@
       "rfa-coalition-launch"
     ],
     "themes": [
-      "policy-momentum"
+      "policy-momentum",
+      "industrial-deployments"
     ],
     "sentiment": "Positive",
     "confidence": "High",
@@ -1627,7 +1682,10 @@
     "summary": "Physical Intelligence published and open-sourced π0, its foundation model for general robot control, alongside a $400M Series A at a $2.4B valuation. The open-source release contrasts with closed-model strategies pursued by Skild AI, Figure, and Tesla. Founders Sergey Levine, Chelsea Finn, and Karol Hausman come from UC Berkeley and Stanford.",
     "category": "Research",
     "companies": [
-      "physical-intelligence"
+      "physical-intelligence",
+      "figure-ai",
+      "tesla-optimus",
+      "skild-ai"
     ],
     "policies": [],
     "themes": [
@@ -1719,7 +1777,8 @@
     ],
     "themes": [
       "policy-momentum",
-      "china-scale"
+      "china-scale",
+      "industrial-deployments"
     ],
     "sentiment": "Mixed",
     "confidence": "High",
@@ -1850,7 +1909,8 @@
     ],
     "policies": [],
     "themes": [
-      "china-scale"
+      "china-scale",
+      "industrial-deployments"
     ],
     "sentiment": "Mixed",
     "confidence": "Medium",
