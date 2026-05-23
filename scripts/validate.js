@@ -28,6 +28,7 @@ const SCHEMAS = {
       tags: 'array',
       sources: 'array',
       themes: 'array',
+      financials: 'object',
     },
     custom: (rec, addError) => {
       if (rec.data_confidence && !['high', 'medium', 'low'].includes(rec.data_confidence)) {

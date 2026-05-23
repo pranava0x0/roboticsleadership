@@ -113,7 +113,19 @@
       "cost-trajectory",
       "industrial-deployments",
       "policy-momentum"
-    ]
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Private company. Pre-scale revenue, mostly from pilot/R&D consulting. Series C funding round in late 2025/early 2026 valued the company at $39B.",
+      "sources": [
+        {
+          "url": "https://www.figure.ai/news/series-c"
+        }
+      ]
+    }
   },
   {
     "id": "apptronik",
@@ -220,7 +232,19 @@
       "cost-trajectory",
       "industrial-deployments",
       "policy-momentum"
-    ]
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Private company. Pre-scale/pilot revenue from commercial partners (Mercedes-Benz, GXO Logistics). Series A Extension in Feb 2026 raised $520M at a $5.5B valuation.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/02/11/humanoid-robot-startup-apptronik-has-now-raised-935m-at-a-5b-valuation/"
+        }
+      ]
+    }
   },
   {
     "id": "1x-technologies",
@@ -312,7 +336,19 @@
     "last_updated": "2026-05-17",
     "themes": [
       "cost-trajectory"
-    ]
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Private company. Funded by OpenAI Startup Fund, Tiger Global, EQT Ventures. Revenue generation started in 2026 via NEO consumer humanoid pre-orders.",
+      "sources": [
+        {
+          "url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
+        }
+      ]
+    }
   },
   {
     "id": "agility-robotics",
@@ -437,7 +473,19 @@
       "cost-trajectory",
       "industrial-deployments",
       "policy-momentum"
-    ]
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Private company. Generates revenue through hardware sales, leasing, and subscription-based service models (Agility Arc/RaaS). Latest Series C valued the company at $1.8B.",
+      "sources": [
+        {
+          "url": "https://www.geekwire.com/2025/agility-robotics-reportedly-raising-400m-for-humanoid-warehouse-robots/"
+        }
+      ]
+    }
   },
   {
     "id": "boston-dynamics",
@@ -523,7 +571,19 @@
     "last_updated": "2026-05-17",
     "themes": [
       "industrial-deployments"
-    ]
+    ],
+    "financials": {
+      "revenue_usd": 112000000,
+      "revenue_year": "2025",
+      "net_income_usd": -394000000,
+      "net_income_year": "2025",
+      "details": "Reported annual revenue of 150.1 billion KRW (~$112M USD) and a net loss of 528.4 billion KRW (~$394M USD) for 2025. Supported by parent company Hyundai Motor Group.",
+      "sources": [
+        {
+          "url": "https://www.sedaily.com/"
+        }
+      ]
+    }
   },
   {
     "id": "tesla-optimus",
@@ -583,7 +643,19 @@
     "themes": [
       "cost-trajectory",
       "industrial-deployments"
-    ]
+    ],
+    "financials": {
+      "revenue_usd": 96770000000,
+      "revenue_year": "2025",
+      "net_income_usd": 15000000000,
+      "net_income_year": "2025",
+      "details": "Optimus program is funded internally through Tesla's cash flow. Tesla reported total FY2025 revenue of $96.77B, net income of $15B, and R&D expenses of $4.87B.",
+      "sources": [
+        {
+          "url": "https://www.tesla.com/AI"
+        }
+      ]
+    }
   },
   {
     "id": "sanctuary-ai",
@@ -668,7 +740,8 @@
       }
     ],
     "last_updated": "2026-05-17",
-    "themes": []
+    "themes": [],
+    "financials": null
   },
   {
     "id": "skild-ai",
@@ -755,7 +828,19 @@
     "last_updated": "2026-05-17",
     "themes": [
       "foundation-models"
-    ]
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Private software/AI brain startup. Pre-revenue. Series B funding round in Jan 2026 raised $1.4B at a reported $14B valuation.",
+      "sources": [
+        {
+          "url": "https://www.skild.ai"
+        }
+      ]
+    }
   },
   {
     "id": "physical-intelligence",
@@ -845,7 +930,19 @@
     "last_updated": "2026-05-17",
     "themes": [
       "foundation-models"
-    ]
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Private AI software/model company. Pre-revenue. Series A in late 2024 raised $400M at a $2.4B valuation.",
+      "sources": [
+        {
+          "url": "https://www.physicalintelligence.company"
+        }
+      ]
+    }
   },
   {
     "id": "unitree",
@@ -926,7 +1023,8 @@
     "themes": [
       "china-scale",
       "cost-trajectory"
-    ]
+    ],
+    "financials": null
   },
   {
     "id": "ubtech",
@@ -999,7 +1097,19 @@
     "last_updated": "2026-05-17",
     "themes": [
       "china-scale"
-    ]
+    ],
+    "financials": {
+      "revenue_usd": 276000000,
+      "revenue_year": "2025",
+      "net_income_usd": -109000000,
+      "net_income_year": "2025",
+      "details": "Publicly traded in HK (9880.HK). Reported FY2025 revenue of RMB 2.001B (~$276M USD, up 53.3% YoY) and net loss of RMB 789.8M (~$109M USD). Humanoid segment grew to RMB 820.6M.",
+      "sources": [
+        {
+          "url": "https://www.hkexnews.hk/"
+        }
+      ]
+    }
   },
   {
     "id": "agibot",
@@ -1063,7 +1173,8 @@
     "last_updated": "2026-05-17",
     "themes": [
       "china-scale"
-    ]
+    ],
+    "financials": null
   },
   {
     "id": "robotera",
@@ -1126,7 +1237,8 @@
     "last_updated": "2026-05-17",
     "themes": [
       "china-scale"
-    ]
+    ],
+    "financials": null
   },
   {
     "id": "engineai",
@@ -1188,7 +1300,8 @@
     "last_updated": "2026-05-17",
     "themes": [
       "china-scale"
-    ]
+    ],
+    "financials": null
   },
   {
     "id": "symbotic",
@@ -1272,7 +1385,19 @@
       }
     ],
     "last_updated": "2026-05-17",
-    "themes": []
+    "themes": [],
+    "financials": {
+      "revenue_usd": 2247000000,
+      "revenue_year": "2025",
+      "net_income_usd": -91000000,
+      "net_income_year": "2025",
+      "details": "Public company (SYM). Reported FY2025 revenue of $2.247B and a net loss of $91M. Contracting backlog is $22.4B. Q1 FY2026 reported revenue of $630M and net income of $13M.",
+      "sources": [
+        {
+          "url": "https://ir.symbotic.com/"
+        }
+      ]
+    }
   },
   {
     "id": "locus-robotics",
@@ -1350,7 +1475,19 @@
       }
     ],
     "last_updated": "2026-05-17",
-    "themes": []
+    "themes": [],
+    "financials": {
+      "revenue_usd": 230000000,
+      "revenue_year": "2024",
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Private company. Revenue estimated at $230M (late 2024 projections) based on subscription-based warehouse robotics automation (Robotics-as-a-Service model).",
+      "sources": [
+        {
+          "url": "https://locusrobotics.com"
+        }
+      ]
+    }
   },
   {
     "id": "diligent-robotics",
@@ -1440,7 +1577,8 @@
       }
     ],
     "last_updated": "2026-05-17",
-    "themes": []
+    "themes": [],
+    "financials": null
   },
   {
     "id": "anduril",
@@ -1523,7 +1661,19 @@
     "themes": [
       "defense-procurement",
       "policy-momentum"
-    ]
+    ],
+    "financials": {
+      "revenue_usd": 2150000000,
+      "revenue_year": "2025",
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Private defense technology company. FY2025 estimated revenue grew to $2.1B-$2.2B (from ~$1B in FY2024). Series F funding round in late 2025/early 2026 valued company at $61B.",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/"
+        }
+      ]
+    }
   },
   {
     "id": "shield-ai",
@@ -1601,7 +1751,19 @@
     "themes": [
       "defense-procurement",
       "policy-momentum"
-    ]
+    ],
+    "financials": {
+      "revenue_usd": 300000000,
+      "revenue_year": "2025",
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Private defense technology company. FY2025 estimated revenue is approximately $300M, driven by Hivemind autonomous pilot software and V-BAT deployments.",
+      "sources": [
+        {
+          "url": "https://shield.ai"
+        }
+      ]
+    }
   },
   {
     "id": "covariant",
@@ -1680,6 +1842,7 @@
     "last_updated": "2026-05-17",
     "themes": [
       "foundation-models"
-    ]
+    ],
+    "financials": null
   }
 ]
