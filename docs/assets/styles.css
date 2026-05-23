@@ -402,6 +402,52 @@ h2.section-title {
   margin: 26px 0 10px;
 }
 
+/* ============================================================
+   Collapsible Sections
+   ============================================================ */
+
+details.collapsible-section {
+  margin-bottom: 24px;
+}
+
+details.collapsible-section > summary {
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  /* Add padding to the left to make room for a chevron, or place it on the right */
+  display: flex;
+  flex-direction: column;
+}
+
+details.collapsible-section > summary::-webkit-details-marker {
+  display: none;
+}
+
+details.collapsible-section > summary::before {
+  content: "▶";
+  font-size: 12px;
+  color: var(--text-muted);
+  position: absolute;
+  left: -16px;
+  top: 32px;
+  transition: transform var(--transition-base, 120ms);
+}
+
+details.collapsible-section[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+details.collapsible-section > summary > h2.section-title {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+details.collapsible-section > summary > p.muted {
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
 footer.site-footer {
   border-top: 1px solid var(--border);
   margin-top: 64px;

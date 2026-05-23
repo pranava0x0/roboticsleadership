@@ -27,8 +27,6 @@
         <a href="index.html">Dashboard</a>
         <a href="companies.html">Companies</a>
         <a href="policies.html">Policy</a>
-        <a href="agencies.html">Agencies</a>
-        <a href="news.html">News</a>
         <a href="themes.html">Themes</a>
       </nav>
       <details class="theme-picker" id="theme-picker">
@@ -93,7 +91,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>Every record carries a confidence level and primary-source citations. <a href="news.html">See recent activity →</a></p>
+    <p>Every record carries a confidence level and primary-source citations. <a href="themes.html">See recent activity →</a></p>
   </footer>
 
   <script src="assets/app.js" defer></script>
@@ -313,7 +311,7 @@
             <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
               ${related.slice(0, 5).map(n => `
                 <li>
-                  <a href="news.html#${encodeURIComponent(n.id)}" style="color:inherit;border-bottom:none;">
+                  <a href="themes.html#${encodeURIComponent(n.id)}" style="color:inherit;border-bottom:none;">
                     <div class="card-meta" style="font-size:11.5px;">
                       <span class="pill cat-${n.category.toLowerCase().replace(/\s+/g, '')}">${RT.escapeHTML(n.category)}</span>
                       <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>

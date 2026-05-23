@@ -30,8 +30,6 @@
         <a href="index.html">Dashboard</a>
         <a href="companies.html">Companies</a>
         <a href="policies.html">Policy</a>
-        <a href="agencies.html">Agencies</a>
-        <a href="news.html">News</a>
         <a href="themes.html">Themes</a>
       </nav>
       <details class="theme-picker" id="theme-picker">
@@ -98,7 +96,7 @@
   <footer class="site-footer">
     <p>
       Curated data with primary-source citations. Records carry confidence levels.
-      <a href="https://github.com/" aria-label="Source repository">Source</a> · view <a href="news.html">all news</a>.
+      <a href="https://github.com/" aria-label="Source repository">Source</a> · view <a href="themes.html">all news</a>.
     </p>
   </footer>
 
@@ -163,7 +161,7 @@
           <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
           <span class="faint">· ${RT.escapeHTML(RT.relativeDate(n.date))}</span>
         </div>
-        <h3><a href="news.html#${encodeURIComponent(n.id)}">${RT.escapeHTML(n.title)}</a></h3>
+        <h3><a href="themes.html#${encodeURIComponent(n.id)}">${RT.escapeHTML(n.title)}</a></h3>
         <p class="summary">${RT.escapeHTML(n.summary)}</p>
         <div class="footer-row">
           ${(n.companies || []).slice(0, 4).map(id => `<a class="pill outline" href="companies.html?focus=${encodeURIComponent(id)}">${RT.escapeHTML(companyName(companies, id))}</a>`).join('')}

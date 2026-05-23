@@ -27,8 +27,6 @@
         <a href="index.html">Dashboard</a>
         <a href="companies.html">Companies</a>
         <a href="policies.html">Policy</a>
-        <a href="agencies.html">Agencies</a>
-        <a href="news.html">News</a>
         <a href="themes.html">Themes</a>
       </nav>
       <details class="theme-picker" id="theme-picker">
@@ -54,6 +52,30 @@
     </p>
 
     <div class="themes-grid" id="themes-grid" style="display:grid;gap:20px;grid-template-columns:repeat(auto-fill, minmax(320px, 1fr));margin-top:24px;"></div>
+
+    <details class="collapsible-section" open>
+      <summary>
+        <h2 class="section-title" style="margin-top:40px;">Latest intelligence</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Curated stories on funding, deployments, policy, and competitive moves.</p>
+      </summary>
+      <form class="filter-bar" id="filter-form" onsubmit="return false;" aria-label="Filter news">
+        <fieldset>
+          <legend>Filters</legend>
+          <input class="filter-input filter-search" type="search" id="f-search" placeholder="Search title, summary, company…" autocomplete="off" />
+          <select class="filter-select" id="f-category" aria-label="Category"><option value="">All categories</option></select>
+          <select class="filter-select" id="f-company" aria-label="Company"><option value="">All companies</option></select>
+          <select class="filter-select" id="f-sort" aria-label="Sort">
+            <option value="date-desc">Newest first</option>
+            <option value="date-asc">Oldest first</option>
+          </select>
+          <button class="btn ghost" type="button" id="f-reset">Reset</button>
+          <span class="filter-result-count" id="result-count" aria-live="polite"></span>
+        </fieldset>
+      </form>
+
+      <section id="feed" class="feed" aria-live="polite"></section>
+      <div id="empty" class="empty-state" hidden>No stories match those filters.</div>
+    </details>
   </main>
 
   <footer class="site-footer">
@@ -67,7 +89,7 @@
 
     const q = RT.readQuery();
 
-    function render() {
+    function renderThemeGrid() {
       const grid = document.getElementById('themes-grid');
       
       grid.innerHTML = themes.map(t => {
@@ -94,7 +116,9 @@
     function openTheme(id) {
       const t = themes.find(x => x.id === id);
       if (!t) return;
-      RT.writeQuery({ focus: id });
+      
+      const newQ = { ...RT.readQuery(), focus: id };
+      RT.writeQuery(newQ);
       
       const relatedComps = companies.filter(c => c.themes && c.themes.includes(id));
       const relatedPols = policies.filter(p => p.themes && p.themes.includes(id));
@@ -169,7 +193,7 @@
               <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
                 ${relatedNews.slice(0, 10).map(n => `
                   <li>
-                    <a href="news.html#${encodeURIComponent(n.id)}" style="color:inherit;text-decoration:none;">
+                    <a href="#${encodeURIComponent(n.id)}" style="color:inherit;text-decoration:none;">
                       <div class="card-meta" style="font-size:11.5px;margin-bottom:4px;">
                         <span class="pill cat-${n.category.toLowerCase().replace(/\s+/g, '')}">${RT.escapeHTML(n.category)}</span>
                         <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
@@ -196,7 +220,148 @@
       `);
     }
 
-    render();
+    // ---- Render News Feed ----
+    function fillSelect(id, values) {
+      const sel = document.getElementById(id);
+      values.filter(Boolean).forEach(v => {
+        const o = document.createElement('option');
+        o.value = v; o.textContent = v;
+        sel.appendChild(o);
+      });
+    }
+
+    function unique(arr) { return [...new Set(arr.filter(Boolean))]; }
+
+    fillSelect('f-category', unique(news.map(n => n.category)).sort());
+    const companyOpts = companies
+      .filter(c => news.some(n => (n.companies || []).includes(c.id)))
+      .map(c => ({ value: c.id, label: c.name }))
+      .sort((a, b) => a.label.localeCompare(b.label));
+    const selCompany = document.getElementById('f-company');
+    companyOpts.forEach(o => {
+      const opt = document.createElement('option');
+      opt.value = o.value; opt.textContent = o.label;
+      selCompany.appendChild(opt);
+    });
+
+    ['search','category','company','sort'].forEach(k => {
+      const el = document.getElementById(`f-${k}`);
+      if (el && q[k]) el.value = q[k];
+    });
+
+    ['f-search','f-category','f-company','f-sort'].forEach(id => {
+      const el = document.getElementById(id);
+      const ev = el.tagName === 'SELECT' ? 'change' : 'input';
+      el.addEventListener(ev, renderNewsFeed);
+    });
+    document.getElementById('f-reset').addEventListener('click', () => {
+      ['f-search','f-category','f-company'].forEach(id => { document.getElementById(id).value = ''; });
+      document.getElementById('f-sort').value = 'date-desc';
+      renderNewsFeed();
+    });
+
+    function renderNewsFeed() {
+      const search = document.getElementById('f-search').value.trim();
+      const category = document.getElementById('f-category').value;
+      const company = document.getElementById('f-company').value;
+      const sort = document.getElementById('f-sort').value;
+      
+      const newQ = { ...RT.readQuery(), search, category, company, sort };
+      if (!search) delete newQ.search;
+      if (!category) delete newQ.category;
+      if (!company) delete newQ.company;
+      if (sort === 'date-desc') delete newQ.sort;
+      RT.writeQuery(newQ);
+
+      let rows = news.filter(n => {
+        if (category && n.category !== category) return false;
+        if (company && !(n.companies || []).includes(company)) return false;
+        if (search) {
+          const blob = [n.title, n.summary, n.source, (n.tags || []).join(' '), (n.companies || []).join(' ')]
+            .join(' ').toLowerCase();
+          if (!blob.includes(search.toLowerCase())) return false;
+        }
+        return true;
+      });
+
+      const [sortKey, sortDir] = sort.split('-');
+      if (sortKey === 'date') {
+        rows = RT.sortBy(rows, n => n.date, sortDir);
+      }
+
+      const feed = document.getElementById('feed');
+      const empty = document.getElementById('empty');
+      if (!rows.length) {
+        feed.innerHTML = '';
+        empty.hidden = false;
+      } else {
+        empty.hidden = true;
+        feed.innerHTML = rows.map(n => renderNewsCard(n)).join('');
+      }
+      document.getElementById('result-count').textContent =
+        `${rows.length} ${rows.length === 1 ? 'story' : 'stories'}`;
+
+      if (location.hash && location.hash.length > 1) {
+        const el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+        if (el) requestAnimationFrame(() => el.scrollIntoView({ block: 'start', behavior: 'smooth' }));
+      }
+    }
+
+    function renderNewsCard(n) {
+      const catSlug = n.category.toLowerCase().replace(/\s+/g, '');
+      const sentimentPill = n.sentiment
+        ? `<span class="pill ${pillFor(n.sentiment)}">${RT.escapeHTML(n.sentiment)}</span>`
+        : '';
+      const companyPills = (n.companies || []).map(id => {
+        const c = companies.find(x => x.id === id);
+        const name = c ? c.name : id;
+        return `<a class="pill outline" href="companies.html?focus=${encodeURIComponent(id)}">${RT.escapeHTML(name)}</a>`;
+      }).join('');
+      const policyPills = (n.policies || []).map(id => {
+        const p = policies.find(x => x.id === id);
+        const name = p ? (p.bill_number || p.title.slice(0, 40)) : id;
+        return `<a class="pill outline" href="policies.html?focus=${encodeURIComponent(id)}">${RT.escapeHTML(name)}</a>`;
+      }).join('');
+
+      const conf = n.confidence && n.confidence !== 'High'
+        ? `<span class="pill mixed">${RT.escapeHTML(n.confidence)} confidence</span>`
+        : '';
+
+      return `
+        <article class="feed-card" id="${RT.escapeHTML(n.id)}">
+          <div class="top-row">
+            <span class="pill cat-${catSlug}">${RT.escapeHTML(n.category)}</span>
+            ${sentimentPill}
+            ${conf}
+            <span class="row-end">
+              <span>${RT.escapeHTML(n.source)}</span>
+              <span class="sep"></span>
+              <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
+              <span class="faint">· ${RT.escapeHTML(RT.relativeDate(n.date))}</span>
+            </span>
+          </div>
+          <h3><a href="${RT.escapeHTML(n.source_url)}" target="_blank" rel="noopener">${RT.escapeHTML(n.title)}</a></h3>
+          <p class="summary">${RT.escapeHTML(n.summary)}</p>
+          <div class="footer-row">
+            ${companyPills}${policyPills}
+            <span class="row-end">
+              <a href="${RT.escapeHTML(n.source_url)}" target="_blank" rel="noopener">Read original →</a>
+              ${RT.archiveLink(n.archive_url)}
+            </span>
+          </div>
+        </article>
+      `;
+    }
+
+    function pillFor(sentiment) {
+      if (sentiment === 'Positive') return 'positive';
+      if (sentiment === 'Negative') return 'negative';
+      if (sentiment === 'Mixed') return 'mixed';
+      return 'outline';
+    }
+
+    renderThemeGrid();
+    renderNewsFeed();
     if (q.focus) setTimeout(() => openTheme(q.focus), 50);
   });
   </script>

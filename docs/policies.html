@@ -13,6 +13,32 @@
     (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
   </script>
   <link rel="stylesheet" href="assets/styles.css" />
+  <style>
+    /* Agency table additions */
+    .agency-table { font-size: 13px; }
+    .agency-table th, .agency-table td { vertical-align: top; padding: 12px 14px; }
+    .agency-table td strong { font-family: var(--font-serif); font-size: 15px; letter-spacing: -0.005em; }
+    .agency-table td.agency-cell { min-width: 130px; }
+    .agency-table .agency-sub { display: block; color: var(--text-muted); font-size: 11.5px; margin-top: 2px; font-weight: 400; }
+    .agency-table ul { margin: 0; padding-left: 16px; }
+    .agency-table li { margin: 2px 0; line-height: 1.4; }
+    .agency-table .investment { font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .agency-table tr td { border-bottom: 1px solid var(--border); }
+    .agency-table tr:hover { background: transparent; cursor: default; }
+    .agency-table tbody tr:hover td { background: var(--surface-2); }
+    @media (max-width: 900px) { .agency-table .col-manufacturing { display: none; } }
+    @media (max-width: 700px) { .agency-table .col-applications { display: none; } }
+    @media (max-width: 540px) {
+      .agency-table .col-rd { display: none; }
+      .agency-table { font-size: 12.5px; }
+      .agency-table th, .agency-table td { padding: 10px 10px; }
+    }
+    .note-block {
+      background: var(--surface-2); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+      border-radius: 10px; padding: 12px 14px; margin: 18px 0; font-size: 13px; color: var(--text);
+    }
+    .note-block strong { font-family: var(--font-serif); font-weight: 700; }
+  </style>
   <link rel="preload" as="fetch" href="data/policies.json" crossorigin />
 </head>
 <body>
@@ -27,8 +53,6 @@
         <a href="index.html">Dashboard</a>
         <a href="companies.html">Companies</a>
         <a href="policies.html">Policy</a>
-        <a href="agencies.html">Agencies</a>
-        <a href="news.html">News</a>
         <a href="themes.html">Themes</a>
       </nav>
       <details class="theme-picker" id="theme-picker">
@@ -75,55 +99,115 @@
       </fieldset>
     </form>
 
-    <h2 class="section-title">Congressional actions</h2>
-    <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Bills introduced or moving through the 119th Congress.</p>
-    <div class="table-wrap">
-      <table class="data-table" id="congress-table">
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Status</th>
-            <th class="hide-mobile">Sponsor</th>
-            <th class="num hide-mobile">Est. budget</th>
-            <th class="hide-mobile">Introduced</th>
-          </tr>
-        </thead>
-        <tbody id="congress-tbody"></tbody>
-      </table>
+    <details class="collapsible-section" open>
+      <summary>
+        <h2 class="section-title">Congressional actions</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Bills introduced or moving through the 119th Congress.</p>
+      </summary>
+      <div class="table-wrap">
+        <table class="data-table" id="congress-table">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Status</th>
+              <th class="hide-mobile">Sponsor</th>
+              <th class="num hide-mobile">Est. budget</th>
+              <th class="hide-mobile">Introduced</th>
+            </tr>
+          </thead>
+          <tbody id="congress-tbody"></tbody>
+        </table>
+      </div>
+    </details>
+
+    <details class="collapsible-section" open>
+      <summary>
+        <h2 class="section-title">Executive actions</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Executive orders, agency regulations, federal grant programs, and procurement initiatives.</p>
+      </summary>
+      <div class="table-wrap">
+        <table class="data-table" id="executive-table">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Status</th>
+              <th class="hide-mobile">Agency</th>
+              <th class="num hide-mobile">Est. budget</th>
+              <th class="hide-mobile">Effective</th>
+            </tr>
+          </thead>
+          <tbody id="executive-tbody"></tbody>
+        </table>
+      </div>
+    </details>
+
+    <details class="collapsible-section" open>
+      <summary>
+        <h2 class="section-title">Federal agencies</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Where each agency funds robotics, what it deploys, and where to apply or follow.</p>
+      </summary>
+      <div class="table-wrap">
+        <table class="data-table agency-table">
+          <thead>
+            <tr>
+              <th>Agency</th>
+              <th class="col-rd">R&amp;D focus</th>
+              <th class="col-applications">Applications</th>
+              <th class="col-manufacturing">Manufacturing</th>
+              <th>Programs &amp; investment</th>
+            </tr>
+          </thead>
+          <tbody id="rd-agencies-tbody">
+            <tr><td colspan="5" class="muted">Loading agencies R&amp;D data...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+
+    <div class="note-block">
+      <p style="margin:0;"><strong>Cross-cutting:</strong> The most consequential federal robotics money in 2026 sits at the intersection of <a href="policies.html?focus=dod-replicator">DoD Replicator</a> (procurement at scale), <a href="policies.html?focus=chips-act-advanced-manufacturing">CHIPS Act</a> (manufacturing), and <a href="policies.html?focus=obbba-bonus-depreciation">100% bonus depreciation</a> (demand-side). The R&amp;D agencies (ARPA-E, NSF, NASA JPL, NIH) generate the technology; DoD + Commerce buy and scale it.</p>
     </div>
 
-    <h2 class="section-title">Executive actions</h2>
-    <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Executive orders, agency regulations, federal grant programs, and procurement initiatives.</p>
-    <div class="table-wrap">
-      <table class="data-table" id="executive-table">
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Status</th>
-            <th class="hide-mobile">Agency</th>
-            <th class="num hide-mobile">Est. budget</th>
-            <th class="hide-mobile">Effective</th>
-          </tr>
-        </thead>
-        <tbody id="executive-tbody"></tbody>
-      </table>
-    </div>
+    <details class="collapsible-section" open>
+      <summary>
+        <h2 class="section-title">Tax &amp; demand-side incentives</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 12px;">Tax treatment isn't a "program," but it's the largest lever the federal government pulls on robotics deployment economics. Three pieces matter:</p>
+      </summary>
+      <div class="table-wrap">
+        <table class="data-table agency-table">
+          <thead>
+            <tr>
+              <th>Provision</th>
+              <th>What it does for robotics</th>
+              <th>Status (May 2026)</th>
+            </tr>
+          </thead>
+          <tbody id="tax-policies-tbody">
+            <tr><td colspan="3" class="muted">Loading tax provisions data...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
 
-    <h2 class="section-title">State incentives</h2>
-    <div class="table-wrap">
-      <table class="data-table" id="state-table">
-        <thead>
-          <tr>
-            <th>State</th>
-            <th>Program</th>
-            <th class="hide-mobile">Status</th>
-            <th class="hide-mobile">Startup eligible</th>
-            <th class="hide-mobile">Updated</th>
-          </tr>
-        </thead>
-        <tbody id="state-tbody"></tbody>
-      </table>
-    </div>
+    <details class="collapsible-section" open>
+      <summary>
+        <h2 class="section-title">State incentives</h2>
+      </summary>
+      <div class="table-wrap">
+        <table class="data-table" id="state-table">
+          <thead>
+            <tr>
+              <th>State</th>
+              <th>Program</th>
+              <th class="hide-mobile">Status</th>
+              <th class="hide-mobile">Startup eligible</th>
+              <th class="hide-mobile">Updated</th>
+            </tr>
+          </thead>
+          <tbody id="state-tbody"></tbody>
+        </table>
+      </div>
+    </details>
 
     <div id="empty" class="empty-state" hidden>No policies match those filters.</div>
   </main>
@@ -285,6 +369,86 @@
         });
       });
 
+      // ---- Render Agencies Tables ----
+      const rdAgencies = agencies.filter(a => a.show_in_rd_table);
+      const rdTbody = document.getElementById('rd-agencies-tbody');
+      if (rdTbody) {
+        const subtextMap = {
+          'ostp': 'Office of Science and Technology Policy (Executive Office of the President)',
+          'doe': 'Department of Energy + 17 national labs',
+          'arpa-e': 'Advanced Research Projects Agency — Energy (DOE sub-agency)',
+          'doc': 'Department of Commerce (parent of NIST, NTIA, EDA)',
+          'nist': 'National Institute of Standards and Technology (within DOC)',
+          'nsf': 'National Science Foundation',
+          'nasa': 'National Aeronautics and Space Administration',
+          'space-force': 'U.S. Space Force (USSF)',
+          'darpa': 'Defense Advanced Research Projects Agency (DoD)',
+          'usda': 'U.S. Department of Agriculture (NIFA)',
+          'nih': 'National Institutes of Health (HHS)',
+          'dot': 'Department of Transportation (NHTSA, FRA, FMCSA, FAA)'
+        };
+        
+        rdTbody.innerHTML = rdAgencies.map(a => {
+          const sub = subtextMap[a.id] || a.full_name;
+          const agencyPolicies = policies.filter(p => p.agency_responsible && p.agency_responsible.includes(a.id));
+          const policyItems = agencyPolicies.map(p => 
+            `<strong>Tracked Policy:</strong> <a href="policies.html?focus=${encodeURIComponent(p.id)}">${RT.escapeHTML(p.title)}</a> (${RT.escapeHTML(p.status)})`
+          );
+          const noteItems = (a.notes || []).map(note => 
+            `<strong>Note:</strong> ${RT.escapeHTML(note)}`
+          );
+          const combinedItems = [...policyItems, ...noteItems];
+          const programsList = combinedItems.map(p => `<li>${p}</li>`).join('');
+          
+          return `
+            <tr>
+              <td class="agency-cell">
+                <strong><a href="${RT.escapeHTML(a.url)}" target="_blank" rel="noopener">${RT.escapeHTML(a.name)}</a></strong>
+                <span class="agency-sub">${RT.escapeHTML(sub)}</span>
+              </td>
+              <td class="col-rd">${a.rd_focus || '—'}</td>
+              <td class="col-applications">${a.applications || '—'}</td>
+              <td class="col-manufacturing">${a.manufacturing || '—'}</td>
+              <td>
+                ${programsList ? `<ul>${programsList}</ul>` : '—'}
+              </td>
+            </tr>
+          `;
+        }).join('');
+      }
+
+      const taxTbody = document.getElementById('tax-policies-tbody');
+      if (taxTbody) {
+        const taxPol = policies.filter(p => p.tags && p.tags.includes('tax'));
+        const order = ['sec-174-rd-expensing', 'rd-tax-credit', 'obbba-bonus-depreciation'];
+        taxPol.sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id));
+
+        taxTbody.innerHTML = taxPol.map(p => {
+          let statusHTML = '';
+          if (p.id === 'sec-174-rd-expensing') {
+            statusHTML = `Restored under OBBB (<a href="${RT.escapeHTML(p.sources[0]?.url || '')}" target="_blank" rel="noopener">OBBB §174 update</a>). <a href="${RT.escapeHTML(p.sources[1]?.url || '')}" target="_blank" rel="noopener">Practitioner brief</a>.`;
+          } else if (p.id === 'rd-tax-credit') {
+            statusHTML = `Permanent. Standard four-part qualification test. <a href="${RT.escapeHTML(p.sources[0]?.url || '')}" target="_blank" rel="noopener">Robotics-specific guidance</a>.`;
+          } else if (p.id === 'obbba-bonus-depreciation') {
+            statusHTML = `<a href="policies.html?focus=obbba-bonus-depreciation">OBBBA restores to 100%</a> through 2029. <a href="${RT.escapeHTML(p.sources[0]?.url || '')}" target="_blank" rel="noopener">Industry analysis</a>.`;
+          } else {
+            const sourcesLinks = (p.sources || []).map((s, idx) => `<a href="${RT.escapeHTML(RT.sourceURL(s))}" target="_blank" rel="noopener">Source [${idx + 1}]</a>`).join(', ');
+            statusHTML = `${RT.escapeHTML(p.status)}. ${sourcesLinks}`;
+          }
+
+          return `
+            <tr>
+              <td class="agency-cell">
+                <strong>${RT.escapeHTML(p.title)}</strong>
+                <span class="agency-sub">${RT.escapeHTML(p.bill_number || '')}</span>
+              </td>
+              <td>${p.summary}</td>
+              <td>${statusHTML}</td>
+            </tr>
+          `;
+        }).join('');
+      }
+
       document.getElementById('result-count').textContent =
         `${rows.length} ${rows.length === 1 ? 'policy' : 'policies'}`;
       document.getElementById('empty').hidden = rows.length > 0;
@@ -335,7 +499,7 @@
             <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
               ${related.slice(0, 6).map(n => `
                 <li>
-                  <a href="news.html#${encodeURIComponent(n.id)}" style="color:inherit;border-bottom:none;">
+                  <a href="themes.html#${encodeURIComponent(n.id)}" style="color:inherit;border-bottom:none;">
                     <div class="card-meta" style="font-size:11.5px;">
                       <span class="pill cat-${n.category.toLowerCase().replace(/\s+/g, '')}">${RT.escapeHTML(n.category)}</span>
                       <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
