@@ -46,7 +46,11 @@ async function main() {
   for (const source of newsSources) {
     console.log(`Fetching from ${source.url}...`);
     try {
-      const res = await fetch(source.url);
+      const res = await fetch(source.url, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+        }
+      });
       if (!res.ok) {
         console.error(`Failed to fetch ${source.url}: HTTP ${res.status}`);
         continue;

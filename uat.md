@@ -53,13 +53,13 @@ These should always pass. If one regresses, log it as `critical` in `issues.md`.
    - Filter by `figure-ai` + category `Funding` → 2 stories
    - Reset → 26
    - Hash deep-link (`news.html#apptronik-935m-feb2026`) scrolls the matching card into view
-7. **Themes — tabs.**
-   - 6 tabs render
-   - Only 1 panel visible at a time (`document.querySelectorAll('[role="tabpanel"]:not([hidden])').length === 1`)
-   - Click a tab → only that panel shows; `aria-selected` flips
-   - Arrow Right / Left / Home / End keyboard nav moves focus across tabs
-   - Hash on load activates the matching tab
-   - **Hashchange post-load also activates the matching tab** (regression guard for the 2026-05-18 bug)
+7. **Themes — card-grid.**
+   - 6 theme cards render in `.themes-grid`
+   - Clicking a card opens the bottom-sheet detail panel (`#detail-panel`) with the class `open`
+   - Detail panel contains strategic narrative, key metrics, recommended actions, and related companies, policies, and news
+   - Escape closes the detail panel; backdrop click closes the detail panel
+   - Hash on load opens the matching theme card detail panel
+   - **Hashchange post-load also opens the matching theme card detail panel** (regression guard)
 8. **Dashboard — archive-link parity with news.html.** For every card in `#recent-news`, if the underlying news record has `archive_url`, the card must render an `.archive-link`. Regression guard for the 2026-05-18 bug.
 8a. **Agencies table renders.** 12 agency rows (OSTP, DOE, ARPA-E, DOC, NIST, NSF, NASA, Space Force, DARPA, USDA, NIH, DOT) with OSTP as the lead row; a second "Tax & demand-side incentives" table with 3 rows (Section 174, R&D Tax Credit, Bonus Depreciation); ≥ 55 external links total; navigation marks `aria-current="page"`. At ≤540px viewport: page does not horizontally scroll (the nav internally scrolls instead).
 9. **Accessibility baseline.**

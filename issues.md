@@ -4,16 +4,17 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 ## Open
 
-### 2026-05-17 — scrapers — The Robot Report RSS returns 403 to our User-Agent
-
-- **Status:** Open
-- **Root cause:** external dependency — `therobotreport.com` blocks unknown bots; only browser-like UAs succeed.
-- **Repro:** `node scripts/scraper-news.js --dry-run --source=the-robot-report` → `HTTP 403 Forbidden`.
-- **Workaround:** disable in `docs/data/sources.json` or manually curate top stories from this source.
-- **Next step:** decide between (a) accept 403 and rely on Federal Register / IEEE Spectrum / TechCrunch, (b) rotate UA to a browser-string (some sites enforce on UA *and* on rate limit, so this can still trip), (c) substitute another robotics-news feed.
-- **Regression test:** N/A — external dependency. Track via the `last_run` field in `sources.json`.
+No open issues.
 
 ## Fixed
+
+### 2026-05-17 — scrapers — The Robot Report RSS returns 403 to our User-Agent
+
+- **Status:** Fixed
+- **Root cause:** external dependency — `therobotreport.com` blocks unknown bots; only browser-like UAs succeed.
+- **Repro:** `node scripts/scraper-news.js --dry-run --source=the-robot-report` → `HTTP 403 Forbidden`.
+- **Fix:** added a browser-like User-Agent header to the fetch call in `scraper-news.js`.
+- **Regression test:** N/A — external dependency. Checked by running scraper successfully.
 
 ### 2026-05-18 — UAT — themes page didn't react to hashchange after load
 
