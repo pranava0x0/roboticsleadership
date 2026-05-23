@@ -704,7 +704,7 @@ footer.site-footer {
   backdrop-filter: var(--surface-backdrop, none);
   border: 1px solid var(--border);
   border-radius: var(--radius-card);
-  overflow: hidden;
+  overflow-x: auto;
 }
 .data-table {
   width: 100%;
@@ -1258,4 +1258,66 @@ button, [role="button"], a.btn {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+/* Mobile (<=640px) Responsive Layout Refinements */
+@media (max-width: 640px) {
+  /* Hide verbose hero copy to save screen space */
+  .page-lede,
+  .eyebrow {
+    display: none;
+  }
+  
+  /* Slightly tighter layout spacing */
+  .page-title {
+    margin-top: 8px;
+    margin-bottom: 12px;
+  }
+
+  /* Horizontal swipeable scroll-snap carousel for KPIs */
+  .kpi-strip {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    gap: 10px;
+    padding: 4px;
+    margin-bottom: 16px;
+    scrollbar-width: none; /* Firefox */
+  }
+  .kpi-strip::-webkit-scrollbar {
+    display: none; /* Chrome/Safari/Webkit */
+  }
+  .kpi-card {
+    flex: 0 0 160px;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+  }
+
+  /* Clean responsive 2-column grid for filters */
+  .filter-bar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding: 10px;
+  }
+  .filter-search {
+    grid-column: span 2;
+    width: 100%;
+  }
+  .filter-input,
+  .filter-select {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .filter-bar button {
+    grid-column: span 1;
+    width: 100%;
+  }
+  .filter-result-count {
+    grid-column: span 2;
+    text-align: right;
+    margin: 4px 0 0 0;
+  }
 }

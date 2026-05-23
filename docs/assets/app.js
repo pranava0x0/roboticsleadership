@@ -295,11 +295,62 @@
     } catch (e) { /* leave the dash placeholder */ }
   }
 
+  // ---------- Collapsible Section (details) State Persistence ----------
+  function initCollapsibleSections() {
+    const detailsElems = document.querySelectorAll('details.collapsible-section[id]');
+    detailsElems.forEach((details) => {
+      const id = details.id;
+      const pageName = location.pathname.split('/').pop() || 'index.html';
+      const pageKey = `details-state-${pageName}-${id}`;
+      
+      // Restore state
+      const savedState = localStorage.getItem(pageKey);
+      if (savedState !== null) {
+        details.open = savedState === 'open';
+      } else {
+        // Default behavior if not set:
+        // On mobile/tablet, keep them closed by default except the first one on the page.
+        // On desktop, keep them open (respect HTML default).
+        const isMobileOrTablet = window.innerWidth < 1024;
+        if (isMobileOrTablet) {
+          const allCollapsibleOnPage = Array.from(document.querySelectorAll('details.collapsible-section[id]'));
+          const firstCollapsible = allCollapsibleOnPage[0];
+          details.open = (details === firstCollapsible);
+        } else {
+          details.open = details.hasAttribute('open');
+        }
+      }
+
+      // Auto-expand if the URL has a hash pointing to an element inside this details
+      const checkAndExpandHash = () => {
+        if (location.hash && location.hash.length > 1) {
+          const hashId = decodeURIComponent(location.hash.slice(1));
+          try {
+            if (details.querySelector(`#${CSS.escape(hashId)}`)) {
+              details.open = true;
+            }
+          } catch (e) {
+            // invalid selector
+          }
+        }
+      };
+
+      checkAndExpandHash();
+      window.addEventListener('hashchange', checkAndExpandHash);
+
+      // Listen to toggle events
+      details.addEventListener('toggle', () => {
+        localStorage.setItem(pageKey, details.open ? 'open' : 'closed');
+      });
+    });
+  }
+
   // ---------- Boot sequence ----------
   function init() {
     initThemePicker();
     highlightActiveNav();
     loadHeaderUpdated();
+    initCollapsibleSections();
   }
 
   if (document.readyState === 'loading') {
