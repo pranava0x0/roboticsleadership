@@ -407,6 +407,7 @@ h2.section-title {
    ============================================================ */
 
 details.collapsible-section {
+  margin-top: 28px;
   margin-bottom: 24px;
 }
 
@@ -415,7 +416,7 @@ details.collapsible-section > summary {
   cursor: pointer;
   user-select: none;
   position: relative;
-  /* Add padding to the left to make room for a chevron, or place it on the right */
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -426,12 +427,13 @@ details.collapsible-section > summary::-webkit-details-marker {
 
 details.collapsible-section > summary::before {
   content: "▶";
-  font-size: 12px;
+  font-size: 10px;
   color: var(--text-muted);
   position: absolute;
-  left: -16px;
-  top: 32px;
-  transition: transform var(--transition-base, 120ms);
+  left: 0;
+  top: 6px;
+  line-height: 1;
+  transition: transform var(--transition-base, 120ms), color var(--transition-base, 120ms);
 }
 
 details.collapsible-section[open] > summary::before {
@@ -440,12 +442,19 @@ details.collapsible-section[open] > summary::before {
 
 details.collapsible-section > summary > h2.section-title {
   display: inline-block;
+  margin-top: 0;
   margin-bottom: 4px;
+  transition: color var(--transition-base, 120ms);
 }
 
 details.collapsible-section > summary > p.muted {
   margin-top: 0;
   margin-bottom: 14px;
+}
+
+details.collapsible-section > summary:hover > h2.section-title,
+details.collapsible-section > summary:hover::before {
+  color: var(--accent);
 }
 
 footer.site-footer {
