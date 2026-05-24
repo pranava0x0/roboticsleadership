@@ -69,12 +69,14 @@
             <option value="date-asc">Oldest first</option>
           </select>
           <button class="btn ghost" type="button" id="f-reset">Reset</button>
+          <button class="btn ghost" type="button" id="f-density" aria-pressed="false" title="Toggle compact view">Compact</button>
           <span class="filter-result-count" id="result-count" aria-live="polite"></span>
         </fieldset>
       </form>
 
-      <section id="feed" class="feed" aria-live="polite"></section>
+      <section id="feed" class="feed" data-density="card" aria-live="polite"></section>
       <div id="empty" class="empty-state" hidden>No stories match those filters.</div>
+      <div id="feed-pagination" class="feed-pagination" aria-label="Feed pages"></div>
     </details>
   </main>
 
@@ -249,15 +251,29 @@
       if (el && q[k]) el.value = q[k];
     });
 
+    const PAGE_SIZE = 20;
+    let newsPage = 1;
+
     ['f-search','f-category','f-company','f-sort'].forEach(id => {
       const el = document.getElementById(id);
       const ev = el.tagName === 'SELECT' ? 'change' : 'input';
-      el.addEventListener(ev, renderNewsFeed);
+      el.addEventListener(ev, () => { newsPage = 1; renderNewsFeed(); });
     });
     document.getElementById('f-reset').addEventListener('click', () => {
       ['f-search','f-category','f-company'].forEach(id => { document.getElementById(id).value = ''; });
       document.getElementById('f-sort').value = 'date-desc';
+      newsPage = 1;
       renderNewsFeed();
+    });
+
+    const densityBtn = document.getElementById('f-density');
+    const feedEl = document.getElementById('feed');
+    let isCompact = false;
+    densityBtn.addEventListener('click', () => {
+      isCompact = !isCompact;
+      feedEl.dataset.density = isCompact ? 'compact' : 'card';
+      densityBtn.setAttribute('aria-pressed', String(isCompact));
+      densityBtn.textContent = isCompact ? 'Expanded' : 'Compact';
     });
 
     function renderNewsFeed() {
@@ -265,7 +281,7 @@
       const category = document.getElementById('f-category').value;
       const company = document.getElementById('f-company').value;
       const sort = document.getElementById('f-sort').value;
-      
+
       const newQ = { ...RT.readQuery(), search, category, company, sort };
       if (!search) delete newQ.search;
       if (!category) delete newQ.category;
@@ -285,9 +301,19 @@
       });
 
       const [sortKey, sortDir] = sort.split('-');
-      if (sortKey === 'date') {
-        rows = RT.sortBy(rows, n => n.date, sortDir);
+      if (sortKey === 'date') rows = RT.sortBy(rows, n => n.date, sortDir);
+
+      // If navigating to a hash anchor, jump to the correct page
+      if (location.hash && location.hash.length > 1) {
+        const targetId = decodeURIComponent(location.hash.slice(1));
+        const idx = rows.findIndex(n => n.id === targetId);
+        if (idx >= 0) newsPage = Math.floor(idx / PAGE_SIZE) + 1;
       }
+
+      const totalPages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
+      if (newsPage > totalPages) newsPage = totalPages;
+
+      const pageRows = rows.slice((newsPage - 1) * PAGE_SIZE, newsPage * PAGE_SIZE);
 
       const feed = document.getElementById('feed');
       const empty = document.getElementById('empty');
@@ -296,15 +322,43 @@
         empty.hidden = false;
       } else {
         empty.hidden = true;
-        feed.innerHTML = rows.map(n => renderNewsCard(n)).join('');
+        feed.innerHTML = pageRows.map(n => renderNewsCard(n)).join('');
       }
-      document.getElementById('result-count').textContent =
-        `${rows.length} ${rows.length === 1 ? 'story' : 'stories'}`;
+
+      const start = Math.min((newsPage - 1) * PAGE_SIZE + 1, rows.length);
+      const end = Math.min(newsPage * PAGE_SIZE, rows.length);
+      document.getElementById('result-count').textContent = rows.length <= PAGE_SIZE
+        ? `${rows.length} ${rows.length === 1 ? 'story' : 'stories'}`
+        : `${start}–${end} of ${rows.length} stories`;
+
+      renderPagination(newsPage, totalPages);
 
       if (location.hash && location.hash.length > 1) {
         const el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
         if (el) requestAnimationFrame(() => el.scrollIntoView({ block: 'start', behavior: 'smooth' }));
       }
+    }
+
+    function renderPagination(page, total) {
+      const el = document.getElementById('feed-pagination');
+      if (!el) return;
+      if (total <= 1) { el.innerHTML = ''; return; }
+      el.innerHTML = `
+        <button class="btn ghost pag-btn" id="pag-prev" ${page <= 1 ? 'disabled' : ''}>← Prev</button>
+        <span class="pag-info">Page ${page} of ${total}</span>
+        <button class="btn ghost pag-btn" id="pag-next" ${page >= total ? 'disabled' : ''}>Next →</button>
+      `;
+      el.querySelector('#pag-prev').addEventListener('click', () => {
+        if (newsPage > 1) { newsPage--; renderNewsFeed(); scrollToFeed(); }
+      });
+      el.querySelector('#pag-next').addEventListener('click', () => {
+        if (newsPage < total) { newsPage++; renderNewsFeed(); scrollToFeed(); }
+      });
+    }
+
+    function scrollToFeed() {
+      const el = document.getElementById('sec-intelligence');
+      if (el) requestAnimationFrame(() => el.scrollIntoView({ block: 'start', behavior: 'smooth' }));
     }
 
     function renderNewsCard(n) {
