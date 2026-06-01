@@ -197,7 +197,7 @@
                   <li>
                     <a href="#${encodeURIComponent(n.id)}" style="color:inherit;text-decoration:none;">
                       <div class="card-meta" style="font-size:11.5px;margin-bottom:4px;">
-                        <span class="pill cat-${n.category.toLowerCase().replace(/\s+/g, '')}">${RT.escapeHTML(n.category)}</span>
+                        <span class="pill cat-${RT.slug(n.category)}">${RT.escapeHTML(n.category)}</span>
                         <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
                       </div>
                       <div class="serif" style="font-size:14px;line-height:1.4;font-weight:500;">${RT.escapeHTML(n.title)}</div>
@@ -362,7 +362,7 @@
     }
 
     function renderNewsCard(n) {
-      const catSlug = n.category.toLowerCase().replace(/\s+/g, '');
+      const catSlug = RT.slug(n.category);
       const sentimentPill = n.sentiment
         ? `<span class="pill ${pillFor(n.sentiment)}">${RT.escapeHTML(n.sentiment)}</span>`
         : '';

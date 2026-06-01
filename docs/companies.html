@@ -262,8 +262,8 @@
           <h3>Financial standing</h3>
           ${c.financials ? `
             <dl class="kv">
-              ${c.financials.revenue_usd ? `<dt>Revenue</dt><dd class="tnum"><strong>${RT.formatUSD(c.financials.revenue_usd)}</strong> <span class="dd-note">as of ${c.financials.revenue_year}</span></dd>` : ''}
-              ${c.financials.net_income_usd ? `<dt>Net income</dt><dd class="tnum"><span style="color: ${c.financials.net_income_usd < 0 ? 'var(--status-negative)' : 'var(--status-positive)'}; font-weight: 600;">${RT.formatUSD(c.financials.net_income_usd)}</span> <span class="dd-note">as of ${c.financials.net_income_year}</span></dd>` : ''}
+              ${c.financials.revenue_usd ? `<dt>Revenue</dt><dd class="tnum"><strong>${RT.formatUSD(c.financials.revenue_usd)}</strong> <span class="dd-note">as of ${RT.escapeHTML(c.financials.revenue_year)}</span></dd>` : ''}
+              ${c.financials.net_income_usd ? `<dt>Net income</dt><dd class="tnum"><span style="color: ${c.financials.net_income_usd < 0 ? 'var(--status-negative)' : 'var(--status-positive)'}; font-weight: 600;">${RT.formatUSD(c.financials.net_income_usd)}</span> <span class="dd-note">as of ${RT.escapeHTML(c.financials.net_income_year)}</span></dd>` : ''}
               ${c.financials.details ? `<dt>Details</dt><dd class="serif" style="font-size:13.5px;line-height:1.5;margin:0;">${RT.escapeHTML(c.financials.details)}</dd>` : ''}
             </dl>
           ` : '<p class="muted" style="font-size:13.5px;margin:0;">Private company. Detailed financial statements are not publicly disclosed.</p>'}
@@ -324,7 +324,7 @@
                 <li>
                   <a href="themes.html#${encodeURIComponent(n.id)}" style="color:inherit;border-bottom:none;">
                     <div class="card-meta" style="font-size:11.5px;">
-                      <span class="pill cat-${n.category.toLowerCase().replace(/\s+/g, '')}">${RT.escapeHTML(n.category)}</span>
+                      <span class="pill cat-${RT.slug(n.category)}">${RT.escapeHTML(n.category)}</span>
                       <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
                     </div>
                     <div class="serif" style="font-size:14px;margin-top:2px;">${RT.escapeHTML(n.title)}</div>

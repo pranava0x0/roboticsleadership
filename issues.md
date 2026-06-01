@@ -8,6 +8,30 @@ No open issues.
 
 ## Fixed
 
+### 2026-06-01 — CI/supply-chain — Actions are 0% SHA-pinned; floating @v4 tags fleet-wide
+
+- **Status:** Fixed.
+- **Root cause:** code bug (supply-chain) — all 4 workflows referenced actions by floating tag (`actions/checkout@v4`, `setup-node@v4`, `configure-pages@v5`, `upload-pages-artifact@v3`, `deploy-pages@v4`). A retag-compromise of any tag injects attacker code. The dangerous combination is the three cron jobs (`scrape-news`, `scrape-policy`, `archive-sources` — all `contents: write` + `pull-requests: write`): they run automatically, with creds, no human in the loop.
+- **Repro:** `grep -rn 'uses:.*@v[0-9]' .github/workflows/` → every action pinned to a mutable tag.
+- **Fix:** pinned every `uses:` to its full 40-char commit SHA with a trailing `# vX` comment (checkout `34e1148…`, setup-node `49933ea…`, configure-pages `983d773…`, upload-pages-artifact `56afc60…`, deploy-pages `d6db901…`). Verified all 4 workflows already carry explicit least-privilege `permissions:` blocks (pages: `contents:read`/`pages:write`/`id-token:write`; the three crons: `contents:write`/`pull-requests:write`, which is the minimum for branch-push + PR-open) — none were missing.
+- **Regression test:** N/A (config). `grep -rn 'uses:.*@v[0-9]'` now returns nothing. Guard idea tracked in `backlog.md`: a CI lint that rejects `@vN` in `uses:`.
+
+### 2026-06-01 — frontend/security — Stored-XSS from scraped data via unescaped innerHTML
+
+- **Status:** Fixed.
+- **Root cause:** code bug — render code mostly uses `RT.escapeHTML`, but four sinks interpolated scraped/curated data raw into `innerHTML`: (1) category/direction class slugs (`cat-${n.category…}`, `dir-${t.direction…}`) only stripped whitespace, so `"`/`<`/`>` broke out of the `class="…"` attribute (index, themes, companies, policies); (2) `agencies.json` `rd_focus`/`applications`/`manufacturing` rendered raw in the `policies.html` R&D table; (3) the tax-section policy `summary` rendered raw in `policies.html` (the detail panel escapes the same field — inconsistent); (4) `companies.json` `revenue_year`/`net_income_year` rendered raw in the company detail panel.
+- **Repro:** set a news item `category` to `x"><img src=x onerror=alert(1)>` → script runs on dashboard/news cards.
+- **Fix:** added an `RT.slug()` sanitizer in `app.js` (`String → lowercase → strip everything except [a-z0-9-]`) and routed all class slugs through it; wrapped the raw agency fields, tax summary, and financial-year fields in `RT.escapeHTML`. Verified `pillFor`/`statusPill` already map to a fixed class vocabulary (safe).
+- **Regression test:** inline node unit test on `slug()` — `x"><img …>` → `ximgsrcxonerroralert1`, legit values (`Funding`, `Accelerating`) unchanged. Backlog: a render-layer test asserting no `<` survives into emitted markup for a poisoned record.
+
+### 2026-06-01 — scrapers — Federal Register policy scraper omits required `themes` field
+
+- **Status:** Fixed.
+- **Root cause:** code bug — `scraper-policy.js` built records without a `themes` key, but the policy schema lists `themes` as required. Surfaced during the monthly data refresh: `validate.js` rejected the freshly-scraped `fedreg-2026-10697`.
+- **Repro:** run `scripts/scraper-policy.js` against a new Federal Register match, then `node scripts/validate.js` → `missing required field "themes"`.
+- **Fix:** added `themes: []` to the record template in `scraper-policy.js`; backfilled the one already-written record. `validate.js` now passes clean.
+- **Regression test:** the schema's `themes` required-field check is itself the test; it caught the bug on the first refresh after the fix to the slug code.
+
 ### 2026-05-17 — scrapers — The Robot Report RSS returns 403 to our User-Agent
 
 - **Status:** Fixed

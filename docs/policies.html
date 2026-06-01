@@ -406,9 +406,9 @@
                 <strong><a href="${RT.escapeHTML(a.url)}" target="_blank" rel="noopener">${RT.escapeHTML(a.name)}</a></strong>
                 <span class="agency-sub">${RT.escapeHTML(sub)}</span>
               </td>
-              <td class="col-rd">${a.rd_focus || '—'}</td>
-              <td class="col-applications">${a.applications || '—'}</td>
-              <td class="col-manufacturing">${a.manufacturing || '—'}</td>
+              <td class="col-rd">${RT.escapeHTML(a.rd_focus) || '—'}</td>
+              <td class="col-applications">${RT.escapeHTML(a.applications) || '—'}</td>
+              <td class="col-manufacturing">${RT.escapeHTML(a.manufacturing) || '—'}</td>
               <td>
                 ${programsList ? `<ul>${programsList}</ul>` : '—'}
               </td>
@@ -442,7 +442,7 @@
                 <strong>${RT.escapeHTML(p.title)}</strong>
                 <span class="agency-sub">${RT.escapeHTML(p.bill_number || '')}</span>
               </td>
-              <td>${p.summary}</td>
+              <td>${RT.escapeHTML(p.summary)}</td>
               <td>${statusHTML}</td>
             </tr>
           `;
@@ -501,7 +501,7 @@
                 <li>
                   <a href="themes.html#${encodeURIComponent(n.id)}" style="color:inherit;border-bottom:none;">
                     <div class="card-meta" style="font-size:11.5px;">
-                      <span class="pill cat-${n.category.toLowerCase().replace(/\s+/g, '')}">${RT.escapeHTML(n.category)}</span>
+                      <span class="pill cat-${RT.slug(n.category)}">${RT.escapeHTML(n.category)}</span>
                       <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
                     </div>
                     <div class="serif" style="font-size:14px;margin-top:2px;">${RT.escapeHTML(n.title)}</div>
