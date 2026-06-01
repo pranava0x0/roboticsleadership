@@ -119,6 +119,14 @@
       .replace(/'/g, '&#39;');
   }
 
+  // Safe class-name slug. Lowercases and strips everything except [a-z0-9-]
+  // so untrusted/scraped strings (category, direction, …) can never break out
+  // of a class="…" attribute. Replaces the old `.replace(/\s+/g,'')` pattern,
+  // which left quotes/angle-brackets intact → stored-XSS sink.
+  function slug(s) {
+    return String(s == null ? '' : s).toLowerCase().replace(/[^a-z0-9-]+/g, '');
+  }
+
   // ---------- Source / archive helpers ----------
   // sources[] entries are either strings (legacy) or { url, archive_url } objects.
   function sourceURL(s) { return typeof s === 'string' ? s : (s && s.url) || ''; }
@@ -369,6 +377,7 @@
     relativeDate,
     prettyHQ,
     escapeHTML,
+    slug,
     sourceURL,
     sourceArchive,
     archiveLink,
