@@ -54,6 +54,7 @@ async function main() {
       startup_eligible: false,
       application_url: null,
       tags: ["federal-register", "federal"],
+      themes: [],
       sources: [{ url: doc.html_url }],
       last_updated: today
     };
