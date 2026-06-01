@@ -895,10 +895,27 @@
         "url": "https://www.physicalintelligence.company",
         "confidence": "confirmed",
         "archive_url": "https://web.archive.org/web/20251206101652/https://www.physicalintelligence.company/"
+      },
+      {
+        "date": "2025-11",
+        "round": "Series B",
+        "amount_usd": 600000000,
+        "valuation_usd": 5600000000,
+        "investors": [
+          "CapitalG",
+          "Lux Capital",
+          "Bond",
+          "Redpoint Ventures",
+          "Sequoia Capital",
+          "T. Rowe Price",
+          "NVIDIA (NVentures)"
+        ],
+        "url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/",
+        "confidence": "confirmed"
       }
     ],
-    "total_funding_usd": 470000000,
-    "latest_valuation_usd": 2400000000,
+    "total_funding_usd": 1070000000,
+    "latest_valuation_usd": 5600000000,
     "robot_types": [
       "foundation_model"
     ],
@@ -938,18 +955,22 @@
       {
         "url": "https://www.physicalintelligence.company",
         "archive_url": "https://web.archive.org/web/20251206101652/https://www.physicalintelligence.company/"
+      },
+      {
+        "url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-01",
     "themes": [
-      "foundation-models"
+      "foundation-models",
+      "physical-ai"
     ],
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private AI software/model company. Pre-revenue. Series A in late 2024 raised $400M at a $2.4B valuation.",
+      "details": "Private AI software/model company, pre-revenue. Builds open vision-language-action robot foundation models (π0). Series B in Nov 2025 raised $600M at a $5.6B valuation; reported total raised ~$1.5B. In talks (Mar 2026) for a further ~$1B round at an $11B+ valuation.",
       "sources": [
         {
           "url": "https://www.physicalintelligence.company"
@@ -2406,6 +2427,1015 @@
           "url": "https://www.bloomberg.com/news/articles/2025-03-11/ai-robotics-startup-dexterity-lands-1-65-billion-valuation"
         }
       ]
+    }
+  },
+  {
+    "id": "serve-robotics",
+    "name": "Serve Robotics",
+    "founded": "2021",
+    "hq": {
+      "city": "Redwood City",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.serverobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2024-04",
+        "round": "IPO (Nasdaq: SERV)",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://ir.serverobotics.com/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "sidewalk delivery",
+      "AMR"
+    ],
+    "primary_use_case": "last-mile delivery",
+    "flagship_product": "Autonomous sidewalk delivery robot (Gen3); 'Maggie' conversational robot",
+    "deployments": [
+      {
+        "customer": "Uber Eats & restaurant partners",
+        "location": "44 cities across 14 states (US)",
+        "robot_count": 2000,
+        "status": "active",
+        "use_case": "Last-mile sidewalk delivery",
+        "start_date": "2022"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Ali Kashani",
+        "role": "Co-founder & CEO"
+      }
+    ],
+    "ceo": "Ali Kashani",
+    "tags": [
+      "public",
+      "delivery",
+      "last-mile",
+      "nasdaq-serv"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://ir.serverobotics.com/"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/05/07/3290495/0/en/Serve-Robotics-Announces-First-Quarter-2026-Results-with-3X-Sequential-Revenue-Growth.html"
+      },
+      {
+        "url": "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-acquire-diligent-robotics-expanding-physical-ai"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/case-studies/serve-robotics/"
+      }
+    ],
+    "last_updated": "2026-06-01",
+    "themes": [],
+    "financials": {
+      "revenue_usd": 3000000,
+      "revenue_year": "Q1 2026",
+      "details": "Publicly traded (Nasdaq: SERV); spun out of Uber/Postmates in 2021. Q1 2026 revenue $3.0M, up 238% sequentially and 578% YoY; reaffirmed ~$26M FY2026 revenue guidance. Largest US sidewalk-delivery fleet (2,000+ robots across 44 cities / 14 states). Acquired Diligent Robotics in 2026 to expand into indoor service robots."
+    }
+  },
+  {
+    "id": "arbe-robotics",
+    "name": "Arbe Robotics",
+    "founded": "2015",
+    "hq": {
+      "city": "Tel Aviv",
+      "state": "N/A",
+      "country": "Israel"
+    },
+    "website": "https://www.arberobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2019-11",
+        "round": "Series B",
+        "amount_usd": 32000000,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://www.therobotreport.com/arbe-raises-32m-market-high-res-radar-autonomous-vehicles/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2021-10",
+        "round": "IPO (Nasdaq: ARBE, via SPAC)",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://ir.arberobotics.com/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-03",
+        "round": "Registered direct offering",
+        "amount_usd": 18500000,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://www.stocktitan.net/news/ARBE/arbe-announces-q1-2026-financial-bwcrm1p9315i.html",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "4D imaging radar",
+      "perception"
+    ],
+    "primary_use_case": "autonomous driving perception",
+    "flagship_product": "Phoenix 4D imaging radar",
+    "deployments": [
+      {
+        "customer": "Robotaxi / L4 programs (incl. HiRain)",
+        "location": "Global",
+        "robot_count": null,
+        "status": "pilot",
+        "use_case": "4D imaging radar for L4 360° sensing",
+        "start_date": "2025"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Kobi Marenko",
+        "role": "Co-founder & CEO"
+      },
+      {
+        "name": "Noam Arkind",
+        "role": "Co-founder & CTO"
+      }
+    ],
+    "ceo": "Kobi Marenko",
+    "tags": [
+      "public",
+      "autonomous-driving",
+      "sensors",
+      "radar",
+      "nasdaq-arbe",
+      "israel"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://ir.arberobotics.com/"
+      },
+      {
+        "url": "https://ir.arberobotics.com/news/press-releases/detail/166/arbe-combines-market-leading-radar-solution-with-powerful"
+      },
+      {
+        "url": "https://www.stocktitan.net/news/ARBE/arbe-announces-q1-2026-financial-bwcrm1p9315i.html"
+      },
+      {
+        "url": "https://www.therobotreport.com/arbe-raises-32m-market-high-res-radar-autonomous-vehicles/"
+      }
+    ],
+    "last_updated": "2026-06-01",
+    "themes": [],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Publicly traded (Nasdaq: ARBE); founded 2015 in Tel Aviv, went public in 2021 via SPAC. Reaffirmed 2026 revenue guidance of $4–6M and adjusted EBITDA loss of $(28)–$(31)M; ended Q1 2026 with $53.6M cash after an $18.5M registered direct offering. Partnering with NVIDIA on an AI perception platform; shipping radar chipsets to robotaxi / L4 programs."
+    }
+  },
+  {
+    "id": "intuitive-surgical",
+    "name": "Intuitive Surgical",
+    "founded": "1995",
+    "hq": {
+      "city": "Sunnyvale",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.intuitive.com",
+    "funding_rounds": [
+      {
+        "date": "2000-06",
+        "round": "IPO (Nasdaq: ISRG)",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://isrg.intuitive.com/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "surgical robot"
+    ],
+    "primary_use_case": "surgical robotics",
+    "flagship_product": "da Vinci 5 surgical system",
+    "deployments": [
+      {
+        "customer": "Hospitals (global)",
+        "location": "Global",
+        "robot_count": 10763,
+        "status": "active",
+        "use_case": "da Vinci installed base",
+        "start_date": "2000"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Frederic Moll",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Robert Younge",
+        "role": "Co-founder"
+      }
+    ],
+    "ceo": "Dave Rosa",
+    "tags": [
+      "public",
+      "medical",
+      "surgical",
+      "nasdaq-isrg",
+      "large-cap"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-third-quarter-earnings-5"
+      },
+      {
+        "url": "https://www.stocktitan.net/news/ISRG/intuitive-announces-first-quarter-1rw9huwnl0u6.html"
+      }
+    ],
+    "last_updated": "2026-06-01",
+    "themes": [],
+    "financials": {
+      "revenue_usd": 2510000000,
+      "revenue_year": "Q3 2025",
+      "details": "Publicly traded (Nasdaq: ISRG); founded 1995, IPO 2000. The dominant surgical-robotics company. Q3 2025 revenue $2.51B (+23% YoY); da Vinci installed base 10,763 systems as of Sep 30, 2025 (+13% YoY). Dave Rosa became CEO July 1, 2025."
+    }
+  },
+  {
+    "id": "irobot",
+    "name": "iRobot",
+    "founded": "1990",
+    "hq": {
+      "city": "Bedford",
+      "state": "MA",
+      "country": "USA"
+    },
+    "website": "https://www.irobot.com",
+    "funding_rounds": [
+      {
+        "date": "2005-11",
+        "round": "IPO (Nasdaq: IRBT)",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://investor.irobot.com/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "consumer robot",
+      "vacuum"
+    ],
+    "primary_use_case": "consumer / home",
+    "flagship_product": "Roomba",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Colin Angle",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Helen Greiner",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Rodney Brooks",
+        "role": "Co-founder"
+      }
+    ],
+    "ceo": "Gary Cohen",
+    "tags": [
+      "public",
+      "consumer",
+      "home",
+      "nasdaq-irbt"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001159167/000115916725000090/ex991q32025pressrelease.htm"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001159167/000115916725000050/ex991q12025pressrelease.htm"
+      }
+    ],
+    "last_updated": "2026-06-01",
+    "themes": [],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Publicly traded (Nasdaq: IRBT); founded 1990, pioneer of consumer home robots (Roomba). Launched its largest-ever product refresh in March 2025, but 2025 quarters fell below expectations amid market headwinds and production/shipping delays; the board is running a review of strategic alternatives (going-concern pressure). CEO Gary Cohen."
+    }
+  },
+  {
+    "id": "aerovironment",
+    "name": "AeroVironment",
+    "founded": "1971",
+    "hq": {
+      "city": "Arlington",
+      "state": "VA",
+      "country": "USA"
+    },
+    "website": "https://www.avinc.com",
+    "funding_rounds": [
+      {
+        "date": "2007-01",
+        "round": "IPO (Nasdaq: AVAV)",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://investor.avinc.com/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2025-05",
+        "round": "BlueHalo acquisition (close)",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://www.sec.gov/Archives/edgar/data/0001368622/000155837025011962/avav-20250909xex99d1.htm",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "UAV",
+      "loitering munition",
+      "counter-UAS"
+    ],
+    "primary_use_case": "defense",
+    "flagship_product": "Switchblade loitering munitions / Puma UAS",
+    "deployments": [
+      {
+        "customer": "U.S. DoD & allied militaries",
+        "location": "Global",
+        "robot_count": null,
+        "status": "active",
+        "use_case": "Unmanned systems, loitering munitions, counter-UAS",
+        "start_date": null
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": true,
+    "founders": [
+      {
+        "name": "Paul MacCready",
+        "role": "Founder"
+      }
+    ],
+    "ceo": "Wahid Nawabi",
+    "tags": [
+      "public",
+      "defense",
+      "drones",
+      "uas",
+      "nasdaq-avav"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001368622/000110465925119660/avav-20251209xex99d1.htm"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001368622/000155837025011962/avav-20250909xex99d1.htm"
+      }
+    ],
+    "last_updated": "2026-06-01",
+    "themes": [],
+    "financials": {
+      "revenue_usd": 820600000,
+      "revenue_year": "FY2025",
+      "details": "Publicly traded (Nasdaq: AVAV); founded 1971, IPO 2007. FY2025 revenue $820.6M (+14% YoY). Closed the BlueHalo acquisition May 1, 2025 (~$1.7B+ pro forma FY2025 revenue, +40% YoY). Two segments: Autonomous Systems (AxS) and Space, Cyber & Directed Energy (SCDE). CEO Wahid Nawabi."
+    }
+  },
+  {
+    "id": "ouster",
+    "name": "Ouster",
+    "founded": "2015",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://ouster.com",
+    "funding_rounds": [
+      {
+        "date": "2021-03",
+        "round": "IPO (NYSE: OUST, via SPAC)",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://investors.ouster.com/investor-relations",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "lidar",
+      "perception"
+    ],
+    "primary_use_case": "robotics & autonomy perception",
+    "flagship_product": "Rev8 / OS digital lidar",
+    "deployments": [
+      {
+        "customer": "~500 customers (robotics, industrial, smart infra, automotive)",
+        "location": "Global",
+        "robot_count": null,
+        "status": "active",
+        "use_case": "Digital lidar sensors",
+        "start_date": null
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Angus Pacala",
+        "role": "Co-founder & CEO"
+      },
+      {
+        "name": "Mark Frichtl",
+        "role": "Co-founder & CTO"
+      }
+    ],
+    "ceo": "Angus Pacala",
+    "tags": [
+      "public",
+      "sensors",
+      "lidar",
+      "autonomy",
+      "nasdaq-oust"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://investors.ouster.com/investor-relations"
+      },
+      {
+        "url": "https://investors.ouster.com/news-releases/news-release-details/ouster-and-serve-robotics-sign-multi-year-strategic-agreement"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ouster_(company)"
+      }
+    ],
+    "last_updated": "2026-06-01",
+    "themes": [],
+    "financials": {
+      "revenue_usd": 169000000,
+      "revenue_year": "FY2025",
+      "details": "Publicly traded (OUST); founded 2015, went public 2021 via SPAC. FY2025 revenue ~$169M (up from ~$11M in 2019). ~500 customers across robotics, industrial automation, smart infrastructure and automotive. Rev8 lidar qualified for NVIDIA DRIVE Hyperion (L4). Long-standing supply agreement with Serve Robotics. CEO Angus Pacala."
+    }
+  },
+  {
+    "id": "richtech-robotics",
+    "name": "Richtech Robotics",
+    "founded": "2016",
+    "hq": {
+      "city": "Las Vegas",
+      "state": "NV",
+      "country": "USA"
+    },
+    "website": "https://www.richtechrobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2023-11",
+        "round": "IPO (Nasdaq: RR)",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://stockanalysis.com/stocks/rr/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "service robot",
+      "AMR",
+      "humanoid"
+    ],
+    "primary_use_case": "service & hospitality",
+    "flagship_product": "ADAM / Matradee / Titan",
+    "deployments": [
+      {
+        "customer": "Restaurants & hospitality (US)",
+        "location": "US",
+        "robot_count": null,
+        "status": "active",
+        "use_case": "Service, beverage and delivery robots",
+        "start_date": null
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Wayne Huang",
+        "role": "Founder & CEO"
+      }
+    ],
+    "ceo": "Wayne Huang",
+    "tags": [
+      "public",
+      "service",
+      "hospitality",
+      "small-cap",
+      "nasdaq-rr"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://stockanalysis.com/stocks/rr/"
+      },
+      {
+        "url": "https://finance.yahoo.com/quote/RR/"
+      }
+    ],
+    "last_updated": "2026-06-01",
+    "themes": [],
+    "financials": {
+      "revenue_usd": 5050000,
+      "revenue_year": "FY2025",
+      "details": "Publicly traded (Nasdaq: RR); headquartered in Las Vegas. FY2025 revenue $5.05M (+19% YoY). Products: Matradee restaurant servers, ADAM/Scorpion dual-arm beverage robots, Titan AMRs, DUST-E cleaning robots, and Dex industrial humanoid. 2026 partnerships with SoundHound (voice AI) and Microsoft Azure Marketplace. CEO Wayne Huang."
+    }
+  },
+  {
+    "id": "field-ai",
+    "name": "Field AI",
+    "founded": "2020",
+    "hq": {
+      "city": "Irvine",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.fieldai.com",
+    "funding_rounds": [
+      {
+        "date": "2025-08",
+        "round": "Series D",
+        "amount_usd": 405000000,
+        "valuation_usd": 2000000000,
+        "investors": [
+          "Bill Gates",
+          "Bezos Expeditions",
+          "NVIDIA"
+        ],
+        "url": "https://www.therobotreport.com/fieldai-raises-405m-scales-physics-first-foundation-models-robots/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 405000000,
+    "latest_valuation_usd": 2000000000,
+    "robot_types": [
+      "foundation_model"
+    ],
+    "primary_use_case": "embodied AI foundation models",
+    "flagship_product": "Field Foundation Models (FFMs)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Ali Agha",
+        "role": "Founder & CEO"
+      }
+    ],
+    "ceo": "Ali Agha",
+    "tags": [
+      "physical-ai",
+      "foundation-model",
+      "ai-software",
+      "unicorn"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/fieldai-raises-405m-scales-physics-first-foundation-models-robots/"
+      },
+      {
+        "url": "https://www.cnbc.com/2025/08/20/gates-nvidia-fieldai-robotics.html"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/fieldai-announces-over-400m-in-funds-raised-to-advance-embodied-ai-at-scale-302534675.html"
+      }
+    ],
+    "last_updated": "2026-06-01",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. Builds \"physics-first\" robot foundation models (FFMs) designed to generalize across robot embodiments and handle real-world uncertainty without prior maps or task-specific training. Raised $405M Series D at a $2B valuation (Aug 2025); backed by Bill Gates, Bezos Expeditions and NVIDIA."
+    }
+  },
+  {
+    "id": "generalist-ai",
+    "name": "Generalist AI",
+    "founded": "2024",
+    "hq": {
+      "city": "San Mateo",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://generalist.com",
+    "funding_rounds": [
+      {
+        "date": "2025-03",
+        "round": "Seed",
+        "amount_usd": 140000000,
+        "valuation_usd": null,
+        "investors": [
+          "Bezos Expeditions",
+          "NVIDIA (NVentures)",
+          "Boldstart Ventures",
+          "NFDG"
+        ],
+        "url": "https://boldstart.vc/companies/generalist/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 140000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "foundation_model"
+    ],
+    "primary_use_case": "general-purpose robot foundation models",
+    "flagship_product": "Generalist robot foundation model (VLA)",
+    "deployments": [],
+    "headcount": 67,
+    "headcount_date": "2026-04",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Andy Zeng",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Pete Florence",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Andrew Barry",
+        "role": "Co-founder"
+      }
+    ],
+    "ceo": null,
+    "tags": [
+      "physical-ai",
+      "foundation-model",
+      "ai-software"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://boldstart.vc/companies/generalist/"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/generalist-ai"
+      }
+    ],
+    "last_updated": "2026-06-01",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. Building general-purpose sensorimotor foundation models that transfer across robot arms and environments. Founding team drawn from Google DeepMind, OpenAI and Boston Dynamics (Andy Zeng, Pete Florence, Andrew Barry). ~$140M raised (seed, Mar 2025); investors include Bezos Expeditions, NVIDIA and Boldstart Ventures."
+    }
+  },
+  {
+    "id": "wayve",
+    "name": "Wayve",
+    "founded": "2017",
+    "hq": {
+      "city": "London",
+      "state": "N/A",
+      "country": "UK"
+    },
+    "website": "https://wayve.ai",
+    "funding_rounds": [
+      {
+        "date": "2024-05",
+        "round": "Series C",
+        "amount_usd": 1050000000,
+        "valuation_usd": null,
+        "investors": [
+          "SoftBank Group",
+          "NVIDIA",
+          "Microsoft"
+        ],
+        "url": "https://wayve.ai/press/series-c/",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-02",
+        "round": "Series D",
+        "amount_usd": 1200000000,
+        "valuation_usd": 8600000000,
+        "investors": [
+          "Eclipse",
+          "Balderton",
+          "SoftBank Vision Fund 2",
+          "NVIDIA",
+          "Uber",
+          "Ontario Teachers"
+        ],
+        "url": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 2250000000,
+    "latest_valuation_usd": 8600000000,
+    "robot_types": [
+      "autonomous vehicle",
+      "foundation_model"
+    ],
+    "primary_use_case": "embodied AI for driving",
+    "flagship_product": "AV2.0 end-to-end driving foundation models / GAIA world model",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Alex Kendall",
+        "role": "Co-founder & CEO"
+      },
+      {
+        "name": "Amar Shah",
+        "role": "Co-founder"
+      }
+    ],
+    "ceo": "Alex Kendall",
+    "tags": [
+      "physical-ai",
+      "autonomous-driving",
+      "embodied-ai",
+      "foundation-model",
+      "uk"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://wayve.ai/press/series-c/"
+      },
+      {
+        "url": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wayve"
+      }
+    ],
+    "last_updated": "2026-06-01",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "UK-based embodied-AI company building end-to-end (\"AV2.0\") self-driving foundation models licensed to automakers — a \"physical AI\" approach to autonomy. Series C $1.05B (2024; SoftBank, NVIDIA, Microsoft); Series D $1.2B at an $8.6B post-money valuation (Feb 2026; led by Eclipse, Balderton and SoftBank Vision Fund 2)."
+    }
+  },
+  {
+    "id": "dyna-robotics",
+    "name": "Dyna Robotics",
+    "founded": "2024",
+    "hq": {
+      "city": null,
+      "state": null,
+      "country": "USA"
+    },
+    "website": "https://www.dyna.co",
+    "funding_rounds": [
+      {
+        "date": "2025-09",
+        "round": "Series A",
+        "amount_usd": 120000000,
+        "valuation_usd": 600000000,
+        "investors": [
+          "CRV",
+          "First Round Capital",
+          "NVIDIA Ventures",
+          "Amazon Industrial Innovation Fund"
+        ],
+        "url": "https://www.therobotreport.com/dyna-robotics-closes-120m-funding-round-to-scale-robotics-foundation-model/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 120000000,
+    "latest_valuation_usd": 600000000,
+    "robot_types": [
+      "foundation_model"
+    ],
+    "primary_use_case": "dexterous manipulation foundation models",
+    "flagship_product": "DYNA-1 (dexterous manipulation foundation model)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Lindon Gao",
+        "role": "Co-founder & CEO"
+      },
+      {
+        "name": "York Yang",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Jason Ma",
+        "role": "Co-founder"
+      }
+    ],
+    "ceo": "Lindon Gao",
+    "tags": [
+      "physical-ai",
+      "foundation-model",
+      "manipulation",
+      "ai-software"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/dyna-robotics-closes-120m-funding-round-to-scale-robotics-foundation-model/"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/dyna-robotics-raises-120-million-to-advance-robotic-foundation-models-on-the-path-to-physical-artificial-general-intelligence-302556817.html"
+      }
+    ],
+    "last_updated": "2026-06-01",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. DYNA-1 is positioned as the first commercially deployed dexterous-manipulation foundation model, improving via continuous reinforcement learning in real deployments. Series A $120M at a >$600M valuation (Sep 2025); investors include CRV, First Round Capital, NVIDIA Ventures and the Amazon Industrial Innovation Fund. Founders previously sold Caper AI for ~$350M."
+    }
+  },
+  {
+    "id": "bedrock-robotics",
+    "name": "Bedrock Robotics",
+    "founded": "2024",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.bedrockrobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2025-07",
+        "round": "Seed + Series A",
+        "amount_usd": 80000000,
+        "valuation_usd": null,
+        "investors": [
+          "8VC",
+          "Eclipse",
+          "NVentures"
+        ],
+        "url": "https://www.prnewswire.com/news-releases/bedrock-robotics-emerges-from-stealth-with-80m-in-funding-for-autonomous-construction-technology-302506159.html",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-02",
+        "round": "Series B",
+        "amount_usd": 270000000,
+        "valuation_usd": 1750000000,
+        "investors": [
+          "CapitalG",
+          "8VC",
+          "Eclipse",
+          "NVentures",
+          "Emergence Capital"
+        ],
+        "url": "https://www.prnewswire.com/news-releases/bedrock-robotics-raises-270-million-in-series-b-funding-to-accelerate-the-future-of-autonomous-construction-302679014.html",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 350000000,
+    "latest_valuation_usd": 1750000000,
+    "robot_types": [
+      "autonomous vehicle",
+      "AMR"
+    ],
+    "primary_use_case": "autonomous construction equipment",
+    "flagship_product": "Bedrock Operator (autonomy retrofit kit)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Boris Sofman",
+        "role": "Co-founder & CEO"
+      },
+      {
+        "name": "Kevin Peterson",
+        "role": "Co-founder & CTO"
+      }
+    ],
+    "ceo": "Boris Sofman",
+    "tags": [
+      "physical-ai",
+      "construction",
+      "autonomy",
+      "unicorn"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/bedrock-robotics-raises-270-million-in-series-b-funding-to-accelerate-the-future-of-autonomous-construction-302679014.html"
+      },
+      {
+        "url": "https://www.constructiondive.com/news/bedrock-robotics-raise-ai-automation-funding/811982/"
+      }
+    ],
+    "last_updated": "2026-06-01",
+    "themes": [
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. Retrofits existing heavy construction equipment with an autonomy kit (lidar, GPS, motion sensors) — the \"Bedrock Operator.\" Founded by former Waymo leaders (incl. the head of its trucking program). Emerged from stealth July 2025 with $80M; Series B $270M at a $1.75B post-money valuation (Feb 2026), total raised >$350M. Targeting first fully autonomous excavator deployments in 2026."
     }
   }
 ]

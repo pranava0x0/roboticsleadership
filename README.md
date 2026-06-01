@@ -13,14 +13,16 @@ docs/                  static site, publish root
   index.html           dashboard
   companies.html       directory + detail panel
   policies.html        bills + state incentives
+  states.html          state-policy overview (key themes + what's on the books)
   news.html            feed
   themes.html          deep-dives
   assets/
-    styles.css         design system tokens + components
+    styles.css         design system tokens + components (incl. BLUF callout)
     app.js             shared utilities (fetch, format, theme toggle)
   data/
     companies.json     ~30 companies, funding rounds, deployments
     policies.json      federal bills, state incentive programs
+    state_policy.json  curated state-policy themes (delivery robots, AV, incentives, clusters, AI preemption)
     news.json          news + research items
     themes.json        cross-cutting narratives
     sources.json       scraper config
@@ -28,7 +30,7 @@ docs/                  static site, publish root
 scripts/               Node.js scrapers (Node 18+, no deps)
   scraper-news.js      RSS aggregator (Federal Register, IEEE Spectrum, TechCrunch)
   scraper-policy.js    Federal Register search
-  validate.js          schema check across all four data files
+  validate.js          schema check across all data files (now incl. state_policy)
 ```
 
 ---

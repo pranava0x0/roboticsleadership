@@ -1,0 +1,88 @@
+[
+  {
+    "id": "state-delivery-robots",
+    "title": "Sidewalk & delivery robots (PDD laws)",
+    "direction": "Accelerating",
+    "summary": "States — not Congress — decide whether autonomous delivery robots can use sidewalks and roads. Over 20 states have passed 'personal delivery device' (PDD) statutes, most granting robots pedestrian-like rights with guardrails. The frontier in 2026 is local pushback: cities weighing surcharges, curfews, and sidewalk-clutter limits.",
+    "key_points": [
+      "20+ states authorize sidewalk/PDD operation; Pennsylvania (2021) classifies delivery robots as 'pedestrians'.",
+      "Common guardrails: speed caps (often <10 mph), weight limits, yield-to-pedestrian rules, and mandatory liability insurance.",
+      "2026 flashpoint: Philadelphia introduced a $1,000-per-delivery sidewalk surcharge — the leading edge of municipal cost/curfew rules.",
+      "Liability is unsettled: tort law assumes a human operator, so fault allocation for autonomous devices is being litigated case-by-case."
+    ],
+    "example_states": ["PA", "VA", "FL", "TX", "AZ"],
+    "sources": [
+      { "url": "https://www.supplychaindive.com/news/delivery-robot-bills-laws-proliferate-state-legislatures/648303/", "label": "Supply Chain Dive — delivery-robot bills proliferate" },
+      { "url": "https://www.inquirer.com/politics/philadelphia/uber-delivery-robots-center-city-regulation-20260518.html", "label": "Philadelphia Inquirer — Center City delivery-robot rules (May 2026)" },
+      { "url": "https://www.generalcode.com/blog/autonomous-robot-delivery-legislation/", "label": "General Code — autonomous robot delivery legislation overview" }
+    ]
+  },
+  {
+    "id": "state-autonomous-vehicles",
+    "title": "Autonomous vehicles & robotaxis",
+    "direction": "Accelerating",
+    "summary": "With no comprehensive federal AV law, states set the rules for testing and deploying self-driving vehicles and robotaxis. The result is a 50-state patchwork: some states authorize driverless deployment by statute, others by executive order, and a few still require a human safety operator.",
+    "key_points": [
+      "Most states have enacted AV legislation or executive orders; a smaller set permit fully driverless commercial deployment.",
+      "Robotaxi expansion (Waymo and peers) is governed state-by-state and, in California, by both the DMV and the CPUC.",
+      "Key fault lines: state vs. local control, data-sharing/crash-reporting mandates, and insurance minimums.",
+      "Sensor and perception suppliers (e.g. 4D imaging radar) ride this demand curve — see the Companies tab."
+    ],
+    "example_states": ["CA", "AZ", "TX", "NV", "FL"],
+    "sources": [
+      { "url": "https://www.ncsl.org/transportation/autonomous-vehicles", "label": "NCSL — autonomous vehicles state bill tracker" },
+      { "url": "https://www.therobotreport.com/", "label": "The Robot Report — autonomy coverage" }
+    ]
+  },
+  {
+    "id": "state-incentives-tax-credits",
+    "title": "Incentives, R&D credits & site selection",
+    "direction": "Accelerating",
+    "summary": "States compete hard for robotics manufacturing and jobs using tax credits, R&D incentives, and job-development grants. This is where most of the robotics money the tracker already follows at the state level actually sits — and it is the most actionable lever for founders choosing where to build.",
+    "key_points": [
+      "Texas, Michigan, New York, North Carolina and Pennsylvania all run robotics/automation-relevant incentive programs.",
+      "Mechanisms vary: refundable R&D credits, capital-investment credits, mobility/automation grants, and workforce subsidies.",
+      "Startup eligibility differs widely — some programs require minimum headcount or capex thresholds that exclude early-stage firms.",
+      "These programs are tracked individually on the Policy tab (filter Level = State)."
+    ],
+    "example_states": ["TX", "MI", "NY", "NC", "PA"],
+    "sources": [
+      { "url": "policies.html?level=State", "label": "This tracker — state incentive programs (Policy tab)" },
+      { "url": "https://www.ncsl.org/", "label": "NCSL — state economic-development & incentive policy" }
+    ]
+  },
+  {
+    "id": "state-robotics-clusters",
+    "title": "Robotics clusters & workforce pipelines",
+    "direction": "Stable",
+    "summary": "Several states have built durable robotics ecosystems around anchor universities and non-profit hubs. These clusters shape talent flow, spinouts, and where deployment pilots land first — a structural advantage that incentives alone can't buy.",
+    "key_points": [
+      "Pittsburgh (Carnegie Mellon + Pittsburgh Robotics Network) and Massachusetts (MIT/Harvard + MassRobotics) are the two deepest hubs.",
+      "Texas, Michigan (mobility/auto), and California (Bay Area) round out the top tier.",
+      "Workforce policy — community-college automation programs, apprenticeships, reskilling grants — is increasingly bundled with incentives.",
+      "Cluster strength correlates with spinout density (e.g. CMU → Skild AI; see Companies)."
+    ],
+    "example_states": ["PA", "MA", "TX", "MI", "CA"],
+    "sources": [
+      { "url": "https://www.pghrobotics.org/", "label": "Pittsburgh Robotics Network" },
+      { "url": "https://www.massrobotics.org/", "label": "MassRobotics" }
+    ]
+  },
+  {
+    "id": "state-ai-laws-preemption",
+    "title": "State AI laws × autonomous systems & federal preemption",
+    "direction": "Accelerating",
+    "summary": "State AI statutes (California, Colorado and others) increasingly reach automated decision-making and autonomous physical systems. The open question for 2026 is preemption: the March 2026 federal AI policy framework recommends limiting state authority, setting up a state-vs-federal collision that directly affects robotics deployers.",
+    "key_points": [
+      "Colorado's AI Act and California's AI statutes are the templates other states are copying.",
+      "Coverage is creeping from software-only systems toward autonomous physical systems and robotics.",
+      "The federal preemption debate (post-March 2026 framework) could override state robotics/AI rules — or not.",
+      "Compliance teams must now track both layers; a federal-vs-state matrix is on the backlog."
+    ],
+    "example_states": ["CA", "CO", "CT", "TX"],
+    "sources": [
+      { "url": "https://www.ncsl.org/technology-and-communication/artificial-intelligence", "label": "NCSL — artificial intelligence legislation tracker" },
+      { "url": "policies.html?focus=americas-ai-action-plan", "label": "This tracker — America's AI Action Plan" }
+    ]
+  }
+]

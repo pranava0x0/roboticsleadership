@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="State-level robotics policy — sidewalk/delivery robot laws, autonomous-vehicle rules, incentives, clusters, and the AI preemption fight. What's out there, the key themes, and where to go deeper." />
+  <title>State Policy · Robotics Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Orbitron:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
+  <script>
+    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <style>
+    .sp-theme-grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); margin-top: 8px; }
+    .sp-card { display: flex; flex-direction: column; gap: 10px; }
+    .sp-card h3.card-title { margin: 0; }
+    .sp-card .sp-summary { font-size: 13.5px; line-height: 1.55; color: var(--text); margin: 0; }
+    .sp-card ul.sp-points { margin: 2px 0 0; padding-left: 18px; display: flex; flex-direction: column; gap: 5px; }
+    .sp-card ul.sp-points li { font-size: 13px; line-height: 1.45; color: var(--text-muted); }
+    .sp-states { display: flex; flex-wrap: wrap; gap: 5px; }
+    .sp-links { display: flex; flex-direction: column; gap: 4px; margin-top: 2px; }
+    .sp-links a { font-size: 12.5px; }
+    .sp-deeper-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-top: 2px; }
+  </style>
+  <link rel="preload" as="fetch" href="data/state_policy.json" crossorigin />
+  <link rel="preload" as="fetch" href="data/policies.json" crossorigin />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header" role="banner">
+    <div class="site-header-inner">
+      <a href="index.html" class="header-updated" aria-label="Home — last data refresh">
+        <span class="header-updated-label">Updated</span>
+        <span class="header-updated-date tnum">—</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="index.html">Dashboard</a>
+        <a href="companies.html">Companies</a>
+        <a href="policies.html">Policy</a>
+        <a href="states.html">States</a>
+        <a href="themes.html">Themes</a>
+      </nav>
+      <details class="theme-picker" id="theme-picker">
+        <summary aria-label="Theme picker">
+          <span class="theme-picker-current">Dawn</span>
+          <svg class="theme-picker-chevron" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="theme-picker-menu" role="radiogroup" aria-label="Choose theme">
+          <label class="theme-option"><input type="radio" name="theme" value="caves"><span class="theme-option-name">Caves of Steel</span><span class="theme-option-tag">Earth</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Cosmic</span></label>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+    <p class="eyebrow">State & local policy</p>
+    <h1 class="page-title">State robotics policy.</h1>
+    <p class="page-lede">
+      Where robots are actually allowed to operate is decided in statehouses and city councils, not just Congress. This is the lay of the land: the key themes, what's already on the books, and where to read further.
+    </p>
+
+    <aside class="bluf" aria-label="Bottom line up front">
+      <span class="bluf-tag">Bottom line</span>
+      <p class="bluf-body">
+        <strong>The states are the rulebook.</strong> 20+ states authorize sidewalk delivery robots, nearly all regulate autonomous-vehicle testing, and a competitive thicket of tax credits courts robotics jobs — while state AI laws creep toward autonomous physical systems and a federal preemption fight looms. There is no single national framework, so the map <em>is</em> the policy.
+      </p>
+    </aside>
+
+    <div class="kpi-strip cols-4" id="sp-kpis" aria-label="State policy indicators">
+      <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+      <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+      <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+      <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+    </div>
+
+    <h2 class="section-title">Key themes</h2>
+    <p class="muted" style="font-size:13px;margin:-4px 0 14px;">The five threads that define state-level robotics policy in 2026. Each card links out to primary sources.</p>
+    <div class="sp-theme-grid" id="sp-themes"></div>
+
+    <details class="collapsible-section" id="sec-onbooks" open>
+      <summary>
+        <h2 class="section-title">What's already on the books</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">State and local policy records this tracker already follows. Click through for the full detail on the Policy tab.</p>
+      </summary>
+      <div class="table-wrap">
+        <table class="data-table" id="sp-onbooks-table">
+          <thead>
+            <tr>
+              <th>State</th>
+              <th>Program / law</th>
+              <th class="hide-mobile">Type</th>
+              <th class="hide-mobile">Status</th>
+              <th class="hide-mobile">Startup eligible</th>
+            </tr>
+          </thead>
+          <tbody id="sp-onbooks-tbody">
+            <tr><td colspan="5" class="muted center">Loading state records…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+
+    <div id="sp-empty" class="empty-state" hidden>No state or local records tracked yet.</div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Curated overview with primary-source citations. State law changes fast — every theme links out so you can verify the current text. See also <a href="policies.html">federal policy</a>.</p>
+  </footer>
+
+  <script src="assets/app.js" defer></script>
+  <script defer>
+  document.addEventListener('DOMContentLoaded', async () => {
+    const [statePolicy, policies] = await Promise.all([
+      RT.loadData('state_policy'),
+      RT.loadData('policies'),
+    ]);
+
+    const stateRecords = policies.filter(p => p.level === 'State' || p.level === 'City');
+
+    // ---------- KPIs ----------
+    const statesRepresented = new Set(
+      stateRecords.map(p => p.state).filter(s => s && s !== 'N/A')
+    ).size;
+    const startupEligible = stateRecords.filter(p => p.startup_eligible).length;
+    const kpis = [
+      { label: 'Policy themes', value: String(statePolicy.length), sub: 'cross-cutting state threads' },
+      { label: 'Tracked records', value: String(stateRecords.length), sub: 'state + local programs/laws' },
+      { label: 'States represented', value: String(statesRepresented), sub: 'with a tracked record' },
+      { label: 'Startup-eligible', value: String(startupEligible), sub: 'programs open to early-stage' },
+    ];
+    document.getElementById('sp-kpis').innerHTML = kpis.map(k => `
+      <div class="kpi-card">
+        <span class="kpi-label">${RT.escapeHTML(k.label)}</span>
+        <span class="kpi-value tnum">${RT.escapeHTML(k.value)}</span>
+        <span class="kpi-sub">${RT.escapeHTML(k.sub)}</span>
+      </div>
+    `).join('');
+
+    // ---------- Theme cards ----------
+    document.getElementById('sp-themes').innerHTML = statePolicy.map(t => {
+      const points = (t.key_points || []).map(p => `<li>${RT.escapeHTML(p)}</li>`).join('');
+      const states = (t.example_states || []).map(s => `<span class="pill outline">${RT.escapeHTML(s)}</span>`).join('');
+      const links = (t.sources || []).map(s => link(s)).join('');
+      return `
+        <article class="card sp-card">
+          <div class="row" style="gap:6px;">
+            <span class="pill dir-${RT.slug(t.direction)}">${RT.escapeHTML(t.direction)}</span>
+          </div>
+          <h3 class="card-title">${RT.escapeHTML(t.title)}</h3>
+          <p class="sp-summary">${RT.escapeHTML(t.summary)}</p>
+          ${points ? `<ul class="sp-points">${points}</ul>` : ''}
+          ${states ? `<div class="sp-states">${states}</div>` : ''}
+          ${links ? `<span class="sp-deeper-label">Go deeper</span><div class="sp-links">${links}</div>` : ''}
+        </article>
+      `;
+    }).join('');
+
+    // ---------- "On the books" table ----------
+    const tbody = document.getElementById('sp-onbooks-tbody');
+    if (stateRecords.length) {
+      const sorted = RT.sortBy(stateRecords, p => p.state || '', 'asc');
+      tbody.innerHTML = sorted.map(p => `
+        <tr tabindex="0" role="link"
+            data-href="policies.html?focus=${encodeURIComponent(p.id)}">
+          <td><strong class="mono">${RT.escapeHTML(p.state || '—')}</strong></td>
+          <td>${RT.escapeHTML(p.title)}<span class="secondary-line">${RT.escapeHTML(p.robotics_scope || '')}</span></td>
+          <td class="hide-mobile">${RT.escapeHTML(p.type || '—')}</td>
+          <td class="hide-mobile">${statusPill(p.status)}</td>
+          <td class="hide-mobile">${p.startup_eligible ? '<span class="pill positive">Eligible</span>' : '<span class="pill outline">Limited</span>'}</td>
+        </tr>
+      `).join('');
+      tbody.querySelectorAll('tr[data-href]').forEach(tr => {
+        const go = () => { window.location.href = tr.dataset.href; };
+        tr.addEventListener('click', go);
+        tr.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); }
+        });
+      });
+    } else {
+      tbody.innerHTML = '';
+      document.getElementById('sp-empty').hidden = false;
+    }
+
+    // ---------- helpers ----------
+    function link(s) {
+      const url = RT.sourceURL(s);
+      const label = (s && s.label) || url;
+      const external = /^https?:\/\//.test(url);
+      const attrs = external ? ' target="_blank" rel="noopener"' : '';
+      const arrow = external ? ' ↗' : ' →';
+      return `<a href="${RT.escapeHTML(url)}"${attrs}>${RT.escapeHTML(label)}${arrow}</a>`;
+    }
+    function statusPill(s) {
+      if (!s) return '';
+      const map = {
+        'Introduced': 'mixed', 'Committee': 'mixed', 'Passed House': 'positive',
+        'Passed Senate': 'positive', 'Signed': 'positive', 'In effect': 'positive',
+        'Expired': 'outline', 'Active': 'positive', 'In development': 'mixed', 'Draft': 'outline',
+      };
+      return `<span class="pill ${map[s] || 'outline'}">${RT.escapeHTML(s)}</span>`;
+    }
+  });
+  </script>
+</body>
+</html>

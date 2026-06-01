@@ -10,6 +10,23 @@ const DATA_DIR = resolve(ROOT, 'docs/data');
 const newsFile = resolve(DATA_DIR, 'news.json');
 const sourcesFile = resolve(DATA_DIR, 'sources.json');
 
+// Decode HTML entities that survive RSS feeds (numeric &#NNN;/&#xNN; and the
+// common named ones). Storage holds literal characters; the render layer
+// (escapeHTML in app.js) re-escapes on output, so this stays XSS-safe.
+const NAMED_ENTITIES = {
+  amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
+  rsquo: '’', lsquo: '‘', ldquo: '“', rdquo: '”',
+  mdash: '—', ndash: '–', hellip: '…'
+};
+export function decodeEntities(str) {
+  if (!str) return str;
+  return str
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, dec) => String.fromCodePoint(parseInt(dec, 10)))
+    .replace(/&(amp|lt|gt|quot|apos|nbsp|rsquo|lsquo|ldquo|rdquo|mdash|ndash|hellip);/g,
+      (m, name) => NAMED_ENTITIES[name] ?? m);
+}
+
 // Extremely simple XML/RSS regex parser
 function parseRSS(xmlStr) {
   const items = [];
@@ -24,10 +41,10 @@ function parseRSS(xmlStr) {
 
     if (titleMatch && linkMatch) {
       items.push({
-        title: (titleMatch[1] || titleMatch[2] || '').trim(),
+        title: decodeEntities((titleMatch[1] || titleMatch[2] || '').trim()),
         link: linkMatch[1].trim(),
         pubDate: pubDateMatch ? pubDateMatch[1].trim() : new Date().toISOString(),
-        description: (descMatch ? (descMatch[1] || descMatch[2] || '') : '').replace(/<[^>]*>?/gm, '').trim()
+        description: decodeEntities((descMatch ? (descMatch[1] || descMatch[2] || '') : '').replace(/<[^>]*>?/gm, '').trim())
       });
     }
   }
@@ -127,7 +144,11 @@ async function main() {
   writeFileSync(sourcesFile, JSON.stringify(sourcesData, null, 2));
 }
 
-main().catch(err => {
-  console.error(err);
-  process.exit(1);
-});
+// Only run the scraper when invoked directly, so importing decodeEntities
+// (e.g. from the regression test) doesn't trigger network fetches.
+if (process.argv[1] && resolve(process.argv[1]) === __filename) {
+  main().catch(err => {
+    console.error(err);
+    process.exit(1);
+  });
+}

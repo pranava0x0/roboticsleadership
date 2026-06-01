@@ -68,7 +68,7 @@
   {
     "id": "foundation-models",
     "name": "Robotics Foundation Models",
-    "narrative": "The bet that one large model can drive many robot bodies is now well-funded: Skild AI raised $1.4B at a $14B+ valuation in January 2026; Physical Intelligence raised $470M at $2.4B by late 2024 and open-sourced its π0 weights. The unresolved question is whether the right architecture is closed-source-and-vertically-integrated (Figure, Tesla, Apptronik building model + body) or open-source-and-horizontal (Physical Intelligence). Outcome shapes the next decade of robotics IP.",
+    "narrative": "The bet that one large model can drive many robot bodies is now well-funded: Skild AI raised $1.4B at a $14B+ valuation in January 2026; Physical Intelligence open-sourced its π0 weights and by late 2025 had raised ~$1.5B total (a $600M Series B at a $5.6B valuation, with talks of an $11B+ round). The unresolved question is whether the right architecture is closed-source-and-vertically-integrated (Figure, Tesla, Apptronik building model + body) or open-source-and-horizontal (Physical Intelligence). Outcome shapes the next decade of robotics IP.",
     "direction": "Accelerating",
     "key_metrics": [
       {
@@ -81,10 +81,10 @@
       },
       {
         "name": "Physical Intelligence valuation",
-        "value": 2400000000,
+        "value": 5600000000,
         "unit": "USD",
-        "date": "2024-11",
-        "source_url": "https://www.physicalintelligence.company/blog",
+        "date": "2025-11",
+        "source_url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/",
         "archive_url": "https://web.archive.org/web/20251212133427/https://www.physicalintelligence.company/blog"
       },
       {
@@ -114,7 +114,7 @@
       "Open-source model + dataset support via NSF",
       "Light-touch on foundation-model regulation pending NIST AI RMF maturity"
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-06-01"
   },
   {
     "id": "cost-trajectory",
@@ -321,5 +321,67 @@
       "Coalition (Robots For America) testimony at upcoming House Science / Armed Services hearings"
     ],
     "last_updated": "2026-05-17"
+  },
+  {
+    "id": "physical-ai",
+    "name": "Physical AI (\"AI with a body\")",
+    "narrative": "Physical AI — AI systems that perceive, reason about and act on the material world — became the dominant venture framing of 2026. Eclipse Ventures raised a dedicated $1.3B physical-AI fund (Apr 2026), and a16z, Lux, CapitalG, NVIDIA and SoftBank are all backing the category. Two layers are forming: (1) horizontal robot foundation-model labs (Physical Intelligence, Skild, Field AI, Generalist, Dyna) selling a \"brain\" that runs across many bodies, and (2) vertical players embedding embodied AI into specific machines — driving (Wayve), construction (Bedrock), delivery (Serve). The open question mirrors the foundation-models debate: does the value accrue to the model, the body, or the deployment?",
+    "direction": "Accelerating",
+    "key_metrics": [
+      {
+        "name": "Eclipse Ventures physical-AI fund",
+        "value": 1300000000,
+        "unit": "USD",
+        "date": "2026-04",
+        "source_url": "https://techcrunch.com/2026/04/07/vc-eclipse-has-a-new-1-3b-to-back-and-build-physical-ai-startups/"
+      },
+      {
+        "name": "Field AI valuation",
+        "value": 2000000000,
+        "unit": "USD",
+        "date": "2025-08",
+        "source_url": "https://www.therobotreport.com/fieldai-raises-405m-scales-physics-first-foundation-models-robots/"
+      },
+      {
+        "name": "Wayve Series D valuation",
+        "value": 8600000000,
+        "unit": "USD",
+        "date": "2026-02",
+        "source_url": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/"
+      }
+    ],
+    "narrative_sources": [
+      {
+        "label": "TechCrunch — Eclipse $1.3B physical-AI fund",
+        "url": "https://techcrunch.com/2026/04/07/vc-eclipse-has-a-new-1-3b-to-back-and-build-physical-ai-startups/"
+      },
+      {
+        "label": "a16z — AI for the Physical World",
+        "url": "https://a16z.com/ai-for-the-physical-world/"
+      },
+      {
+        "label": "NVIDIA — taking Physical AI to the real world",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world"
+      }
+    ],
+    "related_companies": [
+      "physical-intelligence",
+      "skild-ai",
+      "field-ai",
+      "generalist-ai",
+      "dyna-robotics",
+      "wayve",
+      "bedrock-robotics",
+      "figure-ai",
+      "serve-robotics"
+    ],
+    "related_policies": [],
+    "government_intervention_ready": false,
+    "recommended_actions": [
+      "Treat robot foundation models as dual-use; track compute + data access alongside the AI Action Plan",
+      "Fund shared real-world robot data / sim infrastructure (NSF / NAIRR analogue) so value is not captured only by the best-capitalized labs",
+      "Watch foreign capital concentration in physical-AI startups for supply-chain + national-security exposure"
+    ],
+    "last_updated": "2026-06-01"
   }
 ]
