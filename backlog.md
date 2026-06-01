@@ -4,6 +4,8 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ## High
 
+- **CI lint: reject floating action tags** — fail the build if any `uses:` in `.github/workflows/` references `@vN` instead of a 40-char commit SHA. Keeps the 2026-06-01 SHA-pinning from regressing. ~15 LOC grep gate.
+- **Render-layer XSS regression test** — feed each renderer a poisoned record (`category`/`title`/`summary` = `x"><img src=x onerror=alert(1)>`) and assert no raw `<`/attribute-breakout survives into emitted markup. Locks in the 2026-06-01 `RT.slug()` + escape fixes.
 - **GitHub Actions cron for scrapers** — daily news, weekly policy. Spec'd but not wired; manual runs only for now.
 - **Per-company comparison view** — Figure vs. Agility vs. 1X vs. Tesla Optimus, side-by-side. Spec calls for this; deferred from v1.
 - **Confidence-scoring rubric** — document what `high / medium / low` means per entity in `data_curation.md`. Without a rubric the field drifts.
