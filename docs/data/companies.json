@@ -54,7 +54,8 @@
           "Qualcomm Ventures"
         ],
         "url": "https://www.figure.ai/news/series-c",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260527021324/https://www.figure.ai/news/series-c"
       }
     ],
     "total_funding_usd": 1745000000,
@@ -149,7 +150,8 @@
           "Mercedes-Benz"
         ],
         "url": "https://apptronik.com/news",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20191216004238/https://apptronik.com/news/"
       },
       {
         "date": "2026-02",
@@ -180,7 +182,8 @@
         "start_date": "2024-03",
         "status": "pilot",
         "use_case": "kitting and assembly line tasks",
-        "source_url": "https://apptronik.com/news"
+        "source_url": "https://apptronik.com/news",
+        "archive_url": "https://web.archive.org/web/20191216004238/https://apptronik.com/news/"
       },
       {
         "customer": "GXO Logistics",
@@ -189,7 +192,8 @@
         "start_date": "2024-12",
         "status": "pilot",
         "use_case": "warehouse handling",
-        "source_url": "https://apptronik.com/news"
+        "source_url": "https://apptronik.com/news",
+        "archive_url": "https://web.archive.org/web/20191216004238/https://apptronik.com/news/"
       }
     ],
     "headcount": 200,
@@ -219,7 +223,8 @@
     "data_confidence": "high",
     "sources": [
       {
-        "url": "https://techcrunch.com/2026/02/11/humanoid-robot-startup-apptronik-has-now-raised-935m-at-a-5b-valuation/"
+        "url": "https://techcrunch.com/2026/02/11/humanoid-robot-startup-apptronik-has-now-raised-935m-at-a-5b-valuation/",
+        "archive_url": "https://web.archive.org/web/20260404145338/https://techcrunch.com/2026/02/11/humanoid-robot-startup-apptronik-has-now-raised-935m-at-a-5b-valuation/"
       },
       {
         "url": "https://www.bloomberg.com/news/articles/2026-02-11/apptronik-raises-520-million-in-new-funding-to-build-more-humanoids"
@@ -301,7 +306,8 @@
         "start_date": "2026-04",
         "status": "pilot",
         "use_case": "household assistance — opening doors, fetching items, lighting control",
-        "source_url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
+        "source_url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/",
+        "archive_url": "https://web.archive.org/web/20260529030912/https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
       }
     ],
     "headcount": null,
@@ -327,10 +333,12 @@
     "data_confidence": "high",
     "sources": [
       {
-        "url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
+        "url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/",
+        "archive_url": "https://web.archive.org/web/20260529030912/https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
       },
       {
-        "url": "https://sifted.eu/articles/1x-humanoid-robot-launch"
+        "url": "https://sifted.eu/articles/1x-humanoid-robot-launch",
+        "archive_url": "https://web.archive.org/web/20251130090543/https://sifted.eu/articles/1x-humanoid-robot-launch"
       }
     ],
     "last_updated": "2026-05-17",
@@ -611,7 +619,8 @@
         "start_date": "2024-01",
         "status": "pilot",
         "use_case": "internal factory tasks — battery cell sorting",
-        "source_url": "https://www.tesla.com/AI"
+        "source_url": "https://www.tesla.com/AI",
+        "archive_url": "https://web.archive.org/web/20250704181649/https://www.tesla.com/AI"
       }
     ],
     "headcount": null,
@@ -636,7 +645,8 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://www.tesla.com/AI"
+        "url": "https://www.tesla.com/AI",
+        "archive_url": "https://web.archive.org/web/20250704181649/https://www.tesla.com/AI"
       }
     ],
     "last_updated": "2026-05-17",
@@ -679,7 +689,8 @@
           "Magna International"
         ],
         "url": "https://www.sanctuary.ai",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260419222610/https://www.sanctuary.ai/"
       },
       {
         "date": "2024-04",
@@ -690,7 +701,8 @@
           "Government of Canada"
         ],
         "url": "https://www.sanctuary.ai",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260419222610/https://www.sanctuary.ai/"
       }
     ],
     "total_funding_usd": 84300000,
@@ -708,7 +720,8 @@
         "start_date": "2024-04",
         "status": "pilot",
         "use_case": "automotive assembly tasks",
-        "source_url": "https://www.sanctuary.ai"
+        "source_url": "https://www.sanctuary.ai",
+        "archive_url": "https://web.archive.org/web/20260419222610/https://www.sanctuary.ai/"
       }
     ],
     "headcount": 110,
@@ -736,7 +749,8 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://www.sanctuary.ai"
+        "url": "https://www.sanctuary.ai",
+        "archive_url": "https://web.archive.org/web/20260419222610/https://www.sanctuary.ai/"
       }
     ],
     "last_updated": "2026-05-17",
@@ -1697,7 +1711,8 @@
           "L3Harris"
         ],
         "url": "https://shield.ai",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260528221530/https://shield.ai/"
       }
     ],
     "total_funding_usd": 1200000000,
@@ -1715,7 +1730,8 @@
         "start_date": "2018-01",
         "status": "active",
         "use_case": "autonomous aerial reconnaissance + edge AI",
-        "source_url": "https://shield.ai"
+        "source_url": "https://shield.ai",
+        "archive_url": "https://web.archive.org/web/20260528221530/https://shield.ai/"
       }
     ],
     "headcount": 1100,
@@ -1744,7 +1760,8 @@
     "data_confidence": "high",
     "sources": [
       {
-        "url": "https://shield.ai"
+        "url": "https://shield.ai",
+        "archive_url": "https://web.archive.org/web/20260528221530/https://shield.ai/"
       }
     ],
     "last_updated": "2026-05-17",
