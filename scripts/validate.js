@@ -106,6 +106,26 @@ const SCHEMAS = {
       }
     },
   },
+  state_policy: {
+    required: ['id', 'title', 'summary', 'direction', 'sources'],
+    types: {
+      key_points: 'array',
+      example_states: 'array',
+      sources: 'array',
+    },
+    custom: (rec, addError) => {
+      if (!['Accelerating', 'Stable', 'Slowing'].includes(rec.direction)) {
+        addError(`direction "${rec.direction}" not in {Accelerating, Stable, Slowing}`);
+      }
+      if (!Array.isArray(rec.sources) || rec.sources.length === 0) {
+        addError('record has no sources[] — every state-policy theme must cite at least one source');
+      }
+      (rec.sources || []).forEach((s, i) => {
+        if (s && typeof s === 'object' && typeof s.url === 'string') return;
+        addError(`sources[${i}] must be a { url, label? } object`);
+      });
+    },
+  },
   agencies: {
     required: ['id', 'name', 'full_name', 'parent', 'url', 'show_in_rd_table', 'notes'],
     types: {
@@ -244,7 +264,7 @@ function main() {
   const requested = process.argv[2];
   const files = requested
     ? [requested]
-    : ['companies', 'policies', 'news', 'themes', 'sources', 'agencies'];
+    : ['companies', 'policies', 'news', 'themes', 'sources', 'agencies', 'state_policy'];
 
   let allOk = true;
   for (const name of files) {
