@@ -1,12 +1,194 @@
 [
   {
+    "id": "news-eclipse-physical-ai-fund-2026",
+    "title": "Eclipse Ventures launches $1.3B fund to back and build \"physical AI\" startups",
+    "date": "2026-04-07",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/04/07/vc-eclipse-has-a-new-1-3b-to-back-and-build-physical-ai-startups/",
+    "summary": "Eclipse Ventures closed a $1.3B fund dedicated to \"physical AI\" — robotics, manufacturing, AV and defense — split between early-stage incubation and growth, underscoring how central the category has become to venture capital.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "physical-ai",
+      "funding",
+      "curated"
+    ]
+  },
+  {
+    "id": "news-dyna-120m-2025",
+    "title": "Dyna Robotics raises $120M to scale its DYNA-1 manipulation foundation model",
+    "date": "2025-09-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/dyna-robotics-closes-120m-funding-round-to-scale-robotics-foundation-model/",
+    "summary": "Dyna Robotics raised $120M (Series A) at a >$600M valuation to scale DYNA-1, positioned as the first commercially deployed dexterous-manipulation foundation model. Investors include CRV, First Round Capital, NVIDIA Ventures and the Amazon Industrial Innovation Fund.",
+    "category": "Funding",
+    "companies": [
+      "dyna-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "physical-ai",
+      "funding",
+      "curated"
+    ]
+  },
+  {
+    "id": "news-bedrock-270m-2026",
+    "title": "Bedrock Robotics raises $270M Series B at $1.75B for autonomous construction",
+    "date": "2026-02-04",
+    "source": "PR Newswire",
+    "source_type": "News",
+    "source_url": "https://www.prnewswire.com/news-releases/bedrock-robotics-raises-270-million-in-series-b-funding-to-accelerate-the-future-of-autonomous-construction-302679014.html",
+    "summary": "Bedrock Robotics, founded by ex-Waymo leaders, raised $270M (Series B) at a $1.75B post-money valuation to retrofit heavy construction equipment with its autonomy kit, targeting first fully autonomous excavator deployments in 2026.",
+    "category": "Funding",
+    "companies": [
+      "bedrock-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "physical-ai",
+      "funding",
+      "curated"
+    ]
+  },
+  {
+    "id": "news-wayve-1-2b-2026",
+    "title": "Wayve raises $1.2B Series D at $8.6B for embodied-AI self-driving",
+    "date": "2026-02-24",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
+    "summary": "UK-based Wayve raised $1.2B (Series D) at an $8.6B post-money valuation, led by Eclipse, Balderton and SoftBank Vision Fund 2, to deploy its end-to-end embodied-AI driving models with automakers.",
+    "category": "Funding",
+    "companies": [
+      "wayve"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "physical-ai",
+      "funding",
+      "curated"
+    ]
+  },
+  {
+    "id": "news-field-ai-405m-2025",
+    "title": "Field AI raises $405M at $2B valuation for physics-first robot foundation models",
+    "date": "2025-08-20",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/fieldai-raises-405m-scales-physics-first-foundation-models-robots/",
+    "summary": "Field AI raised $405M (Series D) at a $2B valuation to scale its \"physics-first\" Field Foundation Models, which aim to let robots operate across embodiments without maps or task-specific training. Backers include Bill Gates, Bezos Expeditions and NVIDIA.",
+    "category": "Funding",
+    "companies": [
+      "field-ai"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "physical-ai",
+      "funding",
+      "curated"
+    ]
+  },
+  {
+    "id": "news-physical-intelligence-600m-2025",
+    "title": "Physical Intelligence raises $600M at a $5.6B valuation for robot foundation models",
+    "date": "2025-11",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/",
+    "summary": "Physical Intelligence closed a $600M round led by CapitalG at a $5.6B valuation, bringing reported total funding to roughly $1.5B for its open vision-language-action robot foundation models.",
+    "category": "Funding",
+    "companies": [
+      "physical-intelligence"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "physical-ai",
+      "funding",
+      "curated"
+    ]
+  },
+  {
+    "id": "rss-top-10-robotics-stories-of-may-634",
+    "title": "Top 10 robotics stories of May 2026",
+    "date": "2026-06-01",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/",
+    "summary": "May 2026 was a busy month full of robotics news, and it was topped off by the Robotics Summit & Expo in Boston.\nThe post Top 10 robotics stories of May 2026 appeared first on The Robot Report.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-anscer-robotics-closes-series-526",
+    "title": "ANSCER Robotics closes Series A round for industrial material handling",
+    "date": "2026-06-01",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/anscer-robotics-closes-series-a-round-industrial-material-handling/",
+    "summary": "ANSCER Robotics has raised $5.4 million to scale its hybrid industrial automation robots in North America and globally.\nThe post ANSCER Robotics closes Series A round for industrial material handling ...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "rss-a-guide-to-everything-happenin-30",
-    "title": "A guide to everything happening at the 2026 Robotics Summit &#038; Expo",
+    "title": "A guide to everything happening at the 2026 Robotics Summit & Expo",
     "date": "2026-05-26",
     "source": "the-robot-report",
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/a-guide-to-everything-happening-at-the-2026-robotics-summit-expo/",
-    "summary": "Over the next two days, the Robotics Summit &#038; Expo will bring thousands of attendees and hundreds of exhibitors to Boston. \nThe post A guide to everything happening at the 2026 Robotics Summit &#...",
+    "summary": "Over the next two days, the Robotics Summit & Expo will bring thousands of attendees and hundreds of exhibitors to Boston. \nThe post A guide to everything happening at the 2026 Robotics Summit &#...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -38,12 +220,12 @@
   },
   {
     "id": "rss-allient-to-demonstrate-advance-359",
-    "title": "Allient to demonstrate advanced motion control systems at 2026 Robotics Summit &#038; Expo",
+    "title": "Allient to demonstrate advanced motion control systems at 2026 Robotics Summit & Expo",
     "date": "2026-05-26",
     "source": "the-robot-report",
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/allient-demonstrates-advanced-motion-control-systems-2026-robotics-summit-expo/",
-    "summary": "Allient will exhibit and demonstrate a range of its motion and control technologies at the Robotics Summit &#038; Expo in Boston this week.\nThe post Allient to demonstrate advanced motion control syst...",
+    "summary": "Allient will exhibit and demonstrate a range of its motion and control technologies at the Robotics Summit & Expo in Boston this week.\nThe post Allient to demonstrate advanced motion control syst...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -57,12 +239,12 @@
   },
   {
     "id": "rss-xela-robotics-to-show-tactile-768",
-    "title": "XELA Robotics to show tactile sensing at the 2026 Robotics Summit &#038; Expo",
+    "title": "XELA Robotics to show tactile sensing at the 2026 Robotics Summit & Expo",
     "date": "2026-05-26",
     "source": "the-robot-report",
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/xela-robotics-show-tactile-sensing-2026-robotics-summit-expo/",
-    "summary": "XELA Robotics will show at the Robotics Summit &#038; Expo its improved magnetic interference compensation and uSkin in the Universal Manipulation Interface.\nThe post XELA Robotics to show tactile sen...",
+    "summary": "XELA Robotics will show at the Robotics Summit & Expo its improved magnetic interference compensation and uSkin in the Universal Manipulation Interface.\nThe post XELA Robotics to show tactile sen...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -133,12 +315,12 @@
   },
   {
     "id": "rss-a-guide-to-day-1-of-the-2026-r-542",
-    "title": "A guide to Day 1 of the 2026 Robotics Summit &#038; Expo",
+    "title": "A guide to Day 1 of the 2026 Robotics Summit & Expo",
     "date": "2026-05-27",
     "source": "the-robot-report",
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/a-guide-to-day-1-of-the-2026-robotics-summit-expo/",
-    "summary": "Today, the Robotics Summit &#038; Expo will be full of insightful talks, hands-on robot demos, and interesting conversations.\nThe post A guide to Day 1 of the 2026 Robotics Summit &#038; Expo appeared...",
+    "summary": "Today, the Robotics Summit & Expo will be full of insightful talks, hands-on robot demos, and interesting conversations.\nThe post A guide to Day 1 of the 2026 Robotics Summit & Expo appeared...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -152,12 +334,12 @@
   },
   {
     "id": "rss-your-guide-to-the-last-day-of-807",
-    "title": "Your guide to the last day of the 2026 Robotics Summit &#038; Expo",
+    "title": "Your guide to the last day of the 2026 Robotics Summit & Expo",
     "date": "2026-05-28",
     "source": "the-robot-report",
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/your-guide-to-the-last-day-of-the-2026-robotics-summit-expo/",
-    "summary": "The fun continues in Boston for the second day of the Robotics Summit &#038; Expo, which includes the Women in Robotics breakfast and more.\nThe post Your guide to the last day of the 2026 Robotics Sum...",
+    "summary": "The fun continues in Boston for the second day of the Robotics Summit & Expo, which includes the Women in Robotics breakfast and more.\nThe post Your guide to the last day of the 2026 Robotics Sum...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -471,12 +653,12 @@
   },
   {
     "id": "rss-exploring-plc-and-robot-integr-668",
-    "title": "Exploring PLC and robot integration with YRG Robotics&#8217; Chris Elston",
+    "title": "Exploring PLC and robot integration with YRG Robotics’ Chris Elston",
     "date": "2026-05-23",
     "source": "the-robot-report",
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/exploring-plc-and-robot-integration-with-yrg-robotics-chris-elston/",
-    "summary": "Chris Elston discusses PLC integration, Yamaha Robotics, and AI's role in advancing automation accessibility and innovation.\nThe post Exploring PLC and robot integration with YRG Robotics&#8217; Chris...",
+    "summary": "Chris Elston discusses PLC integration, Yamaha Robotics, and AI's role in advancing automation accessibility and innovation.\nThe post Exploring PLC and robot integration with YRG Robotics’ Chris...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -490,12 +672,12 @@
   },
   {
     "id": "rss-the-future-of-physical-ai-isn-523",
-    "title": "The future of physical AI isn&#8217;t humanoid; it&#8217;s task-specific and cost-efficient",
+    "title": "The future of physical AI isn’t humanoid; it’s task-specific and cost-efficient",
     "date": "2026-05-23",
     "source": "the-robot-report",
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/future-high-scale-robotics-isnt-humanoid-its-task-specific-cost-efficient-ai/",
-    "summary": "The vice president of physical AI at Hailo explains why the next wave of AI will run locally on specialized machines designed for real-world tasks.\nThe post The future of physical AI isn&#8217;t human...",
+    "summary": "The vice president of physical AI at Hailo explains why the next wave of AI will run locally on specialized machines designed for real-world tasks.\nThe post The future of physical AI isn’t human...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -722,12 +904,12 @@
   },
   {
     "id": "rss-inside-verobotics-8217-edge-ai-804",
-    "title": "Inside Verobotics&#8217; edge AI robotics deployment at NVIDIA&#8217;s Israel campus",
+    "title": "Inside Verobotics’ edge AI robotics deployment at NVIDIA’s Israel campus",
     "date": "2026-05-20",
     "source": "the-robot-report",
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/inside-verobotics-edge-ai-robotics-deployment-at-nvidias-israel-campus/",
-    "summary": "Verobotics said its robot turns vertical surfaces from risky, one-off access zones into repeatable, data-rich robotic workspaces.\nThe post Inside Verobotics&#8217; edge AI robotics deployment at NVIDI...",
+    "summary": "Verobotics said its robot turns vertical surfaces from risky, one-off access zones into repeatable, data-rich robotic workspaces.\nThe post Inside Verobotics’ edge AI robotics deployment at NVIDI...",
     "category": "Deployment",
     "companies": [],
     "policies": [],
@@ -801,12 +983,12 @@
   },
   {
     "id": "rss-locus-array-expands-picking-ab-131",
-    "title": "Locus Array expands picking ability with Nexera Robotics&#8217; NeuraGrasp",
+    "title": "Locus Array expands picking ability with Nexera Robotics’ NeuraGrasp",
     "date": "2026-05-19",
     "source": "the-robot-report",
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/locus-array-expands-picking-ability-with-nexera-robotics-neuragrip/",
-    "summary": "Nexera Robotics' adaptive NeuraGrasp will enable the Locus Array mobile manipulator to pick many more e-commerce SKUs.\nThe post Locus Array expands picking ability with Nexera Robotics&#8217; NeuraGra...",
+    "summary": "Nexera Robotics' adaptive NeuraGrasp will enable the Locus Array mobile manipulator to pick many more e-commerce SKUs.\nThe post Locus Array expands picking ability with Nexera Robotics’ NeuraGra...",
     "category": "Competitive",
     "companies": [
       "locus-robotics"
@@ -827,7 +1009,7 @@
     "source": "the-robot-report",
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/learn-about-latest-logistics-automation-2026-robotics-summit/",
-    "summary": "The 2026 Robotics Summit &#038; Expo, which takes place May 27 and 28, will feature an entire session track focused on robots in logistics.\nThe post Learn about the latest in logistics automation at t...",
+    "summary": "The 2026 Robotics Summit & Expo, which takes place May 27 and 28, will feature an entire session track focused on robots in logistics.\nThe post Learn about the latest in logistics automation at t...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -902,7 +1084,7 @@
   },
   {
     "id": "rss-faraday-future-obtains-25m-to-335",
-    "title": "Faraday Future obtains $25M to ship 1,500 robots by year&#8217;s end",
+    "title": "Faraday Future obtains $25M to ship 1,500 robots by year’s end",
     "date": "2026-05-18",
     "source": "the-robot-report",
     "source_type": "News",
@@ -1253,7 +1435,7 @@
   },
   {
     "id": "rss-korea-8217-s-biggest-manufactu-820",
-    "title": "Korea&#8217;s biggest manufacturers back Config, the TSMC of robot data",
+    "title": "Korea’s biggest manufacturers back Config, the TSMC of robot data",
     "date": "2026-05-11",
     "source": "techcrunch-robotics-tag",
     "source_type": "News",
@@ -1563,7 +1745,7 @@
   },
   {
     "id": "rss-colby-adcock-8217-s-scout-ai-r-536",
-    "title": "Colby Adcock&#8217;s Scout AI raises $100M to train its models for war: We visited its bootcamp",
+    "title": "Colby Adcock’s Scout AI raises $100M to train its models for war: We visited its bootcamp",
     "date": "2026-04-29",
     "source": "techcrunch-robotics-tag",
     "source_type": "News",
@@ -1803,7 +1985,7 @@
   },
   {
     "id": "rss-chef-robotics-escaped-the-robo-447",
-    "title": "Chef Robotics escaped the robot cooking graveyard and says it&#8217;s thriving &#8212; here&#8217;s why",
+    "title": "Chef Robotics escaped the robot cooking graveyard and says it’s thriving — here’s why",
     "date": "2026-04-17",
     "source": "techcrunch-robotics-tag",
     "source_type": "News",
