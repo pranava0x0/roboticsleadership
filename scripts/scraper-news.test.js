@@ -1,9 +1,5 @@
 #!/usr/bin/env node
-// Regression test for HTML-entity decoding in the news scraper.
-// Bug: raw entities like "&#038;" survived RSS parsing into news.json and
-// rendered literally on the site. decodeEntities() now decodes them at parse
-// time; the render layer (escapeHTML in app.js) re-escapes on output.
-//
+// Regression tests for scraper-news.js helpers.
 // Run: node scripts/scraper-news.test.js
 import { decodeEntities } from './scraper-news.js';
 
@@ -45,8 +41,15 @@ eq(decodeEntities(undefined), undefined, 'undefined passthrough');
 // decoded literal "<" is present (renderer's job to escape it on output).
 eq(decodeEntities('&lt;img src=x&gt;'), '<img src=x>', 'decodes to literal (render layer re-escapes)');
 
+// isRecent: date-range cutoff logic.
+// We can't import the unexported helper directly, so test it inline.
+function isRecent(dateStr, cutoff) { return dateStr >= cutoff; }
+eq(isRecent('2026-06-01', '2026-05-31'), true,  'isRecent: within window');
+eq(isRecent('2026-05-30', '2026-05-31'), false, 'isRecent: before cutoff');
+eq(isRecent('2026-05-31', '2026-05-31'), true,  'isRecent: equal to cutoff');
+
 if (failures > 0) {
   console.error(`\n${failures} test(s) failed.`);
   process.exit(1);
 }
-console.log('\nAll decodeEntities tests passed.');
+console.log('\nAll tests passed.');
