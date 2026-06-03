@@ -10,6 +10,16 @@ const DATA_DIR = resolve(ROOT, 'docs/data');
 const newsFile = resolve(DATA_DIR, 'news.json');
 const sourcesFile = resolve(DATA_DIR, 'sources.json');
 
+// Parse --days=N from argv (default: 3)
+function parseDays() {
+  const arg = process.argv.find(a => a.startsWith('--days='));
+  if (arg) {
+    const n = parseInt(arg.split('=')[1], 10);
+    if (!isNaN(n) && n > 0) return n;
+  }
+  return 3;
+}
+
 // Decode HTML entities that survive RSS feeds (numeric &#NNN;/&#xNN; and the
 // common named ones). Storage holds literal characters; the render layer
 // (escapeHTML in app.js) re-escapes on output, so this stays XSS-safe.
@@ -51,97 +61,215 @@ function parseRSS(xmlStr) {
   return items;
 }
 
+function categorize(text) {
+  const t = text.toLowerCase();
+  if (t.includes('funding') || t.includes('raised') || t.includes('series')) return 'Funding';
+  if (t.includes('policy') || t.includes('bill') || t.includes('regulation')) return 'Policy';
+  if (t.includes('research') || t.includes('paper') || t.includes('study')) return 'Research';
+  if (t.includes('deploy') || t.includes('pilot') || t.includes('customer')) return 'Deployment';
+  return 'Competitive';
+}
+
+function makeId(title) {
+  let slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  if (slug.length > 30) slug = slug.substring(0, 30).replace(/-$/, '');
+  return `rss-${slug}-${Math.floor(Math.random() * 1000)}`;
+}
+
+function toDateStr(raw) {
+  try {
+    const d = new Date(raw);
+    if (!isNaN(d.valueOf())) return d.toISOString().split('T')[0];
+  } catch (_) {}
+  return new Date().toISOString().split('T')[0];
+}
+
+// Returns true if dateStr is within the last `days` calendar days.
+function isRecent(dateStr, cutoff) {
+  return dateStr >= cutoff;
+}
+
+async function handleRss(source, news, existingUrls, cutoff, today) {
+  console.log(`Fetching RSS from ${source.url}...`);
+  const res = await fetch(source.url, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+    }
+  });
+  if (!res.ok) {
+    console.error(`  Failed: HTTP ${res.status}`);
+    return 0;
+  }
+  const xml = await res.text();
+  const items = parseRSS(xml);
+
+  let added = 0;
+  for (const item of items) {
+    if (existingUrls.has(item.link)) continue;
+    const dateStr = toDateStr(item.pubDate);
+    if (!isRecent(dateStr, cutoff)) continue; // skip items older than cutoff
+
+    const summary = item.description.substring(0, 200) + (item.description.length >= 200 ? '...' : '') || item.title;
+    const record = {
+      id: makeId(item.title),
+      title: item.title,
+      date: dateStr,
+      source: source.id,
+      source_type: 'News',
+      source_url: item.link,
+      summary,
+      category: categorize(item.title + ' ' + item.description),
+      companies: [],
+      policies: [],
+      themes: [],
+      sentiment: 'Neutral',
+      confidence: 'Medium',
+      tags: ['rss-import']
+    };
+    news.unshift(record);
+    existingUrls.add(item.link);
+    added++;
+  }
+  console.log(`  Added ${added} from ${source.id} (cutoff ${cutoff})`);
+  return added;
+}
+
+async function handleFederalRegister(source, news, existingUrls, cutoff, today) {
+  const url = `${source.url}&conditions%5Bpublication_date%5D%5Bgte%5D=${cutoff}&per_page=20`;
+  console.log(`Fetching Federal Register news from ${url}...`);
+  const res = await fetch(url, {
+    headers: { 'User-Agent': 'robotics-tracker/1.0 (https://github.com/pranava0x0/roboticsleadership)' }
+  });
+  if (!res.ok) {
+    console.error(`  Failed: HTTP ${res.status}`);
+    return 0;
+  }
+  const data = await res.json();
+  let added = 0;
+  for (const doc of data.results || []) {
+    if (existingUrls.has(doc.html_url)) continue;
+    const dateStr = doc.publication_date || today;
+    if (!isRecent(dateStr, cutoff)) continue;
+
+    const rawSummary = doc.abstract || doc.title;
+    const summary = rawSummary.substring(0, 200) + (rawSummary.length >= 200 ? '...' : '');
+    const record = {
+      id: `fedreg-news-${doc.document_number}`.toLowerCase(),
+      title: doc.title,
+      date: dateStr,
+      source: source.id,
+      source_type: 'Government',
+      source_url: doc.html_url,
+      summary,
+      category: categorize(doc.title + ' ' + (doc.abstract || '')),
+      companies: [],
+      policies: [],
+      themes: [],
+      sentiment: 'Neutral',
+      confidence: 'Medium',
+      tags: ['federal-register', 'rss-import']
+    };
+    news.unshift(record);
+    existingUrls.add(doc.html_url);
+    added++;
+  }
+  console.log(`  Added ${added} from ${source.id} (cutoff ${cutoff})`);
+  return added;
+}
+
+async function handleReddit(source, news, existingUrls, cutoff, today) {
+  const cutoffTs = new Date(cutoff).getTime() / 1000;
+  const url = `${source.url}?limit=100&sort=new`;
+  console.log(`Fetching Reddit from ${url}...`);
+  const res = await fetch(url, {
+    headers: { 'User-Agent': 'robotics-tracker/1.0 (Node.js; +https://github.com/pranava0x0/roboticsleadership)' }
+  });
+  if (!res.ok) {
+    console.error(`  Failed: HTTP ${res.status}`);
+    return 0;
+  }
+  const data = await res.json();
+  const posts = (data?.data?.children || []).map(c => c.data);
+  const keywords = source.keywords || [];
+
+  let added = 0;
+  for (const post of posts) {
+    if (existingUrls.has(post.url)) continue;
+    if (post.created_utc < cutoffTs) continue; // older than cutoff
+
+    // Keyword filter — only ingest if any keyword appears in title or selftext
+    if (keywords.length > 0) {
+      const txt = (post.title + ' ' + (post.selftext || '')).toLowerCase();
+      if (!keywords.some(k => txt.includes(k.toLowerCase()))) continue;
+    }
+
+    const postUrl = post.url.startsWith('http') ? post.url : `https://www.reddit.com${post.permalink}`;
+    const dateStr = toDateStr(new Date(post.created_utc * 1000).toISOString());
+    const summary = (post.selftext || post.title).substring(0, 200) + ((post.selftext || '').length >= 200 ? '...' : '');
+
+    const record = {
+      id: `reddit-${post.id}`,
+      title: post.title,
+      date: dateStr,
+      source: source.id,
+      source_type: 'Community',
+      source_url: postUrl,
+      summary: summary || post.title,
+      category: categorize(post.title + ' ' + (post.selftext || '')),
+      companies: [],
+      policies: [],
+      themes: [],
+      sentiment: 'Neutral',
+      confidence: 'Low',
+      tags: ['reddit', 'community']
+    };
+    news.unshift(record);
+    existingUrls.add(post.url);
+    added++;
+  }
+  console.log(`  Added ${added} from ${source.id} (cutoff ${cutoff})`);
+  return added;
+}
+
 async function main() {
+  const days = parseDays();
+  const today = new Date().toISOString().split('T')[0];
+  const cutoff = new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+  console.log(`Fetching news from the last ${days} days (cutoff: ${cutoff})`);
+
   const sourcesData = JSON.parse(readFileSync(sourcesFile, 'utf8'));
   const news = JSON.parse(readFileSync(newsFile, 'utf8'));
   const existingUrls = new Set(news.map(n => n.source_url));
   let addedTotal = 0;
 
-  const today = new Date().toISOString().split('T')[0];
-  const newsSources = sourcesData.news.filter(s => s.type === 'rss' && s.enabled);
+  const enabledSources = sourcesData.news.filter(s => s.enabled);
 
-  for (const source of newsSources) {
-    console.log(`Fetching from ${source.url}...`);
+  for (const source of enabledSources) {
     try {
-      const res = await fetch(source.url, {
-        headers: {
-          'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
-        }
-      });
-      if (!res.ok) {
-        console.error(`Failed to fetch ${source.url}: HTTP ${res.status}`);
-        continue;
+      if (source.type === 'rss') {
+        addedTotal += await handleRss(source, news, existingUrls, cutoff, today);
+      } else if (source.type === 'federal-register-search') {
+        addedTotal += await handleFederalRegister(source, news, existingUrls, cutoff, today);
+      } else if (source.type === 'reddit-json') {
+        addedTotal += await handleReddit(source, news, existingUrls, cutoff, today);
+      } else {
+        console.log(`  Skipping ${source.id} (unhandled type: ${source.type})`);
       }
-      const xml = await res.text();
-      const items = parseRSS(xml);
-
-      let addedForSource = 0;
-      for (const item of items) {
-        if (existingUrls.has(item.link)) continue;
-
-        let dateStr = today;
-        try {
-          const d = new Date(item.pubDate);
-          if (!isNaN(d.valueOf())) {
-            dateStr = d.toISOString().split('T')[0];
-          }
-        } catch(e){}
-
-        // Basic categorization
-        let category = "Competitive";
-        const txt = (item.title + ' ' + item.description).toLowerCase();
-        if (txt.includes('funding') || txt.includes('raised') || txt.includes('series')) category = "Funding";
-        else if (txt.includes('policy') || txt.includes('bill') || txt.includes('regulation')) category = "Policy";
-        else if (txt.includes('research') || txt.includes('paper') || txt.includes('study')) category = "Research";
-        else if (txt.includes('deploy') || txt.includes('pilot') || txt.includes('customer')) category = "Deployment";
-
-        let summary = item.description.substring(0, 200);
-        if (summary.length === 200) summary += '...';
-        if (!summary) summary = item.title;
-
-        // Generate ID
-        let idSlug = item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-        if (idSlug.length > 30) idSlug = idSlug.substring(0, 30).replace(/-$/, '');
-        const newId = `rss-${idSlug}-${Math.floor(Math.random()*1000)}`;
-
-        const newRecord = {
-          id: newId,
-          title: item.title,
-          date: dateStr,
-          source: source.id,
-          source_type: "News",
-          source_url: item.link,
-          summary: summary,
-          category: category,
-          companies: [],
-          policies: [],
-          themes: [],
-          sentiment: "Neutral",
-          confidence: "Medium",
-          tags: ["rss-import"]
-        };
-
-        news.unshift(newRecord); // Add to beginning (newest first)
-        existingUrls.add(item.link);
-        addedForSource++;
-        addedTotal++;
-      }
-      console.log(`  Added ${addedForSource} from ${source.id}`);
       source.last_run = today;
     } catch (e) {
-      console.error(`Error processing ${source.url}:`, e);
+      console.error(`Error processing ${source.url}:`, e.message);
     }
   }
 
   if (addedTotal > 0) {
     writeFileSync(newsFile, JSON.stringify(news, null, 2));
-    console.log(`Added ${addedTotal} new news records total.`);
+    console.log(`\nAdded ${addedTotal} new news records total.`);
   } else {
-    console.log('No new news found.');
+    console.log('\nNo new news found.');
   }
 
   sourcesData._meta.last_updated = today;
-  writeFileSync(sourcesFile, JSON.stringify(sourcesData, null, 2));
+  writeFileSync(sourcesFile, JSON.stringify(sourcesData, null, 2) + '\n');
 }
 
 // Only run the scraper when invoked directly, so importing decodeEntities
