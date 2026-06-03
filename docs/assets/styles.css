@@ -751,6 +751,7 @@ footer.site-footer {
   border: 1px solid var(--border);
   border-radius: var(--radius-card);
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 .data-table {
   width: 100%;
@@ -763,6 +764,8 @@ footer.site-footer {
   padding: 11px 14px;
   border-bottom: 1px solid var(--border);
   vertical-align: middle;
+  overflow-wrap: break-word;
+  min-width: 0;
 }
 .data-table thead th {
   font-size: 11px;
@@ -801,9 +804,14 @@ footer.site-footer {
 }
 .muted-cell { color: var(--text-faint); font-style: italic; }
 
+/* show-mobile: only visible when hide-mobile columns are hidden (≤760px).
+   Must match .secondary-line specificity (0,3,0) to win. */
+.data-table td .show-mobile { display: none; }
+
 @media (max-width: 760px) {
   .data-table th.hide-mobile,
   .data-table td.hide-mobile { display: none; }
+  .data-table td .show-mobile { display: block; }
 }
 
 /* ============================================================
@@ -1415,5 +1423,17 @@ button, [role="button"], a.btn {
     grid-column: span 2;
     text-align: right;
     margin: 4px 0 0 0;
+  }
+
+  /* Tables: tighten padding, allow num cells to wrap */
+  .data-table {
+    font-size: 13px;
+  }
+  .data-table th,
+  .data-table td {
+    padding: 9px 10px;
+  }
+  .data-table td.num {
+    white-space: normal;
   }
 }
