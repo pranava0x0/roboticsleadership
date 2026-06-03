@@ -88,6 +88,53 @@ This is a schema change. **Don't do this casually.** Steps:
 
 ---
 
+## Token economy — patterns that waste tokens
+
+These patterns recur. Each costs real money; avoid them by default.
+
+### 1. Don't spawn an Explore/subagent to understand project structure
+For tasks like "add a news item" or "fix a CSS bug," a subagent costs 5–10k tokens in orchestration overhead. Replace with 1–2 targeted Bash calls:
+```bash
+node -e "const n=require('./docs/data/news.json'); console.log(n[0])"
+node -e "const t=require('./docs/data/themes.json'); t.forEach(x=>console.log(x.id))"
+```
+Only spawn a subagent when exploration genuinely spans 10+ files or requires synthesis.
+
+### 2. WebSearch results are usually enough — don't fetch full pages
+For "search for X and add news," the WebSearch snippet contains all facts needed (funding, investors, date, summary). Only `WebFetch` a URL if a required field is absent from the snippet. Cap at **1 URL fetch per entity**. Never fetch secondary analysis articles unless explicitly requested.
+
+### 3. Check enum/ID constraints BEFORE writing data
+Writing data with an invalid `themes`, `category`, or `primary_use_case` forces a fix-and-re-commit cycle. One lookup first:
+```bash
+node -e "const t=require('./docs/data/themes.json'); t.forEach(x=>console.log(x.id))"
+node -e "const n=require('./docs/data/news.json'); console.log([...new Set(n.map(x=>x.category))])"
+```
+Then write. Never guess enum values from memory or context.
+
+### 4. Read only the section of a file you need
+For a CSS fix touching `@media (max-width: 640px)`, don't read 1,400 lines. Use `offset`+`limit` on Read, or `grep -n` to find the relevant block first:
+```bash
+grep -n "max-width: 640" docs/assets/styles.css   # find the line, then read ±50 lines
+```
+
+### 5. Suppress verbose command output
+The merge script prints ~30 lines per branch. 11 branches = 330 lines of context. Pipe to a summary:
+```bash
+node scripts/merge-all-branches.js 2>&1 | tail -15
+```
+Only read full output when a step fails.
+
+### 6. Batch ToolSearch loads
+Load all needed tools in one call, not one-at-a-time:
+```
+ToolSearch({ query: "select:WebSearch,WebFetch,preview_start,preview_screenshot,preview_resize" })
+```
+
+### 7. Two screenshots are enough for a UI fix
+Mobile (375×812) + desktop. Don't take 4+ screenshots to verify a CSS change. One mobile shot confirms the fix; one desktop shot confirms no regression.
+
+---
+
 ## What NOT to do
 
 - **Don't paraphrase quoted content.** Quote verbatim into the `statement` / `quote` / `body` field. Tests catch obvious markers ("they claim that…").
