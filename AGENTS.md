@@ -133,6 +133,15 @@ ToolSearch({ query: "select:WebSearch,WebFetch,preview_start,preview_screenshot,
 ### 7. Two screenshots are enough for a UI fix
 Mobile (375×812) + desktop. Don't take 4+ screenshots to verify a CSS change. One mobile shot confirms the fix; one desktop shot confirms no regression.
 
+### 8. Read one representative file for a shared pattern
+When multiple files use the same component (e.g. three HTML pages all using the same `<table class="data-table">`), read one. The others are the same structure — reading all three adds tokens without adding information.
+
+### 9. Failures in long-running scripts are expensive — prevent them, don't recover from them
+Each time you re-run a script like `merge-all-branches.js`, its full output re-enters context. One avoidable failure (e.g., invalid enum written to data) causes the whole script to run twice. Validate inputs *before* triggering the script, not after it fails.
+
+### 10. Early expensive operations compound through the whole session
+Every tool result (merge output, web fetch bodies, agent responses) stays in context and is re-fed as input tokens on every subsequent turn. An expensive mistake at the start of a session is the most costly place to make one — it multiplies. Keep the first few turns cheap; do the heavy work late, or in a fresh session.
+
 ---
 
 ## What NOT to do
