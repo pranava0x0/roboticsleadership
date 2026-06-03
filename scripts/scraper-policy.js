@@ -10,27 +10,44 @@ const DATA_DIR = resolve(ROOT, 'docs/data');
 const policiesFile = resolve(DATA_DIR, 'policies.json');
 const sourcesFile = resolve(DATA_DIR, 'sources.json');
 
+// Parse --days=N from argv (default: 7 for policy — weekly cadence)
+function parseDays() {
+  const arg = process.argv.find(a => a.startsWith('--days='));
+  if (arg) {
+    const n = parseInt(arg.split('=')[1], 10);
+    if (!isNaN(n) && n > 0) return n;
+  }
+  return 7;
+}
+
 async function main() {
+  const days = parseDays();
+  const today = new Date().toISOString().split('T')[0];
+  const cutoff = new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+  console.log(`Fetching policy updates from the last ${days} days (cutoff: ${cutoff})`);
+
   const sourcesData = JSON.parse(readFileSync(sourcesFile, 'utf8'));
   const policies = JSON.parse(readFileSync(policiesFile, 'utf8'));
   const existingUrls = new Set(policies.flatMap(p => (p.sources || []).map(s => typeof s === 'string' ? s : s.url)));
-  
+
   const targetSource = sourcesData.policies.find(s => s.id === 'federal-register-policy' && s.enabled);
   if (!targetSource) {
     console.log('Federal Register policy scraper disabled or not found.');
     return;
   }
 
-  console.log(`Fetching from ${targetSource.url}...`);
-  const res = await fetch(targetSource.url);
+  const urlWithDate = `${targetSource.url}&conditions%5Bpublication_date%5D%5Bgte%5D=${cutoff}&per_page=20`;
+  console.log(`Fetching from ${urlWithDate}...`);
+  const res = await fetch(urlWithDate);
   if (!res.ok) {
-    console.error(`Failed to fetch: ${res.status}`);
-    process.exit(1);
+    console.error(`Failed to fetch: HTTP ${res.status} — skipping`);
+    targetSource.last_run = today;
+    sourcesData._meta.last_updated = today;
+    writeFileSync(sourcesFile, JSON.stringify(sourcesData, null, 2) + '\n');
+    return;
   }
   const data = await res.json();
   let added = 0;
-
-  const today = new Date().toISOString().split('T')[0];
 
   for (const doc of data.results || []) {
     if (existingUrls.has(doc.html_url)) continue;
@@ -73,7 +90,7 @@ async function main() {
 
   targetSource.last_run = today;
   sourcesData._meta.last_updated = today;
-  writeFileSync(sourcesFile, JSON.stringify(sourcesData, null, 2));
+  writeFileSync(sourcesFile, JSON.stringify(sourcesData, null, 2) + '\n');
 }
 
 main().catch(err => {
