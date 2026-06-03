@@ -3451,6 +3451,17 @@
     "website": "https://www.westmag.com",
     "funding_rounds": [
       {
+        "date": "2025-04",
+        "round": "Angel",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "Nat Friedman"
+        ],
+        "confidence": "reported",
+        "notes": "Nat Friedman (former GitHub CEO) DM'd founder on X after following actuator-focused posts; led to seed round"
+      },
+      {
         "date": "2025-08",
         "round": "Seed",
         "amount_usd": 11000000,
@@ -3473,14 +3484,14 @@
       "drone-motor"
     ],
     "primary_use_case": "components / supply-chain",
-    "flagship_product": "Drone motors and robot actuators (Factory 01)",
+    "flagship_product": "Drone motors (20–100mm stator, Outrunner & Inrunner, 100–3000Kv) and robot actuators (1–150Nm, 24–48V, 6:1–12:1 gearing)",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
     "target_price_usd": null,
     "open_source": false,
     "us_manufactured": true,
-    "defense_contracts": false,
+    "defense_contracts": true,
     "founders": [
       {
         "name": "David Hansen",
@@ -3497,10 +3508,14 @@
       "actuators",
       "drone-motors",
       "us-manufactured",
-      "seed"
+      "seed",
+      "ndaa-compliant",
+      "defense"
     ],
     "themes": [
-      "china-scale"
+      "china-scale",
+      "defense-procurement",
+      "physical-ai"
     ],
     "data_confidence": "high",
     "last_updated": "2026-06-02",
@@ -3510,6 +3525,9 @@
       },
       {
         "url": "https://a16z.com/announcement/investing-in-westmag/"
+      },
+      {
+        "url": "https://www.westmag.com"
       }
     ]
   }

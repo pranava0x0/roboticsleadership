@@ -48,37 +48,36 @@ function main() {
     console.log(`========================================`);
 
     // 1. Run git merge --no-commit --no-ff
-    console.log(`Running git merge --no-commit --no-ff ${branch}...`);
     const mergeOutput = runCmd(`git merge --no-commit --no-ff ${branch}`);
-    console.log(mergeOutput);
+    if (mergeOutput.includes('error') || mergeOutput.includes('fatal')) {
+      console.error('  git merge error:\n' + mergeOutput);
+    }
 
     // 2. Resolve conflicts programmatically
-    console.log('Resolving conflicts programmatically for news, policies, and sources...');
     const resNews = runCmd('node scripts/merge-conflict-resolver.js news');
-    console.log(resNews.trim());
     const resPolicies = runCmd('node scripts/merge-conflict-resolver.js policies');
-    console.log(resPolicies.trim());
     const resSources = runCmd('node scripts/merge-conflict-resolver.js sources');
-    console.log(resSources.trim());
+    // Print only the resolver summary lines (lines starting with - or ✓ or Error)
+    [resNews, resPolicies, resSources].forEach(out => {
+      out.trim().split('\n')
+        .filter(l => l.startsWith('-') || l.startsWith('✓') || l.toLowerCase().includes('error'))
+        .forEach(l => console.log(' ', l));
+    });
 
-    // 3. Stage resolved files
-    console.log('Staging resolved files...');
+    // 3. Stage and commit
     runCmd('git add docs/data/news.json docs/data/policies.json docs/data/sources.json');
-
-    // 4. Check if any other files are conflicted or modified
-    const statusOutput = runCmd('git status --porcelain');
-    console.log('Current status:\n' + statusOutput);
-
-    // 5. Commit the merge
-    console.log('Committing merge...');
     const commitOutput = runCmd(`git commit -m "Merge branch '${branch}' into main"`);
-    console.log(commitOutput);
+    // Print only the commit hash line
+    const commitLine = commitOutput.trim().split('\n').find(l => l.startsWith('[main'));
+    if (commitLine) console.log(' ', commitLine);
+    else console.log('  (nothing to commit — already up to date)');
 
-    // 6. Validate current state
-    console.log('Validating data integrity...');
+    // 4. Validate — show only the summary line
     const validationOutput = runCmd('npm run validate');
-    console.log(validationOutput);
+    const summary = validationOutput.trim().split('\n').slice(-2).join(' | ');
+    console.log('  validate:', summary);
     if (validationOutput.includes('Validation failed')) {
+      console.error('Full validation output:\n' + validationOutput);
       console.error('Validation failed after merging branch ' + branch);
       process.exit(1);
     }
