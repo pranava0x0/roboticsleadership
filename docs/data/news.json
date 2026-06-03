@@ -1,5 +1,64 @@
 [
   {
+    "id": "news-westmag-11m-seed-2026",
+    "title": "Westmag emerges from stealth with $11M seed led by a16z to build US drone motor and robot actuator manufacturing",
+    "date": "2026-06-02",
+    "source": "Business Wire",
+    "source_type": "Press Release",
+    "source_url": "https://www.businesswire.com/news/home/20260602552448/en/Westmag-Emerges-With-$11-Million-Seed-Led-By-Andreessen-Horowitz-to-Build-Americas-Drone-Motor-and-Robot-Actuator-Industry",
+    "summary": "Westmag (Western Magnetics Company), founded May 2025 by David Hansen (CEO) and Jordan Sanders (COO), emerged from stealth with an $11M seed round led by Andreessen Horowitz (Founders Fund, Lux Capital, NFDG, Menlo Ventures co-investing). The South San Francisco company manufactures drone motors (4+ per drone) and robot actuators (20+ per humanoid) at Factory 01, its semi-automated US production facility, with supply chain partners in Japan. Westmag is ramping to fulfill hundreds of thousands of committed orders, directly addressing the FCC December 2025 effective ban on foreign-made drones and critical components.",
+    "category": "Funding",
+    "companies": [
+      "westmag"
+    ],
+    "policies": [],
+    "themes": [
+      "supply-chain",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "funding",
+      "seed",
+      "a16z",
+      "supply-chain",
+      "actuators",
+      "drone-motors",
+      "stealth-launch",
+      "us-manufactured"
+    ]
+  },
+  {
+    "id": "news-westmag-us-actuator-supplychain-2026",
+    "title": "US startups race to onshore drone motor and robot actuator production as China holds 30M-unit/yr production lead",
+    "date": "2026-06-02",
+    "source": "Core Memory",
+    "source_type": "Analysis",
+    "source_url": "https://www.corememory.com/p/westmag-atlas-american-actuators-china",
+    "summary": "China controls ~90% of consumer drone production and dominates global robot actuator supply chains — a single point of failure for US robotics and defense. Two US startups are pursuing opposite strategies: Westmag (US factory in South San Francisco, volume-economics approach) and Atlas Motion Systems (US-designed, Philippines-manufactured, allied-nation approach). The FCC December 2025 foreign drone ban created urgent domestic demand; humanoid robotics growth is adding further pressure. Even Tesla sources Chinese actuators for Optimus. Both companies are in the hundreds-of-thousands-of-units range with unnamed OEM customers.",
+    "category": "Supply Chain",
+    "companies": [
+      "westmag"
+    ],
+    "policies": [],
+    "themes": [
+      "supply-chain",
+      "china-scale"
+    ],
+    "sentiment": "Mixed",
+    "confidence": "High",
+    "tags": [
+      "supply-chain",
+      "geopolitics",
+      "actuators",
+      "china",
+      "manufacturing",
+      "analysis",
+      "drone-motors"
+    ]
+  },
+  {
     "id": "news-eclipse-physical-ai-fund-2026",
     "title": "Eclipse Ventures launches $1.3B fund to back and build \"physical AI\" startups",
     "date": "2026-04-07",

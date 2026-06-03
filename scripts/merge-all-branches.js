@@ -1,13 +1,17 @@
 import { execSync } from 'node:child_process';
 
 const BRANCHES = [
-  'origin/auto/news-2026-05-18-023630',
-  'origin/auto/news-2026-05-18-142725',
-  'origin/auto/news-2026-05-19-135423',
-  'origin/auto/news-2026-05-20-133549',
-  'origin/auto/news-2026-05-21-141127',
-  'origin/auto/news-2026-05-22-132757',
-  'origin/auto/policy-2026-05-18-164621'
+  'origin/auto/news-2026-05-25-135712',
+  'origin/auto/news-2026-05-26-135121',
+  'origin/auto/news-2026-05-27-142418',
+  'origin/auto/news-2026-05-28-143837',
+  'origin/auto/news-2026-05-29-135548',
+  'origin/auto/news-2026-05-30-120233',
+  'origin/auto/news-2026-05-31-120749',
+  'origin/auto/news-2026-06-01-163433',
+  'origin/auto/news-2026-06-02-144803',
+  'origin/auto/policy-2026-05-25-162100',
+  'origin/auto/archive-2026-06-01-135359',
 ];
 
 function runCmd(cmd) {

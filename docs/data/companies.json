@@ -3437,5 +3437,80 @@
       "revenue_year": null,
       "details": "Private. Retrofits existing heavy construction equipment with an autonomy kit (lidar, GPS, motion sensors) — the \"Bedrock Operator.\" Founded by former Waymo leaders (incl. the head of its trucking program). Emerged from stealth July 2025 with $80M; Series B $270M at a $1.75B post-money valuation (Feb 2026), total raised >$350M. Targeting first fully autonomous excavator deployments in 2026."
     }
+  },
+  {
+    "id": "westmag",
+    "name": "Westmag",
+    "founded": "2025",
+    "hq": {
+      "city": "South San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.westmag.com",
+    "funding_rounds": [
+      {
+        "date": "2025-08",
+        "round": "Seed",
+        "amount_usd": 11000000,
+        "valuation_usd": null,
+        "investors": [
+          "Andreessen Horowitz",
+          "Founders Fund",
+          "Lux Capital",
+          "NFDG",
+          "Menlo Ventures",
+          "Nat Friedman"
+        ],
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 11000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "actuator",
+      "drone-motor"
+    ],
+    "primary_use_case": "components / supply-chain",
+    "flagship_product": "Drone motors and robot actuators (Factory 01)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "David Hansen",
+        "role": "Co-Founder & CEO"
+      },
+      {
+        "name": "Jordan Sanders",
+        "role": "Co-Founder & COO"
+      }
+    ],
+    "ceo": "David Hansen",
+    "tags": [
+      "supply-chain",
+      "actuators",
+      "drone-motors",
+      "us-manufactured",
+      "seed"
+    ],
+    "themes": [
+      "supply-chain",
+      "china-scale"
+    ],
+    "data_confidence": "high",
+    "last_updated": "2026-06-02",
+    "sources": [
+      {
+        "url": "https://www.businesswire.com/news/home/20260602552448/en/Westmag-Emerges-With-$11-Million-Seed-Led-By-Andreessen-Horowitz-to-Build-Americas-Drone-Motor-and-Robot-Actuator-Industry"
+      },
+      {
+        "url": "https://a16z.com/announcement/investing-in-westmag/"
+      }
+    ]
   }
 ]
