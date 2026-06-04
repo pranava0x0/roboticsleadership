@@ -47,7 +47,7 @@
       ],
       "enabled": true,
       "notes": "Enabled with keyword filter — only ingest posts mentioning funding/deployment/humanoid signals.",
-      "last_run": null
+      "last_run": "2026-06-04"
     },
     {
       "id": "hacker-news-robotics",
@@ -63,7 +63,7 @@
       ],
       "enabled": true,
       "notes": "Hacker News Algolia search API — free, no auth. Filters to robotics/humanoid stories from the last N days.",
-      "last_run": null
+      "last_run": "2026-06-04"
     },
     {
       "id": "federal-register-robotics",

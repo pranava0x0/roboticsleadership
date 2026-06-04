@@ -1,5 +1,757 @@
 [
   {
+    "id": "fedreg-news-2026-10969",
+    "title": "Pipeline Safety: Breakout Tank Inspection Rule",
+    "date": "2026-06-02",
+    "source": "federal-register-robotics",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/06/02/2026-10969/pipeline-safety-breakout-tank-inspection-rule",
+    "summary": "Breakout tanks are used to \"relieve surges in a hazardous liquid pipeline system\" or to \"receive and store hazardous liquid transported by a pipeline for reinjection and continued transportation by pi...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ]
+  },
+  {
+    "id": "hn-48353292",
+    "title": "AI is devoid of meaning and humanity. Its vapid voice suits the political moment",
+    "date": "2026-06-01",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/commentisfree/2026/jun/01/ai-meaning-humanity-political-moment-trust-humans-over-machines",
+    "summary": "AI is devoid of meaning and humanity. Its vapid voice suits the political moment",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48353832",
+    "title": "A 1B humanizer that matches human writing on an AI detector",
+    "date": "2026-06-01",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://mlx-optiq.com/blog/humanizer-stacked-lora",
+    "summary": "A 1B humanizer that matches human writing on an AI detector",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48382213",
+    "title": "Why GPTHuman AI Is the Best AI Humanizer?",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://gpthuman.ai/",
+    "summary": "Why GPTHuman AI Is the Best AI Humanizer?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48369528",
+    "title": "Twenty Thousand Hours Without a Robot – Perception and Training – Robotics",
+    "date": "2026-06-02",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://atomsfrontier.substack.com/p/twenty-thousand-hours-without-a-robot",
+    "summary": "Twenty Thousand Hours Without a Robot – Perception and Training – Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48370776",
+    "title": "Show HN: Modeloop – A modern model-based design tool",
+    "date": "2026-06-02",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.modeloop.app/",
+    "summary": "Hi Developers, \nI'm Luca, the creator of Modeloop. I've spent the last 18 months building, from scratch, a model-based design tool and today I'm finally opening the Open Beta.Modeloop i",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48373526",
+    "title": "Tesla patents camera wiper for self-driving resulting in more doubts FSD owners",
+    "date": "2026-06-02",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://electrek.co/2026/06/02/tesla-patents-camera-wiper-self-driving-robotaxi/",
+    "summary": "Tesla patents camera wiper for self-driving resulting in more doubts FSD owners",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48374412",
+    "title": "Only 54% of miles traveled by Waymos in California have a passenger onboard",
+    "date": "2026-06-02",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://findingspress.org/article/161870-millions-of-trips-waymo-empty-miles-california-s-first-thousand-days-of-commercial-robotaxi-service",
+    "summary": "Only 54% of miles traveled by Waymos in California have a passenger onboard",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48377291",
+    "title": "This creepy blob robot will keep going even if you break its legs",
+    "date": "2026-06-02",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.popsci.com/technology/unstoppable-blob-robot/",
+    "summary": "This creepy blob robot will keep going even if you break its legs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48379847",
+    "title": "The Effort to Build Ukraine's Ground Robot Arsenal",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.twz.com/news-features/inside-the-effort-to-build-ukraines-ground-robot-arsenal",
+    "summary": "The Effort to Build Ukraine's Ground Robot Arsenal",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48380641",
+    "title": "The Rubik's Contraption",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://robot-daycare.com/posts/2018-03-07-the-rubik-s-contraption/",
+    "summary": "The Rubik's Contraption",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48383625",
+    "title": "Dell inks $9.7B Pentagon contract after Trump acquires stock",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.washingtonpost.com/politics/2026/05/28/dell-inks-97-billion-pentagon-contract-after-trump-acquires-stock-praises-company/",
+    "summary": "Dell inks $9.7B Pentagon contract after Trump acquires stock",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48383707",
+    "title": "Private payrolls grew by 122,000 in May, stronger than expected",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.cnbc.com/2026/06/03/adp-jobs-report-may-2026-payrolls-increase-by-122000.html",
+    "summary": "Private payrolls grew by 122,000 in May, stronger than expected",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48383790",
+    "title": "Unusual Whales",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://unusualwhales.com/politics",
+    "summary": "Unusual Whales",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48384026",
+    "title": "Aura: Action-Gated Memory for Robot Policies at Constant VRAM",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2606.02775",
+    "summary": "Aura: Action-Gated Memory for Robot Policies at Constant VRAM",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48384197",
+    "title": "Europe unveils tech sovereignty package amid concerns over reliance on U.S. tech",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.cnbc.com/2026/06/03/europe-tech-sovereignty-us-tech-reliance.html",
+    "summary": "Europe unveils tech sovereignty package amid concerns over reliance on U.S. tech",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48384365",
+    "title": "Why People Hate Humanoid Robots",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://unherd.com/2026/06/why-people-hate-humanoid-robots/",
+    "summary": "Why People Hate Humanoid Robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48384465",
+    "title": "Randomize, Identify, or Dream – Perception in Robotics",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://atomsfrontier.substack.com/p/randomize-identify-or-dream",
+    "summary": "Randomize, Identify, or Dream – Perception in Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48385712",
+    "title": "Autonomous vehicles were supposed to cut traffic–what if they don't?",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/cars/2026/06/robotaxis-dont-cut-traffic-any-more-than-ride-hailing-study-finds/",
+    "summary": "Autonomous vehicles were supposed to cut traffic–what if they don't?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48386183",
+    "title": "Show HN: Erebus, A VPN client that runs rootless in user space",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://margaine.com/erebus/",
+    "summary": "Show HN: Erebus, A VPN client that runs rootless in user space",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48388253",
+    "title": "Rootshell: A new E2EE email service hosted in Iceland",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://rootshell.is",
+    "summary": "Rootshell: A new E2EE email service hosted in Iceland",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48389370",
+    "title": "Git and S3 as the memory layer for agents",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/VijitDhingra1/status/2062265896039833935",
+    "summary": "Git and S3 as the memory layer for agents",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48390029",
+    "title": "rootshell: macOS terminal emulator built with libghostty with powerful features",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.rootshell.com",
+    "summary": "rootshell: macOS terminal emulator built with libghostty with powerful features",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48391221",
+    "title": "'Driving like teenagers': Waymo robotaxis run red lights, nearly hit pedestrians",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.cnn.com/us/waymo-robotaxis-safety-invs",
+    "summary": "'Driving like teenagers': Waymo robotaxis run red lights, nearly hit pedestrians",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48391827",
+    "title": "Last.fm's robots.txt include's Asimov's three laws of robotics as URIs",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.last.fm/robots.txt",
+    "summary": "Last.fm's robots.txt include's Asimov's three laws of robotics as URIs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48392653",
+    "title": "Rooting Home Assistant through MeshCore: XSS attacks with a LoRa node name",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://mxsasha.eu/posts/meshcore-xss-home-assistant/",
+    "summary": "Rooting Home Assistant through MeshCore: XSS attacks with a LoRa node name",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48394391",
+    "title": "Same Weights, Different Robot: A Deployment Safety View of VLA Policies",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2606.03724",
+    "summary": "Same Weights, Different Robot: A Deployment Safety View of VLA Policies",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48395483",
+    "title": "Thanks to robots, Ukraine is now talking about winning, not just surviving",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.defenseone.com/technology/2026/06/ukraine-robots-winning/413902/",
+    "summary": "Thanks to robots, Ukraine is now talking about winning, not just surviving",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48395905",
+    "title": "Companies Are Using Reddit to Manipulate ChatGPT and Google AI Search",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search/",
+    "summary": "Companies Are Using Reddit to Manipulate ChatGPT and Google AI Search",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48396168",
+    "title": "Root access for Harmony Hubs and local web mangagement",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/Ripthulhu/harmony-hub-root",
+    "summary": "Root access for Harmony Hubs and local web mangagement",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48397935",
+    "title": "Slow Token, Fast Action – Learning in Robotics",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://atomsfrontier.substack.com/p/slow-token-fast-action",
+    "summary": "Slow Token, Fast Action – Learning in Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48398109",
+    "title": "Show HN: Hydron – Hardware-aware coding agent",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.hydron.sh/",
+    "summary": "Hi HN, this is Prashant from H2Loop. Embedded engineers that we work with were annoyed that generic AI tools hallucinated register addresses, generated code for peripherals that don't exist on th",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-fort-robotics-acquires-mapless-311",
+    "title": "FORT Robotics acquires Mapless AI to expand teleop capabilities",
+    "date": "2026-06-02",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/fort-robotics-acquires-mapless-ai-to-expand-teleop-capabilities/",
+    "summary": "While FORT has traditionally worked with technology in industrial environments, Mapless AI brings experience in more unstructured settings. \nThe post FORT Robotics acquires Mapless AI to expand teleop...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-petal-surgical-adds-more-fundi-539",
+    "title": "Petal Surgical adds more funding for incisionless surgical robot",
+    "date": "2026-06-02",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/petal-surgical-adds-more-funding-for-incisionless-surgical-robot/",
+    "summary": "Petal said its incisionless surgery method could create a new standard of care, making advanced treatments safer, more accessible and less traumatic for patients worldwide. \nThe post Petal Surgical ad...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-2026-robotics-summit-expo-reca-928",
+    "title": "2026 Robotics Summit & Expo recap",
+    "date": "2026-06-02",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/2026-robotics-summit-expo-recap/",
+    "summary": "Listen to the podcast this week as The Robot Report editorial staff recaps the recent Robotics Summit & Expo from Boston.\nThe post 2026 Robotics Summit & Expo recap appeared first on The Robot Report....",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-boston-university-team-wins-ma-0",
+    "title": "Boston University team wins MassRobotics Form & Function Challenge at Robotics Summit",
+    "date": "2026-06-03",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/boston-university-team-wins-massrobotics-form-function-challenge-2026-robotics-summit/",
+    "summary": "MassRobotics awarded prizes to university teams and showcased healthcare innovators, physical AI developers, and startups.\nThe post Boston University team wins MassRobotics Form & Function Challenge a...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-festo-launches-lightweight-pne-338",
+    "title": "Festo launches lightweight pneumatic gripper and tests GripperAI",
+    "date": "2026-06-03",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/festo-launches-pneumatic-gripper-tests-gripperai/",
+    "summary": "Festo has released a compact cobot gripper, and its robot-agnostic GripperAI enables grasping of objects without prior training.\nThe post Festo launches lightweight pneumatic gripper and tests Gripper...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-robobusiness-2026-opens-call-f-397",
+    "title": "RoboBusiness 2026 opens call for speakers",
+    "date": "2026-06-03",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/robobusiness-2026-opens-call-for-speakers/",
+    "summary": "RoboBusiness 2026, the premier event for developers of commercial robotics and those building robotics businesses, is seeking expert speakers.\nThe post RoboBusiness 2026 opens call for speakers appear...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-autonomous-defense-manufacture-109",
+    "title": "Autonomous defense manufacturer Mach Industries raises $300M",
+    "date": "2026-06-03",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/autonomous-defense-manufacturer-mach-industries-raises-300m/",
+    "summary": "Mach Industries will use the funding to accelerate executing government contracts, acquire talent, develop products, and expand its network. \nThe post Autonomous defense manufacturer Mach Industries r...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-voyager-technologies-acquires-318",
+    "title": "Voyager Technologies acquires Astrobotic to advance lunar initiatives",
+    "date": "2026-06-04",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/voyager-technologies-acquires-astrobotic-advance-lunar-initiatives/",
+    "summary": "Voyager intends to accelerate investment to scale Astrobotic’s programs, including lunar and reusable rocket programs.\nThe post Voyager Technologies acquires Astrobotic to advance lunar initiatives ap...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "news-nvidia-isaac-groot-reference-humanoid-2026",
     "title": "NVIDIA announces Isaac GR00T open humanoid robot reference design for academic research",
     "date": "2026-06-01",
