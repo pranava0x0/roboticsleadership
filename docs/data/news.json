@@ -1,5 +1,113 @@
 [
   {
+    "id": "news-nvidia-isaac-groot-reference-humanoid-2026",
+    "title": "NVIDIA announces Isaac GR00T open humanoid robot reference design for academic research",
+    "date": "2026-06-01",
+    "source": "NVIDIA Newsroom",
+    "source_type": "Press Release",
+    "source_url": "https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design",
+    "summary": "NVIDIA unveiled the Isaac GR00T Reference Humanoid Robot at GTC Taipei — an open platform combining Unitree H2 Plus (6ft, 150lb, 31 DoF), Sharpa Wave tactile five-finger hands (22 DoF), and Jetson Thor onboard compute. Targets university research labs; partners include Ai2, ETH Zurich, Stanford Robotics Center, and UC San Diego ARCL. Available from Unitree in late 2026.",
+    "category": "Research",
+    "companies": [
+      "unitree"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "industrial-deployments",
+      "china-scale"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "nvidia",
+      "isaac-groot",
+      "research",
+      "open-source",
+      "humanoid",
+      "gtc-taipei",
+      "unitree"
+    ]
+  },
+  {
+    "id": "news-vindynamics-dyno-icra-2026",
+    "title": "VinDynamics debuts Dyno humanoid robot at ICRA 2026 Vienna and Computex Taipei",
+    "date": "2026-06-01",
+    "source": "RoboticsTomorrow",
+    "source_type": "News",
+    "source_url": "https://www.roboticstomorrow.com/news/2026/06/01/vindynamics-debuts-its-first-humanoid-robot-at-two-of-the-worlds-leading-technology-events/26653/",
+    "summary": "VinDynamics (Vingroup subsidiary) unveiled Dyno, its first humanoid robot, at ICRA 2026 in Vienna and Computex Taipei. Dyno targets security/surveillance and household assistant applications with multilingual communication and outdoor navigation demonstrated live. Also showcased a specialized actuator system and dexterous five-finger robotic hand.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "humanoid",
+      "icra-2026",
+      "deployment",
+      "vietnam",
+      "vingroup",
+      "computex"
+    ]
+  },
+  {
+    "id": "news-morph-soft-robotics-stealth-2026",
+    "title": "Morph emerges from stealth with octopus-inspired shapeshifting soft robotics cells platform",
+    "date": "2026-06-02",
+    "source": "Axios",
+    "source_type": "News",
+    "source_url": "https://www.axios.com/2026/06/02/ai-morph-octopus",
+    "summary": "London-based Morph launched the world's first shapeshifting soft robotics cells platform, backed by 8VC and Pharrell Williams' investment vehicle among others. Founded by Dr. Jean Nehme (founded and sold Digital Surgery to Medtronic 2020). Soft robotic cells adapt to human movement; initial applications in athletic performance and injury prevention, with roadmap to healthcare, automotive, and industrial safety.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "stealth-launch",
+      "soft-robotics",
+      "physical-ai",
+      "8vc",
+      "london",
+      "embodied-ai"
+    ]
+  },
+  {
+    "id": "news-trump-ai-eo-innovation-security-2026",
+    "title": "Trump signs AI Executive Order on frontier model review and cybersecurity, impacts robotics AI",
+    "date": "2026-06-02",
+    "source": "White House",
+    "source_type": "Government",
+    "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+    "summary": "President Trump signed \"Promoting Advanced Artificial Intelligence Innovation and Security,\" directing agencies to establish a 30-day voluntary pre-release review window for frontier AI models, create an AI cybersecurity clearinghouse, and develop capability benchmarks. A prior 90-day review window was narrowed after industry objections. The EO's voluntary framework covers AI foundation models powering autonomous robots and humanoids.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "trump-ai-eo-innovation-security-2026"
+    ],
+    "themes": [
+      "policy-momentum",
+      "foundation-models"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "executive-order",
+      "ai-policy",
+      "frontier-ai",
+      "white-house",
+      "cybersecurity"
+    ]
+  },
+  {
     "id": "news-westmag-us-actuator-supplychain-2026",
     "title": "US startups race to onshore drone motor and robot actuator production as China holds 30M-unit/yr production lead",
     "date": "2026-06-02",
@@ -9,11 +117,15 @@
     "summary": "China controls ~90% of consumer drone production and dominates global robot actuator supply chains — a single point of failure for US robotics and defense. Two US startups are pursuing opposite strategies: Westmag (US factory in South San Francisco, volume-economics approach) and Atlas Motion Systems (US-designed, Philippines-manufactured, allied-nation approach). The FCC December 2025 foreign drone ban created urgent domestic demand; humanoid robotics growth is adding further pressure. Even Tesla sources Chinese actuators for Optimus. Both companies are in the hundreds-of-thousands-of-units range with unnamed OEM customers.",
     "category": "Supply Chain",
     "companies": [
-      "westmag"
+      "westmag",
+      "boston-dynamics",
+      "tesla-optimus"
     ],
     "policies": [],
     "themes": [
-      "china-scale"
+      "china-scale",
+      "defense-procurement",
+      "industrial-deployments"
     ],
     "sentiment": "Mixed",
     "confidence": "High",
@@ -42,7 +154,8 @@
     "policies": [],
     "themes": [
       "physical-ai",
-      "china-scale"
+      "china-scale",
+      "industrial-deployments"
     ],
     "sentiment": "Positive",
     "confidence": "High",
@@ -102,7 +215,9 @@
     "source_url": "https://www.therobotreport.com/learn-about-advances-robotic-case-each-picking-webinar/",
     "summary": "Experts from Locus Robotics, Nomagic, and RightHand Robotics will discuss progress in piece picking in this week's webinar.\nThe post Learn about advances in robotic case and each picking appeared firs...",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "locus-robotics"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -178,7 +293,11 @@
     "category": "Policy",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "cost-trajectory",
+      "industrial-deployments",
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -252,8 +371,14 @@
     "summary": "NIST has proposed a standardized performance benchmark and testing procedures to help developers and evaluators of humanoids.\nThe post NIST proposes a baseline performance benchmark for humanoid robot...",
     "category": "Competitive",
     "companies": [],
-    "policies": [],
-    "themes": [],
+    "policies": [
+      "nist-humanoid-benchmark"
+    ],
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory",
+      "foundation-models"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -574,7 +699,9 @@
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -610,7 +737,9 @@
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -2133,7 +2262,9 @@
     "companies": [],
     "policies": [],
     "themes": [
-      "physical-ai"
+      "physical-ai",
+      "defense-procurement",
+      "industrial-deployments"
     ],
     "sentiment": "Positive",
     "confidence": "High",
@@ -2612,7 +2743,8 @@
     "policies": [],
     "themes": [
       "physical-ai",
-      "foundation-models"
+      "foundation-models",
+      "industrial-deployments"
     ],
     "sentiment": "Positive",
     "confidence": "High",
@@ -3053,7 +3185,8 @@
     "policies": [],
     "themes": [
       "foundation-models",
-      "physical-ai"
+      "physical-ai",
+      "policy-momentum"
     ],
     "sentiment": "Positive",
     "confidence": "High",
