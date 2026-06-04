@@ -231,6 +231,64 @@ async function handleReddit(source, news, existingUrls, cutoff, today) {
   return added;
 }
 
+async function handleHackerNews(source, news, existingUrls, cutoff, today) {
+  const cutoffTs = Math.floor(new Date(cutoff).getTime() / 1000);
+  const keywords = source.keywords || [];
+  const queries = keywords.filter(k => k.length > 4).slice(0, 3); // up to 3 meaningful terms
+  let added = 0;
+  const seenIds = new Set();
+
+  for (const q of queries) {
+    const url = `https://hn.algolia.com/api/v1/search_by_date?query=${encodeURIComponent(q)}&tags=story&numericFilters=created_at_i%3E${cutoffTs}&hitsPerPage=30`;
+    console.log(`Fetching HN from query="${q}"...`);
+    let res;
+    try {
+      res = await fetch(url, { headers: { 'User-Agent': 'robotics-tracker/1.0 (https://github.com/pranava0x0/roboticsleadership)' } });
+    } catch (e) {
+      console.error(`  HN fetch failed: ${e.message}`);
+      continue;
+    }
+    if (!res.ok) {
+      console.error(`  Failed: HTTP ${res.status}`);
+      continue;
+    }
+    const data = await res.json();
+    for (const hit of data.hits || []) {
+      if (!hit.url || existingUrls.has(hit.url) || seenIds.has(hit.objectID)) continue;
+      if (hit.created_at_i < cutoffTs) continue;
+      seenIds.add(hit.objectID);
+
+      const title = decodeEntities((hit.title || '').trim());
+      const summary = decodeEntities((hit.story_text || title).replace(/<[^>]*>/g, '').substring(0, 200));
+      const dateStr = toDateStr(new Date(hit.created_at_i * 1000).toISOString());
+      const postUrl = hit.url || `https://news.ycombinator.com/item?id=${hit.objectID}`;
+
+      const record = {
+        id: `hn-${hit.objectID}`,
+        title,
+        date: dateStr,
+        source: 'hacker-news-robotics',
+        source_type: 'Community',
+        source_url: postUrl,
+        summary: summary || title,
+        category: categorize(title + ' ' + (hit.story_text || '')),
+        companies: [],
+        policies: [],
+        themes: [],
+        sentiment: 'Neutral',
+        confidence: 'Low',
+        tags: ['hacker-news', 'community']
+      };
+      news.unshift(record);
+      existingUrls.add(postUrl);
+      added++;
+    }
+    await new Promise(r => setTimeout(r, 1500)); // rate limit: 1.5s between queries
+  }
+  console.log(`  Added ${added} from ${source.id} (cutoff ${cutoff})`);
+  return added;
+}
+
 async function main() {
   const days = parseDays();
   const today = new Date().toISOString().split('T')[0];
@@ -252,6 +310,8 @@ async function main() {
         addedTotal += await handleFederalRegister(source, news, existingUrls, cutoff, today);
       } else if (source.type === 'reddit-json') {
         addedTotal += await handleReddit(source, news, existingUrls, cutoff, today);
+      } else if (source.type === 'hacker-news-search') {
+        addedTotal += await handleHackerNews(source, news, existingUrls, cutoff, today);
       } else {
         console.log(`  Skipping ${source.id} (unhandled type: ${source.type})`);
       }

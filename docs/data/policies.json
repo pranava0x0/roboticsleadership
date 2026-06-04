@@ -1,5 +1,47 @@
 [
   {
+    "id": "trump-ai-eo-innovation-security-2026",
+    "title": "Executive Order: Promoting Advanced Artificial Intelligence Innovation and Security",
+    "type": "Executive Order",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-06-02",
+    "status": "Signed",
+    "bill_number": null,
+    "sponsor": "White House / President Trump",
+    "summary": "Directs federal agencies to create a voluntary 30-day pre-release review framework for frontier AI models, establish an AI cybersecurity clearinghouse, and develop benchmarks assessing AI cyber capabilities. Narrowed from an initial 90-day mandatory window after industry objections. Covers AI foundation models used in autonomous robots and humanoids.",
+    "full_text_url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+    "robotics_scope": "AI foundation models powering autonomous robots and humanoid systems subject to voluntary pre-release review",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [
+      "ostp",
+      "nist"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "executive-order",
+      "federal",
+      "ai-policy",
+      "frontier-ai",
+      "cybersecurity"
+    ],
+    "themes": [
+      "policy-momentum",
+      "foundation-models"
+    ],
+    "sources": [
+      {
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+      },
+      {
+        "url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/"
+      }
+    ],
+    "last_updated": "2026-06-04"
+  },
+  {
     "id": "fedreg-2026-10697",
     "title": "Proposal Review Panel for Computer and Network Systems; Committee Renewal",
     "type": "Regulation",
@@ -14,7 +56,9 @@
     "robotics_scope": "Federal Register publication",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [],
+    "agency_responsible": [
+      "nsf"
+    ],
     "startup_eligible": false,
     "application_url": null,
     "tags": [
