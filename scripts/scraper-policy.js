@@ -38,7 +38,9 @@ async function main() {
 
   const urlWithDate = `${targetSource.url}&conditions%5Bpublication_date%5D%5Bgte%5D=${cutoff}&per_page=20`;
   console.log(`Fetching from ${urlWithDate}...`);
-  const res = await fetch(urlWithDate);
+  const res = await fetch(urlWithDate, {
+    headers: { 'User-Agent': 'robotics-tracker/1.0 (https://github.com/pranava0x0/roboticsleadership)' }
+  });
   if (!res.ok) {
     console.error(`Failed to fetch: HTTP ${res.status} — skipping`);
     targetSource.last_run = today;
