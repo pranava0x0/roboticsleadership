@@ -6,6 +6,16 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 No open issues.
 
+## Fixed (most recent first)
+
+### 2026-06-04 — scrapers — scraper-policy.js missing User-Agent header on Federal Register fetch
+
+- **Status:** Fixed.
+- **Root cause:** code bug — `scraper-policy.js` called `fetch(url)` with no headers. The Federal Register API returns 403 to requests without a recognizable User-Agent, a pattern that `scraper-news.js` already handled correctly (it sets `robotics-tracker/1.0` on its Federal Register call). The bug caused all policy scraper runs to silently fail with "Failed to fetch: HTTP 403" after updating `last_run` — masking the failure.
+- **Repro:** `node scripts/scraper-policy.js` → `Failed to fetch: HTTP 403 — skipping`.
+- **Fix:** added `headers: { 'User-Agent': 'robotics-tracker/1.0 (https://github.com/pranava0x0/roboticsleadership)' }` to the fetch call in `scraper-policy.js`, matching the existing pattern in `scraper-news.js`.
+- **Regression test:** N/A — external dependency. Verified by running policy scraper post-fix.
+
 ## Fixed
 
 ### 2026-06-01 — CI/supply-chain — Actions are 0% SHA-pinned; floating @v4 tags fleet-wide
