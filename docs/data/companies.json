@@ -3114,10 +3114,29 @@
         ],
         "url": "https://boldstart.vc/companies/generalist/",
         "confidence": "reported"
+      },
+      {
+        "date": "2026-06",
+        "round": "Series B",
+        "amount_usd": 400000000,
+        "valuation_usd": 2000000000,
+        "investors": [
+          "Radical Ventures",
+          "8VC",
+          "Union Square Ventures",
+          "Norwest",
+          "Hanabi Capital",
+          "Bezos Expeditions",
+          "NVIDIA (NVentures)",
+          "Fei-Fei Li",
+          "Eric Yuan"
+        ],
+        "url": "https://siliconangle.com/2026/06/04/generalist-ai-raises-400m-2b-valuation-build-general-intelligence-real-world/",
+        "confidence": "confirmed"
       }
     ],
-    "total_funding_usd": 140000000,
-    "latest_valuation_usd": null,
+    "total_funding_usd": 540000000,
+    "latest_valuation_usd": 2000000000,
     "robot_types": [
       "foundation_model"
     ],
@@ -3159,7 +3178,7 @@
         "url": "https://www.crunchbase.com/organization/generalist-ai"
       }
     ],
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-06-05",
     "themes": [
       "foundation-models",
       "physical-ai"
@@ -3167,7 +3186,7 @@
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "Private. Building general-purpose sensorimotor foundation models that transfer across robot arms and environments. Founding team drawn from Google DeepMind, OpenAI and Boston Dynamics (Andy Zeng, Pete Florence, Andrew Barry). ~$140M raised (seed, Mar 2025); investors include Bezos Expeditions, NVIDIA and Boldstart Ventures."
+      "details": "Private. Building general-purpose sensorimotor foundation models (GEN-1) that transfer across robot arms and environments. GEN-1 achieves 99% reliability across dexterous tasks at 3x prior SOTA speed. ~$540M raised total: $140M seed (Mar 2025), $400M Series B (Jun 2026) at $2B valuation led by Radical Ventures. Investors include Bezos Expeditions, NVIDIA, Union Square Ventures, 8VC, and Fei-Fei Li."
     }
   },
   {
