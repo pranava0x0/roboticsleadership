@@ -1,5 +1,89 @@
 [
   {
+    "id": "news-unitree-ipo-star-market-cleared-2026",
+    "title": "Unitree Robotics clears Shanghai STAR Market IPO review, targets $618M raise at $6.2B valuation",
+    "date": "2026-06-02",
+    "source": "Caixin Global",
+    "source_type": "News",
+    "source_url": "https://www.caixinglobal.com/2026-06-02/humanoid-robot-maker-unitree-advances-toward-618-million-shanghai-ipo-102449940.html",
+    "summary": "Shanghai Stock Exchange listing committee approved Unitree Robotics for its STAR Market IPO on June 1, making it the first \"embodied AI\" company cleared for China's A-share market in 73 days — an exceptionally fast approval. Unitree aims to raise 4.2B yuan (~$618M) at a ~$6.2B valuation. 2025 revenue was 1.699B yuan, 60%+ gross margins; humanoid robots now >50% of revenue.",
+    "category": "Competitive",
+    "companies": [
+      "unitree"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "ipo",
+      "china",
+      "unitree",
+      "star-market",
+      "humanoid",
+      "competitive"
+    ]
+  },
+  {
+    "id": "news-great-american-ai-act-draft-2026",
+    "title": "House lawmakers release Great American AI Act draft proposing 3-year preemption of state AI laws",
+    "date": "2026-06-04",
+    "source": "Roll Call",
+    "source_type": "News",
+    "source_url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/",
+    "summary": "Reps. Jay Obernolte (R-CA) and Lori Trahan (D-MA) released the 269-page Great American AI Act as a discussion draft. The bill would preempt state laws specifically regulating AI model development for three years, exempting laws on deployment and use. Faces pushback from consumer advocates who warn it would block state oversight of AI harms including those from autonomous systems.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "great-american-ai-act-2026"
+    ],
+    "themes": [
+      "policy-momentum",
+      "foundation-models"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "federal",
+      "policy",
+      "ai-preemption",
+      "state-law",
+      "obernolte",
+      "trahan",
+      "2026"
+    ]
+  },
+  {
+    "id": "news-generalist-ai-400m-series-b-2026",
+    "title": "Generalist AI raises $400M at $2B valuation to build general intelligence for real-world robots",
+    "date": "2026-06-04",
+    "source": "SiliconANGLE / Bloomberg",
+    "source_type": "News",
+    "source_url": "https://siliconangle.com/2026/06/04/generalist-ai-raises-400m-2b-valuation-build-general-intelligence-real-world/",
+    "summary": "Generalist AI raised $400M led by Radical Ventures at a $2B valuation. Round includes 8VC, Union Square Ventures, Norwest, Hanabi Capital, Bezos Expeditions, and Nvidia. The San Mateo-based company builds GEN-1, a general sensorimotor foundation model achieving 99% reliability across dexterous tasks at 3x prior state-of-the-art speed.",
+    "category": "Funding",
+    "companies": [
+      "generalist-ai"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "funding",
+      "series-b",
+      "foundation-model",
+      "physical-ai",
+      "generalist-ai"
+    ]
+  },
+  {
     "id": "news-nvidia-isaac-groot-reference-humanoid-2026",
     "title": "NVIDIA announces Isaac GR00T open humanoid robot reference design for academic research",
     "date": "2026-06-01",

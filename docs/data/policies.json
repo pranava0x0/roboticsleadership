@@ -5216,5 +5216,52 @@
     "themes": [
       "industrial-deployments"
     ]
+  },
+  {
+    "id": "great-american-ai-act-2026",
+    "title": "Great American Artificial Intelligence Act",
+    "type": "Bill",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-06-04",
+    "status": "Draft",
+    "bill_number": "Discussion Draft",
+    "sponsor": "Rep. Jay Obernolte (R-CA); Rep. Lori Trahan (D-MA)",
+    "summary": "Bipartisan 269-page discussion draft that would establish a national AI policy framework and preempt state laws specifically regulating AI model development for three years. Preemption does not apply to laws on AI deployment or use. The bill also creates voluntary federal oversight processes for frontier AI models. Opposed by consumer groups; supported by tech industry.",
+    "full_text_url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/",
+    "robotics_scope": "Preempts state regulations on AI model development, including robotics foundation models; shapes national framework for AI-enabled autonomous systems",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "AI developers",
+      "Robotics companies",
+      "Tech industry"
+    ],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "discussion-draft",
+      "ai-preemption",
+      "state-law",
+      "foundation-model",
+      "2026"
+    ],
+    "themes": [
+      "policy-momentum",
+      "foundation-models"
+    ],
+    "sources": [
+      {
+        "url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/"
+      },
+      {
+        "url": "https://www.insurancejournal.com/news/national/2026/06/05/872609.htm"
+      },
+      {
+        "url": "https://www.nextgov.com/artificial-intelligence/2026/06/lawmakers-propose-ai-framework-would-preempt-state-laws-3-years/413975/"
+      }
+    ],
+    "last_updated": "2026-06-05"
   }
 ]
