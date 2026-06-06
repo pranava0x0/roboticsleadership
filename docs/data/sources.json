@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraper configuration. Each entry is consumed by scripts/scraper-*.js. Set enabled:false to skip. last_run is updated by the scraper on each invocation.",
-    "last_updated": "2026-06-05"
+    "last_updated": "2026-06-06"
   },
   "news": [
     {

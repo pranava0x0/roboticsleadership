@@ -6,6 +6,16 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 No open issues.
 
+## Recent fixes (2026-06-06)
+
+### 2026-06-06 — scrapers — failed fetches still marked last_run as successful
+
+- **Status:** Fixed.
+- **Root cause:** code bug — both `scraper-news.js` and `scraper-policy.js` set `source.last_run = today` after calling fetch handlers, even if the handler failed with an HTTP error. The handlers checked `if (!res.ok)` and returned 0, but did not throw, so the error was silently masked and the source appeared to have run successfully when it actually failed.
+- **Repro:** run scraper against an unreachable host (or in a restricted network environment); observe `source.last_run` updated to today even though no data was fetched. Historical audit trails become unreliable.
+- **Fix:** changed all HTTP-error paths in handlers to throw an error (`throw new Error(...)`) instead of logging and returning 0. The try-catch in the main loop now catches these errors, logs them, and skips the `source.last_run = today` line. `_meta.last_updated` is still set (to indicate we ran), but individual `source.last_run` values remain unchanged, preserving the truth about which sources failed.
+- **Regression test:** in `uat.md`: verify that failed scraper runs do NOT update individual `source.last_run` timestamps, while successful runs do.
+
 ## Fixed (most recent first)
 
 ### 2026-06-04 — scrapers — scraper-policy.js missing User-Agent header on Federal Register fetch
