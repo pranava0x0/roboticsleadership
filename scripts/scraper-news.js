@@ -97,8 +97,7 @@ async function handleRss(source, news, existingUrls, cutoff, today) {
     }
   });
   if (!res.ok) {
-    console.error(`  Failed: HTTP ${res.status}`);
-    return 0;
+    throw new Error(`HTTP ${res.status} from ${source.id}`);
   }
   const xml = await res.text();
   const items = parseRSS(xml);
@@ -141,8 +140,7 @@ async function handleFederalRegister(source, news, existingUrls, cutoff, today) 
     headers: { 'User-Agent': 'robotics-tracker/1.0 (https://github.com/pranava0x0/roboticsleadership)' }
   });
   if (!res.ok) {
-    console.error(`  Failed: HTTP ${res.status}`);
-    return 0;
+    throw new Error(`HTTP ${res.status} from ${source.id}`);
   }
   const data = await res.json();
   let added = 0;
@@ -185,8 +183,7 @@ async function handleReddit(source, news, existingUrls, cutoff, today) {
     headers: { 'User-Agent': 'robotics-tracker/1.0 (Node.js; +https://github.com/pranava0x0/roboticsleadership)' }
   });
   if (!res.ok) {
-    console.error(`  Failed: HTTP ${res.status}`);
-    return 0;
+    throw new Error(`HTTP ${res.status} from ${source.id}`);
   }
   const data = await res.json();
   const posts = (data?.data?.children || []).map(c => c.data);
@@ -249,8 +246,7 @@ async function handleHackerNews(source, news, existingUrls, cutoff, today) {
       continue;
     }
     if (!res.ok) {
-      console.error(`  Failed: HTTP ${res.status}`);
-      continue;
+      throw new Error(`HTTP ${res.status} from hacker-news-robotics on query="${q}"`);
     }
     const data = await res.json();
     for (const hit of data.hits || []) {
@@ -314,10 +310,11 @@ async function main() {
         addedTotal += await handleHackerNews(source, news, existingUrls, cutoff, today);
       } else {
         console.log(`  Skipping ${source.id} (unhandled type: ${source.type})`);
+        continue;
       }
       source.last_run = today;
     } catch (e) {
-      console.error(`Error processing ${source.url}:`, e.message);
+      console.error(`Failed to process ${source.id}: ${e.message}`);
     }
   }
 

@@ -38,15 +38,17 @@ async function main() {
 
   const urlWithDate = `${targetSource.url}&conditions%5Bpublication_date%5D%5Bgte%5D=${cutoff}&per_page=20`;
   console.log(`Fetching from ${urlWithDate}...`);
-  const res = await fetch(urlWithDate, {
-    headers: { 'User-Agent': 'robotics-tracker/1.0 (https://github.com/pranava0x0/roboticsleadership)' }
-  });
+  let res;
+  try {
+    res = await fetch(urlWithDate, {
+      headers: { 'User-Agent': 'robotics-tracker/1.0 (https://github.com/pranava0x0/roboticsleadership)' }
+    });
+  } catch (e) {
+    console.error(`Failed to fetch: ${e.message}`);
+    throw e;
+  }
   if (!res.ok) {
-    console.error(`Failed to fetch: HTTP ${res.status} — skipping`);
-    targetSource.last_run = today;
-    sourcesData._meta.last_updated = today;
-    writeFileSync(sourcesFile, JSON.stringify(sourcesData, null, 2) + '\n');
-    return;
+    throw new Error(`HTTP ${res.status} from federal register policy`);
   }
   const data = await res.json();
   let added = 0;
@@ -90,12 +92,13 @@ async function main() {
     console.log('No new policies found.');
   }
 
+  // Only update last_run on successful fetch
   targetSource.last_run = today;
   sourcesData._meta.last_updated = today;
   writeFileSync(sourcesFile, JSON.stringify(sourcesData, null, 2) + '\n');
 }
 
 main().catch(err => {
-  console.error(err);
+  console.error(`Scraper failed: ${err.message}`);
   process.exit(1);
 });
