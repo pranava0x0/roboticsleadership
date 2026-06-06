@@ -1,5 +1,827 @@
 [
   {
+    "id": "fedreg-news-2026-11379",
+    "title": "Self-Regulatory Organizations; The Nasdaq Stock Market LLC; Noticing of Filing of Amendment No. 1 and Order Granting Accelerated Approval of a Proposed Rule Change, as Modified by Amendment No. 1, To Adopt Listing Rule IM-5101-4",
+    "date": "2026-06-08",
+    "source": "federal-register-robotics",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/06/08/2026-11379/self-regulatory-organizations-the-nasdaq-stock-market-llc-noticing-of-filing-of-amendment-no-1-and",
+    "summary": "Self-Regulatory Organizations; The Nasdaq Stock Market LLC; Noticing of Filing of Amendment No. 1 and Order Granting Accelerated Approval of a Proposed Rule Change, as Modified by Amendment No. 1, To ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ]
+  },
+  {
+    "id": "hn-48382213",
+    "title": "Why GPTHuman AI Is the Best AI Humanizer?",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://gpthuman.ai/",
+    "summary": "Why GPTHuman AI Is the Best AI Humanizer?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48384365",
+    "title": "Why People Hate Humanoid Robots",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://unherd.com/2026/06/why-people-hate-humanoid-robots/",
+    "summary": "Why People Hate Humanoid Robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48399094",
+    "title": "Some Comments on \"Magnifica Humanitas\"",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://bastian.rieck.me/blog/2026/magnifica_humanitas/",
+    "summary": "Some Comments on \"Magnifica Humanitas\"",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48414862",
+    "title": "The company I work for is losing all of its humanity, I don't know where to go",
+    "date": "2026-06-05",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://superlemon.bearblog.dev/the-company-i-work-for-is-losing-all-of-its-humanity-but-i-dont-know-where-else-to-go/",
+    "summary": "The company I work for is losing all of its humanity, I don't know where to go",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48417140",
+    "title": "Against shallow anti-rational humanism",
+    "date": "2026-06-05",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://statmodeling.stat.columbia.edu/2026/06/04/against-shallow-humanism/",
+    "summary": "Against shallow anti-rational humanism",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48384465",
+    "title": "Randomize, Identify, or Dream – Perception in Robotics",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://atomsfrontier.substack.com/p/randomize-identify-or-dream",
+    "summary": "Randomize, Identify, or Dream – Perception in Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48391827",
+    "title": "Last.fm's robots.txt include's Asimov's three laws of robotics as URIs",
+    "date": "2026-06-03",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.last.fm/robots.txt",
+    "summary": "Last.fm's robots.txt include's Asimov's three laws of robotics as URIs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48394391",
+    "title": "Same Weights, Different Robot: A Deployment Safety View of VLA Policies",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2606.03724",
+    "summary": "Same Weights, Different Robot: A Deployment Safety View of VLA Policies",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48395905",
+    "title": "Companies Are Using Reddit to Manipulate ChatGPT and Google AI Search",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search/",
+    "summary": "Companies Are Using Reddit to Manipulate ChatGPT and Google AI Search",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48396168",
+    "title": "Root access for Harmony Hubs and local web mangagement",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/Ripthulhu/harmony-hub-root",
+    "summary": "Root access for Harmony Hubs and local web mangagement",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48397935",
+    "title": "Slow Token, Fast Action – Learning in Robotics",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://atomsfrontier.substack.com/p/slow-token-fast-action",
+    "summary": "Slow Token, Fast Action – Learning in Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48398109",
+    "title": "Show HN: Hydron – Hardware-aware coding agent",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.hydron.sh/",
+    "summary": "Hi HN, this is Prashant from H2Loop. Embedded engineers that we work with were annoyed that generic AI tools hallucinated register addresses, generated code for peripherals that don't exist on th",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48401710",
+    "title": "Gesture HW1 is a 10-DOF ESP32-S3 robotic hand with high-dexterity manipulation",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.cnx-software.com/2026/05/28/gesture-hw1-10-dof-esp32-s3-robotic-hand-with-high-dexterity-manipulation/",
+    "summary": "Gesture HW1 is a 10-DOF ESP32-S3 robotic hand with high-dexterity manipulation",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48401807",
+    "title": "Your 401(k) is about to become Elon Musk's exit liquidity",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/ThierryBorgeat/status/2060820406840271145",
+    "summary": "Your 401(k) is about to become Elon Musk's exit liquidity",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48402713",
+    "title": "Aura: Action-Gated Memory for Robot Policies at Constant VRAM",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://huggingface.co/spaces/Kaikaku/aura-demo",
+    "summary": "Aura: Action-Gated Memory for Robot Policies at Constant VRAM",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48403492",
+    "title": "Enterprises start questioning the return on AI investments",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=Rn_UpO68WVU",
+    "summary": "Enterprises start questioning the return on AI investments",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48404964",
+    "title": "The Next Generation of Heroku Postgres (Postgres Advanced)",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.heroku.com/blog/introducing-the-next-generation-of-heroku-postgres/",
+    "summary": "The Next Generation of Heroku Postgres (Postgres Advanced)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48405977",
+    "title": "Atari Robot Demo by Boz [video]",
+    "date": "2026-06-04",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=cAKIhNi2v_Q",
+    "summary": "Atari Robot Demo by Boz [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48407860",
+    "title": "RobotValues: Evaluating Household Robots When Human Values Conflict",
+    "date": "2026-06-05",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2606.03312",
+    "summary": "RobotValues: Evaluating Household Robots When Human Values Conflict",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48410112",
+    "title": "How China is using human labor to win the humanoid robot data race",
+    "date": "2026-06-05",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://restofworld.org/2026/china-ai-robotics-training-data/",
+    "summary": "How China is using human labor to win the humanoid robot data race",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48412141",
+    "title": "The Token at the Seam – Learning in Robotics",
+    "date": "2026-06-05",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://atomsfrontier.substack.com/p/the-token-at-the-seam",
+    "summary": "The Token at the Seam – Learning in Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48412151",
+    "title": "The skeptic's guide to humanoid robots going viral on the Internet",
+    "date": "2026-06-05",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/ai/2026/06/the-skeptics-guide-to-humanoid-robots-going-viral-on-the-internet/",
+    "summary": "The skeptic's guide to humanoid robots going viral on the Internet",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48413114",
+    "title": "Scientists in 'autonomous laboratories' are starting to outsource work to robots",
+    "date": "2026-06-05",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.npr.org/2026/06/05/nx-s1-5846973/ai-science-robots-risks-experiments-gingko-bioworks",
+    "summary": "Scientists in 'autonomous laboratories' are starting to outsource work to robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48414314",
+    "title": "Here's why I created a travel website for robots",
+    "date": "2026-06-05",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://alexpanetta.substack.com/p/heres-why-i-created-a-travel-website",
+    "summary": "Here's why I created a travel website for robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48414468",
+    "title": "Alien hunters update guidance on sharing news of possible intelligent life",
+    "date": "2026-06-05",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/science/2026/jun/05/alien-hunters-seti-guidance-signals-intelligent-life",
+    "summary": "Alien hunters update guidance on sharing news of possible intelligent life",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48416421",
+    "title": "Assessing the Effect of a Deep-Rooted Grass on Belowground Carbon Storage",
+    "date": "2026-06-05",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025EF007102",
+    "summary": "Assessing the Effect of a Deep-Rooted Grass on Belowground Carbon Storage",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48417989",
+    "title": "Donald Trump says US may take equity stakes in AI companies",
+    "date": "2026-06-05",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.ft.com/content/b1ab6106-77e6-4218-9eb4-e44bd56ca400",
+    "summary": "Donald Trump says US may take equity stakes in AI companies",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48421328",
+    "title": "Show HN: What does YC Paxel do with your source code?",
+    "date": "2026-06-06",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/codesoda/paxel/tree/main/rootfs/rails",
+    "summary": "Paxel looks like a great way to score a Startup School ticket, but check what it does with your code before you upload.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48421684",
+    "title": "Thanks largely to robots Ukraine's now talking about winning, not just surviving",
+    "date": "2026-06-06",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.defenseone.com/technology/2026/06/ukraine-robots-winning/413902/",
+    "summary": "Thanks largely to robots Ukraine's now talking about winning, not just surviving",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-boston-university-team-wins-ma-318",
+    "title": "Boston University team wins MassRobotics Form & Function Challenge at Robotics Summit",
+    "date": "2026-06-03",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/boston-university-team-wins-massrobotics-form-function-challenge-2026-robotics-summit/",
+    "summary": "MassRobotics awarded prizes to university teams and showcased healthcare innovators, physical AI developers, and startups.\nThe post Boston University team wins MassRobotics Form & Function Challenge a...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-festo-launches-lightweight-pne-451",
+    "title": "Festo launches lightweight pneumatic gripper and tests GripperAI",
+    "date": "2026-06-03",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/festo-launches-pneumatic-gripper-tests-gripperai/",
+    "summary": "Festo has released a compact cobot gripper, and its robot-agnostic GripperAI enables grasping of objects without prior training.\nThe post Festo launches lightweight pneumatic gripper and tests Gripper...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-robobusiness-2026-opens-call-f-271",
+    "title": "RoboBusiness 2026 opens call for speakers",
+    "date": "2026-06-03",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/robobusiness-2026-opens-call-for-speakers/",
+    "summary": "RoboBusiness 2026, the premier event for developers of commercial robotics and those building robotics businesses, is seeking expert speakers.\nThe post RoboBusiness 2026 opens call for speakers appear...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-autonomous-defense-manufacture-487",
+    "title": "Autonomous defense manufacturer Mach Industries raises $300M",
+    "date": "2026-06-03",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/autonomous-defense-manufacturer-mach-industries-raises-300m/",
+    "summary": "Mach Industries will use the funding to accelerate executing government contracts, acquire talent, develop products, and expand its network. \nThe post Autonomous defense manufacturer Mach Industries r...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-voyager-technologies-acquires-424",
+    "title": "Voyager Technologies acquires Astrobotic to advance lunar initiatives",
+    "date": "2026-06-04",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/voyager-technologies-acquires-astrobotic-advance-lunar-initiatives/",
+    "summary": "Voyager intends to accelerate investment to scale Astrobotic’s programs, including lunar and reusable rocket programs.\nThe post Voyager Technologies acquires Astrobotic to advance lunar initiatives ap...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-generalist-raises-400m-to-scal-408",
+    "title": "Generalist raises $400M to scale its general-purpose AI models",
+    "date": "2026-06-04",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/generalist-raises-400m-to-scale-its-general-purpose-ai-models/",
+    "summary": "Generalist claims its system improves average success rates to 99% on tasks where previous models achieved 64%.\nThe post Generalist raises $400M to scale its general-purpose AI models appeared first o...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-proteus-gets-natural-language-110",
+    "title": "Proteus gets natural-language ability as Amazon expands European robot deployments",
+    "date": "2026-06-04",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/proteus-gets-natural-language-ability-amazon-expands-europe-robot-deployments/",
+    "summary": "Amazon says Proteus needs no special commands as it plans to deploy the mobile robot, as well as STARK and Vulcan, across Europe.\nThe post Proteus gets natural-language ability as Amazon expands Europ...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-can-surgical-robots-fly-ss-inn-535",
+    "title": "Can surgical robots fly? SS Innovations discusses challenges, solutions",
+    "date": "2026-06-04",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/can-surgical-robots-fly-ss-innovations-discusses-challenges-solutions/",
+    "summary": "The robotics developer is focusing on providing emergency care in active war zones and beyond.\nThe post Can surgical robots fly? SS Innovations discusses challenges, solutions appeared first on The Ro...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-mitsubishi-electric-opens-sere-741",
+    "title": "Mitsubishi Electric opens Serendie Street Boston digital transformation hub",
+    "date": "2026-06-05",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/mitsubishi-electric-opens-serendie-street-boston-digital-transformation-hub/",
+    "summary": "Mitsubishi Electric opened Serendie Street Boston, its first Western digital transformation hub dedicated to collaboration and innovation.\nThe post Mitsubishi Electric opens Serendie Street Boston dig...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-genisom-ai-debuts-deployable-r-573",
+    "title": "GENISOM AI debuts deployable robotics platforms at ICRA 2026",
+    "date": "2026-06-05",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/genisom-ai-debuts-deployable-robotics-platforms-icra-2026/",
+    "summary": "At ICRA 2026, GENISOM AI may have been new to many international attendees — but it is not a concept-stage robotics startup.\nThe post GENISOM AI debuts deployable robotics platforms at ICRA 2026 appea...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-why-deterministic-real-time-sy-121",
+    "title": "Why deterministic real-time systems are more critical than ever in robotics",
+    "date": "2026-06-05",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robotics/",
+    "summary": "Winston Leung discusses the role of QNX role in robotics and AI, focusing on safety, innovation, and industry trends.\nThe post Why deterministic real-time systems are more critical than ever in roboti...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-is-silicon-valley-ready-to-put-882",
+    "title": "Is Silicon Valley ready to put robots in people’s homes? Hello Robot is.",
+    "date": "2026-06-04",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
+    "summary": "The California startup released the fourth-generation of its home assistance robot, Stretch.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-startup-battlefield-200-applic-854",
+    "title": "Startup Battlefield 200 applications officially close in 3 days",
+    "date": "2026-06-05",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
+    "summary": "Applications for Startup Battlefield 200 officially close on June 8, 11:59 p.m. PT. Don't wait any longer. Secure your shot at competing on the Disrupt Stage at TechCrunch Disrupt 2026 this October at...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-video-friday-watch-this-runnin-562",
+    "title": "Video Friday: Watch This Running Robot Not Fall Down Stairs",
+    "date": "2026-06-05",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-humanoid-robot-running",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "news-unitree-ipo-star-market-cleared-2026",
     "title": "Unitree Robotics clears Shanghai STAR Market IPO review, targets $618M raise at $6.2B valuation",
     "date": "2026-06-02",
