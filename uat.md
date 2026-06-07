@@ -4,6 +4,7 @@
 
 _Created: 2026-05-18_
 _Last run: 2026-05-18_ (second pass — added agencies page)
+_Updated: 2026-06-07_ (documentation update — agencies/news consolidated into policies.html with collapsible sections)
 
 ---
 
@@ -22,7 +23,7 @@ _Last run: 2026-05-18_ (second pass — added agencies page)
 
 These should always pass. If one regresses, log it as `critical` in `issues.md`.
 
-1. **All six pages load without console errors.** Visit Dashboard / Companies / Policy / Agencies / News / Themes at the default theme (Dawn) and verify `preview_console_logs --level error` returns empty.
+1. **All five pages load without console errors.** Visit Dashboard / Companies / Policy / States / Themes at the default theme (Dawn) and verify `preview_console_logs --level error` returns empty.
 2. **All four themes activate.** From any page, switch through `caves → naked-sun → robot-dreams → dawn` via the picker. After each switch, verify:
    - `document.documentElement.getAttribute('data-theme')` matches the selected theme
    - `localStorage.theme` matches
@@ -42,17 +43,18 @@ These should always pass. If one regresses, log it as `critical` in `issues.md`.
    - Reset clears all filters
    - Row click → detail panel opens with the correct title
    - Escape closes panel; backdrop click closes panel
-5. **Policies — three branch sections render.**
-   - Congressional actions: 4 rows (HR 7334, HR 8189, OBBBA, CHIPS Act)
-   - Executive actions: 5 rows
-   - State incentives: 5 rows
-   - Status filter "In effect" → 0 congressional + 4 executive (bills are never "in effect" — they get "Signed")
-6. **News feed.**
-   - 26 stories on initial load, sorted newest-first
-   - Filter by company `figure-ai` → 3 stories
-   - Filter by `figure-ai` + category `Funding` → 2 stories
-   - Reset → 26
-   - Hash deep-link (`news.html#apptronik-935m-feb2026`) scrolls the matching card into view
+5. **Policies page — collapsible sections render.**
+   - Five collapsible sections: Congressional actions, Executive actions, Federal agencies, Tax & demand-side incentives, State incentives
+   - Congressional actions: ≥ 4 rows (HR 7334, HR 8189, OBBBA, CHIPS Act)
+   - Executive actions: ≥ 5 rows
+   - Federal agencies: ≥ 12 rows (OSTP, DOE, ARPA-E, DOC, NIST, NSF, NASA, Space Force, DARPA, USDA, NIH, DOT)
+   - Tax incentives: ≥ 3 rows (Section 174, R&D Tax Credit, Bonus Depreciation)
+   - State incentives: ≥ 5 rows
+   - Status filter "In effect" → 0 congressional + ≥ 4 executive (bills are never "in effect" — they get "Signed")
+6. **Dashboard — recent news feed.**
+   - "Recent activity" section shows ≥ 5 news stories, sorted newest-first
+   - Each story has a source link with "Read original →"
+   - Stories with `archive_url` render an "archived ↗" link (regression guard from 2026-05-18 bug)
 7. **Themes — card-grid.**
    - 6 theme cards render in `.themes-grid`
    - Clicking a card opens the bottom-sheet detail panel (`#detail-panel`) with the class `open`
@@ -60,8 +62,7 @@ These should always pass. If one regresses, log it as `critical` in `issues.md`.
    - Escape closes the detail panel; backdrop click closes the detail panel
    - Hash on load opens the matching theme card detail panel
    - **Hashchange post-load also opens the matching theme card detail panel** (regression guard)
-8. **Dashboard — archive-link parity with news.html.** For every card in `#recent-news`, if the underlying news record has `archive_url`, the card must render an `.archive-link`. Regression guard for the 2026-05-18 bug.
-8a. **Agencies table renders.** 12 agency rows (OSTP, DOE, ARPA-E, DOC, NIST, NSF, NASA, Space Force, DARPA, USDA, NIH, DOT) with OSTP as the lead row; a second "Tax & demand-side incentives" table with 3 rows (Section 174, R&D Tax Credit, Bonus Depreciation); ≥ 55 external links total; navigation marks `aria-current="page"`. At ≤540px viewport: page does not horizontally scroll (the nav internally scrolls instead).
+8. **Policy detail panel — related news.** Click any policy to open the detail panel. If the policy has tagged news items, the panel shows a "Related news" section with links. Regression test: news is wired correctly across the consolidated page.
 9. **Accessibility baseline.**
    - `.skip-link` exists and points to `#main`
    - Skip link's computed `left` becomes `0px` when focused
@@ -79,12 +80,12 @@ These should always pass. If one regresses, log it as `critical` in `issues.md`.
 |---|---|---|
 | Dashboard | 2026-05-18 | Stable. Watch the recent-news + chart-source rendering — they're page-local templates. |
 | Companies | 2026-05-18 | Stable. Detail panel is shared via `RT.openDetail`. |
-| Policies | 2026-05-18 | Stable. Three branch tables. |
-| News | 2026-05-18 | Stable. 16 of 26 records have archive_url. |
+| Policies | 2026-05-23 | Consolidated page with 5 collapsible sections (Congressional, Executive, Agencies, Tax incentives, State). Test section open/close state persistence. |
+| States | 2026-05-18 | Stable. State-policy themes page. |
 | Themes | 2026-05-18 | Stable post-fix. Hashchange regression worth keeping an eye on. |
-| Agencies | 2026-05-18 | New. Pure HTML (no JSON data file); content is curator-written. Verify external links don't 404 on a quarterly cadence. |
 | Theme picker | 2026-05-18 | Stable post-fix. The native `<details>` interaction is the source of past bugs — visually verify open/close each pass. |
-| Archive links | 2026-05-18 | Surface on all 4 pages; verify on each in turn. |
+| Collapsible sections | 2026-05-23 | New. Used on Policies page; state persists in localStorage per section ID. Watch for regression on section toggle. |
+| Archive links | 2026-05-18 | Surface on dashboard recent-news; verify each pass. |
 
 ---
 
@@ -96,7 +97,7 @@ These should always pass. If one regresses, log it as `critical` in `issues.md`.
 
 ## Known flaky / unstable areas
 
-- **The news-card template is duplicated** between `index.html` and `news.html`. Any future change to the markup or the link footer must touch both, or the dashboard will silently drop the change (this is exactly how the 2026-05-18 archive-link bug happened). Backlog item: extract `renderNewsCard()` to `app.js`.
+- **Collapsible section state persistence** (`<details>` elements) — state is stored in localStorage per section ID. Test that closing a section on one visit keeps it closed on return (within the same session and across sessions). Watch for edge cases like clearing localStorage.
 - **Web-font loading** is asynchronous. Theme switches re-apply font-family instantly but the actual face may swap in a few hundred ms later (`font-display: swap`). Don't assert on font metrics inside a single eval.
 - **The `<details>` element's hiding semantics** were a footgun — see § 15.4 in DESIGN.md. Any new CSS on `.theme-picker-menu` must keep `display: none` as the closed-state default and only set `display: flex` under `.theme-picker[open] >`.
 
