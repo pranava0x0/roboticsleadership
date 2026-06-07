@@ -12,9 +12,8 @@ A live-updating dashboard consolidating robotics startups, government policy, in
 docs/                  static site, publish root
   index.html           dashboard
   companies.html       directory + detail panel
-  policies.html        bills + state incentives
+  policies.html        federal bills, agencies, state incentives (collapsible sections)
   states.html          state-policy overview (key themes + what's on the books)
-  news.html            feed
   themes.html          deep-dives
   assets/
     styles.css         design system tokens + components (incl. BLUF callout)
