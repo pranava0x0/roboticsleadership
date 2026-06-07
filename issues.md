@@ -6,6 +6,15 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 No open issues.
 
+## Documentation updates (non-critical)
+
+### 2026-06-07 — docs — README and UAT outdated after 2026-05-23 consolidation
+
+- **Status:** Fixed.
+- **Description:** The May 23 "Consolidate navigation tabs and implement collapsible sections" commit deleted `docs/news.html` and `docs/agencies.html`, integrating their content (as collapsible sections and related news) into `policies.html`. The README and UAT documentation were not updated to reflect this structural change.
+- **Fix:** Updated README.md to remove reference to `news.html` and updated the `policies.html` entry to note it now contains collapsible sections for agencies, tax incentives, and state incentives. Updated UAT to remove references to standalone news/agencies pages and revised critical flow tests to reflect consolidated structure (5 pages instead of 6, policies sections instead of separate pages).
+- **Reason:** Documentation must reflect current reality so users and future developers understand the actual project structure.
+
 ## Fixed (most recent first)
 
 ### 2026-06-04 — scrapers — scraper-policy.js missing User-Agent header on Federal Register fetch
