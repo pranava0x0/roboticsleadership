@@ -25,6 +25,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
+      - name: Lint GitHub Actions (reject floating tags)
+        run: node scripts/lint-actions.js
+
       - name: Validate JSON before publishing
         run: node scripts/validate.js
 
