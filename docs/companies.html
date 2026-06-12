@@ -15,17 +15,23 @@
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/companies.json" crossorigin />
   <style>
-    /* Market map — packed-bubble segment panels. Tokens only. */
-    .mm-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 14px; }
-    @media (max-width: 1000px) { .mm-grid { grid-template-columns: repeat(2, 1fr); } }
-    @media (max-width: 540px) { .mm-grid { grid-template-columns: 1fr; } }
-    .mm-panel { border: 1px solid var(--border); border-radius: 10px; background: var(--surface-2); padding: 10px 12px 6px; min-width: 0; }
-    .mm-panel-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
-    .mm-panel-title { font-size: 13px; font-weight: 650; color: var(--text); background: none; border: none; padding: 0; cursor: pointer; text-align: left; font-family: inherit; }
-    .mm-panel-title:hover { color: var(--mm-color); }
-    .mm-panel-title:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
-    .mm-panel-meta { font-size: 10.5px; color: var(--text-faint); letter-spacing: 0.03em; }
-    .mm-panel svg { display: block; width: 100%; height: auto; overflow: visible; }
+    /* Market map — accordion of packed-bubble segment panels. Tokens only. */
+    .mm-grid { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
+    .mm-panel { border: 1px solid var(--border); border-radius: 10px; background: var(--surface-2); min-width: 0; overflow: hidden; }
+    .mm-panel[open] { border-color: var(--mm-color); }
+    .mm-panel-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; cursor: pointer; padding: 11px 14px; list-style: none; }
+    .mm-panel-head::-webkit-details-marker { display: none; }
+    .mm-panel-head::before { content: ''; width: 10px; height: 10px; border-radius: 50%; background: var(--mm-color); flex: none; }
+    .mm-panel-head::after { content: '+'; margin-left: auto; color: var(--text-faint); font-size: 16px; line-height: 1; }
+    .mm-panel[open] .mm-panel-head::after { content: '–'; }
+    .mm-panel-head:hover { background: color-mix(in srgb, var(--mm-color) 8%, transparent); }
+    .mm-panel-head:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+    .mm-panel-title { font-size: 13.5px; font-weight: 650; color: var(--text); }
+    .mm-panel-meta { font-size: 11px; color: var(--text-faint); letter-spacing: 0.03em; }
+    .mm-panel-filter { font-size: 11px; background: none; border: 1px solid var(--border-strong); border-radius: 999px; padding: 2px 10px; color: var(--text-muted); cursor: pointer; font-family: inherit; min-height: 24px; }
+    .mm-panel-filter:hover { color: var(--text); border-color: var(--mm-color); }
+    .mm-panel-body { padding: 0 14px 10px; }
+    .mm-panel svg { display: block; width: 100%; max-width: 720px; margin: 0 auto; height: auto; overflow: visible; }
     .mm-bubble { cursor: pointer; transform-box: fill-box; transform-origin: center; transition: transform 130ms ease, filter 130ms ease; }
     .mm-bubble:hover, .mm-bubble:focus-visible { transform: scale(1.12); filter: brightness(1.15); outline: none; }
     .mm-bubble circle.body { fill: color-mix(in srgb, var(--mm-color) 22%, var(--surface)); }
@@ -59,6 +65,7 @@
         <a href="companies.html">Companies</a>
         <a href="policies.html">Policy</a>
         <a href="supply-chain.html">Supply Chain</a>
+        <a href="china.html">US vs China</a>
         <a href="states.html">States</a>
         <a href="themes.html">Themes</a>
       </nav>
@@ -95,7 +102,7 @@
     <h2 class="section-title">The map of the space</h2>
     <div class="chart" id="market-map">
       <h3>Seven segments, one galaxy</h3>
-      <p class="chart-sub">Every tracked company, sized by latest valuation (or total raised where valuation is undisclosed). Click a bubble for the dossier; click a segment name to filter the directory below.</p>
+      <p class="chart-sub">Every tracked company, sized by latest valuation (or total raised where valuation is undisclosed). Expand a segment to see its bubbles; click a bubble for the dossier, or "filter table" to narrow the directory below.</p>
       <div class="mm-grid" id="mm-grid"></div>
       <div class="mm-legend">
         <span><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="5.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>US — solid ring</span>
@@ -423,13 +430,13 @@
       const rOf = (v) => 8 + 34 * (Math.log10(Math.max(v, 1e7)) - 7) / (Math.log10(maxV) - 7);
       let animIdx = 0;
 
-      grid.innerHTML = presentSegments.map(segId => {
+      grid.innerHTML = presentSegments.map((segId, idx) => {
         const seg = SEGMENTS[segId] || { label: segId, color: 'var(--accent)' };
         const items = companies.filter(c => c.map_category === segId)
           .map(c => ({ c, r: rOf(bubbleValue(c)) }))
           .sort((a, b) => b.r - a.r);
-        const W = 320;
-        const H = items.length > 8 ? 230 : 190;
+        const W = 640;
+        const H = items.length > 8 ? 200 : 160;
         const placed = packBubbles(items, W, H);
         const totalV = items.reduce((s, x) => s + bubbleValue(x.c), 0);
         const bubbles = placed.map(({ c, r, x, y }) => {
@@ -445,13 +452,16 @@
           </g>`;
         }).join('');
         return `
-          <div class="mm-panel" style="--mm-color:${seg.color}">
-            <div class="mm-panel-head">
-              <button type="button" class="mm-panel-title" data-segment="${RT.escapeHTML(segId)}">${RT.escapeHTML(seg.label)} →</button>
-              <span class="mm-panel-meta tnum">${items.length} · ${RT.formatUSD(totalV)}</span>
+          <details class="mm-panel" style="--mm-color:${seg.color}" ${idx === 0 ? 'open' : ''}>
+            <summary class="mm-panel-head">
+              <span class="mm-panel-title">${RT.escapeHTML(seg.label)}</span>
+              <span class="mm-panel-meta tnum">${items.length} companies · ${RT.formatUSD(totalV)}</span>
+              <button type="button" class="mm-panel-filter" data-segment="${RT.escapeHTML(segId)}">filter table ↓</button>
+            </summary>
+            <div class="mm-panel-body">
+              <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${RT.escapeHTML(seg.label)} companies">${bubbles}</svg>
             </div>
-            <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${RT.escapeHTML(seg.label)} companies"></svg>
-          </div>`.replace('</svg>', bubbles + '</svg>');
+          </details>`;
       }).join('');
 
       // bubble interactions: click/keyboard → dossier; hover → tooltip
@@ -475,9 +485,11 @@
         });
         g.addEventListener('mouseleave', () => { tip.hidden = true; });
       });
-      // segment title → filter the directory
-      grid.querySelectorAll('.mm-panel-title').forEach(btn => {
-        btn.addEventListener('click', () => {
+      // "filter table" button → filter the directory (don't toggle the accordion)
+      grid.querySelectorAll('.mm-panel-filter').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
           document.getElementById('f-segment').value = btn.dataset.segment;
           render();
           document.getElementById('filter-form').scrollIntoView({ behavior: 'smooth', block: 'start' });

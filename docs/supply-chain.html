@@ -42,6 +42,17 @@
     .bluf-srcs a { margin-right: 10px; white-space: nowrap; }
     .choke-src { white-space: nowrap; font-size: 11px; }
     .choke-src a { color: var(--text-faint); border-bottom: 1px dotted var(--border-strong); }
+    .ship-row { display: grid; grid-template-columns: 210px 1fr; gap: 10px; align-items: center; margin-bottom: 10px; }
+    .ship-row .ship-name { font-size: 13px; font-weight: 600; }
+    .ship-row .ship-bar-wrap { display: flex; align-items: center; gap: 8px; min-width: 0; }
+    .ship-row .ship-bar { height: 18px; border-radius: 4px; background: var(--cat-supplychain); min-width: 3px; }
+    .ship-row.humanoid .ship-bar { background: var(--cat-funding); }
+    .ship-row .ship-val { font-size: 12px; color: var(--text-muted); white-space: nowrap; }
+    @media (max-width: 640px) { .ship-row { grid-template-columns: 1fr; gap: 3px; } }
+    .shipments-defs { margin-top: 14px; display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    .shipments-defs .def { font-size: 12.5px; color: var(--text-muted); border-left: 2px solid var(--border-strong); padding-left: 10px; }
+    .shipments-defs .def strong { color: var(--text); display: block; font-size: 13px; }
+    .shipments-defs .def a { color: var(--text-faint); border-bottom: 1px dotted var(--border-strong); }
     .share-row { display: grid; grid-template-columns: 170px 1fr; gap: 10px; align-items: center; margin-bottom: 10px; }
     .share-row .share-name { font-size: 13px; color: var(--text); min-width: 0; }
     .share-row .share-name a { color: inherit; border-bottom: 1px dotted var(--border-strong); }
@@ -87,6 +98,7 @@
         <a href="companies.html">Companies</a>
         <a href="policies.html">Policy</a>
         <a href="supply-chain.html">Supply Chain</a>
+        <a href="china.html">US vs China</a>
         <a href="states.html">States</a>
         <a href="themes.html">Themes</a>
       </nav>
@@ -138,6 +150,27 @@
         <span><span class="dot pos-weak"></span>Weak — dependent on imports</span>
       </div>
     </div>
+
+    <!-- Robot classes / shipments -->
+    <h2 class="section-title">Who ships what — robot classes</h2>
+    <div class="chart" id="shipments-chart">
+      <h3>Annual shipments by robot class</h3>
+      <p class="chart-sub">"Non-humanoid" splits into named categories: industrial robots (arms), cobots (human-safe arms), and professional service robots (AMRs/AGVs, delivery, cleaning, medical). Humanoids are the smallest class — and the fastest-growing.</p>
+      <div id="shipments-bars"></div>
+      <div id="shipments-defs" class="shipments-defs"></div>
+    </div>
+
+    <!-- US manufacturing sites -->
+    <details class="collapsible-section" id="sec-us-sites" open>
+      <summary>
+        <h2 class="section-title">U.S. manufacturing sites</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Every U.S. plant, mine, fab, and factory in the records below, grouped by state.</p>
+      </summary>
+      <table class="data-table" id="us-sites-table">
+        <thead><tr><th>State</th><th>Site</th><th class="hide-mobile">Company</th><th>What it makes</th><th class="hide-mobile">Capacity</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </details>
 
     <!-- Share by category -->
     <h2 class="section-title">Who makes what</h2>
@@ -228,6 +261,12 @@
     // ---------- Chain map (SVG flow) ----------
     renderChainMap(sc.chain_stages);
 
+    // ---------- Shipments by robot class ----------
+    renderShipments(sc.shipments || []);
+
+    // ---------- US manufacturing sites ----------
+    renderUSSites(sc.companies);
+
     // ---------- Share bars ----------
     renderShareBars(sc.categories);
 
@@ -266,6 +305,56 @@
         const sub = document.querySelector('#chain-map .chart-sub');
         sub.textContent += ` Weakest links today: ${weak.join(', ')}.`;
       }
+    }
+
+    function renderShipments(shipments) {
+      const withUnits = shipments.filter(s => s.units != null);
+      const maxU = Math.max(...withUnits.map(s => s.units), 1);
+      document.getElementById('shipments-bars').innerHTML = withUnits.map(s => `
+        <div class="ship-row ${RT.slug(s.id)}">
+          <span class="ship-name">${RT.escapeHTML(s.name)} <span class="faint tnum">(${RT.escapeHTML(s.year)})</span></span>
+          <span class="ship-bar-wrap">
+            <span class="ship-bar" style="width:${Math.max(1, (s.units / maxU) * 100)}%"></span>
+            <span class="ship-val tnum">${RT.formatNumber(s.units)} units</span>
+          </span>
+        </div>
+      `).join('');
+      document.getElementById('shipments-defs').innerHTML = shipments.map(s => `
+        <div class="def">
+          <strong>${RT.escapeHTML(s.name)}</strong>
+          ${RT.escapeHTML(s.definition)} ${RT.escapeHTML(s.note)}
+          ${srcLinks(s.sources)}
+        </div>
+      `).join('');
+    }
+
+    // A site counts as US when its location ends in a ", XX" state code.
+    // Function declaration (hoisted) — renderUSSites runs before this line.
+    function usState(location) {
+      const STATES = 'AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC';
+      const m = String(location || '').match(/,\s*([A-Z]{2})\b/);
+      return m && STATES.includes(m[1]) ? m[1] : null;
+    }
+
+    function renderUSSites(companies) {
+      const catName = (id) => (sc.categories.find(c => c.id === id) || {}).name || id;
+      const rows = [];
+      companies.forEach(co => (co.sites || []).forEach(s => {
+        const st = usState(s.location);
+        if (st) rows.push({ st, s, co });
+      }));
+      rows.sort((a, b) => a.st.localeCompare(b.st) || a.co.name.localeCompare(b.co.name));
+      document.querySelector('#us-sites-table tbody').innerHTML = rows.map(({ st, s, co }) => `
+        <tr>
+          <td><strong>${RT.escapeHTML(st)}</strong></td>
+          <td style="font-size:13px;">${RT.escapeHTML(s.location)}${s.detail ? `<span class="secondary-line">${RT.escapeHTML(truncate(s.detail, 100))}</span>` : ''}</td>
+          <td class="hide-mobile" style="font-size:13px;">${RT.escapeHTML(co.name)}</td>
+          <td style="font-size:12.5px;">${RT.escapeHTML((co.categories || []).map(catName).join(', '))}</td>
+          <td class="hide-mobile" style="font-size:12.5px;">${s.capacity ? RT.escapeHTML(s.capacity) : '<span class="muted">—</span>'}</td>
+        </tr>
+      `).join('');
+      const sub = document.querySelector('#sec-us-sites summary .muted');
+      sub.textContent = `${rows.length} U.S. plants, mines, fabs, and factories from the records below, grouped by state.`;
     }
 
     function renderShareBars(categories) {

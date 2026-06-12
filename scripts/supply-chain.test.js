@@ -58,6 +58,25 @@ test('chain has ≥5 stages, each with valid us_position and ≥1 source', () =>
   });
 });
 
+test('shipments cover the 4 robot classes, each defined and sourced', () => {
+  const ids = (data.shipments || []).map((s) => s.id);
+  ['industrial', 'cobots', 'service', 'humanoid'].forEach((id) => assert(ids.includes(id), `missing robot class "${id}"`));
+  data.shipments.forEach((s) => {
+    assert(s.definition && s.definition.length > 20, `class "${s.id}" missing definition`);
+    assert(Array.isArray(s.sources) && s.sources.length > 0, `class "${s.id}" has no sources`);
+  });
+});
+
+test('supply chain includes US manufacturing sites in ≥8 states', () => {
+  const STATES = new Set(['AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY','DC']);
+  const states = new Set();
+  data.companies.forEach((c) => (c.sites || []).forEach((s) => {
+    const m = String(s.location || '').match(/,\s*([A-Z]{2})\b/);
+    if (m && STATES.has(m[1])) states.add(m[1]);
+  }));
+  assert(states.size >= 8, `only ${states.size} US states represented: ${[...states].join(', ')}`);
+});
+
 test('every chokepoint is { text, source } with a URL source', () => {
   data.categories.forEach((c) => (c.chokepoints || []).forEach((ck, i) => {
     assert(ck && typeof ck === 'object' && ck.text, `category "${c.id}" chokepoint[${i}] is not { text, source }`);

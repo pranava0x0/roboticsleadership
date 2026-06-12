@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="US vs China in robotics — every key metric side by side: deployment, humanoids, supply chain, capital, and the Unitree case study." />
+  <title>US vs China · Robotics Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Orbitron:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
+  <script>
+    /* Set data-theme before first paint to avoid FOUC. See DESIGN.md § 15. */
+    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="preload" as="fetch" href="data/us_china.json" crossorigin />
+  <style>
+    .vs-table { width: 100%; border-collapse: collapse; }
+    .vs-table th, .vs-table td { padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; text-align: left; }
+    .vs-table thead th { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-faint); }
+    .vs-table .vs-metric { font-size: 13px; font-weight: 600; width: 22%; }
+    .vs-table .vs-cell { font-size: 13px; color: var(--text-muted); width: 36%; line-height: 1.45; }
+    .vs-table .vs-cell.win { color: var(--text); }
+    .vs-table .vs-cell.win::before { content: '●'; margin-right: 6px; font-size: 9px; vertical-align: 1px; }
+    .vs-table .us-cell.win::before { color: var(--cat-supplychain); }
+    .vs-table .cn-cell.win::before { color: var(--status-negative); }
+    .vs-srcs { font-size: 11px; margin-top: 4px; }
+    .vs-srcs a { color: var(--text-faint); border-bottom: 1px dotted var(--border-strong); margin-right: 7px; }
+    .vs-note { font-size: 11.5px; color: var(--text-faint); font-style: italic; margin-top: 3px; }
+    .scoreline { display: flex; gap: 18px; flex-wrap: wrap; margin: 4px 0 0; font-size: 12.5px; color: var(--text-muted); }
+    .scoreline strong { color: var(--text); }
+    @media (max-width: 700px) {
+      .vs-table thead { display: none; }
+      .vs-table tr { display: block; padding: 10px 0; border-bottom: 1px solid var(--border); }
+      .vs-table td { display: block; border: none; padding: 3px 0; width: auto !important; }
+      .vs-table .vs-cell::after { content: ''; }
+      .vs-table .us-cell::before { content: '🇺🇸 '; }
+      .vs-table .cn-cell::before { content: '🇨🇳 '; }
+      .vs-table .us-cell.win::before { content: '🇺🇸 ● '; }
+      .vs-table .cn-cell.win::before { content: '🇨🇳 ● '; }
+    }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="site-header-inner">
+      <a href="index.html" class="header-updated" aria-label="Home — last data refresh">
+        <span class="header-updated-label">Updated</span>
+        <span class="header-updated-date tnum">—</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="index.html">Dashboard</a>
+        <a href="companies.html">Companies</a>
+        <a href="policies.html">Policy</a>
+        <a href="supply-chain.html">Supply Chain</a>
+        <a href="china.html">US vs China</a>
+        <a href="states.html">States</a>
+        <a href="themes.html">Themes</a>
+      </nav>
+      <details class="theme-picker" id="theme-picker">
+        <summary aria-label="Theme picker">
+          <span class="theme-picker-current">Dawn</span>
+          <svg class="theme-picker-chevron" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="theme-picker-menu" role="radiogroup" aria-label="Choose theme">
+          <label class="theme-option"><input type="radio" name="theme" value="caves"><span class="theme-option-name">Caves of Steel</span><span class="theme-option-tag">Earth</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Cosmic</span></label>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+    <p class="eyebrow">Head to head</p>
+    <h1 class="page-title">US vs China.</h1>
+    <p class="page-lede">Every key metric on this site, side by side — deployment, humanoids, supply chain, capital — plus the SemiAnalysis Unitree comparison in full.</p>
+
+    <aside class="bluf" aria-label="Bottom line up front">
+      <span class="bluf-tag">Bottom line</span>
+      <p class="bluf-body" id="bluf-body"><span class="skeleton" style="display:inline-block;height:16px;width:90%;"></span></p>
+    </aside>
+
+    <div class="scoreline" id="scoreline" aria-label="Scoreboard"></div>
+
+    <div id="vs-sections"></div>
+
+    <h2 class="section-title" id="unitree-case-title"></h2>
+    <p class="muted" id="unitree-case-intro" style="font-size:13.5px;max-width:74ch;"></p>
+    <div class="table-wrap">
+      <table class="vs-table" id="unitree-table">
+        <thead><tr><th style="width:22%">Dimension</th><th style="width:39%">Unitree</th><th style="width:39%">US humanoid OEMs</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <p class="muted" id="method-note" style="font-size:12px;margin-top:24px;"></p>
+  </main>
+
+  <footer class="site-footer">
+    <p>Every record links to its primary source.</p>
+  </footer>
+
+  <script src="assets/app.js" defer></script>
+  <script defer>
+  document.addEventListener('DOMContentLoaded', async () => {
+    let uc;
+    try {
+      uc = await RT.loadData('us_china');
+    } catch (e) {
+      document.getElementById('bluf-body').textContent = 'Failed to load comparison data.';
+      return;
+    }
+
+    function hostname(url) {
+      try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url || ''; }
+    }
+    function srcLinks(sources) {
+      return (sources || []).map(s => {
+        const url = typeof s === 'string' ? s : s.url;
+        const label = (typeof s === 'object' && s.label) || hostname(url);
+        return `<a href="${RT.escapeHTML(url)}" target="_blank" rel="noopener" title="${RT.escapeHTML(url)}">${RT.escapeHTML(label)}</a>`;
+      }).join(' ');
+    }
+
+    // BLUF
+    document.getElementById('bluf-body').innerHTML =
+      `<strong>${RT.escapeHTML(uc.bluf.headline)}</strong> ${RT.escapeHTML(uc.bluf.body)}` +
+      `<span style="display:block;font-size:11.5px;margin-top:8px;color:var(--text-faint);">Sources: ${srcLinks(uc.bluf.sources)}</span>`;
+
+    // Scoreboard
+    const allMetrics = uc.sections.flatMap(s => s.metrics);
+    const tally = { us: 0, china: 0, even: 0 };
+    allMetrics.forEach(m => { tally[m.edge] = (tally[m.edge] || 0) + 1; });
+    document.getElementById('scoreline').innerHTML =
+      `<span>Across <strong>${allMetrics.length} metrics</strong>:</span>` +
+      `<span><strong>${tally.china}</strong> favor China</span>` +
+      `<span><strong>${tally.us}</strong> favor the US</span>` +
+      `<span><strong>${tally.even}</strong> contested</span>`;
+
+    // Sections
+    document.getElementById('vs-sections').innerHTML = uc.sections.map((sec, i) => `
+      <details class="collapsible-section" id="sec-${RT.escapeHTML(sec.id)}" ${i === 0 ? 'open' : ''}>
+        <summary>
+          <h2 class="section-title">${RT.escapeHTML(sec.title)}</h2>
+        </summary>
+        <div class="table-wrap">
+          <table class="vs-table">
+            <thead><tr><th>Metric</th><th>United States</th><th>China</th></tr></thead>
+            <tbody>
+              ${sec.metrics.map(m => `
+                <tr>
+                  <td class="vs-metric">${RT.escapeHTML(m.metric)}
+                    <div class="vs-srcs">${srcLinks(m.sources)}</div>
+                    ${m.note ? `<div class="vs-note">${RT.escapeHTML(m.note)}</div>` : ''}
+                  </td>
+                  <td class="vs-cell us-cell ${m.edge === 'us' ? 'win' : ''}">${RT.escapeHTML(m.us)}</td>
+                  <td class="vs-cell cn-cell ${m.edge === 'china' ? 'win' : ''}">${RT.escapeHTML(m.china)}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+      </details>
+    `).join('');
+
+    // Unitree case study
+    document.getElementById('unitree-case-title').textContent = uc.unitree_case.title;
+    document.getElementById('unitree-case-intro').textContent = uc.unitree_case.intro;
+    document.querySelector('#unitree-table tbody').innerHTML = uc.unitree_case.rows.map(r => `
+      <tr>
+        <td class="vs-metric">${RT.escapeHTML(r.dimension)}<div class="vs-srcs">${srcLinks(r.sources)}</div></td>
+        <td class="vs-cell cn-cell">${RT.escapeHTML(r.unitree)}</td>
+        <td class="vs-cell us-cell">${RT.escapeHTML(r.us_oems)}</td>
+      </tr>
+    `).join('');
+
+    const meta = uc._meta || {};
+    document.getElementById('method-note').textContent =
+      `Method: ${meta.method || ''}. Captured as of ${RT.formatDate(meta.captured_at || meta.last_updated)}. "Edge" calls are editorial judgments on sourced data, not scores.`;
+  });
+  </script>
+</body>
+</html>

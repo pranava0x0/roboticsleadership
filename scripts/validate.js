@@ -209,6 +209,13 @@ function validateSupplyChain(name, data) {
     checkSources(k, `overview.kpis[${i}] (${k.label || '?'})`);
   });
 
+  (data.shipments || []).forEach((s, i) => {
+    const label = `shipments[${i}] (${s.id || '?'})`;
+    ['id', 'name', 'definition', 'year', 'note'].forEach((f) => { if (!s[f]) add(`${label} missing "${f}"`); });
+    if (s.units != null && typeof s.units !== 'number') add(`${label}: units must be a number or null`);
+    checkSources(s, label);
+  });
+
   const VALID_POSITIONS = ['strong', 'contested', 'weak'];
   if (!Array.isArray(data.chain_stages) || data.chain_stages.length === 0) add('chain_stages missing or empty');
   const stageIds = new Set();
@@ -297,6 +304,53 @@ function validateSupplyChain(name, data) {
   return { name, ok: errors.length === 0, errors, records };
 }
 
+// us_china.json — side-by-side comparison: _meta + bluf + sections[].metrics + unitree_case
+function validateUSChina(name, data) {
+  const errors = [];
+  const add = (m) => errors.push(m);
+  const isURL = (u) => typeof u === 'string' && /^https?:\/\//.test(u);
+  const checkSources = (rec, label) => {
+    if (!Array.isArray(rec.sources) || rec.sources.length === 0) {
+      add(`${label}: no sources[]`);
+      return;
+    }
+    rec.sources.forEach((s, i) => {
+      const url = typeof s === 'string' ? s : s && s.url;
+      if (!isURL(url)) add(`${label}: sources[${i}] is not a URL`);
+    });
+  };
+  if (!data._meta || !data._meta.last_updated) add('_meta.last_updated missing');
+  if (!data.bluf || !data.bluf.headline || !data.bluf.body) add('bluf needs headline + body');
+  checkSources(data.bluf || {}, 'bluf');
+  if (!Array.isArray(data.sections) || data.sections.length === 0) add('sections missing or empty');
+  const VALID_EDGES = ['us', 'china', 'even'];
+  const ids = new Set();
+  (data.sections || []).forEach((sec, i) => {
+    if (!sec.id || !sec.title) add(`sections[${i}] needs id + title`);
+    if (!Array.isArray(sec.metrics) || sec.metrics.length === 0) add(`sections[${i}] (${sec.id || '?'}) has no metrics`);
+    (sec.metrics || []).forEach((m, j) => {
+      const label = `sections[${i}].metrics[${j}] (${m.id || '?'})`;
+      ['id', 'metric', 'us', 'china', 'edge'].forEach((f) => { if (!m[f]) add(`${label} missing "${f}"`); });
+      if (m.edge && !VALID_EDGES.includes(m.edge)) add(`${label}: edge "${m.edge}" not in {us, china, even}`);
+      if (m.id) {
+        if (ids.has(m.id)) add(`${label}: duplicate metric id`);
+        ids.add(m.id);
+      }
+      checkSources(m, label);
+    });
+  });
+  if (!data.unitree_case || !data.unitree_case.title || !Array.isArray(data.unitree_case.rows) || data.unitree_case.rows.length === 0) {
+    add('unitree_case needs title + rows[]');
+  }
+  (data.unitree_case?.rows || []).forEach((r, i) => {
+    const label = `unitree_case.rows[${i}] (${r.dimension || '?'})`;
+    ['dimension', 'unitree', 'us_oems'].forEach((f) => { if (!r[f]) add(`${label} missing "${f}"`); });
+    checkSources(r, label);
+  });
+  const records = (data.sections || []).reduce((n, s) => n + (s.metrics?.length || 0), 0) + (data.unitree_case?.rows?.length || 0);
+  return { name, ok: errors.length === 0, errors, records };
+}
+
 function validateFile(name) {
   const filename = resolve(DATA_DIR, `${name}.json`);
   if (!existsSync(filename)) {
@@ -316,6 +370,10 @@ function validateFile(name) {
   // supply_chain.json is a structured document (object with sections), not a record array
   if (name === 'supply_chain') {
     return validateSupplyChain(name, data);
+  }
+  // us_china.json is a structured comparison document
+  if (name === 'us_china') {
+    return validateUSChina(name, data);
   }
   if (!Array.isArray(data)) {
     return { name, ok: false, errors: ['Top-level JSON should be an array of records'], records: 0 };
@@ -390,7 +448,7 @@ function main() {
   const requested = process.argv[2];
   const files = requested
     ? [requested]
-    : ['companies', 'policies', 'news', 'themes', 'sources', 'agencies', 'state_policy', 'supply_chain'];
+    : ['companies', 'policies', 'news', 'themes', 'sources', 'agencies', 'state_policy', 'supply_chain', 'us_china'];
 
   let allOk = true;
   for (const name of files) {
