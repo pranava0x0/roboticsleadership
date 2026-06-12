@@ -126,7 +126,8 @@
           "url": "https://www.figure.ai/news/series-c"
         }
       ]
-    }
+    },
+    "map_category": "humanoid"
   },
   {
     "id": "apptronik",
@@ -249,7 +250,8 @@
           "url": "https://techcrunch.com/2026/02/11/humanoid-robot-startup-apptronik-has-now-raised-935m-at-a-5b-valuation/"
         }
       ]
-    }
+    },
+    "map_category": "humanoid"
   },
   {
     "id": "1x-technologies",
@@ -356,7 +358,8 @@
           "url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
         }
       ]
-    }
+    },
+    "map_category": "humanoid"
   },
   {
     "id": "agility-robotics",
@@ -493,7 +496,8 @@
           "url": "https://www.geekwire.com/2025/agility-robotics-reportedly-raising-400m-for-humanoid-warehouse-robots/"
         }
       ]
-    }
+    },
+    "map_category": "humanoid"
   },
   {
     "id": "boston-dynamics",
@@ -591,7 +595,8 @@
           "url": "https://www.sedaily.com/"
         }
       ]
-    }
+    },
+    "map_category": "humanoid"
   },
   {
     "id": "tesla-optimus",
@@ -665,7 +670,8 @@
           "url": "https://www.tesla.com/AI"
         }
       ]
-    }
+    },
+    "map_category": "humanoid"
   },
   {
     "id": "sanctuary-ai",
@@ -755,7 +761,8 @@
     ],
     "last_updated": "2026-05-17",
     "themes": [],
-    "financials": null
+    "financials": null,
+    "map_category": "humanoid"
   },
   {
     "id": "skild-ai",
@@ -854,7 +861,8 @@
           "url": "https://www.skild.ai"
         }
       ]
-    }
+    },
+    "map_category": "brains"
   },
   {
     "id": "physical-intelligence",
@@ -977,7 +985,8 @@
           "url": "https://www.physicalintelligence.company"
         }
       ]
-    }
+    },
+    "map_category": "brains"
   },
   {
     "id": "unitree",
@@ -1002,10 +1011,37 @@
         "url": "https://www.unitree.com",
         "confidence": "reported",
         "archive_url": "https://web.archive.org/web/20260511000806/https://www.unitree.com/"
+      },
+      {
+        "date": "2025-06",
+        "round": "Series C",
+        "amount_usd": null,
+        "valuation_usd": 1700000000,
+        "investors": [
+          "Alibaba",
+          "Tencent",
+          "China Mobile Capital",
+          "Ant Group",
+          "Geely Capital",
+          "Jinqiu Capital"
+        ],
+        "url": "https://www.cnbc.com/2025/09/09/chinas-unitree-plans-7-billion-ipo-valuation-as-humanoid-robot-race-heats-up.html",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-06",
+        "round": "IPO (STAR Market, approved)",
+        "amount_usd": 616000000,
+        "valuation_usd": 6200000000,
+        "investors": [
+          "Public offering — Shanghai STAR Market"
+        ],
+        "url": "https://news.cgtn.com/news/2026-06-01/Unitree-gets-STAR-Market-green-light-in-China-s-hard-tech-IPO-wave-1NCT9TksSVq/share_amp.html",
+        "confidence": "confirmed"
       }
     ],
     "total_funding_usd": 140000000,
-    "latest_valuation_usd": null,
+    "latest_valuation_usd": 6200000000,
     "robot_types": [
       "quadruped",
       "humanoid"
@@ -1052,14 +1088,21 @@
       },
       {
         "url": "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/"
-      }
+      },
+      "https://www.caixinglobal.com/2026-05-26/unitree-fast-tracks-shanghai-ipo-with-target-valuation-of-62-billion-102447449.html",
+      "https://news.cgtn.com/news/2026-06-01/Unitree-gets-STAR-Market-green-light-in-China-s-hard-tech-IPO-wave-1NCT9TksSVq/share_amp.html"
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-12",
     "themes": [
       "china-scale",
       "cost-trajectory"
     ],
-    "financials": null
+    "financials": {
+      "revenue_usd": 235000000,
+      "revenue_year": "2025",
+      "details": "IPO prospectus: 2025 revenue CNY 1.71B (~$235M), up from CNY 392M in 2024; STAR Market IPO approved June 1, 2026 in a record 73-day review, raising ~CNY 4.2B at a target market cap of at least CNY 42B (~$6.2B)."
+    },
+    "map_category": "humanoid"
   },
   {
     "id": "ubtech",
@@ -1144,7 +1187,8 @@
           "url": "https://www.hkexnews.hk/"
         }
       ]
-    }
+    },
+    "map_category": "humanoid"
   },
   {
     "id": "agibot",
@@ -1209,7 +1253,8 @@
     "themes": [
       "china-scale"
     ],
-    "financials": null
+    "financials": null,
+    "map_category": "humanoid"
   },
   {
     "id": "robotera",
@@ -1273,7 +1318,8 @@
     "themes": [
       "china-scale"
     ],
-    "financials": null
+    "financials": null,
+    "map_category": "humanoid"
   },
   {
     "id": "engineai",
@@ -1336,7 +1382,8 @@
     "themes": [
       "china-scale"
     ],
-    "financials": null
+    "financials": null,
+    "map_category": "humanoid"
   },
   {
     "id": "symbotic",
@@ -1432,7 +1479,8 @@
           "url": "https://ir.symbotic.com/"
         }
       ]
-    }
+    },
+    "map_category": "industrial"
   },
   {
     "id": "locus-robotics",
@@ -1522,7 +1570,8 @@
           "url": "https://locusrobotics.com"
         }
       ]
-    }
+    },
+    "map_category": "industrial"
   },
   {
     "id": "diligent-robotics",
@@ -1613,7 +1662,8 @@
     ],
     "last_updated": "2026-05-17",
     "themes": [],
-    "financials": null
+    "financials": null,
+    "map_category": "service"
   },
   {
     "id": "anduril",
@@ -1708,7 +1758,8 @@
           "url": "https://www.bloomberg.com/"
         }
       ]
-    }
+    },
+    "map_category": "defense"
   },
   {
     "id": "shield-ai",
@@ -1801,7 +1852,8 @@
           "url": "https://shield.ai"
         }
       ]
-    }
+    },
+    "map_category": "defense"
   },
   {
     "id": "covariant",
@@ -1881,7 +1933,8 @@
     "themes": [
       "foundation-models"
     ],
-    "financials": null
+    "financials": null,
+    "map_category": "brains"
   },
   {
     "id": "zipline",
@@ -2004,7 +2057,8 @@
           "url": "https://www.therobotreport.com/zipline-raises-over-600m-in-funding-surpasses-2m-commercial-drone-deliveries/"
         }
       ]
-    }
+    },
+    "map_category": "defense"
   },
   {
     "id": "skydio",
@@ -2126,7 +2180,8 @@
           "url": "https://www.tectonicdefense.com/skydio-raises-110m-at-4-4b-valuation/"
         }
       ]
-    }
+    },
+    "map_category": "defense"
   },
   {
     "id": "collaborative-robotics",
@@ -2231,7 +2286,8 @@
           "url": "https://www.therobotreport.com/collaborative-robotics-raises-100m-series-b-funding/"
         }
       ]
-    }
+    },
+    "map_category": "industrial"
   },
   {
     "id": "carbon-robotics",
@@ -2338,7 +2394,8 @@
           "url": "https://www.therobotreport.com/carbon-robotics-brings-in-70m-to-scale-laserweeder/"
         }
       ]
-    }
+    },
+    "map_category": "field"
   },
   {
     "id": "dexterity",
@@ -2428,7 +2485,8 @@
           "url": "https://www.bloomberg.com/news/articles/2025-03-11/ai-robotics-startup-dexterity-lands-1-65-billion-valuation"
         }
       ]
-    }
+    },
+    "map_category": "industrial"
   },
   {
     "id": "serve-robotics",
@@ -2509,7 +2567,8 @@
       "revenue_usd": 3000000,
       "revenue_year": "Q1 2026",
       "details": "Publicly traded (Nasdaq: SERV); spun out of Uber/Postmates in 2021. Q1 2026 revenue $3.0M, up 238% sequentially and 578% YoY; reaffirmed ~$26M FY2026 revenue guidance. Largest US sidewalk-delivery fleet (2,000+ robots across 44 cities / 14 states). Acquired Diligent Robotics in 2026 to expand into indoor service robots."
-    }
+    },
+    "map_category": "service"
   },
   {
     "id": "arbe-robotics",
@@ -2614,7 +2673,8 @@
       "revenue_usd": null,
       "revenue_year": null,
       "details": "Publicly traded (Nasdaq: ARBE); founded 2015 in Tel Aviv, went public in 2021 via SPAC. Reaffirmed 2026 revenue guidance of $4–6M and adjusted EBITDA loss of $(28)–$(31)M; ended Q1 2026 with $53.6M cash after an $18.5M registered direct offering. Partnering with NVIDIA on an AI perception platform; shipping radar chipsets to robotaxi / L4 programs."
-    }
+    },
+    "map_category": "enablers"
   },
   {
     "id": "intuitive-surgical",
@@ -2693,7 +2753,8 @@
       "revenue_usd": 2510000000,
       "revenue_year": "Q3 2025",
       "details": "Publicly traded (Nasdaq: ISRG); founded 1995, IPO 2000. The dominant surgical-robotics company. Q3 2025 revenue $2.51B (+23% YoY); da Vinci installed base 10,763 systems as of Sep 30, 2025 (+13% YoY). Dave Rosa became CEO July 1, 2025."
-    }
+    },
+    "map_category": "service"
   },
   {
     "id": "irobot",
@@ -2767,7 +2828,8 @@
       "revenue_usd": null,
       "revenue_year": null,
       "details": "Publicly traded (Nasdaq: IRBT); founded 1990, pioneer of consumer home robots (Roomba). Launched its largest-ever product refresh in March 2025, but 2025 quarters fell below expectations amid market headwinds and production/shipping delays; the board is running a review of strategic alternatives (going-concern pressure). CEO Gary Cohen."
-    }
+    },
+    "map_category": "service"
   },
   {
     "id": "aerovironment",
@@ -2853,7 +2915,8 @@
       "revenue_usd": 820600000,
       "revenue_year": "FY2025",
       "details": "Publicly traded (Nasdaq: AVAV); founded 1971, IPO 2007. FY2025 revenue $820.6M (+14% YoY). Closed the BlueHalo acquisition May 1, 2025 (~$1.7B+ pro forma FY2025 revenue, +40% YoY). Two segments: Autonomous Systems (AxS) and Space, Cyber & Directed Energy (SCDE). CEO Wahid Nawabi."
-    }
+    },
+    "map_category": "defense"
   },
   {
     "id": "ouster",
@@ -2936,7 +2999,8 @@
       "revenue_usd": 169000000,
       "revenue_year": "FY2025",
       "details": "Publicly traded (OUST); founded 2015, went public 2021 via SPAC. FY2025 revenue ~$169M (up from ~$11M in 2019). ~500 customers across robotics, industrial automation, smart infrastructure and automotive. Rev8 lidar qualified for NVIDIA DRIVE Hyperion (L4). Long-standing supply agreement with Serve Robotics. CEO Angus Pacala."
-    }
+    },
+    "map_category": "enablers"
   },
   {
     "id": "richtech-robotics",
@@ -3013,7 +3077,8 @@
       "revenue_usd": 5050000,
       "revenue_year": "FY2025",
       "details": "Publicly traded (Nasdaq: RR); headquartered in Las Vegas. FY2025 revenue $5.05M (+19% YoY). Products: Matradee restaurant servers, ADAM/Scorpion dual-arm beverage robots, Titan AMRs, DUST-E cleaning robots, and Dex industrial humanoid. 2026 partnerships with SoundHound (voice AI) and Microsoft Azure Marketplace. CEO Wayne Huang."
-    }
+    },
+    "map_category": "service"
   },
   {
     "id": "field-ai",
@@ -3088,7 +3153,8 @@
       "revenue_usd": null,
       "revenue_year": null,
       "details": "Private. Builds \"physics-first\" robot foundation models (FFMs) designed to generalize across robot embodiments and handle real-world uncertainty without prior maps or task-specific training. Raised $405M Series D at a $2B valuation (Aug 2025); backed by Bill Gates, Bezos Expeditions and NVIDIA."
-    }
+    },
+    "map_category": "brains"
   },
   {
     "id": "generalist-ai",
@@ -3187,7 +3253,8 @@
       "revenue_usd": null,
       "revenue_year": null,
       "details": "Private. Building general-purpose sensorimotor foundation models (GEN-1) that transfer across robot arms and environments. GEN-1 achieves 99% reliability across dexterous tasks at 3x prior SOTA speed. ~$540M raised total: $140M seed (Mar 2025), $400M Series B (Jun 2026) at $2B valuation led by Radical Ventures. Investors include Bezos Expeditions, NVIDIA, Union Square Ventures, 8VC, and Fei-Fei Li."
-    }
+    },
+    "map_category": "brains"
   },
   {
     "id": "wayve",
@@ -3284,7 +3351,8 @@
       "revenue_usd": null,
       "revenue_year": null,
       "details": "UK-based embodied-AI company building end-to-end (\"AV2.0\") self-driving foundation models licensed to automakers — a \"physical AI\" approach to autonomy. Series C $1.05B (2024; SoftBank, NVIDIA, Microsoft); Series D $1.2B at an $8.6B post-money valuation (Feb 2026; led by Eclipse, Balderton and SoftBank Vision Fund 2)."
-    }
+    },
+    "map_category": "brains"
   },
   {
     "id": "dyna-robotics",
@@ -3365,7 +3433,8 @@
       "revenue_usd": null,
       "revenue_year": null,
       "details": "Private. DYNA-1 is positioned as the first commercially deployed dexterous-manipulation foundation model, improving via continuous reinforcement learning in real deployments. Series A $120M at a >$600M valuation (Sep 2025); investors include CRV, First Round Capital, NVIDIA Ventures and the Amazon Industrial Innovation Fund. Founders previously sold Caper AI for ~$350M."
-    }
+    },
+    "map_category": "brains"
   },
   {
     "id": "bedrock-robotics",
@@ -3456,7 +3525,8 @@
       "revenue_usd": null,
       "revenue_year": null,
       "details": "Private. Retrofits existing heavy construction equipment with an autonomy kit (lidar, GPS, motion sensors) — the \"Bedrock Operator.\" Founded by former Waymo leaders (incl. the head of its trucking program). Emerged from stealth July 2025 with $80M; Series B $270M at a $1.75B post-money valuation (Feb 2026), total raised >$350M. Targeting first fully autonomous excavator deployments in 2026."
-    }
+    },
+    "map_category": "field"
   },
   {
     "id": "westmag",
@@ -3549,7 +3619,8 @@
       {
         "url": "https://www.westmag.com"
       }
-    ]
+    ],
+    "map_category": "enablers"
   },
   {
     "id": "moog-inc",
@@ -3617,7 +3688,8 @@
           "url": "https://investors.moog.com"
         }
       ]
-    }
+    },
+    "map_category": "enablers"
   },
   {
     "id": "hebi-robotics",
@@ -3686,7 +3758,8 @@
     "last_updated": "2026-06-12",
     "themes": [
       "us-supply-chain"
-    ]
+    ],
+    "map_category": "enablers"
   },
   {
     "id": "standard-bots",
@@ -3755,7 +3828,8 @@
       "industrial-deployments",
       "cost-trajectory",
       "policy-momentum"
-    ]
+    ],
+    "map_category": "industrial"
   },
   {
     "id": "machina-labs",
@@ -3839,7 +3913,8 @@
       "industrial-deployments",
       "defense-procurement",
       "physical-ai"
-    ]
+    ],
+    "map_category": "industrial"
   },
   {
     "id": "path-robotics",
@@ -3917,7 +3992,8 @@
     "last_updated": "2026-06-12",
     "themes": [
       "industrial-deployments"
-    ]
+    ],
+    "map_category": "industrial"
   },
   {
     "id": "gecko-robotics",
@@ -3997,7 +4073,8 @@
     "themes": [
       "industrial-deployments",
       "defense-procurement"
-    ]
+    ],
+    "map_category": "field"
   },
   {
     "id": "viam",
@@ -4082,7 +4159,8 @@
     "themes": [
       "foundation-models",
       "physical-ai"
-    ]
+    ],
+    "map_category": "enablers"
   },
   {
     "id": "electric-sheep",
@@ -4169,7 +4247,8 @@
     "themes": [
       "industrial-deployments",
       "cost-trajectory"
-    ]
+    ],
+    "map_category": "field"
   },
   {
     "id": "pickle-robot",
@@ -4250,7 +4329,8 @@
     "last_updated": "2026-06-12",
     "themes": [
       "industrial-deployments"
-    ]
+    ],
+    "map_category": "industrial"
   },
   {
     "id": "bright-machines",
@@ -4333,6 +4413,452 @@
     "themes": [
       "industrial-deployments",
       "physical-ai"
-    ]
+    ],
+    "map_category": "industrial"
+  },
+  {
+    "id": "fourier-intelligence",
+    "name": "Fourier Intelligence",
+    "founded": "2015",
+    "hq": {
+      "city": "Shanghai",
+      "state": "N/A",
+      "country": "China"
+    },
+    "website": "https://www.fftai.com",
+    "funding_rounds": [
+      {
+        "date": "2022-01",
+        "round": "Series D",
+        "amount_usd": 63000000,
+        "valuation_usd": null,
+        "investors": [
+          "SoftBank Vision Fund 2",
+          "Prosperity7 Ventures (Saudi Aramco)"
+        ],
+        "url": "https://www.prosperity7vc.com/fourier-intelligence-completes-rmb-400-million-series-d-financing%EF%BF%BC/",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2025-01",
+        "round": "Series E",
+        "amount_usd": 110000000,
+        "valuation_usd": null,
+        "investors": [
+          "Guoxin Investment",
+          "Pudong Venture Capital",
+          "Prosperity7 Ventures"
+        ],
+        "url": "https://en.tmtpost.com/post/7651669",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": 1100000000,
+    "robot_types": [
+      "humanoid",
+      "rehabilitation robot"
+    ],
+    "primary_use_case": "general_purpose",
+    "flagship_product": "GR-3 humanoid (55 DoF, unveiled Aug 2025; shown at CES 2026)",
+    "deployments": [
+      {
+        "customer": "2,000+ medical institutions in 40+ countries",
+        "use_case": "rehabilitation robotics installed base",
+        "status": "active",
+        "location": "Global",
+        "robot_count": null,
+        "start_date": null
+      }
+    ],
+    "headcount": null,
+    "founders": [
+      {
+        "name": "Alex Gu (Gu Jie)",
+        "role": "Founder & CEO"
+      }
+    ],
+    "ceo": "Alex Gu",
+    "tags": [
+      "humanoid",
+      "china",
+      "rehab-robotics",
+      "softbank-backed"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      "https://en.tmtpost.com/post/7651669",
+      "https://interestingengineering.com/ai-robotics/fouriers-gr-3-humanoid-at-ces-2026",
+      "https://www.humanoidsdaily.com/news/the-great-valuation-chasm-a-2025-guide-to-the-humanoid-robotics-capital-race"
+    ],
+    "last_updated": "2026-06-12",
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ],
+    "map_category": "humanoid"
+  },
+  {
+    "id": "deep-robotics",
+    "name": "DEEP Robotics",
+    "founded": "2017",
+    "hq": {
+      "city": "Hangzhou",
+      "state": "N/A",
+      "country": "China"
+    },
+    "website": "https://www.deeprobotics.cn/en",
+    "funding_rounds": [
+      {
+        "date": "2025-07",
+        "round": "Growth round",
+        "amount_usd": 70000000,
+        "valuation_usd": null,
+        "investors": [
+          "Fortune Venture Capital",
+          "CRHC Fund / China Reform Holdings"
+        ],
+        "url": "https://www.yicaiglobal.com/news/chinas-deep-robotics-raises-usd707-million-to-speed-rd-of-embodied-ai-robot-adoption",
+        "confidence": "reported"
+      },
+      {
+        "date": "2025-11",
+        "round": "Series C",
+        "amount_usd": 70700000,
+        "valuation_usd": null,
+        "investors": [
+          "CMB International",
+          "China Asset Management",
+          "China Telecom funds",
+          "China Unicom funds"
+        ],
+        "url": "https://www.scmp.com/tech/tech-trends/article/3335806/chinas-deep-robotics-raises-us70-million-fresh-funds-sector-draws-more-investors",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "quadruped",
+      "wheeled-legged robot"
+    ],
+    "primary_use_case": "inspection / maintenance",
+    "flagship_product": "Jueying X30 inspection quadruped; Lynx M20 wheeled-legged robot",
+    "deployments": [
+      {
+        "customer": "Chinese power grid operators",
+        "use_case": "autonomous substation and tunnel inspection",
+        "status": "active",
+        "location": "China",
+        "robot_count": null,
+        "start_date": null
+      }
+    ],
+    "headcount": null,
+    "founders": [
+      {
+        "name": "Zhu Qiuguo",
+        "role": "Founder & CEO"
+      }
+    ],
+    "ceo": "Zhu Qiuguo",
+    "tags": [
+      "quadruped",
+      "china",
+      "inspection",
+      "infrastructure"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      "https://www.scmp.com/tech/tech-trends/article/3335806/chinas-deep-robotics-raises-us70-million-fresh-funds-sector-draws-more-investors",
+      "https://www.yicaiglobal.com/news/chinas-deep-robotics-raises-usd707-million-to-speed-rd-of-embodied-ai-robot-adoption"
+    ],
+    "last_updated": "2026-06-12",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "map_category": "field"
+  },
+  {
+    "id": "anybotics",
+    "name": "ANYbotics",
+    "founded": "2016",
+    "hq": {
+      "city": "Zurich",
+      "state": "N/A",
+      "country": "Switzerland"
+    },
+    "website": "https://www.anybotics.com",
+    "funding_rounds": [
+      {
+        "date": "2023-06",
+        "round": "Series B",
+        "amount_usd": 50000000,
+        "valuation_usd": null,
+        "investors": [
+          "Walden Catalyst",
+          "NGP Capital",
+          "Bessemer Venture Partners",
+          "Swisscom Ventures"
+        ],
+        "url": "https://www.anybotics.com/news/anybotics-raises-additional-60-million-to-drive-u-s-expansion/",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2024-12",
+        "round": "Series B extension",
+        "amount_usd": 60000000,
+        "valuation_usd": null,
+        "investors": [
+          "Qualcomm Ventures",
+          "Supernova Invest",
+          "TDK Ventures",
+          "Walden Catalyst",
+          "Bessemer Venture Partners"
+        ],
+        "url": "https://techcrunch.com/2024/12/12/anybotics-raises-60m-to-scale-autonomous-industrial-robots-in-the-u-s/",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 130000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "quadruped"
+    ],
+    "primary_use_case": "inspection / maintenance",
+    "flagship_product": "ANYmal autonomous industrial inspection quadruped",
+    "deployments": [
+      {
+        "customer": "BP",
+        "use_case": "energy facility inspection",
+        "status": "active",
+        "location": "Global",
+        "robot_count": null,
+        "start_date": null
+      },
+      {
+        "customer": "Equinor",
+        "use_case": "offshore facility inspection",
+        "status": "active",
+        "location": "Norway",
+        "robot_count": null,
+        "start_date": null
+      },
+      {
+        "customer": "Petrobras",
+        "use_case": "oil & gas inspection",
+        "status": "active",
+        "location": "Brazil",
+        "robot_count": null,
+        "start_date": null
+      }
+    ],
+    "headcount": null,
+    "founders": [
+      {
+        "name": "Péter Fankhauser",
+        "role": "Co-founder & CEO"
+      },
+      {
+        "name": "Marco Hutter",
+        "role": "Co-founder (ETH Zurich)"
+      }
+    ],
+    "ceo": "Péter Fankhauser",
+    "tags": [
+      "quadruped",
+      "eth-spinout",
+      "inspection",
+      "switzerland"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      "https://www.anybotics.com/news/anybotics-raises-additional-60-million-to-drive-u-s-expansion/",
+      "https://techcrunch.com/2024/12/12/anybotics-raises-60m-to-scale-autonomous-industrial-robots-in-the-u-s/"
+    ],
+    "last_updated": "2026-06-12",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "map_category": "field"
+  },
+  {
+    "id": "sunday-robotics",
+    "name": "Sunday Robotics",
+    "founded": "2023",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.sunday.ai",
+    "funding_rounds": [
+      {
+        "date": "2025-11",
+        "round": "Seed + Series A",
+        "amount_usd": 35000000,
+        "valuation_usd": null,
+        "investors": [
+          "Benchmark",
+          "Conviction"
+        ],
+        "url": "https://theaiinsider.tech/2025/11/20/sunday-emerges-from-stealth-with-35m-for-household-robot-called-memo/",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-03",
+        "round": "Series B",
+        "amount_usd": 165000000,
+        "valuation_usd": 1150000000,
+        "investors": [
+          "Coatue Management",
+          "Tiger Global",
+          "Benchmark",
+          "Bain Capital Ventures"
+        ],
+        "url": "https://techcrunch.com/2026/03/12/humanoid-robotics-maker-sunday-reaches-1-15b-valuation-to-build-household-robots/",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 200000000,
+    "latest_valuation_usd": 1150000000,
+    "robot_types": [
+      "home robot",
+      "wheeled humanoid"
+    ],
+    "primary_use_case": "consumer / home",
+    "flagship_product": "Memo skill-learning home robot (trained on ~10M household episodes via Skill Capture Glove; first deliveries targeted Thanksgiving 2026)",
+    "deployments": [
+      {
+        "customer": "500+ data-collection homes",
+        "use_case": "skill-capture data program",
+        "status": "pilot",
+        "location": "USA",
+        "robot_count": null,
+        "start_date": null
+      }
+    ],
+    "headcount": 25,
+    "headcount_date": "2026-03",
+    "founders": [
+      {
+        "name": "Tony Zhao",
+        "role": "Co-founder & CEO"
+      },
+      {
+        "name": "Cheng Chi",
+        "role": "Co-founder"
+      }
+    ],
+    "ceo": "Tony Zhao",
+    "tags": [
+      "home",
+      "consumer",
+      "unicorn",
+      "imitation-learning",
+      "stanford-spinout"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      "https://techcrunch.com/2026/03/12/humanoid-robotics-maker-sunday-reaches-1-15b-valuation-to-build-household-robots/",
+      "https://theaiinsider.tech/2025/11/20/sunday-emerges-from-stealth-with-35m-for-household-robot-called-memo/"
+    ],
+    "last_updated": "2026-06-12",
+    "themes": [
+      "foundation-models",
+      "cost-trajectory"
+    ],
+    "map_category": "service"
+  },
+  {
+    "id": "robust-ai",
+    "name": "Robust.AI",
+    "founded": "2019",
+    "hq": {
+      "city": "San Carlos",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.robust.ai",
+    "funding_rounds": [
+      {
+        "date": "2020-10",
+        "round": "Series A",
+        "amount_usd": 15000000,
+        "valuation_usd": null,
+        "investors": [
+          "Jazz Venture Partners",
+          "Playground Global"
+        ],
+        "url": "https://techcrunch.com/2020/10/28/robust-ai-raises-a-15m-series-a-to-improve-problem-solving-for-collaborative-robots/",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2023-04",
+        "round": "Series A-1",
+        "amount_usd": 20000000,
+        "valuation_usd": null,
+        "investors": [
+          "Prime Movers Lab",
+          "Future Ventures",
+          "Energy Impact Partners"
+        ],
+        "url": "https://techcrunch.com/2023/04/20/robust-ai-raises-20m-as-it-scales-robot-deliveries-for-pilot-customers/",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 42500000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "AMR"
+    ],
+    "primary_use_case": "logistics",
+    "flagship_product": "Carter collaborative warehouse AMR (16 cameras, force-sensitive handlebar) + Grace no-code software",
+    "deployments": [
+      {
+        "customer": "DHL Supply Chain",
+        "use_case": "warehouse fulfillment pilot",
+        "status": "pilot",
+        "location": "USA",
+        "robot_count": null,
+        "start_date": null
+      }
+    ],
+    "headcount": null,
+    "founders": [
+      {
+        "name": "Rodney Brooks",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Anthony Jules",
+        "role": "Co-founder & CEO"
+      },
+      {
+        "name": "Gary Marcus",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Henrik Christensen",
+        "role": "Co-founder"
+      }
+    ],
+    "ceo": "Anthony Jules",
+    "tags": [
+      "warehouse",
+      "amr",
+      "cobot"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      "https://techcrunch.com/2023/04/20/robust-ai-raises-20m-as-it-scales-robot-deliveries-for-pilot-customers/",
+      "https://www.automatedwarehouseonline.com/robust-ai-expands-carter-robot-capabilities-adds-investors/"
+    ],
+    "last_updated": "2026-06-12",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "map_category": "industrial"
   }
 ]
