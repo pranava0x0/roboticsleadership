@@ -144,6 +144,33 @@ Every tool result (merge output, web fetch bodies, agent responses) stays in con
 
 ---
 
+## Research-agent economy — buy findings, not inventory
+
+Added 2026-06-12 after a 6-agent research session (~368K subagent tokens, ~60% of returned entities shipped). The agents all succeeded; the waste was in what they were asked to buy. These rules target yield, not just cost.
+
+### 11. Size the agent's shopping list to the shelf, not the warehouse
+Decide what the destination surface holds BEFORE prompting (e.g., "the table shows 3–4 companies per category"), then ask for exactly that many — "the N most important, ranked" — never "4–8 with full detail." This session, agents returned ~83 companies; the page shipped 44. Over-collection is researched, returned, re-read in context, then discarded: paid for three times, used zero.
+
+### 12. Partition entities across parallel agents explicitly
+When fanning out N research agents, assign each entity to exactly one agent and tell the others: "Figure, Tesla, Unitree are covered by a sibling agent — mention them only by name, do not research them." This session three agents independently re-derived Figure's Series C and BotQ details (~15–20K tokens of duplicate work).
+
+### 13. Put the validator's bar in the prompt, with an early-bail trigger
+Tell research agents the exact required fields (the schema's `required` list: founded, sources, funding…) AND a bail rule: "if 2 searches don't surface the required fields, mark `skip: true` and move on — a record missing them will be discarded." An agent researching its way to a thorough skip (XDOF this session) is the most expensive way to learn nothing shippable exists. A fast negative is a finding; a slow one is a leak.
+
+### 14. Big agent results go to disk, not into the conversation
+For multi-agent research waves, have each agent `Write` its JSON to `data/research/<topic>.json` and return only: counts, 3-line summary, file path, and anything surprising. The orchestrator reads files once, selectively, at authoring time. Returning 10–20K tokens of JSON per agent into the main context (this session: ~70–80K total) re-bills that payload as input on every later turn — the single largest hidden cost of the session.
+
+### 15. Cap per-claim sourcing at collection time
+Two source URLs per claim is the publishing standard here; agents returning 5–6 per company inflate both their output and the orchestrator's context. Say "max 2 sources per claim, prefer primary" in every research prompt.
+
+### 16. Verify renders with DOM counts before screenshots
+One `preview_eval` that counts rendered sections (`document.querySelectorAll('.cat-block').length`) costs ~100 tokens and catches a blank or half-rendered page; a screenshot costs 1–2K tokens and is blank at any scroll position anyway (see issues.md, 2026-06-12). Screenshot once at scroll-0 for final visual confirmation only. This check — not the test suite — is what caught a TDZ bug that silently blanked half a page while all tests passed.
+
+### 17. Seed-then-spawn is the proven shape — keep it
+~5 cheap WebSearches to fix the structure → precise agent prompts with the exact output JSON contract embedded → zero parse/retry loops. Every agent this session returned valid structured output on the first attempt because the contract was in the prompt. Never spawn research agents before the structure is known; never accept prose when you need records.
+
+---
+
 ## What NOT to do
 
 - **Don't paraphrase quoted content.** Quote verbatim into the `statement` / `quote` / `body` field. Tests catch obvious markers ("they claim that…").
