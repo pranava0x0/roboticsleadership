@@ -3534,7 +3534,8 @@
     "themes": [
       "china-scale",
       "defense-procurement",
-      "physical-ai"
+      "physical-ai",
+      "us-supply-chain"
     ],
     "data_confidence": "high",
     "last_updated": "2026-06-02",
@@ -3548,6 +3549,790 @@
       {
         "url": "https://www.westmag.com"
       }
+    ]
+  },
+  {
+    "id": "moog-inc",
+    "name": "Moog Inc.",
+    "founded": "1951",
+    "hq": {
+      "city": "East Aurora",
+      "state": "NY",
+      "country": "USA"
+    },
+    "website": "https://www.moog.com",
+    "funding_rounds": [],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "actuator",
+      "motion-control"
+    ],
+    "primary_use_case": "components / supply-chain",
+    "flagship_product": "Precision servo actuators, electric drives, and motion controllers for aerospace / defense / industrial robotics",
+    "deployments": [],
+    "headcount": 13000,
+    "headcount_date": "2024-09",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": true,
+    "founders": [
+      {
+        "name": "William C. Moog Jr.",
+        "role": "Founder"
+      }
+    ],
+    "ceo": "Patrick Roche",
+    "tags": [
+      "supply-chain",
+      "actuators",
+      "motion-control",
+      "us-manufactured",
+      "defense",
+      "public-company",
+      "nyse-mog"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.moog.com"
+      },
+      {
+        "url": "https://investors.moog.com"
+      }
+    ],
+    "last_updated": "2026-06-12",
+    "themes": [
+      "defense-procurement",
+      "us-supply-chain"
+    ],
+    "financials": {
+      "revenue_usd": 3340000000,
+      "revenue_year": 2024,
+      "net_income_usd": null,
+      "details": "Public company NYSE: MOG.A / MOG.B. FY2024 net sales ~$3.34B. Three segments: Space & Defense (largest), Industrial, Medical. Major US manufacturer of precision servo actuators, electric drives, and motion-control systems supplied to aerospace, defense, and industrial robotics OEMs. NDAA-compliant US manufacturer — increasingly relevant as robot actuator supply-chain security becomes a national-security concern.",
+      "sources": [
+        {
+          "url": "https://investors.moog.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "hebi-robotics",
+    "name": "Hebi Robotics",
+    "founded": "2014",
+    "hq": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "country": "USA"
+    },
+    "website": "https://www.hebirobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2018-01",
+        "round": "Seed",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [],
+        "confidence": "reported",
+        "notes": "Bootstrapped from Carnegie Mellon Biorobotics Lab licensing; early customers include national-lab and university research groups"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "actuator",
+      "modular-robot"
+    ],
+    "primary_use_case": "components / supply-chain",
+    "flagship_product": "X-Series Smart Actuator (24–48 V, 2–120 Nm, integrated motor + driver + encoder + IMU in one module)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Dave Rollinson",
+        "role": "Co-Founder & CEO"
+      },
+      {
+        "name": "Zach Kaufman",
+        "role": "Co-Founder"
+      }
+    ],
+    "ceo": "Dave Rollinson",
+    "tags": [
+      "supply-chain",
+      "actuators",
+      "modular",
+      "us-manufactured",
+      "cmu-spinout",
+      "research-tools"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.hebirobotics.com"
+      },
+      {
+        "url": "https://www.ri.cmu.edu"
+      }
+    ],
+    "last_updated": "2026-06-12",
+    "themes": [
+      "us-supply-chain"
+    ]
+  },
+  {
+    "id": "standard-bots",
+    "name": "Standard Bots",
+    "founded": "2022",
+    "hq": {
+      "city": "Piscataway",
+      "state": "NJ",
+      "country": "USA"
+    },
+    "website": "https://www.standardbots.com",
+    "funding_rounds": [
+      {
+        "date": "2024-02",
+        "round": "Series A",
+        "amount_usd": 35000000,
+        "valuation_usd": null,
+        "investors": [
+          "Lux Capital"
+        ],
+        "url": "https://standardbots.com",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 35000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "cobot",
+      "industrial-arm"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "RO1 — 20 kg payload collaborative robot arm at ~$5/hour RaaS pricing",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Philipp Jurgens",
+        "role": "CEO & Co-Founder"
+      }
+    ],
+    "ceo": "Philipp Jurgens",
+    "tags": [
+      "cobot",
+      "robot-arm",
+      "us-manufactured",
+      "manufacturing",
+      "sme-focused",
+      "raas"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://standardbots.com"
+      },
+      {
+        "url": "https://standardbots.com/blog/obbb-robotics"
+      }
+    ],
+    "last_updated": "2026-06-12",
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory",
+      "policy-momentum"
+    ]
+  },
+  {
+    "id": "machina-labs",
+    "name": "Machina Labs",
+    "founded": "2019",
+    "hq": {
+      "city": "Chatsworth",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.machinalabs.ai",
+    "funding_rounds": [
+      {
+        "date": "2022-03",
+        "round": "Series A",
+        "amount_usd": 32000000,
+        "valuation_usd": null,
+        "investors": [
+          "Lockheed Martin Ventures",
+          "Radical Ventures",
+          "DCVC"
+        ],
+        "url": "https://www.machinalabs.ai",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 32000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "industrial-arm",
+      "manufacturing-robot"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "AI-powered dieless sheet metal forming using dual industrial robot arms",
+    "deployments": [
+      {
+        "customer": "Lockheed Martin / USAF programs",
+        "location": "Chatsworth, CA, USA",
+        "robot_count": null,
+        "start_date": "2022-01",
+        "status": "active",
+        "use_case": "Rapid prototype sheet metal parts — fuselage panels, structural skins — without traditional dies",
+        "source_url": "https://www.machinalabs.ai"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": true,
+    "founders": [
+      {
+        "name": "Edward Mehr",
+        "role": "CEO & Co-Founder"
+      },
+      {
+        "name": "Babak Raeisinia",
+        "role": "Co-Founder"
+      }
+    ],
+    "ceo": "Edward Mehr",
+    "tags": [
+      "manufacturing",
+      "metal-forming",
+      "defense",
+      "us-manufactured",
+      "ai-powered"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.machinalabs.ai"
+      },
+      {
+        "url": "https://www.darpa.mil/program/open-manufacturing"
+      }
+    ],
+    "last_updated": "2026-06-12",
+    "themes": [
+      "industrial-deployments",
+      "defense-procurement",
+      "physical-ai"
+    ]
+  },
+  {
+    "id": "path-robotics",
+    "name": "Path Robotics",
+    "founded": "2018",
+    "hq": {
+      "city": "Columbus",
+      "state": "OH",
+      "country": "USA"
+    },
+    "website": "https://www.path-robotics.com",
+    "funding_rounds": [
+      {
+        "date": "2021-06",
+        "round": "Series A",
+        "amount_usd": 33000000,
+        "valuation_usd": null,
+        "investors": [
+          "Drive Capital",
+          "Rev1 Ventures"
+        ],
+        "url": "https://www.path-robotics.com",
+        "confidence": "reported"
+      },
+      {
+        "date": "2022-06",
+        "round": "Series B",
+        "amount_usd": 56000000,
+        "valuation_usd": null,
+        "investors": [
+          "Drive Capital",
+          "Lux Capital"
+        ],
+        "url": "https://www.path-robotics.com",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 89000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "welding-robot",
+      "industrial-arm"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "AI-guided autonomous welding robot system",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Andrew Loos",
+        "role": "CEO & Co-Founder"
+      }
+    ],
+    "ceo": "Andrew Loos",
+    "tags": [
+      "welding",
+      "manufacturing",
+      "us-manufactured",
+      "ai-powered"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.path-robotics.com"
+      },
+      {
+        "url": "https://www.drivenbydata.com"
+      }
+    ],
+    "last_updated": "2026-06-12",
+    "themes": [
+      "industrial-deployments"
+    ]
+  },
+  {
+    "id": "gecko-robotics",
+    "name": "Gecko Robotics",
+    "founded": "2013",
+    "hq": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "country": "USA"
+    },
+    "website": "https://www.geckorobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2021-07",
+        "round": "Series B",
+        "amount_usd": 100000000,
+        "valuation_usd": null,
+        "investors": [
+          "Tiger Global",
+          "Alumni Ventures",
+          "Founders Fund",
+          "Bessemer Venture Partners"
+        ],
+        "url": "https://www.geckorobotics.com",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 100000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "inspection-robot",
+      "climbing-robot"
+    ],
+    "primary_use_case": "inspection / maintenance",
+    "flagship_product": "Toka — wall-climbing robot for ultrasonic / visual inspection of boilers, tanks, pipelines, and ship hulls",
+    "deployments": [
+      {
+        "customer": "US Department of Defense",
+        "location": "Various US military sites",
+        "robot_count": null,
+        "start_date": "2022-01",
+        "status": "active",
+        "use_case": "Infrastructure inspection and predictive maintenance",
+        "source_url": "https://www.geckorobotics.com"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": true,
+    "founders": [
+      {
+        "name": "Jake Loosararian",
+        "role": "CEO & Co-Founder"
+      }
+    ],
+    "ceo": "Jake Loosararian",
+    "tags": [
+      "inspection",
+      "infrastructure",
+      "defense",
+      "us-manufactured",
+      "climbing-robot"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.geckorobotics.com"
+      },
+      {
+        "url": "https://techcrunch.com/2021/07/20/gecko-robotics/"
+      }
+    ],
+    "last_updated": "2026-06-12",
+    "themes": [
+      "industrial-deployments",
+      "defense-procurement"
+    ]
+  },
+  {
+    "id": "viam",
+    "name": "Viam",
+    "founded": "2021",
+    "hq": {
+      "city": "New York",
+      "state": "NY",
+      "country": "USA"
+    },
+    "website": "https://www.viam.com",
+    "funding_rounds": [
+      {
+        "date": "2022-05",
+        "round": "Series A",
+        "amount_usd": 40000000,
+        "valuation_usd": null,
+        "investors": [
+          "Lux Capital",
+          "Greycroft"
+        ],
+        "url": "https://www.viam.com",
+        "confidence": "reported"
+      },
+      {
+        "date": "2023-06",
+        "round": "Series B",
+        "amount_usd": 88000000,
+        "valuation_usd": null,
+        "investors": [
+          "Lux Capital",
+          "Greycroft",
+          "Spark Capital",
+          "General Catalyst"
+        ],
+        "url": "https://www.viam.com",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 128000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "software-platform"
+    ],
+    "primary_use_case": "robot operating system / platform",
+    "flagship_product": "Viam — open-source RDK (robot development kit) and cloud platform for building and managing robot fleets",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": true,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Eliot Horowitz",
+        "role": "CEO & Co-Founder"
+      },
+      {
+        "name": "Zach Ozer",
+        "role": "Co-Founder"
+      }
+    ],
+    "ceo": "Eliot Horowitz",
+    "tags": [
+      "robot-os",
+      "platform",
+      "open-source",
+      "ai-software",
+      "us-manufactured"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.viam.com"
+      },
+      {
+        "url": "https://techcrunch.com/2023/06/22/viam-robotics-series-b/"
+      }
+    ],
+    "last_updated": "2026-06-12",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ]
+  },
+  {
+    "id": "electric-sheep",
+    "name": "Electric Sheep",
+    "founded": "2018",
+    "hq": {
+      "city": "Sunnyvale",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.electricsheep.co",
+    "funding_rounds": [
+      {
+        "date": "2022-05",
+        "round": "Series A",
+        "amount_usd": 30000000,
+        "valuation_usd": null,
+        "investors": [
+          "Base10 Partners",
+          "FJ Labs"
+        ],
+        "url": "https://www.electricsheep.co",
+        "confidence": "reported"
+      },
+      {
+        "date": "2023-03",
+        "round": "Series B",
+        "amount_usd": 50000000,
+        "valuation_usd": null,
+        "investors": [
+          "Base10 Partners",
+          "Prologis Ventures"
+        ],
+        "url": "https://www.electricsheep.co",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 80000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "outdoor-robot",
+      "service-robot"
+    ],
+    "primary_use_case": "outdoor autonomous services",
+    "flagship_product": "Autonomous commercial landscaping and snow-removal robots (mowing, edging, blowing)",
+    "deployments": [
+      {
+        "customer": "Commercial property managers",
+        "location": "USA (multiple states)",
+        "robot_count": null,
+        "start_date": "2022-01",
+        "status": "active",
+        "use_case": "Commercial lawn care and grounds maintenance",
+        "source_url": "https://www.electricsheep.co"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Nag Murty",
+        "role": "CEO & Co-Founder"
+      }
+    ],
+    "ceo": "Nag Murty",
+    "tags": [
+      "outdoor-robots",
+      "service-robot",
+      "autonomous",
+      "landscaping",
+      "raas"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.electricsheep.co"
+      }
+    ],
+    "last_updated": "2026-06-12",
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ]
+  },
+  {
+    "id": "pickle-robot",
+    "name": "Pickle Robot",
+    "founded": "2019",
+    "hq": {
+      "city": "Cambridge",
+      "state": "MA",
+      "country": "USA"
+    },
+    "website": "https://www.picklerobot.com",
+    "funding_rounds": [
+      {
+        "date": "2022-03",
+        "round": "Series A",
+        "amount_usd": 26000000,
+        "valuation_usd": null,
+        "investors": [
+          "Material Impact",
+          "Construct Capital"
+        ],
+        "url": "https://www.picklerobot.com",
+        "confidence": "reported"
+      },
+      {
+        "date": "2023-08",
+        "round": "Series B",
+        "amount_usd": 35000000,
+        "valuation_usd": null,
+        "investors": [
+          "Material Impact",
+          "Construct Capital",
+          "AEW Capital"
+        ],
+        "url": "https://www.picklerobot.com",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 61000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "manipulation-robot",
+      "logistics-robot"
+    ],
+    "primary_use_case": "logistics",
+    "flagship_product": "Autonomous trailer-unloading robot — unloads mixed-SKU pallets and loose-loaded trailers",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Ben Gruettner",
+        "role": "CEO & Co-Founder"
+      },
+      {
+        "name": "Zack Polikoff",
+        "role": "Co-Founder"
+      }
+    ],
+    "ceo": "Ben Gruettner",
+    "tags": [
+      "logistics",
+      "warehouse",
+      "manipulation",
+      "us-manufactured",
+      "trailer-unloading"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.picklerobot.com"
+      }
+    ],
+    "last_updated": "2026-06-12",
+    "themes": [
+      "industrial-deployments"
+    ]
+  },
+  {
+    "id": "bright-machines",
+    "name": "Bright Machines",
+    "founded": "2018",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.brightmachines.com",
+    "funding_rounds": [
+      {
+        "date": "2018-09",
+        "round": "Series A",
+        "amount_usd": 179000000,
+        "valuation_usd": null,
+        "investors": [
+          "SoftBank Vision Fund",
+          "Eclipse Ventures",
+          "General Atlantic",
+          "Bessemer Venture Partners"
+        ],
+        "url": "https://www.brightmachines.com",
+        "confidence": "reported"
+      },
+      {
+        "date": "2022-06",
+        "round": "Series B",
+        "amount_usd": 80000000,
+        "valuation_usd": null,
+        "investors": [
+          "Eclipse Ventures",
+          "Qualcomm Ventures",
+          "Energize Capital"
+        ],
+        "url": "https://www.brightmachines.com",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 259000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "assembly-robot",
+      "manufacturing-robot"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Software-Defined Manufacturing — AI + computer vision + robotic assembly cells for electronics and industrial components",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Amar Hanspal",
+        "role": "CEO"
+      }
+    ],
+    "ceo": "Amar Hanspal",
+    "tags": [
+      "manufacturing",
+      "assembly-automation",
+      "us-manufactured",
+      "softbank-backed",
+      "ai-powered"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.brightmachines.com"
+      },
+      {
+        "url": "https://techcrunch.com/2022/06/08/bright-machines-series-b/"
+      }
+    ],
+    "last_updated": "2026-06-12",
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
     ]
   }
 ]

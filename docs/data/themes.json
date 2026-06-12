@@ -383,5 +383,56 @@
       "Watch foreign capital concentration in physical-AI startups for supply-chain + national-security exposure"
     ],
     "last_updated": "2026-06-01"
+  },
+  {
+    "id": "us-supply-chain",
+    "name": "US Robot Component Supply Chain",
+    "narrative": "China dominates the upstream supply chain for robotics hardware: precision cycloidal and harmonic gear reducers, brushless servo motors, force-torque sensors, and lithium battery packs. US and European humanoid makers source most of these critical components from Chinese or Japanese suppliers. NDAA Section 889 restrictions and tariff escalations are forcing the question: can the US build domestic actuator and motor capacity fast enough to matter? Westmag emerged in 2025 as the first VC-backed US startup explicitly targeting NDAA-compliant drone motors and robot actuators. Hebi Robotics has supplied modular actuators to research institutions for a decade. Moog Inc. (NYSE: MOG.A) remains the largest US precision-actuator manufacturer for defense and aerospace. The policy bet: whether Buy-American mandates, Section 232 tariffs on motors, and manufacturing-capex incentives can seed a domestic supply base before humanoid production scales past one million units per year.",
+    "direction": "Accelerating",
+    "key_metrics": [
+      {
+        "name": "Westmag seed round",
+        "value": 11000000,
+        "unit": "USD",
+        "date": "2025-08",
+        "source_url": "https://www.businesswire.com/news/home/20260602552448/en/Westmag-Emerges-With-$11-Million-Seed-Led-By-Andreessen-Horowitz-to-Build-Americas-Drone-Motor-and-Robot-Actuator-Industry"
+      },
+      {
+        "name": "Moog Inc. FY2024 revenue",
+        "value": 3340000000,
+        "unit": "USD",
+        "date": "2024-09",
+        "source_url": "https://investors.moog.com"
+      }
+    ],
+    "narrative_sources": [
+      {
+        "label": "Westmag — US drone motor & robot actuator seed round",
+        "url": "https://www.businesswire.com/news/home/20260602552448/en/Westmag-Emerges-With-$11-Million-Seed-Led-By-Andreessen-Horowitz-to-Build-Americas-Drone-Motor-and-Robot-Actuator-Industry"
+      },
+      {
+        "label": "a16z — investing in Westmag",
+        "url": "https://a16z.com/announcement/investing-in-westmag/"
+      },
+      {
+        "label": "Moog Inc. investor relations",
+        "url": "https://investors.moog.com"
+      }
+    ],
+    "government_intervention_ready": true,
+    "recommended_actions": [
+      "Extend NDAA Section 889 restrictions to robot actuators and servo motors sourced from adversary nations",
+      "Section 232 tariff review on precision gear reducers and brushless motors — China supplies >70% of global demand",
+      "Manufacturing capex tax credit (IRA-style) for US actuator and motor production",
+      "DoD Strategic & Critical Materials program should add servo motors and torque sensors to the monitored list",
+      "NIST / DoC supply-chain map of US robotic-component dependencies — public transparency on single points of failure"
+    ],
+    "related_companies": [
+      "westmag",
+      "hebi-robotics",
+      "moog-inc"
+    ],
+    "related_policies": [],
+    "last_updated": "2026-06-12"
   }
 ]
