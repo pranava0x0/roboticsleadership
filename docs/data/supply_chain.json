@@ -14,13 +14,51 @@
       { "url": "https://www.yolegroup.com/press-release/china-takes-the-lead-in-automotive-lidar-a-market-set-to-quadruple-by-2030/", "label": "Yole — lidar share" }
     ],
     "kpis": [
-      { "label": "China · component share", "value": "~70%", "sub": "of humanoid robot component supply", "sources": ["https://www.trendforce.com/presscenter/news/20251209-12825.html"] },
-      { "label": "US NdFeB magnets", "value": "≈25K t/yr", "sub": "announced by ~2028 vs China ~300K t/yr", "sources": ["https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/"] },
-      { "label": "2026 humanoid shipments", "value": ">50,000", "sub": "TrendForce forecast, +700% YoY", "sources": ["https://www.trendforce.com/presscenter/news/20260409-13007.html"] },
-      { "label": "US assembly capacity", "value": "≈52K/yr", "sub": "BotQ + RoboFab + Hyundai plan, design capacity", "sources": ["https://www.figure.ai/news/botq", "https://spectrum.ieee.org/agility-humanoid-robotics-factory", "https://www.axios.com/2026/01/05/hyundai-humanoid-robots-boston-dynamics"] },
-      { "label": "BOM without China", "value": "≈3×", "sub": "$46K → $131K for an Optimus-class build", "sources": ["https://nextfinancial.substack.com/p/one-million-robots-per-year-the-38"] }
+      { "label": "Humanoids shipped · 2026", "value": ">50K", "sub": "global forecast, +700% vs 2025's ~16K units", "sources": ["https://www.trendforce.com/presscenter/news/20260409-13007.html"] },
+      { "label": "Industrial robots · 2024", "value": "542K", "sub": "global installs — China bought 54% of them", "sources": ["https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years"] },
+      { "label": "China · parts share", "value": "~70%", "sub": "of humanoid components (motors, actuators, sensors)", "sources": ["https://www.trendforce.com/presscenter/news/20251209-12825.html"] },
+      { "label": "US magnet capacity", "value": "≈25K t/yr", "sub": "announced by ~2028 — China makes ~300K t/yr today", "sources": ["https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/"] },
+      { "label": "No-China cost penalty", "value": "≈3×", "sub": "a humanoid built only with non-Chinese parts: $131K vs $46K", "sources": ["https://nextfinancial.substack.com/p/one-million-robots-per-year-the-38"] }
     ]
   },
+  "shipments": [
+    {
+      "id": "industrial",
+      "name": "Industrial robots",
+      "definition": "Fixed robot arms on production lines — welding, assembly, painting, handling. The biggest robot category by far; includes cobots.",
+      "units": 542076,
+      "year": "2024",
+      "note": "Record level — demand doubled in 10 years. China installed 295,000 (54% of the world); the Americas took ~9%.",
+      "sources": ["https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years"]
+    },
+    {
+      "id": "cobots",
+      "name": "Collaborative robots (cobots)",
+      "definition": "Robot arms safe to work next to people without cages — a subset of industrial installs. The term for the human-safe niche.",
+      "units": null,
+      "year": "2024",
+      "note": "$1.26B market in 2024, heading to $3.4B by 2030; Asia-Pacific holds ~42% of the market.",
+      "sources": ["https://www.marketsandmarkets.com/Market-Reports/collaborative-robot-market-194541294.html"]
+    },
+    {
+      "id": "service",
+      "name": "Professional service robots",
+      "definition": "Everything mobile outside the factory cage: AMRs/AGVs in warehouses (~54% of the category), delivery, cleaning, medical, agriculture, hospitality.",
+      "units": 200000,
+      "year": "2024",
+      "note": "+9% YoY; staff shortages are the main demand driver. AMR = autonomous mobile robot (navigates freely); AGV = automated guided vehicle (follows fixed paths).",
+      "sources": ["https://ifr.org/ifr-press-releases/news/service-robots-see-global-growth-boom"]
+    },
+    {
+      "id": "humanoid",
+      "name": "Humanoids",
+      "definition": "Bipedal or wheeled-torso general-purpose robots. The smallest category today and the fastest-growing.",
+      "units": 16000,
+      "year": "2025",
+      "note": ">80% of 2025 installs were in China; 2026 forecast exceeds 50,000 units (+700% YoY).",
+      "sources": ["https://counterpointresearch.com/en/insights/Global-Humanoid-Robot-Installations-Reach-16,000-Units-in-2025-as-Mass-Production-Picks-Pace", "https://www.trendforce.com/presscenter/news/20260409-13007.html"]
+    }
+  ],
   "chain_stages": [
     { "id": "materials", "name": "Materials & magnets", "us_position": "weak", "note": "Rare earths, NdFeB magnets, magnesium — China holds ~90% of refining and magnet output; U.S. capacity is being rebuilt with DoD money but operates at a fraction of announced targets.", "sources": ["https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions", "https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/"] },
     { "id": "components", "name": "Precision components", "us_position": "weak", "note": "Reducers, roller screws, bearings, motors, hands — a Japan–China duopoly with near-zero U.S. merchant capacity. The deepest structural gap in the chain.", "sources": ["https://www.trendforce.com/presscenter/news/20251209-12825.html", "https://www.intelmarketresearch.com/robot-harmonic-drive-reduction-gear-market-43594"] },
