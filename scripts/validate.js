@@ -175,6 +175,114 @@ function checkRecord(rec, schema, recIdx) {
   return errs;
 }
 
+// supply_chain.json — structured document: _meta + overview + chain_stages +
+// categories + companies + stakeholders + government_programs + facts.
+// Every category/company/entity must cite at least one source URL.
+function validateSupplyChain(name, data) {
+  const errors = [];
+  const add = (m) => errors.push(m);
+  const isURL = (u) => typeof u === 'string' && /^https?:\/\//.test(u);
+  const checkSources = (rec, label) => {
+    if (!Array.isArray(rec.sources) || rec.sources.length === 0) {
+      add(`${label}: no sources[] — every record must cite at least one source`);
+      return;
+    }
+    rec.sources.forEach((s, i) => {
+      const url = typeof s === 'string' ? s : s && s.url;
+      if (!isURL(url)) add(`${label}: sources[${i}] is not a URL`);
+    });
+  };
+
+  if (!data._meta || !data._meta.last_updated) add('_meta.last_updated missing');
+  if (!data.overview || !data.overview.bluf) add('overview.bluf missing');
+  if (!Array.isArray(data.overview?.kpis) || data.overview.kpis.length === 0) add('overview.kpis missing or empty');
+  (data.overview?.kpis || []).forEach((k, i) => {
+    if (!k.label || !k.value) add(`overview.kpis[${i}] needs label + value`);
+  });
+
+  const VALID_POSITIONS = ['strong', 'contested', 'weak'];
+  if (!Array.isArray(data.chain_stages) || data.chain_stages.length === 0) add('chain_stages missing or empty');
+  const stageIds = new Set();
+  (data.chain_stages || []).forEach((s, i) => {
+    ['id', 'name', 'us_position', 'note'].forEach((f) => { if (!s[f]) add(`chain_stages[${i}] missing "${f}"`); });
+    if (s.us_position && !VALID_POSITIONS.includes(s.us_position)) {
+      add(`chain_stages[${i}].us_position "${s.us_position}" not in {strong, contested, weak}`);
+    }
+    if (s.id) stageIds.add(s.id);
+  });
+
+  if (!Array.isArray(data.categories) || data.categories.length === 0) add('categories missing or empty');
+  const catIds = new Set();
+  (data.categories || []).forEach((c, i) => {
+    const label = `categories[${i}] (${c.id || '?'})`;
+    ['id', 'name', 'stage', 'summary'].forEach((f) => { if (!c[f]) add(`${label} missing "${f}"`); });
+    if (c.id) {
+      if (catIds.has(c.id)) add(`${label}: duplicate id`);
+      catIds.add(c.id);
+    }
+    if (c.stage && stageIds.size && !stageIds.has(c.stage)) add(`${label}: unknown stage "${c.stage}"`);
+    ['us_share_pct', 'china_share_pct', 'row_share_pct'].forEach((f) => {
+      if (c[f] != null && (typeof c[f] !== 'number' || c[f] < 0 || c[f] > 100)) {
+        add(`${label}: ${f} must be a number 0–100 or null`);
+      }
+    });
+    if (!Array.isArray(c.chokepoints)) add(`${label}: chokepoints must be an array`);
+    checkSources(c, label);
+  });
+
+  if (!Array.isArray(data.companies) || data.companies.length === 0) add('companies missing or empty');
+  const coIds = new Set();
+  (data.companies || []).forEach((c, i) => {
+    const label = `companies[${i}] (${c.id || '?'})`;
+    ['id', 'name', 'country', 'role'].forEach((f) => { if (!c[f]) add(`${label} missing "${f}"`); });
+    if (c.id) {
+      if (coIds.has(c.id)) add(`${label}: duplicate id`);
+      coIds.add(c.id);
+    }
+    if (!Array.isArray(c.categories) || c.categories.length === 0) {
+      add(`${label}: categories[] missing — every company maps to ≥1 category`);
+    } else if (catIds.size) {
+      c.categories.forEach((id) => { if (!catIds.has(id)) add(`${label}: unknown category "${id}"`); });
+    }
+    (c.sites || []).forEach((s, j) => {
+      if (!s.location) add(`${label}: sites[${j}] missing location`);
+    });
+    (c.financing || []).forEach((f, j) => {
+      if (!f.date) add(`${label}: financing[${j}] missing date`);
+      if (!f.detail) add(`${label}: financing[${j}] missing detail`);
+      if (f.amount_usd != null && typeof f.amount_usd !== 'number') add(`${label}: financing[${j}].amount_usd must be a number or null`);
+    });
+    checkSources(c, label);
+  });
+
+  if (!Array.isArray(data.stakeholders) || data.stakeholders.length === 0) add('stakeholders missing or empty');
+  (data.stakeholders || []).forEach((g, i) => {
+    if (!g.group) add(`stakeholders[${i}] missing group name`);
+    if (!Array.isArray(g.entities) || g.entities.length === 0) add(`stakeholders[${i}] (${g.group || '?'}) has no entities`);
+    (g.entities || []).forEach((e, j) => {
+      const label = `stakeholders[${i}].entities[${j}] (${e.name || '?'})`;
+      ['name', 'type', 'role'].forEach((f) => { if (!e[f]) add(`${label} missing "${f}"`); });
+      (e.actions || []).forEach((a, k) => {
+        if (!a.detail) add(`${label}: actions[${k}] missing detail`);
+      });
+      checkSources(e, label);
+    });
+  });
+
+  (data.government_programs || []).forEach((p, i) => {
+    if (!p.name || !p.agency) add(`government_programs[${i}] needs name + agency`);
+    if (!isURL(p.source)) add(`government_programs[${i}] (${p.name || '?'}): source must be a URL`);
+  });
+  (data.facts || []).forEach((f, i) => {
+    if (!f.label || !f.value) add(`facts[${i}] needs label + value`);
+    if (!isURL(f.source)) add(`facts[${i}] (${f.label || '?'}): source must be a URL`);
+  });
+
+  const records = (data.categories?.length || 0) + (data.companies?.length || 0) +
+    (data.stakeholders || []).reduce((n, g) => n + (g.entities?.length || 0), 0);
+  return { name, ok: errors.length === 0, errors, records };
+}
+
 function validateFile(name) {
   const filename = resolve(DATA_DIR, `${name}.json`);
   if (!existsSync(filename)) {
@@ -190,6 +298,10 @@ function validateFile(name) {
   if (name === 'sources') {
     const keys = Object.keys(data).filter((k) => k !== '_meta');
     return { name, ok: keys.length > 0, errors: keys.length === 0 ? ['sources.json has no scraper-type keys'] : [], records: keys.length };
+  }
+  // supply_chain.json is a structured document (object with sections), not a record array
+  if (name === 'supply_chain') {
+    return validateSupplyChain(name, data);
   }
   if (!Array.isArray(data)) {
     return { name, ok: false, errors: ['Top-level JSON should be an array of records'], records: 0 };
@@ -264,7 +376,7 @@ function main() {
   const requested = process.argv[2];
   const files = requested
     ? [requested]
-    : ['companies', 'policies', 'news', 'themes', 'sources', 'agencies', 'state_policy'];
+    : ['companies', 'policies', 'news', 'themes', 'sources', 'agencies', 'state_policy', 'supply_chain'];
 
   let allOk = true;
   for (const name of files) {
