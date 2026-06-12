@@ -6,6 +6,15 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 No open issues.
 
+## Tooling notes
+
+### 2026-06-12 — preview MCP — screenshots blank at non-zero scroll
+
+- **What I expected:** `preview_screenshot` captures the scrolled viewport.
+- **What happened:** Blank captures for any non-zero scroll position (reproduced on new supply-chain.html *and* known-good themes.html).
+- **Why:** Tool artifact — the screenshot composites only the document-top frame; not a page bug.
+- **Next time:** Verify below-the-fold content with `preview_eval` DOM checks or `preview_snapshot`; trust screenshots only at scroll position 0.
+
 ## Documentation updates (non-critical)
 
 ### 2026-06-07 — docs — README and UAT outdated after 2026-05-23 consolidation
