@@ -19,7 +19,7 @@ const DATA_DIR = resolve(ROOT, 'docs/data');
 
 const SCHEMAS = {
   companies: {
-    required: ['id', 'name', 'founded', 'hq', 'website', 'funding_rounds', 'tags', 'data_confidence', 'sources', 'last_updated', 'themes'],
+    required: ['id', 'name', 'founded', 'hq', 'website', 'funding_rounds', 'tags', 'data_confidence', 'sources', 'last_updated', 'themes', 'map_category'],
     types: {
       id: 'string',
       name: 'string',
@@ -33,6 +33,13 @@ const SCHEMAS = {
     custom: (rec, addError) => {
       if (rec.data_confidence && !['high', 'medium', 'low'].includes(rec.data_confidence)) {
         addError(`data_confidence "${rec.data_confidence}" not in {high, medium, low}`);
+      }
+      // Canonical market-map segments. Mirrored by SEGMENTS in docs/companies.html —
+      // the frontend builds its dropdown/map from record values, so a new id here
+      // shows up there automatically; only the display label needs adding.
+      const validSegments = ['humanoid', 'brains', 'industrial', 'defense', 'field', 'service', 'enablers'];
+      if (rec.map_category && !validSegments.includes(rec.map_category)) {
+        addError(`map_category "${rec.map_category}" not in canonical set {${validSegments.join(', ')}}`);
       }
       if (!Array.isArray(rec.sources) || rec.sources.length === 0) {
         addError('record has no sources[] — every record must cite at least one primary source');
