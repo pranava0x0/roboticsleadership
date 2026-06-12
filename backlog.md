@@ -4,6 +4,7 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ## High
 
+- ~~**Supply Chain tab (comprehensive review)**~~ — **DONE (2026-06-12).** New `supply-chain.html` + `supply_chain.json`: 12 categories across 6 chain stages, 40+ companies with sites/capacity/financing, chain-map + share-bar + financing visualizations, full 5-group stakeholder map, 9 government programs, validator schema + 14 integrity tests. Follow-ups: refresh cadence for supply-chain data in the data-refresh skill; cross-link supply-chain companies to `companies.json` records where they overlap (Figure, Tesla, Agility, Apptronik).
 - ~~**CI lint: reject floating action tags**~~ — **DONE (2026-06-07).** Script `scripts/lint-actions.js` integrated into pages.yml workflow. Rejects any `uses:` directives that reference `@vN` instead of 40-char SHAs. Keeps the 2026-06-01 SHA-pinning from regressing.
 - **Render-layer XSS regression test** — feed each renderer a poisoned record (`category`/`title`/`summary` = `x"><img src=x onerror=alert(1)>`) and assert no raw `<`/attribute-breakout survives into emitted markup. Locks in the 2026-06-01 `RT.slug()` + escape fixes.
 - **GitHub Actions cron for scrapers** — daily news, weekly policy. Spec'd but not wired; manual runs only for now.
