@@ -40,16 +40,29 @@ test('has _meta.last_updated in YYYY-MM-DD form', () => {
   assert(/^\d{4}-\d{2}-\d{2}$/.test(data._meta?.last_updated || ''), `got "${data._meta?.last_updated}"`);
 });
 
-test('overview has bluf and exactly 5 KPIs with label+value', () => {
+test('overview has bluf with sources and exactly 5 KPIs with label+value+sources', () => {
   assert(typeof data.overview?.bluf === 'string' && data.overview.bluf.length > 50, 'bluf missing or too short');
+  assert(Array.isArray(data.overview?.sources) && data.overview.sources.length > 0, 'bluf has no sources');
   assert(Array.isArray(data.overview?.kpis) && data.overview.kpis.length === 5, `expected 5 kpis, got ${data.overview?.kpis?.length}`);
-  data.overview.kpis.forEach((k, i) => assert(k.label && k.value, `kpi[${i}] missing label/value`));
+  data.overview.kpis.forEach((k, i) => {
+    assert(k.label && k.value, `kpi[${i}] missing label/value`);
+    assert(Array.isArray(k.sources) && k.sources.length > 0, `kpi[${i}] "${k.label}" has no sources`);
+  });
 });
 
-test('chain has ≥5 stages, each with valid us_position', () => {
+test('chain has ≥5 stages, each with valid us_position and ≥1 source', () => {
   assert(Array.isArray(data.chain_stages) && data.chain_stages.length >= 5, `got ${data.chain_stages?.length} stages`);
-  data.chain_stages.forEach((s) =>
-    assert(['strong', 'contested', 'weak'].includes(s.us_position), `stage "${s.id}" has us_position "${s.us_position}"`));
+  data.chain_stages.forEach((s) => {
+    assert(['strong', 'contested', 'weak'].includes(s.us_position), `stage "${s.id}" has us_position "${s.us_position}"`);
+    assert(Array.isArray(s.sources) && s.sources.length > 0, `stage "${s.id}" has no sources`);
+  });
+});
+
+test('every chokepoint is { text, source } with a URL source', () => {
+  data.categories.forEach((c) => (c.chokepoints || []).forEach((ck, i) => {
+    assert(ck && typeof ck === 'object' && ck.text, `category "${c.id}" chokepoint[${i}] is not { text, source }`);
+    assert(/^https?:\/\//.test(ck.source || ''), `category "${c.id}" chokepoint[${i}] has no source URL`);
+  }));
 });
 
 test('has ≥8 categories, every category cites ≥1 source URL', () => {
