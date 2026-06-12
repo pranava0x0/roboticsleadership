@@ -7,21 +7,27 @@
   "overview": {
     "headline": "The U.S. is rebuilding the robot supply chain from both ends — and the middle is missing.",
     "bluf": "Capital and federal money now flow into the two ends of the chain: rare-earth magnets (MP Materials, Vulcan, USA Rare Earth — backed by ~$3B+ of DoD equity, loans, and price floors) and final assembly (BotQ, RoboFab, Tesla Fremont, Hyundai's planned 30k/yr Atlas plant). But the precision middle — reducers, roller screws, bearings, frameless motors, dexterous hands — remains roughly 90% Japanese and Chinese, with near-zero U.S. merchant capacity. China controls ~70% of humanoid component supply overall, ~90% of magnet production, and ~89% of lidar; building a U.S. humanoid without Chinese parts roughly triples its bill of materials.",
+    "sources": [
+      { "url": "https://www.trendforce.com/presscenter/news/20251209-12825.html", "label": "TrendForce — component shares" },
+      { "url": "https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/", "label": "Adamas — US magnet build-out" },
+      { "url": "https://nextfinancial.substack.com/p/one-million-robots-per-year-the-38", "label": "BOM-without-China estimate" },
+      { "url": "https://www.yolegroup.com/press-release/china-takes-the-lead-in-automotive-lidar-a-market-set-to-quadruple-by-2030/", "label": "Yole — lidar share" }
+    ],
     "kpis": [
-      { "label": "China · component share", "value": "~70%", "sub": "of humanoid robot component supply" },
-      { "label": "US NdFeB magnets", "value": "≈25K t/yr", "sub": "announced by ~2028 vs China ~300K t/yr" },
-      { "label": "2026 humanoid shipments", "value": ">50,000", "sub": "TrendForce forecast, +700% YoY" },
-      { "label": "US assembly capacity", "value": "≈52K/yr", "sub": "BotQ + RoboFab + Hyundai plan, design capacity" },
-      { "label": "BOM without China", "value": "≈3×", "sub": "$46K → $131K for an Optimus-class build" }
+      { "label": "China · component share", "value": "~70%", "sub": "of humanoid robot component supply", "sources": ["https://www.trendforce.com/presscenter/news/20251209-12825.html"] },
+      { "label": "US NdFeB magnets", "value": "≈25K t/yr", "sub": "announced by ~2028 vs China ~300K t/yr", "sources": ["https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/"] },
+      { "label": "2026 humanoid shipments", "value": ">50,000", "sub": "TrendForce forecast, +700% YoY", "sources": ["https://www.trendforce.com/presscenter/news/20260409-13007.html"] },
+      { "label": "US assembly capacity", "value": "≈52K/yr", "sub": "BotQ + RoboFab + Hyundai plan, design capacity", "sources": ["https://www.figure.ai/news/botq", "https://spectrum.ieee.org/agility-humanoid-robotics-factory", "https://www.axios.com/2026/01/05/hyundai-humanoid-robots-boston-dynamics"] },
+      { "label": "BOM without China", "value": "≈3×", "sub": "$46K → $131K for an Optimus-class build", "sources": ["https://nextfinancial.substack.com/p/one-million-robots-per-year-the-38"] }
     ]
   },
   "chain_stages": [
-    { "id": "materials", "name": "Materials & magnets", "us_position": "weak", "note": "Rare earths, NdFeB magnets, magnesium — China holds ~90% of refining and magnet output; U.S. capacity is being rebuilt with DoD money but operates at a fraction of announced targets." },
-    { "id": "components", "name": "Precision components", "us_position": "weak", "note": "Reducers, roller screws, bearings, motors, hands — a Japan–China duopoly with near-zero U.S. merchant capacity. The deepest structural gap in the chain." },
-    { "id": "sensing-compute", "name": "Sensing & compute", "us_position": "contested", "note": "U.S. dominates robot-brain design (NVIDIA, Qualcomm) and depth cameras, but lidar is ~89% Chinese and leading-edge chips are fabbed in Taiwan and Korea." },
-    { "id": "power", "name": "Batteries & power", "us_position": "weak", "note": "Cells follow the EV supply base: Chinese firms hold ~70% of installations. U.S. strength is at the pack/BMS level; no U.S. mass-market robot cell source until ~2028." },
-    { "id": "assembly", "name": "Final assembly", "us_position": "contested", "note": "U.S. nameplate capacity now rivals Chinese plans on paper, but realized 2025 output was >80% Chinese. Japanese and European industrial-robot makers are localizing U.S. plants." },
-    { "id": "demand", "name": "Deployment & demand", "us_position": "contested", "note": "Amazon, automakers, and contract manufacturers anchor U.S. demand, while China leads installed base and robot density on factory floors." }
+    { "id": "materials", "name": "Materials & magnets", "us_position": "weak", "note": "Rare earths, NdFeB magnets, magnesium — China holds ~90% of refining and magnet output; U.S. capacity is being rebuilt with DoD money but operates at a fraction of announced targets.", "sources": ["https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions", "https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/"] },
+    { "id": "components", "name": "Precision components", "us_position": "weak", "note": "Reducers, roller screws, bearings, motors, hands — a Japan–China duopoly with near-zero U.S. merchant capacity. The deepest structural gap in the chain.", "sources": ["https://www.trendforce.com/presscenter/news/20251209-12825.html", "https://www.intelmarketresearch.com/robot-harmonic-drive-reduction-gear-market-43594"] },
+    { "id": "sensing-compute", "name": "Sensing & compute", "us_position": "contested", "note": "U.S. dominates robot-brain design (NVIDIA, Qualcomm) and depth cameras, but lidar is ~89% Chinese and leading-edge chips are fabbed in Taiwan and Korea.", "sources": ["https://www.yolegroup.com/press-release/china-takes-the-lead-in-automotive-lidar-a-market-set-to-quadruple-by-2030/", "https://nvidianews.nvidia.com/news/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics"] },
+    { "id": "power", "name": "Batteries & power", "us_position": "weak", "note": "Cells follow the EV supply base: Chinese firms hold ~70% of installations. U.S. strength is at the pack/BMS level; no U.S. mass-market robot cell source until ~2028.", "sources": ["https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/", "https://www.businesswire.com/news/home/20250117989373/en/EnerSys-Completes-Negotiation-of-U.S.-DOE-Award-Supporting-Development-of-Lithium-ion-Gigafactory"] },
+    { "id": "assembly", "name": "Final assembly", "us_position": "contested", "note": "U.S. nameplate capacity now rivals Chinese plans on paper, but realized 2025 output was >80% Chinese. Japanese and European industrial-robot makers are localizing U.S. plants.", "sources": ["https://counterpointresearch.com/en/insights/Global-Humanoid-Robot-Installations-Reach-16,000-Units-in-2025-as-Mass-Production-Picks-Pace", "https://www.trendforce.com/presscenter/news/20260409-13007.html"] },
+    { "id": "demand", "name": "Deployment & demand", "us_position": "contested", "note": "Amazon, automakers, and contract manufacturers anchor U.S. demand, while China leads installed base and robot density on factory floors.", "sources": ["https://techcrunch.com/2025/07/01/amazon-deploys-its-1-millionth-robot-releases-generative-ai-model/", "https://www.axios.com/2026/01/05/hyundai-humanoid-robots-boston-dynamics"] }
   ],
   "categories": [
     {
@@ -34,10 +40,10 @@
       "row_share_pct": 18,
       "share_note": "Share of global rare-earth mine output; for separation/refining China's share is ~91%",
       "chokepoints": [
-        "Heavy rare-earth (Dy/Tb) separation was ~99% Chinese as of April 2025; Wuxi hosted the world's only commercial Dy refining in 2025",
-        "China's April 2025 export-licensing regime on 7 heavy REEs never lapsed; Dy and Tb exports fell ~50% below pre-restriction levels",
-        "Solvent-extraction know-how and trained operators are scarce outside China — and Beijing's Oct 2025 controls also restrict exporting the technology itself",
-        "Lynas's DoD-backed Seadrift TX heavy-REE plant is now 'unlikely to proceed' per management, shifting capital to Malaysia"
+        { "text": "Heavy rare-earth (Dy/Tb) separation was ~99% Chinese as of April 2025; Wuxi hosted the world's only commercial Dy refining in 2025", "source": "https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions" },
+        { "text": "China's April 2025 export-licensing regime on 7 heavy REEs never lapsed; Dy and Tb exports fell ~50% below pre-restriction levels", "source": "https://www.csis.org/analysis/rare-earth-export-restrictions-one-year-later" },
+        { "text": "Solvent-extraction know-how and trained operators are scarce outside China — and Beijing's Oct 2025 controls also restrict exporting the technology itself", "source": "https://www.csis.org/analysis/rare-earth-export-restrictions-one-year-later" },
+        { "text": "Lynas's DoD-backed Seadrift TX heavy-REE plant is now 'unlikely to proceed' per management, shifting capital to Malaysia", "source": "https://northernminer.com/news/lynas-flags-texas-rare-earths-plant-uncertainty/1003882176/" }
       ],
       "sources": [
         { "url": "https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions", "label": "CSIS — China rare-earth restrictions" },
@@ -55,10 +61,10 @@
       "row_share_pct": 9,
       "share_note": "Share of global NdFeB magnet production by volume, 2025",
       "chokepoints": [
-        "Sintering and grain-boundary-diffusion know-how is concentrated in China and Japan; China restricts exporting the process technology",
-        "Dy/Tb inputs for high-temperature magnet grades depend on Chinese-licensed exports",
-        "Qualification cycles of 12–24 months for automotive and defense customers slow every new entrant",
-        "Even at full announced build-out, U.S. capacity is ~10× smaller than China's installed base"
+        { "text": "Sintering and grain-boundary-diffusion know-how is concentrated in China and Japan; China restricts exporting the process technology", "source": "https://www.csis.org/analysis/rare-earth-export-restrictions-one-year-later" },
+        { "text": "Dy/Tb inputs for high-temperature magnet grades depend on Chinese-licensed exports", "source": "https://www.csis.org/analysis/rare-earth-export-restrictions-one-year-later" },
+        { "text": "Qualification cycles of 12–24 months for automotive and defense customers slow every new entrant", "source": "https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/" },
+        { "text": "Even at full announced build-out, U.S. capacity is ~10× smaller than China's installed base", "source": "https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/" }
       ],
       "sources": [
         { "url": "https://investors.mpmaterials.com/investor-news/news-details/2025/MP-Materials-Restores-U.S.-Rare-Earth-Magnet-Production/default.aspx", "label": "MP Materials" },
@@ -76,9 +82,9 @@
       "row_share_pct": 17,
       "share_note": "Share of global primary magnesium production",
       "chokepoints": [
-        "No operating U.S. primary magnesium smelter",
-        "Die-casting capacity for robot skeletons and housings is overwhelmingly Chinese",
-        "2026 U.S. restrictions on Chinese components force OEMs to requalify suppliers against limited Western capacity"
+        { "text": "No operating U.S. primary magnesium smelter", "source": "https://www.sltrib.com/news/environment/2025/12/11/what-us-magnesiums-shutdown-means/" },
+        { "text": "Die-casting capacity for robot skeletons and housings is overwhelmingly Chinese", "source": "https://elimold.com/industries/robotics-die-casting/" },
+        { "text": "2026 U.S. restrictions on Chinese components force OEMs to requalify suppliers against limited Western capacity", "source": "https://www.digitimes.com/news/a20260416PD216/robotics-supply-chain-taiwan-2025.html" }
       ],
       "sources": [
         { "url": "https://www.sltrib.com/news/environment/2025/12/11/what-us-magnesiums-shutdown-means/", "label": "Salt Lake Tribune" }
@@ -94,9 +100,9 @@
       "row_share_pct": 35,
       "share_note": "Approximate merchant humanoid actuator supply capacity announced through mid-2026",
       "chokepoints": [
-        "Tesla's volume actuator orders are concentrated in two Chinese suppliers (Sanhua, Tuopu)",
-        "Every actuator motor needs NdFeB magnets — pulling the materials chokepoint into every joint",
-        "U.S. in-house lines (Tesla, Figure) are single-customer and can't supply the broader ecosystem"
+        { "text": "Tesla's volume actuator orders are concentrated in two Chinese suppliers (Sanhua, Tuopu)", "source": "https://eu.36kr.com/en/p/3510288514980998" },
+        { "text": "Every actuator motor needs NdFeB magnets — pulling the materials chokepoint into every joint", "source": "https://stockhead.com.au/resources/how-the-dawn-of-the-robot-age-could-send-rare-earth-demand-ballistic/" },
+        { "text": "U.S. in-house lines (Tesla, Figure) are single-customer and can't supply the broader ecosystem", "source": "https://www.figure.ai/news/botq" }
       ],
       "sources": [
         { "url": "https://eu.36kr.com/en/p/3510288514980998", "label": "36Kr — Sanhua" },
@@ -114,9 +120,9 @@
       "row_share_pct": 58,
       "share_note": "Global harmonic/cycloidal reducer revenue share; 'rest of world' is mostly Japan",
       "chokepoints": [
-        "Strain-wave tooth-grinding know-how sits with HDSI (Japan) and a handful of Suzhou firms",
-        "Nabtesco is sole-source-class for large-joint cycloidal RV gears",
-        "Zero U.S. domestic strain-wave volume capacity — every robot-grade reducer is imported"
+        { "text": "Strain-wave tooth-grinding know-how sits with HDSI (Japan) and a handful of Suzhou firms", "source": "https://www.intelmarketresearch.com/robot-harmonic-drive-reduction-gear-market-43594" },
+        { "text": "Nabtesco is sole-source-class for large-joint cycloidal RV gears", "source": "https://www.businessresearchinsights.com/market-reports/rv-reducer-market-103381" },
+        { "text": "Zero U.S. domestic strain-wave volume capacity — every robot-grade reducer is imported", "source": "https://www.automate.org/news/harmonic-drive-llc-opens-new-us-headquarters-in-beverly-ma" }
       ],
       "sources": [
         { "url": "https://www.intelmarketresearch.com/robot-harmonic-drive-reduction-gear-market-43594", "label": "Intel Market Research" },
@@ -134,8 +140,8 @@
       "row_share_pct": 30,
       "share_note": "Directional estimate of frameless torque-motor supply for robotics",
       "chokepoints": [
-        "NdFeB magnet dependence — export-license regime since April 2025",
-        "Chinese frameless motors now match Western torque density at lower cost, eroding the pricing umbrella"
+        { "text": "NdFeB magnet dependence — export-license regime since April 2025", "source": "https://www.csis.org/analysis/rare-earth-export-restrictions-one-year-later" },
+        { "text": "Chinese frameless motors now match Western torque density at lower cost, eroding the pricing umbrella", "source": "https://www.honest-hls.com/frameless-torque-motor" }
       ],
       "sources": [
         { "url": "https://reports.valuates.com/market-reports/QYRE-Auto-39I17543/global-frameless-torque-motor-for-humanoid-robots", "label": "Valuates" },
@@ -152,10 +158,10 @@
       "row_share_pct": 67,
       "share_note": "Directional share of robot-grade screws and precision bearings; 'rest of world' is mostly Japan, Switzerland, Germany",
       "chokepoints": [
-        "Precision thread grinding to <5 µm tolerance concentrated in Rollvis and Nippon Thompson, both near capacity",
-        "Optimus roller-screw lead times hit 26 weeks in 2023; raw-material delays add 12–18 weeks",
-        "The thread-grinding machine tools themselves are Japanese/Swiss/German",
-        "Crossed-roller bearing grinding sits with 3–4 Japanese and German firms"
+        { "text": "Precision thread grinding to <5 µm tolerance concentrated in Rollvis and Nippon Thompson, both near capacity", "source": "https://www.intelmarketresearch.com/planetary-roller-screw-for-humanoid-robot-market-3714" },
+        { "text": "Optimus roller-screw lead times hit 26 weeks in 2023; raw-material delays add 12–18 weeks", "source": "https://www.kggfa.com/news/another-look-at-the-tesla-robot-the-planetary-roller-screw/" },
+        { "text": "The thread-grinding machine tools themselves are Japanese/Swiss/German", "source": "https://eu.36kr.com/en/p/3636380217885702" },
+        { "text": "Crossed-roller bearing grinding sits with 3–4 Japanese and German firms", "source": "https://pmarketresearch.com/auto/humanoid-robot-crossed-roller-bearing-market/" }
       ],
       "sources": [
         { "url": "https://www.intelmarketresearch.com/planetary-roller-screw-for-humanoid-robot-market-3714", "label": "Intel Market Research" },
@@ -173,9 +179,9 @@
       "row_share_pct": 15,
       "share_note": "Global high-DoF dexterous hand unit share",
       "chokepoints": [
-        "Linkerbot is the only mass producer above 1,000 high-DoF hands/month — single-company concentration",
-        "Micro coreless motors and micro screws for fingers come largely from Swiss and Chinese micro-motor makers",
-        "Hands are the engineering bottleneck for entire humanoids"
+        { "text": "Linkerbot is the only mass producer above 1,000 high-DoF hands/month — single-company concentration", "source": "https://www.prnewswire.com/news-releases/10-000-dexterous-hands-shipped-150-million-raised-linkerbot-leads-the-market-302645409.html" },
+        { "text": "Micro coreless motors and micro screws for fingers come largely from Swiss and Chinese micro-motor makers", "source": "https://mikekalil.com/blog/the-rise-of-linkerbot/" },
+        { "text": "Hands are the engineering bottleneck for entire humanoids — Musk says over half of Optimus engineering effort", "source": "https://www.basenor.com/blogs/news/tesla-optimus-gen-3-hands-revealed-50-actuator-precision-leap" }
       ],
       "sources": [
         { "url": "https://www.prnewswire.com/news-releases/10-000-dexterous-hands-shipped-150-million-raised-linkerbot-leads-the-market-302645409.html", "label": "Linkerbot" },
@@ -192,10 +198,10 @@
       "row_share_pct": null,
       "share_note": "China share is lidar-specific (Yole Group, 2025); the U.S. leads in F/T, tactile and depth cameras",
       "chokepoints": [
-        "Lidar: four Chinese firms hold ~89% of the global market; Western alternatives are shrinking",
-        "Six-axis F/T calibration capacity — each unit is individually calibrated; U.S. capacity was sized for industrial robots, not million-unit humanoid volumes",
-        "RealSense alone is in ~60% of AMRs/humanoids — a single-vendor dependency, though a U.S. one",
-        "Tactile/e-skin remains pre-industrial, funded at SBIR scale rather than volume capex"
+        { "text": "Lidar: four Chinese firms hold ~89% of the global market; Western alternatives are shrinking", "source": "https://www.yolegroup.com/press-release/china-takes-the-lead-in-automotive-lidar-a-market-set-to-quadruple-by-2030/" },
+        { "text": "Six-axis F/T calibration capacity — each unit is individually calibrated; U.S. capacity was sized for industrial robots, not million-unit humanoid volumes", "source": "https://www.qyresearch.com/industry-news/9720/robot-six-axis-force-sensors" },
+        { "text": "RealSense alone is in ~60% of AMRs/humanoids — a single-vendor dependency, though a U.S. one", "source": "https://www.cnbc.com/2025/07/11/intel-ai-robotics-realsense.html" },
+        { "text": "Tactile/e-skin remains pre-industrial, funded at SBIR scale rather than volume capex", "source": "https://www.gelsight.com/gelsight-air-force-sbir-robotic-tactile-sensors/" }
       ],
       "sources": [
         { "url": "https://www.yolegroup.com/press-release/china-takes-the-lead-in-automotive-lidar-a-market-set-to-quadruple-by-2030/", "label": "Yole Group" },
@@ -213,9 +219,9 @@
       "row_share_pct": null,
       "share_note": "No published share series; U.S. firms dominate design, Taiwan/Korea dominate fabrication",
       "chokepoints": [
-        "Jetson Thor's silicon is built on TSMC's custom 4N/4NP process — U.S.-designed, Taiwan-fabbed",
-        "128 GB LPDDR5X memory per Thor module comes from Korean memory makers",
-        "Robot foundation-model training competes for the same NVIDIA data-center GPU pool as LLM training"
+        { "text": "Jetson Thor's silicon is built on TSMC's custom 4N/4NP process — U.S.-designed, Taiwan-fabbed", "source": "https://www.jonpeddie.com/news/first-made-in-usa-blackwell-rolls-out/" },
+        { "text": "128 GB LPDDR5X memory per Thor module comes from Korean memory makers", "source": "https://videocardz.com/newz/nvidia-jetson-thor-with-blackwell-gpu-architecture-launched-costs-3499" },
+        { "text": "Robot foundation-model training competes for the same NVIDIA data-center GPU pool as LLM training", "source": "https://nvidianews.nvidia.com/news/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics" }
       ],
       "sources": [
         { "url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics", "label": "NVIDIA" },
@@ -233,10 +239,10 @@
       "row_share_pct": null,
       "share_note": "Chinese firms' share of global EV/lithium cell installations in 2025 — the supply base robot cells draw from",
       "chokepoints": [
-        "Over 55% of global cells come from two Chinese firms (CATL + BYD)",
-        "No U.S. mass-market robot-grade cell source until EnerSys Greenville starts in 2028",
-        "First-of-kind safety certification (UN38.3 + UL2271) capacity for humanoid batteries is scarce",
-        "High-discharge sub-2.5 kWh form factors are a contested Korean niche (4680 cells, future solid-state)"
+        { "text": "Over 55% of global cells come from two Chinese firms (CATL + BYD)", "source": "https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/" },
+        { "text": "No U.S. mass-market robot-grade cell source until EnerSys Greenville starts in 2028", "source": "https://www.businesswire.com/news/home/20250117989373/en/EnerSys-Completes-Negotiation-of-U.S.-DOE-Award-Supporting-Development-of-Lithium-ion-Gigafactory" },
+        { "text": "First-of-kind safety certification (UN38.3 + UL2271) capacity for humanoid batteries is scarce", "source": "https://www.figure.ai/news/f-03-battery-development" },
+        { "text": "High-discharge sub-2.5 kWh form factors are a contested Korean niche (4680 cells, future solid-state)", "source": "https://www.kedglobal.com/batteries/newsView/ked202601270008" }
       ],
       "sources": [
         { "url": "https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/", "label": "CnEVPost" },
@@ -254,10 +260,10 @@
       "row_share_pct": 5,
       "share_note": "Humanoid installations in 2025 (~16,000 units, Counterpoint Research); industrial-robot assembly inverts toward Japan/EU",
       "chokepoints": [
-        "Gap between nameplate and realized output: BotQ's 12k/yr design capacity vs ~350 robots built by spring 2026",
-        "Chinese cost advantage — Unitree sells humanoids below U.S. bill-of-materials cost",
-        "Skilled robotics assembly labor; FANUC is opening the largest U.S. robotics training academy",
-        "Tesla's repeated Optimus timeline slips show design-freeze risk gates every volume plan"
+        { "text": "Gap between nameplate and realized output: BotQ's 12k/yr design capacity vs ~350 robots built by spring 2026", "source": "https://roboticsandautomationnews.com/2026/05/27/figure-ramps-humanoid-robot-manufacturing-at-unprecedented-speed/101954/" },
+        { "text": "Chinese cost advantage — Unitree sells humanoids below U.S. bill-of-materials cost", "source": "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/" },
+        { "text": "Skilled robotics assembly labor; FANUC is opening the largest U.S. robotics training academy", "source": "https://www.fanucamerica.com/news-resources/fanuc-america-press-releases/2026/03/24/fanuc-america-invests-90-million-robot-manufacturing-expansion" },
+        { "text": "Tesla's repeated Optimus timeline slips show design-freeze risk gates every volume plan", "source": "https://electrek.co/2026/04/22/tesla-optimus-production-fremont-model-sx-line/" }
       ],
       "sources": [
         { "url": "https://counterpointresearch.com/en/insights/Global-Humanoid-Robot-Installations-Reach-16,000-Units-in-2025-as-Mass-Production-Picks-Pace", "label": "Counterpoint" },
