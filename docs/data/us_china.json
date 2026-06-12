@@ -1,0 +1,79 @@
+{
+  "_meta": {
+    "last_updated": "2026-06-12",
+    "captured_at": "2026-06-12",
+    "method": "Side-by-side synthesis of every key US-vs-China metric tracked on this site, plus the SemiAnalysis Unitree and robotics-supply-chain analyses"
+  },
+  "bluf": {
+    "headline": "China leads where robots are bought, built, and priced; the U.S. leads where they think and who funds them.",
+    "body": "China buys 54% of the world's industrial robots, hosts >80% of humanoid installations, controls ~70% of the parts chain, and ships humanoids at one-third the U.S. build cost. The U.S. counters with the robot brains (NVIDIA compute, foundation models), the deepest capital markets ($23B+ VC in 2026 YTD, Figure at $39B), and a rebuilding effort at both ends of the supply chain. The contested middle — components, batteries, sensors — decides who wins the decade.",
+    "sources": [
+      { "url": "https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years", "label": "IFR World Robotics 2025" },
+      { "url": "https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global", "label": "SemiAnalysis — Unitree" },
+      { "url": "https://www.trendforce.com/presscenter/news/20251209-12825.html", "label": "TrendForce" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "deployment",
+      "title": "Deployment & density",
+      "metrics": [
+        { "id": "industrial-installs", "metric": "Industrial robot installs (2024)", "us": "~50K units across the Americas (~9% of world; US is most of it)", "china": "295,000 units — 54% of all robots installed worldwide", "edge": "china", "sources": ["https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years"] },
+        { "id": "robot-density", "metric": "Robot density (per 10K manufacturing workers)", "us": "307 — 8th worldwide", "china": "~470 — passed Germany and Japan in 2024", "edge": "china", "sources": ["https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas", "https://www.businesswire.com/news/home/20241120789594/en/China-Overtakes-Germany-and-Japan-in-Robot-Density-IFR-reports"] },
+        { "id": "operational-stock", "metric": "Operational robot stock", "us": "Part of the Americas' installed base; no country near China's scale", "china": "Over 2 million robots in operation — the largest of any country", "edge": "china", "sources": ["https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_China_in_English.pdf"] },
+        { "id": "humanoid-installs", "metric": "Humanoid installations (2025)", "us": "Most of the non-China remainder of ~16,000 units", "china": ">80% of all installations; AgiBot #1 at ~31% share", "edge": "china", "sources": ["https://counterpointresearch.com/en/insights/Global-Humanoid-Robot-Installations-Reach-16,000-Units-in-2025-as-Mass-Production-Picks-Pace"] },
+        { "id": "warehouse-fleet", "metric": "Single largest robot fleet", "us": "Amazon — 1M+ robots across 300+ fulfillment centers", "china": "Distributed across manufacturers; no single fleet at Amazon's scale", "edge": "us", "sources": ["https://techcrunch.com/2025/07/01/amazon-deploys-its-1-millionth-robot-releases-generative-ai-model/"] }
+      ]
+    },
+    {
+      "id": "humanoids",
+      "title": "Humanoid race",
+      "metrics": [
+        { "id": "shipments-leaders", "metric": "Humanoid shipment leaders", "us": "Figure ~350 built (1/hour by spring 2026); Agility single-digit units per shift", "china": "Unitree 5,500 shipped in 2025 (20K target 2026); AgiBot 10,000 cumulative; UBTECH 1,000+ industrial units delivered", "edge": "china", "sources": ["https://roboticsandautomationnews.com/2026/05/27/figure-ramps-humanoid-robot-manufacturing-at-unprecedented-speed/101954/", "https://www.humanoidsdaily.com/news/unitree-files-for-580m-ipo-humanoid-sales-surpass-robot-dogs-as-profits-soar", "https://www.therobotreport.com/agibot-rolls-out-10000th-humanoid-robot/"] },
+        { "id": "entry-price", "metric": "Entry humanoid price", "us": "No commercial sub-$50K product; Optimus targets <$20K at scale (unshipped)", "china": "Unitree G1 from ~$13.5–16K, commercially available today", "edge": "china", "sources": ["https://newsletter.semianalysis.com/p/america-is-missing-the-new-labor-economy-robotics-part-1", "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/"] },
+        { "id": "factory-capacity", "metric": "Announced factory capacity", "us": "≈52K/yr design targets: BotQ 12K + RoboFab 10K + Hyundai's planned 30K Atlas plant — plus Tesla's 1M/yr Fremont ambition", "china": "Unitree 20K target for 2026 alone; UBTECH 10K/yr by 2027; ~200 humanoid makers", "edge": "even", "note": "US nameplate rivals China's plans on paper; realized output is the gap", "sources": ["https://www.figure.ai/news/botq", "https://www.axios.com/2026/01/05/hyundai-humanoid-robots-boston-dynamics", "https://www.trendforce.com/presscenter/news/20260409-13007.html"] },
+        { "id": "labor-economics", "metric": "Labor-replacement economics", "us": "Pre-commercial — pilots at BMW, GXO, Mercedes", "china": "Teleoperated Unitrees already run at ~$23–26/hr, under the $30/hr human baseline; ~250 deployed in labor settings", "edge": "china", "sources": ["https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global"] },
+        { "id": "profitability", "metric": "Unit economics", "us": "All major humanoid OEMs pre-revenue or pre-commercial", "china": "Unitree: ~67% gross margin on G1; 2025 revenue ~$235M (+335%), profitable enough to IPO", "edge": "china", "sources": ["https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global", "https://www.caixinglobal.com/2026-05-26/unitree-fast-tracks-shanghai-ipo-with-target-valuation-of-62-billion-102447449.html"] }
+      ]
+    },
+    {
+      "id": "supply-chain",
+      "title": "Supply chain & components",
+      "metrics": [
+        { "id": "component-share", "metric": "Humanoid component supply chain", "us": "Vertical integration islands (Tesla, Figure in-house actuators); near-zero merchant capacity", "china": "~70% of global component supply; 63% of Morgan Stanley's Humanoid 100 suppliers are Chinese", "edge": "china", "sources": ["https://www.trendforce.com/presscenter/news/20251209-12825.html", "https://advisor.morganstanley.com/john.howard/documents/field/j/jo/john-howard/The_Humanoid_100_-_Mapping_the_Humanoid_Robot_Value_Chain.pdf"] },
+        { "id": "build-cost", "metric": "Cost to build the same robot", "us": "A UR5e-class robot arm costs ~2.2× more to build in the US; an Optimus-class humanoid without Chinese parts: $131K vs $46K (~3×)", "china": "Baseline — components 20–40% cheaper, motors at 30–40% of Western cost", "edge": "china", "sources": ["https://newsletter.semianalysis.com/p/america-is-missing-the-new-labor-economy-robotics-part-1", "https://nextfinancial.substack.com/p/one-million-robots-per-year-the-38"] },
+        { "id": "magnets", "metric": "NdFeB magnet production", "us": "~3–5K t/yr operating (first commercial output Dec 2025); ~25K t/yr announced by 2028", "china": "~300K t/yr installed — ~90% of world production; export-license regime since April 2025", "edge": "china", "sources": ["https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/", "https://investors.mpmaterials.com/investor-news/news-details/2025/MP-Materials-Restores-U.S.-Rare-Earth-Magnet-Production/default.aspx"] },
+        { "id": "refining", "metric": "Rare-earth separation & refining", "us": "~5% of global capacity; first US heavy-REE output in decades (Energy Fuels, Mar 2026)", "china": "~91% of global capacity; ~99% of heavy rare earths", "edge": "china", "sources": ["https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions", "https://investors.energyfuels.com/2026-03-25-Energy-Fuels-Announces-First-U-S-Primary-Production-of-Critical-Heavy-Rare-Earth-Material-in-Decades"] },
+        { "id": "reducers", "metric": "Precision reducers", "us": "~0% domestic volume — assembly only (Harmonic Drive, Beverly MA)", "china": "~40% and rising at 30–40% lower prices; Japan holds the high end", "edge": "china", "sources": ["https://www.intelmarketresearch.com/robot-harmonic-drive-reduction-gear-market-43594", "https://www.automate.org/news/harmonic-drive-llc-opens-new-us-headquarters-in-beverly-ma"] },
+        { "id": "lidar", "metric": "Lidar", "us": "Ouster the main merchant player ($169M revenue 2025); Luminar bankrupt Dec 2025", "china": "~89% of the global market (Hesai, RoboSense + 2 others); robotics lidar shipments up 1,459% YoY", "edge": "china", "sources": ["https://www.yolegroup.com/press-release/china-takes-the-lead-in-automotive-lidar-a-market-set-to-quadruple-by-2030/", "https://investors.ouster.com/news-releases/news-release-details/ouster-announces-results-fourth-quarter-and-full-year-2025"] },
+        { "id": "batteries", "metric": "Battery cells", "us": "Pack/BMS strength (Figure in-house); first US robot-grade gigafactory (EnerSys) starts 2028", "china": "~70% of global cell installations; CATL + BYD alone >55%", "edge": "china", "sources": ["https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/", "https://www.businesswire.com/news/home/20250117989373/en/EnerSys-Completes-Negotiation-of-U.S.-DOE-Award-Supporting-Development-of-Lithium-ion-Gigafactory"] },
+        { "id": "dexterous-hands", "metric": "Dexterous hands", "us": "Research-grade, low volume (Psyonic; Shadow in UK)", "china": "Linkerbot claims >80% of high-DoF hands; 10,000th shipped Nov 2025", "edge": "china", "sources": ["https://www.prnewswire.com/news-releases/10-000-dexterous-hands-shipped-150-million-raised-linkerbot-leads-the-market-302645409.html"] },
+        { "id": "compute", "metric": "Robot brains (compute & chips)", "us": "NVIDIA Jetson Thor is the de facto humanoid standard — used by Chinese OEMs too; Qualcomm, Ambarella alternatives", "china": "Dependent on US chip designs; domestic alternatives under export-control pressure", "edge": "us", "sources": ["https://nvidianews.nvidia.com/news/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics"] },
+        { "id": "foundation-models", "metric": "Robot foundation models", "us": "Physical Intelligence ($5.6B), Skild ($14B), NVIDIA GR00T, Figure Helix — the deepest bench", "china": "Fast followers; Unitree is the leading platform for humanoid AI research but the frontier models are American", "edge": "us", "sources": ["https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design", "https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global"] }
+      ]
+    },
+    {
+      "id": "capital-policy",
+      "title": "Capital & policy",
+      "metrics": [
+        { "id": "venture-capital", "metric": "Venture capital", "us": "$23B+ raised by robotics startups in 2026 YTD; Figure $39B, Skild $14B valuations", "china": "Humanoid firms raised ~$769M in 2023, ~$990M in H1 2024 — smaller checks, more state capital", "edge": "us", "sources": ["https://www.briefs.co/news/robotics-startups-raised-23-billion-in-2026-closing-in-on-all-of-2025/", "https://newsletter.semianalysis.com/p/america-is-missing-the-new-labor-economy-robotics-part-1"] },
+        { "id": "public-markets", "metric": "Public-market access", "us": "Symbotic, Serve, Ouster listed; no humanoid IPO yet", "china": "Unitree's STAR Market IPO approved in a record 73 days at ~$6.2B; UBTECH already listed in HK", "edge": "even", "sources": ["https://news.cgtn.com/news/2026-06-01/Unitree-gets-STAR-Market-green-light-in-China-s-hard-tech-IPO-wave-1NCT9TksSVq/share_amp.html"] },
+        { "id": "government-posture", "metric": "Government posture", "us": "DoD OSC loans + MP price floor (~$3B+ committed to magnets); robotics executive order pending; GUARD Act introduced", "china": "Embodied AI in the 15th Five-Year Plan; national humanoid standards (2026); 'Robot+' density-doubling roadmaps", "edge": "even", "sources": ["https://defensescoop.com/2026/04/06/pentagon-office-strategic-capital-loan-program-budget-increase/", "https://merics.org/en/report/embodied-ai-chinas-ambitious-path-transform-its-robotics-industry"] },
+        { "id": "iteration-speed", "metric": "Hardware iteration speed", "us": "Quarters — supply loops cross the Pacific", "china": "Weeks — proximate suppliers from the smartphone/EV ecosystem", "edge": "china", "sources": ["https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global"] }
+      ]
+    }
+  ],
+  "unitree_case": {
+    "title": "Case study: Unitree vs the U.S. humanoid stack",
+    "intro": "SemiAnalysis calls Unitree the proof of the 'DJI strategy' — bootstrap through researchers and hobbyists, own the bottleneck components, then ride ecosystem maturity into every adjacent market. Here is how it stacks against the American approach, dimension by dimension.",
+    "rows": [
+      { "dimension": "Cumulative humanoids shipped", "unitree": "~10,000th unit approaching (June 2026); 5,500 shipped in 2025 alone", "us_oems": "Figure 350+ built; Agility single-digit volumes; Optimus not shipped externally", "sources": ["https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global", "https://roboticsandautomationnews.com/2026/05/27/figure-ramps-humanoid-robot-manufacturing-at-unprecedented-speed/101954/"] },
+      { "dimension": "Price trajectory", "unitree": "$50K+ → $27.3K in 12–18 months; under $20K in some deals; G1 from ~$16K", "us_oems": "No public price; BOM alone ~$46K with Chinese parts, $131K without", "sources": ["https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global", "https://nextfinancial.substack.com/p/one-million-robots-per-year-the-38"] },
+      { "dimension": "Gross margin", "unitree": "~67% on the G1 — profitable while cutting prices", "us_oems": "Pre-commercial; burn funded by venture capital", "sources": ["https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global"] },
+      { "dimension": "Vertical integration", "unitree": "Self-developed BLDC motors (30–40% of Western motor cost), planetary gearboxes, lidars, depth cameras", "us_oems": "Figure builds actuators/packs in-house at BotQ; Tesla designs in-house but buys volume parts from Sanhua/Tuopu (China)", "sources": ["https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global", "https://www.figure.ai/news/botq", "https://eu.36kr.com/en/p/3510288514980998"] },
+      { "dimension": "Decoupling status", "unitree": "G1 entirely decoupled from American components", "us_oems": "No US humanoid is decoupled from China — magnets, reducers, screws all flow through Chinese chokepoints", "sources": ["https://newsletter.semianalysis.com/p/america-is-missing-the-new-labor-economy-robotics-part-1"] },
+      { "dimension": "Research-platform pull", "unitree": "The leading platform for humanoid AI research — NVIDIA's open GR00T reference humanoid is built on a Unitree H2 Plus chassis", "us_oems": "US labs buy Unitrees to train American foundation models on Chinese hardware", "sources": ["https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design", "https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global"] },
+      { "dimension": "Where the US still wins", "unitree": "Buys US chip designs; frontier autonomy models are not Chinese", "us_oems": "NVIDIA compute, foundation models (Helix, π0, GR00T), capital depth, and Amazon-scale deployment demand", "sources": ["https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global", "https://nvidianews.nvidia.com/news/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics"] }
+    ]
+  }
+}
