@@ -17,11 +17,31 @@
   <link rel="preload" as="fetch" href="data/supply_chain.json" crossorigin />
   <style>
     /* Page-local styles for the chain map + stakeholder grid. Tokens only. */
-    .chain-legend { display: flex; flex-wrap: wrap; gap: 14px; margin: 8px 0 0; font-size: 12px; color: var(--text-muted); }
+    .chain-legend { display: flex; flex-wrap: wrap; gap: 14px; margin: 12px 0 0; font-size: 12px; color: var(--text-muted); }
     .chain-legend .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
     .dot.pos-strong { background: var(--status-positive); }
     .dot.pos-contested { background: var(--status-warning); }
     .dot.pos-weak { background: var(--status-negative); }
+    /* Chain flow — HTML cards, not SVG, so text wraps and mobile reflows naturally */
+    .chain-flow { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; counter-reset: stage; }
+    .chain-stage-card { position: relative; border: 1px solid var(--border); border-top: 3px solid var(--border-strong); border-radius: 8px; background: var(--surface-2); padding: 12px 12px 10px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+    .chain-stage-card.pos-strong { border-top-color: var(--status-positive); }
+    .chain-stage-card.pos-contested { border-top-color: var(--status-warning); }
+    .chain-stage-card.pos-weak { border-top-color: var(--status-negative); }
+    .chain-stage-card .stage-step { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-faint); }
+    .chain-stage-card .stage-step::before { counter-increment: stage; content: counter(stage) " · "; }
+    .chain-stage-card .stage-name { font-size: 13.5px; font-weight: 600; line-height: 1.25; color: var(--text); }
+    .chain-stage-card .stage-pos { margin-top: auto; align-self: flex-start; }
+    .chain-stage-card .stage-srcs { font-size: 10.5px; overflow-wrap: anywhere; }
+    .chain-stage-card .stage-srcs a { color: var(--text-faint); border-bottom: 1px dotted var(--border-strong); margin-right: 6px; }
+    @media (max-width: 900px) { .chain-flow { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 560px) { .chain-flow { grid-template-columns: repeat(2, 1fr); } }
+    .kpi-srcs a, .bluf-srcs a { color: var(--text-faint); border-bottom: 1px dotted var(--border-strong); }
+    .kpi-srcs { font-size: 10.5px; margin-top: 2px; }
+    .bluf-srcs { display: block; font-size: 11.5px; margin-top: 8px; color: var(--text-faint); }
+    .bluf-srcs a { margin-right: 10px; white-space: nowrap; }
+    .choke-src { white-space: nowrap; font-size: 11px; }
+    .choke-src a { color: var(--text-faint); border-bottom: 1px dotted var(--border-strong); }
     .share-row { display: grid; grid-template-columns: 170px 1fr; gap: 10px; align-items: center; margin-bottom: 10px; }
     .share-row .share-name { font-size: 13px; color: var(--text); min-width: 0; }
     .share-row .share-name a { color: inherit; border-bottom: 1px dotted var(--border-strong); }
@@ -111,7 +131,7 @@
     <div class="chart" id="chain-map">
       <h3>Where the U.S. stands at each stage</h3>
       <p class="chart-sub">Mine to deployed robot. Color = U.S. position at that stage.</p>
-      <svg viewBox="0 0 720 170" role="img" aria-label="Supply chain stages with US position"></svg>
+      <div class="chain-flow" id="chain-flow" role="list" aria-label="Supply chain stages with US position"></div>
       <div class="chain-legend">
         <span><span class="dot pos-strong"></span>Strong — U.S. leads or is competitive</span>
         <span><span class="dot pos-contested"></span>Contested — capacity building, gap closing</span>
@@ -189,21 +209,19 @@
       return;
     }
 
-    const POS_COLOR = {
-      strong: 'var(--status-positive)',
-      contested: 'var(--status-warning)',
-      weak: 'var(--status-negative)',
-    };
     const POS_LABEL = { strong: 'Strong', contested: 'Contested', weak: 'Weak' };
     const POS_PILL = { strong: 'positive', contested: 'warning', weak: 'negative' };
 
     // ---------- BLUF + KPIs ----------
-    document.getElementById('bluf-body').innerHTML = `<strong>${RT.escapeHTML(sc.overview.headline || '')}</strong> ${RT.escapeHTML(sc.overview.bluf)}`;
+    document.getElementById('bluf-body').innerHTML =
+      `<strong>${RT.escapeHTML(sc.overview.headline || '')}</strong> ${RT.escapeHTML(sc.overview.bluf)}` +
+      `<span class="bluf-srcs">Sources: ${srcLinks(sc.overview.sources, { useLabel: true })}</span>`;
     document.getElementById('kpi-strip').innerHTML = sc.overview.kpis.map(k => `
       <div class="kpi-card">
         <span class="kpi-label">${RT.escapeHTML(k.label)}</span>
         <span class="kpi-value tnum">${RT.escapeHTML(k.value)}</span>
         <span class="kpi-sub">${RT.escapeHTML(k.sub || '')}</span>
+        <span class="kpi-srcs">${srcLinks(k.sources)}</span>
       </div>
     `).join('');
 
@@ -234,39 +252,14 @@
     // because category <details> are static-open by default and persist via native toggle.
 
     function renderChainMap(stages) {
-      const svg = document.querySelector('#chain-map svg');
-      const W = 720, H = 170;
-      const n = stages.length;
-      const gap = 14;
-      const boxW = (W - gap * (n - 1) - 8) / n;
-      const boxH = 64;
-      const y = 34;
-      let out = '';
-      stages.forEach((s, i) => {
-        const x = 4 + i * (boxW + gap);
-        const color = POS_COLOR[s.us_position] || 'var(--status-neutral)';
-        out += `<rect x="${x}" y="${y}" width="${boxW}" height="${boxH}" rx="8" fill="none" stroke="${color}" stroke-width="2"></rect>`;
-        out += `<circle cx="${x + 12}" cy="${y + 14}" r="4" fill="${color}"></circle>`;
-        // stage name, wrapped to two lines max
-        const words = String(s.name).split(' ');
-        const lines = [];
-        let cur = '';
-        words.forEach(w => {
-          if ((cur + ' ' + w).trim().length > Math.floor(boxW / 6.2)) { if (cur) lines.push(cur); cur = w; }
-          else cur = (cur + ' ' + w).trim();
-        });
-        if (cur) lines.push(cur);
-        lines.slice(0, 2).forEach((ln, j) => {
-          out += `<text x="${x + boxW / 2}" y="${y + 32 + j * 14}" text-anchor="middle" style="fill:var(--text);font-size:11.5px;font-weight:600;">${RT.escapeHTML(ln)}</text>`;
-        });
-        out += `<text x="${x + boxW / 2}" y="${y + boxH + 16}" text-anchor="middle" style="fill:var(--text-muted);font-size:10px;">${RT.escapeHTML(POS_LABEL[s.us_position] || '')}</text>`;
-        if (i < n - 1) {
-          const ax = x + boxW;
-          out += `<path d="M${ax + 2} ${y + boxH / 2} L${ax + gap - 3} ${y + boxH / 2}" stroke="var(--border-strong)" stroke-width="1.5"></path>
-                  <path d="M${ax + gap - 6} ${y + boxH / 2 - 3.5} L${ax + gap - 2} ${y + boxH / 2} L${ax + gap - 6} ${y + boxH / 2 + 3.5}" fill="none" stroke="var(--border-strong)" stroke-width="1.5"></path>`;
-        }
-      });
-      svg.innerHTML = out;
+      document.getElementById('chain-flow').innerHTML = stages.map(s => `
+        <div class="chain-stage-card pos-${RT.slug(s.us_position)}" role="listitem" title="${RT.escapeHTML(s.note)}">
+          <span class="stage-step">Stage</span>
+          <span class="stage-name">${RT.escapeHTML(s.name)}</span>
+          <span class="stage-pos pill ${POS_PILL[s.us_position] || ''}">${RT.escapeHTML(POS_LABEL[s.us_position] || '')}</span>
+          <span class="stage-srcs">${srcLinks(s.sources)}</span>
+        </div>
+      `).join('');
       // Note line under map: weakest stage
       const weak = stages.filter(s => s.us_position === 'weak').map(s => s.name);
       if (weak.length) {
@@ -324,7 +317,7 @@
         ${(c.chokepoints || []).length ? `
           <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-faint);">Chokepoints</div>
           <ul style="margin:6px 0 12px;padding-left:18px;font-size:13.5px;color:var(--text-muted);">
-            ${c.chokepoints.map(x => `<li style="margin:3px 0;">${RT.escapeHTML(x)}</li>`).join('')}
+            ${c.chokepoints.map(x => `<li style="margin:3px 0;">${RT.escapeHTML(x.text)} <span class="choke-src"><a href="${RT.escapeHTML(x.source)}" target="_blank" rel="noopener" title="${RT.escapeHTML(hostname(x.source))}">[${RT.escapeHTML(hostname(x.source))}]</a></span></li>`).join('')}
           </ul>` : ''}
         ${cos.length ? `
         <table class="data-table">
@@ -447,6 +440,14 @@
 
     function hostname(url) {
       try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url || ''; }
+    }
+    // Render a compact run of source links. Entries may be URL strings or {url, label}.
+    function srcLinks(sources, opts = {}) {
+      return (sources || []).map(s => {
+        const url = typeof s === 'string' ? s : s.url;
+        const label = opts.useLabel && typeof s === 'object' && s.label ? s.label : hostname(url);
+        return `<a href="${RT.escapeHTML(url)}" target="_blank" rel="noopener" title="${RT.escapeHTML(url)}">${RT.escapeHTML(label)}</a>`;
+      }).join(' ');
     }
     function truncate(s, n) {
       if (!s) return '';

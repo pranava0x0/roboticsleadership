@@ -195,9 +195,11 @@ function validateSupplyChain(name, data) {
 
   if (!data._meta || !data._meta.last_updated) add('_meta.last_updated missing');
   if (!data.overview || !data.overview.bluf) add('overview.bluf missing');
+  checkSources(data.overview || {}, 'overview (BLUF)');
   if (!Array.isArray(data.overview?.kpis) || data.overview.kpis.length === 0) add('overview.kpis missing or empty');
   (data.overview?.kpis || []).forEach((k, i) => {
     if (!k.label || !k.value) add(`overview.kpis[${i}] needs label + value`);
+    checkSources(k, `overview.kpis[${i}] (${k.label || '?'})`);
   });
 
   const VALID_POSITIONS = ['strong', 'contested', 'weak'];
@@ -208,6 +210,7 @@ function validateSupplyChain(name, data) {
     if (s.us_position && !VALID_POSITIONS.includes(s.us_position)) {
       add(`chain_stages[${i}].us_position "${s.us_position}" not in {strong, contested, weak}`);
     }
+    checkSources(s, `chain_stages[${i}] (${s.id || '?'})`);
     if (s.id) stageIds.add(s.id);
   });
 
@@ -227,6 +230,10 @@ function validateSupplyChain(name, data) {
       }
     });
     if (!Array.isArray(c.chokepoints)) add(`${label}: chokepoints must be an array`);
+    (c.chokepoints || []).forEach((ck, j) => {
+      if (!ck || typeof ck !== 'object' || !ck.text) add(`${label}: chokepoints[${j}] must be { text, source }`);
+      else if (!isURL(ck.source)) add(`${label}: chokepoints[${j}] source must be a URL`);
+    });
     checkSources(c, label);
   });
 
