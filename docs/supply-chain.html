@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Comprehensive review of the robotics supply chain — materials, components, compute, assembly. Categories, sites, capacity, financing, and the full stakeholder map." />
+  <title>Supply Chain — Robotics Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Orbitron:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
+  <script>
+    /* Set data-theme before first paint to avoid FOUC. See DESIGN.md § 15. */
+    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="preload" as="fetch" href="data/supply_chain.json" crossorigin />
+  <style>
+    /* Page-local styles for the chain map + stakeholder grid. Tokens only. */
+    .chain-legend { display: flex; flex-wrap: wrap; gap: 14px; margin: 8px 0 0; font-size: 12px; color: var(--text-muted); }
+    .chain-legend .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
+    .dot.pos-strong { background: var(--status-positive); }
+    .dot.pos-contested { background: var(--status-warning); }
+    .dot.pos-weak { background: var(--status-negative); }
+    .share-row { display: grid; grid-template-columns: 170px 1fr; gap: 10px; align-items: center; margin-bottom: 10px; }
+    .share-row .share-name { font-size: 13px; color: var(--text); min-width: 0; }
+    .share-row .share-name a { color: inherit; border-bottom: 1px dotted var(--border-strong); }
+    .share-bar { display: flex; height: 18px; border-radius: 4px; overflow: hidden; background: var(--surface-2); }
+    .share-bar .seg { height: 100%; min-width: 0; }
+    .seg.us { background: var(--cat-supplychain); }
+    .seg.cn { background: var(--status-negative); opacity: 0.75; }
+    .seg.row { background: var(--status-neutral); opacity: 0.5; }
+    .share-pct { font-size: 11px; color: var(--text-faint); margin-top: 2px; }
+    @media (max-width: 640px) { .share-row { grid-template-columns: 1fr; gap: 3px; } }
+    .stakeholder-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); margin-top: 16px; }
+    .stakeholder-group { border: 1px solid var(--border); border-radius: var(--radius-card); background: var(--surface); padding: 16px; }
+    .stakeholder-group h3 { margin: 0 0 4px; font-size: 16px; }
+    .stakeholder-group .group-sub { font-size: 12px; color: var(--text-muted); margin: 0 0 10px; }
+    .entity { border-top: 1px solid var(--border); padding: 10px 0; }
+    .entity:last-child { padding-bottom: 0; }
+    .entity .entity-head { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+    .entity .entity-name { font-weight: 600; font-size: 14px; }
+    .entity .entity-role { font-size: 13px; color: var(--text-muted); margin: 3px 0 0; }
+    .entity ul.entity-actions { margin: 6px 0 0; padding-left: 16px; font-size: 12.5px; color: var(--text-muted); }
+    .entity ul.entity-actions li { margin: 2px 0; }
+    .entity .entity-srcs { font-size: 11px; margin-top: 4px; }
+    .entity .entity-srcs a { color: var(--text-faint); border-bottom: 1px dotted var(--border-strong); margin-right: 8px; }
+    .choke-list { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 12px; }
+    .cat-block { margin: 0 0 8px; }
+    .cat-block .curator-narrative { border-left: 3px solid var(--accent); padding-left: 12px; font-family: var(--font-serif); font-size: 15px; line-height: 1.55; margin: 10px 0 12px; }
+    .cat-src { font-size: 11.5px; color: var(--text-faint); margin: 8px 0 0; }
+    .cat-src a { color: var(--text-faint); border-bottom: 1px dotted var(--border-strong); margin-right: 8px; }
+    .site-line { display: block; }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="site-header-inner">
+      <a href="index.html" class="header-updated" aria-label="Home — last data refresh">
+        <span class="header-updated-label">Updated</span>
+        <span class="header-updated-date tnum">—</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="index.html">Dashboard</a>
+        <a href="companies.html">Companies</a>
+        <a href="policies.html">Policy</a>
+        <a href="supply-chain.html">Supply Chain</a>
+        <a href="states.html">States</a>
+        <a href="themes.html">Themes</a>
+      </nav>
+      <details class="theme-picker" id="theme-picker">
+        <summary aria-label="Theme picker">
+          <span class="theme-picker-current">Dawn</span>
+          <svg class="theme-picker-chevron" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="theme-picker-menu" role="radiogroup" aria-label="Choose theme">
+          <label class="theme-option"><input type="radio" name="theme" value="caves"><span class="theme-option-name">Caves of Steel</span><span class="theme-option-tag">Earth</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Cosmic</span></label>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+    <p class="eyebrow">Deep dive</p>
+    <h1 class="page-title">The robotics supply chain.</h1>
+    <p class="page-lede">From rare-earth mines to finished robots — who makes what, where, at what capacity, and who pays for it. Every figure links to its source.</p>
+
+    <aside class="bluf" aria-label="Bottom line up front">
+      <span class="bluf-tag">Bottom line</span>
+      <p class="bluf-body" id="bluf-body"><span class="skeleton" style="display:inline-block;height:16px;width:90%;"></span></p>
+    </aside>
+
+    <!-- KPI strip -->
+    <section aria-label="Key indicators">
+      <div id="kpi-strip" class="kpi-strip">
+        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+      </div>
+    </section>
+
+    <!-- Chain map -->
+    <h2 class="section-title">The chain, end to end</h2>
+    <div class="chart" id="chain-map">
+      <h3>Where the U.S. stands at each stage</h3>
+      <p class="chart-sub">Mine to deployed robot. Color = U.S. position at that stage.</p>
+      <svg viewBox="0 0 720 170" role="img" aria-label="Supply chain stages with US position"></svg>
+      <div class="chain-legend">
+        <span><span class="dot pos-strong"></span>Strong — U.S. leads or is competitive</span>
+        <span><span class="dot pos-contested"></span>Contested — capacity building, gap closing</span>
+        <span><span class="dot pos-weak"></span>Weak — dependent on imports</span>
+      </div>
+    </div>
+
+    <!-- Share by category -->
+    <h2 class="section-title">Who makes what</h2>
+    <div class="chart" id="share-chart">
+      <h3>Production share by category</h3>
+      <p class="chart-sub">Estimated share of global output — U.S. vs China vs rest of world. Hover a row for what's being measured.</p>
+      <div id="share-rows"></div>
+      <div class="chain-legend">
+        <span><span class="dot" style="background:var(--cat-supplychain)"></span>United States</span>
+        <span><span class="dot" style="background:var(--status-negative);opacity:.75"></span>China</span>
+        <span><span class="dot" style="background:var(--status-neutral);opacity:.5"></span>Rest of world</span>
+      </div>
+      <p class="chart-source">Shares are best-available estimates; each category below cites its sources.</p>
+    </div>
+
+    <!-- Category deep dives -->
+    <h2 class="section-title">Category deep dives</h2>
+    <p class="muted" style="font-size:13px;margin:-6px 0 12px;">Grouped by chain stage. Each category: assessment, chokepoints, and the specific companies, sites, capacity, and financing behind it.</p>
+    <div id="category-sections"></div>
+
+    <!-- Financing -->
+    <h2 class="section-title">Financing the chain</h2>
+    <div class="chart-grid cols-2">
+      <div class="chart" id="chart-financing">
+        <h3>Largest tracked financing events</h3>
+        <p class="chart-sub">Private rounds, government awards, and capex commitments tied to supply-chain capacity.</p>
+        <svg viewBox="0 0 480 320" role="img" aria-label="Largest financing events"></svg>
+        <p class="chart-source">From the company records below — each links to its announcement.</p>
+      </div>
+      <div class="chart" id="gov-programs">
+        <h3>Government programs &amp; instruments</h3>
+        <p class="chart-sub">Federal money and policy levers reaching the robotics supply chain.</p>
+        <div id="gov-programs-list"></div>
+      </div>
+    </div>
+
+    <!-- Stakeholder map -->
+    <h2 class="section-title">Full stakeholder map</h2>
+    <p class="muted" style="font-size:13px;margin:-6px 0 0;">Everyone with money, authority, or demand in the U.S. robotics supply chain.</p>
+    <div id="stakeholder-grid" class="stakeholder-grid"></div>
+
+    <!-- Key figures -->
+    <details class="collapsible-section" id="sec-facts">
+      <summary>
+        <h2 class="section-title">Key figures</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Load-bearing numbers behind the assessment, each with its source.</p>
+      </summary>
+      <table class="data-table" id="facts-table">
+        <thead><tr><th>Figure</th><th>Value</th><th class="hide-mobile">Source</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </details>
+
+    <p class="muted" id="method-note" style="font-size:12px;margin-top:24px;"></p>
+  </main>
+
+  <footer class="site-footer">
+    <p>Every record links to its primary source.</p>
+  </footer>
+
+  <script src="assets/app.js" defer></script>
+  <script defer>
+  document.addEventListener('DOMContentLoaded', async () => {
+    let sc;
+    try {
+      sc = await RT.loadData('supply_chain');
+    } catch (e) {
+      document.getElementById('bluf-body').textContent = 'Failed to load supply chain data.';
+      return;
+    }
+
+    const POS_COLOR = {
+      strong: 'var(--status-positive)',
+      contested: 'var(--status-warning)',
+      weak: 'var(--status-negative)',
+    };
+    const POS_LABEL = { strong: 'Strong', contested: 'Contested', weak: 'Weak' };
+    const POS_PILL = { strong: 'positive', contested: 'warning', weak: 'negative' };
+
+    // ---------- BLUF + KPIs ----------
+    document.getElementById('bluf-body').innerHTML = `<strong>${RT.escapeHTML(sc.overview.headline || '')}</strong> ${RT.escapeHTML(sc.overview.bluf)}`;
+    document.getElementById('kpi-strip').innerHTML = sc.overview.kpis.map(k => `
+      <div class="kpi-card">
+        <span class="kpi-label">${RT.escapeHTML(k.label)}</span>
+        <span class="kpi-value tnum">${RT.escapeHTML(k.value)}</span>
+        <span class="kpi-sub">${RT.escapeHTML(k.sub || '')}</span>
+      </div>
+    `).join('');
+
+    // ---------- Chain map (SVG flow) ----------
+    renderChainMap(sc.chain_stages);
+
+    // ---------- Share bars ----------
+    renderShareBars(sc.categories);
+
+    // ---------- Category sections grouped by stage ----------
+    renderCategories(sc);
+
+    // ---------- Financing ----------
+    renderFinancingChart(sc.companies);
+    renderGovPrograms(sc.government_programs || []);
+
+    // ---------- Stakeholders ----------
+    renderStakeholders(sc.stakeholders);
+
+    // ---------- Facts ----------
+    renderFacts(sc.facts || []);
+
+    const meta = sc._meta || {};
+    document.getElementById('method-note').textContent =
+      `Method: ${meta.method || 'curated from primary sources'}. Captured as of ${RT.formatDate(meta.captured_at || meta.last_updated)}. External estimates vary; shares are directional, not audited.`;
+
+    // RT.initCollapsibleSections ran before these sections existed; re-run is unnecessary
+    // because category <details> are static-open by default and persist via native toggle.
+
+    function renderChainMap(stages) {
+      const svg = document.querySelector('#chain-map svg');
+      const W = 720, H = 170;
+      const n = stages.length;
+      const gap = 14;
+      const boxW = (W - gap * (n - 1) - 8) / n;
+      const boxH = 64;
+      const y = 34;
+      let out = '';
+      stages.forEach((s, i) => {
+        const x = 4 + i * (boxW + gap);
+        const color = POS_COLOR[s.us_position] || 'var(--status-neutral)';
+        out += `<rect x="${x}" y="${y}" width="${boxW}" height="${boxH}" rx="8" fill="none" stroke="${color}" stroke-width="2"></rect>`;
+        out += `<circle cx="${x + 12}" cy="${y + 14}" r="4" fill="${color}"></circle>`;
+        // stage name, wrapped to two lines max
+        const words = String(s.name).split(' ');
+        const lines = [];
+        let cur = '';
+        words.forEach(w => {
+          if ((cur + ' ' + w).trim().length > Math.floor(boxW / 6.2)) { if (cur) lines.push(cur); cur = w; }
+          else cur = (cur + ' ' + w).trim();
+        });
+        if (cur) lines.push(cur);
+        lines.slice(0, 2).forEach((ln, j) => {
+          out += `<text x="${x + boxW / 2}" y="${y + 32 + j * 14}" text-anchor="middle" style="fill:var(--text);font-size:11.5px;font-weight:600;">${RT.escapeHTML(ln)}</text>`;
+        });
+        out += `<text x="${x + boxW / 2}" y="${y + boxH + 16}" text-anchor="middle" style="fill:var(--text-muted);font-size:10px;">${RT.escapeHTML(POS_LABEL[s.us_position] || '')}</text>`;
+        if (i < n - 1) {
+          const ax = x + boxW;
+          out += `<path d="M${ax + 2} ${y + boxH / 2} L${ax + gap - 3} ${y + boxH / 2}" stroke="var(--border-strong)" stroke-width="1.5"></path>
+                  <path d="M${ax + gap - 6} ${y + boxH / 2 - 3.5} L${ax + gap - 2} ${y + boxH / 2} L${ax + gap - 6} ${y + boxH / 2 + 3.5}" fill="none" stroke="var(--border-strong)" stroke-width="1.5"></path>`;
+        }
+      });
+      svg.innerHTML = out;
+      // Note line under map: weakest stage
+      const weak = stages.filter(s => s.us_position === 'weak').map(s => s.name);
+      if (weak.length) {
+        const sub = document.querySelector('#chain-map .chart-sub');
+        sub.textContent += ` Weakest links today: ${weak.join(', ')}.`;
+      }
+    }
+
+    function renderShareBars(categories) {
+      const withShares = categories.filter(c => c.china_share_pct != null || c.us_share_pct != null);
+      document.getElementById('share-rows').innerHTML = withShares.map(c => {
+        const us = c.us_share_pct ?? 0;
+        const cn = c.china_share_pct ?? 0;
+        const row = c.row_share_pct ?? Math.max(0, 100 - us - cn);
+        return `
+        <div class="share-row" title="${RT.escapeHTML(c.share_note || '')}">
+          <span class="share-name"><a href="#cat-${RT.slug(c.id)}">${RT.escapeHTML(c.name)}</a></span>
+          <div>
+            <div class="share-bar" role="img" aria-label="${RT.escapeHTML(c.name)}: US ${us}%, China ${cn}%, rest of world ${row}%">
+              <span class="seg us" style="width:${us}%"></span>
+              <span class="seg cn" style="width:${cn}%"></span>
+              <span class="seg row" style="width:${row}%"></span>
+            </div>
+            <div class="share-pct">US ${us}% · China ${cn}% · RoW ${row}% — <span>${RT.escapeHTML(c.share_note || '')}</span></div>
+          </div>
+        </div>`;
+      }).join('');
+    }
+
+    function renderCategories(sc) {
+      const byStage = {};
+      sc.categories.forEach(c => { (byStage[c.stage] = byStage[c.stage] || []).push(c); });
+      const root = document.getElementById('category-sections');
+      root.innerHTML = sc.chain_stages.filter(s => byStage[s.id]).map((stage, si) => `
+        <details class="collapsible-section" id="stage-${RT.slug(stage.id)}" ${si === 0 ? 'open' : ''}>
+          <summary>
+            <h2 class="section-title" style="display:inline-flex;align-items:center;gap:10px;">
+              ${RT.escapeHTML(stage.name)}
+              <span class="pill ${POS_PILL[stage.us_position]}">${POS_LABEL[stage.us_position]}</span>
+            </h2>
+            <p class="muted" style="font-size:13px;margin:-4px 0 10px;">${RT.escapeHTML(stage.note)}</p>
+          </summary>
+          ${byStage[stage.id].map(c => categoryBlock(c, sc.companies)).join('')}
+        </details>
+      `).join('');
+    }
+
+    function categoryBlock(c, companies) {
+      const cos = companies.filter(co => (co.categories || []).includes(c.id));
+      const usFirst = [...cos].sort((a, b) => (a.country === 'USA' ? -1 : 1) - (b.country === 'USA' ? -1 : 1));
+      return `
+      <div class="cat-block" id="cat-${RT.slug(c.id)}">
+        <h3 style="margin:18px 0 0;font-size:17px;">${RT.escapeHTML(c.name)}</h3>
+        <div class="curator-narrative">${RT.escapeHTML(c.summary)}</div>
+        ${(c.chokepoints || []).length ? `
+          <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-faint);">Chokepoints</div>
+          <ul style="margin:6px 0 12px;padding-left:18px;font-size:13.5px;color:var(--text-muted);">
+            ${c.chokepoints.map(x => `<li style="margin:3px 0;">${RT.escapeHTML(x)}</li>`).join('')}
+          </ul>` : ''}
+        ${cos.length ? `
+        <table class="data-table">
+          <thead><tr>
+            <th>Company</th><th>Role</th><th class="hide-mobile">Sites</th><th class="hide-mobile">Capacity</th><th>Financing</th>
+          </tr></thead>
+          <tbody>
+            ${usFirst.map(co => companyRow(co)).join('')}
+          </tbody>
+        </table>` : ''}
+        <p class="cat-src">Sources: ${(c.sources || []).map((s, i) => {
+          const url = typeof s === 'string' ? s : s.url;
+          const label = (typeof s === 'object' && s.label) || hostname(url);
+          return `<a href="${RT.escapeHTML(url)}" target="_blank" rel="noopener">${RT.escapeHTML(label)}</a>`;
+        }).join(' ')}</p>
+      </div>`;
+    }
+
+    function companyRow(co) {
+      const sites = (co.sites || []).map(s =>
+        `<span class="site-line"><strong>${RT.escapeHTML(s.location)}</strong>${s.detail ? ` — ${RT.escapeHTML(truncate(s.detail, 110))}` : ''}</span>`
+      ).join('');
+      const capacity = (co.sites || []).map(s => s.capacity).filter(Boolean).map(x => `<span class="site-line">${RT.escapeHTML(x)}</span>`).join('')
+        || (co.capacity_note ? RT.escapeHTML(co.capacity_note) : '<span class="muted">—</span>');
+      const fin = (co.financing || []).slice(0, 3).map(f => {
+        const amt = f.amount_usd != null ? RT.formatUSD(f.amount_usd) : '';
+        return `<span class="site-line">${amt ? `<strong class="tnum">${amt}</strong> ` : ''}${RT.escapeHTML(truncate(f.detail, 90))} <span class="faint tnum">(${RT.escapeHTML(RT.formatDate(f.date))})</span></span>`;
+      }).join('') || '<span class="muted">Not disclosed</span>';
+      const srcs = (co.sources || []).slice(0, 3).map(s => {
+        const url = typeof s === 'string' ? s : s.url;
+        return `<a href="${RT.escapeHTML(url)}" target="_blank" rel="noopener" title="${RT.escapeHTML(hostname(url))}">↗</a>`;
+      }).join(' ');
+      const flag = co.country === 'USA' ? '<span class="pill outline">US</span>' : `<span class="pill outline" style="opacity:.7">${RT.escapeHTML(co.country)}</span>`;
+      return `<tr>
+        <td><strong>${RT.escapeHTML(co.name)}</strong> ${flag}<span class="secondary-line">${RT.escapeHTML(co.hq || '')} ${srcs}</span></td>
+        <td style="font-size:13px;">${RT.escapeHTML(co.role)}</td>
+        <td class="hide-mobile" style="font-size:12.5px;">${sites || '<span class="muted">—</span>'}</td>
+        <td class="hide-mobile" style="font-size:12.5px;">${capacity}</td>
+        <td style="font-size:12.5px;">${fin}</td>
+      </tr>`;
+    }
+
+    function renderFinancingChart(companies) {
+      const events = [];
+      companies.forEach(co => (co.financing || []).forEach(f => {
+        if (f.amount_usd && f.amount_usd >= 1e7 && f.amount_usd < 2e10) {
+          events.push({ name: co.name, ...f });
+        }
+      }));
+      events.sort((a, b) => b.amount_usd - a.amount_usd);
+      const top = events.slice(0, 10);
+      const svg = document.querySelector('#chart-financing svg');
+      const W = 480, H = 320, padL = 130, padR = 56, rowH = H / Math.max(top.length, 1);
+      const maxV = top[0]?.amount_usd || 1;
+      svg.innerHTML = top.map((e, i) => {
+        const w = ((W - padL - padR) * e.amount_usd) / maxV;
+        const y = i * rowH + rowH * 0.18;
+        const h = rowH * 0.6;
+        return `<text x="${padL - 8}" y="${y + h / 2 + 4}" text-anchor="end" style="fill:var(--text);font-size:11px;">${RT.escapeHTML(truncate(e.name, 20))}</text>
+                <rect class="bar ${i % 2 ? 'alt' : ''}" x="${padL}" y="${y}" width="${Math.max(w, 2)}" height="${h}" rx="2"></rect>
+                <text x="${padL + Math.max(w, 2) + 6}" y="${y + h / 2 + 4}" style="fill:var(--text-muted);font-size:10.5px;" class="tnum">${RT.formatUSD(e.amount_usd)}</text>`;
+      }).join('');
+    }
+
+    function renderGovPrograms(programs) {
+      document.getElementById('gov-programs-list').innerHTML = programs.length ? `
+        <table class="data-table">
+          <thead><tr><th>Program</th><th>Agency</th><th class="num">Amount</th></tr></thead>
+          <tbody>
+          ${programs.map(p => `
+            <tr>
+              <td><a href="${RT.escapeHTML(p.source)}" target="_blank" rel="noopener">${RT.escapeHTML(p.name)}</a><span class="secondary-line">${RT.escapeHTML(truncate(p.detail || '', 120))}</span></td>
+              <td style="font-size:13px;">${RT.escapeHTML(p.agency)}</td>
+              <td class="num tnum">${p.amount_usd != null ? RT.formatUSD(p.amount_usd) : '—'}</td>
+            </tr>`).join('')}
+          </tbody>
+        </table>` : '<p class="muted">No programs recorded.</p>';
+    }
+
+    function renderStakeholders(groups) {
+      const GROUP_SUBS = {
+        'Government': 'Funders, regulators, and buyers of last resort.',
+        'Coalitions & Advocacy': 'Who is shaping the policy agenda.',
+        'Investors': 'Who finances the build-out.',
+        'OEMs & Demand': 'Who buys and deploys at scale.',
+        'Research & Talent': 'Where the know-how comes from.',
+      };
+      document.getElementById('stakeholder-grid').innerHTML = groups.map(g => `
+        <div class="stakeholder-group">
+          <h3>${RT.escapeHTML(g.group)}</h3>
+          <p class="group-sub">${RT.escapeHTML(GROUP_SUBS[g.group] || '')}</p>
+          ${g.entities.map(e => `
+            <div class="entity">
+              <div class="entity-head">
+                <span class="entity-name">${RT.escapeHTML(e.name)}</span>
+                <span class="pill outline">${RT.escapeHTML(e.type)}</span>
+              </div>
+              <p class="entity-role">${RT.escapeHTML(e.role)}</p>
+              ${(e.actions || []).length ? `<ul class="entity-actions">${e.actions.map(a =>
+                `<li>${a.amount_usd != null ? `<strong class="tnum">${RT.formatUSD(a.amount_usd)}</strong> — ` : ''}${RT.escapeHTML(a.detail)}${a.date ? ` <span class="faint tnum">(${RT.escapeHTML(RT.formatDate(a.date))})</span>` : ''}</li>`
+              ).join('')}</ul>` : ''}
+              <div class="entity-srcs">${(e.sources || []).slice(0, 3).map(s => {
+                const url = typeof s === 'string' ? s : s.url;
+                return `<a href="${RT.escapeHTML(url)}" target="_blank" rel="noopener">${RT.escapeHTML(hostname(url))}</a>`;
+              }).join('')}</div>
+            </div>
+          `).join('')}
+        </div>
+      `).join('');
+    }
+
+    function renderFacts(facts) {
+      document.querySelector('#facts-table tbody').innerHTML = facts.map(f => `
+        <tr>
+          <td style="font-size:13px;">${RT.escapeHTML(f.label)}</td>
+          <td style="font-size:13px;">${RT.escapeHTML(f.value)}</td>
+          <td class="hide-mobile" style="font-size:12px;"><a href="${RT.escapeHTML(f.source)}" target="_blank" rel="noopener">${RT.escapeHTML(hostname(f.source))}</a></td>
+        </tr>`).join('');
+    }
+
+    function hostname(url) {
+      try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url || ''; }
+    }
+    function truncate(s, n) {
+      if (!s) return '';
+      return s.length > n ? s.slice(0, n - 1).replace(/[\s.,;:]+$/, '') + '…' : s;
+    }
+  });
+  </script>
+</body>
+</html>
