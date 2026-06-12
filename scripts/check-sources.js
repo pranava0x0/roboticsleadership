@@ -54,6 +54,10 @@ claim('overview.bluf', 'BLUF', (sc.overview?.sources || []).map(urlOf));
 (sc.overview?.kpis || []).forEach((k, i) =>
   claim(`overview.kpis[${i}]`, `KPI "${k.label}"`, (k.sources || []).map(urlOf)));
 
+// shipments by robot class
+(sc.shipments || []).forEach((s, i) =>
+  claim(`shipments[${i}]`, `robot class "${s.id}"`, (s.sources || []).map(urlOf)));
+
 // chain stages
 (sc.chain_stages || []).forEach((s, i) =>
   claim(`chain_stages[${i}]`, `stage "${s.id}"`, (s.sources || []).map(urlOf)));
@@ -84,6 +88,15 @@ claim('overview.bluf', 'BLUF', (sc.overview?.sources || []).map(urlOf));
   claim(`government_programs[${i}]`, `program "${p.name}"`, [p.source]));
 (sc.facts || []).forEach((f, i) =>
   claim(`facts[${i}]`, `fact "${f.label}"`, [f.source]));
+
+// ---------- us_china.json — every comparison row is a claim ----------
+const uc = JSON.parse(readFileSync(resolve(ROOT, 'docs/data/us_china.json'), 'utf8'));
+claim('us_china.bluf', 'US-vs-China BLUF', (uc.bluf?.sources || []).map(urlOf));
+(uc.sections || []).forEach((sec, i) =>
+  (sec.metrics || []).forEach((m, j) =>
+    claim(`us_china.sections[${i}].metrics[${j}]`, `metric "${m.id}"`, (m.sources || []).map(urlOf))));
+(uc.unitree_case?.rows || []).forEach((r, i) =>
+  claim(`us_china.unitree_case.rows[${i}]`, `case row "${r.dimension}"`, (r.sources || []).map(urlOf)));
 
 // ---------- report ----------
 const allURLs = new Map(); // url -> count
