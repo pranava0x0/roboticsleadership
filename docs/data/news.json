@@ -1,5 +1,830 @@
 [
   {
+    "id": "hn-48499288",
+    "title": "LLM podcast addressing AI genocide of humanity",
+    "date": "2026-06-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://MachineDeposition.com",
+    "summary": "LLM podcast addressing AI genocide of humanity",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48506102",
+    "title": "Show HN: Crowfly.golf – Zero-backend GPS round tracking (localStorage)",
+    "date": "2026-06-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://crowfly.golf",
+    "summary": "crowfly is a single-html-file golf round GPS tracker.Hit your shot, tap \"log shot\", walk to your ball, repeat. Shots and rounds are stored in localStorage. Distance markers. CSV export. Zero",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48524805",
+    "title": "HumanizeHub: A confidential marketplace for humanizing AI content",
+    "date": "2026-06-14",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://humanizehub.me",
+    "summary": "HumanizeHub: A confidential marketplace for humanizing AI content",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48534908",
+    "title": "Show HN: Isitslop.xyz, a free AI-writing detector built on latest research",
+    "date": "2026-06-15",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://isitslop.xyz",
+    "summary": "I have a weird habit of guessing whether something's AI before I check, especially on LinkedIn and Reddit (for obvious reasons).\nThe detectors I used to confirm were mostly junk and built to sell",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48500561",
+    "title": "Show HN: MicroECS – entity component system library in Python/NumPy",
+    "date": "2026-06-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/Meehai/microecs",
+    "summary": "Hi, in the last ~month I've learned a lot about ECS [1,2].I'm currently developing a robotics simulator from scratch (python+raylib) and, due to lack of game dev experience I went \"full",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48500825",
+    "title": "The Indian workers training AI robots to take their jobs",
+    "date": "2026-06-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://today.rtl.lu/news/world/the-indian-workers-training-ai-robots-to-take-their-jobs-459004114",
+    "summary": "The Indian workers training AI robots to take their jobs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48501078",
+    "title": "India's workers are training AI robots to take their jobs",
+    "date": "2026-06-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.aljazeera.com/gallery/2026/6/11/photos-indias-workers-are-training-ai-robots-to-take-their-jobs",
+    "summary": "India's workers are training AI robots to take their jobs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48502053",
+    "title": "The first game engine for robotics",
+    "date": "2026-06-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://luckyrobots.com/",
+    "summary": "The first game engine for robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48504537",
+    "title": "The Robot That Pays for Itself, or Never Does",
+    "date": "2026-06-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://atomsfrontier.substack.com/p/the-robot-that-pays-for-itself-or",
+    "summary": "The Robot That Pays for Itself, or Never Does",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48505364",
+    "title": "Show HN: StackScope – I crawled over 40k indie launches to see what they ship",
+    "date": "2026-06-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://stackscope.dev/",
+    "summary": "Hey all, I built StackScope, a crawler/catalogue that looks at new product launches and shows what they were built with.It watches launches from Product Hunt, Show HN, and PeerPush, then crawls t",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48507034",
+    "title": "Over 400 Arch Linux packages compromised to push rootkit, infostealer",
+    "date": "2026-06-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
+    "summary": "Over 400 Arch Linux packages compromised to push rootkit, infostealer",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48507656",
+    "title": "Over 900 Arch Linux Packages Infected with infostealers and rootkits",
+    "date": "2026-06-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/FGXPCB3ZVCJIV7FX323SBAX2JHYB7ZS4/#5FDTMKA54RMWNRHJFUAKXEBAFV5WPDUL",
+    "summary": "Over 900 Arch Linux Packages Infected with infostealers and rootkits",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48509281",
+    "title": "Paramount-WBD merger wins approval from DOJ",
+    "date": "2026-06-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.cnbc.com/2026/06/12/paramount-wbd-merger-approval-doj.html",
+    "summary": "Paramount-WBD merger wins approval from DOJ",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48509669",
+    "title": "Loopers, Robovacs and the Death of the /Prompt",
+    "date": "2026-06-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://medium.com/@vektormemory/loopers-robovacs-and-the-death-of-the-prompt-404946da77f8",
+    "summary": "Loopers, Robovacs and the Death of the /Prompt",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48510097",
+    "title": "FISA Authority Expires Amid Intelligence Nominee Fight",
+    "date": "2026-06-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://legis1.com/news/fisa-section-702-expires-authority-amid",
+    "summary": "FISA Authority Expires Amid Intelligence Nominee Fight",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48512136",
+    "title": "Show HN: Lead Qualifier – Get leads qualified in minutes",
+    "date": "2026-06-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://lead.robowrite.ai",
+    "summary": "Show HN: Lead Qualifier – Get leads qualified in minutes",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48515771",
+    "title": "Perpetual Motion Machine Raises $12M from Investors",
+    "date": "2026-06-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=sEteCJUMVn4",
+    "summary": "Perpetual Motion Machine Raises $12M from Investors",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48515983",
+    "title": "Attackers Hijack Trusted AUR Packages to Deliver Rootkit Malware",
+    "date": "2026-06-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.sonatype.com/blog/atomic-arch-npm-campaign-adds-malicious-dependency",
+    "summary": "Attackers Hijack Trusted AUR Packages to Deliver Rootkit Malware",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48516530",
+    "title": "Yann LeCun: World Models: Enabling the Next AI Revolution",
+    "date": "2026-06-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=72Xj8k5WQX4",
+    "summary": "Yann LeCun: World Models: Enabling the Next AI Revolution",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48517354",
+    "title": "A leader's guide to advanced team structures in an agentic world",
+    "date": "2026-06-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=O7u6myBRsns",
+    "summary": "A leader's guide to advanced team structures in an agentic world",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48518001",
+    "title": "HalluHard: A Hard Multi-Turn Hallucination Benchmark",
+    "date": "2026-06-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2602.01031",
+    "summary": "HalluHard: A Hard Multi-Turn Hallucination Benchmark",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48518268",
+    "title": "PhantomBench: Benchmarking the Non-Existential Threat of Language Models",
+    "date": "2026-06-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2606.11105",
+    "summary": "PhantomBench: Benchmarking the Non-Existential Threat of Language Models",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48527329",
+    "title": "How SpaceX Humiliated Wall Street",
+    "date": "2026-06-14",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=wKXgeNwNRJ4",
+    "summary": "How SpaceX Humiliated Wall Street",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48533685",
+    "title": "Carney Says Anthropic Ban Shows Risk of Relying on Big AI Models",
+    "date": "2026-06-14",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-06-14/carney-says-anthropic-ban-shows-risk-of-relying-on-big-ai-models",
+    "summary": "Carney Says Anthropic Ban Shows Risk of Relying on Big AI Models",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48538540",
+    "title": "Four-Day Week Could Transform Employment Access for Disabled Workers",
+    "date": "2026-06-15",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.disabilityrightsuk.org/news/four-day-week-could-transform-employment-access-and-inclusion-disabled-workers",
+    "summary": "Four-Day Week Could Transform Employment Access for Disabled Workers",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48538712",
+    "title": "Searching for Guy Debord (2003)",
+    "date": "2026-06-15",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://brooklynrail.org/2003/10/express/searching-for-guy-debord/",
+    "summary": "Searching for Guy Debord (2003)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48538796",
+    "title": "Coversubstack-Zagreus=Whiterabbit.flexe",
+    "date": "2026-06-15",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://substack.com/@rootedinthought/note/c-276218913",
+    "summary": "Coversubstack-Zagreus=Whiterabbit.flexe",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48539374",
+    "title": "Five Papers That Show Where AI Research Is Heading",
+    "date": "2026-06-15",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=3rWSvrFahIY",
+    "summary": "Five Papers That Show Where AI Research Is Heading",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48540749",
+    "title": "The Robot Arm Nobody Dares Rip Out – Industrial and Manufacturing",
+    "date": "2026-06-15",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://atomsfrontier.substack.com/p/the-robot-arm-nobody-dares-rip-out",
+    "summary": "The Robot Arm Nobody Dares Rip Out – Industrial and Manufacturing",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48540906",
+    "title": "Single food delivery robot jammed the canal drawbridge",
+    "date": "2026-06-15",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://yle.fi/a/74-20231660",
+    "summary": "Single food delivery robot jammed the canal drawbridge",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48541205",
+    "title": "Show HN: Hey, Reachy – near-real-time voice for the Reachy Mini desktop robot",
+    "date": "2026-06-15",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.runreachyrun.com/",
+    "summary": "Show HN: Hey, Reachy – near-real-time voice for the Reachy Mini desktop robot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48541990",
+    "title": "Why a Former Nestlé Food Scientist Chose Local Roots",
+    "date": "2026-06-15",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.thefoodcorridor.com/blog/why-a-former-nestle-food-scientist-chose-local-roots/",
+    "summary": "Why a Former Nestlé Food Scientist Chose Local Roots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48542163",
+    "title": "Amazon Boosts India Automation, Robotics and EV Logistics",
+    "date": "2026-06-15",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://startupnews.fyi/ecommerce/amazon-boosts-india-automation-robotics-ev-logistics",
+    "summary": "Amazon Boosts India Automation, Robotics and EV Logistics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-gatik-to-bring-autonomous-frei-519",
+    "title": "Gatik to bring autonomous freight to PepsiCo’s North American supply chain",
+    "date": "2026-06-12",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/gatik-brings-autonomous-freight-pepsico-north-american-supply-chain/",
+    "summary": "The partnership focuses on PepsiCo’s regional transportation networks, where it moves products daily from site to site.\nThe post Gatik to bring autonomous freight to PepsiCo’s North American supply ch...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-robotics-summit-panel-explores-907",
+    "title": "Robotics Summit panel explores the state of humanoid robot design",
+    "date": "2026-06-12",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/robotics-summit-panel-explores-state-humanoid-robot-design/",
+    "summary": "At the Robotics Summit & Expo, experts weighed in on humanoid robotics today — and the ability to achieve a $20,000 price point tomorrow.\nThe post Robotics Summit panel explores the state of humanoid ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-massrobotics-announces-the-win-735",
+    "title": "MassRobotics announces the winners of 2026 Robotics Medal and Rising Star awards",
+    "date": "2026-06-12",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/massrobotics-announces-winners-2026-robotics-medal-rising-star-awards/",
+    "summary": "Allison Okamura and Ayoung Kim won MassRobotics' 2026 Robotics Medal and Rising Star Medal, which honor women in robotics.\nThe post MassRobotics announces the winners of 2026 Robotics Medal and Rising...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-ai-in-warehousing-akash-gupta-906",
+    "title": "AI in warehousing: Akash Gupta’s vision for the future",
+    "date": "2026-06-12",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/ai-in-warehousing-akash-guptas-vision-for-the-future/",
+    "summary": "Explore how GreyOrange's software revolutionizes warehouse automation with AI, transforming logistics into dynamic, predictive ecosystems.\nThe post AI in warehousing: Akash Gupta’s vision for the futu...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-windows-for-robots-edge-ai-exp-157",
+    "title": "Windows for robots: Edge AI expands usability",
+    "date": "2026-06-13",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/computers-software-windows-utility-robots/",
+    "summary": "Before Windows, only engineers and computer scientists could work with computers. Edge AI is causing a similar accessibility shift for robotics.\nThe post Windows for robots: Edge AI expands usability ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-modernizing-the-global-economy-764",
+    "title": "Modernizing the global economy with industrial robotics is needed but not inevitable",
+    "date": "2026-06-14",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/modernizing-global-economy-industrial-robotics-needed-not-inevitable/",
+    "summary": "While service robotics adoption grows, industrial automation faces greater demand and bigger obstacles, notes a columnist.\nThe post Modernizing the global economy with industrial robotics is needed bu...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-burro-introduces-grande-44-wit-803",
+    "title": "Burro introduces Grande 44 with proven outdoor autonomy built for heavy industry",
+    "date": "2026-06-15",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/burro-introduces-grande-44-with-proven-outdoor-autonomy-built-for-heavy-industry/",
+    "summary": "The 44 hp Burro Grande brings more than 1 million hours of real-world experience to industrial towing, site logistics, and facilities operations.\nThe post Burro introduces Grande 44 with proven outdoo...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-theker-just-raised-85m-to-buil-782",
+    "title": "Theker just raised $85M to build the factory robot that doesn’t specialize in anything",
+    "date": "2026-06-12",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
+    "summary": "Unlike humanoid robots designed around a fixed form — think Boston Dynamics — Theker's machines are built to be reconfigured.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-video-friday-robotic-motion-di-221",
+    "title": "Video Friday: Robotic Motion Discovery Reveals Unusual Behaviors",
+    "date": "2026-06-12",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-humanoid-loco-manipulation",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-award-winning-researcher-train-812",
+    "title": "Award-Winning Researcher Trains Robots to Make Educated Guesses",
+    "date": "2026-06-12",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/researcher-trains-robots-to-guess",
+    "summary": "Yen-Ling Kuo always wanted to understand how things worked. When she was growing up in Taiwan, reading the story of Michael Faraday in elementary school piqued her curiosity about the natural world. D...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-visual-language-models-train-r-526",
+    "title": "Visual Language Models Train Robots to Read Human Emotions",
+    "date": "2026-06-13",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/robot-emotions-visual-language-models",
+    "summary": "This article is part of our exclusive IEEE Journal Watch series in partnership with IEEE Xplore.\nAs robots advance in terms of dexterity and other physical capabilities, it becomes more likely that hu...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "news-unitree-ipo-star-market-cleared-2026",
     "title": "Unitree Robotics clears Shanghai STAR Market IPO review, targets $618M raise at $6.2B valuation",
     "date": "2026-06-02",
