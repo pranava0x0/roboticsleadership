@@ -1,0 +1,196 @@
+{
+  "captured_at": "2026-06-12",
+  "results": [
+    {
+      "id": "1x-technologies",
+      "valuation_usd": 10000000000,
+      "valuation_confidence": "reported",
+      "as_of": "2025-09",
+      "total_funding_usd": 140400000,
+      "new_rounds": [
+        {
+          "date": "2025-09",
+          "round": "Growth (targeted, not confirmed closed)",
+          "amount_usd": 1000000000,
+          "valuation_usd": 10000000000,
+          "investors": [],
+          "url": "https://app.dealroom.co/news/note/1x-technologies-targets-10b-valuation-as-it-tests-household-robots-in-real-homes",
+          "confidence": "reported"
+        }
+      ],
+      "detail": "Sept 2025 reports said 1X sought ~$1B at a $10B+ valuation after relocating HQ to Silicon Valley; as of early 2026 no confirmed close has been announced — last CONFIRMED valuation remains $820M from the Jan 2024 $100M Series B.",
+      "sources": [
+        "https://app.dealroom.co/news/note/1x-technologies-targets-10b-valuation-as-it-tests-household-robots-in-real-homes",
+        "https://stockanalysis.com/article/invest-in-1x-stock/"
+      ]
+    },
+    {
+      "id": "sanctuary-ai",
+      "valuation_usd": null,
+      "valuation_confidence": null,
+      "as_of": null,
+      "total_funding_usd": 148590000,
+      "new_rounds": [
+        {
+          "date": "2025-01",
+          "round": "Convertible note (US$10M offering, ~50% subscribed)",
+          "amount_usd": 5000000,
+          "valuation_usd": null,
+          "investors": [],
+          "url": "https://thelogic.co/news/exclusive/sanctuary-ai-humanoid-robot-fundraise-efforts/",
+          "confidence": "reported"
+        }
+      ],
+      "detail": "No disclosed post-2023 valuation; Sanctuary spent 2025 trying to raise US$175M (partly by selling its Apptronik stake) but no large round is confirmed closed — only a $10M convertible note (Jan 2025) and small Series A extensions (~$1.55M Apr 2026); total raised ~$148.6M.",
+      "sources": [
+        "https://thelogic.co/news/exclusive/sanctuary-ai-humanoid-robot-fundraise-efforts/",
+        "https://techcouver.com/2025/04/04/robotics-innovator-sanctuary-ai-raise-capital/"
+      ]
+    },
+    {
+      "id": "agibot",
+      "valuation_usd": 5140000000,
+      "valuation_confidence": "reported",
+      "as_of": "2025-10",
+      "total_funding_usd": null,
+      "new_rounds": [],
+      "detail": "Reuters (Oct 2025, via SCMP) reported AgiBot is targeting a Hong Kong IPO at HK$40-50B (US$5.1-6.4B) valuation; March 2025 exec statement put valuation above RMB 10B (~$1.4B); the ~$290M Swancor controlling-stake deal proceeded but AgiBot publicly denied it is a backdoor listing, and it restructured into joint-stock company 'Zhiyuan Innovation' as IPO groundwork.",
+      "sources": [
+        "https://www.scmp.com/business/companies/article/3332229/rising-china-robotics-star-agibot-restructures-potential-bid-join-ipo-race",
+        "https://en.tmtpost.com/post/7620691"
+      ]
+    },
+    {
+      "id": "robotera",
+      "valuation_usd": 1470000000,
+      "valuation_confidence": "reported",
+      "as_of": "2026-03",
+      "total_funding_usd": null,
+      "new_rounds": [
+        {
+          "date": "2025-11",
+          "round": "Series A+",
+          "amount_usd": 140000000,
+          "valuation_usd": null,
+          "investors": ["Geely Capital", "BAIC Capital", "Alibaba Group", "Haier Capital"],
+          "url": "https://theaiinsider.tech/2025/11/27/chinese-humanoid-robotics-company-robotera-secures-usd-140m-in-series-a-funding/",
+          "confidence": "reported"
+        },
+        {
+          "date": "2026-03",
+          "round": "Strategic (RMB 1B)",
+          "amount_usd": 146000000,
+          "valuation_usd": 1470000000,
+          "investors": [],
+          "url": "https://www.humanoidsdaily.com/news/robotera-reaches-1-4-billion-valuation-in-rmb-1-billion-strategic-round",
+          "confidence": "reported"
+        },
+        {
+          "date": "2026-04",
+          "round": "Strategic, led by SF Group",
+          "amount_usd": 200000000,
+          "valuation_usd": null,
+          "investors": ["SF Group"],
+          "url": "https://www.caixinglobal.com/2026-04-27/robot-era-raises-more-than-200-million-as-chinas-humanoid-robot-race-heats-up-102438549.html",
+          "confidence": "reported"
+        }
+      ],
+      "detail": "Very rapid 2025-26 stacking: $69M Series A (Jul 2025), ~$140M Series A+ (Nov 2025), RMB 1B (~$146M) in Mar 2026 at ~$1.47B valuation, then $200M+ led by SF Group in Apr 2026 (Caixin) — post-money for the April round not disclosed.",
+      "sources": [
+        "https://www.caixinglobal.com/2026-04-27/robot-era-raises-more-than-200-million-as-chinas-humanoid-robot-race-heats-up-102438549.html",
+        "https://www.humanoidsdaily.com/news/robotera-reaches-1-4-billion-valuation-in-rmb-1-billion-strategic-round"
+      ]
+    },
+    {
+      "id": "engineai",
+      "valuation_usd": 1500000000,
+      "valuation_confidence": "reported",
+      "as_of": "2026-04",
+      "total_funding_usd": null,
+      "new_rounds": [
+        {
+          "date": "2025-07",
+          "round": "Pre-A++ and A1 (combined ~RMB 1B)",
+          "amount_usd": 139700000,
+          "valuation_usd": null,
+          "investors": ["Rockets Capital (XPeng-backed)", "JD.com", "CATL Capital", "Yintai Group", "TH Capital", "Guochen Venture Capital", "Huangpu River Capital"],
+          "url": "https://www.therobotreport.com/engineai-raises-nearly-140m-developing-legged-humanoid-robots/",
+          "confidence": "confirmed"
+        },
+        {
+          "date": "2026-04",
+          "round": "Series B",
+          "amount_usd": 200000000,
+          "valuation_usd": 1500000000,
+          "investors": ["Henan CICC Huirong Fund Management", "Luxshare-ICT"],
+          "url": "https://www.humanoidsdaily.com/news/engineai-secures-200-million-series-b-as-manufacturing-giant-luxshare-joins-the-cap-table",
+          "confidence": "reported"
+        }
+      ],
+      "detail": "EngineAI closed a $200M Series B (Apr 2026) at a $1.5B valuation led by Henan CICC Huirong and Luxshare-ICT, after ~$139.7M in combined pre-A++/A1 rounds in 2025; it has since filed confidentially for a Hong Kong IPO.",
+      "sources": [
+        "https://www.humanoidsdaily.com/news/engineai-secures-200-million-series-b-as-manufacturing-giant-luxshare-joins-the-cap-table",
+        "https://www.therobotreport.com/engineai-raises-nearly-140m-developing-legged-humanoid-robots/"
+      ]
+    },
+    {
+      "id": "covariant",
+      "valuation_usd": null,
+      "valuation_confidence": null,
+      "as_of": null,
+      "total_funding_usd": 222000000,
+      "new_rounds": [],
+      "detail": "Valuation effectively moot: after the Aug 2024 ~$380M Amazon reverse-acquihire (3 founders + ~25% of staff hired, non-exclusive model license, final $20M payment due 2025), Covariant nominally operates independently under CEO Ted Stinson, but a whistleblower complaint and CNBC reporting describe it as a hollowed-out 'zombie company'; no post-2023 funding round or valuation (last priced at ~$625M, Apr 2023).",
+      "sources": [
+        "https://www.cnbc.com/2025/08/19/how-ai-zombie-deals-work-meta-google.html",
+        "https://techcrunch.com/2024/08/31/amazon-hires-the-founders-of-robotics-ai-startup-covariant/"
+      ]
+    },
+    {
+      "id": "fourier-intelligence",
+      "valuation_usd": 1100000000,
+      "valuation_confidence": "reported",
+      "as_of": "2025-01",
+      "total_funding_usd": 246000000,
+      "new_rounds": [
+        {
+          "date": "2025-01",
+          "round": "Series E (~RMB 800M)",
+          "amount_usd": 109100000,
+          "valuation_usd": null,
+          "investors": ["Guoxin Investment", "Pudong Venture Capital", "Prosperity7"],
+          "url": "https://www.dealstreetasia.com/stories/chinese-robotics-firm-fourier-books-nearly-109m-in-prosperity7-backed-series-e-round-425571",
+          "confidence": "confirmed"
+        }
+      ],
+      "detail": "Total funding ~$246M per PitchBook (CB Insights says $193M) including the ~$109M Series E closed Jan 2025; valuation already recorded at $1.1B per the task brief.",
+      "sources": [
+        "https://www.dealstreetasia.com/stories/chinese-robotics-firm-fourier-books-nearly-109m-in-prosperity7-backed-series-e-round-425571",
+        "https://pitchbook.com/profiles/company/229975-48"
+      ]
+    },
+    {
+      "id": "deep-robotics",
+      "valuation_usd": 1100000000,
+      "valuation_confidence": "reported",
+      "as_of": "2025-12",
+      "total_funding_usd": null,
+      "new_rounds": [
+        {
+          "date": "2025-12",
+          "round": "Series C (RMB 500M+, ~$70M)",
+          "amount_usd": 70000000,
+          "valuation_usd": 1100000000,
+          "investors": ["CMB International", "China Asset Management", "telecom-backed funds"],
+          "url": "https://www.caixinglobal.com/2025-12-25/deep-robotics-starts-ipo-tutoring-for-mainland-listing-102396926.html",
+          "confidence": "confirmed"
+        }
+      ],
+      "detail": "Series C of RMB 500M+ (~$70M) closed Dec 2025 at a reported ~RMB 8B (~$1.1B) valuation; company filed for mainland-China IPO tutoring Dec 23, 2025 (review targeted by June 2026); total funding not reliably disclosed (>RMB 1B raised in 2023 alone), so left null.",
+      "sources": [
+        "https://www.caixinglobal.com/2025-12-25/deep-robotics-starts-ipo-tutoring-for-mainland-listing-102396926.html",
+        "https://chinabizinsider.com/deep-robotics-secures-over-500-million-yuan-in-series-c-funding-sparking-ipo-expectations/"
+      ]
+    }
+  ]
+}
