@@ -71,6 +71,7 @@ These live in curated files and rot silently; check staleness each refresh:
 - **Supply-chain capacity & financing** (`supply_chain.json`) — magnet t/yr figures, factory ramps (BotQ rate, RoboFab, Hyundai GA), DoD/OSC awards, China export-control status (Oct 2025 controls suspended only until **Nov 2026**; DFARS non-China magnet deadline **Jan 2027** — both are live tripwires).
 - **US-vs-China metrics** (`us_china.json`) — IFR World Robotics lands ~September each year (refresh installs/density rows); TrendForce/Counterpoint humanoid figures update quarterly; SemiAnalysis Unitree numbers (price, margins, shipments) move fast.
 - **Shipments by robot class** (`supply_chain.json → shipments`) — IFR industrial + service robot units, humanoid forecasts.
+- **New company discovery** (`companies.json` — new entries) — Monitor X.com bookmarks and follows to catch emerging founders, funding announcements, and company pivots before news aggregators pick them up. Method: periodically read user's recent bookmarks (sentiment/themes) and following list (company signals from founder tweets), then research those entities with multi-source verification. Results written to `data/companies-discovered-YYYY-MM-DD.md` (audit trail) before merging into `companies.json`.
 
 When researching these, follow AGENTS.md §11–17 (research-agent economy): seed-then-spawn, partition entities across agents, validator bar + early-bail in prompts, results written to `data/research/*.json` (not returned into conversation), max 2 sources per claim.
 
