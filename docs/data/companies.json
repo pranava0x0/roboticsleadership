@@ -53,7 +53,7 @@
         "robot_count": 10000,
         "start_date": "2026-04",
         "status": "pilot",
-        "use_case": "household assistance — opening doors, fetching items, lighting control",
+        "use_case": "household assistance \u2014 opening doors, fetching items, lighting control",
         "source_url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/",
         "archive_url": "https://web.archive.org/web/20260529030912/https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
       }
@@ -66,11 +66,11 @@
     "defense_contracts": false,
     "founders": [
       {
-        "name": "Bernt Børnich",
+        "name": "Bernt B\u00f8rnich",
         "role": "CEO / Founder"
       }
     ],
-    "ceo": "Bernt Børnich",
+    "ceo": "Bernt B\u00f8rnich",
     "tags": [
       "humanoid",
       "consumer",
@@ -162,7 +162,14 @@
     "data_confidence": "high",
     "last_updated": "2026-06-14",
     "source_url": "https://www.crunchbase.com/organization/acorn-biolabs",
-    "notes": "Founded 2016 (YC batch). Non-invasive cell collection and cryopreservation for longevity market. $11M+ raised. Steven ten Holder also building Zeroshot Biolabs."
+    "notes": "Founded 2016 (YC batch). Non-invasive cell collection and cryopreservation for longevity market. $11M+ raised. Steven ten Holder also building Zeroshot Biolabs.",
+    "sources": [
+      {
+        "url": "https://www.crunchbase.com/organization/acorn-biolabs"
+      }
+    ],
+    "themes": [],
+    "map_category": "enablers"
   },
   {
     "id": "aerovironment",
@@ -253,7 +260,7 @@
   },
   {
     "id": "agibot",
-    "name": "AgiBot (智元机器人)",
+    "name": "AgiBot (\u667a\u5143\u673a\u5668\u4eba)",
     "founded": "2023",
     "hq": {
       "city": "Shanghai",
@@ -385,7 +392,7 @@
         "robot_count": null,
         "start_date": "2024-06",
         "status": "active",
-        "use_case": "container loading — first humanoid RaaS contract",
+        "use_case": "container loading \u2014 first humanoid RaaS contract",
         "source_url": "https://www.agilityrobotics.com",
         "archive_url": "https://web.archive.org/web/20260507021950/https://www.agilityrobotics.com/"
       },
@@ -395,7 +402,7 @@
         "robot_count": 7,
         "start_date": "2026-02",
         "status": "active",
-        "use_case": "RAV4 logistics — Robots-as-a-Service",
+        "use_case": "RAV4 logistics \u2014 Robots-as-a-Service",
         "source_url": "https://blog.robozaps.com/b/agility-robotics-digit-review",
         "archive_url": "https://web.archive.org/web/20260325193410/https://blog.robozaps.com/b/agility-robotics-digit-review"
       }
@@ -497,7 +504,7 @@
         "robot_count": null,
         "start_date": "2018-01",
         "status": "active",
-        "use_case": "autonomous defense systems — UAV, counter-UAS, maritime",
+        "use_case": "autonomous defense systems \u2014 UAV, counter-UAS, maritime",
         "source_url": "https://www.anduril.com",
         "archive_url": "https://web.archive.org/web/20260511102010/https://www.anduril.com/"
       }
@@ -628,7 +635,7 @@
     "headcount": null,
     "founders": [
       {
-        "name": "Péter Fankhauser",
+        "name": "P\u00e9ter Fankhauser",
         "role": "Co-founder & CEO"
       },
       {
@@ -636,7 +643,7 @@
         "role": "Co-founder (ETH Zurich)"
       }
     ],
-    "ceo": "Péter Fankhauser",
+    "ceo": "P\u00e9ter Fankhauser",
     "tags": [
       "quadruped",
       "eth-spinout",
@@ -831,7 +838,7 @@
         "location": "Global",
         "robot_count": null,
         "status": "pilot",
-        "use_case": "4D imaging radar for L4 360° sensing",
+        "use_case": "4D imaging radar for L4 360\u00b0 sensing",
         "start_date": "2025"
       }
     ],
@@ -880,7 +887,7 @@
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "Publicly traded (Nasdaq: ARBE); founded 2015 in Tel Aviv, went public in 2021 via SPAC. Reaffirmed 2026 revenue guidance of $4–6M and adjusted EBITDA loss of $(28)–$(31)M; ended Q1 2026 with $53.6M cash after an $18.5M registered direct offering. Partnering with NVIDIA on an AI perception platform; shipping radar chipsets to robotaxi / L4 programs."
+      "details": "Publicly traded (Nasdaq: ARBE); founded 2015 in Tel Aviv, went public in 2021 via SPAC. Reaffirmed 2026 revenue guidance of $4\u20136M and adjusted EBITDA loss of $(28)\u2013$(31)M; ended Q1 2026 with $53.6M cash after an $18.5M registered direct offering. Partnering with NVIDIA on an AI perception platform; shipping radar chipsets to robotaxi / L4 programs."
     },
     "map_category": "enablers"
   },
@@ -972,7 +979,7 @@
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "Private. Retrofits existing heavy construction equipment with an autonomy kit (lidar, GPS, motion sensors) — the \"Bedrock Operator.\" Founded by former Waymo leaders (incl. the head of its trucking program). Emerged from stealth July 2025 with $80M; Series B $270M at a $1.75B post-money valuation (Feb 2026), total raised >$350M. Targeting first fully autonomous excavator deployments in 2026."
+      "details": "Private. Retrofits existing heavy construction equipment with an autonomy kit (lidar, GPS, motion sensors) \u2014 the \"Bedrock Operator.\" Founded by former Waymo leaders (incl. the head of its trucking program). Emerged from stealth July 2025 with $80M; Series B $270M at a $1.75B post-money valuation (Feb 2026), total raised >$350M. Targeting first fully autonomous excavator deployments in 2026."
     },
     "map_category": "field"
   },
@@ -1121,7 +1128,7 @@
       "manufacturing-robot"
     ],
     "primary_use_case": "manufacturing",
-    "flagship_product": "Software-Defined Manufacturing — AI + computer vision + robotic assembly cells for electronics and industrial components",
+    "flagship_product": "Software-Defined Manufacturing \u2014 AI + computer vision + robotic assembly cells for electronics and industrial components",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -1217,7 +1224,7 @@
         "robot_count": null,
         "start_date": "2021-01",
         "status": "active",
-        "use_case": "AI-powered laser weeding — herbicide-free weed control",
+        "use_case": "AI-powered laser weeding \u2014 herbicide-free weed control",
         "source_url": "https://www.therobotreport.com/carbon-robotics-brings-in-70m-to-scale-laserweeder/",
         "archive_url": "https://web.archive.org/web/20251210181050/https://www.therobotreport.com/carbon-robotics-brings-in-70m-to-scale-laserweeder/"
       }
@@ -1568,7 +1575,7 @@
       "dual-arm robot"
     ],
     "primary_use_case": "logistics",
-    "flagship_product": "Mech — industrial superhumanoid (dual-arm)",
+    "flagship_product": "Mech \u2014 industrial superhumanoid (dual-arm)",
     "deployments": [
       {
         "customer": "GXO Logistics, FedEx, UPS, Sumitomo",
@@ -2274,7 +2281,7 @@
       "climbing-robot"
     ],
     "primary_use_case": "inspection / maintenance",
-    "flagship_product": "Toka — wall-climbing robot for ultrasonic / visual inspection of boilers, tanks, pipelines, and ship hulls",
+    "flagship_product": "Toka \u2014 wall-climbing robot for ultrasonic / visual inspection of boilers, tanks, pipelines, and ship hulls",
     "deployments": [
       {
         "customer": "US Department of Defense",
@@ -2340,7 +2347,7 @@
         "valuation_usd": null,
         "investors": null,
         "url": "https://www.gr.inc/",
-        "confidence": "inferred"
+        "confidence": "rumored"
       }
     ],
     "total_funding_usd": null,
@@ -2377,7 +2384,16 @@
     "data_confidence": "medium",
     "last_updated": "2026-06-14",
     "source_url": "https://www.gr.inc/",
-    "notes": "Founded 2024 by Ross Taylor (ex-Meta AI, led Llama 2/3 reasoning). Focus on AI reasoning models and planning infrastructure."
+    "notes": "Founded 2024 by Ross Taylor (ex-Meta AI, led Llama 2/3 reasoning). Focus on AI reasoning models and planning infrastructure.",
+    "sources": [
+      {
+        "url": "https://www.gr.inc/"
+      }
+    ],
+    "themes": [
+      "foundation-models"
+    ],
+    "map_category": "brains"
   },
   {
     "id": "generalist-ai",
@@ -2507,7 +2523,7 @@
       "modular-robot"
     ],
     "primary_use_case": "components / supply-chain",
-    "flagship_product": "X-Series Smart Actuator (24–48 V, 2–120 Nm, integrated motor + driver + encoder + IMU in one module)",
+    "flagship_product": "X-Series Smart Actuator (24\u201348 V, 2\u2013120 Nm, integrated motor + driver + encoder + IMU in one module)",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -2743,7 +2759,7 @@
         "robot_count": 25000,
         "start_date": "2017-01",
         "status": "active",
-        "use_case": "warehouse pick assistance — RaaS model",
+        "use_case": "warehouse pick assistance \u2014 RaaS model",
         "source_url": "https://locusrobotics.com",
         "archive_url": "https://web.archive.org/web/20260430225422/https://locusrobotics.com/"
       }
@@ -2835,7 +2851,7 @@
         "robot_count": null,
         "start_date": "2022-01",
         "status": "active",
-        "use_case": "Rapid prototype sheet metal parts — fuselage panels, structural skins — without traditional dies",
+        "use_case": "Rapid prototype sheet metal parts \u2014 fuselage panels, structural skins \u2014 without traditional dies",
         "source_url": "https://www.machinalabs.ai"
       }
     ],
@@ -2940,7 +2956,7 @@
       "revenue_usd": 3340000000,
       "revenue_year": 2024,
       "net_income_usd": null,
-      "details": "Public company NYSE: MOG.A / MOG.B. FY2024 net sales ~$3.34B. Three segments: Space & Defense (largest), Industrial, Medical. Major US manufacturer of precision servo actuators, electric drives, and motion-control systems supplied to aerospace, defense, and industrial robotics OEMs. NDAA-compliant US manufacturer — increasingly relevant as robot actuator supply-chain security becomes a national-security concern.",
+      "details": "Public company NYSE: MOG.A / MOG.B. FY2024 net sales ~$3.34B. Three segments: Space & Defense (largest), Industrial, Medical. Major US manufacturer of precision servo actuators, electric drives, and motion-control systems supplied to aerospace, defense, and industrial robotics OEMs. NDAA-compliant US manufacturer \u2014 increasingly relevant as robot actuator supply-chain security becomes a national-security concern.",
       "sources": [
         {
           "url": "https://investors.moog.com"
@@ -2988,7 +3004,14 @@
     "data_confidence": "low",
     "last_updated": "2026-06-14",
     "source_url": "https://github.com/norma-core",
-    "notes": "EU-based open-source robotics platform. ElRobot is a 3D-printable 7-DOF arm with zero custom hardware. Alex Batsuev (@batsuev_es) associated with Norma Core Dev."
+    "notes": "EU-based open-source robotics platform. ElRobot is a 3D-printable 7-DOF arm with zero custom hardware. Alex Batsuev (@batsuev_es) associated with Norma Core Dev.",
+    "sources": [
+      {
+        "url": "https://github.com/norma-core"
+      }
+    ],
+    "themes": [],
+    "map_category": "enablers"
   },
   {
     "id": "nox-metals",
@@ -3056,7 +3079,14 @@
     "data_confidence": "medium",
     "last_updated": "2026-06-14",
     "source_url": "https://www.crunchbase.com/organization/nox-metals",
-    "notes": "Founded 2023. Focus on digital material processing for aluminum. Mission: Reindustrialize America. Adrian Mag is Finance Lead."
+    "notes": "Founded 2023. Focus on digital material processing for aluminum. Mission: Reindustrialize America. Adrian Mag is Finance Lead.",
+    "sources": [
+      {
+        "url": "https://www.crunchbase.com/organization/nox-metals"
+      }
+    ],
+    "themes": [],
+    "map_category": "enablers"
   },
   {
     "id": "ouster",
@@ -3286,7 +3316,7 @@
       "foundation_model"
     ],
     "primary_use_case": "ai_foundation_model",
-    "flagship_product": "π0 (foundation model)",
+    "flagship_product": "\u03c00 (foundation model)",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -3336,7 +3366,7 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private AI software/model company, pre-revenue. Builds open vision-language-action robot foundation models (π0). Series B in Nov 2025 raised $600M at a $5.6B valuation; reported total raised ~$1.5B. In talks (Mar 2026) for a further ~$1B round at an $11B+ valuation.",
+      "details": "Private AI software/model company, pre-revenue. Builds open vision-language-action robot foundation models (\u03c00). Series B in Nov 2025 raised $600M at a $5.6B valuation; reported total raised ~$1.5B. In talks (Mar 2026) for a further ~$1B round at an $11B+ valuation.",
       "sources": [
         {
           "url": "https://www.physicalintelligence.company"
@@ -3389,7 +3419,7 @@
       "logistics-robot"
     ],
     "primary_use_case": "logistics",
-    "flagship_product": "Autonomous trailer-unloading robot — unloads mixed-SKU pallets and loose-loaded trailers",
+    "flagship_product": "Autonomous trailer-unloading robot \u2014 unloads mixed-SKU pallets and loose-loaded trailers",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -4180,7 +4210,7 @@
       "industrial-arm"
     ],
     "primary_use_case": "manufacturing",
-    "flagship_product": "RO1 — 20 kg payload collaborative robot arm at ~$5/hour RaaS pricing",
+    "flagship_product": "RO1 \u2014 20 kg payload collaborative robot arm at ~$5/hour RaaS pricing",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -4430,7 +4460,7 @@
         "robot_count": null,
         "start_date": "2024-01",
         "status": "pilot",
-        "use_case": "internal factory tasks — battery cell sorting",
+        "use_case": "internal factory tasks \u2014 battery cell sorting",
         "source_url": "https://www.tesla.com/AI",
         "archive_url": "https://web.archive.org/web/20250704181649/https://www.tesla.com/AI"
       }
@@ -4553,7 +4583,16 @@
     "data_confidence": "high",
     "last_updated": "2026-06-14",
     "source_url": "https://www.therobotreport.com/tric-robotics-raises-seed-funding-help-farmers-control-pests-plant-disease/",
-    "notes": "Founded 2017, origin at University of Delaware. Fully autonomous field robots using UV-C light for pest control. 70% pesticide reduction in pilots. Service-based business model. Verified via The Robot Report, Yahoo Finance, Crunchbase."
+    "notes": "Founded 2017, origin at University of Delaware. Fully autonomous field robots using UV-C light for pest control. 70% pesticide reduction in pilots. Service-based business model. Verified via The Robot Report, Yahoo Finance, Crunchbase.",
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/tric-robotics-raises-seed-funding-help-farmers-control-pests-plant-disease/"
+      }
+    ],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "map_category": "field"
   },
   {
     "id": "ubtech",
@@ -4588,12 +4627,12 @@
     "flagship_product": "Walker S",
     "deployments": [
       {
-        "customer": "Multiple — automotive, logistics, semi-fab",
+        "customer": "Multiple \u2014 automotive, logistics, semi-fab",
         "location": "China (multiple)",
         "robot_count": 1079,
         "start_date": "2025-01",
         "status": "active",
-        "use_case": "industrial humanoid deployments — first company globally over 1,000 units",
+        "use_case": "industrial humanoid deployments \u2014 first company globally over 1,000 units",
         "source_url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/"
       }
     ],
@@ -4687,7 +4726,7 @@
         "amount_usd": 616000000,
         "valuation_usd": 6200000000,
         "investors": [
-          "Public offering — Shanghai STAR Market"
+          "Public offering \u2014 Shanghai STAR Market"
         ],
         "url": "https://news.cgtn.com/news/2026-06-01/Unitree-gets-STAR-Market-green-light-in-China-s-hard-tech-IPO-wave-1NCT9TksSVq/share_amp.html",
         "confidence": "confirmed"
@@ -4801,7 +4840,7 @@
       "software-platform"
     ],
     "primary_use_case": "robot operating system / platform",
-    "flagship_product": "Viam — open-source RDK (robot development kit) and cloud platform for building and managing robot fleets",
+    "flagship_product": "Viam \u2014 open-source RDK (robot development kit) and cloud platform for building and managing robot fleets",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -4937,7 +4976,7 @@
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "UK-based embodied-AI company building end-to-end (\"AV2.0\") self-driving foundation models licensed to automakers — a \"physical AI\" approach to autonomy. Series C $1.05B (2024; SoftBank, NVIDIA, Microsoft); Series D $1.2B at an $8.6B post-money valuation (Feb 2026; led by Eclipse, Balderton and SoftBank Vision Fund 2)."
+      "details": "UK-based embodied-AI company building end-to-end (\"AV2.0\") self-driving foundation models licensed to automakers \u2014 a \"physical AI\" approach to autonomy. Series C $1.05B (2024; SoftBank, NVIDIA, Microsoft); Series D $1.2B at an $8.6B post-money valuation (Feb 2026; led by Eclipse, Balderton and SoftBank Vision Fund 2)."
     },
     "map_category": "brains"
   },
@@ -4986,7 +5025,7 @@
       "drone-motor"
     ],
     "primary_use_case": "components / supply-chain",
-    "flagship_product": "Drone motors (20–100mm stator, Outrunner & Inrunner, 100–3000Kv) and robot actuators (1–150Nm, 24–48V, 6:1–12:1 gearing)",
+    "flagship_product": "Drone motors (20\u2013100mm stator, Outrunner & Inrunner, 100\u20133000Kv) and robot actuators (1\u2013150Nm, 24\u201348V, 6:1\u201312:1 gearing)",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -5102,7 +5141,7 @@
         "robot_count": null,
         "start_date": "2016-01",
         "status": "active",
-        "use_case": "autonomous drone delivery — health, retail, food (2M+ commercial deliveries)",
+        "use_case": "autonomous drone delivery \u2014 health, retail, food (2M+ commercial deliveries)",
         "source_url": "https://www.therobotreport.com/zipline-raises-over-600m-in-funding-surpasses-2m-commercial-drone-deliveries/",
         "archive_url": "https://web.archive.org/web/20260218125946/https://www.therobotreport.com/zipline-raises-over-600m-in-funding-surpasses-2m-commercial-drone-deliveries/"
       }
