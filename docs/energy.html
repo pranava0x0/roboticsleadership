@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Robotics for Energy — how robots and automation are deployed across power plants, the grid, nuclear cleanup, solar, wind, geothermal, mining, data centers, space-based power, and energy-materials R&D. Curated and sourced." />
+  <title>Robotics for Energy · Robotics Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Orbitron:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
+  <script>
+    /* Set data-theme before first paint to avoid FOUC. See DESIGN.md § 15. */
+    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="preload" as="fetch" href="data/sources.json" crossorigin />
+  <style>
+    /* ---- Page-specific: Robotics for Energy ---- */
+    .e-jumpnav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      margin: 20px 0 8px;
+      padding: 10px 0;
+      background: color-mix(in srgb, var(--bg) 86%, transparent);
+      -webkit-backdrop-filter: saturate(140%) blur(8px);
+      backdrop-filter: saturate(140%) blur(8px);
+      border-bottom: 1px solid var(--border);
+    }
+    .e-jumpnav-track {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: thin;
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: 2px;
+    }
+    .e-jumpnav-track::-webkit-scrollbar { height: 6px; }
+    .e-jumpnav-track::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 99px; }
+    .e-chip {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      min-height: 44px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-muted);
+      font-size: 12.5px;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      white-space: nowrap;
+      text-decoration: none;
+      transition: color 120ms, border-color 120ms, background 120ms;
+    }
+    .e-chip:hover { color: var(--text); border-color: var(--border-strong); }
+    .e-chip[aria-current="true"] {
+      color: var(--accent-ink, var(--text));
+      border-color: var(--accent);
+      background: color-mix(in srgb, var(--accent) 12%, transparent);
+    }
+    .e-chip .e-chip-n { font-variant-numeric: tabular-nums; color: var(--text-faint); font-weight: 500; }
+
+    .e-section { scroll-margin-top: 76px; margin-top: 36px; }
+    .e-section-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .e-section-head h2 { margin: 0; }
+    .e-cluster-label {
+      font-family: var(--font-condensed, var(--font-sans));
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--accent);
+      margin: 28px 0 0;
+    }
+    .e-section-sub { color: var(--text-muted); font-size: 13.5px; margin: 2px 0 14px; max-width: 70ch; }
+
+    .e-card { gap: 9px; }
+    .e-card .card-title { font-size: 16.5px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .e-card .card-sub { font-size: 13px; line-height: 1.5; flex: 1 0 auto; }
+    .e-card-foot { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 2px; }
+    .e-src, .e-tracked {
+      display: inline-flex; align-items: center; gap: 3px;
+      font-size: 12px; font-weight: 600; text-decoration: none;
+    }
+    .e-src { color: var(--text-muted); }
+    .e-src:hover { color: var(--text); text-decoration: underline; }
+    .e-tracked {
+      color: var(--accent);
+      padding: 2px 8px; border-radius: 999px;
+      border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+      background: color-mix(in srgb, var(--accent) 8%, transparent);
+    }
+    .e-tracked:hover { background: color-mix(in srgb, var(--accent) 16%, transparent); }
+    .e-arrow { font-size: 10px; opacity: 0.7; }
+
+    .e-legend { font-size: 12.5px; color: var(--text-muted); margin: 10px 0 0; display: flex; gap: 16px; flex-wrap: wrap; }
+    .e-legend .e-tracked { pointer-events: none; }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="site-header-inner">
+      <a href="index.html" class="header-updated" aria-label="Home — last data refresh">
+        <span class="header-updated-label">Updated</span>
+        <span class="header-updated-date tnum">—</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="index.html">Dashboard</a>
+        <a href="companies.html">Companies</a>
+        <a href="policies.html">Policy</a>
+        <a href="supply-chain.html">Supply Chain</a>
+        <a href="china.html">US vs China</a>
+        <a href="states.html">States</a>
+        <a href="themes.html">Themes</a>
+        <a href="energy.html">Energy</a>
+      </nav>
+      <details class="theme-picker" id="theme-picker">
+        <summary aria-label="Theme picker">
+          <span class="theme-picker-current">Dawn</span>
+          <svg class="theme-picker-chevron" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="theme-picker-menu" role="radiogroup" aria-label="Choose theme">
+          <label class="theme-option"><input type="radio" name="theme" value="caves"><span class="theme-option-name">Caves of Steel</span><span class="theme-option-tag">Earth</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Cosmic</span></label>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+    <p class="eyebrow">Sector deep-dive</p>
+    <h1 class="page-title">Robotics for Energy.</h1>
+    <p class="page-lede">
+      Where robots and autonomy are already at work across the energy system — from boiler walls and live transmission lines to solar fields, turbine blades, geothermal rigs, mines, data centers, and orbit. Curated, with a primary source on every entry.
+    </p>
+
+    <aside class="bluf" aria-label="Bottom line up front">
+      <span class="bluf-tag">Bottom line</span>
+      <p class="bluf-body">
+        <strong>The AI build-out has made energy the hottest robotics market nobody is tracking.</strong> Inspection robots are already standard at power plants and substations; autonomy is moving up the stack into building solar farms, repairing turbine blades, drilling geothermal wells, mining the critical minerals, and even assembling power in space. The same nexus driving the dataset — compute demand, reindustrialization, and physical AI — runs straight through the grid.
+      </p>
+    </aside>
+
+    <!-- KPI strip -->
+    <section aria-label="At a glance">
+      <div class="kpi-strip cols-4" style="margin-top:18px;">
+        <div class="kpi-card"><span class="kpi-label">Application areas</span><span class="kpi-value tnum">11</span><span class="kpi-sub">across the energy value chain</span></div>
+        <div class="kpi-card"><span class="kpi-label">Companies &amp; projects</span><span class="kpi-value tnum" id="kpi-count">—</span><span class="kpi-sub">real, sourced deployments</span></div>
+        <div class="kpi-card"><span class="kpi-label">In the tracker</span><span class="kpi-value tnum" id="kpi-tracked">—</span><span class="kpi-sub">also profiled in Companies</span></div>
+        <div class="kpi-card"><span class="kpi-label">As of</span><span class="kpi-value tnum">2026-06-16</span><span class="kpi-sub">latest curation pass</span></div>
+      </div>
+      <p class="e-legend">
+        <span><a class="e-tracked" aria-hidden="true">Tracked <span class="e-arrow">↗</span></a> = also profiled in the <a href="companies.html">Companies</a> dataset.</span>
+        <span>Every card links to a primary source.</span>
+      </p>
+    </section>
+
+    <!-- Sticky jump nav (built from data) -->
+    <nav class="e-jumpnav" aria-label="Jump to application area">
+      <div class="e-jumpnav-track" id="jumpnav"></div>
+    </nav>
+
+    <!-- Sections render here -->
+    <div id="sections"></div>
+
+    <p class="muted" style="font-size:12.5px;margin-top:40px;">
+      Sourcing note: entries are confirmed against company case studies or reputable trade/press coverage as of June 2026. Deployments evolve — follow each source for the current picture. Spotted a company we're missing? It probably belongs in the <a href="companies.html">Companies</a> tracker too.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>Every record links to its primary source.</p>
+  </footer>
+
+  <script src="assets/app.js" defer></script>
+  <script defer>
+  /* ============================================================
+     Robotics for Energy — curated data + renderer
+     Data lives here (single source of truth for this page).
+     Each item: { name, desc, tag, src:[label,url], tracked?:id }
+     ============================================================ */
+  const CLUSTERS = [
+    { label: 'Generation &amp; plants', sections: ['power-plants','nuclear','geothermal'] },
+    { label: 'Renewables &amp; new sources', sections: ['solar','wind','space'] },
+    { label: 'Grid, compute &amp; delivery', sections: ['grid','datacenters'] },
+    { label: 'Inputs &amp; innovation', sections: ['mining','manufacturing','labs'] },
+  ];
+
+  const SECTIONS = {
+    'power-plants': {
+      title: 'Power plant operations & inspection',
+      nav: 'Power plants',
+      sub: 'Autonomous patrols and climbing/legged inspection robots that read gauges, scan for corrosion, and survey energized areas inside fossil, nuclear, hydro and offshore generation facilities.',
+      items: [
+        { name: 'Gecko Robotics', tracked: 'gecko-robotics', tag: 'Inspection', desc: 'Wall-climbing magnetic robots ultrasonically scan boilers, tanks and pressure vessels for corrosion across 500,000+ assets — power plants plus a $71M US Navy fleet-inspection contract.', src: ['CNBC', 'https://www.cnbc.com/2024/05/15/these-wall-climbing-robots-are-finding-flaws-in-d-grade-infrastructure.html'] },
+        { name: 'Boston Dynamics — Duke Energy', tracked: 'boston-dynamics', tag: 'Inspection', desc: 'Spot quadrupeds run autonomous inspections inside the containment building of Duke’s Oconee Nuclear Station while the reactor is online — reading gauges and surveying used-fuel storage.', src: ['Duke Energy', 'https://illumination.duke-energy.com/articles/spot-the-robot-dog-helps-humans-inspect-nuclear-power-plant'] },
+        { name: 'ANYbotics — Petrobras', tracked: 'anybotics', tag: 'Offshore', desc: 'Explosion-proof ANYmal X legged robots autonomously inspect offshore FPSO oil & gas production platforms; Petrobras ordered six units after field trials on FPSO P-74.', src: ['ANYbotics', 'https://www.anybotics.com/news/petrobras-and-anybotics-join-efforts-to-automate-offshore-fpso-inspections/'] },
+        { name: 'Taurob — TotalEnergies', tag: 'Offshore', desc: 'ATEX explosion-proof tracked robot ran the first offshore ATEX robot deployment on TotalEnergies’ K5 gas platform and a 12-month survey at the Shetland Gas Plant for corrosion and leaks.', src: ['Taurob', 'https://www.taurob.com/deploy/'] },
+        { name: 'Energy Robotics (Korial)', tag: 'Autonomy SW', desc: 'Hardware-agnostic AI autonomy software runs fleets of inspection robots and drones across power plants and substations — 1M+ inspections for E.ON, Shell, BP and BASF.', src: ['The Robot Report', 'https://www.therobotreport.com/energy-robotics-secures-series-a-scale-critical-infrastructure-inspections/'] },
+        { name: 'Boston Dynamics — J-POWER', tag: 'Inspection', desc: 'Spot autonomously patrols a Japanese thermal power plant, capturing gauge readings and thermal data to replace manual operator rounds.', src: ['Boston Dynamics', 'https://bostondynamics.com/case-studies/spot-at-j-power/'] },
+      ],
+    },
+    'nuclear': {
+      title: 'Nuclear cleanup & decommissioning',
+      nav: 'Nuclear cleanup',
+      sub: 'Remote manipulation, radiation mapping and glovebox automation for the hardest, most radioactive jobs in energy — fuel-debris retrieval, legacy-waste characterization, and decades-long D&D programs.',
+      items: [
+        { name: 'TEPCO Telesco — Fukushima', tag: 'Fuel retrieval', desc: 'An extendable ~22 m “fishing-rod” telescopic robot retrieved the first-ever sample of melted fuel debris from the Unit 2 primary containment vessel in 2024.', src: ['NucNet', 'https://www.nucnet.org/news/robot-retrieves-radioactive-fuel-debris-from-unit-2-11-2-2024'] },
+        { name: 'Sellafield + Boston Dynamics', tag: 'Hot-zone survey', desc: 'Spot robot dogs now work full-time in Sellafield’s highly radioactive zones doing 3D scanning, livestreaming and gamma/alpha mapping alongside Createc, AtkinsRéalis and UKAEA.', src: ['The Register', 'https://www.theregister.com/2026/01/30/sellafield_robot_dogs/'] },
+        { name: 'AtkinsRéalis ARGO — Sellafield', tag: 'Glovebox', desc: 'A remote robotic arm retrofitted into legacy gloveboxes removes operators from direct contact with radioactive material; 700+ gloveboxes are candidates for automation.', src: ['World Nuclear News', 'https://www.world-nuclear-news.org/articles/robotic-arm-improves-glovebox-safety-at-sellafield'] },
+        { name: 'Createc (RISER / N-Visage)', tag: 'Radiation mapping', desc: 'GPS-denied radiation-mapping drones and sensing build 3D contamination maps — deployed in a contaminated Sellafield chimney and extensively across Fukushima Daiichi.', src: ['Createc', 'https://createc.co.uk/the-uks-most-complex-mobile-robotic-deployment-in-nuclear/'] },
+        { name: 'Blue Bear Systems', tag: 'Radiation mapping', desc: 'Co-developed the RISER nuclear-capable radiation-mapping quadcopter with Createc for indoor 3D contamination surveys at Sellafield and Fukushima.', src: ['The Drive', 'https://www.thedrive.com/tech/18846/u-k-developed-radiation-mapping-drone-to-monitor-fukushima'] },
+      ],
+    },
+    'geothermal': {
+      title: 'Geothermal & advanced drilling',
+      nav: 'Geothermal',
+      sub: 'The robotics here is rig-floor automation and novel drilling end-effectors — automating the deep, hard-rock wells that next-generation (EGS) geothermal needs to scale.',
+      items: [
+        { name: 'Fervo Energy', tag: 'EGS drilling', desc: 'Applies oil-and-gas horizontal drilling, real-time downhole fiber-optic data and analytics to enhanced geothermal — cutting drill time 70% and per-well cost from $9.4M to $4.8M. Google is an offtaker.', src: ['Fervo', 'https://fervoenergy.com/technology/'] },
+        { name: 'Quaise Energy', tag: 'MMW drilling', desc: 'Millimeter-wave (gyrotron) drilling ablates superhot hard rock with no downhole hardware, targeting ultra-deep geothermal; drilled 100 m at a Texas field site in 2025.', src: ['Quaise', 'https://www.quaise.com/news/quaise-energy-achieves-drilling-milestone-with-millimeter-wave-technology'] },
+        { name: 'GA Drilling', tag: 'Plasma drilling', desc: 'PLASMABIT plasma drilling plus downhole anchoring drives faster, deeper wells in hard rock; demonstrated in a real wellbore at NORCE Ullrigg, Norway (Feb 2026).', src: ['GA Drilling', 'https://www.gadrilling.com/'] },
+        { name: 'Nabors / Canrig Robotics', tag: 'Rig automation', desc: 'Electric drill-floor robots, robotic roughnecks and red-zone modules automate pipe and tool handling — the building blocks of the first fully automated land rigs, now applied to geothermal.', src: ['Nabors', 'https://www.nabors.com/for-contractors-ofs/canrig-robotics/'] },
+        { name: 'Sage Geosystems', tag: 'Energy storage', desc: 'Pressurized geothermal and energy-storage wells drilled by Nabors’ automated PACE-X rigs in South Texas; Nabors led a $12M financing to commercialize.', src: ['Nabors', 'https://www.nabors.com/sage-geosystems-and-nabors-industries-team-accelerate-commercialization-geothermal-energy/'] },
+      ],
+    },
+    'solar': {
+      title: 'Solar — robotic build-out & cleaning',
+      nav: 'Solar',
+      sub: 'Field factories and installation rovers that build utility-scale plants faster than human crews, plus waterless robots that keep gigawatts of panels clean in the desert.',
+      items: [
+        { name: 'Terabase Energy', tag: 'Construction', desc: 'The “Terafab” automated field factory — a deployable assembly line plus installation rovers — autonomously builds utility-scale solar; 100+ MW installed, V2 field-tested March 2026.', src: ['Terabase', 'https://www.terabase.energy/products-services/construction/terafab'] },
+        { name: 'Charge Robotics', tag: 'Construction', desc: '“Sunrise” portable robotic factory assembles ~40-ft, 800-lb solar tracker bays and installs them in the field; first utility-scale deployment with SOLV Energy.', src: ['MIT News', 'https://news.mit.edu/2025/charge-robotics-makes-solar-projects-cheaper-faster-portable-factories-0312'] },
+        { name: 'Built Robotics', tag: 'Pile driving', desc: 'The RPD 35 autonomous robot combines survey, pile distribution, driving and inspection for solar foundations — ~300+ piles/day with a two-person crew.', src: ['Built Robotics', 'https://www.builtrobotics.com/solutions/solar-piling'] },
+        { name: 'AES — Maximo', tag: 'Module install', desc: 'An AI-powered robot performs end-to-end mechanical install of solar modules; a fleet of four installed 100 MW at the 2-GW Bellefield project under an Amazon contract.', src: ['The Robot Report', 'https://www.therobotreport.com/aes-maximo-robot-installs-100-megawatts-of-solar-capacity/'] },
+        { name: 'Ecoppia', tag: 'Cleaning', desc: 'AI-powered, water-free robotic cleaners for utility-scale PV — 35+ sites and 2+ GW under contract, including a Fortum partnership in India.', src: ['Ecoppia', 'https://www.ecoppia.com/'] },
+        { name: 'SolarCleano', tag: 'Cleaning', desc: 'Luxembourg-based maker of remote-controlled and autonomous robots that clean utility-scale and rooftop solar panels, waterless or wet.', src: ['SolarCleano', 'https://www.solarcleano.com/'] },
+      ],
+    },
+    'wind': {
+      title: 'Wind — blade inspection & repair',
+      nav: 'Wind',
+      sub: 'Crawling, walking and flying robots that take humans off ropes — inspecting, sanding and repairing turbine blades onshore and offshore.',
+      items: [
+        { name: 'Aerones', tag: 'Maintenance', desc: 'A cable/winch robotic platform cleans, inspects and repairs turbine blades and towers — leading-edge protection, drainage and conductivity work without rope-access crews.', src: ['Aerones', 'https://aerones.com/'] },
+        { name: 'SkySpecs', tag: 'Inspection', desc: 'Fully autonomous drones plus “Horizon” analytics have inspected 33,000+ blades across 19 countries, onshore and offshore.', src: ['SkySpecs', 'https://skyspecs.com/'] },
+        { name: 'BladeBUG', tag: 'Repair', desc: 'A six-legged, suction-footed robot walks along blades for inspection, NDT and repair; performed the world’s first robotic offshore “blade walk” at ORE Catapult.', src: ['ORE Catapult', 'https://ore.catapult.org.uk/stories/bladebug/'] },
+        { name: 'Rope Robotics', tag: 'Repair', desc: 'The BR-8 robot autonomously sands, cleans and applies leading-edge protection; nine robots have repaired 150+ blades across the US, Canada, South Africa and Europe.', src: ['CompositesWorld', 'https://www.compositesworld.com/products/rope-robotics-automates-onshore-wind-turbine-blade-repairs'] },
+        { name: 'Perceptual Robotics', tag: 'Inspection', desc: 'The “Eve” autonomous drone system uses AI damage detection for blade inspection, with clients including Kompact Renewables and AssetTech.', src: ['Perceptual Robotics', 'https://www.perceptual-robotics.com/'] },
+      ],
+    },
+    'space': {
+      title: 'Space-based energy',
+      nav: 'Space power',
+      sub: 'Solar power generated — and increasingly computed — in orbit, plus the on-orbit robots assembling arrays larger than any rocket fairing.',
+      items: [
+        { name: 'Aetherflux', tag: 'Space solar', desc: 'Baiju Bhatt’s startup is building a constellation to beam orbital solar power to small ground stations via infrared laser, with a LEO power-beaming demo planned for 2026.', src: ['CNBC', 'https://www.cnbc.com/2025/09/30/startup-aetherflux-space-solar-farms.html'] },
+        { name: 'Solestial', tag: 'Space PV', desc: 'Radiation-self-healing silicon space solar cells at ~90% lower cost than III-V; won a SpaceWERX contract for a fast-assembly solar array for small satellites.', src: ['pv magazine', 'https://pv-magazine-usa.com/2025/07/21/solestial-designing-space-solar-array-with-shorter-lead-time/'] },
+        { name: 'Redwire / Made In Space', tag: 'Orbital assembly', desc: 'The NASA-funded OSAM-2 mission 3D-prints structural beams in orbit and robotically deploys a solar array — on-orbit robotic assembly of structures too large to launch whole.', src: ['Redwire', 'https://rdw.com/newsroom/redwires-trailblazing-osam-2-mission-passes-critical-nasa-milestone/'] },
+        { name: 'Starcloud', tag: 'Orbital compute', desc: 'Put the first NVIDIA H100 GPU in orbit and is building solar-powered orbital data centers targeting ~10x lower energy cost than terrestrial sites via sun-synchronous orbits.', src: ['DCD', 'https://www.datacenterdynamics.com/en/news/starcloud-1-satellite-reaches-space-with-nvidia-h100-gpu-now-operating-in-orbit/'] },
+        { name: 'Google — Project Suncatcher', tag: 'Orbital compute', desc: 'A research effort to scale ML compute into space on solar-powered satellite constellations in sun-synchronous orbit — an answer to terrestrial power limits.', src: ['Fierce Network', 'https://www.fierce-network.com/cloud/space-data-centers-starcloud-spacex-and-project-suncatcher-explained'] },
+      ],
+    },
+    'grid': {
+      title: 'Grid & transmission/distribution',
+      nav: 'Grid & T&D',
+      sub: 'Line-crawling robots, live-line drones and substation quadrupeds that inspect energized conductors and switchgear — plus AI for vegetation management along the right-of-way.',
+      items: [
+        { name: 'DEEP Robotics', tracked: 'deep-robotics', tag: 'Substation patrol', desc: 'Jueying X30 quadrupeds patrol substations with 98% defect-detection accuracy, covering a full station in under 35 minutes and reading nine meter types.', src: ['DEEP Robotics', 'https://www.deeprobotics.us/news/over-50-efficiency-gain-deep-robotics-quadruped-robot-becomes-the-super-employee-of-power-substations/'] },
+        { name: 'Hydro-Québec — LineRanger', tag: 'Line crawling', desc: 'A 50-kg robot is hoisted onto energized 735-kV conductors to autonomously inspect spacers and conductors — a commercialized live-line product.', src: ['New Atlas', 'https://newatlas.com/lineranger-power-line-inspection-robot/59818/'] },
+        { name: 'DRONE VOLT — LineDrone', tag: 'Live-line drone', desc: 'A drone lands on live overhead conductors and rolls along single-conductor lines, taking direct corrosion and contact measurements (developed with Hydro-Québec).', src: ['DRONE VOLT', 'https://www.dronevolt.com/en/linedrone-for-power-lines-inspection/'] },
+        { name: 'EPRI — “Ti” robot', tag: 'Line traversal', desc: 'A permanently installable line-traversing robot covers ~80 miles of transmission line with HD/IR cameras for right-of-way and component inspection.', src: ['The Robot Report', 'https://www.therobotreport.com/overhead-transmission-line-inspection-robots/'] },
+        { name: 'Oak Ridge National Lab', tag: 'Fault inspection', desc: 'An autonomous drone guided by power-line electromagnetic fields performs rapid grid-fault inspection of remote transmission corridors.', src: ['ORNL', 'https://www.ornl.gov/news/protecting-electric-grid-health-drone-based-power-line-inspection'] },
+        { name: 'AiDash', tag: 'Vegetation mgmt', desc: 'A satellite + drone/LiDAR AI platform forecasts tree-growth encroachment on power lines up to 12 months ahead for electric utilities.', src: ['AiDash', 'https://www.aidash.com/'] },
+      ],
+    },
+    'datacenters': {
+      title: 'Data centers — the AI–energy nexus',
+      nav: 'Data centers',
+      sub: 'The compute driving global power demand is automating its own buildout and maintenance — robots for construction, server install, and circular-economy disassembly.',
+      items: [
+        { name: 'DEWALT + August Robotics', tag: 'Construction', desc: 'A fleet-capable downward-drilling construction robot bores the thousands of precise rack-stop and MEP support holes a data-center build needs.', src: ['Data Center Frontier', 'https://www.datacenterfrontier.com/hyperscale/article/55352697/how-robotics-is-re-engineering-data-center-construction-and-operations'] },
+        { name: 'AWS + Molg', tag: 'Circularity', desc: 'AWS deployed AI-powered robots to inspect and delicately disassemble used data-center electronics for reuse — extending hardware life and cutting embodied-energy waste.', src: ['GeekWire', 'https://www.geekwire.com/2025/ai-powered-robots-are-helping-aws-extend-the-life-of-data-center-electronics/'] },
+        { name: 'SoftBank Corp.', tag: 'Server install', desc: 'Building “robot-friendly” data centers with cable-free racks where a robot simply pushes a server in to make automatic power and network connections.', src: ['SoftBank', 'https://www.softbank.jp/en/sbnews/entry/20251215_01'] },
+        { name: 'NVIDIA — Cosmos', tag: 'Robotics platform', desc: 'The Cosmos platform and digital-twin robotics stack let partners build autonomous systems for data centers — the AI driving power demand automating its own facilities.', src: ['NVIDIA', 'https://www.nvidia.com/en-us/industries/robotics/'] },
+        { name: 'Google', tag: 'Infrastructure', desc: 'Disclosed at the 2024 OCP summit that it had begun deploying robots in its data centers for physical infrastructure tasks.', src: ['Techerati', 'https://www.techerati.com/news-hub/robots-and-the-data-centre/'] },
+      ],
+    },
+    'mining': {
+      title: 'Mining & critical minerals',
+      nav: 'Mining & minerals',
+      sub: 'Autonomous haulage and drilling, AI-driven exploration, and automated processing for the copper, lithium, nickel and rare earths the energy transition is built on.',
+      items: [
+        { name: 'KoBold Metals', tag: 'AI exploration', desc: 'Machine-learning mineral exploration (~$2.96B valuation) that made the largest copper discovery in a decade in Zambia — the battery metals behind EVs and grid storage.', src: ['Carbon Credits', 'https://carboncredits.com/ai-powered-mineral-exploration-billionaires-backed-kobold-metals-raised-491-million/'] },
+        { name: 'Durin', tag: 'Drilling', desc: 'Remotely operated, sensor-equipped (toward fully autonomous) exploration drilling rigs that cut the ~70% of exploration capital consumed by drilling.', src: ['TechCrunch', 'https://techcrunch.com/2025/04/23/durin-digs-up-3-4m-to-automate-drills-for-critical-minerals-exploration/'] },
+        { name: 'Caterpillar — MineStar', tag: 'Autonomous haulage', desc: 'Cat MineStar Command runs hundreds of driverless haul trucks across dozens of mines on three continents; Freeport-McMoRan is converting copper fleets to autonomy.', src: ['Caterpillar', 'https://www.cat.com/en_US/by-industry/mining/minexpo2024/news/press-releases/cat-minestar-command-for-hauling-manages-the-autonomous-ecosystem-to-increase-haulage-efficiency-enhance-safety.html'] },
+        { name: 'Sandvik AutoMine', tag: 'Underground', desc: 'A 20-year-old underground automation platform; new AutoMine Aura adds 3D-perception navigation that moved 15%+ more material plus interoperability for third-party machines.', src: ['Sandvik', 'https://www.mining.sandvik/en/news-and-media/news-archive/2026/05/sandvik-launches-automine-aura-a-first-of-its-kind-automation-platform-for-the-future-of-mining/'] },
+        { name: 'Pronto', tag: 'Autonomous haulage', desc: 'Retrofits any-brand haul trucks with sensors and autonomy software — expanding across Heidelberg Materials sites and automating a reopened Utah copper mine.', src: ['TechCrunch', 'https://techcrunch.com/2026/04/09/mariana-minerals-taps-pronto-to-help-automate-a-copper-mine/'] },
+        { name: 'Nox Metals', tracked: 'nox-metals', tag: 'Materials supply', desc: 'A reindustrialization play supplying manufacturers with critical materials at speed and low cost — the input layer beneath every energy and robotics build. Profiled in the tracker.', src: ['Companies', 'companies.html?focus=nox-metals'] },
+      ],
+    },
+    'manufacturing': {
+      title: 'Manufacturing the energy build-out',
+      nav: 'Manufacturing',
+      sub: 'Robotic factories that form the steel, weld the structures and assemble the hardware behind turbines, reactors, trackers and grid gear. Profiled companies link to the tracker.',
+      items: [
+        { name: 'Machina Labs', tracked: 'machina-labs', tag: 'Robotic forming', desc: 'Robotic roboforming bends large sheet-metal structures on demand — the kind of flexible, tooling-free fabrication that energy and aerospace hardware needs.', src: ['Machina Labs', 'https://www.machinalabs.ai/'] },
+        { name: 'Path Robotics', tracked: 'path-robotics', tag: 'Robotic welding', desc: 'AI-driven autonomous welding robots see and adapt to each part — addressing the welder shortage that bottlenecks heavy energy and infrastructure fabrication.', src: ['Path Robotics', 'https://www.path-robotics.com/'] },
+        { name: 'Bright Machines', tracked: 'bright-machines', tag: 'Robotic assembly', desc: 'Software-defined robotic micro-factories automate electronics assembly — increasingly the data-center and power-hardware supply chain.', src: ['Bright Machines', 'https://www.brightmachines.com/'] },
+        { name: 'Symbotic', tracked: 'symbotic', tag: 'Logistics automation', desc: 'AI-powered warehouse robotics at scale — the automated supply-chain layer moving the industrial and energy goods behind the build-out.', src: ['Symbotic', 'https://www.symbotic.com/'] },
+      ],
+    },
+    'labs': {
+      title: 'Autonomous R&D labs for energy materials',
+      nav: 'R&D labs',
+      sub: 'Self-driving labs where AI plans experiments and robots run them 24/7 — compressing the discovery of batteries, catalysts, solar and fusion materials from years to days.',
+      items: [
+        { name: 'A-Lab (Berkeley Lab)', tag: 'Materials discovery', desc: 'A closed-loop autonomous lab with three robotic arms running 24/7, AI-guided across ~200 precursors — processing 50–100x more samples/day to discover battery and energy-storage materials.', src: ['Berkeley Lab', 'https://newscenter.lbl.gov/2023/04/17/meet-the-autonomous-lab-of-the-future/'] },
+        { name: 'Chemify', tag: 'Robotic synthesis', desc: '“Chemputation” translates target molecules into robot-executable code; opened the £12M automated Chemifarm and raised $50M+ for catalysts and energy materials.', src: ['Business Wire', 'https://www.businesswire.com/news/home/20251021496528/en/Chemify-Raises-More-Than-$50-Million-in-Oversubscribed-Series-B-to-Drive-Global-Expansion-of-Digital-Chemistry-and-Discovery'] },
+        { name: 'Emerald Cloud Lab', tag: 'Cloud lab', desc: 'A remotely operated lab runs 100+ chemistry/biology experiments simultaneously (~46,620 samples/yr) and powers the CMU Cloud Lab — high-throughput materials R&D.', src: ['Emerald Cloud Lab', 'https://www.emeraldcloudlab.com/'] },
+        { name: 'Kebotix', tag: 'Self-driving lab', desc: 'Enterprise self-driving-lab technology combining AI and robotics, customized for accelerated materials discovery including energy applications.', src: ['Kebotix', 'https://www.kebotix.com/'] },
+        { name: 'Acceleration Consortium', tag: 'SDL hub', desc: 'A University of Toronto global hub for self-driving labs combining AI, robotics and automation explicitly targeting clean-energy and energy-storage materials.', src: ['U Toronto', 'https://acceleration.utoronto.ca/'] },
+      ],
+    },
+  };
+
+  (function renderEnergy() {
+    const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const navEl = document.getElementById('jumpnav');
+    const secEl = document.getElementById('sections');
+    let total = 0, tracked = 0;
+
+    // Build sticky nav (grouped order from CLUSTERS)
+    const order = CLUSTERS.flatMap((c) => c.sections);
+    navEl.innerHTML = order.map((id) => {
+      const s = SECTIONS[id];
+      return `<a class="e-chip" href="#${id}" data-target="${id}">${s.nav}<span class="e-chip-n">${s.items.length}</span></a>`;
+    }).join('');
+
+    // Build sections, with cluster labels
+    let html = '';
+    CLUSTERS.forEach((cluster) => {
+      html += `<p class="e-cluster-label">${cluster.label}</p>`;
+      cluster.sections.forEach((id) => {
+        const s = SECTIONS[id];
+        const cards = s.items.map((it) => {
+          total++;
+          let trackedLink = '';
+          if (it.tracked) { tracked++; trackedLink = `<a class="e-tracked" href="companies.html?focus=${esc(it.tracked)}">Tracked <span class="e-arrow">↗</span></a>`; }
+          const internal = it.src[1].startsWith('companies.html');
+          const srcLink = `<a class="e-src" href="${esc(it.src[1])}"${internal ? '' : ' target="_blank" rel="noopener"'}>${esc(it.src[0])} <span class="e-arrow">↗</span></a>`;
+          return `<article class="card card-hoverable e-card">
+            <h3 class="card-title">${esc(it.name)}</h3>
+            <p class="card-sub">${esc(it.desc)}</p>
+            <div class="e-card-foot">
+              <span class="pill cat-deployment">${esc(it.tag)}</span>
+              ${srcLink}
+              ${trackedLink}
+            </div>
+          </article>`;
+        }).join('');
+        html += `<section class="e-section" id="${id}">
+          <div class="e-section-head"><h2 class="section-title">${s.title}</h2></div>
+          <p class="e-section-sub">${s.sub}</p>
+          <div class="card-grid cols-3">${cards}</div>
+        </section>`;
+      });
+    });
+    secEl.innerHTML = html;
+
+    // KPI counts
+    const cnt = document.getElementById('kpi-count');
+    const trk = document.getElementById('kpi-tracked');
+    if (cnt) cnt.textContent = total;
+    if (trk) trk.textContent = tracked;
+
+    // Scroll-spy: highlight active chip
+    const chips = Array.from(navEl.querySelectorAll('.e-chip'));
+    const byId = Object.fromEntries(chips.map((c) => [c.dataset.target, c]));
+    const sections = order.map((id) => document.getElementById(id)).filter(Boolean);
+    let current = null;
+    const setActive = (id) => {
+      if (id === current) return;
+      current = id;
+      chips.forEach((c) => c.removeAttribute('aria-current'));
+      if (byId[id]) {
+        byId[id].setAttribute('aria-current', 'true');
+        byId[id].scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' });
+      }
+    };
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver((entries) => {
+        const visible = entries.filter((e) => e.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible[0]) setActive(visible[0].target.id);
+      }, { rootMargin: '-76px 0px -65% 0px', threshold: 0 });
+      sections.forEach((s) => io.observe(s));
+    }
+  })();
+  </script>
+</body>
+</html>
