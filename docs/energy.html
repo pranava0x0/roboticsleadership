@@ -99,6 +99,38 @@
 
     .e-legend { font-size: 12.5px; color: var(--text-muted); margin: 10px 0 0; display: flex; gap: 16px; flex-wrap: wrap; }
     .e-legend .e-tracked { pointer-events: none; }
+
+    /* Region badge */
+    .e-region {
+      display: inline-flex; align-items: center; gap: 4px;
+      font-size: 10.5px; font-weight: 700; letter-spacing: 0.04em;
+      padding: 2px 7px; border-radius: 999px;
+      background: var(--surface-2, color-mix(in srgb, var(--text) 6%, transparent));
+      color: var(--text-muted); border: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    .e-region.us { color: var(--status-positive); border-color: color-mix(in srgb, var(--status-positive) 35%, transparent); background: var(--status-positive-soft); }
+    .e-region.china { color: var(--status-negative); border-color: color-mix(in srgb, var(--status-negative) 35%, transparent); background: var(--status-negative-soft); }
+
+    /* Filter bar */
+    .e-filter { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 18px 0 2px; }
+    .e-filter input[type="search"] {
+      flex: 1 1 240px; min-width: 0; min-height: 44px;
+      padding: 9px 13px; border-radius: var(--radius-card, 10px);
+      border: 1px solid var(--border); background: var(--surface);
+      color: var(--text); font-size: 14px; font-family: inherit;
+    }
+    .e-filter select {
+      min-height: 44px; padding: 9px 12px; border-radius: var(--radius-card, 10px);
+      border: 1px solid var(--border); background: var(--surface);
+      color: var(--text); font-size: 13.5px; font-family: inherit; cursor: pointer;
+    }
+    .e-filter input:focus-visible, .e-filter select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+    .e-result-count { font-size: 12.5px; color: var(--text-muted); margin-left: auto; font-variant-numeric: tabular-nums; }
+    .e-section[hidden] { display: none; }
+    .e-card[hidden] { display: none; }
+    .e-empty { color: var(--text-muted); font-size: 14px; padding: 28px 0; text-align: center; }
+    .e-empty[hidden] { display: none; }
   </style>
 </head>
 <body>
@@ -163,6 +195,15 @@
       </p>
     </section>
 
+    <!-- Filter bar -->
+    <form class="e-filter" id="e-filter" onsubmit="return false;" aria-label="Filter energy entries">
+      <input type="search" id="e-search" placeholder="Search companies, use cases, tech…" autocomplete="off" aria-label="Search entries" />
+      <select id="e-region" aria-label="Filter by region">
+        <option value="">All regions</option>
+      </select>
+      <span class="e-result-count" id="e-count" aria-live="polite"></span>
+    </form>
+
     <!-- Sticky jump nav (built from data) -->
     <nav class="e-jumpnav" aria-label="Jump to application area">
       <div class="e-jumpnav-track" id="jumpnav"></div>
@@ -170,6 +211,7 @@
 
     <!-- Sections render here -->
     <div id="sections"></div>
+    <p class="e-empty" id="e-empty" hidden>No entries match your filters. <button type="button" class="btn ghost" id="e-clear" style="margin-left:6px;">Clear filters</button></p>
 
     <p class="muted" style="font-size:12.5px;margin-top:40px;">
       Sourcing note: entries are confirmed against company case studies or reputable trade/press coverage as of June 2026. Deployments evolve — follow each source for the current picture. Spotted a company we're missing? It probably belongs in the <a href="companies.html">Companies</a> tracker too.
@@ -332,11 +374,38 @@
     },
   };
 
+  /* Home base of each company/project — ties into the site's U.S.-leadership thesis. */
+  const REGION_SHORT = { 'United States': 'US', 'United Kingdom': 'UK', 'Germany': 'EU·DE', 'Austria': 'EU·AT', 'Latvia': 'EU·LV', 'Denmark': 'EU·DK', 'France': 'EU·FR', 'Luxembourg': 'EU·LU', 'Sweden': 'EU·SE', 'Slovakia': 'EU·SK', 'Switzerland': 'CH', 'Japan': 'JP', 'China': 'China', 'Canada': 'CA', 'Israel': 'IL' };
+  const REGIONS = {
+    // Power plants
+    'Gecko Robotics': 'United States', 'Boston Dynamics — Duke Energy': 'United States', 'ANYbotics — Petrobras': 'Switzerland', 'Taurob — TotalEnergies': 'Austria', 'Energy Robotics (Korial)': 'Germany', 'Boston Dynamics — J-POWER': 'United States',
+    // Nuclear
+    'TEPCO Telesco — Fukushima': 'Japan', 'Sellafield + Boston Dynamics': 'United Kingdom', 'AtkinsRéalis ARGO — Sellafield': 'United Kingdom', 'Createc (RISER / N-Visage)': 'United Kingdom', 'Blue Bear Systems': 'United Kingdom',
+    // Geothermal
+    'Fervo Energy': 'United States', 'Quaise Energy': 'United States', 'GA Drilling': 'Slovakia', 'Nabors / Canrig Robotics': 'United States', 'Sage Geosystems': 'United States',
+    // Solar
+    'Terabase Energy': 'United States', 'Charge Robotics': 'United States', 'Built Robotics': 'United States', 'AES — Maximo': 'United States', 'Ecoppia': 'Israel', 'SolarCleano': 'Luxembourg',
+    // Wind
+    'Aerones': 'Latvia', 'SkySpecs': 'United States', 'BladeBUG': 'United Kingdom', 'Rope Robotics': 'Denmark', 'Perceptual Robotics': 'United Kingdom',
+    // Space
+    'Aetherflux': 'United States', 'Solestial': 'United States', 'Redwire / Made In Space': 'United States', 'Starcloud': 'United States', 'Google — Project Suncatcher': 'United States',
+    // Grid
+    'DEEP Robotics': 'China', 'Hydro-Québec — LineRanger': 'Canada', 'DRONE VOLT — LineDrone': 'France', 'EPRI — “Ti” robot': 'United States', 'Oak Ridge National Lab': 'United States', 'AiDash': 'United States',
+    // Data centers
+    'DEWALT + August Robotics': 'United States', 'AWS + Molg': 'United States', 'SoftBank Corp.': 'Japan', 'NVIDIA — Cosmos': 'United States', 'Google': 'United States',
+    // Mining
+    'KoBold Metals': 'United States', 'Durin': 'United States', 'Caterpillar — MineStar': 'United States', 'Sandvik AutoMine': 'Sweden', 'Pronto': 'United States', 'Nox Metals': 'United States',
+    // Manufacturing
+    'Machina Labs': 'United States', 'Path Robotics': 'United States', 'Bright Machines': 'United States', 'Symbotic': 'United States',
+    // Labs
+    'A-Lab (Berkeley Lab)': 'United States', 'Chemify': 'United Kingdom', 'Emerald Cloud Lab': 'United States', 'Kebotix': 'United States', 'Acceleration Consortium': 'Canada',
+  };
+
   (function renderEnergy() {
     const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
     const navEl = document.getElementById('jumpnav');
     const secEl = document.getElementById('sections');
-    let total = 0, tracked = 0;
+    let total = 0, tracked = 0, usCount = 0;
 
     // Build sticky nav (grouped order from CLUSTERS)
     const order = CLUSTERS.flatMap((c) => c.sections);
@@ -357,11 +426,17 @@
           if (it.tracked) { tracked++; trackedLink = `<a class="e-tracked" href="companies.html?focus=${esc(it.tracked)}">Tracked <span class="e-arrow">↗</span></a>`; }
           const internal = it.src[1].startsWith('companies.html');
           const srcLink = `<a class="e-src" href="${esc(it.src[1])}"${internal ? '' : ' target="_blank" rel="noopener"'}>${esc(it.src[0])} <span class="e-arrow">↗</span></a>`;
-          return `<article class="card card-hoverable e-card">
+          const region = REGIONS[it.name] || 'Other';
+          if (region === 'United States') usCount++;
+          const regClass = region === 'United States' ? ' us' : (region === 'China' ? ' china' : '');
+          const regBadge = `<span class="e-region${regClass}" title="Based in ${esc(region)}">${esc(REGION_SHORT[region] || region)}</span>`;
+          const haystack = `${it.name} ${it.desc} ${it.tag} ${region}`.toLowerCase();
+          return `<article class="card card-hoverable e-card" data-region="${esc(region)}" data-search="${esc(haystack)}">
             <h3 class="card-title">${esc(it.name)}</h3>
             <p class="card-sub">${esc(it.desc)}</p>
             <div class="e-card-foot">
               <span class="pill cat-deployment">${esc(it.tag)}</span>
+              ${regBadge}
               ${srcLink}
               ${trackedLink}
             </div>
@@ -381,6 +456,53 @@
     const trk = document.getElementById('kpi-tracked');
     if (cnt) cnt.textContent = total;
     if (trk) trk.textContent = tracked;
+
+    // ---------- Filter bar (search + region) ----------
+    const searchEl = document.getElementById('e-search');
+    const regionEl = document.getElementById('e-region');
+    const countEl = document.getElementById('e-count');
+    const emptyEl = document.getElementById('e-empty');
+    const clearBtn = document.getElementById('e-clear');
+    const allCards = Array.from(secEl.querySelectorAll('.e-card'));
+    const sectionEls = order.map((id) => document.getElementById(id)).filter(Boolean);
+    const chipEls = Array.from(navEl.querySelectorAll('.e-chip'));
+    const chipById = Object.fromEntries(chipEls.map((c) => [c.dataset.target, c]));
+
+    // Region dropdown options (sorted, US first)
+    const regionsPresent = Array.from(new Set(allCards.map((c) => c.dataset.region)));
+    regionsPresent.sort((a, b) => (a === 'United States' ? -1 : b === 'United States' ? 1 : a.localeCompare(b)));
+    regionEl.insertAdjacentHTML('beforeend', regionsPresent.map((r) => `<option value="${esc(r)}">${esc(r)}</option>`).join(''));
+
+    const defaultCount = `${total} entries · ${usCount} U.S.-based`;
+    countEl.textContent = defaultCount;
+
+    function applyFilter() {
+      const q = searchEl.value.trim().toLowerCase();
+      const reg = regionEl.value;
+      let shown = 0;
+      const perSection = {};
+      allCards.forEach((card) => {
+        const match = (!q || card.dataset.search.includes(q)) && (!reg || card.dataset.region === reg);
+        card.hidden = !match;
+        if (match) { shown++; const sid = card.closest('.e-section').id; perSection[sid] = (perSection[sid] || 0) + 1; }
+      });
+      // Hide empty sections + update chip counts
+      sectionEls.forEach((sec) => {
+        const n = perSection[sec.id] || 0;
+        sec.hidden = n === 0;
+        const chip = chipById[sec.id];
+        if (chip) {
+          chip.querySelector('.e-chip-n').textContent = n;
+          chip.style.opacity = n === 0 ? '0.4' : '';
+        }
+      });
+      const filtering = q || reg;
+      countEl.textContent = filtering ? `${shown} of ${total} shown` : defaultCount;
+      emptyEl.hidden = shown !== 0;
+    }
+    searchEl.addEventListener('input', applyFilter);
+    regionEl.addEventListener('change', applyFilter);
+    if (clearBtn) clearBtn.addEventListener('click', () => { searchEl.value = ''; regionEl.value = ''; applyFilter(); searchEl.focus(); });
 
     // Scroll-spy: highlight active chip
     const chips = Array.from(navEl.querySelectorAll('.e-chip'));
