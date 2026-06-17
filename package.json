@@ -6,7 +6,8 @@
   "description": "Static-site dashboard for tracking robotics startups, government policy, and industry signals.",
   "scripts": {
     "validate": "node scripts/validate.js",
-    "test": "node scripts/scraper-news.test.js && node scripts/supply-chain.test.js && node scripts/us-china.test.js && node scripts/check-sources.js",
+    "test": "node scripts/scraper-news.test.js && node scripts/supply-chain.test.js && node scripts/us-china.test.js && node scripts/check-sources.js && node scripts/energy.test.js",
+    "test:energy": "node scripts/energy.test.js",
     "check:sources": "node scripts/check-sources.js",
     "scrape:news": "node scripts/scraper-news.js",
     "scrape:policy": "node scripts/scraper-policy.js",
