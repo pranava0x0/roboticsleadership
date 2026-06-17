@@ -761,12 +761,22 @@ footer.site-footer {
 .data-table th,
 .data-table td {
   text-align: left;
-  padding: 11px 14px;
+  padding: 8px 14px;
   border-bottom: 1px solid var(--border);
   vertical-align: middle;
   overflow-wrap: break-word;
   min-width: 0;
+  line-height: 1.4;
 }
+/* Dates and numbers should never wrap mid-value (e.g. "May 17, / 2026"). */
+.data-table .tnum,
+.data-table td.num { white-space: nowrap; }
+/* Numeric/date columns hug their content so the text columns absorb the slack
+   instead of every column stretching across the full width. */
+.data-table th.num,
+.data-table td.num,
+.data-table th.col-tight,
+.data-table td.col-tight { width: 1%; white-space: nowrap; }
 .data-table thead th {
   font-size: 11px;
   text-transform: uppercase;
