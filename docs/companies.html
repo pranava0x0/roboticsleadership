@@ -255,11 +255,17 @@
         emptyEl.hidden = true;
         tbody.innerHTML = rows.map(c => {
           const lastRound = (c.funding_rounds || []).slice().sort((a, b) => (a.date < b.date ? 1 : -1))[0];
-          const deploymentCount = (c.deployments || []).length;
+          const deps = c.deployments || [];
+          const deploymentCount = deps.length;
+          const stage = deps.some(d => d.status === 'active' || d.status === 'deployed')
+            ? ['positive', 'Deployed', 'Robots active in the field']
+            : deploymentCount ? ['warning', 'Piloting', 'Pilot deployments only — not yet at scale']
+            : ['outline', 'Pre-deploy', 'No deployments tracked yet'];
+          const stagePill = `<span class="pill ${stage[0]} stage-pill" title="${RT.escapeHTML(stage[2])}">${stage[1]}</span>`;
           return `
             <tr data-id="${RT.escapeHTML(c.id)}" tabindex="0">
               <td>
-                <strong>${RT.escapeHTML(c.name)}</strong>
+                <span class="company-name-row"><strong>${RT.escapeHTML(c.name)}</strong>${stagePill}</span>
                 <span class="secondary-line">${RT.escapeHTML(c.flagship_product || '—')} · founded ${RT.escapeHTML(c.founded || '?')}</span>
                 <span class="secondary-line show-mobile tnum">${RT.formatUSD(c.latest_valuation_usd, { fallback: '—' })}${lastRound ? ` · ${RT.escapeHTML(lastRound.round)}` : ''}</span>
               </td>
