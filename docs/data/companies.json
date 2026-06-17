@@ -5197,5 +5197,340 @@
       ]
     },
     "map_category": "defense"
+  },
+  {
+    "id": "genesis-ai",
+    "name": "Genesis AI",
+    "founded": "2024",
+    "hq": {
+      "city": "Palo Alto",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://genesis-ai.company",
+    "funding_rounds": [
+      {
+        "date": "2025-07",
+        "round": "Seed",
+        "amount_usd": 105000000,
+        "valuation_usd": null,
+        "investors": [
+          "Eclipse Ventures",
+          "Khosla Ventures",
+          "Bpifrance",
+          "HongShan",
+          "Eric Schmidt",
+          "Xavier Niel"
+        ],
+        "url": "https://www.therobotreport.com/genesis-ai-raises-105m-building-universal-robotics-foundation-model/",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 105000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "foundation_model"
+    ],
+    "primary_use_case": "general-purpose robot foundation models",
+    "flagship_product": "GENE-26.5 (robotics foundation model)",
+    "deployments": [
+      {
+        "customer": "LG CNS",
+        "location": "South Korea / USA",
+        "robot_count": null,
+        "use_case": "evaluating general-purpose robots across manufacturing and logistics",
+        "status": "pilot",
+        "start_date": "2026-06",
+        "source_url": "https://theaiinsider.tech/2026/06/16/genesis-ai-and-lg-cns-enter-strategic-partnership-to-scale-general-purpose-robotics-across-enterprise-operations/"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Zhou Xian",
+        "role": "CEO / Co-Founder"
+      },
+      {
+        "name": "Théophile Gervet",
+        "role": "Co-Founder"
+      }
+    ],
+    "ceo": "Zhou Xian",
+    "tags": [
+      "foundation-model",
+      "physical-ai",
+      "robot-learning",
+      "palo-alto",
+      "paris",
+      "khosla-backed"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://genesis-ai.company"
+      },
+      {
+        "url": "https://www.therobotreport.com/genesis-ai-raises-105m-building-universal-robotics-foundation-model/"
+      },
+      {
+        "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/"
+      }
+    ],
+    "last_updated": "2026-06-16",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Private robotics-foundation-model startup (dual HQ Palo Alto and Paris). Pre-revenue. Emerged from stealth July 2025 with a $105M seed co-led by Eclipse Ventures and Khosla Ventures; unveiled its first model, GENE-26.5, in May 2026.",
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/genesis-ai-emerges-from-stealth-with-105m-to-build-universal-robotics-foundation-model-and-horizontal-platform-for-general-purpose-physical-ai-302495016.html"
+        }
+      ]
+    },
+    "map_category": "brains"
+  },
+  {
+    "id": "orangewood-labs",
+    "name": "Orangewood Labs",
+    "founded": "2017",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.orangewood.co",
+    "funding_rounds": [
+      {
+        "date": "2023-08",
+        "round": "Series A",
+        "amount_usd": 4500000,
+        "valuation_usd": null,
+        "investors": [
+          "Y Combinator",
+          "7percent Ventures",
+          "Schox Ventures",
+          "VentureSouq",
+          "KSK Angel Fund"
+        ],
+        "url": "https://techcrunch.com/2023/08/02/orangewood-wants-to-build-a-cheap-programmable-robotic-arm-for-manufacturing/",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 4650000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "cobot",
+      "industrial-arm"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "OWL robotic arm + RoboGPT (natural-language programming)",
+    "deployments": [
+      {
+        "customer": "SMB manufacturers",
+        "location": "USA / India",
+        "robot_count": 500,
+        "use_case": "pick-and-place, visual inspection, welding, spray painting",
+        "status": "active",
+        "start_date": "2023",
+        "source_url": "https://techcrunch.com/2023/08/02/orangewood-wants-to-build-a-cheap-programmable-robotic-arm-for-manufacturing/"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Abhinav Das",
+        "role": "CEO / Co-Founder"
+      },
+      {
+        "name": "Aditya Bhatia",
+        "role": "Co-Founder"
+      },
+      {
+        "name": "Akash Bansal",
+        "role": "Co-Founder"
+      }
+    ],
+    "ceo": "Abhinav Das",
+    "tags": [
+      "cobot",
+      "robotic-arm",
+      "affordable-automation",
+      "yc-w18",
+      "manufacturing",
+      "robogpt"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.orangewood.co"
+      },
+      {
+        "url": "https://techcrunch.com/2023/08/02/orangewood-wants-to-build-a-cheap-programmable-robotic-arm-for-manufacturing/"
+      },
+      {
+        "url": "https://www.ycombinator.com/launches/HeF-orangewood-democratizing-robots"
+      }
+    ],
+    "last_updated": "2026-06-16",
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Private YC-backed (W18) startup selling affordable AI collaborative-robot arms (OWL) to SMB manufacturers, with a natural-language programming layer (RoboGPT). ~$4.5M Series A (2023), ~$4.65M total; ~500 deployments and ~$750K booked revenue reported as of Aug 2023.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2023/08/02/orangewood-wants-to-build-a-cheap-programmable-robotic-arm-for-manufacturing/"
+        }
+      ]
+    },
+    "map_category": "industrial"
+  },
+  {
+    "id": "antioch-robotics",
+    "name": "Antioch Robotics",
+    "founded": "2025",
+    "hq": {
+      "city": "New York",
+      "state": "NY",
+      "country": "USA"
+    },
+    "website": "https://antioch.com",
+    "funding_rounds": [
+      {
+        "date": "2025-12",
+        "round": "Pre-Seed",
+        "amount_usd": 4250000,
+        "valuation_usd": null,
+        "investors": [
+          "A*",
+          "Abstract Ventures",
+          "MaC Venture Capital",
+          "Box Group"
+        ],
+        "url": "https://www.therobotreport.com/antioch-raises-pre-seed-funding-accelerate-ai-robotics-testing/",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-04",
+        "round": "Seed",
+        "amount_usd": 8500000,
+        "valuation_usd": 60000000,
+        "investors": [
+          "A*",
+          "Category Ventures",
+          "MaC Venture Capital",
+          "Abstract Ventures",
+          "Box Group",
+          "Icehouse Ventures"
+        ],
+        "url": "https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 12750000,
+    "latest_valuation_usd": 60000000,
+    "robot_types": [
+      "software-platform"
+    ],
+    "primary_use_case": "robotics simulation & development platform",
+    "flagship_product": "Cloud simulation / digital-twin platform for autonomous systems",
+    "deployments": [
+      {
+        "customer": "MIT CSAIL",
+        "location": "USA",
+        "robot_count": null,
+        "use_case": "simulation-based testing and design of robots",
+        "status": "pilot",
+        "start_date": "2026",
+        "source_url": "https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Harry Mellsop",
+        "role": "CEO / Co-Founder"
+      },
+      {
+        "name": "Alex Langshur",
+        "role": "Co-Founder"
+      },
+      {
+        "name": "Michael Calvey",
+        "role": "Co-Founder"
+      },
+      {
+        "name": "Colton Swingle",
+        "role": "Co-Founder"
+      },
+      {
+        "name": "Collin Schlager",
+        "role": "Co-Founder"
+      }
+    ],
+    "ceo": "Harry Mellsop",
+    "tags": [
+      "simulation",
+      "digital-twin",
+      "physical-ai",
+      "developer-tools",
+      "new-york",
+      "software-platform"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/antioch-raises-funding-to-bring-software-speed-to-robot-development/"
+      },
+      {
+        "url": "https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/"
+      },
+      {
+        "url": "https://siliconangle.com/2025/12/08/anticoh-lands-4-25m-pre-seed-funding-accelerate-autonomous-robot-testing-digital-twins/"
+      }
+    ],
+    "last_updated": "2026-06-16",
+    "themes": [
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Private seed-stage NYC startup building cloud simulation / digital-twin infrastructure for autonomous-systems development (\"the Cursor for physical AI\"). ~$4.25M pre-seed (Dec 2025) and ~$8.5M seed (Apr 2026) at a reported ~$60M valuation; early MIT CSAIL pilot. Software platform, not a hardware maker.",
+      "sources": [
+        {
+          "url": "https://siliconangle.com/2026/04/16/antioch-prepares-accelerate-simulated-testing-autonomous-robots-raising-8-5m/"
+        }
+      ]
+    },
+    "map_category": "enablers"
   }
 ]

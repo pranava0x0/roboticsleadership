@@ -761,12 +761,22 @@ footer.site-footer {
 .data-table th,
 .data-table td {
   text-align: left;
-  padding: 11px 14px;
+  padding: 8px 14px;
   border-bottom: 1px solid var(--border);
   vertical-align: middle;
   overflow-wrap: break-word;
   min-width: 0;
+  line-height: 1.4;
 }
+/* Dates and numbers should never wrap mid-value (e.g. "May 17, / 2026"). */
+.data-table .tnum,
+.data-table td.num { white-space: nowrap; }
+/* Numeric/date columns hug their content so the text columns absorb the slack
+   instead of every column stretching across the full width. */
+.data-table th.num,
+.data-table td.num,
+.data-table th.col-tight,
+.data-table td.col-tight { width: 1%; white-space: nowrap; }
 .data-table thead th {
   font-size: 11px;
   text-transform: uppercase;
@@ -803,6 +813,10 @@ footer.site-footer {
   margin-top: 1px;
 }
 .muted-cell { color: var(--text-faint); font-style: italic; }
+
+/* Company name + derived deployment-stage pill (companies table) */
+.company-name-row { display: inline-flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.stage-pill { font-size: 9.5px; padding: 1px 6px; letter-spacing: 0.06em; }
 
 /* show-mobile: only visible when hide-mobile columns are hidden (≤760px).
    Must match .secondary-line specificity (0,3,0) to win. */
