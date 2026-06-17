@@ -12,7 +12,7 @@ _Updated: 2026-06-07_ (documentation update — agencies/news consolidated into 
 
 - **Stack:** vanilla HTML / CSS / JS + JSON data files. Zero runtime dependencies.
 - **Dev server:** `node scripts/serve.js` → <http://localhost:8765>. Or via the Claude Code preview tool (`name: tracker` in `.claude/launch.json`).
-- **Entry pages:** `docs/index.html`, `docs/companies.html`, `docs/policies.html`, `docs/states.html`, `docs/themes.html`.
+- **Entry pages:** `docs/index.html`, `docs/companies.html`, `docs/policies.html`, `docs/states.html`, `docs/themes.html`, `docs/china.html`, `docs/supply-chain.html`, `docs/energy.html`.
 - **Shared:** `docs/assets/styles.css` + `docs/assets/app.js`.
 - **Themes:** four — `caves`, `naked-sun`, `dawn` (default light), `robot-dreams` (default dark). See [DESIGN.md § 15](DESIGN.md).
 - **Data:** `docs/data/{companies,policies,news,themes,sources}.json`. Validated by `scripts/validate.js`.
@@ -23,7 +23,7 @@ _Updated: 2026-06-07_ (documentation update — agencies/news consolidated into 
 
 These should always pass. If one regresses, log it as `critical` in `issues.md`.
 
-1. **All five pages load without console errors.** Visit Dashboard / Companies / Policy / States / Themes at the default theme (Dawn) and verify `preview_console_logs --level error` returns empty.
+1. **All eight pages load without console errors.** Visit Dashboard / Companies / Policy / States / Themes / China / Supply-Chain / Energy at the default theme (Dawn) and verify `preview_console_logs --level error` returns empty.
 2. **All four themes activate.** From any page, switch through `caves → naked-sun → robot-dreams → dawn` via the picker. After each switch, verify:
    - `document.documentElement.getAttribute('data-theme')` matches the selected theme
    - `localStorage.theme` matches
