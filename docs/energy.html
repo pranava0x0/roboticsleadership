@@ -76,6 +76,7 @@
       color: var(--accent);
       margin: 28px 0 0;
     }
+    .e-cluster[hidden] { display: none; }
     .e-section-sub { color: var(--text-muted); font-size: 13.5px; margin: 2px 0 14px; max-width: 70ch; }
 
     .e-card { gap: 9px; }
@@ -492,10 +493,11 @@
       return `<a class="e-chip" href="#${id}" data-target="${id}">${s.nav}<span class="e-chip-n">${s.items.length}</span></a>`;
     }).join('');
 
-    // Build sections, with cluster labels
+    // Build sections, grouped inside a wrapper per cluster (so the cluster
+    // label hides with its sections when filtering empties the group).
     let html = '';
     CLUSTERS.forEach((cluster) => {
-      html += `<p class="e-cluster-label">${cluster.label}</p>`;
+      html += `<div class="e-cluster"><p class="e-cluster-label">${cluster.label}</p>`;
       cluster.sections.forEach((id) => {
         const s = SECTIONS[id];
         const cards = s.items.map((it) => {
@@ -529,6 +531,7 @@
           <div class="card-grid cols-3">${cards}</div>
         </section>`;
       });
+      html += `</div>`;
     });
     secEl.innerHTML = html;
 
@@ -608,6 +611,10 @@
           chip.querySelector('.e-chip-n').textContent = n;
           chip.style.opacity = n === 0 ? '0.4' : '';
         }
+      });
+      // Hide a cluster (and its label) when all its sections are hidden
+      secEl.querySelectorAll('.e-cluster').forEach((cl) => {
+        cl.hidden = !cl.querySelector('.e-section:not([hidden])');
       });
       const filtering = q || reg || st;
       countEl.textContent = filtering ? `${shown} of ${total} shown` : defaultCount;
