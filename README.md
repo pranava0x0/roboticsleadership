@@ -15,16 +15,22 @@ docs/                  static site, publish root
   policies.html        federal bills, agencies, state incentives (collapsible sections)
   states.html          state-policy overview (key themes + what's on the books)
   themes.html          deep-dives
+  china.html           US vs. China robotics metrics & comparisons
+  supply-chain.html    supply-chain ecosystem, manufacturing, capacity
+  energy.html          energy systems & robotics data
   assets/
     styles.css         design system tokens + components (incl. BLUF callout)
     app.js             shared utilities (fetch, format, theme toggle)
   data/
-    companies.json     ~30 companies, funding rounds, deployments
+    companies.json     ~60 companies, funding rounds, deployments
     policies.json      federal bills, state incentive programs
     state_policy.json  curated state-policy themes (delivery robots, AV, incentives, clusters, AI preemption)
     news.json          news + research items
     themes.json        cross-cutting narratives
     sources.json       scraper config
+    supply_chain.json  supply-chain stages, companies, financing, chokepoints
+    us_china.json      US vs. China robotics metrics & comparisons
+    energy.json        energy systems & robotics tracking
 
 scripts/               Node.js scrapers (Node 18+, no deps)
   scraper-news.js      RSS aggregator (Federal Register, IEEE Spectrum, TechCrunch)
