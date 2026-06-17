@@ -112,6 +112,13 @@
     .e-region.us { color: var(--status-positive); border-color: color-mix(in srgb, var(--status-positive) 35%, transparent); background: var(--status-positive-soft); }
     .e-region.china { color: var(--status-negative); border-color: color-mix(in srgb, var(--status-negative) 35%, transparent); background: var(--status-negative-soft); }
 
+    /* Deployment-status pill row on each card */
+    .e-card-top { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-bottom: 1px; }
+    .e-card-top .e-region { margin-left: auto; }
+    .e-status { letter-spacing: 0.04em; }
+    .e-statuskey { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; font-size: 12px; color: var(--text-muted); margin: 8px 0 0; line-height: 1.7; }
+    .e-statuskey .e-statuskey-sep { color: var(--text-faint); }
+
     /* Filter bar */
     .e-filter { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 18px 0 2px; }
     .e-filter input[type="search"] {
@@ -153,18 +160,6 @@
     .e-cand-name { font-family: var(--font-serif); font-weight: 700; font-size: 15px; line-height: 1.2; margin: 0; }
     .e-cand-meta { font-size: 11.5px; color: var(--text-muted); margin: 0; }
     .e-cand-foot { display: flex; align-items: center; gap: 10px; margin-top: 1px; flex-wrap: wrap; }
-    .e-add {
-      display: inline-flex; align-items: center; gap: 4px;
-      min-height: 32px; padding: 5px 11px; border-radius: 999px;
-      font-size: 12px; font-weight: 600; text-decoration: none;
-      color: var(--accent-on); background: var(--accent);
-      border: 1px solid var(--accent);
-    }
-    .e-add:hover { filter: brightness(1.06); }
-    .e-add:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-    @media (max-width: 760px), (pointer: coarse) {
-      .e-add { min-height: 44px; padding: 8px 14px; }
-    }
   </style>
 </head>
 <body>
@@ -215,49 +210,62 @@
       </p>
     </aside>
 
-    <!-- KPI strip -->
-    <section aria-label="At a glance">
-      <div class="kpi-strip cols-4" style="margin-top:18px;">
-        <div class="kpi-card"><span class="kpi-label">Application areas</span><span class="kpi-value tnum">11</span><span class="kpi-sub">across the energy value chain</span></div>
-        <div class="kpi-card"><span class="kpi-label">Companies &amp; projects</span><span class="kpi-value tnum" id="kpi-count">—</span><span class="kpi-sub">real, sourced deployments</span></div>
-        <div class="kpi-card"><span class="kpi-label">In the tracker</span><span class="kpi-value tnum" id="kpi-tracked">—</span><span class="kpi-sub">also profiled in Companies</span></div>
-        <div class="kpi-card"><span class="kpi-label">As of</span><span class="kpi-value tnum">2026-06-16</span><span class="kpi-sub">latest curation pass</span></div>
-      </div>
-      <p class="e-legend">
-        <span><a class="e-tracked" aria-hidden="true">Tracked <span class="e-arrow">↗</span></a> = also profiled in the <a href="companies.html">Companies</a> dataset.</span>
-        <span>Every card links to a primary source.</span>
-      </p>
-    </section>
-
-    <!-- Candidates to track (built from data) -->
-    <details class="collapsible-section e-cand-section" id="sec-candidates" open>
-      <summary>
-        <h2 class="section-title">Candidates to track <span class="e-cand-count" id="cand-count"></span></h2>
-        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Energy-robotics companies featured below that aren't yet in the <a href="companies.html">Companies</a> dataset. One click opens a pre-filled GitHub issue to add them.</p>
-      </summary>
-      <div class="e-cand-grid" id="cand-grid"></div>
-    </details>
-
-    <!-- Filter bar -->
+    <!-- Filter bar (applications lead the page) -->
     <form class="e-filter" id="e-filter" onsubmit="return false;" aria-label="Filter energy entries">
       <input type="search" id="e-search" placeholder="Search companies, use cases, tech…" autocomplete="off" aria-label="Search entries" />
+      <select id="e-status" aria-label="Filter by deployment status">
+        <option value="">Any status</option>
+        <option value="deployed">Deployed</option>
+        <option value="announced">Announced</option>
+        <option value="potential">Potential</option>
+      </select>
       <select id="e-region" aria-label="Filter by region">
         <option value="">All regions</option>
       </select>
       <span class="e-result-count" id="e-count" aria-live="polite"></span>
     </form>
+    <p class="e-statuskey">
+      <span class="pill positive">Deployed</span> robots working in the field today
+      <span class="e-statuskey-sep">·</span>
+      <span class="pill warning">Announced</span> contracted or piloted, not yet operational
+      <span class="e-statuskey-sep">·</span>
+      <span class="pill outline">Potential</span> early R&amp;D or concept
+    </p>
 
     <!-- Sticky jump nav (built from data) -->
     <nav class="e-jumpnav" aria-label="Jump to application area">
       <div class="e-jumpnav-track" id="jumpnav"></div>
     </nav>
 
-    <!-- Sections render here -->
+    <!-- Application sections render here -->
     <div id="sections"></div>
     <p class="e-empty" id="e-empty" hidden>No entries match your filters. <button type="button" class="btn ghost" id="e-clear" style="margin-left:6px;">Clear filters</button></p>
 
+    <!-- At a glance (summary, below the applications) -->
+    <section aria-label="At a glance">
+      <div class="kpi-strip cols-4" style="margin-top:36px;">
+        <div class="kpi-card"><span class="kpi-label">Application areas</span><span class="kpi-value tnum">11</span><span class="kpi-sub">across the energy value chain</span></div>
+        <div class="kpi-card"><span class="kpi-label">Companies &amp; projects</span><span class="kpi-value tnum" id="kpi-count">—</span><span class="kpi-sub">real, sourced entries</span></div>
+        <div class="kpi-card"><span class="kpi-label">Robots deployed</span><span class="kpi-value tnum" id="kpi-deployed">—</span><span class="kpi-sub">working in the field today</span></div>
+        <div class="kpi-card"><span class="kpi-label">In the tracker</span><span class="kpi-value tnum" id="kpi-tracked">—</span><span class="kpi-sub">also profiled in Companies</span></div>
+      </div>
+      <p class="e-legend">
+        <span><a class="e-tracked" aria-hidden="true">Tracked <span class="e-arrow">↗</span></a> = also profiled in the <a href="companies.html">Companies</a> dataset.</span>
+        <span>Every card links to a primary source. As of 2026-06-16.</span>
+      </p>
+    </section>
+
+    <!-- Candidates to track (built from data) -->
+    <details class="collapsible-section e-cand-section" id="sec-candidates">
+      <summary>
+        <h2 class="section-title">Candidates to track <span class="e-cand-count" id="cand-count"></span></h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Energy-robotics companies featured above that aren't yet in the <a href="companies.html">Companies</a> dataset — a running shortlist of what to add next.</p>
+      </summary>
+      <div class="e-cand-grid" id="cand-grid"></div>
+    </details>
+
     <p class="muted" style="font-size:12.5px;margin-top:40px;">
-      Sourcing note: entries are confirmed against company case studies or reputable trade/press coverage as of June 2026. Deployments evolve — follow each source for the current picture. Spotted a company we're missing? It probably belongs in the <a href="companies.html">Companies</a> tracker too.
+      Sourcing note: entries are confirmed against company case studies or reputable trade/press coverage as of June 2026. Deployment status (deployed / announced / potential) is an editorial read and evolves — follow each source for the current picture. Spotted a company we're missing? It probably belongs in the <a href="companies.html">Companies</a> tracker too.
     </p>
   </main>
 
@@ -446,7 +454,6 @@
 
   /* Venture-backed energy-robotics companies featured below that aren't yet
      in companies.json — surfaced as "candidates to track". Matched by exact name. */
-  const REPO = 'pranava0x0/roboticsleadership';
   const CANDIDATES = new Set([
     'Terabase Energy', 'Charge Robotics', 'Built Robotics', 'Ecoppia', 'SolarCleano',
     'Aerones', 'SkySpecs', 'Rope Robotics', 'Perceptual Robotics', 'BladeBUG',
@@ -455,19 +462,21 @@
     'KoBold Metals', 'Durin', 'Pronto',
     'Aetherflux', 'Solestial', 'Starcloud', 'Chemify', 'Kebotix',
   ]);
-  function issueURL(name, sectionTitle, tag, region, srcUrl) {
-    const title = `Add ${name} to companies dataset`;
-    const body =
-      `Candidate company surfaced from the Robotics for Energy page.\n\n` +
-      `- **Company:** ${name}\n` +
-      `- **Energy use case:** ${sectionTitle} — ${tag}\n` +
-      `- **Region:** ${region}\n` +
-      `- **Source:** ${srcUrl}\n\n` +
-      `Add a record to \`docs/data/companies.json\` following the schema ` +
-      `(id, name, founded, hq, website, funding_rounds, tags, data_confidence, ` +
-      `sources, last_updated, themes, map_category), then run \`node scripts/validate.js\`.`;
-    return `https://github.com/${REPO}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
-  }
+
+  /* Maturity of robots in the field for each entry. Default is "deployed";
+     the two sets below are the exceptions. Editorial — easy to adjust. */
+  const STATUS_LABEL = { deployed: 'Deployed', announced: 'Announced', potential: 'Potential' };
+  const STATUS_PILL = { deployed: 'positive', announced: 'warning', potential: 'outline' };
+  const ANNOUNCED = new Set([
+    'Solestial', 'Redwire / Made In Space', 'Starcloud',
+    'BladeBUG', 'EPRI — “Ti” robot', 'GA Drilling', 'Sage Geosystems', 'Durin',
+    'DEWALT + August Robotics', 'SoftBank Corp.',
+  ]);
+  const POTENTIAL = new Set([
+    'Aetherflux', 'Google — Project Suncatcher', 'NVIDIA — Cosmos',
+    'Oak Ridge National Lab', 'Quaise Energy', 'Nox Metals',
+  ]);
+  const statusOf = (name) => POTENTIAL.has(name) ? 'potential' : (ANNOUNCED.has(name) ? 'announced' : 'deployed');
 
   (function renderEnergy() {
     const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -497,16 +506,18 @@
           const srcLink = `<a class="e-src" href="${esc(it.src[1])}"${internal ? '' : ' target="_blank" rel="noopener"'}>${esc(it.src[0])} <span class="e-arrow">↗</span></a>`;
           const region = REGIONS[it.name] || 'Other';
           if (region === 'United States') usCount++;
-          if (!it.tracked && CANDIDATES.has(it.name)) candidates.push({ name: it.name, sectionTitle: s.title, tag: it.tag, region, src: it.src[1] });
+          const status = statusOf(it.name);
+          if (!it.tracked && CANDIDATES.has(it.name)) candidates.push({ name: it.name, sectionTitle: s.title, tag: it.tag, region, status, src: it.src[1] });
           const regClass = region === 'United States' ? ' us' : (region === 'China' ? ' china' : '');
           const regBadge = `<span class="e-region${regClass}" title="Based in ${esc(region)}">${esc(REGION_SHORT[region] || region)}</span>`;
-          const haystack = `${it.name} ${it.desc} ${it.tag} ${region}`.toLowerCase();
-          return `<article class="card card-hoverable e-card" data-region="${esc(region)}" data-search="${esc(haystack)}">
+          const statusPill = `<span class="pill ${STATUS_PILL[status]} e-status" title="Robots ${esc(STATUS_LABEL[status].toLowerCase())} in this use case">${esc(STATUS_LABEL[status])}</span>`;
+          const haystack = `${it.name} ${it.desc} ${it.tag} ${region} ${status}`.toLowerCase();
+          return `<article class="card card-hoverable e-card" data-region="${esc(region)}" data-status="${esc(status)}" data-search="${esc(haystack)}">
+            <div class="e-card-top">${statusPill}${regBadge}</div>
             <h3 class="card-title">${esc(it.name)}</h3>
             <p class="card-sub">${esc(it.desc)}</p>
             <div class="e-card-foot">
               <span class="pill cat-deployment">${esc(it.tag)}</span>
-              ${regBadge}
               ${srcLink}
               ${trackedLink}
             </div>
@@ -524,8 +535,11 @@
     // KPI counts
     const cnt = document.getElementById('kpi-count');
     const trk = document.getElementById('kpi-tracked');
+    const dep = document.getElementById('kpi-deployed');
+    const deployedTotal = secEl.querySelectorAll('.e-card[data-status="deployed"]').length;
     if (cnt) cnt.textContent = total;
     if (trk) trk.textContent = tracked;
+    if (dep) dep.textContent = deployedTotal;
 
     // ---------- Candidates-to-track strip ----------
     const candGrid = document.getElementById('cand-grid');
@@ -536,6 +550,7 @@
       candGrid.innerHTML = candidates.map((c) => {
         const regClass = c.region === 'United States' ? ' us' : (c.region === 'China' ? ' china' : '');
         const clean = c.name.split(' — ')[0].trim();
+        const statusPill = `<span class="pill ${STATUS_PILL[c.status]} e-status" title="Robots ${esc(STATUS_LABEL[c.status].toLowerCase())} in this use case">${esc(STATUS_LABEL[c.status])}</span>`;
         return `<article class="card e-cand">
           <div class="e-cand-head">
             <h3 class="e-cand-name">${esc(clean)}</h3>
@@ -543,15 +558,16 @@
           </div>
           <p class="e-cand-meta">${esc(c.sectionTitle.split('—')[0].trim())} · ${esc(c.tag)}</p>
           <div class="e-cand-foot">
-            <a class="e-add" href="${esc(issueURL(clean, c.sectionTitle, c.tag, c.region, c.src))}" target="_blank" rel="noopener" aria-label="Open a pre-filled GitHub issue to add ${esc(clean)}">＋ Add to tracker</a>
+            ${statusPill}
             <a class="e-src" href="${esc(c.src)}" target="_blank" rel="noopener">Source <span class="e-arrow">↗</span></a>
           </div>
         </article>`;
       }).join('');
     }
 
-    // ---------- Filter bar (search + region) ----------
+    // ---------- Filter bar (search + status + region) ----------
     const searchEl = document.getElementById('e-search');
+    const statusEl = document.getElementById('e-status');
     const regionEl = document.getElementById('e-region');
     const countEl = document.getElementById('e-count');
     const emptyEl = document.getElementById('e-empty');
@@ -566,16 +582,20 @@
     regionsPresent.sort((a, b) => (a === 'United States' ? -1 : b === 'United States' ? 1 : a.localeCompare(b)));
     regionEl.insertAdjacentHTML('beforeend', regionsPresent.map((r) => `<option value="${esc(r)}">${esc(r)}</option>`).join(''));
 
-    const defaultCount = `${total} entries · ${usCount} U.S.-based`;
+    const deployedCount = allCards.filter((c) => c.dataset.status === 'deployed').length;
+    const defaultCount = `${total} entries · ${deployedCount} deployed · ${usCount} U.S.`;
     countEl.textContent = defaultCount;
 
     function applyFilter() {
       const q = searchEl.value.trim().toLowerCase();
       const reg = regionEl.value;
+      const st = statusEl.value;
       let shown = 0;
       const perSection = {};
       allCards.forEach((card) => {
-        const match = (!q || card.dataset.search.includes(q)) && (!reg || card.dataset.region === reg);
+        const match = (!q || card.dataset.search.includes(q))
+          && (!reg || card.dataset.region === reg)
+          && (!st || card.dataset.status === st);
         card.hidden = !match;
         if (match) { shown++; const sid = card.closest('.e-section').id; perSection[sid] = (perSection[sid] || 0) + 1; }
       });
@@ -589,13 +609,14 @@
           chip.style.opacity = n === 0 ? '0.4' : '';
         }
       });
-      const filtering = q || reg;
+      const filtering = q || reg || st;
       countEl.textContent = filtering ? `${shown} of ${total} shown` : defaultCount;
       emptyEl.hidden = shown !== 0;
     }
     searchEl.addEventListener('input', applyFilter);
+    statusEl.addEventListener('change', applyFilter);
     regionEl.addEventListener('change', applyFilter);
-    if (clearBtn) clearBtn.addEventListener('click', () => { searchEl.value = ''; regionEl.value = ''; applyFilter(); searchEl.focus(); });
+    if (clearBtn) clearBtn.addEventListener('click', () => { searchEl.value = ''; statusEl.value = ''; regionEl.value = ''; applyFilter(); searchEl.focus(); });
 
     // Scroll-spy: highlight active chip
     const chips = Array.from(navEl.querySelectorAll('.e-chip'));
