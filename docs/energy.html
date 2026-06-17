@@ -131,6 +131,40 @@
     .e-card[hidden] { display: none; }
     .e-empty { color: var(--text-muted); font-size: 14px; padding: 28px 0; text-align: center; }
     .e-empty[hidden] { display: none; }
+
+    /* Candidates strip */
+    .e-cand-count {
+      font-family: var(--font-sans); font-size: 12px; font-weight: 600;
+      color: var(--accent); letter-spacing: 0; text-transform: none;
+      padding: 1px 8px; border-radius: 999px; vertical-align: middle;
+      background: color-mix(in srgb, var(--accent) 12%, transparent);
+    }
+    .e-cand-grid {
+      display: grid; gap: 10px;
+      grid-template-columns: repeat(auto-fill, minmax(228px, 1fr));
+      margin-top: 6px;
+    }
+    .e-cand {
+      display: flex; flex-direction: column; gap: 7px;
+      padding: 12px 13px; border: 1px solid var(--border);
+      border-radius: var(--radius-card, 10px); background: var(--surface);
+    }
+    .e-cand-head { display: flex; align-items: center; gap: 8px; justify-content: space-between; }
+    .e-cand-name { font-family: var(--font-serif); font-weight: 700; font-size: 15px; line-height: 1.2; margin: 0; }
+    .e-cand-meta { font-size: 11.5px; color: var(--text-muted); margin: 0; }
+    .e-cand-foot { display: flex; align-items: center; gap: 10px; margin-top: 1px; flex-wrap: wrap; }
+    .e-add {
+      display: inline-flex; align-items: center; gap: 4px;
+      min-height: 32px; padding: 5px 11px; border-radius: 999px;
+      font-size: 12px; font-weight: 600; text-decoration: none;
+      color: var(--accent-on); background: var(--accent);
+      border: 1px solid var(--accent);
+    }
+    .e-add:hover { filter: brightness(1.06); }
+    .e-add:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    @media (max-width: 760px), (pointer: coarse) {
+      .e-add { min-height: 44px; padding: 8px 14px; }
+    }
   </style>
 </head>
 <body>
@@ -194,6 +228,15 @@
         <span>Every card links to a primary source.</span>
       </p>
     </section>
+
+    <!-- Candidates to track (built from data) -->
+    <details class="collapsible-section e-cand-section" id="sec-candidates" open>
+      <summary>
+        <h2 class="section-title">Candidates to track <span class="e-cand-count" id="cand-count"></span></h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Energy-robotics companies featured below that aren't yet in the <a href="companies.html">Companies</a> dataset. One click opens a pre-filled GitHub issue to add them.</p>
+      </summary>
+      <div class="e-cand-grid" id="cand-grid"></div>
+    </details>
 
     <!-- Filter bar -->
     <form class="e-filter" id="e-filter" onsubmit="return false;" aria-label="Filter energy entries">
@@ -401,11 +444,37 @@
     'A-Lab (Berkeley Lab)': 'United States', 'Chemify': 'United Kingdom', 'Emerald Cloud Lab': 'United States', 'Kebotix': 'United States', 'Acceleration Consortium': 'Canada',
   };
 
+  /* Venture-backed energy-robotics companies featured below that aren't yet
+     in companies.json — surfaced as "candidates to track". Matched by exact name. */
+  const REPO = 'pranava0x0/roboticsleadership';
+  const CANDIDATES = new Set([
+    'Terabase Energy', 'Charge Robotics', 'Built Robotics', 'Ecoppia', 'SolarCleano',
+    'Aerones', 'SkySpecs', 'Rope Robotics', 'Perceptual Robotics', 'BladeBUG',
+    'Fervo Energy', 'Quaise Energy', 'GA Drilling', 'Sage Geosystems',
+    'Taurob — TotalEnergies', 'Energy Robotics (Korial)', 'Createc (RISER / N-Visage)',
+    'KoBold Metals', 'Durin', 'Pronto',
+    'Aetherflux', 'Solestial', 'Starcloud', 'Chemify', 'Kebotix',
+  ]);
+  function issueURL(name, sectionTitle, tag, region, srcUrl) {
+    const title = `Add ${name} to companies dataset`;
+    const body =
+      `Candidate company surfaced from the Robotics for Energy page.\n\n` +
+      `- **Company:** ${name}\n` +
+      `- **Energy use case:** ${sectionTitle} — ${tag}\n` +
+      `- **Region:** ${region}\n` +
+      `- **Source:** ${srcUrl}\n\n` +
+      `Add a record to \`docs/data/companies.json\` following the schema ` +
+      `(id, name, founded, hq, website, funding_rounds, tags, data_confidence, ` +
+      `sources, last_updated, themes, map_category), then run \`node scripts/validate.js\`.`;
+    return `https://github.com/${REPO}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+  }
+
   (function renderEnergy() {
     const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
     const navEl = document.getElementById('jumpnav');
     const secEl = document.getElementById('sections');
     let total = 0, tracked = 0, usCount = 0;
+    const candidates = [];
 
     // Build sticky nav (grouped order from CLUSTERS)
     const order = CLUSTERS.flatMap((c) => c.sections);
@@ -428,6 +497,7 @@
           const srcLink = `<a class="e-src" href="${esc(it.src[1])}"${internal ? '' : ' target="_blank" rel="noopener"'}>${esc(it.src[0])} <span class="e-arrow">↗</span></a>`;
           const region = REGIONS[it.name] || 'Other';
           if (region === 'United States') usCount++;
+          if (!it.tracked && CANDIDATES.has(it.name)) candidates.push({ name: it.name, sectionTitle: s.title, tag: it.tag, region, src: it.src[1] });
           const regClass = region === 'United States' ? ' us' : (region === 'China' ? ' china' : '');
           const regBadge = `<span class="e-region${regClass}" title="Based in ${esc(region)}">${esc(REGION_SHORT[region] || region)}</span>`;
           const haystack = `${it.name} ${it.desc} ${it.tag} ${region}`.toLowerCase();
@@ -456,6 +526,29 @@
     const trk = document.getElementById('kpi-tracked');
     if (cnt) cnt.textContent = total;
     if (trk) trk.textContent = tracked;
+
+    // ---------- Candidates-to-track strip ----------
+    const candGrid = document.getElementById('cand-grid');
+    const candCount = document.getElementById('cand-count');
+    candidates.sort((a, b) => a.name.localeCompare(b.name));
+    if (candCount) candCount.textContent = candidates.length;
+    if (candGrid) {
+      candGrid.innerHTML = candidates.map((c) => {
+        const regClass = c.region === 'United States' ? ' us' : (c.region === 'China' ? ' china' : '');
+        const clean = c.name.split(' — ')[0].trim();
+        return `<article class="card e-cand">
+          <div class="e-cand-head">
+            <h3 class="e-cand-name">${esc(clean)}</h3>
+            <span class="e-region${regClass}" title="Based in ${esc(c.region)}">${esc(REGION_SHORT[c.region] || c.region)}</span>
+          </div>
+          <p class="e-cand-meta">${esc(c.sectionTitle.split('—')[0].trim())} · ${esc(c.tag)}</p>
+          <div class="e-cand-foot">
+            <a class="e-add" href="${esc(issueURL(clean, c.sectionTitle, c.tag, c.region, c.src))}" target="_blank" rel="noopener" aria-label="Open a pre-filled GitHub issue to add ${esc(clean)}">＋ Add to tracker</a>
+            <a class="e-src" href="${esc(c.src)}" target="_blank" rel="noopener">Source <span class="e-arrow">↗</span></a>
+          </div>
+        </article>`;
+      }).join('');
+    }
 
     // ---------- Filter bar (search + region) ----------
     const searchEl = document.getElementById('e-search');
