@@ -814,6 +814,10 @@ footer.site-footer {
 }
 .muted-cell { color: var(--text-faint); font-style: italic; }
 
+/* Company name + derived deployment-stage pill (companies table) */
+.company-name-row { display: inline-flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.stage-pill { font-size: 9.5px; padding: 1px 6px; letter-spacing: 0.06em; }
+
 /* show-mobile: only visible when hide-mobile columns are hidden (≤760px).
    Must match .secondary-line specificity (0,3,0) to win. */
 .data-table td .show-mobile { display: none; }
