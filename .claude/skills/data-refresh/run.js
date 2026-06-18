@@ -155,8 +155,8 @@ async function scrapeData() {
   for (const source of sources) {
     log(`  Scraping ${source}...`);
     const cmd = source === 'news' ? 'node scripts/scraper-news.js' : 'node scripts/scraper-policy.js';
-    const { success, output } = await run(cmd);
-    if (success) {
+    const { success: cmdSuccess, output } = await run(cmd);
+    if (cmdSuccess) {
       const matches = output.match(/Added (\d+)/);
       const count = matches ? matches[1] : 0;
       success(`  ${source}: +${count} items`);
