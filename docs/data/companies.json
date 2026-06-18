@@ -5532,5 +5532,564 @@
       ]
     },
     "map_category": "enablers"
+  },
+  {
+    "id": "fanuc",
+    "name": "FANUC",
+    "founded": "1972",
+    "hq": {
+      "city": "Oshino",
+      "state": "Yamanashi",
+      "country": "Japan"
+    },
+    "website": "https://www.fanuc.co.jp",
+    "funding_rounds": [],
+    "total_funding_usd": null,
+    "latest_valuation_usd": 38900000000,
+    "robot_types": [
+      "industrial-arm",
+      "cnc"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "M-2000iA/2300 — the world's highest-payload industrial robot (2,300 kg). Six-axis arms for welding, handling, painting, assembly.",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "tags": [
+      "industrial-arm",
+      "incumbent",
+      "public-company",
+      "japan",
+      "heavy-payload",
+      "established"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+      },
+      {
+        "url": "https://stockanalysis.com/quote/tyo/6954/market-cap/"
+      },
+      {
+        "url": "https://www.fanuc.co.jp"
+      }
+    ],
+    "last_updated": "2026-06-18",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "financials": {
+      "revenue_usd": 7200000000,
+      "revenue_year": "2025",
+      "details": "One of the 'big four' industrial-robot makers; FANUC, Yaskawa, ABB and KUKA together hold roughly half of global industrial-robot revenue (FAI 2026). ~$38.9B market cap (May 2026); revenue figure is robotics-relevant but FANUC also sells CNC and factory-automation systems.",
+      "sources": [
+        {
+          "url": "https://robotomated.com/learn/market/top-robotics-companies-by-revenue"
+        }
+      ]
+    },
+    "map_category": "industrial"
+  },
+  {
+    "id": "yaskawa",
+    "name": "Yaskawa Electric",
+    "founded": "1915",
+    "hq": {
+      "city": "Kitakyushu",
+      "state": "Fukuoka",
+      "country": "Japan"
+    },
+    "website": "https://www.yaskawa-global.com",
+    "funding_rounds": [],
+    "total_funding_usd": null,
+    "latest_valuation_usd": 8490000000,
+    "robot_types": [
+      "industrial-arm",
+      "servo-motor"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Motoman six-axis industrial arms; also a leading servo-motor maker. Producing robots since 1977.",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "tags": [
+      "industrial-arm",
+      "incumbent",
+      "public-company",
+      "japan",
+      "servo-motors",
+      "established"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+      },
+      {
+        "url": "https://stockanalysis.com/quote/otc/YASKY/market-cap/"
+      },
+      {
+        "url": "https://www.yaskawa-global.com"
+      }
+    ],
+    "last_updated": "2026-06-18",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "financials": {
+      "revenue_usd": 3500000000,
+      "revenue_year": "2025",
+      "details": "One of the 'big four' industrial-robot incumbents (FAI 2026). ~$8.49B market cap (May 2026).",
+      "sources": [
+        {
+          "url": "https://robotomated.com/learn/market/top-robotics-companies-by-revenue"
+        }
+      ]
+    },
+    "map_category": "industrial"
+  },
+  {
+    "id": "abb-robotics",
+    "name": "ABB Robotics",
+    "founded": "1988",
+    "hq": {
+      "city": "Zurich",
+      "state": "N/A",
+      "country": "Switzerland"
+    },
+    "website": "https://new.abb.com/products/robotics",
+    "funding_rounds": [
+      {
+        "date": "2025-10",
+        "round": "Acquisition (SoftBank, announced)",
+        "amount_usd": 5375000000,
+        "valuation_usd": 5375000000,
+        "investors": [
+          "SoftBank Group"
+        ],
+        "url": "https://www.therobotreport.com/abb-group-sells-abb-robotics-softbank-5-3b/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": 5375000000,
+    "robot_types": [
+      "industrial-arm",
+      "cobot"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "IRB six-axis industrial arms and GoFa/YuMi cobots. Robotics lineage from ASEA (1974).",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "tags": [
+      "industrial-arm",
+      "incumbent",
+      "cobot",
+      "europe",
+      "softbank-backed",
+      "established"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+      },
+      {
+        "url": "https://www.therobotreport.com/abb-group-sells-abb-robotics-softbank-5-3b/"
+      },
+      {
+        "url": "https://new.abb.com/products/robotics"
+      }
+    ],
+    "last_updated": "2026-06-18",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "financials": {
+      "revenue_usd": 3800000000,
+      "revenue_year": "2025",
+      "details": "One of the 'big four' industrial-robot incumbents (FAI 2026). ABB agreed to divest its Robotics division to SoftBank for ~$5.375B (announced Oct 2025; expected to close mid-to-late 2026).",
+      "sources": [
+        {
+          "url": "https://www.therobotreport.com/abb-group-sells-abb-robotics-softbank-5-3b/"
+        }
+      ]
+    },
+    "map_category": "industrial"
+  },
+  {
+    "id": "kuka",
+    "name": "KUKA",
+    "founded": "1898",
+    "hq": {
+      "city": "Augsburg",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "website": "https://www.kuka.com",
+    "funding_rounds": [
+      {
+        "date": "2016-07",
+        "round": "Acquisition (Midea)",
+        "amount_usd": 5060000000,
+        "valuation_usd": 5060000000,
+        "investors": [
+          "Midea Group"
+        ],
+        "url": "https://www.industryweek.com/technology-and-iiot/robotics/article/21975985/midea-snags-close-to-86-stake-in-kuka-robotics",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": 5060000000,
+    "robot_types": [
+      "industrial-arm",
+      "cobot"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "KR-series six-axis industrial arms and LBR iiwa cobots; strong in automotive body-shop automation. Robots since 1973.",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "tags": [
+      "industrial-arm",
+      "incumbent",
+      "europe",
+      "china-owned",
+      "automotive",
+      "established"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+      },
+      {
+        "url": "https://www.industryweek.com/technology-and-iiot/robotics/article/21975985/midea-snags-close-to-86-stake-in-kuka-robotics"
+      },
+      {
+        "url": "https://www.kuka.com"
+      }
+    ],
+    "last_updated": "2026-06-18",
+    "themes": [
+      "industrial-deployments",
+      "china-scale"
+    ],
+    "financials": {
+      "revenue_usd": 3200000000,
+      "revenue_year": "2025",
+      "details": "One of the 'big four' industrial-robot incumbents (FAI 2026). German maker now owned by China's Midea Group, which valued KUKA at ~EUR4.6B (~$5.06B) in its 2016 takeover; fully acquired and delisted by 2022.",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/business/companies/article/1946774/chinas-midea-group-bids-greater-ownership-robot-maker-kuka-german"
+        }
+      ]
+    },
+    "map_category": "industrial"
+  },
+  {
+    "id": "universal-robots",
+    "name": "Universal Robots",
+    "founded": "2005",
+    "hq": {
+      "city": "Odense",
+      "state": "N/A",
+      "country": "Denmark"
+    },
+    "website": "https://www.universal-robots.com",
+    "funding_rounds": [
+      {
+        "date": "2015-05",
+        "round": "Acquisition (Teradyne)",
+        "amount_usd": 285000000,
+        "valuation_usd": 285000000,
+        "investors": [
+          "Teradyne"
+        ],
+        "url": "https://www.therobotreport.com/teradyne-acquires-universal-robots-285m/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "cobot"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "UR-series collaborative robot arms (UR3/5/10/20) — the category-defining cobot line; ~30% of the global cobot market.",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "tags": [
+      "cobot",
+      "incumbent",
+      "europe",
+      "teradyne",
+      "market-leader",
+      "established"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      {
+        "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+      },
+      {
+        "url": "https://www.therobotreport.com/teradyne-acquires-universal-robots-285m/"
+      },
+      {
+        "url": "https://www.universal-robots.com"
+      }
+    ],
+    "last_updated": "2026-06-18",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "financials": {
+      "details": "The world's largest cobot maker (~30% market share), a subsidiary of US-listed Teradyne (acquired 2015 for ~$285M; reported separately within Teradyne's Robotics segment). FAI 2026 notes UR revenue has declined in recent years amid Chinese competition; it opened its first overseas plant in China in late 2024.",
+      "sources": [
+        {
+          "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+        }
+      ]
+    },
+    "map_category": "industrial"
+  },
+  {
+    "id": "siasun",
+    "name": "Siasun Robot & Automation",
+    "founded": "2000",
+    "hq": {
+      "city": "Shenyang",
+      "state": "Liaoning",
+      "country": "China"
+    },
+    "website": "https://www.siasun.com",
+    "funding_rounds": [
+      {
+        "date": "2009-10",
+        "round": "IPO (Shenzhen)",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "SZSE: 300024"
+        ],
+        "url": "https://finance.yahoo.com/quote/300024.SZ/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": 3220000000,
+    "robot_types": [
+      "industrial-arm",
+      "cobot",
+      "AMR"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Diversified industrial robots, cobots, AMRs and smart-manufacturing lines; spun out of the Chinese Academy of Sciences' Shenyang Institute of Automation.",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "tags": [
+      "industrial-arm",
+      "china",
+      "public-company",
+      "cobot",
+      "state-linked"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      {
+        "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+      },
+      {
+        "url": "https://finance.yahoo.com/quote/300024.SZ/"
+      },
+      {
+        "url": "https://www.siasun.com"
+      }
+    ],
+    "last_updated": "2026-06-18",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "financials": {
+      "details": "One of China's largest domestic industrial-robot makers (~6.2% of the home market). Per FAI 2026, Chinese industrial-robot firms are barely profitable — median margin under 1% vs over 4% industry-wide — and Siasun has posted losses despite heavy subsidies. ~RMB23B (~$3.2B) market cap, 300024.SZ.",
+      "sources": [
+        {
+          "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+        }
+      ]
+    },
+    "map_category": "industrial"
+  },
+  {
+    "id": "efort",
+    "name": "EFORT Intelligent Equipment",
+    "founded": "2007",
+    "hq": {
+      "city": "Wuhu",
+      "state": "Anhui",
+      "country": "China"
+    },
+    "website": "https://www.efort.com.cn",
+    "funding_rounds": [
+      {
+        "date": "2017-02",
+        "round": "IPO (Shanghai)",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "SSE: 688165"
+        ],
+        "url": "https://finance.yahoo.com/quote/688165.SS/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": 1750000000,
+    "robot_types": [
+      "industrial-arm"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Six-axis industrial arms and welding/handling automation; the fourth-largest domestic Chinese robot supplier (~5.4% home-market share).",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "tags": [
+      "industrial-arm",
+      "china",
+      "public-company",
+      "welding"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      {
+        "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+      },
+      {
+        "url": "https://finance.yahoo.com/quote/688165.SS/"
+      },
+      {
+        "url": "https://www.efort.com.cn"
+      }
+    ],
+    "last_updated": "2026-06-18",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "financials": {
+      "details": "Fourth-largest domestic Chinese industrial-robot supplier (~5.4% share). FAI 2026 lists EFORT among publicly traded Chinese robot firms that are entirely unprofitable despite significant state subsidies. ~RMB12.6B (~$1.75B) market cap, 688165.SS.",
+      "sources": [
+        {
+          "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+        }
+      ]
+    },
+    "map_category": "industrial"
+  },
+  {
+    "id": "dobot",
+    "name": "Shenzhen Dobot",
+    "founded": "2015",
+    "hq": {
+      "city": "Shenzhen",
+      "state": "Guangdong",
+      "country": "China"
+    },
+    "website": "https://www.dobot-robots.com",
+    "funding_rounds": [
+      {
+        "date": "2024-12",
+        "round": "IPO (HKEX)",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "HKEX: 2432"
+        ],
+        "url": "https://finance.yahoo.com/quote/2432.HK/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": 1750000000,
+    "robot_types": [
+      "cobot",
+      "industrial-arm"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Collaborative and lightweight robot arms (CR/Nova/MG400 series) for education, light manufacturing and electronics.",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "tags": [
+      "cobot",
+      "china",
+      "public-company",
+      "education",
+      "light-manufacturing"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      {
+        "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+      },
+      {
+        "url": "https://finance.yahoo.com/quote/2432.HK/"
+      },
+      {
+        "url": "https://www.dobot-robots.com"
+      }
+    ],
+    "last_updated": "2026-06-18",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "financials": {
+      "details": "Chinese cobot maker; listed in Hong Kong (2432.HK) in December 2024. FAI 2026 lists Dobot among publicly traded Chinese robot firms that are entirely unprofitable despite subsidies. ~HKD13.7B (~$1.75B) market cap.",
+      "sources": [
+        {
+          "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+        }
+      ]
+    },
+    "map_category": "industrial"
   }
 ]
