@@ -36,3 +36,7 @@ build/
 # Logs / scratch
 *.log
 scratch/
+
+# Downloaded source artifacts (index .md is committed; raw sources stay local)
+data/research/*.pdf
+data/research/*.txt
