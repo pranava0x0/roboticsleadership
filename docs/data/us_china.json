@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-06-18",
     "captured_at": "2026-06-12",
-    "method": "Side-by-side synthesis of every key US-vs-China metric tracked on this site, plus the SemiAnalysis Unitree and robotics-supply-chain analyses"
+    "method": "Side-by-side synthesis of every key US-vs-China metric tracked on this site, plus the SemiAnalysis Unitree and robotics-supply-chain analyses. The 'Traditional arms vs cobots' section (added 2026-06-18) draws on FAI's 'The State of Industrial Robotics' (Michael & Alden, 2026)."
   },
   "bluf": {
     "headline": "China leads where robots are bought, built, and priced; the U.S. leads where they think and who funds them.",
@@ -23,6 +23,16 @@
         { "id": "operational-stock", "metric": "Operational robot stock", "us": "Part of the Americas' installed base; no country near China's scale", "china": "Over 2 million robots in operation — the largest of any country", "edge": "china", "sources": ["https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_China_in_English.pdf"] },
         { "id": "humanoid-installs", "metric": "Humanoid installations (2025)", "us": "Most of the non-China remainder of ~16,000 units", "china": ">80% of all installations; AgiBot #1 at ~31% share", "edge": "china", "sources": ["https://counterpointresearch.com/en/insights/Global-Humanoid-Robot-Installations-Reach-16,000-Units-in-2025-as-Mass-Production-Picks-Pace"] },
         { "id": "warehouse-fleet", "metric": "Single largest robot fleet", "us": "Amazon — 1M+ robots across 300+ fulfillment centers", "china": "Distributed across manufacturers; no single fleet at Amazon's scale", "edge": "us", "sources": ["https://techcrunch.com/2025/07/01/amazon-deploys-its-1-millionth-robot-releases-generative-ai-model/"] }
+      ]
+    },
+    {
+      "id": "arms-vs-cobots",
+      "title": "Traditional arms vs cobots — the AI leading indicator",
+      "metrics": [
+        { "id": "arm-incumbents", "metric": "Traditional industrial arms", "us": "Not a producer — no US firm makes heavy-duty arms; Adept was sold to Omron, Rethink's assets to Germany's HAHN. Relies on Japanese & European imports", "china": "Secondary player — passed Japan in unit production share in 2024, but no Chinese firm tops 2% of the global arm market and median Chinese-firm margins run under 1% vs over 4% industry-wide", "edge": "china", "note": "Neither superpower leads here: Japan + Europe (FANUC, Yaskawa, ABB, KUKA) hold ~85% of arm revenue. Between the US and China, only China produces at volume.", "sources": ["https://www.thefai.org/posts/the-state-of-industrial-robotics", "https://ifr.org/ifr-press-releases/news/top-5-global-robotics-trends-2026"] },
+        { "id": "cobot-shipments", "metric": "Collaborative robots (cobots)", "us": "A few small entrants (Standard Bots); negligible global share", "china": "Over half of global cobot shipments since 2023; after Denmark's Universal Robots (~30%), most of the top cobot makers are Chinese", "edge": "china", "sources": ["https://www.thefai.org/posts/the-state-of-industrial-robotics", "https://interactanalysis.com/global-collaborative-robot-shipment-growth-drops"] },
+        { "id": "cobot-selfsufficiency", "metric": "Cobot self-sufficiency", "us": "Imports the bulk of its cobots", "china": "~90% of domestic cobot demand met by Chinese makers — versus ~60% for industrial robots overall", "edge": "china", "sources": ["https://www.thefai.org/posts/the-state-of-industrial-robotics"] },
+        { "id": "ai-integration-proxy", "metric": "Why cobots are the signal", "us": "Leads the AI layer — foundation models and compute — but not the cheap, AI-integrated hardware that will carry it", "china": "Cobots are only ~12% of installs but proxy the AI-integrated future: cheaper, software-heavy, easy to deploy. China's cobot lead signals its likely position as arms go AI-native", "edge": "even", "note": "Incumbents' high-precision, heavy-payload dominance matters less as inexpensive AI-integrated systems spread.", "sources": ["https://www.thefai.org/posts/the-state-of-industrial-robotics"] }
       ]
     },
     {
