@@ -61,6 +61,7 @@ The report breaks industrial robotics down by *application* — a lens we don't 
 
 ## Low
 
+- **Data-completeness sweep (deferred long tail from 2026-06-19 audit)** — left undone to keep that pass focused and well-sourced: (1) ~37 companies missing `headcount`/`headcount_date`; (2) ~23 companies whose `sources` are bare homepages rather than announcement articles (Agility, Boston Dynamics, Gecko, Locus, Moog, et al. — improved Sanctuary AI this pass); (3) add representative `deployments` for big incumbents with empty arrays (FANUC, ABB, KUKA, Bright Machines, Bedrock); (4) triage the ~88 auto-scraped `_requires_curator_review` Federal Register entries in policies.json — delete non-robotics ones (drug scheduling, weather service) or annotate why marginal ones are kept. Each needs real sourcing, so batch via the research-agent flow.
 - **News impact-tier signal (revisit)** — removed 2026-05-17 because tiers were curator-set and added noise without driving any feature. Bring back only when there's a clear consuming surface: e.g., a "weekly briefing" digest that filters to High-impact items, or a homepage "what changed this week" strip. If we bring it back, define the tier rubric in `data_curation.md` first (what makes something High vs Medium) so the field doesn't drift.
 - **Crunchbase API integration** — paid, deferred until we have a budget line.
 - **Sentiment analysis on news** — leave as curator-only per AGENTS.md; revisit if curation becomes bottleneck.
