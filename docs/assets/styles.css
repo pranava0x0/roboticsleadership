@@ -918,19 +918,32 @@ footer.site-footer {
 /* Key-value grids */
 .kv {
   display: grid;
-  grid-template-columns: 110px 1fr;
+  grid-template-columns: 148px 1fr;
   gap: 6px 14px;
   margin: 12px 0 16px;
   font-size: 13.5px;
 }
 @media (min-width: 1024px) {
-  .kv { grid-template-columns: 130px 1fr; }
+  .kv { grid-template-columns: 160px 1fr; }
+}
+/* Phones: stack label above value. A fixed label column forces multi-word
+   labels ("Defense contracts", "Latest valuation") into ugly 2-line wraps
+   while their values sit on one line — uneven rhythm. Stacking fixes both. */
+@media (max-width: 560px) {
+  .kv {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin: 10px 0 14px;
+  }
+  .kv dt { padding-top: 11px; }
+  .kv dt:first-of-type { padding-top: 0; }
+  .kv dd { padding-top: 1px; }
 }
 .kv dt {
   color: var(--text-muted);
   font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   font-weight: 600;
   padding-top: 1px;
 }
@@ -969,6 +982,15 @@ footer.site-footer {
   margin: 0 0 8px;
   letter-spacing: -0.005em;
 }
+/* Tables nested inside a detail panel are in a narrower column than the main
+   page table — compact the cells so columns don't crush on tablet/desktop. */
+.detail-panel .data-table { font-size: 13px; }
+.detail-panel .data-table th,
+.detail-panel .data-table td { padding: 7px 10px; }
+/* Phones: tighten the divider rhythm between detail sections. */
+@media (max-width: 560px) {
+  .detail-section { margin-top: 14px; padding-top: 12px; }
+}
 
 /* ============================================================
    Charts (SVG)
@@ -990,6 +1012,24 @@ footer.site-footer {
   font-weight: 700;
   margin: 0 0 4px;
   letter-spacing: -0.005em;
+}
+.chart-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.chart-head h3 { margin-bottom: 0; }
+.chart-toggle {
+  display: inline-flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+.chart-toggle .btn.ghost {
+  padding: 3px 10px;
+  font-size: 11.5px;
+  min-height: 0;
 }
 .chart .chart-sub {
   font-size: 12.5px;

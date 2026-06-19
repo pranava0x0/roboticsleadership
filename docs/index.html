@@ -84,10 +84,16 @@
         <p class="chart-source">Built from <a href="companies.html">Companies</a> data — every funding round links to its announcement.</p>
       </div>
       <div class="chart" id="chart-top-valuations">
-        <h3>Latest valuations — top 8</h3>
-        <p class="chart-sub">Most recent disclosed post-money or comparable.</p>
+        <div class="chart-head">
+          <h3>Latest valuations — top 8</h3>
+          <div class="chart-toggle" role="group" aria-label="Valuation scope">
+            <button class="btn ghost" type="button" id="val-scope-pure" aria-pressed="true">Pure-play</button>
+            <button class="btn ghost" type="button" id="val-scope-all" aria-pressed="false">All</button>
+          </div>
+        </div>
+        <p class="chart-sub" id="val-sub">Pure-play robotics only — most recent disclosed post-money or comparable.</p>
         <svg viewBox="0 0 480 280" role="img" aria-label="Top company valuations"></svg>
-        <p class="chart-source">Latest disclosed valuations from each company's funding history (<a href="companies.html">Companies</a>).</p>
+        <p class="chart-source" id="val-source">Diversified primes &amp; industrial incumbents (e.g. Anduril, FANUC, Yaskawa) excluded — their valuations span well beyond robotics. Toggle “All” to include them. Source: <a href="companies.html">Companies</a>.</p>
       </div>
     </div>
 
@@ -158,7 +164,8 @@
 
     // ---------- Charts ----------
     renderFundingByYear(companies);
-    renderTopValuations(companies);
+    renderTopValuations(companies, 'pure');
+    wireValuationScope(companies);
 
     // ---------- Recent news (top 5) ----------
     const sorted = [...news].sort((a, b) => (a.date < b.date ? 1 : -1));
@@ -265,13 +272,18 @@
     svg.innerHTML = grid + bars;
   }
 
-  function renderTopValuations(companies) {
+  // A company's valuation is "pure-play" robotics unless it's a diversified prime
+  // or an industrial incumbent whose market cap spans well beyond robotics.
+  function isPurePlay(c) {
+    const tags = c.tags || [];
+    return !tags.includes('incumbent') && !tags.includes('diversified');
+  }
+
+  function renderTopValuations(companies, scope = 'pure') {
     const svg = document.querySelector('#chart-top-valuations svg');
-    const data = RT.sortBy(
-      companies.filter(c => c.latest_valuation_usd != null),
-      c => c.latest_valuation_usd,
-      'desc'
-    ).slice(0, 8);
+    const pool = companies.filter(c => c.latest_valuation_usd != null)
+      .filter(c => scope === 'all' ? true : isPurePlay(c));
+    const data = RT.sortBy(pool, c => c.latest_valuation_usd, 'desc').slice(0, 8);
     if (!data.length) return;
     const W = 480, H = 280, padL = 110, padR = 70, padT = 8, padB = 8;
     const innerW = W - padL - padR;
@@ -288,6 +300,33 @@
       `;
     }).join('');
     svg.innerHTML = bars;
+  }
+
+  function wireValuationScope(companies) {
+    const pureBtn = document.getElementById('val-scope-pure');
+    const allBtn = document.getElementById('val-scope-all');
+    const sub = document.getElementById('val-sub');
+    const source = document.getElementById('val-source');
+    if (!pureBtn || !allBtn) return;
+    const COPY = {
+      pure: {
+        sub: 'Pure-play robotics only — most recent disclosed post-money or comparable.',
+        source: 'Diversified primes &amp; industrial incumbents (e.g. Anduril, FANUC, Yaskawa) excluded — their valuations span well beyond robotics. Toggle “All” to include them. Source: <a href="companies.html">Companies</a>.',
+      },
+      all: {
+        sub: 'All tracked companies — incl. diversified primes &amp; industrial incumbents.',
+        source: 'Incumbent &amp; diversified valuations are whole-company (market cap or post-money), not robotics-only. Source: <a href="companies.html">Companies</a>.',
+      },
+    };
+    const apply = (scope) => {
+      pureBtn.setAttribute('aria-pressed', String(scope === 'pure'));
+      allBtn.setAttribute('aria-pressed', String(scope === 'all'));
+      sub.innerHTML = COPY[scope].sub;
+      source.innerHTML = COPY[scope].source;
+      renderTopValuations(companies, scope);
+    };
+    pureBtn.addEventListener('click', () => apply('pure'));
+    allBtn.addEventListener('click', () => apply('all'));
   }
 
   function formatTick(n) {
