@@ -486,10 +486,33 @@
         "url": "https://www.anduril.com",
         "confidence": "confirmed",
         "archive_url": "https://web.archive.org/web/20260511102010/https://www.anduril.com/"
+      },
+      {
+        "date": "2025-06",
+        "round": "Series G",
+        "amount_usd": 2500000000,
+        "valuation_usd": 30500000000,
+        "investors": [
+          "Founders Fund"
+        ],
+        "url": "https://finance.yahoo.com/news/anduril-industries-raises-2-5bn-084718100.html",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-05",
+        "round": "Series H",
+        "amount_usd": 5000000000,
+        "valuation_usd": 61000000000,
+        "investors": [
+          "Thrive Capital",
+          "Andreessen Horowitz"
+        ],
+        "url": "https://www.cnbc.com/2026/05/13/anduril-valuation-defense-tech-funding-boom.html",
+        "confidence": "confirmed"
       }
     ],
-    "total_funding_usd": 3700000000,
-    "latest_valuation_usd": 14000000000,
+    "total_funding_usd": 11300000000,
+    "latest_valuation_usd": 61000000000,
     "robot_types": [
       "UAV",
       "USV",
@@ -530,16 +553,20 @@
       "defense",
       "unicorn",
       "us-manufactured",
-      "autonomous-systems"
+      "autonomous-systems",
+      "diversified"
     ],
     "data_confidence": "high",
     "sources": [
       {
         "url": "https://www.anduril.com",
         "archive_url": "https://web.archive.org/web/20260511102010/https://www.anduril.com/"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/05/13/anduril-valuation-defense-tech-funding-boom.html"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-19",
     "themes": [
       "defense-procurement",
       "policy-momentum"
@@ -549,10 +576,10 @@
       "revenue_year": "2025",
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private defense technology company. FY2025 estimated revenue grew to $2.1B-$2.2B (from ~$1B in FY2024). Series F funding round in late 2025/early 2026 valued company at $61B.",
+      "details": "Private defense technology company. FY2025 estimated revenue grew to $2.1B-$2.2B (from ~$1B in FY2024). May 2026 Series H ($5B, led by Thrive Capital and Andreessen Horowitz) valued the company at $61B, double the $30.5B Series G of June 2025.",
       "sources": [
         {
-          "url": "https://www.bloomberg.com/"
+          "url": "https://www.cnbc.com/2026/05/13/anduril-valuation-defense-tech-funding-boom.html"
         }
       ]
     },
@@ -1499,7 +1526,7 @@
         "confidence": "confirmed"
       }
     ],
-    "total_funding_usd": null,
+    "total_funding_usd": 140700000,
     "latest_valuation_usd": null,
     "robot_types": [
       "quadruped",
@@ -3711,7 +3738,7 @@
           "BDC Capital",
           "Magna International"
         ],
-        "url": "https://www.sanctuary.ai",
+        "url": "https://www.sanctuary.ai/blog/sanctuary-ai-closes-75-million-series-a-funding",
         "confidence": "confirmed",
         "archive_url": "https://web.archive.org/web/20260419222610/https://www.sanctuary.ai/"
       },
@@ -3743,7 +3770,7 @@
         "start_date": "2024-04",
         "status": "pilot",
         "use_case": "automotive assembly tasks",
-        "source_url": "https://www.sanctuary.ai",
+        "source_url": "https://www.therobotreport.com/sanctuary-ai-enters-strategic-relationship-with-magna-to-build-embodied-ai-robots/",
         "archive_url": "https://web.archive.org/web/20260419222610/https://www.sanctuary.ai/"
       }
     ],
@@ -3986,17 +4013,19 @@
       },
       {
         "date": "2026-01",
-        "round": "Series B",
+        "round": "Series C",
         "amount_usd": 1400000000,
         "valuation_usd": 14000000000,
         "investors": [
           "SoftBank",
-          "Jeff Bezos",
+          "Nvidia",
+          "Macquarie Group",
+          "1789 Capital",
           "Coatue",
           "Lightspeed"
         ],
-        "url": "https://www.skild.ai",
-        "confidence": "reported",
+        "url": "https://www.businesswire.com/news/home/20260114335623/en/Skild-AI-Raises-$1.4B-Now-Valued-Over-$14B",
+        "confidence": "confirmed",
         "archive_url": "https://web.archive.org/web/20260504184313/https://www.skild.ai/"
       }
     ],
@@ -4037,9 +4066,12 @@
       {
         "url": "https://www.skild.ai",
         "archive_url": "https://web.archive.org/web/20260504184313/https://www.skild.ai/"
+      },
+      {
+        "url": "https://techcrunch.com/2026/01/14/robotic-software-maker-skild-ai-hits-14b-valuation/"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-19",
     "themes": [
       "foundation-models"
     ],
@@ -4048,10 +4080,10 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private software/AI brain startup. Pre-revenue. Series B funding round in Jan 2026 raised $1.4B at a reported $14B valuation.",
+      "details": "Private software/AI brain startup. Pre-revenue. Series C funding round in Jan 2026 raised $1.4B led by SoftBank (with Nvidia) at a $14B valuation, up from a $4.5B valuation in mid-2025.",
       "sources": [
         {
-          "url": "https://www.skild.ai"
+          "url": "https://www.businesswire.com/news/home/20260114335623/en/Skild-AI-Raises-$1.4B-Now-Valued-Over-$14B"
         }
       ]
     },
@@ -5301,6 +5333,102 @@
     "map_category": "brains"
   },
   {
+    "id": "xdof",
+    "name": "XDOF",
+    "founded": "2024",
+    "hq": {
+      "city": "Emeryville",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://xdof.ai",
+    "funding_rounds": [
+      {
+        "date": "2026-06",
+        "round": "Seed",
+        "amount_usd": 70000000,
+        "valuation_usd": null,
+        "investors": [
+          "Thrive Capital",
+          "Andreessen Horowitz",
+          "Spark Capital",
+          "Lux Capital",
+          "WndrCo"
+        ],
+        "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 70000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "ai-infrastructure"
+    ],
+    "primary_use_case": "teleoperation data pipelines and infrastructure for robot foundation models",
+    "flagship_product": "ABC-130K (open-source bimanual manipulation dataset); teleoperation data + collection services",
+    "deployments": [],
+    "headcount": 60,
+    "headcount_date": "2026-06",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Philipp Wu",
+        "role": "CEO / Co-Founder"
+      },
+      {
+        "name": "Fred (Yide) Shentu",
+        "role": "CTO / Co-Founder"
+      },
+      {
+        "name": "Nemo Jin",
+        "role": "COO / Co-Founder"
+      }
+    ],
+    "ceo": "Philipp Wu",
+    "tags": [
+      "physical-ai",
+      "robot-data",
+      "teleoperation",
+      "foundation-model-infrastructure",
+      "emeryville",
+      "a16z-backed",
+      "thrive-backed"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://xdof.ai"
+      },
+      {
+        "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/"
+      },
+      {
+        "url": "https://siliconangle.com/2026/06/17/robotic-teleoperation-data-startup-xdof-launches-70m-funding/"
+      }
+    ],
+    "last_updated": "2026-06-19",
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Robot-training-data infrastructure startup (Emeryville, CA), founded October 2024 by ex-Covariant/Tesla/Meta and UC Berkeley researchers behind the GELLO teleoperation system. Emerged from stealth June 17 2026 with a $70M round (Thrive Capital, a16z, Spark Capital, Lux, WndrCo); ~60 employees and ~20 customers including frontier AI labs. Released ABC-130K, described as the world's largest open-source bimanual robot manipulation dataset (130K trajectories, 195 tasks; with UC Berkeley, CMU, MIT, Amazon).",
+      "sources": [
+        {
+          "url": "https://siliconangle.com/2026/06/17/robotic-teleoperation-data-startup-xdof-launches-70m-funding/"
+        }
+      ]
+    },
+    "map_category": "enablers"
+  },
+  {
     "id": "orangewood-labs",
     "name": "Orangewood Labs",
     "founded": "2017",
@@ -5829,7 +5957,7 @@
         "confidence": "reported"
       }
     ],
-    "total_funding_usd": null,
+    "total_funding_usd": 285000000,
     "latest_valuation_usd": null,
     "robot_types": [
       "cobot"
@@ -6091,5 +6219,85 @@
       ]
     },
     "map_category": "industrial"
+  },
+  {
+    "id": "intrinsic",
+    "name": "Intrinsic",
+    "founded": "2021",
+    "hq": {
+      "city": "Mountain View",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.intrinsic.ai",
+    "funding_rounds": [],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "industrial-arm",
+      "software-platform"
+    ],
+    "primary_use_case": "industrial robotics software / AI-driven robot programming",
+    "flagship_product": "Flowstate (robotics app development platform); Intrinsic Vision AI",
+    "deployments": [
+      {
+        "customer": "Foxconn (Hon Hai)",
+        "location": "Taiwan / global electronics manufacturing",
+        "robot_count": null,
+        "use_case": "general-purpose intelligent robots for electronics manufacturing (joint venture, Hon Hai Tech Day 2025)",
+        "status": "planned",
+        "start_date": "2025-10",
+        "source_url": "https://www.intrinsic.ai/blog/posts/foxconn-and-intrinsic-launch-joint-venture-to-build-the-ai-factory-of-the-future"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Wendy Tan White",
+        "role": "Founder / CEO"
+      }
+    ],
+    "ceo": "Wendy Tan White",
+    "tags": [
+      "industrial",
+      "robotics-software",
+      "alphabet",
+      "google",
+      "ros",
+      "foundation-models"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2023/05/15/alphabets-intrinsic-launches-flowstate-a-robotic-app-development-platform/"
+      },
+      {
+        "url": "https://www.therobotreport.com/intrinsic-acquires-ros-maker-open-source-robotics-corp/"
+      }
+    ],
+    "last_updated": "2026-06-19",
+    "themes": [
+      "industrial-deployments",
+      "foundation-models",
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Alphabet subsidiary spun out of the X moonshot factory in 2021; financials are consolidated into Alphabet, so it has no disclosed external funding rounds or standalone valuation. It acquired Vicarious (2022) and the commercial arm of Open Robotics — OSRC/OSRC-SG (Dec 2022) — while ROS/Gazebo IP remained with the Open Source Robotics Foundation. In early 2026 Intrinsic was folded more tightly into Google to work with Google DeepMind on Gemini-powered robotics.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2022/12/15/alphabets-intrinsic-acquires-darpa-backed-firm-behind-open-source-robotics-software/"
+        }
+      ]
+    },
+    "map_category": "brains"
   }
 ]

@@ -52,7 +52,10 @@
     "rd_focus": "Industrial policy + standards rather than direct R&D.",
     "applications": "Semiconductor fab automation; regional robotics clusters via Tech Hubs.",
     "manufacturing": "Central — administers CHIPS funding and designates Regional Tech Hubs.",
-    "notes": []
+    "notes": [
+      "NIST (a DOC bureau) sets robot performance & safety test methods and maintains the AI RMF, in revision per the 2025 AI Action Plan.",
+      "CHIPS Act ($39B, Commerce-administered) is reshoring fab automation — TSMC began advanced-chip production in Phoenix in 2025."
+    ]
   },
   {
     "id": "nist",
@@ -122,7 +125,10 @@
     "rd_focus": "High-risk autonomy research; technology-transition to services + commercial primes.",
     "applications": "Autonomous aerial / ground / maritime systems; satellite servicing.",
     "manufacturing": "Funds prototype manufacturing through cooperative agreements.",
-    "notes": []
+    "notes": [
+      "RACER off-road ground-autonomy program transitioned GPS-free, unmapped-terrain navigation to the Army and Marine Corps in 2025.",
+      "NOMARS christened the 180-ft uncrewed USX-1 Defiant (Aug 2025); the Deep Thoughts solicitation (Apr 2026) seeks rapid-build small autonomous undersea vehicles."
+    ]
   },
   {
     "id": "usda",
@@ -148,7 +154,10 @@
     "rd_focus": "Surgical, rehabilitation, and assistive robotics across <a href=\"https://www.nibib.nih.gov/\" target=\"_blank\" rel=\"noopener\">NIBIB</a>, NCI, NICHD, NINDS.",
     "applications": "Robotic surgery, prosthetics, in-home elder care, telerehab.",
     "manufacturing": "Indirect — medical-device pathways via FDA.",
-    "notes": []
+    "notes": [
+      "NIBIB runs the cross-NIH robotics program (surgery, prosthetics, rehab, assistive care) on a ~$440.6M FY2025 budget.",
+      "BRAIN Initiative neuroprosthetics/BCI funding fell to ~$320M in 2025; Cures Act funding expires after 2026."
+    ]
   },
   {
     "id": "dot",
@@ -160,7 +169,10 @@
     "rd_focus": "Autonomous-vehicle safety research; freight automation; UAS integration.",
     "applications": "On-road AVs, autonomous freight rail, commercial UAS, urban air mobility.",
     "manufacturing": "Indirect — sets safety + certification pathways.",
-    "notes": []
+    "notes": [
+      "DOT/NHTSA issued a new Automated Vehicle Framework (Apr 2025) and plans four ADS rulemakings in 2026 to ease rules for vehicles without manual controls.",
+      "FAA's Part 108 BVLOS drone rule (NPRM Aug 2025) would license routine beyond-visual-line-of-sight operations; final rule expected 2026."
+    ]
   },
   {
     "id": "dod",
