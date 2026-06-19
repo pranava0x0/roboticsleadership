@@ -4639,6 +4639,224 @@
     ]
   },
   {
+    "id": "ca-cpuc-av-passenger-programs",
+    "title": "California — CPUC Autonomous Vehicle Passenger Service Programs",
+    "type": "Regulation",
+    "level": "State",
+    "state": "CA",
+    "introduced_date": "2023-08",
+    "status": "In effect",
+    "bill_number": null,
+    "sponsor": "California Public Utilities Commission (CPUC)",
+    "summary": "Under its AV passenger-service framework, the CPUC issues Drivered/Driverless Pilot and Deployment permits that let companies such as Waymo carry passengers for a fare in autonomous vehicles. On Aug. 10, 2023 the Commission approved resolutions allowing fared, driverless robotaxi operation 24/7 in San Francisco, and in Aug. 2025 opened rulemaking R.25-08-013 to update AV passenger-transport rules. Operators must also hold a parallel California DMV deployment permit.",
+    "full_text_url": "https://www.cpuc.ca.gov/regulatory-services/licensing/transportation-licensing-and-analysis-branch/autonomous-vehicle-programs",
+    "robotics_scope": "Robotaxi/AV passenger-service permitting & oversight",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "AV/robotaxi operators",
+      "rideshare passengers",
+      "AV technology developers"
+    ],
+    "agency_responsible": [],
+    "startup_eligible": true,
+    "application_url": "https://www.cpuc.ca.gov/regulatory-services/licensing/transportation-licensing-and-analysis-branch/autonomous-vehicle-programs",
+    "tags": [
+      "state",
+      "california",
+      "in-effect",
+      "robotaxi",
+      "autonomous-vehicles",
+      "regulation"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cpuc.ca.gov/regulatory-services/licensing/transportation-licensing-and-analysis-branch/autonomous-vehicle-programs"
+      },
+      {
+        "url": "https://www.gtlaw.com/en/insights/2023/8/cpuc-approves-full-use-of-driverless-robocabs-in-san-francisco-with-more-to-come-in-california"
+      }
+    ],
+    "last_updated": "2026-06-19",
+    "themes": [
+      "policy-momentum",
+      "physical-ai"
+    ]
+  },
+  {
+    "id": "ca-california-competes-tax-credit",
+    "title": "California — California Competes Tax Credit (GO-Biz)",
+    "type": "Incentive Program",
+    "level": "State",
+    "state": "CA",
+    "introduced_date": "2014-01",
+    "status": "Active",
+    "bill_number": null,
+    "sponsor": "Governor's Office of Business and Economic Development (GO-Biz)",
+    "summary": "The California Competes Tax Credit (CCTC) is a negotiable income-tax-credit program run by GO-Biz that rewards companies for creating jobs and investing in California, with roughly $922.7M allocated for FY2025-26 across competitive application windows. Eligible sectors include advanced manufacturing, microelectronics, and aerospace, making robotics and hardware startups eligible to apply. It is open to businesses of any size, including startups expanding or relocating in-state.",
+    "full_text_url": "https://business.ca.gov/california-competes-tax-credit/",
+    "robotics_scope": "Advanced-manufacturing & R&D job/investment tax credits",
+    "estimated_budget_usd": 922694691,
+    "beneficiaries": [
+      "advanced-manufacturing firms",
+      "robotics/hardware startups",
+      "expanding employers"
+    ],
+    "agency_responsible": [],
+    "startup_eligible": true,
+    "application_url": "https://calcompetes.ca.gov/",
+    "tags": [
+      "state",
+      "california",
+      "active",
+      "incentive",
+      "tax-credit",
+      "manufacturing"
+    ],
+    "sources": [
+      {
+        "url": "https://business.ca.gov/california-awards-120-million-in-grants-and-66-4-million-in-tax-credits-projected-to-create-more-than-11607-jobs/"
+      },
+      {
+        "url": "https://www.gov.ca.gov/2026/05/06/governor-newsom-announces-1b-in-private-investment-generated-through-california-competes-tax-credits-driving-business-expansion-in-key-industry-sectors/"
+      }
+    ],
+    "last_updated": "2026-06-19",
+    "themes": [
+      "policy-momentum",
+      "industrial-deployments",
+      "us-supply-chain"
+    ]
+  },
+  {
+    "id": "az-eo-2018-04-av",
+    "title": "Arizona — Executive Order 2018-04 (Autonomous Vehicle Testing & Operating)",
+    "type": "Executive Order",
+    "level": "State",
+    "state": "AZ",
+    "introduced_date": "2018-03",
+    "status": "In effect",
+    "bill_number": "AZ EO 2018-04",
+    "sponsor": "Governor Doug Ducey",
+    "summary": "Executive Order 2018-04 updated Arizona's framework for testing and operating autonomous vehicles, requiring driverless operators to comply with NHTSA voluntary safety standards and to register fully driverless vehicles with the state, and to bring a vehicle to a 'minimal risk condition' if the automated system fails. The order made Arizona an early hub for fully driverless operation — home to Waymo's commercial robotaxi service — alongside testing by GM, Uber, and Intel.",
+    "full_text_url": "https://azmemory.azlibrary.gov/nodes/view/44933",
+    "robotics_scope": "Driverless AV testing & deployment rules",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "AV/robotaxi operators",
+      "AV technology developers",
+      "Arizona residents"
+    ],
+    "agency_responsible": [],
+    "startup_eligible": true,
+    "application_url": "https://azdot.gov/mvd/services/professional-services/autonomous-vehicles-testing-and-operating-state-arizona",
+    "tags": [
+      "state",
+      "arizona",
+      "in-effect",
+      "executive-order",
+      "autonomous-vehicles"
+    ],
+    "sources": [
+      {
+        "url": "https://azmemory.azlibrary.gov/nodes/view/44933"
+      },
+      {
+        "url": "https://azdot.gov/mvd/services/professional-services/autonomous-vehicles-testing-and-operating-state-arizona"
+      }
+    ],
+    "last_updated": "2026-06-19",
+    "themes": [
+      "policy-momentum",
+      "physical-ai"
+    ]
+  },
+  {
+    "id": "nv-ab511-autonomous-vehicles",
+    "title": "Nevada — AB 511 / NRS Chapter 482A (Autonomous Vehicles)",
+    "type": "Bill",
+    "level": "State",
+    "state": "NV",
+    "introduced_date": "2011-06",
+    "status": "In effect",
+    "bill_number": "NV AB 511",
+    "sponsor": "Nevada State Legislature (signed by Gov. Brian Sandoval)",
+    "summary": "Signed in June 2011, AB 511 made Nevada the first U.S. state to authorize autonomous vehicles on public highways and directed the DMV to adopt operating and testing regulations, now codified in NRS Chapter 482A. It defines an autonomous vehicle as one using AI, sensors, and GPS to drive without active human intervention, and requires manufacturers/developers to self-certify compliance and register before operating. The statute established the licensing and insurance/bond foundation for AV testing in the state.",
+    "full_text_url": "https://www.leg.state.nv.us/nrs/nrs-482a.html",
+    "robotics_scope": "AV testing & deployment licensing statute",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "AV manufacturers",
+      "AV technology developers",
+      "Nevada residents"
+    ],
+    "agency_responsible": [],
+    "startup_eligible": true,
+    "application_url": "https://dmv.nv.gov/autonomous.htm",
+    "tags": [
+      "state",
+      "nevada",
+      "in-effect",
+      "autonomous-vehicles",
+      "first-in-nation"
+    ],
+    "sources": [
+      {
+        "url": "https://www.leg.state.nv.us/nrs/nrs-482a.html"
+      },
+      {
+        "url": "https://www.greencarcongress.com/2011/06/ab511-20110625.html"
+      }
+    ],
+    "last_updated": "2026-06-19",
+    "themes": [
+      "policy-momentum",
+      "physical-ai"
+    ]
+  },
+  {
+    "id": "fl-hb311-autonomous-vehicles",
+    "title": "Florida — HB 311 (Autonomous Vehicles)",
+    "type": "Bill",
+    "level": "State",
+    "state": "FL",
+    "introduced_date": "2019-03",
+    "status": "In effect",
+    "bill_number": "FL HB 311",
+    "sponsor": "Florida Legislature (Rep. Jason Fischer)",
+    "summary": "CS/HB 311, effective July 1, 2019, authorizes a fully autonomous vehicle to operate on Florida roads regardless of whether a human operator is physically present, and provides that a licensed human operator is not required. It deems the automated driving system to be the legal operator while engaged, and sets insurance requirements for on-demand autonomous-vehicle networks. The law makes Florida one of the most permissive states for fully driverless operation and deployment.",
+    "full_text_url": "https://flsenate.gov/Session/Bill/2019/311",
+    "robotics_scope": "Fully driverless AV operation & deployment",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "AV/robotaxi operators",
+      "autonomous delivery networks",
+      "Florida residents"
+    ],
+    "agency_responsible": [],
+    "startup_eligible": true,
+    "application_url": null,
+    "tags": [
+      "state",
+      "florida",
+      "in-effect",
+      "autonomous-vehicles",
+      "driverless"
+    ],
+    "sources": [
+      {
+        "url": "https://flsenate.gov/Session/Bill/2019/311"
+      },
+      {
+        "url": "https://www.flsenate.gov/Committees/BillSummaries/2019/html/1946"
+      }
+    ],
+    "last_updated": "2026-06-19",
+    "themes": [
+      "policy-momentum",
+      "physical-ai"
+    ]
+  },
+  {
     "id": "fedreg-2023-06222",
     "title": "Certain Robotic Floor Cleaning Devices and Components Thereof; Notice of Commission Final Determination Finding a Violation of Section 337; Issuance of a Limited Exclusion Order and Cease and Desist Orders; Termination of the Investigation",
     "type": "Regulation",
