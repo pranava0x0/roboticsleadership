@@ -1,5 +1,737 @@
 [
   {
+    "id": "fedreg-news-2026-12352",
+    "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-ODVA, Inc.",
+    "date": "2026-06-22",
+    "source": "federal-register-robotics",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/06/22/2026-12352/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-odva-inc",
+    "summary": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-ODVA, Inc.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ]
+  },
+  {
+    "id": "hn-48623965",
+    "title": "Show HN: Wirewright, an experimental symbolic physics environment",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/wirewright/wirewright",
+    "summary": "The idea with Wirewright is to treat programs and algorithms as physical mechanisms, as machines or societies of machines inhabiting an immutable symbolic world, and time-step the latter to see what h",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48630573",
+    "title": "Sam Altman's Orb startup investigated financial misconduct allegations",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.businessinsider.com/sam-altman-tools-for-humanity-orb-investigations-bribery-financial-irregularities",
+    "summary": "Sam Altman's Orb startup investigated financial misconduct allegations",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48597302",
+    "title": "Indian IT stocks slump up to 7% as Accenture cuts revenue outlook",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.cnbc.com/2026/06/19/india-it-stocks-fall-accenture-cuts-revenue-forecast.html",
+    "summary": "Indian IT stocks slump up to 7% as Accenture cuts revenue outlook",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48597346",
+    "title": "Please Stop Talking About AGI (2025)",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://blog.jxmo.io/p/we-should-stop-talking-about-agi",
+    "summary": "Please Stop Talking About AGI (2025)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48597767",
+    "title": "AWS Continuum",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://aws.amazon.com/continuum/",
+    "summary": "AWS Continuum",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48598086",
+    "title": "Linux Maintainer Greg Kroah-Hartman Says AI Tools Now Useful, Finding Real Bugs",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.theregister.com/software/2026/03/26/linux-kernel-czar-says-ai-bug-reports-arent-slop-anymore/5226256",
+    "summary": "Linux Maintainer Greg Kroah-Hartman Says AI Tools Now Useful, Finding Real Bugs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48598216",
+    "title": "AWS Blocks, an open-source framework for composing application back ends on AWS",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-blocks-preview/",
+    "summary": "AWS Blocks, an open-source framework for composing application back ends on AWS",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48598370",
+    "title": "Waymo recalls ~3,900 robotaxis, some drove into 'freeway construction zones'",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.cnbc.com/2026/06/18/waymo-nhtsa-voluntary-recall-robotaxis-entered-freeway-construction-zones.html",
+    "summary": "Waymo recalls ~3,900 robotaxis, some drove into 'freeway construction zones'",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48598499",
+    "title": "Sashiko: AI code review system for the Linux kernel",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.theregister.com/software/2026/03/20/linux-kernel-engineer-introduces-sashiko-code-review-system/5223725",
+    "summary": "Sashiko: AI code review system for the Linux kernel",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48598998",
+    "title": "The Robot Gearbox China Had to Grind for Itself – Industrial and Manufacturing",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://atomsfrontier.substack.com/p/the-robot-gearbox-china-had-to-grind",
+    "summary": "The Robot Gearbox China Had to Grind for Itself – Industrial and Manufacturing",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48599766",
+    "title": "The AI slop refactor wave is coming",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://old.reddit.com/r/SaaS/comments/1u6f84g/the_ai_slop_refactor_wave_is_coming_and_i_havent/",
+    "summary": "The AI slop refactor wave is coming",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48599998",
+    "title": "Munich 1991: The Roots of the Current AI Boom",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+    "summary": "Munich 1991: The Roots of the Current AI Boom",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48600768",
+    "title": "AI will create more jobs for humans, not replace them, Amazon founder Bezos says",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.bbc.com/news/articles/ceqdrw2yy3vo",
+    "summary": "AI will create more jobs for humans, not replace them, Amazon founder Bezos says",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48604181",
+    "title": "Comparison of simulation environments for robot training data",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.humanoidsdata.com/articles/simulation-environments-robot-training-data",
+    "summary": "Comparison of simulation environments for robot training data",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48605970",
+    "title": "Show HN: Juakali: a datalayer to build artificial general engineer",
+    "date": "2026-06-20",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://4dlab.xyz/juakali/",
+    "summary": "Robotic systems lack physics-aware training data for precise industrial assembly tasks involving force, torque, and tight-tolerance interactions, limiting real-world automation performance.Juakali is ",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48606397",
+    "title": "Trapped in a Waymo: SF passenger recounts terrifying construction zone ordeal",
+    "date": "2026-06-20",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://abc7news.com/post/waymo-recall-san-francisco-man-recounts-terrifying-moment-when-robotaxi-goes-haywire-construction-zone/19328050/",
+    "summary": "Trapped in a Waymo: SF passenger recounts terrifying construction zone ordeal",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48607963",
+    "title": "When a Robot Kicks a Child",
+    "date": "2026-06-20",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.law.kuleuven.be/citip/blog/when-a-robot-kicks-a-child-what-humanoid-ai-can-teach-us-about-liability-and-safety-by-design/",
+    "summary": "When a Robot Kicks a Child",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48608172",
+    "title": "A Web-Scale Data Engine for Video-to-Action Robot Learning",
+    "date": "2026-06-20",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://huggingface.co/spaces/Rice-RobotPI-Lab/EgoInfinity",
+    "summary": "A Web-Scale Data Engine for Video-to-Action Robot Learning",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48610549",
+    "title": "Eliya – a compliance-focused OpenJDK 25 distribution (Phase 1 of a JVM platform)",
+    "date": "2026-06-20",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://root.asymm.systems/product/eliya",
+    "summary": "Eliya – a compliance-focused OpenJDK 25 distribution (Phase 1 of a JVM platform)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48612098",
+    "title": "AMD will reinstate memory encryption on Ryzen 9000 CPUs via BIOS update in July",
+    "date": "2026-06-20",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback",
+    "summary": "AMD will reinstate memory encryption on Ryzen 9000 CPUs via BIOS update in July",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48614390",
+    "title": "'We had to get out of the way': The backlash over delivery robots",
+    "date": "2026-06-21",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.bbc.com/news/articles/c0rygp005wjo",
+    "summary": "'We had to get out of the way': The backlash over delivery robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48615427",
+    "title": "I guess I should have become a Plumber",
+    "date": "2026-06-21",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.robot-future.com/preview/6a3758e002c7a770662f8346",
+    "summary": "I guess I should have become a Plumber",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48615909",
+    "title": "He made your free video player run smoothly. Now he's doing that for robots",
+    "date": "2026-06-21",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/",
+    "summary": "He made your free video player run smoothly. Now he's doing that for robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48618555",
+    "title": "Robotics Teams Are Rebuilding the Data Stack from Scratch",
+    "date": "2026-06-21",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://rerun.io/blog/data-layer-tax",
+    "summary": "Robotics Teams Are Rebuilding the Data Stack from Scratch",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48626530",
+    "title": "A Game of Robot Telephone",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://poyo.co/note/20260619T090202/",
+    "summary": "A Game of Robot Telephone",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48629489",
+    "title": "Skillsoft Selling Global Knowledge Business to Enduring Ventures",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.businesswire.com/news/home/20260520936193/en/Skillsoft-Announces-Sale-of-Global-Knowledge-Business-to-Enduring-Ventures",
+    "summary": "Skillsoft Selling Global Knowledge Business to Enduring Ventures",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48629677",
+    "title": "The Leg That Feels the Ground Through Its Gears – Mobility and Field Robotics",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://atomsfrontier.substack.com/p/the-leg-that-feels-the-ground-through",
+    "summary": "The Leg That Feels the Ground Through Its Gears – Mobility and Field Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48630118",
+    "title": "Extreme Dynamic Symmetry Enables Omnidirectional and Multifunctional Robots",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://generalroboticslab.com/Argus",
+    "summary": "Extreme Dynamic Symmetry Enables Omnidirectional and Multifunctional Robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48630122",
+    "title": "Robotic exoskeleton could redefine how stroke survivors relearn to walk",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://news.northwestern.edu/stories/2026/06/new-exoskeleton-therapy-could-redefine-how-stroke-survivors-relearn-to-walk",
+    "summary": "Robotic exoskeleton could redefine how stroke survivors relearn to walk",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-elmo-releases-new-motion-contr-976",
+    "title": "Elmo releases new motion controller and servo drives for industrial applications",
+    "date": "2026-06-19",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/elmo-releases-new-motion-controller-servo-drives-industrial-applications/",
+    "summary": "Elmo said its latest products set new benchmarks for power density, expand its existing Platinum line, and introduce the Titanium line.\nThe post Elmo releases new motion controller and servo drives fo...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-u-s-robotics-industry-saw-doub-428",
+    "title": "U.S. robotics industry saw double-digit growth in 2025, says IFR",
+    "date": "2026-06-19",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/u-s-robotics-industry-saw-double-digit-growth-in-2025-says-ifr/",
+    "summary": "The IFR said robust growth in the food industry and other non-manufacturing sectors drove this recovery in the U.S. robotics industry.\nThe post U.S. robotics industry saw double-digit growth in 2025, ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-defense-manufacturing-readines-988",
+    "title": "Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter Robotics",
+    "date": "2026-06-20",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/defense-manufacturing-readiness-hinges-autonomous-surface-prep-says-graymatter/",
+    "summary": "The Navy's industrial base review identified a projected need for 174,000 new workers. GrayMatter says robotics can fill this gap.\nThe post Defense manufacturing readiness hinges on autonomous finishi...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-g-del-to-show-grinding-beyond-312",
+    "title": "Güdel to show grinding beyond stationary robots with vertical, horizontal motion at Automate 2026",
+    "date": "2026-06-21",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/gudel-to-showcase-grinding-beyond-stationary-robots-integrated-vertical-horizontal-motion-automate/",
+    "summary": "Güdel has added two degrees of freedom to heavy-duty robotic grinding applications through its TMV and TMF systems.\nThe post Güdel to show grinding beyond stationary robots with vertical, horizontal m...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-cobot-s-proxie-gen-2-robot-add-961",
+    "title": "Cobot’s Proxie Gen 2 robot adds autotasking, mobile manipulation",
+    "date": "2026-06-22",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/cobots-proxie-gen-2-robot-adds-autotasking-mobile-manipulation/",
+    "summary": "Cobot founder and CEO Brad Porter said Proxie Gen 2 can determine when materials are ready to move, identify destinations, and create tasks without human intervention.\nThe post Cobot’s Proxie Gen 2 ro...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-nvidia-releases-halos-a-full-s-462",
+    "title": "NVIDIA releases Halos, a full-stack safety system for robotics",
+    "date": "2026-06-22",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/",
+    "summary": "NVIDIA said Halos connects AI compute, system software, sensor data, safety applications, and inspection for robotic systems.\nThe post NVIDIA releases Halos, a full-stack safety system for robotics ap...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-founders-fund-s-outlier-bet-on-656",
+    "title": "Founders Fund’s outlier bet on humanely killed fish",
+    "date": "2026-06-20",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/06/20/founders-funds-outlier-bet-on-humanely-killed-fish/",
+    "summary": "Shinkei makes a refrigerator-sized robot called Poseidon to kill fish quickly and humanely.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-what-amazon-s-astro-taught-me-485",
+    "title": "What Amazon’s Astro Taught Me About Giving Robots a Soul",
+    "date": "2026-06-19",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/amazon-astro-robot-sound",
+    "summary": "In 2018, Amazon brought me in as the lead UX Sound Designer for Astro, its first consumer home robot. Astro used cameras and other sensors to map and navigate your home and workplace, and could proact...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-video-friday-do-robots-even-ne-784",
+    "title": "Video Friday: Do Robots Even Need Legs?",
+    "date": "2026-06-19",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-agentic-ai-robot",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "news-unitree-ipo-star-market-cleared-2026",
     "title": "Unitree Robotics clears Shanghai STAR Market IPO review, targets $618M raise at $6.2B valuation",
     "date": "2026-06-02",
