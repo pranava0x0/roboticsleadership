@@ -4,6 +4,14 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ## High
 
+### Valuation watchlist — pending events surfaced in the 2026-06-22 refresh
+
+Concrete, near-term tripwires the research agents flagged. Each is reported-but-unclosed today; re-check next refresh and update `companies.json` the moment a primary source confirms.
+
+- **1X Technologies Series C (high).** Reported Sep 2025 to be raising ~$1B at a ~$10B valuation; as of Jun 2026 no source confirms a close, so the record still carries `latest_valuation_usd: null`. If it closes it's the single biggest delta in the humanoid set (~$10B valuation, +$1B funding). Captured as a sourced note in `financials.details`.
+- **AgiBot / Zhiyuan HK IPO (medium).** Reportedly planning a 2026 Hong Kong IPO targeting HK$40–50B (~$5.1–6.4B) with CICC/CITIC/Morgan Stanley; record uses the last *closed* private mark (~$2.07B, Mar 2025 Tencent round). Swap to the listed market cap if/when it lists.
+- **Boston Dynamics valuation basis (medium).** Record now uses the SoftBank-exit-implied ~$3.37B ($325M for 9.65%, Jun 2025). Press cites ~$21B ahead of a planned early-2027 Nasdaq IPO — replace with a primary mark at IPO. EngineAI and (separately) AgiBot have also filed/confidentially filed for HK listings; watch for pricing.
+
 ### Ideas from the FAI "State of Industrial Robotics" report (added 2026-06-18)
 
 Source: Amelia Michael & Emerson Alden, *The State of Industrial Robotics*, Foundation for American Innovation, 2026-06-17. Report + companion dataset + full extract/index archived in `data/research/fai-state-of-industrial-robotics-2026-06-17.{pdf,txt,md}`. The report's central point — *traditional industrial robots get left out of frontier-robotics debates even though leadership in them is becoming national power* — is exactly our blind spot: `companies.json` has 11 "industrial" firms but **none** of the incumbents (FANUC, ABB, KUKA, Yaskawa, Universal Robots, Nabtesco, HDS) that hold ~85% of the real market. Concrete items below; every figure is sourced in the index file.

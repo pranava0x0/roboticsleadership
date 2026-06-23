@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ubtech",
+    "name": "UBTECH Robotics",
+    "status": "changed",
+    "latest_valuation_usd": 6733000000,
+    "valuation_basis": "market cap = HK$52.77B (9880.HK) as of 2026-06-22 per stockanalysis.com, converted at HKD->USD 0.1276 (rate as of 2026-06-22) = ~$6.73B; consumer aggregators companiesmarketcap.com / Investing.com show ~$6.95-6.99B intraday",
+    "total_funding_usd": 130000000,
+    "new_funding_rounds": [],
+    "headcount": null,
+    "headcount_date": null,
+    "financials_note": "FY2025 results announced 2026-03-31: revenue RMB 2,001.0M (~$276M at ~7.25 RMB/USD), +53.3% YoY; net loss narrowed to RMB 789.8M from RMB 1,159.9M in FY2024; full-size humanoids became largest revenue source at 41.1% of total, industrial humanoid sales +2,203.7%. 2025 cumulative humanoid orders ~RMB 1.3B; Walker S2 mass production underway, >6,000 units/yr annualized capacity reached end-2025.",
+    "sources": [
+      {"url": "https://stockanalysis.com/quote/hkg/9880/market-cap/", "archive_url": null},
+      {"url": "https://www.humanoidsdaily.com/news/ubtech-s-2025-financials-humanoids-leap-to-center-stage-as-losses-narrow", "archive_url": null}
+    ],
+    "notes": "CHANGED: public market valuation. As a listed company, valuation = market cap, now ~$6.7B (HK$52.77B as of 2026-06-22) vs the $4.9B baseline (which was a static figure). 52-week range HK$73.50-161.00. FY2025 figures essentially match baseline but are now exact (net loss RMB 789.8M vs baseline ~780M). Total funding unchanged at $0.13B (no new equity raise; financed via public listing)."
+  },
+  {
+    "id": "agibot",
+    "name": "AgiBot / Zhiyuan Robotics",
+    "status": "changed",
+    "latest_valuation_usd": 2070000000,
+    "valuation_basis": "last confirmed private valuation $2.07B as of March 2025 (PitchBook, per Reuters/Yahoo); aligns with the Tencent-led round at a 15B-yuan (~$2.07B) valuation, March 2025. Separately targeting HK$40-50B (~$5.1-6.4B) for a planned 2026 Hong Kong IPO (target, not a closed priced round).",
+    "total_funding_usd": 500000000,
+    "new_funding_rounds": [
+      {"round": "Tencent-led round (round designation not specified; 'hundreds of millions of yuan')", "amount_usd": null, "date": "2025-03", "investors": "Tencent (lead), Longqi Technology, Wolong Electric, Huafa Group, BlueRun Ventures, existing shareholders", "source_url": "https://www.scmp.com/tech/big-tech/article/3303837/chinese-tech-giant-tencent-joins-latest-investment-round-shanghai-robotics-start-agibot"},
+      {"round": "Strategic financing", "amount_usd": null, "date": "2025-08", "investors": "LG Electronics, Mirae Asset (and prior backers Tencent, HongShan, BYD, Hillhouse)", "source_url": "https://finance.yahoo.com/news/exclusive-chinese-robot-maker-agibot-092020928.html"}
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "financials_note": null,
+    "notes": "CHANGED: baseline valuation was NULL; now have a credible $2.07B figure (PitchBook, as of March 2025) tied to a Tencent-led round valuing AgiBot at ~15B yuan. Additional strategic round Aug 2025 added LG Electronics and Mirae Asset. AgiBot is now reported (Reuters, 2026) to be planning a 2026 Hong Kong IPO targeting HK$40-50B (~$5.1-6.4B) with CICC, CITIC and Morgan Stanley as sponsors -- this is a target, not a closed valuation, so not used as the latest_valuation. Round amounts not individually disclosed; total_funding set to ~$500M as a conservative estimate (baseline $0.20B Series B + reported >$300M raised across 2024 Series C and 2025 rounds) -- treat as approximate. NOTE: AgiBot (Zhiyuan) is distinct from Unitree -- not conflated here."
+  },
+  {
+    "id": "robotera",
+    "name": "RobotEra",
+    "status": "changed",
+    "latest_valuation_usd": 1400000000,
+    "valuation_basis": "post-money >RMB 10B (~$1.4B) after the SF Group-led strategic round closed ~2026-04-28 (Humanoids Daily). Earlier March 2026 RMB 1B round reported as pushing valuation past ~$1.5B; the >RMB 10B / ~$1.4B figure is the most recent and internally consistent.",
+    "total_funding_usd": 630000000,
+    "new_funding_rounds": [
+      {"round": "Series A+ (~$140M)", "amount_usd": 140000000, "date": "2025-11", "investors": "Geely Capital, BAIC Capital, Alibaba Group, Haier Capital", "source_url": "https://theaiinsider.tech/2025/11/27/chinese-humanoid-robotics-company-robotera-secures-usd-140m-in-series-a-funding/"},
+      {"round": "Strategic (RMB 1B, ~$143M)", "amount_usd": 143000000, "date": "2026-03", "investors": "broad industry consortium; valuation pushed past RMB 10B (~$1.4-1.5B)", "source_url": "https://www.roboticstomorrow.com/news/2026/03/23/robotera-raises-rmb-1-billion-in-strategic-round-valuation-exceeds-rmb-10-billion-with-broad-industry-support/26298/"},
+      {"round": "Strategic (>RMB 2B, ~$280M)", "amount_usd": 280000000, "date": "2026-04", "investors": "SF Group (lead), Sequoia China, IDG Capital, CICC Capital, Dongfeng Investment, China Unicom", "source_url": "https://www.humanoidsdaily.com/news/robotera-secures-280-million-strategic-round-as-logistics-deployment-scales"}
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "financials_note": null,
+    "notes": "CHANGED: baseline valuation NULL / funding $0.07B (Series A $70M Mar 2025). RobotEra has stacked rapid rounds: $70M Series A (2025-03), ~$140M Series A+ (2025-11), RMB 1B (~$143M, 2026-03), and a >RMB 2B (~$280M) SF Group-led strategic round closed ~2026-04-28, bringing ~RMB 2.5B (~$350M) raised within two months and valuation past RMB 10B (~$1.4B). NEW vs the 06-12 sibling file: the April round is now reported at >RMB 2B / ~$280M (Humanoids Daily) rather than '~$200M+' (Caixin). total_funding ~$630M is the sum of disclosed rounds; treat as approximate. Beijing-based; Star1/L7 flagship, thousand-unit deliveries beginning Q2 2026."
+  },
+  {
+    "id": "engineai",
+    "name": "EngineAI",
+    "status": "changed",
+    "latest_valuation_usd": 1400000000,
+    "valuation_basis": "post-money >RMB 10B (~$1.4B) after $200M Series B closed ~2026-04-09 (Humanoids Daily). Some outlets round to ~$1.5B; ~$1.4B is the figure tied directly to the >RMB 10B post-money.",
+    "total_funding_usd": 340000000,
+    "new_funding_rounds": [
+      {"round": "Pre-A++ and A1 (combined ~RMB 1B, ~$140M)", "amount_usd": 140000000, "date": "2025-07", "investors": "Rockets Capital (XPeng-backed), JD.com, CATL Capital, Yintai Group, TH Capital, Guochen Venture Capital, Huangpu River Capital", "source_url": "https://www.therobotreport.com/engineai-raises-nearly-140m-developing-legged-humanoid-robots/"},
+      {"round": "Series B", "amount_usd": 200000000, "date": "2026-04", "investors": "Henan Investment Group's Huirong Fund (lead), Luxshare Precision (Luxshare-ICT)", "source_url": "https://www.humanoidsdaily.com/news/engineai-secures-200-million-series-b-as-manufacturing-giant-luxshare-joins-the-cap-table"}
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "financials_note": null,
+    "notes": "CHANGED: baseline valuation NULL / funding $0.01B (Angel+ $14M Feb 2025). EngineAI closed a $200M Series B ~2026-04-09 at a >RMB 10B (~$1.4B) post-money, led by Henan Investment Group's Huirong Fund with strategic investor Luxshare Precision (iPhone assembler) joining the cap table. Preceded by ~RMB 1B (~$140M) combined Pre-A++/A1 rounds in 2025. Has filed confidentially for a Hong Kong IPO (CICC, CITIC). total_funding ~$340M = sum of disclosed rounds plus baseline angel; treat as approximate. Shenzhen-based; SE01/PM01 flagship, targeting 4,000-5,000 unit deliveries in 2026."
+  }
+]

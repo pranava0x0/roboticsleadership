@@ -1,5 +1,453 @@
 [
   {
+    "id": "fedreg-news-2026-12352",
+    "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-ODVA, Inc.",
+    "date": "2026-06-22",
+    "source": "federal-register-robotics",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/06/22/2026-12352/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-odva-inc",
+    "summary": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-ODVA, Inc.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ]
+  },
+  {
+    "id": "hn-48606397",
+    "title": "Trapped in a Waymo: SF passenger recounts terrifying construction zone ordeal",
+    "date": "2026-06-20",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://abc7news.com/post/waymo-recall-san-francisco-man-recounts-terrifying-moment-when-robotaxi-goes-haywire-construction-zone/19328050/",
+    "summary": "Trapped in a Waymo: SF passenger recounts terrifying construction zone ordeal",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48607963",
+    "title": "When a Robot Kicks a Child",
+    "date": "2026-06-20",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.law.kuleuven.be/citip/blog/when-a-robot-kicks-a-child-what-humanoid-ai-can-teach-us-about-liability-and-safety-by-design/",
+    "summary": "When a Robot Kicks a Child",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48608172",
+    "title": "A Web-Scale Data Engine for Video-to-Action Robot Learning",
+    "date": "2026-06-20",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://huggingface.co/spaces/Rice-RobotPI-Lab/EgoInfinity",
+    "summary": "A Web-Scale Data Engine for Video-to-Action Robot Learning",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48614390",
+    "title": "'We had to get out of the way': The backlash over delivery robots",
+    "date": "2026-06-21",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.bbc.com/news/articles/c0rygp005wjo",
+    "summary": "'We had to get out of the way': The backlash over delivery robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48615909",
+    "title": "He made your free video player run smoothly. Now he's doing that for robots",
+    "date": "2026-06-21",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/",
+    "summary": "He made your free video player run smoothly. Now he's doing that for robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48618555",
+    "title": "Robotics Teams Are Rebuilding the Data Stack from Scratch",
+    "date": "2026-06-21",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://rerun.io/blog/data-layer-tax",
+    "summary": "Robotics Teams Are Rebuilding the Data Stack from Scratch",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48626530",
+    "title": "A Game of Robot Telephone",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://poyo.co/note/20260619T090202/",
+    "summary": "A Game of Robot Telephone",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48629677",
+    "title": "The Leg That Feels the Ground Through Its Gears – Mobility and Field Robotics",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://atomsfrontier.substack.com/p/the-leg-that-feels-the-ground-through",
+    "summary": "The Leg That Feels the Ground Through Its Gears – Mobility and Field Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48630118",
+    "title": "Extreme Dynamic Symmetry Enables Omnidirectional and Multifunctional Robots",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://generalroboticslab.com/Argus",
+    "summary": "Extreme Dynamic Symmetry Enables Omnidirectional and Multifunctional Robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48630122",
+    "title": "Robotic exoskeleton could redefine how stroke survivors relearn to walk",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://news.northwestern.edu/stories/2026/06/new-exoskeleton-therapy-could-redefine-how-stroke-survivors-relearn-to-walk",
+    "summary": "Robotic exoskeleton could redefine how stroke survivors relearn to walk",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48633876",
+    "title": "Enpire: Agentic Robot Policy Self-Improvement in the Real World",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://research.nvidia.com/labs/gear/enpire/",
+    "summary": "Enpire: Agentic Robot Policy Self-Improvement in the Real World",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48634070",
+    "title": "Robots Will Replace 700k Workers",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://247wallst.com/investing/2026/06/22/robots-will-replace-700000-workers/",
+    "summary": "Robots Will Replace 700k Workers",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48636906",
+    "title": "GM installs robots at flagship EV factory after laying off 1,300 workers",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/ai/2026/06/gm-installs-robots-at-flagship-ev-factory-after-laying-off-1300-workers/",
+    "summary": "GM installs robots at flagship EV factory after laying off 1,300 workers",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48637482",
+    "title": "Robots will replace 700k delivery workers 'sooner or later' warns JD.com boss",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.ft.com/content/465635e2-633b-4311-afe5-9b3bff8c9240",
+    "summary": "Robots will replace 700k delivery workers 'sooner or later' warns JD.com boss",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48637969",
+    "title": "Humanoid Robot Begs for Electricity Money on China Streets with QR Code",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://yipzap.com/humanoid-robot-begs-for-electricity-money-on-china-streets-with-qr-code-the-viral-moment-taking-over-social-media/",
+    "summary": "Humanoid Robot Begs for Electricity Money on China Streets with QR Code",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-defense-manufacturing-readines-988",
+    "title": "Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter Robotics",
+    "date": "2026-06-20",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/defense-manufacturing-readiness-hinges-autonomous-surface-prep-says-graymatter/",
+    "summary": "The Navy's industrial base review identified a projected need for 174,000 new workers. GrayMatter says robotics can fill this gap.\nThe post Defense manufacturing readiness hinges on autonomous finishi...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-g-del-to-show-grinding-beyond-145",
+    "title": "Güdel to show grinding beyond stationary robots with vertical, horizontal motion at Automate 2026",
+    "date": "2026-06-21",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/gudel-to-showcase-grinding-beyond-stationary-robots-integrated-vertical-horizontal-motion-automate/",
+    "summary": "Güdel has added two degrees of freedom to heavy-duty robotic grinding applications through its TMV and TMF systems.\nThe post Güdel to show grinding beyond stationary robots with vertical, horizontal m...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-cobot-s-proxie-gen-2-robot-add-814",
+    "title": "Cobot’s Proxie Gen 2 robot adds autotasking, mobile manipulation",
+    "date": "2026-06-22",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/cobots-proxie-gen-2-robot-adds-autotasking-mobile-manipulation/",
+    "summary": "Cobot founder and CEO Brad Porter said Proxie Gen 2 can determine when materials are ready to move, identify destinations, and create tasks without human intervention.\nThe post Cobot’s Proxie Gen 2 ro...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-nvidia-releases-halos-a-full-s-899",
+    "title": "NVIDIA releases Halos, a full-stack safety system for robotics",
+    "date": "2026-06-22",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/",
+    "summary": "NVIDIA said Halos connects AI compute, system software, sensor data, safety applications, and inspection for robotic systems.\nThe post NVIDIA releases Halos, a full-stack safety system for robotics ap...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-eclipse-automation-launches-re-172",
+    "title": "Eclipse Automation launches RealitySync simulation platform",
+    "date": "2026-06-22",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/eclipse-automation-launches-realitysync-simulation-platform/",
+    "summary": "Eclipse said its new RealitySync platform allows manufacturers to step into their future factory before it’s built.\nThe post Eclipse Automation launches RealitySync simulation platform appeared first ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-bear-robotics-acquires-kinisi-53",
+    "title": "Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities",
+    "date": "2026-06-22",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/bear-robotics-acquires-kinisi-robotics-to-boost-its-physical-ai-capabilities/",
+    "summary": "Kinisi's KR1 humanoid robot, its Bristol-based engineering team, and its physical AI capabilities will be integrated into Bear Robotics.\nThe post Bear Robotics acquires Kinisi Robotics to boost its ph...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-how-intrinsic-eliminates-manua-710",
+    "title": "How Intrinsic eliminates manual robot coding",
+    "date": "2026-06-22",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/",
+    "summary": "Alphabet’s Intrinsic has debuted its AI-powered \"Intelligence Cell\" to simplify factory automation and eliminate complex robot programming.\nThe post How Intrinsic eliminates manual robot coding appear...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-fort-and-nvidia-launch-ai-driv-301",
+    "title": "FORT and NVIDIA launch AI-driven Outside-In Safety blueprint",
+    "date": "2026-06-22",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/fort-and-nvidia-launch-ai-driven-outside-in-safety-blueprint/",
+    "summary": "FORT Robotics and NVIDIA launch Outside-In Safety, using external sensors to improve autonomous robot productivity and worker safety.\nThe post FORT and NVIDIA launch AI-driven Outside-In Safety bluepr...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "news-unitree-ipo-star-market-cleared-2026",
     "title": "Unitree Robotics clears Shanghai STAR Market IPO review, targets $618M raise at $6.2B valuation",
     "date": "2026-06-02",
