@@ -10,7 +10,9 @@
     "category": "Research",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -219,7 +221,9 @@
     "category": "Policy",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Low",
     "tags": [
@@ -257,7 +261,9 @@
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Neutral",
     "confidence": "Low",
     "tags": [
@@ -295,7 +301,9 @@
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "china-scale"
+    ],
     "sentiment": "Neutral",
     "confidence": "Low",
     "tags": [
@@ -314,7 +322,10 @@
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "defense-procurement",
+      "industrial-deployments"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -386,7 +397,9 @@
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -422,7 +435,9 @@
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [

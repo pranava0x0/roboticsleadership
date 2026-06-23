@@ -170,26 +170,9 @@
     // ---------- Recent news (top 5) ----------
     const sorted = [...news].sort((a, b) => (a.date < b.date ? 1 : -1));
     const recent = sorted.slice(0, 5);
-    document.getElementById('recent-news').innerHTML = recent.map(n => `
-      <article class="feed-card">
-        <div class="top-row">
-          <span class="pill cat-${RT.slug(n.category)}">${RT.escapeHTML(n.category)}</span>
-          <span>${RT.escapeHTML(n.source)}</span>
-          <span class="sep"></span>
-          <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
-          <span class="faint">· ${RT.escapeHTML(RT.relativeDate(n.date))}</span>
-        </div>
-        <h3><a href="themes.html#${encodeURIComponent(n.id)}">${RT.escapeHTML(n.title)}</a></h3>
-        <p class="summary">${RT.escapeHTML(n.summary)}</p>
-        <div class="footer-row">
-          ${(n.companies || []).slice(0, 4).map(id => `<a class="pill outline" href="companies.html?focus=${encodeURIComponent(id)}">${RT.escapeHTML(companyName(companies, id))}</a>`).join('')}
-          <span class="row-end">
-            <a href="${RT.escapeHTML(n.source_url)}" target="_blank" rel="noopener">Read original →</a>
-            ${RT.archiveLink(n.archive_url)}
-          </span>
-        </div>
-      </article>
-    `).join('');
+    document.getElementById('recent-news').innerHTML = recent.map(n => 
+      RT.renderNewsCard(n, companies, policies, { linkToFeed: true })
+    ).join('');
 
     // ---------- Themes ----------
     document.getElementById('theme-cards').innerHTML = themes.slice(0, 6).map(t => `

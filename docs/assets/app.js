@@ -353,6 +353,64 @@
     });
   }
 
+  function sentimentPillClass(sentiment) {
+    if (sentiment === 'Positive') return 'positive';
+    if (sentiment === 'Negative') return 'negative';
+    if (sentiment === 'Mixed') return 'mixed';
+    return 'outline';
+  }
+
+  function renderNewsCard(n, companies, policies, opts = {}) {
+    const catSlug = slug(n.category);
+    const sentimentPill = n.sentiment
+      ? `<span class="pill ${sentimentPillClass(n.sentiment)}">${escapeHTML(n.sentiment)}</span>`
+      : '';
+    const companyPills = (n.companies || []).map(id => {
+      const c = companies.find(x => x.id === id);
+      const name = c ? c.name : id;
+      return `<a class="pill outline" href="companies.html?focus=${encodeURIComponent(id)}">${escapeHTML(name)}</a>`;
+    }).join('');
+    const policyPills = (n.policies || []).map(id => {
+      const p = policies.find(x => x.id === id);
+      const name = p ? (p.bill_number || p.title.slice(0, 40)) : id;
+      return `<a class="pill outline" href="policies.html?focus=${encodeURIComponent(id)}">${escapeHTML(name)}</a>`;
+    }).join('');
+
+    const conf = n.confidence && n.confidence !== 'High'
+      ? `<span class="pill mixed">${escapeHTML(n.confidence)} confidence</span>`
+      : '';
+
+    const titleLink = opts.linkToFeed 
+      ? `themes.html#${encodeURIComponent(n.id)}` 
+      : escapeHTML(n.source_url);
+    const titleTarget = opts.linkToFeed ? '' : ' target="_blank" rel="noopener"';
+
+    return `
+      <article class="feed-card" id="${escapeHTML(n.id)}">
+        <div class="top-row">
+          <span class="pill cat-${catSlug}">${escapeHTML(n.category)}</span>
+          ${sentimentPill}
+          ${conf}
+          <span class="row-end">
+            <span>${escapeHTML(n.source)}</span>
+            <span class="sep"></span>
+            <span class="tnum">${escapeHTML(formatDate(n.date))}</span>
+            <span class="faint">· ${escapeHTML(relativeDate(n.date))}</span>
+          </span>
+        </div>
+        <h3><a href="${titleLink}"${titleTarget}>${escapeHTML(n.title)}</a></h3>
+        <p class="summary">${escapeHTML(n.summary)}</p>
+        <div class="footer-row">
+          ${companyPills}${policyPills}
+          <span class="row-end">
+            <a href="${escapeHTML(n.source_url)}" target="_blank" rel="noopener">Read original →</a>
+            ${archiveLink(n.archive_url)}
+          </span>
+        </div>
+      </article>
+    `;
+  }
+
   // ---------- Boot sequence ----------
   function init() {
     initThemePicker();
@@ -387,5 +445,6 @@
     textIncludes,
     openDetail,
     closeDetail,
+    renderNewsCard,
   };
 })(window);
