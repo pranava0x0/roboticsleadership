@@ -1,5 +1,84 @@
 [
   {
+    "id": "fedreg-2026-12352",
+    "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-ODVA, Inc.",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-06-22",
+    "status": "Introduced",
+    "bill_number": "2026-12352",
+    "sponsor": "Federal Agency",
+    "summary": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-ODVA, Inc.",
+    "full_text_url": "https://www.federalregister.gov/documents/2026/06/22/2026-12352/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-odva-inc",
+    "robotics_scope": "Federal Register publication",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal-register",
+      "federal"
+    ],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/06/22/2026-12352/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-odva-inc"
+      }
+    ],
+    "last_updated": "2026-06-23"
+  },
+  {
+    "id": "great-american-ai-act-2026",
+    "title": "Great American Artificial Intelligence Act",
+    "type": "Bill",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-06-04",
+    "status": "Draft",
+    "bill_number": "Discussion Draft",
+    "sponsor": "Rep. Jay Obernolte (R-CA); Rep. Lori Trahan (D-MA)",
+    "summary": "Bipartisan 269-page discussion draft that would establish a national AI policy framework and preempt state laws specifically regulating AI model development for three years. Preemption does not apply to laws on AI deployment or use. The bill also creates voluntary federal oversight processes for frontier AI models. Opposed by consumer groups; supported by tech industry.",
+    "full_text_url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/",
+    "robotics_scope": "Preempts state regulations on AI model development, including robotics foundation models; shapes national framework for AI-enabled autonomous systems",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "AI developers",
+      "Robotics companies",
+      "Tech industry"
+    ],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "discussion-draft",
+      "ai-preemption",
+      "state-law",
+      "foundation-model",
+      "2026"
+    ],
+    "themes": [
+      "policy-momentum",
+      "foundation-models"
+    ],
+    "sources": [
+      {
+        "url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/"
+      },
+      {
+        "url": "https://www.insurancejournal.com/news/national/2026/06/05/872609.htm"
+      },
+      {
+        "url": "https://www.nextgov.com/artificial-intelligence/2026/06/lawmakers-propose-ai-framework-would-preempt-state-laws-3-years/413975/"
+      }
+    ],
+    "last_updated": "2026-06-05"
+  },
+  {
     "id": "trump-ai-eo-innovation-security-2026",
     "title": "Executive Order: Promoting Advanced Artificial Intelligence Innovation and Security",
     "type": "Executive Order",
@@ -4595,50 +4674,6 @@
     "archive_url_application": "https://web.archive.org/web/20260529224938/https://www.diu.mil/"
   },
   {
-    "id": "tx-robotics-investment",
-    "title": "Texas — Robotics Manufacturing Investment Credit",
-    "type": "Incentive Program",
-    "level": "State",
-    "state": "TX",
-    "introduced_date": "2023-06",
-    "status": "In effect",
-    "bill_number": "TX S.B. 1545",
-    "sponsor": "Texas Legislature",
-    "summary": "State franchise tax credit for qualifying capital investment in advanced manufacturing equipment, including robotics. Stackable with federal bonus depreciation. Pairs with the Texas Enterprise Fund discretionary grants for major facility commitments.",
-    "full_text_url": "https://comptroller.texas.gov/economy/local/tef/",
-    "robotics_scope": "Manufacturing capex incentive",
-    "estimated_budget_usd": null,
-    "beneficiaries": [
-      "Manufacturers locating in Texas",
-      "Robotics OEMs"
-    ],
-    "agency_responsible": [
-      "tx-comptroller",
-      "tx-gov"
-    ],
-    "startup_eligible": true,
-    "application_url": "https://comptroller.texas.gov/economy/local/tef/",
-    "tags": [
-      "state",
-      "texas",
-      "in-effect",
-      "tax-credit",
-      "manufacturing",
-      "tax"
-    ],
-    "sources": [
-      {
-        "url": "https://comptroller.texas.gov/",
-        "archive_url": "https://web.archive.org/web/20260514152214/https://comptroller.texas.gov/"
-      }
-    ],
-    "last_updated": "2026-05-17",
-    "themes": [
-      "industrial-deployments",
-      "policy-momentum"
-    ]
-  },
-  {
     "id": "ca-cpuc-av-passenger-programs",
     "title": "California — CPUC Autonomous Vehicle Passenger Service Programs",
     "type": "Regulation",
@@ -4684,181 +4719,47 @@
     ]
   },
   {
-    "id": "ca-california-competes-tax-credit",
-    "title": "California — California Competes Tax Credit (GO-Biz)",
+    "id": "tx-robotics-investment",
+    "title": "Texas — Robotics Manufacturing Investment Credit",
     "type": "Incentive Program",
     "level": "State",
-    "state": "CA",
-    "introduced_date": "2014-01",
-    "status": "Active",
-    "bill_number": null,
-    "sponsor": "Governor's Office of Business and Economic Development (GO-Biz)",
-    "summary": "The California Competes Tax Credit (CCTC) is a negotiable income-tax-credit program run by GO-Biz that rewards companies for creating jobs and investing in California, with roughly $922.7M allocated for FY2025-26 across competitive application windows. Eligible sectors include advanced manufacturing, microelectronics, and aerospace, making robotics and hardware startups eligible to apply. It is open to businesses of any size, including startups expanding or relocating in-state.",
-    "full_text_url": "https://business.ca.gov/california-competes-tax-credit/",
-    "robotics_scope": "Advanced-manufacturing & R&D job/investment tax credits",
-    "estimated_budget_usd": 922694691,
+    "state": "TX",
+    "introduced_date": "2023-06",
+    "status": "In effect",
+    "bill_number": "TX S.B. 1545",
+    "sponsor": "Texas Legislature",
+    "summary": "State franchise tax credit for qualifying capital investment in advanced manufacturing equipment, including robotics. Stackable with federal bonus depreciation. Pairs with the Texas Enterprise Fund discretionary grants for major facility commitments.",
+    "full_text_url": "https://comptroller.texas.gov/economy/local/tef/",
+    "robotics_scope": "Manufacturing capex incentive",
+    "estimated_budget_usd": null,
     "beneficiaries": [
-      "advanced-manufacturing firms",
-      "robotics/hardware startups",
-      "expanding employers"
+      "Manufacturers locating in Texas",
+      "Robotics OEMs"
     ],
-    "agency_responsible": [],
+    "agency_responsible": [
+      "tx-comptroller",
+      "tx-gov"
+    ],
     "startup_eligible": true,
-    "application_url": "https://calcompetes.ca.gov/",
+    "application_url": "https://comptroller.texas.gov/economy/local/tef/",
     "tags": [
       "state",
-      "california",
-      "active",
-      "incentive",
+      "texas",
+      "in-effect",
       "tax-credit",
       "manufacturing",
       "tax"
     ],
     "sources": [
       {
-        "url": "https://business.ca.gov/california-awards-120-million-in-grants-and-66-4-million-in-tax-credits-projected-to-create-more-than-11607-jobs/"
-      },
-      {
-        "url": "https://www.gov.ca.gov/2026/05/06/governor-newsom-announces-1b-in-private-investment-generated-through-california-competes-tax-credits-driving-business-expansion-in-key-industry-sectors/"
+        "url": "https://comptroller.texas.gov/",
+        "archive_url": "https://web.archive.org/web/20260514152214/https://comptroller.texas.gov/"
       }
     ],
-    "last_updated": "2026-06-19",
+    "last_updated": "2026-05-17",
     "themes": [
-      "policy-momentum",
       "industrial-deployments",
-      "us-supply-chain"
-    ]
-  },
-  {
-    "id": "az-eo-2018-04-av",
-    "title": "Arizona — Executive Order 2018-04 (Autonomous Vehicle Testing & Operating)",
-    "type": "Executive Order",
-    "level": "State",
-    "state": "AZ",
-    "introduced_date": "2018-03",
-    "status": "In effect",
-    "bill_number": "AZ EO 2018-04",
-    "sponsor": "Governor Doug Ducey",
-    "summary": "Executive Order 2018-04 updated Arizona's framework for testing and operating autonomous vehicles, requiring driverless operators to comply with NHTSA voluntary safety standards and to register fully driverless vehicles with the state, and to bring a vehicle to a 'minimal risk condition' if the automated system fails. The order made Arizona an early hub for fully driverless operation — home to Waymo's commercial robotaxi service — alongside testing by GM, Uber, and Intel.",
-    "full_text_url": "https://azmemory.azlibrary.gov/nodes/view/44933",
-    "robotics_scope": "Driverless AV testing & deployment rules",
-    "estimated_budget_usd": null,
-    "beneficiaries": [
-      "AV/robotaxi operators",
-      "AV technology developers",
-      "Arizona residents"
-    ],
-    "agency_responsible": [
-      "dot"
-    ],
-    "startup_eligible": true,
-    "application_url": "https://azdot.gov/mvd/services/professional-services/autonomous-vehicles-testing-and-operating-state-arizona",
-    "tags": [
-      "state",
-      "arizona",
-      "in-effect",
-      "executive-order",
-      "autonomous-vehicles"
-    ],
-    "sources": [
-      {
-        "url": "https://azmemory.azlibrary.gov/nodes/view/44933"
-      },
-      {
-        "url": "https://azdot.gov/mvd/services/professional-services/autonomous-vehicles-testing-and-operating-state-arizona"
-      }
-    ],
-    "last_updated": "2026-06-19",
-    "themes": [
-      "policy-momentum",
-      "physical-ai",
-      "industrial-deployments"
-    ]
-  },
-  {
-    "id": "nv-ab511-autonomous-vehicles",
-    "title": "Nevada — AB 511 / NRS Chapter 482A (Autonomous Vehicles)",
-    "type": "Bill",
-    "level": "State",
-    "state": "NV",
-    "introduced_date": "2011-06",
-    "status": "In effect",
-    "bill_number": "NV AB 511",
-    "sponsor": "Nevada State Legislature (signed by Gov. Brian Sandoval)",
-    "summary": "Signed in June 2011, AB 511 made Nevada the first U.S. state to authorize autonomous vehicles on public highways and directed the DMV to adopt operating and testing regulations, now codified in NRS Chapter 482A. It defines an autonomous vehicle as one using AI, sensors, and GPS to drive without active human intervention, and requires manufacturers/developers to self-certify compliance and register before operating. The statute established the licensing and insurance/bond foundation for AV testing in the state.",
-    "full_text_url": "https://www.leg.state.nv.us/nrs/nrs-482a.html",
-    "robotics_scope": "AV testing & deployment licensing statute",
-    "estimated_budget_usd": null,
-    "beneficiaries": [
-      "AV manufacturers",
-      "AV technology developers",
-      "Nevada residents"
-    ],
-    "agency_responsible": [],
-    "startup_eligible": true,
-    "application_url": "https://dmv.nv.gov/autonomous.htm",
-    "tags": [
-      "state",
-      "nevada",
-      "in-effect",
-      "autonomous-vehicles",
-      "first-in-nation"
-    ],
-    "sources": [
-      {
-        "url": "https://www.leg.state.nv.us/nrs/nrs-482a.html"
-      },
-      {
-        "url": "https://www.greencarcongress.com/2011/06/ab511-20110625.html"
-      }
-    ],
-    "last_updated": "2026-06-19",
-    "themes": [
-      "policy-momentum",
-      "physical-ai"
-    ]
-  },
-  {
-    "id": "fl-hb311-autonomous-vehicles",
-    "title": "Florida — HB 311 (Autonomous Vehicles)",
-    "type": "Bill",
-    "level": "State",
-    "state": "FL",
-    "introduced_date": "2019-03",
-    "status": "In effect",
-    "bill_number": "FL HB 311",
-    "sponsor": "Florida Legislature (Rep. Jason Fischer)",
-    "summary": "CS/HB 311, effective July 1, 2019, authorizes a fully autonomous vehicle to operate on Florida roads regardless of whether a human operator is physically present, and provides that a licensed human operator is not required. It deems the automated driving system to be the legal operator while engaged, and sets insurance requirements for on-demand autonomous-vehicle networks. The law makes Florida one of the most permissive states for fully driverless operation and deployment.",
-    "full_text_url": "https://flsenate.gov/Session/Bill/2019/311",
-    "robotics_scope": "Fully driverless AV operation & deployment",
-    "estimated_budget_usd": null,
-    "beneficiaries": [
-      "AV/robotaxi operators",
-      "autonomous delivery networks",
-      "Florida residents"
-    ],
-    "agency_responsible": [],
-    "startup_eligible": true,
-    "application_url": null,
-    "tags": [
-      "state",
-      "florida",
-      "in-effect",
-      "autonomous-vehicles",
-      "driverless"
-    ],
-    "sources": [
-      {
-        "url": "https://flsenate.gov/Session/Bill/2019/311"
-      },
-      {
-        "url": "https://www.flsenate.gov/Committees/BillSummaries/2019/html/1946"
-      }
-    ],
-    "last_updated": "2026-06-19",
-    "themes": [
-      "policy-momentum",
-      "physical-ai"
+      "policy-momentum"
     ]
   },
   {
@@ -5400,6 +5301,184 @@
     "themes": []
   },
   {
+    "id": "fl-hb311-autonomous-vehicles",
+    "title": "Florida — HB 311 (Autonomous Vehicles)",
+    "type": "Bill",
+    "level": "State",
+    "state": "FL",
+    "introduced_date": "2019-03",
+    "status": "In effect",
+    "bill_number": "FL HB 311",
+    "sponsor": "Florida Legislature (Rep. Jason Fischer)",
+    "summary": "CS/HB 311, effective July 1, 2019, authorizes a fully autonomous vehicle to operate on Florida roads regardless of whether a human operator is physically present, and provides that a licensed human operator is not required. It deems the automated driving system to be the legal operator while engaged, and sets insurance requirements for on-demand autonomous-vehicle networks. The law makes Florida one of the most permissive states for fully driverless operation and deployment.",
+    "full_text_url": "https://flsenate.gov/Session/Bill/2019/311",
+    "robotics_scope": "Fully driverless AV operation & deployment",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "AV/robotaxi operators",
+      "autonomous delivery networks",
+      "Florida residents"
+    ],
+    "agency_responsible": [],
+    "startup_eligible": true,
+    "application_url": null,
+    "tags": [
+      "state",
+      "florida",
+      "in-effect",
+      "autonomous-vehicles",
+      "driverless"
+    ],
+    "sources": [
+      {
+        "url": "https://flsenate.gov/Session/Bill/2019/311"
+      },
+      {
+        "url": "https://www.flsenate.gov/Committees/BillSummaries/2019/html/1946"
+      }
+    ],
+    "last_updated": "2026-06-19",
+    "themes": [
+      "policy-momentum",
+      "physical-ai"
+    ]
+  },
+  {
+    "id": "az-eo-2018-04-av",
+    "title": "Arizona — Executive Order 2018-04 (Autonomous Vehicle Testing & Operating)",
+    "type": "Executive Order",
+    "level": "State",
+    "state": "AZ",
+    "introduced_date": "2018-03",
+    "status": "In effect",
+    "bill_number": "AZ EO 2018-04",
+    "sponsor": "Governor Doug Ducey",
+    "summary": "Executive Order 2018-04 updated Arizona's framework for testing and operating autonomous vehicles, requiring driverless operators to comply with NHTSA voluntary safety standards and to register fully driverless vehicles with the state, and to bring a vehicle to a 'minimal risk condition' if the automated system fails. The order made Arizona an early hub for fully driverless operation — home to Waymo's commercial robotaxi service — alongside testing by GM, Uber, and Intel.",
+    "full_text_url": "https://azmemory.azlibrary.gov/nodes/view/44933",
+    "robotics_scope": "Driverless AV testing & deployment rules",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "AV/robotaxi operators",
+      "AV technology developers",
+      "Arizona residents"
+    ],
+    "agency_responsible": [
+      "dot"
+    ],
+    "startup_eligible": true,
+    "application_url": "https://azdot.gov/mvd/services/professional-services/autonomous-vehicles-testing-and-operating-state-arizona",
+    "tags": [
+      "state",
+      "arizona",
+      "in-effect",
+      "executive-order",
+      "autonomous-vehicles"
+    ],
+    "sources": [
+      {
+        "url": "https://azmemory.azlibrary.gov/nodes/view/44933"
+      },
+      {
+        "url": "https://azdot.gov/mvd/services/professional-services/autonomous-vehicles-testing-and-operating-state-arizona"
+      }
+    ],
+    "last_updated": "2026-06-19",
+    "themes": [
+      "policy-momentum",
+      "physical-ai",
+      "industrial-deployments"
+    ]
+  },
+  {
+    "id": "ca-california-competes-tax-credit",
+    "title": "California — California Competes Tax Credit (GO-Biz)",
+    "type": "Incentive Program",
+    "level": "State",
+    "state": "CA",
+    "introduced_date": "2014-01",
+    "status": "Active",
+    "bill_number": null,
+    "sponsor": "Governor's Office of Business and Economic Development (GO-Biz)",
+    "summary": "The California Competes Tax Credit (CCTC) is a negotiable income-tax-credit program run by GO-Biz that rewards companies for creating jobs and investing in California, with roughly $922.7M allocated for FY2025-26 across competitive application windows. Eligible sectors include advanced manufacturing, microelectronics, and aerospace, making robotics and hardware startups eligible to apply. It is open to businesses of any size, including startups expanding or relocating in-state.",
+    "full_text_url": "https://business.ca.gov/california-competes-tax-credit/",
+    "robotics_scope": "Advanced-manufacturing & R&D job/investment tax credits",
+    "estimated_budget_usd": 922694691,
+    "beneficiaries": [
+      "advanced-manufacturing firms",
+      "robotics/hardware startups",
+      "expanding employers"
+    ],
+    "agency_responsible": [],
+    "startup_eligible": true,
+    "application_url": "https://calcompetes.ca.gov/",
+    "tags": [
+      "state",
+      "california",
+      "active",
+      "incentive",
+      "tax-credit",
+      "manufacturing",
+      "tax"
+    ],
+    "sources": [
+      {
+        "url": "https://business.ca.gov/california-awards-120-million-in-grants-and-66-4-million-in-tax-credits-projected-to-create-more-than-11607-jobs/"
+      },
+      {
+        "url": "https://www.gov.ca.gov/2026/05/06/governor-newsom-announces-1b-in-private-investment-generated-through-california-competes-tax-credits-driving-business-expansion-in-key-industry-sectors/"
+      }
+    ],
+    "last_updated": "2026-06-19",
+    "themes": [
+      "policy-momentum",
+      "industrial-deployments",
+      "us-supply-chain"
+    ]
+  },
+  {
+    "id": "nv-ab511-autonomous-vehicles",
+    "title": "Nevada — AB 511 / NRS Chapter 482A (Autonomous Vehicles)",
+    "type": "Bill",
+    "level": "State",
+    "state": "NV",
+    "introduced_date": "2011-06",
+    "status": "In effect",
+    "bill_number": "NV AB 511",
+    "sponsor": "Nevada State Legislature (signed by Gov. Brian Sandoval)",
+    "summary": "Signed in June 2011, AB 511 made Nevada the first U.S. state to authorize autonomous vehicles on public highways and directed the DMV to adopt operating and testing regulations, now codified in NRS Chapter 482A. It defines an autonomous vehicle as one using AI, sensors, and GPS to drive without active human intervention, and requires manufacturers/developers to self-certify compliance and register before operating. The statute established the licensing and insurance/bond foundation for AV testing in the state.",
+    "full_text_url": "https://www.leg.state.nv.us/nrs/nrs-482a.html",
+    "robotics_scope": "AV testing & deployment licensing statute",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "AV manufacturers",
+      "AV technology developers",
+      "Nevada residents"
+    ],
+    "agency_responsible": [],
+    "startup_eligible": true,
+    "application_url": "https://dmv.nv.gov/autonomous.htm",
+    "tags": [
+      "state",
+      "nevada",
+      "in-effect",
+      "autonomous-vehicles",
+      "first-in-nation"
+    ],
+    "sources": [
+      {
+        "url": "https://www.leg.state.nv.us/nrs/nrs-482a.html"
+      },
+      {
+        "url": "https://www.greencarcongress.com/2011/06/ab511-20110625.html"
+      }
+    ],
+    "last_updated": "2026-06-19",
+    "themes": [
+      "policy-momentum",
+      "physical-ai"
+    ]
+  },
+  {
     "id": "rd-tax-credit",
     "title": "Research and Development Tax Credit",
     "type": "Regulation",
@@ -5439,84 +5518,5 @@
     "themes": [
       "industrial-deployments"
     ]
-  },
-  {
-    "id": "great-american-ai-act-2026",
-    "title": "Great American Artificial Intelligence Act",
-    "type": "Bill",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-06-04",
-    "status": "Draft",
-    "bill_number": "Discussion Draft",
-    "sponsor": "Rep. Jay Obernolte (R-CA); Rep. Lori Trahan (D-MA)",
-    "summary": "Bipartisan 269-page discussion draft that would establish a national AI policy framework and preempt state laws specifically regulating AI model development for three years. Preemption does not apply to laws on AI deployment or use. The bill also creates voluntary federal oversight processes for frontier AI models. Opposed by consumer groups; supported by tech industry.",
-    "full_text_url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/",
-    "robotics_scope": "Preempts state regulations on AI model development, including robotics foundation models; shapes national framework for AI-enabled autonomous systems",
-    "estimated_budget_usd": null,
-    "beneficiaries": [
-      "AI developers",
-      "Robotics companies",
-      "Tech industry"
-    ],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal",
-      "discussion-draft",
-      "ai-preemption",
-      "state-law",
-      "foundation-model",
-      "2026"
-    ],
-    "themes": [
-      "policy-momentum",
-      "foundation-models"
-    ],
-    "sources": [
-      {
-        "url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/"
-      },
-      {
-        "url": "https://www.insurancejournal.com/news/national/2026/06/05/872609.htm"
-      },
-      {
-        "url": "https://www.nextgov.com/artificial-intelligence/2026/06/lawmakers-propose-ai-framework-would-preempt-state-laws-3-years/413975/"
-      }
-    ],
-    "last_updated": "2026-06-05"
-  },
-  {
-    "id": "fedreg-2026-12352",
-    "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-ODVA, Inc.",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-06-22",
-    "status": "Introduced",
-    "bill_number": "2026-12352",
-    "sponsor": "Federal Agency",
-    "summary": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-ODVA, Inc.",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/06/22/2026-12352/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-odva-inc",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "themes": [
-      "policy-momentum"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2026/06/22/2026-12352/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-odva-inc"
-      }
-    ],
-    "last_updated": "2026-06-23"
   }
 ]
