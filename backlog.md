@@ -45,7 +45,7 @@ The report breaks industrial robotics down by *application* — a lens we don't 
 ## Medium
 
 - **Academia tab** — a new top-nav page covering the U.S. university robotics ecosystem: top labs (CMU RI, MIT CSAIL, Stanford SAIL, UC Berkeley BAIR, Georgia Tech IRIM, U-Penn GRASP, U-Michigan, U-Washington), faculty + spinouts, paper output (arXiv cs.RO + NeurIPS/ICRA/RSS counts), and notable grants flowing in from NSF NRI / DOE national labs / DARPA. Sister surface to **Agencies** but oriented around where the research and talent originates. Likely needs a small `academia.json` data file with one record per lab; cross-link spinouts back to `companies.json` (e.g., Skild AI → CMU, Physical Intelligence → Berkeley/Stanford). Priority bumps once we've watched **Agencies** for a couple of weeks and seen how often users want a "who's training the people" view.
-- **Extract `renderNewsCard()` into `app.js`** — the news-card markup is duplicated between `docs/index.html` (recent-news on dashboard) and `docs/news.html` (the feed). Edits to one silently miss the other; the 2026-05-18 dashboard archive-link bug landed because of this. A shared helper closes the gap.
+- ~~**Extract \`renderNewsCard()\` into \`app.js\`**~~ — **DONE (2026-06-22).** Extracted the shared news card HTML generator as `RT.renderNewsCard` in `app.js` and refactored both `index.html` and `themes.html` to eliminate template duplication.
 
 - **Mapbox / Leaflet deployment map** — pin customer sites with robot counts. Defer until users actually ask for geographic browsing.
 - **Funding timeline charts on company detail panel** — currently rendered as a table; SVG line + bar chart per company.
