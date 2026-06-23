@@ -4679,7 +4679,8 @@
     "last_updated": "2026-06-19",
     "themes": [
       "policy-momentum",
-      "physical-ai"
+      "physical-ai",
+      "industrial-deployments"
     ]
   },
   {
@@ -4710,7 +4711,8 @@
       "active",
       "incentive",
       "tax-credit",
-      "manufacturing"
+      "manufacturing",
+      "tax"
     ],
     "sources": [
       {
@@ -4746,7 +4748,9 @@
       "AV technology developers",
       "Arizona residents"
     ],
-    "agency_responsible": [],
+    "agency_responsible": [
+      "dot"
+    ],
     "startup_eligible": true,
     "application_url": "https://azdot.gov/mvd/services/professional-services/autonomous-vehicles-testing-and-operating-state-arizona",
     "tags": [
@@ -4767,7 +4771,8 @@
     "last_updated": "2026-06-19",
     "themes": [
       "policy-momentum",
-      "physical-ai"
+      "physical-ai",
+      "industrial-deployments"
     ]
   },
   {
@@ -5504,7 +5509,9 @@
       "federal-register",
       "federal"
     ],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sources": [
       {
         "url": "https://www.federalregister.gov/documents/2026/06/22/2026-12352/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-odva-inc"
