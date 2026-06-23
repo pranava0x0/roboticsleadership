@@ -333,7 +333,7 @@
         empty.hidden = false;
       } else {
         empty.hidden = true;
-        feed.innerHTML = pageRows.map(n => renderNewsCard(n)).join('');
+        feed.innerHTML = pageRows.map(n => RT.renderNewsCard(n, companies, policies)).join('');
       }
 
       const start = Math.min((newsPage - 1) * PAGE_SIZE + 1, rows.length);
@@ -370,59 +370,6 @@
     function scrollToFeed() {
       const el = document.getElementById('sec-intelligence');
       if (el) requestAnimationFrame(() => el.scrollIntoView({ block: 'start', behavior: 'smooth' }));
-    }
-
-    function renderNewsCard(n) {
-      const catSlug = RT.slug(n.category);
-      const sentimentPill = n.sentiment
-        ? `<span class="pill ${pillFor(n.sentiment)}">${RT.escapeHTML(n.sentiment)}</span>`
-        : '';
-      const companyPills = (n.companies || []).map(id => {
-        const c = companies.find(x => x.id === id);
-        const name = c ? c.name : id;
-        return `<a class="pill outline" href="companies.html?focus=${encodeURIComponent(id)}">${RT.escapeHTML(name)}</a>`;
-      }).join('');
-      const policyPills = (n.policies || []).map(id => {
-        const p = policies.find(x => x.id === id);
-        const name = p ? (p.bill_number || p.title.slice(0, 40)) : id;
-        return `<a class="pill outline" href="policies.html?focus=${encodeURIComponent(id)}">${RT.escapeHTML(name)}</a>`;
-      }).join('');
-
-      const conf = n.confidence && n.confidence !== 'High'
-        ? `<span class="pill mixed">${RT.escapeHTML(n.confidence)} confidence</span>`
-        : '';
-
-      return `
-        <article class="feed-card" id="${RT.escapeHTML(n.id)}">
-          <div class="top-row">
-            <span class="pill cat-${catSlug}">${RT.escapeHTML(n.category)}</span>
-            ${sentimentPill}
-            ${conf}
-            <span class="row-end">
-              <span>${RT.escapeHTML(n.source)}</span>
-              <span class="sep"></span>
-              <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
-              <span class="faint">· ${RT.escapeHTML(RT.relativeDate(n.date))}</span>
-            </span>
-          </div>
-          <h3><a href="${RT.escapeHTML(n.source_url)}" target="_blank" rel="noopener">${RT.escapeHTML(n.title)}</a></h3>
-          <p class="summary">${RT.escapeHTML(n.summary)}</p>
-          <div class="footer-row">
-            ${companyPills}${policyPills}
-            <span class="row-end">
-              <a href="${RT.escapeHTML(n.source_url)}" target="_blank" rel="noopener">Read original →</a>
-              ${RT.archiveLink(n.archive_url)}
-            </span>
-          </div>
-        </article>
-      `;
-    }
-
-    function pillFor(sentiment) {
-      if (sentiment === 'Positive') return 'positive';
-      if (sentiment === 'Negative') return 'negative';
-      if (sentiment === 'Mixed') return 'mixed';
-      return 'outline';
     }
 
     renderThemeGrid();
