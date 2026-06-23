@@ -463,6 +463,25 @@
     ]
   },
   {
+    "id": "hn-48605970",
+    "title": "Show HN: Juakali: a datalayer to build artificial general engineer",
+    "date": "2026-06-20",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://4dlab.xyz/juakali/",
+    "summary": "Robotic systems lack physics-aware training data for precise industrial assembly tasks involving force, torque, and tight-tolerance interactions, limiting real-world automation performance.Juakali is ",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
     "id": "rss-what-amazon-s-astro-taught-me-548",
     "title": "What Amazon’s Astro Taught Me About Giving Robots a Soul",
     "date": "2026-06-19",
@@ -471,6 +490,24 @@
     "source_url": "https://spectrum.ieee.org/amazon-astro-robot-sound",
     "summary": "In 2018, Amazon brought me in as the lead UX Sound Designer for Astro, their first consumer home robot. Astro used cameras and other sensors to map and navigate your home and workplace, and could proa...",
     "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-video-friday-do-robots-even-ne-358",
+    "title": "Video Friday: Do Robots Even Need Legs?",
+    "date": "2026-06-19",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-agentic-ai-robot",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Policy",
     "companies": [],
     "policies": [],
     "themes": [],
@@ -514,6 +551,101 @@
     "confidence": "Medium",
     "tags": [
       "rss-import"
+    ]
+  },
+  {
+    "id": "hn-48604181",
+    "title": "Comparison of simulation environments for robot training data",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.humanoidsdata.com/articles/simulation-environments-robot-training-data",
+    "summary": "Comparison of simulation environments for robot training data",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48600768",
+    "title": "AI will create more jobs for humans, not replace them, Amazon founder Bezos says",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.bbc.com/news/articles/ceqdrw2yy3vo",
+    "summary": "AI will create more jobs for humans, not replace them, Amazon founder Bezos says",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48599998",
+    "title": "Munich 1991: The Roots of the Current AI Boom",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+    "summary": "Munich 1991: The Roots of the Current AI Boom",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48599766",
+    "title": "The AI slop refactor wave is coming",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://old.reddit.com/r/SaaS/comments/1u6f84g/the_ai_slop_refactor_wave_is_coming_and_i_havent/",
+    "summary": "The AI slop refactor wave is coming",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48598998",
+    "title": "The Robot Gearbox China Had to Grind for Itself – Industrial and Manufacturing",
+    "date": "2026-06-19",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://atomsfrontier.substack.com/p/the-robot-gearbox-china-had-to-grind",
+    "summary": "The Robot Gearbox China Had to Grind for Itself – Industrial and Manufacturing",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
     ]
   },
   {
