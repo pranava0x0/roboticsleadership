@@ -26,6 +26,14 @@ No open issues.
 
 ## Fixed (most recent first)
 
+### 2026-06-22 — data/refactor — stale root metrics, unmapped news relations, and duplicate news template rendering
+
+- **Status:** Fixed.
+- **Root cause:** code bug — PR #75 introduced several issues: (1) updated funding rounds in `companies.json` for Agility, AgiBot, and Unitree but left their root `latest_valuation_usd` and `total_funding_usd` fields stale; (2) added news items without running the relationship mapper `enrich.js`, leaving relations empty; (3) duplicated the HTML template for rendering news cards in `index.html` and `themes.html` (the same duplication that previously caused the 2026-05-18 archive-link bug).
+- **Repro:** check `companies.json` root fields against round details (stale); check newly added news in `news.json` (empty relation lists); modify a news card design style on one page and observe the other page remains outdated.
+- **Fix:** (1) corrected root properties for Agility, AgiBot, and Unitree to match round details/research JSONs; (2) ran `node scripts/enrich.js` to map company/policy relationships; (3) extracted the news card template to `RT.renderNewsCard()` in `docs/assets/app.js` and updated both pages to call it.
+- **Regression test:** `node scripts/validate.js && npm test` verifies the schema format and layout wiring.
+
 ### 2026-06-04 — scrapers — scraper-policy.js missing User-Agent header on Federal Register fetch
 
 - **Status:** Fixed.
