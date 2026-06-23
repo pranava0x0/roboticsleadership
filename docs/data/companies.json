@@ -53,7 +53,7 @@
         "robot_count": 10000,
         "start_date": "2026-04",
         "status": "pilot",
-        "use_case": "household assistance \u2014 opening doors, fetching items, lighting control",
+        "use_case": "household assistance — opening doors, fetching items, lighting control",
         "source_url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/",
         "archive_url": "https://web.archive.org/web/20260529030912/https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
       }
@@ -66,11 +66,11 @@
     "defense_contracts": false,
     "founders": [
       {
-        "name": "Bernt B\u00f8rnich",
+        "name": "Bernt Børnich",
         "role": "CEO / Founder"
       }
     ],
-    "ceo": "Bernt B\u00f8rnich",
+    "ceo": "Bernt Børnich",
     "tags": [
       "humanoid",
       "consumer",
@@ -89,7 +89,7 @@
         "archive_url": "https://web.archive.org/web/20251130090543/https://sifted.eu/articles/1x-humanoid-robot-launch"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [
       "cost-trajectory"
     ],
@@ -98,10 +98,13 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private company. Funded by OpenAI Startup Fund, Tiger Global, EQT Ventures. Revenue generation started in 2026 via NEO consumer humanoid pre-orders.",
+      "details": "Private company. Funded by OpenAI Startup Fund, Tiger Global, EQT Ventures. Revenue generation started in 2026 via NEO consumer humanoid pre-orders. Reportedly raising a ~$1B Series C at a ~$10B valuation (first reported Sep 2025); as of Jun 2026 no source confirms the round has closed — not reflected in valuation.",
       "sources": [
         {
           "url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
+        },
+        {
+          "url": "https://techstartups.com/2025/09/24/norways-1x-raising-1b-at-10b-valuation-to-bring-humanoid-robot-neo-into-homes/"
         }
       ]
     },
@@ -260,7 +263,7 @@
   },
   {
     "id": "agibot",
-    "name": "AgiBot (\u667a\u5143\u673a\u5668\u4eba)",
+    "name": "AgiBot (智元机器人)",
     "founded": "2023",
     "hq": {
       "city": "Shanghai",
@@ -282,10 +285,36 @@
         "url": "https://www.agibot.com",
         "confidence": "reported",
         "archive_url": "https://web.archive.org/web/20260501165542/https://www.agibot.com/"
+      },
+      {
+        "date": "2025-03",
+        "round": "Strategic (Tencent-led)",
+        "amount_usd": null,
+        "valuation_usd": 2070000000,
+        "investors": [
+          "Tencent",
+          "Longqi Technology",
+          "Wolong Electric",
+          "BlueRun Ventures"
+        ],
+        "url": "https://www.scmp.com/tech/big-tech/article/3303837/chinese-tech-giant-tencent-joins-latest-investment-round-shanghai-robotics-start-agibot",
+        "confidence": "reported"
+      },
+      {
+        "date": "2025-08",
+        "round": "Strategic",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "LG Electronics",
+          "Mirae Asset"
+        ],
+        "url": "https://finance.yahoo.com/news/exclusive-chinese-robot-maker-agibot-092020928.html",
+        "confidence": "reported"
       }
     ],
     "total_funding_usd": 200000000,
-    "latest_valuation_usd": null,
+    "latest_valuation_usd": 2070000000,
     "robot_types": [
       "humanoid"
     ],
@@ -315,9 +344,12 @@
     "sources": [
       {
         "url": "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/"
+      },
+      {
+        "url": "https://www.scmp.com/tech/big-tech/article/3303837/chinese-tech-giant-tencent-joins-latest-investment-round-shanghai-robotics-start-agibot"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [
       "china-scale"
     ],
@@ -392,7 +424,7 @@
         "robot_count": null,
         "start_date": "2024-06",
         "status": "active",
-        "use_case": "container loading \u2014 first humanoid RaaS contract",
+        "use_case": "container loading — first humanoid RaaS contract",
         "source_url": "https://www.agilityrobotics.com",
         "archive_url": "https://web.archive.org/web/20260507021950/https://www.agilityrobotics.com/"
       },
@@ -402,13 +434,13 @@
         "robot_count": 7,
         "start_date": "2026-02",
         "status": "active",
-        "use_case": "RAV4 logistics \u2014 Robots-as-a-Service",
+        "use_case": "RAV4 logistics — Robots-as-a-Service",
         "source_url": "https://blog.robozaps.com/b/agility-robotics-digit-review",
         "archive_url": "https://web.archive.org/web/20260325193410/https://blog.robozaps.com/b/agility-robotics-digit-review"
       }
     ],
-    "headcount": 180,
-    "headcount_date": "2025-06",
+    "headcount": 406,
+    "headcount_date": "2026-05",
     "target_price_usd": 250000,
     "open_source": false,
     "us_manufactured": true,
@@ -442,7 +474,7 @@
         "archive_url": "https://web.archive.org/web/20260325193410/https://blog.robozaps.com/b/agility-robotics-digit-review"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [
       "cost-trajectory",
       "industrial-deployments",
@@ -527,7 +559,7 @@
         "robot_count": null,
         "start_date": "2018-01",
         "status": "active",
-        "use_case": "autonomous defense systems \u2014 UAV, counter-UAS, maritime",
+        "use_case": "autonomous defense systems — UAV, counter-UAS, maritime",
         "source_url": "https://www.anduril.com",
         "archive_url": "https://web.archive.org/web/20260511102010/https://www.anduril.com/"
       }
@@ -662,7 +694,7 @@
     "headcount": null,
     "founders": [
       {
-        "name": "P\u00e9ter Fankhauser",
+        "name": "Péter Fankhauser",
         "role": "Co-founder & CEO"
       },
       {
@@ -670,7 +702,7 @@
         "role": "Co-founder (ETH Zurich)"
       }
     ],
-    "ceo": "P\u00e9ter Fankhauser",
+    "ceo": "Péter Fankhauser",
     "tags": [
       "quadruped",
       "eth-spinout",
@@ -717,7 +749,7 @@
         "date": "2026-02",
         "round": "Series A Extension",
         "amount_usd": 520000000,
-        "valuation_usd": 5500000000,
+        "valuation_usd": 5300000000,
         "investors": [
           "Google",
           "Mercedes-Benz",
@@ -728,7 +760,7 @@
       }
     ],
     "total_funding_usd": 935000000,
-    "latest_valuation_usd": 5500000000,
+    "latest_valuation_usd": 5300000000,
     "robot_types": [
       "humanoid"
     ],
@@ -756,7 +788,7 @@
         "archive_url": "https://web.archive.org/web/20191216004238/https://apptronik.com/news/"
       }
     ],
-    "headcount": 200,
+    "headcount": 300,
     "headcount_date": "2026-02",
     "target_price_usd": null,
     "open_source": false,
@@ -790,7 +822,7 @@
         "url": "https://www.bloomberg.com/news/articles/2026-02-11/apptronik-raises-520-million-in-new-funding-to-build-more-humanoids"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [
       "china-scale",
       "foundation-models",
@@ -865,7 +897,7 @@
         "location": "Global",
         "robot_count": null,
         "status": "pilot",
-        "use_case": "4D imaging radar for L4 360\u00b0 sensing",
+        "use_case": "4D imaging radar for L4 360° sensing",
         "start_date": "2025"
       }
     ],
@@ -914,7 +946,7 @@
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "Publicly traded (Nasdaq: ARBE); founded 2015 in Tel Aviv, went public in 2021 via SPAC. Reaffirmed 2026 revenue guidance of $4\u20136M and adjusted EBITDA loss of $(28)\u2013$(31)M; ended Q1 2026 with $53.6M cash after an $18.5M registered direct offering. Partnering with NVIDIA on an AI perception platform; shipping radar chipsets to robotaxi / L4 programs."
+      "details": "Publicly traded (Nasdaq: ARBE); founded 2015 in Tel Aviv, went public in 2021 via SPAC. Reaffirmed 2026 revenue guidance of $4–6M and adjusted EBITDA loss of $(28)–$(31)M; ended Q1 2026 with $53.6M cash after an $18.5M registered direct offering. Partnering with NVIDIA on an AI perception platform; shipping radar chipsets to robotaxi / L4 programs."
     },
     "map_category": "enablers"
   },
@@ -1006,7 +1038,7 @@
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "Private. Retrofits existing heavy construction equipment with an autonomy kit (lidar, GPS, motion sensors) \u2014 the \"Bedrock Operator.\" Founded by former Waymo leaders (incl. the head of its trucking program). Emerged from stealth July 2025 with $80M; Series B $270M at a $1.75B post-money valuation (Feb 2026), total raised >$350M. Targeting first fully autonomous excavator deployments in 2026."
+      "details": "Private. Retrofits existing heavy construction equipment with an autonomy kit (lidar, GPS, motion sensors) — the \"Bedrock Operator.\" Founded by former Waymo leaders (incl. the head of its trucking program). Emerged from stealth July 2025 with $80M; Series B $270M at a $1.75B post-money valuation (Feb 2026), total raised >$350M. Targeting first fully autonomous excavator deployments in 2026."
     },
     "map_category": "field"
   },
@@ -1035,7 +1067,7 @@
       }
     ],
     "total_funding_usd": 1100000000,
-    "latest_valuation_usd": 1100000000,
+    "latest_valuation_usd": 3370000000,
     "robot_types": [
       "humanoid",
       "quadruped"
@@ -1091,7 +1123,7 @@
         "archive_url": "https://web.archive.org/web/20260508103946/https://bostondynamics.com/"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [
       "industrial-deployments"
     ],
@@ -1100,10 +1132,16 @@
       "revenue_year": "2025",
       "net_income_usd": -394000000,
       "net_income_year": "2025",
-      "details": "Reported annual revenue of 150.1 billion KRW (~$112M USD) and a net loss of 528.4 billion KRW (~$394M USD) for 2025. Supported by parent company Hyundai Motor Group.",
+      "details": "Reported annual revenue of 150.1 billion KRW (~$112M USD) and a net loss of 528.4 billion KRW (~$394M USD) for 2025. Supported by parent company Hyundai Motor Group. Hyundai took full control 2025-06 by buying SoftBank’s remaining 9.65% stake for $325M, implying a ~$3.37B valuation. Press reporting (Seoul Economic Daily, 2026-03) cites an implied ~$21B figure ahead of a planned early-2027 Nasdaq IPO (secondary source, not a primary filing). Electric Atlas shown at CES 2026.",
       "sources": [
         {
           "url": "https://www.sedaily.com/"
+        },
+        {
+          "url": "https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/"
+        },
+        {
+          "url": "https://en.sedaily.com/finance/2026/03/19/boston-dynamics-valuation-hits-21-billion-24-times-2021"
         }
       ]
     },
@@ -1155,7 +1193,7 @@
       "manufacturing-robot"
     ],
     "primary_use_case": "manufacturing",
-    "flagship_product": "Software-Defined Manufacturing \u2014 AI + computer vision + robotic assembly cells for electronics and industrial components",
+    "flagship_product": "Software-Defined Manufacturing — AI + computer vision + robotic assembly cells for electronics and industrial components",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -1251,7 +1289,7 @@
         "robot_count": null,
         "start_date": "2021-01",
         "status": "active",
-        "use_case": "AI-powered laser weeding \u2014 herbicide-free weed control",
+        "use_case": "AI-powered laser weeding — herbicide-free weed control",
         "source_url": "https://www.therobotreport.com/carbon-robotics-brings-in-70m-to-scale-laserweeder/",
         "archive_url": "https://web.archive.org/web/20251210181050/https://www.therobotreport.com/carbon-robotics-brings-in-70m-to-scale-laserweeder/"
       }
@@ -1481,11 +1519,21 @@
         "archive_url": "https://web.archive.org/web/20260405151233/https://covariant.ai/"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [
       "foundation-models"
     ],
-    "financials": null,
+    "financials": {
+      "details": "Effectively wound down after Amazon reverse-acquihire (Aug 2024): founders and ~25% of staff hired by Amazon under a non-exclusive license to Covariant’s foundation models; residual entity minimal.",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/company-news/amazon-covariant-ai-robots"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Covariant_(company)"
+        }
+      ]
+    },
     "map_category": "brains"
   },
   {
@@ -1602,7 +1650,7 @@
       "dual-arm robot"
     ],
     "primary_use_case": "logistics",
-    "flagship_product": "Mech \u2014 industrial superhumanoid (dual-arm)",
+    "flagship_product": "Mech — industrial superhumanoid (dual-arm)",
     "deployments": [
       {
         "customer": "GXO Logistics, FedEx, UPS, Sumitomo",
@@ -1739,7 +1787,8 @@
       "service-robot",
       "healthcare",
       "us-manufactured",
-      "women-founded"
+      "women-founded",
+      "acquired"
     ],
     "data_confidence": "high",
     "sources": [
@@ -1748,9 +1797,19 @@
         "archive_url": "https://web.archive.org/web/20260412134505/https://www.diligentrobots.com/"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [],
-    "financials": null,
+    "financials": {
+      "details": "Acquired by Serve Robotics (NASDAQ: SERV): announced 2026-01-19, closed 2026-01-27 — all-stock deal valued ~$29M (final purchase-price allocation ~$25.7M). Now a Serve subsidiary; the consideration is an acquisition value, not a step-up valuation.",
+      "sources": [
+        {
+          "url": "https://www.stocktitan.net/news/SERV/serve-robotics-to-acquire-diligent-robotics-expanding-physical-ai-ybnl2fpexb8x.html"
+        },
+        {
+          "url": "https://techcrunch.com/2026/01/20/why-serve-robotics-is-acquiring-a-hospital-assistant-robot-company/"
+        }
+      ]
+    },
     "map_category": "service"
   },
   {
@@ -1945,10 +2004,36 @@
         "url": "https://www.engineai.com.cn",
         "confidence": "reported",
         "archive_url": "https://web.archive.org/web/20260307125510/https://www.engineai.com.cn/"
+      },
+      {
+        "date": "2025-07",
+        "round": "Pre-A++/A1",
+        "amount_usd": 140000000,
+        "valuation_usd": null,
+        "investors": [
+          "Rockets Capital",
+          "JD.com",
+          "CATL Capital",
+          "Yintai Group"
+        ],
+        "url": "https://www.therobotreport.com/engineai-raises-nearly-140m-developing-legged-humanoid-robots/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-04",
+        "round": "Series B",
+        "amount_usd": 200000000,
+        "valuation_usd": 1400000000,
+        "investors": [
+          "Henan Investment Group (Huirong Fund)",
+          "Luxshare Precision"
+        ],
+        "url": "https://www.humanoidsdaily.com/news/engineai-secures-200-million-series-b-as-manufacturing-giant-luxshare-joins-the-cap-table",
+        "confidence": "reported"
       }
     ],
-    "total_funding_usd": 14000000,
-    "latest_valuation_usd": null,
+    "total_funding_usd": 354000000,
+    "latest_valuation_usd": 1400000000,
     "robot_types": [
       "humanoid"
     ],
@@ -1978,9 +2063,12 @@
       {
         "url": "https://www.engineai.com.cn",
         "archive_url": "https://web.archive.org/web/20260307125510/https://www.engineai.com.cn/"
+      },
+      {
+        "url": "https://www.humanoidsdaily.com/news/engineai-secures-200-million-series-b-as-manufacturing-giant-luxshare-joins-the-cap-table"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [
       "china-scale"
     ],
@@ -2140,8 +2228,8 @@
         "source_url": "https://www.figure.ai/news/bmw-manufacturing"
       }
     ],
-    "headcount": 500,
-    "headcount_date": "2025-12",
+    "headcount": 658,
+    "headcount_date": "2026-05",
     "target_price_usd": 30000,
     "open_source": false,
     "us_manufactured": true,
@@ -2171,7 +2259,7 @@
         "url": "https://techcrunch.com/2024/02/29/figure-raises-675m-from-jeff-bezos-microsoft-nvidia-others/"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [
       "china-scale",
       "foundation-models",
@@ -2308,7 +2396,7 @@
       "climbing-robot"
     ],
     "primary_use_case": "inspection / maintenance",
-    "flagship_product": "Toka \u2014 wall-climbing robot for ultrasonic / visual inspection of boilers, tanks, pipelines, and ship hulls",
+    "flagship_product": "Toka — wall-climbing robot for ultrasonic / visual inspection of boilers, tanks, pipelines, and ship hulls",
     "deployments": [
       {
         "customer": "US Department of Defense",
@@ -2550,7 +2638,7 @@
       "modular-robot"
     ],
     "primary_use_case": "components / supply-chain",
-    "flagship_product": "X-Series Smart Actuator (24\u201348 V, 2\u2013120 Nm, integrated motor + driver + encoder + IMU in one module)",
+    "flagship_product": "X-Series Smart Actuator (24–48 V, 2–120 Nm, integrated motor + driver + encoder + IMU in one module)",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -2786,7 +2874,7 @@
         "robot_count": 25000,
         "start_date": "2017-01",
         "status": "active",
-        "use_case": "warehouse pick assistance \u2014 RaaS model",
+        "use_case": "warehouse pick assistance — RaaS model",
         "source_url": "https://locusrobotics.com",
         "archive_url": "https://web.archive.org/web/20260430225422/https://locusrobotics.com/"
       }
@@ -2822,7 +2910,7 @@
         "archive_url": "https://web.archive.org/web/20260430225422/https://locusrobotics.com/"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [],
     "financials": {
       "revenue_usd": 230000000,
@@ -2878,7 +2966,7 @@
         "robot_count": null,
         "start_date": "2022-01",
         "status": "active",
-        "use_case": "Rapid prototype sheet metal parts \u2014 fuselage panels, structural skins \u2014 without traditional dies",
+        "use_case": "Rapid prototype sheet metal parts — fuselage panels, structural skins — without traditional dies",
         "source_url": "https://www.machinalabs.ai"
       }
     ],
@@ -2983,7 +3071,7 @@
       "revenue_usd": 3340000000,
       "revenue_year": 2024,
       "net_income_usd": null,
-      "details": "Public company NYSE: MOG.A / MOG.B. FY2024 net sales ~$3.34B. Three segments: Space & Defense (largest), Industrial, Medical. Major US manufacturer of precision servo actuators, electric drives, and motion-control systems supplied to aerospace, defense, and industrial robotics OEMs. NDAA-compliant US manufacturer \u2014 increasingly relevant as robot actuator supply-chain security becomes a national-security concern.",
+      "details": "Public company NYSE: MOG.A / MOG.B. FY2024 net sales ~$3.34B. Three segments: Space & Defense (largest), Industrial, Medical. Major US manufacturer of precision servo actuators, electric drives, and motion-control systems supplied to aerospace, defense, and industrial robotics OEMs. NDAA-compliant US manufacturer — increasingly relevant as robot actuator supply-chain security becomes a national-security concern.",
       "sources": [
         {
           "url": "https://investors.moog.com"
@@ -3343,7 +3431,7 @@
       "foundation_model"
     ],
     "primary_use_case": "ai_foundation_model",
-    "flagship_product": "\u03c00 (foundation model)",
+    "flagship_product": "π0 (foundation model)",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -3393,7 +3481,7 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private AI software/model company, pre-revenue. Builds open vision-language-action robot foundation models (\u03c00). Series B in Nov 2025 raised $600M at a $5.6B valuation; reported total raised ~$1.5B. In talks (Mar 2026) for a further ~$1B round at an $11B+ valuation.",
+      "details": "Private AI software/model company, pre-revenue. Builds open vision-language-action robot foundation models (π0). Series B in Nov 2025 raised $600M at a $5.6B valuation; reported total raised ~$1.5B. In talks (Mar 2026) for a further ~$1B round at an $11B+ valuation.",
       "sources": [
         {
           "url": "https://www.physicalintelligence.company"
@@ -3446,7 +3534,7 @@
       "logistics-robot"
     ],
     "primary_use_case": "logistics",
-    "flagship_product": "Autonomous trailer-unloading robot \u2014 unloads mixed-SKU pallets and loose-loaded trailers",
+    "flagship_product": "Autonomous trailer-unloading robot — unloads mixed-SKU pallets and loose-loaded trailers",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -3585,10 +3673,49 @@
         "url": "https://www.robotera.ai",
         "confidence": "reported",
         "archive_url": "https://web.archive.org/web/20240716052756/https://robotera.ai/"
+      },
+      {
+        "date": "2025-11",
+        "round": "Series A+",
+        "amount_usd": 140000000,
+        "valuation_usd": null,
+        "investors": [
+          "Geely Capital",
+          "BAIC Capital",
+          "Alibaba",
+          "Haier Capital"
+        ],
+        "url": "https://theaiinsider.tech/2025/11/27/chinese-humanoid-robotics-company-robotera-secures-usd-140m-in-series-a-funding/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-03",
+        "round": "Strategic (RMB 1B)",
+        "amount_usd": 143000000,
+        "valuation_usd": null,
+        "investors": [
+          "Industry consortium"
+        ],
+        "url": "https://www.roboticstomorrow.com/news/2026/03/23/robotera-raises-rmb-1-billion-in-strategic-round-valuation-exceeds-rmb-10-billion-with-broad-industry-support/26298/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-04",
+        "round": "Strategic (SF Group-led)",
+        "amount_usd": 280000000,
+        "valuation_usd": 1400000000,
+        "investors": [
+          "SF Group",
+          "Sequoia China",
+          "IDG Capital",
+          "CICC Capital"
+        ],
+        "url": "https://www.humanoidsdaily.com/news/robotera-secures-280-million-strategic-round-as-logistics-deployment-scales",
+        "confidence": "reported"
       }
     ],
-    "total_funding_usd": 70000000,
-    "latest_valuation_usd": null,
+    "total_funding_usd": 633000000,
+    "latest_valuation_usd": 1400000000,
     "robot_types": [
       "humanoid"
     ],
@@ -3618,9 +3745,12 @@
       {
         "url": "https://www.robotera.ai",
         "archive_url": "https://web.archive.org/web/20240716052756/https://robotera.ai/"
+      },
+      {
+        "url": "https://www.humanoidsdaily.com/news/robotera-secures-280-million-strategic-round-as-logistics-deployment-scales"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [
       "china-scale"
     ],
@@ -3755,7 +3885,7 @@
         "archive_url": "https://web.archive.org/web/20260419222610/https://www.sanctuary.ai/"
       }
     ],
-    "total_funding_usd": 84300000,
+    "total_funding_usd": 148590000,
     "latest_valuation_usd": null,
     "robot_types": [
       "humanoid"
@@ -3803,9 +3933,16 @@
         "archive_url": "https://web.archive.org/web/20260419222610/https://www.sanctuary.ai/"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [],
-    "financials": null,
+    "financials": {
+      "details": "CBInsights reports ~$148.6M raised across 13 rounds, incl. a ~$10M convertible note (early 2025) and a $1.55M Series A-VI (Apr 2026). Signs of financial pressure and leadership turnover (CEO Geordie Rose removed Nov 2024; CTO departed Apr 2024). Last disclosed equity valuation ~$221-232M (Jul 2024).",
+      "sources": [
+        {
+          "url": "https://www.cbinsights.com/company/sanctuary-1/financials"
+        }
+      ]
+    },
     "map_category": "humanoid"
   },
   {
@@ -3914,10 +4051,22 @@
         "url": "https://shield.ai",
         "confidence": "confirmed",
         "archive_url": "https://web.archive.org/web/20260528221530/https://shield.ai/"
+      },
+      {
+        "date": "2026-03",
+        "round": "Series G",
+        "amount_usd": 1500000000,
+        "valuation_usd": 12700000000,
+        "investors": [
+          "Advent International",
+          "JPMorgan (Strategic Investment Group)"
+        ],
+        "url": "https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/",
+        "confidence": "confirmed"
       }
     ],
-    "total_funding_usd": 1200000000,
-    "latest_valuation_usd": 5300000000,
+    "total_funding_usd": 2700000000,
+    "latest_valuation_usd": 12700000000,
     "robot_types": [
       "UAV"
     ],
@@ -3963,9 +4112,12 @@
       {
         "url": "https://shield.ai",
         "archive_url": "https://web.archive.org/web/20260528221530/https://shield.ai/"
+      },
+      {
+        "url": "https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [
       "defense-procurement",
       "policy-momentum"
@@ -3975,10 +4127,16 @@
       "revenue_year": "2025",
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private defense technology company. FY2025 estimated revenue is approximately $300M, driven by Hivemind autonomous pilot software and V-BAT deployments.",
+      "details": "Private defense technology company. FY2025 estimated revenue is approximately $300M, driven by Hivemind autonomous pilot software and V-BAT deployments. Series G (Mar 2026): $1.5B primary equity at $12.7B post-money, plus ~$500M Blackstone preferred and a $250M facility (~$2.25B total event). Company guided 2026 revenue >$540M.",
       "sources": [
         {
           "url": "https://shield.ai"
+        },
+        {
+          "url": "https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/"
+        },
+        {
+          "url": "https://fortune.com/2026/03/26/shield-ai-revenue-series-g-funding-12-billion-valuation/"
         }
       ]
     },
@@ -4242,7 +4400,7 @@
       "industrial-arm"
     ],
     "primary_use_case": "manufacturing",
-    "flagship_product": "RO1 \u2014 20 kg payload collaborative robot arm at ~$5/hour RaaS pricing",
+    "flagship_product": "RO1 — 20 kg payload collaborative robot arm at ~$5/hour RaaS pricing",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -4395,7 +4553,7 @@
       }
     ],
     "total_funding_usd": 723000000,
-    "latest_valuation_usd": null,
+    "latest_valuation_usd": 24230000000,
     "robot_types": [
       "warehouse_robot",
       "AMR"
@@ -4451,17 +4609,23 @@
         "archive_url": "https://web.archive.org/web/20260506210620/https://www.symbotic.com/"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [],
     "financials": {
       "revenue_usd": 2247000000,
       "revenue_year": "2025",
       "net_income_usd": -91000000,
       "net_income_year": "2025",
-      "details": "Public company (SYM). Reported FY2025 revenue of $2.247B and a net loss of $91M. Contracting backlog is $22.4B. Q1 FY2026 reported revenue of $630M and net income of $13M.",
+      "details": "Public company (SYM). Reported FY2025 revenue of $2.247B and a net loss of $91M. Contracting backlog is $22.4B. Q1 FY2026 reported revenue of $630M and net income of $13M. Market cap ~$24.23B as of 2026-06-22. Q2 FY2026 (reported 2026-05-06): revenue $676M (+23% YoY), first GAAP-profitable quarter with $9M net income, adj. EBITDA $78M, backlog ~$22.7B.",
       "sources": [
         {
           "url": "https://ir.symbotic.com/"
+        },
+        {
+          "url": "https://stockanalysis.com/stocks/sym/market-cap/"
+        },
+        {
+          "url": "https://www.stocktitan.net/news/SYM/symbotic-reports-second-quarter-fiscal-year-2026-uc7ef87gezqw.html"
         }
       ]
     },
@@ -4492,7 +4656,7 @@
         "robot_count": null,
         "start_date": "2024-01",
         "status": "pilot",
-        "use_case": "internal factory tasks \u2014 battery cell sorting",
+        "use_case": "internal factory tasks — battery cell sorting",
         "source_url": "https://www.tesla.com/AI",
         "archive_url": "https://web.archive.org/web/20250704181649/https://www.tesla.com/AI"
       }
@@ -4523,7 +4687,7 @@
         "archive_url": "https://web.archive.org/web/20250704181649/https://www.tesla.com/AI"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [
       "cost-trajectory",
       "industrial-deployments"
@@ -4651,7 +4815,7 @@
       }
     ],
     "total_funding_usd": 130000000,
-    "latest_valuation_usd": 4900000000,
+    "latest_valuation_usd": 6733000000,
     "robot_types": [
       "humanoid"
     ],
@@ -4659,12 +4823,12 @@
     "flagship_product": "Walker S",
     "deployments": [
       {
-        "customer": "Multiple \u2014 automotive, logistics, semi-fab",
+        "customer": "Multiple — automotive, logistics, semi-fab",
         "location": "China (multiple)",
         "robot_count": 1079,
         "start_date": "2025-01",
         "status": "active",
-        "use_case": "industrial humanoid deployments \u2014 first company globally over 1,000 units",
+        "use_case": "industrial humanoid deployments — first company globally over 1,000 units",
         "source_url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/"
       }
     ],
@@ -4694,7 +4858,7 @@
         "url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-06-22",
     "themes": [
       "china-scale"
     ],
@@ -4703,10 +4867,16 @@
       "revenue_year": "2025",
       "net_income_usd": -109000000,
       "net_income_year": "2025",
-      "details": "Publicly traded in HK (9880.HK). Reported FY2025 revenue of RMB 2.001B (~$276M USD, up 53.3% YoY) and net loss of RMB 789.8M (~$109M USD). Humanoid segment grew to RMB 820.6M.",
+      "details": "Publicly traded in HK (9880.HK). Reported FY2025 revenue of RMB 2.001B (~$276M USD, up 53.3% YoY) and net loss of RMB 789.8M (~$109M USD). Humanoid segment grew to RMB 820.6M. Market cap ~$6.73B (HK$52.77B on 9880.HK) as of 2026-06-22. FY2025 (announced 2026-03-31): revenue RMB 2.001B (+53.3% YoY), net loss narrowed to RMB 789.8M; full-size humanoids became the largest revenue line (41.1%).",
       "sources": [
         {
           "url": "https://www.hkexnews.hk/"
+        },
+        {
+          "url": "https://stockanalysis.com/quote/hkg/9880/market-cap/"
+        },
+        {
+          "url": "https://www.humanoidsdaily.com/news/ubtech-s-2025-financials-humanoids-leap-to-center-stage-as-losses-narrow"
         }
       ]
     },
@@ -4758,7 +4928,7 @@
         "amount_usd": 616000000,
         "valuation_usd": 6200000000,
         "investors": [
-          "Public offering \u2014 Shanghai STAR Market"
+          "Public offering — Shanghai STAR Market"
         ],
         "url": "https://news.cgtn.com/news/2026-06-01/Unitree-gets-STAR-Market-green-light-in-China-s-hard-tech-IPO-wave-1NCT9TksSVq/share_amp.html",
         "confidence": "confirmed"
@@ -4872,7 +5042,7 @@
       "software-platform"
     ],
     "primary_use_case": "robot operating system / platform",
-    "flagship_product": "Viam \u2014 open-source RDK (robot development kit) and cloud platform for building and managing robot fleets",
+    "flagship_product": "Viam — open-source RDK (robot development kit) and cloud platform for building and managing robot fleets",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -5008,7 +5178,7 @@
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "UK-based embodied-AI company building end-to-end (\"AV2.0\") self-driving foundation models licensed to automakers \u2014 a \"physical AI\" approach to autonomy. Series C $1.05B (2024; SoftBank, NVIDIA, Microsoft); Series D $1.2B at an $8.6B post-money valuation (Feb 2026; led by Eclipse, Balderton and SoftBank Vision Fund 2)."
+      "details": "UK-based embodied-AI company building end-to-end (\"AV2.0\") self-driving foundation models licensed to automakers — a \"physical AI\" approach to autonomy. Series C $1.05B (2024; SoftBank, NVIDIA, Microsoft); Series D $1.2B at an $8.6B post-money valuation (Feb 2026; led by Eclipse, Balderton and SoftBank Vision Fund 2)."
     },
     "map_category": "brains"
   },
@@ -5057,7 +5227,7 @@
       "drone-motor"
     ],
     "primary_use_case": "components / supply-chain",
-    "flagship_product": "Drone motors (20\u2013100mm stator, Outrunner & Inrunner, 100\u20133000Kv) and robot actuators (1\u2013150Nm, 24\u201348V, 6:1\u201312:1 gearing)",
+    "flagship_product": "Drone motors (20–100mm stator, Outrunner & Inrunner, 100–3000Kv) and robot actuators (1–150Nm, 24–48V, 6:1–12:1 gearing)",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -5173,7 +5343,7 @@
         "robot_count": null,
         "start_date": "2016-01",
         "status": "active",
-        "use_case": "autonomous drone delivery \u2014 health, retail, food (2M+ commercial deliveries)",
+        "use_case": "autonomous drone delivery — health, retail, food (2M+ commercial deliveries)",
         "source_url": "https://www.therobotreport.com/zipline-raises-over-600m-in-funding-surpasses-2m-commercial-drone-deliveries/",
         "archive_url": "https://web.archive.org/web/20260218125946/https://www.therobotreport.com/zipline-raises-over-600m-in-funding-surpasses-2m-commercial-drone-deliveries/"
       }

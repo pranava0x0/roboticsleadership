@@ -1,0 +1,112 @@
+[
+  {
+    "id": "symbotic",
+    "name": "Symbotic",
+    "status": "changed",
+    "latest_valuation_usd": 24230000000,
+    "valuation_basis": "market cap as of 2026-06-22 ($40.20 close, ~602.7M shares outstanding)",
+    "total_funding_usd": 720000000,
+    "new_funding_rounds": [],
+    "headcount": 1500,
+    "headcount_date": "2024-12",
+    "financials_note": "Q2 FY2026 (reported 2026-05-06): revenue $676M (+23% YoY), GAAP net income $9M (vs $10M loss YoY), adjusted EBITDA $78M, cash $2.0B, 70 systems in deployment, backlog ~$22.7B. Q3 FY2026 guidance: revenue $700-720M, adj EBITDA $80-85M.",
+    "sources": [
+      {"url": "https://stockanalysis.com/stocks/sym/market-cap/", "archive_url": null},
+      {"url": "https://www.stocktitan.net/news/SYM/symbotic-reports-second-quarter-fiscal-year-2026-uc7ef87gezqw.html", "archive_url": null}
+    ],
+    "notes": "Market cap now ~$24.23B as of 2026-06-22 (baseline latest_valuation was NULL — this fills it in). Q2 FY2026 turned GAAP profitable ($9M net income) vs FY2025 full-year net loss of $91M. Backlog ticked up to ~$22.7B from baseline $22.4B. Total funding unchanged ($0.72B)."
+  },
+  {
+    "id": "boston-dynamics",
+    "name": "Boston Dynamics",
+    "status": "changed",
+    "latest_valuation_usd": 21000000000,
+    "valuation_basis": "implied valuation ~$21B (≈30 trillion won) per Seoul Economic Daily (2026-03-19), reported ahead of an expected early-2027 Nasdaq IPO; not a primary Hyundai disclosure, treat as estimate",
+    "total_funding_usd": 720000000,
+    "new_funding_rounds": [],
+    "headcount": 1500,
+    "headcount_date": "2026-04",
+    "financials_note": "FY2025 revenue reported ~$131.7M (≈150.1B won); company still operating at a loss (cumulative operating losses exceed capital injections). Assets ~777.4B won, liabilities ~365.2B won. Electric Atlas shown publicly at CES 2026-01-05; production Atlas targeted for Hyundai Metaplant (Georgia) by 2028.",
+    "sources": [
+      {"url": "https://en.sedaily.com/finance/2026/03/19/boston-dynamics-valuation-hits-21-billion-24-times-2021", "archive_url": null},
+      {"url": "https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/", "archive_url": null}
+    ],
+    "notes": "Material change vs baseline. (1) Valuation: Hyundai took FULL control 2025-06-19, buying SoftBank's remaining 9.65% stake for $325M; subsequent reporting (Seoul Economic Daily, 2026-03-19) pegs an implied ~$21B valuation (~24x the 2021 $1.1B acquisition) ahead of a planned early-2027 Nasdaq IPO. Flag: $21B is press-reported, not a primary Hyundai filing — keep baseline $1.1B as the hard floor if conservative. (2) Headcount: ~1,500 as of 2026-04 (LeadIQ/Revelio aggregators; ~1,440 as of 2025-12) — up sharply from baseline 500. Both headcount and valuation are from secondary sources, so confidence is moderate. Left total_funding flagged; do NOT overwrite baseline $1.1B valuation without a primary source if the tracker requires primary-only for valuation."
+  },
+  {
+    "id": "shield-ai",
+    "name": "Shield AI",
+    "status": "changed",
+    "latest_valuation_usd": 12700000000,
+    "valuation_basis": "Series G post-money valuation, announced 2026-03-26 (company PR)",
+    "total_funding_usd": 3450000000,
+    "new_funding_rounds": [
+      {
+        "round": "Series G",
+        "amount_usd": 1500000000,
+        "date": "2026-03-26",
+        "lead_investors": ["Advent International", "Strategic Investment Group of JPMorgan Chase Security and Resiliency Initiative"],
+        "note": "$1.5B Series G primary equity at $12.7B post-money; plus $500M fixed-return preferred equity from Blackstone and a $250M delayed-draw facility (~$2.25B total capital event). Announced alongside acquisition of simulation company Aechelon."
+      }
+    ],
+    "headcount": 1100,
+    "headcount_date": "2024-11",
+    "financials_note": "Company projecting >$540M revenue for 2026 (>80% YoY growth) per Fortune (2026-03-26), well above baseline FY2025 est ~$300M.",
+    "sources": [
+      {"url": "https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/", "archive_url": null},
+      {"url": "https://fortune.com/2026/03/26/shield-ai-revenue-series-g-funding-12-billion-valuation/", "archive_url": null}
+    ],
+    "notes": "Major change. New Series G ($1.5B primary, $12.7B post-money, 2026-03-26) led by Advent International + JPMorgan; total capital event ~$2.25B incl. $500M Blackstone preferred + $250M facility. Valuation more than doubled from baseline $5.3B. total_funding raised to ~$3.45B (baseline $1.2B + $1.5B Series G + $0.5B preferred + $0.25B facility); if only counting equity, ~$2.95B. No updated headcount found — kept baseline 1,100 (2024-11). 2026 revenue guided >$540M."
+  },
+  {
+    "id": "locus-robotics",
+    "name": "Locus Robotics",
+    "status": "confirmed",
+    "latest_valuation_usd": 2000000000,
+    "valuation_basis": "Series F valuation, ~$2.0B (Goldman Sachs AM / G2 Venture Partners, 2022-02); no new priced round found since",
+    "total_funding_usd": 420000000,
+    "new_funding_rounds": [],
+    "headcount": 600,
+    "headcount_date": "2024-06",
+    "financials_note": null,
+    "sources": [
+      {"url": "https://www.prnewswire.com/news-releases/locus-robotics-announces-117-million-in-series-f-funding-bringing-its-valuation-close-to-2-billion-301688564.html", "archive_url": null},
+      {"url": "https://pitchbook.com/profiles/company/160277-86", "archive_url": null}
+    ],
+    "notes": "No change found. No new priced funding round or official valuation update since the Series F ($117M, ~$2.0B, 2022-02). Aggregators (UpMarket) show a secondary-market estimate ~$2.17B as of 2025-08, but that is a marketplace estimate, not a company-disclosed primary round — not used to overwrite baseline. Baseline valuation $2.0B, total funding $0.42B, headcount 600 (2024-06) all stand."
+  },
+  {
+    "id": "diligent-robotics",
+    "name": "Diligent Robotics",
+    "status": "changed",
+    "latest_valuation_usd": 29000000,
+    "valuation_basis": "ACQUISITION VALUE, not a valuation: all-stock deal ~$29.0M (plus up to $5.3M earn-out) — see note; this field is the acquisition consideration in USD",
+    "total_funding_usd": 70000000,
+    "new_funding_rounds": [],
+    "headcount": 80,
+    "headcount_date": "2024-12",
+    "financials_note": "At acquisition: Moxi fleet completed >1.25M autonomous deliveries, ~100 robots across 25+ hospitals; each hospital deployment generates ~$200k-$400k annual sales. Now a Serve Robotics subsidiary; Serve completed accounting at ~$25.7M total consideration (purchase price allocation, 2026-05).",
+    "sources": [
+      {"url": "https://www.stocktitan.net/news/SERV/serve-robotics-to-acquire-diligent-robotics-expanding-physical-ai-ybnl2fpexb8x.html", "archive_url": null},
+      {"url": "https://techcrunch.com/2026/01/20/why-serve-robotics-is-acquiring-a-hospital-assistant-robot-company/", "archive_url": null}
+    ],
+    "notes": "MATERIAL: Diligent Robotics ACQUIRED by Serve Robotics (NASDAQ: SERV). Announced 2026-01-19/20, closed 2026-01-27. All-stock deal valued at ~$29.0M (incl. potential $5.3M earn-out); Serve's final purchase-price allocation reported ~$25.7M (2026-05). WARNING TO INGEST: latest_valuation_usd here is the ACQUISITION CONSIDERATION (~$29M), NOT a step-up valuation — this represents a modest/down exit relative to ~$0.07B raised. Do NOT render $29M as a company valuation without the acquisition context. Company is now a Serve subsidiary; treat as 'acquired'. The earlier aggregator '$10.5M Series C Feb 2025' could not be confirmed by any primary source and is superseded by the acquisition. Baseline valuation was NULL — recommend marking status as 'acquired by Serve Robotics' in the tracker rather than assigning a standalone valuation."
+  },
+  {
+    "id": "covariant",
+    "name": "Covariant",
+    "status": "confirmed",
+    "latest_valuation_usd": null,
+    "valuation_basis": null,
+    "total_funding_usd": 220000000,
+    "new_funding_rounds": [],
+    "headcount": 200,
+    "headcount_date": "2024-06",
+    "financials_note": "Effectively wound down as an independent company following the Amazon reverse-acquihire (2024-08): Amazon hired founders Pieter Abbeel, Peter Chen, Rocky Duan + ~25% of staff and took a non-exclusive license to Covariant's foundation models. A 2025 whistleblower complaint characterized the residual entity as a 'zombie company' existing mainly to collect a final 2025 licensing payment.",
+    "sources": [
+      {"url": "https://www.aboutamazon.com/news/company-news/amazon-covariant-ai-robots", "archive_url": null},
+      {"url": "https://en.wikipedia.org/wiki/Covariant_(company)", "archive_url": null}
+    ],
+    "notes": "No new funding/valuation. Status unchanged from baseline: founders + ~25% of workforce acquihired by Amazon (2024-08) with a non-exclusive tech license; residual entity continues serving some customers but is effectively wound down (2025 whistleblower called it a 'zombie company'). No fresh round, no new valuation. Baseline total funding $0.22B, headcount 200 (2024-06) stand. Recommend keeping tracker status as 'acquihired by Amazon'."
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "figure-ai",
+    "name": "Figure AI",
+    "status": "changed",
+    "latest_valuation_usd": 39000000000,
+    "valuation_basis": "Series C post-money, Sep 16 2025 (unchanged)",
+    "total_funding_usd": 1750000000,
+    "new_funding_rounds": [],
+    "headcount": 658,
+    "headcount_date": "2026-05",
+    "financials_note": null,
+    "sources": [
+      {"url": "https://tracxn.com/d/companies/figure/__mGB8ifRJofxLs0K1QhT-K0x9b67g4bQIEIT7bBN3B7c", "archive_url": null},
+      {"url": "https://www.figure.ai/news/series-c", "archive_url": null}
+    ],
+    "notes": "Valuation ($39B) and total funding ($1.75B) unchanged vs baseline; Series C remains the latest round and no Series D confirmed. CHANGE: headcount grew from 500 (2025-12) to 658 (as of 2026-05-31 per Tracxn)."
+  },
+  {
+    "id": "apptronik",
+    "name": "Apptronik",
+    "status": "changed",
+    "latest_valuation_usd": 5300000000,
+    "valuation_basis": "Series A Extension post-money, Feb 11 2026 (~$5.3B per TechCrunch; CNBC headline '$5B'; company did not officially disclose)",
+    "total_funding_usd": 935000000,
+    "new_funding_rounds": [],
+    "headcount": 300,
+    "headcount_date": "2026-02",
+    "financials_note": null,
+    "sources": [
+      {"url": "https://techcrunch.com/2026/02/11/humanoid-robot-startup-apptronik-has-now-raised-935m-at-a-5b-valuation/", "archive_url": null},
+      {"url": "https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/", "archive_url": null}
+    ],
+    "notes": "The $520M Series A Extension (Feb 2026) is already in baseline. CHANGE: headcount confirmed at ~300 (Feb 2026, 'double a year ago') vs baseline 200. Valuation: credible primary sources put post-money at ~$5.3B (TechCrunch), not $5.5B; CNBC headline rounds to $5B and company did not officially disclose. Recommend correcting baseline $5.5B down to ~$5.3B. Total funding $935M unchanged."
+  },
+  {
+    "id": "agility-robotics",
+    "name": "Agility Robotics",
+    "status": "changed",
+    "latest_valuation_usd": 2120000000,
+    "valuation_basis": "Series C post-money, Mar 2025 (~$2.12B)",
+    "total_funding_usd": 641000000,
+    "new_funding_rounds": [],
+    "headcount": 406,
+    "headcount_date": "2026-05",
+    "financials_note": null,
+    "sources": [
+      {"url": "https://sacra.com/c/agility-robotics/", "archive_url": null},
+      {"url": "https://tsginvest.com/agility-robotics/", "archive_url": null}
+    ],
+    "notes": "CHANGE: valuation ~$2.12B (Series C close, Mar 2025) vs baseline $1.75B — baseline used the pre-close target figure; the closed-round valuation is ~$2.12B. Total funding ~$641M (vs baseline $550M). Headcount grew from 180 (2025-06) to 406 (as of 2026-05-31 per Sacra). No new round in 2026."
+  },
+  {
+    "id": "1x-technologies",
+    "name": "1X Technologies",
+    "status": "confirmed",
+    "latest_valuation_usd": null,
+    "valuation_basis": null,
+    "total_funding_usd": 120000000,
+    "new_funding_rounds": [],
+    "headcount": null,
+    "headcount_date": null,
+    "financials_note": "Reported (not confirmed closed) Series C: ~$1B target at ~$10B valuation, first reported Sep 2025; as of June 2026 no credible source confirms the round has closed.",
+    "sources": [
+      {"url": "https://techstartups.com/2025/09/24/norways-1x-raising-1b-at-10b-valuation-to-bring-humanoid-robot-neo-into-homes/", "archive_url": null},
+      {"url": "https://en.wikipedia.org/wiki/1X_Technologies", "archive_url": null}
+    ],
+    "notes": "The widely-reported 'large Series C' is real as REPORTING but UNCONFIRMED as a close: 1X was reported (Sep 2025) to be seeking ~$1B at a $10B+ valuation. Multiple 2026 sources (Wikipedia updated 2026-05, Sacra) still describe it as 'seeking'/'in talks' with no announced close. Per rules (assert change only on a confirmed NEW value), valuation stays NULL and total_funding stays $120M baseline. Flag for follow-up: if/when the round closes it would be a major change (~$10B valuation, +$1B funding)."
+  },
+  {
+    "id": "tesla-optimus",
+    "name": "Tesla (Optimus)",
+    "status": "confirmed",
+    "latest_valuation_usd": null,
+    "valuation_basis": "Optimus not separately valued — internal Tesla program, funded internally",
+    "total_funding_usd": null,
+    "new_funding_rounds": [],
+    "headcount": null,
+    "headcount_date": null,
+    "financials_note": "Program update: Optimus V3 (Gen 3) production reported to begin summer 2026 (Musk, Abundance Summit Mar 12 2026); 2026 production target cited at ~50,000-100,000 units; Fremont line designed for ~1M/yr first-gen capacity, Giga Texas targeted for later mass production. As of early-mid 2026, units reported not yet doing productive work.",
+    "sources": [
+      {"url": "https://optimusk.blog/blog/tesla-optimus-gen-3/", "archive_url": null},
+      {"url": "https://newmarketpitch.com/blogs/news/humanoid-robotics-optimus-deployment-tracker", "archive_url": null}
+    ],
+    "notes": "No separate Optimus valuation exists (internal program) — baseline NULL stays NULL. Material program news only: Gen 3 / V3 production start (summer 2026) and 2026 unit targets of 50k-100k. Did NOT report Tesla overall market cap. Sources are secondary trackers/blogs (no primary Tesla filing isolates Optimus); treat unit targets as Musk-stated, not financially audited."
+  },
+  {
+    "id": "sanctuary-ai",
+    "name": "Sanctuary AI",
+    "status": "changed",
+    "latest_valuation_usd": null,
+    "valuation_basis": "Last disclosed valuation ~$221-232M (Jul 2024, CBInsights); no newer equity valuation found",
+    "total_funding_usd": 148590000,
+    "new_funding_rounds": [
+      {"round": "Series A-VI", "amount_usd": 1550000, "date": "2026-04", "investors": "DNX Ventures, Zeon Ventures", "source_url": "https://www.cbinsights.com/company/sanctuary-1/financials"}
+    ],
+    "financials_note": "Reported ~$10M convertible note in early 2025 described as a sign of financial pressure; leadership turnover (co-founder/CEO Geordie Rose removed Nov 2024; CTO Suzanne Gildert departed Apr 2024).",
+    "headcount": 110,
+    "headcount_date": "2024-12",
+    "sources": [
+      {"url": "https://www.cbinsights.com/company/sanctuary-1/financials", "archive_url": null},
+      {"url": "https://blog.robozaps.com/b/sanctuary-ai-phoenix-review", "archive_url": null}
+    ],
+    "notes": "CHANGE: total funding ~$148.6M (CBInsights, 13 rounds) vs baseline $84M — baseline only summed Series A + federal grant; the higher figure reflects additional small rounds incl. a $10M convertible note (early 2025) and a small Series A-VI ($1.55M, Apr 2026). No new large equity round or fresh valuation; last disclosed valuation ~$221-232M (Jul 2024). Headcount unchanged (110, 2024-12) — no newer figure found. Signs of financial pressure and leadership turnover noted."
+  }
+]
