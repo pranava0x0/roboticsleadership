@@ -102,13 +102,13 @@ async function main() {
 
   // 5. COMMIT & PR
   log('\n5️⃣  Creating commit & PR...');
-  const branch = `data-refresh-${new Date().toISOString().split('T')[0]}`;
   const today = new Date().toISOString().split('T')[0];
 
+  // Get current branch
+  const branch = execSync('git rev-parse --abbrev-ref HEAD', { encoding: 'utf8' }).trim();
+  log(`Working on branch: ${branch}`);
+
   try {
-    // Create branch
-    execSync(`git checkout -b ${branch}`, { stdio: 'pipe' });
-    success(`Branch created: ${branch}`);
 
     // Stage & commit
     execSync('git add -A', { stdio: 'pipe' });
