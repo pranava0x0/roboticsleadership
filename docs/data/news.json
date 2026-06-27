@@ -1,5 +1,24 @@
 [
   {
+    "id": "hn-48696251",
+    "title": "Show HN: PhoneCode: Local-First ADE Running Natively on Android",
+    "date": "2026-06-27",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/dttdrv/phonecode",
+    "summary": "I wanted to code locally on my phone without relying on SSH, VPS bills, etc. Most Android agentic coding apps are just that, SSH. PhoneCode bootstraps a real Alpine Linux rootfs using proot inside a n",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
     "id": "fedreg-news-2026-12921",
     "title": "Air Plan Approval; Ohio; Source-Specific Non-CTG RACT and SIP Strengthening for Ohio",
     "date": "2026-06-26",
