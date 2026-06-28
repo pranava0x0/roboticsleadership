@@ -1,5 +1,193 @@
 [
   {
+    "id": "hn-48696251",
+    "title": "Show HN: PhoneCode: Local-First ADE Running Natively on Android",
+    "date": "2026-06-27",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/dttdrv/phonecode",
+    "summary": "I wanted to code locally on my phone without relying on SSH, VPS bills, etc. Most Android agentic coding apps are just that, SSH. PhoneCode bootstraps a real Alpine Linux rootfs using proot inside a n",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48697927",
+    "title": "Show HN: Aerial-autonomy-stack – open-source perception-based drone swarms",
+    "date": "2026-06-27",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/JacopoPan/aerial-autonomy-stack",
+    "summary": "Combining (1) open-source autopilots with (2) open-source ROS2 simulation/navigation/mapping packages and (3) open-source, hardware-accelerated computer vision should not be hard, but it is.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48698112",
+    "title": "Apple seeks approval to buy chips from blacklisted Chinese company, FT reports",
+    "date": "2026-06-27",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://finance.yahoo.com/technology/articles/apple-seeks-approval-buy-chips-032619203.html",
+    "summary": "Apple seeks approval to buy chips from blacklisted Chinese company, FT reports",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48700895",
+    "title": "Can a robot be a modern artist? I gave Claude Code creative freedom",
+    "date": "2026-06-27",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://museum.nal.digital",
+    "summary": "Can a robot be a modern artist? I gave Claude Code creative freedom",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48701289",
+    "title": "DIY your own open-source Robot Vacuum",
+    "date": "2026-06-27",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/dfrobotcn/status/2070852143964139763",
+    "summary": "DIY your own open-source Robot Vacuum",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48701512",
+    "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
+    "date": "2026-06-27",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/kageroumado/adrafinil",
+    "summary": "A month ago there was a wave of posts and tweets about engineers walking around cafes and parks with their MacBooks propped half-open, as fully closing the lid forces sleep that stops their AI agents.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48702366",
+    "title": "US Army used 35 drones and 100 lb of C4 to clear a breach",
+    "date": "2026-06-27",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.businessinsider.com/us-army-commander-used-drones-c4-packed-robots-clear-breach-2026-6",
+    "summary": "US Army used 35 drones and 100 lb of C4 to clear a breach",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48704523",
+    "title": "Building an Open-Source Robot Vacuum – Meet Oomwoo",
+    "date": "2026-06-28",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/",
+    "summary": "Building an Open-Source Robot Vacuum – Meet Oomwoo",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-how-compact-cobot-integration-984",
+    "title": "How compact cobot integration enhances autonomous mobile robot applications",
+    "date": "2026-06-27",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-compact-cobot-integration-enhances-autonomous-mobile-robot-applications/",
+    "summary": "Cobots are quickly shaping the future of warehousing, with their use rising 10-fold from 2018 to 2025, Kassow said.\nThe post How compact cobot integration enhances autonomous mobile robot applications...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-we-know-how-to-build-smarter-r-11",
+    "title": "We know how to build smarter robots. Now, we need to learn smarter ways to test them",
+    "date": "2026-06-27",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/we-know-how-to-build-smarter-robots-now-we-need-to-learn-smarter-ways-to-test-them/",
+    "summary": "Atharv Kolhar, a staff test automation engineer at Figure AI, says the robotics industry needs a testing philosophy that scales alongside autonomy. \nThe post We know how to build smarter robots. Now, ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "fedreg-news-2026-12921",
     "title": "Air Plan Approval; Ohio; Source-Specific Non-CTG RACT and SIP Strengthening for Ohio",
     "date": "2026-06-26",
