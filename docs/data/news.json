@@ -1,50 +1,12 @@
 [
   {
-    "id": "hn-48696251",
-    "title": "Show HN: PhoneCode: Local-First ADE Running Natively on Android",
-    "date": "2026-06-27",
+    "id": "hn-48704523",
+    "title": "Building an Open-Source Robot Vacuum – Meet Oomwoo",
+    "date": "2026-06-28",
     "source": "hacker-news-robotics",
     "source_type": "Community",
-    "source_url": "https://github.com/dttdrv/phonecode",
-    "summary": "I wanted to code locally on my phone without relying on SSH, VPS bills, etc. Most Android agentic coding apps are just that, SSH. PhoneCode bootstraps a real Alpine Linux rootfs using proot inside a n",
-    "category": "Policy",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48697927",
-    "title": "Show HN: Aerial-autonomy-stack – open-source perception-based drone swarms",
-    "date": "2026-06-27",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://github.com/JacopoPan/aerial-autonomy-stack",
-    "summary": "Combining (1) open-source autopilots with (2) open-source ROS2 simulation/navigation/mapping packages and (3) open-source, hardware-accelerated computer vision should not be hard, but it is.",
-    "category": "Deployment",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48698112",
-    "title": "Apple seeks approval to buy chips from blacklisted Chinese company, FT reports",
-    "date": "2026-06-27",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://finance.yahoo.com/technology/articles/apple-seeks-approval-buy-chips-032619203.html",
-    "summary": "Apple seeks approval to buy chips from blacklisted Chinese company, FT reports",
+    "source_url": "https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/",
+    "summary": "Building an Open-Source Robot Vacuum – Meet Oomwoo",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -57,32 +19,49 @@
     ]
   },
   {
-    "id": "hn-48700895",
-    "title": "Can a robot be a modern artist? I gave Claude Code creative freedom",
+    "id": "rss-we-know-how-to-build-smarter-r-11",
+    "title": "We know how to build smarter robots. Now, we need to learn smarter ways to test them",
     "date": "2026-06-27",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://museum.nal.digital",
-    "summary": "Can a robot be a modern artist? I gave Claude Code creative freedom",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/we-know-how-to-build-smarter-robots-now-we-need-to-learn-smarter-ways-to-test-them/",
+    "summary": "Atharv Kolhar, a staff test automation engineer at Figure AI, says the robotics industry needs a testing philosophy that scales alongside autonomy. \nThe post We know how to build smarter robots. Now, ...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
-    "confidence": "Low",
+    "confidence": "Medium",
     "tags": [
-      "hacker-news",
-      "community"
+      "rss-import"
     ]
   },
   {
-    "id": "hn-48701289",
-    "title": "DIY your own open-source Robot Vacuum",
+    "id": "rss-how-compact-cobot-integration-984",
+    "title": "How compact cobot integration enhances autonomous mobile robot applications",
+    "date": "2026-06-27",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-compact-cobot-integration-enhances-autonomous-mobile-robot-applications/",
+    "summary": "Cobots are quickly shaping the future of warehousing, with their use rising 10-fold from 2018 to 2025, Kassow said.\nThe post How compact cobot integration enhances autonomous mobile robot applications...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "hn-48702366",
+    "title": "US Army used 35 drones and 100 lb of C4 to clear a breach",
     "date": "2026-06-27",
     "source": "hacker-news-robotics",
     "source_type": "Community",
-    "source_url": "https://twitter.com/dfrobotcn/status/2070852143964139763",
-    "summary": "DIY your own open-source Robot Vacuum",
+    "source_url": "https://www.businessinsider.com/us-army-commander-used-drones-c4-packed-robots-clear-breach-2026-6",
+    "summary": "US Army used 35 drones and 100 lb of C4 to clear a breach",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -114,13 +93,13 @@
     ]
   },
   {
-    "id": "hn-48702366",
-    "title": "US Army used 35 drones and 100 lb of C4 to clear a breach",
+    "id": "hn-48701289",
+    "title": "DIY your own open-source Robot Vacuum",
     "date": "2026-06-27",
     "source": "hacker-news-robotics",
     "source_type": "Community",
-    "source_url": "https://www.businessinsider.com/us-army-commander-used-drones-c4-packed-robots-clear-breach-2026-6",
-    "summary": "US Army used 35 drones and 100 lb of C4 to clear a breach",
+    "source_url": "https://twitter.com/dfrobotcn/status/2070852143964139763",
+    "summary": "DIY your own open-source Robot Vacuum",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -133,13 +112,13 @@
     ]
   },
   {
-    "id": "hn-48704523",
-    "title": "Building an Open-Source Robot Vacuum – Meet Oomwoo",
-    "date": "2026-06-28",
+    "id": "hn-48700895",
+    "title": "Can a robot be a modern artist? I gave Claude Code creative freedom",
+    "date": "2026-06-27",
     "source": "hacker-news-robotics",
     "source_type": "Community",
-    "source_url": "https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/",
-    "summary": "Building an Open-Source Robot Vacuum – Meet Oomwoo",
+    "source_url": "https://museum.nal.digital",
+    "summary": "Can a robot be a modern artist? I gave Claude Code creative freedom",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -152,58 +131,60 @@
     ]
   },
   {
-    "id": "rss-how-compact-cobot-integration-984",
-    "title": "How compact cobot integration enhances autonomous mobile robot applications",
+    "id": "hn-48698112",
+    "title": "Apple seeks approval to buy chips from blacklisted Chinese company, FT reports",
     "date": "2026-06-27",
-    "source": "the-robot-report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/how-compact-cobot-integration-enhances-autonomous-mobile-robot-applications/",
-    "summary": "Cobots are quickly shaping the future of warehousing, with their use rising 10-fold from 2018 to 2025, Kassow said.\nThe post How compact cobot integration enhances autonomous mobile robot applications...",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://finance.yahoo.com/technology/articles/apple-seeks-approval-buy-chips-032619203.html",
+    "summary": "Apple seeks approval to buy chips from blacklisted Chinese company, FT reports",
     "category": "Competitive",
     "companies": [],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
-    "confidence": "Medium",
+    "confidence": "Low",
     "tags": [
-      "rss-import"
+      "hacker-news",
+      "community"
     ]
   },
   {
-    "id": "rss-we-know-how-to-build-smarter-r-11",
-    "title": "We know how to build smarter robots. Now, we need to learn smarter ways to test them",
+    "id": "hn-48697927",
+    "title": "Show HN: Aerial-autonomy-stack – open-source perception-based drone swarms",
     "date": "2026-06-27",
-    "source": "the-robot-report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/we-know-how-to-build-smarter-robots-now-we-need-to-learn-smarter-ways-to-test-them/",
-    "summary": "Atharv Kolhar, a staff test automation engineer at Figure AI, says the robotics industry needs a testing philosophy that scales alongside autonomy. \nThe post We know how to build smarter robots. Now, ...",
-    "category": "Competitive",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/JacopoPan/aerial-autonomy-stack",
+    "summary": "Combining (1) open-source autopilots with (2) open-source ROS2 simulation/navigation/mapping packages and (3) open-source, hardware-accelerated computer vision should not be hard, but it is.",
+    "category": "Deployment",
     "companies": [],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
-    "confidence": "Medium",
+    "confidence": "Low",
     "tags": [
-      "rss-import"
+      "hacker-news",
+      "community"
     ]
   },
   {
-    "id": "fedreg-news-2026-12921",
-    "title": "Air Plan Approval; Ohio; Source-Specific Non-CTG RACT and SIP Strengthening for Ohio",
-    "date": "2026-06-26",
-    "source": "federal-register-robotics",
-    "source_type": "Government",
-    "source_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12921/air-plan-approval-ohio-source-specific-non-ctg-ract-and-sip-strengthening-for-ohio",
-    "summary": "The Environmental Protection Agency (EPA) is approving source- specific State Implementation Plan (SIP) revisions submitted by Ohio. These revisions address major source volatile organic compound (VOC...",
-    "category": "Competitive",
+    "id": "hn-48696251",
+    "title": "Show HN: PhoneCode: Local-First ADE Running Natively on Android",
+    "date": "2026-06-27",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/dttdrv/phonecode",
+    "summary": "I wanted to code locally on my phone without relying on SSH, VPS bills, etc. Most Android agentic coding apps are just that, SSH. PhoneCode bootstraps a real Alpine Linux rootfs using proot inside a n",
+    "category": "Policy",
     "companies": [],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
-    "confidence": "Medium",
+    "confidence": "Low",
     "tags": [
-      "federal-register",
-      "rss-import"
+      "hacker-news",
+      "community"
     ]
   },
   {
@@ -226,98 +207,21 @@
     ]
   },
   {
-    "id": "hn-48683544",
-    "title": "First hotel staffed by robots to open in 2027",
+    "id": "rss-video-friday-give-robots-a-han-529",
+    "title": "Video Friday: Give Robots a Hand",
     "date": "2026-06-26",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://newatlas.com/ai-humanoids/luxury-hotel-staffed-robots-shenzhong/",
-    "summary": "First hotel staffed by robots to open in 2027",
-    "category": "Competitive",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-robot-grippers",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Research",
     "companies": [],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
-    "confidence": "Low",
+    "confidence": "Medium",
     "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48685504",
-    "title": "Zoo Visitors' Initial Assessment of an Animaloid Robot as a Zoo Exhibit [pdf]",
-    "date": "2026-06-26",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://dl.acm.org/doi/pdf/10.1145/3544549.3585762",
-    "summary": "Zoo Visitors' Initial Assessment of an Animaloid Robot as a Zoo Exhibit [pdf]",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48686976",
-    "title": "Intervention No. 1 \"Quantum\" performed by a cello that's played by two robots [video]",
-    "date": "2026-06-26",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.youtube.com/watch?v=a0Ehoc65MF8",
-    "summary": "Intervention No. 1 \"Quantum\" performed by a cello that's played by two robots [video]",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48687106",
-    "title": "The Excavator That Digs to a Line It Cannot See – Mobility and Field Robotics",
-    "date": "2026-06-26",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://atomsfrontier.substack.com/p/the-excavator-that-digs-to-a-line",
-    "summary": "The Excavator That Digs to a Line It Cannot See – Mobility and Field Robotics",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48691338",
-    "title": "US auto regulators want to kill robotaxi brake pedals",
-    "date": "2026-06-26",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.theregister.com/offbeat/2026/06/26/us-auto-regulators-want-to-kill-robotaxi-brake-pedals/5263228",
-    "summary": "US auto regulators want to kill robotaxi brake pedals",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
+      "rss-import"
     ]
   },
   {
@@ -357,31 +261,13 @@
     ]
   },
   {
-    "id": "rss-video-friday-give-robots-a-han-529",
-    "title": "Video Friday: Give Robots a Hand",
+    "id": "hn-48691338",
+    "title": "US auto regulators want to kill robotaxi brake pedals",
     "date": "2026-06-26",
-    "source": "ieee-spectrum-robotics",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/video-friday-robot-grippers",
-    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
-    "category": "Research",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "hn-48670185",
-    "title": "Humanoids In-the-Wild Dataset",
-    "date": "2026-06-25",
     "source": "hacker-news-robotics",
     "source_type": "Community",
-    "source_url": "https://bitrobot-foundation.github.io/humanoids-in-the-wild-500-hours/",
-    "summary": "Humanoids In-the-Wild Dataset",
+    "source_url": "https://www.theregister.com/offbeat/2026/06/26/us-auto-regulators-want-to-kill-robotaxi-brake-pedals/5263228",
+    "summary": "US auto regulators want to kill robotaxi brake pedals",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -394,13 +280,13 @@
     ]
   },
   {
-    "id": "hn-48672293",
-    "title": "A new report on the dangers of politicizing humanities in academia",
-    "date": "2026-06-25",
+    "id": "hn-48687106",
+    "title": "The Excavator That Digs to a Line It Cannot See – Mobility and Field Robotics",
+    "date": "2026-06-26",
     "source": "hacker-news-robotics",
     "source_type": "Community",
-    "source_url": "https://whyevolutionistrue.com/2026/06/08/a-new-report-on-the-dangers-of-politicizing-humanities-in-academia/",
-    "summary": "A new report on the dangers of politicizing humanities in academia",
+    "source_url": "https://atomsfrontier.substack.com/p/the-excavator-that-digs-to-a-line",
+    "summary": "The Excavator That Digs to a Line It Cannot See – Mobility and Field Robotics",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -413,13 +299,13 @@
     ]
   },
   {
-    "id": "hn-48674194",
-    "title": "Atlas of Humanity",
-    "date": "2026-06-25",
+    "id": "hn-48686976",
+    "title": "Intervention No. 1 \"Quantum\" performed by a cello that's played by two robots [video]",
+    "date": "2026-06-26",
     "source": "hacker-news-robotics",
     "source_type": "Community",
-    "source_url": "https://www.atlasofhumanity.org",
-    "summary": "Atlas of Humanity",
+    "source_url": "https://www.youtube.com/watch?v=a0Ehoc65MF8",
+    "summary": "Intervention No. 1 \"Quantum\" performed by a cello that's played by two robots [video]",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -432,13 +318,13 @@
     ]
   },
   {
-    "id": "hn-48678265",
-    "title": "Hours of Humanoid Teleop, Recorded in Real Homes",
-    "date": "2026-06-25",
+    "id": "hn-48685504",
+    "title": "Zoo Visitors' Initial Assessment of an Animaloid Robot as a Zoo Exhibit [pdf]",
+    "date": "2026-06-26",
     "source": "hacker-news-robotics",
     "source_type": "Community",
-    "source_url": "https://topicqueue.substack.com/p/500-hours-of-humanoid-teleop-recorded",
-    "summary": "Hours of Humanoid Teleop, Recorded in Real Homes",
+    "source_url": "https://dl.acm.org/doi/pdf/10.1145/3544549.3585762",
+    "summary": "Zoo Visitors' Initial Assessment of an Animaloid Robot as a Zoo Exhibit [pdf]",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -451,298 +337,13 @@
     ]
   },
   {
-    "id": "hn-48670610",
-    "title": "The weirdest things a leak revealed about Peter Thiel's club",
-    "date": "2026-06-25",
+    "id": "hn-48683544",
+    "title": "First hotel staffed by robots to open in 2027",
+    "date": "2026-06-26",
     "source": "hacker-news-robotics",
     "source_type": "Community",
-    "source_url": "https://www.theguardian.com/commentisfree/2026/jun/24/peter-thiel-secret-club-leak",
-    "summary": "The weirdest things a leak revealed about Peter Thiel's club",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48670692",
-    "title": "Bill Gates says Epstein sought to blackmail him over extramarital affairs",
-    "date": "2026-06-25",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.theguardian.com/us-news/2026/jun/24/bill-gates-epstein-transcript",
-    "summary": "Bill Gates says Epstein sought to blackmail him over extramarital affairs",
-    "category": "Policy",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48670815",
-    "title": "Young Cornish people are turning to campervans to have a roof over their heads",
-    "date": "2026-06-25",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.theguardian.com/environment/2026/jun/25/reality-life-cornwall-young-van-dwellers-priced-out-of-the-housing-market",
-    "summary": "Young Cornish people are turning to campervans to have a roof over their heads",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48670836",
-    "title": "AWS Lambda Introduces MicroVMs",
-    "date": "2026-06-25",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
-    "summary": "AWS Lambda Introduces MicroVMs",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48671393",
-    "title": "The reason China is building most of the robots",
-    "date": "2026-06-25",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.ft.com/content/c8731833-10ca-4a12-bfe4-8ebb2584ec68",
-    "summary": "The reason China is building most of the robots",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48671899",
-    "title": "'Digit' maker Agility Robotics to go public in $2.5B deal",
-    "date": "2026-06-25",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.geekwire.com/2026/digit-maker-agility-robotics-to-go-public-in-2-5b-deal-heres-what-the-filings-say-about-its-finances/",
-    "summary": "'Digit' maker Agility Robotics to go public in $2.5B deal",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48671939",
-    "title": "No one is self-made",
-    "date": "2026-06-25",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://aeon.co/essays/zhuangzi-and-the-case-against-meritocracy",
-    "summary": "No one is self-made",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48672037",
-    "title": "Software engineers are facing an 'identity crisis bordering on depression'",
-    "date": "2026-06-25",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.businessinsider.com/software-engineers-face-an-ai-identity-crisis-vc-partner-says-2026-6",
-    "summary": "Software engineers are facing an 'identity crisis bordering on depression'",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48672053",
-    "title": "The Boom That Sprays One Weed at a Time – Mobility and Field Robotics",
-    "date": "2026-06-25",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://atomsfrontier.substack.com/p/the-boom-that-sprays-one-weed-at",
-    "summary": "The Boom That Sprays One Weed at a Time – Mobility and Field Robotics",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48672285",
-    "title": "Show HN: Portal – Taking Online Connections Back to Their Roots",
-    "date": "2026-06-25",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.portal-beta.com/",
-    "summary": "Show HN: Portal – Taking Online Connections Back to Their Roots",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48672290",
-    "title": "France experiences its hottest day since measurements began in 1947",
-    "date": "2026-06-25",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.france24.com/en/france-experiences-its-hottest-day-since-measurements-began-in-1947",
-    "summary": "France experiences its hottest day since measurements began in 1947",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48673362",
-    "title": "Talking robot heads and one human with a tinfoil helmet [video]",
-    "date": "2026-06-25",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.youtube.com/watch?v=aicfLYrRuUw",
-    "summary": "Talking robot heads and one human with a tinfoil helmet [video]",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48675651",
-    "title": "Show HN: An open source app for navigating CS conferences",
-    "date": "2026-06-25",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://github.com/CuriousG102/conference-planner",
-    "summary": "Hey HN,I wrote a single app that pulls all of a conference's workshops, talks, papers, and posters into one place. You can search everything, star what you care about, and sync across devices wit",
-    "category": "Research",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48676901",
-    "title": "HRM-Text: Efficient Pretraining Beyond Scaling",
-    "date": "2026-06-25",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://huggingface.co/papers/2605.20613",
-    "summary": "HRM-Text: Efficient Pretraining Beyond Scaling",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48676916",
-    "title": "Autodata: An agentic data scientist to create high quality synthetic data",
-    "date": "2026-06-25",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://arxiv.org/abs/2606.25996",
-    "summary": "Autodata: An agentic data scientist to create high quality synthetic data",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48677002",
-    "title": "Older tech workers are tapping out early",
-    "date": "2026-06-25",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.seattletimes.com/business/local-business/older-tech-workers-are-tapping-out-early-heres-what-that-looks-like/",
-    "summary": "Older tech workers are tapping out early",
+    "source_url": "https://newatlas.com/ai-humanoids/luxury-hotel-staffed-robots-shenzhong/",
+    "summary": "First hotel staffed by robots to open in 2027",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -774,13 +375,13 @@
     ]
   },
   {
-    "id": "rss-arm-institute-expands-robotics-351",
-    "title": "ARM Institute expands RoboticsCareer.org into physical AI",
-    "date": "2026-06-25",
-    "source": "the-robot-report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/arm-institute-launches-physical-ai-focused-expansion-roboticscareer-org/",
-    "summary": "RoboticsCareer.org now lists the growing job opportunities in physical AI and enables employers to connect to qualified talent.\nThe post ARM Institute expands RoboticsCareer.org into physical AI appea...",
+    "id": "fedreg-news-2026-12921",
+    "title": "Air Plan Approval; Ohio; Source-Specific Non-CTG RACT and SIP Strengthening for Ohio",
+    "date": "2026-06-26",
+    "source": "federal-register-robotics",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12921/air-plan-approval-ohio-source-specific-non-ctg-ract-and-sip-strengthening-for-ohio",
+    "summary": "The Environmental Protection Agency (EPA) is approving source- specific State Implementation Plan (SIP) revisions submitted by Ohio. These revisions address major source volatile organic compound (VOC...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -788,6 +389,7 @@
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
+      "federal-register",
       "rss-import"
     ]
   },
@@ -846,14 +448,393 @@
     ]
   },
   {
-    "id": "hn-48661479",
-    "title": "Show HN: Pitchly Hire – human-reviewed job listings with forced expiry",
-    "date": "2026-06-24",
+    "id": "rss-arm-institute-expands-robotics-351",
+    "title": "ARM Institute expands RoboticsCareer.org into physical AI",
+    "date": "2026-06-25",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/arm-institute-launches-physical-ai-focused-expansion-roboticscareer-org/",
+    "summary": "RoboticsCareer.org now lists the growing job opportunities in physical AI and enables employers to connect to qualified talent.\nThe post ARM Institute expands RoboticsCareer.org into physical AI appea...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "hn-48678265",
+    "title": "Hours of Humanoid Teleop, Recorded in Real Homes",
+    "date": "2026-06-25",
     "source": "hacker-news-robotics",
     "source_type": "Community",
-    "source_url": "https://pitchlyhire.com/",
-    "summary": "After experiencing the current job market and seeing my friends going through the same thing, I got tired of it and decided to do something. Job boards have no incentive to remove ghost jobs because t",
-    "category": "Funding",
+    "source_url": "https://topicqueue.substack.com/p/500-hours-of-humanoid-teleop-recorded",
+    "summary": "Hours of Humanoid Teleop, Recorded in Real Homes",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48677002",
+    "title": "Older tech workers are tapping out early",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.seattletimes.com/business/local-business/older-tech-workers-are-tapping-out-early-heres-what-that-looks-like/",
+    "summary": "Older tech workers are tapping out early",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48676916",
+    "title": "Autodata: An agentic data scientist to create high quality synthetic data",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2606.25996",
+    "summary": "Autodata: An agentic data scientist to create high quality synthetic data",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48676901",
+    "title": "HRM-Text: Efficient Pretraining Beyond Scaling",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://huggingface.co/papers/2605.20613",
+    "summary": "HRM-Text: Efficient Pretraining Beyond Scaling",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48675651",
+    "title": "Show HN: An open source app for navigating CS conferences",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/CuriousG102/conference-planner",
+    "summary": "Hey HN,I wrote a single app that pulls all of a conference's workshops, talks, papers, and posters into one place. You can search everything, star what you care about, and sync across devices wit",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48674194",
+    "title": "Atlas of Humanity",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.atlasofhumanity.org",
+    "summary": "Atlas of Humanity",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48673362",
+    "title": "Talking robot heads and one human with a tinfoil helmet [video]",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=aicfLYrRuUw",
+    "summary": "Talking robot heads and one human with a tinfoil helmet [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48672293",
+    "title": "A new report on the dangers of politicizing humanities in academia",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://whyevolutionistrue.com/2026/06/08/a-new-report-on-the-dangers-of-politicizing-humanities-in-academia/",
+    "summary": "A new report on the dangers of politicizing humanities in academia",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48672290",
+    "title": "France experiences its hottest day since measurements began in 1947",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.france24.com/en/france-experiences-its-hottest-day-since-measurements-began-in-1947",
+    "summary": "France experiences its hottest day since measurements began in 1947",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48672285",
+    "title": "Show HN: Portal – Taking Online Connections Back to Their Roots",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.portal-beta.com/",
+    "summary": "Show HN: Portal – Taking Online Connections Back to Their Roots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48672053",
+    "title": "The Boom That Sprays One Weed at a Time – Mobility and Field Robotics",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://atomsfrontier.substack.com/p/the-boom-that-sprays-one-weed-at",
+    "summary": "The Boom That Sprays One Weed at a Time – Mobility and Field Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48672037",
+    "title": "Software engineers are facing an 'identity crisis bordering on depression'",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.businessinsider.com/software-engineers-face-an-ai-identity-crisis-vc-partner-says-2026-6",
+    "summary": "Software engineers are facing an 'identity crisis bordering on depression'",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48671939",
+    "title": "No one is self-made",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://aeon.co/essays/zhuangzi-and-the-case-against-meritocracy",
+    "summary": "No one is self-made",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48671899",
+    "title": "'Digit' maker Agility Robotics to go public in $2.5B deal",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.geekwire.com/2026/digit-maker-agility-robotics-to-go-public-in-2-5b-deal-heres-what-the-filings-say-about-its-finances/",
+    "summary": "'Digit' maker Agility Robotics to go public in $2.5B deal",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48671393",
+    "title": "The reason China is building most of the robots",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.ft.com/content/c8731833-10ca-4a12-bfe4-8ebb2584ec68",
+    "summary": "The reason China is building most of the robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48670836",
+    "title": "AWS Lambda Introduces MicroVMs",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
+    "summary": "AWS Lambda Introduces MicroVMs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48670815",
+    "title": "Young Cornish people are turning to campervans to have a roof over their heads",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/environment/2026/jun/25/reality-life-cornwall-young-van-dwellers-priced-out-of-the-housing-market",
+    "summary": "Young Cornish people are turning to campervans to have a roof over their heads",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48670692",
+    "title": "Bill Gates says Epstein sought to blackmail him over extramarital affairs",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/us-news/2026/jun/24/bill-gates-epstein-transcript",
+    "summary": "Bill Gates says Epstein sought to blackmail him over extramarital affairs",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48670610",
+    "title": "The weirdest things a leak revealed about Peter Thiel's club",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/commentisfree/2026/jun/24/peter-thiel-secret-club-leak",
+    "summary": "The weirdest things a leak revealed about Peter Thiel's club",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48670185",
+    "title": "Humanoids In-the-Wild Dataset",
+    "date": "2026-06-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://bitrobot-foundation.github.io/humanoids-in-the-wild-500-hours/",
+    "summary": "Humanoids In-the-Wild Dataset",
+    "category": "Competitive",
     "companies": [],
     "policies": [],
     "themes": [],
@@ -884,174 +865,21 @@
     ]
   },
   {
-    "id": "hn-48656694",
-    "title": "It's Well Past Time for a Four-Day Workweek",
+    "id": "rss-reservoir-acquires-contain-to-608",
+    "title": "Reservoir acquires Contain to scale agtech startups",
     "date": "2026-06-24",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://jacobin.com/2026/06/schor-four-day-workweek-labor",
-    "summary": "It's Well Past Time for a Four-Day Workweek",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/reservoir-acquires-contain-to-scale-agtech-startups/",
+    "summary": "Reservoir has acquired agriculture finance platform Contain,, naming founder Nicola Kerslake general partner to help scale AI startups.\nThe post Reservoir acquires Contain to scale agtech startups app...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
-    "confidence": "Low",
+    "confidence": "Medium",
     "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48657058",
-    "title": "'Who is going to pay us when we're replaced by robots?'",
-    "date": "2026-06-24",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.theguardian.com/global-development/2026/jun/24/indian-factory-workers-told-film-themselves-for-ai-robots",
-    "summary": "'Who is going to pay us when we're replaced by robots?'",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48658563",
-    "title": "Agility, Maker of Humanlike Robots, to Go Public in $2.5B SPAC Deal",
-    "date": "2026-06-24",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.wsj.com/finance/agility-maker-of-humanlike-robots-to-go-public-in-2-5-billion-spac-deal-62c3cb32",
-    "summary": "Agility, Maker of Humanlike Robots, to Go Public in $2.5B SPAC Deal",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48659515",
-    "title": "I built a local AI deck music assistant on a Mac mini",
-    "date": "2026-06-24",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://github.com/wkswede/robot-deck-audio",
-    "summary": "I built a local AI deck music assistant on a Mac mini",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48660631",
-    "title": "Mental health is not an individual matter, but a political one (2023)",
-    "date": "2026-06-24",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://psyche.co/ideas/mental-health-is-not-an-individual-matter-but-a-political-one",
-    "summary": "Mental health is not an individual matter, but a political one (2023)",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48660814",
-    "title": "Robots will replace 700K delivery workers, warns head of e-commerce giant",
-    "date": "2026-06-24",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.computerworld.com/article/4188535/robots-will-replace-700000-delivery-workers-warns-head-of-e-commerce-giant.html",
-    "summary": "Robots will replace 700K delivery workers, warns head of e-commerce giant",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48661083",
-    "title": "Show HN: eBook to audiobook narration with realistic AI voices",
-    "date": "2026-06-24",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://ebookaloud.com",
-    "summary": "For a while I've wanted to try out the new AI voices for long-form narration, but everything I found required a subscription that didn't justify my limited usage. I came across the open Koko",
-    "category": "Research",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48662506",
-    "title": "Open Robotics Is Maturing",
-    "date": "2026-06-24",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://digitalcxo.com/article/open-robotics-is-maturing/",
-    "summary": "Open Robotics Is Maturing",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48666756",
-    "title": "M5StackChan AI Desktop Robot",
-    "date": "2026-06-24",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://shop.m5stack.com/products/stackchan-kawaii-co-created-open-source-ai-desktop-robot",
-    "summary": "M5StackChan AI Desktop Robot",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
+      "rss-import"
     ]
   },
   {
@@ -1109,13 +937,13 @@
     ]
   },
   {
-    "id": "rss-reservoir-acquires-contain-to-608",
-    "title": "Reservoir acquires Contain to scale agtech startups",
+    "id": "rss-deep-dive-into-arm-s-physical-640",
+    "title": "Deep dive into ARM’s physical AI and robotics strategies with Drew Henry",
     "date": "2026-06-24",
     "source": "the-robot-report",
     "source_type": "News",
-    "source_url": "https://www.therobotreport.com/reservoir-acquires-contain-to-scale-agtech-startups/",
-    "summary": "Reservoir has acquired agriculture finance platform Contain,, naming founder Nicola Kerslake general partner to help scale AI startups.\nThe post Reservoir acquires Contain to scale agtech startups app...",
+    "source_url": "https://www.therobotreport.com/deep-dive-into-arms-physical-ai-and-robotics-strategies-with-drew-henry/",
+    "summary": "ARM’s Drew Henry discusses the future of physical AI, robotics, and autonomous systems built for real-world constraints.\nThe post Deep dive into ARM’s physical AI and robotics strategies with Drew Hen...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -1145,70 +973,13 @@
     ]
   },
   {
-    "id": "fedreg-news-2026-12534",
-    "title": "Foreign-Trade Zone (FTZ) 18, Notification of Proposed Production Activity; KLA Corporation; (Semiconductor Wafer Fabrication Tools); Milpitas, California",
-    "date": "2026-06-23",
-    "source": "federal-register-robotics",
-    "source_type": "Government",
-    "source_url": "https://www.federalregister.gov/documents/2026/06/23/2026-12534/foreign-trade-zone-ftz-18-notification-of-proposed-production-activity-kla-corporation-semiconductor",
-    "summary": "Foreign-Trade Zone (FTZ) 18, Notification of Proposed Production Activity; KLA Corporation; (Semiconductor Wafer Fabrication Tools); Milpitas, California",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "federal-register",
-      "rss-import"
-    ]
-  },
-  {
-    "id": "hn-48634300",
-    "title": "The chances of you living 50 years are very small",
-    "date": "2026-06-22",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.livescience.com/space/cosmology/the-chances-of-you-living-50-years-are-very-small-theoretical-physicist-explains-why-humanity-likely-wont-survive-to-see-all-the-forces-unified",
-    "summary": "The chances of you living 50 years are very small",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48636675",
-    "title": "Magnifica Humanitas as Glossed Manuscript",
-    "date": "2026-06-22",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://magnifica.unlatent.ai/",
-    "summary": "Magnifica Humanitas as Glossed Manuscript",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48653897",
-    "title": "Chinese universities are cutting language majors to make way for AI",
+    "id": "hn-48666756",
+    "title": "M5StackChan AI Desktop Robot",
     "date": "2026-06-24",
     "source": "hacker-news-robotics",
     "source_type": "Community",
-    "source_url": "https://restofworld.org/2026/chinese-universities-drop-humanities-ai/",
-    "summary": "Chinese universities are cutting language majors to make way for AI",
+    "source_url": "https://shop.m5stack.com/products/stackchan-kawaii-co-created-open-source-ai-desktop-robot",
+    "summary": "M5StackChan AI Desktop Robot",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -1221,184 +992,13 @@
     ]
   },
   {
-    "id": "hn-48634931",
-    "title": "SpaceX Drops 14% in One Day, Price Now Below IPO Launch",
-    "date": "2026-06-22",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://finance.yahoo.com/quote/SPCX/",
-    "summary": "SpaceX Drops 14% in One Day, Price Now Below IPO Launch",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48635982",
-    "title": "Show HN: Tree, truth, druid, dryad, tar and dendrite share the same PIE root",
-    "date": "2026-06-22",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://p.migdal.pl/tree-of-tree/",
-    "summary": "Source: https://github.com/stared/tree-of-tree",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48639165",
-    "title": "An Introduction to YOLO26",
-    "date": "2026-06-23",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://blog.roboflow.com/yolo26/",
-    "summary": "An Introduction to YOLO26",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48644131",
-    "title": "How to burst the AI bubble: Strike at its roots",
-    "date": "2026-06-23",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://arstechnica.com/gadgets/2026/06/how-to-burst-the-ai-bubble-strike-at-its-roots/",
-    "summary": "How to burst the AI bubble: Strike at its roots",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48644387",
-    "title": "The Robot That Rolls Until It Has to Climb – Mobility and Field Robotics",
-    "date": "2026-06-23",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://atomsfrontier.substack.com/p/the-robot-that-rolls-until-it-has",
-    "summary": "The Robot That Rolls Until It Has to Climb – Mobility and Field Robotics",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48646805",
-    "title": "Are AI and robotics about to free the wealthy from the threat of revolt?",
-    "date": "2026-06-23",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://morbidcuriosity.substack.com/p/the-age-of-bunker-capitalism",
-    "summary": "Are AI and robotics about to free the wealthy from the threat of revolt?",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48648496",
-    "title": "New chip could help tiny robots traverse complex environments",
-    "date": "2026-06-23",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://news.mit.edu/2026/new-chip-could-help-tiny-robots-traverse-complex-environments-0623",
-    "summary": "New chip could help tiny robots traverse complex environments",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48649105",
-    "title": "Show HN: We Help Voice AI Handle Group Conversations",
-    "date": "2026-06-23",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://github.com/attenlabs/saa-sdk",
-    "summary": "Hey folks. We built SAA (Selective Auditory Attention) after trying to find ways to make a good experience with multiple robots/multiple agents. What typically ended up happening is they'd n",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48652941",
-    "title": "Real Men Run as Root",
-    "date": "2026-06-23",
-    "source": "hacker-news-robotics",
-    "source_type": "Community",
-    "source_url": "https://www.garyshood.com/root/",
-    "summary": "Real Men Run as Root",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-48654956",
-    "title": "Moody Mush: An Interactive Mushroom Robot",
+    "id": "hn-48662506",
+    "title": "Open Robotics Is Maturing",
     "date": "2026-06-24",
     "source": "hacker-news-robotics",
     "source_type": "Community",
-    "source_url": "https://www.instructables.com/Moody-Mush/",
-    "summary": "Moody Mush: An Interactive Mushroom Robot",
+    "source_url": "https://digitalcxo.com/article/open-robotics-is-maturing/",
+    "summary": "Open Robotics Is Maturing",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -1411,13 +1011,146 @@
     ]
   },
   {
-    "id": "hn-48655025",
-    "title": "Axiomatic CSS and Lobotomized Owls",
+    "id": "hn-48661479",
+    "title": "Show HN: Pitchly Hire – human-reviewed job listings with forced expiry",
     "date": "2026-06-24",
     "source": "hacker-news-robotics",
     "source_type": "Community",
-    "source_url": "https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/",
-    "summary": "Axiomatic CSS and Lobotomized Owls",
+    "source_url": "https://pitchlyhire.com/",
+    "summary": "After experiencing the current job market and seeing my friends going through the same thing, I got tired of it and decided to do something. Job boards have no incentive to remove ghost jobs because t",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48661083",
+    "title": "Show HN: eBook to audiobook narration with realistic AI voices",
+    "date": "2026-06-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://ebookaloud.com",
+    "summary": "For a while I've wanted to try out the new AI voices for long-form narration, but everything I found required a subscription that didn't justify my limited usage. I came across the open Koko",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48660814",
+    "title": "Robots will replace 700K delivery workers, warns head of e-commerce giant",
+    "date": "2026-06-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.computerworld.com/article/4188535/robots-will-replace-700000-delivery-workers-warns-head-of-e-commerce-giant.html",
+    "summary": "Robots will replace 700K delivery workers, warns head of e-commerce giant",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48660631",
+    "title": "Mental health is not an individual matter, but a political one (2023)",
+    "date": "2026-06-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://psyche.co/ideas/mental-health-is-not-an-individual-matter-but-a-political-one",
+    "summary": "Mental health is not an individual matter, but a political one (2023)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48659515",
+    "title": "I built a local AI deck music assistant on a Mac mini",
+    "date": "2026-06-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/wkswede/robot-deck-audio",
+    "summary": "I built a local AI deck music assistant on a Mac mini",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48658563",
+    "title": "Agility, Maker of Humanlike Robots, to Go Public in $2.5B SPAC Deal",
+    "date": "2026-06-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.wsj.com/finance/agility-maker-of-humanlike-robots-to-go-public-in-2-5-billion-spac-deal-62c3cb32",
+    "summary": "Agility, Maker of Humanlike Robots, to Go Public in $2.5B SPAC Deal",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48657058",
+    "title": "'Who is going to pay us when we're replaced by robots?'",
+    "date": "2026-06-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/global-development/2026/jun/24/indian-factory-workers-told-film-themselves-for-ai-robots",
+    "summary": "'Who is going to pay us when we're replaced by robots?'",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48656694",
+    "title": "It's Well Past Time for a Four-Day Workweek",
+    "date": "2026-06-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://jacobin.com/2026/06/schor-four-day-workweek-labor",
+    "summary": "It's Well Past Time for a Four-Day Workweek",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -1449,6 +1182,63 @@
     ]
   },
   {
+    "id": "hn-48655025",
+    "title": "Axiomatic CSS and Lobotomized Owls",
+    "date": "2026-06-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/",
+    "summary": "Axiomatic CSS and Lobotomized Owls",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48654956",
+    "title": "Moody Mush: An Interactive Mushroom Robot",
+    "date": "2026-06-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.instructables.com/Moody-Mush/",
+    "summary": "Moody Mush: An Interactive Mushroom Robot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48653897",
+    "title": "Chinese universities are cutting language majors to make way for AI",
+    "date": "2026-06-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://restofworld.org/2026/chinese-universities-drop-humanities-ai/",
+    "summary": "Chinese universities are cutting language majors to make way for AI",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
     "id": "rss-why-physical-ai-2-0-needs-a-re-266",
     "title": "Why physical AI 2.0 needs a reality check",
     "date": "2026-06-23",
@@ -1456,24 +1246,6 @@
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/why-physical-ai-2-0-needs-reality-check/",
     "summary": "While vision and language are key parts of physical AI, physical state recovery will enable robots to interact with the world, says a columnist.\nThe post Why physical AI 2.0 needs a reality check appe...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-createme-partners-with-avalo-a-652",
-    "title": "CreateMe partners with Avalo and Laguna Fabrics to bring resilience to apparel supply chains",
-    "date": "2026-06-23",
-    "source": "the-robot-report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/createme-partners-with-avalo-and-laguna-fabrics-to-bring-resilience-to-apparel-supply-chains/",
-    "summary": "CreateMe said the partnership aims to demonstrate how apparel can be produced faster, more locally, and with greater supply chain resilience.\nThe post CreateMe partners with Avalo and Laguna Fabrics t...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -1521,13 +1293,13 @@
     ]
   },
   {
-    "id": "rss-deep-dive-into-arm-s-physical-640",
-    "title": "Deep dive into ARM’s physical AI and robotics strategies with Drew Henry",
-    "date": "2026-06-24",
+    "id": "rss-createme-partners-with-avalo-a-652",
+    "title": "CreateMe partners with Avalo and Laguna Fabrics to bring resilience to apparel supply chains",
+    "date": "2026-06-23",
     "source": "the-robot-report",
     "source_type": "News",
-    "source_url": "https://www.therobotreport.com/deep-dive-into-arms-physical-ai-and-robotics-strategies-with-drew-henry/",
-    "summary": "ARM’s Drew Henry discusses the future of physical AI, robotics, and autonomous systems built for real-world constraints.\nThe post Deep dive into ARM’s physical AI and robotics strategies with Drew Hen...",
+    "source_url": "https://www.therobotreport.com/createme-partners-with-avalo-and-laguna-fabrics-to-bring-resilience-to-apparel-supply-chains/",
+    "summary": "CreateMe said the partnership aims to demonstrate how apparel can be produced faster, more locally, and with greater supply chain resilience.\nThe post CreateMe partners with Avalo and Laguna Fabrics t...",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -1535,6 +1307,158 @@
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "hn-48652941",
+    "title": "Real Men Run as Root",
+    "date": "2026-06-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.garyshood.com/root/",
+    "summary": "Real Men Run as Root",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48649105",
+    "title": "Show HN: We Help Voice AI Handle Group Conversations",
+    "date": "2026-06-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/attenlabs/saa-sdk",
+    "summary": "Hey folks. We built SAA (Selective Auditory Attention) after trying to find ways to make a good experience with multiple robots/multiple agents. What typically ended up happening is they'd n",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48648496",
+    "title": "New chip could help tiny robots traverse complex environments",
+    "date": "2026-06-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://news.mit.edu/2026/new-chip-could-help-tiny-robots-traverse-complex-environments-0623",
+    "summary": "New chip could help tiny robots traverse complex environments",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48646805",
+    "title": "Are AI and robotics about to free the wealthy from the threat of revolt?",
+    "date": "2026-06-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://morbidcuriosity.substack.com/p/the-age-of-bunker-capitalism",
+    "summary": "Are AI and robotics about to free the wealthy from the threat of revolt?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48644387",
+    "title": "The Robot That Rolls Until It Has to Climb – Mobility and Field Robotics",
+    "date": "2026-06-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://atomsfrontier.substack.com/p/the-robot-that-rolls-until-it-has",
+    "summary": "The Robot That Rolls Until It Has to Climb – Mobility and Field Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48644131",
+    "title": "How to burst the AI bubble: Strike at its roots",
+    "date": "2026-06-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/gadgets/2026/06/how-to-burst-the-ai-bubble-strike-at-its-roots/",
+    "summary": "How to burst the AI bubble: Strike at its roots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48639165",
+    "title": "An Introduction to YOLO26",
+    "date": "2026-06-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://blog.roboflow.com/yolo26/",
+    "summary": "An Introduction to YOLO26",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "fedreg-news-2026-12534",
+    "title": "Foreign-Trade Zone (FTZ) 18, Notification of Proposed Production Activity; KLA Corporation; (Semiconductor Wafer Fabrication Tools); Milpitas, California",
+    "date": "2026-06-23",
+    "source": "federal-register-robotics",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/06/23/2026-12534/foreign-trade-zone-ftz-18-notification-of-proposed-production-activity-kla-corporation-semiconductor",
+    "summary": "Foreign-Trade Zone (FTZ) 18, Notification of Proposed Production Activity; KLA Corporation; (Semiconductor Wafer Fabrication Tools); Milpitas, California",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
       "rss-import"
     ]
   },
@@ -1704,6 +1628,82 @@
     "themes": [
       "industrial-deployments"
     ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48636675",
+    "title": "Magnifica Humanitas as Glossed Manuscript",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://magnifica.unlatent.ai/",
+    "summary": "Magnifica Humanitas as Glossed Manuscript",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48635982",
+    "title": "Show HN: Tree, truth, druid, dryad, tar and dendrite share the same PIE root",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://p.migdal.pl/tree-of-tree/",
+    "summary": "Source: https://github.com/stared/tree-of-tree",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48634931",
+    "title": "SpaceX Drops 14% in One Day, Price Now Below IPO Launch",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://finance.yahoo.com/quote/SPCX/",
+    "summary": "SpaceX Drops 14% in One Day, Price Now Below IPO Launch",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48634300",
+    "title": "The chances of you living 50 years are very small",
+    "date": "2026-06-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.livescience.com/space/cosmology/the-chances-of-you-living-50-years-are-very-small-theoretical-physicist-explains-why-humanity-likely-wont-survive-to-see-all-the-forces-unified",
+    "summary": "The chances of you living 50 years are very small",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
     "sentiment": "Neutral",
     "confidence": "Low",
     "tags": [
