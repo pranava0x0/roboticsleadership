@@ -210,6 +210,8 @@
         (path === 'index.html' && (href === 'index.html' || href === '.' || href === '/'))
       ) {
         a.setAttribute('aria-current', 'page');
+        const more = a.closest('.primary-more');
+        if (more) more.dataset.current = 'true';
       }
     });
   }
