@@ -334,10 +334,12 @@ input, select, textarea {
 
 nav.primary-nav {
   display: flex;
+  align-items: center;
   gap: 2px;
   margin-left: auto;
 }
-nav.primary-nav a {
+nav.primary-nav a,
+.primary-more > summary {
   padding: 8px 12px;
   border-radius: 8px;
   color: var(--text-muted);
@@ -347,9 +349,46 @@ nav.primary-nav a {
   transition: background 120ms, color 120ms;
 }
 nav.primary-nav a:hover,
-nav.primary-nav a[aria-current="page"] {
+nav.primary-nav a[aria-current="page"],
+.primary-more > summary:hover,
+.primary-more[data-current="true"] > summary {
   background: var(--surface-2);
   color: var(--text);
+}
+.primary-more {
+  position: relative;
+}
+.primary-more > summary {
+  list-style: none;
+  cursor: pointer;
+}
+.primary-more > summary::-webkit-details-marker {
+  display: none;
+}
+.primary-more > summary::after {
+  content: "v";
+  display: inline-block;
+  margin-left: 6px;
+  color: var(--text-faint);
+  font-size: 12px;
+}
+.primary-more[open] > summary::after {
+  transform: rotate(180deg);
+}
+.primary-more-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 150px;
+  padding: 6px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: var(--shadow-elevated);
+}
+.primary-more-menu a {
+  display: block;
+  white-space: nowrap;
 }
 
 .icon-btn {
@@ -1241,7 +1280,13 @@ button, [role="button"], a.btn {
     min-width: 0;
   }
   nav.primary-nav::-webkit-scrollbar { display: none; }
-  nav.primary-nav a { padding: 8px 7px; font-size: 13px; white-space: nowrap; }
+  nav.primary-nav a,
+  .primary-more > summary { padding: 8px 7px; font-size: 13px; white-space: nowrap; }
+  .primary-more { position: static; }
+  .primary-more-menu {
+    top: calc(100% - 6px);
+    right: 48px;
+  }
   /* Drop the picker's text label below 540px; the chevron is enough */
   .theme-picker > summary { padding: 0 8px; gap: 4px; }
   .theme-picker-current { display: none; }
