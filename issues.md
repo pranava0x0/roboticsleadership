@@ -26,6 +26,14 @@ No open issues.
 
 ## Fixed (most recent first)
 
+### 2026-06-30 — data — Boston Dynamics financials.details cited the Hyundai/SoftBank stake buyout with the wrong year
+
+- **Status:** Fixed.
+- **Root cause:** data bug — `financials.details` for `boston-dynamics` read "Hyundai took full control 2025-06 by buying SoftBank's remaining 9.65% stake for $325M." A 2026-06-30 X.com/TechCrunch/AngelList-Crunchbase research sweep independently surfaced this same event (same $325M figure, same 9.65% stake) dated 2026-06-19 to 06-22, corroborated by two new sources (TheNextWeb, KEDGlobal). The pre-existing "2025-06" was a one-year typo, not a distinct prior-year event.
+- **Repro:** compare `docs/data/companies.json` → `boston-dynamics.financials.details` (pre-fix: "2025-06") against TheNextWeb's "Hyundai to buy SoftBank's last Boston Dynamics stake for $325M" (dated June 2026).
+- **Fix:** corrected the year to "2026-06" and added the TheNextWeb source to `financials.sources`.
+- **Regression test:** none added — single-field data correction, caught by manual cross-source verification during the routine 2-week discovery sweep, not by an automated check. `node scripts/validate.js` confirms the record still validates post-fix.
+
 ### 2026-06-22 — data/refactor — stale root metrics, unmapped news relations, and duplicate news template rendering
 
 - **Status:** Fixed.

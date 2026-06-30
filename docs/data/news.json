@@ -11748,5 +11748,255 @@
     "_scraped": true,
     "_requires_curator_review": true,
     "archive_url": "https://web.archive.org/web/20250203023424/https://www.federalregister.gov/documents/2023/03/27/2023-06222/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-final"
+  },
+  {
+    "id": "general-intuition-series-a-2026-06",
+    "title": "General Intuition raises $320M Series A at $2.3B valuation to train robots on video-game footage",
+    "date": "2026-06-25",
+    "source": "techcrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+    "summary": "General Intuition, spun out of Medal.tv, raised a $320M Series A led by Khosla Ventures (with Jeff Bezos, Eric Schmidt and others) at a $2.3B valuation, bringing total disclosed funding to $454M. The company trains foundation models on millions of hours of video-game footage to learn spatial-temporal reasoning it then transfers to physical robot control.",
+    "category": "Funding",
+    "companies": [
+      "general-intuition"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "funding",
+      "foundation-models",
+      "video-game-data"
+    ]
+  },
+  {
+    "id": "proception-seed-tesla-settlement-2026-06",
+    "title": "Robot-hand startup Proception settles Tesla trade-secret suit, announces $11M seed",
+    "date": "2026-06-29",
+    "source": "techcrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+    "summary": "Proception, founded by ex-Tesla Optimus technical lead Jay Li, settled a Tesla trade-secret lawsuit and announced an $11M seed round led by First Round Capital (with Y Combinator and BoxGroup) on the same day. The company builds the ProHand 1.0, a 22-degrees-of-freedom dexterous robotic hand.",
+    "category": "Funding",
+    "companies": [
+      "proception"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Mixed",
+    "confidence": "High",
+    "tags": [
+      "funding",
+      "litigation",
+      "robot-hand"
+    ]
+  },
+  {
+    "id": "aseon-labs-seed-2026-06",
+    "title": "Aseon Labs raises $10M to build robotic pit stops for robotaxis",
+    "date": "2026-06-26",
+    "source": "techcrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/",
+    "summary": "Aseon Labs, founded by Pushme alumni George Kalligeros and Dan Keene, raised a $10M seed led by Crane Venture Partners to build parking-space-sized robotic pods that charge, clean and inspect autonomous-vehicle fleets in their own operating zones, cutting deadhead miles.",
+    "category": "Funding",
+    "companies": [
+      "aseon-labs"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "funding",
+      "av-infrastructure",
+      "robotaxi"
+    ]
+  },
+  {
+    "id": "9-mothers-edda-dow-2026-06",
+    "title": "9 Mothers Corporation ships EDDA counter-drone turret, lands DoW sales",
+    "date": "2026-06-18",
+    "source": "techcrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs/",
+    "summary": "YC P26 company 9 Mothers Corporation came out of stealth with EDDA, a 23kg autonomous counter-drone turret using passive acoustic detection and visual tracking to down FPV attack drones at 10-100m. The Austin-based startup has booked $1.6M in U.S. Department of War sales, with a single contract reportedly expanding toward $35M, and drew VC interest at a $200M+ valuation following YC Demo Day.",
+    "category": "Deployment",
+    "companies": [
+      "9-mothers-corporation"
+    ],
+    "policies": [],
+    "themes": [
+      "defense-procurement"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "defense",
+      "counter-drone",
+      "yc"
+    ]
+  },
+  {
+    "id": "six-robotics-seed-2026-06",
+    "title": "Six Robotics raises €12M first institutional round for drone-swarm software",
+    "date": "2026-06-30",
+    "source": "tech-funding-news",
+    "source_type": "News",
+    "source_url": "https://techfundingnews.com/six-robotics-raises-12m-drone-swarm-software/",
+    "summary": "Norwegian defense startup Six Robotics, founded by former special-forces operator Christian Fredrik Eggesbø, raised a €12M (~$13M) seed led by DTCP Defence — its first institutional round after growing to ~90 employees on friends-and-family funding. Its Valkyrie platform, which lets one operator command a coordinated drone swarm, is already deployed with the Norwegian Army.",
+    "category": "Funding",
+    "companies": [
+      "six-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "defense-procurement"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "funding",
+      "defense",
+      "drone-swarm",
+      "europe"
+    ]
+  },
+  {
+    "id": "neura-robotics-series-c-2026-06",
+    "title": "NEURA Robotics announces record Series C of up to $1.4B at ~$7B valuation",
+    "date": "2026-06-10",
+    "source": "businesswire",
+    "source_type": "Press Release",
+    "source_url": "https://www.businesswire.com/news/home/20260610204575/en/NEURA-Robotics-Announces-Record-Series-C-of-up-to-$1.4-Billion-to-Accelerate-the-Worlds-Leading-Physical-AI-Platform",
+    "summary": "German 'Physical AI' company NEURA Robotics announced a record Series C of up to $1.4B led by Tether Investments, valuing the company at roughly $7B. NEURA, founded by David Reger in 2019, builds a full-stack cognitive-robotics platform spanning service, industrial and humanoid robots, and showcased it at Automate 2026 on 2026-06-19.",
+    "category": "Funding",
+    "companies": [
+      "neura-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "funding",
+      "humanoid",
+      "europe",
+      "germany"
+    ]
+  },
+  {
+    "id": "odyssey-series-b-2026-06",
+    "title": "World-model maker Odyssey raises $310M Series B at $1.45B valuation",
+    "date": "2026-06-17",
+    "source": "techcrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/",
+    "summary": "Odyssey, founded by autonomous-vehicle veterans Oliver Cameron (ex-Voyage) and Jeff Hawke (ex-Wayve), raised a $310M Series B led by Natural Capital — with Amazon, GV, AMD Ventures, EQT and IQT participating — at a $1.45B valuation. The company builds general causal \"world models\" with stated applications spanning robotics, science, healthcare and gaming.",
+    "category": "Funding",
+    "companies": [
+      "odyssey"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "funding",
+      "world-models",
+      "foundation-models"
+    ]
+  },
+  {
+    "id": "agility-robotics-spac-2026-06",
+    "title": "Agility Robotics to go public via $2.5B SPAC merger with Churchill Capital Corp XI",
+    "date": "2026-06-24",
+    "source": "techcrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+    "summary": "Agility Robotics, maker of the bipedal warehouse robot Digit, agreed to merge with SPAC Churchill Capital Corp XI (ticker AGLT) at a roughly $2.5B valuation, a deal expected to generate over $620M in proceeds with Foxconn leading a PIPE. Agility reports $300M+ in multi-year Digit v5 orders and deployments across nine sites with 65,000+ operating hours.",
+    "category": "Funding",
+    "companies": [
+      "agility-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "spac",
+      "ipo",
+      "humanoid",
+      "logistics"
+    ]
+  },
+  {
+    "id": "boston-dynamics-hyundai-full-ownership-2026-06",
+    "title": "Hyundai takes 100% ownership of Boston Dynamics as SoftBank exits remaining stake for $325M",
+    "date": "2026-06-19",
+    "source": "the-next-web",
+    "source_type": "News",
+    "source_url": "https://thenextweb.com/news/hyundai-to-buy-softbanks-last-boston-dynamics-stake-for-325m",
+    "summary": "Hyundai Motor Group agreed to acquire SoftBank's remaining 9.65% stake in Boston Dynamics for $325M, making it a wholly owned Hyundai subsidiary — implying a ~$3.37B valuation — as Boston Dynamics' electric Atlas humanoid moves toward commercial deployment, including planned use at Hyundai's Georgia EV plant by 2028. SoftBank is redeploying the capital toward its OpenAI and AI-infrastructure bets.",
+    "category": "Competitive",
+    "companies": [
+      "boston-dynamics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "acquisition",
+      "humanoid",
+      "softbank",
+      "hyundai"
+    ]
+  },
+  {
+    "id": "figure-ai-fleet-exceeds-headcount-2026-06",
+    "title": "Figure AI's deployed humanoid fleet surpasses its own headcount",
+    "date": "2026-06-20",
+    "source": "x-com",
+    "source_type": "Social Media",
+    "source_url": "https://x.com/adcock_brett/status/2068040783295627609",
+    "summary": "Figure AI CEO Brett Adcock announced that the company's deployed humanoid robot fleet (750+ units) has, for the first time, surpassed Figure's own human headcount (roughly 200-250), following BotQ factory output reaching 1 robot/hour — a 24x throughput increase achieved in under 120 days.",
+    "category": "Deployment",
+    "companies": [
+      "figure-ai"
+    ],
+    "policies": [],
+    "themes": [
+      "cost-trajectory",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "humanoid",
+      "manufacturing",
+      "fleet-milestone"
+    ]
   }
 ]

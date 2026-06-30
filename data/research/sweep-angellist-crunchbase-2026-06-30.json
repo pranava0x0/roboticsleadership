@@ -1,0 +1,150 @@
+{
+  "sweep_window": {
+    "start": "2026-06-16",
+    "end": "2026-06-30",
+    "sources": ["crunchbase.com (news.crunchbase.com)", "wellfound.com"]
+  },
+  "new_companies": [
+    {
+      "company_name": "General Intuition",
+      "description": "Research lab training AI agents on hundreds of millions of hours of video-game footage to learn spatial and temporal reasoning, with the explicit goal of transferring that 'world model' intelligence to control physical robots and other real-world agents.",
+      "founding_info": "Founded 2025; emerged from stealth with a $134M seed round in October 2025. HQ: New York, NY.",
+      "founders": [
+        "Pim de Witte (Co-founder)",
+        "Eloi Alonso (Co-founder)",
+        "Adam Jelley (Co-founder)",
+        "Vincent Micheli (Co-founder)"
+      ],
+      "hq": "New York, NY",
+      "funding": {
+        "round": "Series A",
+        "amount": "$320 million",
+        "valuation": "$2.3 billion",
+        "date": "2026-06-25",
+        "lead_investors": ["Khosla Ventures"],
+        "other_investors": ["General Catalyst", "Jeff Bezos", "Eric Schmidt (Hillspire)", "Nico Rosberg"],
+        "total_disclosed_funding": "$454 million (incl. $134M Oct-2025 seed)"
+      },
+      "source_urls": [
+        "https://www.therobotreport.com/general-intuition-raises-320m-uses-video-game-data-train-robots/",
+        "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
+      ],
+      "confidence": "high",
+      "skip": false
+    },
+    {
+      "company_name": "Odyssey",
+      "description": "AI lab building general 'world models' — causal, multimodal systems that learn to predict and interact with the physical world over long horizons — with explicitly stated applications spanning robotics, science, healthcare, and gaming.",
+      "founding_info": "Founded 2023 by autonomous-vehicle industry veterans. HQ: Palo Alto / San Francisco Bay Area (sources vary on exact city; not precisely confirmed).",
+      "founders": [
+        "Oliver Cameron (CEO; previously co-founder/CEO of Voyage, acquired by GM Cruise)",
+        "Jeff Hawke (CTO; previously an engineer at Wayve)"
+      ],
+      "hq": "San Francisco Bay Area, CA (exact city not confirmed across sources)",
+      "funding": {
+        "round": "Series B",
+        "amount": "$310 million",
+        "valuation": "$1.45 billion",
+        "date": "2026-06-17",
+        "lead_investors": ["Natural Capital"],
+        "other_investors": ["Amazon", "GV", "AMD Ventures", "EQT", "IQT"]
+      },
+      "source_urls": [
+        "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/",
+        "https://odyssey.ml/our-series-b"
+      ],
+      "confidence": "high",
+      "skip": false
+    },
+    {
+      "company_name": "Proception",
+      "description": "Builds ProHand, a high-dexterity robotic hand (22 degrees of freedom, multiple joints per finger) and a sensor-laden data-capture glove, sold to researchers and robotics companies to make humanoid robots dexterous enough for contact-rich manipulation.",
+      "founding_info": "Founded 2024 by Jay Li, a former technical lead on Tesla's Optimus humanoid robot program, and Jack Xu; ~10 employees. HQ: San Francisco, CA. Y Combinator (W25) company. Announcement coincided with settlement of a Tesla trade-secret lawsuit against the founder.",
+      "founders": [
+        "Jay Li (CEO; ex-Tesla Optimus technical lead)",
+        "Jack Xu (Co-founder)"
+      ],
+      "hq": "San Francisco, CA",
+      "funding": {
+        "round": "Seed",
+        "amount": "$11 million",
+        "date": "2026-06-29",
+        "lead_investors": ["First Round Capital"],
+        "other_investors": ["Y Combinator", "BoxGroup"]
+      },
+      "source_urls": [
+        "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+        "https://www.ycombinator.com/companies/proception-inc"
+      ],
+      "confidence": "high",
+      "skip": false
+    },
+    {
+      "company_name": "Aseon Labs",
+      "description": "Builds parking-space-sized automated 'robotic pit stop' pods — equipped with cameras and robotic arms — scattered through cities to inspect, clean, and charge robotaxis on the spot, cutting empty 'deadhead' miles to centralized depots.",
+      "founding_info": "Co-founded by the team behind battery-swapping startup Pushme (founded 2016). HQ: Redwood City, CA.",
+      "founders": [
+        "George Kalligeros (CEO; ex-Bentley Motors and Tesla mechanical design engineer; Pushme co-founder)",
+        "Dan Keene (COO; Pushme co-founder)"
+      ],
+      "hq": "Redwood City, CA",
+      "funding": {
+        "round": "Seed",
+        "amount": "$10 million",
+        "date": "2026-06-26",
+        "lead_investors": ["Crane Venture Partners"],
+        "other_investors": ["Y Combinator", "Expa", "Robin Hood Ventures", "Founders Capital"]
+      },
+      "source_urls": [
+        "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/"
+      ],
+      "confidence": "medium",
+      "skip": false,
+      "note": "Robotics-adjacent infrastructure company (robotic arms / automated service pods) for the robotaxi industry rather than a core robot maker; included given physical-AI/robotics overlap, flagged medium confidence on category fit."
+    },
+    {
+      "company_name": "Six Robotics",
+      "description": "Defense-tech robotics company building Valkyrie, a software platform that lets a single operator command a coordinated swarm of drones, already in use by the Norwegian Army.",
+      "founding_info": "Founded 2023 by a former Norwegian Special Forces operator; grew from 5 to ~90 employees on friends-and-family funding before this, its first institutional round. HQ: Oslo, Norway.",
+      "founders": [
+        "Christian Fredrik Eggesbø (Founder; former Norwegian Special Forces)"
+      ],
+      "hq": "Oslo, Norway",
+      "funding": {
+        "round": "Seed (first institutional round)",
+        "amount": "€12 million (~$13M)",
+        "date": "2026-06-30",
+        "lead_investors": ["DTCP Defence"],
+        "other_investors": ["Export and Investment Fund of Denmark (EIFO)", "Scale Capital"]
+      },
+      "source_urls": [
+        "https://techfundingnews.com/six-robotics-raises-12m-drone-swarm-software/",
+        "https://bebeez.eu/2026/06/30/six-robotics-lands-e12-million-to-advance-unmanned-systems-software-with-norwegian-defence-partners/"
+      ],
+      "confidence": "high",
+      "skip": false
+    }
+  ],
+  "notable_updates": [
+    {
+      "company_name": "Agility Robotics",
+      "headline": "Agility Robotics to go public via $2.5B SPAC merger with Churchill Capital Corp XI",
+      "summary": "Agility Robotics, maker of the bipedal warehouse/logistics robot Digit, signed a definitive agreement to merge with SPAC Churchill Capital Corp XI at a roughly $2.5 billion valuation, a deal expected to generate over $620 million in proceeds.",
+      "date": "2026-06-24",
+      "source_urls": [
+        "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+        "https://www.businesswire.com/news/home/20260624555633/en/Agility-Robotics-to-Go-Public-Through-$2.5-Billion-Merger-with-Churchill-Capital-Corp-XI"
+      ]
+    },
+    {
+      "company_name": "Boston Dynamics",
+      "headline": "Hyundai takes 100% ownership of Boston Dynamics as SoftBank exits remaining stake for $325M",
+      "summary": "Hyundai Motor Group agreed to acquire SoftBank's remaining 9.65% stake in Boston Dynamics for $325 million, making Boston Dynamics a wholly owned Hyundai subsidiary as its Atlas humanoid robot moves toward commercial deployment (including planned use at Hyundai's Georgia EV plant by 2028). SoftBank is redeploying the capital toward its OpenAI and AI-infrastructure bets.",
+      "date": "2026-06-19 to 2026-06-22 (deal reported June 19; formal approval cited around June 22)",
+      "source_urls": [
+        "https://thenextweb.com/news/hyundai-to-buy-softbanks-last-boston-dynamics-stake-for-325m",
+        "https://www.kedglobal.com/robotics/newsView/ked202606210001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "sweep_metadata": {
+    "window_start": "2026-06-16",
+    "window_end": "2026-06-30",
+    "captured_at": "2026-06-30",
+    "method_note": "Reddit was not directly accessible in this environment: WebFetch to reddit.com/old.reddit.com returned a hard block ('Claude Code is unable to fetch from www.reddit.com'), and ~20 varied WebSearch queries using site:reddit.com/r/robotics, site:reddit.com, and plain 'reddit r/robotics ...' phrasing returned zero indexed Reddit results. Reddit discovery could not be performed as specified. As a fallback, this sweep used broad web search (TechCrunch, BusinessWire, The Robot Report, Crunchbase News, etc.) to surface robotics/physical-AI company news genuinely dated within the 2026-06-16 to 2026-06-30 window, then verified each candidate against a primary source, mirroring the rigor the Reddit-discovery step would have required. This limitation should be flagged to the user."
+  },
+  "new_companies": [
+    {
+      "name": "NEURA Robotics",
+      "description": "German 'Physical AI' robotics company building a full-stack platform (cognitive/service/industrial robots) backed by major strategics; positions itself as Europe's leading humanoid/physical-AI player.",
+      "founded": "Founded 2019 in Metzingen, Germany (per company materials); not previously in our tracked list.",
+      "funding": "Record Series C of up to $1.4B (~up to €1.2B) announced 2026-06-10, valuing the company at roughly $7B; financing continued to be the subject of in-window coverage including a 2026-06-19 BusinessWire piece on NEURA showcasing its full-stack platform at Automate 2026.",
+      "founders": "David Reger, Founder and CEO (per company and press materials).",
+      "hq": "Metzingen, Germany",
+      "primary_sources": [
+        "https://www.businesswire.com/news/home/20260610204575/en/NEURA-Robotics-Announces-Record-Series-C-of-up-to-$1.4-Billion-to-Accelerate-the-Worlds-Leading-Physical-AI-Platform",
+        "https://www.businesswire.com/news/home/20260619441783/en/NEURA-Robotics-Showcases-Full-Stack-Robotics-Platform-at-Automate-2026"
+      ],
+      "confidence": "high",
+      "note": "Funding round itself closed/announced 2026-06-10 (4 days before our window start), but generated sustained industry discussion through the window, including an in-window (2026-06-19) follow-up announcement. Included given its scale ($1.4B, $7B valuation) and that it is not on the tracked list.",
+      "skip": false
+    },
+    {
+      "name": "Proception",
+      "description": "Robotics startup building high-dexterity robotic hands (ProHand 1.0, 22 degrees of freedom) for researchers and robotics companies doing contact-rich manipulation; collects training data via sensor-equipped gloves rather than teleoperation.",
+      "founded": "Founded 2024 in Palo Alto (now headquartered in San Francisco) by Jay Li and Jack Xu; went through Y Combinator (W25 batch).",
+      "funding": "$11M seed round led by First Round Capital, with Y Combinator and BoxGroup participating; announced 2026-06-29.",
+      "founders": "Jay Li (CEO, former technical lead on Tesla's Optimus humanoid robot program) and Jack Xu, co-founders.",
+      "hq": "San Francisco, California",
+      "primary_sources": [
+        "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+        "https://www.ycombinator.com/companies/proception-inc"
+      ],
+      "confidence": "high",
+      "note": "Also notable: Tesla had sued Li for alleged trade-secret theft after he left to found Proception; that suit was dismissed via settlement in June 2026, announced alongside the raise.",
+      "skip": false
+    },
+    {
+      "name": "Aseon Labs",
+      "description": "Builds autonomous robotic 'pit stops' — parking-space-sized pods using cameras, robotic arms, and vision-language-action AI models — distributed around cities to inspect, clean, and charge robotaxis, aiming to cut robotaxi 'deadhead miles.'",
+      "founded": "Founded by George Kalligeros and Dan Keene, who previously co-founded Pushme (a battery-swapping startup acquired by Tier Mobility in 2020); exact founding year not stated in source.",
+      "funding": "$10M seed round led by Crane Venture Partners, with Y Combinator, Expa, Robin Hood Ventures, Founders Capital, and angels including Adrian Aoun, Immad Akhund, and Rajat Suri; announced 2026-06-26.",
+      "founders": "George Kalligeros (CEO, former mechanical design engineer at Bentley Motors and Tesla) and Dan Keene (COO).",
+      "hq": "Redwood City, California",
+      "primary_sources": [
+        "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/"
+      ],
+      "confidence": "high",
+      "skip": false
+    },
+    {
+      "name": "Six Robotics",
+      "description": "Defense-tech startup building Valkyrie, a software platform letting a single operator control a coordinated swarm of drones; has delivered its first Valkyrie drone swarm to the Norwegian Army.",
+      "founded": "Founded 2023 in Oslo, Norway.",
+      "funding": "First institutional funding round of €12M, led by DTCP Defence, with the Export and Investment Fund of Denmark, Copenhagen's Scale Capital, and other private investors; announced 2026-06-30.",
+      "founders": "Christian Fredrik Eggesbø, CEO and Founder (former Norwegian Special Forces operator).",
+      "hq": "Oslo, Norway",
+      "primary_sources": [
+        "https://techfundingnews.com/six-robotics-raises-12m-drone-swarm-software/",
+        "https://arcticstartup.com/six-robotics-raises-e12-million-seed/"
+      ],
+      "confidence": "medium",
+      "note": "Strong dollar figures and founder facts confirmed across two independent outlets, but no SEC/company-direct press release was located, hence medium rather than high confidence.",
+      "skip": false
+    }
+  ],
+  "notable_updates": [
+    {
+      "company": "Agility Robotics",
+      "update": "Announced plans to go public via a $2.5B SPAC merger with Churchill Capital Corp XI (ticker AGLT); combined with Churchill's $420M trust, gross proceeds expected to exceed $620M, with Foxconn leading a PIPE. Agility reports $300M+ in multi-year Digit v5 orders and deployments across nine sites with 65,000+ operating hours.",
+      "date": "2026-06-24",
+      "primary_sources": [
+        "https://www.businesswire.com/news/home/20260624555633/en/Agility-Robotics-to-Go-Public-Through-$2.5-Billion-Merger-with-Churchill-Capital-Corp-XI",
+        "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/"
+      ]
+    },
+    {
+      "company": "Figure AI",
+      "update": "CEO Brett Adcock announced that Figure's deployed humanoid robot fleet (750+ units) has, for the first time, surpassed the company's human headcount (roughly 200-250), following BotQ factory output reaching 1 robot/hour (a 24x throughput increase achieved in under 120 days).",
+      "date": "2026-06-20",
+      "primary_sources": [
+        "https://x.com/adcock_brett/status/2068040783295627609"
+      ]
+    }
+  ]
+}
