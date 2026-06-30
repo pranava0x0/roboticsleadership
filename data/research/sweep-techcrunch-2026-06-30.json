@@ -1,0 +1,83 @@
+{
+  "sweep_window": {
+    "start": "2026-06-16",
+    "end": "2026-06-30",
+    "source": "techcrunch.com"
+  },
+  "new_companies": [
+    {
+      "company_name": "General Intuition",
+      "description": "Develops AI agents trained on millions of hours of video gameplay footage to learn spatial-temporal reasoning and intuitive decision-making, transferring those skills to control physical robots in the real world.",
+      "founding_info": "Launched October 2025 (seed round); HQ in New York.",
+      "founders": [
+        "Pim de Witte (CEO, Co-founder)",
+        "Eloi Alonso (Co-founder)",
+        "Adam Jelley (Co-founder)",
+        "Vincent Micheli (Co-founder)"
+      ],
+      "hq": "New York, NY",
+      "funding": {
+        "round": "Series A (per reporting)",
+        "amount": "$320 million",
+        "valuation": "$2.3 billion",
+        "lead_investors": ["Khosla Ventures"],
+        "other_investors": ["General Catalyst", "Jeff Bezos", "Eric Schmidt", "Nico Rosberg", "researchers from Google DeepMind and MIT"],
+        "total_disclosed_funding": "$454 million (including $134M seed in Oct 2025)"
+      },
+      "source_urls": [
+        "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
+      ],
+      "confidence": "high",
+      "skip": false
+    },
+    {
+      "company_name": "Proception",
+      "description": "Builds a high-dexterity robotic hand (22 degrees of freedom) for researchers and robotics companies, recently settling a Tesla trade-secret lawsuit.",
+      "founding_info": "Founded by Jay Li, a former technical lead on Tesla's Optimus humanoid robot program; founding year not stated in source.",
+      "founders": [
+        "Jay Li (Founder; ex-Tesla Optimus technical lead)"
+      ],
+      "hq": "Not stated in source",
+      "funding": {
+        "round": "Seed",
+        "amount": "$11 million",
+        "lead_investors": ["First Round Capital"],
+        "other_investors": ["Y Combinator", "BoxGroup"]
+      },
+      "source_urls": [
+        "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/"
+      ],
+      "confidence": "high",
+      "skip": false
+    },
+    {
+      "company_name": "Aseon Labs",
+      "description": "Builds parking-space-sized automated 'robotic pit stop' pods with cameras and robotic arms that inspect, clean, and charge robotaxis to reduce deadhead miles.",
+      "founding_info": "Came out of Y Combinator's 2026 spring cohort; co-founded by the team behind battery-swapping startup Pushme. HQ Redwood City, California.",
+      "founders": [
+        "Founding team previously behind battery-swapping startup Pushme (individual names not stated in source)"
+      ],
+      "hq": "Redwood City, CA",
+      "funding": {
+        "round": "Seed",
+        "amount": "$10 million",
+        "lead_investors": ["Crane Venture Partners"],
+        "other_investors": ["Y Combinator", "Expa (Garrett Camp)", "Robin Hood Ventures", "Founders Capital"]
+      },
+      "source_urls": [
+        "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/"
+      ],
+      "confidence": "high",
+      "skip": false
+    }
+  ],
+  "notable_updates": [
+    {
+      "company_name": "Agility Robotics",
+      "headline": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
+      "summary": "Agility Robotics, maker of the bipedal warehouse robot Digit, agreed to merge with SPAC Churchill Capital Corp XI at a roughly $2.5 billion valuation, in a deal expected to generate over $620 million in proceeds.",
+      "date": "2026-06-24",
+      "source_url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/"
+    }
+  ]
+}

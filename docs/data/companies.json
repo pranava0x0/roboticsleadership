@@ -397,9 +397,21 @@
         "url": "https://www.geekwire.com/2025/agility-robotics-reportedly-raising-400m-for-humanoid-warehouse-robots/",
         "confidence": "reported",
         "archive_url": "https://web.archive.org/web/20260210035550/https://www.geekwire.com/2025/agility-robotics-reportedly-raising-400m-for-humanoid-warehouse-robots/"
+      },
+      {
+        "date": "2026-06",
+        "round": "SPAC merger (announced)",
+        "amount_usd": 620000000,
+        "valuation_usd": 2500000000,
+        "investors": [
+          "Churchill Capital Corp XI",
+          "Foxconn (PIPE)"
+        ],
+        "url": "https://www.businesswire.com/news/home/20260624555633/en/Agility-Robotics-to-Go-Public-Through-$2.5-Billion-Merger-with-Churchill-Capital-Corp-XI",
+        "confidence": "reported"
       }
     ],
-    "total_funding_usd": 641000000,
+    "total_funding_usd": 1170000000,
     "latest_valuation_usd": 2120000000,
     "robot_types": [
       "humanoid",
@@ -472,9 +484,12 @@
       {
         "url": "https://blog.robozaps.com/b/agility-robotics-digit-review",
         "archive_url": "https://web.archive.org/web/20260325193410/https://blog.robozaps.com/b/agility-robotics-digit-review"
+      },
+      {
+        "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/"
       }
     ],
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-06-30",
     "themes": [
       "cost-trajectory",
       "industrial-deployments",
@@ -485,10 +500,13 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private company. Generates revenue through hardware sales, leasing, and subscription-based service models (Agility Arc/RaaS). Latest Series C valued the company at $1.8B.",
+      "details": "Private company. Generates revenue through hardware sales, leasing, and subscription-based service models (Agility Arc/RaaS). Latest Series C valued the company at $1.8B. Agreed 2026-06-24 to go public via a $2.5B SPAC merger with Churchill Capital Corp XI (ticker AGLT); deal expected to generate $620M+ in proceeds with Foxconn leading a PIPE. Agility reports $300M+ in multi-year Digit v5 orders and deployments across nine sites with 65,000+ operating hours. Note: the $2.5B SPAC-implied valuation reflects an announced, not-yet-closed deal; latest_valuation_usd retains the last confirmed Series C figure ($2.12B) until the merger closes.",
       "sources": [
         {
           "url": "https://www.geekwire.com/2025/agility-robotics-reportedly-raising-400m-for-humanoid-warehouse-robots/"
+        },
+        {
+          "url": "https://www.businesswire.com/news/home/20260624555633/en/Agility-Robotics-to-Go-Public-Through-$2.5-Billion-Merger-with-Churchill-Capital-Corp-XI"
         }
       ]
     },
@@ -1123,7 +1141,7 @@
         "archive_url": "https://web.archive.org/web/20260508103946/https://bostondynamics.com/"
       }
     ],
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-06-30",
     "themes": [
       "industrial-deployments"
     ],
@@ -1132,7 +1150,7 @@
       "revenue_year": "2025",
       "net_income_usd": -394000000,
       "net_income_year": "2025",
-      "details": "Reported annual revenue of 150.1 billion KRW (~$112M USD) and a net loss of 528.4 billion KRW (~$394M USD) for 2025. Supported by parent company Hyundai Motor Group. Hyundai took full control 2025-06 by buying SoftBank’s remaining 9.65% stake for $325M, implying a ~$3.37B valuation. Press reporting (Seoul Economic Daily, 2026-03) cites an implied ~$21B figure ahead of a planned early-2027 Nasdaq IPO (secondary source, not a primary filing). Electric Atlas shown at CES 2026.",
+      "details": "Reported annual revenue of 150.1 billion KRW (~$112M USD) and a net loss of 528.4 billion KRW (~$394M USD) for 2025. Supported by parent company Hyundai Motor Group. Hyundai took full control 2026-06 by buying SoftBank’s remaining 9.65% stake for $325M, implying a ~$3.37B valuation. Press reporting (Seoul Economic Daily, 2026-03) cites an implied ~$21B figure ahead of a planned early-2027 Nasdaq IPO (secondary source, not a primary filing). Electric Atlas shown at CES 2026.",
       "sources": [
         {
           "url": "https://www.sedaily.com/"
@@ -1142,6 +1160,9 @@
         },
         {
           "url": "https://en.sedaily.com/finance/2026/03/19/boston-dynamics-valuation-hits-21-billion-24-times-2021"
+        },
+        {
+          "url": "https://thenextweb.com/news/hyundai-to-buy-softbanks-last-boston-dynamics-stake-for-325m"
         }
       ]
     },
@@ -6465,6 +6486,657 @@
       "sources": [
         {
           "url": "https://techcrunch.com/2022/12/15/alphabets-intrinsic-acquires-darpa-backed-firm-behind-open-source-robotics-software/"
+        }
+      ]
+    },
+    "map_category": "brains"
+  },
+  {
+    "id": "general-intuition",
+    "name": "General Intuition",
+    "founded": "2025",
+    "hq": {
+      "city": "New York",
+      "state": "NY",
+      "country": "USA"
+    },
+    "website": "https://www.generalintuition.com",
+    "funding_rounds": [
+      {
+        "date": "2025-10",
+        "round": "Seed",
+        "amount_usd": 134000000,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-06",
+        "round": "Series A",
+        "amount_usd": 320000000,
+        "valuation_usd": 2300000000,
+        "investors": [
+          "Khosla Ventures",
+          "General Catalyst",
+          "Jeff Bezos",
+          "Eric Schmidt",
+          "Nico Rosberg"
+        ],
+        "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 454000000,
+    "latest_valuation_usd": 2300000000,
+    "robot_types": [
+      "ai-infrastructure"
+    ],
+    "primary_use_case": "foundation models that transfer spatial-temporal reasoning learned from video-game footage to control physical robots",
+    "flagship_product": "Action AI (spatial-temporal reasoning foundation models trained on gameplay video)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Pim de Witte",
+        "role": "CEO / Co-Founder"
+      },
+      {
+        "name": "Eloi Alonso",
+        "role": "Co-Founder"
+      },
+      {
+        "name": "Adam Jelley",
+        "role": "Co-Founder"
+      },
+      {
+        "name": "Vincent Micheli",
+        "role": "Co-Founder"
+      }
+    ],
+    "ceo": "Pim de Witte",
+    "tags": [
+      "physical-ai",
+      "foundation-models",
+      "video-game-data",
+      "new-york",
+      "khosla-backed"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
+      },
+      {
+        "url": "https://www.generalintuition.com"
+      }
+    ],
+    "last_updated": "2026-06-30",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Spun out of Medal.tv. Trains foundation models with spatial-temporal reasoning on millions of hours of video-game footage, then transfers that reasoning to control physical robots. Raised a $320M Series A (June 2026, Khosla Ventures-led) at a $2.3B valuation, on top of a $134M October 2025 seed; $454M total disclosed funding.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
+        }
+      ]
+    },
+    "map_category": "brains"
+  },
+  {
+    "id": "proception",
+    "name": "Proception",
+    "founded": "2024",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.proception.ai",
+    "funding_rounds": [
+      {
+        "date": "2026-06",
+        "round": "Seed",
+        "amount_usd": 11000000,
+        "valuation_usd": null,
+        "investors": [
+          "First Round Capital",
+          "Y Combinator",
+          "BoxGroup"
+        ],
+        "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 11000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "manipulator",
+      "component"
+    ],
+    "primary_use_case": "high-dexterity robotic hands (22 DoF) for researchers and robotics companies doing contact-rich manipulation",
+    "flagship_product": "ProHand 1.0",
+    "deployments": [],
+    "headcount": 10,
+    "headcount_date": "2026-06",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Jay Li",
+        "role": "CEO / Founder (ex-Tesla Optimus technical lead)"
+      },
+      {
+        "name": "Jack Xu",
+        "role": "Co-Founder"
+      }
+    ],
+    "ceo": "Jay Li",
+    "tags": [
+      "physical-ai",
+      "robot-hand",
+      "component",
+      "yc-backed",
+      "tesla-lawsuit-settled"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/"
+      },
+      {
+        "url": "https://www.proception.ai"
+      }
+    ],
+    "last_updated": "2026-06-30",
+    "themes": [
+      "physical-ai",
+      "cost-trajectory"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Founded by Jay Li (former Tesla Optimus technical lead) and Jack Xu. Builds the ProHand 1.0, a 22-degrees-of-freedom dexterous robotic hand. Settled a Tesla trade-secret lawsuit and announced an $11M seed (First Round Capital-led, with YC and BoxGroup) on 2026-06-29, both on the same day.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/"
+        }
+      ]
+    },
+    "map_category": "enablers"
+  },
+  {
+    "id": "aseon-labs",
+    "name": "Aseon Labs",
+    "founded": "2026",
+    "hq": {
+      "city": "Redwood City",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.aseonlabs.com",
+    "funding_rounds": [
+      {
+        "date": "2026-06",
+        "round": "Seed",
+        "amount_usd": 10000000,
+        "valuation_usd": null,
+        "investors": [
+          "Crane Venture Partners",
+          "Y Combinator",
+          "Expa",
+          "Robin Hood Ventures",
+          "Founders Capital"
+        ],
+        "url": "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 10000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "infrastructure",
+      "robotic-arm"
+    ],
+    "primary_use_case": "parking-space-sized robotic pit-stop pods that charge, clean, inspect and reset autonomous-vehicle fleets in their own operating zones",
+    "flagship_product": "Aseon pod",
+    "deployments": [],
+    "headcount": 6,
+    "headcount_date": "2026-06",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "George Kalligeros",
+        "role": "Co-Founder"
+      },
+      {
+        "name": "Dan Keene",
+        "role": "Co-Founder"
+      }
+    ],
+    "ceo": null,
+    "tags": [
+      "physical-ai",
+      "av-infrastructure",
+      "robotaxi",
+      "yc-backed",
+      "pushme-alumni"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/"
+      },
+      {
+        "url": "https://www.aseonlabs.com"
+      }
+    ],
+    "last_updated": "2026-06-30",
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Co-founded by George Kalligeros and Dan Keene (previously behind battery-swapping startup Pushme). Builds robotic \"pit stop\" pods that charge, clean and inspect robotaxis on-site to cut deadhead miles. Raised a $10M seed (June 2026, led by Crane Venture Partners) to build five prototype pods and grow the team from six to about a dozen.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/"
+        }
+      ]
+    },
+    "map_category": "enablers"
+  },
+  {
+    "id": "9-mothers-corporation",
+    "name": "9 Mothers Corporation",
+    "founded": "2025",
+    "hq": {
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA"
+    },
+    "website": "https://9mothers.com",
+    "funding_rounds": [
+      {
+        "date": "2026-06",
+        "round": "YC + reported VC interest",
+        "amount_usd": null,
+        "valuation_usd": 200000000,
+        "investors": [
+          "Y Combinator",
+          "Pioneer Fund",
+          "RSquared VC",
+          "Mana Ventures"
+        ],
+        "url": "https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "turret",
+      "counter-drone"
+    ],
+    "primary_use_case": "AI-powered counter-drone point defense — autonomous turret that detects and shoots down FPV attack drones",
+    "flagship_product": "EDDA (23kg autonomous counter-drone turret)",
+    "deployments": [
+      {
+        "customer": "U.S. Department of War",
+        "location": "USA",
+        "robot_count": null,
+        "start_date": "2026-06",
+        "status": "active",
+        "use_case": "counter-drone point defense; $1.6M in sales, single contract reportedly expanding toward $35M",
+        "source_url": "https://www.ycombinator.com/companies/9-mothers-corporation",
+        "archive_url": null
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": true,
+    "founders": [
+      {
+        "name": "Russell Smith",
+        "role": "CEO / Co-Founder (YC S12 co-founder of Rainforest QA)"
+      },
+      {
+        "name": "Roman Khomenko",
+        "role": "Co-Founder"
+      },
+      {
+        "name": "Bogdan Pyzh",
+        "role": "Co-Founder (ex-Leviathan Security Group)"
+      }
+    ],
+    "ceo": "Russell Smith",
+    "tags": [
+      "defense",
+      "counter-drone",
+      "yc-backed",
+      "austin",
+      "dow-contract"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.ycombinator.com/companies/9-mothers-corporation"
+      },
+      {
+        "url": "https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs/"
+      }
+    ],
+    "last_updated": "2026-06-30",
+    "themes": [
+      "defense-procurement"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "YC Spring 2026 (P26) company building AI-powered counter-drone hardware. Shipped EDDA, a 23kg autonomous turret using passive acoustic detection plus visual tracking to down FPV attack drones at 10-100m with a shotgun. $1.6M in sales to the U.S. Department of War, with a single contract reportedly expanding toward $35M. Reported VC interest at a $200M+ valuation following YC Demo Day.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs/"
+        }
+      ]
+    },
+    "map_category": "defense"
+  },
+  {
+    "id": "six-robotics",
+    "name": "Six Robotics",
+    "founded": "2023",
+    "hq": {
+      "city": "Oslo",
+      "state": null,
+      "country": "Norway"
+    },
+    "website": "https://sixrobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2026-06",
+        "round": "Seed (first institutional round)",
+        "amount_usd": 13000000,
+        "valuation_usd": null,
+        "investors": [
+          "DTCP Defence",
+          "Export and Investment Fund of Denmark (EIFO)",
+          "Scale Capital"
+        ],
+        "url": "https://techfundingnews.com/six-robotics-raises-12m-drone-swarm-software/",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 13000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "drone-swarm",
+      "autonomy-software"
+    ],
+    "primary_use_case": "hardware-agnostic autonomy software that lets a single operator command a coordinated drone swarm",
+    "flagship_product": "Valkyrie",
+    "deployments": [
+      {
+        "customer": "Norwegian Army",
+        "location": "Norway",
+        "robot_count": null,
+        "start_date": "2025-10",
+        "status": "active",
+        "use_case": "ISR drone swarm coordination",
+        "source_url": "https://sixrobotics.com/news/norwegian-army-selects-valkyrie-drone-swarm-from-six-robotics",
+        "archive_url": null
+      }
+    ],
+    "headcount": 90,
+    "headcount_date": "2026-06",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": true,
+    "founders": [
+      {
+        "name": "Christian Fredrik Eggesbø",
+        "role": "Founder (former Norwegian Special Forces)"
+      }
+    ],
+    "ceo": "Christian Fredrik Eggesbø",
+    "tags": [
+      "defense",
+      "drone-swarm",
+      "norway",
+      "europe"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://techfundingnews.com/six-robotics-raises-12m-drone-swarm-software/"
+      },
+      {
+        "url": "https://sixrobotics.com/news/norwegian-army-selects-valkyrie-drone-swarm-from-six-robotics"
+      }
+    ],
+    "last_updated": "2026-06-30",
+    "themes": [
+      "defense-procurement"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Founded 2023 by Christian Fredrik Eggesbø (former Norwegian Special Forces). Builds Valkyrie, a hardware-agnostic autonomy software layer for coordinated drone swarms; already deployed with the Norwegian Army. Grew from 5 to ~90 employees on friends-and-family funding before raising its first institutional round, a €12M (~$13M) seed in June 2026 led by DTCP Defence.",
+      "sources": [
+        {
+          "url": "https://techfundingnews.com/six-robotics-raises-12m-drone-swarm-software/"
+        }
+      ]
+    },
+    "map_category": "defense"
+  },
+  {
+    "id": "neura-robotics",
+    "name": "NEURA Robotics",
+    "founded": "2019",
+    "hq": {
+      "city": "Metzingen",
+      "state": null,
+      "country": "Germany"
+    },
+    "website": "https://neura-robotics.com",
+    "funding_rounds": [
+      {
+        "date": "2025-01",
+        "round": "Series B",
+        "amount_usd": 130000000,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://neura-robotics.com/neura-robotics-secures-euro-120-million-series-b/",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-06",
+        "round": "Series C",
+        "amount_usd": 1400000000,
+        "valuation_usd": 7000000000,
+        "investors": [
+          "Tether Investments"
+        ],
+        "url": "https://www.businesswire.com/news/home/20260610204575/en/NEURA-Robotics-Announces-Record-Series-C-of-up-to-$1.4-Billion-to-Accelerate-the-Worlds-Leading-Physical-AI-Platform",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 1530000000,
+    "latest_valuation_usd": 7000000000,
+    "robot_types": [
+      "humanoid",
+      "cobot",
+      "service"
+    ],
+    "primary_use_case": "full-stack \"cognitive\" robotics platform spanning service, industrial and humanoid robots",
+    "flagship_product": "4NE-1 humanoid",
+    "deployments": [],
+    "headcount": 300,
+    "headcount_date": "2025-01",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "David Reger",
+        "role": "Founder / CEO"
+      }
+    ],
+    "ceo": "David Reger",
+    "tags": [
+      "humanoid",
+      "physical-ai",
+      "europe",
+      "germany",
+      "unicorn"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.businesswire.com/news/home/20260610204575/en/NEURA-Robotics-Announces-Record-Series-C-of-up-to-$1.4-Billion-to-Accelerate-the-Worlds-Leading-Physical-AI-Platform"
+      },
+      {
+        "url": "https://neura-robotics.com"
+      }
+    ],
+    "last_updated": "2026-06-30",
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Founded 2019 by David Reger in Metzingen, Germany. Positions itself as Europe’s leading \"Physical AI\" / cognitive-robotics platform across service, industrial and humanoid form factors. Raised a record Series C of up to $1.4B (led by Tether Investments, announced 2026-06-10) at roughly a $7B valuation, on top of a €120M ($130M) Series B in January 2025. Showcased its full-stack platform at Automate 2026 (2026-06-19).",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20260610204575/en/NEURA-Robotics-Announces-Record-Series-C-of-up-to-$1.4-Billion-to-Accelerate-the-Worlds-Leading-Physical-AI-Platform"
+        },
+        {
+          "url": "https://www.businesswire.com/news/home/20260619441783/en/NEURA-Robotics-Showcases-Full-Stack-Robotics-Platform-at-Automate-2026"
+        }
+      ]
+    },
+    "map_category": "humanoid"
+  },
+  {
+    "id": "odyssey",
+    "name": "Odyssey",
+    "founded": "2023",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://odyssey.ml",
+    "funding_rounds": [
+      {
+        "date": "2026-06",
+        "round": "Series B",
+        "amount_usd": 310000000,
+        "valuation_usd": 1450000000,
+        "investors": [
+          "Natural Capital",
+          "Amazon",
+          "GV",
+          "AMD Ventures",
+          "EQT",
+          "IQT"
+        ],
+        "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 310000000,
+    "latest_valuation_usd": 1450000000,
+    "robot_types": [
+      "ai-infrastructure",
+      "world-model"
+    ],
+    "primary_use_case": "general causal, multimodal \"world models\" that predict and interact with the physical world over long horizons, applied to robotics, science, healthcare and gaming",
+    "flagship_product": "Odyssey world models",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Oliver Cameron",
+        "role": "CEO / Co-Founder (ex-CEO, Voyage, acquired by GM Cruise)"
+      },
+      {
+        "name": "Jeff Hawke",
+        "role": "CTO / Co-Founder (ex-Wayve)"
+      }
+    ],
+    "ceo": "Oliver Cameron",
+    "tags": [
+      "physical-ai",
+      "world-models",
+      "foundation-models",
+      "amazon-backed"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/"
+      },
+      {
+        "url": "https://odyssey.ml/our-series-b"
+      }
+    ],
+    "last_updated": "2026-06-30",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Founded 2023 by autonomous-vehicle veterans Oliver Cameron (ex-Voyage CEO) and Jeff Hawke (ex-Wayve). Builds general \"world models\" with explicitly stated applications spanning robotics, science, healthcare and gaming. Raised a $310M Series B (2026-06-17, led by Natural Capital, with Amazon, GV, AMD Ventures, EQT and IQT) at a $1.45B valuation.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/"
         }
       ]
     },

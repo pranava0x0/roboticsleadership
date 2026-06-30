@@ -1,0 +1,169 @@
+{
+  "sweep_metadata": {
+    "window_start": "2026-06-16",
+    "window_end": "2026-06-30",
+    "generated_at": "2026-06-30",
+    "sources_scanned": [
+      "ycombinator.com/companies (industry: robotics, manufacturing-and-robotics)",
+      "news.ycombinator.com Launch HN posts",
+      "YC Spring 2026 (P26) Demo Day, June 16 2026",
+      "TechCrunch YC Demo Day coverage",
+      "Press coverage of individual YC company launches/raises"
+    ],
+    "notes": "YC's Spring 2026 batch is labeled inconsistently across sources as 'P26', 'S26', and 'X26' (formerly X26, renamed P26/Spring 2026). Demo Day for this batch fell on 2026-06-16, the first day of the sweep window, generating a cluster of new robotics/physical-AI disclosures."
+  },
+  "new_companies": [
+    {
+      "name": "9 Mothers Corporation",
+      "description": "Austin-based defense-tech company building AI-powered counter-drone hardware; shipped EDDA, a 23kg autonomous turret that uses passive acoustic detection plus visual tracking to shoot down FPV attack drones at 10-100m range with a shotgun.",
+      "yc_batch": "YC Spring 2026 (P26)",
+      "founded": "2025 (per YC profile); came out of stealth June 2026",
+      "founders": [
+        "Russell Smith - CEO (YC S12 co-founder of Rainforest QA, 10+ yrs as CTO)",
+        "Roman Khomenko - co-founder",
+        "Bogdan Pyzh - co-founder (ex-Leviathan Security Group EMEA practice lead)"
+      ],
+      "funding": "Reported VC interest at $200M+ valuation following Demo Day; investors include Y Combinator, Pioneer Fund, RSquared VC, Mana Ventures. $1.6M in sales to the U.S. Department of War, with a single contract reportedly expected to expand to $35M.",
+      "hq": "Austin, TX",
+      "primary_sources": [
+        "https://www.ycombinator.com/companies/9-mothers-corporation",
+        "https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs/"
+      ],
+      "confidence": "high",
+      "skip": false
+    },
+    {
+      "name": "Twolabs",
+      "description": "Builds modular semi-humanoid robots (first design: 'Tobi') plus a software platform (Record -> Upload -> Train -> Deploy) for training and deploying robots; initial focus is elder-care robots for nursing homes and senior living facilities (feeding, dressing, medication, companionship).",
+      "yc_batch": "YC Spring 2026 (P26)",
+      "founded": "2026",
+      "founders": [
+        "Sardor Rahmatulloev - co-founder (Cornell CS, ex-Meta Superintelligence Labs)",
+        "Danyal Ahmad - co-founder (Georgia Tech MS in AI)"
+      ],
+      "funding": "Not disclosed in available sources; 2 employees, San Francisco-based per YC profile",
+      "hq": "San Francisco, CA",
+      "primary_sources": [
+        "https://www.ycombinator.com/companies/twolabs",
+        "https://www.twolabs.ai/"
+      ],
+      "confidence": "high",
+      "skip": false
+    },
+    {
+      "name": "Eden Robotics (Eden)",
+      "description": "Builds semi-humanoid robots for industrial/manufacturing and logistics work, offered as 'physical agents for hire' on a usage-based (pay-by-the-hour) model rather than outright robot sales; launched its first product, 'Eden I'.",
+      "yc_batch": "YC Spring 2026 (P26)",
+      "founded": "2025",
+      "founders": [
+        "Stamatis Floratos - CEO",
+        "Dr. Joey Humphreys - CTO (robotics PhD, Nature Machine Intelligence publication)"
+      ],
+      "funding": "No institutional funding round disclosed beyond YC; London-founded, building out in the Bay Area",
+      "hq": "London / San Francisco Bay Area",
+      "primary_sources": [
+        "https://www.ycombinator.com/companies/eden-robotics",
+        "https://x.com/ycombinator/status/2059650319680962672"
+      ],
+      "confidence": "medium",
+      "skip": false
+    },
+    {
+      "name": "Avea Robotics",
+      "description": "Ultra-low-latency (as low as ~10ms) teleoperation software platform that helps robotics companies scale Physical AI data collection and deployments, integrating perception, planning, control and teleoperation for industrial robot fleets.",
+      "yc_batch": "YC Spring 2026 (P26)",
+      "founded": "2024",
+      "founders": [
+        "Ary Anindarapu (Aryan Indarapu) - co-founder/CEO",
+        "Vikram Vadrevu - co-founder (aerospace/embedded software engineer, ex-NASA/DoD satellite flight software, UIUC)"
+      ],
+      "funding": "$1.01M raised (Afore Capital, LeapYear, Pioneer Fund, Third Kind Venture Capital, Y Combinator); reported growth from 0 to $200K ARR in one month (May 2026)",
+      "hq": "United States (Bay Area)",
+      "primary_sources": [
+        "https://www.ycombinator.com/companies/avea-robotics",
+        "https://www.avearobotics.com/"
+      ],
+      "confidence": "medium",
+      "skip": false
+    },
+    {
+      "name": "Human Archive",
+      "description": "Multimodal data provider for robotics and world-model training; archives real-world human interaction (50,000+ contributor network, 1,000+ custom data-capture rigs, 125+ national partnerships in India) to build datasets for embodied-AI/robotics foundation models.",
+      "yc_batch": "YC Winter 2026 (W26)",
+      "founded": "Winter 2026",
+      "founders": [
+        "Shloke Patel (Stanford, mechanical engineering/CS)",
+        "Samay (UC Berkeley EECS, on leave)",
+        "Rushil (UC Berkeley, Management/Engineering/Tech)",
+        "Raj"
+      ],
+      "funding": "$8.2M seed led by Wing Venture Capital and NVP Capital, announced 2026-05-26 (just prior to the sweep window; included here as it remained an actively discussed YC robotics-data story through the window)",
+      "hq": "San Francisco / India operations",
+      "primary_sources": [
+        "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
+        "https://www.ycombinator.com/companies/human-archive"
+      ],
+      "confidence": "medium",
+      "skip": false
+    },
+    {
+      "name": "Maquoketa Research",
+      "description": "Builds platform-agnostic terminal guidance modules ('the intelligence layer for one-way attack drones') -- a custom object-tracking/re-acquisition algorithm running on sub-$200 hardware, reported to raise successful strike rates from under 25% to upwards of 80%.",
+      "yc_batch": "YC Spring 2026 (P26)",
+      "founded": "2025",
+      "founders": [
+        "Alejandro Hernandez",
+        "David Muchow",
+        "Aidan Williams",
+        "Evan Yeager"
+      ],
+      "funding": "Not disclosed beyond YC; 5 employees per YC profile",
+      "hq": "Elk Grove Village, IL",
+      "primary_sources": [
+        "https://www.ycombinator.com/companies/maquoketa-research"
+      ],
+      "confidence": "medium",
+      "skip": false
+    },
+    {
+      "name": "Intelligence Factory",
+      "description": "'Human Intelligence for Robots' - trains general-purpose robot manipulation models on human demonstration data captured via custom motion-capture gloves (see/do/feel), then retargets human motion to robot motion across hardware platforms.",
+      "yc_batch": "YC Spring 2026 (P26)",
+      "founded": "2026",
+      "founders": [
+        "Yash Sinha - CEO (ETH Zurich robotics, ex-Founder/CTO of Kaio Labs)",
+        "Jalaj Shukla - CTO (UPenn MS Robotics & Mechatronics, ex-Dimensional, ex-Blue Sky Robotics)"
+      ],
+      "funding": "Not disclosed in available sources",
+      "hq": "San Francisco, CA",
+      "primary_sources": [
+        "https://www.ycombinator.com/companies/intelligence-factory"
+      ],
+      "confidence": "low",
+      "skip": false
+    },
+    {
+      "name": "Cortex AI",
+      "description": "Builds large-scale real-world robot and egocentric human datasets for embodied-AI/foundation-model training (workplace video, manipulator/humanoid trajectories, human-in-the-loop rollouts and evals).",
+      "yc_batch": "YC Fall 2025 (F25)",
+      "founded": "2025",
+      "founders": ["Lucas Ngoo (ex-co-founder/CTO of Carousell)"],
+      "funding": "$6M seed, closed 2025-12-04 -- not a window event",
+      "hq": "San Francisco, CA",
+      "primary_sources": [
+        "https://www.ycombinator.com/companies/cortex-ai"
+      ],
+      "confidence": "low",
+      "skip": true,
+      "skip_reason": "F25-batch company with no confirmed news inside the 2026-06-16 to 2026-06-30 window; only verifiable event is a Dec 2025 seed round."
+    }
+  ],
+  "notable_updates": [
+    {
+      "company": "(none identified)",
+      "note": "After checking tracked companies most likely to have a YC affiliation (Viam, Serve Robotics, Path Robotics, Pickle Robot, Standard Bots, Dyna Robotics, Bedrock Robotics, Field AI, Sunday Robotics), no confirmed direct YC-portfolio connection plus in-window (2026-06-16 to 2026-06-30) news could be substantiated with a primary source. Viam (Tech Mahindra partnership, 2026-06-18-19) and Serve Robotics (board appointment, Cannes Lions sponsorship, ~2026-06-22-24) had real in-window news but no verifiable direct YC backing -- Viam's investors are Tiger Global/USV/Battery, and Serve Robotics spun out of Postmates/Uber rather than YC directly.",
+      "skip": true,
+      "skip_reason": "No tracked company with a confirmed YC connection had verifiable in-window news after 2 rounds of search."
+    }
+  ]
+}
