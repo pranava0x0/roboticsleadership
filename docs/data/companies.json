@@ -411,8 +411,8 @@
         "confidence": "reported"
       }
     ],
-    "total_funding_usd": 641000000,
-    "latest_valuation_usd": 2500000000,
+    "total_funding_usd": 1170000000,
+    "latest_valuation_usd": 2120000000,
     "robot_types": [
       "humanoid",
       "warehouse_robot"
@@ -500,7 +500,7 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private company. Generates revenue through hardware sales, leasing, and subscription-based service models (Agility Arc/RaaS). Latest Series C valued the company at $1.8B. Agreed 2026-06-24 to go public via a $2.5B SPAC merger with Churchill Capital Corp XI (ticker AGLT); deal expected to generate $620M+ in proceeds with Foxconn leading a PIPE. Agility reports $300M+ in multi-year Digit v5 orders and deployments across nine sites with 65,000+ operating hours.",
+      "details": "Private company. Generates revenue through hardware sales, leasing, and subscription-based service models (Agility Arc/RaaS). Latest Series C valued the company at $1.8B. Agreed 2026-06-24 to go public via a $2.5B SPAC merger with Churchill Capital Corp XI (ticker AGLT); deal expected to generate $620M+ in proceeds with Foxconn leading a PIPE. Agility reports $300M+ in multi-year Digit v5 orders and deployments across nine sites with 65,000+ operating hours. Note: the $2.5B SPAC-implied valuation reflects an announced, not-yet-closed deal; latest_valuation_usd retains the last confirmed Series C figure ($2.12B) until the merger closes.",
       "sources": [
         {
           "url": "https://www.geekwire.com/2025/agility-robotics-reportedly-raising-400m-for-humanoid-warehouse-robots/"
@@ -6796,7 +6796,7 @@
       }
     ],
     "total_funding_usd": null,
-    "latest_valuation_usd": 200000000,
+    "latest_valuation_usd": null,
     "robot_types": [
       "turret",
       "counter-drone"
@@ -6843,7 +6843,7 @@
       "austin",
       "dow-contract"
     ],
-    "data_confidence": "high",
+    "data_confidence": "medium",
     "sources": [
       {
         "url": "https://www.ycombinator.com/companies/9-mothers-corporation"

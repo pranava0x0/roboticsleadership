@@ -169,5 +169,18 @@ test('every page nav links to supply-chain.html', () => {
   });
 });
 
+test('every page footer carries the footer-credit links (CLAUDE.md requirement)', () => {
+  const pages = readdirSync(DOCS).filter((f) => f.endsWith('.html'));
+  pages.forEach((p) => {
+    const html = readFileSync(resolve(DOCS, p), 'utf8');
+    assert(html.includes('class="footer-credit"'), `${p} footer missing .footer-credit block`);
+    assert(html.includes('https://pranavaraparla.com'), `${p} footer missing pranavaraparla.com link`);
+    assert(
+      html.includes('https://github.com/pranava0x0/roboticsleadership'),
+      `${p} footer missing GitHub source-repo link`
+    );
+  });
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed > 0) process.exit(1);
