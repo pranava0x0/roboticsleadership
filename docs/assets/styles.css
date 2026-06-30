@@ -542,6 +542,10 @@ footer.site-footer {
   text-align: center;
 }
 
+footer.site-footer .footer-credit {
+  margin-top: 8px;
+}
+
 /* ============================================================
    KPI / stats strip
    ============================================================ */
