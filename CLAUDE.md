@@ -169,6 +169,10 @@ Maintain a `backlog.md` for ideas, features, and enhancements.
 - **Responsive CSS, not duplicate DOM trees.** Handle mobile / desktop with media queries — never render the same content twice.
 - **The `[hidden]` trap.** Writing `display: inline-flex` / `display: block` on an element that also uses the `hidden` HTML attribute makes the CSS rule win and the attribute become a no-op. Always pair `display: ...` overrides with an explicit `[hidden] { display: none }` rule.
 
+### Project-specific: this site (Robotics Leadership)
+
+- **Every page's `<footer class="site-footer">` must carry a `.footer-credit` line linking to `https://pranavaraparla.com` and the GitHub source repo `https://github.com/pranava0x0/roboticsleadership`.** When adding a new page, copy the `.footer-credit` `<p>` from an existing page (e.g. `docs/themes.html`) rather than reinventing it.
+
 ---
 
 ## Network ethics & rate limiting
