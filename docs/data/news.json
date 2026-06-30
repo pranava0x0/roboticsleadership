@@ -1,5 +1,172 @@
 [
   {
+    "id": "hn-48720635",
+    "title": "Open Source Software Is the Pastime of the Rich",
+    "date": "2026-06-29",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://humancode.us/2024/09/18/open-source-pastime-for-rich",
+    "summary": "Open Source Software Is the Pastime of the Rich",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48727753",
+    "title": "'Humanity has chosen to become idiots': Brown professor discovers mass cheating",
+    "date": "2026-06-30",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://fortune.com/2026/06/29/roberto-serrano-brown-university-massacre-ai-cheating/",
+    "summary": "'Humanity has chosen to become idiots': Brown professor discovers mass cheating",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48724274",
+    "title": "Segmenting Robot Video into Actionable Subtasks",
+    "date": "2026-06-29",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://macrodata.co/blog/annotating-robot-video-subtasks",
+    "summary": "Segmenting Robot Video into Actionable Subtasks",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48726102",
+    "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
+    "date": "2026-06-29",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
+    "summary": "South Korea to spend $1T on more memory chip production and humanoid robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48728596",
+    "title": "Show HN: CI/Lock – signed evidence of what your CI ran",
+    "date": "2026-06-30",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://cilock.dev/",
+    "summary": "I helped create Witness, donated it to the CNCF/in-toto ecosystem, and worked on the NIST 800-204D \"pipeline observer\" guidance. CI/Lock is the next version of that work, and it&#x",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-advantages-of-hypoid-gearing-o-754",
+    "title": "Advantages of hypoid gearing over worm, bevel and bevel-planetary",
+    "date": "2026-06-29",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/advantages-of-hypoid-gearing-over-worm-bevel-and-bevel-planetary/",
+    "summary": "Right-angle gearing often requires engineers to compromise between torque capacity and mechanical efficiency. Hypoid gearing offers a balance of mechanical efficiency, load-carrying capability, and si...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-mbody-ai-expands-service-robot-549",
+    "title": "MBody AI expands service robotics operations to eleven states and Canada",
+    "date": "2026-06-29",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/",
+    "summary": "MBody AI has deployed its hardware-agnostic Orchestrator platform to Florida and California, with a pilot in Ontario.\nThe post MBody AI expands service robotics operations to eleven states and Canada ...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-bmw-group-deploys-figure-03-hu-460",
+    "title": "BMW Group deploys Figure 03 humanoid after tests with previous version",
+    "date": "2026-06-29",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/",
+    "summary": "The Figure 02 robot supported the production of more than 30,000 BMW X3 vehicles over 11 months in South Carolina.\nThe post BMW Group deploys Figure 03 humanoid after tests with previous version appea...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-insights-behind-kinisi-s-acqui-121",
+    "title": "Insights behind Kinisi’s acquisition by Bear Robotics",
+    "date": "2026-06-29",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/",
+    "summary": "Brennand Pierce, founder and CEO of Kinisi Robotics, discusses the company's approach to physical AI and its acquisition by Bear Robotics.\nThe post Insights behind Kinisi’s acquisition by Bear Robotic...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "rss-robot-hand-company-settles-tes-931",
     "title": "Robot hand company settles Tesla trade secret suit and announces $11M raise",
     "date": "2026-06-29",
