@@ -298,7 +298,8 @@
           "BlueRun Ventures"
         ],
         "url": "https://www.scmp.com/tech/big-tech/article/3303837/chinese-tech-giant-tencent-joins-latest-investment-round-shanghai-robotics-start-agibot",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260111161854/https://www.scmp.com/tech/big-tech/article/3303837/chinese-tech-giant-tencent-joins-latest-investment-round-shanghai-robotics-start-agibot"
       },
       {
         "date": "2025-08",
@@ -310,7 +311,8 @@
           "Mirae Asset"
         ],
         "url": "https://finance.yahoo.com/news/exclusive-chinese-robot-maker-agibot-092020928.html",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20251021233304/https://finance.yahoo.com/news/exclusive-chinese-robot-maker-agibot-092020928.html"
       }
     ],
     "total_funding_usd": 500000000,
@@ -346,7 +348,8 @@
         "url": "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/"
       },
       {
-        "url": "https://www.scmp.com/tech/big-tech/article/3303837/chinese-tech-giant-tencent-joins-latest-investment-round-shanghai-robotics-start-agibot"
+        "url": "https://www.scmp.com/tech/big-tech/article/3303837/chinese-tech-giant-tencent-joins-latest-investment-round-shanghai-robotics-start-agibot",
+        "archive_url": "https://web.archive.org/web/20260111161854/https://www.scmp.com/tech/big-tech/article/3303837/chinese-tech-giant-tencent-joins-latest-investment-round-shanghai-robotics-start-agibot"
       }
     ],
     "last_updated": "2026-06-22",
@@ -408,7 +411,8 @@
           "Foxconn (PIPE)"
         ],
         "url": "https://www.businesswire.com/news/home/20260624555633/en/Agility-Robotics-to-Go-Public-Through-$2.5-Billion-Merger-with-Churchill-Capital-Corp-XI",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260625014956/https://www.businesswire.com/news/home/20260624555633/en/Agility-Robotics-to-Go-Public-Through-$2.5-Billion-Merger-with-Churchill-Capital-Corp-XI"
       }
     ],
     "total_funding_usd": 1170000000,
@@ -558,7 +562,8 @@
           "Andreessen Horowitz"
         ],
         "url": "https://www.cnbc.com/2026/05/13/anduril-valuation-defense-tech-funding-boom.html",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260630100415/https://www.cnbc.com/2026/05/13/anduril-valuation-defense-tech-funding-boom.html"
       }
     ],
     "total_funding_usd": 11300000000,
@@ -613,7 +618,8 @@
         "archive_url": "https://web.archive.org/web/20260511102010/https://www.anduril.com/"
       },
       {
-        "url": "https://www.cnbc.com/2026/05/13/anduril-valuation-defense-tech-funding-boom.html"
+        "url": "https://www.cnbc.com/2026/05/13/anduril-valuation-defense-tech-funding-boom.html",
+        "archive_url": "https://web.archive.org/web/20260630100415/https://www.cnbc.com/2026/05/13/anduril-valuation-defense-tech-funding-boom.html"
       }
     ],
     "last_updated": "2026-06-19",
@@ -658,7 +664,8 @@
           "Swisscom Ventures"
         ],
         "url": "https://www.anybotics.com/news/anybotics-raises-additional-60-million-to-drive-u-s-expansion/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260311125921/https://www.anybotics.com/news/anybotics-raises-additional-60-million-to-drive-u-s-expansion/"
       },
       {
         "date": "2024-12",
@@ -673,7 +680,8 @@
           "Bessemer Venture Partners"
         ],
         "url": "https://techcrunch.com/2024/12/12/anybotics-raises-60m-to-scale-autonomous-industrial-robots-in-the-u-s/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260504203221/https://techcrunch.com/2024/12/12/anybotics-raises-60m-to-scale-autonomous-industrial-robots-in-the-u-s/"
       }
     ],
     "total_funding_usd": 130000000,
@@ -729,8 +737,14 @@
     ],
     "data_confidence": "high",
     "sources": [
-      "https://www.anybotics.com/news/anybotics-raises-additional-60-million-to-drive-u-s-expansion/",
-      "https://techcrunch.com/2024/12/12/anybotics-raises-60m-to-scale-autonomous-industrial-robots-in-the-u-s/"
+      {
+        "url": "https://www.anybotics.com/news/anybotics-raises-additional-60-million-to-drive-u-s-expansion/",
+        "archive_url": "https://web.archive.org/web/20260311125921/https://www.anybotics.com/news/anybotics-raises-additional-60-million-to-drive-u-s-expansion/"
+      },
+      {
+        "url": "https://techcrunch.com/2024/12/12/anybotics-raises-60m-to-scale-autonomous-industrial-robots-in-the-u-s/",
+        "archive_url": "https://web.archive.org/web/20260504203221/https://techcrunch.com/2024/12/12/anybotics-raises-60m-to-scale-autonomous-industrial-robots-in-the-u-s/"
+      }
     ],
     "last_updated": "2026-06-12",
     "themes": [
@@ -880,7 +894,8 @@
         "valuation_usd": null,
         "investors": [],
         "url": "https://www.therobotreport.com/arbe-raises-32m-market-high-res-radar-autonomous-vehicles/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20250907180651/https://www.therobotreport.com/arbe-raises-32m-market-high-res-radar-autonomous-vehicles/"
       },
       {
         "date": "2021-10",
@@ -889,7 +904,8 @@
         "valuation_usd": null,
         "investors": [],
         "url": "https://ir.arberobotics.com/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260417055136/https://ir.arberobotics.com/"
       },
       {
         "date": "2026-03",
@@ -947,16 +963,19 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://ir.arberobotics.com/"
+        "url": "https://ir.arberobotics.com/",
+        "archive_url": "https://web.archive.org/web/20260417055136/https://ir.arberobotics.com/"
       },
       {
-        "url": "https://ir.arberobotics.com/news/press-releases/detail/166/arbe-combines-market-leading-radar-solution-with-powerful"
+        "url": "https://ir.arberobotics.com/news/press-releases/detail/166/arbe-combines-market-leading-radar-solution-with-powerful",
+        "archive_url": "https://web.archive.org/web/20260417053458/https://ir.arberobotics.com/news/press-releases/detail/166/arbe-combines-market-leading-radar-solution-with-powerful"
       },
       {
         "url": "https://www.stocktitan.net/news/ARBE/arbe-announces-q1-2026-financial-bwcrm1p9315i.html"
       },
       {
-        "url": "https://www.therobotreport.com/arbe-raises-32m-market-high-res-radar-autonomous-vehicles/"
+        "url": "https://www.therobotreport.com/arbe-raises-32m-market-high-res-radar-autonomous-vehicles/",
+        "archive_url": "https://web.archive.org/web/20250907180651/https://www.therobotreport.com/arbe-raises-32m-market-high-res-radar-autonomous-vehicles/"
       }
     ],
     "last_updated": "2026-06-01",
@@ -990,7 +1009,8 @@
           "NVentures"
         ],
         "url": "https://www.prnewswire.com/news-releases/bedrock-robotics-emerges-from-stealth-with-80m-in-funding-for-autonomous-construction-technology-302506159.html",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260204150304/https://www.prnewswire.com/news-releases/bedrock-robotics-emerges-from-stealth-with-80m-in-funding-for-autonomous-construction-technology-302506159.html"
       },
       {
         "date": "2026-02",
@@ -1191,7 +1211,8 @@
           "Bessemer Venture Partners"
         ],
         "url": "https://www.brightmachines.com",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260320160654/https://www.brightmachines.com/"
       },
       {
         "date": "2022-06",
@@ -1204,7 +1225,8 @@
           "Energize Capital"
         ],
         "url": "https://www.brightmachines.com",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260320160654/https://www.brightmachines.com/"
       }
     ],
     "total_funding_usd": 259000000,
@@ -1239,7 +1261,8 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://www.brightmachines.com"
+        "url": "https://www.brightmachines.com",
+        "archive_url": "https://web.archive.org/web/20260320160654/https://www.brightmachines.com/"
       },
       {
         "url": "https://techcrunch.com/2022/06/08/bright-machines-series-b/"
@@ -1341,7 +1364,8 @@
         "archive_url": "https://web.archive.org/web/20251210181050/https://www.therobotreport.com/carbon-robotics-brings-in-70m-to-scale-laserweeder/"
       },
       {
-        "url": "https://agfundernews.com/carbon-robotics-eyes-new-regions-products-with-70m-raise-were-focused-very-intently-on-the-field"
+        "url": "https://agfundernews.com/carbon-robotics-eyes-new-regions-products-with-70m-raise-were-focused-very-intently-on-the-field",
+        "archive_url": "https://web.archive.org/web/20260214035314/https://agfundernews.com/carbon-robotics-eyes-new-regions-products-with-70m-raise-were-focused-very-intently-on-the-field"
       }
     ],
     "last_updated": "2026-06-01",
@@ -1578,7 +1602,8 @@
           "CRHC Fund / China Reform Holdings"
         ],
         "url": "https://www.yicaiglobal.com/news/chinas-deep-robotics-raises-usd707-million-to-speed-rd-of-embodied-ai-robot-adoption",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20251211003324/https://www.yicaiglobal.com/news/chinas-deep-robotics-raises-usd707-million-to-speed-rd-of-embodied-ai-robot-adoption"
       },
       {
         "date": "2025-11",
@@ -1629,8 +1654,13 @@
     ],
     "data_confidence": "medium",
     "sources": [
-      "https://www.scmp.com/tech/tech-trends/article/3335806/chinas-deep-robotics-raises-us70-million-fresh-funds-sector-draws-more-investors",
-      "https://www.yicaiglobal.com/news/chinas-deep-robotics-raises-usd707-million-to-speed-rd-of-embodied-ai-robot-adoption"
+      {
+        "url": "https://www.scmp.com/tech/tech-trends/article/3335806/chinas-deep-robotics-raises-us70-million-fresh-funds-sector-draws-more-investors"
+      },
+      {
+        "url": "https://www.yicaiglobal.com/news/chinas-deep-robotics-raises-usd707-million-to-speed-rd-of-embodied-ai-robot-adoption",
+        "archive_url": "https://web.archive.org/web/20251211003324/https://www.yicaiglobal.com/news/chinas-deep-robotics-raises-usd707-million-to-speed-rd-of-embodied-ai-robot-adoption"
+      }
     ],
     "last_updated": "2026-06-12",
     "themes": [
@@ -1681,7 +1711,7 @@
         "status": "active",
         "use_case": "truck loading/unloading, palletizing, package sorting",
         "source_url": "https://www.mmh.com/article/dexterity-raises-95-million-expand-automation-robots-warehouse",
-        "archive_url": null
+        "archive_url": "https://web.archive.org/web/20250723085235/https://www.mmh.com/article/dexterity-raises-95-million-expand-automation-robots-warehouse"
       }
     ],
     "headcount": null,
@@ -1856,7 +1886,8 @@
           "Amazon Industrial Innovation Fund"
         ],
         "url": "https://www.therobotreport.com/dyna-robotics-closes-120m-funding-round-to-scale-robotics-foundation-model/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260602113715/https://www.therobotreport.com/dyna-robotics-closes-120m-funding-round-to-scale-robotics-foundation-model/"
       }
     ],
     "total_funding_usd": 120000000,
@@ -1897,10 +1928,12 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://www.therobotreport.com/dyna-robotics-closes-120m-funding-round-to-scale-robotics-foundation-model/"
+        "url": "https://www.therobotreport.com/dyna-robotics-closes-120m-funding-round-to-scale-robotics-foundation-model/",
+        "archive_url": "https://web.archive.org/web/20260602113715/https://www.therobotreport.com/dyna-robotics-closes-120m-funding-round-to-scale-robotics-foundation-model/"
       },
       {
-        "url": "https://www.prnewswire.com/news-releases/dyna-robotics-raises-120-million-to-advance-robotic-foundation-models-on-the-path-to-physical-artificial-general-intelligence-302556817.html"
+        "url": "https://www.prnewswire.com/news-releases/dyna-robotics-raises-120-million-to-advance-robotic-foundation-models-on-the-path-to-physical-artificial-general-intelligence-302556817.html",
+        "archive_url": "https://web.archive.org/web/20251128212235/https://www.prnewswire.com/news-releases/dyna-robotics-raises-120-million-to-advance-robotic-foundation-models-on-the-path-to-physical-artificial-general-intelligence-302556817.html"
       }
     ],
     "last_updated": "2026-06-01",
@@ -1936,7 +1969,8 @@
           "FJ Labs"
         ],
         "url": "https://www.electricsheep.co",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20250307034011/https://electricsheep.co/"
       },
       {
         "date": "2023-03",
@@ -1948,7 +1982,8 @@
           "Prologis Ventures"
         ],
         "url": "https://www.electricsheep.co",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20250307034011/https://electricsheep.co/"
       }
     ],
     "total_funding_usd": 80000000,
@@ -1967,7 +2002,8 @@
         "start_date": "2022-01",
         "status": "active",
         "use_case": "Commercial lawn care and grounds maintenance",
-        "source_url": "https://www.electricsheep.co"
+        "source_url": "https://www.electricsheep.co",
+        "archive_url": "https://web.archive.org/web/20250307034011/https://electricsheep.co/"
       }
     ],
     "headcount": null,
@@ -1993,7 +2029,8 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://www.electricsheep.co"
+        "url": "https://www.electricsheep.co",
+        "archive_url": "https://web.archive.org/web/20250307034011/https://electricsheep.co/"
       }
     ],
     "last_updated": "2026-06-12",
@@ -2050,7 +2087,8 @@
           "Luxshare Precision"
         ],
         "url": "https://www.humanoidsdaily.com/news/engineai-secures-200-million-series-b-as-manufacturing-giant-luxshare-joins-the-cap-table",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260513003931/https://www.humanoidsdaily.com/news/engineai-secures-200-million-series-b-as-manufacturing-giant-luxshare-joins-the-cap-table"
       }
     ],
     "total_funding_usd": 354000000,
@@ -2086,7 +2124,8 @@
         "archive_url": "https://web.archive.org/web/20260307125510/https://www.engineai.com.cn/"
       },
       {
-        "url": "https://www.humanoidsdaily.com/news/engineai-secures-200-million-series-b-as-manufacturing-giant-luxshare-joins-the-cap-table"
+        "url": "https://www.humanoidsdaily.com/news/engineai-secures-200-million-series-b-as-manufacturing-giant-luxshare-joins-the-cap-table",
+        "archive_url": "https://web.archive.org/web/20260513003931/https://www.humanoidsdaily.com/news/engineai-secures-200-million-series-b-as-manufacturing-giant-luxshare-joins-the-cap-table"
       }
     ],
     "last_updated": "2026-06-22",
@@ -2118,7 +2157,8 @@
           "NVIDIA"
         ],
         "url": "https://www.therobotreport.com/fieldai-raises-405m-scales-physics-first-foundation-models-robots/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260124031121/https://www.therobotreport.com/fieldai-raises-405m-scales-physics-first-foundation-models-robots/"
       }
     ],
     "total_funding_usd": 405000000,
@@ -2151,13 +2191,16 @@
     "data_confidence": "high",
     "sources": [
       {
-        "url": "https://www.therobotreport.com/fieldai-raises-405m-scales-physics-first-foundation-models-robots/"
+        "url": "https://www.therobotreport.com/fieldai-raises-405m-scales-physics-first-foundation-models-robots/",
+        "archive_url": "https://web.archive.org/web/20260124031121/https://www.therobotreport.com/fieldai-raises-405m-scales-physics-first-foundation-models-robots/"
       },
       {
-        "url": "https://www.cnbc.com/2025/08/20/gates-nvidia-fieldai-robotics.html"
+        "url": "https://www.cnbc.com/2025/08/20/gates-nvidia-fieldai-robotics.html",
+        "archive_url": "https://web.archive.org/web/20260611170858/https://www.cnbc.com/2025/08/20/gates-nvidia-fieldai-robotics.html"
       },
       {
-        "url": "https://www.prnewswire.com/news-releases/fieldai-announces-over-400m-in-funds-raised-to-advance-embodied-ai-at-scale-302534675.html"
+        "url": "https://www.prnewswire.com/news-releases/fieldai-announces-over-400m-in-funds-raised-to-advance-embodied-ai-at-scale-302534675.html",
+        "archive_url": "https://web.archive.org/web/20260513052348/https://www.prnewswire.com/news-releases/fieldai-announces-over-400m-in-funds-raised-to-advance-embodied-ai-at-scale-302534675.html"
       }
     ],
     "last_updated": "2026-06-01",
@@ -2323,7 +2366,8 @@
           "Prosperity7 Ventures (Saudi Aramco)"
         ],
         "url": "https://www.prosperity7vc.com/fourier-intelligence-completes-rmb-400-million-series-d-financing%EF%BF%BC/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260122184140/https://www.prosperity7vc.com/fourier-intelligence-completes-rmb-400-million-series-d-financing%EF%BF%BC/"
       },
       {
         "date": "2025-01",
@@ -2336,7 +2380,8 @@
           "Prosperity7 Ventures"
         ],
         "url": "https://en.tmtpost.com/post/7651669",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20250807164614/https://en.tmtpost.com/post/7651669"
       }
     ],
     "total_funding_usd": null,
@@ -2373,9 +2418,18 @@
     ],
     "data_confidence": "medium",
     "sources": [
-      "https://en.tmtpost.com/post/7651669",
-      "https://interestingengineering.com/ai-robotics/fouriers-gr-3-humanoid-at-ces-2026",
-      "https://www.humanoidsdaily.com/news/the-great-valuation-chasm-a-2025-guide-to-the-humanoid-robotics-capital-race"
+      {
+        "url": "https://en.tmtpost.com/post/7651669",
+        "archive_url": "https://web.archive.org/web/20250807164614/https://en.tmtpost.com/post/7651669"
+      },
+      {
+        "url": "https://interestingengineering.com/ai-robotics/fouriers-gr-3-humanoid-at-ces-2026",
+        "archive_url": "https://web.archive.org/web/20260131042922/https://interestingengineering.com/ai-robotics/fouriers-gr-3-humanoid-at-ces-2026"
+      },
+      {
+        "url": "https://www.humanoidsdaily.com/news/the-great-valuation-chasm-a-2025-guide-to-the-humanoid-robotics-capital-race",
+        "archive_url": "https://web.archive.org/web/20260315210328/https://www.humanoidsdaily.com/news/the-great-valuation-chasm-a-2025-guide-to-the-humanoid-robotics-capital-race"
+      }
     ],
     "last_updated": "2026-06-12",
     "themes": [
@@ -2407,7 +2461,8 @@
           "Bessemer Venture Partners"
         ],
         "url": "https://www.geckorobotics.com",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260513193541/https://www.geckorobotics.com/"
       }
     ],
     "total_funding_usd": 100000000,
@@ -2426,7 +2481,8 @@
         "start_date": "2022-01",
         "status": "active",
         "use_case": "Infrastructure inspection and predictive maintenance",
-        "source_url": "https://www.geckorobotics.com"
+        "source_url": "https://www.geckorobotics.com",
+        "archive_url": "https://web.archive.org/web/20260513193541/https://www.geckorobotics.com/"
       }
     ],
     "headcount": null,
@@ -2452,7 +2508,8 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://www.geckorobotics.com"
+        "url": "https://www.geckorobotics.com",
+        "archive_url": "https://web.archive.org/web/20260513193541/https://www.geckorobotics.com/"
       },
       {
         "url": "https://techcrunch.com/2021/07/20/gecko-robotics/"
@@ -2483,7 +2540,8 @@
         "valuation_usd": null,
         "investors": null,
         "url": "https://www.gr.inc/",
-        "confidence": "rumored"
+        "confidence": "rumored",
+        "archive_url": "https://web.archive.org/web/20260611154012/https://www.gr.inc/"
       }
     ],
     "total_funding_usd": null,
@@ -2523,7 +2581,8 @@
     "notes": "Founded 2024 by Ross Taylor (ex-Meta AI, led Llama 2/3 reasoning). Focus on AI reasoning models and planning infrastructure.",
     "sources": [
       {
-        "url": "https://www.gr.inc/"
+        "url": "https://www.gr.inc/",
+        "archive_url": "https://web.archive.org/web/20260611154012/https://www.gr.inc/"
       }
     ],
     "themes": [
@@ -2554,7 +2613,8 @@
           "NFDG"
         ],
         "url": "https://boldstart.vc/companies/generalist/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260315084504/https://boldstart.vc/companies/generalist/"
       },
       {
         "date": "2026-06",
@@ -2573,7 +2633,8 @@
           "Eric Yuan"
         ],
         "url": "https://siliconangle.com/2026/06/04/generalist-ai-raises-400m-2b-valuation-build-general-intelligence-real-world/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260623194457/https://siliconangle.com/2026/06/04/generalist-ai-raises-400m-2b-valuation-build-general-intelligence-real-world/"
       }
     ],
     "total_funding_usd": 540000000,
@@ -2613,7 +2674,8 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://boldstart.vc/companies/generalist/"
+        "url": "https://boldstart.vc/companies/generalist/",
+        "archive_url": "https://web.archive.org/web/20260315084504/https://boldstart.vc/companies/generalist/"
       },
       {
         "url": "https://www.crunchbase.com/organization/generalist-ai"
@@ -2689,10 +2751,12 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://www.hebirobotics.com"
+        "url": "https://www.hebirobotics.com",
+        "archive_url": "https://web.archive.org/web/20260531043411/https://www.hebirobotics.com/"
       },
       {
-        "url": "https://www.ri.cmu.edu"
+        "url": "https://www.ri.cmu.edu",
+        "archive_url": "https://web.archive.org/web/20260620123856/https://www.ri.cmu.edu/"
       }
     ],
     "last_updated": "2026-06-12",
@@ -2719,7 +2783,8 @@
         "valuation_usd": null,
         "investors": [],
         "url": "https://isrg.intuitive.com/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260201172148/https://isrg.intuitive.com/"
       }
     ],
     "total_funding_usd": null,
@@ -2769,7 +2834,8 @@
         "url": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-third-quarter-earnings-5"
       },
       {
-        "url": "https://www.stocktitan.net/news/ISRG/intuitive-announces-first-quarter-1rw9huwnl0u6.html"
+        "url": "https://www.stocktitan.net/news/ISRG/intuitive-announces-first-quarter-1rw9huwnl0u6.html",
+        "archive_url": "https://web.archive.org/web/20250721213041/https://www.stocktitan.net/news/ISRG/intuitive-announces-first-quarter-1rw9huwnl0u6.html"
       }
     ],
     "last_updated": "2026-06-01",
@@ -2799,7 +2865,8 @@
         "valuation_usd": null,
         "investors": [],
         "url": "https://investor.irobot.com/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260103000928/https://investor.irobot.com/"
       }
     ],
     "total_funding_usd": null,
@@ -2969,7 +3036,8 @@
           "DCVC"
         ],
         "url": "https://www.machinalabs.ai",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260609025101/https://machinalabs.ai/"
       }
     ],
     "total_funding_usd": 32000000,
@@ -2988,7 +3056,8 @@
         "start_date": "2022-01",
         "status": "active",
         "use_case": "Rapid prototype sheet metal parts — fuselage panels, structural skins — without traditional dies",
-        "source_url": "https://www.machinalabs.ai"
+        "source_url": "https://www.machinalabs.ai",
+        "archive_url": "https://web.archive.org/web/20260609025101/https://machinalabs.ai/"
       }
     ],
     "headcount": null,
@@ -3018,10 +3087,12 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://www.machinalabs.ai"
+        "url": "https://www.machinalabs.ai",
+        "archive_url": "https://web.archive.org/web/20260609025101/https://machinalabs.ai/"
       },
       {
-        "url": "https://www.darpa.mil/program/open-manufacturing"
+        "url": "https://www.darpa.mil/program/open-manufacturing",
+        "archive_url": "https://web.archive.org/web/20240414080208/https://www.darpa.mil/program/open-manufacturing/"
       }
     ],
     "last_updated": "2026-06-12",
@@ -3077,7 +3148,8 @@
     "data_confidence": "high",
     "sources": [
       {
-        "url": "https://www.moog.com"
+        "url": "https://www.moog.com",
+        "archive_url": "https://web.archive.org/web/20260616190356/https://www.moog.com/"
       },
       {
         "url": "https://investors.moog.com"
@@ -3143,7 +3215,8 @@
     "notes": "EU-based open-source robotics platform. ElRobot is a 3D-printable 7-DOF arm with zero custom hardware. Alex Batsuev (@batsuev_es) associated with Norma Core Dev.",
     "sources": [
       {
-        "url": "https://github.com/norma-core"
+        "url": "https://github.com/norma-core",
+        "archive_url": "https://web.archive.org/web/20260208130810/https://github.com/norma-core"
       }
     ],
     "themes": [],
@@ -3296,7 +3369,8 @@
         "url": "https://investors.ouster.com/news-releases/news-release-details/ouster-and-serve-robotics-sign-multi-year-strategic-agreement"
       },
       {
-        "url": "https://en.wikipedia.org/wiki/Ouster_(company)"
+        "url": "https://en.wikipedia.org/wiki/Ouster_(company)",
+        "archive_url": "https://web.archive.org/web/20260628131735/https://en.wikipedia.org/wiki/Ouster_(company)"
       }
     ],
     "last_updated": "2026-06-01",
@@ -3378,7 +3452,8 @@
         "url": "https://www.path-robotics.com"
       },
       {
-        "url": "https://www.drivenbydata.com"
+        "url": "https://www.drivenbydata.com",
+        "archive_url": "https://web.archive.org/web/20250710004932/http://drivenbydata.com/"
       }
     ],
     "last_updated": "2026-06-12",
@@ -3443,7 +3518,8 @@
           "NVIDIA (NVentures)"
         ],
         "url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260602121546/https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/"
       }
     ],
     "total_funding_usd": 1070000000,
@@ -3489,7 +3565,8 @@
         "archive_url": "https://web.archive.org/web/20251206101652/https://www.physicalintelligence.company/"
       },
       {
-        "url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/"
+        "url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/",
+        "archive_url": "https://web.archive.org/web/20260602121546/https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/"
       }
     ],
     "last_updated": "2026-06-01",
@@ -3532,7 +3609,8 @@
           "Construct Capital"
         ],
         "url": "https://www.picklerobot.com",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260606091914/https://www.picklerobot.com/"
       },
       {
         "date": "2023-08",
@@ -3545,7 +3623,8 @@
           "AEW Capital"
         ],
         "url": "https://www.picklerobot.com",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260606091914/https://www.picklerobot.com/"
       }
     ],
     "total_funding_usd": 61000000,
@@ -3584,7 +3663,8 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://www.picklerobot.com"
+        "url": "https://www.picklerobot.com",
+        "archive_url": "https://web.archive.org/web/20260606091914/https://www.picklerobot.com/"
       }
     ],
     "last_updated": "2026-06-12",
@@ -3611,7 +3691,8 @@
         "valuation_usd": null,
         "investors": [],
         "url": "https://stockanalysis.com/stocks/rr/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260310133137/https://stockanalysis.com/stocks/rr/"
       }
     ],
     "total_funding_usd": null,
@@ -3656,10 +3737,12 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://stockanalysis.com/stocks/rr/"
+        "url": "https://stockanalysis.com/stocks/rr/",
+        "archive_url": "https://web.archive.org/web/20260310133137/https://stockanalysis.com/stocks/rr/"
       },
       {
-        "url": "https://finance.yahoo.com/quote/RR/"
+        "url": "https://finance.yahoo.com/quote/RR/",
+        "archive_url": "https://web.archive.org/web/20260531152417/https://finance.yahoo.com/quote/RR/"
       }
     ],
     "last_updated": "2026-06-01",
@@ -3707,7 +3790,8 @@
           "Haier Capital"
         ],
         "url": "https://theaiinsider.tech/2025/11/27/chinese-humanoid-robotics-company-robotera-secures-usd-140m-in-series-a-funding/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20251204073632/https://theaiinsider.tech/2025/11/27/chinese-humanoid-robotics-company-robotera-secures-usd-140m-in-series-a-funding//"
       },
       {
         "date": "2026-03",
@@ -3718,7 +3802,8 @@
           "Industry consortium"
         ],
         "url": "https://www.roboticstomorrow.com/news/2026/03/23/robotera-raises-rmb-1-billion-in-strategic-round-valuation-exceeds-rmb-10-billion-with-broad-industry-support/26298/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260323152203/https://www.roboticstomorrow.com/news/2026/03/23/robotera-raises-rmb-1-billion-in-strategic-round-valuation-exceeds-rmb-10-billion-with-broad-industry-support/26298/"
       },
       {
         "date": "2026-04",
@@ -3799,7 +3884,8 @@
           "Playground Global"
         ],
         "url": "https://techcrunch.com/2020/10/28/robust-ai-raises-a-15m-series-a-to-improve-problem-solving-for-collaborative-robots/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20251129102936/https://techcrunch.com/2020/10/28/robust-ai-raises-a-15m-series-a-to-improve-problem-solving-for-collaborative-robots/"
       },
       {
         "date": "2023-04",
@@ -3812,7 +3898,8 @@
           "Energy Impact Partners"
         ],
         "url": "https://techcrunch.com/2023/04/20/robust-ai-raises-20m-as-it-scales-robot-deliveries-for-pilot-customers/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20251128163039/https://techcrunch.com/2023/04/20/robust-ai-raises-20m-as-it-scales-robot-deliveries-for-pilot-customers/"
       }
     ],
     "total_funding_usd": 42500000,
@@ -3859,8 +3946,13 @@
     ],
     "data_confidence": "medium",
     "sources": [
-      "https://techcrunch.com/2023/04/20/robust-ai-raises-20m-as-it-scales-robot-deliveries-for-pilot-customers/",
-      "https://www.automatedwarehouseonline.com/robust-ai-expands-carter-robot-capabilities-adds-investors/"
+      {
+        "url": "https://techcrunch.com/2023/04/20/robust-ai-raises-20m-as-it-scales-robot-deliveries-for-pilot-customers/",
+        "archive_url": "https://web.archive.org/web/20251128163039/https://techcrunch.com/2023/04/20/robust-ai-raises-20m-as-it-scales-robot-deliveries-for-pilot-customers/"
+      },
+      {
+        "url": "https://www.automatedwarehouseonline.com/robust-ai-expands-carter-robot-capabilities-adds-investors/"
+      }
     ],
     "last_updated": "2026-06-12",
     "themes": [
@@ -3984,7 +4076,8 @@
         "valuation_usd": null,
         "investors": [],
         "url": "https://ir.serverobotics.com/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260324053719/https://ir.serverobotics.com/"
       }
     ],
     "total_funding_usd": null,
@@ -4027,16 +4120,20 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://ir.serverobotics.com/"
+        "url": "https://ir.serverobotics.com/",
+        "archive_url": "https://web.archive.org/web/20260324053719/https://ir.serverobotics.com/"
       },
       {
-        "url": "https://www.globenewswire.com/news-release/2026/05/07/3290495/0/en/Serve-Robotics-Announces-First-Quarter-2026-Results-with-3X-Sequential-Revenue-Growth.html"
+        "url": "https://www.globenewswire.com/news-release/2026/05/07/3290495/0/en/Serve-Robotics-Announces-First-Quarter-2026-Results-with-3X-Sequential-Revenue-Growth.html",
+        "archive_url": "https://web.archive.org/web/20260508093010/https://www.globenewswire.com/news-release/2026/05/07/3290495/0/en/serve-robotics-announces-first-quarter-2026-results-with-3x-sequential-revenue-growth.html"
       },
       {
-        "url": "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-acquire-diligent-robotics-expanding-physical-ai"
+        "url": "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-acquire-diligent-robotics-expanding-physical-ai",
+        "archive_url": "https://web.archive.org/web/20260324054422/https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-acquire-diligent-robotics-expanding-physical-ai"
       },
       {
-        "url": "https://www.nvidia.com/en-us/case-studies/serve-robotics/"
+        "url": "https://www.nvidia.com/en-us/case-studies/serve-robotics/",
+        "archive_url": "https://web.archive.org/web/20260624135530/https://www.nvidia.com/en-us/case-studies/serve-robotics/"
       }
     ],
     "last_updated": "2026-06-01",
@@ -4083,7 +4180,8 @@
           "JPMorgan (Strategic Investment Group)"
         ],
         "url": "https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260529090357/https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/"
       }
     ],
     "total_funding_usd": 2700000000,
@@ -4135,7 +4233,8 @@
         "archive_url": "https://web.archive.org/web/20260528221530/https://shield.ai/"
       },
       {
-        "url": "https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/"
+        "url": "https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/",
+        "archive_url": "https://web.archive.org/web/20260529090357/https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/"
       }
     ],
     "last_updated": "2026-06-22",
@@ -4247,7 +4346,8 @@
         "archive_url": "https://web.archive.org/web/20260504184313/https://www.skild.ai/"
       },
       {
-        "url": "https://techcrunch.com/2026/01/14/robotic-software-maker-skild-ai-hits-14b-valuation/"
+        "url": "https://techcrunch.com/2026/01/14/robotic-software-maker-skild-ai-hits-14b-valuation/",
+        "archive_url": "https://web.archive.org/web/20260519210051/https://techcrunch.com/2026/01/14/robotic-software-maker-skild-ai-hits-14b-valuation/"
       }
     ],
     "last_updated": "2026-06-19",
@@ -4292,7 +4392,8 @@
           "NVIDIA"
         ],
         "url": "https://techcrunch.com/2023/02/27/skydio-soars-to-a-2-2-billion-valuation-after-raising-230m-series-e/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260418133930/https://techcrunch.com/2023/02/27/skydio-soars-to-a-2-2-billion-valuation-after-raising-230m-series-e/"
       },
       {
         "date": "2024-11",
@@ -4372,7 +4473,8 @@
         "url": "https://www.tectonicdefense.com/skydio-raises-110m-at-4-4b-valuation/"
       },
       {
-        "url": "https://en.wikipedia.org/wiki/Skydio"
+        "url": "https://en.wikipedia.org/wiki/Skydio",
+        "archive_url": "https://web.archive.org/web/20260606133208/https://en.wikipedia.org/wiki/Skydio"
       }
     ],
     "last_updated": "2026-06-01",
@@ -4411,7 +4513,8 @@
           "Lux Capital"
         ],
         "url": "https://standardbots.com",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260630123911/https://standardbots.com/"
       }
     ],
     "total_funding_usd": 35000000,
@@ -4447,10 +4550,12 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://standardbots.com"
+        "url": "https://standardbots.com",
+        "archive_url": "https://web.archive.org/web/20260630123911/https://standardbots.com/"
       },
       {
-        "url": "https://standardbots.com/blog/obbb-robotics"
+        "url": "https://standardbots.com/blog/obbb-robotics",
+        "archive_url": "https://web.archive.org/web/20260622223159/https://standardbots.com/blog/obbb-robotics"
       }
     ],
     "last_updated": "2026-06-12",
@@ -4496,7 +4601,8 @@
           "Bain Capital Ventures"
         ],
         "url": "https://techcrunch.com/2026/03/12/humanoid-robotics-maker-sunday-reaches-1-15b-valuation-to-build-household-robots/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260604205623/https://techcrunch.com/2026/03/12/humanoid-robotics-maker-sunday-reaches-1-15b-valuation-to-build-household-robots/"
       }
     ],
     "total_funding_usd": 200000000,
@@ -4539,8 +4645,13 @@
     ],
     "data_confidence": "high",
     "sources": [
-      "https://techcrunch.com/2026/03/12/humanoid-robotics-maker-sunday-reaches-1-15b-valuation-to-build-household-robots/",
-      "https://theaiinsider.tech/2025/11/20/sunday-emerges-from-stealth-with-35m-for-household-robot-called-memo/"
+      {
+        "url": "https://techcrunch.com/2026/03/12/humanoid-robotics-maker-sunday-reaches-1-15b-valuation-to-build-household-robots/",
+        "archive_url": "https://web.archive.org/web/20260604205623/https://techcrunch.com/2026/03/12/humanoid-robotics-maker-sunday-reaches-1-15b-valuation-to-build-household-robots/"
+      },
+      {
+        "url": "https://theaiinsider.tech/2025/11/20/sunday-emerges-from-stealth-with-35m-for-household-robot-called-memo/"
+      }
     ],
     "last_updated": "2026-06-12",
     "themes": [
@@ -4747,7 +4858,8 @@
           "Seed investors"
         ],
         "url": "https://www.therobotreport.com/tric-robotics-raises-seed-funding-help-farmers-control-pests-plant-disease/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260215134525/https://www.therobotreport.com/tric-robotics-raises-seed-funding-help-farmers-control-pests-plant-disease/"
       }
     ],
     "total_funding_usd": 5740000,
@@ -4765,7 +4877,8 @@
         "start_date": "2024",
         "status": "pilot",
         "use_case": "autonomous pest control without pesticides",
-        "source_url": "https://www.therobotreport.com/tric-robotics-raises-seed-funding-help-farmers-control-pests-plant-disease/"
+        "source_url": "https://www.therobotreport.com/tric-robotics-raises-seed-funding-help-farmers-control-pests-plant-disease/",
+        "archive_url": "https://web.archive.org/web/20260215134525/https://www.therobotreport.com/tric-robotics-raises-seed-funding-help-farmers-control-pests-plant-disease/"
       }
     ],
     "headcount": null,
@@ -4803,7 +4916,8 @@
     "notes": "Founded 2017, origin at University of Delaware. Fully autonomous field robots using UV-C light for pest control. 70% pesticide reduction in pilots. Service-based business model. Verified via The Robot Report, Yahoo Finance, Crunchbase.",
     "sources": [
       {
-        "url": "https://www.therobotreport.com/tric-robotics-raises-seed-funding-help-farmers-control-pests-plant-disease/"
+        "url": "https://www.therobotreport.com/tric-robotics-raises-seed-funding-help-farmers-control-pests-plant-disease/",
+        "archive_url": "https://web.archive.org/web/20260215134525/https://www.therobotreport.com/tric-robotics-raises-seed-funding-help-farmers-control-pests-plant-disease/"
       }
     ],
     "themes": [
@@ -4850,7 +4964,8 @@
         "start_date": "2025-01",
         "status": "active",
         "use_case": "industrial humanoid deployments — first company globally over 1,000 units",
-        "source_url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/"
+        "source_url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/",
+        "archive_url": "https://web.archive.org/web/20260510140454/https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/"
       }
     ],
     "headcount": null,
@@ -4876,7 +4991,8 @@
     "data_confidence": "high",
     "sources": [
       {
-        "url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/"
+        "url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/",
+        "archive_url": "https://web.archive.org/web/20260510140454/https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/"
       }
     ],
     "last_updated": "2026-06-22",
@@ -4941,7 +5057,8 @@
           "Jinqiu Capital"
         ],
         "url": "https://www.cnbc.com/2025/09/09/chinas-unitree-plans-7-billion-ipo-valuation-as-humanoid-robot-race-heats-up.html",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260203232304/https://www.cnbc.com/2025/09/09/chinas-unitree-plans-7-billion-ipo-valuation-as-humanoid-robot-race-heats-up.html"
       },
       {
         "date": "2026-06",
@@ -5004,8 +5121,13 @@
       {
         "url": "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/"
       },
-      "https://www.caixinglobal.com/2026-05-26/unitree-fast-tracks-shanghai-ipo-with-target-valuation-of-62-billion-102447449.html",
-      "https://news.cgtn.com/news/2026-06-01/Unitree-gets-STAR-Market-green-light-in-China-s-hard-tech-IPO-wave-1NCT9TksSVq/share_amp.html"
+      {
+        "url": "https://www.caixinglobal.com/2026-05-26/unitree-fast-tracks-shanghai-ipo-with-target-valuation-of-62-billion-102447449.html",
+        "archive_url": "https://web.archive.org/web/20260625180648/https://www.caixinglobal.com/2026-05-26/unitree-fast-tracks-shanghai-ipo-with-target-valuation-of-62-billion-102447449.html"
+      },
+      {
+        "url": "https://news.cgtn.com/news/2026-06-01/Unitree-gets-STAR-Market-green-light-in-China-s-hard-tech-IPO-wave-1NCT9TksSVq/share_amp.html"
+      }
     ],
     "last_updated": "2026-06-12",
     "themes": [
@@ -5040,7 +5162,8 @@
           "Greycroft"
         ],
         "url": "https://www.viam.com",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260607091724/https://www.viam.com/"
       },
       {
         "date": "2023-06",
@@ -5054,7 +5177,8 @@
           "General Catalyst"
         ],
         "url": "https://www.viam.com",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260607091724/https://www.viam.com/"
       }
     ],
     "total_funding_usd": 128000000,
@@ -5092,7 +5216,8 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://www.viam.com"
+        "url": "https://www.viam.com",
+        "archive_url": "https://web.archive.org/web/20260607091724/https://www.viam.com/"
       },
       {
         "url": "https://techcrunch.com/2023/06/22/viam-robotics-series-b/"
@@ -5127,7 +5252,8 @@
           "Microsoft"
         ],
         "url": "https://wayve.ai/press/series-c/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260529090246/https://wayve.ai/press/series-c/"
       },
       {
         "date": "2026-02",
@@ -5143,7 +5269,8 @@
           "Ontario Teachers"
         ],
         "url": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260701032120/https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/"
       }
     ],
     "total_funding_usd": 2250000000,
@@ -5182,10 +5309,12 @@
     "data_confidence": "high",
     "sources": [
       {
-        "url": "https://wayve.ai/press/series-c/"
+        "url": "https://wayve.ai/press/series-c/",
+        "archive_url": "https://web.archive.org/web/20260529090246/https://wayve.ai/press/series-c/"
       },
       {
-        "url": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/"
+        "url": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
+        "archive_url": "https://web.archive.org/web/20260701032120/https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/"
       },
       {
         "url": "https://en.wikipedia.org/wiki/Wayve"
@@ -5286,13 +5415,15 @@
     "last_updated": "2026-06-02",
     "sources": [
       {
-        "url": "https://www.businesswire.com/news/home/20260602552448/en/Westmag-Emerges-With-$11-Million-Seed-Led-By-Andreessen-Horowitz-to-Build-Americas-Drone-Motor-and-Robot-Actuator-Industry"
+        "url": "https://www.businesswire.com/news/home/20260602552448/en/Westmag-Emerges-With-$11-Million-Seed-Led-By-Andreessen-Horowitz-to-Build-Americas-Drone-Motor-and-Robot-Actuator-Industry",
+        "archive_url": "https://web.archive.org/web/20260622170848/https://www.businesswire.com/news/home/20260602552448/en/Westmag-Emerges-With-%2411-Million-Seed-Led-By-Andreessen-Horowitz-to-Build-Americas-Drone-Motor-and-Robot-Actuator-Industry"
       },
       {
         "url": "https://a16z.com/announcement/investing-in-westmag/"
       },
       {
-        "url": "https://www.westmag.com"
+        "url": "https://www.westmag.com",
+        "archive_url": "https://web.archive.org/web/20260604205254/https://www.westmag.com/"
       }
     ],
     "map_category": "enablers"
@@ -5346,7 +5477,8 @@
           "Paradigm"
         ],
         "url": "https://techcrunch.com/2026/03/23/zipline-snaps-up-another-200m-to-fuel-its-drone-delivery-expansion/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260409111109/https://techcrunch.com/2026/03/23/zipline-snaps-up-another-200m-to-fuel-its-drone-delivery-expansion/"
       }
     ],
     "total_funding_usd": 1500000000,
@@ -5446,7 +5578,8 @@
           "Xavier Niel"
         ],
         "url": "https://www.therobotreport.com/genesis-ai-raises-105m-building-universal-robotics-foundation-model/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260404143110/https://www.therobotreport.com/genesis-ai-raises-105m-building-universal-robotics-foundation-model/"
       }
     ],
     "total_funding_usd": 105000000,
@@ -5495,13 +5628,16 @@
     "data_confidence": "high",
     "sources": [
       {
-        "url": "https://genesis-ai.company"
+        "url": "https://genesis-ai.company",
+        "archive_url": "https://web.archive.org/web/20260310084736/https://genesis-ai.company/"
       },
       {
-        "url": "https://www.therobotreport.com/genesis-ai-raises-105m-building-universal-robotics-foundation-model/"
+        "url": "https://www.therobotreport.com/genesis-ai-raises-105m-building-universal-robotics-foundation-model/",
+        "archive_url": "https://web.archive.org/web/20260404143110/https://www.therobotreport.com/genesis-ai-raises-105m-building-universal-robotics-foundation-model/"
       },
       {
-        "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/"
+        "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
+        "archive_url": "https://web.archive.org/web/20260623102417/https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/"
       }
     ],
     "last_updated": "2026-06-16",
@@ -5547,7 +5683,8 @@
           "WndrCo"
         ],
         "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260621183640/https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/"
       }
     ],
     "total_funding_usd": 70000000,
@@ -5591,13 +5728,16 @@
     "data_confidence": "high",
     "sources": [
       {
-        "url": "https://xdof.ai"
+        "url": "https://xdof.ai",
+        "archive_url": "https://web.archive.org/web/20260618202452/https://www.xdof.ai/"
       },
       {
-        "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/"
+        "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/",
+        "archive_url": "https://web.archive.org/web/20260621183640/https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/"
       },
       {
-        "url": "https://siliconangle.com/2026/06/17/robotic-teleoperation-data-startup-xdof-launches-70m-funding/"
+        "url": "https://siliconangle.com/2026/06/17/robotic-teleoperation-data-startup-xdof-launches-70m-funding/",
+        "archive_url": "https://web.archive.org/web/20260619013624/https://siliconangle.com/2026/06/17/robotic-teleoperation-data-startup-xdof-launches-70m-funding/"
       }
     ],
     "last_updated": "2026-06-19",
@@ -5643,7 +5783,8 @@
           "KSK Angel Fund"
         ],
         "url": "https://techcrunch.com/2023/08/02/orangewood-wants-to-build-a-cheap-programmable-robotic-arm-for-manufacturing/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20250824134919/https://techcrunch.com/2023/08/02/orangewood-wants-to-build-a-cheap-programmable-robotic-arm-for-manufacturing/"
       }
     ],
     "total_funding_usd": 4650000,
@@ -5662,7 +5803,8 @@
         "use_case": "pick-and-place, visual inspection, welding, spray painting",
         "status": "active",
         "start_date": "2023",
-        "source_url": "https://techcrunch.com/2023/08/02/orangewood-wants-to-build-a-cheap-programmable-robotic-arm-for-manufacturing/"
+        "source_url": "https://techcrunch.com/2023/08/02/orangewood-wants-to-build-a-cheap-programmable-robotic-arm-for-manufacturing/",
+        "archive_url": "https://web.archive.org/web/20250824134919/https://techcrunch.com/2023/08/02/orangewood-wants-to-build-a-cheap-programmable-robotic-arm-for-manufacturing/"
       }
     ],
     "headcount": null,
@@ -5697,13 +5839,16 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://www.orangewood.co"
+        "url": "https://www.orangewood.co",
+        "archive_url": "https://web.archive.org/web/20260521165735/https://www.orangewood.co/"
       },
       {
-        "url": "https://techcrunch.com/2023/08/02/orangewood-wants-to-build-a-cheap-programmable-robotic-arm-for-manufacturing/"
+        "url": "https://techcrunch.com/2023/08/02/orangewood-wants-to-build-a-cheap-programmable-robotic-arm-for-manufacturing/",
+        "archive_url": "https://web.archive.org/web/20250824134919/https://techcrunch.com/2023/08/02/orangewood-wants-to-build-a-cheap-programmable-robotic-arm-for-manufacturing/"
       },
       {
-        "url": "https://www.ycombinator.com/launches/HeF-orangewood-democratizing-robots"
+        "url": "https://www.ycombinator.com/launches/HeF-orangewood-democratizing-robots",
+        "archive_url": "https://web.archive.org/web/20250805150227/https://www.ycombinator.com/launches/HeF-orangewood-democratizing-robots"
       }
     ],
     "last_updated": "2026-06-16",
@@ -5748,7 +5893,8 @@
           "Box Group"
         ],
         "url": "https://www.therobotreport.com/antioch-raises-pre-seed-funding-accelerate-ai-robotics-testing/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260114045223/https://www.therobotreport.com/antioch-raises-pre-seed-funding-accelerate-ai-robotics-testing/"
       },
       {
         "date": "2026-04",
@@ -5764,7 +5910,8 @@
           "Icehouse Ventures"
         ],
         "url": "https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260625083813/https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/"
       }
     ],
     "total_funding_usd": 12750000,
@@ -5782,7 +5929,8 @@
         "use_case": "simulation-based testing and design of robots",
         "status": "pilot",
         "start_date": "2026",
-        "source_url": "https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/"
+        "source_url": "https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/",
+        "archive_url": "https://web.archive.org/web/20260625083813/https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/"
       }
     ],
     "headcount": null,
@@ -5825,10 +5973,12 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://www.therobotreport.com/antioch-raises-funding-to-bring-software-speed-to-robot-development/"
+        "url": "https://www.therobotreport.com/antioch-raises-funding-to-bring-software-speed-to-robot-development/",
+        "archive_url": "https://web.archive.org/web/20260417114745/https://www.therobotreport.com/antioch-raises-funding-to-bring-software-speed-to-robot-development/"
       },
       {
-        "url": "https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/"
+        "url": "https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/",
+        "archive_url": "https://web.archive.org/web/20260625083813/https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/"
       },
       {
         "url": "https://siliconangle.com/2025/12/08/anticoh-lands-4-25m-pre-seed-funding-accelerate-autonomous-robot-testing-digital-twins/"
@@ -5892,10 +6042,12 @@
         "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
       },
       {
-        "url": "https://stockanalysis.com/quote/tyo/6954/market-cap/"
+        "url": "https://stockanalysis.com/quote/tyo/6954/market-cap/",
+        "archive_url": "https://web.archive.org/web/20260311094616/https://stockanalysis.com/quote/tyo/6954/market-cap/"
       },
       {
-        "url": "https://www.fanuc.co.jp"
+        "url": "https://www.fanuc.co.jp",
+        "archive_url": "https://web.archive.org/web/20260621185654/https://www.fanuc.co.jp/"
       }
     ],
     "last_updated": "2026-06-18",
@@ -5957,7 +6109,8 @@
         "url": "https://stockanalysis.com/quote/otc/YASKY/market-cap/"
       },
       {
-        "url": "https://www.yaskawa-global.com"
+        "url": "https://www.yaskawa-global.com",
+        "archive_url": "https://web.archive.org/web/20260610072113/https://www.yaskawa-global.com/"
       }
     ],
     "last_updated": "2026-06-18",
@@ -6105,7 +6258,8 @@
         "url": "https://www.industryweek.com/technology-and-iiot/robotics/article/21975985/midea-snags-close-to-86-stake-in-kuka-robotics"
       },
       {
-        "url": "https://www.kuka.com"
+        "url": "https://www.kuka.com",
+        "archive_url": "https://web.archive.org/web/20260626003247/https://www.kuka.com/"
       }
     ],
     "last_updated": "2026-06-18",
@@ -6179,7 +6333,8 @@
         "url": "https://www.therobotreport.com/teradyne-acquires-universal-robots-285m/"
       },
       {
-        "url": "https://www.universal-robots.com"
+        "url": "https://www.universal-robots.com",
+        "archive_url": "https://web.archive.org/web/20260630130338/https://www.universal-robots.com/"
       }
     ],
     "last_updated": "2026-06-18",
@@ -6216,7 +6371,8 @@
           "SZSE: 300024"
         ],
         "url": "https://finance.yahoo.com/quote/300024.SZ/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20250423084509/https://finance.yahoo.com/quote/300024.SZ/"
       }
     ],
     "total_funding_usd": null,
@@ -6248,10 +6404,12 @@
         "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
       },
       {
-        "url": "https://finance.yahoo.com/quote/300024.SZ/"
+        "url": "https://finance.yahoo.com/quote/300024.SZ/",
+        "archive_url": "https://web.archive.org/web/20250423084509/https://finance.yahoo.com/quote/300024.SZ/"
       },
       {
-        "url": "https://www.siasun.com"
+        "url": "https://www.siasun.com",
+        "archive_url": "https://web.archive.org/web/20260512212156/https://www.siasun.com/"
       }
     ],
     "last_updated": "2026-06-18",
@@ -6321,7 +6479,8 @@
         "url": "https://finance.yahoo.com/quote/688165.SS/"
       },
       {
-        "url": "https://www.efort.com.cn"
+        "url": "https://www.efort.com.cn",
+        "archive_url": "https://web.archive.org/web/20260217143354/https://efort.com.cn/"
       }
     ],
     "last_updated": "2026-06-18",
@@ -6359,7 +6518,8 @@
           "HKEX: 2432"
         ],
         "url": "https://finance.yahoo.com/quote/2432.HK/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20250407014855/https://finance.yahoo.com/quote/2432.HK/"
       }
     ],
     "total_funding_usd": null,
@@ -6390,7 +6550,8 @@
         "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
       },
       {
-        "url": "https://finance.yahoo.com/quote/2432.HK/"
+        "url": "https://finance.yahoo.com/quote/2432.HK/",
+        "archive_url": "https://web.archive.org/web/20250407014855/https://finance.yahoo.com/quote/2432.HK/"
       },
       {
         "url": "https://www.dobot-robots.com"
@@ -6438,7 +6599,8 @@
         "use_case": "general-purpose intelligent robots for electronics manufacturing (joint venture, Hon Hai Tech Day 2025)",
         "status": "planned",
         "start_date": "2025-10",
-        "source_url": "https://www.intrinsic.ai/blog/posts/foxconn-and-intrinsic-launch-joint-venture-to-build-the-ai-factory-of-the-future"
+        "source_url": "https://www.intrinsic.ai/blog/posts/foxconn-and-intrinsic-launch-joint-venture-to-build-the-ai-factory-of-the-future",
+        "archive_url": "https://web.archive.org/web/20260325194401/https://www.intrinsic.ai/blog/posts/foxconn-and-intrinsic-launch-joint-venture-to-build-the-ai-factory-of-the-future"
       }
     ],
     "headcount": null,
@@ -6465,7 +6627,8 @@
     "data_confidence": "high",
     "sources": [
       {
-        "url": "https://techcrunch.com/2023/05/15/alphabets-intrinsic-launches-flowstate-a-robotic-app-development-platform/"
+        "url": "https://techcrunch.com/2023/05/15/alphabets-intrinsic-launches-flowstate-a-robotic-app-development-platform/",
+        "archive_url": "https://web.archive.org/web/20260321002252/https://techcrunch.com/2023/05/15/alphabets-intrinsic-launches-flowstate-a-robotic-app-development-platform/"
       },
       {
         "url": "https://www.therobotreport.com/intrinsic-acquires-ros-maker-open-source-robotics-corp/"
@@ -6509,7 +6672,8 @@
         "valuation_usd": null,
         "investors": [],
         "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260630223909/https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
       },
       {
         "date": "2026-06",
@@ -6524,7 +6688,8 @@
           "Nico Rosberg"
         ],
         "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260630223909/https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
       }
     ],
     "total_funding_usd": 454000000,
@@ -6570,10 +6735,12 @@
     "data_confidence": "high",
     "sources": [
       {
-        "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
+        "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+        "archive_url": "https://web.archive.org/web/20260630223909/https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
       },
       {
-        "url": "https://www.generalintuition.com"
+        "url": "https://www.generalintuition.com",
+        "archive_url": "https://web.archive.org/web/20260629053018/https://www.generalintuition.com/"
       }
     ],
     "last_updated": "2026-06-30",
@@ -6617,7 +6784,8 @@
           "BoxGroup"
         ],
         "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260630065434/https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/"
       }
     ],
     "total_funding_usd": 11000000,
@@ -6656,10 +6824,12 @@
     "data_confidence": "high",
     "sources": [
       {
-        "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/"
+        "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+        "archive_url": "https://web.archive.org/web/20260630065434/https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/"
       },
       {
-        "url": "https://www.proception.ai"
+        "url": "https://www.proception.ai",
+        "archive_url": "https://web.archive.org/web/20260606143121/https://www.proception.ai/"
       }
     ],
     "last_updated": "2026-06-30",
@@ -6705,7 +6875,8 @@
           "Founders Capital"
         ],
         "url": "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260628063431/https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/?"
       }
     ],
     "total_funding_usd": 10000000,
@@ -6744,10 +6915,12 @@
     "data_confidence": "high",
     "sources": [
       {
-        "url": "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/"
+        "url": "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/",
+        "archive_url": "https://web.archive.org/web/20260628063431/https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/?"
       },
       {
-        "url": "https://www.aseonlabs.com"
+        "url": "https://www.aseonlabs.com",
+        "archive_url": "https://web.archive.org/web/20260626134004/https://www.aseonlabs.com/"
       }
     ],
     "last_updated": "2026-06-30",
@@ -6792,7 +6965,8 @@
           "Mana Ventures"
         ],
         "url": "https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260624200601/https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs/"
       }
     ],
     "total_funding_usd": null,
@@ -6812,7 +6986,7 @@
         "status": "active",
         "use_case": "counter-drone point defense; $1.6M in sales, single contract reportedly expanding toward $35M",
         "source_url": "https://www.ycombinator.com/companies/9-mothers-corporation",
-        "archive_url": null
+        "archive_url": "https://web.archive.org/web/20260418001852/https://www.ycombinator.com/companies/9-mothers-corporation"
       }
     ],
     "headcount": null,
@@ -6846,10 +7020,12 @@
     "data_confidence": "medium",
     "sources": [
       {
-        "url": "https://www.ycombinator.com/companies/9-mothers-corporation"
+        "url": "https://www.ycombinator.com/companies/9-mothers-corporation",
+        "archive_url": "https://web.archive.org/web/20260418001852/https://www.ycombinator.com/companies/9-mothers-corporation"
       },
       {
-        "url": "https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs/"
+        "url": "https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs/",
+        "archive_url": "https://web.archive.org/web/20260624200601/https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs/"
       }
     ],
     "last_updated": "2026-06-30",
@@ -6912,7 +7088,7 @@
         "status": "active",
         "use_case": "ISR drone swarm coordination",
         "source_url": "https://sixrobotics.com/news/norwegian-army-selects-valkyrie-drone-swarm-from-six-robotics",
-        "archive_url": null
+        "archive_url": "https://web.archive.org/web/20260503185921/https://sixrobotics.com/news/norwegian-army-selects-valkyrie-drone-swarm-from-six-robotics"
       }
     ],
     "headcount": 90,
@@ -6940,7 +7116,8 @@
         "url": "https://techfundingnews.com/six-robotics-raises-12m-drone-swarm-software/"
       },
       {
-        "url": "https://sixrobotics.com/news/norwegian-army-selects-valkyrie-drone-swarm-from-six-robotics"
+        "url": "https://sixrobotics.com/news/norwegian-army-selects-valkyrie-drone-swarm-from-six-robotics",
+        "archive_url": "https://web.archive.org/web/20260503185921/https://sixrobotics.com/news/norwegian-army-selects-valkyrie-drone-swarm-from-six-robotics"
       }
     ],
     "last_updated": "2026-06-30",
@@ -6979,7 +7156,8 @@
         "valuation_usd": null,
         "investors": [],
         "url": "https://neura-robotics.com/neura-robotics-secures-euro-120-million-series-b/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260309145335/https://neura-robotics.com/neura-robotics-secures-euro-120-million-series-b/"
       },
       {
         "date": "2026-06",
@@ -6990,7 +7168,8 @@
           "Tether Investments"
         ],
         "url": "https://www.businesswire.com/news/home/20260610204575/en/NEURA-Robotics-Announces-Record-Series-C-of-up-to-$1.4-Billion-to-Accelerate-the-Worlds-Leading-Physical-AI-Platform",
-        "confidence": "reported"
+        "confidence": "reported",
+        "archive_url": "https://web.archive.org/web/20260618134439/https://www.businesswire.com/news/home/20260610204575/en/NEURA-Robotics-Announces-Record-Series-C-of-up-to-%241.4-Billion-to-Accelerate-the-Worlds-Leading-Physical-AI-Platform"
       }
     ],
     "total_funding_usd": 1530000000,
@@ -7026,7 +7205,8 @@
     "data_confidence": "high",
     "sources": [
       {
-        "url": "https://www.businesswire.com/news/home/20260610204575/en/NEURA-Robotics-Announces-Record-Series-C-of-up-to-$1.4-Billion-to-Accelerate-the-Worlds-Leading-Physical-AI-Platform"
+        "url": "https://www.businesswire.com/news/home/20260610204575/en/NEURA-Robotics-Announces-Record-Series-C-of-up-to-$1.4-Billion-to-Accelerate-the-Worlds-Leading-Physical-AI-Platform",
+        "archive_url": "https://web.archive.org/web/20260618134439/https://www.businesswire.com/news/home/20260610204575/en/NEURA-Robotics-Announces-Record-Series-C-of-up-to-%241.4-Billion-to-Accelerate-the-Worlds-Leading-Physical-AI-Platform"
       },
       {
         "url": "https://neura-robotics.com"
@@ -7079,7 +7259,8 @@
           "IQT"
         ],
         "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/",
-        "confidence": "confirmed"
+        "confidence": "confirmed",
+        "archive_url": "https://web.archive.org/web/20260630174012/https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/"
       }
     ],
     "total_funding_usd": 310000000,
@@ -7117,10 +7298,12 @@
     "data_confidence": "high",
     "sources": [
       {
-        "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/"
+        "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/",
+        "archive_url": "https://web.archive.org/web/20260630174012/https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/"
       },
       {
-        "url": "https://odyssey.ml/our-series-b"
+        "url": "https://odyssey.ml/our-series-b",
+        "archive_url": "https://web.archive.org/web/20260624170515/https://odyssey.ml/our-series-b"
       }
     ],
     "last_updated": "2026-06-30",
