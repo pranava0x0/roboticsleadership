@@ -114,11 +114,14 @@ Ensures GitHub Actions don't regress to floating @vN tags.
 ### 8. Commit & PR
 If all tests pass:
 ```bash
+git config user.name "pranava0x0"
+git config user.email "2497510+pranava0x0@users.noreply.github.com"
 git add -A
 git commit -m "data: refresh $(date +%Y-%m-%d) — <summary>"
 git push -u origin <branch-name>
 gh pr create --draft --title "Data refresh $(date +%Y-%m-%d)" --body "..."
 ```
+The `git config` lines are local (repo-scoped), not `--global` — a cloud-run session has no pre-existing identity and would otherwise commit as its own default bot account.
 
 Optional: Merge PR after confirmation (requires manual approval or `--auto-merge` flag).
 
