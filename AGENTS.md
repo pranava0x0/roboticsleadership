@@ -169,6 +169,12 @@ One `preview_eval` that counts rendered sections (`document.querySelectorAll('.c
 ### 17. Seed-then-spawn is the proven shape — keep it
 ~5 cheap WebSearches to fix the structure → precise agent prompts with the exact output JSON contract embedded → zero parse/retry loops. Every agent this session returned valid structured output on the first attempt because the contract was in the prompt. Never spawn research agents before the structure is known; never accept prose when you need records.
 
+### 18. Company-research partitioning, validated again (2026-07-06)
+A 2-vs-3 split across 2 agents with fully disjoint entity lists, the exact required-field bar, and an early-bail rule embedded in each prompt cost ~143K total tokens for 5 researched entities (2 shipped, 1 correctly held back for a genuine schema gap — no public founding date — 1 correctly skipped as out-of-scope). Zero duplicate-entity research, zero fabricated fields. That's ~28.6K tokens/entity, well under the ~61K/company baseline a prior sweep hit when duplicate spend went unchecked (see [[research-sweep-agent-economy]] in memory). Confirms rules #12–13 work when the prompt actually states them.
+
+### 19. Match code-review agent fan-out to diff size, not to a flat "high effort" default
+Running `/code-review` at high effort (8 finder angles × a verify pass per surviving candidate) on an ~11-file, ~1,260-line diff — in practice one ~70-line render function plus three JSON records — cost ~980K subagent tokens across 14 agent calls. Three of the eight finder angles independently rediscovered the exact same two bugs (a division-by-zero and a negative-slice edge case in the same function): real convergent validation, but at 3x the token cost of finding each bug once. A single manual read of the new function (no agents at all) surfaced both bugs before any finder was spawned. Lesson: size review fan-out to the diff, not to whatever effort level was asked for by default — a diff this small likely only needed a manual pass or a 2–3 angle review to catch the same headline findings; save the full 8-angle preset for diffs that are genuinely large or touch many files.
+
 ---
 
 ## What NOT to do
