@@ -216,6 +216,16 @@ function validateSupplyChain(name, data) {
     checkSources(s, label);
   });
 
+  (data.production_trend || []).forEach((p, i) => {
+    const label = `production_trend[${i}] (${p.year || '?'})`;
+    ['year', 'note'].forEach((f) => { if (!p[f]) add(`${label} missing "${f}"`); });
+    ['us_units', 'china_units', 'row_units'].forEach((f) => {
+      if (typeof p[f] !== 'number') add(`${label}: "${f}" must be a number`);
+    });
+    if (typeof p.projected !== 'boolean') add(`${label}: "projected" must be a boolean`);
+    checkSources(p, label);
+  });
+
   const VALID_POSITIONS = ['strong', 'contested', 'weak'];
   if (!Array.isArray(data.chain_stages) || data.chain_stages.length === 0) add('chain_stages missing or empty');
   const stageIds = new Set();
