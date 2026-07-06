@@ -58,6 +58,10 @@ claim('overview.bluf', 'BLUF', (sc.overview?.sources || []).map(urlOf));
 (sc.shipments || []).forEach((s, i) =>
   claim(`shipments[${i}]`, `robot class "${s.id}"`, (s.sources || []).map(urlOf)));
 
+// production trend — units by country, historical + projected
+(sc.production_trend || []).forEach((p, i) =>
+  claim(`production_trend[${i}]`, `production trend "${p.year}"`, (p.sources || []).map(urlOf)));
+
 // chain stages
 (sc.chain_stages || []).forEach((s, i) =>
   claim(`chain_stages[${i}]`, `stage "${s.id}"`, (s.sources || []).map(urlOf)));

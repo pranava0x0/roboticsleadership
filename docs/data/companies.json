@@ -7141,5 +7141,202 @@
       ]
     },
     "map_category": "brains"
+  },
+  {
+    "id": "galbot",
+    "name": "Galbot",
+    "founded": "2023",
+    "hq": {
+      "city": "Beijing",
+      "state": null,
+      "country": "China"
+    },
+    "website": "https://www.galbot.com",
+    "funding_rounds": [
+      {
+        "date": "2025-06",
+        "round": "Strategic/Growth",
+        "amount_usd": 153000000,
+        "valuation_usd": null,
+        "investors": [
+          "CATL",
+          "Puquan Capital"
+        ],
+        "url": "https://technode.com/2025/06/25/galbot/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2025-12",
+        "round": "Growth",
+        "amount_usd": 300000000,
+        "valuation_usd": 3000000000,
+        "investors": [
+          "CATL",
+          "Beijing Robotics Industry Fund",
+          "Jiyuan Capital",
+          "GGV Capital",
+          "CICC Capital",
+          "Chinese Academy of Sciences Fund",
+          "Suzhou Venture Capital",
+          "CMG Media Fund",
+          "Tianqi Co"
+        ],
+        "url": "https://www.prnewswire.com/news-releases/galbot-secures-over-300-million-in-new-funding-breaking-records-with-3-billion-valuation-in-chinas-humanoid-robot-sector-302647204.html",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-03",
+        "round": "Growth",
+        "amount_usd": 350000000,
+        "valuation_usd": null,
+        "investors": [
+          "China Integrated Circuit Industry Investment Fund",
+          "Sinopec",
+          "CITIC-affiliated entities",
+          "SAIC Motor financial arm"
+        ],
+        "url": "https://technode.com/2026/03/02/humanoid-robot-maker-galbot-raises-rmb-2-5-billion/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 800000000,
+    "latest_valuation_usd": 3000000000,
+    "robot_types": [
+      "humanoid",
+      "mobile manipulator"
+    ],
+    "primary_use_case": "general-purpose embodied AI robots for industry and home (warehouse, retail, healthcare, manufacturing)",
+    "flagship_product": "Galbot G1 mobile manipulator (human-like torso, two arms, mobile base)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [
+      {
+        "name": "He Wang",
+        "role": "Founder and CTO"
+      }
+    ],
+    "ceo": null,
+    "tags": [
+      "humanoid",
+      "china",
+      "embodied-ai",
+      "mobile-manipulator"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      "https://www.therobotreport.com/galbot-brings-in-300m-to-scale-mobile-manipulator-deployments/",
+      "https://www.caproasia.com/2025/12/20/china-robot-startup-galbot-galaxy-general-robotics-raised-300-million-at-3-billion-valuation-founded-in-2023-by-peking-university-professor-he-wang-investors-include-catl-xiamen-puquan-private/"
+    ],
+    "last_updated": "2026-07-06",
+    "themes": [
+      "foundation-models",
+      "cost-trajectory"
+    ],
+    "map_category": "humanoid"
+  },
+  {
+    "id": "alloy-robotics",
+    "name": "Alloy Robotics",
+    "founded": "2025",
+    "hq": {
+      "city": "Sydney",
+      "state": "New South Wales",
+      "country": "Australia"
+    },
+    "website": "https://www.usealloy.ai",
+    "funding_rounds": [
+      {
+        "date": "2025-09",
+        "round": "Pre-Seed",
+        "amount_usd": 4500000,
+        "valuation_usd": null,
+        "investors": [
+          "Blackbird Ventures",
+          "Airtree Ventures",
+          "Xtal Ventures",
+          "Skip Capital"
+        ],
+        "url": "https://techcrunch.com/2025/09/23/alloy-is-bringing-data-management-to-the-robotics-industry/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 4500000,
+    "latest_valuation_usd": null,
+    "robot_types": [],
+    "primary_use_case": "data infrastructure for robotics teams (capture, label, search robot sensor data via natural language)",
+    "flagship_product": "Alloy robotics data platform",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [
+      {
+        "name": "Joe Harris",
+        "role": "Founder and CEO"
+      }
+    ],
+    "ceo": "Joe Harris",
+    "tags": [
+      "robotics-data",
+      "enabler",
+      "australia",
+      "developer-tools"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      "https://techcrunch.com/2025/09/23/alloy-is-bringing-data-management-to-the-robotics-industry/",
+      "https://www.blackbird.vc/blog/investment-notes-alloy"
+    ],
+    "last_updated": "2026-07-06",
+    "themes": [
+      "foundation-models"
+    ],
+    "map_category": "enablers"
+  },
+  {
+    "id": "nori-robotics",
+    "name": "Nori Robotics",
+    "founded": "2026",
+    "hq": {
+      "city": "New York",
+      "state": "NY",
+      "country": "USA"
+    },
+    "website": "https://www.norirobotics.com/",
+    "funding_rounds": [],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "humanoid",
+      "mobile manipulator"
+    ],
+    "primary_use_case": "affordable home/household chore assistant",
+    "flagship_product": "NORI L2 — bimanual wheeled home robot, $1,288 (also NORI L2 Grande, $1,322), autonomously does dishes, laundry, cleaning, food prep",
+    "deployments": [],
+    "headcount": 4,
+    "headcount_date": "2026-06",
+    "founders": [
+      {
+        "name": "Antonio Sitong Li",
+        "role": "Founder"
+      }
+    ],
+    "ceo": "Antonio Sitong Li",
+    "tags": [
+      "affordable",
+      "home-robot",
+      "yc-backed",
+      "bimanual"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      "https://www.ycombinator.com/companies/noril1",
+      "https://www.norirobotics.com/"
+    ],
+    "last_updated": "2026-07-06",
+    "themes": [
+      "cost-trajectory"
+    ],
+    "map_category": "service"
   }
 ]

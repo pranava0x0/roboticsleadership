@@ -1,0 +1,85 @@
+[
+  {
+    "id": "nori-robotics",
+    "name": "Nori Robotics",
+    "founded": "2026",
+    "hq": {
+      "city": "New York",
+      "state": "NY",
+      "country": "USA"
+    },
+    "website": "https://www.norirobotics.com/",
+    "funding_rounds": [],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "humanoid",
+      "mobile manipulator"
+    ],
+    "primary_use_case": "affordable home/household chore assistant",
+    "flagship_product": "NORI L2 — bimanual wheeled home robot, $1,288 (also NORI L2 Grande, $1,322), autonomously does dishes, laundry, cleaning, food prep",
+    "deployments": [],
+    "headcount": 4,
+    "headcount_date": "2026-06",
+    "founders": [
+      { "name": "Antonio Sitong Li", "role": "Founder" }
+    ],
+    "ceo": "Antonio Sitong Li",
+    "tags": ["affordable", "home-robot", "yc-backed", "bimanual"],
+    "data_confidence": "medium",
+    "sources": [
+      "https://www.ycombinator.com/companies/noril1",
+      "https://www.norirobotics.com/"
+    ],
+    "last_updated": "2026-07-06",
+    "themes": ["cost-trajectory"],
+    "map_category": "service"
+  },
+  {
+    "id": "genrobot-ai",
+    "name": "Genrobot.AI (Jianzhi Robotics)",
+    "founded": null,
+    "hq": {
+      "city": "Beijing",
+      "state": null,
+      "country": "China"
+    },
+    "website": "https://www.genrobot.ai/",
+    "funding_rounds": [
+      {
+        "date": "2026-06",
+        "round": "Undisclosed (multiple consecutive rounds)",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": ["Ant Group", "Didi", "Delian Capital", "Shunwei Capital", "BV Baidu Ventures", "Zhi Intelligent"],
+        "url": "https://autonews.gasgoo.com/articles/news/seeds-ant-group-and-didi-team-up-to-invest-in-embodied-ai-data-infrastructure-company-2061440957235662849",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": ["data-infrastructure / embodied-AI data platform"],
+    "primary_use_case": "embodied AI data collection and infrastructure for humanoid/robot foundation models",
+    "flagship_product": "DAS data-collection suite (Ego, Dex, Fingers, Gripper, Controller) — multimodal human-behavior data capture for robot training, spanning 3,000+ data contributors and 10,000+ real-world settings",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [],
+    "ceo": null,
+    "tags": ["china", "data-infrastructure", "embodied-ai", "ant-group-backed"],
+    "data_confidence": "low",
+    "sources": [
+      "https://autonews.gasgoo.com/articles/news/seeds-ant-group-and-didi-team-up-to-invest-in-embodied-ai-data-infrastructure-company-2061440957235662849",
+      "https://www.genrobot.ai/"
+    ],
+    "last_updated": "2026-07-06",
+    "themes": ["foundation-models", "supply-chain"],
+    "map_category": "enablers",
+    "note": "Distinct from US-based 'Generalist AI' (GEN-1 foundation model, $400M Series B) — confirmed different company despite similar naming. Founding year, founders, CEO, and exact funding amount not disclosed in available sources; company also referred to as 'Jianzhi Robotics' in Chinese press."
+  },
+  {
+    "id": "auki-labs",
+    "skip": true,
+    "reason": "Primarily a spatial-computing/decentralized machine-perception protocol company (the 'posemesh'), founded 2019, Hong Kong, ~$19M total seed funding since 2019 ($13M seed closed 2022-03 from Outlier Ventures, Animoca Brands, Tribe Capital, Shima Capital et al.). Robotics involvement is real but secondary — an in-house retail demo robot plus a protocol integration with Unitree G1/Go2-W robots — not a robot manufacturer or foundation-model company in its own right, so it doesn't fit this tracker's company-record shape without force-fitting."
+  }
+]

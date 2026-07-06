@@ -8,6 +8,21 @@ No open issues.
 
 ## Tooling notes
 
+### 2026-07-06 — git — local `main` silently diverged from `origin/main` ("ahead 170, behind 173")
+
+- **What I expected:** local `main` in the primary worktree tracks `origin/main` cleanly since nobody works directly on `main`.
+- **What happened:** `git status`/`git branch -vv` showed local `main` both ahead and behind `origin/main` by ~170 commits each — caused by `scripts/merge-all-branches.js` creating local-only merge commits in parallel with the same content being separately pushed/merged to `origin/main` via PRs and GitHub Actions. The two trails diverged in commit identity while carrying near-identical content; nobody noticed because each side looked internally consistent.
+- **Why:** no routine check ever diffed local `main` against `origin/main` directly — divergence like this is invisible unless you look for it.
+- **Next time:** run `git fetch --prune` + `git branch -vv` before any branch sync/cleanup/merge request, and if both ahead/behind are non-zero, diff the actual file trees (`git diff main origin/main --stat`) before assuming local holds real unpushed work. See `CLAUDE.md`'s Git discipline section for the added rule.
+
+### 2026-07-06 — git — ~16 already-merged commits on `main` carried `Co-Authored-By: Claude` trailers
+
+- **What I expected:** the repo's `claude.coauthor false` git config was sufficient to keep AI co-author attribution out of history.
+- **What happened:** found 16 commits already merged into `main` (dating back to 2026-06-03, before the config was tightened) still carrying `Co-Authored-By: Claude` trailers.
+- **Why:** the config only prevents *new* violations — it doesn't retroactively clean existing history, and nobody had audited `git log --all` for pre-existing trailers.
+- **Fix:** rewrote `main`'s history with `git filter-repo --refs main --message-callback ...` (run on a disposable fresh clone, never in the shared worktree) to strip the trailers, verified the file tree was byte-identical before/after, then force-pushed. This is disruptive — it changes every commit SHA from the earliest violation forward and breaks any branch/clone/PR based on the old commits (our own open PR at the time needed a rebase after). Confirmed explicitly with the user before doing it.
+- **Next time:** when asked to enforce a "no AI co-author" policy, check `git log --all --grep="co-authored-by" -i` across history, not just the config — and treat any history rewrite as a separate, explicitly-confirmed destructive action, distinct from the policy-enforcement request itself.
+
 ### 2026-06-12 — preview MCP — screenshots blank at non-zero scroll
 
 - **What I expected:** `preview_screenshot` captures the scrolled viewport.
