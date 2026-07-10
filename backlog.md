@@ -4,6 +4,8 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ## High
 
+- **Execute `improvement-plan.md` (added 2026-07-09).** Full-site review + FAI-report benchmark produced a prioritized presentation-layer plan: put the US-vs-China thesis charts on index/china.html, add OG/social meta tags, cut decorative charts (bubble galaxy, funding-by-year), de-dup state policy, surface News in nav, honest per-dataset freshness, methodology page, and the missing purposeful charts (state map, cost curve, sector-reliance, subsidy effect). Work it top-down by priority section; suggested 4-session sequencing at the bottom of the plan.
+
 ### Valuation watchlist — pending events surfaced in the 2026-06-22 refresh
 
 Concrete, near-term tripwires the research agents flagged. Each is reported-but-unclosed today; re-check next refresh and update `companies.json` the moment a primary source confirms.

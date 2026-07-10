@@ -2,6 +2,8 @@
 
 A live-updating dashboard consolidating robotics startups, government policy, industry data, and market signals. Built for investors, policymakers, founders, and congressional staffers tracking the robotics acceleration.
 
+**The thesis (adopted 2026-07-09, see `improvement-plan.md`):** America has the AI. China has the scale. Robotics decides who gets both — the site keeps the score. Every page is a chapter of that argument; every chart must move the scoreboard.
+
 **Stack:** vanilla HTML / CSS / JS + JSON files. No build step, no npm install, no backend. Serve `docs/` from any static host (GitHub Pages, Vercel, Netlify, Cloudflare Pages, or a local `python -m http.server`).
 
 ---
@@ -30,12 +32,14 @@ docs/                  static site, publish root
     sources.json       scraper config
     supply_chain.json  supply-chain stages, companies, financing, chokepoints
     us_china.json      US vs. China robotics metrics & comparisons
-    energy.json        energy systems & robotics tracking
+    (energy data is embedded in energy.html as JS literals — no energy.json;
+     integrity-checked by scripts/energy.test.js)
 
 scripts/               Node.js scrapers (Node 18+, no deps)
   scraper-news.js      RSS aggregator (Federal Register, IEEE Spectrum, TechCrunch)
   scraper-policy.js    Federal Register search
   validate.js          schema check across all data files (now incl. state_policy)
+  make-share-card.py   regenerates docs/assets/share-card.png (OG image) — run after thesis copy changes
 ```
 
 ---

@@ -413,6 +413,92 @@
     `;
   }
 
+  // ---------- Source-link chips ----------
+  function urlHostname(url) {
+    try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url || ''; }
+  }
+  // sources[] entries are strings or { url, label } objects; renders hostname-labeled links.
+  function srcLinks(sources) {
+    return (sources || []).map((s) => {
+      const url = typeof s === 'string' ? s : (s && s.url) || '';
+      const label = (typeof s === 'object' && s && s.label) || urlHostname(url);
+      return `<a href="${escapeHTML(url)}" target="_blank" rel="noopener" title="${escapeHTML(url)}">${escapeHTML(label)}</a>`;
+    }).join(' ');
+  }
+
+  // ---------- Production-trend line chart (the thesis chart) ----------
+  // US vs China vs rest-of-world industrial robot installations over time.
+  // Shared by index.html, china.html, and supply-chain.html so the site's core
+  // evidence renders identically wherever the argument needs it.
+  // Moved verbatim from supply-chain.html. Every interpolated string passes
+  // through escapeHTML before landing in innerHTML — same audited pattern as
+  // renderNewsCard above; rows come from our own committed supply_chain.json,
+  // never runtime user input.
+  // rows: supply_chain.json → production_trend. els: { svg, legend, source } elements.
+  function renderProductionTrend(rows, els) {
+    const svg = els.svg;
+    if (!svg || rows.length < 2) return;
+    const W = 560, H = 280, padL = 50, padR = 14, padT = 14, padB = 28;
+    const innerW = W - padL - padR, innerH = H - padT - padB;
+    const maxV = Math.max(...rows.flatMap(r => [r.us_units, r.china_units, r.row_units]));
+    const x = (i) => padL + (innerW * i) / (rows.length - 1);
+    const y = (v) => padT + innerH - (v / maxV) * innerH;
+    const firstProjected = rows.findIndex(r => r.projected);
+
+    const SERIES = [
+      { key: 'china_units', color: 'var(--status-negative)', label: 'China' },
+      { key: 'us_units', color: 'var(--cat-supplychain)', label: 'United States' },
+      { key: 'row_units', color: 'var(--status-neutral)', label: 'Rest of world' },
+    ];
+
+    let grid = '';
+    const ticks = 4;
+    for (let i = 0; i <= ticks; i++) {
+      const val = (maxV / ticks) * i;
+      const yy = y(val);
+      grid += `<line class="grid-line" x1="${padL}" y1="${yy}" x2="${W - padR}" y2="${yy}"></line>
+               <text class="axis-label" x="${padL - 6}" y="${yy + 3}" text-anchor="end">${formatNumber(Math.round(val))}</text>`;
+    }
+    const xLabels = rows.map((r, i) => `<text class="axis-label" x="${x(i)}" y="${H - 8}" text-anchor="middle">${escapeHTML(r.year)}</text>`).join('');
+
+    // Vertical marker at the historical/projected boundary
+    let marker = '';
+    if (firstProjected > 0) {
+      const mx = (x(firstProjected - 1) + x(firstProjected)) / 2;
+      marker = `<line x1="${mx}" y1="${padT}" x2="${mx}" y2="${padT + innerH}" stroke="var(--border-strong)" stroke-dasharray="2 3" stroke-width="1"></line>`;
+    }
+
+    const lines = SERIES.map(s => {
+      // Split into a solid (historical) segment and a dashed (projected) segment so the
+      // dash pattern only applies where projected:true — a single path can't mix dash styles.
+      const histEnd = firstProjected === -1 ? rows.length - 1 : firstProjected - 1;
+      const histPts = rows.slice(0, histEnd + 1).map((r, i) => `${x(i)},${y(r[s.key])}`).join(' ');
+      // Slice from max(histEnd, 0) — histEnd is -1 when the *first* row is projected
+      // (whole series projected), and rows.slice(-1) would wrongly mean "last element only".
+      const projStart = Math.max(histEnd, 0);
+      const projPts = firstProjected === -1 ? '' : rows.slice(projStart).map((r, i) => `${x(projStart + i)},${y(r[s.key])}`).join(' ');
+      const dots = rows.map((r, i) => `<circle cx="${x(i)}" cy="${y(r[s.key])}" r="2.5" fill="${s.color}"></circle>`).join('');
+      return `
+        <polyline points="${histPts}" fill="none" stroke="${s.color}" stroke-width="2"></polyline>
+        ${projPts ? `<polyline points="${projPts}" fill="none" stroke="${s.color}" stroke-width="2" stroke-dasharray="5 4"></polyline>` : ''}
+        ${dots}
+      `;
+    }).join('');
+
+    svg.innerHTML = grid + marker + lines + xLabels;
+
+    if (els.legend) {
+      els.legend.innerHTML = SERIES.map(s => `
+        <span><span class="dot" style="background:${s.color}"></span>${escapeHTML(s.label)}</span>
+      `).join('') + `<span><span class="dot" style="background:none;border:1px dashed var(--border-strong);"></span>Dashed = projected</span>`;
+    }
+
+    if (els.source) {
+      const allSources = [...new Map(rows.flatMap(r => r.sources || []).map(u => [u, u])).values()];
+      els.source.innerHTML = `Sources: ${srcLinks(allSources)}`;
+    }
+  }
+
   // ---------- Boot sequence ----------
   function init() {
     initThemePicker();
@@ -448,5 +534,7 @@
     openDetail,
     closeDetail,
     renderNewsCard,
+    srcLinks,
+    renderProductionTrend,
   };
 })(window);

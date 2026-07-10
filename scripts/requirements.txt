@@ -1,0 +1,2 @@
+# Python deps for scripts/make-share-card.py only (the site itself is Node/vanilla).
+pillow==11.3.0

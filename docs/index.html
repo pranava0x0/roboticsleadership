@@ -4,7 +4,18 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="color-scheme" content="light dark" />
-  <meta name="description" content="Robotics — How the U.S. can Lead. Live dashboard of robotics startups, government policy, funding, and deployments. Curated, sourced, refreshed weekly." />
+  <meta name="description" content="America has the AI. China has the scale. Robotics decides who gets both. Live scoreboard of robotics startups, funding, deployments, and US policy — curated, with every record cited to a primary source." />
+  <link rel="canonical" href="https://pranava0x0.github.io/roboticsleadership/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Robotics Leadership Tracker" />
+  <meta property="og:title" content="Robotics — How the U.S. can Lead" />
+  <meta property="og:description" content="America has the AI. China has the scale. Robotics decides who gets both. Live scoreboard of robotics startups, funding, deployments, and US policy — curated, with every record cited to a primary source." />
+  <meta property="og:url" content="https://pranava0x0.github.io/roboticsleadership/" />
+  <meta property="og:image" content="https://pranava0x0.github.io/roboticsleadership/assets/share-card.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="America has the AI. China has the scale. Robotics decides who gets both." />
+  <meta name="twitter:card" content="summary_large_image" />
   <title>Robotics — How the U.S. can Lead</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,6 +27,7 @@
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/companies.json" crossorigin />
   <link rel="preload" as="fetch" href="data/news.json" crossorigin />
+  <link rel="preload" as="fetch" href="data/supply_chain.json" crossorigin />
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to content</a>
@@ -59,14 +71,23 @@
   <main id="main">
     <p class="eyebrow">Dashboard</p>
     <h1 class="page-title">Robotics — How the U.S. can Lead</h1>
-    <p class="page-lede">Funding, deployments, and U.S. policy — sourced and refreshed weekly.</p>
+    <p class="page-lede">America has the AI. China has the scale. Robotics decides who gets both — this site keeps the score.</p>
 
     <aside class="bluf" aria-label="Bottom line up front">
       <span class="bluf-tag">Bottom line</span>
       <p class="bluf-body">
-        <strong>The U.S. leads robotics in capital and breakthroughs but trails where it counts for jobs and supply chains:</strong> deployment scale and industrial-robot density, where China now dominates. The race is being won and lost on factory floors, not in labs.
+        <strong>Robotics is where America&rsquo;s AI lead collides with China&rsquo;s manufacturing lead.</strong> Whoever combines intelligence with scale first sets the terms of the physical economy — and neither side has both yet. Funding, deployments, and policy tracked below, every record cited to a primary source.
       </p>
     </aside>
+
+    <section class="exec-brief" aria-label="Executive brief">
+      <ol class="exec-brief-list">
+        <li><strong>America leads where robots are invented and funded</strong> — frontier AI, humanoid startups, and venture capital.</li>
+        <li><strong>China leads where robots are built and bought</strong> — 54% of world robot installations, more than half of global cobot shipments, and 2 million robots in operation.</li>
+        <li><strong>Neither lead is safe.</strong> AI diffuses fast and deployment compounds. The decisive variable this decade isn&rsquo;t invention — it&rsquo;s policy.</li>
+      </ol>
+      <p class="exec-brief-note">Every number above is tracked, with primary sources, on the <a href="china.html">US vs China scoreboard</a>.</p>
+    </section>
 
     <!-- KPI strip -->
     <section aria-label="Key indicators">
@@ -79,8 +100,18 @@
       </div>
     </section>
 
+    <!-- The scoreboard: the thesis chart -->
+    <h2 class="section-title">The scoreboard — who builds</h2>
+    <div class="chart" id="production-trend-chart">
+      <h3>Industrial robot installations — US vs China vs rest of world</h3>
+      <p class="chart-sub">The manufacturing-scale half of the thesis: China now installs more industrial robots each year than the rest of the world combined, while US installations have been roughly flat for a decade. Dashed = IFR outlook. Metric-by-metric comparison on <a href="china.html">US vs China</a>.</p>
+      <svg id="production-trend-svg" viewBox="0 0 560 280" role="img" aria-label="Industrial robot installations, US vs China vs rest of world, 2015 to 2025"></svg>
+      <div class="chart-legend" id="production-trend-legend"></div>
+      <p class="chart-source" id="production-trend-source"></p>
+    </div>
+
     <!-- Charts -->
-    <h2 class="section-title">Capital flow + valuations</h2>
+    <h2 class="section-title">What America is winning — capital</h2>
     <div class="chart-grid cols-2">
       <div class="chart" id="chart-funding-by-year">
         <h3>Tracked funding by year</h3>
@@ -126,7 +157,12 @@
   <script src="assets/app.js" defer></script>
   <script defer>
   document.addEventListener('DOMContentLoaded', async () => {
-    const { companies, policies, news, themes } = await RT.loadAll();
+    // supply_chain feeds the thesis chart + install-gap KPI; if it fails,
+    // degrade to the 5-KPI strip and skip the chart (loadData already logs).
+    const [{ companies, policies, news, themes }, sc] = await Promise.all([
+      RT.loadAll(),
+      RT.loadData('supply_chain').catch(() => null),
+    ]);
 
     // ---------- KPI strip ----------
     const thisYear = new Date().getFullYear();
@@ -159,7 +195,17 @@
       { label: 'Executive · in effect', value: String(executiveInEffect), sub: 'agency rules, programs' },
     ];
 
+    // The China-gap KPI — the strip should reflect the thesis, not just the
+    // US supply side. Ratio from the latest historical production-trend row.
+    const trendRows = (sc && sc.production_trend) || [];
+    const lastActual = [...trendRows].reverse().find(r => !r.projected && r.china_units && r.us_units);
+    if (lastActual) {
+      const ratio = Math.round(lastActual.china_units / lastActual.us_units);
+      kpis.splice(2, 0, { label: 'Install gap', value: `${ratio}×`, sub: `China vs US robot installs · ${lastActual.year}` });
+    }
+
     const strip = document.getElementById('kpi-strip');
+    if (kpis.length === 6) strip.classList.add('cols-6');
     strip.innerHTML = kpis.map(k => `
       <div class="kpi-card">
         <span class="kpi-label">${RT.escapeHTML(k.label)}</span>
@@ -169,6 +215,11 @@
     `).join('');
 
     // ---------- Charts ----------
+    RT.renderProductionTrend(trendRows, {
+      svg: document.getElementById('production-trend-svg'),
+      legend: document.getElementById('production-trend-legend'),
+      source: document.getElementById('production-trend-source'),
+    });
     renderFundingByYear(companies);
     renderTopValuations(companies, 'pure');
     wireValuationScope(companies);

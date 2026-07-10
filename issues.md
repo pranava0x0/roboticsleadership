@@ -8,6 +8,13 @@ No open issues.
 
 ## Tooling notes
 
+### 2026-07-09 — hooks — PreToolUse security hook blocks any Edit whose payload contains `innerHTML`
+
+- **What I expected:** the security-reminder hook flags only *new* unsafe sinks.
+- **What happened:** it blocked Edit calls whose `old_string`/`new_string` merely quoted existing, already-escaped `innerHTML` lines as anchoring context (twice in one session).
+- **Why:** the hook keyword-matches the edit payload; it isn't diff-aware, so unchanged context lines trigger it the same as new code.
+- **Next time:** anchor edits above/below `innerHTML` lines when that code is unchanged; for new render code that's numeric/attribute-only (e.g. the china.html score bar), use DOM methods (`createElement` + `style.width`) — cleaner and passes the hook. When new code genuinely needs HTML strings, keep the project's `RT.escapeHTML`-everything pattern and document the posture in a comment (per the 2026-06-01 XSS fix). Never bypass via Bash.
+
 ### 2026-07-06 — git — local `main` silently diverged from `origin/main` ("ahead 170, behind 173")
 
 - **What I expected:** local `main` in the primary worktree tracks `origin/main` cleanly since nobody works directly on `main`.
@@ -29,6 +36,7 @@ No open issues.
 - **What happened:** Blank captures for any non-zero scroll position (reproduced on new supply-chain.html *and* known-good themes.html).
 - **Why:** Tool artifact — the screenshot composites only the document-top frame; not a page bug.
 - **Next time:** Verify below-the-fold content with `preview_eval` DOM checks or `preview_snapshot`; trust screenshots only at scroll position 0.
+- **Workaround validated 2026-07-09:** `preview_resize` to a tall viewport (e.g. 1280×2200), then screenshot at scroll-0 — captures below-fold content in one frame. Reset with the `desktop` preset afterward.
 
 ## Documentation updates (non-critical)
 
