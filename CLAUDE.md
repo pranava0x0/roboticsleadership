@@ -173,6 +173,8 @@ Maintain a `backlog.md` for ideas, features, and enhancements.
 ### Project-specific: this site (Robotics Leadership)
 
 - **Every page's `<footer class="site-footer">` must carry a `.footer-credit` line linking to `https://pranavaraparla.com` and the GitHub source repo `https://github.com/pranava0x0/roboticsleadership`.** When adding a new page, copy the `.footer-credit` `<p>` from an existing page (e.g. `docs/themes.html`) rather than reinventing it.
+- **Every page carries canonical + OG + Twitter meta (added 2026-07-09).** New pages copy the OG block from an existing head, set their own `og:title` / `og:description` / `og:url` / canonical, and reuse the shared `docs/assets/share-card.png` (1200×630 PNG — Twitter/FB reject SVG og:images). Regenerate the card with `python3 scripts/make-share-card.py` whenever the thesis copy changes; the thesis is canonical in `improvement-plan.md` § The thesis.
+- **The thesis is the editing knife.** "America has the AI. China has the scale. Robotics decides who gets both." Every new chart, page, or dataset must answer "does this move the scoreboard?" — if it doesn't, it's decoration (see improvement-plan.md's cut list for precedents).
 
 ---
 

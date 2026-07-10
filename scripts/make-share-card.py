@@ -3,9 +3,14 @@
 
 One static branded card shared by every page (see improvement-plan.md P0).
 Palette is the Caves of Steel theme from DESIGN.md section 15.3; the headline
-is the site thesis. Re-run after changing the thesis copy:
+is the site thesis. The generated PNG is committed, so this only needs to run
+again when the thesis copy changes:
 
+    pip install -r scripts/requirements.txt   # Pillow
     python3 scripts/make-share-card.py
+
+Fonts resolve from a candidate list (macOS Supplemental, then Linux DejaVu)
+and the script halts with a clear error if none exist.
 """
 
 import logging
@@ -23,9 +28,35 @@ ACCENT = "#FFC700"    # sodium yellow
 TEXT = "#F5F5F5"      # stark off-white
 MUTED = "#B0B0B0"
 
-SERIF_BOLD = "/System/Library/Fonts/Supplemental/Georgia Bold.ttf"
-SANS = "/System/Library/Fonts/Supplemental/Arial.ttf"
-SANS_BOLD = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
+FONT_CANDIDATES: dict[str, list[str]] = {
+    "serif_bold": [
+        "/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
+    ],
+    "sans": [
+        "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    ],
+    "sans_bold": [
+        "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+    ],
+}
+
+
+def resolve_font(kind: str) -> str:
+    for candidate in FONT_CANDIDATES[kind]:
+        if Path(candidate).exists():
+            return candidate
+    raise SystemExit(
+        f"make-share-card: no '{kind}' font found; tried {FONT_CANDIDATES[kind]}. "
+        "Install a serif/sans TTF and add its path to FONT_CANDIDATES."
+    )
+
+
+SERIF_BOLD = resolve_font("serif_bold")
+SANS = resolve_font("sans")
+SANS_BOLD = resolve_font("sans_bold")
 
 EYEBROW = "ROBOTICS LEADERSHIP TRACKER"
 HEADLINE = [
