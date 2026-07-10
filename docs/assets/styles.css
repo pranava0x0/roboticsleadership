@@ -479,6 +479,83 @@ h2.section-title {
 }
 
 /* ============================================================
+   Executive brief — three quotable findings under the BLUF.
+   FAI-style: each bullet stands alone in a staffer's memo.
+   ============================================================ */
+.exec-brief {
+  max-width: 74ch;
+  margin: 0 0 22px;
+}
+.exec-brief-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: brief;
+  display: grid;
+  gap: 10px;
+}
+.exec-brief-list li {
+  counter-increment: brief;
+  position: relative;
+  padding: 10px 14px 10px 44px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+.exec-brief-list li strong { color: var(--text); font-weight: 600; }
+.exec-brief-list li::before {
+  content: counter(brief);
+  position: absolute;
+  left: 14px;
+  top: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-family: var(--font-serif);
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exec-brief-note {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: var(--text-faint);
+}
+.exec-brief-note a { color: var(--text-muted); border-bottom: 1px dotted var(--border-strong); }
+
+/* ============================================================
+   Chart legend — shared dot legend for SVG charts (app.js
+   renderProductionTrend fills these on index / china / supply-chain).
+   ============================================================ */
+.chart-legend { display: flex; flex-wrap: wrap; gap: 14px; margin: 12px 0 0; font-size: 12px; color: var(--text-muted); }
+.chart-legend .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
+
+/* ============================================================
+   Score bar — visual tally of scoreboard edge calls (china.html).
+   Colors pair with the labeled counts above it; never color-only.
+   ============================================================ */
+.score-bar {
+  display: flex;
+  height: 10px;
+  border-radius: 999px;
+  overflow: hidden;
+  max-width: 74ch;
+  margin: 8px 0 0;
+  background: var(--surface-2);
+}
+.score-bar .seg { height: 100%; }
+.score-bar .seg.cn { background: var(--status-negative); opacity: 0.85; }
+.score-bar .seg.even { background: var(--status-neutral); opacity: 0.45; }
+.score-bar .seg.us { background: var(--cat-supplychain); }
+
+/* ============================================================
    Collapsible Sections
    ============================================================ */
 
@@ -566,6 +643,10 @@ footer.site-footer .footer-credit {
 .kpi-strip.cols-4 { grid-template-columns: repeat(2, 1fr); }
 @media (min-width: 1024px) {
   .kpi-strip.cols-4 { grid-template-columns: repeat(4, 1fr); }
+}
+/* 6 KPIs (dashboard incl. the deployment-gap card) — 6-up on desktop */
+@media (min-width: 1024px) {
+  .kpi-strip.cols-6 { grid-template-columns: repeat(6, 1fr); }
 }
 
 .kpi-card {

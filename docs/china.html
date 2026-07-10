@@ -5,6 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="color-scheme" content="light dark" />
   <meta name="description" content="US vs China in robotics — every key metric side by side: deployment, humanoids, supply chain, capital, and the Unitree case study." />
+  <link rel="canonical" href="https://pranava0x0.github.io/roboticsleadership/china.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Robotics Leadership Tracker" />
+  <meta property="og:title" content="US vs China · Robotics Tracker" />
+  <meta property="og:description" content="US vs China in robotics — every key metric side by side: deployment, humanoids, supply chain, capital, and the Unitree case study." />
+  <meta property="og:url" content="https://pranava0x0.github.io/roboticsleadership/china.html" />
+  <meta property="og:image" content="https://pranava0x0.github.io/roboticsleadership/assets/share-card.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="America has the AI. China has the scale. Robotics decides who gets both." />
+  <meta name="twitter:card" content="summary_large_image" />
   <title>US vs China · Robotics Tracker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,6 +26,7 @@
   </script>
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/us_china.json" crossorigin />
+  <link rel="preload" as="fetch" href="data/supply_chain.json" crossorigin />
   <style>
     .vs-table { width: 100%; border-collapse: collapse; }
     .vs-table th, .vs-table td { padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; text-align: left; }
@@ -92,6 +104,16 @@
     </aside>
 
     <div class="scoreline" id="scoreline" aria-label="Scoreboard"></div>
+    <div class="score-bar" id="score-bar" aria-hidden="true"></div>
+
+    <!-- The thesis chart — same shared renderer as the dashboard -->
+    <div class="chart" id="production-trend-chart" style="margin-top:22px;">
+      <h3>Industrial robot installations — US vs China vs rest of world</h3>
+      <p class="chart-sub">China installs more industrial robots each year than the rest of the world combined; US installations have been roughly flat for a decade. Dashed = IFR outlook. Cobots are counted inside the industrial total; humanoids and service robots are not (no country-level IFR split).</p>
+      <svg id="production-trend-svg" viewBox="0 0 560 280" role="img" aria-label="Industrial robot installations, US vs China vs rest of world, 2015 to 2025"></svg>
+      <div class="chart-legend" id="production-trend-legend"></div>
+      <p class="chart-source" id="production-trend-source"></p>
+    </div>
 
     <div id="vs-sections"></div>
 
@@ -115,13 +137,23 @@
   <script src="assets/app.js" defer></script>
   <script defer>
   document.addEventListener('DOMContentLoaded', async () => {
-    let uc;
+    let uc, sc;
     try {
-      uc = await RT.loadData('us_china');
+      // supply_chain feeds the shared thesis chart; degrade gracefully if it fails.
+      [uc, sc] = await Promise.all([
+        RT.loadData('us_china'),
+        RT.loadData('supply_chain').catch(() => null),
+      ]);
     } catch (e) {
       document.getElementById('bluf-body').textContent = 'Failed to load comparison data.';
       return;
     }
+
+    RT.renderProductionTrend((sc && sc.production_trend) || [], {
+      svg: document.getElementById('production-trend-svg'),
+      legend: document.getElementById('production-trend-legend'),
+      source: document.getElementById('production-trend-source'),
+    });
 
     function hostname(url) {
       try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url || ''; }
@@ -148,6 +180,17 @@
       `<span><strong>${tally.china}</strong> favor China</span>` +
       `<span><strong>${tally.us}</strong> favor the US</span>` +
       `<span><strong>${tally.even}</strong> contested</span>`;
+
+    // Visual tally — widths from the same counts labeled above (never color-only).
+    const scoreBar = document.getElementById('score-bar');
+    [['cn', tally.china, 'favor China'], ['even', tally.even, 'contested'], ['us', tally.us, 'favor the US']]
+      .forEach(([cls, n, label]) => {
+        const seg = document.createElement('span');
+        seg.className = `seg ${cls}`;
+        seg.style.width = `${allMetrics.length ? (n / allMetrics.length) * 100 : 0}%`;
+        seg.title = `${n} ${label}`;
+        scoreBar.appendChild(seg);
+      });
 
     // Sections
     document.getElementById('vs-sections').innerHTML = uc.sections.map((sec, i) => `

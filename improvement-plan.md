@@ -28,13 +28,29 @@ What FAI's report does that we should steal:
 
 ---
 
+## The thesis (adopted 2026-07-09)
+
+> **Robotics is where America's AI lead collides with China's manufacturing lead. Whoever combines intelligence with scale first sets the terms of the physical economy — and neither side has both yet. This site keeps the score.**
+
+Short form (masthead / share card): **"America has the AI. China has the scale. Robotics decides who gets both."**
+
+The three-bullet executive brief (each under 25 words, quotable verbatim):
+
+1. **America leads where robots are invented and funded** — frontier AI, humanoid startups, and venture capital.
+2. **China leads where robots are built and bought** — 54% of world robot installations, more than half of global cobot shipments, and 2 million robots in operation.
+3. **Neither lead is safe.** AI diffuses fast and deployment compounds. The decisive variable this decade isn't invention — it's policy.
+
+Every page is a chapter: Companies = America's lead · US vs China = the scoreboard · Supply chain = China's lead · Themes = the leading indicators · Policies/States = the swing variable. **The thesis is also the editing knife: every chart, page, and dataset must answer "does this move the scoreboard?"**
+
+---
+
 ## P0 — Make the argument visible (the thesis gets charts)
 
-- [ ] **Promote the production-trend chart to the landing page and china.html.** `renderProductionTrend` (`docs/supply-chain.html:354-412`, section at `:170-176`) is the site's best evidence — US vs China vs RoW industrial units 2015–2025, solid/dashed historical/projected. Extract it into `app.js` as a shared renderer (same pattern as `RT.renderNewsCard`) and render it on `index.html` directly under the BLUF and on `china.html`. **M**
-- [ ] **Give china.html its charts.** The scoreline ("X favor China / Y favor US / Z contested", `docs/china.html:146-150`) becomes a visual tally bar. Add a robot-density bar chart and a deployment-stock bar (China 2M operational robots, >4× Japan — IFR). Use Michael's density correction (IFR says 470/10k for China vs 295 US, but on the full 105M workforce China is ~167/10k — *below* the US) as a concession-first callout: it's exactly the credibility move FAI makes. Source: https://ameliakmichael.substack.com/p/chinas-robot-density-is-overstated. **M**
-- [ ] **Restructure index.html as "the argument in 5 charts."** Sequence: BLUF → (1) production trend (who makes robots), (2) deployment stock / density with the honest correction (who uses them), (3) cobot share as the leading indicator (China >50% of shipments since 2023 — from `us_china.json`), (4) capital (keep the existing top-8 valuations chart — it shows what the US *is* winning), (5) policy scoreboard (bills in progress / in effect). Each chart gets a one-line "so what" under the title. The KPI strip today is all US-supply-side numbers (`docs/index.html:154-160`) — add one China-gap KPI so the strip reflects the thesis. **L**
-- [ ] **Add OG/Twitter meta tags to all 8 pages + a share image.** `og:title`, `og:description`, `og:image`, `twitter:card=summary_large_image`, canonical URL per page. One static branded share image per page is enough to start (a rendered version of that page's headline chart is the stretch goal). This is the highest-leverage single fix for a site whose purpose is being shared. **S–M**
-- [ ] **Write a one-page "Executive brief" section at the top of index.html** — three bolded, self-contained, quotable findings in FAI's style (e.g. ① US leads capital & frontier labs; ② China dominates production, deployment & cobots — the leading indicator; ③ the gap is trajectory, not today's chokehold). Keep each under 25 words so a staffer can paste them into a memo. **S**
+- [x] **Promote the production-trend chart to the landing page and china.html.** *Done 2026-07-09:* extracted as `RT.renderProductionTrend` in `docs/assets/app.js`; renders on index (under the brief), china.html (under the scoreline), and supply-chain.html from the one shared renderer.
+- [ ] **Give china.html its charts.** *Partially done 2026-07-09:* scoreline tally bar and the production-trend chart shipped. Still open: a robot-density bar chart and a deployment-stock bar (China 2M operational robots, >4× Japan — IFR), plus Michael's density correction (IFR says 470/10k for China vs 295 US, but on the full 105M workforce China is ~167/10k — *below* the US) as a concession-first callout: it's exactly the credibility move FAI makes. Source: https://ameliakmichael.substack.com/p/chinas-robot-density-is-overstated. **M**
+- [ ] **Restructure index.html as "the argument in 5 charts."** *Partially done 2026-07-09:* thesis lede + BLUF, executive brief, production-trend chart as "The scoreboard — who builds", capital section reframed as "What America is winning", and an Install-gap KPI added to the strip. Still open: (2) deployment stock / density chart with the honest correction, (3) cobot share as the leading indicator (China >50% of shipments since 2023 — from `us_china.json`), (5) policy scoreboard visual. Each chart gets a one-line "so what" under the title. **M**
+- [x] **Add OG/Twitter meta tags to all 8 pages + a share image.** *Done 2026-07-09:* canonical + og:* + twitter:card on all 8 pages; branded 1200×630 card at `docs/assets/share-card.png`, regenerable via `scripts/make-share-card.py`. Stretch goal still open: per-page share images rendering that page's headline chart.
+- [x] **Write a one-page "Executive brief" section at the top of index.html.** *Done 2026-07-09:* three quotable findings (`.exec-brief` component), each backed by scoreboard metrics and linking to china.html for sources.
 
 ## P1 — Focus: cut and merge (clean & crisp)
 
@@ -48,7 +64,7 @@ What FAI's report does that we should steal:
 
 ## P2 — Credibility: earn the citation (useful)
 
-- [ ] **Honest freshness.** Replace the single header "Updated <news-date>" with per-dataset "as of" dates (each page shows its own dataset's `last_updated`; the header shows the *oldest* structured dataset feeding that page, not the newest news item). The index lede's "refreshed weekly" claim must match reality or be dropped. **M**
+- [ ] **Honest freshness.** Replace the single header "Updated <news-date>" with per-dataset "as of" dates (each page shows its own dataset's `last_updated`; the header shows the *oldest* structured dataset feeding that page, not the newest news item). *(The index lede's "refreshed weekly" claim was dropped 2026-07-09 with the thesis rewrite; the header remains open.)* **M**
 - [ ] **Methodology / About page.** Who curates this, how records are sourced (`sources[]` required), what `edge`, `impact_tier`, `data_confidence` mean (rubrics), update cadence per dataset, how to cite the site, link to the GitHub repo as the public dataset. FAI's public companion spreadsheet is the model: "we showed our work" is itself persuasion. Also the natural home for the relabeled coverage chart. **M**
 - [ ] **Source + Note lines on every chart.** Datawrapper-style: one-line source attribution (IFR, UN Comtrade, company filings…) + one-line methodological note (what's estimated, what's interpolated) under each figure. Several charts have honest sub-captions already — make it a standard component. **S–M**
 - [ ] **Citable-stat anchors.** `?focus=` deep links exist for companies/policies/themes — extend the pattern: every KPI, scoreboard row, and chart gets an `id` anchor and a small copy-link affordance, so a staffer can cite one number. **M**
