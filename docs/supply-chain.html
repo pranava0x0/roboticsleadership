@@ -110,6 +110,7 @@
         <a href="policies.html">Policy</a>
         <a href="supply-chain.html">Supply Chain</a>
         <a href="china.html">US vs China</a>
+        <a href="news.html">News</a>
         <details class="primary-more">
           <summary>More</summary>
           <div class="primary-more-menu">
@@ -219,16 +220,10 @@
 
     <!-- Financing -->
     <h2 class="section-title">Financing the chain</h2>
-    <div class="chart-grid cols-2">
-      <div class="chart" id="chart-financing">
-        <h3>Largest tracked financing events</h3>
-        <p class="chart-sub">Private rounds, government awards, and capex commitments tied to supply-chain capacity.</p>
-        <svg viewBox="0 0 480 320" role="img" aria-label="Largest financing events"></svg>
-        <p class="chart-source">From the company records below — each links to its announcement.</p>
-      </div>
+    <div class="chart-grid">
       <div class="chart" id="gov-programs">
         <h3>Government programs &amp; instruments</h3>
-        <p class="chart-sub">Federal money and policy levers reaching the robotics supply chain.</p>
+        <p class="chart-sub">Federal money and policy levers reaching the robotics supply chain. Company-level financing events are in each category deep dive above.</p>
         <div id="gov-programs-list"></div>
       </div>
     </div>
@@ -308,8 +303,7 @@
     // ---------- Category sections grouped by stage ----------
     renderCategories(sc);
 
-    // ---------- Financing ----------
-    renderFinancingChart(sc.companies);
+    // ---------- Government programs ----------
     renderGovPrograms(sc.government_programs || []);
 
     // ---------- Stakeholders ----------
@@ -482,28 +476,6 @@
         <td class="hide-mobile" style="font-size:12.5px;">${capacity}</td>
         <td style="font-size:12.5px;">${fin}</td>
       </tr>`;
-    }
-
-    function renderFinancingChart(companies) {
-      const events = [];
-      companies.forEach(co => (co.financing || []).forEach(f => {
-        if (f.amount_usd && f.amount_usd >= 1e7 && f.amount_usd < 2e10) {
-          events.push({ name: co.name, ...f });
-        }
-      }));
-      events.sort((a, b) => b.amount_usd - a.amount_usd);
-      const top = events.slice(0, 10);
-      const svg = document.querySelector('#chart-financing svg');
-      const W = 480, H = 320, padL = 130, padR = 56, rowH = H / Math.max(top.length, 1);
-      const maxV = top[0]?.amount_usd || 1;
-      svg.innerHTML = top.map((e, i) => {
-        const w = ((W - padL - padR) * e.amount_usd) / maxV;
-        const y = i * rowH + rowH * 0.18;
-        const h = rowH * 0.6;
-        return `<text x="${padL - 8}" y="${y + h / 2 + 4}" text-anchor="end" style="fill:var(--text);font-size:11px;">${RT.escapeHTML(truncate(e.name, 20))}</text>
-                <rect class="bar ${i % 2 ? 'alt' : ''}" x="${padL}" y="${y}" width="${Math.max(w, 2)}" height="${h}" rx="2"></rect>
-                <text x="${padL + Math.max(w, 2) + 6}" y="${y + h / 2 + 4}" style="fill:var(--text-muted);font-size:10.5px;" class="tnum">${RT.formatUSD(e.amount_usd)}</text>`;
-      }).join('');
     }
 
     function renderGovPrograms(programs) {
