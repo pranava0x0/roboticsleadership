@@ -6,6 +6,17 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 No open issues.
 
+## Fixed
+
+### 2026-07-13 — news.html — deep-link `news.html#<id>` never opened the target story
+
+- **Area:** news feed pagination + URL state (`docs/news.html`, `docs/assets/app.js`).
+- **Symptom:** every `news.html#hn-…` link — the anchors we repointed all "recent activity" / theme "related news" / feed-card links to when News moved to its own page — landed on **page 1 / top of feed**, not the linked story. Caught by the correctness reviewer in the multi-perspective review, reproduced live (`#hn-48801154` → "Page 1 of 35", target not rendered).
+- **Root cause (code bug):** `renderNewsFeed()` calls `RT.writeQuery()` at the *top*, which does `history.replaceState(null,'', pathname[?qs])` — no fragment — **stripping `location.hash` before** the deep-link block lower in the same function reads it. `replaceState` is the only URL mutator in the codebase, so nothing restored it.
+- **The trap that made the naive fix wrong:** just preserving the hash in `writeQuery` isn't enough — the page-jump logic recomputed `newsPage` from `location.hash` on *every* render, so Prev/Next would snap back to the anchored page on each click (they only "worked" before because the hash was being wiped).
+- **Fix:** capture the hash **once** at `DOMContentLoaded` into `pendingHash`, consume it only on the initial render (jump + scroll), then null it so pagination/filter re-renders don't re-jump. Verified: `#hn-48801154` → Page 2 with the card rendered; Next→3→4, Prev→3 with no snap-back. See the multi-perspective review-fix commit on branch `claude/goofy-shaw-1f5dd6`.
+- **Regression coverage:** behavior is browser-only (hash + pagination interaction), not reachable by the Node test suite; covered by a manual browser check in the verify step. Backlog notes a jsdom pagination test as a future guard.
+
 ## Tooling notes
 
 ### 2026-07-09 — hooks — PreToolUse security hook blocks any Edit whose payload contains `innerHTML`
