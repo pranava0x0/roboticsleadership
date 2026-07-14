@@ -382,8 +382,8 @@
       ? `<span class="pill mixed">${escapeHTML(n.confidence)} confidence</span>`
       : '';
 
-    const titleLink = opts.linkToFeed 
-      ? `themes.html#${encodeURIComponent(n.id)}` 
+    const titleLink = opts.linkToFeed
+      ? `news.html#${encodeURIComponent(n.id)}`
       : escapeHTML(n.source_url);
     const titleTarget = opts.linkToFeed ? '' : ' target="_blank" rel="noopener"';
 
