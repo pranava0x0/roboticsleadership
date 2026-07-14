@@ -460,8 +460,12 @@
         const btn = el('button', 'seg-row');
         btn.type = 'button';
         btn.dataset.segment = s.segId;
+        const splitLabel = ['us', 'cn', 'row']
+          .filter(k => s.split[k] > 0)
+          .map(k => `${COUNTRY[k]} ${RT.formatUSD(s.split[k])}`)
+          .join(', ');
         btn.setAttribute('aria-label',
-          `${s.label} — ${s.count} companies, ${RT.formatUSD(s.total)} tracked. Filter directory.`);
+          `${s.label} — ${s.count} companies, ${RT.formatUSD(s.total)} tracked (${splitLabel}). Filter directory.`);
 
         const head = el('span', 'seg-head');
         const dot = el('span', 'seg-dot');

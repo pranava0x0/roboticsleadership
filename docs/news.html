@@ -25,6 +25,8 @@
   </script>
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/news.json" crossorigin />
+  <link rel="preload" as="fetch" href="data/companies.json" crossorigin />
+  <link rel="preload" as="fetch" href="data/policies.json" crossorigin />
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to content</a>
@@ -101,8 +103,18 @@
   <script src="assets/app.js" defer></script>
   <script defer>
   document.addEventListener('DOMContentLoaded', async () => {
-    const { companies, policies, news } = await RT.loadAll();
+    // Load only what this page renders (renderNewsCard needs all three).
+    const [companies, policies, news] = await Promise.all([
+      RT.loadData('companies'), RT.loadData('policies'), RT.loadData('news'),
+    ]);
     const q = RT.readQuery();
+
+    // Deep-link target (e.g. news.html#hn-123): capture it ONCE, before the
+    // first render calls RT.writeQuery (which rewrites the URL without the
+    // fragment), and consume it only on the initial render — otherwise every
+    // Prev/Next or filter change would yank the view back to the anchored page.
+    let pendingHash = location.hash && location.hash.length > 1
+      ? decodeURIComponent(location.hash.slice(1)) : null;
 
     function fillSelect(id, values) {
       const sel = document.getElementById(id);
@@ -183,10 +195,9 @@
       const [sortKey, sortDir] = sort.split('-');
       if (sortKey === 'date') rows = RT.sortBy(rows, n => n.date, sortDir);
 
-      // If navigating to a hash anchor, jump to the correct page
-      if (location.hash && location.hash.length > 1) {
-        const targetId = decodeURIComponent(location.hash.slice(1));
-        const idx = rows.findIndex(n => n.id === targetId);
+      // On the initial render only, jump to the page holding the deep-linked story.
+      if (pendingHash) {
+        const idx = rows.findIndex(n => n.id === pendingHash);
         if (idx >= 0) newsPage = Math.floor(idx / PAGE_SIZE) + 1;
       }
 
@@ -215,9 +226,10 @@
 
       renderPagination(newsPage, totalPages);
 
-      if (location.hash && location.hash.length > 1) {
-        const el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (pendingHash) {
+        const el = document.getElementById(pendingHash);
         if (el) requestAnimationFrame(() => el.scrollIntoView({ block: 'start', behavior: 'smooth' }));
+        pendingHash = null; // consume: later renders (Prev/Next, filters) must not re-jump
       }
     }
 
