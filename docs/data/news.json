@@ -1,5 +1,759 @@
 [
   {
+    "id": "hn-48872918",
+    "title": "Humanity Wallpaper",
+    "date": "2026-07-11",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=uc_D0djnL1g",
+    "summary": "Humanity Wallpaper",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48889175",
+    "title": "AI Is a Product of Humanity. Humanity Should Own AI",
+    "date": "2026-07-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://jacobin.com/2026/07/ai-big-tech-global-ownership-control",
+    "summary": "AI Is a Product of Humanity. Humanity Should Own AI",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48870031",
+    "title": "Surgeons Use Teleoperated Humanoid Robots to Perform Live Surgery",
+    "date": "2026-07-11",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://today.ucsd.edu/story/surgeons-use-teleoperated-humanoid-robots-to-perform-live-surgery-a-world-first",
+    "summary": "Surgeons Use Teleoperated Humanoid Robots to Perform Live Surgery",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48880468",
+    "title": "'They Don't Need People': The Workers Left Behind by China's Robot Drive",
+    "date": "2026-07-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.nytimes.com/2026/07/11/world/asia/china-workers-robots-factories.html",
+    "summary": "'They Don't Need People': The Workers Left Behind by China's Robot Drive",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48881091",
+    "title": "The Floating Robot Companion Designed for Safe, Friendly Human Interaction",
+    "date": "2026-07-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.cnet.com/tech/floating-robots-safe-friendly-human-interaction/",
+    "summary": "The Floating Robot Companion Designed for Safe, Friendly Human Interaction",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48881604",
+    "title": "Show HN: Containix – Run Nix flakes as Kubernetes pods without images",
+    "date": "2026-07-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://containix.dev/",
+    "summary": "Containix is a containerd shim that runs Nix flakes directly as Kubernetes pods. When using containix you can reference a flake in a pod annotation (`containix.dev/flake: <flake ref>`) inst",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48882554",
+    "title": "Automation Without Understanding",
+    "date": "2026-07-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2607.06377",
+    "summary": "Automation Without Understanding",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48882653",
+    "title": "Mitigating Factual Hallucination in LRMs via Mixed-Mode Advantage Regularization",
+    "date": "2026-07-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2607.05861",
+    "summary": "Mitigating Factual Hallucination in LRMs via Mixed-Mode Advantage Regularization",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48882667",
+    "title": "Tesla claims Cybercab driving employees at Giga Texas – in a parking lot",
+    "date": "2026-07-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://electrek.co/2026/07/11/tesla-cybercab-giga-texas-parking-lot/",
+    "summary": "Tesla claims Cybercab driving employees at Giga Texas – in a parking lot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48884916",
+    "title": "Uber is lobbying to keep robotaxi rides 85% human in New Jersey",
+    "date": "2026-07-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.wired.com/story/ubers-autonomous-vehicle-strategy-slow-their-adoption/",
+    "summary": "Uber is lobbying to keep robotaxi rides 85% human in New Jersey",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48884995",
+    "title": "UN adopts first binding framework for automated driving systems",
+    "date": "2026-07-12",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.heise.de/news/Meilenstein-fuer-Robotaxis-UN-verabschiedet-globales-Recht-fuer-autonomes-Fahren-11361904.html",
+    "summary": "UN adopts first binding framework for automated driving systems",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48887175",
+    "title": "Show HN: Web App Uses RTL-SDR to Align HDTV Antenna",
+    "date": "2026-07-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://tunerscope.com/",
+    "summary": "I was sick of losing the Telemundo signal during World Cup, so I built a Web App that uses a local RTL-SDR dongle to analyze the HDTV signal and help you point your antenna... GOAAALLLL!",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48889567",
+    "title": "Obstacle avoidance for robots of multiple sizes and forms Horizon Zero Dawn [pdf]",
+    "date": "2026-07-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "http://www.gameaipro.com/GameAIProOnlineEdition2021/GameAIProOnlineEdition2021_Chapter09_Obstacle_avoidance_for_robots_of_multiple_sizes_and_forms_in_Horizon_Zero_Dawn.pdf",
+    "summary": "Obstacle avoidance for robots of multiple sizes and forms Horizon Zero Dawn [pdf]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48889982",
+    "title": "Xbox CEO Asha Sharma, who laid off 3,200 employees, to lead task force on jobs",
+    "date": "2026-07-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.pcgamer.com/gaming-industry/us-federal-reserve-taps-xbox-ceo-asha-sharma-who-just-laid-off-3-200-employees-to-lead-task-force-on-jobs/",
+    "summary": "Xbox CEO Asha Sharma, who laid off 3,200 employees, to lead task force on jobs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48893082",
+    "title": "Volkswagen CEO says 50,000 more job cuts may be needed to close competitive gap",
+    "date": "2026-07-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.cnbc.com/2026/07/13/volkswagen-ceo-50000-job-cuts-may-be-needed-to-close-competitive-gap.html",
+    "summary": "Volkswagen CEO says 50,000 more job cuts may be needed to close competitive gap",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48893403",
+    "title": "There's no way this bond market can fund the markets needs without higher yields",
+    "date": "2026-07-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=W-Dxpp9YG3s",
+    "summary": "There's no way this bond market can fund the markets needs without higher yields",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48893550",
+    "title": "Show HN: Hackney – Compare Uber, Lyft, Waymo, and Robotaxi Prices",
+    "date": "2026-07-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://hackney.app/",
+    "summary": "I created an app that compares real-time prices and wait times across Uber, Lyft, Waymo, Tesla Robotaxi, Curb, and Empower. It shows you all ride options in one list, then once you’re ready to book, i",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48894359",
+    "title": "Elon Musk and Sam Altman spar on X after Apple files OpenAI lawsuit",
+    "date": "2026-07-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.cnbc.com/2026/07/12/elon-musk-and-sam-altman-spar-.html",
+    "summary": "Elon Musk and Sam Altman spar on X after Apple files OpenAI lawsuit",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48894466",
+    "title": "Silvia – AI CFO built for serious investors",
+    "date": "2026-07-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.cfosilvia.com/",
+    "summary": "Silvia – AI CFO built for serious investors",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48895121",
+    "title": "Building a Foundation Stack for General-Purpose Robots",
+    "date": "2026-07-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
+    "summary": "Building a Foundation Stack for General-Purpose Robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48895464",
+    "title": "A Robot Army Remakes Ground Warfare in Ukraine",
+    "date": "2026-07-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.nytimes.com/2026/07/13/world/europe/ukraine-ground-robots.html",
+    "summary": "A Robot Army Remakes Ground Warfare in Ukraine",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48896283",
+    "title": "Ukraine Lands Armed Robot Ashore in Russian-Held Territory via Drone Boat",
+    "date": "2026-07-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.twz.com/sea/ukraine-lands-armed-robot-ashore-in-russian-held-territory-via-drone-boat",
+    "summary": "Ukraine Lands Armed Robot Ashore in Russian-Held Territory via Drone Boat",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48897268",
+    "title": "U.S. replaced textbooks with laptops, resulting in a generation less capable",
+    "date": "2026-07-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://fortune.com/article/how-did-us-spending-30-billion-dollars-on-laptops-result-in-first-generation-less-cognitively-capable-than-parents/",
+    "summary": "U.S. replaced textbooks with laptops, resulting in a generation less capable",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48898989",
+    "title": "We gave open models root on broken servers and graded them on the machine",
+    "date": "2026-07-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://glassmkr.com/blog/open-model-ladder-blind-remediation",
+    "summary": "We gave open models root on broken servers and graded them on the machine",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48900465",
+    "title": "Show HN: FixBugs – Reproduce production bugs and verify fixes",
+    "date": "2026-07-13",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://fixbugs.ai",
+    "summary": "I built FixBugs, an agent that ingests the rich context surrounding production bugs to reproduce them in a sandbox and generate verified fixes. It's available in the form of a self-hosted VSCode ",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48901144",
+    "title": "The first commercial human-like robot is here. Are replicants next?",
+    "date": "2026-07-14",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.fastcompany.com/91570086/ubtech-first-commercial-human-like-robot",
+    "summary": "The first commercial human-like robot is here. Are replicants next?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48901301",
+    "title": "China's Robotics Dream Began in 1972",
+    "date": "2026-07-14",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.chinatalk.media/p/chinas-father-of-robotics",
+    "summary": "China's Robotics Dream Began in 1972",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48902330",
+    "title": "A new kind of robot swims the seas and soars the skies",
+    "date": "2026-07-14",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.npr.org/2026/07/09/nx-s1-5885040/robot-flying-aerial-aquatic-mit-birds",
+    "summary": "A new kind of robot swims the seas and soars the skies",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48902494",
+    "title": "Altera returns to growth as AI, robotics fuel demand, CEO says",
+    "date": "2026-07-14",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.reuters.com/business/altera-returns-growth-ai-robotics-fuel-demand-ceo-says-2026-07-10/",
+    "summary": "Altera returns to growth as AI, robotics fuel demand, CEO says",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48903714",
+    "title": "Odysee: The new YouTube for the far-right (2017)",
+    "date": "2026-07-14",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://gnet-research.org/2021/02/17/odysee-the-new-youtube-for-the-far-right/",
+    "summary": "Odysee: The new YouTube for the far-right (2017)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48903765",
+    "title": "Big Tech Is Turning A.I.'S Dystopia into Reality",
+    "date": "2026-07-14",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://tribunemag.co.uk/2026/06/big-tech-is-turning-a-i-s-dystopia-into-reality",
+    "summary": "Big Tech Is Turning A.I.'S Dystopia into Reality",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48903937",
+    "title": "Meritocracy in Perspective. The Rise of the Meritocracy 60 Years on (2020)",
+    "date": "2026-07-14",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/1467-923X.12839",
+    "summary": "Meritocracy in Perspective. The Rise of the Meritocracy 60 Years on (2020)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48904957",
+    "title": "Most UK media reports on June heatwave failed to mention climate crisis",
+    "date": "2026-07-14",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/environment/2026/jul/14/most-coverage-june-heatwave-did-not-mention-climate-crisis",
+    "summary": "Most UK media reports on June heatwave failed to mention climate crisis",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-48905290",
+    "title": "Germany set to restrict its Freedom of Information Act",
+    "date": "2026-07-14",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.dw.com/en/germany-freedom-of-information-act/a-77939695",
+    "summary": "Germany set to restrict its Freedom of Information Act",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-why-robotics-teams-need-virtua-217",
+    "title": "Why robotics teams need virtual gyms before deployment",
+    "date": "2026-07-11",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/why-robotics-teams-need-virtual-gyms-before-deployment/",
+    "summary": "To address environmental and task variability, robots can benefit from 'virtual gyms' to bridge the sim-to-real gap, says SoftServe.\nThe post Why robotics teams need virtual gyms before deployment app...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-are-suppliers-ready-for-new-ro-12",
+    "title": "Are suppliers ready for new robot safety standards?",
+    "date": "2026-07-11",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/are-suppliers-ready-for-new-robot-safety-standards/",
+    "summary": "Suppliers that are well prepared for standard changes will benefit, while underprepared companies may face market access disruption.\nThe post Are suppliers ready for new robot safety standards? appear...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-stem-education-in-the-classroo-705",
+    "title": "STEM education in the classroom, introducing BotBall",
+    "date": "2026-07-12",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/stem-education-classroom-introducing-botball/",
+    "summary": "Botball addresses STEM education with autonomous robotics, real coding, and a level playing field driven entirely by students.\nThe post STEM education in the classroom, introducing BotBall appeared fi...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-the-robot-report-parent-compan-619",
+    "title": "The Robot Report parent company, WTWH Media, rebrands as Arrowfly",
+    "date": "2026-07-13",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/the-robot-report-parent-company-wtwh-media-rebrands-as-arrowfly/",
+    "summary": "The Arrowfly name unifies more than 40 brands under a new identity built for the future of B2B content and events.\nThe post The Robot Report parent company, WTWH Media, rebrands as Arrowfly appeared f...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-yaskawa-america-gets-informati-235",
+    "title": "Yaskawa America gets information security certification",
+    "date": "2026-07-13",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/",
+    "summary": "Yaskawa America said that independent ISO/IEC 27001:2022 certification shows its focus on protecting customer information.\nThe post Yaskawa America gets information security certification appeared fir...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-ondas-acquires-dzyne-for-875-8-502",
+    "title": "Ondas acquires DZYNE for $875.8M, expanding its defense capabilities",
+    "date": "2026-07-13",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/",
+    "summary": "DZYNE Technologies specializes in long-endurance autonomous aircraft, counter-drone systems, and autonomous effects.\nThe post Ondas acquires DZYNE for $875.8M, expanding its defense capabilities appea...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "fedreg-news-2026-13656",
     "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; Including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
     "date": "2026-07-07",
