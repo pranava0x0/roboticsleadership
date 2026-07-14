@@ -4,7 +4,7 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ## High
 
-- **Execute `improvement-plan.md` (added 2026-07-09).** Full-site review + FAI-report benchmark produced a prioritized presentation-layer plan: put the US-vs-China thesis charts on index/china.html, add OG/social meta tags, cut decorative charts (bubble galaxy, funding-by-year), de-dup state policy, surface News in nav, honest per-dataset freshness, methodology page, and the missing purposeful charts (state map, cost curve, sector-reliance, subsidy effect). Work it top-down by priority section; suggested 4-session sequencing at the bottom of the plan.
+- **Execute `improvement-plan.md` (added 2026-07-09).** Prioritized presentation-layer plan from the full-site review. **P0 "share + thesis" done 2026-07-09; P1 "cut + merge" done 2026-07-13** (bubble galaxy → segment summary bar, cut funding-by-year + financing bar, state-policy de-dup, dedicated news.html + News nav). **Next: P2 "credibility"** — honest per-dataset freshness, methodology/About page, Source+Note lines on every chart, citable-stat anchors, and the missing purposeful charts (state map, humanoid cost curve, sector-reliance, subsidy effect). Work top-down by priority section.
 
 ### Valuation watchlist — pending events surfaced in the 2026-06-22 refresh
 

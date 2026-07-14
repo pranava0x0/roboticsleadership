@@ -67,6 +67,7 @@
         <a href="policies.html">Policy</a>
         <a href="supply-chain.html">Supply Chain</a>
         <a href="china.html">US vs China</a>
+        <a href="news.html">News</a>
         <details class="primary-more">
           <summary>More</summary>
           <div class="primary-more-menu">
@@ -217,25 +218,9 @@
       </div>
     </details>
 
-    <details class="collapsible-section" id="sec-state" open>
-      <summary>
-        <h2 class="section-title">State incentives</h2>
-      </summary>
-      <div class="table-wrap">
-        <table class="data-table" id="state-table">
-          <thead>
-            <tr>
-              <th>State</th>
-              <th>Program</th>
-              <th class="hide-mobile">Status</th>
-              <th class="hide-mobile">Startup eligible</th>
-              <th class="hide-mobile">Updated</th>
-            </tr>
-          </thead>
-          <tbody id="state-tbody"></tbody>
-        </table>
-      </div>
-    </details>
+    <aside class="note-block" id="sec-state">
+      <p style="margin:0;"><strong>State &amp; local incentives</strong> — tax credits, grants, and where robots are actually authorized to operate — are tracked on the <a href="states.html">States page</a>, alongside the state-by-state narrative. This page is the federal record.</p>
+    </aside>
 
     <div id="empty" class="empty-state" hidden>No policies match those filters.</div>
   </main>
@@ -279,7 +264,8 @@
     `).join('');
 
     // ---- Build filter options ----
-    fillSelect('f-level', unique(policies.map(p => p.level)).sort());
+    // State & city policy lives on states.html now; keep this page's filter federal-only.
+    fillSelect('f-level', unique(policies.map(p => p.level)).filter(l => l !== 'State' && l !== 'City').sort());
     fillSelect('f-status', unique(policies.map(p => p.status)).sort());
     fillSelect('f-type', unique(policies.map(p => p.type)).sort());
 
@@ -336,7 +322,6 @@
 
       const congressRows = rows.filter(p => p.level === 'Federal' && p.type === 'Bill');
       const executiveRows = rows.filter(p => p.level === 'Federal' && p.type !== 'Bill');
-      const stateRows = rows.filter(p => p.level === 'State' || p.level === 'City');
 
       document.getElementById('congress-tbody').innerHTML = congressRows.length
         ? congressRows.map(p => `
@@ -374,21 +359,6 @@
             `;
           }).join('')
         : '<tr><td colspan="5" class="muted center">No executive items match.</td></tr>';
-
-      document.getElementById('state-tbody').innerHTML = stateRows.length
-        ? stateRows.map(p => `
-          <tr data-id="${RT.escapeHTML(p.id)}" tabindex="0">
-            <td><strong class="mono">${RT.escapeHTML(p.state)}</strong></td>
-            <td>
-              ${RT.escapeHTML(p.title)}
-              <span class="secondary-line">${RT.escapeHTML(p.robotics_scope || '')}</span>
-            </td>
-            <td class="hide-mobile">${statusPill(p.status)}</td>
-            <td class="hide-mobile">${p.startup_eligible ? '<span class="pill positive">Eligible</span>' : '<span class="pill outline">Limited</span>'}</td>
-            <td class="hide-mobile tnum">${RT.escapeHTML(RT.formatDate(p.last_updated))}</td>
-          </tr>
-        `).join('')
-        : '<tr><td colspan="5" class="muted center">No state items match.</td></tr>';
 
       // Wire row clicks
       document.querySelectorAll('[data-id]').forEach(tr => {
@@ -528,7 +498,7 @@
             <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
               ${related.slice(0, 6).map(n => `
                 <li>
-                  <a href="themes.html#${encodeURIComponent(n.id)}" style="color:inherit;border-bottom:none;">
+                  <a href="news.html#${encodeURIComponent(n.id)}" style="color:inherit;border-bottom:none;">
                     <div class="card-meta" style="font-size:11.5px;">
                       <span class="pill cat-${RT.slug(n.category)}">${RT.escapeHTML(n.category)}</span>
                       <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>

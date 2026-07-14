@@ -54,11 +54,11 @@ Every page is a chapter: Companies = America's lead · US vs China = the scorebo
 
 ## P1 — Focus: cut and merge (clean & crisp)
 
-- [ ] **Cut the market-map bubble galaxy** (`docs/companies.html:109-121`, JS `:439-538`, CSS `:18-52`). Packed bubbles can't be compared, labels truncate to ~3 chars, and the directory table below does the real work. Replace with a simple per-segment summary bar (count + total valuation, US vs China split) — or nothing. **M**
-- [ ] **Fix or cut "Tracked funding by year"** (`docs/index.html:85-90`). It measures *our tracking coverage*, not the market, and reads as an artifact. Either cut it (preferred — the valuations chart already covers capital) or relabel it explicitly as dataset coverage and move it to a methodology page. **S**
-- [ ] **Cut the supply-chain financing bar chart** (`docs/supply-chain.html:212-217`, `renderFinancingChart:535`) — duplicates the per-category financing columns. **S**
-- [ ] **De-duplicate state policy.** `policies.html` "State incentives" (`docs/policies.html:209-227`) and `states.html` "What's already on the books" render the same `level === 'State'` rows. Division of labor: **states.html = narrative + themes + (new) map; policies.html = the federal record**, with a link out to states. Render the state table once. **M**
-- [ ] **Surface News as News.** The news feed — the site's highest-cadence content — lives inside `themes.html` behind the "More" overflow menu, and index's "all news" link points there (`docs/index.html:121-123`). Either restore a `news.html` or rename/split the nav so "News" is a top-level item. Keep themes as the curated-narratives page. **M**
+- [x] **Cut the market-map bubble galaxy** *(done 2026-07-13).* Replaced with a per-segment summary bar (`#segment-summary` on companies.html): one comparable bar per segment, length ∝ total tracked value, split US / China / RoW; click a segment to filter the directory. Bubble CSS/JS (`.mm-*`, `renderMarketMap`, `packBubbles`) removed. **M**
+- [x] **Fix or cut "Tracked funding by year"** *(done 2026-07-13).* Cut from index.html; `renderFundingByYear` removed. The valuations chart now spans the capital section full-width. **S**
+- [x] **Cut the supply-chain financing bar chart** *(done 2026-07-13).* Removed `#chart-financing` + `renderFinancingChart`; "Financing the chain" now leads with the government-programs table (company financing stays in each category deep dive). **S**
+- [x] **De-duplicate state policy** *(done 2026-07-13).* The `level === 'State' | 'City'` table now renders once, on **states.html**. policies.html is the federal record: its state table is replaced by a pointer note to States, and State/City are dropped from its level filter. **M**
+- [x] **Surface News as News** *(done 2026-07-13).* The full filterable feed moved out of themes.html into a dedicated **news.html** with a top-level "News" nav entry on all pages. themes.html keeps the curated narratives + a link to News; all "recent activity" / "read more" links repointed to `news.html#<id>`. **M**
 - [ ] **Decide energy.html's fate.** Biggest page on the site (52KB, ~55 hardcoded company cards), weakest fit with the US-leadership thesis, and off the data pipeline (data is inline in the HTML; the `energy.json` README claims exists — `README.md:33` — does not). Options: (a) reframe and trim it hard around "robotics × energy is a US-leadership battleground" and move data to `energy.json`; (b) demote it from top nav to a linked sub-project. Do not leave it as-is: it dilutes the site's focus and can't be refreshed. **L**
 - [ ] **Collapse supply-chain.html reference blocks.** Stakeholder map + key-figures table + US-sites table go behind a single `<details>` "Reference data" disclosure. The page keeps: chain map, shipments by class, production trend (until promoted), share-by-category, deep dives. **S**
 
@@ -95,7 +95,7 @@ Every page is a chapter: Companies = America's lead · US vs China = the scorebo
 
 ## Suggested sequencing
 
-1. **Session 1 (share + thesis):** OG meta tags, executive brief, promote production-trend chart to index + china.html, china.html scoreline visual. This alone changes what a first-time visitor takes away.
-2. **Session 2 (cut + merge):** bubble galaxy, funding-by-year, financing bar, state de-dup, News nav fix.
-3. **Session 3 (credibility):** freshness honesty, methodology page, source/note lines, citable anchors.
+1. ~~**Session 1 (share + thesis):** OG meta tags, executive brief, promote production-trend chart to index + china.html, china.html scoreline visual.~~ *Done 2026-07-09.*
+2. ~~**Session 2 (cut + merge):** bubble galaxy, funding-by-year, financing bar, state de-dup, News nav fix.~~ *Done 2026-07-13.*
+3. **Session 3 (credibility):** freshness honesty, methodology page, source/note lines, citable anchors. **← next**
 4. **Session 4+ (new charts + energy decision + perf).**
