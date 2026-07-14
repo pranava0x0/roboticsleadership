@@ -26,41 +26,28 @@
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/companies.json" crossorigin />
   <style>
-    /* Market map — accordion of packed-bubble segment panels. Tokens only. */
-    .mm-grid { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
-    .mm-panel { border: 1px solid var(--border); border-radius: 10px; background: var(--surface-2); min-width: 0; overflow: hidden; }
-    .mm-panel[open] { border-color: var(--mm-color); }
-    .mm-panel-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; cursor: pointer; padding: 11px 14px; list-style: none; }
-    .mm-panel-head::-webkit-details-marker { display: none; }
-    .mm-panel-head::before { content: ''; width: 10px; height: 10px; border-radius: 50%; background: var(--mm-color); flex: none; }
-    .mm-panel-head::after { content: '+'; margin-left: auto; color: var(--text-faint); font-size: 16px; line-height: 1; }
-    .mm-panel[open] .mm-panel-head::after { content: '–'; }
-    .mm-panel-head:hover { background: color-mix(in srgb, var(--mm-color) 8%, transparent); }
-    .mm-panel-head:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
-    .mm-panel-title { font-size: 13.5px; font-weight: 650; color: var(--text); }
-    .mm-panel-meta { font-size: 11px; color: var(--text-faint); letter-spacing: 0.03em; }
-    .mm-panel-filter { font-size: 11px; background: none; border: 1px solid var(--border-strong); border-radius: 999px; padding: 2px 10px; color: var(--text-muted); cursor: pointer; font-family: inherit; min-height: 24px; }
-    .mm-panel-filter:hover { color: var(--text); border-color: var(--mm-color); }
-    .mm-panel-body { padding: 0 14px 10px; }
-    .mm-panel svg { display: block; width: 100%; max-width: 720px; margin: 0 auto; height: auto; overflow: visible; }
-    .mm-bubble { cursor: pointer; transform-box: fill-box; transform-origin: center; transition: transform 130ms ease, filter 130ms ease; }
-    .mm-bubble:hover, .mm-bubble:focus-visible { transform: scale(1.12); filter: brightness(1.15); outline: none; }
-    .mm-bubble circle.body { fill: color-mix(in srgb, var(--mm-color) 22%, var(--surface)); }
-    .mm-bubble circle.rim { fill: none; stroke: var(--mm-color); stroke-width: 1.6; }
-    .mm-bubble.cn circle.rim { stroke-dasharray: 4 3; }
-    .mm-bubble.row circle.rim { stroke-dasharray: 1.4 2.6; }
-    .mm-bubble text { fill: var(--text); font-size: 9px; font-weight: 600; pointer-events: none; }
-    @media (prefers-reduced-motion: no-preference) {
-      .mm-bubble { animation: mm-pop 380ms cubic-bezier(0.34, 1.56, 0.64, 1) backwards; }
-    }
-    @keyframes mm-pop { from { transform: scale(0); } to { transform: scale(1); } }
-    .mm-legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 12px; font-size: 12px; color: var(--text-muted); align-items: center; }
-    .mm-legend svg { vertical-align: -2px; margin-right: 3px; }
-    .mm-legend-size { color: var(--text-faint); margin-left: auto; }
-    .mm-tooltip { position: fixed; z-index: 60; background: var(--surface); border: 1px solid var(--border-strong); border-radius: 8px; padding: 8px 11px; font-size: 12px; color: var(--text); pointer-events: none; box-shadow: 0 6px 24px rgba(0,0,0,0.18); max-width: 240px; }
-    .mm-tooltip[hidden] { display: none; }
-    .mm-tooltip .tt-name { font-weight: 650; font-size: 13px; }
-    .mm-tooltip .tt-line { color: var(--text-muted); margin-top: 2px; }
+    /* Segment summary — one comparable bar per segment, split US / China / RoW by capital. Tokens only. */
+    .seg-summary { display: flex; flex-direction: column; gap: 14px; margin-top: 16px; }
+    .seg-row { display: flex; flex-direction: column; gap: 6px; width: 100%; text-align: left; background: none; border: none; padding: 6px; margin: -6px; border-radius: 8px; cursor: pointer; font: inherit; color: inherit; }
+    .seg-row:hover { background: var(--surface-2); }
+    .seg-row:focus-visible { outline: 2px solid var(--accent); outline-offset: 0; }
+    .seg-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+    .seg-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--seg-color); flex: none; align-self: center; }
+    .seg-name { font-size: 13.5px; font-weight: 650; color: var(--text); }
+    .seg-meta { font-size: 11.5px; color: var(--text-muted); letter-spacing: 0.02em; margin-left: auto; }
+    .seg-meta .tnum { color: var(--text); font-weight: 650; }
+    .seg-track { width: 100%; }
+    .seg-bar { display: flex; height: 22px; border-radius: 6px; overflow: hidden; background: var(--surface-2); border: 1px solid var(--border); }
+    .seg-seg { height: 100%; min-width: 0; }
+    .seg-seg.us  { background: color-mix(in srgb, var(--cat-supplychain) 80%, var(--surface)); }
+    .seg-seg.cn  { background: color-mix(in srgb, var(--status-negative) 72%, var(--surface)); }
+    .seg-seg.row { background: color-mix(in srgb, var(--status-neutral) 46%, var(--surface)); }
+    .seg-legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 16px; font-size: 12px; color: var(--text-muted); align-items: center; }
+    .seg-legend .sw { display: inline-block; width: 11px; height: 11px; border-radius: 3px; vertical-align: -1px; margin-right: 5px; }
+    .seg-legend .sw.us  { background: color-mix(in srgb, var(--cat-supplychain) 80%, var(--surface)); }
+    .seg-legend .sw.cn  { background: color-mix(in srgb, var(--status-negative) 72%, var(--surface)); }
+    .seg-legend .sw.row { background: color-mix(in srgb, var(--status-neutral) 46%, var(--surface)); }
+    .seg-legend-note { color: var(--text-faint); margin-left: auto; }
   </style>
 </head>
 <body>
@@ -77,6 +64,7 @@
         <a href="policies.html">Policy</a>
         <a href="supply-chain.html">Supply Chain</a>
         <a href="china.html">US vs China</a>
+        <a href="news.html">News</a>
         <details class="primary-more">
           <summary>More</summary>
           <div class="primary-more-menu">
@@ -115,21 +103,20 @@
       </p>
     </aside>
 
-    <!-- Market map -->
+    <!-- Segment summary -->
     <h2 class="section-title">The map of the space</h2>
-    <div class="chart" id="market-map">
-      <h3>Seven segments, one galaxy</h3>
-      <p class="chart-sub">Every tracked company, sized by latest valuation (or total raised where valuation is undisclosed). Expand a segment to see its bubbles; click a bubble for the dossier, or "filter table" to narrow the directory below.</p>
-      <div class="mm-grid" id="mm-grid"></div>
-      <div class="mm-legend">
-        <span><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="5.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>US — solid ring</span>
-        <span><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="4 3"/></svg>China — dashed</span>
-        <span><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="1.4 2.6"/></svg>Rest of world — dotted</span>
-        <span class="mm-legend-size">Bubble area ∝ $ value</span>
+    <div class="chart" id="segment-summary">
+      <h3>Where the capital sits — by segment and by country</h3>
+      <p class="chart-sub">Total tracked value per segment (latest valuation, or total raised where valuation is undisclosed), split by where the companies are based. Bar length is comparable across segments; click a segment to filter the directory below.</p>
+      <div class="seg-summary" id="seg-summary"></div>
+      <div class="seg-legend">
+        <span><span class="sw us"></span>United States</span>
+        <span><span class="sw cn"></span>China</span>
+        <span><span class="sw row"></span>Rest of world</span>
+        <span class="seg-legend-note">Bar length ∝ total tracked $ value</span>
       </div>
       <p class="chart-source">Segmentation follows the SemiAnalysis layer framing — components → platform OEMs → brains → enablers (<a href="https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global" target="_blank" rel="noopener">How China's Unitree Will Dominate Global Robotics</a>, <a href="https://newsletter.semianalysis.com/p/america-is-missing-the-new-labor-economy-robotics-part-1" target="_blank" rel="noopener">America Is Missing the New Labor Economy</a>).</p>
     </div>
-    <div id="mm-tooltip" class="mm-tooltip" hidden></div>
 
     <h2 class="section-title">Directory</h2>
     <form class="filter-bar" id="filter-form" onsubmit="return false;" aria-label="Filter companies">
@@ -169,7 +156,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>Every record carries a confidence level and primary-source citations. <a href="themes.html">See recent activity →</a></p>
+    <p>Every record carries a confidence level and primary-source citations. <a href="news.html">See recent activity →</a></p>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 
@@ -226,7 +213,7 @@
       render();
     });
 
-    renderMarketMap();
+    renderSegmentSummary();
 
     function render() {
       const search = document.getElementById('f-search').value.trim();
@@ -416,7 +403,7 @@
             <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
               ${related.slice(0, 5).map(n => `
                 <li>
-                  <a href="themes.html#${encodeURIComponent(n.id)}" style="color:inherit;border-bottom:none;">
+                  <a href="news.html#${encodeURIComponent(n.id)}" style="color:inherit;border-bottom:none;">
                     <div class="card-meta" style="font-size:11.5px;">
                       <span class="pill cat-${RT.slug(n.category)}">${RT.escapeHTML(n.category)}</span>
                       <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
@@ -444,108 +431,69 @@
 
     function unique(arr) { return [...new Set(arr.filter(Boolean))]; }
 
-    // ---- Market map (packed-bubble panels) ----
+    // ---- Segment summary (one comparable bar per segment) ----
+    // Bubbles couldn't be compared and labels truncated to ~3 chars; this ranks
+    // segments by total tracked capital and splits each by country — the argument
+    // the page actually makes. Value = latest valuation, else total raised.
+    // Built with DOM APIs (textContent) rather than innerHTML: no untrusted markup.
     function bubbleValue(c) { return c.latest_valuation_usd || c.total_funding_usd || 1e7; }
+    function countryOf(c) { return c.hq?.country === 'USA' ? 'us' : c.hq?.country === 'China' ? 'cn' : 'row'; }
 
-    function renderMarketMap() {
-      const grid = document.getElementById('mm-grid');
-      const maxV = Math.max(...companies.map(bubbleValue));
-      // log scale: $10M → r 8, max value → r 42
-      const rOf = (v) => 8 + 34 * (Math.log10(Math.max(v, 1e7)) - 7) / (Math.log10(maxV) - 7);
-      let animIdx = 0;
+    function renderSegmentSummary() {
+      const host = document.getElementById('seg-summary');
+      host.textContent = '';
 
-      grid.innerHTML = presentSegments.map((segId, idx) => {
+      const segs = presentSegments.map(segId => {
         const seg = SEGMENTS[segId] || { label: segId, color: 'var(--accent)' };
-        const items = companies.filter(c => c.map_category === segId)
-          .map(c => ({ c, r: rOf(bubbleValue(c)) }))
-          .sort((a, b) => b.r - a.r);
-        const W = 640;
-        const H = items.length > 8 ? 200 : 160;
-        const placed = packBubbles(items, W, H);
-        const totalV = items.reduce((s, x) => s + bubbleValue(x.c), 0);
-        const bubbles = placed.map(({ c, r, x, y }) => {
-          const country = c.hq?.country === 'USA' ? 'us' : c.hq?.country === 'China' ? 'cn' : 'row';
-          const short = c.name.split(/[\s(]/)[0];
-          const label = r >= 13 ? `<text x="${x}" y="${y + 3}" text-anchor="middle" style="font-size:${Math.min(10.5, r / 2.4)}px">${RT.escapeHTML(short.slice(0, Math.floor(r / 3.2)))}</text>` : '';
-          return `<g class="mm-bubble ${country}" data-id="${RT.escapeHTML(c.id)}" tabindex="0" role="button"
-                     aria-label="${RT.escapeHTML(c.name)} — ${RT.formatUSD(bubbleValue(c))}"
-                     style="animation-delay:${(animIdx++) * 18}ms">
-            <circle class="body" cx="${x}" cy="${y}" r="${r}"></circle>
-            <circle class="rim" cx="${x}" cy="${y}" r="${r}"></circle>
-            ${label}
-          </g>`;
-        }).join('');
-        return `
-          <details class="mm-panel" style="--mm-color:${seg.color}" ${idx === 0 ? 'open' : ''}>
-            <summary class="mm-panel-head">
-              <span class="mm-panel-title">${RT.escapeHTML(seg.label)}</span>
-              <span class="mm-panel-meta tnum">${items.length} companies · ${RT.formatUSD(totalV)}</span>
-              <button type="button" class="mm-panel-filter" data-segment="${RT.escapeHTML(segId)}">filter table ↓</button>
-            </summary>
-            <div class="mm-panel-body">
-              <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${RT.escapeHTML(seg.label)} companies">${bubbles}</svg>
-            </div>
-          </details>`;
-      }).join('');
+        const items = companies.filter(c => c.map_category === segId);
+        const total = items.reduce((s, c) => s + bubbleValue(c), 0);
+        const split = { us: 0, cn: 0, row: 0 };
+        items.forEach(c => { split[countryOf(c)] += bubbleValue(c); });
+        return { segId, label: seg.label, color: seg.color, count: items.length, total, split };
+      }).filter(s => s.count).sort((a, b) => b.total - a.total);
 
-      // bubble interactions: click/keyboard → dossier; hover → tooltip
-      const tip = document.getElementById('mm-tooltip');
-      grid.querySelectorAll('.mm-bubble').forEach(g => {
-        const c = companies.find(x => x.id === g.dataset.id);
-        g.addEventListener('click', () => openDetail(g.dataset.id));
-        g.addEventListener('keydown', (e) => {
-          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openDetail(g.dataset.id); }
+      const maxTotal = Math.max(...segs.map(s => s.total), 1);
+      const COUNTRY = { us: 'United States', cn: 'China', row: 'Rest of world' };
+      const el = (tag, cls) => { const n = document.createElement(tag); if (cls) n.className = cls; return n; };
+
+      segs.forEach(s => {
+        const btn = el('button', 'seg-row');
+        btn.type = 'button';
+        btn.dataset.segment = s.segId;
+        btn.setAttribute('aria-label',
+          `${s.label} — ${s.count} companies, ${RT.formatUSD(s.total)} tracked. Filter directory.`);
+
+        const head = el('span', 'seg-head');
+        const dot = el('span', 'seg-dot');
+        dot.style.setProperty('--seg-color', s.color);
+        const name = el('span', 'seg-name');
+        name.textContent = s.label;
+        const meta = el('span', 'seg-meta');
+        const nCount = el('span', 'tnum'); nCount.textContent = s.count;
+        const nTotal = el('span', 'tnum'); nTotal.textContent = RT.formatUSD(s.total);
+        meta.append(nCount, document.createTextNode(' cos · '), nTotal);
+        head.append(dot, name, meta);
+
+        const track = el('span', 'seg-track');
+        const bar = el('span', 'seg-bar');
+        bar.style.width = `${((s.total / maxTotal) * 100).toFixed(1)}%`;
+        ['us', 'cn', 'row'].filter(k => s.split[k] > 0).forEach(k => {
+          const pct = (s.split[k] / s.total) * 100;
+          const part = el('span', `seg-seg ${k}`);
+          part.style.flex = `0 0 ${pct}%`;
+          part.title = `${COUNTRY[k]} — ${RT.formatUSD(s.split[k])} (${Math.round(pct)}%)`;
+          bar.append(part);
         });
-        g.addEventListener('mousemove', (e) => {
-          tip.hidden = false;
-          tip.innerHTML = `
-            <div class="tt-name">${RT.escapeHTML(c.name)}</div>
-            <div class="tt-line">${RT.escapeHTML(RT.prettyHQ(c.hq))} · ${RT.escapeHTML(c.flagship_product || c.primary_use_case || '')}</div>
-            <div class="tt-line tnum">${c.latest_valuation_usd ? `Valuation ${RT.formatUSD(c.latest_valuation_usd)}` : `Raised ${RT.formatUSD(c.total_funding_usd, { fallback: 'undisclosed' })}`}</div>`;
-          const x = Math.min(e.clientX + 14, window.innerWidth - tip.offsetWidth - 8);
-          const y = Math.min(e.clientY + 14, window.innerHeight - tip.offsetHeight - 8);
-          tip.style.left = `${x}px`;
-          tip.style.top = `${y}px`;
-        });
-        g.addEventListener('mouseleave', () => { tip.hidden = true; });
-      });
-      // "filter table" button → filter the directory (don't toggle the accordion)
-      grid.querySelectorAll('.mm-panel-filter').forEach(btn => {
-        btn.addEventListener('click', (e) => {
-          e.preventDefault();
-          e.stopPropagation();
-          document.getElementById('f-segment').value = btn.dataset.segment;
+        track.append(bar);
+
+        btn.append(head, track);
+        btn.addEventListener('click', () => {
+          document.getElementById('f-segment').value = s.segId;
           render();
           document.getElementById('filter-form').scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
+        host.append(btn);
       });
-    }
-
-    // Greedy spiral packing: biggest bubble at center, the rest walk an
-    // elliptical spiral outward until they fit without overlap.
-    function packBubbles(items, W, H) {
-      const placed = [];
-      const pad = 2.5;
-      items.forEach(it => {
-        if (!placed.length) {
-          placed.push({ ...it, x: W / 2, y: H / 2 });
-          return;
-        }
-        for (let t = 0; t < 4000; t++) {
-          const ang = t * 0.32;
-          const rad = 1 + t * 0.16;
-          const x = W / 2 + Math.cos(ang) * rad;
-          const y = H / 2 + Math.sin(ang) * rad * (H / W);
-          if (x - it.r < 2 || x + it.r > W - 2 || y - it.r < 2 || y + it.r > H - 2) continue;
-          if (placed.every(p => Math.hypot(p.x - x, p.y - y) >= p.r + it.r + pad)) {
-            placed.push({ ...it, x, y });
-            return;
-          }
-        }
-        // fallback: park it bottom-left rather than dropping it
-        placed.push({ ...it, x: it.r + 4, y: H - it.r - 4 });
-      });
-      return placed;
     }
 
     // Initial render
