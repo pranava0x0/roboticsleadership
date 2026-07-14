@@ -127,13 +127,26 @@
     return String(s == null ? '' : s).toLowerCase().replace(/[^a-z0-9-]+/g, '');
   }
 
+  // Only allow http(s) or site-relative/anchor URLs as hrefs built from data.
+  // escapeHTML alone stops attribute breakout but NOT a `javascript:`/`data:`
+  // scheme in a scraped source_url — this rejects those to '#'. Defense in
+  // depth: our committed JSON is trusted, but a bad scrape shouldn't ship a
+  // clickable script link. Pair with escapeHTML at the sink.
+  function safeURL(u) {
+    if (u == null) return '#';
+    const s = String(u).trim();
+    if (/^https?:\/\//i.test(s)) return s;   // absolute http(s)
+    if (/^(\/|\.\/|#)/.test(s)) return s;    // site-relative or in-page anchor
+    return '#';                              // reject javascript:, data:, vbscript:, …
+  }
+
   // ---------- Source / archive helpers ----------
   // sources[] entries are either strings (legacy) or { url, archive_url } objects.
   function sourceURL(s) { return typeof s === 'string' ? s : (s && s.url) || ''; }
   function sourceArchive(s) { return typeof s === 'string' ? null : (s && s.archive_url) || null; }
   function archiveLink(archiveUrl, label) {
     if (!archiveUrl) return '';
-    return `<a class="archive-link" href="${escapeHTML(archiveUrl)}" target="_blank" rel="noopener" title="Wayback Machine snapshot">${escapeHTML(label || 'archived')} ↗</a>`;
+    return `<a class="archive-link" href="${escapeHTML(safeURL(archiveUrl))}" target="_blank" rel="noopener" title="Wayback Machine snapshot">${escapeHTML(label || 'archived')} ↗</a>`;
   }
 
   // ---------- Theme picker (4-up; see DESIGN.md § 15) ----------
@@ -382,9 +395,9 @@
       ? `<span class="pill mixed">${escapeHTML(n.confidence)} confidence</span>`
       : '';
 
-    const titleLink = opts.linkToFeed 
-      ? `themes.html#${encodeURIComponent(n.id)}` 
-      : escapeHTML(n.source_url);
+    const titleLink = opts.linkToFeed
+      ? `news.html#${encodeURIComponent(n.id)}`
+      : escapeHTML(safeURL(n.source_url));
     const titleTarget = opts.linkToFeed ? '' : ' target="_blank" rel="noopener"';
 
     return `
@@ -405,7 +418,7 @@
         <div class="footer-row">
           ${companyPills}${policyPills}
           <span class="row-end">
-            <a href="${escapeHTML(n.source_url)}" target="_blank" rel="noopener">Read original →</a>
+            <a href="${escapeHTML(safeURL(n.source_url))}" target="_blank" rel="noopener">Read original →</a>
             ${archiveLink(n.archive_url)}
           </span>
         </div>
@@ -422,7 +435,7 @@
     return (sources || []).map((s) => {
       const url = typeof s === 'string' ? s : (s && s.url) || '';
       const label = (typeof s === 'object' && s && s.label) || urlHostname(url);
-      return `<a href="${escapeHTML(url)}" target="_blank" rel="noopener" title="${escapeHTML(url)}">${escapeHTML(label)}</a>`;
+      return `<a href="${escapeHTML(safeURL(url))}" target="_blank" rel="noopener" title="${escapeHTML(url)}">${escapeHTML(label)}</a>`;
     }).join(' ');
   }
 
@@ -524,6 +537,7 @@
     prettyHQ,
     escapeHTML,
     slug,
+    safeURL,
     sourceURL,
     sourceArchive,
     archiveLink,

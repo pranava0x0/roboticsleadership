@@ -480,7 +480,7 @@ h2.section-title {
 
 /* ============================================================
    Executive brief — three quotable findings under the BLUF.
-   FAI-style: each bullet stands alone in a staffer's memo.
+   Memo-style: each bullet stands alone as a staffer's takeaway.
    ============================================================ */
 .exec-brief {
   max-width: 74ch;
