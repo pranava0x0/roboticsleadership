@@ -296,6 +296,11 @@
       RT.writeQuery({ search, level, status, type, sort });
 
       let rows = policies.filter(p => {
+        // This page is the federal record; state/city policy lives on states.html.
+        // Filter to Federal at the source so the result count, empty state, and
+        // both tables stay consistent (a search matching only state rows must
+        // read as "no federal matches", not a nonzero count with empty tables).
+        if (p.level !== 'Federal') return false;
         if (level && p.level !== level) return false;
         if (status && p.status !== status) return false;
         if (type && p.type !== type) return false;
