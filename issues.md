@@ -4,7 +4,15 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 ## Open
 
-No open issues.
+### 2026-07-16 — app.js — `loadData` cache stampede: concurrent callers double-fetch the same dataset
+
+- **Area:** data fetching (`docs/assets/app.js:11-24`).
+- **Symptom:** `sources.json` was requested **twice** on every page load. Found while verifying WS0's dead-fetch removal — the network panel showed the duplicate after `agencies.json` correctly disappeared.
+- **Root cause (code bug):** the in-memory cache stores the *resolved* value (`cache[name] = json`) only after `await fetch(...)` returns. Two callers racing for the same dataset both evaluate `if (cache[name])` before either resolves, so both miss and both fetch. `loadAll()` and `loadHeaderUpdated()` did exactly this on `sources.json`.
+- **Impact today:** small — one extra 4KB request on each page. It gets worse with WS5, which lazy-loads datasets from several call sites at once; that's precisely the pattern that races.
+- **Status:** Open. Partially mitigated 2026-07-16 by removing `sources.json` from `loadAll()` (the two racers no longer overlap), but the underlying cache is still stampede-prone for any future concurrent pair.
+- **Fix:** cache the in-flight **promise** rather than the value — `if (!cache[name]) cache[name] = fetch(...).then(...)` — so concurrent calls collapse to one request. Tracked in `improvement-plan-2.md` WS5.
+- **Regression coverage:** none yet; needs a test that fires two `loadData` calls for the same name concurrently and asserts a single fetch (stub `globalThis.fetch`, count calls).
 
 ## Fixed
 
