@@ -135,6 +135,15 @@ No open issues.
 - **Regression test:** in `uat.md` as "Dashboard — archive-link parity with news.html." A UAT pass diffs `count(.archive-link in #recent-news)` against the count of recent-news records with `archive_url`.
 - **Lesson:** the news-card template is duplicated between `index.html` and `news.html`. Future changes to it should touch both — or, better, extract a `renderNewsCard()` helper into `app.js` so the next divergence is impossible. Tracked in backlog.
 
+### 2026-07-16 — energy.html — Prime Mover nav chip counted DOM nodes that did not exist yet
+
+- **Status:** Fixed (code review of the Prime Mover section, before merge).
+- **Root cause:** code bug (benign) — `renderEnergy()` set the chip count from `document.querySelectorAll('#prime-mover .rfi-q').length`, but `renderPrimeMover()` (which populates `#pm-questions`) runs *later* in the same synchronous task. The expression always evaluated to `0`. No user-visible symptom, because `apply('full')` overwrote the chip with the correct count before paint — the line read as if it derived the count while doing nothing.
+- **Repro:** log the value at assignment time in `renderEnergy()` — it is `0` on every load, for every variant.
+- **Fix:** dropped the dead query; `renderPrimeMover()` owns the count and already re-derives it from `PM_VARIANTS` on load and on every variant switch. Verified in-browser: chip reads 32 on load, 7 after "Lean", 32 back on "Full".
+- **Regression test:** indirect — `scripts/energy.test.js` § 7 now asserts every variant is wired to a real button and that counts derive from `PM_VARIANTS` (the data), which is the invariant the dead line pretended to uphold. The ordering rule itself is documented in CLAUDE.md § Project-specific.
+- **Lesson:** in the inline-data pages (no `fetch`, everything synchronous), script order *is* the dependency graph. Counting rendered DOM from an earlier IIFE is always a bug; derive from the data.
+
 ### 2026-05-17 — CI scrapers pushed raw scraper output directly to main
 
 - **Status:** Fixed (commit `862f3f0` reverts; new workflow design opens PRs instead).
