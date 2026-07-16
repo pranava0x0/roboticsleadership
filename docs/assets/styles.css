@@ -662,6 +662,20 @@ footer.site-footer .footer-credit {
   gap: 2px;
   min-width: 0;
 }
+/* KPI cards are drill-down links (dashboard). Anchor styling is neutralised so
+   they still read as cards, with the hover lift borrowed from .card-hoverable
+   as the affordance; :focus-visible is handled globally. The 44px floor keeps
+   the touch target legal even when a card holds only a short value. */
+a.kpi-card {
+  color: inherit;
+  min-height: 44px;
+  transition: transform 120ms, box-shadow 120ms, border-color 120ms;
+}
+a.kpi-card:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-elevated);
+  border-color: var(--border-strong);
+}
 
 .kpi-label {
   font-size: 10px;

@@ -182,12 +182,17 @@
       p.level === 'Federal' && p.type !== 'Bill' && inEffect.includes(p.status)
     ).length;
 
+    // Every KPI links to the view it was counted from — a staffer who reads
+    // "35 unicorns" should be one click from the list. Where a count can't be
+    // expressed exactly as a filter (status is single-valued, so "Signed OR
+    // In effect" isn't a URL), the link points at the closest honest superset
+    // rather than a filtered view whose total wouldn't match the number above.
     const kpis = [
-      { label: `Tracked funding · ${thisYear}`, value: RT.formatUSD(ytdFunding), sub: `${companies.length} companies tracked` },
-      { label: 'Unicorns', value: String(unicornCount), sub: 'companies ≥ $1B valuation' },
-      { label: 'Active deployments', value: String(activeDeployments), sub: 'production / commercial' },
-      { label: 'Congress · in progress', value: String(congressInProgress), sub: 'bills, pre-enactment' },
-      { label: 'Executive · in effect', value: String(executiveInEffect), sub: 'agency rules, programs' },
+      { label: `Tracked funding · ${thisYear}`, value: RT.formatUSD(ytdFunding), sub: `${companies.length} companies tracked`, href: 'companies.html?sort=funding-desc' },
+      { label: 'Unicorns', value: String(unicornCount), sub: 'companies ≥ $1B valuation', href: 'companies.html?sort=valuation-desc' },
+      { label: 'Active deployments', value: String(activeDeployments), sub: 'production / commercial', href: 'companies.html' },
+      { label: 'Congress · in progress', value: String(congressInProgress), sub: 'bills, pre-enactment', href: 'policies.html?level=Federal&type=Bill' },
+      { label: 'Executive · in effect', value: String(executiveInEffect), sub: 'agency rules, programs', href: 'policies.html?level=Federal' },
     ];
 
     // The China-gap KPI — the strip should reflect the thesis, not just the
@@ -196,17 +201,17 @@
     const lastActual = [...trendRows].reverse().find(r => !r.projected && r.china_units && r.us_units);
     if (lastActual) {
       const ratio = Math.round(lastActual.china_units / lastActual.us_units);
-      kpis.splice(2, 0, { label: 'Install gap', value: `${ratio}×`, sub: `China vs US robot installs · ${lastActual.year}` });
+      kpis.splice(2, 0, { label: 'Install gap', value: `${ratio}×`, sub: `China vs US robot installs · ${lastActual.year}`, href: 'china.html' });
     }
 
     const strip = document.getElementById('kpi-strip');
     if (kpis.length === 6) strip.classList.add('cols-6');
     strip.innerHTML = kpis.map(k => `
-      <div class="kpi-card">
+      <a class="kpi-card" href="${RT.escapeHTML(k.href)}">
         <span class="kpi-label">${RT.escapeHTML(k.label)}</span>
         <span class="kpi-value tnum">${RT.escapeHTML(k.value)}</span>
         <span class="kpi-sub">${RT.escapeHTML(k.sub)}</span>
-      </div>
+      </a>
     `).join('');
 
     // ---------- Charts ----------
