@@ -135,12 +135,12 @@
     .e-filter { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 18px 0 2px; }
     .e-filter input[type="search"] {
       flex: 1 1 240px; min-width: 0; min-height: 44px;
-      padding: 9px 13px; border-radius: var(--radius-card, 10px);
+      padding: 9px 13px; border-radius: var(--radius-card);
       border: 1px solid var(--border); background: var(--surface);
       color: var(--text); font-size: 14px; font-family: inherit;
     }
     .e-filter select {
-      min-height: 44px; padding: 9px 12px; border-radius: var(--radius-card, 10px);
+      min-height: 44px; padding: 9px 12px; border-radius: var(--radius-card);
       border: 1px solid var(--border); background: var(--surface);
       color: var(--text); font-size: 13.5px; font-family: inherit; cursor: pointer;
     }
@@ -166,7 +166,7 @@
     .e-cand {
       display: flex; flex-direction: column; gap: 7px;
       padding: 12px 13px; border: 1px solid var(--border);
-      border-radius: var(--radius-card, 10px); background: var(--surface);
+      border-radius: var(--radius-card); background: var(--surface);
     }
     .e-cand-head { display: flex; align-items: center; gap: 8px; justify-content: space-between; }
     .e-cand-name { font-family: var(--font-serif); font-weight: 700; font-size: 15px; line-height: 1.2; margin: 0; }
@@ -174,7 +174,7 @@
     .e-cand-foot { display: flex; align-items: center; gap: 10px; margin-top: 1px; flex-wrap: wrap; }
 
     /* ---- Project Prime Mover — draft inquiry ---- */
-    .rfi-frame { margin-top: 14px; border: 1px solid var(--border-strong, var(--border)); border-radius: var(--radius-card, 10px); background: var(--surface); overflow: hidden; }
+    .rfi-frame { margin-top: 14px; border: 1px solid var(--border-strong); border-radius: var(--radius-card); background: var(--surface); overflow: hidden; }
     .rfi-head { padding: 20px 22px 16px; border-bottom: 1px solid var(--border); }
     .rfi-doc-title { font-family: var(--font-serif); font-size: 19px; font-weight: 700; line-height: 1.3; margin: 8px 0 0; }
     .rfi-meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px 18px; margin: 14px 0 0; }
@@ -185,11 +185,15 @@
     .rfi-body h3 { font-size: 15px; margin: 22px 0 8px; }
     .rfi-audience { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 0; padding: 0; list-style: none; }
     .rfi-audience li { font-size: 12px; font-weight: 600; color: var(--text-muted); border: 1px solid var(--border); border-radius: 999px; padding: 4px 10px; }
-    .rfi-note { border: 1px dashed var(--border-strong, var(--border)); border-radius: var(--radius-card, 10px); padding: 12px 14px; margin: 14px 0 4px; font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+    .rfi-note { border: 1px dashed var(--border-strong); border-radius: var(--radius-card); padding: 12px 14px; margin: 14px 0 4px; font-size: 13px; color: var(--text-muted); line-height: 1.6; }
     .rfi-note strong { color: var(--text); }
-    .rfi-cat { border: 1px solid var(--border); border-radius: var(--radius-card, 10px); background: var(--surface); margin: 10px 0; }
+    .rfi-cat { border: 1px solid var(--border); border-radius: var(--radius-card); background: var(--surface); margin: 10px 0; }
     .rfi-cat summary { display: flex; align-items: baseline; gap: 10px; padding: 12px 14px; cursor: pointer; list-style: none; }
     .rfi-cat summary::-webkit-details-marker { display: none; }
+    /* Supply our own marker — hiding the native one without a replacement leaves a
+       collapsed category looking like an inert row. Mirrors details.collapsible-section. */
+    .rfi-cat summary::before { content: "▶"; flex: 0 0 auto; font-size: 10px; color: var(--text-muted); transition: transform 120ms; }
+    .rfi-cat[open] summary::before { transform: rotate(90deg); }
     .rfi-cat summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: inherit; }
     .rfi-cat-letter { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 700; font-size: 13px; color: var(--accent); flex: 0 0 auto; }
     .rfi-cat-title { font-family: var(--font-serif); font-weight: 700; font-size: 15.5px; margin: 0; }
@@ -205,11 +209,11 @@
     .rfi-vbtn { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-muted); font-size: 12.5px; font-weight: 600; font-family: inherit; cursor: pointer; transition: color 120ms, border-color 120ms, background 120ms; }
     .rfi-vbtn:hover { color: var(--text); border-color: var(--border-strong); }
     .rfi-vbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
-    .rfi-vbtn[aria-pressed="true"] { color: var(--accent-ink, var(--text)); border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }
+    .rfi-vbtn[aria-pressed="true"] { color: var(--text); border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }
     .rfi-vbtn .rfi-vn { font-variant-numeric: tabular-nums; color: var(--text-faint); font-weight: 500; }
     .rfi-vbtn[aria-pressed="true"] .rfi-vn { color: inherit; }
     .rfi-variant-note { font-size: 12.5px; color: var(--text-muted); margin: 0 0 10px; }
-    .rfi-checklist { border: 1px solid var(--border); border-radius: var(--radius-card, 10px); background: var(--surface); padding: 12px 14px; margin: 10px 0; }
+    .rfi-checklist { border: 1px solid var(--border); border-radius: var(--radius-card); background: var(--surface); padding: 12px 14px; margin: 10px 0; }
     .rfi-checklist[hidden] { display: none; }
     .rfi-checklist-title { margin: 0 0 8px; font-size: 13.5px; font-weight: 600; color: var(--text); }
     .rfi-checklist-title span { font-weight: 400; color: var(--text-faint); font-size: 12px; }
@@ -333,7 +337,7 @@
         <span class="pill warning">Draft — for discussion</span>
       </div>
       <p class="e-section-sub">
-        If Washington wanted to act on everything this page documents, step one is asking the right questions. This is a draft of that instrument — an unofficial concept for a national inquiry the Department of Energy could issue, with every question carrying a stable ID so responses can be split, clustered, and synthesized straight into a report and roadmap.
+        If Washington wanted to act on everything this page documents, step one is asking the right questions. This is a draft of that instrument — an unofficial concept for a national inquiry the Department of Energy could issue, with every question carrying an ID that's stable within its draft, so responses can be split, clustered, and synthesized straight into a report and roadmap.
       </p>
 
       <div class="rfi-frame">
@@ -349,7 +353,7 @@
         </div>
         <div class="rfi-body">
           <p>
-            The Department seeks input from industry, academia, labor, and the investment community to inform potential Departmental actions on robotics and physical AI across the energy and manufacturing sectors — where robots are already standard at power plants and substations and autonomy is moving up the stack into building solar farms, repairing turbine blades, drilling wells, mining critical minerals, and running materials-discovery labs. Responses will inform a public report and a technology-and-deployment roadmap covering applications, deployment barriers, workforce, supply chains, and research-and-development priorities. This inquiry would not commit the Department to any action and is not a funding solicitation.
+            The Department seeks input from industry, academia, labor, and the investment community to inform potential Departmental actions on robotics and physical AI across the energy and manufacturing sectors — where robots are already in service at power plants and substations and autonomy is moving up the stack into building solar farms, repairing turbine blades, drilling wells, mining critical minerals, and running materials-discovery labs. Responses will inform a public report and a technology-and-deployment roadmap covering applications, deployment barriers, workforce, supply chains, and research-and-development priorities. This inquiry would not commit the Department to any action and is not a funding solicitation.
           </p>
 
           <h3>Who should respond</h3>
@@ -365,7 +369,7 @@
           </ul>
 
           <div class="rfi-note">
-            <strong>Built to be processed.</strong> Answer only the questions where you have direct knowledge, and label every answer with its question ID (e.g., <strong>B2</strong>) — suggested limit 500 words per question, data as attachments. Each category below maps one-to-one to a chapter of the planned roadmap, so tagged responses can be sorted, clustered by category, and synthesized without manual triage.
+            <strong>Built to be processed.</strong> Answer only the questions where you have direct knowledge, and label every answer with the draft you answered and its question ID — e.g., <strong><span id="pm-note-draft">Full</span> · B2</strong> — suggested limit 500 words per question, data as attachments. IDs are scoped to a draft: only one of these would ever be issued, and the same letter-number is reused across drafts for materially different questions, so the draft name is what keeps a tagged answer unambiguous. Each category feeds a named chapter of the planned roadmap (a few drafts route two related categories into one chapter), so tagged responses can be sorted, clustered by category, and synthesized without manual triage.
           </div>
 
           <div class="rfi-qhead">
@@ -812,6 +816,7 @@
      ============================================================ */
   const PM_VARIANTS = {
     full: {
+      label: "Full",
       note: "The complete instrument — every sub-topic gets its own ask. Longest to answer, finest-grained to process.",
       checklist: false,
       cats: [
@@ -866,6 +871,7 @@
       ],
     },
     tight: {
+      label: "Tightened",
       note: "20 questions across 7 categories. Same skeleton as the full draft, compound asks merged, engagement converted to a response-form checklist.",
       checklist: true,
       cats: [
@@ -906,6 +912,7 @@
       ],
     },
     core: {
+      label: "Core",
       note: "12 questions across 6 categories — one ask per question. Data, benchmarks, standards, and security fold into a single trust layer; engagement becomes a checklist.",
       checklist: true,
       cats: [
@@ -936,6 +943,7 @@
       ],
     },
     lean: {
+      label: "Lean",
       note: "One broad question per roadmap chapter. Fastest to answer and synthesize; the pointed sub-topics move into the prompts.",
       checklist: false,
       cats: [
@@ -965,15 +973,21 @@
   };
 
   (function renderPrimeMover() {
+    // Guard every node apply() writes to, not just `host` — it mutates the DOM before
+    // touching noteEl/checkEl, so a missing one would throw mid-render and strand the
+    // section with fresh questions but a stale note, checklist, and pressed button.
     const host = document.getElementById('pm-questions');
-    if (!host) return;
     const noteEl = document.getElementById('pm-variant-note');
     const checkEl = document.getElementById('pm-checklist');
+    const draftEl = document.getElementById('pm-note-draft');
     const btns = Array.from(document.querySelectorAll('.rfi-vbtn'));
+    if (!host || !noteEl || !checkEl || !btns.length) return;
     const qCount = (v) => v.cats.reduce((n, c) => n + c.qs.length, 0);
     btns.forEach((b) => {
       const v = PM_VARIANTS[b.dataset.variant];
-      if (v) b.querySelector('.rfi-vn').textContent = qCount(v);
+      const n = b.querySelector('.rfi-vn');
+      if (v && n) n.textContent = qCount(v);
+      b.setAttribute('aria-controls', 'pm-questions');
     });
     const el = (tag, cls, text) => {
       const node = document.createElement(tag);
@@ -985,6 +999,9 @@
       const v = PM_VARIANTS[id];
       if (!v) return;
       host.replaceChildren();
+      // `list-style: none` + `display: grid/flex` strips list semantics in WebKit —
+      // role="list" keeps VoiceOver announcing the count and item positions.
+      const listRole = (node) => { node.setAttribute('role', 'list'); return node; };
       v.cats.forEach((cat, i) => {
         const det = el('details', 'rfi-cat');
         if (i === 0) det.open = true;
@@ -995,9 +1012,10 @@
           el('span', 'rfi-cat-count', `${cat.qs.length} question${cat.qs.length === 1 ? '' : 's'}`),
         );
         det.append(sum, el('p', 'rfi-cat-sub', cat.sub));
-        const ol = el('ol', 'rfi-qs');
+        const ol = listRole(el('ol', 'rfi-qs'));
         cat.qs.forEach(([qid, text]) => {
           const li = el('li', 'rfi-q');
+          li.setAttribute('role', 'listitem');
           li.id = 'pm-' + qid.toLowerCase();
           li.append(el('span', 'rfi-qid', qid), el('span', null, text));
           ol.appendChild(li);
@@ -1007,6 +1025,10 @@
       });
       noteEl.textContent = v.note;
       checkEl.hidden = !v.checklist;
+      // Question IDs are scoped to the draft — A1..H3 are reused across drafts for
+      // materially different questions, so an answer tagged only "E2" is ambiguous.
+      // Name the active draft in the labeling instruction.
+      if (draftEl) draftEl.textContent = v.label;
       btns.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.variant === id)));
       const chipN = document.querySelector('#jumpnav .e-chip[data-target="prime-mover"] .e-chip-n');
       if (chipN) chipN.textContent = qCount(v);

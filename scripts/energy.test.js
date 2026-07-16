@@ -143,6 +143,7 @@ if (PM_VARIANTS) {
 
   for (const [key, v] of Object.entries(PM_VARIANTS)) {
     if (!v.note) fail(`variant "${key}" missing the note shown under the buttons`);
+    if (!v.label) fail(`variant "${key}" missing label (names the draft in the labeling instruction)`);
     if (typeof v.checklist !== 'boolean') fail(`variant "${key}" checklist must be a boolean (drives [hidden])`);
     if (!Array.isArray(v.cats) || v.cats.length === 0) fail(`variant "${key}" has no categories`);
 
@@ -182,8 +183,31 @@ if (PM_VARIANTS) {
   for (const b of buttonVariants) {
     if (!PM_VARIANTS[b]) fail(`button data-variant="${b}" does not match any PM_VARIANTS key (dead button)`);
   }
-  const pressed = [...html.matchAll(/class="rfi-vbtn"[^>]*aria-pressed="true"/g)];
-  if (pressed.length !== 1) fail(`exactly one .rfi-vbtn must start aria-pressed="true" (found ${pressed.length})`);
+  // The DOM contract renderPrimeMover() depends on. Without these, the data can be
+  // perfectly valid while the section renders empty: `apply()` bails on a missing
+  // #pm-questions and the reader just sees no questions — silently, with no console
+  // error and (before these assertions) no test failure.
+  for (const id of ['pm-questions', 'pm-variant-note', 'pm-checklist', 'pm-note-draft']) {
+    if (!html.includes(`id="${id}"`)) fail(`#${id} is missing from energy.html — renderPrimeMover() writes to it`);
+  }
+  // Each button needs its count span; a button without one used to kill the whole IIFE.
+  const btnTags = [...html.matchAll(/<button[^>]*class="rfi-vbtn"[\s\S]*?<\/button>/g)].map((m) => m[0]);
+  if (btnTags.length !== buttonVariants.length) fail(`could not match every .rfi-vbtn element (${btnTags.length} vs ${buttonVariants.length} data-variant attrs)`);
+  for (const tag of btnTags) {
+    if (!/class="rfi-vn"/.test(tag)) fail(`a .rfi-vbtn has no .rfi-vn count span: ${tag.slice(0, 60)}…`);
+  }
+
+  // Question IDs are reused across drafts for materially different questions (18 of
+  // them), so an answer tagged only "E2" is ambiguous. The labeling instruction must
+  // therefore name the active draft — #pm-note-draft is what makes the copy true.
+  const idText = {};
+  for (const [key, v] of Object.entries(PM_VARIANTS)) {
+    for (const cat of v.cats || []) for (const [qid, text] of cat.qs || []) (idText[qid] ||= new Set()).add(text);
+  }
+  const reused = Object.entries(idText).filter(([, texts]) => texts.size > 1).map(([id]) => id);
+  if (reused.length && !html.includes('id="pm-note-draft"')) {
+    fail(`${reused.length} question ids (${reused.slice(0, 3).join(', ')}…) mean different things across drafts, but the labeling instruction does not name the draft (#pm-note-draft)`);
+  }
 }
 
 // ---- Report ----
