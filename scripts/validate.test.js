@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Regression tests for the curation gate in validate.js.
 // Run: node scripts/validate.test.js
-import { checkInternalFlags } from './validate.js';
+import { checkInternalFlags, validateData } from './validate.js';
 
 let failures = 0;
 function eq(actual, expected, label) {
@@ -42,6 +42,27 @@ eq(count({ a: null, b: 'str', c: 42 }), 0, 'null and primitive values do not cra
 const msg = checkInternalFlags([{ id: 'fr-widget', _scraped: true }])[0];
 eq(msg.includes('fr-widget'), true, 'error message names the offending record id');
 eq(msg.includes('_scraped'), true, 'error message names the offending flag');
+
+// --- The gate must be WIRED, not merely present. -------------------------
+// Everything above passes even if validateData never calls checkInternalFlags,
+// which is how the flagged records reached production in the first place. These
+// assert the connection: schema-valid data that carries a flag must still fail.
+// A valid news record — sound schema, so only the gate can reject it.
+const validNews = {
+  id: 'n1', title: 'T', date: '2026-07-16', source: 's', source_url: 'https://e.com',
+  summary: 'S', category: 'Policy', sentiment: 'Neutral', confidence: 'High',
+};
+eq(validateData('news', [validNews]).ok, true, 'wiring: clean schema-valid record passes');
+eq(validateData('news', [{ ...validNews, _scraped: true }]).ok, false,
+  'wiring: _scraped makes a schema-valid record FAIL validation');
+eq(validateData('news', [{ ...validNews, _requires_curator_review: true }]).ok, false,
+  'wiring: _requires_curator_review makes a schema-valid record FAIL validation');
+eq(validateData('news', [{ ...validNews, _scraped: true }]).errors.some(e => e.includes('_scraped')), true,
+  'wiring: the flag error surfaces in validateData errors[]');
+
+// Structured documents route through a different branch — gate it too.
+eq(validateData('supply_chain', { _meta: { last_updated: '2026-07-16' }, companies: [{ id: 'c', _scraped: true }] }).ok,
+  false, 'wiring: gate reaches structured documents, not just record arrays');
 
 if (failures) {
   console.error(`\n${failures} test(s) failed.`);

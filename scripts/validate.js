@@ -403,9 +403,17 @@ function validateFile(name) {
   } catch (err) {
     return { name, ok: false, errors: [`JSON parse failed: ${err.message}`], records: 0 };
   }
-  // The curation gate applies to every dataset, whatever its shape, so it runs
-  // here rather than inside any one schema branch.
+  return validateData(name, data);
+}
+
+// Schema check + curation gate over already-parsed data. This is the seam the
+// tests drive: it's where the gate is wired into the result, so unhooking the
+// gate fails a test here. A unit test of checkInternalFlags alone would not —
+// it passes happily while the gate sits disconnected.
+export function validateData(name, data) {
   const result = validateContent(name, data);
+  // The gate applies to every dataset whatever its shape, so it runs here
+  // rather than inside any one schema branch.
   const flagErrors = checkInternalFlags(data);
   if (flagErrors.length) {
     result.ok = false;

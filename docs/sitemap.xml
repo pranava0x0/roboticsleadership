@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Hand-maintained. Nine pages; adding one means adding it here.
-  lastmod is the page's last content change, not the data refresh date —
-  the datasets update daily but the pages themselves rarely do.
+  Hand-maintained. Nine pages; adding one means adding it here, and editing one
+  means bumping its lastmod. The second half is the easier one to forget: this
+  file shipped with a stale date for the dashboard within one commit of being
+  written. Each lastmod is that page's last content commit, which you can read
+  from git log for the file.
+  lastmod is the page's last content change, not the data refresh date. The
+  datasets update daily; the pages themselves rarely do.
+  WS1's bake step should generate this from git and remove the footgun.
+  (Note for editors: XML comments cannot contain a double hyphen, so no CLI
+  flags in here.)
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pranava0x0.github.io/roboticsleadership/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
