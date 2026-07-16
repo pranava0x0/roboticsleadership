@@ -1,5 +1,162 @@
 [
   {
+    "id": "hn-48919004",
+    "title": "Floating Companion: Exploring Design Space for Soft Floating Robots in Indoor",
+    "date": "2026-07-15",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://dl.acm.org/doi/10.1145/3800645.3813051",
+    "summary": "Floating Companion: Exploring Design Space for Soft Floating Robots in Indoor",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "hacker-news",
+      "community",
+      "research",
+      "soft-robotics",
+      "hri"
+    ]
+  },
+  {
+    "id": "hn-48923440",
+    "title": "Winged robot \"puffin\" can fly starting from the water",
+    "date": "2026-07-15",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.nytimes.com/2026/07/14/science/new-winged-robot-can-fly-and-swim-like-a-puffin.html",
+    "summary": "Winged robot \"puffin\" can fly starting from the water",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "hacker-news",
+      "community",
+      "research",
+      "bio-inspired",
+      "aerial"
+    ]
+  },
+  {
+    "id": "hn-48924863",
+    "title": "The Fight over Humanoid Robots Has Shut Down a Car Factory for the First Time",
+    "date": "2026-07-15",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.wsj.com/business/autos/the-fight-over-humanoid-robots-has-shut-down-a-car-factory-for-the-first-time-d45ac3e1",
+    "summary": "The Fight over Humanoid Robots Has Shut Down a Car Factory for the First Time",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
+    ],
+    "sentiment": "Negative",
+    "confidence": "Medium",
+    "tags": [
+      "hacker-news",
+      "community",
+      "humanoid",
+      "labor",
+      "automotive",
+      "workforce"
+    ]
+  },
+  {
+    "id": "rss-icarus-robotics-uses-kulr-tech-425",
+    "title": "Icarus Robotics uses KULR technology to power JOY free-flying space robot",
+    "date": "2026-07-15",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/icarus-robotics-uses-kulr-technology-to-power-joy-free-flying-space-robot/",
+    "summary": "Under the agreement, KULR will supply its KULR ONE Space battery systems to power JOY’s onboard systems on the ISS.\nThe post Icarus Robotics uses KULR technology to power JOY free-flying space robot a...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "space-robotics",
+      "free-flying"
+    ]
+  },
+  {
+    "id": "rss-vicarious-surgical-board-seeks-482",
+    "title": "Vicarious Surgical board seeks to dissolve company",
+    "date": "2026-07-15",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/vicarious-surgical-board-seeks-to-dissolve-company/",
+    "summary": "The board is asking shareholders to approve their plan to dissolve and liquidate the business at a special meeting scheduled for July 21, but said it can not predict how much (if anything) investors w...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Negative",
+    "confidence": "Medium",
+    "tags": [
+      "surgical-robotics",
+      "wind-down"
+    ]
+  },
+  {
+    "id": "rss-agility-outlines-six-recommend-890",
+    "title": "Agility outlines six recommendations for U.S. humanoid robot policies",
+    "date": "2026-07-15",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/agility-outlines-six-recommendations-for-u-s-humanoid-robot-policies/",
+    "summary": "Peggy Johnson, CEO of Agility, said the U.S. needs a policy framework that can strengthen what's already working for the humanoid industry.\nThe post Agility outlines six recommendations for U.S. human...",
+    "category": "Policy",
+    "companies": [
+      "agility-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "policy",
+      "humanoid",
+      "agility-robotics",
+      "us-policy"
+    ]
+  },
+  {
+    "id": "rss-walden-robotics-launches-at-1-582",
+    "title": "Walden Robotics launches at $1.1B valuation for general-purpose robots",
+    "date": "2026-07-15",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/",
+    "summary": "Leading technology companies have invested in Walden Robotics, which emerged from stealth as it develops full-stack physical AI.\nThe post Walden Robotics launches at $1.1B valuation for general-purpos...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "funding",
+      "launch",
+      "physical-ai",
+      "walden-robotics"
+    ]
+  },
+  {
     "id": "fedreg-news-2026-14208",
     "title": "Reforming and Modernizing the NRC's Radiation Protection Framework",
     "date": "2026-07-15",
