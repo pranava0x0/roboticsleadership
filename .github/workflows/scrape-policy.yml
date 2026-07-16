@@ -32,8 +32,11 @@ jobs:
       - name: Run policy scraper
         run: node scripts/scraper-policy.js
 
+      # Freshly scraped records carry _requires_curator_review by design, which
+      # the deploy-time gate rejects. Check their shape here; pages.yml enforces
+      # the gate at publish, so nothing uncurated can reach the site.
       - name: Validate JSON after scrape
-        run: node scripts/validate.js
+        run: node scripts/validate.js --allow-uncurated
 
       - name: Open PR for curator review
         env:

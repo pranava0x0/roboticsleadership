@@ -173,6 +173,14 @@ const SCHEMAS = {
 // vetted and cited. validate.js gates the Pages deploy (pages.yml), so failing
 // here makes uncurated data unshippable rather than merely discouraged.
 // `_meta` is deliberately absent: it is a real, published envelope field.
+//
+// The same validator runs at two points with opposite needs, which is why
+// --allow-uncurated exists:
+//   scrape workflows  → --allow-uncurated: records were *just* ingested and are
+//                       supposed to carry the marker; check their shape only.
+//   pages.yml (deploy) → strict (default): the marker means a curator hasn't
+//                       looked yet, so the record must not ship.
+// Curating a record means clearing the flag; that is the whole handshake.
 const INTERNAL_FLAGS = ['_requires_curator_review', '_scraped'];
 
 export function checkInternalFlags(data) {
@@ -392,7 +400,7 @@ function validateUSChina(name, data) {
   return { name, ok: errors.length === 0, errors, records };
 }
 
-function validateFile(name) {
+function validateFile(name, opts = {}) {
   const filename = resolve(DATA_DIR, `${name}.json`);
   if (!existsSync(filename)) {
     return { name, ok: false, errors: [`File not found: ${filename}`], records: 0 };
@@ -403,17 +411,18 @@ function validateFile(name) {
   } catch (err) {
     return { name, ok: false, errors: [`JSON parse failed: ${err.message}`], records: 0 };
   }
-  return validateData(name, data);
+  return validateData(name, data, opts);
 }
 
 // Schema check + curation gate over already-parsed data. This is the seam the
 // tests drive: it's where the gate is wired into the result, so unhooking the
 // gate fails a test here. A unit test of checkInternalFlags alone would not —
 // it passes happily while the gate sits disconnected.
-export function validateData(name, data) {
+export function validateData(name, data, opts = {}) {
   const result = validateContent(name, data);
   // The gate applies to every dataset whatever its shape, so it runs here
   // rather than inside any one schema branch.
+  if (opts.allowUncurated) return result;
   const flagErrors = checkInternalFlags(data);
   if (flagErrors.length) {
     result.ok = false;
@@ -506,14 +515,22 @@ function checkCrossRefs() {
 }
 
 function main() {
-  const requested = process.argv[2];
+  const args = process.argv.slice(2);
+  // Positional = one dataset name; flags are order-independent so
+  // `validate.js news --allow-uncurated` and the reverse both work.
+  const allowUncurated = args.includes('--allow-uncurated');
+  const requested = args.find((a) => !a.startsWith('--'));
   const files = requested
     ? [requested]
     : ['companies', 'policies', 'news', 'themes', 'sources', 'agencies', 'state_policy', 'supply_chain', 'us_china'];
 
+  if (allowUncurated) {
+    console.log('⚠ --allow-uncurated: curation gate OFF (shape checks only). Deploy validation still enforces it.\n');
+  }
+
   let allOk = true;
   for (const name of files) {
-    const r = validateFile(name);
+    const r = validateFile(name, { allowUncurated });
     const status = r.ok ? '✓' : '✗';
     console.log(`${status} ${name.padEnd(12)} ${String(r.records).padStart(4)} records`);
     if (!r.ok) allOk = false;

@@ -64,6 +64,31 @@ eq(validateData('news', [{ ...validNews, _scraped: true }]).errors.some(e => e.i
 eq(validateData('supply_chain', { _meta: { last_updated: '2026-07-16' }, companies: [{ id: 'c', _scraped: true }] }).ok,
   false, 'wiring: gate reaches structured documents, not just record arrays');
 
+// --- The two-mode contract that makes the gate mean anything --------------
+// The scrapers mark every new record, so the same validator has to permit the
+// marker on the scrape path and reject it on the deploy path. Get this
+// backwards in either direction and the invariant dies silently: a strict
+// scrape path breaks the nightly cron, and a lenient deploy path ships
+// uncurated records — which is exactly the hole that existed before, when the
+// scrapers set no marker at all and the gate guarded nothing new.
+const freshlyScraped = { ...validNews, tags: ['rss-import'], _requires_curator_review: true };
+eq(validateData('news', [freshlyScraped], { allowUncurated: true }).ok, true,
+  'two-mode: scrape path ACCEPTS a freshly-marked record (else the cron breaks)');
+eq(validateData('news', [freshlyScraped]).ok, false,
+  'two-mode: deploy path REJECTS the same record (else uncurated data ships)');
+
+// Curating == clearing the flag. That handshake is the whole contract.
+const curated = { ...freshlyScraped };
+delete curated._requires_curator_review;
+eq(validateData('news', [curated]).ok, true, 'two-mode: clearing the flag releases the record to deploy');
+
+// allowUncurated must relax ONLY the gate — schema errors still fail, or the
+// scrape path would happily commit malformed records.
+eq(validateData('news', [{ ...freshlyScraped, category: 'NotACategory' }], { allowUncurated: true }).ok, false,
+  'two-mode: allowUncurated does not suppress schema errors');
+eq(validateData('news', [{ ...validNews, category: 'NotACategory' }], { allowUncurated: true }).ok, false,
+  'two-mode: allowUncurated does not suppress schema errors on unflagged records either');
+
 if (failures) {
   console.error(`\n${failures} test(s) failed.`);
   process.exit(1);
