@@ -172,6 +172,50 @@
     .e-cand-name { font-family: var(--font-serif); font-weight: 700; font-size: 15px; line-height: 1.2; margin: 0; }
     .e-cand-meta { font-size: 11.5px; color: var(--text-muted); margin: 0; }
     .e-cand-foot { display: flex; align-items: center; gap: 10px; margin-top: 1px; flex-wrap: wrap; }
+
+    /* ---- Project Prime Mover — draft inquiry ---- */
+    .rfi-frame { margin-top: 14px; border: 1px solid var(--border-strong, var(--border)); border-radius: var(--radius-card, 10px); background: var(--surface); overflow: hidden; }
+    .rfi-head { padding: 20px 22px 16px; border-bottom: 1px solid var(--border); }
+    .rfi-doc-title { font-family: var(--font-serif); font-size: 19px; font-weight: 700; line-height: 1.3; margin: 8px 0 0; }
+    .rfi-meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px 18px; margin: 14px 0 0; }
+    .rfi-meta dt { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); font-weight: 700; margin: 0 0 2px; }
+    .rfi-meta dd { margin: 0; font-size: 13px; color: var(--text); }
+    .rfi-body { padding: 18px 22px 20px; }
+    .rfi-body > p { font-size: 13.5px; color: var(--text-muted); line-height: 1.6; max-width: 80ch; }
+    .rfi-body h3 { font-size: 15px; margin: 22px 0 8px; }
+    .rfi-audience { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 0; padding: 0; list-style: none; }
+    .rfi-audience li { font-size: 12px; font-weight: 600; color: var(--text-muted); border: 1px solid var(--border); border-radius: 999px; padding: 4px 10px; }
+    .rfi-note { border: 1px dashed var(--border-strong, var(--border)); border-radius: var(--radius-card, 10px); padding: 12px 14px; margin: 14px 0 4px; font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+    .rfi-note strong { color: var(--text); }
+    .rfi-cat { border: 1px solid var(--border); border-radius: var(--radius-card, 10px); background: var(--surface); margin: 10px 0; }
+    .rfi-cat summary { display: flex; align-items: baseline; gap: 10px; padding: 12px 14px; cursor: pointer; list-style: none; }
+    .rfi-cat summary::-webkit-details-marker { display: none; }
+    .rfi-cat summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: inherit; }
+    .rfi-cat-letter { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 700; font-size: 13px; color: var(--accent); flex: 0 0 auto; }
+    .rfi-cat-title { font-family: var(--font-serif); font-weight: 700; font-size: 15.5px; margin: 0; }
+    .rfi-cat-count { margin-left: auto; font-size: 11.5px; color: var(--text-faint); font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .rfi-cat-sub { margin: 0; padding: 0 14px 10px; font-size: 12.5px; color: var(--text-muted); }
+    .rfi-qs { list-style: none; margin: 0; padding: 4px 14px 14px; display: grid; gap: 9px; }
+    .rfi-q { display: flex; gap: 10px; align-items: baseline; font-size: 13.5px; line-height: 1.55; color: var(--text); scroll-margin-top: 76px; }
+    .rfi-qid { flex: 0 0 auto; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; font-weight: 700; color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent); background: color-mix(in srgb, var(--accent) 8%, transparent); border-radius: 6px; padding: 1px 6px; }
+    .rfi-disclaimer { font-size: 12px; color: var(--text-faint); margin: 18px 0 0; line-height: 1.6; }
+    .rfi-qhead { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .rfi-qhead h3 { margin: 22px 0 8px; }
+    .rfi-variants { display: flex; gap: 6px; flex-wrap: wrap; margin: 22px 0 8px 0; margin-left: auto; }
+    .rfi-vbtn { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-muted); font-size: 12.5px; font-weight: 600; font-family: inherit; cursor: pointer; transition: color 120ms, border-color 120ms, background 120ms; }
+    .rfi-vbtn:hover { color: var(--text); border-color: var(--border-strong); }
+    .rfi-vbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+    .rfi-vbtn[aria-pressed="true"] { color: var(--accent-ink, var(--text)); border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }
+    .rfi-vbtn .rfi-vn { font-variant-numeric: tabular-nums; color: var(--text-faint); font-weight: 500; }
+    .rfi-vbtn[aria-pressed="true"] .rfi-vn { color: inherit; }
+    .rfi-variant-note { font-size: 12.5px; color: var(--text-muted); margin: 0 0 10px; }
+    .rfi-checklist { border: 1px solid var(--border); border-radius: var(--radius-card, 10px); background: var(--surface); padding: 12px 14px; margin: 10px 0; }
+    .rfi-checklist[hidden] { display: none; }
+    .rfi-checklist-title { margin: 0 0 8px; font-size: 13.5px; font-weight: 600; color: var(--text); }
+    .rfi-checklist-title span { font-weight: 400; color: var(--text-faint); font-size: 12px; }
+    .rfi-checklist ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 6px 16px; }
+    .rfi-checklist li { font-size: 13px; color: var(--text-muted); }
+    .rfi-checklist li::before { content: '☐ '; color: var(--accent); }
   </style>
 </head>
 <body>
@@ -281,6 +325,86 @@
       </summary>
       <div class="e-cand-grid" id="cand-grid"></div>
     </details>
+
+    <!-- Project Prime Mover — draft national inquiry (unofficial concept) -->
+    <section class="e-section" id="prime-mover" aria-label="Project Prime Mover — draft inquiry">
+      <div class="e-section-head">
+        <h2 class="section-title">Project Prime Mover</h2>
+        <span class="pill warning">Draft — for discussion</span>
+      </div>
+      <p class="e-section-sub">
+        If Washington wanted to act on everything this page documents, step one is asking the right questions. This is a draft of that instrument — an unofficial concept for a national inquiry the Department of Energy could issue, with every question carrying a stable ID so responses can be split, clustered, and synthesized straight into a report and roadmap.
+      </p>
+
+      <div class="rfi-frame">
+        <div class="rfi-head">
+          <p class="eyebrow" style="margin:0;">Draft concept · Not an official DOE document</p>
+          <p class="rfi-doc-title">Project Prime Mover: National Inquiry on Robotics and Physical AI for the Energy and Manufacturing Base</p>
+          <dl class="rfi-meta">
+            <div><dt>Issuing office (concept)</dt><dd>U.S. Department of Energy</dd></div>
+            <div><dt>Status</dt><dd>Unofficial draft for discussion</dd></div>
+            <div><dt>Response window</dt><dd>60 days from issuance</dd></div>
+            <div><dt>Docket (placeholder)</dt><dd>DE-PM-2026</dd></div>
+          </dl>
+        </div>
+        <div class="rfi-body">
+          <p>
+            The Department seeks input from industry, academia, labor, and the investment community to inform potential Departmental actions on robotics and physical AI across the energy and manufacturing sectors — where robots are already standard at power plants and substations and autonomy is moving up the stack into building solar farms, repairing turbine blades, drilling wells, mining critical minerals, and running materials-discovery labs. Responses will inform a public report and a technology-and-deployment roadmap covering applications, deployment barriers, workforce, supply chains, and research-and-development priorities. This inquiry would not commit the Department to any action and is not a funding solicitation.
+          </p>
+
+          <h3>Who should respond</h3>
+          <ul class="rfi-audience">
+            <li>Energy asset owners &amp; operators</li>
+            <li>Robotics &amp; autonomy developers</li>
+            <li>Manufacturers &amp; EPC firms</li>
+            <li>Labor organizations</li>
+            <li>Universities &amp; national laboratories</li>
+            <li>Investors</li>
+            <li>Standards bodies</li>
+            <li>State energy offices</li>
+          </ul>
+
+          <div class="rfi-note">
+            <strong>Built to be processed.</strong> Answer only the questions where you have direct knowledge, and label every answer with its question ID (e.g., <strong>B2</strong>) — suggested limit 500 words per question, data as attachments. Each category below maps one-to-one to a chapter of the planned roadmap, so tagged responses can be sorted, clustered by category, and synthesized without manual triage.
+          </div>
+
+          <div class="rfi-qhead">
+            <h3>Questions</h3>
+            <div class="rfi-variants" role="group" aria-label="Choose a draft length">
+              <button type="button" class="rfi-vbtn" data-variant="full" aria-pressed="true">Full <span class="rfi-vn"></span></button>
+              <button type="button" class="rfi-vbtn" data-variant="tight" aria-pressed="false">Tightened <span class="rfi-vn"></span></button>
+              <button type="button" class="rfi-vbtn" data-variant="core" aria-pressed="false">Core <span class="rfi-vn"></span></button>
+              <button type="button" class="rfi-vbtn" data-variant="lean" aria-pressed="false">Lean <span class="rfi-vn"></span></button>
+            </div>
+          </div>
+          <p class="rfi-variant-note" id="pm-variant-note"></p>
+          <div id="pm-questions"></div>
+          <div class="rfi-checklist" id="pm-checklist" hidden>
+            <p class="rfi-checklist-title">Engagement interest <span>— a checkbox block on the response form, not an essay question</span></p>
+            <ul>
+              <li>Regional listening sessions</li>
+              <li>Technical workshops with universities / national labs</li>
+              <li>Hosting site visits or demonstrations</li>
+              <li>Contributing to shared testbeds</li>
+              <li>Joining an energy-robotics consortium</li>
+              <li>Piloting pooled-data governance</li>
+            </ul>
+          </div>
+
+          <h3>Engagement tracks</h3>
+          <p>Beyond written responses, the inquiry proposes three tracks so the roadmap is built on observed evidence, not just filings:</p>
+          <div class="card-grid cols-3">
+            <article class="card"><h4 class="card-title" style="font-size:15px;">Regional listening sessions</h4><p class="card-sub" style="font-size:13px;">Operators, vendors, and labor in energy-heavy regions — Gulf Coast, Appalachia, the Southwest solar belt, the Great Lakes manufacturing corridor.</p></article>
+            <article class="card"><h4 class="card-title" style="font-size:15px;">Technical workshops</h4><p class="card-sub" style="font-size:13px;">Co-hosted with universities and national laboratories on the hardest questions — shared testbeds (B5), R&amp;D gaps (E1), and pooled training data (F1).</p></article>
+            <article class="card"><h4 class="card-title" style="font-size:15px;">Site visits &amp; demonstrations</h4><p class="card-sub" style="font-size:13px;">At operating facilities — plants, solar builds, mines, labs — turning respondent claims into first-hand evidence for the roadmap.</p></article>
+          </div>
+
+          <p class="rfi-disclaimer">
+            Unofficial draft authored for this tracker as a policy concept — not a Department of Energy document and not affiliated with DOE. Drafted 2026-07-16 from the deployments and gaps documented on this page.
+          </p>
+        </div>
+      </div>
+    </section>
 
     <p class="muted" style="font-size:12.5px;margin-top:40px;">
       Sourcing note: entries are confirmed against company case studies or reputable trade/press coverage as of June 2026. Deployment status (deployed / announced / potential) is an editorial read and evolves — follow each source for the current picture. Spotted a company we're missing? It probably belongs in the <a href="companies.html">Companies</a> tracker too.
@@ -510,6 +634,17 @@
       const s = SECTIONS[id];
       return `<a class="e-chip" href="#${id}" data-target="${id}">${s.nav}<span class="e-chip-n">${s.items.length}</span></a>`;
     }).join('');
+    // Prime Mover chip (draft inquiry section, static content below #sections)
+    const pmChip = document.createElement('a');
+    pmChip.className = 'e-chip';
+    pmChip.href = '#prime-mover';
+    pmChip.dataset.target = 'prime-mover';
+    pmChip.textContent = 'Prime Mover';
+    const pmN = document.createElement('span');
+    pmN.className = 'e-chip-n';
+    pmN.textContent = document.querySelectorAll('#prime-mover .rfi-q').length;
+    pmChip.appendChild(pmN);
+    navEl.appendChild(pmChip);
 
     // Build sections, grouped inside a wrapper per cluster (so the cluster
     // label hides with its sections when filtering empties the group).
@@ -646,7 +781,8 @@
     // Scroll-spy: highlight active chip
     const chips = Array.from(navEl.querySelectorAll('.e-chip'));
     const byId = Object.fromEntries(chips.map((c) => [c.dataset.target, c]));
-    const sections = order.map((id) => document.getElementById(id)).filter(Boolean);
+    const sections = order.map((id) => document.getElementById(id)).filter(Boolean)
+      .concat(document.getElementById('prime-mover') || []);
     let current = null;
     const setActive = (id) => {
       if (id === current) return;
@@ -665,6 +801,217 @@
       }, { rootMargin: '-76px 0px -65% 0px', threshold: 0 });
       sections.forEach((s) => io.observe(s));
     }
+  })();
+
+  /* ============================================================
+     Project Prime Mover — four toggleable drafts of the inquiry.
+     Single source of truth for questions; button counts and the
+     jump-nav chip derive from this data.
+     Each cat: { letter, title, sub, qs: [[id, text], ...] }
+     ============================================================ */
+  const PM_VARIANTS = {
+    full: {
+      note: "The complete instrument — every sub-topic gets its own ask. Longest to answer, finest-grained to process.",
+      checklist: false,
+      cats: [
+        { letter: "A", title: "Applications & operational evidence", sub: "Where robots work today and what they deliver. Feeds roadmap chapter 1 — Applications atlas.", qs: [
+          ["A1", "For each robotics or physical-AI application deployed in your operations (e.g., asset inspection, substation patrol, blade repair, robotic solar construction, autonomous haulage, glovebox automation), describe the scale of deployment and quantified outcomes — safety incidents avoided, outage time reduced, cost per unit of work, schedule compression."],
+          ["A2", "Which applications are technically proven but not yet economic at your sites, and what cost or performance threshold (e.g., $/inspection, $/installed-watt, mean time between interventions) would change the calculus?"],
+          ["A3", "Which hazardous, repetitive, or hard-to-staff tasks across your energy or manufacturing operations remain fully manual today, and what specifically prevents automating them?"],
+          ["A4", "Where does the pace of the energy build-out — solar, grid, nuclear, data centers — currently outrun available manufacturing and construction capacity, and which of those bottlenecks are addressable with robotics within five years?"],
+          ["A5", "What role do autonomous laboratories and self-driving experimentation play — or could play — in your energy-materials R&D (batteries, catalysts, fuels, magnet alternatives)?"],
+        ]},
+        { letter: "B", title: "Deployment blockers", sub: "What stands between pilots and fleets. Feeds roadmap chapter 2 — Barrier register.", qs: [
+          ["B1", "Rank the most significant barriers to deploying robotics at your facilities — capital cost, systems-integration cost, reliability, safety certification and site qualification, cybersecurity requirements, procurement rules, insurance and liability, workforce agreements, interoperability with existing OT systems — and describe your top three concretely."],
+          ["B2", "Which certification and qualification regimes (e.g., explosion-proof/ATEX ratings, nuclear qualification, utility safety cases, NERC CIP compliance for connected devices) add the most time and cost to deployment, and how could they be streamlined without weakening safety?"],
+          ["B3", "What specific federal, state, or local regulatory uncertainty affects your robotics deployment decisions — for example, drone operations beyond visual line of sight, autonomous equipment on rights-of-way, or radiological work rules?"],
+          ["B4", "What constraints on operational data leaving your sites limit the use of AI-enabled robotics, and what technical or contractual safeguards would resolve them?"],
+          ["B5", "Would a shared national testbed or demonstration facility for energy robotics change your adoption timeline? What would it need to offer — live grid sections, radiological mock-ups, offshore conditions, factory lines?"],
+        ]},
+        { letter: "C", title: "Workforce & labor", sub: "Augmentation, displacement, and the skills pipeline. Feeds roadmap chapter 3 — Workforce plan.", qs: [
+          ["C1", "Which occupations in your operations are being augmented by robotics, which are being displaced, and on what timeline? Provide headcount context where possible."],
+          ["C2", "Which skilled trades most constrain your projects today — welders, linemen, NDT inspectors, millwrights — and to what degree can robotics close the gap versus deepen dependence on scarce skills?"],
+          ["C3", "What new occupations has robotics adoption created in your organization (robot fleet technicians, autonomy supervisors, teleoperators), can you hire for them, and what credentials or training pipelines are missing?"],
+          ["C4", "What worker-transition models have worked — union partnerships, apprenticeships, community-college programs, employer-funded reskilling — and what should government fund, convene, or certify?"],
+          ["C5", "How do collective-bargaining agreements and site labor rules currently treat robotic systems, and what agreement structures have made adoption work for both operators and workers?"],
+        ]},
+        { letter: "D", title: "Supply chain & industrial base", sub: "Components, concentration, and onshoring. Feeds roadmap chapter 4 — Industrial-base assessment.", qs: [
+          ["D1", "For which robot components — actuators, precision gearing and harmonic drives, servomotors, rare-earth magnets, force/torque and vision sensors, batteries, compute — do you depend on single or foreign-concentrated sources, and where is that concentration in China?"],
+          ["D2", "What would credible onshoring or friend-shoring of those components require — demand volume, price-premium tolerance, capital support — and which components matter most to secure first?"],
+          ["D3", "How have export controls, tariffs, and procurement restrictions affected your robotics sourcing, costs, and timelines — positively or negatively?"],
+          ["D4", "Where would a disruption in imported robotics hardware or software most damage U.S. energy operations, and what stockpiling, second-sourcing, or domestic-capacity actions would mitigate it?"],
+        ]},
+        { letter: "E", title: "Innovation & R&D investment", sub: "Where federal R&D and financing move the needle. Feeds roadmap chapter 5 — R&D portfolio.", qs: [
+          ["E1", "Which technical gaps most limit robotics in energy environments — contact-rich manipulation, radiation and heat hardening, long-duration untethered autonomy, GPS-denied navigation, sim-to-real transfer, fleet-level orchestration — and where is federal R&D better positioned than private capital?"],
+          ["E2", "What roles should the national laboratories play — testbeds, datasets, hardened-environment testing, staff exchanges — and which existing lab capabilities are underused by industry?"],
+          ["E3", "Where does the pilot-to-scale financing gap bind hardest for energy robotics (first-of-a-kind deployments, project-finance treatment of robotic construction, insurance), and which instruments — cost-share demonstrations, milestone contracts, advance-market commitments, prize competitions — would work best?"],
+          ["E4", "What should government not do — where would intervention distort a functioning market or lock in the wrong architecture?"],
+        ]},
+        { letter: "F", title: "Data, benchmarks & evaluation", sub: "The training data and trust layer for physical AI. Feeds roadmap chapter 6 — Data, standards & security annex.", qs: [
+          ["F1", "What operational datasets — inspection imagery, failure records, telemetry — could be pooled to train physical-AI models for energy, and under what governance (anonymization, consortium licensing, federated access) would you contribute?"],
+          ["F2", "What benchmarks or standardized evaluations would let asset owners trust vendor claims about autonomy, reliability, and safety before a purchase?"],
+          ["F3", "What simulation environments and digital twins of energy assets — substations, plants, wells, factory lines — should exist as shared infrastructure?"],
+        ]},
+        { letter: "G", title: "Standards, safety & security", sub: "Rules that make deployment safe and repeatable. Feeds roadmap chapter 6 — Data, standards & security annex.", qs: [
+          ["G1", "Which standards gaps most impede deployment — mobile-robot safety cases at energy sites, human–robot collaboration outside the factory cage, cross-vendor interoperability — and which standards bodies should lead?"],
+          ["G2", "What cybersecurity requirements should apply to connected robotic systems operating on critical energy infrastructure, and how should they align with existing OT security regimes?"],
+          ["G3", "Should there be a common incident-reporting and safety-data-sharing mechanism for robotics in energy settings, modeled on aviation-style safety programs?"],
+        ]},
+        { letter: "H", title: "Engagement & partnerships", sub: "Who shows up, and in what structure. Feeds roadmap chapter 7 — Engagement calendar.", qs: [
+          ["H1", "Would your organization participate in regional listening sessions, technical workshops, or site visits under this inquiry — and which formats and regions?"],
+          ["H2", "What consortium models between industry, universities, and national laboratories have actually worked for you, and what would make a new energy-robotics consortium worth joining?"],
+          ["H3", "Would you host demonstrations or contribute facilities, data, or staff time to shared testbeds — and under what IP and liability terms?"],
+        ]},
+      ],
+    },
+    tight: {
+      note: "20 questions across 7 categories. Same skeleton as the full draft, compound asks merged, engagement converted to a response-form checklist.",
+      checklist: true,
+      cats: [
+        { letter: "A", title: "Applications & operational evidence", sub: "Where robots work today and what they deliver. Feeds roadmap chapter 1 — Applications atlas.", qs: [
+          ["A1", "Which robotics or physical-AI applications are deployed in your operations today, and with what quantified outcomes (safety, cost, uptime, schedule)?"],
+          ["A2", "Which applications are technically proven but not yet economic, and what cost or performance threshold would flip them?"],
+          ["A3", "Which hazardous, repetitive, or hard-to-staff tasks remain fully manual, and what prevents automating them?"],
+        ]},
+        { letter: "B", title: "Deployment blockers", sub: "What stands between pilots and fleets — certification, regulation, data rules. Feeds roadmap chapter 2 — Barrier register.", qs: [
+          ["B1", "Rank the barriers to deploying robotics at your facilities and describe the top three concretely."],
+          ["B2", "Which certification and qualification regimes add the most time and cost, and how could they be streamlined without weakening safety?"],
+          ["B3", "What federal, state, or local regulatory uncertainty affects your deployment decisions?"],
+          ["B4", "What restrictions on operational data leaving your sites limit AI-enabled robotics, and what safeguards would resolve them?"],
+        ]},
+        { letter: "C", title: "Workforce & labor", sub: "Scarce trades, new roles, missing pipelines. Feeds roadmap chapter 3 — Workforce plan.", qs: [
+          ["C1", "Which skilled trades most constrain your projects, and to what degree can robotics close the gap?"],
+          ["C2", "What new occupations has robotics created in your organization, and what credentials or training pipelines are missing?"],
+          ["C3", "What worker-transition and labor-agreement models have worked, and what should government fund, convene, or certify?"],
+        ]},
+        { letter: "D", title: "Supply chain & industrial base", sub: "Components, concentration, and onshoring. Feeds roadmap chapter 4 — Industrial-base assessment.", qs: [
+          ["D1", "For which robot components do you depend on single or foreign-concentrated sources, and where is that concentration in China?"],
+          ["D2", "Which components matter most to secure first, and what would credible onshoring require?"],
+          ["D3", "Where would a disruption in imported robotics hardware or software hurt U.S. energy operations most, and what would mitigate it?"],
+        ]},
+        { letter: "E", title: "Innovation & R&D investment", sub: "Where federal R&D and financing move the needle. Feeds roadmap chapter 5 — R&D portfolio.", qs: [
+          ["E1", "Which technical gaps most limit robotics in energy environments, and where is federal R&D better positioned than private capital?"],
+          ["E2", "What should national laboratories and shared testbeds offer that industry would actually use?"],
+          ["E3", "Where does the pilot-to-scale financing gap bind hardest, and which instruments would work best?"],
+          ["E4", "What should government not do — where would intervention distort a functioning market or lock in the wrong architecture?"],
+        ]},
+        { letter: "F", title: "Data, benchmarks & evaluation", sub: "The training-data and trust layer for physical AI. Feeds roadmap chapter 6 — Data, standards & security annex.", qs: [
+          ["F1", "What operational datasets could be pooled to train physical-AI models for energy, and under what governance would you contribute?"],
+          ["F2", "What benchmarks or standardized evaluations would let buyers trust vendor claims about autonomy, reliability, and safety?"],
+        ]},
+        { letter: "G", title: "Standards, safety & security", sub: "Standards, cyber, and incident reporting in one ask. Feeds roadmap chapter 6 — Data, standards & security annex.", qs: [
+          ["G1", "Which standards, cybersecurity, and incident-reporting gaps most impede safe deployment on energy infrastructure, and which bodies should lead?"],
+        ]},
+      ],
+    },
+    core: {
+      note: "12 questions across 6 categories — one ask per question. Data, benchmarks, standards, and security fold into a single trust layer; engagement becomes a checklist.",
+      checklist: true,
+      cats: [
+        { letter: "A", title: "Applications", sub: "What is deployed and what is nearly economic. Roadmap chapter 1 — Applications atlas.", qs: [
+          ["A1", "Which robotics or physical-AI applications are deployed in your operations today, and with what quantified outcomes?"],
+          ["A2", "Which proven applications are not yet economic, and what cost or performance threshold would flip them?"],
+        ]},
+        { letter: "B", title: "Deployment blockers", sub: "What stands between pilots and fleets. Roadmap chapter 2 — Barrier register.", qs: [
+          ["B1", "Rank the barriers to deployment at your facilities and describe the top three concretely."],
+          ["B2", "Which certification and regulatory regimes add the most time and cost, and how could they be streamlined without weakening safety?"],
+        ]},
+        { letter: "C", title: "Workforce", sub: "Scarce trades, new roles, missing pipelines. Roadmap chapter 3 — Workforce plan.", qs: [
+          ["C1", "Which scarce trades constrain your projects today, and to what degree can robotics close the gap?"],
+          ["C2", "What new roles has robotics created, and what training pipelines or transition models are missing?"],
+        ]},
+        { letter: "D", title: "Supply chain", sub: "Concentration and onshoring. Roadmap chapter 4 — Industrial-base assessment.", qs: [
+          ["D1", "For which robot components do you depend on foreign-concentrated sources, and where is that concentration in China?"],
+          ["D2", "Which components should be secured first, and what would credible onshoring require?"],
+        ]},
+        { letter: "E", title: "R&D & capital", sub: "Where federal R&D and financing move the needle. Roadmap chapter 5 — R&D portfolio.", qs: [
+          ["E1", "Which technical gaps should federal R&D fund — including national-lab testbeds — that private capital won't?"],
+          ["E2", "Where does pilot-to-scale financing bind hardest, and what should government not do?"],
+        ]},
+        { letter: "F", title: "Trust layer", sub: "Data, benchmarks, standards, and security as one layer. Roadmap chapter 6 — Trust annex.", qs: [
+          ["F1", "What operational data could be pooled to train physical AI for energy, and under what governance would you contribute?"],
+          ["F2", "What benchmarks, standards, and cybersecurity requirements would make autonomy trustworthy enough to buy at scale?"],
+        ]},
+      ],
+    },
+    lean: {
+      note: "One broad question per roadmap chapter. Fastest to answer and synthesize; the pointed sub-topics move into the prompts.",
+      checklist: false,
+      cats: [
+        { letter: "1", title: "Applications", sub: "Roadmap chapter 1 — Applications atlas.", qs: [
+          ["Q1", "Where are robots and physical AI delivering measurable results in your energy or manufacturing operations today — and where are they close but not yet economic?"],
+        ]},
+        { letter: "2", title: "Deployment blockers", sub: "Roadmap chapter 2 — Barrier register.", qs: [
+          ["Q2", "What are the top three barriers keeping robotics stuck at pilot scale in your operations, and what specifically would remove each one?"],
+        ]},
+        { letter: "3", title: "Workforce", sub: "Roadmap chapter 3 — Workforce plan.", qs: [
+          ["Q3", "How is robotics changing work on your sites — the scarce trades it relieves, the roles it creates, and the training that's missing?"],
+        ]},
+        { letter: "4", title: "Supply chain", sub: "Roadmap chapter 4 — Industrial-base assessment.", qs: [
+          ["Q4", "Where does your robotics supply chain depend on foreign-concentrated sources — especially China — and what would it take to secure the components that matter most?"],
+        ]},
+        { letter: "5", title: "R&D & capital", sub: "Roadmap chapter 5 — R&D portfolio.", qs: [
+          ["Q5", "Where should federal R&D and financing intervene in energy robotics — and where should government stay out?"],
+        ]},
+        { letter: "6", title: "Trust layer", sub: "Roadmap chapter 6 — Trust annex.", qs: [
+          ["Q6", "What shared data, benchmarks, standards, or security requirements would make autonomy trustworthy enough to deploy at scale on critical infrastructure?"],
+        ]},
+        { letter: "7", title: "Engagement", sub: "Roadmap chapter 7 — Engagement calendar.", qs: [
+          ["Q7", "What engagement — listening sessions, workshops, shared testbeds, consortia, site visits — would your organization actually commit to, and under what terms?"],
+        ]},
+      ],
+    },
+  };
+
+  (function renderPrimeMover() {
+    const host = document.getElementById('pm-questions');
+    if (!host) return;
+    const noteEl = document.getElementById('pm-variant-note');
+    const checkEl = document.getElementById('pm-checklist');
+    const btns = Array.from(document.querySelectorAll('.rfi-vbtn'));
+    const qCount = (v) => v.cats.reduce((n, c) => n + c.qs.length, 0);
+    btns.forEach((b) => {
+      const v = PM_VARIANTS[b.dataset.variant];
+      if (v) b.querySelector('.rfi-vn').textContent = qCount(v);
+    });
+    const el = (tag, cls, text) => {
+      const node = document.createElement(tag);
+      if (cls) node.className = cls;
+      if (text != null) node.textContent = text;
+      return node;
+    };
+    function apply(id) {
+      const v = PM_VARIANTS[id];
+      if (!v) return;
+      host.replaceChildren();
+      v.cats.forEach((cat, i) => {
+        const det = el('details', 'rfi-cat');
+        if (i === 0) det.open = true;
+        const sum = el('summary');
+        sum.append(
+          el('span', 'rfi-cat-letter', cat.letter),
+          el('span', 'rfi-cat-title', cat.title),
+          el('span', 'rfi-cat-count', `${cat.qs.length} question${cat.qs.length === 1 ? '' : 's'}`),
+        );
+        det.append(sum, el('p', 'rfi-cat-sub', cat.sub));
+        const ol = el('ol', 'rfi-qs');
+        cat.qs.forEach(([qid, text]) => {
+          const li = el('li', 'rfi-q');
+          li.id = 'pm-' + qid.toLowerCase();
+          li.append(el('span', 'rfi-qid', qid), el('span', null, text));
+          ol.appendChild(li);
+        });
+        det.appendChild(ol);
+        host.appendChild(det);
+      });
+      noteEl.textContent = v.note;
+      checkEl.hidden = !v.checklist;
+      btns.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.variant === id)));
+      const chipN = document.querySelector('#jumpnav .e-chip[data-target="prime-mover"] .e-chip-n');
+      if (chipN) chipN.textContent = qCount(v);
+    }
+    btns.forEach((b) => b.addEventListener('click', () => apply(b.dataset.variant)));
+    apply('full');
   })();
   </script>
 </body>
