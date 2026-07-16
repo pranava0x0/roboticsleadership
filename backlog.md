@@ -4,7 +4,7 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ## High
 
-- **Execute `improvement-plan.md` (added 2026-07-09).** Prioritized presentation-layer plan from the full-site review. **P0 "share + thesis" done 2026-07-09; P1 "cut + merge" done 2026-07-13** (bubble galaxy → segment summary bar, cut funding-by-year + financing bar, state-policy de-dup, dedicated news.html + News nav). **Next: P2 "credibility"** — honest per-dataset freshness, methodology/About page, Source+Note lines on every chart, citable-stat anchors, and the missing purposeful charts (state map, humanoid cost curve, sector-reliance, subsidy effect). Work top-down by priority section.
+- **Execute `improvement-plan-2.md` (added 2026-07-16) — THE active plan.** Full site + codebase review v2 against ten goals: machine discoverability (bake step, robots/sitemap/llms.txt, JSON-LD, RSS — the site is currently invisible to no-JS crawlers and LLM bots), news-as-product (lead-story Brief, computed trend signals, weekly digest, curation gate — 20 uncurated records render live today), IA regroup + click-depth (scoreboard buried at nav slot 5; no About page exists), depth-ladder primers/toolkit, perf budget (index pulls ~1.2MB raw JSON to show 5 cards + 2 KPIs), dataset history/snapshots + source waves (Congress.gov configured but disabled), analytics (GoatCounter + Search Console), and the JSON-API→PWA path toward iOS/Android. **Absorbs improvement-plan.md's open P2 (credibility) + P3 (perf) items** — that file stays as the 2026-07-09 record + canonical thesis. Start with WS0 quick wins (one session).
 
 ### Valuation watchlist — pending events surfaced in the 2026-06-22 refresh
 

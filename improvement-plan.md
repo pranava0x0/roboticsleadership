@@ -1,5 +1,7 @@
 # Website Improvement Plan — 2026-07-09
 
+> **2026-07-16:** the still-open items here (P2 credibility, P3 perf, the two open P0/P1 stragglers) are **absorbed into [improvement-plan-2.md](improvement-plan-2.md)** — work from that file. This one remains as the record of the 2026-07 presentation overhaul and the canonical home of **§ The thesis** (referenced by CLAUDE.md).
+
 Goal: make the site **clean, crisp, focused, and useful** for its actual mission — **influencing policy and educating people about the robotics industry**. Charts stay, but every chart must serve an argument.
 
 Inputs: a full page-by-page review of all 8 pages + assets + data, benchmarked against FAI's *The State of Industrial Robotics* (Michael & Alden, 2026-06-17 — archived at `data/research/fai-state-of-industrial-robotics-2026-06-17.md`) and its companion pieces (Physical Intelligence Project announcement; Michael's "China's Robot Density Is Overstated").
