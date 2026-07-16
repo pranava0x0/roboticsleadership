@@ -642,7 +642,8 @@
     pmChip.textContent = 'Prime Mover';
     const pmN = document.createElement('span');
     pmN.className = 'e-chip-n';
-    pmN.textContent = document.querySelectorAll('#prime-mover .rfi-q').length;
+    // Count is left empty here and filled by renderPrimeMover() below, which owns
+    // the question data and reruns on every variant switch.
     pmChip.appendChild(pmN);
     navEl.appendChild(pmChip);
 
