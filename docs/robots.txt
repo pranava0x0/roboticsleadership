@@ -1,0 +1,40 @@
+# Robotics Tracker — https://pranava0x0.github.io/roboticsleadership/
+# Everything here is public, cited, and meant to be quoted. Crawl it.
+
+User-agent: *
+Allow: /
+
+# LLM and answer-engine crawlers are explicitly welcome. Being citable by a
+# chatbot asked "who tracks US-China robotics policy?" is a goal of this site,
+# not a side effect. Attribution to the source URL is the only ask.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://pranava0x0.github.io/roboticsleadership/sitemap.xml
