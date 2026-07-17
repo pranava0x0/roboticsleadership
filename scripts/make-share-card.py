@@ -59,12 +59,18 @@ SANS = resolve_font("sans")
 SANS_BOLD = resolve_font("sans_bold")
 
 EYEBROW = "ROBOTICS LEADERSHIP TRACKER"
+# The card states the frame, not a verdict. "Robotics decides who gets both"
+# was a prediction written as fact, and the footer's "every record cited to a
+# primary source" was simply false (~16% of company sources and ~13% of news
+# URLs are secondary press). Both are the site's most-shared copy, so they were
+# the most-repeated versions of claims the site can't support. See
+# improvement-plan.md § The thesis, which this must stay in sync with.
 HEADLINE = [
     ("America has the AI.", TEXT),
     ("China has the scale.", TEXT),
-    ("Robotics decides who gets both.", ACCENT),
+    ("Robotics is where they meet.", ACCENT),
 ]
-FOOTER = "Live scoreboard · every record cited to a primary source"
+FOOTER = "Tracked and cited · primary sources preferred"
 URL = "pranava0x0.github.io/roboticsleadership"
 
 OUT = Path(__file__).resolve().parent.parent / "docs" / "assets" / "share-card.png"
@@ -100,13 +106,32 @@ def main() -> None:
         d.text((100, y), line, font=head_font, fill=color)
         y += int(size * 1.24)
 
-    # Footer strip
+    # Footer strip — the footer is left-aligned and the URL right-aligned in a
+    # fixed-width bar, so a footer that outgrows the gap silently prints *over*
+    # the URL. That is exactly what happened when this copy was rewritten, and
+    # nothing caught it but a human looking at the PNG. Shrink to fit the way
+    # the headline above already does, and halt rather than ship an overlap.
     d.rectangle([0, H - 78, W, H], fill=SURFACE)
-    foot_font = font(SANS, 24)
-    d.text((64, H - 78 + 24), FOOTER, font=foot_font, fill=MUTED)
     url_font = font(SANS_BOLD, 24)
     url_w = d.textlength(URL, font=url_font)
-    d.text((W - 64 - url_w, H - 78 + 24), URL, font=url_font, fill=TEXT)
+    foot_max = W - 64 - 64 - url_w - 24  # margins + a 24px gutter before the URL
+
+    foot_size = 24
+    foot_font = font(SANS, foot_size)
+    while foot_size > 14 and d.textlength(FOOTER, font=foot_font) > foot_max:
+        foot_size -= 1
+        foot_font = font(SANS, foot_size)
+    if d.textlength(FOOTER, font=foot_font) > foot_max:
+        raise SystemExit(
+            f"make-share-card: FOOTER ({FOOTER!r}) does not fit beside the URL "
+            f"even at {foot_size}px — shorten it."
+        )
+
+    # Anchor both to the strip's vertical middle so they stay aligned to each
+    # other even when the footer has been shrunk to a different size.
+    strip_mid = H - 78 + 39
+    d.text((64, strip_mid), FOOTER, font=foot_font, fill=MUTED, anchor="lm")
+    d.text((W - 64, strip_mid), URL, font=url_font, fill=TEXT, anchor="rm")
 
     img.save(OUT, optimize=True)
     log.info("wrote %s (%d bytes)", OUT, OUT.stat().st_size)
