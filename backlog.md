@@ -2,6 +2,40 @@
 
 Prioritized list of features, enhancements, and known gaps. Review weekly; demote stale "high" items to "low" rather than letting them rot.
 
+---
+
+## ▶ Next steps (updated 2026-07-16, after WS0 shipped in #119)
+
+Active plan: **[improvement-plan-2.md](improvement-plan-2.md)**. WS0 is done except the two items below that only the owner can start.
+
+### 1. Owner actions — two goals sit at zero until these happen (~15 min each)
+
+- [ ] **Create a GoatCounter account**, then hand over the site code → the snippet goes into the 9 heads. Also verify **Google Search Console** against the now-live `sitemap.xml`. Until this lands there is no feedback loop at all: we don't know if anyone visits, what they read, or what queries find us, so every prioritisation argument stays taste-vs-taste. Goal 10. **S**
+- [ ] **Request a free api.data.gov key** and add it as a repo secret → enables Congress.gov ingestion. Policy ingestion is Federal Register only today, which is the single biggest coverage gap for a site whose whole subject is policy. The source is already configured and disabled for want of the key. Untestable without it, so give it its own session. Goal 1. **M**
+
+### 2. Next session — WS1 bake step (the flagship item of the whole plan)
+
+- [ ] **Deploy-time "bake, not build"**: `scripts/render-static.js`, run in `pages.yml` between validate and upload, injecting rendered HTML into marked slots. Local dev stays no-build. Order: china.html → news.html → index.html → tables. Success bar: no-JS visible content ≥70% (from 35/15/10%). **L**
+- [ ] Then `feed.xml` + JSON-LD (`Dataset` markup is what reaches Google Dataset Search, which policy researchers actually use).
+- [ ] **Have the bake step generate `llms.txt`** — its record counts are currently a hand-stamped "as of 2026-07-16" snapshot and nothing in CI catches the drift.
+- **Two traps for WS1, both learned the hard way this session:** bake output is *ephemeral per-deploy output* — fine for HTML/feed/llms.txt (pure functions of committed data), wrong for anything that must accumulate (see WS6 snapshots). And `pages.yml` runs on push-to-`main` only, so a bake bug surfaces *after* merge, not on the PR.
+
+### 3. Cheap, high-leverage, any time
+
+- [ ] **Add a `pull_request` CI job** — nothing validates a PR today (`gh pr checks` reports "no checks" on every one), and `npm test` runs nowhere at all. See the item under High. **S**
+- [ ] **Decide the "every record links to its primary source" claim** — it's false in ~10 places of canonical copy, and it's the site's central credibility promise. Owner call because it touches meta/OG copy + the share card. See the item under High. **S–M**
+
+### 4. Known debt WS0 exposed but deliberately did not fix
+
+The curation gate now stops *new* noise at the deploy, but the existing corpus was never clean and the flag was never a quality signal:
+
+- [ ] ~29 off-topic **unflagged** policy records the gate structurally cannot catch — needs per-record judgement.
+- [ ] The Federal Register relevance filter that produces them, and will refill the 78 we dropped.
+
+Each is detailed under **High** below.
+
+---
+
 ## High
 
 - **"Every record links to its primary source" is not true, and it's the site's central credibility claim (found by Codex review, 2026-07-16).** Many records cite *secondary press*, not a primary source: Apptronik's funding cites TechCrunch + Bloomberg (`companies.json`), and news records cite NYT/WSJ. On a partial outlet regex, **≥16% of company sources and ≥13% of news `source_url`s** are recognisably secondary — the real share is higher. The claim contradicts the site's own caveat that funding/valuation figures are "reported values from press coverage unless a round is marked `confirmed`", and `validate.js` only enforces that `sources[]` is non-empty and URL-shaped — it has never checked primariness. Corrected in `docs/llms.txt` already (that file exists to tell bots what to trust, so it couldn't ship a false guarantee), but the claim still appears in **~10 places of owner-canonical copy**: `index.html` (incl. `<meta name="description">` + OG), `news.html` (incl. meta + OG), `china.html`, `themes.html` footers. Left alone deliberately — meta/OG copy is canonical in `improvement-plan.md` § The thesis and a change means regenerating `share-card.png` (`python3 scripts/make-share-card.py`), so it's an owner call, not a drive-by edit. Two honest options: (a) reword to the true invariant — "every record is cited, primary sources preferred"; or (b) keep the claim and make it true by adding a `source_type: primary|secondary` field that `validate.js` enforces. (a) is a session; (b) is a data project.
