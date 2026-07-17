@@ -4,6 +4,16 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 ## Open
 
+### 2026-07-16 — app.js — `initCollapsibleSections` is a no-op on every page whose sections are rendered by JS
+
+- **Area:** collapsible sections (`docs/assets/app.js:328-375`), affecting `china.html` and any page that renders `details.collapsible-section[id]` from data.
+- **Symptom:** on china.html, expanding a metric section and reloading does **not** restore it — and the "on mobile, open only the first section" default never applies either. Verified live on a baked page: after toggling section 3 and reloading, `open` state is `[true,false,false,false,false]` and **zero** `details-state-china.html-*` keys exist in localStorage. The feature silently does nothing.
+- **Root cause (code bug):** ordering. `app.js` is `<script defer>` *before* the page's own `defer` script, so its `DOMContentLoaded` listener (`init()` → `initCollapsibleSections()`) fires **first** — at which point `#vs-sections` is still the empty placeholder. `document.querySelectorAll('details.collapsible-section[id]')` matches nothing, so no state is restored and no `toggle` listener is attached. The page script then renders the sections into a page where nothing is listening.
+- **Not caused by the bake step, and not fixed by it.** Pre-dates it: the sections never existed at `init()` time. Post-bake they *do* exist in the HTML, so `initCollapsibleSections` finds them and attaches listeners — but the page script's `RT.paint()` immediately replaces those nodes with fresh ones, discarding the listeners. Same end state, different route. Found while verifying the bake didn't change hydration behaviour.
+- **Impact:** low-moderate. Nothing is broken or misrendered; a documented affordance just doesn't work on the site's most content-dense page. Static pages that hand-author their `<details>` (themes.html, energy.html) are unaffected — their sections exist at `init()`.
+- **Fix:** don't bind on a global `DOMContentLoaded` race. Either (a) export `RT.initCollapsibleSections()` and have each page call it *after* it renders, or (b) delegate — one `toggle` listener on `document` (the event doesn't bubble, but it can be captured), which survives any re-render and is the smaller change. (b) preferred; (a) is 9 call sites and re-introduces the same ordering question every time a page adds a render.
+- **Regression coverage:** none. Needs the jsdom harness the backlog already wants for news.html's deep-link contract — same class of ordering bug, same blind spot in a Node-only suite.
+
 ### 2026-07-16 — app.js — `loadData` cache stampede: concurrent callers double-fetch the same dataset
 
 - **Area:** data fetching (`docs/assets/app.js:11-24`).
