@@ -526,6 +526,240 @@
     }
   }
 
+  /* ============================================================
+     Page renderers — pure: data in → HTML string out, no DOM.
+
+     These used to live in each page's inline <script>, which meant only a
+     browser could produce the site's content. The deploy-time bake step
+     (scripts/render-static.js) now runs these same functions in Node against
+     the same committed JSON and injects the result into the shipped HTML, so
+     crawlers and no-JS readers get the content; the client then re-renders
+     into the same containers exactly as before.
+
+     The contract that makes that work: **never touch the DOM in here**. No
+     document, no window, no location — arguments in, string out. A DOM
+     reference doesn't fail locally (the browser has one), it fails at deploy
+     inside the bake's Node sandbox, which pages.yml only runs after merge.
+     ============================================================ */
+
+  // The single sink where a renderer's string becomes DOM. The renderers own
+  // escaping (every interpolated field goes through escapeHTML, every data-built
+  // href through safeURL); this owns the insertion. Centralised so the escaping
+  // contract has one place to audit instead of one per call site, and built on
+  // replaceChildren + insertAdjacentHTML to match the idiom already used for the
+  // news feed. Strings reaching here come from our own committed JSON.
+  function paint(el, html) {
+    if (!el) return;
+    el.replaceChildren();
+    el.insertAdjacentHTML('beforeend', html);
+  }
+
+  // ---------- US vs China (china.html) ----------
+  function chinaTally(uc) {
+    const metrics = (uc.sections || []).flatMap((s) => s.metrics || []);
+    const tally = { us: 0, china: 0, even: 0 };
+    metrics.forEach((m) => { tally[m.edge] = (tally[m.edge] || 0) + 1; });
+    return { total: metrics.length, us: tally.us, china: tally.china, even: tally.even };
+  }
+
+  function renderChinaBluf(uc) {
+    const b = uc.bluf || {};
+    return `<strong>${escapeHTML(b.headline)}</strong> ${escapeHTML(b.body)}` +
+      `<span style="display:block;font-size:11.5px;margin-top:8px;color:var(--text-faint);">Sources: ${srcLinks(b.sources)}</span>`;
+  }
+
+  function renderChinaScoreline(uc) {
+    const t = chinaTally(uc);
+    return `<span>Across <strong>${t.total} metrics</strong>:</span>` +
+      `<span><strong>${t.china}</strong> favor China</span>` +
+      `<span><strong>${t.us}</strong> favor the US</span>` +
+      `<span><strong>${t.even}</strong> contested</span>`;
+  }
+
+  // Widths come from the same counts the scoreline labels above — never color-only.
+  function renderChinaScoreBar(uc) {
+    const t = chinaTally(uc);
+    return [['cn', t.china, 'favor China'], ['even', t.even, 'contested'], ['us', t.us, 'favor the US']]
+      .map(([cls, n, label]) => {
+        const pct = t.total ? (n / t.total) * 100 : 0;
+        return `<span class="seg ${cls}" style="width:${pct}%" title="${escapeHTML(`${n} ${label}`)}"></span>`;
+      }).join('');
+  }
+
+  function renderChinaSections(uc) {
+    return (uc.sections || []).map((sec, i) => `
+      <details class="collapsible-section" id="sec-${escapeHTML(sec.id)}" ${i === 0 ? 'open' : ''}>
+        <summary>
+          <h2 class="section-title">${escapeHTML(sec.title)}</h2>
+        </summary>
+        <div class="table-wrap">
+          <table class="vs-table">
+            <thead><tr><th>Metric</th><th>United States</th><th>China</th></tr></thead>
+            <tbody>
+              ${(sec.metrics || []).map((m) => `
+                <tr>
+                  <td class="vs-metric">${escapeHTML(m.metric)}
+                    <div class="vs-srcs">${srcLinks(m.sources)}</div>
+                    ${m.note ? `<div class="vs-note">${escapeHTML(m.note)}</div>` : ''}
+                  </td>
+                  <td class="vs-cell us-cell ${m.edge === 'us' ? 'win' : ''}">${escapeHTML(m.us)}</td>
+                  <td class="vs-cell cn-cell ${m.edge === 'china' ? 'win' : ''}">${escapeHTML(m.china)}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+      </details>
+    `).join('');
+  }
+
+  function renderUnitreeRows(uc) {
+    const rows = (uc.unitree_case && uc.unitree_case.rows) || [];
+    return rows.map((r) => `
+      <tr>
+        <td class="vs-metric">${escapeHTML(r.dimension)}<div class="vs-srcs">${srcLinks(r.sources)}</div></td>
+        <td class="vs-cell cn-cell">${escapeHTML(r.unitree)}</td>
+        <td class="vs-cell us-cell">${escapeHTML(r.us_oems)}</td>
+      </tr>
+    `).join('');
+  }
+
+  // Plain text, not HTML: the client assigns it with textContent, the bake step
+  // escapes it. Returning a string keeps both callers honest about which it is.
+  function chinaMethodNote(uc) {
+    const meta = uc._meta || {};
+    return `Method: ${meta.method || ''}. Captured as of ${formatDate(meta.captured_at || meta.last_updated)}. "Edge" calls are editorial judgments on sourced data, not scores.`;
+  }
+
+  // ---------- News (news.html, index.html) ----------
+  const NEWS_PAGE_SIZE = 20;
+
+  // The site's one definition of "latest N stories". news.html pages through the
+  // full sorted list; index.html and the bake step take the head of it.
+  function latestNews(news, count) {
+    return sortBy(news || [], (n) => n.date, 'desc').slice(0, count);
+  }
+
+  function newsResultCount(total, page, size) {
+    if (total <= size) return `${total} ${total === 1 ? 'story' : 'stories'}`;
+    const start = Math.min((page - 1) * size + 1, total);
+    const end = Math.min(page * size, total);
+    return `${start}–${end} of ${total} stories`;
+  }
+
+  // ---------- Dashboard (index.html) ----------
+  function truncate(s, n) {
+    if (!s) return '';
+    return s.length > n ? s.slice(0, n - 1).replace(/[\s.,;:]+$/, '') + '…' : s;
+  }
+
+  // Every KPI links to the view it was counted from — a staffer who reads
+  // "35 unicorns" should be one click from the list. The filters are
+  // single-valued, so a couple of these can't be reproduced exactly as a URL
+  // ("Signed OR In effect" has none); those link to the nearest expressible
+  // view, which lands within a row or two rather than on a set several times
+  // larger. Exact-ness per card, measured against the current data:
+  //   Tracked funding    -> companies sorted by funding (no count implied)
+  //   Unicorns        35 -> top 35 by valuation ARE the unicorns: exact
+  //   Install gap        -> the scoreboard itself
+  //   Active deployments -> companies.html; no deployment filter exists, so
+  //                         this is a plain "go see the companies" link
+  //   Congress         3 -> 5 federal bills (3 of them pre-enactment)
+  //   Executive       24 -> 23 "In effect"; misses 1 lone "Signed" record
+  // sc (supply_chain) may be null — the install-gap card is dropped, not faked.
+  function computeKPIs(companies, policies, sc) {
+    const thisYear = new Date().getFullYear();
+    const ytdFunding = companies.reduce((sum, c) => sum + (c.funding_rounds || [])
+      .filter((r) => r.date && r.date.startsWith(String(thisYear)) && r.amount_usd)
+      .reduce((s, r) => s + r.amount_usd, 0), 0);
+
+    const unicornCount = companies.filter((c) => (c.latest_valuation_usd || 0) >= 1e9).length;
+    const activeDeployments = companies.reduce((sum, c) =>
+      sum + (c.deployments || []).filter((d) => d.status === 'active').length, 0);
+
+    const inProgress = ['Introduced', 'Committee', 'Passed House', 'Passed Senate'];
+    const inEffect = ['Signed', 'In effect'];
+    const congressInProgress = policies.filter((p) =>
+      p.level === 'Federal' && p.type === 'Bill' && inProgress.includes(p.status)).length;
+    const executiveInEffect = policies.filter((p) =>
+      p.level === 'Federal' && p.type !== 'Bill' && inEffect.includes(p.status)).length;
+
+    const kpis = [
+      { label: `Tracked funding · ${thisYear}`, value: formatUSD(ytdFunding), sub: `${companies.length} companies tracked`, href: 'companies.html?sort=funding-desc' },
+      { label: 'Unicorns', value: String(unicornCount), sub: 'companies ≥ $1B valuation', href: 'companies.html?sort=valuation-desc' },
+      { label: 'Active deployments', value: String(activeDeployments), sub: 'production / commercial', href: 'companies.html' },
+      { label: 'Congress · in progress', value: String(congressInProgress), sub: 'bills, pre-enactment', href: 'policies.html?level=Federal&type=Bill' },
+      { label: 'Executive · in effect', value: String(executiveInEffect), sub: 'agency rules, programs', href: `policies.html?level=Federal&status=${encodeURIComponent('In effect')}` },
+    ];
+
+    // The China-gap KPI — the strip should reflect the thesis, not just the
+    // US supply side. Ratio from the latest historical production-trend row.
+    const trendRows = (sc && sc.production_trend) || [];
+    const lastActual = [...trendRows].reverse().find((r) => !r.projected && r.china_units && r.us_units);
+    if (lastActual) {
+      const ratio = Math.round(lastActual.china_units / lastActual.us_units);
+      kpis.splice(2, 0, { label: 'Install gap', value: `${ratio}×`, sub: `China vs US robot installs · ${lastActual.year}`, href: 'china.html' });
+    }
+    return kpis;
+  }
+
+  // The cols-6 modifier depends on how many KPIs there are, so it can't live in
+  // static markup: a 6-card strip would otherwise ship into a 5-column grid for
+  // every no-JS reader. Split so the client can set class and cards separately
+  // while the bake step composes both into one element — same source, no drift.
+  function kpiStripClass(kpis) {
+    return `kpi-strip${kpis.length === 6 ? ' cols-6' : ''}`;
+  }
+
+  function renderKPICards(kpis) {
+    return kpis.map((k) => `
+      <a class="kpi-card" href="${escapeHTML(k.href)}">
+        <span class="kpi-label">${escapeHTML(k.label)}</span>
+        <span class="kpi-value tnum">${escapeHTML(k.value)}</span>
+        <span class="kpi-sub">${escapeHTML(k.sub)}</span>
+      </a>
+    `).join('');
+  }
+
+  function renderKPIStrip(kpis) {
+    return `<div id="kpi-strip" class="${kpiStripClass(kpis)}">${renderKPICards(kpis)}</div>`;
+  }
+
+  function renderThemeCards(themes) {
+    return (themes || []).slice(0, 6).map((t) => `
+      <a class="card card-hoverable" href="themes.html#${encodeURIComponent(t.id)}" style="color:inherit;border-bottom:none;">
+        <div class="row" style="gap:6px;">
+          <span class="pill dir-${slug(t.direction)}">${escapeHTML(t.direction)}</span>
+          ${t.government_intervention_ready ? '<span class="pill outline">Policy-ready</span>' : ''}
+        </div>
+        <h3 class="card-title">${escapeHTML(t.name)}</h3>
+        <p class="card-sub">${escapeHTML(truncate(t.narrative, 180))}</p>
+        <div class="card-meta">
+          <span>${(t.related_companies || []).length} cos</span>
+          <span class="sep"></span>
+          <span>${(t.related_policies || []).length} policies</span>
+        </div>
+      </a>
+    `).join('');
+  }
+
+  function renderTopCompanies(companies) {
+    const top = sortBy(companies || [], (c) => c.latest_valuation_usd || 0, 'desc').slice(0, 6);
+    return top.map((c) => `
+      <a class="card card-hoverable" href="companies.html?focus=${encodeURIComponent(c.id)}" style="color:inherit;border-bottom:none;">
+        <div class="row" style="gap:6px;">
+          ${(c.tags || []).slice(0, 2).map((t) => `<span class="pill outline">${escapeHTML(t)}</span>`).join('')}
+        </div>
+        <h3 class="card-title">${escapeHTML(c.name)}</h3>
+        <div class="card-sub">${escapeHTML(prettyHQ(c.hq))} · ${escapeHTML(c.primary_use_case)}</div>
+        <dl class="kv" style="grid-template-columns:auto 1fr;gap:2px 12px;">
+          <dt>Valuation</dt><dd class="tnum">${formatUSD(c.latest_valuation_usd, { fallback: 'Not disclosed' })}</dd>
+          <dt>Total raised</dt><dd class="tnum">${formatUSD(c.total_funding_usd, { fallback: '—' })}</dd>
+        </dl>
+      </a>
+    `).join('');
+  }
+
   // ---------- Boot sequence ----------
   function init() {
     initThemePicker();
@@ -564,5 +798,25 @@
     renderNewsCard,
     srcLinks,
     renderProductionTrend,
+    truncate,
+    paint,
+    // Pure page renderers — shared by the inline page scripts and the
+    // deploy-time bake step (scripts/render-static.js). Keep them DOM-free.
+    NEWS_PAGE_SIZE,
+    latestNews,
+    newsResultCount,
+    chinaTally,
+    renderChinaBluf,
+    renderChinaScoreline,
+    renderChinaScoreBar,
+    renderChinaSections,
+    renderUnitreeRows,
+    chinaMethodNote,
+    computeKPIs,
+    kpiStripClass,
+    renderKPICards,
+    renderKPIStrip,
+    renderThemeCards,
+    renderTopCompanies,
   };
 })(window);

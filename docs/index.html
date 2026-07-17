@@ -92,13 +92,13 @@
 
     <!-- KPI strip -->
     <section aria-label="Key indicators">
-      <div id="kpi-strip" class="kpi-strip">
+      <!--static:index-kpis:start--><div id="kpi-strip" class="kpi-strip">
         <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
         <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
         <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
         <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
         <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
-      </div>
+      </div><!--static:index-kpis:end-->
     </section>
 
     <!-- The scoreboard: the thesis chart -->
@@ -130,15 +130,15 @@
 
     <!-- Recent activity -->
     <h2 class="section-title">Recent activity</h2>
-    <div id="recent-news" class="feed" aria-live="polite"></div>
+    <div id="recent-news" class="feed" aria-live="polite"><!--static:index-recent-news:start--><!--static:index-recent-news:end--></div>
 
     <!-- Themes -->
     <h2 class="section-title">Themes to watch</h2>
-    <div id="theme-cards" class="card-grid cols-3"></div>
+    <div id="theme-cards" class="card-grid cols-3"><!--static:index-themes:start--><!--static:index-themes:end--></div>
 
     <!-- Top companies -->
     <h2 class="section-title">Most-watched companies</h2>
-    <div id="top-companies" class="card-grid cols-3"></div>
+    <div id="top-companies" class="card-grid cols-3"><!--static:index-companies:start--><!--static:index-companies:end--></div>
   </main>
 
   <footer class="site-footer">
@@ -159,70 +159,21 @@
       RT.loadData('supply_chain').catch(() => null),
     ]);
 
-    // ---------- KPI strip ----------
-    const thisYear = new Date().getFullYear();
-    const ytdFunding = companies.reduce((sum, c) => {
-      return sum + (c.funding_rounds || [])
-        .filter(r => r.date && r.date.startsWith(String(thisYear)) && r.amount_usd)
-        .reduce((s, r) => s + r.amount_usd, 0);
-    }, 0);
-
-    const unicornCount = companies.filter(c => (c.latest_valuation_usd || 0) >= 1e9).length;
-
-    const activeDeployments = companies.reduce((sum, c) => {
-      return sum + (c.deployments || []).filter(d => d.status === 'active').length;
-    }, 0);
-
-    const inProgress = ['Introduced', 'Committee', 'Passed House', 'Passed Senate'];
-    const inEffect = ['Signed', 'In effect'];
-    const congressInProgress = policies.filter(p =>
-      p.level === 'Federal' && p.type === 'Bill' && inProgress.includes(p.status)
-    ).length;
-    const executiveInEffect = policies.filter(p =>
-      p.level === 'Federal' && p.type !== 'Bill' && inEffect.includes(p.status)
-    ).length;
-
-    // Every KPI links to the view it was counted from — a staffer who reads
-    // "35 unicorns" should be one click from the list. The filters are
-    // single-valued, so a couple of these can't be reproduced exactly as a URL
-    // ("Signed OR In effect" has none); those link to the nearest expressible
-    // view, which lands within a row or two rather than on a set several times
-    // larger. Exact-ness per card, measured against the current data:
-    //   Tracked funding    -> companies sorted by funding (no count implied)
-    //   Unicorns        35 -> top 35 by valuation ARE the unicorns: exact
-    //   Install gap        -> the scoreboard itself
-    //   Active deployments -> companies.html; no deployment filter exists, so
-    //                         this is a plain "go see the companies" link
-    //   Congress         3 -> 5 federal bills (3 of them pre-enactment)
-    //   Executive       24 -> 23 "In effect"; misses 1 lone "Signed" record
-    const kpis = [
-      { label: `Tracked funding · ${thisYear}`, value: RT.formatUSD(ytdFunding), sub: `${companies.length} companies tracked`, href: 'companies.html?sort=funding-desc' },
-      { label: 'Unicorns', value: String(unicornCount), sub: 'companies ≥ $1B valuation', href: 'companies.html?sort=valuation-desc' },
-      { label: 'Active deployments', value: String(activeDeployments), sub: 'production / commercial', href: 'companies.html' },
-      { label: 'Congress · in progress', value: String(congressInProgress), sub: 'bills, pre-enactment', href: 'policies.html?level=Federal&type=Bill' },
-      { label: 'Executive · in effect', value: String(executiveInEffect), sub: 'agency rules, programs', href: `policies.html?level=Federal&status=${encodeURIComponent('In effect')}` },
-    ];
-
-    // The China-gap KPI — the strip should reflect the thesis, not just the
-    // US supply side. Ratio from the latest historical production-trend row.
-    const trendRows = (sc && sc.production_trend) || [];
-    const lastActual = [...trendRows].reverse().find(r => !r.projected && r.china_units && r.us_units);
-    if (lastActual) {
-      const ratio = Math.round(lastActual.china_units / lastActual.us_units);
-      kpis.splice(2, 0, { label: 'Install gap', value: `${ratio}×`, sub: `China vs US robot installs · ${lastActual.year}`, href: 'china.html' });
-    }
-
+    // Every block below is also rendered at deploy time by scripts/render-static.js
+    // from these same RT.* functions, so this re-render reproduces what already
+    // shipped in the HTML. Page markup belongs in app.js, not inline here —
+    // anything defined in this script is invisible to the bake step.
+    const kpis = RT.computeKPIs(companies, policies, sc);
     const strip = document.getElementById('kpi-strip');
-    if (kpis.length === 6) strip.classList.add('cols-6');
-    strip.innerHTML = kpis.map(k => `
-      <a class="kpi-card" href="${RT.escapeHTML(k.href)}">
-        <span class="kpi-label">${RT.escapeHTML(k.label)}</span>
-        <span class="kpi-value tnum">${RT.escapeHTML(k.value)}</span>
-        <span class="kpi-sub">${RT.escapeHTML(k.sub)}</span>
-      </a>
-    `).join('');
+    strip.className = RT.kpiStripClass(kpis);
+    RT.paint(strip, RT.renderKPICards(kpis));
 
     // ---------- Charts ----------
+    // Still client-only: renderProductionTrend writes into live SVG nodes and
+    // the valuation chart is a local closure over the scope toggle. Charts carry
+    // no text a crawler can read beyond axis labels, so they were not worth the
+    // refactor in the first bake pass.
+    const trendRows = (sc && sc.production_trend) || [];
     RT.renderProductionTrend(trendRows, {
       svg: document.getElementById('production-trend-svg'),
       legend: document.getElementById('production-trend-legend'),
@@ -232,56 +183,17 @@
     wireValuationScope(companies);
 
     // ---------- Recent news (top 5) ----------
-    const sorted = [...news].sort((a, b) => (a.date < b.date ? 1 : -1));
-    const recent = sorted.slice(0, 5);
-    document.getElementById('recent-news').innerHTML = recent.map(n => 
-      RT.renderNewsCard(n, companies, policies, { linkToFeed: true })
-    ).join('');
+    RT.paint(document.getElementById('recent-news'), RT.latestNews(news, 5)
+      .map(n => RT.renderNewsCard(n, companies, policies, { linkToFeed: true })).join(''));
 
     // ---------- Themes ----------
-    document.getElementById('theme-cards').innerHTML = themes.slice(0, 6).map(t => `
-      <a class="card card-hoverable" href="themes.html#${encodeURIComponent(t.id)}" style="color:inherit;border-bottom:none;">
-        <div class="row" style="gap:6px;">
-          <span class="pill dir-${RT.slug(t.direction)}">${RT.escapeHTML(t.direction)}</span>
-          ${t.government_intervention_ready ? '<span class="pill outline">Policy-ready</span>' : ''}
-        </div>
-        <h3 class="card-title">${RT.escapeHTML(t.name)}</h3>
-        <p class="card-sub">${RT.escapeHTML(truncate(t.narrative, 180))}</p>
-        <div class="card-meta">
-          <span>${(t.related_companies || []).length} cos</span>
-          <span class="sep"></span>
-          <span>${(t.related_policies || []).length} policies</span>
-        </div>
-      </a>
-    `).join('');
+    RT.paint(document.getElementById('theme-cards'), RT.renderThemeCards(themes));
 
     // ---------- Top companies ----------
-    const top = RT.sortBy(companies, c => c.latest_valuation_usd || 0, 'desc').slice(0, 6);
-    document.getElementById('top-companies').innerHTML = top.map(c => `
-      <a class="card card-hoverable" href="companies.html?focus=${encodeURIComponent(c.id)}" style="color:inherit;border-bottom:none;">
-        <div class="row" style="gap:6px;">
-          ${(c.tags || []).slice(0, 2).map(t => `<span class="pill outline">${RT.escapeHTML(t)}</span>`).join('')}
-        </div>
-        <h3 class="card-title">${RT.escapeHTML(c.name)}</h3>
-        <div class="card-sub">${RT.escapeHTML(RT.prettyHQ(c.hq))} · ${RT.escapeHTML(c.primary_use_case)}</div>
-        <dl class="kv" style="grid-template-columns:auto 1fr;gap:2px 12px;">
-          <dt>Valuation</dt><dd class="tnum">${RT.formatUSD(c.latest_valuation_usd, { fallback: 'Not disclosed' })}</dd>
-          <dt>Total raised</dt><dd class="tnum">${RT.formatUSD(c.total_funding_usd, { fallback: '—' })}</dd>
-        </dl>
-      </a>
-    `).join('');
+    RT.paint(document.getElementById('top-companies'), RT.renderTopCompanies(companies));
   });
 
   // ---------- helpers ----------
-  function companyName(companies, id) {
-    const c = companies.find(x => x.id === id);
-    return c ? c.name : id;
-  }
-  function truncate(s, n) {
-    if (!s) return '';
-    return s.length > n ? s.slice(0, n - 1).replace(/[\s.,;:]+$/, '') + '…' : s;
-  }
-
   // A company's valuation is "pure-play" robotics unless it's a diversified prime
   // or an industrial incumbent whose market cap spans well beyond robotics.
   function isPurePlay(c) {

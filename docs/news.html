@@ -86,11 +86,11 @@
         </select>
         <button class="btn ghost" type="button" id="f-reset">Reset</button>
         <button class="btn ghost" type="button" id="f-density" aria-pressed="false" title="Toggle compact view">Compact</button>
-        <span class="filter-result-count" id="result-count" aria-live="polite"></span>
+        <span class="filter-result-count" id="result-count" aria-live="polite"><!--static:news-result-count:start--><!--static:news-result-count:end--></span>
       </fieldset>
     </form>
 
-    <section id="feed" class="feed" data-density="card" aria-live="polite"></section>
+    <section id="feed" class="feed" data-density="card" aria-live="polite"><!--static:news-feed:start--><!--static:news-feed:end--></section>
     <div id="empty" class="empty-state" hidden>No stories match those filters.</div>
     <div id="feed-pagination" class="feed-pagination" aria-label="Feed pages"></div>
   </main>
@@ -143,7 +143,10 @@
       if (el && q[k]) el.value = q[k];
     });
 
-    const PAGE_SIZE = 20;
+    // Shared with scripts/render-static.js, which bakes exactly this page's
+    // worth of cards into the shipped HTML — the two must agree or the baked
+    // feed and the hydrated feed would disagree on where page 1 ends.
+    const PAGE_SIZE = RT.NEWS_PAGE_SIZE;
     let newsPage = 1;
 
     ['f-search','f-category','f-company','f-sort'].forEach(id => {
@@ -218,11 +221,8 @@
           pageRows.map(n => RT.renderNewsCard(n, companies, policies)).join(''));
       }
 
-      const start = Math.min((newsPage - 1) * PAGE_SIZE + 1, rows.length);
-      const end = Math.min(newsPage * PAGE_SIZE, rows.length);
-      document.getElementById('result-count').textContent = rows.length <= PAGE_SIZE
-        ? `${rows.length} ${rows.length === 1 ? 'story' : 'stories'}`
-        : `${start}–${end} of ${rows.length} stories`;
+      document.getElementById('result-count').textContent =
+        RT.newsResultCount(rows.length, newsPage, PAGE_SIZE);
 
       renderPagination(newsPage, totalPages);
 
