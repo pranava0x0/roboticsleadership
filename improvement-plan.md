@@ -30,11 +30,21 @@ What FAI's report does that we should steal:
 
 ---
 
-## The thesis (adopted 2026-07-09)
+## The thesis (adopted 2026-07-09; reframed 2026-07-17)
 
-> **Robotics is where America's AI lead collides with China's manufacturing lead. Whoever combines intelligence with scale first sets the terms of the physical economy — and neither side has both yet. This site keeps the score.**
+> **Robotics is where America's AI lead meets China's manufacturing lead. America leads on AI and capital; China leads on installation and supply chain. Neither side holds both today, and whether either advantage decides the decade is an open question — this site tracks what's measurable, shows its sources, and marks its own judgment calls as judgments.**
 
-Short form (masthead / share card): **"America has the AI. China has the scale. Robotics decides who gets both."**
+Short form (masthead / share card): **"America has the AI. China has the scale. Robotics is where they meet."**
+
+**Why it was reframed (2026-07-17, owner call).** The original stated contested predictions as settled fact and made a promise the data doesn't keep. Four things went:
+
+- *"Robotics decides who gets both"* and *"whoever combines intelligence with scale first sets the terms of the physical economy"* — forecasts written in the indicative. The site can't evidence either, and doesn't need to: the frame ("where they meet") does the same work without the claim.
+- *"This site keeps the score"* — cast the site as arbiter. The offer to a policymaker is the assembled, cited record; the verdict is theirs.
+- *"America leads where robots are invented and funded"* stated as fact, when china.html's own method note concedes that *"'Edge' calls are editorial judgments on sourced data, not scores."* The front page asserted what the source page hedges. Now it says "on the measures tracked here" and points at that concession.
+- *"The decisive variable this decade isn't invention — it's policy"* — a strong forecast, and a self-serving one for a policy site. Cut entirely.
+- *"Every record cited to a primary source"* — **false**, not merely confident: ~16% of company sources and ~13% of news `source_url`s are recognisably secondary press. Replaced everywhere with the true invariant, **"every record is cited; primary sources preferred."** (This is option (a) from the backlog; option (b) — a `source_type` field enforced by validate.js — remains open if the stronger guarantee is ever wanted.)
+
+The thesis is still the editing knife: a chart or page that doesn't help a reader judge where the two countries actually stand is still decoration. What changed is that the knife no longer pretends to know the answer.
 
 The three-bullet executive brief (each under 25 words, quotable verbatim):
 

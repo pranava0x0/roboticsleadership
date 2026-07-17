@@ -31,6 +31,15 @@ jobs:
       - name: Validate JSON before publishing
         run: node scripts/validate.js
 
+      # "Bake, not build": inject rendered HTML into the marked slots so the
+      # deployed pages carry their content for crawlers and no-JS readers. The
+      # repo stays no-build for local dev; this only ever runs against this
+      # throwaway checkout, never against anything that gets committed.
+      # Ephemeral by design — see the WS1 note in improvement-plan-2.md: this
+      # step is only safe for output that is a pure function of committed data.
+      - name: Bake static HTML into the shipped pages
+        run: node scripts/render-static.js --write
+
       - name: Configure Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
 

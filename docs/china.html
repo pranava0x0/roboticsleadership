@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://pranava0x0.github.io/roboticsleadership/assets/share-card.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="America has the AI. China has the scale. Robotics decides who gets both." />
+  <meta property="og:image:alt" content="America has the AI. China has the scale. Robotics is where they meet." />
   <meta name="twitter:card" content="summary_large_image" />
   <title>US vs China · Robotics Tracker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -101,11 +101,11 @@
 
     <aside class="bluf" aria-label="Bottom line up front">
       <span class="bluf-tag">Bottom line</span>
-      <p class="bluf-body" id="bluf-body"><span class="skeleton" style="display:inline-block;height:16px;width:90%;"></span></p>
+      <p class="bluf-body" id="bluf-body"><!--static:china-bluf:start--><span class="skeleton" style="display:inline-block;height:16px;width:90%;"></span><!--static:china-bluf:end--></p>
     </aside>
 
-    <div class="scoreline" id="scoreline" aria-label="Scoreboard"></div>
-    <div class="score-bar" id="score-bar" aria-hidden="true"></div>
+    <div class="scoreline" id="scoreline" aria-label="Scoreboard"><!--static:china-scoreline:start--><!--static:china-scoreline:end--></div>
+    <div class="score-bar" id="score-bar" aria-hidden="true"><!--static:china-scorebar:start--><!--static:china-scorebar:end--></div>
 
     <!-- The thesis chart — same shared renderer as the dashboard -->
     <div class="chart" id="production-trend-chart" style="margin-top:22px;">
@@ -116,22 +116,22 @@
       <p class="chart-source" id="production-trend-source"></p>
     </div>
 
-    <div id="vs-sections"></div>
+    <div id="vs-sections"><!--static:china-sections:start--><!--static:china-sections:end--></div>
 
-    <h2 class="section-title" id="unitree-case-title"></h2>
-    <p class="muted" id="unitree-case-intro" style="font-size:13.5px;max-width:74ch;"></p>
+    <h2 class="section-title" id="unitree-case-title"><!--static:china-unitree-title:start--><!--static:china-unitree-title:end--></h2>
+    <p class="muted" id="unitree-case-intro" style="font-size:13.5px;max-width:74ch;"><!--static:china-unitree-intro:start--><!--static:china-unitree-intro:end--></p>
     <div class="table-wrap">
       <table class="vs-table" id="unitree-table">
         <thead><tr><th style="width:22%">Dimension</th><th style="width:39%">Unitree</th><th style="width:39%">US humanoid OEMs</th></tr></thead>
-        <tbody></tbody>
+        <tbody><!--static:china-unitree-rows:start--><!--static:china-unitree-rows:end--></tbody>
       </table>
     </div>
 
-    <p class="muted" id="method-note" style="font-size:12px;margin-top:24px;"></p>
+    <p class="muted" id="method-note" style="font-size:12px;margin-top:24px;"><!--static:china-method:start--><!--static:china-method:end--></p>
   </main>
 
   <footer class="site-footer">
-    <p>Every record links to its primary source.</p>
+    <p>Every record is cited; primary sources preferred.</p>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 
@@ -156,83 +156,20 @@
       source: document.getElementById('production-trend-source'),
     });
 
-    function hostname(url) {
-      try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url || ''; }
-    }
-    function srcLinks(sources) {
-      return (sources || []).map(s => {
-        const url = typeof s === 'string' ? s : s.url;
-        const label = (typeof s === 'object' && s.label) || hostname(url);
-        return `<a href="${RT.escapeHTML(url)}" target="_blank" rel="noopener" title="${RT.escapeHTML(url)}">${RT.escapeHTML(label)}</a>`;
-      }).join(' ');
-    }
+    // Every block below is also rendered at deploy time by scripts/render-static.js
+    // from these same RT.* functions, so this re-render reproduces what already
+    // shipped in the HTML. Page markup belongs in app.js, not inline here —
+    // anything defined in this script is invisible to the bake step.
+    RT.paint(document.getElementById('bluf-body'), RT.renderChinaBluf(uc));
+    RT.paint(document.getElementById('scoreline'), RT.renderChinaScoreline(uc));
+    RT.paint(document.getElementById('score-bar'), RT.renderChinaScoreBar(uc));
+    RT.paint(document.getElementById('vs-sections'), RT.renderChinaSections(uc));
 
-    // BLUF
-    document.getElementById('bluf-body').innerHTML =
-      `<strong>${RT.escapeHTML(uc.bluf.headline)}</strong> ${RT.escapeHTML(uc.bluf.body)}` +
-      `<span style="display:block;font-size:11.5px;margin-top:8px;color:var(--text-faint);">Sources: ${srcLinks(uc.bluf.sources)}</span>`;
-
-    // Scoreboard
-    const allMetrics = uc.sections.flatMap(s => s.metrics);
-    const tally = { us: 0, china: 0, even: 0 };
-    allMetrics.forEach(m => { tally[m.edge] = (tally[m.edge] || 0) + 1; });
-    document.getElementById('scoreline').innerHTML =
-      `<span>Across <strong>${allMetrics.length} metrics</strong>:</span>` +
-      `<span><strong>${tally.china}</strong> favor China</span>` +
-      `<span><strong>${tally.us}</strong> favor the US</span>` +
-      `<span><strong>${tally.even}</strong> contested</span>`;
-
-    // Visual tally — widths from the same counts labeled above (never color-only).
-    const scoreBar = document.getElementById('score-bar');
-    [['cn', tally.china, 'favor China'], ['even', tally.even, 'contested'], ['us', tally.us, 'favor the US']]
-      .forEach(([cls, n, label]) => {
-        const seg = document.createElement('span');
-        seg.className = `seg ${cls}`;
-        seg.style.width = `${allMetrics.length ? (n / allMetrics.length) * 100 : 0}%`;
-        seg.title = `${n} ${label}`;
-        scoreBar.appendChild(seg);
-      });
-
-    // Sections
-    document.getElementById('vs-sections').innerHTML = uc.sections.map((sec, i) => `
-      <details class="collapsible-section" id="sec-${RT.escapeHTML(sec.id)}" ${i === 0 ? 'open' : ''}>
-        <summary>
-          <h2 class="section-title">${RT.escapeHTML(sec.title)}</h2>
-        </summary>
-        <div class="table-wrap">
-          <table class="vs-table">
-            <thead><tr><th>Metric</th><th>United States</th><th>China</th></tr></thead>
-            <tbody>
-              ${sec.metrics.map(m => `
-                <tr>
-                  <td class="vs-metric">${RT.escapeHTML(m.metric)}
-                    <div class="vs-srcs">${srcLinks(m.sources)}</div>
-                    ${m.note ? `<div class="vs-note">${RT.escapeHTML(m.note)}</div>` : ''}
-                  </td>
-                  <td class="vs-cell us-cell ${m.edge === 'us' ? 'win' : ''}">${RT.escapeHTML(m.us)}</td>
-                  <td class="vs-cell cn-cell ${m.edge === 'china' ? 'win' : ''}">${RT.escapeHTML(m.china)}</td>
-                </tr>
-              `).join('')}
-            </tbody>
-          </table>
-        </div>
-      </details>
-    `).join('');
-
-    // Unitree case study
     document.getElementById('unitree-case-title').textContent = uc.unitree_case.title;
     document.getElementById('unitree-case-intro').textContent = uc.unitree_case.intro;
-    document.querySelector('#unitree-table tbody').innerHTML = uc.unitree_case.rows.map(r => `
-      <tr>
-        <td class="vs-metric">${RT.escapeHTML(r.dimension)}<div class="vs-srcs">${srcLinks(r.sources)}</div></td>
-        <td class="vs-cell cn-cell">${RT.escapeHTML(r.unitree)}</td>
-        <td class="vs-cell us-cell">${RT.escapeHTML(r.us_oems)}</td>
-      </tr>
-    `).join('');
+    RT.paint(document.querySelector('#unitree-table tbody'), RT.renderUnitreeRows(uc));
 
-    const meta = uc._meta || {};
-    document.getElementById('method-note').textContent =
-      `Method: ${meta.method || ''}. Captured as of ${RT.formatDate(meta.captured_at || meta.last_updated)}. "Edge" calls are editorial judgments on sourced data, not scores.`;
+    document.getElementById('method-note').textContent = RT.chinaMethodNote(uc);
   });
   </script>
 </body>
