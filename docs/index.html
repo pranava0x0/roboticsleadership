@@ -182,12 +182,25 @@
       p.level === 'Federal' && p.type !== 'Bill' && inEffect.includes(p.status)
     ).length;
 
+    // Every KPI links to the view it was counted from — a staffer who reads
+    // "35 unicorns" should be one click from the list. The filters are
+    // single-valued, so a couple of these can't be reproduced exactly as a URL
+    // ("Signed OR In effect" has none); those link to the nearest expressible
+    // view, which lands within a row or two rather than on a set several times
+    // larger. Exact-ness per card, measured against the current data:
+    //   Tracked funding    -> companies sorted by funding (no count implied)
+    //   Unicorns        35 -> top 35 by valuation ARE the unicorns: exact
+    //   Install gap        -> the scoreboard itself
+    //   Active deployments -> companies.html; no deployment filter exists, so
+    //                         this is a plain "go see the companies" link
+    //   Congress         3 -> 5 federal bills (3 of them pre-enactment)
+    //   Executive       24 -> 23 "In effect"; misses 1 lone "Signed" record
     const kpis = [
-      { label: `Tracked funding · ${thisYear}`, value: RT.formatUSD(ytdFunding), sub: `${companies.length} companies tracked` },
-      { label: 'Unicorns', value: String(unicornCount), sub: 'companies ≥ $1B valuation' },
-      { label: 'Active deployments', value: String(activeDeployments), sub: 'production / commercial' },
-      { label: 'Congress · in progress', value: String(congressInProgress), sub: 'bills, pre-enactment' },
-      { label: 'Executive · in effect', value: String(executiveInEffect), sub: 'agency rules, programs' },
+      { label: `Tracked funding · ${thisYear}`, value: RT.formatUSD(ytdFunding), sub: `${companies.length} companies tracked`, href: 'companies.html?sort=funding-desc' },
+      { label: 'Unicorns', value: String(unicornCount), sub: 'companies ≥ $1B valuation', href: 'companies.html?sort=valuation-desc' },
+      { label: 'Active deployments', value: String(activeDeployments), sub: 'production / commercial', href: 'companies.html' },
+      { label: 'Congress · in progress', value: String(congressInProgress), sub: 'bills, pre-enactment', href: 'policies.html?level=Federal&type=Bill' },
+      { label: 'Executive · in effect', value: String(executiveInEffect), sub: 'agency rules, programs', href: `policies.html?level=Federal&status=${encodeURIComponent('In effect')}` },
     ];
 
     // The China-gap KPI — the strip should reflect the thesis, not just the
@@ -196,17 +209,17 @@
     const lastActual = [...trendRows].reverse().find(r => !r.projected && r.china_units && r.us_units);
     if (lastActual) {
       const ratio = Math.round(lastActual.china_units / lastActual.us_units);
-      kpis.splice(2, 0, { label: 'Install gap', value: `${ratio}×`, sub: `China vs US robot installs · ${lastActual.year}` });
+      kpis.splice(2, 0, { label: 'Install gap', value: `${ratio}×`, sub: `China vs US robot installs · ${lastActual.year}`, href: 'china.html' });
     }
 
     const strip = document.getElementById('kpi-strip');
     if (kpis.length === 6) strip.classList.add('cols-6');
     strip.innerHTML = kpis.map(k => `
-      <div class="kpi-card">
+      <a class="kpi-card" href="${RT.escapeHTML(k.href)}">
         <span class="kpi-label">${RT.escapeHTML(k.label)}</span>
         <span class="kpi-value tnum">${RT.escapeHTML(k.value)}</span>
         <span class="kpi-sub">${RT.escapeHTML(k.sub)}</span>
-      </div>
+      </a>
     `).join('');
 
     // ---------- Charts ----------

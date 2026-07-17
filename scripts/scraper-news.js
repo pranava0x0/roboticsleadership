@@ -123,7 +123,11 @@ async function handleRss(source, news, existingUrls, cutoff, today) {
       themes: [],
       sentiment: 'Neutral',
       confidence: 'Medium',
-      tags: ['rss-import']
+      tags: ['rss-import'],
+      // Nothing here has been read by a human yet. validate.js rejects this
+      // flag at deploy time, so the record cannot reach the site until a
+      // curator clears it. See scripts/validate.js § INTERNAL_FLAGS.
+      _requires_curator_review: true,
     };
     news.unshift(record);
     existingUrls.add(item.link);
@@ -165,7 +169,8 @@ async function handleFederalRegister(source, news, existingUrls, cutoff, today) 
       themes: [],
       sentiment: 'Neutral',
       confidence: 'Medium',
-      tags: ['federal-register', 'rss-import']
+      tags: ['federal-register', 'rss-import'],
+      _requires_curator_review: true,
     };
     news.unshift(record);
     existingUrls.add(doc.html_url);
@@ -218,7 +223,8 @@ async function handleReddit(source, news, existingUrls, cutoff, today) {
       themes: [],
       sentiment: 'Neutral',
       confidence: 'Low',
-      tags: ['reddit', 'community']
+      tags: ['reddit', 'community'],
+      _requires_curator_review: true,
     };
     news.unshift(record);
     existingUrls.add(post.url);
@@ -273,7 +279,8 @@ async function handleHackerNews(source, news, existingUrls, cutoff, today) {
         themes: [],
         sentiment: 'Neutral',
         confidence: 'Low',
-        tags: ['hacker-news', 'community']
+        tags: ['hacker-news', 'community'],
+        _requires_curator_review: true,
       };
       news.unshift(record);
       existingUrls.add(postUrl);

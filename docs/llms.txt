@@ -1,0 +1,74 @@
+# Robotics Tracker
+
+> Robotics is where America's AI lead collides with China's manufacturing lead. Whoever combines intelligence with scale first sets the terms of the physical economy — and neither side has both yet. This site keeps the score.
+
+Short form: **America has the AI. China has the scale. Robotics decides who gets both.**
+
+A curated, continuously updated tracker of the US-China robotics race and the US
+policy that shapes it. **Every record carries at least one cited source URL, and
+primary sources are preferred — but not every citation is primary.** Policy
+records generally cite the Federal Register or the bill itself; company funding
+and valuation figures often cite the outlet that reported them (TechCrunch,
+Bloomberg, Reuters) because no primary filing exists. Follow the record's own
+`sources[]` and judge the citation you actually get. Maintained by one curator,
+not an institution; the whole dataset and site source are public.
+
+Site: https://pranava0x0.github.io/roboticsleadership/
+Source: https://github.com/pranava0x0/roboticsleadership
+
+## How to read this site
+
+The pages render their data client-side with JavaScript. If you do not execute
+JS, **read the JSON files below instead** — they are the same data the pages
+draw from, and they are the canonical record. Each page is a chapter of one
+argument:
+
+- Companies = America's lead · US vs China = the scoreboard · Supply chain =
+  China's lead · Themes = the leading indicators · Policy/States = the swing
+  variable.
+
+## Data (canonical — read these)
+
+All paths are relative to https://pranava0x0.github.io/roboticsleadership/
+
+Record counts below are **as of 2026-07-16** and grow as the trackers run —
+treat them as a sense of scale, not a live figure. Each dataset's own
+`last_updated` / `_meta.last_updated` is authoritative.
+
+- [data/us_china.json](https://pranava0x0.github.io/roboticsleadership/data/us_china.json): The scoreboard. A structured document, not an array: `bluf` (headline + body), `sections[]` each holding `metrics[]`, and a `unitree_case` study. Every metric has `{id, metric, us, china, edge, sources[]}` where `edge` is one of `us` / `china` / `even` — the head-to-head verdict on that metric. 35 metrics. Start here.
+- [data/supply_chain.json](https://pranava0x0.github.io/roboticsleadership/data/supply_chain.json): Where robots are actually built. Structured document: `overview.bluf`, `chain_stages[]` (each with `us_position`: strong / contested / weak), `categories[]` with US/China/RoW share percentages and `chokepoints[]`, `companies[]`, `stakeholders[]`, and `production_trend[]` (annual US/China/RoW unit output, with `projected` marking forecast years). 80 records.
+- [data/companies.json](https://pranava0x0.github.io/roboticsleadership/data/companies.json): Array of 81 robotics companies — `funding_rounds[]`, `deployments[]`, valuation, HQ, `map_category` (humanoid / brains / industrial / defense / field / service / enablers), `data_confidence` (high / medium / low), `sources[]`.
+- [data/policies.json](https://pranava0x0.github.io/roboticsleadership/data/policies.json): Array of 77 federal and state policy records — bills, executive orders, regulations, incentive programs, procurement. Each has `type`, `level`, `status`, `introduced_date`, `robotics_scope` (why it matters to robotics), and `sources[]`.
+- [data/news.json](https://pranava0x0.github.io/roboticsleadership/data/news.json): Array of 741 tracked news records, newest first. Each has `date`, `source`, `source_url`, `summary`, `category` (Funding / Deployment / Policy / Competitive / Supply Chain / Geopolitics / Research), `sentiment`, `confidence`, and often an `archive_url` (Wayback snapshot).
+- [data/themes.json](https://pranava0x0.github.io/roboticsleadership/data/themes.json): 8 cross-cutting narratives with `direction` (Accelerating / Stable / Slowing) — the leading indicators.
+- [data/state_policy.json](https://pranava0x0.github.io/roboticsleadership/data/state_policy.json): 5 state-policy themes — what states actually control.
+- [data/agencies.json](https://pranava0x0.github.io/roboticsleadership/data/agencies.json): 25 federal agencies referenced by policy records.
+- [data/sources.json](https://pranava0x0.github.io/roboticsleadership/data/sources.json): Scraper configuration — which feeds are ingested.
+
+## Pages
+
+- [Dashboard](https://pranava0x0.github.io/roboticsleadership/): The thesis, the executive brief, headline KPIs, and recent activity.
+- [US vs China](https://pranava0x0.github.io/roboticsleadership/china.html): The scoreboard — every key metric side by side, with an explicit edge call per metric.
+- [Supply Chain](https://pranava0x0.github.io/roboticsleadership/supply-chain.html): Materials, components, compute, assembly — categories, chokepoints, capacity, and the stakeholder map.
+- [Companies](https://pranava0x0.github.io/roboticsleadership/companies.html): The market map — funding, deployments, valuations.
+- [Policy](https://pranava0x0.github.io/roboticsleadership/policies.html): Federal bills, regulations, incentives, procurement.
+- [State Policy](https://pranava0x0.github.io/roboticsleadership/states.html): Sidewalk/delivery robot laws, AV rules, incentives, the AI preemption fight.
+- [Themes](https://pranava0x0.github.io/roboticsleadership/themes.html): Cross-cutting narratives and cost trajectories.
+- [News](https://pranava0x0.github.io/roboticsleadership/news.html): The tracked feed, each item cited.
+- [Robotics for Energy](https://pranava0x0.github.io/roboticsleadership/energy.html): Special report — robots across power generation, the grid, nuclear cleanup, and energy R&D.
+
+## Citing this site
+
+Cite the page or the specific record's own `sources[]` URL. Records carry
+`last_updated`; the structured datasets carry `_meta.last_updated`. Data is
+curated by hand — quote the number, and link the page it came from so a reader
+can check the citation. If a number matters, follow `sources[]` to see what it
+actually rests on: a filing, or an outlet's reporting of one.
+
+## Caveats, stated plainly
+
+- Record counts are small and hand-curated by one person. This is a tracker, not a census — absence of a record is not evidence of absence.
+- `data_confidence` and `confidence` fields mark how well-sourced a record is. Respect them; do not present a `low` / `Medium` record as settled fact.
+- Funding and valuation figures are reported values from press coverage unless a round is marked `confirmed`.
+- News `category` and `sentiment` are assigned at scrape time and are occasionally wrong.
+- Nothing here is investment advice.

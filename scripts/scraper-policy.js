@@ -77,7 +77,12 @@ async function main() {
       tags: ["federal-register", "federal"],
       themes: [],
       sources: [{ url: doc.html_url }],
-      last_updated: today
+      last_updated: today,
+      // Unread by a human. The Federal Register query matches on keywords, so
+      // this is as likely to be a drug-scheduling notice as a robotics rule —
+      // 78 such records were swept in 2026-07. validate.js rejects this flag at
+      // deploy time, so curating (clearing it) is mandatory, not optional.
+      _requires_curator_review: true,
     };
 
     policies.push(newPolicy);

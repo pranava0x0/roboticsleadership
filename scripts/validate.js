@@ -167,6 +167,45 @@ const SCHEMAS = {
   },
 };
 
+// Scraper bookkeeping that must never reach the published site. A record still
+// carrying one of these has not been through curation, so shipping it puts
+// unreviewed noise on a tracker whose whole claim is that every record is
+// vetted and cited. validate.js gates the Pages deploy (pages.yml), so failing
+// here makes uncurated data unshippable rather than merely discouraged.
+// `_meta` is deliberately absent: it is a real, published envelope field.
+//
+// The same validator runs at two points with opposite needs, which is why
+// --allow-uncurated exists:
+//   scrape workflows  → --allow-uncurated: records were *just* ingested and are
+//                       supposed to carry the marker; check their shape only.
+//   pages.yml (deploy) → strict (default): the marker means a curator hasn't
+//                       looked yet, so the record must not ship.
+// Curating a record means clearing the flag; that is the whole handshake.
+const INTERNAL_FLAGS = ['_requires_curator_review', '_scraped'];
+
+export function checkInternalFlags(data) {
+  const errs = [];
+  const walk = (node, path) => {
+    if (Array.isArray(node)) {
+      node.forEach((v, i) => walk(v, `${path}[${i}]`));
+      return;
+    }
+    if (!node || typeof node !== 'object') return;
+    for (const flag of INTERNAL_FLAGS) {
+      if (flag in node) {
+        const where = path || 'root';
+        const id = node.id ? ` (${node.id})` : '';
+        errs.push(`${where}${id}: carries internal flag "${flag}" — curate the record or drop it before publishing`);
+      }
+    }
+    for (const [k, v] of Object.entries(node)) {
+      walk(v, path ? `${path}.${k}` : k);
+    }
+  };
+  walk(data, '');
+  return errs;
+}
+
 function checkRecord(rec, schema, recIdx) {
   const errs = [];
   const add = (msg) => errs.push(msg);
@@ -361,7 +400,7 @@ function validateUSChina(name, data) {
   return { name, ok: errors.length === 0, errors, records };
 }
 
-function validateFile(name) {
+function validateFile(name, opts = {}) {
   const filename = resolve(DATA_DIR, `${name}.json`);
   if (!existsSync(filename)) {
     return { name, ok: false, errors: [`File not found: ${filename}`], records: 0 };
@@ -372,6 +411,27 @@ function validateFile(name) {
   } catch (err) {
     return { name, ok: false, errors: [`JSON parse failed: ${err.message}`], records: 0 };
   }
+  return validateData(name, data, opts);
+}
+
+// Schema check + curation gate over already-parsed data. This is the seam the
+// tests drive: it's where the gate is wired into the result, so unhooking the
+// gate fails a test here. A unit test of checkInternalFlags alone would not —
+// it passes happily while the gate sits disconnected.
+export function validateData(name, data, opts = {}) {
+  const result = validateContent(name, data);
+  // The gate applies to every dataset whatever its shape, so it runs here
+  // rather than inside any one schema branch.
+  if (opts.allowUncurated) return result;
+  const flagErrors = checkInternalFlags(data);
+  if (flagErrors.length) {
+    result.ok = false;
+    result.errors = [...flagErrors, ...result.errors];
+  }
+  return result;
+}
+
+function validateContent(name, data) {
   // sources.json is config, no per-record schema
   if (name === 'sources') {
     const keys = Object.keys(data).filter((k) => k !== '_meta');
@@ -455,14 +515,22 @@ function checkCrossRefs() {
 }
 
 function main() {
-  const requested = process.argv[2];
+  const args = process.argv.slice(2);
+  // Positional = one dataset name; flags are order-independent so
+  // `validate.js news --allow-uncurated` and the reverse both work.
+  const allowUncurated = args.includes('--allow-uncurated');
+  const requested = args.find((a) => !a.startsWith('--'));
   const files = requested
     ? [requested]
     : ['companies', 'policies', 'news', 'themes', 'sources', 'agencies', 'state_policy', 'supply_chain', 'us_china'];
 
+  if (allowUncurated) {
+    console.log('⚠ --allow-uncurated: curation gate OFF (shape checks only). Deploy validation still enforces it.\n');
+  }
+
   let allOk = true;
   for (const name of files) {
-    const r = validateFile(name);
+    const r = validateFile(name, { allowUncurated });
     const status = r.ok ? '✓' : '✗';
     console.log(`${status} ${name.padEnd(12)} ${String(r.records).padStart(4)} records`);
     if (!r.ok) allOk = false;
@@ -487,4 +555,8 @@ function main() {
   console.log('\nAll files valid.');
 }
 
-main();
+// Only validate when invoked directly, so importing checkInternalFlags
+// (e.g. from the regression test) doesn't run the whole sweep and exit.
+if (process.argv[1] && resolve(process.argv[1]) === __filename) {
+  main();
+}

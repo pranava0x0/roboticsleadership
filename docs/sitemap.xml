@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Hand-maintained. Nine pages; adding one means adding it here, and editing one
+  means bumping its lastmod. The second half is the easier one to forget: this
+  file shipped with a stale date for the dashboard within one commit of being
+  written. Each lastmod is that page's last content commit, which you can read
+  from git log for the file.
+  lastmod is the page's last content change, not the data refresh date. The
+  datasets update daily; the pages themselves rarely do.
+  WS1's bake step should generate this from git and remove the footgun.
+  (Note for editors: XML comments cannot contain a double hyphen, so no CLI
+  flags in here.)
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://pranava0x0.github.io/roboticsleadership/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pranava0x0.github.io/roboticsleadership/china.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://pranava0x0.github.io/roboticsleadership/news.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://pranava0x0.github.io/roboticsleadership/policies.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pranava0x0.github.io/roboticsleadership/supply-chain.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pranava0x0.github.io/roboticsleadership/companies.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pranava0x0.github.io/roboticsleadership/themes.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pranava0x0.github.io/roboticsleadership/states.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pranava0x0.github.io/roboticsleadership/energy.html</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

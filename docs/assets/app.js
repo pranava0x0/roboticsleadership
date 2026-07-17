@@ -23,16 +23,22 @@
     }
   }
 
+  // The four core record datasets. sources.json and agencies.json were fetched
+  // here too, but neither caller ever destructured them. agencies.json (11KB)
+  // is now only fetched by policies.html, the one page that renders it.
+  // sources.json is still loaded — loadHeaderUpdated needs its _meta
+  // .last_updated for the header date — but dropping it here means one fetch
+  // per page instead of two: loadData caches the resolved value rather than the
+  // in-flight promise, so two concurrent callers both miss and both fetch.
+  // Anything needing these should call loadData directly rather than widen this.
   async function loadAll() {
-    const [companies, policies, news, themes, sources, agencies] = await Promise.all([
+    const [companies, policies, news, themes] = await Promise.all([
       loadData('companies'),
       loadData('policies'),
       loadData('news'),
       loadData('themes'),
-      loadData('sources'),
-      loadData('agencies'),
     ]);
-    return { companies, policies, news, themes, sources, agencies };
+    return { companies, policies, news, themes };
   }
 
   function formatUSD(n, opts = {}) {
@@ -400,6 +406,14 @@
       : escapeHTML(safeURL(n.source_url));
     const titleTarget = opts.linkToFeed ? '' : ' target="_blank" rel="noopener"';
 
+    // Feeds without an abstract (Hacker News, mostly) set summary = title, so
+    // 54% of cards would print their own headline twice. Show nothing rather
+    // than echo it — an empty line reads as missing, a repeated one as broken.
+    const summaryText = (n.summary || '').trim();
+    const summaryBlock = summaryText && summaryText !== (n.title || '').trim()
+      ? `<p class="summary">${escapeHTML(summaryText)}</p>`
+      : '';
+
     return `
       <article class="feed-card" id="${escapeHTML(n.id)}">
         <div class="top-row">
@@ -414,7 +428,7 @@
           </span>
         </div>
         <h3><a href="${titleLink}"${titleTarget}>${escapeHTML(n.title)}</a></h3>
-        <p class="summary">${escapeHTML(n.summary)}</p>
+        ${summaryBlock}
         <div class="footer-row">
           ${companyPills}${policyPills}
           <span class="row-end">

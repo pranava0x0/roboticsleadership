@@ -12209,9 +12209,7 @@
     "tags": [
       "auto-scraped",
       "source:the-robot-report"
-    ],
-    "_scraped": true,
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "rss-video-friday-heavy-robotic-mac-19",
@@ -12252,9 +12250,7 @@
     "tags": [
       "auto-scraped",
       "source:the-robot-report"
-    ],
-    "_scraped": true,
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "havoc-raises-100m-to-unify-defense-autonomy-in-the-land-sea-and-air-2026-05-15",
@@ -12276,9 +12272,7 @@
     "tags": [
       "auto-scraped",
       "source:the-robot-report"
-    ],
-    "_scraped": true,
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "figure-ups-talks",
@@ -12326,9 +12320,7 @@
     "tags": [
       "auto-scraped",
       "source:the-robot-report"
-    ],
-    "_scraped": true,
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "rss-two-weeks-left-startup-battlef-95",
@@ -13111,29 +13103,6 @@
     "archive_url": "https://web.archive.org/web/20260416220602/https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/?"
   },
   {
-    "id": "last-24-hours-save-up-to-500-on-your-techcrunch-disrupt-2026-pass-2026-04-10",
-    "title": "Last 24 hours: Save up to $500 on your TechCrunch Disrupt 2026 pass",
-    "date": "2026-04-10",
-    "source": "techcrunch-robotics-tag",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/04/10/final-24-hours-save-up-to-500-on-your-techcrunch-disrupt-2026-pass/",
-    "summary": "This is it. Tonight is your last chance to lock in savings of up to $500 for your TechCrunch Disrupt 2026 pass. These discounts end at 11:59 p.m. PT.",
-    "category": "Research",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "impact_tier": "Medium",
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "auto-scraped",
-      "source:techcrunch-robotics-tag"
-    ],
-    "_scraped": true,
-    "_requires_curator_review": true,
-    "archive_url": "https://web.archive.org/web/20260421045510/https://techcrunch.com/2026/04/10/final-24-hours-save-up-to-500-on-your-techcrunch-disrupt-2026-pass/?"
-  },
-  {
     "id": "rss-goztasp-a-zero-trust-platform-340",
     "title": "GoZTASP: A Zero-Trust Platform for Governing Autonomous Systems at Mission Scale",
     "date": "2026-04-09",
@@ -13396,9 +13365,7 @@
     "tags": [
       "auto-scraped",
       "source:federal-register-robotics"
-    ],
-    "_scraped": true,
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "rss-30-years-ago-robots-learned-to-768",
@@ -13446,7 +13413,7 @@
     "source_type": "News",
     "source_url": "https://spectrum.ieee.org/tennis-playing-robot",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNASummer School on Multi-Robot Systems: 29 July–4 August 2026, PRAGUEEnjoy today’s videos! Human athletes demonstrate versatile and highly dynamic tennis skills to successfully conduct competitive rallies with a high-speed tennis ball. However, reproducing such behaviors on humanoid robots is difficult, partially due to the lack of perfect humanoid action data or human kinematic motion data in tennis scenarios as reference",
-    "category": "Supply Chain",
+    "category": "Research",
     "companies": [],
     "policies": [],
     "themes": [],
@@ -13456,9 +13423,7 @@
     "tags": [
       "auto-scraped",
       "source:ieee-spectrum-robotics"
-    ],
-    "_scraped": true,
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "overcoming-core-engineering-barriers-in-humanoid-robotics-development-2026-03-19",
@@ -13468,7 +13433,7 @@
     "source_type": "News",
     "source_url": "https://content.knowledgehub.wiley.com/engineering-challenges-and-component-strategies-in-humanoid-robotics-from-prototype-to-production/",
     "summary": "A technical examination of the sensing, motion control, power, and thermal challenges facing humanoid robotics engineers — with component-level design strategies for real-world deployment.What Attendees will LearnWhy motion control remains the hardest unsolved problem — Explore the modelling complexity, real-time feedback requirements, and sensor fusion demands of maintaining stable bipedal locomotion across dynamic environments.How sensing architectures enable perception and safety — Understand the role of inertial measurement units, force/torque feedback, and tactile sensing in achieving reliable human-robot interaction and collision avoidance.What power and thermal constraints mean for sy",
-    "category": "Deployment",
+    "category": "Research",
     "companies": [],
     "policies": [],
     "themes": [],
@@ -13479,8 +13444,6 @@
       "auto-scraped",
       "source:ieee-spectrum-robotics"
     ],
-    "_scraped": true,
-    "_requires_curator_review": true,
     "archive_url": "https://web.archive.org/web/20260319113814/https://content.knowledgehub.wiley.com/engineering-challenges-and-component-strategies-in-humanoid-robotics-from-prototype-to-production/"
   },
   {
@@ -13518,7 +13481,7 @@
     "source_type": "News",
     "source_url": "https://spectrum.ieee.org/legged-modular-robot",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNAEnjoy today’s videos! All legged robots deployed “in the wild” to date were given a body plan that was predefined by human designers and could not be redefined in situ. The manual and permanent nature of this process has resulted in very few species of agile terrestrial robots beyond familiar four-limbed forms. Here, we introduce highly athletic modular building blocks and show how they enable the automatic design and ra",
-    "category": "Deployment",
+    "category": "Research",
     "companies": [],
     "policies": [],
     "themes": [],
@@ -13529,8 +13492,6 @@
       "auto-scraped",
       "source:ieee-spectrum-robotics"
     ],
-    "_scraped": true,
-    "_requires_curator_review": true,
     "archive_url": "https://web.archive.org/web/20260315163111/https://spectrum.ieee.org/legged-modular-robot"
   },
   {
@@ -13541,7 +13502,7 @@
     "source_type": "News",
     "source_url": "https://spectrum.ieee.org/video-friday-robot-hand-artificial-muscles",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNAEnjoy today’s videos! The functional replication and actuation of complex structures inspired by nature is a longstanding goal for humanity. Creating such complex structures combining soft and rigid features and actuating them with artificial muscles would further our understanding of natural kinematic structures. We printed a biomimetic hand in a single print process composed of a rigid skeleton, soft joint capsules, te",
-    "category": "Deployment",
+    "category": "Research",
     "companies": [],
     "policies": [],
     "themes": [],
@@ -13552,8 +13513,6 @@
       "auto-scraped",
       "source:ieee-spectrum-robotics"
     ],
-    "_scraped": true,
-    "_requires_curator_review": true,
     "archive_url": "https://web.archive.org/web/20260311125123/https://spectrum.ieee.org/video-friday-robot-hand-artificial-muscles"
   },
   {
@@ -13589,7 +13548,7 @@
     "source_type": "News",
     "source_url": "https://spectrum.ieee.org/military-drones-self-driving-cars",
     "summary": "Self-driving cars often struggle with situations that are commonplace for human drivers. When confronted with construction zones, school buses, power outages, or misbehaving pedestrians, these vehicles often behave unpredictably, leading to crashes or freezing events, causing significant disruption to local traffic and possibly blocking first responders from doing their jobs. Because self-driving cars cannot successfully handle such routine problems, self-driving companies use human babysitters to remotely supervise them and intervene when necessary.This idea—humans supervising autonomous vehicles from a distance—is not new. The U.S. military has been doing it since the 1980s with unmanned a",
-    "category": "Deployment",
+    "category": "Research",
     "companies": [],
     "policies": [],
     "themes": [
@@ -13602,8 +13561,6 @@
       "auto-scraped",
       "source:ieee-spectrum-robotics"
     ],
-    "_scraped": true,
-    "_requires_curator_review": true,
     "archive_url": "https://web.archive.org/web/20260417000159/https://spectrum.ieee.org/military-drones-self-driving-cars"
   },
   {
@@ -13614,7 +13571,7 @@
     "source_type": "News",
     "source_url": "https://spectrum.ieee.org/quadruped-farming-robots",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNAEnjoy today’s videos! Our robots Lynx M20 help transport harvested crops in mountainous farmland—tackling the rural “last mile” logistics challenge.[ Deep Robotics ]Once again, I would point out that now that we are reaching peak humanoid robots doing humanoid things, we are inevitably about to see humanoid robots doing nonhumanoid things.[ Unitree ]In a study, a team of researchers from the Max Planck Institute for Inte",
-    "category": "Funding",
+    "category": "Research",
     "companies": [
       "unitree"
     ],
@@ -13629,8 +13586,6 @@
       "auto-scraped",
       "source:ieee-spectrum-robotics"
     ],
-    "_scraped": true,
-    "_requires_curator_review": true,
     "archive_url": "https://web.archive.org/web/20260406140425/https://spectrum.ieee.org/quadruped-farming-robots"
   },
   {
@@ -13652,8 +13607,6 @@
       "auto-scraped",
       "source:ieee-spectrum-robotics"
     ],
-    "_scraped": true,
-    "_requires_curator_review": true,
     "archive_url": "https://web.archive.org/web/20260522171637/https://spectrum.ieee.org/perseverance-mars-rover-autonomous-driving"
   },
   {
@@ -13690,7 +13643,7 @@
     "source_type": "News",
     "source_url": "https://spectrum.ieee.org/robot-martial-arts",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNAEnjoy today’s videos! So humanoid robots are nearing peak human performance. I would point out, though, that this is likely very far from peak robot performance, which has yet to be effectively exploited, because it requires more than just copying humans.[ Unitree ]“The Street Dance of China”: Turning lightness into gravity, and rhythm into impact.This is a head-on collision between metal and beats. This Chinese New Year",
-    "category": "Funding",
+    "category": "Research",
     "companies": [
       "unitree"
     ],
@@ -13705,8 +13658,6 @@
       "auto-scraped",
       "source:ieee-spectrum-robotics"
     ],
-    "_scraped": true,
-    "_requires_curator_review": true,
     "archive_url": "https://web.archive.org/web/20260311142707/https://spectrum.ieee.org/robot-martial-arts"
   },
   {
@@ -13782,9 +13733,7 @@
     "tags": [
       "auto-scraped",
       "source:federal-register-robotics"
-    ],
-    "_scraped": true,
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "petition-for-reconsideration-of-action-in-rulemaking-proceeding-application-for-",
@@ -13806,9 +13755,7 @@
     "tags": [
       "auto-scraped",
       "source:federal-register-robotics"
-    ],
-    "_scraped": true,
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hr-7334-introduced",
@@ -14029,7 +13976,7 @@
     "source_type": "Press Release",
     "source_url": "https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of",
     "summary": "On September 2, 2025, the Secretary of Commerce initiated an investigation to determine the effects on the national security of imports of robotics and industrial machinery. This investigation has been initiated under section 232 of the Trade Expansion Act of 1962, as amended (Section 232). Interested parties are invited to submit written comments, data, analyses, or other information pertinent to the investigation to the Department of Commerce's (Department) Bureau of Industry and Security (BIS), Office of Strategic Industries and Economic Security. This notice identifies issues on which the Department is especially interested in obtaining the public's views.",
-    "category": "Funding",
+    "category": "Geopolitics",
     "companies": [],
     "policies": [],
     "themes": [
@@ -14042,8 +13989,6 @@
       "auto-scraped",
       "source:federal-register-robotics"
     ],
-    "_scraped": true,
-    "_requires_curator_review": true,
     "archive_url": "https://web.archive.org/web/20260204165838/https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of"
   },
   {
@@ -14187,7 +14132,7 @@
     "source_type": "Press Release",
     "source_url": "https://www.federalregister.gov/documents/2024/08/20/2024-18543/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-decision-to",
     "summary": "Notice is hereby given that the U.S. International Trade Commission has determined to vacate the portion of its final determination relating to U.S. Patent No. 10,813,517 (\"the '517 patent\"), which has now expired, and to dismiss the related portion of the complaint. The Commission has also determined to institute a rescission proceeding and to rescind the limited exclusion order and cease and desist orders (collectively, \"the remedial orders\") issued in the underlying investigation which are based on the '517 patent. The rescission proceeding is terminated.",
-    "category": "Funding",
+    "category": "Competitive",
     "companies": [],
     "policies": [],
     "themes": [
@@ -14200,8 +14145,6 @@
       "auto-scraped",
       "source:federal-register-robotics"
     ],
-    "_scraped": true,
-    "_requires_curator_review": true,
     "archive_url": "https://web.archive.org/web/20250203183225/https://www.federalregister.gov/documents/2024/08/20/2024-18543/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-decision-to"
   },
   {
@@ -14257,31 +14200,6 @@
     ]
   },
   {
-    "id": "proposed-data-collection-submitted-for-public-comment-and-recommendations-2024-0",
-    "title": "Proposed Data Collection Submitted for Public Comment and Recommendations",
-    "date": "2024-04-23",
-    "source": "federal-register-robotics",
-    "source_type": "Press Release",
-    "source_url": "https://www.federalregister.gov/documents/2024/04/23/2024-08596/proposed-data-collection-submitted-for-public-comment-and-recommendations",
-    "summary": "The Centers for Disease Control and Prevention (CDC), as part of its continuing effort to reduce public burden and maximize the utility of government information, invites the general public and other Federal agencies the opportunity to comment on a proposed information collection, as required by the Paperwork Reduction Act of 1995. This notice invites comment on a proposed information collection project titled Direct Reading Methodologies, Sensors, and Robotics Technology Assessment in Lab/Simulator-based Settings. The proposed data collection will allow NIOSH to assess the safety and health considerations of these rapidly changing direct reading methods, sensor, and robotics technologies.",
-    "category": "Research",
-    "companies": [],
-    "policies": [],
-    "themes": [
-      "policy-momentum"
-    ],
-    "impact_tier": "Medium",
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "auto-scraped",
-      "source:federal-register-robotics"
-    ],
-    "_scraped": true,
-    "_requires_curator_review": true,
-    "archive_url": "https://web.archive.org/web/20250424221221/https://www.federalregister.gov/documents/2024/04/23/2024-08596/proposed-data-collection-submitted-for-public-comment-and-recommendations"
-  },
-  {
     "id": "boston-dynamics-atlas-electric",
     "title": "Boston Dynamics retires hydraulic Atlas, launches electric Atlas at Hyundai pilots",
     "date": "2024-04-17",
@@ -14315,7 +14233,7 @@
     "source_type": "Press Release",
     "source_url": "https://www.federalregister.gov/documents/2023/03/27/2023-06222/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-final",
     "summary": "Notice is hereby given that the U.S. International Trade Commission has found a violation of section 337 of the Tariff Act of 1930, as amended, in the above-captioned investigation. The Commission has issued a limited exclusion order (\"LEO\") prohibiting the importation of certain robotic floor cleaning devices and components thereof that are imported by or on behalf of SharkNinja Operating LLC, SharkNinja Management LLC, SharkNinja Management Co., SharkNinja Sales Co., EP Midco LLC, and SharkNinja Hong Kong Co. Ltd., and that infringe claims 1 and 9 of U.S. Patent No. 10,813,517 (\"the '517 patent\"). The Commission has also issued cease and desist orders (\"CDOs\") against each Respondent. The",
-    "category": "Funding",
+    "category": "Competitive",
     "companies": [],
     "policies": [],
     "themes": [
@@ -14328,8 +14246,6 @@
       "auto-scraped",
       "source:federal-register-robotics"
     ],
-    "_scraped": true,
-    "_requires_curator_review": true,
     "archive_url": "https://web.archive.org/web/20250203023424/https://www.federalregister.gov/documents/2023/03/27/2023-06222/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-final"
   },
   {
