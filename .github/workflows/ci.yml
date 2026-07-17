@@ -1,0 +1,43 @@
+name: CI
+
+# The repo's first pre-merge check. Until this existed nothing validated a pull
+# request: pages.yml triggers on push-to-main and the scrape workflows run on a
+# schedule, so `gh pr checks` reported "no checks" on every PR and validate.js
+# only ran *after* merge — where the most it could do was fail the deploy on
+# data that had already landed. `npm test` ran nowhere at all.
+#
+# The bake step raises the stakes: it runs at deploy time, so without this a
+# bake bug would surface only after merge, by taking the site's deploy down.
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+
+      - name: Lint GitHub Actions (reject floating tags)
+        run: node scripts/lint-actions.js
+
+      # Strict, like pages.yml: a PR carrying uncurated records fails here
+      # rather than at the deploy that follows its merge.
+      - name: Validate data
+        run: node scripts/validate.js
+
+      # Check-only. --write mutates tracked files, which is right in the
+      # ephemeral pages.yml checkout and wrong here.
+      - name: Check the static bake renders
+        run: node scripts/render-static.js
+
+      - name: Run tests
+        run: npm test
