@@ -4,7 +4,20 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 ## Open
 
-### 2026-07-16 — app.js — `initCollapsibleSections` is a no-op on every page whose sections are rendered by JS
+### 2026-07-20 — scraper-news.js — `hacker-news-robotics` source is low-precision and summary-less
+
+- **Area:** news scraper (`scripts/scraper-news.js`), HN source (`hacker-news-robotics`), queries `robot` / `robotics` / `humanoid`.
+- **Symptom:** the 2026-07-20 refresh pulled **28** HN records in one run; ~21 were pure noise with no robotics connection at all — *Panama Papers / Swedbank fine*, *Big Oil extreme weather*, *Google censoring ICE reviews*, *EU ban on unsold clothes*, *narcissistic leaders oppose remote work*, *Archive.org is offline*. All 28 also had **no summary** (the scraper stores the title as the body, so cards render a title repeated as its own description).
+- **Root cause (data/source bug):** the HN Algolia query matches loosely — `humanoid` typo-tolerance catches `human*` (Humans vs. LLMs, "Humanity at the Threshold", "AI humanizer", Manna "Two Views of Humanity"), and `robot` matches org/product names incidentally (a GitHub org literally named `Hebbian-Robotics`). No relevance gate, no points threshold, and no article-body fetch means every hit lands as a bare, unsummarized link.
+- **Impact:** every refresh dumps ~20+ noise records into `news.json` carrying `_requires_curator_review`, so the deploy gate correctly blocks them — but a human has to hand-prune the whole batch each run, and it buries the few real HN items (Xiaomi-Robotics, "Claude Plays Robotics"). This run: all 28 dropped during curation; the 6 Robot Report RSS records were kept.
+- **Fix options (see backlog "Leads from X"):** (a) require a min HN points/comments threshold; (b) drop the `humanoid`/`robot` OR-typo-tolerance and keyword-gate titles before constructing a record; (c) disable HN entirely and lean on trade RSS + the curated X PhysicalAI list. Note the CLAUDE.md caveat: a pure keyword gate under-matches on-thesis US-vs-China records (Entity List, Section 301), so any gate is triage, not a filter — HN is a different case because its *false positives* dominate.
+- **Regression coverage:** none. A cheap guard: assert the scraper never emits a news record whose `summary` equals its `title`.
+
+### 2026-07-16 — app.js — `initCollapsibleSections` is a no-op on every page whose sections are rendered by JS  ✅ FIXED 2026-07-21
+
+**Resolved 2026-07-21 via option (b) (delegation), plus a re-callable state applier.** `initCollapsibleSections` now binds a single delegated `toggle` listener on `document` in the **capture** phase (`toggle` doesn't bubble, but capture reaches the target's ancestors), so persistence survives any container re-render. State restore/default moved into `applyCollapsibleState()`, which is idempotent and exported as `RT.applyCollapsibleState()`; china's inline script calls it after `RT.paint('#vs-sections', …)` so the re-painted `<details>` pick up their state. Default rule also changed for scroll reduction: pages tagged `<body data-collapse-sections>` (china/energy/supply-chain) default to "first section open, rest collapsed" on all viewports; untagged pages respect authored `open` attrs. Verified live: china shows 1/5 sections open, no console errors. Original write-up kept below.
+
+
 
 - **Area:** collapsible sections (`docs/assets/app.js:328-375`), affecting `china.html` and any page that renders `details.collapsible-section[id]` from data.
 - **Symptom:** on china.html, expanding a metric section and reloading does **not** restore it — and the "on mobile, open only the first section" default never applies either. Verified live on a baked page: after toggling section 3 and reloading, `open` state is `[true,false,false,false,false]` and **zero** `details-state-china.html-*` keys exist in localStorage. The feature silently does nothing.
