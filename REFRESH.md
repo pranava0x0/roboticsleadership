@@ -34,9 +34,10 @@ Data dir:       docs/data/
   themes.json     — curator-authored themes
   agencies.json   — R&D agencies (powers policies.html R&D table)
   sources.json    — scraper source config + _meta.last_updated
-Scrapers:       scripts/scraper-news.js     (RSS → news.json + sources.json)
+Scrapers:       scripts/scraper-news.js     (RSS + Hacker News + Federal Register → news.json + sources.json)
                 scripts/scraper-policy.js   (Federal Register API → policies.json)
                 scripts/archive-sources.js  (Wayback snapshots; MONTHLY maintenance — run only if asked)
+Curated source: owner's X **PhysicalAI** list + bookmarks (@pranava0) — check every refresh (see Step 3b)
 Validator:      scripts/validate.js   ← the eval loop; run after EVERY scrape
 Render layer:   docs/assets/app.js (RT.* helpers) + per-page inline scripts in docs/*.html
 Today's date:   use currentDate from context (do NOT hardcode)
@@ -111,6 +112,28 @@ CS/AI notices). Per the project's hard-won lesson (issues.md, 2026-05-17), **amb
 must be pruned by a human, never silently shipped.** For each new policy/news record that is not
 clearly robotics-relevant, surface it explicitly in the report and ask the curator whether to drop
 it. Do not delete curator-relevant records on your own.
+
+**Hacker News is the biggest prune target.** The HN pass (`hacker-news-robotics`) over-matches on
+`human*` and incidental `robot` mentions; expect ~20+ noise records per run with no summary. Read
+the titles, keep only clearly on-thesis items with a credible source, drop the rest. The trade RSS
+(Robot Report etc.) is the quality tier.
+
+## Step 3b — Harvest the owner's curated X source (every refresh)
+
+The best signal is human-curated, not scraped. Pull the owner's **X `PhysicalAI` list** and
+**bookmarks** for physical-AI news and ideas:
+
+- List: `x.com/i/lists/2061938532722311396` (owner @pranava0, ~80 members). Bookmarks: `x.com/i/bookmarks`.
+- Use the **claude-in-chrome** browser (the owner's logged-in Chrome — bookmarks are private). Harvest
+  with `javascript_tool`: `document.querySelectorAll('article')` → `{url, innerText}` with a dedup set.
+  **X virtualizes the feed**, so plain `window.scrollBy`/`scrollTo(0, scrollHeight)` stalls after ~8
+  posts. To get more, alternate a large scroll-up "jiggle" (`scrollTo(0, scrollHeight - 12000)`) with
+  forward `scrollBy` steps, each followed by a dispatched `scroll` event (see the [[research-sweep-agent-economy]]
+  memory). If you only need the top signal, ~8 is fine. Note the flaky `claude-in-chrome` classifier
+  ("temporarily unavailable") — wait and retry; use read-only tools meanwhile.
+- For each item worth adding: **verify with a web search to get the PRIMARY source**, then hand-author a
+  news record with real fields (don't ship a bare tweet as the record). Log analytical ideas to backlog.
+- Precedent (2026-07-20): Sunday Robotics ACT-2 → sunday.ai; microagi $55M seed → Sifted.
 
 ## Step 4 — Report
 
