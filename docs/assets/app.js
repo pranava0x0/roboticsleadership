@@ -333,9 +333,13 @@
   //   2. a single delegated `toggle` listener on `document` (capture phase, since
   //      `toggle` does not bubble) that persists user toggles regardless of which
   //      nodes currently exist.
-  // Default rule (scroll reduction, 2026-07-21): first collapsible on the page is
-  // open, the rest are collapsed, on ALL viewports. No-JS/crawler readers still get
-  // the fully-expanded baked HTML; JS readers get a short page they expand on demand.
+  // Default when a section has no saved state: respect its authored `open` attribute.
+  // "Collapse by default to cut scroll" is expressed in the markup, not here — author
+  // `open` only on the sections that should start open (china's renderer opens just the
+  // first; policies opens only the two filter-driven tables). Keeping it in the markup
+  // means no-JS/crawler and baked views get the same short default as JS readers, and
+  // this stays a pure restore/persist layer that never force-opens an authored-closed
+  // section (which regressed energy's below-the-fold shortlist — Codex review, PR #126).
   function pageDetailsKey(id) {
     const pageName = location.pathname.split('/').pop() || 'index.html';
     return `details-state-${pageName}-${id}`;
@@ -345,17 +349,12 @@
     const all = Array.from(document.querySelectorAll('details.collapsible-section[id]'));
     const hashId = (location.hash && location.hash.length > 1)
       ? decodeURIComponent(location.hash.slice(1)) : null;
-    // Opt-in per page (tall deep-dive pages: china/energy/supply-chain). When set,
-    // the default is "first section open, the rest collapsed" to cut scroll. Pages
-    // without the flag (e.g. policies, whose filter bar drives a table living inside
-    // one of these) keep respecting each section's authored `open` attribute.
-    const collapseByDefault = document.body.hasAttribute('data-collapse-sections');
-    all.forEach((details, i) => {
+    all.forEach((details) => {
       const saved = localStorage.getItem(pageDetailsKey(details.id));
       if (saved !== null) {
         details.open = saved === 'open';
       } else {
-        details.open = collapseByDefault ? (i === 0) : details.hasAttribute('open');
+        details.open = details.hasAttribute('open');
       }
       // A hash pointing inside a section always wins, so deep links land expanded.
       if (hashId) {

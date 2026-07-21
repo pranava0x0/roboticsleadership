@@ -260,9 +260,9 @@ When a row has a "Program" column and a "Status" column, the Status cell must re
 
 Whitespace trimming barely helps — the long pages are content, not padding (a global rhythm pass cut `index` 8.0→7.8 mobile screens). The two levers that work:
 
-- **`<body data-collapse-sections>`** (china/energy/supply-chain): the collapsible-init default becomes "first `<details>` open, the rest collapsed" on **all** viewports. No-JS/crawler readers still get the fully-expanded baked HTML; JS readers get a short page. Do **not** put this marker on pages whose collapsed content is filter-driven — on `policies.html` the filter bar drives the Congressional + Executive tables, so those stay authored-`open` and only the two static reference tables (agencies, tax) drop their `open` attribute.
+- **Collapse by default via the authored `open` attribute, not a runtime flag.** Put `open` only on the `<details>` meant to start expanded; everything else starts collapsed for JS *and* no-JS/crawler/baked readers alike. On `policies.html` the filter bar drives the Congressional + Executive tables, so those keep `open` and only the two static reference tables (agencies, tax) drop it. A JS "force the first section open" rule was tried and reverted — it force-opened a page's authored-*closed* below-the-fold section, adding scroll (Codex, PR #126). Let the collapsible layer restore/persist only; never let it open or close a section the markup didn't ask for.
 - **Multi-column card grids from ≥720px** (`.feed` is 2-up): the single biggest win, but it only applies to **card** content. Tables and prose don't reflow to columns — don't force them.
-- Collapse helps **desktop** most; on mobile the old "first-open" default already collapsed things, so the deep pages (`energy` 31, `supply-chain` 26 mobile screens) barely move — their bulk is non-collapsible prose/tables/charts. Real reduction there is a content restructure, not a CSS pass. Don't over-squeeze density to compensate; it just cramps the design.
+- The deep pages (`energy` 31, `supply-chain` 26 mobile screens) barely move from collapse — their authored default already collapses the secondary sections, and their bulk is non-collapsible prose/tables/charts. Real reduction there is a content restructure, not a CSS pass. Don't over-squeeze density to compensate; it just cramps the design.
 
 ---
 
