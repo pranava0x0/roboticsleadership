@@ -406,7 +406,7 @@ nav.primary-nav a[aria-current="page"],
 main {
   max-width: var(--max-w);
   margin: 0 auto;
-  padding: 24px 16px 80px;
+  padding: 24px 16px 52px;
 }
 
 .eyebrow {
@@ -475,7 +475,7 @@ h2.section-title {
   font-weight: 700;
   font-size: 20px;
   letter-spacing: -0.01em;
-  margin: 26px 0 10px;
+  margin: 20px 0 8px;
 }
 
 /* ============================================================
@@ -560,8 +560,8 @@ h2.section-title {
    ============================================================ */
 
 details.collapsible-section {
-  margin-top: 28px;
-  margin-bottom: 24px;
+  margin-top: 18px;
+  margin-bottom: 16px;
 }
 
 details.collapsible-section > summary {
@@ -612,8 +612,8 @@ details.collapsible-section > summary:hover::before {
 
 footer.site-footer {
   border-top: 1px solid var(--border);
-  margin-top: 64px;
-  padding: 20px 16px;
+  margin-top: 40px;
+  padding: 18px 16px;
   color: var(--text-muted);
   font-size: 12.5px;
   text-align: center;
@@ -631,7 +631,7 @@ footer.site-footer .footer-credit {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 8px;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 }
 @media (min-width: 640px) {
   .kpi-strip { grid-template-columns: repeat(3, 1fr); gap: 10px; }
@@ -899,7 +899,7 @@ a.kpi-card:hover {
 .data-table th,
 .data-table td {
   text-align: left;
-  padding: 8px 14px;
+  padding: 6px 14px;
   border-bottom: 1px solid var(--border);
   vertical-align: middle;
   overflow-wrap: break-word;
@@ -1221,6 +1221,12 @@ a.kpi-card:hover {
   grid-template-columns: 1fr;
   gap: 12px;
 }
+/* Two columns from tablet up — the feed is the tallest thing on news.html, and
+   ~360px cards read fine side by side. Halves scroll on tablet/desktop; mobile
+   stays single-column. align-items:start so uneven card heights don't stretch. */
+@media (min-width: 720px) {
+  .feed { grid-template-columns: 1fr 1fr; gap: 12px 16px; align-items: start; }
+}
 .feed-card {
   background: var(--surface);
   -webkit-backdrop-filter: var(--surface-backdrop, none);
@@ -1390,7 +1396,7 @@ button, [role="button"], a.btn {
   .theme-picker > summary { padding: 0 8px; gap: 4px; }
   .theme-picker-current { display: none; }
   h1.page-title { font-size: 24px; }
-  main { padding: 16px 12px 60px; }
+  main { padding: 16px 12px 40px; }
 }
 
 /* ============================================================

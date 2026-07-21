@@ -39,6 +39,18 @@ Each is detailed under **High** below.
 
 ---
 
+## Leads from X PhysicalAI list + bookmarks (captured 2026-07-20)
+
+Harvested from @pranava0's PhysicalAI list + bookmarks during the 2026-07-20 refresh. The two cleanest, primary-sourced items landed as news records this run (Sunday ACT-2, microagi $55M seed). The rest are leads:
+
+- [ ] **Track LimX Dynamics (Shenzhen) and its TRON 2 modular robot.** LimX released the TRON 2 "Autonomous Mobile Manipulation" kit (Jul 2026) on top of its multi-form embodied robot (biped / wheeled-legged / stationary dual-arm, dual 7-DoF arms, ~$6.8k, compatible with π0.5 and ACT). Core China-capability signal, well covered by The Robot Report / Humanoids Daily. Add LimX to `companies.json` (map_category humanoid), then a dated news record citing the trade coverage. Not added this run because the specific AMM-kit release was only secondarily sourced. **priority: med · M**
+- [ ] **The embodied-data layer as an explicit thesis angle.** Recurring theme across the list/bookmarks: embodied-data startups have raised ~$620M collectively yet unit economics for collecting real-world robot-training data are unsolved; microagi ($55M, added this run) and Physical Intelligence sit on this layer. Worth a short themes.html/energy-style note — "who owns the training-data bottleneck" is a US-vs-China question the site doesn't yet frame. **priority: med · M**
+- [ ] **Humanoid form-factor debate (wheeled vs. legged).** Several list posts (Chris Paxton on LimX modularity; Phil Shaw on wheeled humanoids proliferating) point at a live design-space argument. Candidate for a themes explainer if it maps to a US/China split. **priority: low · S**
+- [ ] **Energy ↔ data-center large-load angle for energy.html.** Bookmarked FERC thread (Ari Peskoe): FERC's "aggressive targeted action to speed large load integration" vs. PJM state consumer advocates calling it inadequate on cost-shifting. Fits energy.html's compute-power nexus. Verify against primary FERC/PJM filings before adding. **priority: low · M**
+- [ ] **HN news source is low-precision — tighten or gate it.** See issues.md (2026-07-20): the `hacker-news-robotics` source added 28 records in one run, ~21 pure noise (Panama Papers, Big Oil, ICE reviews), 0 with usable summaries. Options: drop the `robot`/`humanoid` OR-query typo-tolerance, require a min HN points threshold, or disable HN and rely on trade RSS + curated X. **priority: high · S**
+
+---
+
 ## High
 
 - ~~**"Every record links to its primary source" is not true, and it's the site's central credibility claim.**~~ **Resolved 2026-07-17 (owner call) via option (a):** reworded sitewide to the true invariant — **"every record is cited; primary sources preferred"** — across index/news/china/themes/supply-chain/energy/policies footers, index + news meta/OG, the share-card footer, llms.txt, and CLAUDE.md. policies.html keeps a specific, verified claim ("nearly all… a few to trade press") because its sources really are ~90% primary. Landed alongside the front-page neutrality reframe, which is what surfaced it. **Option (b) is still open if a stronger guarantee is ever wanted:** add `source_type: primary|secondary` and have `validate.js` enforce it — that's a data project, and nothing currently stops the claim regressing but review. Original finding below, kept for the record:

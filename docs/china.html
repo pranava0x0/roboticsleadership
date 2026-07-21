@@ -164,6 +164,8 @@
     RT.paint(document.getElementById('scoreline'), RT.renderChinaScoreline(uc));
     RT.paint(document.getElementById('score-bar'), RT.renderChinaScoreBar(uc));
     RT.paint(document.getElementById('vs-sections'), RT.renderChinaSections(uc));
+    // Re-paint replaced the baked <details> nodes; re-apply collapse state to them.
+    RT.applyCollapsibleState();
 
     document.getElementById('unitree-case-title').textContent = uc.unitree_case.title;
     document.getElementById('unitree-case-intro').textContent = uc.unitree_case.intro;

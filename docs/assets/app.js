@@ -325,53 +325,62 @@
   }
 
   // ---------- Collapsible Section (details) State Persistence ----------
-  function initCollapsibleSections() {
-    const detailsElems = document.querySelectorAll('details.collapsible-section[id]');
-    detailsElems.forEach((details) => {
-      const id = details.id;
-      const pageName = location.pathname.split('/').pop() || 'index.html';
-      const pageKey = `details-state-${pageName}-${id}`;
-      
-      // Restore state
-      const savedState = localStorage.getItem(pageKey);
-      if (savedState !== null) {
-        details.open = savedState === 'open';
+  // Two parts, split so this survives client-side re-renders (china/news/index
+  // re-paint their section containers after the bake, discarding any listeners
+  // and resetting `open` — see issues.md 2026-07-16):
+  //   1. applyCollapsibleState(): idempotent; sets each section's open state from
+  //      localStorage → hash → default. Safe to call again after every re-render.
+  //   2. a single delegated `toggle` listener on `document` (capture phase, since
+  //      `toggle` does not bubble) that persists user toggles regardless of which
+  //      nodes currently exist.
+  // Default when a section has no saved state: respect its authored `open` attribute.
+  // "Collapse by default to cut scroll" is expressed in the markup, not here — author
+  // `open` only on the sections that should start open (china's renderer opens just the
+  // first; policies opens only the two filter-driven tables). Keeping it in the markup
+  // means no-JS/crawler and baked views get the same short default as JS readers, and
+  // this stays a pure restore/persist layer that never force-opens an authored-closed
+  // section (which regressed energy's below-the-fold shortlist — Codex review, PR #126).
+  function pageDetailsKey(id) {
+    const pageName = location.pathname.split('/').pop() || 'index.html';
+    return `details-state-${pageName}-${id}`;
+  }
+
+  function applyCollapsibleState() {
+    const all = Array.from(document.querySelectorAll('details.collapsible-section[id]'));
+    const hashId = (location.hash && location.hash.length > 1)
+      ? decodeURIComponent(location.hash.slice(1)) : null;
+    all.forEach((details) => {
+      const saved = localStorage.getItem(pageDetailsKey(details.id));
+      if (saved !== null) {
+        details.open = saved === 'open';
       } else {
-        // Default behavior if not set:
-        // On mobile/tablet, keep them closed by default except the first one on the page.
-        // On desktop, keep them open (respect HTML default).
-        const isMobileOrTablet = window.innerWidth < 1024;
-        if (isMobileOrTablet) {
-          const allCollapsibleOnPage = Array.from(document.querySelectorAll('details.collapsible-section[id]'));
-          const firstCollapsible = allCollapsibleOnPage[0];
-          details.open = (details === firstCollapsible);
-        } else {
-          details.open = details.hasAttribute('open');
-        }
+        details.open = details.hasAttribute('open');
       }
-
-      // Auto-expand if the URL has a hash pointing to an element inside this details
-      const checkAndExpandHash = () => {
-        if (location.hash && location.hash.length > 1) {
-          const hashId = decodeURIComponent(location.hash.slice(1));
-          try {
-            if (details.querySelector(`#${CSS.escape(hashId)}`)) {
-              details.open = true;
-            }
-          } catch (e) {
-            // invalid selector
+      // A hash pointing inside a section always wins, so deep links land expanded.
+      if (hashId) {
+        try {
+          if (details.id === hashId || details.querySelector(`#${CSS.escape(hashId)}`)) {
+            details.open = true;
           }
-        }
-      };
-
-      checkAndExpandHash();
-      window.addEventListener('hashchange', checkAndExpandHash);
-
-      // Listen to toggle events
-      details.addEventListener('toggle', () => {
-        localStorage.setItem(pageKey, details.open ? 'open' : 'closed');
-      });
+        } catch (e) { /* invalid selector */ }
+      }
     });
+  }
+
+  let collapsibleBound = false;
+  function initCollapsibleSections() {
+    if (!collapsibleBound) {
+      collapsibleBound = true;
+      // Delegated + capture: one listener that outlives any container re-render.
+      document.addEventListener('toggle', (e) => {
+        const d = e.target;
+        if (d && d.matches && d.matches('details.collapsible-section[id]')) {
+          localStorage.setItem(pageDetailsKey(d.id), d.open ? 'open' : 'closed');
+        }
+      }, true);
+      window.addEventListener('hashchange', applyCollapsibleState);
+    }
+    applyCollapsibleState();
   }
 
   function sentimentPillClass(sentiment) {
@@ -800,6 +809,8 @@
     renderProductionTrend,
     truncate,
     paint,
+    initCollapsibleSections,
+    applyCollapsibleState,
     // Pure page renderers — shared by the inline page scripts and the
     // deploy-time bake step (scripts/render-static.js). Keep them DOM-free.
     NEWS_PAGE_SIZE,

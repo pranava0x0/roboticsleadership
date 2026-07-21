@@ -34,9 +34,10 @@ Data dir:       docs/data/
   themes.json     — curator-authored themes
   agencies.json   — R&D agencies (powers policies.html R&D table)
   sources.json    — scraper source config + _meta.last_updated
-Scrapers:       scripts/scraper-news.js     (RSS → news.json + sources.json)
+Scrapers:       scripts/scraper-news.js     (RSS + Hacker News + Federal Register → news.json + sources.json)
                 scripts/scraper-policy.js   (Federal Register API → policies.json)
                 scripts/archive-sources.js  (Wayback snapshots; MONTHLY maintenance — run only if asked)
+Curated source: owner's X **PhysicalAI** list + bookmarks (@pranava0) — check every refresh (see Step 3b)
 Validator:      scripts/validate.js   ← the eval loop; run after EVERY scrape
 Render layer:   docs/assets/app.js (RT.* helpers) + per-page inline scripts in docs/*.html
 Today's date:   use currentDate from context (do NOT hardcode)
@@ -65,8 +66,14 @@ agencies:  id, name, full_name, parent, url, show_in_rd_table, notes
 
 ### Source config facts (`docs/data/sources.json`)
 
-- News scraper processes only `type === 'rss' && enabled` entries. Current enabled RSS:
-  `ieee-spectrum-robotics`, `techcrunch-robotics-tag`, `the-robot-report`.
+- News scraper processes `type === 'rss' && enabled` entries **plus a built-in Hacker News
+  (Algolia) pass and a Federal Register news pass** — these are wired into `scraper-news.js`
+  directly, not gated by `sources.json`. Current enabled RSS: `ieee-spectrum-robotics`,
+  `techcrunch-robotics-tag`, `the-robot-report`.
+- **The Hacker News pass (`hacker-news-robotics`, queries `robot`/`robotics`/`humanoid`) is
+  low-precision and summary-less** — expect ~20+ noise records per run and prune the whole
+  batch during curation (see issues.md 2026-07-20). It is the single biggest source of
+  curator work; the trade RSS is the quality tier.
 - `reddit-robotics` (type `reddit-json`) is **disabled** — the news scraper ignores non-RSS types.
 - `federal-register-robotics` lives under `sources.news` but is type `federal-register-search`;
   the **news** scraper skips it. Federal Register is handled by the **policy** scraper, whose
@@ -106,6 +113,28 @@ must be pruned by a human, never silently shipped.** For each new policy/news re
 clearly robotics-relevant, surface it explicitly in the report and ask the curator whether to drop
 it. Do not delete curator-relevant records on your own.
 
+**Hacker News is the biggest prune target.** The HN pass (`hacker-news-robotics`) over-matches on
+`human*` and incidental `robot` mentions; expect ~20+ noise records per run with no summary. Read
+the titles, keep only clearly on-thesis items with a credible source, drop the rest. The trade RSS
+(Robot Report etc.) is the quality tier.
+
+## Step 3b — Harvest the owner's curated X source (every refresh)
+
+The best signal is human-curated, not scraped. Pull the owner's **X `PhysicalAI` list** and
+**bookmarks** for physical-AI news and ideas:
+
+- List: `x.com/i/lists/2061938532722311396` (owner @pranava0, ~80 members). Bookmarks: `x.com/i/bookmarks`.
+- Use the **claude-in-chrome** browser (the owner's logged-in Chrome — bookmarks are private). Harvest
+  with `javascript_tool`: `document.querySelectorAll('article')` → `{url, innerText}` with a dedup set.
+  **X virtualizes the feed**, so plain `window.scrollBy`/`scrollTo(0, scrollHeight)` stalls after ~8
+  posts. To get more, alternate a large scroll-up "jiggle" (`scrollTo(0, scrollHeight - 12000)`) with
+  forward `scrollBy` steps, each followed by a dispatched `scroll` event (see the [[research-sweep-agent-economy]]
+  memory). If you only need the top signal, ~8 is fine. Note the flaky `claude-in-chrome` classifier
+  ("temporarily unavailable") — wait and retry; use read-only tools meanwhile.
+- For each item worth adding: **verify with a web search to get the PRIMARY source**, then hand-author a
+  news record with real fields (don't ship a bare tweet as the record). Log analytical ideas to backlog.
+- Precedent (2026-07-20): Sunday Robotics ACT-2 → sunday.ai; microagi $55M seed → Sifted.
+
 ## Step 4 — Report
 
 Report: per-source counts, new date range, any scraper bug found+fixed, validate result, and a
@@ -131,6 +160,21 @@ If nothing new was learned, skip the edit and say so. This is what keeps the ski
 
 ## Learned patterns
 <!-- Auto-maintained by Step 5. Newest first. Keep each entry to 1-2 sentences. -->
+
+- **2026-07-20** — The scrapers now also run a **Hacker News (Algolia)** pass, not documented
+  before this run. It over-matches badly: `humanoid` typo-tolerance catches any `human*` word,
+  so one run pulled 28 records (~21 pure noise: Panama Papers, Big Oil, ICE, Swedbank) all with
+  no summary. Curate = drop the whole HN batch unless an item is clearly on-thesis with a real
+  source; keep the trade RSS. Tracked in issues.md; fix options in backlog.
+- **2026-07-20** — Federal Register `term=robotics` false positive of the run: a **Medicare CY2027
+  Physician Fee Schedule** rule (surgical-robotics mention buried in a payment reg). Same class as
+  the NSF committee-renewal noise — flag/drop Fed-Register records whose subject is a fee schedule
+  or committee action rather than robotics policy.
+- **2026-07-20** — Curated additions can come from the owner's **X `PhysicalAI` list + bookmarks**
+  (`x.com/pranava0`, list id `2061938532722311396`). Harvest via the claude-in-chrome browser;
+  Twitter virtualizes the feed so programmatic scroll only yields the first ~8 posts — take the top
+  signal, verify each item with a web search for its **primary** source, then hand-author the news
+  record (this run: Sunday Robotics ACT-2 → sunday.ai; microagi $55M seed → Sifted).
 
 - **2026-06-01** — `scraper-policy.js` built records without the schema-required `themes` field;
   `validate.js` rejected the new record. Fix: template now includes `themes: []`. Lesson: any new
