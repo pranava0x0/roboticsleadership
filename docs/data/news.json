@@ -1,5 +1,933 @@
 [
   {
+    "id": "fedreg-news-2026-14805",
+    "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-National Armaments Consortium",
+    "date": "2026-07-22",
+    "source": "federal-register-robotics",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/22/2026-14805/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-national-armaments",
+    "summary": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-National Armaments Consortium",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "fedreg-news-2026-14907",
+    "title": "Advisory Council on Alzheimer's Research, Care, and Services; Meeting",
+    "date": "2026-07-23",
+    "source": "federal-register-robotics",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/23/2026-14907/advisory-council-on-alzheimers-research-care-and-services-meeting",
+    "summary": "This notice announces the public meeting of the Advisory Council on Alzheimer's Research, Care, and Services (Advisory Council). The Advisory Council provides advice on how to prevent or reduce the bu...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-48986823",
+    "title": "Generative Bionics launches Gene.01 ahead of shipyard welding trials",
+    "date": "2026-07-21",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://runtimewire.com/article/generative-bionics-gene01-tactile-humanoid-shipyard-trials",
+    "summary": "Generative Bionics launches Gene.01 ahead of shipyard welding trials",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49033249",
+    "title": "A Semioethical Framework for Artificial Intelligence",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://lyceum.institute/humanitas-technica/seppuai/",
+    "summary": "A Semioethical Framework for Artificial Intelligence",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-48995923",
+    "title": "YouTube System Design for Robotics Data Infrastructure",
+    "date": "2026-07-21",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://hebbianrobotics.com/blog/youtube-system-design-for-robotics-data-infrastructure",
+    "summary": "YouTube System Design for Robotics Data Infrastructure",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-48997042",
+    "title": "Gritt: AI to Build Infrastructure with Robotics",
+    "date": "2026-07-21",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.gritt.ai/",
+    "summary": "Gritt: AI to Build Infrastructure with Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-48997089",
+    "title": "Fei-Fei Li says robotics simulation startup SceniX joins World Labs",
+    "date": "2026-07-21",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://runtimewire.com/article/fei-fei-li-scenix-joins-world-labs",
+    "summary": "Fei-Fei Li says robotics simulation startup SceniX joins World Labs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49005035",
+    "title": "The Boring Frontier of Robotics",
+    "date": "2026-07-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.alexinch.com/blog/boring-frontier",
+    "summary": "The Boring Frontier of Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49007760",
+    "title": "Show HN: Langy, an automated AI engineer (we gave it a robot body) [video]",
+    "date": "2026-07-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://langwatch.ai/blog/introducing-langy-your-automated-ai-engineer",
+    "summary": "Founder here. Langy is an AI engineer that lives inside our platform, LangWatch. It reads your production traces, writes Scenario tests and evaluations for the problems it finds, opens a pull request ",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49009272",
+    "title": "Ukrainian drones deliver robots directly into battle by sea and air",
+    "date": "2026-07-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/gadgets/2026/07/ukrainian-drones-deliver-robots-directly-into-battle-by-sea-and-air/",
+    "summary": "Ukrainian drones deliver robots directly into battle by sea and air",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49010643",
+    "title": "AMD and Anthropic Announce Partnership to Deploy Up to 2 Gigawatts of MI450 GPUs",
+    "date": "2026-07-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
+    "summary": "AMD and Anthropic Announce Partnership to Deploy Up to 2 Gigawatts of MI450 GPUs",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49012431",
+    "title": "Nvidia released its first official GeForce driver for Windows on Arm",
+    "date": "2026-07-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://videocardz.com/newz/nvidias-first-geforce-driver-for-windows-on-arm-confirms-rtx-spark-n1x-with-6144-or-5120-cuda-cores",
+    "summary": "Nvidia released its first official GeForce driver for Windows on Arm",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49012511",
+    "title": "Travis Kalanick's robotics company raises $1.7B, led by A16Z",
+    "date": "2026-07-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+    "summary": "Travis Kalanick's robotics company raises $1.7B, led by A16Z",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49012685",
+    "title": "Is AI productivity growth in the room with us?",
+    "date": "2026-07-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.ft.com/content/3fcda833-80d2-4e13-86f4-29b479b79adf",
+    "summary": "Is AI productivity growth in the room with us?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49014010",
+    "title": "Hacker's Guide to UART Root Shells [video]",
+    "date": "2026-07-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=01mw0oTHwxg",
+    "summary": "Hacker's Guide to UART Root Shells [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49014458",
+    "title": "RefluXFS: A Linux Kernel Local Privilege Escalation to Root in XFS",
+    "date": "2026-07-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/07/22/refluxfs-a-linux-kernel-local-privilege-escalation-to-root-in-xfs-cve-2026-64600",
+    "summary": "RefluXFS: A Linux Kernel Local Privilege Escalation to Root in XFS",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49014549",
+    "title": "Tesla's profits slide despite growing revenue as it pivots to robotics and AI",
+    "date": "2026-07-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/technology/2026/jul/22/tesla-profits-earnings",
+    "summary": "Tesla's profits slide despite growing revenue as it pivots to robotics and AI",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49014766",
+    "title": "Deep Dive on Actuators",
+    "date": "2026-07-22",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://robotic-learning.com/actuators/",
+    "summary": "Deep Dive on Actuators",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49017867",
+    "title": "Robotaxi law could ban Tesla in N.J",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.nj.com/news/2026/07/robotaxi-law-could-ban-tesla-in-nj.html",
+    "summary": "Robotaxi law could ban Tesla in N.J",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49021024",
+    "title": "Securing Services with Rootless Containers",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://blog.coderspirit.xyz/blog/2026/07/06/securing-services-with-rootless-containers/",
+    "summary": "Securing Services with Rootless Containers",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49022542",
+    "title": "Robots.txt – Just Crawl It",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.nike.com/robots.txt",
+    "summary": "Robots.txt – Just Crawl It",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49024437",
+    "title": "How to Talk to Your Robot: Keeping Coding Agents on Track",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://johnjeffers.com/how-to-talk-to-your-robot/",
+    "summary": "How to Talk to Your Robot: Keeping Coding Agents on Track",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49024722",
+    "title": "US eyes ban on Chinese humanoid robots as US-China tech rivalry intensifies",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.scmp.com/tech/policy/article/3361622/us-eyes-ban-chinese-humanoid-robots-us-china-tech-rivalry-intensifies",
+    "summary": "US eyes ban on Chinese humanoid robots as US-China tech rivalry intensifies",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49026755",
+    "title": "First Robotic Satellite Servicer Launched",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.nrl.navy.mil/Media/News/Article/4551871/robotic-servicing-of-geosynchronous-satellites-launches-into-orbit/",
+    "summary": "First Robotic Satellite Servicer Launched",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49026831",
+    "title": "Tesla says Robotaxi is expanding – its own chart shows it's not",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://electrek.co/2026/07/22/tesla-robotaxi-growth-flat-own-chart-q2-2026/",
+    "summary": "Tesla says Robotaxi is expanding – its own chart shows it's not",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49027558",
+    "title": "DARPA Robotic mechanic for broken satellites launched",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.darpa.mil/news/2026/robotic-servicing-of-geosynchronous-satellites-lifts-off",
+    "summary": "DARPA Robotic mechanic for broken satellites launched",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49028730",
+    "title": "Agents Found Three RCEs as SYSTEM (and root) on Bing Image Search",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://xbow.com/blog/bing-images-rce-vulnerabilities",
+    "summary": "Agents Found Three RCEs as SYSTEM (and root) on Bing Image Search",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49028783",
+    "title": "Someone Call Tesla a Robotaxi, or SpaceX, Quick",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.bloomberg.com/opinion/articles/2026-07-23/tesla-disappoints-on-earnings-and-its-robotaxi-rollout-too",
+    "summary": "Someone Call Tesla a Robotaxi, or SpaceX, Quick",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49029119",
+    "title": "Ground Robots Inherit the Kill Zone",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://spectrum.ieee.org/ukraine-ground-drones",
+    "summary": "Ground Robots Inherit the Kill Zone",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49029199",
+    "title": "Nvidia Puts a 4B World Model on the Robot [Weekly Physical AI Roundup]",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://topicqueue.substack.com/p/nvidia-puts-a-4b-world-model-on-the",
+    "summary": "Nvidia Puts a 4B World Model on the Robot [Weekly Physical AI Roundup]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49030731",
+    "title": "Should robots be considered as slaves?",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.optimallyirrational.com/p/should-robots-be-considered-as-slaves",
+    "summary": "Should robots be considered as slaves?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49031963",
+    "title": "Japanese AI Robots Used to Replicate Skilled Confectioners' Abilities",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260719-338181/",
+    "summary": "Japanese AI Robots Used to Replicate Skilled Confectioners' Abilities",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49032921",
+    "title": "Exoplanets Around Barnard's Star Are Uninhabitable",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.universetoday.com/articles/astronomers-determine-that-exoplanets-around-barnards-star-are-extremely-uninhabitable",
+    "summary": "Exoplanets Around Barnard's Star Are Uninhabitable",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49033514",
+    "title": "Show HN: Bagel (Bag ExpLoration) for ROSBAGs",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://bagel-ros2.vercel.app",
+    "summary": "Hello HN!BAGEL is a fully static web application that lets you explore ROS bag files (.mcap, .db3, .bag), standalone point cloud files (.pcd, .ply), and 3D Gaussian Splat scenes (.ply, .splat, .ksplat",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49034436",
+    "title": "The Robots Cometh",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://time.com/article/2026/07/23/unitree-china-human-robotics/",
+    "summary": "The Robots Cometh",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-friction-is-key-to-making-bett-136",
+    "title": "Friction is key to making better robot world models",
+    "date": "2026-07-21",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/friction-is-key-to-making-better-robot-world-models/",
+    "summary": "Deploying world models in real robotic systems requires a step that receives less attention than the models themselves: conditioning.\nThe post Friction is key to making better robot world models appea...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-misumi-americas-releases-resho-378",
+    "title": "MISUMI Americas releases reshoring report, supports manufacturing training bill",
+    "date": "2026-07-21",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/misumi-americas-releases-reshoring-report-supports-manufacturing-training-bill/",
+    "summary": "MISUMI Americas has examined reshoring of U.S. manufacturing and supported legislation to send workers overseas for training.\nThe post MISUMI Americas releases reshoring report, supports manufacturing...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-generative-bionics-unveils-hum-269",
+    "title": "Generative Bionics unveils humanoid robot with full-body tactile sensing",
+    "date": "2026-07-21",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/",
+    "summary": "Generative Bionics said its Gene.01 humanoid is fully sensorized, helping it quickly anticipate human presence and respond.\nThe post Generative Bionics unveils humanoid robot with full-body tactile se...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-vicarious-surgical-officially-941",
+    "title": "Vicarious Surgical officially shutting down",
+    "date": "2026-07-21",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/vicarious-surgical-officially-shutting-down/",
+    "summary": "Vicarious Surgical raised about $300 million in total, most of that from a special purpose acquisition company (SPAC) merger in 2021.\nThe post Vicarious Surgical officially shutting down appeared firs...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-u-k-based-humanoid-secures-152-304",
+    "title": "U.K.-based Humanoid secures $152M in Series A funding",
+    "date": "2026-07-21",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/",
+    "summary": "Humanoid said it has reached a $1.35 billion valuation as it scales its AI-driven industrial robots and expands commercial deployments.\nThe post U.K.-based Humanoid secures $152M in Series A funding a...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-medtronic-to-launch-ai-compute-975",
+    "title": "Medtronic to launch AI compute platform for the operating room",
+    "date": "2026-07-22",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/medtronic-launch-ai-compute-platform-operating-room/",
+    "summary": "Touch Surgery bridges pre-operative planning and training, intra-operative tele-mentoring and tele-proctoring, and post-operative insights.\nThe post Medtronic to launch AI compute platform for the ope...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-report-shares-the-state-of-phy-999",
+    "title": "Report shares the state of physical AI and robotics",
+    "date": "2026-07-22",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/physical-ai-and-robotics/",
+    "summary": "A report looks at how physical AI is increasingly enabling autonomous systems to perceive their environments, make decisions, and act in the real world.\nThe post Report shares the state of physical AI...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-ropedia-raises-22m-to-scale-da-543",
+    "title": "Ropedia raises $22M to scale data collection for training robots",
+    "date": "2026-07-23",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/",
+    "summary": "Ropdeia's HOMIE is a head-mounted device, equipped with a 360º camera view, that captures first-person data for training robots.\nThe post Ropedia raises $22M to scale data collection for training robo...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-amd-unveils-kria-module-for-re-122",
+    "title": "AMD unveils Kria module for real-time control, unified memory for robots",
+    "date": "2026-07-23",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/amd-unveils-kria-module-real-time-control-unified-memory-robots/",
+    "summary": "AMD has launched the Ryzen AI Embedded X100 and Kria AI SoM, bringing unified memory and real-time control to challenge NVIDIA in robotics.\nThe post AMD unveils Kria module for real-time control, unif...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-uber-co-founder-raises-1-7b-fo-74",
+    "title": "Uber co-founder raises $1.7B for new robotics startup ATOMS",
+    "date": "2026-07-23",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/",
+    "summary": "Travis Kalanick, the former CEO of Uber, said with ATOMS, he hopes to create physical automation to transform industry.\nThe post Uber co-founder raises $1.7B for new robotics startup ATOMS appeared fi...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-holiday-robotics-raises-105m-f-177",
+    "title": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
+    "date": "2026-07-23",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/",
+    "summary": "Holiday's robot features a wheel-based mobile base, an upper body for dexterous manipulation, and hot-swappable batteries.\nThe post Holiday Robotics raises $105M for its FRIDAY wheeled humanoid appear...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-gritt-exits-stealth-with-32-mi-995",
+    "title": "Gritt exits stealth with $32 million for robots to build solar plants — then, everything else",
+    "date": "2026-07-21",
+    "source": "techcrunch-robotics-tag",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/",
+    "summary": "Gritt is coming out of stealth with $34 million and plans to automate the hardest tasks on construction sites.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "rss-lockheed-martin-taps-machina-s-732",
     "title": "Lockheed Martin taps Machina’s robots for mission-critical missile parts",
     "date": "2026-07-16",
