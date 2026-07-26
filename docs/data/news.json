@@ -1,5 +1,916 @@
 [
   {
+    "id": "fedreg-news-2026-14907",
+    "title": "Advisory Council on Alzheimer's Research, Care, and Services; Meeting",
+    "date": "2026-07-23",
+    "source": "federal-register-robotics",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/23/2026-14907/advisory-council-on-alzheimers-research-care-and-services-meeting",
+    "summary": "This notice announces the public meeting of the Advisory Council on Alzheimer's Research, Care, and Services (Advisory Council). The Advisory Council provides advice on how to prevent or reduce the bu...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49022056",
+    "title": "LLMs and Morality",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://humanistreview.ai/issue-1/appiah-ai-moral-character/",
+    "summary": "LLMs and Morality",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49033249",
+    "title": "A Semioethical Framework for Artificial Intelligence",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://lyceum.institute/humanitas-technica/seppuai/",
+    "summary": "A Semioethical Framework for Artificial Intelligence",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49046464",
+    "title": "Why Debt Is One of Humanity's Most Beautiful Inventions",
+    "date": "2026-07-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.bloomberg.com/news/features/2026-07-24/why-debt-is-one-of-humanity-s-most-beautiful-inventions",
+    "summary": "Why Debt Is One of Humanity's Most Beautiful Inventions",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49052025",
+    "title": "Digital Intelligence: Why Humanity Created What It Does Not Understand",
+    "date": "2026-07-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://singularityforge.space/2026/07/26/illusion-of-control/",
+    "summary": "Digital Intelligence: Why Humanity Created What It Does Not Understand",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49022542",
+    "title": "Robots.txt – Just Crawl It",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.nike.com/robots.txt",
+    "summary": "Robots.txt – Just Crawl It",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49024722",
+    "title": "US eyes ban on Chinese humanoid robots as US-China tech rivalry intensifies",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.scmp.com/tech/policy/article/3361622/us-eyes-ban-chinese-humanoid-robots-us-china-tech-rivalry-intensifies",
+    "summary": "US eyes ban on Chinese humanoid robots as US-China tech rivalry intensifies",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49026755",
+    "title": "First Robotic Satellite Servicer Launched",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.nrl.navy.mil/Media/News/Article/4551871/robotic-servicing-of-geosynchronous-satellites-launches-into-orbit/",
+    "summary": "First Robotic Satellite Servicer Launched",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49027558",
+    "title": "DARPA Robotic mechanic for broken satellites launched",
+    "date": "2026-07-23",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.darpa.mil/news/2026/robotic-servicing-of-geosynchronous-satellites-lifts-off",
+    "summary": "DARPA Robotic mechanic for broken satellites launched",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49033514",
+    "title": "Show HN: Bagel (Bag ExpLoration) for ROSBAGs",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://bagel-ros2.vercel.app",
+    "summary": "Hello HN!BAGEL is a fully static web application that lets you explore ROS bag files (.mcap, .db3, .bag), standalone point cloud files (.pcd, .ply), and 3D Gaussian Splat scenes (.ply, .splat, .ksplat",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49034436",
+    "title": "The Robots Cometh",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://time.com/article/2026/07/23/unitree-china-human-robotics/",
+    "summary": "The Robots Cometh",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49036430",
+    "title": "Whack-a-drone",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.theverge.com/report/969725/fcc-drone-ban-odyssey-robot-galiview-etak-randolph-howard-eason",
+    "summary": "Whack-a-drone",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49036433",
+    "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece",
+    "summary": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49036653",
+    "title": "Robot snakes searched for Venezuela earthquake survivors in collapsed buildings",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/gadgets/2026/07/robot-snakes-searched-for-venezuela-earthquake-survivors-in-collapsed-buildings/",
+    "summary": "Robot snakes searched for Venezuela earthquake survivors in collapsed buildings",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49037660",
+    "title": "Earnings at Tesla fall as research spending cuts into profit from selling cars",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://apnews.com/article/tesla-musk-electric-vehicles-robotaxis-robots-976cc9e895bbdcbd3728e7ba178ffe40",
+    "summary": "Earnings at Tesla fall as research spending cuts into profit from selling cars",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49039904",
+    "title": "The most advanced robotic servicing satellite–that we know about",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/space/2026/07/this-is-the-worlds-most-advanced-robotic-servicing-satellite-that-we-know-about/",
+    "summary": "The most advanced robotic servicing satellite–that we know about",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49040684",
+    "title": "GitHub – makerspet/oomwoo: Open-source vacuum robot cleaner",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/makerspet/oomwoo",
+    "summary": "GitHub – makerspet/oomwoo: Open-source vacuum robot cleaner",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49041889",
+    "title": "Waymo explores split with Uber as robotaxi tensions deepen",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.ft.com/content/9dcb5d72-13aa-4f9c-ac6d-e022860df5ea",
+    "summary": "Waymo explores split with Uber as robotaxi tensions deepen",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49042518",
+    "title": "The challenges companies face to launch robotaxis in Europe",
+    "date": "2026-07-24",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.euronews.com/business/2026/07/24/the-challenges-companies-face-to-launch-robotaxis-in-europe",
+    "summary": "The challenges companies face to launch robotaxis in Europe",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49043825",
+    "title": "Japanese Firm to Train Robot with AI to Reproduce Runners' Movements",
+    "date": "2026-07-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260403-320199/",
+    "summary": "Japanese Firm to Train Robot with AI to Reproduce Runners' Movements",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49044126",
+    "title": "Hyundai claims humanoid robot plan is not part of talks with striking workers",
+    "date": "2026-07-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/ai/2026/07/hyundai-claims-humanoid-robot-plan-is-not-part-of-talks-with-striking-workers/",
+    "summary": "Hyundai claims humanoid robot plan is not part of talks with striking workers",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49046973",
+    "title": "Show HN: Cygnus – A fast, lightweight self-hostable serverless runtime and PaaS",
+    "date": "2026-07-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://cygnus.run",
+    "summary": "I built Cygnus because of a long standing frustration with the compromises needed to be made when choosing a deployment option for web applications.The ecosystem is fragmented into a few distinct camp",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49048024",
+    "title": "Show HN: Cubic Doggo 06R: 12-DOF 4-Legged Robot with IMU",
+    "date": "2026-07-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://github.com/SphericalCowww/CubicDoggo_06R",
+    "summary": "This repo is an upgrade to my previous project, Cubic Doggo: https://github.com/SphericalCowww/CubicDoggoIt has since implemented an IMU and several mechanical reinforcements. The ",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49048223",
+    "title": "Apple's Robo-Repo",
+    "date": "2026-07-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://pluralistic.net/2026/07/25/cruel-cruelty-oh-cruelty/",
+    "summary": "Apple's Robo-Repo",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49048655",
+    "title": "People are deceiving the justice system with AI",
+    "date": "2026-07-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://english.elpais.com/technology/2026-07-25/how-people-are-deceiving-the-justice-system-with-ai-its-an-invisible-fraud.html",
+    "summary": "People are deceiving the justice system with AI",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49048767",
+    "title": "Apple's Robo-Repo",
+    "date": "2026-07-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://pluralistic.net/2026/07/25/cruel-cruelty-oh-cruelty/#digital-arm-breakers",
+    "summary": "Apple's Robo-Repo",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49048996",
+    "title": "Politician reads AI prompt during assembly",
+    "date": "2026-07-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=wlYa8NV5k-U",
+    "summary": "Politician reads AI prompt during assembly",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49049015",
+    "title": "Amen Break",
+    "date": "2026-07-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://en.wikipedia.org/wiki/Amen_break",
+    "summary": "Amen Break",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49049795",
+    "title": "My experience working with Palantir as a Client",
+    "date": "2026-07-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://old.reddit.com/r/dataengineering/comments/1v3u40k/my_experience_working_with_palantir_as_a_client/",
+    "summary": "My experience working with Palantir as a Client",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49049977",
+    "title": "Show HN: Robotics startups are hiring across several roles",
+    "date": "2026-07-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://robotclub.substack.com/p/icymi-figure-hits-1000-humanoids",
+    "summary": "Show HN: Robotics startups are hiring across several roles",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49051146",
+    "title": "How to Manage Your Robot",
+    "date": "2026-07-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://johnjeffers.com/how-to-manage-your-robot/",
+    "summary": "How to Manage Your Robot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49051835",
+    "title": "Tesla's robotaxis are moving in reverse",
+    "date": "2026-07-25",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse/",
+    "summary": "Tesla's robotaxis are moving in reverse",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49053875",
+    "title": "Sally the Robot Was Coming to a New York School. Then the Plug Was Pulled",
+    "date": "2026-07-26",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.nytimes.com/2026/07/25/nyregion/robot-school-new-york-salamanca.html",
+    "summary": "Sally the Robot Was Coming to a New York School. Then the Plug Was Pulled",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49055628",
+    "title": "Teachers decry plan for humanoid robot in New York high school",
+    "date": "2026-07-26",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/us-news/2026/jul/25/new-york-humanoid-robot-teachers-school",
+    "summary": "Teachers decry plan for humanoid robot in New York high school",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49056286",
+    "title": "Robots programmed by kids to speak their Indigenous languages",
+    "date": "2026-07-26",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://www.npr.org/2026/07/26/nx-s1-5825798/robot-speaks-endangered-native-american-languages",
+    "summary": "Robots programmed by kids to speak their Indigenous languages",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49056323",
+    "title": "Against the System: Rise of the Robots (2001)",
+    "date": "2026-07-26",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://phrack.org/issues/57/10#article",
+    "summary": "Against the System: Rise of the Robots (2001)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49056586",
+    "title": "Putting Pompeii's Pieces Together with Help of Robot",
+    "date": "2026-07-26",
+    "source": "hacker-news-robotics",
+    "source_type": "Community",
+    "source_url": "https://japannews.yomiuri.co.jp/science-nature/technology/20251220-298915/",
+    "summary": "Putting Pompeii's Pieces Together with Help of Robot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-ropedia-raises-22m-to-scale-da-952",
+    "title": "Ropedia raises $22M to scale data collection for training robots",
+    "date": "2026-07-23",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/",
+    "summary": "Ropdeia's HOMIE is a head-mounted device, equipped with a 360º camera view, that captures first-person data for training robots.\nThe post Ropedia raises $22M to scale data collection for training robo...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-amd-unveils-kria-module-for-re-413",
+    "title": "AMD unveils Kria module for real-time control, unified memory for robots",
+    "date": "2026-07-23",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/amd-unveils-kria-module-real-time-control-unified-memory-robots/",
+    "summary": "AMD has launched the Ryzen AI Embedded X100 and Kria AI SoM, bringing unified memory and real-time control to challenge NVIDIA in robotics.\nThe post AMD unveils Kria module for real-time control, unif...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-uber-co-founder-raises-1-7b-fo-358",
+    "title": "Uber co-founder raises $1.7B for new robotics startup ATOMS",
+    "date": "2026-07-23",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/",
+    "summary": "Travis Kalanick, the former CEO of Uber, said with ATOMS, he hopes to create physical automation to transform industry.\nThe post Uber co-founder raises $1.7B for new robotics startup ATOMS appeared fi...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-holiday-robotics-raises-105m-f-796",
+    "title": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
+    "date": "2026-07-23",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/",
+    "summary": "Holiday's robot features a wheel-based mobile base, an upper body for dexterous manipulation, and hot-swappable batteries.\nThe post Holiday Robotics raises $105M for its FRIDAY wheeled humanoid appear...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-neura-robotics-establishes-neu-944",
+    "title": "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI",
+    "date": "2026-07-24",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/",
+    "summary": "NEURA Robotics has partnered with a German university for NEURA Gym RWTH Aachen, one of 10 facilities for training physical AI.\nThe post NEURA Robotics establishes NEURA Gym RWTH Aachen to train physi...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-how-time-series-databases-unlo-46",
+    "title": "How time series databases unlock real-time data for robotics",
+    "date": "2026-07-24",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-time-series-databases-unlock-real-time-data-for-robotics/",
+    "summary": "Discover how time series databases help robotics teams manage high-volume sensor data, power AI insights, and keep systems running at scale.\nThe post How time series databases unlock real-time data fo...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-generalist-s-gen-1-foundation-969",
+    "title": "Generalist’s GEN-1 foundation model now supports a range of robot end effectors",
+    "date": "2026-07-24",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/",
+    "summary": "By training GEN-1 to work with new hands, Generalist said a single base model can learn sensorimotor policies on different robots.\nThe post Generalist’s GEN-1 foundation model now supports a range of ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-photos-first-look-at-j-j-s-ott-693",
+    "title": "Photos: First look at J&J’s Ottava surgical robot",
+    "date": "2026-07-25",
+    "source": "the-robot-report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/",
+    "summary": "The robot-in-table design is meant to save space in the operating room, with J&J saying its novel architecture takes up 30-50% less space than boom-and-cart systems.\nThe post Photos: First look at J&J...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-video-friday-an-italian-humano-877",
+    "title": "Video Friday: An Italian Humanoid Comes to Life",
+    "date": "2026-07-24",
+    "source": "ieee-spectrum-robotics",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
+    "summary": "Your weekly selection of awesome robot videosVideo Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of up...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "rss-lockheed-martin-taps-machina-s-732",
     "title": "Lockheed Martin taps Machina’s robots for mission-critical missile parts",
     "date": "2026-07-16",
