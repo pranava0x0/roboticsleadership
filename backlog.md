@@ -49,6 +49,15 @@ Harvested from @pranava0's PhysicalAI list + bookmarks during the 2026-07-20 ref
 - [ ] **Energy ↔ data-center large-load angle for energy.html.** Bookmarked FERC thread (Ari Peskoe): FERC's "aggressive targeted action to speed large load integration" vs. PJM state consumer advocates calling it inadequate on cost-shifting. Fits energy.html's compute-power nexus. Verify against primary FERC/PJM filings before adding. **priority: low · M**
 - [ ] **HN news source is low-precision — tighten or gate it.** See issues.md (2026-07-20): the `hacker-news-robotics` source added 28 records in one run, ~21 pure noise (Panama Papers, Big Oil, ICE reviews), 0 with usable summaries. Options: drop the `robot`/`humanoid` OR-query typo-tolerance, require a min HN points threshold, or disable HN and rely on trade RSS + curated X. **priority: high · S**
 
+## Leads from X PhysicalAI list + bookmarks (captured 2026-07-27)
+
+Harvested from @pranava0's now-public PhysicalAI list (103 members) + bookmarks, ~1 month back. Of the strong candidates, all but two (Unitree TIME cover, United Airlines humanoid-robot ban — both added as news records this run) were already covered by the automated scrapers under different ids — a good sign the pipeline is keeping pace. Remaining leads:
+
+- [ ] **Verify the "China funded 150 robotics startups at low cost vs. US funded 15 at $50M each, Unitree ships at $16K vs. cheapest US humanoid $150K+" claim before using it anywhere.** Circulated as an uncited X thread (@antopatrex1, 2026-07-27) making a sharp US-vs-China unit-economics argument that's exactly this site's thesis — but the specific figures (150 vs. 15 startups, $16K vs. $150K+ unit cost, "40% state subsidy," "200+ suppliers in a 50-mile radius" around Shenzhen) have no cited source in the thread. If true this could anchor a themes.html entry or extend the existing "Global robotics-policy scoreboard" idea below; verify each figure against a primary/trade source first. **priority: med · M**
+- [ ] **UME (Universal Manipulation Exoskeleton) teleop rig by @litian_liang / Hebbian Robotics (YC S26).** Streams real-time joint-torque feedback for teleop data collection; multiple list reposts (2026-07-26/27) framed it as unlocking robot capabilities that don't work today. Candidate for a themes.html teleoperation-hardware note once a primary source (company site, funding announcement) is confirmed — not yet verified beyond the X thread. **priority: low · S**
+- [ ] **datasets.bot — ~40,000 hours of open robotics data (Chris Paxton repost, 2026-07-26).** Open dataset for training robotics policies/world models; could be a `docs/` resource link if it holds up under a primary-source check (site ownership, licensing). **priority: low · S**
+- [ ] **X Square Robot's QUANXTA Zero Series (UMI data-collection rigs for embodied AI, announced 2026-07-06).** X Square Robot already has 3 news.json records; this specific product line isn't one of them. Low priority — incremental product update, not a new company or funding event. **priority: low · S**
+
 ---
 
 ## High
