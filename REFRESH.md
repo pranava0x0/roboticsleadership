@@ -37,7 +37,7 @@ Data dir:       docs/data/
 Scrapers:       scripts/scraper-news.js     (RSS + Hacker News + Federal Register → news.json + sources.json)
                 scripts/scraper-policy.js   (Federal Register API → policies.json)
                 scripts/archive-sources.js  (Wayback snapshots; MONTHLY maintenance — run only if asked)
-Curated source: owner's X **PhysicalAI** list + bookmarks (@pranava0) — check every refresh (see Step 3b)
+Curated source: owner's X **PhysicalAI** list (public, 103 members) + bookmarks (@pranava0) — check every refresh (see Step 3b)
 Validator:      scripts/validate.js   ← the eval loop; run after EVERY scrape
 Render layer:   docs/assets/app.js (RT.* helpers) + per-page inline scripts in docs/*.html
 Today's date:   use currentDate from context (do NOT hardcode)
@@ -123,17 +123,38 @@ the titles, keep only clearly on-thesis items with a credible source, drop the r
 The best signal is human-curated, not scraped. Pull the owner's **X `PhysicalAI` list** and
 **bookmarks** for physical-AI news and ideas:
 
-- List: `x.com/i/lists/2061938532722311396` (owner @pranava0, ~80 members). Bookmarks: `x.com/i/bookmarks`.
-- Use the **claude-in-chrome** browser (the owner's logged-in Chrome — bookmarks are private). Harvest
-  with `javascript_tool`: `document.querySelectorAll('article')` → `{url, innerText}` with a dedup set.
-  **X virtualizes the feed**, so plain `window.scrollBy`/`scrollTo(0, scrollHeight)` stalls after ~8
-  posts. To get more, alternate a large scroll-up "jiggle" (`scrollTo(0, scrollHeight - 12000)`) with
-  forward `scrollBy` steps, each followed by a dispatched `scroll` event (see the [[research-sweep-agent-economy]]
-  memory). If you only need the top signal, ~8 is fine. Note the flaky `claude-in-chrome` classifier
-  ("temporarily unavailable") — wait and retry; use read-only tools meanwhile.
+- List: `x.com/i/lists/2061938532722311396` (owner @pranava0, 103 members, **public as of 2026-07-27** —
+  no login required to view, though harvesting still goes through the owner's logged-in
+  claude-in-chrome browser since bookmarks stay private). Bookmarks: `x.com/i/bookmarks`.
+- Use the **claude-in-chrome** browser. Harvest with `javascript_tool`:
+  `document.querySelectorAll('article')` → `{url, datetime, innerText}` into a `window.__collected`
+  `Map` keyed by status URL, re-run after each scroll to accumulate.
+  **Programmatic scroll does not reliably load more posts and can freeze the tab.** `window.scrollTo`/
+  `scrollBy` do move `window.scrollY` (confirmed via direct check), but the feed's infinite-scroll
+  fetch did not fire even at true bottom-of-page across repeated checks — and a tight loop of
+  `scrollTo`/dispatched `WheelEvent`s once caused a 45s `Runtime.evaluate` timeout with the tab left
+  blank (had to reload). **Use the `computer` tool's real `scroll` action instead**
+  (`{action:"scroll", coordinate:[~700,400], scroll_direction:"down", scroll_amount:15}` via
+  `browser_batch`, ~1.2s wait between steps) — this reliably loads new posts. Harvest with
+  `javascript_tool` between scroll batches. Bookmarks are ordered by *save time*, not tweet date, so
+  expect occasional old outliers (e.g. a 2025 tweet) mixed into a recent run — that's normal, not a
+  sign to stop early.
+- Once collected, filter the map in-page with a robotics/physical-AI keyword regex before pulling
+  results out to the agent — the raw collected set is dominated by adjacent AI/energy/finance content
+  the owner also bookmarks, and pulling untriaged text wastes context. Pull matches in small batches
+  (~3 items, text truncated to ~250 chars) — the tool result silently truncates long JSON strings,
+  so ask for less per call rather than debugging a truncated payload.
 - For each item worth adding: **verify with a web search to get the PRIMARY source**, then hand-author a
-  news record with real fields (don't ship a bare tweet as the record). Log analytical ideas to backlog.
+  news record with real fields (don't ship a bare tweet as the record). **Cross-check against
+  news.json by keyword first** — the automated scrapers (RSS/HN/Federal Register) often already
+  caught the same story the owner bookmarked (2026-07-27: of ~8 strong candidates from a combined
+  108-bookmark + 56-list-post sweep, all but 2 — a United Airlines humanoid-robot cabin ban and
+  Unitree's TIME cover — were already in news.json under different ids). Log unverifiable anecdotal
+  claims (e.g. a specific "China funded 150 robotics startups vs. US funded 15" figure with no cited
+  source) to backlog as a research idea instead of shipping them as fact.
 - Precedent (2026-07-20): Sunday Robotics ACT-2 → sunday.ai; microagi $55M seed → Sifted.
+  (2026-07-27): United Airlines humanoid/animal-robot cabin ban → Aviation A2Z; Unitree founder TIME
+  cover → time.com.
 
 ## Step 4 — Report
 
@@ -161,6 +182,12 @@ If nothing new was learned, skip the edit and say so. This is what keeps the ski
 ## Learned patterns
 <!-- Auto-maintained by Step 5. Newest first. Keep each entry to 1-2 sentences. -->
 
+- **2026-07-27** — The owner's PhysicalAI list is now **public** (no login to view; still harvested via
+  the owner's logged-in browser for bookmarks). Programmatic `scrollTo`/`scrollBy` moves `window.scrollY`
+  but does not reliably trigger the feed's infinite-scroll fetch, and a tight JS scroll+dispatch loop
+  once froze the tab for 45s — use the `computer` tool's real `scroll` action instead (see Step 3b for
+  the full pattern). Also: most X-sourced candidates turn out to already be in news.json via the
+  automated scrapers — cross-check by keyword before authoring a record, don't assume the X find is new.
 - **2026-07-20** — The scrapers now also run a **Hacker News (Algolia)** pass, not documented
   before this run. It over-matches badly: `humanoid` typo-tolerance catches any `human*` word,
   so one run pulled 28 records (~21 pure noise: Panama Papers, Big Oil, ICE, Swedbank) all with
