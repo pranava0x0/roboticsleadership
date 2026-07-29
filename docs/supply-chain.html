@@ -19,7 +19,7 @@
   <title>Supply Chain — Robotics Tracker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Orbitron:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
   <script>
     /* Set data-theme before first paint to avoid FOUC. See DESIGN.md § 15. */
     (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
@@ -104,20 +104,21 @@
         <span class="header-updated-label">Updated</span>
         <span class="header-updated-date tnum">—</span>
       </a>
-      <nav class="primary-nav" aria-label="Primary">
-        <a href="index.html">Dashboard</a>
-        <a href="companies.html">Companies</a>
-        <a href="policies.html">Policy</a>
-        <a href="supply-chain.html">Supply Chain</a>
-        <a href="china.html">US vs China</a>
-        <a href="news.html">News</a>
-        <details class="primary-more">
-          <summary>More</summary>
-          <div class="primary-more-menu">
-            <a href="states.html">States</a>
-            <a href="themes.html">Themes</a>
-            <a href="energy.html">Energy</a>
-          </div>
+      <nav class="primary-nav" aria-label="Primary" id="primary-nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Front page</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="china.html">US vs China</a></li>
+          <li><a href="companies.html">Companies</a></li>
+          <li><a href="policies.html">Policy</a></li>
+          <li><a href="supply-chain.html">Supply Chain</a></li>
+          <li><a href="energy.html">Energy</a></li>
+          <li><a href="states.html">States</a></li>
+          <li><a href="themes.html">Themes</a></li>
+        </ul>
+        <details class="primary-more" hidden>
+          <summary>Sections</summary>
+          <div class="primary-more-menu"><ul class="nav-overflow"></ul></div>
         </details>
       </nav>
       <details class="theme-picker" id="theme-picker">
@@ -129,7 +130,7 @@
           <label class="theme-option"><input type="radio" name="theme" value="caves"><span class="theme-option-name">Caves of Steel</span><span class="theme-option-tag">Earth</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Cosmic</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Subconscious</span></label>
         </div>
       </details>
     </div>

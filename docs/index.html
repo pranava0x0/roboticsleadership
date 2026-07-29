@@ -19,7 +19,7 @@
   <title>Robotics — How the U.S. can Lead</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Orbitron:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
   <script>
     /* Set data-theme before first paint to avoid FOUC. See DESIGN.md § 15. */
     (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
@@ -38,20 +38,21 @@
         <span class="header-updated-label">Updated</span>
         <span class="header-updated-date tnum">—</span>
       </a>
-      <nav class="primary-nav" aria-label="Primary">
-        <a href="index.html">Dashboard</a>
-        <a href="companies.html">Companies</a>
-        <a href="policies.html">Policy</a>
-        <a href="supply-chain.html">Supply Chain</a>
-        <a href="china.html">US vs China</a>
-        <a href="news.html">News</a>
-        <details class="primary-more">
-          <summary>More</summary>
-          <div class="primary-more-menu">
-            <a href="states.html">States</a>
-            <a href="themes.html">Themes</a>
-            <a href="energy.html">Energy</a>
-          </div>
+      <nav class="primary-nav" aria-label="Primary" id="primary-nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Front page</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="china.html">US vs China</a></li>
+          <li><a href="companies.html">Companies</a></li>
+          <li><a href="policies.html">Policy</a></li>
+          <li><a href="supply-chain.html">Supply Chain</a></li>
+          <li><a href="energy.html">Energy</a></li>
+          <li><a href="states.html">States</a></li>
+          <li><a href="themes.html">Themes</a></li>
+        </ul>
+        <details class="primary-more" hidden>
+          <summary>Sections</summary>
+          <div class="primary-more-menu"><ul class="nav-overflow"></ul></div>
         </details>
       </nav>
       <details class="theme-picker" id="theme-picker">
@@ -63,34 +64,40 @@
           <label class="theme-option"><input type="radio" name="theme" value="caves"><span class="theme-option-name">Caves of Steel</span><span class="theme-option-tag">Earth</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Cosmic</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Subconscious</span></label>
         </div>
       </details>
     </div>
   </header>
 
   <main id="main">
-    <p class="eyebrow">Dashboard</p>
-    <h1 class="page-title">Robotics — How the U.S. can Lead</h1>
-    <p class="page-lede">A cited, current record of the US and Chinese robotics industries — funding, deployments, supply chain, and policy — assembled so you can weigh the evidence yourself.</p>
+    <!-- Masthead. A front page announces what it is before it starts
+         reporting; the standfirst counts are baked from the data. -->
+    <div class="masthead">
+      <p class="masthead-kicker">US &amp; China robotics · a cited record</p>
+      <h1 class="masthead-title">Robotics — How the U.S. can Lead</h1>
+      <p class="masthead-strap">America has the AI. China has the scale. Robotics is where they meet.</p>
+      <p class="masthead-standfirst"><!--static:index-standfirst:start--><!--static:index-standfirst:end--></p>
+    </div>
 
-    <aside class="bluf" aria-label="What this is">
-      <span class="bluf-tag">What this is</span>
-      <p class="bluf-body">
-        <strong>America leads on AI and capital; China leads on installation and supply chain.</strong> Whether either advantage decides the decade is an open question — this site doesn&rsquo;t answer it. It tracks what&rsquo;s measurable, shows its sources, and marks its own judgment calls as judgments.
-      </p>
-    </aside>
-
-    <section class="exec-brief" aria-label="Executive brief">
-      <ol class="exec-brief-list">
-        <li><strong>Where America leads</strong>, on the measures tracked here — frontier AI, humanoid startups, and venture capital.</li>
-        <li><strong>Where China leads</strong> — 54% of world robot installations, more than half of global cobot shipments, and 2 million robots in operation.</li>
-        <li><strong>What&rsquo;s contested</strong> — components, batteries, sensors, and how fast either lead diffuses.</li>
-      </ol>
-      <p class="exec-brief-note">Every number above is tracked and cited on the <a href="china.html">US vs China scoreboard</a>, where each &ldquo;edge&rdquo; call is marked as an editorial judgment on sourced data rather than a score.</p>
-    </section>
+    <!-- Above the fold: the well (lead + secondaries) beside the rail of
+         briefs. Secondaries live inside the well, not below the grid, so the
+         two columns end at roughly the same depth instead of leaving a void
+         next to a tall rail. -->
+    <div class="front-top">
+      <div class="front-well">
+        <div id="front-lead"><!--static:index-lead:start--><!--static:index-lead:end--></div>
+        <h2 class="section-title rule">More top stories</h2>
+        <div class="story-grid" id="front-topstories"><!--static:index-topstories:start--><!--static:index-topstories:end--></div>
+      </div>
+      <aside class="front-rail" aria-labelledby="rail-title">
+        <h2 class="rail-title" id="rail-title">Latest</h2>
+        <ol class="brief-list" id="front-briefs"><!--static:index-briefs:start--><!--static:index-briefs:end--></ol>
+      </aside>
+    </div>
 
     <!-- KPI strip -->
+    <h2 class="section-title rule">The numbers</h2>
     <section aria-label="Key indicators">
       <!--static:index-kpis:start--><div id="kpi-strip" class="kpi-strip">
         <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
@@ -102,7 +109,7 @@
     </section>
 
     <!-- The scoreboard: the thesis chart -->
-    <h2 class="section-title">The scoreboard — who builds</h2>
+    <h2 class="section-title rule">The scoreboard — who builds</h2>
     <div class="chart" id="production-trend-chart">
       <h3>Industrial robot installations — US vs China vs rest of world</h3>
       <p class="chart-sub">The manufacturing-scale half of the thesis: China now installs more industrial robots each year than the rest of the world combined, while US installations have been roughly flat for a decade. Dashed = IFR outlook. Metric-by-metric comparison on <a href="china.html">US vs China</a>.</p>
@@ -112,7 +119,7 @@
     </div>
 
     <!-- Charts -->
-    <h2 class="section-title">What America is winning — capital</h2>
+    <h2 class="section-title rule">What America is winning — capital</h2>
     <div class="chart-grid">
       <div class="chart" id="chart-top-valuations">
         <div class="chart-head">
@@ -128,17 +135,32 @@
       </div>
     </div>
 
-    <!-- Recent activity -->
-    <h2 class="section-title">Recent activity</h2>
-    <div id="recent-news" class="feed" aria-live="polite"><!--static:index-recent-news:start--><!--static:index-recent-news:end--></div>
-
     <!-- Themes -->
-    <h2 class="section-title">Themes to watch</h2>
+    <h2 class="section-title rule">Themes to watch</h2>
     <div id="theme-cards" class="card-grid cols-3"><!--static:index-themes:start--><!--static:index-themes:end--></div>
 
     <!-- Top companies -->
-    <h2 class="section-title">Most-watched companies</h2>
+    <h2 class="section-title rule">Most-watched companies</h2>
     <div id="top-companies" class="card-grid cols-3"><!--static:index-companies:start--><!--static:index-companies:end--></div>
+
+    <!-- How to read this page. Kept below the reporting, where a masthead
+         box belongs on a news front page, rather than above it. -->
+    <h2 class="section-title rule">How to read this</h2>
+    <aside class="bluf" aria-label="What this is">
+      <span class="bluf-tag">What this is</span>
+      <p class="bluf-body">
+        <strong>America leads on AI and capital; China leads on installation and supply chain.</strong> Whether either advantage decides the decade is an open question — this site doesn&rsquo;t answer it. It tracks what&rsquo;s measurable, shows its sources, and marks its own judgment calls as judgments.
+      </p>
+    </aside>
+
+    <section class="exec-brief" aria-label="Executive brief">
+      <ol class="exec-brief-list">
+        <li><strong>Where America leads</strong>, on the measures tracked here — frontier AI, humanoid startups, and venture capital.</li>
+        <li><strong>Where China leads</strong> — 54% of world robot installations, more than half of global cobot shipments, and 2 million robots in operation.</li>
+        <li><strong>What&rsquo;s contested</strong> — components, batteries, sensors, and how fast either lead diffuses.</li>
+      </ol>
+      <p class="exec-brief-note">Every number above is tracked and cited on the <a href="china.html">US vs China scoreboard</a>, where each &ldquo;edge&rdquo; call is marked as an editorial judgment on sourced data rather than a score.</p>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -168,6 +190,19 @@
     strip.className = RT.kpiStripClass(kpis);
     RT.paint(strip, RT.renderKPICards(kpis));
 
+    // ---------- Front-page furniture ----------
+    // One split, three positions — see RT.frontPageStories. Painting each from
+    // the same object is what keeps a story out of two slots at once.
+    const front = RT.frontPageStories(news);
+    RT.paint(document.getElementById('front-lead'),
+      RT.renderLeadStory(front.lead, companies, policies));
+    RT.paint(document.getElementById('front-topstories'),
+      RT.renderTopStories(front.top, companies));
+    RT.paint(document.getElementById('front-briefs'),
+      RT.renderNewsBriefs(front.briefs, news.length));
+    RT.paint(document.querySelector('.masthead-standfirst'),
+      RT.renderStandfirst(companies, policies, news));
+
     // ---------- Charts ----------
     // Still client-only: renderProductionTrend writes into live SVG nodes and
     // the valuation chart is a local closure over the scope toggle. Charts carry
@@ -181,10 +216,6 @@
     });
     renderTopValuations(companies, 'pure');
     wireValuationScope(companies);
-
-    // ---------- Recent news (top 5) ----------
-    RT.paint(document.getElementById('recent-news'), RT.latestNews(news, 5)
-      .map(n => RT.renderNewsCard(n, companies, policies, { linkToFeed: true })).join(''));
 
     // ---------- Themes ----------
     RT.paint(document.getElementById('theme-cards'), RT.renderThemeCards(themes));

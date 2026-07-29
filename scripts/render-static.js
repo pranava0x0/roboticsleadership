@@ -116,10 +116,15 @@ function newsSlots(RT, data) {
 function indexSlots(RT, data) {
   const { companies, policies, news, themes, supply_chain: sc } = data;
   const kpis = RT.computeKPIs(companies, policies, sc);
+  // Same single split the client uses, so lead / top stories / briefs bake in
+  // the same three positions the browser then re-renders into.
+  const front = RT.frontPageStories(news);
   return {
+    'index-standfirst': RT.renderStandfirst(companies, policies, news),
+    'index-lead': RT.renderLeadStory(front.lead, companies, policies),
+    'index-topstories': RT.renderTopStories(front.top, companies),
+    'index-briefs': RT.renderNewsBriefs(front.briefs, news.length),
     'index-kpis': RT.renderKPIStrip(kpis),
-    'index-recent-news': RT.latestNews(news, 5)
-      .map((n) => RT.renderNewsCard(n, companies, policies, { linkToFeed: true })).join(''),
     'index-themes': RT.renderThemeCards(themes),
     'index-companies': RT.renderTopCompanies(companies),
   };
