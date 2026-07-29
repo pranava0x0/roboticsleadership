@@ -4,6 +4,22 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 ## Open
 
+### 2026-07-28 — scraper-news.js — every scraped record's `source` was the scraper's config id, not the publication  ✅ FIXED 2026-07-28
+
+- **Area:** `scripts/scraper-news.js` (all four record constructors), `docs/data/news.json`, `docs/data/sources.json`.
+- **Symptom:** news bylines read `hacker-news-robotics`, `federal-register-robotics`, `techcrunch-robotics-tag` — slugs, not mastheads. **729 of 785** records (93%) were affected. It had always been wrong; it only became obvious when the front-page rebuild put a byline under a lead headline instead of in a dense card footer.
+- **Root cause (code bug):** the record templates wrote `source: source.id`, and `sources.json` had no field carrying the human-readable name, so there was nothing better to write. The HN constructor hardcoded the string `'hacker-news-robotics'` on top of that.
+- **Fix:** added a `publication` field to each `sources.news[]` entry in `sources.json`; all four constructors now write `source: source.publication || source.id`; the 729 existing records were backfilled from that same map, so the migration and the scraper can't drift. Remaining slug-shaped sources after the pass: none.
+- **Regression coverage:** none yet. Cheap guard worth adding: assert no `news.json` record's `source` matches `/^[a-z0-9]+(-[a-z0-9]+)+$/` — see backlog.
+
+### 2026-07-28 — styles.css — the priority+ nav measured a width that no longer existed once it finished  ✅ FIXED 2026-07-28
+
+- **Area:** `docs/assets/styles.css` (`nav.primary-nav`, `.primary-more`), `docs/assets/app.js` (`initResponsiveNav`).
+- **Symptom:** at 420px the front page rendered `US vs ChinaSections ∨` — the last inline link printed underneath the overflow button. Off by exactly one link, and only in a narrow band of widths.
+- **Root cause (CSS bug, two compounding):** (1) `nav.primary-nav` was `flex: 1 1 auto`, so its share of the header row depended on its *own* content — `nav.clientWidth` read **317px** while all nine links were still inline and settled at **289px** once six had moved out and the siblings relaxed back to natural width. The fit was computed against a width that stopped existing. (2) `.primary-more` inherited `flex: 0 1 auto`, so the browser had already squeezed it when its width was sampled as the reserve, returning ~60px against a true 83px.
+- **Fix:** `nav.primary-nav { flex: 1 1 0 }` (zero basis makes the nav's width a pure function of its siblings, so one measurement holds for the whole pass), `.primary-more { flex: 0 0 auto }`, and `flex: 0 0 auto` on `.header-updated` / `.theme-picker` so the siblings genuinely are fixed. Verified at 375 / 420 / 900 / 1280px with zero page horizontal scroll.
+- **General lesson:** any JS layout that measures a flex item's available width must not let that item's own content feed back into the measurement. Zero-basis, or measure the container instead.
+
 ### 2026-07-20 — scraper-news.js — `hacker-news-robotics` source is low-precision and summary-less
 
 - **Area:** news scraper (`scripts/scraper-news.js`), HN source (`hacker-news-robotics`), queries `robot` / `robotics` / `humanoid`.
