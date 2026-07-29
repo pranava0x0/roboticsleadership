@@ -126,7 +126,21 @@ const kpis = RT.computeKPIs(data.companies, data.policies, data.supply_chain);
 eq((index.match(/class="kpi-card"/g) || []).length, kpis.length, 'index.html bakes every KPI card');
 ok(index.includes('id="kpi-strip" class="kpi-strip cols-6"'),
   'index.html bakes the cols-6 modifier, so a no-JS 6-card strip is not laid out for 5');
-eq((index.match(/class="feed-card"/g) || []).length, 5, 'index.html bakes the top 5 stories');
+// Front page: one lead, three secondary stories, and a rail of briefs plus its
+// "all stories" row. The counts come from RT.frontPageStories so the assertion
+// tracks the renderer instead of restating its numbers.
+const front = RT.frontPageStories(data.news);
+eq((index.match(/class="lead-story"/g) || []).length, 1, 'index.html bakes exactly one lead story');
+eq((index.match(/class="story-card"/g) || []).length, front.top.length, 'index.html bakes every secondary story');
+eq((index.match(/class="brief"/g) || []).length, front.briefs.length, 'index.html bakes every brief');
+ok(index.includes('class="brief brief-all"'), 'index.html bakes the rail\'s all-stories row');
+ok(index.includes(RT.escapeHTML(front.lead.title)), 'index.html ships the lead headline in HTML');
+
+// The three positions are one split of one sorted list, so no story may appear
+// twice — a duplicate lead/brief is the failure mode a naive "latest N" per
+// renderer would produce, and it is invisible until someone reads the page.
+const frontIds = [front.lead.id, ...front.top.map((n) => n.id), ...front.briefs.map((n) => n.id)];
+eq(new Set(frontIds).size, frontIds.length, 'index.html never places the same story in two positions');
 
 // KPI hrefs are hand-written literals, not scraped input. safeURL would reject
 // "companies.html?sort=…" (it matches neither ^https?:// nor ^[/.#]) and rewrite

@@ -160,7 +160,7 @@
     { id: 'caves',         name: 'Caves of Steel',  tag: 'Earth' },
     { id: 'naked-sun',     name: 'The Naked Sun',   tag: 'Solaria' },
     { id: 'dawn',          name: 'Robots of Dawn',  tag: 'Aurora' },
-    { id: 'robot-dreams',  name: 'Robot Dreams',    tag: 'Cosmic' },
+    { id: 'robot-dreams',  name: 'Robot Dreams',    tag: 'Subconscious' },
   ];
   const THEME_IDS = new Set(THEMES.map((t) => t.id));
   const LEGACY = { light: 'naked-sun', dark: 'caves' }; // migrate old values
@@ -228,9 +228,125 @@
         href === path ||
         (path === 'index.html' && (href === 'index.html' || href === '.' || href === '/'))
       ) {
+        // No `data-current` on the dropdown any more: initResponsiveNav never
+        // moves the current page's link into it, so that state was unreachable.
         a.setAttribute('aria-current', 'page');
-        const more = a.closest('.primary-more');
-        if (more) more.dataset.current = 'true';
+      }
+    });
+  }
+
+  // ---------- Priority+ primary nav ----------
+  // Every section link ships once, inline, in .nav-list — no duplicate DOM tree
+  // and no fixed "these three live under More" split. This measures the strip
+  // against the width the header actually leaves it and *moves* the trailing
+  // <li>s into the "Sections" dropdown until it fits, moving them back out as
+  // the window widens. Node moves, not clones: aria-current, listeners and
+  // focus order all survive, and there is exactly one <a> per section on the
+  // page for a crawler to find.
+  //
+  // Two things this deliberately does NOT do:
+  //   - it never moves the current page's link, so you can always see where you
+  //     are even when everything else has collapsed into the menu;
+  //   - it never runs before highlightActiveNav(), which is what marks that
+  //     link. init() owns the order.
+  // With JS off, nothing is hidden: styles.css leaves the strip horizontally
+  // scrollable and .nav-managed (added here) is what switches overflow to the
+  // dropdown.
+  function initResponsiveNav() {
+    const nav = document.getElementById('primary-nav');
+    if (!nav) return;
+    const list = nav.querySelector('.nav-list');
+    const more = nav.querySelector('.primary-more');
+    const overflow = nav.querySelector('.nav-overflow');
+    if (!list || !more || !overflow) {
+      // Falls back to the scroll strip (styles.css keeps the nav overflow-x:auto
+      // until .nav-managed lands). Reachable, but with no scrollbar and no fade
+      // it reads as "some sections are missing" — so say so rather than let a
+      // page that forgot .nav-overflow look merely odd.
+      console.warn('primary-nav: missing .nav-list / .primary-more / .nav-overflow — falling back to the scroll strip');
+      return;
+    }
+    nav.classList.add('nav-managed');
+
+    // The authored order, captured once. Restoring by draining `overflow` back
+    // onto the tail of `list` looked right and was wrong: the collapse loop
+    // skips the current page's <li>, so on any page whose link is not first,
+    // that survivor is stranded mid-list and the parked items return *behind*
+    // it — permanently reordering the nav, and changing which links survive the
+    // next collapse. index.html hid the bug completely (its link is index 0, so
+    // appending happens to reproduce the order), which is why sweeping widths on
+    // one page missed it. Sweep pages, not just widths.
+    const authored = Array.from(list.children);
+
+    let scheduled = false;
+
+    function layout() {
+      scheduled = false;
+      // Rebuild the strip from the authored array before measuring — offsetWidth
+      // is only meaningful for an <li> actually laid out in it.
+      authored.forEach((li) => list.appendChild(li));
+      more.hidden = true;
+      more.open = false;
+
+      const avail = nav.clientWidth;
+      // A zero/absent width is a measurement we cannot act on: it would park 8
+      // of 9 links in the dropdown and look exactly like a deliberate narrow
+      // layout. It happens for real — an unpainted or display:none ancestor
+      // reports 0 (see the CLAUDE.md note on pre-paint reads). Abort and wait
+      // for the next ResizeObserver tick rather than acting on nonsense.
+      if (!avail) return;
+
+      // scrollWidth, not the sum of offsetWidths: both .nav-list and the nav
+      // itself set `gap: 2px`, and a sum of item widths silently under-counts
+      // by (n-1) gaps — ~18px across nine links, enough to declare a fit that
+      // overflows. Third bug in this file from measuring flex the naive way.
+      let used = list.scrollWidth;
+      if (used <= avail) return;
+
+      more.hidden = false;                 // unhide first: offsetWidth of a
+      const gap = parseFloat(getComputedStyle(nav).columnGap) || 0;
+      const reserve = more.offsetWidth + gap;   // [hidden] element reads 0.
+      const items = Array.from(list.children);
+      for (let i = items.length - 1; i >= 0 && used + reserve > avail; i--) {
+        if (items[i].querySelector('[aria-current="page"]')) continue;
+        overflow.insertBefore(items[i], overflow.firstChild);
+        // Re-read rather than subtracting a cached width: scrollWidth accounts
+        // for the gap that disappeared with the item. At most 9 reflows, once
+        // per resize settle — cheaper than being wrong by a gap per item.
+        used = list.scrollWidth;
+      }
+    }
+
+    function schedule() {
+      if (scheduled) return;
+      scheduled = true;
+      requestAnimationFrame(layout);
+    }
+
+    schedule();
+    // Web fonts land after first paint and change every label's width, so the
+    // first measurement is against fallback metrics and has to be redone.
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(schedule, (err) => {
+        // Not fatal — the strip stays sized against fallback metrics — but it
+        // must not surface as a bare unhandled rejection.
+        console.warn('primary-nav: font loading failed, layout kept fallback metrics', err);
+      });
+    }
+    // Observe the header row, not <body>: its width tracks the viewport but its
+    // own size can't be changed by moving nav items, so this can't feed itself.
+    const box = nav.closest('.site-header-inner') || nav;
+    if ('ResizeObserver' in window) new ResizeObserver(schedule).observe(box);
+    else window.addEventListener('resize', schedule);
+
+    document.addEventListener('click', (e) => {
+      if (more.open && !more.contains(e.target)) more.open = false;
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && more.open) {
+        more.open = false;
+        const s = more.querySelector('summary');
+        if (s) s.focus();
       }
     });
   }
@@ -557,8 +673,16 @@
   // contract has one place to audit instead of one per call site, and built on
   // replaceChildren + insertAdjacentHTML to match the idiom already used for the
   // news feed. Strings reaching here come from our own committed JSON.
+  // Note the silent-failure hazard this warn exists for: a container's id and
+  // its bake slot name are different strings, so renaming the container is
+  // caught by nothing — bake() still fills the slot, this no-ops, and the page
+  // shows permanently non-hydrating deploy-time HTML that looks entirely
+  // correct. A console line is the only signal available.
   function paint(el, html) {
-    if (!el) return;
+    if (!el) {
+      console.warn('paint: no target element — a container id and its bake slot may have drifted');
+      return;
+    }
     el.replaceChildren();
     el.insertAdjacentHTML('beforeend', html);
   }
@@ -734,6 +858,115 @@
     return `<div id="kpi-strip" class="${kpiStripClass(kpis)}">${renderKPICards(kpis)}</div>`;
   }
 
+  /* ---------- Front page furniture (index.html) ----------
+     The dashboard used to print one undifferentiated "Recent activity" list of
+     five identical cards. A front page instead ranks: one lead, a few stories
+     under it, then briefs down the rail. The split happens once, here, over a
+     single sorted pass — that is what guarantees no story appears in two
+     positions on the same page. Everything downstream just formats a slice. */
+  function frontPageStories(news, opts = {}) {
+    const topN = opts.topN ?? 3;
+    const briefN = opts.briefN ?? 7;
+    const rows = latestNews(news, 1 + topN + briefN);
+    return {
+      lead: rows[0] || null,
+      top: rows.slice(1, 1 + topN),
+      briefs: rows.slice(1 + topN),
+    };
+  }
+
+  // The kicker doubles as a filter link, the way a section label on a news site
+  // does. news.html reads ?category= (see its f-category select), so this lands
+  // on the filtered feed rather than a dead label.
+  function storyKicker(n) {
+    return `<a class="pill cat-${slug(n.category)}" href="news.html?category=${encodeURIComponent(n.category)}">${escapeHTML(n.category)}</a>`;
+  }
+
+  function storyByline(n) {
+    return `<span>${escapeHTML(n.source)}</span><span class="sep"></span>` +
+      `<span class="tnum">${escapeHTML(formatDate(n.date))}</span>` +
+      `<span class="faint">· ${escapeHTML(relativeDate(n.date))}</span>`;
+  }
+
+  // Feeds without an abstract set summary = title (see renderNewsCard), so a
+  // deck has to be suppressed in exactly the same case or the lead prints its
+  // own headline twice at 17px.
+  function storyDeck(n, max) {
+    const s = (n.summary || '').trim();
+    if (!s || s === (n.title || '').trim()) return '';
+    return truncate(s, max);
+  }
+
+  // Empty corpus renders a visible notice, not ''. An empty string is a legal
+  // bake slot fill, so a front page with no lead would otherwise deploy as two
+  // section headings over nothing — and pages.yml runs validate + bake but never
+  // npm test, so the assertion that catches this never runs on the deploy path.
+  function renderLeadStory(lead, companies, policies) {
+    if (!lead) {
+      return '<article class="lead-story"><p class="lead-deck">No stories available — the news dataset is empty or failed to load.</p></article>';
+    }
+    const deck = storyDeck(lead, 340);
+    const pills = [
+      ...(lead.companies || []).map((id) => {
+        const c = (companies || []).find((x) => x.id === id);
+        return `<a class="pill outline" href="companies.html?focus=${encodeURIComponent(id)}">${escapeHTML(c ? c.name : id)}</a>`;
+      }),
+      ...(lead.policies || []).map((id) => {
+        const p = (policies || []).find((x) => x.id === id);
+        return `<a class="pill outline" href="policies.html?focus=${encodeURIComponent(id)}">${escapeHTML(p ? (p.bill_number || truncate(p.title, 40)) : id)}</a>`;
+      }),
+    ].join('');
+    return `
+      <article class="lead-story">
+        <div class="lead-kicker">${storyKicker(lead)}<span class="lead-flag">Latest</span></div>
+        <h2 class="lead-title"><a href="news.html#${encodeURIComponent(lead.id)}">${escapeHTML(lead.title)}</a></h2>
+        ${deck ? `<p class="lead-deck">${escapeHTML(deck)}</p>` : ''}
+        <div class="lead-byline">${storyByline(lead)}</div>
+        <div class="lead-tags">${pills}<a class="lead-original" href="${escapeHTML(safeURL(lead.source_url))}" target="_blank" rel="noopener">Read original →</a></div>
+      </article>
+    `;
+  }
+
+  function renderTopStories(rows, companies) {
+    return (rows || []).map((n) => {
+      const deck = storyDeck(n, 150);
+      const co = (n.companies || [])[0];
+      const c = co ? (companies || []).find((x) => x.id === co) : null;
+      return `
+        <article class="story-card">
+          <div class="story-kicker">${storyKicker(n)}${c ? `<span class="story-co">${escapeHTML(c.name)}</span>` : ''}</div>
+          <h3 class="story-title"><a href="news.html#${encodeURIComponent(n.id)}">${escapeHTML(n.title)}</a></h3>
+          ${deck ? `<p class="story-deck">${escapeHTML(deck)}</p>` : ''}
+          <div class="story-byline">${storyByline(n)}</div>
+        </article>
+      `;
+    }).join('');
+  }
+
+  // The rail. Ends with its own "all stories" row so the total is rendered from
+  // the data rather than typed into the markup and left to rot.
+  function renderNewsBriefs(rows, total) {
+    const items = (rows || []).map((n) => `
+      <li class="brief">
+        <a class="brief-link" href="news.html#${encodeURIComponent(n.id)}">
+          <span class="brief-cat cat-${slug(n.category)}">${escapeHTML(n.category)}</span>
+          <span class="brief-title">${escapeHTML(n.title)}</span>
+        </a>
+        <span class="brief-meta tnum">${escapeHTML(formatDate(n.date))}</span>
+      </li>
+    `).join('');
+    return items + `<li class="brief brief-all"><a href="news.html">All ${formatNumber(total)} stories →</a></li>`;
+  }
+
+  // Masthead standfirst — the corpus, stated as a fact about the page rather
+  // than a claim about the world. Counts come from the data, never hardcoded.
+  function renderStandfirst(companies, policies, news) {
+    return `${formatNumber((news || []).length)} news records · ` +
+      `${formatNumber((companies || []).length)} companies · ` +
+      `${formatNumber((policies || []).length)} policy actions — ` +
+      `every record is cited; primary sources preferred.`;
+  }
+
   function renderThemeCards(themes) {
     return (themes || []).slice(0, 6).map((t) => `
       <a class="card card-hoverable" href="themes.html#${encodeURIComponent(t.id)}" style="color:inherit;border-bottom:none;">
@@ -772,7 +1005,8 @@
   // ---------- Boot sequence ----------
   function init() {
     initThemePicker();
-    highlightActiveNav();
+    highlightActiveNav();   // must precede initResponsiveNav — it marks the
+    initResponsiveNav();    // link the overflow layout is required to keep inline
     loadHeaderUpdated();
     initCollapsibleSections();
   }
@@ -827,6 +1061,11 @@
     kpiStripClass,
     renderKPICards,
     renderKPIStrip,
+    frontPageStories,
+    renderLeadStory,
+    renderTopStories,
+    renderNewsBriefs,
+    renderStandfirst,
     renderThemeCards,
     renderTopCompanies,
   };

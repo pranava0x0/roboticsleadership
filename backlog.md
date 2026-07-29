@@ -4,6 +4,16 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-07-28 (front-page rebuild + theme rework)
+
+- [ ] **Harvest the X `PhysicalAI` list** — the 2026-07-28 sweep could not run it: the Claude-in-Chrome extension was not connected, and the in-app browser hits X's login wall even though the list is nominally public (X now gates list timelines for logged-out visitors). The executive-news half of that sweep ran via web search and landed 4 news + 2 policy records (FCC Covered List, GUARD Act H.R.9129, UniPwn, MOFCOM export controls). Re-run REFRESH.md Step 3b once the extension is available. **S**, high — it is the site's only human-curated intake.
+- [ ] **Guard against slug-shaped `source` values in `news.json`** — assert no record's `source` is all-lowercase-with-no-space. NOTE: the hyphen-only regex first proposed here (`/^[a-z0-9]+(-[a-z0-9]+)+$/`) does **not** catch single-token slugs; review found six records still reading `techcrunch`, plus `businesswire` and `humanoid.guide`, all now fixed. Also add a `sources.json` per-entry schema to `validate.js` requiring `publication` — the scraper now warns, but nothing fails. The 729-record backfill (issues.md 2026-07-28) fixed the corpus and the scraper, but nothing stops a new source entry that forgets its `publication` field from silently reintroducing `some-feed-id` as a byline. **S**
+- [ ] **The front page can lead with Federal Register boilerplate.** "Notice Pursuant to the National Cooperative Research and Production Act of 1993" surfaced as a top-three story purely on recency. The lead/secondaries are recency-ranked because the corpus has no importance signal — that was the honest choice, but it means curation quality is now visible above the fold rather than buried on page 3 of the feed. Options: a `weight`/`editors_pick` field; demote `source_type: "Government"` procedural notices; or just prune harder. Related to the open HN-noise issue. **M**, medium.
+- [ ] **Regression-test the priority+ nav.** Two flex-measurement bugs (issues.md 2026-07-28) were caught only by eye, in a narrow band of viewport widths, and a Node-only suite cannot see either. Needs the jsdom (or better, a headless-browser) harness the backlog already wants for news.html's deep-link contract. **M**
+- [ ] **Fold the theme contrast checker into the repo.** The 2026-07-28 rework was verified with a scripted WCAG pass over every (token, background) pair — it caught four real AA failures, two of them pre-existing (`--text-faint` on both light themes). That script currently lives in a scratchpad. Port it to `scripts/contrast.test.js` reading the hex values out of `styles.css`, and DESIGN.md § 15.2's table stops being a claim nobody re-checks. **M**, medium.
+
+---
+
 ## ▶ Next steps (updated 2026-07-16, after the WS1 bake step shipped)
 
 Active plan: **[improvement-plan-2.md](improvement-plan-2.md)**. WS0 is done except the two owner items below; **WS1's bake step is done for china/news/index** — no-JS visible content went **china 8%→99%, news 12%→94%, index 36%→97%**, clearing the ≥70% bar. Goal 4 is off zero. `ci.yml` now runs on every PR (the first pre-merge check this repo has had, and the first place `npm test` runs at all).

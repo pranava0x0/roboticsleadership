@@ -34,191 +34,217 @@
 }
 
 /* --- Theme 1: Caves of Steel (Earth) ---
-   Industrial, subterranean, high-density. Sharp borders. */
+   The enclosed City: eight million people under one roof, no sky, permanent
+   artificial light. Two book details drive the palette away from generic dark
+   mode: the accent is low-pressure *sodium* amber (#FFB000) — the real colour
+   of the lighting a domed City and its expressway strips would run on, where
+   the old #FFC700 was a lemon yellow no sodium lamp emits — and "positive" is
+   yeast-vat green, since Earth eats what the New Jersey yeast farms grow, not
+   the neon #00FF66 of a terminal. Greys carry a faint blue-steel cast: steel
+   and concrete, not warm carbon. Sharpest radii of the four. */
 
 [data-theme="caves"] {
   --font-serif: "Barlow Condensed", "Arial Narrow", "Helvetica Condensed", "Impact", sans-serif;
   --font-sans: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
 
-  --bg: #121212;
-  --surface: #1a1a1a;
-  --surface-2: #242424;
-  --border: #2f2f2f;
-  --border-strong: #4a4a4a;
-  --text: #f5f5f5;
-  --text-muted: #b0b0b0;
-  --text-faint: #7a7a7a;
-  --accent: #ffc700;
-  --accent-soft: #3a2f00;
-  --accent-on: #121212;
-  --link: #ffc700;
+  --bg: #101013;
+  --surface: #191a1e;
+  --surface-2: #232529;
+  --border: #303338;
+  --border-strong: #6b7280;
+  --text: #f2f3f5;
+  --text-muted: #adb2ba;
+  --text-faint: #949ba5;
+  --accent: #ffb000;
+  --accent-soft: #3a2600;
+  --accent-on: #101013;
+  --link: #ffb000;
 
-  --status-positive: #00ff66;
-  --status-positive-soft: #003a18;
-  --status-warning: #ffc700;
-  --status-warning-soft: #3a2f00;
-  --status-negative: #ff5252;
-  --status-negative-soft: #3a1414;
-  --status-neutral: #b0b0b0;
-  --status-neutral-soft: #2a2a2a;
+  --status-positive: #86c46a;
+  --status-positive-soft: #1c2a16;
+  --status-warning: #ffb000;
+  --status-warning-soft: #3a2600;
+  --status-negative: #ff6b5e;
+  --status-negative-soft: #3a1613;
+  --status-neutral: #adb2ba;
+  --status-neutral-soft: #26282c;
 
-  --cat-funding: #c9a0ff;
-  --cat-deployment: #6de2db;
-  --cat-policy: #ffd66e;
-  --cat-competitive: #ff8fb6;
-  --cat-supplychain: #8fb6ff;
-  --cat-geopolitics: #ff9d7e;
-  --cat-research: #a3e1a5;
+  --cat-funding: #c3a2f0;
+  --cat-deployment: #5fd6ce;
+  --cat-policy: #f0c560;
+  --cat-competitive: #f58aae;
+  --cat-supplychain: #8fb4f0;
+  --cat-geopolitics: #f5a07c;
+  --cat-research: #9cd98f;
 
-  --dir-accelerating: #00ff66;
-  --dir-stable: #b0b0b0;
-  --dir-slowing: #ffc700;
+  --dir-accelerating: #86c46a;
+  --dir-stable: #adb2ba;
+  --dir-slowing: #ffb000;
 
-  --radius-card: 4px;
-  --radius-pill: 4px;
+  --radius-card: 2px;
+  --radius-pill: 2px;
   --shadow-rest: 0 0 0 1px rgba(0, 0, 0, 0.5);
   --shadow-elevated: 0 0 0 1px var(--border-strong);
 }
 
 /* --- Theme 2: The Naked Sun (Solaria) ---
-   Hyper-minimalist, sterile, ultra-isolated. Whitespace + slow motion. */
+   Twenty thousand people on a whole planet, ten thousand robots each, and a
+   sun so exposed it is the thing Baley cannot bear to stand under. The word is
+   *bleached*, so every neutral here is cold: the old palette's alabaster beige
+   (#F0ECE1 / #E5E0D5) was the single biggest reason this theme read as a
+   slightly duller Dawn instead of its opposite, and it is now cold grey. The
+   accent is Solarian estate cypress pushed toward teal — the only saturated
+   thing on an over-lit world. Slowest transitions of the four (Solarians do
+   not hurry, and they meet by "viewing", never in person). */
 
 [data-theme="naked-sun"] {
   --font-serif: "Didot", "Bodoni MT", "Bodoni Moda", "Big Caslon", "Palatino Linotype", Georgia, serif;
   --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
 
-  --bg: #FAFAFA;
-  --surface: #FFFFFF;
-  --surface-2: #F0ECE1;
-  --border: #E5E0D5;
-  --border-strong: #C9C2B0;
-  --text: #1A1A1A;
-  --text-muted: #5a5a5a;
-  --text-faint: #9a9388;
-  --accent: #1C4E3A;
-  --accent-soft: #d8e3dc;
-  --accent-on: #FAFAFA;
-  --link: #1C4E3A;
+  --bg: #fbfcfc;
+  --surface: #ffffff;
+  --surface-2: #eceff1;
+  --border: #dfe4e7;
+  --border-strong: #7c8489;
+  --text: #15181a;
+  --text-muted: #4f585d;
+  --text-faint: #5f686e;
+  --accent: #14564a;
+  --accent-soft: #d6e5e1;
+  --accent-on: #fbfcfc;
+  --link: #14564a;
 
-  --status-positive: #1C4E3A;
-  --status-positive-soft: #d8e3dc;
-  --status-warning: #8a6b1a;
-  --status-warning-soft: #efe6cc;
-  --status-negative: #8a2a1a;
-  --status-negative-soft: #f0d8d2;
-  --status-neutral: #5a5a5a;
-  --status-neutral-soft: #ececec;
+  --status-positive: #14564a;
+  --status-positive-soft: #d6e5e1;
+  --status-warning: #7a5b10;
+  --status-warning-soft: #efe8d3;
+  --status-negative: #8a2318;
+  --status-negative-soft: #f0dad6;
+  --status-neutral: #4f585d;
+  --status-neutral-soft: #e8ebed;
 
-  --cat-funding: #4a3a7a;
-  --cat-deployment: #1a5a5a;
-  --cat-policy: #7a4a1a;
-  --cat-competitive: #8a2a5a;
-  --cat-supplychain: #2a4a7a;
-  --cat-geopolitics: #5a2a2a;
-  --cat-research: #2a5a2a;
+  --cat-funding: #4a3778;
+  --cat-deployment: #155757;
+  --cat-policy: #71460f;
+  --cat-competitive: #872458;
+  --cat-supplychain: #264778;
+  --cat-geopolitics: #57241f;
+  --cat-research: #245524;
 
-  --dir-accelerating: #1C4E3A;
-  --dir-stable: #5a5a5a;
-  --dir-slowing: #7a4a1a;
+  --dir-accelerating: #14564a;
+  --dir-stable: #4f585d;
+  --dir-slowing: #71460f;
 
   --radius-card: 14px;
   --shadow-rest: none;
-  --shadow-elevated: 0 2px 20px rgba(0, 0, 0, 0.04);
+  --shadow-elevated: 0 2px 20px rgba(21, 24, 26, 0.05);
   --transition-base: 200ms;
   --transition-slow: 320ms;
 }
 
-/* --- Theme 3: Robots of Dawn (Aurora) ---
-   Utopian, premium, serene. Rounded cards, soft depth. */
+/* --- Theme 3: The Robots of Dawn (Aurora) ---
+   Aurora is named for the goddess of the dawn — the World of the Dawn, first
+   and richest of the Spacer worlds. The old palette had the right idea and the
+   wrong depth: #8C4303 reads brown, not sunrise, and left no headroom. The
+   accent is now a deeper terracotta struck by low sun, the category ramp gains
+   the violet of the sky before sunrise (funding) and a true rose
+   (competitive), and the neutrals stay unapologetically warm — this is the one
+   theme allowed to be, since it is what Naked Sun is now defined against. */
 
 [data-theme="dawn"] {
   --font-serif: "Cormorant Garamond", Georgia, "Iowan Old Style", "Apple Garamond", "Palatino", serif;
   --font-sans: "Montserrat", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
 
-  --bg: #FFF9F5;
-  --surface: #FFFFFF;
-  --surface-2: #EFE3D8;
-  --border: #E4D8C7;
-  --border-strong: #C9B89F;
-  --text: #2D2520;
-  --text-muted: #6b5e54;
-  --text-faint: #a59585;
-  --accent: #8C4303;
-  --accent-soft: #f5e3d1;
-  --accent-on: #FFF9F5;
-  --link: #8C4303;
+  --bg: #fff8f2;
+  --surface: #ffffff;
+  --surface-2: #f3e4d6;
+  --border: #e8d9c7;
+  --border-strong: #8c7454;
+  --text: #2b221c;
+  --text-muted: #655648;
+  --text-faint: #756454;
+  --accent: #9a3d12;
+  --accent-soft: #f7e2ce;
+  --accent-on: #fff8f2;
+  --link: #9a3d12;
 
-  --status-positive: #406b3a;
-  --status-positive-soft: #e0ead4;
-  --status-warning: #8C4303;
-  --status-warning-soft: #f5e3d1;
-  --status-negative: #8a2a1a;
-  --status-negative-soft: #f3d6d0;
-  --status-neutral: #6b5e54;
-  --status-neutral-soft: #ede5dc;
+  --status-positive: #3b6534;
+  --status-positive-soft: #e1ebd6;
+  --status-warning: #8f4a0c;
+  --status-warning-soft: #f7e2ce;
+  --status-negative: #8a2618;
+  --status-negative-soft: #f5d7d1;
+  --status-neutral: #655648;
+  --status-neutral-soft: #eee5dc;
 
-  --cat-funding: #5f4291;
-  --cat-deployment: #1f6a6a;
-  --cat-policy: #a05a1a;
-  --cat-competitive: #b0306e;
-  --cat-supplychain: #3e5e8a;
-  --cat-geopolitics: #6b3838;
-  --cat-research: #467044;
+  --cat-funding: #5a3a8c;
+  --cat-deployment: #1b6363;
+  --cat-policy: #8f5312;
+  --cat-competitive: #a32a64;
+  --cat-supplychain: #37547f;
+  --cat-geopolitics: #653232;
+  --cat-research: #3f6a3d;
 
-  --dir-accelerating: #406b3a;
-  --dir-stable: #6b5e54;
-  --dir-slowing: #a05a1a;
+  --dir-accelerating: #3b6534;
+  --dir-stable: #655648;
+  --dir-slowing: #8f5312;
 
   --radius-card: 16px;
-  --shadow-rest: 0 1px 3px rgba(45, 37, 32, 0.08);
-  --shadow-elevated: 0 8px 24px rgba(45, 37, 32, 0.10);
+  --shadow-rest: 0 1px 3px rgba(43, 34, 28, 0.08);
+  --shadow-elevated: 0 8px 24px rgba(43, 34, 28, 0.10);
 }
 
-/* --- Theme 4: Robot Dreams (Subconscious) ---
-   Cosmic, ethereal dark. Glassmorphism + cyan glow. */
+/* --- Theme 4: Robot Dreams (the subconscious) ---
+   Repainted off cyan-on-midnight, which owed more to stock sci-fi than to the
+   1986 story. What Elvex actually dreams is a colourless grey in which robots
+   labour, lit by one distant sun — so: a grey-indigo ground (not a saturated
+   space blue), warm-silver text, warm-grey hairlines, and a single amber light
+   as the accent. The glass surfaces and the glow stay, because the dream is
+   still soft-edged and lit from within; only the hue moved. `--accent-on` is
+   still mandatory inside any accent fill — amber on warm silver is ~1.9:1. */
 
 [data-theme="robot-dreams"] {
-  --font-serif: "Orbitron", "Courier New", "SF Mono", Menlo, Consolas, monospace;
+  --font-serif: "Fraunces", "Iowan Old Style", Georgia, "Palatino Linotype", serif;
   --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
 
-  --bg: #0A0915;
-  --surface: rgba(25, 24, 48, 0.6);
-  --surface-2: rgba(25, 24, 48, 0.42);
-  --border: rgba(170, 200, 240, 0.18);
-  --border-strong: rgba(170, 200, 240, 0.32);
-  --text: #E0E6ED;
-  --text-muted: #8a96a8;
-  --text-faint: #5a667a;
-  --accent: #00E5FF;
-  --accent-soft: rgba(0, 229, 255, 0.14);
-  --accent-on: #0A0915;        /* MUST be used for text inside any cyan fill */
-  --link: #00E5FF;
+  --bg: #14151a;
+  --surface: rgba(31, 33, 41, 0.66);
+  --surface-2: rgba(31, 33, 41, 0.45);
+  --border: rgba(205, 199, 187, 0.16);
+  --border-strong: rgba(205, 199, 187, 0.55);
+  --text: #e8e4db;
+  --text-muted: #a39d91;
+  --text-faint: #9a9488;
+  --accent: #f2a65a;
+  --accent-soft: rgba(242, 166, 90, 0.14);
+  --accent-on: #14151a;        /* MUST be used for text inside any accent fill */
+  --link: #f2a65a;
 
-  --status-positive: #5dffae;
-  --status-positive-soft: rgba(93, 255, 174, 0.14);
-  --status-warning: #ffd66e;
-  --status-warning-soft: rgba(255, 214, 110, 0.14);
-  --status-negative: #ff7a8a;
-  --status-negative-soft: rgba(255, 122, 138, 0.14);
-  --status-neutral: #8a96a8;
-  --status-neutral-soft: rgba(138, 150, 168, 0.14);
+  --status-positive: #8fd79a;
+  --status-positive-soft: rgba(143, 215, 154, 0.14);
+  --status-warning: #f2c75a;
+  --status-warning-soft: rgba(242, 199, 90, 0.14);
+  --status-negative: #f08279;
+  --status-negative-soft: rgba(240, 130, 121, 0.14);
+  --status-neutral: #a39d91;
+  --status-neutral-soft: rgba(163, 157, 145, 0.14);
 
-  --cat-funding: #c9a0ff;
-  --cat-deployment: #5dffae;
-  --cat-policy: #ffd66e;
-  --cat-competitive: #ff8fb6;
-  --cat-supplychain: #8fb6ff;
-  --cat-geopolitics: #ff9d7e;
-  --cat-research: #a3e1a5;
+  --cat-funding: #c4a6e8;
+  --cat-deployment: #7ed9c0;
+  --cat-policy: #f2c75a;
+  --cat-competitive: #ee93b0;
+  --cat-supplychain: #9db6e8;
+  --cat-geopolitics: #f0a37e;
+  --cat-research: #a6d392;
 
-  --dir-accelerating: #5dffae;
-  --dir-stable: #8a96a8;
-  --dir-slowing: #ffd66e;
+  --dir-accelerating: #8fd79a;
+  --dir-stable: #a39d91;
+  --dir-slowing: #f2c75a;
 
   --radius-card: 12px;
-  --shadow-rest: 0 0 0 1px rgba(0, 229, 255, 0.08);
-  --shadow-elevated: 0 0 24px rgba(0, 229, 255, 0.18);
-  --surface-backdrop: blur(12px) saturate(140%);
+  --shadow-rest: 0 0 0 1px rgba(242, 166, 90, 0.08);
+  --shadow-elevated: 0 0 24px rgba(242, 166, 90, 0.16);
+  --surface-backdrop: blur(12px) saturate(120%);
 }
 
 /* Reset */
@@ -309,6 +335,7 @@ input, select, textarea {
    <a href="index.html"> so the upper-left area still navigates home. */
 .header-updated {
   display: flex;
+  flex: 0 0 auto;   /* fixed sibling — see the flex-basis note on .primary-nav */
   flex-direction: column;
   gap: 0;
   line-height: 1.15;
@@ -332,11 +359,52 @@ input, select, textarea {
   color: var(--text);
 }
 
+/* Priority+ nav. Every section link ships once, in .nav-list; app.js moves the
+   trailing ones into .nav-overflow (inside the "Sections" disclosure) until the
+   strip fits, and moves them back as the window widens. Two consequences the
+   CSS has to hold up:
+     - the nav must be the flex item that absorbs the leftover width, so
+       `nav.clientWidth` is the space JS is actually fitting into — hence
+       flex:1 1 auto + min-width:0 rather than the old margin-left:auto only;
+     - before JS runs (and with JS off) nothing may be unreachable, so the
+       default is a horizontally scrollable chip strip. .nav-managed, added by
+       app.js, hands overflow back to the dropdown. */
 nav.primary-nav {
   display: flex;
   align-items: center;
   gap: 2px;
   margin-left: auto;
+  /* `1 1 0`, NOT `1 1 auto`. With an auto basis the nav's share of the header
+     row depends on its own content, so `nav.clientWidth` measured while every
+     link is inline came back 317px — and then settled at 289px once the links
+     moved out and the siblings relaxed back to their natural widths. The
+     layout was fitting to a width that no longer existed by the time it
+     finished, which is what printed "US vs China" underneath "Sections".
+     A zero basis makes the nav's width a pure function of the siblings, so
+     one measurement holds for the whole pass. */
+  flex: 1 1 0;
+  min-width: 0;
+  justify-content: flex-end;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+nav.primary-nav::-webkit-scrollbar { display: none; }
+nav.primary-nav.nav-managed { overflow: visible; }
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+.nav-list > li { flex: 0 0 auto; }
+.nav-overflow {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 nav.primary-nav a,
 .primary-more > summary {
@@ -357,6 +425,13 @@ nav.primary-nav a[aria-current="page"],
 }
 .primary-more {
   position: relative;
+  /* Must NOT shrink. app.js reserves `more.offsetWidth` when deciding how many
+     links fit, and it takes that measurement while every link is still inline
+     — i.e. while the flex row is over-full. With the default `flex: 0 1 auto`
+     the browser had already squeezed this button down, so the reserve came
+     back ~60px instead of ~83px and the layout stopped one link too early,
+     leaving "US vs China" printed underneath "Sections" at 420px. */
+  flex: 0 0 auto;
 }
 .primary-more > summary {
   list-style: none;
@@ -379,12 +454,15 @@ nav.primary-nav a[aria-current="page"],
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
-  min-width: 150px;
+  min-width: 168px;
   padding: 6px;
   border: 1px solid var(--border);
   border-radius: 8px;
   background: var(--surface);
+  backdrop-filter: var(--surface-backdrop);
+  -webkit-backdrop-filter: var(--surface-backdrop);
   box-shadow: var(--shadow-elevated);
+  z-index: 60;
 }
 .primary-more-menu a {
   display: block;
@@ -476,6 +554,252 @@ h2.section-title {
   font-size: 20px;
   letter-spacing: -0.01em;
   margin: 20px 0 8px;
+}
+/* Section rule — the horizontal keyline a newspaper puts under a section head.
+   Modifier, not a new class, so every existing .section-title is unaffected. */
+h2.section-title.rule {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 34px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--border-strong);
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ============================================================
+   Front page (index.html) — newspaper furniture.
+   Masthead → lead + rail → secondary stories → data sections.
+   All of it renders from RT.* so the bake step produces the same
+   markup for crawlers; nothing here is duplicated per breakpoint.
+   ============================================================ */
+
+.masthead {
+  border-bottom: 3px solid var(--text);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+}
+.masthead-kicker {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--text-muted);
+}
+.masthead-title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: clamp(30px, 5.2vw, 52px);
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  margin: 6px 0 0;
+}
+.masthead-strap {
+  font-family: var(--font-serif);
+  font-size: clamp(15px, 2vw, 19px);
+  color: var(--text-muted);
+  margin: 8px 0 0;
+  max-width: 60ch;
+}
+.masthead-standfirst {
+  margin: 10px 0 0;
+  font-size: 12.5px;
+  color: var(--text-faint);
+}
+
+/* Lead + rail. Single grid, one DOM order: on narrow screens the rail simply
+   stacks under the lead, which is also the reading order a screen reader gets. */
+.front-top {
+  display: grid;
+  grid-template-columns: minmax(0, 2.3fr) minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+.front-well { min-width: 0; }
+/* Inside the well the rule sits tighter than a page-level section head. */
+.front-well .section-title.rule { margin-top: 22px; }
+@media (max-width: 860px) {
+  .front-top { grid-template-columns: 1fr; gap: 20px; }
+}
+
+.lead-story { border-bottom: 1px solid var(--border); padding-bottom: 18px; }
+.lead-kicker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.lead-flag {
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+}
+.lead-title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: clamp(24px, 3.4vw, 36px);
+  line-height: 1.12;
+  letter-spacing: -0.018em;
+  margin: 0 0 10px;
+}
+.lead-title a { color: var(--text); border-bottom: none; }
+.lead-title a:hover { color: var(--accent); }
+.lead-deck {
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--text-muted);
+  margin: 0 0 12px;
+  max-width: 68ch;
+}
+.lead-byline,
+.story-byline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.lead-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+}
+.lead-original { font-size: 13px; margin-left: auto; }
+
+/* Rail */
+.front-rail {
+  border-left: 1px solid var(--border);
+  padding-left: 20px;
+}
+@media (max-width: 860px) {
+  .front-rail { border-left: none; padding-left: 0; border-top: 2px solid var(--border-strong); padding-top: 14px; }
+}
+.rail-title {
+  font-family: var(--font-serif);
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin: 0 0 6px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--border-strong);
+}
+.brief-list { list-style: none; margin: 0; padding: 0; }
+.brief {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+}
+.brief-link { color: inherit; border-bottom: none; display: block; }
+.brief-link:hover .brief-title { color: var(--accent); }
+.brief-cat {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: block;
+  margin-bottom: 2px;
+}
+/* Colour-only variants of the same seven category tokens the pills use. Text,
+   not a filled chip, because the rail is a dense list — but the mapping has to
+   stay identical to the .pill.cat-* block above, so both are edited together. */
+.brief-cat.cat-funding     { color: var(--cat-funding); }
+.brief-cat.cat-deployment  { color: var(--cat-deployment); }
+.brief-cat.cat-policy      { color: var(--cat-policy); }
+.brief-cat.cat-competitive { color: var(--cat-competitive); }
+.brief-cat.cat-supplychain { color: var(--cat-supplychain); }
+.brief-cat.cat-geopolitics { color: var(--cat-geopolitics); }
+.brief-cat.cat-research    { color: var(--cat-research); }
+.brief-title { font-size: 13.5px; line-height: 1.35; font-weight: 500; }
+.brief-meta { font-size: 11px; color: var(--text-faint); }
+.brief-all { border-bottom: none; padding-top: 12px; font-size: 13px; font-weight: 600; }
+
+/* Secondary stories — 3 across, collapsing to 1 with no duplicate markup. */
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+}
+.story-card {
+  padding: 4px 20px 0;
+  border-left: 1px solid var(--border);
+}
+.story-card:first-child { padding-left: 0; border-left: none; }
+.story-card:last-child { padding-right: 0; }
+.story-kicker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.story-co { font-size: 11.5px; color: var(--text-faint); }
+.story-title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: -0.008em;
+  margin: 0 0 8px;
+}
+.story-title a { color: var(--text); border-bottom: none; }
+.story-title a:hover { color: var(--accent); }
+.story-deck {
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--text-muted);
+  margin: 0 0 10px;
+}
+@media (max-width: 860px) {
+  .story-grid { grid-template-columns: 1fr; }
+  .story-card {
+    padding: 14px 0 0;
+    border-left: none;
+    border-top: 1px solid var(--border);
+  }
+  .story-card:first-child { border-top: none; padding-top: 4px; }
+}
+
+/* Touch targets. The front page turned three things into links that weren't:
+   the category chip (a <span> in renderNewsCard, an <a> to the filtered feed
+   here), "Read original" on the lead, and the rail's "All N stories". At their
+   type sizes they land around 21px, against the 44px floor CLAUDE.md and
+   DESIGN.md both call non-negotiable. Padding would wreck the layout, so the
+   hit area is grown with a transparent ::after — the chip keeps its 21px
+   visual weight and gains a 44px target. Pointer devices don't need it. */
+@media (pointer: coarse) {
+  .lead-kicker .pill,
+  .story-kicker .pill,
+  .lead-original,
+  .brief-all a {
+    position: relative;
+  }
+  .lead-kicker .pill::after,
+  .story-kicker .pill::after,
+  .lead-original::after,
+  .brief-all a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 44px;
+    transform: translateY(-50%);
+  }
+  /* The brief rows are the rail's main target: give the whole row the height
+     rather than just the headline's line box. */
+  .brief-link { min-height: 44px; display: flex; flex-direction: column; justify-content: center; }
 }
 
 /* ============================================================
@@ -1372,19 +1696,11 @@ button, [role="button"], a.btn {
   .site-header-inner { gap: 8px; padding: 8px 12px; }
   .header-updated-label { display: none; }
   .header-updated-date { font-size: 13px; }
-  /* The header-updated block already links home — drop the "Dashboard" link to save ~80px */
-  nav.primary-nav a[href="index.html"] { display: none; }
-  /* Let the nav scroll horizontally as a chip strip when the remaining
-     links still don't fit. Page-level h-scroll stays at 0. */
-  nav.primary-nav {
-    gap: 0;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    flex-wrap: nowrap;
-    min-width: 0;
-  }
-  nav.primary-nav::-webkit-scrollbar { display: none; }
+  /* Overflow is the priority+ layout's job now, not a display:none here — at
+     this width it usually collapses the whole strip into "Sections" and keeps
+     only the current page's link inline. */
+  nav.primary-nav { gap: 0; }
+  .nav-list { gap: 0; }
   nav.primary-nav a,
   .primary-more > summary { padding: 8px 7px; font-size: 13px; white-space: nowrap; }
   .primary-more { position: static; }
@@ -1406,6 +1722,7 @@ button, [role="button"], a.btn {
 
 .theme-picker {
   position: relative;
+  flex: 0 0 auto;   /* fixed sibling — see the flex-basis note on .primary-nav */
   font-family: var(--font-sans);
 }
 .theme-picker > summary {

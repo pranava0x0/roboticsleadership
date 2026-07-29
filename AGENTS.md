@@ -183,6 +183,17 @@ Sibling to #19: that one sizes the fan-out, this one sequences it. The WS0 revie
 
 ---
 
+### 15. Write the cheap deterministic sweep before you buy a review agent (added 2026-07-29)
+
+Two review agents over the front-page/nav/theme PR cost **~300K subagent tokens** and were worth it — they found one genuine correctness bug plus five real quality issues, and the correctness one would have shipped. But the retrospective matters more than the verdict:
+
+- The **critical** finding (the nav permanently reordering itself on every page but `index.html`) was reachable by a ~20-line scripted sweep — navigate each of the 9 pages, collapse and widen, assert the union of inline+overflow equals the authored order. That is seconds of tokens against the ~150K the agent that found it spent. **When a change has an obvious invariant over an enumerable space (pages × widths, themes × tokens, records × fields), script the assertion first and buy the agent for what a script cannot express.**
+- The **contrast** finding is the same shape: the checker already existed, it was just run over too small a background set. Widening the input set cost one line.
+- What the agents were genuinely worth buying was the *judgement*: "this fallback re-arms the bug you just fixed", "this category chip is now a primary affordance so pill geometry is a violation", "your audit claim is broader than your audit". None of those are assertable.
+- Both agents independently found the flex-gap bug, and the Codex bot found it a third time — **three payments for one finding.** When two reviewers share a scope, give them explicitly different lenses (one correctness, one project-convention) rather than two general passes, per rule 12's partitioning logic.
+
+Net rule: **an agent's value is inversely proportional to how mechanically checkable the finding is.** Spend them on taste, invariant-violations you cannot name in advance, and blind spots outside the area you were working in — not on things a loop can assert.
+
 ## What NOT to do
 
 - **Don't paraphrase quoted content.** Quote verbatim into the `statement` / `quote` / `body` field. Tests catch obvious markers ("they claim that…").
