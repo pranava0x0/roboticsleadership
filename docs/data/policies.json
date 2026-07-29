@@ -2945,5 +2945,87 @@
       }
     ],
     "last_updated": "2026-07-22"
+  },
+  {
+    "id": "fcc-covered-list-robots-inverters-2026",
+    "title": "FCC Covered List expansion — advanced robotic devices and connected power inverters",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-07-28",
+    "status": "In effect",
+    "bill_number": null,
+    "sponsor": "Federal Communications Commission",
+    "summary": "The FCC added two foreign-produced device categories to the Covered List maintained under the Secure and Trusted Communications Networks Act: \"advanced robotic devices\" — mobile robots including humanoids and quadrupeds with networked capability — and connected power inverters. Listing bars new device models from the equipment authorization required to import, market, or sell a radiofrequency device in the US. Existing authorized models are grandfathered and may continue to be imported and sold; owners keep devices already purchased; federal agencies are not restricted from purchase or operation. Conditional approvals may be granted by the Department of War for robots and DHS for inverters where a firm demonstrates acceptable risk.",
+    "full_text_url": "https://docs.fcc.gov/public/attachments/DOC-423682A1.pdf",
+    "robotics_scope": "Directly scopes robotics: humanoid and quadruped mobile robots are a named Covered List category, blocking new foreign-made models from US equipment authorization.",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "fcc",
+      "covered-list",
+      "import-restriction",
+      "china",
+      "national-security",
+      "humanoid",
+      "quadruped"
+    ],
+    "themes": [
+      "policy-momentum",
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "sources": [
+      {
+        "url": "https://docs.fcc.gov/public/attachments/DOC-423682A1.pdf"
+      },
+      {
+        "url": "https://www.nextgov.com/policy/2026/07/fcc-blocks-approval-new-foreign-made-robots-power-inverters/415070/"
+      }
+    ],
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "guard-act-hr9129",
+    "title": "GUARD Act of 2026 — Guarding the U.S. against Adversarial Robotics Dominance",
+    "type": "Bill",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-06-03",
+    "status": "Introduced",
+    "bill_number": "H.R. 9129",
+    "sponsor": "Rep. John Moolenaar (R-MI), with Rep. Jay Obernolte (R-CA) and Rep. Jennifer McClellan (D-VA)",
+    "summary": "Would require national security agencies to review humanoid and quadruped robots produced in China and other foreign adversary countries, and add platforms judged an unacceptable national security risk to the FCC's Covered List — barring their sale in the US. Any platform not reviewed within one year would be added automatically. Extends to robotics the Covered List machinery already applied to telecom equipment and drones. Introduced in the 119th Congress; a related provision advanced in the House-passed NDAA.",
+    "full_text_url": "https://www.congress.gov/bill/119th-congress/house-bill/9129/text/ih",
+    "robotics_scope": "Robotics is the entire subject of the bill: it defines a review-and-list regime specifically for foreign-adversary humanoid and quadruped robots.",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "congress",
+      "bill",
+      "guard-act",
+      "china",
+      "import-restriction",
+      "bipartisan"
+    ],
+    "themes": [
+      "policy-momentum",
+      "china-scale"
+    ],
+    "sources": [
+      {
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9129/text/ih"
+      },
+      {
+        "url": "https://www.govinfo.gov/app/details/BILLS-119hr9129ih"
+      }
+    ],
+    "last_updated": "2026-07-28"
   }
 ]

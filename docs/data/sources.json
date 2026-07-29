@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraper configuration. Each entry is consumed by scripts/scraper-*.js. Set enabled:false to skip. last_run is updated by the scraper on each invocation.",
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-07-28"
   },
   "news": [
     {
@@ -11,7 +11,8 @@
       "frequency": "daily",
       "keywords": [],
       "enabled": true,
-      "last_run": "2026-07-22"
+      "last_run": "2026-07-22",
+      "publication": "IEEE Spectrum"
     },
     {
       "id": "techcrunch-robotics-tag",
@@ -20,7 +21,8 @@
       "frequency": "daily",
       "keywords": [],
       "enabled": true,
-      "last_run": "2026-07-22"
+      "last_run": "2026-07-22",
+      "publication": "TechCrunch"
     },
     {
       "id": "the-robot-report",
@@ -29,7 +31,8 @@
       "frequency": "daily",
       "keywords": [],
       "enabled": true,
-      "last_run": "2026-07-22"
+      "last_run": "2026-07-22",
+      "publication": "The Robot Report"
     },
     {
       "id": "reddit-robotics",
@@ -47,7 +50,8 @@
       ],
       "enabled": true,
       "notes": "Enabled with keyword filter — only ingest posts mentioning funding/deployment/humanoid signals.",
-      "last_run": "2026-06-23"
+      "last_run": "2026-06-23",
+      "publication": "r/robotics"
     },
     {
       "id": "hacker-news-robotics",
@@ -63,7 +67,8 @@
       ],
       "enabled": true,
       "notes": "Hacker News Algolia search API — free, no auth. Filters to robotics/humanoid stories from the last N days.",
-      "last_run": "2026-07-22"
+      "last_run": "2026-07-22",
+      "publication": "Hacker News"
     },
     {
       "id": "federal-register-robotics",
@@ -76,7 +81,8 @@
         "humanoid"
       ],
       "enabled": true,
-      "last_run": "2026-07-22"
+      "last_run": "2026-07-22",
+      "publication": "Federal Register"
     }
   ],
   "companies": [
