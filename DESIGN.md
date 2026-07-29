@@ -308,16 +308,24 @@ The project ships four named themes, each evoking a setting from Isaac Asimov's 
 All four themes meet or exceed **4.5:1 for every text token** — including `--text-faint`, which carries real
 text (dates, record counts, KPI sublabels) and is therefore held to the body-text bar, not the 3:1 large-text
 one — and **3:1 for `--border-strong`**, the keyline the front page's section rules and rail dividers are drawn
-with. Verified, not asserted: the 2026-07-28 rework was checked pair-by-pair with a scripted WCAG calculator
-over every (token, background) combination below before it landed, including the composited value of Robot
-Dreams' translucent surfaces over its `--bg`. The worst ratio in each theme:
+with.
 
-| Theme           | Body on bg | Muted on bg | Faint on bg | Accent on bg | Weakest checked pair |
-|-----------------|------------|-------------|-------------|--------------|----------------------|
-| Caves of Steel  | 17.1:1     | 8.9:1       | 5.3:1       | 10.4:1       | `--border-strong` 3.9:1 |
-| The Naked Sun   | 17.4:1     | 7.5:1       | 5.5:1       | 8.3:1        | `--border-strong` 3.1:1 |
-| Robots of Dawn  | 14.8:1     | 6.7:1       | 5.4:1       | 6.5:1        | `--border-strong` 3.3:1 |
-| Robot Dreams    | 14.4:1     | 6.8:1       | 4.5:1       | 9.0:1        | `--text-faint` 4.5:1 |
+**Every text token is checked against all three backgrounds it can land on — `--bg`, `--surface` and
+`--surface-2` — not just `--bg`.** The first pass of the 2026-07-28 rework audited only `--bg`/`--surface` and
+shipped four sub-AA pairs on `--surface-2`, which is a real text background (nav hover, `aria-current`, KPI
+cards) and is what the "Sections" caret sits on. Review caught it; a fifth turned up on `--surface` once the
+background set was widened. Do not narrow it again.
+
+Verified, not asserted: checked pair-by-pair with a scripted WCAG calculator over every (token, background)
+combination, including the composited value of Robot Dreams' translucent surfaces. Worst ratio per theme,
+across all backgrounds:
+
+| Theme           | Body (min) | Muted (min) | Faint (min) | Accent (min) | `--border-strong` (min) |
+|-----------------|-----------|-------------|-------------|--------------|-------------------------|
+| Caves of Steel  | 13.8:1    | 7.2:1       | 5.5:1       | 8.4:1        | 3.2:1 |
+| The Naked Sun   | 15.4:1    | 6.3:1       | 4.9:1       | 7.4:1        | 3.3:1 |
+| Robots of Dawn  | 12.5:1    | 5.7:1       | 4.6:1       | 5.5:1        | 3.6:1 |
+| Robot Dreams    | 13.3:1    | 6.2:1       | 5.6:1       | 8.3:1        | 3.8:1 |
 
 Two theme-specific rules survive the rework:
 
@@ -359,10 +367,10 @@ Body font     Roboto, system-ui, "Segoe UI", Arial, sans-serif
 --surface         #191a1e
 --surface-2       #232529  concrete
 --border          #303338
---border-strong   #6b7280                              3.9:1 — keylines must be visible
+--border-strong   #6b7280                              3.2:1 (min, on --surface-2)
 --text            #f2f3f5                             17.1:1
 --text-muted      #adb2ba                              8.9:1
---text-faint      #828892                              5.3:1
+--text-faint      #949ba5                              5.5:1 (min) — was #828892, 4.30:1 on --surface-2
 --accent          #ffb000  low-pressure sodium amber   10.4:1
 --status-positive #86c46a  yeast-vat green              9.2:1
 --radius-card     2px      sharpest of the four (was 4px)
@@ -388,10 +396,10 @@ Body font     Inter, system-ui, -apple-system, "Segoe UI", sans-serif
 --surface         #ffffff
 --surface-2       #eceff1  cold grey (was #F0ECE1 warm beige)
 --border          #dfe4e7  (was #E5E0D5)
---border-strong   #8a9298                              3.1:1
+--border-strong   #7c8489                              3.3:1 (min) — was #8a9298, 2.74:1 on --surface-2
 --text            #15181a                             17.4:1
 --text-muted      #4f585d                              7.5:1
---text-faint      #5f686e                              5.5:1 — was 4.15:1, failed AA
+--text-faint      #5f686e                              4.9:1 (min) — was 4.15:1 on --bg, failed AA
 --accent          #14564a  cold cypress                 8.3:1
 --radius-card     14px
 --shadow-rest     none     intentionally flat
@@ -416,10 +424,10 @@ Body font     Montserrat, system-ui, -apple-system, "Segoe UI", sans-serif
 --surface         #ffffff
 --surface-2       #f3e4d6  warm marble
 --border          #e8d9c7
---border-strong   #9e8668                              3.3:1
+--border-strong   #8c7454                              3.6:1 (min) — was #9e8668, 2.78:1 on --surface-2
 --text            #2b221c                             14.8:1
 --text-muted      #655648                              6.7:1
---text-faint      #756454                              5.4:1 — was 3.81:1, failed AA
+--text-faint      #756454                              4.6:1 (min) — was 3.81:1 on --bg, failed AA
 --accent          #9a3d12  low-sun terracotta           6.5:1
 --cat-funding     #5a3a8c  pre-dawn violet
 --cat-competitive #a32a64  dawn rose
@@ -449,10 +457,10 @@ Body font     Plus Jakarta Sans, system-ui, -apple-system, sans-serif
 --surface-2        rgba(31, 33, 41, 0.45)
 --surface-backdrop blur(12px) saturate(120%)
 --border           rgba(205, 199, 187, 0.16)  warm grey (was blue)
---border-strong    rgba(205, 199, 187, 0.45)           3.1:1
+--border-strong    rgba(205, 199, 187, 0.55)           3.8:1 (min) — 0.45 was 2.90:1 on --surface
 --text             #e8e4db  warm silver                14.4:1
 --text-muted       #a39d91                              6.8:1
---text-faint       #847e73                              4.5:1
+--text-faint       #9a9488                              5.6:1 (min) — was #847e73, 4.18:1 on --surface
 --accent           #f2a65a  dream-sun amber (was #00E5FF cyan)   9.0:1
 --accent-on        #14151a  text colour inside any accent fill
 --radius-card      12px

@@ -228,9 +228,9 @@
         href === path ||
         (path === 'index.html' && (href === 'index.html' || href === '.' || href === '/'))
       ) {
+        // No `data-current` on the dropdown any more: initResponsiveNav never
+        // moves the current page's link into it, so that state was unreachable.
         a.setAttribute('aria-current', 'page');
-        const more = a.closest('.primary-more');
-        if (more) more.dataset.current = 'true';
       }
     });
   }
@@ -258,32 +258,62 @@
     const list = nav.querySelector('.nav-list');
     const more = nav.querySelector('.primary-more');
     const overflow = nav.querySelector('.nav-overflow');
-    if (!list || !more || !overflow) return;
+    if (!list || !more || !overflow) {
+      // Falls back to the scroll strip (styles.css keeps the nav overflow-x:auto
+      // until .nav-managed lands). Reachable, but with no scrollbar and no fade
+      // it reads as "some sections are missing" — so say so rather than let a
+      // page that forgot .nav-overflow look merely odd.
+      console.warn('primary-nav: missing .nav-list / .primary-more / .nav-overflow — falling back to the scroll strip');
+      return;
+    }
     nav.classList.add('nav-managed');
+
+    // The authored order, captured once. Restoring by draining `overflow` back
+    // onto the tail of `list` looked right and was wrong: the collapse loop
+    // skips the current page's <li>, so on any page whose link is not first,
+    // that survivor is stranded mid-list and the parked items return *behind*
+    // it — permanently reordering the nav, and changing which links survive the
+    // next collapse. index.html hid the bug completely (its link is index 0, so
+    // appending happens to reproduce the order), which is why sweeping widths on
+    // one page missed it. Sweep pages, not just widths.
+    const authored = Array.from(list.children);
 
     let scheduled = false;
 
     function layout() {
       scheduled = false;
-      // Measure from the authored order every time. offsetWidth is only
-      // meaningful for an <li> actually laid out in the strip, so items parked
-      // in the dropdown have to come home before anything is measured.
-      while (overflow.firstChild) list.appendChild(overflow.firstChild);
+      // Rebuild the strip from the authored array before measuring — offsetWidth
+      // is only meaningful for an <li> actually laid out in it.
+      authored.forEach((li) => list.appendChild(li));
       more.hidden = true;
       more.open = false;
 
       const avail = nav.clientWidth;
-      const items = Array.from(list.children);
-      const widths = items.map((li) => li.offsetWidth);
-      let used = widths.reduce((a, b) => a + b, 0);
+      // A zero/absent width is a measurement we cannot act on: it would park 8
+      // of 9 links in the dropdown and look exactly like a deliberate narrow
+      // layout. It happens for real — an unpainted or display:none ancestor
+      // reports 0 (see the CLAUDE.md note on pre-paint reads). Abort and wait
+      // for the next ResizeObserver tick rather than acting on nonsense.
+      if (!avail) return;
+
+      // scrollWidth, not the sum of offsetWidths: both .nav-list and the nav
+      // itself set `gap: 2px`, and a sum of item widths silently under-counts
+      // by (n-1) gaps — ~18px across nine links, enough to declare a fit that
+      // overflows. Third bug in this file from measuring flex the naive way.
+      let used = list.scrollWidth;
       if (used <= avail) return;
 
       more.hidden = false;                 // unhide first: offsetWidth of a
-      const reserve = more.offsetWidth;    // [hidden] element reads 0.
+      const gap = parseFloat(getComputedStyle(nav).columnGap) || 0;
+      const reserve = more.offsetWidth + gap;   // [hidden] element reads 0.
+      const items = Array.from(list.children);
       for (let i = items.length - 1; i >= 0 && used + reserve > avail; i--) {
         if (items[i].querySelector('[aria-current="page"]')) continue;
         overflow.insertBefore(items[i], overflow.firstChild);
-        used -= widths[i];
+        // Re-read rather than subtracting a cached width: scrollWidth accounts
+        // for the gap that disappeared with the item. At most 9 reflows, once
+        // per resize settle — cheaper than being wrong by a gap per item.
+        used = list.scrollWidth;
       }
     }
 
@@ -296,7 +326,13 @@
     schedule();
     // Web fonts land after first paint and change every label's width, so the
     // first measurement is against fallback metrics and has to be redone.
-    if (document.fonts && document.fonts.ready) document.fonts.ready.then(schedule);
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(schedule, (err) => {
+        // Not fatal — the strip stays sized against fallback metrics — but it
+        // must not surface as a bare unhandled rejection.
+        console.warn('primary-nav: font loading failed, layout kept fallback metrics', err);
+      });
+    }
     // Observe the header row, not <body>: its width tracks the viewport but its
     // own size can't be changed by moving nav items, so this can't feed itself.
     const box = nav.closest('.site-header-inner') || nav;
@@ -637,8 +673,16 @@
   // contract has one place to audit instead of one per call site, and built on
   // replaceChildren + insertAdjacentHTML to match the idiom already used for the
   // news feed. Strings reaching here come from our own committed JSON.
+  // Note the silent-failure hazard this warn exists for: a container's id and
+  // its bake slot name are different strings, so renaming the container is
+  // caught by nothing — bake() still fills the slot, this no-ops, and the page
+  // shows permanently non-hydrating deploy-time HTML that looks entirely
+  // correct. A console line is the only signal available.
   function paint(el, html) {
-    if (!el) return;
+    if (!el) {
+      console.warn('paint: no target element — a container id and its bake slot may have drifted');
+      return;
+    }
     el.replaceChildren();
     el.insertAdjacentHTML('beforeend', html);
   }
@@ -853,8 +897,14 @@
     return truncate(s, max);
   }
 
+  // Empty corpus renders a visible notice, not ''. An empty string is a legal
+  // bake slot fill, so a front page with no lead would otherwise deploy as two
+  // section headings over nothing — and pages.yml runs validate + bake but never
+  // npm test, so the assertion that catches this never runs on the deploy path.
   function renderLeadStory(lead, companies, policies) {
-    if (!lead) return '';
+    if (!lead) {
+      return '<article class="lead-story"><p class="lead-deck">No stories available — the news dataset is empty or failed to load.</p></article>';
+    }
     const deck = storyDeck(lead, 340);
     const pills = [
       ...(lead.companies || []).map((id) => {

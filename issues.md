@@ -4,6 +4,30 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 ## Open
 
+### 2026-07-29 — app.js — the priority+ nav permanently reordered the nav on every page except index.html  ✅ FIXED 2026-07-29
+
+- **Area:** `docs/assets/app.js` `initResponsiveNav().layout()`. Found in code review of PR #140, **not** by my own testing.
+- **Symptom:** collapse the nav (narrow the window) then widen it again, on any page whose link is not the first one. On `companies.html` the nav came back as `Front page | Companies | News | US vs China | Policy | …` — "Companies" permanently promoted from position 4 to 2 — and the mutated order then changed which links survived the *next* collapse.
+- **Root cause (code bug):** the restore was `while (overflow.firstChild) list.appendChild(overflow.firstChild)`, which only reproduces the authored order when every inline survivor sits at the front of the list. The collapse loop deliberately skips the current page's `<li>`, so on any other page that survivor is stranded mid-list and the parked items return *behind* it.
+- **Why it shipped:** `index.html`'s link is index 0, so appending happened to be correct there — and I swept **four widths on one page** instead of one width across pages. The bug is invisible in exactly the configuration I tested.
+- **Fix:** snapshot the authored `<li>` order once at init (`const authored = Array.from(list.children)`) and re-append from that array each pass. Verified on `companies.html` (index 3) and `themes.html` (index 8, the worst case) with a full collapse→widen cycle.
+- **Lesson, now in CLAUDE.md:** when a layout's behaviour depends on which element is "current", sweeping widths on one page proves nothing. **Sweep pages, not just widths.**
+
+### 2026-07-29 — app.js — the nav fit calculation ignored flex `gap`  ✅ FIXED 2026-07-29
+
+- **Area:** same function. The **third** flex-measurement bug in this file.
+- **Symptom:** `used` was `Σ li.offsetWidth`, but `.nav-list` and `nav.primary-nav` both set `gap: 2px`. Measured 718 against a true `scrollWidth` of 733 — and ~18px across nine links. At a 978px viewport the fit test returned early with the dropdown still hidden and the last link spilling 7px past the nav's right edge.
+- **Fix:** measure `list.scrollWidth` (which includes gaps) rather than summing item widths, add one `columnGap` to the reserve, and re-read `scrollWidth` after each move instead of subtracting a cached width.
+- **Also hardened:** `layout()` now aborts on a falsy `nav.clientWidth`. Replayed with `avail = 0` it parked **8 of 9 links** in the dropdown, indistinguishable from a deliberate narrow layout — and a pre-paint zero read is documented in this very repo.
+
+### 2026-07-29 — DESIGN.md / styles.css — the theme contrast audit omitted `--surface-2` as a background  ✅ FIXED 2026-07-29
+
+- **Area:** the 2026-07-28 theme rework. Found in code review; the reviewer reproduced my published numbers exactly against `--bg`/`--surface`, then checked the background I had left out.
+- **Symptom:** the PR claimed verification "over every (token, background) combination". It wasn't. Four pairs were below the stated bar on `--surface-2` — and widening the set turned up a fifth on `--surface`: Caves `--text-faint` 4.30:1, Naked Sun `--border-strong` 2.74:1, Dawn `--border-strong` 2.78:1, Robot Dreams `--text-faint` 4.18:1 on `--surface` / 4.30:1 on `--surface-2`, Robot Dreams `--border-strong` 2.90:1 on `--surface`.
+- **Why it matters:** `--surface-2` is a real text background — nav hover and `aria-current` use it, and the "Sections" caret is `--text-faint` on it, so the Caves case shipped on a control.
+- **Fix:** darkened/strengthened the four tokens (Caves faint `#828892`→`#949ba5`, Naked Sun border `#8a9298`→`#7c8489`, Dawn border `#9e8668`→`#8c7454`, Dreams faint `#847e73`→`#9a9488` and border alpha 0.45→0.55), and widened the checker to all three backgrounds. All four themes now clear every pair.
+- **Lesson:** an audit is only as good as its background set. A "verified" claim needs the *set* stated, not just the result.
+
 ### 2026-07-28 — scraper-news.js — every scraped record's `source` was the scraper's config id, not the publication  ✅ FIXED 2026-07-28
 
 - **Area:** `scripts/scraper-news.js` (all four record constructors), `docs/data/news.json`, `docs/data/sources.json`.

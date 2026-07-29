@@ -306,6 +306,15 @@ async function main() {
   const enabledSources = sourcesData.news.filter(s => s.enabled);
 
   for (const source of enabledSources) {
+    // The `source.publication || source.id` fallback in every record template
+    // exists so a misconfigured source still produces a valid record — but on
+    // its own it silently re-arms the exact defect that put a scraper slug
+    // ("hacker-news-robotics") in 729 of 785 bylines. validate.js has no
+    // per-entry schema for sources.json, so nothing else catches it. Warn once
+    // per source rather than once per record.
+    if (!source.publication) {
+      console.warn(`  WARNING: source "${source.id}" has no "publication" — its bylines will print the scraper id`);
+    }
     try {
       if (source.type === 'rss') {
         addedTotal += await handleRss(source, news, existingUrls, cutoff, today);

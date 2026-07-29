@@ -119,6 +119,10 @@ function indexSlots(RT, data) {
   // Same single split the client uses, so lead / top stories / briefs bake in
   // the same three positions the browser then re-renders into.
   const front = RT.frontPageStories(news);
+  // A front page with no lead story is a broken deploy, not a rendering
+  // outcome. bake() cannot catch it (an empty slot fill is legal) and pages.yml
+  // never runs npm test, so this is the only gate on the deploy path.
+  if (!front.lead) throw new Error('index.html: no lead story — news.json is empty or unreadable');
   return {
     'index-standfirst': RT.renderStandfirst(companies, policies, news),
     'index-lead': RT.renderLeadStory(front.lead, companies, policies),
