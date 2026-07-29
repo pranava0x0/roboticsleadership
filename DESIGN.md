@@ -305,14 +305,27 @@ The project ships four named themes, each evoking a setting from Isaac Asimov's 
 
 ### 15.2 Accessibility — WCAG 2.1 AA
 
-All four themes meet or exceed 4.5:1 contrast for body text and 3:1 for large display text. Specific minima verified:
+All four themes meet or exceed **4.5:1 for every text token** — including `--text-faint`, which carries real
+text (dates, record counts, KPI sublabels) and is therefore held to the body-text bar, not the 3:1 large-text
+one — and **3:1 for `--border-strong`**, the keyline the front page's section rules and rail dividers are drawn
+with. Verified, not asserted: the 2026-07-28 rework was checked pair-by-pair with a scripted WCAG calculator
+over every (token, background) combination below before it landed, including the composited value of Robot
+Dreams' translucent surfaces over its `--bg`. The worst ratio in each theme:
 
-| Theme           | Body on bg                  | Accent on bg              | Notes |
-|-----------------|-----------------------------|---------------------------|-------|
-| Caves of Steel  | #F5F5F5 on #121212 ≈ 17:1   | #FFC700 on #121212 ≈ 13:1 | Status green #00FF66 used only on dark — never on white. |
-| Naked Sun       | #1A1A1A on #FAFAFA ≈ 16:1   | #1C4E3A on #FAFAFA ≈ 8.7:1 | — |
-| Robots of Dawn  | #2D2520 on #FFF9F5 ≈ 12:1   | #8C4303 on #FFF9F5 ≈ 6.4:1 | Accent passes AA Normal and AAA Large. |
-| Robot Dreams    | #E0E6ED on #0A0915 ≈ 13:1   | #00E5FF on #0A0915 ≈ 14:1 | **Text inside any cyan-filled component must be `#0A0915`** (cyan against silver-blue is only 1.2:1). |
+| Theme           | Body on bg | Muted on bg | Faint on bg | Accent on bg | Weakest checked pair |
+|-----------------|------------|-------------|-------------|--------------|----------------------|
+| Caves of Steel  | 17.1:1     | 8.9:1       | 5.3:1       | 10.4:1       | `--border-strong` 3.9:1 |
+| The Naked Sun   | 17.4:1     | 7.5:1       | 5.5:1       | 8.3:1        | `--border-strong` 3.1:1 |
+| Robots of Dawn  | 14.8:1     | 6.7:1       | 5.4:1       | 6.5:1        | `--border-strong` 3.3:1 |
+| Robot Dreams    | 14.4:1     | 6.8:1       | 4.5:1       | 9.0:1        | `--text-faint` 4.5:1 |
+
+Two theme-specific rules survive the rework:
+
+- **Caves' `--status-positive` is only ever used on dark surfaces** (it is a dark-mode-only theme, so this is
+  automatic, but it is why the token may not be lifted into a light theme unchanged).
+- **Robot Dreams requires `--accent-on` for text inside any accent fill.** The accent moved from cyan to amber
+  but the hazard did not: amber `#F2A65A` on warm-silver `#E8E4DB` is ~1.9:1. Any filled `.btn.primary`,
+  `.pill.cat-accent`, or skip-link must take `color: var(--accent-on)`.
 
 Other accessibility requirements every theme respects:
 
@@ -323,90 +336,133 @@ Other accessibility requirements every theme respects:
 
 ### 15.3 Theme specs
 
+> **Reworked 2026-07-28.** The first pass named the themes after the books; this one takes its values *from*
+> them. Four things changed and each is a book detail, not a taste call — they are recorded here because the
+> next person to "tidy" a hex code needs to know what it was doing.
+
 #### Theme 1 — Caves of Steel (Earth)
 
-**Aesthetic.** Industrial, subterranean, high-density. Sharp borders replace open whitespace; numbers and tables dominate. Edges are flat (no ambient shadow).
+**Aesthetic.** The enclosed City: eight million people under one roof, no sky, permanent artificial light.
+Sharp borders replace open whitespace; numbers and tables dominate. Flattest edges of the four.
+
+**What the book changed.** The accent is now **low-pressure sodium amber**, the actual colour of the lighting
+a domed City and its expressway strips would run on — `#FFC700` was a lemon yellow no sodium lamp emits.
+`--status-positive` is **yeast-vat green**, because Earth eats what the New Jersey yeast farms grow; the old
+`#00FF66` was a terminal-phosphor green with nothing to do with the setting. Neutrals carry a faint blue-steel
+cast: steel and concrete, not warm carbon.
 
 ```
 Display font  Barlow Condensed, "Arial Narrow", "Helvetica Condensed", sans-serif
 Body font     Roboto, system-ui, "Segoe UI", Arial, sans-serif
 
---bg          #121212  carbon matte black
---surface     #1a1a1a  bay-level gray (one step above bg)
---surface-2   #242424  concrete gray
---border      #2f2f2f
---text        #f5f5f5  stark off-white     17:1
---text-muted  #b0b0b0                       7:1
---accent      #FFC700  sodium yellow       13:1 on bg
---status-positive #00FF66 system green      Used only on dark surfaces
---radius-card 4px      sharp
---shadow-rest 0 0 0 1px rgba(0,0,0,0.4)     flat, no blur
+--bg              #101013  steel black (was #121212 warm carbon)
+--surface         #191a1e
+--surface-2       #232529  concrete
+--border          #303338
+--border-strong   #6b7280                              3.9:1 — keylines must be visible
+--text            #f2f3f5                             17.1:1
+--text-muted      #adb2ba                              8.9:1
+--text-faint      #828892                              5.3:1
+--accent          #ffb000  low-pressure sodium amber   10.4:1
+--status-positive #86c46a  yeast-vat green              9.2:1
+--radius-card     2px      sharpest of the four (was 4px)
+--shadow-rest     0 0 0 1px rgba(0,0,0,0.5)            flat, no blur
 ```
 
 #### Theme 2 — The Naked Sun (Solaria)
 
-**Aesthetic.** Hyper-minimalist, sterile, ultra-isolated. Single-column reading, immense padding, slow deliberate transitions. The only "decoration" is whitespace.
+**Aesthetic.** Twenty thousand people on a whole planet, ten thousand robots each. Hyper-minimalist, sterile,
+ultra-isolated; the only decoration is whitespace, and the transitions are the slowest of the four (Solarians
+do not hurry, and they meet by "viewing", never in person).
+
+**What the book changed.** The word for this world is *bleached*, so **every neutral is now cold**. The old
+palette's alabaster beige (`--surface-2 #F0ECE1`, `--border #E5E0D5`) was the single biggest reason this theme
+read as a slightly duller Robots of Dawn rather than its opposite — two light themes that both leaned warm.
+The accent is Solarian estate cypress pushed toward teal: the one saturated thing on an over-lit world.
 
 ```
 Display font  Didot, "Bodoni MT", "Bodoni Moda", "Big Caslon", Georgia, serif
 Body font     Inter, system-ui, -apple-system, "Segoe UI", sans-serif
 
---bg          #FAFAFA  pristine white
---surface     #FFFFFF  pure white
---surface-2   #F0ECE1  alabaster stone
---border      #E5E0D5
---text        #1A1A1A  near black          16:1
---text-muted  #5a5a5a                       8:1
---accent      #1C4E3A  deep cypress green   8.7:1
---radius-card 14px     soft
---shadow-rest none     intentionally flat
---space-page  generous (page lede max-width 56ch, body padding scales up)
---transition-slow 320ms (transitions use this)
+--bg              #fbfcfc  bleached white
+--surface         #ffffff
+--surface-2       #eceff1  cold grey (was #F0ECE1 warm beige)
+--border          #dfe4e7  (was #E5E0D5)
+--border-strong   #8a9298                              3.1:1
+--text            #15181a                             17.4:1
+--text-muted      #4f585d                              7.5:1
+--text-faint      #5f686e                              5.5:1 — was 4.15:1, failed AA
+--accent          #14564a  cold cypress                 8.3:1
+--radius-card     14px
+--shadow-rest     none     intentionally flat
+--transition-slow 320ms
 ```
 
 #### Theme 3 — The Robots of Dawn (Aurora)
 
-**Aesthetic.** Utopian, premium, serene, automated. Rounded cards, soft depth, generous-but-not-empty whitespace. Reads like an Atlantic feature.
+**Aesthetic.** Aurora is named for the goddess of the dawn — the World of the Dawn, first and richest of the
+Spacer worlds. Utopian, premium, serene. Rounded cards, soft depth, reads like an Atlantic feature.
+
+**What the book changed.** The direction was already right; the depth was not. `#8C4303` reads brown rather
+than sunrise and left no contrast headroom, so the accent is now a deeper terracotta struck by low sun. The
+category ramp gains the violet of the sky before sunrise (funding) and a true rose (competitive). This is the
+one theme allowed to be unapologetically warm — it is what The Naked Sun is now defined against.
 
 ```
 Display font  Cormorant Garamond, Georgia, "Iowan Old Style", "Apple Garamond", serif
 Body font     Montserrat, system-ui, -apple-system, "Segoe UI", sans-serif
 
---bg          #FFF9F5  dawn blush
---surface     #FFFFFF
---surface-2   #EFE3D8  warm marble beige
---border      #E4D8C7
---text        #2D2520  rich espresso brown 12:1
---text-muted  #6b5e54                       6:1
---accent      #8C4303  terracotta gold      6.4:1
---radius-card 16px     pronounced
---shadow-rest 0 1px 3px rgba(45,37,32,0.08)
---shadow-elevated 0 8px 24px rgba(45,37,32,0.10)
+--bg              #fff8f2  dawn blush
+--surface         #ffffff
+--surface-2       #f3e4d6  warm marble
+--border          #e8d9c7
+--border-strong   #9e8668                              3.3:1
+--text            #2b221c                             14.8:1
+--text-muted      #655648                              6.7:1
+--text-faint      #756454                              5.4:1 — was 3.81:1, failed AA
+--accent          #9a3d12  low-sun terracotta           6.5:1
+--cat-funding     #5a3a8c  pre-dawn violet
+--cat-competitive #a32a64  dawn rose
+--radius-card     16px     most pronounced
 ```
 
-#### Theme 4 — Robot Dreams (Subconscious)
+#### Theme 4 — Robot Dreams (the subconscious)
 
-**Aesthetic.** Cosmic, mathematical, ethereal dark mode. Glassmorphic surfaces over a deep midnight blue; cyan glows on interactive elements; mono headers signal the systemic / computed nature of the data.
+**Aesthetic.** Elvex, the robot who dreams. Soft-edged, lit from within, glassmorphic surfaces over a
+grey-indigo ground.
+
+**What the book changed — the big one.** This theme was cyan-on-midnight with Orbitron, which owed more to
+stock sci-fi than to the 1986 story: *cosmic* was never in it. What Elvex actually dreams is a colourless grey
+in which robots labour, lit by one distant sun. So the ground is **grey-indigo, not saturated space blue**;
+the text is **warm silver**; the hairlines are **warm grey, not blue**; and the accent is **a single amber
+light**, the sun of the dream. Orbitron gave way to **Fraunces**, a soft-serif whose optical wonkiness reads
+dreamlike where a wide-tracked geometric read like a spaceship console. The glass and the glow stay — the
+dream is still soft-edged — only the hue moved. The theme's picker tag changed from "Cosmic" to
+"Subconscious" to match.
 
 ```
-Display font  Orbitron, "Courier New", "SF Mono", Menlo, monospace
+Display font  Fraunces, "Iowan Old Style", Georgia, "Palatino Linotype", serif  (was Orbitron)
 Body font     Plus Jakarta Sans, system-ui, -apple-system, sans-serif
 
---bg          #0A0915  positronic midnight
---surface     rgba(25, 24, 48, 0.6)   glass
---surface-2   rgba(25, 24, 48, 0.42)
---surface-backdrop blur(12px) saturate(140%)
---border      rgba(170, 200, 240, 0.18)
---text        #E0E6ED  silver-blue          13:1
---text-muted  #8a96a8                       6:1
---accent      #00E5FF  electric cyan        14:1 on bg
---accent-on   #0A0915  text color inside any cyan-filled component
---radius-card 12px
---shadow-rest 0 0 0 1px rgba(0, 229, 255, 0.08)
---shadow-elevated 0 0 24px rgba(0, 229, 255, 0.18)   subtle glow
+--bg               #14151a  grey-indigo (was #0A0915 positronic midnight)
+--surface          rgba(31, 33, 41, 0.66)   glass
+--surface-2        rgba(31, 33, 41, 0.45)
+--surface-backdrop blur(12px) saturate(120%)
+--border           rgba(205, 199, 187, 0.16)  warm grey (was blue)
+--border-strong    rgba(205, 199, 187, 0.45)           3.1:1
+--text             #e8e4db  warm silver                14.4:1
+--text-muted       #a39d91                              6.8:1
+--text-faint       #847e73                              4.5:1
+--accent           #f2a65a  dream-sun amber (was #00E5FF cyan)   9.0:1
+--accent-on        #14151a  text colour inside any accent fill
+--radius-card      12px
+--shadow-elevated  0 0 24px rgba(242, 166, 90, 0.16)   subtle glow
 ```
 
-> **Robot Dreams pitfall.** The `backdrop-filter: blur(...)` rule violates the § 10 "no filter on hot panes" pitfall *for content panes* (maps, scrolling feeds). It is acceptable here because it's applied only to bounded card surfaces, not to a viewport-sized scrolling layer. If we later add a map view, the cards must drop blur when overlaid on map tiles or perf collapses on mobile.
+> **Robot Dreams pitfall.** The `backdrop-filter: blur(...)` rule violates the § 10 "no filter on hot panes"
+> pitfall *for content panes* (maps, scrolling feeds). It is acceptable here because it is applied only to
+> bounded card surfaces, not to a viewport-sized scrolling layer. If we later add a map view, the cards must
+> drop blur when overlaid on map tiles or perf collapses on mobile.
 
 ### 15.4 Toggle UI
 
