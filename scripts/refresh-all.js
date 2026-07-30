@@ -112,9 +112,10 @@ class RefreshPipeline {
       }
     } catch (e) {
       // Scraper-policy returns exit code 1 on HTTP failures, not always an error
-      if (e.message.includes('HTTP 503') || e.message.includes('HTTP 404')) {
-        this.log(`  Policy scraper: ${e.message.split('\n')[0]}`, 'warn');
-        this.results.warnings.push(`Policy scraper HTTP error: ${e.message.split('\n')[0]}`);
+      const output = (e.stdout || '') + (e.stderr || '');
+      if (output.includes('HTTP 503') || output.includes('HTTP 404')) {
+        this.log(`  Policy scraper: ${output.split('\n')[0]}`, 'warn');
+        this.results.warnings.push(`Policy scraper HTTP error: ${output.split('\n')[0]}`);
       } else {
         this.log(`  Policy scraper failed: ${e.message}`, 'error');
         this.results.errors.push(`Policy scraper: ${e.message}`);
