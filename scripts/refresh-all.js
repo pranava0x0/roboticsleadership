@@ -122,12 +122,13 @@ class RefreshPipeline {
     }
   }
 
-  // Step 2: Validate
-  validate() {
-    this.log('Step 2: Validating...');
+  // Step 2: Validate (allow uncurated records in pipeline, strict validation is for deploy gate)
+  validate(strict = false) {
+    this.log(`Step 2: Validating (${strict ? 'strict' : 'allow uncurated'})...`);
 
     try {
-      const output = execSync('node scripts/validate.js 2>&1', { encoding: 'utf-8' });
+      const args = strict ? '' : '--allow-uncurated';
+      const output = execSync(`node scripts/validate.js ${args} 2>&1`, { encoding: 'utf-8' });
 
       if (output.includes('All files valid')) {
         this.log('  ✓ All files valid');
@@ -328,7 +329,8 @@ class RefreshPipeline {
 
       this.enrich();
 
-      if (!this.validate()) {
+      // Use strict validation only after enrichment to catch schema issues
+      if (!this.validate(true)) {
         this.log('Validation failed after enrichment — stopping pipeline', 'error');
         this.results.errors.push('Post-enrichment validation failed');
         this.report();
