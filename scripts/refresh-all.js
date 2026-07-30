@@ -105,7 +105,7 @@ class RefreshPipeline {
     try {
       this.log('  Running scraper-policy.js...');
       const policyOutput = execSync('node scripts/scraper-policy.js 2>&1', { encoding: 'utf-8' });
-      const policyMatch = policyOutput.match(/Added (\d+) new policy records/);
+      const policyMatch = policyOutput.match(/Added (\d+) new policies/);
       if (policyMatch) {
         this.results.scraped.policies = parseInt(policyMatch[1]);
         this.log(`    Added ${this.results.scraped.policies} policy records`);
@@ -193,9 +193,10 @@ class RefreshPipeline {
     const policiesDropped = [];
 
     // Curate NEWS: Drop only obvious false positives, keep uncertain records flagged
+    // CRITICAL: Only filter newly scraped records with curator flag; never re-filter approved records
     this.news = this.news.filter(record => {
-      if (!record.id.startsWith('hn-')) {
-        // RSS and other sources: no automatic curation, just proceed
+      if (!record.id.startsWith('hn-') || !record._requires_curator_review) {
+        // RSS/other sources: no automatic curation; approved HN records: never re-filter
         return true;
       }
 
@@ -216,9 +217,15 @@ class RefreshPipeline {
     });
 
     // Curate POLICIES: same approach, preserve flags on survivors
+    // CRITICAL: Only filter newly scraped records with curator flag; never re-filter approved records
     const policiesBeforeCount = this.policies.length;
 
     this.policies = this.policies.filter(record => {
+      // Only auto-curate newly scraped records with curator flag; approved records are never re-filtered
+      if (!record._requires_curator_review) {
+        return true;
+      }
+
       const title = record.title.toLowerCase();
       const summary = (record.summary || '').toLowerCase();
       const text = `${title} ${summary}`;
