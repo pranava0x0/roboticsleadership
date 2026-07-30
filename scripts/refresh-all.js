@@ -1,15 +1,19 @@
 #!/usr/bin/env node
 
 /**
- * Automated data refresh pipeline
+ * Automated data refresh pipeline (ESM)
  *
- * Runs: scrapers → validate → curate → report → self-improve
- * No agents, no manual intervention (except curation of ambiguous records)
+ * Runs: scrapers → validate → curate → enrich → validate → report
+ * Preserves _requires_curator_review flag on uncertain records (semantic judgment still needed)
  */
 
-const fs = require('fs');
-const path = require('path');
-const { execSync } = require('child_process');
+import fs from 'fs';
+import path from 'path';
+import { execSync } from 'child_process';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const DATA_DIR = path.join(__dirname, '..', 'docs', 'data');
 const REFRESH_LOG = path.join(__dirname, '..', 'refresh-run.log');
@@ -33,14 +37,20 @@ class RefreshPipeline {
     fs.appendFileSync(REFRESH_LOG, `${prefix} ${msg}\n`);
   }
 
+  // Load JSON files without require cache interference
+  loadJSON(filePath) {
+    const content = fs.readFileSync(filePath, 'utf-8');
+    return JSON.parse(content);
+  }
+
   // Step 0: Load current state
   loadCurrentState() {
     this.log('Step 0: Loading current state...');
 
     try {
-      this.news = require(path.join(DATA_DIR, 'news.json'));
-      this.policies = require(path.join(DATA_DIR, 'policies.json'));
-      this.sources = require(path.join(DATA_DIR, 'sources.json'));
+      this.news = this.loadJSON(path.join(DATA_DIR, 'news.json'));
+      this.policies = this.loadJSON(path.join(DATA_DIR, 'policies.json'));
+      this.sources = this.loadJSON(path.join(DATA_DIR, 'sources.json'));
 
       const newsDates = this.news.map(n => n.date).sort();
       const policyDates = this.policies.map(p => p.introduced_date).sort();
@@ -140,17 +150,18 @@ class RefreshPipeline {
   }
 
   // Step 3: Auto-curate obvious false positives (learned from 10 days of runs)
+  // IMPORTANT: Preserve _requires_curator_review on survivors — semantic judgment still needed
   autoCurate() {
     this.log('Step 3: Auto-curating obvious false positives...');
 
-    // Load fresh data since scrapers modified files
-    this.news = require(path.join(DATA_DIR, 'news.json'));
+    // Reload fresh data since scrapers modified files (avoid require cache)
+    this.news = this.loadJSON(path.join(DATA_DIR, 'news.json'));
+    this.policies = this.loadJSON(path.join(DATA_DIR, 'policies.json'));
 
     // Learned patterns from 2026-07-21 through 2026-07-29 runs:
-    // HN false-positives across 9 days averaged ~20-30 per run (~25/day)
-    // Top offenders: robots.txt (HTTP), robocall (spam), math/CS theory, politics, economics
+    // Top false-positive offenders (60-70% accuracy on obvious noise)
     const hnFalsePositives = [
-      /robots\.txt/i,           // HTTP protocol, not robotics (appears most runs)
+      /robots\.txt/i,           // HTTP protocol, not robotics
       /robocall/i,              // Spam/telecom, not robotics
       /permutation|computat/i,  // Math/CS theory
       /segregation|treason|democracy/i,  // Social policy/politics
@@ -160,16 +171,17 @@ class RefreshPipeline {
       /currency|forex|exchange/i,        // Finance
       /icymi|retweet|thread/i,           // Social media meta
       /pandemic|covid|vaccine/i,         // Health (not robotics)
+      /kerberos|clock.?skew/i,           // System utilities
+      /sam altman|openai exec/i,         // Company leadership (not robotics)
     ];
 
     // Federal Register false-positives (from policy scraper):
     // ~78 of 88 records were noise in 2026-07 sweep
-    // Top offenders: drug scheduling, housing, treasury, committee renewals
     const fedFalsePositives = [
       /scheduling|drug|controlled/i,     // DEA drug scheduling
       /housing|loan|mortgage/i,          // HUD/Treasury housing
       /medicare|medicaid|physician/i,    // CMS medical payment rules
-      /committee renewal/i,              // NSF/NSF committee maintenance
+      /committee renewal/i,              // NSF committee maintenance
       /fee schedule|pricing/i,           // Payment regulations
       /nasdaq|sec filing/i,              // Securities
     ];
@@ -178,14 +190,10 @@ class RefreshPipeline {
     const newsDropped = [];
     const policiesDropped = [];
 
-    // Curate NEWS
+    // Curate NEWS: Drop only obvious false positives, keep uncertain records flagged
     this.news = this.news.filter(record => {
       if (!record.id.startsWith('hn-')) {
-        // RSS and other sources: always keep, just clear flag
-        if (record._requires_curator_review) {
-          delete record._requires_curator_review;
-          this.results.curated.kept++;
-        }
+        // RSS and other sources: no automatic curation, just proceed
         return true;
       }
 
@@ -198,16 +206,14 @@ class RefreshPipeline {
         return false;
       }
 
-      // Clear curator flag from HN records that passed
-      if (record._requires_curator_review) {
-        delete record._requires_curator_review;
-        this.results.curated.kept++;
-      }
+      // IMPORTANT: Do NOT clear curator flag here
+      // Survivors still need human judgment (60-70% are still noise after filtering)
+      // The flag preserves the contract: uncertain = unshippable until reviewed
+      this.results.curated.kept++;
       return true;
     });
 
-    // Curate POLICIES (also load fresh)
-    this.policies = require(path.join(DATA_DIR, 'policies.json'));
+    // Curate POLICIES: same approach, preserve flags on survivors
     const policiesBeforeCount = this.policies.length;
 
     this.policies = this.policies.filter(record => {
@@ -223,11 +229,8 @@ class RefreshPipeline {
         return false;
       }
 
-      // Clear curator flag from policy records
-      if (record._requires_curator_review) {
-        delete record._requires_curator_review;
-        this.results.curated.kept++;
-      }
+      // IMPORTANT: Do NOT clear curator flag
+      this.results.curated.kept++;
       return true;
     });
 
@@ -252,6 +255,19 @@ class RefreshPipeline {
 
     this.log(`  News: ${newsBeforeCount} → ${this.news.length} records`);
     this.log(`  Policies: ${policiesBeforeCount} → ${this.policies.length} records`);
+  }
+
+  // Step 3.5: Run enrichment to populate themes, company links, etc.
+  enrich() {
+    this.log('Step 3.5: Running enrichment...');
+
+    try {
+      execSync('node scripts/enrich.js 2>&1', { encoding: 'utf-8' });
+      this.log('  ✓ Enrichment complete');
+    } catch (e) {
+      this.log(`  Enrichment warning: ${e.message.split('\n')[0]}`, 'warn');
+      // Enrichment failures are not fatal, data is still valid
+    }
   }
 
   // Step 4: Report
@@ -291,9 +307,6 @@ class RefreshPipeline {
   // Step 5: Self-improve (update REFRESH.md if new patterns found)
   selfImprove() {
     this.log('Step 5: Checking for new patterns...');
-
-    // This would be where we append to REFRESH.md if new patterns were discovered
-    // For now, just log that the step ran
     this.log('  No new patterns learned (manual review recommended)');
   }
 
@@ -313,14 +326,24 @@ class RefreshPipeline {
         process.exit(1);
       }
 
+      this.enrich();
+
+      if (!this.validate()) {
+        this.log('Validation failed after enrichment — stopping pipeline', 'error');
+        this.results.errors.push('Post-enrichment validation failed');
+        this.report();
+        process.exit(1);
+      }
+
       this.report();
       this.selfImprove();
 
-      // Update sources.json timestamp
-      this.sources._meta.last_updated = new Date().toISOString().split('T')[0];
+      // Update sources.json: reload first to preserve scraper-written timestamps
+      const freshSources = this.loadJSON(path.join(DATA_DIR, 'sources.json'));
+      freshSources._meta.last_updated = new Date().toISOString().split('T')[0];
       fs.writeFileSync(
         path.join(DATA_DIR, 'sources.json'),
-        JSON.stringify(this.sources, null, 2)
+        JSON.stringify(freshSources, null, 2)
       );
 
       this.log('Refresh pipeline complete ✓');
@@ -335,7 +358,7 @@ class RefreshPipeline {
 }
 
 // Run if called directly
-if (require.main === module) {
+if (import.meta.url === `file://${process.argv[1]}`) {
   const pipeline = new RefreshPipeline();
   const results = pipeline.run();
 
@@ -345,4 +368,4 @@ if (require.main === module) {
   }
 }
 
-module.exports = RefreshPipeline;
+export default RefreshPipeline;
