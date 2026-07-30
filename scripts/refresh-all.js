@@ -266,8 +266,10 @@ class RefreshPipeline {
       execSync('node scripts/enrich.js 2>&1', { encoding: 'utf-8' });
       this.log('  ✓ Enrichment complete');
     } catch (e) {
-      this.log(`  Enrichment warning: ${e.message.split('\n')[0]}`, 'warn');
-      // Enrichment failures are not fatal, data is still valid
+      // Enrichment is a required pipeline stage — relationships must be populated
+      const msg = `Enrichment failed: ${e.message.split('\n')[0]}`;
+      this.log(`  ${msg}`, 'error');
+      this.results.errors.push(msg);
     }
   }
 
@@ -349,6 +351,12 @@ class RefreshPipeline {
       );
 
       this.log('Refresh pipeline complete ✓');
+
+      // Exit nonzero if there were errors (scrapers failed, enrichment failed, etc.)
+      if (this.results.errors.length > 0) {
+        this.log(`Pipeline exiting with ${this.results.errors.length} error(s)`, 'error');
+        process.exit(1);
+      }
 
       // Return results for potential CI/CD use
       return this.results;
