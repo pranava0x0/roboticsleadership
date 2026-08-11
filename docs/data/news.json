@@ -1,5 +1,405 @@
 [
   {
+    "id": "fedreg-news-2026-16231",
+    "title": "9-11 Response and Biometric Entry-Exit Fee for H-1B and L-1 Visas",
+    "date": "2026-08-10",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/10/2026-16231/9-11-response-and-biometric-entry-exit-fee-for-h-1b-and-l-1-visas",
+    "summary": "The Department of Homeland Security (DHS) is amending the regulations concerning the 9-11 Response and Biometric Entry-Exit Fee for certain H-1B and L-1 Visas (9-11 Biometric Fee). The regulatory chan...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49242651",
+    "title": "Humanity renamed genes because of Excel",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://davidemornatta.it/excel-genes",
+    "summary": "Humanity renamed genes because of Excel",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49243474",
+    "title": "Humanising LLM Outputs Is Dumb",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
+    "summary": "Humanising LLM Outputs Is Dumb",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49220461",
+    "title": "Hardware-Rooted Control for Alternative App Stores",
+    "date": "2026-08-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://zenodo.org/records/21839301",
+    "summary": "Hardware-Rooted Control for Alternative App Stores",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49233044",
+    "title": "The Lymphaterian Formula",
+    "date": "2026-08-09",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.scribd.com/document/533666733/Stanislaw-Lem-Formula-Lymphatera",
+    "summary": "The Lymphaterian Formula",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49240341",
+    "title": "Are AI agents our industry's industrial robots?",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.marcusoft.net/2026/08/ai-robots.html",
+    "summary": "Are AI agents our industry's industrial robots?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49240943",
+    "title": "Open knowledge-base (domain to KB)",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/mo-root/open-kb",
+    "summary": "Open knowledge-base (domain to KB)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49243537",
+    "title": "Amazon DynamoDB now supports real-time vector search at any scale",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
+    "summary": "Amazon DynamoDB now supports real-time vector search at any scale",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49243880",
+    "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+    "summary": "https://archive.is/20LOJhttps://www.meta.com/thefutureisforeveryone/",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49246804",
+    "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://cactuscompute.com/needle",
+    "summary": "Hey HN,Henry from Cactus here!We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microco",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49249449",
+    "title": "Chronexis – crash reports that include the root cause and a patch",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://chronexis-web.onrender.com",
+    "summary": "Chronexis – crash reports that include the root cause and a patch",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49249687",
+    "title": "Font looks perfectly normal to humans but wreaks havoc on AI",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.fastcompany.com/91585494/this-font-looks-perfectly-normal-to-humans-but-confuses-ai",
+    "summary": "Font looks perfectly normal to humans but wreaks havoc on AI",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49249792",
+    "title": "Will Taiwan Fight China? Just Ask Its People",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.wsj.com/world/asia/will-taiwan-fight-china-just-ask-its-people-a6e358eb",
+    "summary": "Will Taiwan Fight China? Just Ask Its People",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49250440",
+    "title": "AI framework rooted in cognitive science could complete tasks more efficiently",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://techxplore.com/news/2026-07-ai-framework-rooted-cognitive-science.html",
+    "summary": "AI framework rooted in cognitive science could complete tasks more efficiently",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49252915",
+    "title": "TLabel – A unified annotation format and converter for tactile robotics datasets",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/liesliy/tlabel",
+    "summary": "TLabel – A unified annotation format and converter for tactile robotics datasets",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49255068",
+    "title": "Autonomous robots are much closer than you think – Sergey Levine [video]",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=48pxVdmkMIE",
+    "summary": "Autonomous robots are much closer than you think – Sergey Levine [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49255188",
+    "title": "Updating Robots in the Field",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://blog.bensoussan.de/post/2026-08-11-updating-robots-in-the-field/",
+    "summary": "Updating Robots in the Field",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49255425",
+    "title": "ArchAgent v2: A Case Study with the Data Prefetching Championship",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2608.09874",
+    "summary": "ArchAgent v2: A Case Study with the Data Prefetching Championship",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49255439",
+    "title": "Python Repetition Structures: An Eye-Tracking Study with Novice Developers",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2608.09875",
+    "summary": "Python Repetition Structures: An Eye-Tracking Study with Novice Developers",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49255598",
+    "title": "2,500 Companies and 434,000 Pipelines Exposed – Largest AI Supply Chain Breach",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.cloudsek.com/blog/ai-supply-chain-breach-2500-companies-434000-cicd-pipelines",
+    "summary": "2,500 Companies and 434,000 Pipelines Exposed – Largest AI Supply Chain Breach",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-49238925",
     "title": "A deep dive on humanoid hardware",
     "date": "2026-08-10",
