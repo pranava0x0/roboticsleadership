@@ -182,6 +182,20 @@ If nothing new was learned, skip the edit and say so. This is what keeps the ski
 ## Learned patterns
 <!-- Auto-maintained by Step 5. Newest first. Keep each entry to 1-2 sentences. -->
 
+- **2026-08-10 (refresh run, web-search-only, no browser)** — All 3 Federal Register policy hits this
+  run were false positives of a **new noise class**: a Foreign-Trade Zone production-activity notice
+  (Abbott diagnostics, `robot` never appears — matched on something else in the doc), a hazmat/battery
+  Materials-of-Trade rule for landscaping/construction crews, and a DHS H-1B/L-1 biometric visa fee
+  rule. None mention robotics; same "traceable but irrelevant" class as the fee-schedule/committee-
+  renewal noise already logged, just different subject areas — Federal Register's `term=robotics`
+  match is broad enough that almost any policy area can surface once. Of 27 HN-flagged news records,
+  13 were on-thesis (6 trade-RSS-adjacent HN posts incl. a Knightscope/security-robot deep dive that
+  read as noise from the title alone — "Roboguard" — until checked; Waymo robotaxi is an established
+  on-site category, not a borderline call) and 14 were noise (Excel/genetics, a 1970s Lem sci-fi essay,
+  WSJ Taiwan geopolitics with no robotics angle, DynamoDB, Zuckerberg/Meta, an edge-LLM Show HN that
+  only tangentially lists "robots" among five target platforms). **Lesson: don't drop an HN title just
+  because it reads generic — check the source URL/summary before pruning; "Roboguard" would have been
+  wrongly cut on title vibes alone.**
 - **2026-07-29 (refresh run 10:51am)** — **Hacker News false-positive culling: the 30 HN records ingested this run included 11 pure noise** (robots.txt HTTP protocol, robocall spam, math proofs, generic AI/politics) that matched "robot/robotics" but had zero relevance; all were curated out. The quality RSS feeds (IEEE, TechCrunch, Robot Report) contributed 11 on-topic records with no curation needed. **Lesson: HN low-precision requires curator review every run — don't try to automate the gate.** Also: Reddit returned 403 (expected), Federal Register API returned 503 (transient).
 - **2026-07-29** — **The list is public to read but X still gates list *timelines* behind login for logged-out visitors**, so the in-app browser hits the sign-in wall on `x.com/i/lists/<id>` and only claude-in-chrome (the owner's session) can harvest it. Corollary learned the hard way: **claude-in-chrome returning "not connected" is usually transient — retry before reporting the harvest blocked.** It failed twice, was written up as unavailable, and then connected on the first retry.
 - **2026-07-29** — The `computer`-tool scroll pattern from 2026-07-27 works exactly as documented: 6 scroll+wait batches (10 ticks, 1.5s) took the list from 5 to 33 posts with no stalls. Harvest between batches, then filter in-page with the robotics regex and pull matches in slices of ~4 with text truncated to ~320 chars — the tool result silently truncates long JSON. **Expect the list to be dominated by one story on a big news day** (this run: ~15 of 23 matches were the FCC Covered List action), which is itself signal: it independently confirmed the record already authored from primary sources, and only one genuinely new item (Tau Robotics' SF cleaning launch) came out of 33 posts. Budget the sweep accordingly — it is a confirmation and long-tail tool, not a primary discovery channel.
