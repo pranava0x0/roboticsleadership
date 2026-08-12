@@ -1,5 +1,524 @@
 [
   {
+    "id": "fedreg-news-2026-16231",
+    "title": "9-11 Response and Biometric Entry-Exit Fee for H-1B and L-1 Visas",
+    "date": "2026-08-10",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/10/2026-16231/9-11-response-and-biometric-entry-exit-fee-for-h-1b-and-l-1-visas",
+    "summary": "The Department of Homeland Security (DHS) is amending the regulations concerning the 9-11 Response and Biometric Entry-Exit Fee for certain H-1B and L-1 Visas (9-11 Biometric Fee). The regulatory chan...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49242651",
+    "title": "Humanity renamed genes because of Excel",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://davidemornatta.it/excel-genes",
+    "summary": "Humanity renamed genes because of Excel",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49243474",
+    "title": "Humanising LLM Outputs Is Dumb",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
+    "summary": "Humanising LLM Outputs Is Dumb",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49249449",
+    "title": "Chronexis – crash reports that include the root cause and a patch",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://chronexis-web.onrender.com",
+    "summary": "Chronexis – crash reports that include the root cause and a patch",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49249687",
+    "title": "Font looks perfectly normal to humans but wreaks havoc on AI",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.fastcompany.com/91585494/this-font-looks-perfectly-normal-to-humans-but-confuses-ai",
+    "summary": "Font looks perfectly normal to humans but wreaks havoc on AI",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49249792",
+    "title": "Will Taiwan Fight China? Just Ask Its People",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.wsj.com/world/asia/will-taiwan-fight-china-just-ask-its-people-a6e358eb",
+    "summary": "Will Taiwan Fight China? Just Ask Its People",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49250440",
+    "title": "AI framework rooted in cognitive science could complete tasks more efficiently",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://techxplore.com/news/2026-07-ai-framework-rooted-cognitive-science.html",
+    "summary": "AI framework rooted in cognitive science could complete tasks more efficiently",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49255425",
+    "title": "ArchAgent v2: A Case Study with the Data Prefetching Championship",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2608.09874",
+    "summary": "ArchAgent v2: A Case Study with the Data Prefetching Championship",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49255439",
+    "title": "Python Repetition Structures: An Eye-Tracking Study with Novice Developers",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2608.09875",
+    "summary": "Python Repetition Structures: An Eye-Tracking Study with Novice Developers",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49255598",
+    "title": "2,500 Companies and 434,000 Pipelines Exposed – Largest AI Supply Chain Breach",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.cloudsek.com/blog/ai-supply-chain-breach-2500-companies-434000-cicd-pipelines",
+    "summary": "2,500 Companies and 434,000 Pipelines Exposed – Largest AI Supply Chain Breach",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49258898",
+    "title": "A Lightweight Rootless Container Sandbox for Claude Code and Codex",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://medium.com/@Koukyosyumei/h5i-a-lightweight-rootless-container-sandbox-for-claude-code-and-codex-e9a9eb0cf71e",
+    "summary": "A Lightweight Rootless Container Sandbox for Claude Code and Codex",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49259820",
+    "title": "Harvesting Ethereum Traces Without an Archive Node",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://fables-for-robots.ch/blog/harvesting-ethereum-traces-without-an-archive-node/",
+    "summary": "Harvesting Ethereum Traces Without an Archive Node",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49260210",
+    "title": "A New Type of Levee Is Taking Root in Northern California",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://grist.org/solutions/a-new-type-of-levee-is-taking-root-in-northern-california/",
+    "summary": "A New Type of Levee Is Taking Root in Northern California",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49260240",
+    "title": "Show HN: Username.md – a signed, agent-readable identity page you own",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://username.md/",
+    "summary": "Hi HN. I'm Chris Bergeron, an SRE by profession but a general technologist in my spare time. Projects I've built have been featured in books, frontpaged on news aggregators and chronicled on",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49260947",
+    "title": "Change Your Root: Chroot Basics",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://labs.iximiuz.com/tutorials/change-your-root-chroot-basics-1cef74c2",
+    "summary": "Change Your Root: Chroot Basics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49261356",
+    "title": "Why Americans fear getting old",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://inews.co.uk/news/world/america-cant-afford-to-retire-4478290",
+    "summary": "Why Americans fear getting old",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49261587",
+    "title": "Projected economic gains and lives saved under universal healthcare in the US",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.22.26358689v1",
+    "summary": "Projected economic gains and lives saved under universal healthcare in the US",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49263437",
+    "title": "Misaligned AIs could use killer robots to take over",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.lesswrong.com/posts/9jKhqmFjMzdAvHANr/misaligned-ais-could-use-killer-robots-to-take-over",
+    "summary": "Misaligned AIs could use killer robots to take over",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49265278",
+    "title": "The Last Generation of Mathematicians",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=6uIJdXmB4vE",
+    "summary": "The Last Generation of Mathematicians",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49265362",
+    "title": "Is A.I. A Massive Lie?",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=4xztOygLnNk",
+    "summary": "Is A.I. A Massive Lie?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49265567",
+    "title": "Unauthenticated Root Access to the Enphase IQ Gateway",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://j027.net/enphase-rce/",
+    "summary": "Unauthenticated Root Access to the Enphase IQ Gateway",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49267560",
+    "title": "Rootless Container Sandbox for Claude Code and Codex",
+    "date": "2026-08-12",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vm2w0e/a_lightweight_rootless_container_sandbox_for/",
+    "summary": "Rootless Container Sandbox for Claude Code and Codex",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49269363",
+    "title": "More on Robotaxis",
+    "date": "2026-08-12",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://blog.dshr.org/2026/08/more-on-robotaxis.html",
+    "summary": "More on Robotaxis",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49269789",
+    "title": "Beef and dairy drive 41% of biodiversity damage linked to global farmland",
+    "date": "2026-08-12",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.oxfordmartin.ox.ac.uk/news/beef-and-dairy-drive-41-of-biodiversity-damage-linked-to-global-farmland",
+    "summary": "Beef and dairy drive 41% of biodiversity damage linked to global farmland",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49269818",
+    "title": "Facebook is paying controversial creators to produce rage-bait content",
+    "date": "2026-08-12",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.abc.net.au/news/2026-08-06/ragebait-how-facebook-is-paying-controversial-creators/106940696",
+    "summary": "Facebook is paying controversial creators to produce rage-bait content",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-daf-trucks-to-integrate-einrid-381",
+    "title": "DAF Trucks to integrate Einride Driver to scale autonomous electric freight",
+    "date": "2026-08-12",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/daf-trucks-integrates-einride-driver-scale-autonomous-electric-freight/",
+    "summary": "Einride is integrating its self-driving software with PACCAR unit DAF Trucks and research at TNO to advance safe autonomous trucking.\nThe post DAF Trucks to integrate Einride Driver to scale autonomou...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-49246804",
     "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
     "date": "2026-08-10",
