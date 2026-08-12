@@ -1,5 +1,180 @@
 [
   {
+    "id": "hn-49246804",
+    "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+    "date": "2026-08-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://cactuscompute.com/needle",
+    "summary": "Hey HN,Henry from Cactus here!We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microco",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "foundation-models"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49252915",
+    "title": "TLabel – A unified annotation format and converter for tactile robotics datasets",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/liesliy/tlabel",
+    "summary": "TLabel – A unified annotation format and converter for tactile robotics datasets",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49255068",
+    "title": "Autonomous robots are much closer than you think – Sergey Levine [video]",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=48pxVdmkMIE",
+    "summary": "Autonomous robots are much closer than you think – Sergey Levine [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49255188",
+    "title": "Updating Robots in the Field",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://blog.bensoussan.de/post/2026-08-11-updating-robots-in-the-field/",
+    "summary": "Updating Robots in the Field",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49257161",
+    "title": "What the FCC Ban on Foreign-Made Robot Vacuums Means for U.S. Consumers",
+    "date": "2026-08-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.consumerreports.org/appliances/vacuum-cleaners/foreign-made-robot-vacuums-fcc-ban-a9842224597/",
+    "summary": "What the FCC Ban on Foreign-Made Robot Vacuums Means for U.S. Consumers",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-the-370-billion-dollar-race-ho-919",
+    "title": "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market",
+    "date": "2026-08-11",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/",
+    "summary": "The future of humanoid robotics is closer than most people realize.\nThe post The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market appe...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-webinar-to-discuss-safety-and-536",
+    "title": "Webinar to discuss safety and scaling robot fleets in the warehouse",
+    "date": "2026-08-11",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/webinar-to-discuss-safety-scaling-robot-fleets-warehouse/",
+    "summary": "Industry experts will discuss how to scale mobile robots in the warehouse while maintaining both safety and productivity.\nThe post Webinar to discuss safety and scaling robot fleets in the warehouse a...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-plusai-reaches-key-milestones-286",
+    "title": "PlusAI reaches key milestones ahead of launching its autonomous trucks",
+    "date": "2026-08-11",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/plusai-reaches-key-milestones-ahead-launch-autonomous-trucks/",
+    "summary": "Since the start of the year, PlusAI said it has improved the safety validation, operational maturity, and efficiency of SuperDrive.\nThe post PlusAI reaches key milestones ahead of launching its autono...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-defense-drone-developer-cambri-233",
+    "title": "Defense drone developer Cambridge Aerospace raises $300M",
+    "date": "2026-08-11",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/defense-drone-developer-cambridge-aerospace-raises-300m/",
+    "summary": "The round comes just months after the Cambridge Aerospace's $200 million Series B funding in April.\nThe post Defense drone developer Cambridge Aerospace raises $300M appeared first on The Robot Report...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "defense-procurement"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "hn-49238925",
     "title": "A deep dive on humanoid hardware",
     "date": "2026-08-10",
@@ -160,7 +335,9 @@
     "category": "Research",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -196,7 +373,10 @@
     "category": "Funding",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "defense-procurement",
+      "industrial-deployments"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -212,9 +392,14 @@
     "source_url": "https://www.therobotreport.com/robostore-launches-robo-inc-to-help-u-s-organizations-deploy-robots/",
     "summary": "RoboStore, a distributor of Unitree's legged robots, has launched Robo Inc. to serve as a U.S.-based manufacturer and integrator.\nThe post RoboStore launches Robo Inc. to help U.S. organizations deplo...",
     "category": "Deployment",
-    "companies": [],
+    "companies": [
+      "unitree"
+    ],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -512,7 +697,9 @@
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -530,7 +717,9 @@
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "defense-procurement"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -584,7 +773,9 @@
     "category": "Funding",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -601,7 +792,9 @@
     "summary": "Teachers decry plan for humanoid robot in New York high school",
     "category": "Competitive",
     "companies": [],
-    "policies": [],
+    "policies": [
+      "ny-rd-credit"
+    ],
     "themes": [],
     "sentiment": "Neutral",
     "confidence": "Low",
@@ -736,7 +929,9 @@
     "summary": "New York school pauses plan to deploy humanlike AI robot teacher after backlash",
     "category": "Deployment",
     "companies": [],
-    "policies": [],
+    "policies": [
+      "ny-rd-credit"
+    ],
     "themes": [
       "industrial-deployments"
     ],
@@ -2693,7 +2888,8 @@
     "companies": [],
     "policies": [],
     "themes": [
-      "industrial-deployments"
+      "industrial-deployments",
+      "policy-momentum"
     ],
     "sentiment": "Neutral",
     "confidence": "Medium",
@@ -3149,7 +3345,9 @@
     "source_url": "https://opportunityinsights.org/wp-content/uploads/2018/10/atlas_paper.pdf",
     "summary": "The Opportunity Atlas: Mapping the Childhood Roots of Social Mobility [pdf]",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "boston-dynamics"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -5425,7 +5623,9 @@
     "source_url": "https://www.atlasofhumanity.org",
     "summary": "Atlas of Humanity",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "boston-dynamics"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -5659,7 +5859,9 @@
     "category": "Policy",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Low",
     "tags": [
@@ -5791,7 +5993,9 @@
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "foundation-models"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -9553,7 +9757,9 @@
     "source_url": "https://www.therobotreport.com/hello-robot-is-recognized-by-world-economic-forum-as-a-tech-pioneer/",
     "summary": "The World Economic Forum has honored Hello Robot, whose Stretch system provides mobile manipulation to older adults and people with disabilities.\nThe post Hello Robot is recognized by World Economic F...",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "boston-dynamics"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -9838,7 +10044,9 @@
     "source_url": "https://www.latimes.com/business/story/2026-06-10/tesla-robotaxis-stall-as-musks-self-driving-hype-hits-real-world-traffic",
     "summary": "Tesla robotaxis stall as Musk's self-driving hype hits real-world traffic",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "tesla-optimus"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -9859,7 +10067,9 @@
     "category": "Policy",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "policy-momentum"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -10181,7 +10391,9 @@
     "source_url": "https://www.therobotreport.com/walmart-wing-add-7-markets-in-drone-delivery-expansion/",
     "summary": "Wing plans to bring drone deliveries to Memphis, New Orleans, Philadelphia, Phoenix, San Diego, San Francisco, and Salt Lake City.\nThe post Walmart, Wing add 7 markets in drone delivery expansion appe...",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "sanctuary-ai"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -11880,7 +12092,9 @@
     "source_url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
     "summary": "The California startup released the fourth-generation of its home assistance robot, Stretch.",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "boston-dynamics"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -12895,7 +13109,9 @@
     "source_url": "https://electrek.co/2026/06/02/tesla-patents-camera-wiper-self-driving-robotaxi/",
     "summary": "Tesla patents camera wiper for self-driving resulting in more doubts FSD owners",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "tesla-optimus"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -13681,7 +13897,9 @@
     "source_url": "https://spectrum.ieee.org/video-friday-humanoid-robot-learning",
     "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
     "category": "Policy",
-    "companies": [],
+    "companies": [
+      "boston-dynamics"
+    ],
     "policies": [],
     "themes": [
       "policy-momentum"

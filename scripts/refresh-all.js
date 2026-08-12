@@ -160,8 +160,8 @@ class RefreshPipeline {
     this.news = this.loadJSON(path.join(DATA_DIR, 'news.json'));
     this.policies = this.loadJSON(path.join(DATA_DIR, 'policies.json'));
 
-    // Learned patterns from 2026-07-21 through 2026-07-29 runs:
-    // Top false-positive offenders (60-70% accuracy on obvious noise)
+    // Learned patterns from 2026-07-21 through 2026-08-12 runs:
+    // Top false-positive offenders (consistent noise filters)
     const hnFalsePositives = [
       /robots\.txt/i,           // HTTP protocol, not robotics
       /robocall/i,              // Spam/telecom, not robotics
@@ -175,10 +175,26 @@ class RefreshPipeline {
       /pandemic|covid|vaccine/i,         // Health (not robotics)
       /kerberos|clock.?skew/i,           // System utilities
       /sam altman|openai exec/i,         // Company leadership (not robotics)
+      /humanising|humanizing.*llm/i,     // LLM philosophy, not robotics
+      /gene|genetic|biology/i,           // Biology, not robotics
+      /font|typography|visual/i,         // Design, not robotics
+      /eye.?tracking|python.*repetition|novice.*developer/i,  // Education/HCI, not robotics
+      /dynamodb|database|prefetch|memory.*optimization/i,  // Infrastructure, not robotics
+      /visa|h.?1.?b|immigration|biometric.*entry/i,  // Immigration policy, not robotics tech
+      /chroot|rootless|root.*access|taking root/i,  // Linux/infrastructure puns, not robotics
+      /zuckerberg|meta.*open|meta.*model/i,  // Corporate AI policy, not robotics
+      /ethereum|cryptocurrency|blockchain/i,  // Finance/crypto, not robotics
+      /healthcare|universal.*healthcare|doctor|physician/i,  // Healthcare policy, not robotics
+      /sandbox.*claude|sandbox.*code|dev.*tool/i,  // Dev tools, not robotics
+      /supply.*chain.*breach|pipeline.*exposed/i,  // General security, not robotics tech
+      /ai.*massive.*lie|philosophy|existential/i,  // AI philosophy, not robotics
+      /levee|civil.*engineer|infrastructure/i,  // Civil engineering, not robotics
+      /identity.*page|signed.*identity/i,  // Web identity, not robotics
+      /fear.*old|aging|americana/i,  // Social commentary, not robotics
     ];
 
     // Federal Register false-positives (from policy scraper):
-    // ~78 of 88 records were noise in 2026-07 sweep
+    // Common noise patterns in scraped policies
     const fedFalsePositives = [
       /scheduling|drug|controlled/i,     // DEA drug scheduling
       /housing|loan|mortgage/i,          // HUD/Treasury housing
@@ -186,6 +202,9 @@ class RefreshPipeline {
       /committee renewal/i,              // NSF committee maintenance
       /fee schedule|pricing/i,           // Payment regulations
       /nasdaq|sec filing/i,              // Securities
+      /visa|h.?1.?b|immigration|biometric.*entry/i,  // Immigration policy
+      /foreign.*trade.*zone|ftz/i,       // Trade zone notifications
+      /medical.*device|diagnostic/i,     // Medical devices, not robotics policy
     ];
 
     const newsBeforeCount = this.news.length;

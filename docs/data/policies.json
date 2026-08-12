@@ -2890,7 +2890,9 @@
       "federal-register",
       "federal"
     ],
-    "themes": [],
+    "themes": [
+      "cost-trajectory"
+    ],
     "sources": [
       {
         "url": "https://www.federalregister.gov/documents/2026/07/07/2026-13656/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment"
@@ -3066,7 +3068,10 @@
       "federal-register",
       "federal"
     ],
-    "themes": [],
+    "themes": [
+      "defense-procurement",
+      "policy-momentum"
+    ],
     "sources": [
       {
         "url": "https://www.federalregister.gov/documents/2026/07/30/2026-15418/seeking-comment-on-prohibiting-the-importation-and-marketing-of-certain-covered-uas-and-uas-critical"
