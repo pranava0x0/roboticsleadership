@@ -1,5 +1,348 @@
 [
   {
+    "id": "neura-robotics-active-shuttle-2026-08",
+    "title": "NEURA Robotics acquires Bosch Rexroth's ACTIVE Shuttle AMR line",
+    "date": "2026-08-13",
+    "source": "Tech.eu",
+    "source_type": "News",
+    "source_url": "https://tech.eu/2026/08/13/neura-robotics-acquires-bosch-rexroths-active-shuttle-to-expand-physical-ai-ecosystem/",
+    "summary": "NEURA Robotics will acquire Bosch Rexroth's ACTIVE Shuttle driverless transport system — including its VDA 5050-compatible Fleet Manager and ROKIT navigation stack — effective October 1, taking over hardware, software and customer service. The field-proven AMR handles automated material transport in assembly and logistics; NEURA plans to fold it into NEURA Mobile Robots and its wider Physical AI ecosystem.",
+    "category": "Competitive",
+    "companies": [
+      "neura-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "amr",
+      "acquisition",
+      "logistics-automation",
+      "europe"
+    ]
+  },
+  {
+    "id": "lg-nvidia-humanoid-mou-2026-08",
+    "title": "LG and NVIDIA sign MOU for next-gen humanoid robot built on Isaac GR00T",
+    "date": "2026-08-14",
+    "source": "PR Newswire",
+    "source_type": "News",
+    "source_url": "https://www.prnewswire.com/news-releases/lg-to-unveil-its-next-gen-humanoid-robot-built-on-nvidia-isaac-gr00t-302851652.html",
+    "summary": "LG and NVIDIA signed an MOU (Aug 13, Santa Clara) to build a next-gen bipedal humanoid on NVIDIA Isaac GR00T and Jetson Thor compute, with Halos for Robotics safety and LG Electronics/Innotek/Energy Solution supplying actuators, sensors and batteries; public unveiling targeted for Q1 2027. Separately, LG plans to deploy wheel-based LG CLOiD robots to its Tennessee washing-machine plant this year for real-world validation, plus a NVIDIA Vera Rubin-powered AI factory reference site (H1 2027) and an 80 MW LG AI Factory in Cheonan, South Korea (H1 2028).",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "humanoid",
+      "nvidia",
+      "lg",
+      "manufacturing",
+      "foundation-model"
+    ]
+  },
+  {
+    "id": "hn-49296883",
+    "title": "You can now book two humanoids for our cleaning service in SF",
+    "date": "2026-08-14",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/alexkoch_ai/status/2087947168799977731",
+    "summary": "You can now book two humanoids for our cleaning service in SF",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49269363",
+    "title": "More on Robotaxis",
+    "date": "2026-08-12",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://blog.dshr.org/2026/08/more-on-robotaxis.html",
+    "summary": "More on Robotaxis",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49290296",
+    "title": "Why space is a terrible place to cool a data center",
+    "date": "2026-08-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://thenewstack.io/spacex-and-nvidias-orbital-ai-datacenter-fantasy/",
+    "summary": "Why space is a terrible place to cool a data center",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49291209",
+    "title": "Dyna-2: A Million Hours of Human Video, Zero Robot Frames",
+    "date": "2026-08-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://topicqueue.substack.com/p/a-million-hours-of-human-video-zero",
+    "summary": "Dyna-2: A Million Hours of Human Video, Zero Robot Frames",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49297416",
+    "title": "The Global Humanoid Robotics Ecosystem Is Broader Than Robot Makers",
+    "date": "2026-08-14",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://humanoidanalytics.com/2026/08/13/the-global-humanoid-robotics-ecosystem-is-broader-than-robot-makers/",
+    "summary": "The Global Humanoid Robotics Ecosystem Is Broader Than Robot Makers",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-daf-trucks-to-integrate-einrid-340",
+    "title": "DAF Trucks to integrate Einride Driver to scale autonomous electric freight",
+    "date": "2026-08-12",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/daf-trucks-integrates-einride-driver-scale-autonomous-electric-freight/",
+    "summary": "Einride is integrating its self-driving software with PACCAR unit DAF Trucks and research at TNO to advance safe autonomous trucking.\nThe post DAF Trucks to integrate Einride Driver to scale autonomou...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-celona-launches-orion-agentic-991",
+    "title": "Celona launches Orion agentic wireless platform built for physical AI and robotics",
+    "date": "2026-08-12",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/celona-launches-orion-agentic-wireless-platform-built-for-physical-ai-robotics/",
+    "summary": "Celona launched Celona Orion, a unified agentic platform merging private 5G, Wi-Fi, cellular, and satellite into one network for physical AI.\nThe post Celona launches Orion agentic wireless platform b...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-strengthening-u-s-army-sustain-248",
+    "title": "Strengthening U.S. Army sustainment: TALUS to deliver autonomous distribution",
+    "date": "2026-08-12",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/strengthening-u-s-army-sustainment-talus-to-deliver-autonomous-distribution/",
+    "summary": "A Stratom-led team won a U.S. Army contract to develop TALUS, an autonomous logistics system for contested environments.\nThe post Strengthening U.S. Army sustainment: TALUS to deliver autonomous distr...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-q2-2026-robotics-demand-increa-168",
+    "title": "Q2 2026 robotics demand increased across industries, reports A3",
+    "date": "2026-08-12",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/",
+    "summary": "A3 said that Q2 2026 robotics orders in food, electronics, and healthcare helped offset soft demand from automotive manufacturing.\nThe post Q2 2026 robotics demand increased across industries, reports...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-sew-eurodrive-adds-economy-ser-456",
+    "title": "SEW-EURODRIVE adds economy series to its planetary servo gear unit portfolio",
+    "date": "2026-08-12",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/sew-eurodrive-adds-economy-series-planetary-servo-gear-unit-portfolio/",
+    "summary": "SEW-EURODRIVE's new P1.G, P2.G and P3.G gear units extend its existing PxG family below the P5.G, P6.G, and P7.G precision range.\nThe post SEW-EURODRIVE adds economy series to its planetary servo gear...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-bioflexbot-robot-hand-aims-to-772",
+    "title": "BioflexBot robot hand aims to replicate key human hand motions",
+    "date": "2026-08-13",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/bioflexbot-robot-hand-aims-to-replicate-key-human-hand-motions/",
+    "summary": "Researchers created the BioflexBot, a novel robot that mimics and even exceeds core motions of the hand with a simple design.\nThe post BioflexBot robot hand aims to replicate key human hand motions ap...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-experts-to-discuss-the-state-o-793",
+    "title": "Experts to discuss the state of humanoid robots at RoboBusiness",
+    "date": "2026-08-13",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/experts-discuss-state-humanoid-robots-robobusiness-2026/",
+    "summary": "The RoboBusiness panel will include insights on humanoid robots from Agility, Apptronik, Persona AI, and PSYONIC experts.\nThe post Experts to discuss the state of humanoid robots at RoboBusiness appea...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-arm-institute-calls-for-defens-23",
+    "title": "ARM Institute calls for defense manufacturing technology projects",
+    "date": "2026-08-13",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/arm-institute-calls-for-defense-manufacturing-technology-project/",
+    "summary": "The ARM Institute and the U.S. Department of War are seeking technology project submissions to help rapid U.S. production.\nThe post ARM Institute calls for defense manufacturing technology projects ap...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-mobile-manipulators-and-humano-145",
+    "title": "Mobile manipulators and humanoids: The future of robotics",
+    "date": "2026-08-13",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/mobile-manipulators-and-humanoids/",
+    "summary": "A free download looks at the state of humanoids, including a rundown of current robotics developers and interviews with industry experts.\nThe post Mobile manipulators and humanoids: The future of robo...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-robots-on-wall-street-non-trad-674",
+    "title": "Robots on Wall Street: Non-traditional paths to public markets for robotics companies",
+    "date": "2026-08-14",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/robots-on-wall-street-non-traditional-paths-public-markets-robotics-companies/",
+    "summary": "Agility’s SPAC deal shows there is no one route to a robotics public listing, with SPAC mergers, reverse mergers, and traditional IPOs offering different advantages.\nThe post Robots on Wall Street: No...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-northrop-s-robot-space-mechani-398",
+    "title": "Northrop’s robot space mechanic is a new way to keep satellites at work longer",
+    "date": "2026-08-12",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/08/12/northrops-robot-space-mechanic-is-a-new-way-to-keep-satellites-at-work-longer/",
+    "summary": "The Mission Robotic Vehicle is making the first attempt to attach a new thruster to an aging satellite.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "hn-49246804",
     "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
     "date": "2026-08-10",
