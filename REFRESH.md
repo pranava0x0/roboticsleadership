@@ -37,7 +37,7 @@ Data dir:       docs/data/
 Scrapers:       scripts/scraper-news.js     (RSS + Hacker News + Federal Register → news.json + sources.json)
                 scripts/scraper-policy.js   (Federal Register API → policies.json)
                 scripts/archive-sources.js  (Wayback snapshots; MONTHLY maintenance — run only if asked)
-Curated source: owner's X **PhysicalAI** list (public, 103 members) + bookmarks (@pranava0) — check every refresh (see Step 3b)
+Curated source: owner's X **PhysicalAI** list (public, 129 members as of 2026-08-14, was 103 — membership drifts, re-verify via x.com/pranava0/lists) + bookmarks (@pranava0) — check every refresh (see Step 3b)
 Validator:      scripts/validate.js   ← the eval loop; run after EVERY scrape
 Render layer:   docs/assets/app.js (RT.* helpers) + per-page inline scripts in docs/*.html
 Today's date:   use currentDate from context (do NOT hardcode)
@@ -182,6 +182,12 @@ If nothing new was learned, skip the edit and say so. This is what keeps the ski
 ## Learned patterns
 <!-- Auto-maintained by Step 5. Newest first. Keep each entry to 1-2 sentences. -->
 
+- **2026-08-14 (refresh run)** — **The PhysicalAI list membership drifts over time (103→129 members since 2026-07-27) and the owner may hand you the wrong list URL from memory** — this run the owner first pasted a different list ("Geo energy", 3 members) before the correct one was found. Don't trust a pasted URL or a previously-documented member count at face value: cross-check via `x.com/<owner>/lists` (shows all lists with live member counts) before harvesting, especially if the URL's list title doesn't match "PhysicalAI". The list id itself (`2061938532722311396`) was stable and matches the one already in Key facts.
+- Claude-in-chrome connection failures are still transient — failed 3x this run (spaced across ~10 min of other work, not back-to-back) before connecting; kept working on the energy-company research in the gap rather than blocking on retries.
+- The list feed can genuinely stall mid-scroll (not just the documented programmatic-scroll issue) — after ~5 scroll batches loading new posts fine, 4 consecutive `computer`-tool scrolls returned the identical view. A stray click on tweet content opened an image lightbox and navigated into the single-tweet view — scroll at a coordinate away from card content (e.g. near the right edge of the center column) to avoid this.
+- Of ~30 list posts + 13 bookmarks harvested, only 2 were genuinely new industry news not already in news.json: LG/NVIDIA humanoid-robot MOU (Isaac GR00T, announced the same day) and NEURA Robotics' acquisition of Bosch Rexroth's ACTIVE Shuttle AMR line — both verified via primary sources (PR Newswire, tech.eu/neura-robotics.com) before authoring records. Reconfirms the 2026-07-27 lesson: X is a confirmation/long-tail source, budget accordingly.
+- New non-scraper HN class this run: hobbyist/DIY robotics blog posts (e.g. "SideFX Houdini in a Robot Control Loop") and metaphorical essays using robot-adjacent titles ("A Swarm of Blood Robots" — actually about LLM agents doing genealogy research) — both read as on-topic from the title alone. Checked via WebFetch before pruning; the site's HN curation bar is industry/policy substance, not hobbyist or metaphorical use of robot-related words.
+- **2026-08-14** — `docs/energy.html`'s curated dataset (58→59 entries) took its first addition since the June 2026 sourcing baseline: Gritt (solar-panel-install robots, $32M raised, TechCrunch, July 2026) added to the `solar` section, `REGIONS`, and `CANDIDATES`. `scripts/energy.test.js` is the regression gate for this file — run it after any manual edit to the embedded `SECTIONS`/`REGIONS`/`CANDIDATES` literals.
 - **2026-08-10 (refresh run, web-search-only, no browser)** — All 3 Federal Register policy hits this
   run were false positives of a **new noise class**: a Foreign-Trade Zone production-activity notice
   (Abbott diagnostics, `robot` never appears — matched on something else in the doc), a hazmat/battery
