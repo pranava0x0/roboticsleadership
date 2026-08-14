@@ -2,7 +2,7 @@
 
 A live-updating dashboard consolidating robotics startups, government policy, industry data, and market signals. Built for investors, policymakers, founders, and congressional staffers tracking the robotics acceleration.
 
-**The thesis (adopted 2026-07-09, see `improvement-plan.md`):** America has the AI. China has the scale. Robotics decides who gets both — the site keeps the score. Every page is a chapter of that argument; every chart must move the scoreboard.
+**The thesis (adopted 2026-07-09, reframed 2026-07-17, see `improvement-plan.md`):** Robotics is where America's AI lead meets China's manufacturing lead. Neither side holds both today, and whether either advantage decides the decade is an open question — this site tracks what's measurable and shows its sources. Short form: "Where AI meets the physical world." Every page is a chapter of that argument; every chart must move the scoreboard.
 
 **Stack:** vanilla HTML / CSS / JS + JSON files. No build step, no npm install, no backend. Serve `docs/` from any static host (GitHub Pages, Vercel, Netlify, Cloudflare Pages, or a local `python -m http.server`).
 

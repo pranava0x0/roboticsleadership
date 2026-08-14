@@ -34,7 +34,7 @@ What FAI's report does that we should steal:
 
 > **Robotics is where America's AI lead meets China's manufacturing lead. America leads on AI and capital; China leads on installation and supply chain. Neither side holds both today, and whether either advantage decides the decade is an open question — this site tracks what's measurable, shows its sources, and marks its own judgment calls as judgments.**
 
-Short form (masthead / share card): **"America has the AI. China has the scale. Robotics is where they meet."**
+Short form (masthead / share card): **"Where AI meets the physical world."** (changed 2026-08-14, owner call — the AI/China framing read too much like a settled claim for a strap line)
 
 **Why it was reframed (2026-07-17, owner call).** The original stated contested predictions as settled fact and made a promise the data doesn't keep. Four things went:
 

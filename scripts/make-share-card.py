@@ -65,10 +65,12 @@ EYEBROW = "ROBOTICS LEADERSHIP TRACKER"
 # URLs are secondary press). Both are the site's most-shared copy, so they were
 # the most-repeated versions of claims the site can't support. See
 # improvement-plan.md § The thesis, which this must stay in sync with.
+# Headline changed 2026-08-14: "America has the AI. China has the scale.
+# Robotics is where they meet." read too declarative for a strap line —
+# swapped for the shorter, non-comparative framing (owner call).
 HEADLINE = [
-    ("America has the AI.", TEXT),
-    ("China has the scale.", TEXT),
-    ("Robotics is where they meet.", ACCENT),
+    ("Where AI meets", TEXT),
+    ("the physical world.", ACCENT),
 ]
 FOOTER = "Tracked and cited · primary sources preferred"
 URL = "pranava0x0.github.io/roboticsleadership"
