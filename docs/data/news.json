@@ -1,5 +1,207 @@
 [
   {
+    "id": "hn-49307876",
+    "title": "Robots That Walk and Talk Are Coming to Car Factories",
+    "date": "2026-08-15",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.nytimes.com/2026/08/11/business/humanoid-robots-car-factories.html",
+    "summary": "Robots That Walk and Talk Are Coming to Car Factories",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49318956",
+    "title": "WAIC 2026: a glimpse of embodied AI innovations, humanoid robots [video]",
+    "date": "2026-08-16",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=rgYHEq9_SM0",
+    "summary": "WAIC 2026: a glimpse of embodied AI innovations, humanoid robots [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49321620",
+    "title": "San Mateo County Moves to Regulate Humanoid Robots",
+    "date": "2026-08-16",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.humanoidsdaily.com/news/san-mateo-county-moves-to-regulate-humanoid-robots-threatening-teleoperation-business-models",
+    "summary": "San Mateo County Moves to Regulate Humanoid Robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49331271",
+    "title": "What happens when a kid's robot best friend dies?",
+    "date": "2026-08-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
+    "summary": "What happens when a kid's robot best friend dies?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-why-robots-that-can-t-communic-305",
+    "title": "Why robots that can’t communicate naturally won’t be adopted",
+    "date": "2026-08-15",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
+    "summary": "Gunnar Pétur Hauksson, the co-founder and COO at Treble Technologies, says robotics developers can't overlook the importance of hearing.\nThe post Why robots that can’t communicate naturally won’t be a...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-how-robotics-is-revolutionizin-835",
+    "title": "How robotics is revolutionizing stroke rehabilitation",
+    "date": "2026-08-16",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/",
+    "summary": "Eyal Samuel Shachar, the CEO of Bioxtreme, says the growing synergy of robotics, AI, and human-centered care will improve patient outcomes.\nThe post How robotics is revolutionizing stroke rehabilitati...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-gravis-robotics-raises-200m-fo-481",
+    "title": "Gravis Robotics raises $200M for autonomous construction",
+    "date": "2026-08-17",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/",
+    "summary": "Gravis Robotics has designed autonomy AI and hardware for a wide range of excavators and construction equipment and plans to scale globally.\nThe post Gravis Robotics raises $200M for autonomous constr...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-how-generalist-uses-human-demo-871",
+    "title": "How Generalist uses human demonstration data for robot learning",
+    "date": "2026-08-17",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-learning/",
+    "summary": "Research around the Universal Manipulation Interface is enabling Generalist, Walden Robotics, and others to turn data into robot behaviors.\nThe post How Generalist uses human demonstration data for ro...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-surgeons-use-da-vinci-surgical-188",
+    "title": "Surgeons use da Vinci surgical robot to perform common cardiac surgery",
+    "date": "2026-08-17",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/surgeons-use-da-vinci-surgical-robot-perform-common-cardiac-surgery/",
+    "summary": "At the El Camino Health Heart and Vascular Institute, surgeons are now performing cardiac procedures with Intuitive's da Vinci robot.\nThe post Surgeons use da Vinci surgical robot to perform common ca...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-five-years-of-operation-shape-382",
+    "title": "Five years of operation shape Diligent Robotics rollout of Moxi 2.0",
+    "date": "2026-08-17",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi-2-0/",
+    "summary": "Diligent is now rolling out Moxi 2.0 to health systems including Endeavor Health Edward Hospital and Children’s Hospital Los Angeles.\nThe post Five years of operation shape Diligent Robotics rollout o...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-is-shipyard-welding-the-right-139",
+    "title": "Is Shipyard Welding the Right First Job for Humanoid Robots?",
+    "date": "2026-08-17",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding",
+    "summary": "Humanoids desperately need to stop making YouTube videos and get a job already, and Persona AI is one of the few humanoid companies which seems to be entirely focused on making that happen. Persona’s ...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "neura-robotics-active-shuttle-2026-08",
     "title": "NEURA Robotics acquires Bosch Rexroth's ACTIVE Shuttle AMR line",
     "date": "2026-08-13",

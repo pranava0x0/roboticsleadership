@@ -17,6 +17,7 @@ docs/                  static site, publish root
   policies.html        federal bills, agencies, state incentives (collapsible sections)
   states.html          state-policy overview (key themes + what's on the books)
   themes.html          deep-dives
+  news.html            news + research items feed (filter/search)
   china.html           US vs. China robotics metrics & comparisons
   supply-chain.html    supply-chain ecosystem, manufacturing, capacity
   energy.html          energy systems & robotics data
