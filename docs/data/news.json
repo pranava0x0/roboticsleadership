@@ -1,5 +1,897 @@
 [
   {
+    "id": "fedreg-news-2026-17039",
+    "title": "Small Business Size Standards: Revised Size Standards Methodology",
+    "date": "2026-08-20",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/20/2026-17039/small-business-size-standards-revised-size-standards-methodology",
+    "summary": "The U.S. Small Business Administration (SBA or Agency) advises the public that it has revised its white paper explaining how it establishes, reviews, and modifies small business size standards. The re...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49371652",
+    "title": "China's humanoid robot boom is fueled by government-backed training centres",
+    "date": "2026-08-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.ft.com/content/26735a23-315f-47ef-8cf2-6c6ea9713998",
+    "summary": "China's humanoid robot boom is fueled by government-backed training centres",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49373453",
+    "title": "Open-source, Accessible, and Customizable 3D-printed Humanoid Robot",
+    "date": "2026-08-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://lite.berkeley-humanoid.org/",
+    "summary": "Open-source, Accessible, and Customizable 3D-printed Humanoid Robot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49378871",
+    "title": "Unitree: \"Superman\" – Breaking the Limits of Humanity",
+    "date": "2026-08-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=O7OkiZfIlS4",
+    "summary": "Unitree: \"Superman\" – Breaking the Limits of Humanity",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49379840",
+    "title": "Association of Physical Activity and Sedentary Time from Childhood ToAdolescence",
+    "date": "2026-08-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://journals.humankinetics.com/view/journals/pes/38/3/article-p268.xml",
+    "summary": "Association of Physical Activity and Sedentary Time from Childhood ToAdolescence",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49397246",
+    "title": "Would a Hiroshima-scale AI disaster make humanity protect itself? I fear not",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/commentisfree/2026/aug/22/ai-disaster-hiroshima-humankind-silicon-valley-technology",
+    "summary": "Would a Hiroshima-scale AI disaster make humanity protect itself? I fear not",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49370267",
+    "title": "GEN-1.5, a one-shot learner robotics foundational model [video]",
+    "date": "2026-08-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=1cllCVK-9lo",
+    "summary": "GEN-1.5, a one-shot learner robotics foundational model [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49371588",
+    "title": "Does EdgeAI and Robotics requires ad-hoc network",
+    "date": "2026-08-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=Pkrqur86iGs",
+    "summary": "Does EdgeAI and Robotics requires ad-hoc network",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49380332",
+    "title": "Robots are asking for tips. But who gets the money?",
+    "date": "2026-08-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.bbc.com/future/article/20260818-do-you-have-to-tip-the-robots",
+    "summary": "Robots are asking for tips. But who gets the money?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49385002",
+    "title": "MOQ Video Streaming for Robots, Drones, and Embedded Devices",
+    "date": "2026-08-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.red5.net/blog/moq-video-streaming-for-robots-drones-and-embedded-devices/",
+    "summary": "MOQ Video Streaming for Robots, Drones, and Embedded Devices",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49391704",
+    "title": "London cabbies plot 'skulduggery' to take on robotaxis",
+    "date": "2026-08-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.ft.com/content/7f2d4be3-5879-439e-8060-339bac53ab40",
+    "summary": "London cabbies plot 'skulduggery' to take on robotaxis",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49392055",
+    "title": "Moderna's cancer shot: exciting for investors, inconclusive for patients",
+    "date": "2026-08-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.ft.com/content/d8ff1233-01ff-496d-aa18-91233c1db051",
+    "summary": "Moderna's cancer shot: exciting for investors, inconclusive for patients",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49392063",
+    "title": "Waymo Launches Robotaxi Service in Houston",
+    "date": "2026-08-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://cleantechnica.com/2026/08/20/waymo-fully-launches-robotaxi-service-in-houston/",
+    "summary": "Waymo Launches Robotaxi Service in Houston",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49392125",
+    "title": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years",
+    "date": "2026-08-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://simonroses.com/2026/08/the-death-of-the-job-how-ai-and-robots-will-rewrite-work-in-the-next-10-years/",
+    "summary": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49392177",
+    "title": "The Better You Are at Programming, the Worse AI Looks",
+    "date": "2026-08-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=_590TxMwvWM",
+    "summary": "The Better You Are at Programming, the Worse AI Looks",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49393645",
+    "title": "British Groups Are Shaping US Age Verification Laws in 21 US States",
+    "date": "2026-08-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.gadgetreview.com/british-groups-are-shaping-us-age-verification-laws-in-21-us-states-and-profiting",
+    "summary": "British Groups Are Shaping US Age Verification Laws in 21 US States",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49394827",
+    "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+    "date": "2026-08-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://ozbrain.com",
+    "summary": "I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go away. I’m not sure who exactly wins it, but I want my knowledge to grow/go with me.A lot",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49395984",
+    "title": "China's robots rock, box and mix drinks. Can they outperform humans?",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.ft.com/content/e16ded89-b618-4952-a0ab-96ef11d06582",
+    "summary": "China's robots rock, box and mix drinks. Can they outperform humans?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49396053",
+    "title": "Robots running into walls go viral ahead of 2026 World Humanoid Robot Games",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://mashable.com/tech/world-humanoid-robot-games-2026-running-fall-accident",
+    "summary": "Robots running into walls go viral ahead of 2026 World Humanoid Robot Games",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49397321",
+    "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
+    "summary": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49397537",
+    "title": "A simplified robotics framework for non robotics devs",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://docs.peppy.bot/quickstart/",
+    "summary": "A simplified robotics framework for non robotics devs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49397610",
+    "title": "BBC's Ann Droid [from Diane Morgan] raises questions about the future of care",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://theconversation.com/could-robots-help-tackle-loneliness-bbcs-ann-droid-raises-questions-about-the-future-of-care-289430",
+    "summary": "BBC's Ann Droid [from Diane Morgan] raises questions about the future of care",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49399642",
+    "title": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record",
+    "summary": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49400862",
+    "title": "Gen-1.5 – The robot that one-shot learns with humans",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://generalistai.com/blog/gen-1.5",
+    "summary": "Gen-1.5 – The robot that one-shot learns with humans",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49401434",
+    "title": "Show HN: Namo_complete: a non-obtrusive AI autocomplete for the bash terminal",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/namo-robotics/namo_complete",
+    "summary": "I created this simple AI autocomplete tool for the bash terminal. I'm sure many like it exist already, but unlike the others this one does not completely hijack your terminal and stays mostly out",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49401862",
+    "title": "It can't be that hard to make a robot guitar? [video]",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=W_rXXI_dSQM",
+    "summary": "It can't be that hard to make a robot guitar? [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49402563",
+    "title": "Robots Will Soon See the Real World Thanks to These Next-Gen AI Models",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.wsj.com/tech/ai/ai-world-models-robotics-33ab46cb",
+    "summary": "Robots Will Soon See the Real World Thanks to These Next-Gen AI Models",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49402649",
+    "title": "World Humanoid Robot Games [video]",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=_Dl53o-je94",
+    "summary": "World Humanoid Robot Games [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49403365",
+    "title": "Why the Market Can't Escape Artificial Intelligence",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=wTiYaWFP59Q",
+    "summary": "Why the Market Can't Escape Artificial Intelligence",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49403981",
+    "title": "Chinese robot beats Usain Bolt's 100M world record at Beijing games",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.reuters.com/sports/chinese-humanoid-robot-lightning-beats-human-100m-world-record-state-media-says-2026-08-22/",
+    "summary": "Chinese robot beats Usain Bolt's 100M world record at Beijing games",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49404332",
+    "title": "Chinese humanoid robots smash human records in 100M sprint and high jump",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://apnews.com/article/china-humanoid-robot-games-us-86cb8e310843151a77057e4cb764b4e2",
+    "summary": "Chinese humanoid robots smash human records in 100M sprint and high jump",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49404371",
+    "title": "China recovers rocket stage on land for the first time",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://apnews.com/article/china-space-rocket-reuse-land-7280ab07f29771e2034a917ff679e1a6",
+    "summary": "China recovers rocket stage on land for the first time",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49406125",
+    "title": "Humanoid robots surpass human records in 100M, high jump",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.espn.com/olympics/story/_/id/49692320/humanoid-robots-surpass-human-records-100m-high-jump",
+    "summary": "Humanoid robots surpass human records in 100M, high jump",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49406126",
+    "title": "Drop_file_cache: Evict cached data for files/directories without root",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/shenwei356/drop_file_cache",
+    "summary": "Drop_file_cache: Evict cached data for files/directories without root",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49406155",
+    "title": "Are You in Danger of Becoming a Robot?",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://nautil.us/are-you-in-danger-of-becoming-a-robot-1284114",
+    "summary": "Are You in Danger of Becoming a Robot?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49406195",
+    "title": "Crafted NTFS File-System Image Allows Root Access on Linux with NTFS3 Driver",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.phoronix.com/news/NTFS3-Vulnerability-For-Root",
+    "summary": "Crafted NTFS File-System Image Allows Root Access on Linux with NTFS3 Driver",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49406755",
+    "title": "Unitree G1 vs. Human: This Robot Learned Tennis by \"Watching\" Amateurs [video]",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=fLp-75h-Bn8",
+    "summary": "Unitree G1 vs. Human: This Robot Learned Tennis by \"Watching\" Amateurs [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-agtonomy-releases-new-autonomo-649",
+    "title": "Agtonomy releases new autonomous multi-point turning features",
+    "date": "2026-08-20",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/agtonomy-releases-new-autonomous-multi-point-turning-features/",
+    "summary": "Agtonomy has added autonomous multi-point turning and enhanced field data collection to its commercial off-road platform.\nThe post Agtonomy releases new autonomous multi-point turning features appeare...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-atdev-gives-update-on-its-jour-893",
+    "title": "ATDev gives update on its journey building autonomous wheelchairs",
+    "date": "2026-08-20",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/atdev-gives-update-journey-building-autonomous-wheelchairs/",
+    "summary": "ATDev is developing a modern power wheelchair with a coordinated robotic arm that can take on reaching and lifting tasks for the user. \nThe post ATDev gives update on its journey building autonomous w...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-amazon-plans-to-expand-prime-a-992",
+    "title": "Amazon plans to expand Prime Air to nearly 500 cities by the end of 2026",
+    "date": "2026-08-20",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/amazon-plans-expand-prime-air-nearly-500-cities-by-end-2026/",
+    "summary": "Amazon said its Prime Air drones can deliver nearly all items 5 lb. or less that can fit in a large shoebox.\nThe post Amazon plans to expand Prime Air to nearly 500 cities by the end of 2026 appeared ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-schaeffler-plans-to-mass-produ-211",
+    "title": "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027",
+    "date": "2026-08-21",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/schaeffler-plans-to-mass-manufacture-gearboxes-for-humanoids-in-2027/",
+    "summary": "Schaeffler is creating its strain wave gearboxes with a forming technology that will enable mass production of the components. \nThe post Schaeffler plans to mass produce gearboxes for humanoid robots ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-amazon-s-bhavana-chandrashekha-405",
+    "title": "Amazon’s Bhavana Chandrashekhar to speak at RoboBusiness’ Women in Robotics Lunch",
+    "date": "2026-08-21",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/amazons-bhavana-chandrashekhar-speaks-robobusiness-women-in-robotics-lunch/",
+    "summary": "The Women in Robotics Lunch at RoboBusiness is an opportunity to form new connections and deepen relationships.\nThe post Amazon’s Bhavana Chandrashekhar to speak at RoboBusiness’ Women in Robotics Lun...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-how-software-defined-manufactu-507",
+    "title": "How software-defined manufacturing fits into real factory operations",
+    "date": "2026-08-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-software-defined-manufacturing-fits-into-real-factory-operations/",
+    "summary": "Roby Lynn explains how R2 Labs bridges PLCs, robots, and AI to unify fragmented manufacturing systems.\nThe post How software-defined manufacturing fits into real factory operations appeared first on T...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-the-technology-that-could-brin-392",
+    "title": "The technology that could bring robot mowers to one in two American lawns",
+    "date": "2026-08-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/",
+    "summary": "Improvements in AI, satellite navigation, and machine vision are helping robotic lawn mowers spread in the U.S., writes Sunseeker's founder.\nThe post The technology that could bring robot mowers to on...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-robots-don-t-run-themselves-th-545",
+    "title": "Robots don’t run themselves: The workforce powering physical AI",
+    "date": "2026-08-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/",
+    "summary": "The addition of physical AI to the workforce requires more key performance indicators than throughput, according to the president of HireArt.\nThe post Robots don’t run themselves: The workforce poweri...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-49307876",
     "title": "Robots That Walk and Talk Are Coming to Car Factories",
     "date": "2026-08-15",
