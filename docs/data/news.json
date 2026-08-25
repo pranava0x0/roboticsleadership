@@ -1,5 +1,703 @@
 [
   {
+    "id": "fedreg-news-2026-17372",
+    "title": "The National Space Transportation Policy",
+    "date": "2026-08-25",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/25/2026-17372/the-national-space-transportation-policy",
+    "summary": "The National Space Transportation Policy",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49402649",
+    "title": "World Humanoid Robot Games [video]",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=_Dl53o-je94",
+    "summary": "World Humanoid Robot Games [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49403981",
+    "title": "Chinese robot beats Usain Bolt's 100M world record at Beijing games",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.reuters.com/sports/chinese-humanoid-robot-lightning-beats-human-100m-world-record-state-media-says-2026-08-22/",
+    "summary": "Chinese robot beats Usain Bolt's 100M world record at Beijing games",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49397537",
+    "title": "A simplified robotics framework for non robotics devs",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://docs.peppy.bot/quickstart/",
+    "summary": "A simplified robotics framework for non robotics devs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49397610",
+    "title": "BBC's Ann Droid [from Diane Morgan] raises questions about the future of care",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://theconversation.com/could-robots-help-tackle-loneliness-bbcs-ann-droid-raises-questions-about-the-future-of-care-289430",
+    "summary": "BBC's Ann Droid [from Diane Morgan] raises questions about the future of care",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49401434",
+    "title": "Show HN: Namo_complete: a non-obtrusive AI autocomplete for the bash terminal",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/namo-robotics/namo_complete",
+    "summary": "I created this simple AI autocomplete tool for the bash terminal. I'm sure many like it exist already, but unlike the others this one does not completely hijack your terminal and stays mostly out",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49404371",
+    "title": "China recovers rocket stage on land for the first time",
+    "date": "2026-08-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://apnews.com/article/china-space-rocket-reuse-land-7280ab07f29771e2034a917ff679e1a6",
+    "summary": "China recovers rocket stage on land for the first time",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49406125",
+    "title": "Humanoid robots surpass human records in 100M, high jump",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.espn.com/olympics/story/_/id/49692320/humanoid-robots-surpass-human-records-100m-high-jump",
+    "summary": "Humanoid robots surpass human records in 100M, high jump",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49406126",
+    "title": "Drop_file_cache: Evict cached data for files/directories without root",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/shenwei356/drop_file_cache",
+    "summary": "Drop_file_cache: Evict cached data for files/directories without root",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49406155",
+    "title": "Are You in Danger of Becoming a Robot?",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://nautil.us/are-you-in-danger-of-becoming-a-robot-1284114",
+    "summary": "Are You in Danger of Becoming a Robot?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49406195",
+    "title": "Crafted NTFS File-System Image Allows Root Access on Linux with NTFS3 Driver",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.phoronix.com/news/NTFS3-Vulnerability-For-Root",
+    "summary": "Crafted NTFS File-System Image Allows Root Access on Linux with NTFS3 Driver",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49406755",
+    "title": "Unitree G1 vs. Human: This Robot Learned Tennis by \"Watching\" Amateurs [video]",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=fLp-75h-Bn8",
+    "summary": "Unitree G1 vs. Human: This Robot Learned Tennis by \"Watching\" Amateurs [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49409064",
+    "title": "Move over, Usain Bolt: Humanoid robots smash human records at Beijing games",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.nbcnews.com/tech/tech-news/chinese-humanoid-robot-lightning-beats-human-100m-world-record-rcna593869",
+    "summary": "Move over, Usain Bolt: Humanoid robots smash human records at Beijing games",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49409178",
+    "title": "From YouTube Ad to Root: Fake TradingView Installer Delivers a macOS Stealer",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://safedep.io/youtube-ad-fake-tradingview-macos-stealer/",
+    "summary": "From YouTube Ad to Root: Fake TradingView Installer Delivers a macOS Stealer",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49412010",
+    "title": "LinkedIn Has Accidentally Become a Dating Site",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.wsj.com/lifestyle/linkedin-has-accidentally-become-a-dating-sitedespite-its-no-romance-rules-560705bb",
+    "summary": "LinkedIn Has Accidentally Become a Dating Site",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49412124",
+    "title": "RIP EJMR (2008-2026)",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.chrisbrunet.com/p/rip-ejmr-2008-2026",
+    "summary": "RIP EJMR (2008-2026)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49412176",
+    "title": "Decoding silent reading from non-invasive EEG",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2608.20186",
+    "summary": "Decoding silent reading from non-invasive EEG",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49412684",
+    "title": "The VLA and High-Frequency SETI: Expanding the Search for Life",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2608.18275",
+    "summary": "The VLA and High-Frequency SETI: Expanding the Search for Life",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49414338",
+    "title": "Migrating a Synology NAS to a UniFi UNAS Pro 8 with Robocopy, SMB Multichannel",
+    "date": "2026-08-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.hanselman.com/blog/migrating-a-synology-nas-to-a-unifi-unas-pro-8-with-robocopy-smb-multichannel-and-surprising-performance-traps",
+    "summary": "Migrating a Synology NAS to a UniFi UNAS Pro 8 with Robocopy, SMB Multichannel",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49415695",
+    "title": "LLM Tool Failures: Only 3 Root Causes – Value, Condition, Intent",
+    "date": "2026-08-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/Jang-woo-AnnaSoft/execution-state-preflight/blob/main/who-fills-in-the-form.md",
+    "summary": "LLM Tool Failures: Only 3 Root Causes – Value, Condition, Intent",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49416590",
+    "title": "The Dictionary of Obscure Sorrows: Uncommonly Lovely Invented Words (2024)",
+    "date": "2026-08-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.themarginalian.org/2024/04/12/dictionary-of-obscure-sorrows/",
+    "summary": "The Dictionary of Obscure Sorrows: Uncommonly Lovely Invented Words (2024)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49420249",
+    "title": "Humanoid robots smash Usain Bolt's 100-meter record",
+    "date": "2026-08-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theverge.com/tech/983688/world-humanoid-robot-games-sprint-record-2026",
+    "summary": "Humanoid robots smash Usain Bolt's 100-meter record",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49420766",
+    "title": "The Robot Olympics Begin in Beijing – Humanoid Robots Compete in 50 Events [video]",
+    "date": "2026-08-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=SOVNn1aRAIE",
+    "summary": "The Robot Olympics Begin in Beijing – Humanoid Robots Compete in 50 Events [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49424218",
+    "title": "Boston Dynamics and Muppets Creators Reveal Robot Dog",
+    "date": "2026-08-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/okpasquale/status/2078102669520961812",
+    "summary": "Boston Dynamics and Muppets Creators Reveal Robot Dog",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49424882",
+    "title": "Greg Abbott says data centers:'basically dug their own grave'",
+    "date": "2026-08-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.businessinsider.com/greg-abbott-texas-data-centers-backlash-2026-8",
+    "summary": "Greg Abbott says data centers:'basically dug their own grave'",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49424936",
+    "title": "The Government Report That Made Me Stop Trusting Our Statistical Agencies",
+    "date": "2026-08-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://econjared.substack.com/p/the-government-report-that-made-me",
+    "summary": "The Government Report That Made Me Stop Trusting Our Statistical Agencies",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49424964",
+    "title": "The Teaser Period: Why the AI Boom Is Built to Break",
+    "date": "2026-08-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.groundbrkr.com/p/the-teaser-period-why-the-ai-boom",
+    "summary": "The Teaser Period: Why the AI Boom Is Built to Break",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49425657",
+    "title": "Robotics needs a Model T moment",
+    "date": "2026-08-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robo.inc/blog/robotics-model-t-moment",
+    "summary": "Robotics needs a Model T moment",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49429271",
+    "title": "Simulating cosmic rays to lobotomize LLMs",
+    "date": "2026-08-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://spock.is/writing/simulating-cosmic-rays-to-lobotomize-llms",
+    "summary": "Simulating cosmic rays to lobotomize LLMs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49429512",
+    "title": "Beyond China's humanoid robots, a quieter machine revolution is unfolding",
+    "date": "2026-08-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.bbc.com/news/articles/c62m4zn1q6mo",
+    "summary": "Beyond China's humanoid robots, a quieter machine revolution is unfolding",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49431102",
+    "title": "Sam Altman on AI: 'We've not had the iPhone moment'",
+    "date": "2026-08-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=dktlHZOSn5o",
+    "summary": "Sam Altman on AI: 'We've not had the iPhone moment'",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49431172",
+    "title": "SEC Subpoenas Wall Street Banks over Situational Awareness",
+    "date": "2026-08-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.ft.com/content/c36d4e57-1ea2-47a5-8f6d-f390369aedc4",
+    "summary": "SEC Subpoenas Wall Street Banks over Situational Awareness",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49431822",
+    "title": "I spent a day at a robot \"carnival\" in Shanghai. Here's what I saw",
+    "date": "2026-08-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
+    "summary": "I spent a day at a robot \"carnival\" in Shanghai. Here's what I saw",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-xpeng-motors-humanoid-robot-un-203",
+    "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
+    "date": "2026-08-24",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
+    "summary": "Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale.\nThe post XPeng Motors humanoid robot unit Dogotix raises $900M appeared fir...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-the-next-big-ai-play-isn-t-app-854",
+    "title": "The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn",
+    "date": "2026-08-24",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/",
+    "summary": "For agricultural and construction equipment makers to stay relevant as workforces dwindle, they need to add AI, says Agtonomy's founder.\nThe post The next big AI play isn’t apps or humanoids; it’s mac...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-49392063",
     "title": "Waymo Launches Robotaxi Service in Houston",
     "date": "2026-08-21",
