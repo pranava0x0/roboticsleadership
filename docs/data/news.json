@@ -1,5 +1,535 @@
 [
   {
+    "id": "fedreg-news-2026-17372",
+    "title": "The National Space Transportation Policy",
+    "date": "2026-08-25",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/25/2026-17372/the-national-space-transportation-policy",
+    "summary": "The National Space Transportation Policy",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ]
+  },
+  {
+    "id": "hn-49406125",
+    "title": "Humanoid robots surpass human records in 100M, high jump",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.espn.com/olympics/story/_/id/49692320/humanoid-robots-surpass-human-records-100m-high-jump",
+    "summary": "Humanoid robots surpass human records in 100M, high jump",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49409064",
+    "title": "Move over, Usain Bolt: Humanoid robots smash human records at Beijing games",
+    "date": "2026-08-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.nbcnews.com/tech/tech-news/chinese-humanoid-robot-lightning-beats-human-100m-world-record-rcna593869",
+    "summary": "Move over, Usain Bolt: Humanoid robots smash human records at Beijing games",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49420249",
+    "title": "Humanoid robots smash Usain Bolt's 100-meter record",
+    "date": "2026-08-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theverge.com/tech/983688/world-humanoid-robot-games-sprint-record-2026",
+    "summary": "Humanoid robots smash Usain Bolt's 100-meter record",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49420766",
+    "title": "The Robot Olympics Begin in Beijing – Humanoid Robots Compete in 50 Events [video]",
+    "date": "2026-08-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=SOVNn1aRAIE",
+    "summary": "The Robot Olympics Begin in Beijing – Humanoid Robots Compete in 50 Events [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49424218",
+    "title": "Boston Dynamics and Muppets Creators Reveal Robot Dog",
+    "date": "2026-08-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/okpasquale/status/2078102669520961812",
+    "summary": "Boston Dynamics and Muppets Creators Reveal Robot Dog",
+    "category": "Competitive",
+    "companies": [
+      "boston-dynamics"
+    ],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49425657",
+    "title": "Robotics needs a Model T moment",
+    "date": "2026-08-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robo.inc/blog/robotics-model-t-moment",
+    "summary": "Robotics needs a Model T moment",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49431822",
+    "title": "I spent a day at a robot \"carnival\" in Shanghai. Here's what I saw",
+    "date": "2026-08-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
+    "summary": "I spent a day at a robot \"carnival\" in Shanghai. Here's what I saw",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49434609",
+    "title": "Making My Own Smart Irrigation System from Robot Scrap",
+    "date": "2026-08-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://biotinker.dev/posts/irrigation.html",
+    "summary": "Making My Own Smart Irrigation System from Robot Scrap",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49434903",
+    "title": "Show HN: XWM – Action-conditioned world models for robotics",
+    "date": "2026-08-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/kleyt0n/xwm",
+    "summary": "Hi HN,I've been working on a new side project to dive deeper into action-conditioned world models for robotics. The goal is to build an open space to train, evaluate, and deploy these models in r",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49435730",
+    "title": "Unitree's 45% post-IPO plunge raises concerns over China's robotics bubble",
+    "date": "2026-08-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://seekingalpha.com/news/4636470-unitrees-45-post-ipo-plunge-raises-concerns-over-chinas-robotics-bubble",
+    "summary": "Unitree's 45% post-IPO plunge raises concerns over China's robotics bubble",
+    "category": "Competitive",
+    "companies": [
+      "unitree"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49437203",
+    "title": "The Download: smarter AI in schools, and a robot \"carnival\" in Shanghai",
+    "date": "2026-08-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.technologyreview.com/2026/08/25/1142909/the-download-smarter-ai-in-schools-robot-carnival-shanghai/",
+    "summary": "The Download: smarter AI in schools, and a robot \"carnival\" in Shanghai",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49437416",
+    "title": "Robot Autodocking for Stretch 4",
+    "date": "2026-08-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://binitshah.github.io/blog/stretch-4-autodocking/",
+    "summary": "Robot Autodocking for Stretch 4",
+    "category": "Competitive",
+    "companies": [
+      "boston-dynamics"
+    ],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49439733",
+    "title": "Humanoid robots beat human records in the 100m, half-marathon, and high jump",
+    "date": "2026-08-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.reuters.com/sports/chinese-humanoid-robot-lightning-beats-human-100m-world-record-state-media-says-2026-08-22/",
+    "summary": "Humanoid robots beat human records in the 100m, half-marathon, and high jump",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49440730",
+    "title": "How Big Should a Terraform Root Module Be?",
+    "date": "2026-08-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://newsletter.masterpoint.io/p/how-big-should-a-terraform-root-module-be",
+    "summary": "How Big Should a Terraform Root Module Be?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49441771",
+    "title": "Mars500 Study Overview",
+    "date": "2026-08-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Mars500/Mars500_study_overview",
+    "summary": "Mars500 Study Overview",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49441956",
+    "title": "Beyond China's humanoid robots, a quieter machine revolution is unfolding",
+    "date": "2026-08-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.bbc.com/news/articles/c62m4zn1q6mo",
+    "summary": "Beyond China's humanoid robots, a quieter machine revolution is unfolding",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49444699",
+    "title": "Someone just published open knowledge base",
+    "date": "2026-08-26",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/mo-root/open-kb",
+    "summary": "Someone just published open knowledge base",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49444897",
+    "title": "Show HN: Hostflip – a macOS /etc/hosts switcher that detects external edits",
+    "date": "2026-08-26",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/heronapp/hostflip",
+    "summary": "Hi HN — I built hostflip, a native macOS menu bar app for switching /etc/hosts profiles. It is free and open source under the MIT license.The problem I wanted to solve was not just editing h",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49445170",
+    "title": "World humanoid robot games show runners breaking records, bursting into flames",
+    "date": "2026-08-26",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames/",
+    "summary": "World humanoid robot games show runners breaking records, bursting into flames",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-xpeng-motors-humanoid-robot-un-224",
+    "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
+    "date": "2026-08-24",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
+    "summary": "Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale.\nThe post XPeng Motors humanoid robot unit Dogotix raises $900M appeared fir...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-the-next-big-ai-play-isn-t-app-454",
+    "title": "The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn",
+    "date": "2026-08-24",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/",
+    "summary": "For agricultural and construction equipment makers to stay relevant as workforces dwindle, they need to add AI, says Agtonomy's founder.\nThe post The next big AI play isn’t apps or humanoids; it’s mac...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-jetson-orin-nano-2-doubles-inf-457",
+    "title": "Jetson Orin Nano 2 doubles inference performance for robotics on the edge, says NVIDIA",
+    "date": "2026-08-25",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/",
+    "summary": "With Jetson Orin Nano 2, NVIDIA says that frontier intelligence has reached the edge and can now run in real time.\nThe post Jetson Orin Nano 2 doubles inference performance for robotics on the edge, s...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-humans-in-the-loop-are-still-n-686",
+    "title": "Humans in the loop are still needed for robotaxi fleet safety, says Guident",
+    "date": "2026-08-25",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/",
+    "summary": "As fleets of autonomous vehicles scale, AI and human oversight remain critical for safety, explains Guident's CEO.\nThe post Humans in the loop are still needed for robotaxi fleet safety, says Guident ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-early-bird-pricing-for-robobus-254",
+    "title": "Early bird pricing for RoboBusiness 2026 ends August 31",
+    "date": "2026-08-25",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/",
+    "summary": "Early bird pricing for RoboBusiness 2026, which saves attendees $200 on full conference passes, will end Aug. 31.\nThe post Early bird pricing for RoboBusiness 2026 ends August 31 appeared first on The...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-robotics-startup-generalist-re-888",
+    "title": "Robotics startup Generalist reaches $3B valuation, sources say",
+    "date": "2026-08-26",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+    "summary": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-ai-companion-robots-are-closin-395",
+    "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
+    "date": "2026-08-25",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
+    "summary": "This article is brought to you by Ollobot.From about 2017, individuals began to truly connect with the initial wave of companion robots. These devices had personality, moved around, joked, and answere...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "hn-49392063",
     "title": "Waymo Launches Robotaxi Service in Houston",
     "date": "2026-08-21",
@@ -29,7 +559,9 @@
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "china-scale"
+    ],
     "sentiment": "Neutral",
     "confidence": "Low",
     "tags": [
@@ -124,7 +656,9 @@
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "china-scale"
+    ],
     "sentiment": "Neutral",
     "confidence": "Low",
     "tags": [
@@ -179,7 +713,9 @@
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "industrial-deployments"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
