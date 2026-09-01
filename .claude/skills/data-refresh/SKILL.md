@@ -60,10 +60,10 @@ Every claim-bearing node — BLUF, KPIs, chain stages, category summaries, choke
 
 ### 3. Scraping (if --no-scrape is not set)
 ```bash
-node scripts/scraper-news.js   # Federal Register, IEEE Spectrum, TechCrunch, Reddit, HN
-node scripts/scraper-policy.js # Federal Register robotics rules
+node scripts/scraper-news.js --days=14   # Federal Register, IEEE Spectrum, TechCrunch, Reddit, HN
+node scripts/scraper-policy.js --days=14 # Federal Register robotics rules
 ```
-Appends new items to `docs/data/news.json` and `docs/data/policies.json`. Gracefully skips if network blocks.
+Appends new items to `docs/data/news.json` and `docs/data/policies.json`. Uses **14-day (2-week) lookback** to ensure comprehensive coverage for weekly scheduled runs — a 3-day window would miss records from days 4–7, leaving gaps in weekly cadence. Gracefully skips if network blocks.
 
 ### 4. What scrapers DON'T refresh — manual research sweep
 These live in curated files and rot silently; check staleness each refresh:

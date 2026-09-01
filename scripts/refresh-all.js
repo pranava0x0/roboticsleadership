@@ -75,7 +75,7 @@ class RefreshPipeline {
 
     try {
       this.log('  Running scraper-news.js...');
-      const newsOutput = execSync('node scripts/scraper-news.js 2>&1', { encoding: 'utf-8' });
+      const newsOutput = execSync('node scripts/scraper-news.js --days=14 2>&1', { encoding: 'utf-8' });
       const newsMatch = newsOutput.match(/Added (\d+) new news records/);
       if (newsMatch) {
         this.results.scraped.news = parseInt(newsMatch[1]);
@@ -104,7 +104,7 @@ class RefreshPipeline {
 
     try {
       this.log('  Running scraper-policy.js...');
-      const policyOutput = execSync('node scripts/scraper-policy.js 2>&1', { encoding: 'utf-8' });
+      const policyOutput = execSync('node scripts/scraper-policy.js --days=14 2>&1', { encoding: 'utf-8' });
       const policyMatch = policyOutput.match(/Added (\d+) new policies/);
       if (policyMatch) {
         this.results.scraped.policies = parseInt(policyMatch[1]);
