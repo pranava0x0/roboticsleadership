@@ -152,9 +152,9 @@ class RefreshPipeline {
   }
 
   // Step 3: Auto-curate obvious false positives (learned from 10 days of runs)
-  // IMPORTANT: Preserve _requires_curator_review on survivors — semantic judgment still needed
+  // For scheduled automated runs: also drop remaining uncurated records (no human available)
   autoCurate() {
-    this.log('Step 3: Auto-curating obvious false positives...');
+    this.log('Step 3: Auto-curating obvious false positives and removing uncurated records...');
 
     // Reload fresh data since scrapers modified files (avoid require cache)
     this.news = this.loadJSON(path.join(DATA_DIR, 'news.json'));
@@ -262,6 +262,13 @@ class RefreshPipeline {
       return true;
     });
 
+    // Step 3.1: Remove remaining uncurated records (no human curator in automated runs)
+    const newsWithCuratorFlag = this.news.filter(r => r._requires_curator_review).length;
+    const policiesWithCuratorFlag = this.policies.filter(r => r._requires_curator_review).length;
+
+    this.news = this.news.filter(r => !r._requires_curator_review);
+    this.policies = this.policies.filter(r => !r._requires_curator_review);
+
     // Write back
     fs.writeFileSync(
       path.join(DATA_DIR, 'news.json'),
@@ -279,6 +286,13 @@ class RefreshPipeline {
     if (policiesDropped.length > 0) {
       this.log(`  Policies: dropped ${policiesDropped.length} obvious Fed-Reg false positives`);
       this.log(`    Examples: ${policiesDropped.slice(0, 3).join(', ')}`);
+    }
+
+    if (newsWithCuratorFlag > 0) {
+      this.log(`  News: removed ${newsWithCuratorFlag} uncurated records (no human reviewer available)`);
+    }
+    if (policiesWithCuratorFlag > 0) {
+      this.log(`  Policies: removed ${policiesWithCuratorFlag} uncurated records (no human reviewer available)`);
     }
 
     this.log(`  News: ${newsBeforeCount} → ${this.news.length} records`);
