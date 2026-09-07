@@ -4,6 +4,15 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 ## Open
 
+### 2026-09-07 — scheduled pipeline — 29 automated scrape PRs accumulated unmerged for 3+ weeks  ✅ FIXED this run (data caught up); process gap still open
+
+- **Area:** `.github/workflows/scrape-news.yml` (daily) / `scrape-policy.yml` (weekly). Found while starting a routine manual data-refresh request.
+- **Symptom:** the scheduled workflows had been running correctly every day/week since 2026-08-13, each opening an `auto/news-*` or `auto/policy-*` PR for curator review — but none had been merged. 29 open PRs had piled up; `main`'s `docs/data/news.json` was frozen at 2026-08-26 (917 records) while the live site's data silently went stale for ~2 weeks.
+- **Root cause:** process gap, not a code bug — the automation side (scrape → validate --allow-uncurated → open PR) works exactly as designed; there is no automation on the curation/merge side, so the PRs just queue up if nobody looks at them.
+- **Compounding effect:** because each `auto/*` branch is cut fresh off `main` (not chained off the prior day's branch), every day's PR independently re-discovers the *entire* backlog since `main` last moved, not just that day's increment — so the 29 PRs are heavily overlapping, not additive. Latest branches (`auto/news-2026-09-07`, `auto/policy-2026-09-07`) already contained the full accumulated diff.
+- **Fix (this run):** took the latest `auto/news-*` and `auto/policy-*` branches (already reflecting the full backlog), curated them by hand (dropped 28 of 45 new news candidates and all 3 new policy candidates as noise/duplicates/hobbyist-HN/stale reposts), and opened one clean PR against `main`. The 29 stale `auto/*` PRs should be closed as superseded once this PR is confirmed/merged.
+- **Regression test:** none — this is a curation-cadence problem, not something a schema check can catch. See backlog for a proposed mitigation.
+
 ### 2026-07-29 — app.js — the priority+ nav permanently reordered the nav on every page except index.html  ✅ FIXED 2026-07-29
 
 - **Area:** `docs/assets/app.js` `initResponsiveNav().layout()`. Found in code review of PR #140, **not** by my own testing.
