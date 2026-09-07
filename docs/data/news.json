@@ -1,5 +1,313 @@
 [
   {
+    "id": "hn-49559666",
+    "title": "Tesla Begins Offering Rides in a Car Without a Steering Wheel",
+    "date": "2026-09-04",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.nytimes.com/2026/09/03/business/tesla-cybercab-robotaxi-rides.html",
+    "summary": "Tesla Begins Offering Rides in a Car Without a Steering Wheel",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49595720",
+    "title": "From dance floor to war: China readies humanoid robots for combat",
+    "date": "2026-09-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/",
+    "summary": "From dance floor to war: China readies humanoid robots for combat",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-robot-com-partners-with-sodexo-462",
+    "title": "Robot.com partners with Sodexo to roll out more sidewalk delivery robots",
+    "date": "2026-09-04",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/",
+    "summary": "Robot.com says college campuses will continue to be an important part of its strategy as it scales sidewalk delivery robots.\nThe post Robot.com partners with Sodexo to roll out more sidewalk delivery ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-lyte-raises-165m-to-help-robot-108",
+    "title": "Lyte raises $165M to help robots better sense their surroundings",
+    "date": "2026-09-04",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/",
+    "summary": "Lyte AI plans to use its second round of funding this year to scale production of its AI and perception capabilities.\nThe post Lyte raises $165M to help robots better sense their surroundings appeared...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-calling-robotics-startups-appl-680",
+    "title": "Calling robotics startups: Apply now to be part of the 2026 Robotics Startup Radar",
+    "date": "2026-09-04",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/calling-all-robotics-startups-apply-now-2026-robotics-startup-radar/",
+    "summary": "Submit now to be part of the Robotics Startup Radar, which brings together some of the most promising robotics startups.\nThe post Calling robotics startups: Apply now to be part of the 2026 Robotics S...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-how-fpgas-become-the-gatekeepe-817",
+    "title": "How FPGAs become the gatekeepers of physical AI security",
+    "date": "2026-09-04",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-fpgas-become-the-gatekeepers-of-physical-ai-security/",
+    "summary": "Eric Sivertson, vice president of security business at Lattice Semiconductor, explains how FPGAs can act as deterministic guardrails for robotic systems.\nThe post How FPGAs become the gatekeepers of p...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-enovis-to-acquire-surgical-tec-557",
+    "title": "Enovis to acquire surgical tech provider eCential Robotics for $180M",
+    "date": "2026-09-05",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/enovis-to-acquire-ecential-robotics-for-180m/",
+    "summary": "Enovis said it plans to bring a robotic system targeting the knee within the next two years, followed by a system focusing on the shoulder.\nThe post Enovis to acquire surgical tech provider eCential R...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-arm-institute-gets-90m-for-10-524",
+    "title": "ARM Institute gets $90M for 10 projects to modernize military manufacturing",
+    "date": "2026-09-05",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/",
+    "summary": "Fifteen member organizations will deliver viable working solutions within a two-year timeframe, the ARM Institute said.\nThe post ARM Institute gets $90M for 10 projects to modernize military manufactu...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-pressure-sensors-can-help-impr-192",
+    "title": "Pressure sensors can help improve robotic gripping accuracy",
+    "date": "2026-09-06",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/",
+    "summary": "From first contact through surface deformation, load distribution, and final stable hold, pressure sensors can improve robotic bin picking.\nThe post Pressure sensors can help improve robotic gripping ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-eric-sivertson-discusses-fpgas-540",
+    "title": "Eric Sivertson discusses FPGAs and robot security",
+    "date": "2026-09-06",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/",
+    "summary": "An interview with Eric Sivertson of Lattice Semiconductor about FPGAs and how they can improve robot safety and security.\nThe post Eric Sivertson discusses FPGAs and robot security appeared first on T...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-massrobotics-shares-member-sur-388",
+    "title": "MassRobotics shares member survey results around FCC restrictions",
+    "date": "2026-09-07",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/",
+    "summary": "MassRobotics has found that companies were split on the FCC ban on new foreign-produced mobile robots.\nThe post MassRobotics shares member survey results around FCC restrictions appeared first on The ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-agility-robotics-reports-1-8m-144",
+    "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
+    "date": "2026-09-07",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
+    "summary": "Agility Robotics’ S-4 filing reveals $1.8 million in 2025 revenue, a $140 million operating loss and plans to scale its Digit humanoid robot business.\nThe post Agility Robotics reports $1.8M revenue a...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-inbolt-to-discuss-physical-ai-677",
+    "title": "Inbolt to discuss physical AI’s deployment problem at RoboBusiness",
+    "date": "2026-09-07",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/",
+    "summary": "Rudy Cohen, the co-founder and CEO of Inbolt, will reframe where physical AI pays off at RoboBusiness this fall.\nThe post Inbolt to discuss physical AI’s deployment problem at RoboBusiness appeared fi...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-xdof-just-three-months-out-of-906",
+    "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+    "date": "2026-09-04",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+    "summary": "The round is being raised just months after the robot data startup exited from stealth.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-video-friday-digit-redecorates-302",
+    "title": "Video Friday: Digit Redecorates",
+    "date": "2026-09-04",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-agility-robotics-digit",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-cyborg-roaches-can-stab-you-wi-936",
+    "title": "Cyborg Roaches Can Stab You With Needles",
+    "date": "2026-09-05",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/cyborg-rescue-roach",
+    "summary": "Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded needle on its back scuttling toward you. Although the sight might be unnervin...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-this-robot-will-draw-your-bloo-28",
+    "title": "This Robot Will Draw Your Blood Now",
+    "date": "2026-09-07",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta",
+    "summary": "You sit down and put your arm in the cradle. You press a button. The machine takes it from there.A near-infrared light sweeps your inner elbow, hunting for a vein. A puff of alcohol hits your skin. An...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "fedreg-news-2026-17372",
     "title": "The National Space Transportation Policy",
     "date": "2026-08-25",
