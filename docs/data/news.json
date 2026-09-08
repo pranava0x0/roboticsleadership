@@ -1,5 +1,605 @@
 [
   {
+    "id": "fedreg-news-2026-18282",
+    "title": "Unleashing Unlicensed Spectrum for Direct-to-Device",
+    "date": "2026-09-08",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device",
+    "summary": "The Federal Communications Commission (Commission or FCC) issues a Notice of Proposed Rulemaking proposes to expand opportunities for direct-to-device (D2D) communications by permitting certain unlice...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49578170",
+    "title": "Inside a growing movement warning AI could turn on humanity",
+    "date": "2026-09-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.washingtonpost.com/technology/2026/04/18/ai-doom-influencers-safety/",
+    "summary": "Inside a growing movement warning AI could turn on humanity",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49580945",
+    "title": "Google AI turns on its maker in a brutally candid interview",
+    "date": "2026-09-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://newatlas.com/ai-humanoids/exclusive-google-ai/",
+    "summary": "Google AI turns on its maker in a brutally candid interview",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49607515",
+    "title": "Türk urges action before AI becomes an 'existential risk to humanity'",
+    "date": "2026-09-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://news.un.org/en/story/2026/09/1168288",
+    "summary": "Türk urges action before AI becomes an 'existential risk to humanity'",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49579305",
+    "title": "Show HN: Openrobots",
+    "date": "2026-09-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://openrobots.vercel.app",
+    "summary": "OpenRobots – free, open-source robots.txt generator for AI crawlers",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49582838",
+    "title": "Show HN: Slicky – a desktop robot for macOS that opens your apps",
+    "date": "2026-09-06",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/ananthasharma/Slicky",
+    "summary": "A desktop robot for macOS that opens your apps. Its Slicky — what more is there to say?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49583305",
+    "title": "Teaching robots mortal kombat moves [video]",
+    "date": "2026-09-06",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=1Oo8h655VMM",
+    "summary": "Teaching robots mortal kombat moves [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49583684",
+    "title": "Robot writes in languages it has never seen before (2019)",
+    "date": "2026-09-06",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.wired.com/story/robot-writing/",
+    "summary": "Robot writes in languages it has never seen before (2019)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49583994",
+    "title": "Show HN: I built a small arena where AI write robot and then fight each other",
+    "date": "2026-09-06",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/nigrosimone/llms-robot-arena",
+    "summary": "Show HN: I built a small arena where AI write robot and then fight each other",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49584405",
+    "title": "How finely can you divide a depolarizing channel?",
+    "date": "2026-09-06",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://florian2richter.github.io/posts/clifford-roots/",
+    "summary": "How finely can you divide a depolarizing channel?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49588190",
+    "title": "Show HN: Robot-duck soccer in the browser, powered by MuJoCo and learned walking",
+    "date": "2026-09-06",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://fpvsim.com/sim-duck",
+    "summary": "Show HN: Robot-duck soccer in the browser, powered by MuJoCo and learned walking",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49590247",
+    "title": "Show HN: HexBOTs – a cellular automaton with robotic lawnmowers",
+    "date": "2026-09-06",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://hexbot-genesis.netlify.app/",
+    "summary": "Double-click or press N to start a new experiment.I built hexBOTs, an unusual cellular automaton based on deterministic robots.The robots behave a bit like robotic lawnmowers, moving through their env",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49590668",
+    "title": "The CINT C/C++ Interpreter",
+    "date": "2026-09-06",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://web.archive.org/web/20081226231317fw_/http://root.cern.ch/twiki/bin/view/ROOT/CINT",
+    "summary": "The CINT C/C++ Interpreter",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49591280",
+    "title": "3D Printed Hydrogels for Soft Robotic Applications (2025)",
+    "date": "2026-09-06",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.sciencedirect.com/org/science/article/pii/S0973862225000261",
+    "summary": "3D Printed Hydrogels for Soft Robotic Applications (2025)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49591393",
+    "title": "Robots just had their GPT3 moment [video]",
+    "date": "2026-09-06",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=cqwKceUSZ5Q",
+    "summary": "Robots just had their GPT3 moment [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49596335",
+    "title": "Astra has beat all 48 levels of Neal.fun's \"I'm Not a Robot\" game",
+    "date": "2026-09-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/sharifshameem/status/2096847916837314853",
+    "summary": "Astra has beat all 48 levels of Neal.fun's \"I'm Not a Robot\" game",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49597551",
+    "title": "Meta has tried to scrape this site 1 million times in 2 weeks",
+    "date": "2026-09-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robertmay.photography/journal/meta-has-tried-to-scrape-this-site-1-million-times-in-2-weeks-ive-given-them-toasters-instead",
+    "summary": "Meta has tried to scrape this site 1 million times in 2 weeks",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49600449",
+    "title": "Root cause analysis of the Liquid network split and 3,998.67 BTC peg-out theft",
+    "date": "2026-09-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://gist.github.com/1440000bytes/211ac92dd4433bb1a2e674bf0ff7db2e",
+    "summary": "Root cause analysis of the Liquid network split and 3,998.67 BTC peg-out theft",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49603424",
+    "title": "Active Prelude to Calculus",
+    "date": "2026-09-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://activecalculus.org/prelude/root-1-2.html",
+    "summary": "Active Prelude to Calculus",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49603567",
+    "title": "Can I Root My TV?",
+    "date": "2026-09-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://cani.rootmy.tv/",
+    "summary": "Can I Root My TV?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49604871",
+    "title": "The robots.txt user-agent lines that do not name what they look like",
+    "date": "2026-09-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://ai-visibility.lastminutedealshq.com/robots-txt-user-agent-tokens",
+    "summary": "The robots.txt user-agent lines that do not name what they look like",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49604878",
+    "title": "I Couldn't Play Guitar, So I Spent 6 Years Building a Guitar Robot [video]",
+    "date": "2026-09-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/shorts/XgJjdkYOKz8",
+    "summary": "I Couldn't Play Guitar, So I Spent 6 Years Building a Guitar Robot [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49605424",
+    "title": "GamersNexus and LG: Or why rooting your TV is a bad idea",
+    "date": "2026-09-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://leaflet.pub/p/did:plc:yhgc5rlqhoezrx6fbawajxlh/3muwrqenzfk2n",
+    "summary": "GamersNexus and LG: Or why rooting your TV is a bad idea",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49606001",
+    "title": "Robot-Use Agents",
+    "date": "2026-09-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html",
+    "summary": "Robot-Use Agents",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49606818",
+    "title": "Show HN: Hybrid Nav2 and PPO RL for indoor Lidar-only robot navigation",
+    "date": "2026-09-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/Sourav29-2/ppo-lidar-navigation-",
+    "summary": "Show HN: Hybrid Nav2 and PPO RL for indoor Lidar-only robot navigation",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49606995",
+    "title": "A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing",
+    "date": "2026-09-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/HandEdit/HandEdit",
+    "summary": "A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49607490",
+    "title": "The Tragic Romance of the Nostalgic Western Liberal (2020)",
+    "date": "2026-09-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://foreignpolicy.com/2020/08/15/the-tragic-romance-of-the-middle-aged-western-liberal/",
+    "summary": "The Tragic Romance of the Nostalgic Western Liberal (2020)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49608703",
+    "title": "Robotics with Conan: consuming ROS as a regular package",
+    "date": "2026-09-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://blog.conan.io/cpp/conan/ros/ros2/robotics/2026/09/08/Robotics-with-Conan-consuming-ROS.html",
+    "summary": "Robotics with Conan: consuming ROS as a regular package",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49609322",
+    "title": "Meet Sally, the Robot Teacher. She Is a Real Doll",
+    "date": "2026-09-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://galratner.substack.com/p/meet-sally-the-robot-teacher-she",
+    "summary": "Meet Sally, the Robot Teacher. She Is a Real Doll",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49609848",
+    "title": "Britain's grid operator gave Palantir contract without inviting rival bids",
+    "date": "2026-09-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.ft.com/content/f6a26a17-985f-4283-99c4-ba5d54e94e7f",
+    "summary": "Britain's grid operator gave Palantir contract without inviting rival bids",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-49559666",
     "title": "Tesla Begins Offering Rides in a Car Without a Steering Wheel",
     "date": "2026-09-04",
