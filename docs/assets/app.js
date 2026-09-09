@@ -7,20 +7,25 @@
   'use strict';
 
   // ---------- Data fetching with in-memory cache ----------
+  // Caches the in-flight promise, not just the resolved value — two callers
+  // racing for the same dataset (e.g. loadAll() + loadHeaderUpdated() both
+  // wanting sources.json) must collapse to a single fetch, not one each.
   const cache = {};
-  async function loadData(name) {
+  function loadData(name) {
     if (cache[name]) return cache[name];
     const url = `data/${name}.json`;
-    try {
-      const res = await fetch(url, { cache: 'no-cache' });
-      if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-      const json = await res.json();
-      cache[name] = json;
-      return json;
-    } catch (err) {
-      console.error(`Failed to load ${url}:`, err);
-      throw err;
-    }
+    const promise = fetch(url, { cache: 'no-cache' })
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+        return res.json();
+      })
+      .catch((err) => {
+        console.error(`Failed to load ${url}:`, err);
+        delete cache[name]; // let a later call retry instead of re-throwing forever
+        throw err;
+      });
+    cache[name] = promise;
+    return promise;
   }
 
   // The four core record datasets. sources.json and agencies.json were fetched

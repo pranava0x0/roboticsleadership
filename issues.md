@@ -76,16 +76,6 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 - **Fix:** don't bind on a global `DOMContentLoaded` race. Either (a) export `RT.initCollapsibleSections()` and have each page call it *after* it renders, or (b) delegate — one `toggle` listener on `document` (the event doesn't bubble, but it can be captured), which survives any re-render and is the smaller change. (b) preferred; (a) is 9 call sites and re-introduces the same ordering question every time a page adds a render.
 - **Regression coverage:** none. Needs the jsdom harness the backlog already wants for news.html's deep-link contract — same class of ordering bug, same blind spot in a Node-only suite.
 
-### 2026-07-16 — app.js — `loadData` cache stampede: concurrent callers double-fetch the same dataset
-
-- **Area:** data fetching (`docs/assets/app.js:11-24`).
-- **Symptom:** `sources.json` was requested **twice** on every page load. Found while verifying WS0's dead-fetch removal — the network panel showed the duplicate after `agencies.json` correctly disappeared.
-- **Root cause (code bug):** the in-memory cache stores the *resolved* value (`cache[name] = json`) only after `await fetch(...)` returns. Two callers racing for the same dataset both evaluate `if (cache[name])` before either resolves, so both miss and both fetch. `loadAll()` and `loadHeaderUpdated()` did exactly this on `sources.json`.
-- **Impact today:** small — one extra 4KB request on each page. It gets worse with WS5, which lazy-loads datasets from several call sites at once; that's precisely the pattern that races.
-- **Status:** Open. Partially mitigated 2026-07-16 by removing `sources.json` from `loadAll()` (the two racers no longer overlap), but the underlying cache is still stampede-prone for any future concurrent pair.
-- **Fix:** cache the in-flight **promise** rather than the value — `if (!cache[name]) cache[name] = fetch(...).then(...)` — so concurrent calls collapse to one request. Tracked in `improvement-plan-2.md` WS5.
-- **Regression coverage:** none yet; needs a test that fires two `loadData` calls for the same name concurrently and asserts a single fetch (stub `globalThis.fetch`, count calls).
-
 ## Fixed
 
 ### 2026-07-13 — news.html — deep-link `news.html#<id>` never opened the target story
@@ -147,6 +137,14 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 - **Reason:** Documentation must reflect current reality so users and future developers understand the actual project structure.
 
 ## Fixed (most recent first)
+
+### 2026-09-09 — app.js — `loadData` cache stampede: concurrent callers double-fetch the same dataset
+
+- **Area:** data fetching (`docs/assets/app.js:9-24`).
+- **Symptom:** `sources.json` was requested **twice** on every page load (open since 2026-07-16, partially mitigated by removing it from `loadAll()` but the underlying cache stayed stampede-prone for any future concurrent pair).
+- **Root cause (code bug):** the in-memory cache stored the *resolved* value (`cache[name] = json`) only after `await fetch(...)` returned. Two callers racing for the same dataset both evaluated `if (cache[name])` before either resolved, so both missed and both fetched.
+- **Fix:** `loadData` now caches the in-flight **promise** synchronously (`cache[name] = promise`) before any `await`, so concurrent calls for the same name collapse to one `fetch`. A rejected fetch deletes its cache entry so a later call can retry rather than replaying the same failure forever.
+- **Regression test:** none added — same gap as before (needs a test that fires two `loadData` calls for the same name concurrently and asserts a single fetch via a stubbed `globalThis.fetch`). `npm test` and a local page-load smoke pass (index/companies/policies/supply-chain/china/states/themes/news all 200, `<main>` present) confirm no regression.
 
 ### 2026-06-30 — data — Boston Dynamics financials.details cited the Hyundai/SoftBank stake buyout with the wrong year
 
