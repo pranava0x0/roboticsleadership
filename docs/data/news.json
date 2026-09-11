@@ -1,5 +1,283 @@
 [
   {
+    "id": "skild-ai-100m-arr-2026-09",
+    "title": "Skild AI hits $100M revenue run rate 10 months after first commercial deployment",
+    "date": "2026-09-10",
+    "source": "Bloomberg",
+    "source_type": "News",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-10/robotics-startup-skild-ai-hits-100-million-in-revenue-run-rate",
+    "summary": "Skild AI reached $100 million in annual recurring revenue run-rate, 10 months after its first commercial deployment. The company's general-purpose robot foundation-model software now runs on hundreds of robots at more than 60 paying customers (up from 8 earlier in 2026), spanning warehouses, factories, data centers, food prep, and security. Named deployments include NVIDIA/Foxconn Blackwell assembly, Sumitomo Wiring Systems harness manufacturing, and Mitsui & Co. commercial-kitchen automation. CEO Deepak Pathak called it a shift from \"an era of demos\" to \"an era of deployments.\" Skild raised $1.4B at a $14B valuation in January 2026.",
+    "category": "Deployment",
+    "companies": [
+      "skild-ai"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "deployment",
+      "revenue-milestone",
+      "foundation-model"
+    ]
+  },
+  {
+    "id": "china-csrc-tightens-humanoid-ipo-2026-09",
+    "title": "China tightens humanoid robot IPO approvals after Unitree's post-debut plunge",
+    "date": "2026-09-09",
+    "source": "China Money Network",
+    "source_type": "News",
+    "source_url": "https://www.chinamoneynetwork.com/2026/09/09/chinese-regulators-tighten-approval-for-humanoid-ipos-amid-unitree-robotics-debut",
+    "summary": "China's securities regulator (CSRC) has given informal \"window guidance\" requiring humanoid robot companies seeking IPOs to show recurring revenue, a path to narrower losses, or genuine technological innovation before advancing applications. The move follows Unitree Robotics' volatile Shanghai debut, where shares surged more than fivefold on day one before collapsing roughly 45%. GalBot, AgiBot, LimX Dynamics, and Galaxea AI have IPO filings pending; humanoid robotics funding reached an estimated $5.4B in H1 2026 amid regulator concern that the sector is inflating into a bubble.",
+    "category": "Policy",
+    "companies": [
+      "unitree",
+      "agibot",
+      "galbot"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "china",
+      "ipo",
+      "regulation",
+      "humanoid"
+    ]
+  },
+  {
+    "id": "samsung-sds-walden-robotics-partnership-2026-09",
+    "title": "Samsung SDS partners with Walden Robotics on factory-floor robot orchestration",
+    "date": "2026-09-08",
+    "source": "Seoul Economic Daily",
+    "source_type": "News",
+    "source_url": "https://en.sedaily.com/technology/2026/09/08/samsung-sds-bets-on-toyota-spinoff-walden-robotics",
+    "summary": "Samsung SDS and Walden Robotics announced a manufacturing partnership built around a \"robot orchestration\" model: Walden supplies general-purpose robots with large behavior models that learn from real tasks, while Samsung SDS integrates them with existing factory systems and manages multiple robot types as a unified fleet. Samsung Venture Investment took a strategic equity stake in Walden in June 2026 (Walden raised $300M at a $1.1B valuation in July, with Toyota, Deviation Capital, NVIDIA, and Boeing also participating). Samsung SDS has been running technical validation trials at production sites operated by Samsung Electro-Mechanics, SEMES, Samsung Heavy Industries, and Samsung E&A.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "partnership",
+      "manufacturing",
+      "samsung"
+    ]
+  },
+  {
+    "id": "rss-vention-opens-physical-ai-lab-313",
+    "title": "Vention opens Physical AI Lab for manufacturing in Montreal",
+    "date": "2026-09-09",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/",
+    "summary": "Vention's new Physical AI Lab will focus on advancing robotic manipulation from research to scalable production-line deployment.\nThe post Vention opens Physical AI Lab for manufacturing in Montreal ap...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-agibot-to-explain-how-to-scale-327",
+    "title": "AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness",
+    "date": "2026-09-09",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/",
+    "summary": "AGIBOT plans to give attendees actionable insights on identifying high-value robotics use cases and building sustainable developer ecosystems.\nThe post AGIBOT to explain how to scale humanoids from th...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-unitree-shares-down-53-from-ip-329",
+    "title": "Unitree shares down 53% from IPO debut",
+    "date": "2026-09-09",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
+    "summary": "The market is pulling back on Unitree's $66 billion valuation from its debut on the Shanghai Stock Exchange just last month.\nThe post Unitree shares down 53% from IPO debut appeared first on The Robot...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-what-bricklaying-has-taught-mo-224",
+    "title": "What bricklaying has taught Monumental about robots in construction",
+    "date": "2026-09-09",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/",
+    "summary": "The construction industry is rife with opportunity for robotics, but the technology hasn't broken in at scale yet. \nThe post What bricklaying has taught Monumental about robots in construction appeare...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-maven-robotics-wants-to-steal-696",
+    "title": "Maven Robotics wants to steal your robot deployment deal",
+    "date": "2026-09-10",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/",
+    "summary": "Maven Robotics emerged from stealth today with a $100 million Series A and active deployments.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "hn-49638976",
+    "title": "After outrunning Bolt, China's robot champion races towards real-world work",
+    "date": "2026-09-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.reuters.com/world/asia-pacific/after-outrunning-bolt-chinas-robot-champion-races-towards-real-world-work-2026-09-10/",
+    "summary": "After outrunning Bolt, China's robot champion races towards real-world work",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49633194",
+    "title": "Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation",
+    "date": "2026-09-09",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2609.01596",
+    "summary": "Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49606995",
+    "title": "A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing",
+    "date": "2026-09-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/HandEdit/HandEdit",
+    "summary": "A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49606001",
+    "title": "Robot-Use Agents",
+    "date": "2026-09-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html",
+    "summary": "Robot-Use Agents",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49609322",
+    "title": "Meet Sally, the Robot Teacher. She Is a Real Doll",
+    "date": "2026-09-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://galratner.substack.com/p/meet-sally-the-robot-teacher-she",
+    "summary": "Meet Sally, the Robot Teacher. She Is a Real Doll",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "fedreg-news-2026-18429",
+    "title": "Medical Devices; Ear, Nose, and Throat Devices; Classification of the Cooperative Powered Surgical Assist Device for ENT Surgery",
+    "date": "2026-09-10",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/10/2026-18429/medical-devices-ear-nose-and-throat-devices-classification-of-the-cooperative-powered-surgical",
+    "summary": "The Food and Drug Administration (FDA) is classifying the cooperative powered surgical assist device for ear, nose, and throat (ENT) surgery into class II (special controls). The special controls that...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ]
+  },
+  {
     "id": "hn-49614055",
     "title": "Robots \"protest\" in Warsaw to demand regulation of AI and automation",
     "date": "2026-09-08",
