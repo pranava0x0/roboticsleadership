@@ -1949,6 +1949,17 @@
         ],
         "url": "https://www.electricsheep.co",
         "confidence": "reported"
+      },
+      {
+        "date": "2025-10",
+        "round": "Acquisition",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "Oso Electric Equipment"
+        ],
+        "url": "https://osorobotics.ai/oso-electric-equipment-acquires-electric-sheep-robotics/",
+        "confidence": "confirmed"
       }
     ],
     "total_funding_usd": 80000000,
@@ -1988,19 +1999,37 @@
       "service-robot",
       "autonomous",
       "landscaping",
-      "raas"
+      "raas",
+      "acquired"
     ],
     "data_confidence": "medium",
     "sources": [
       {
         "url": "https://www.electricsheep.co"
+      },
+      {
+        "url": "https://osorobotics.ai/oso-electric-equipment-acquires-electric-sheep-robotics/"
+      },
+      {
+        "url": "https://www.therobotreport.com/oso-electric-equipment-acquires-electric-sheep-robotics/"
       }
     ],
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-09-11",
     "themes": [
       "industrial-deployments",
       "cost-trajectory"
     ],
+    "financials": {
+      "details": "Acquired by Oso Electric Equipment (announced 2025-10-22), combining Oso's electric-powertrain hardware with Electric Sheep's autonomy/AI stack (Verdie, RAM robots) into one entity; builds on an earlier 2025 partnership that produced a 21-inch commercial electric smart mower. Company continues operating under the combined brand rather than winding down.",
+      "sources": [
+        {
+          "url": "https://osorobotics.ai/oso-electric-equipment-acquires-electric-sheep-robotics/"
+        },
+        {
+          "url": "https://www.therobotreport.com/oso-electric-equipment-acquires-electric-sheep-robotics/"
+        }
+      ]
+    },
     "map_category": "field"
   },
   {
@@ -2477,16 +2506,16 @@
     "website": "https://www.gr.inc",
     "funding_rounds": [
       {
-        "date": "2025-06",
+        "date": "2025-07",
         "round": "Seed",
-        "amount_usd": null,
+        "amount_usd": 10904992,
         "valuation_usd": null,
         "investors": null,
-        "url": "https://www.gr.inc/",
-        "confidence": "rumored"
+        "url": "https://www.formds.com/issuers/general-reasoning-inc",
+        "confidence": "confirmed"
       }
     ],
-    "total_funding_usd": null,
+    "total_funding_usd": 10904992,
     "latest_valuation_usd": null,
     "robot_types": [
       "ai-infrastructure"
@@ -2518,12 +2547,15 @@
       "uk-founded"
     ],
     "data_confidence": "medium",
-    "last_updated": "2026-06-14",
+    "last_updated": "2026-09-11",
     "source_url": "https://www.gr.inc/",
     "notes": "Founded 2024 by Ross Taylor (ex-Meta AI, led Llama 2/3 reasoning). Focus on AI reasoning models and planning infrastructure.",
     "sources": [
       {
         "url": "https://www.gr.inc/"
+      },
+      {
+        "url": "https://www.formds.com/issuers/general-reasoning-inc"
       }
     ],
     "themes": [
@@ -7259,10 +7291,24 @@
         ],
         "url": "https://techcrunch.com/2025/09/23/alloy-is-bringing-data-management-to-the-robotics-industry/",
         "confidence": "reported"
+      },
+      {
+        "date": "2026-08",
+        "round": "Seed",
+        "amount_usd": 8000000,
+        "valuation_usd": 80000000,
+        "investors": [
+          "Square Peg",
+          "Blackbird Ventures",
+          "Airtree Ventures",
+          "Skip Capital"
+        ],
+        "url": "https://www.prnewswire.com/news-releases/alloy-robotics-raises-8m-to-help-engineers-debug-robot-fleets-with-ai-agents-302849699.html",
+        "confidence": "confirmed"
       }
     ],
-    "total_funding_usd": 4500000,
-    "latest_valuation_usd": null,
+    "total_funding_usd": 12500000,
+    "latest_valuation_usd": 80000000,
     "robot_types": [],
     "primary_use_case": "data infrastructure for robotics teams (capture, label, search robot sensor data via natural language)",
     "flagship_product": "Alloy robotics data platform",
@@ -7285,9 +7331,10 @@
     "data_confidence": "medium",
     "sources": [
       "https://techcrunch.com/2025/09/23/alloy-is-bringing-data-management-to-the-robotics-industry/",
-      "https://www.blackbird.vc/blog/investment-notes-alloy"
+      "https://www.blackbird.vc/blog/investment-notes-alloy",
+      "https://www.prnewswire.com/news-releases/alloy-robotics-raises-8m-to-help-engineers-debug-robot-fleets-with-ai-agents-302849699.html"
     ],
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-09-11",
     "themes": [
       "foundation-models"
     ],
@@ -7298,8 +7345,8 @@
     "name": "Nori Robotics",
     "founded": "2026",
     "hq": {
-      "city": "New York",
-      "state": "NY",
+      "city": "San Francisco",
+      "state": "CA",
       "country": "USA"
     },
     "website": "https://www.norirobotics.com/",
@@ -7311,10 +7358,10 @@
       "mobile manipulator"
     ],
     "primary_use_case": "affordable home/household chore assistant",
-    "flagship_product": "NORI L2 — bimanual wheeled home robot, $1,288 (also NORI L2 Grande, $1,322), autonomously does dishes, laundry, cleaning, food prep",
+    "flagship_product": "NORI A3 — bimanual wheeled home robot, $1,688 (19 DOF), autonomously does dishes, laundry, cleaning, food prep; began shipping July 2026",
     "deployments": [],
-    "headcount": 4,
-    "headcount_date": "2026-06",
+    "headcount": 5,
+    "headcount_date": "2026-09",
     "founders": [
       {
         "name": "Antonio Sitong Li",
@@ -7331,9 +7378,10 @@
     "data_confidence": "medium",
     "sources": [
       "https://www.ycombinator.com/companies/noril1",
-      "https://www.norirobotics.com/"
+      "https://www.norirobotics.com/",
+      "https://www.forbes.com/sites/johnkoetsier/2026/08/18/american-humanoid-robot-launches-for-just-1688-delivery-this-fall-made-in-san-francisco/"
     ],
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-09-11",
     "themes": [
       "cost-trajectory"
     ],

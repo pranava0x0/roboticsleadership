@@ -534,6 +534,7 @@
         { name: 'SoftBank Corp.', tag: 'Server install', desc: 'Building “robot-friendly” data centers with cable-free racks where a robot simply pushes a server in to make automatic power and network connections.', src: ['SoftBank', 'https://www.softbank.jp/en/sbnews/entry/20251215_01'] },
         { name: 'NVIDIA — Cosmos', tag: 'Robotics platform', desc: 'The Cosmos platform and digital-twin robotics stack let partners build autonomous systems for data centers — the AI driving power demand automating its own facilities.', src: ['NVIDIA', 'https://www.nvidia.com/en-us/industries/robotics/'] },
         { name: 'Google', tag: 'Infrastructure', desc: 'Disclosed at the 2024 OCP summit that it had begun deploying robots in its data centers for physical infrastructure tasks.', src: ['Techerati', 'https://www.techerati.com/news-hub/robots-and-the-data-centre/'] },
+        { name: 'Exclaim Robotics', tag: 'Maintenance', desc: 'Zurich startup founded by ex-Microsoft roboticist Helen Oleynikova is building dexterous-manipulation robots for AI data centers — cleaning/replacing optics, reconnecting copper cabling and re-seating drives amid 800V DC and liquid-cooling buildouts; $4.95M pre-seed.', src: ['Data Center Dynamics', 'https://www.datacenterdynamics.com/en/news/former-microsoft-researcher-launches-data-center-robotics-startup/'] },
       ],
     },
     'mining': {
@@ -592,7 +593,7 @@
     // Grid
     'DEEP Robotics': 'China', 'Hydro-Québec — LineRanger': 'Canada', 'DRONE VOLT — LineDrone': 'France', 'EPRI — “Ti” robot': 'United States', 'Oak Ridge National Lab': 'United States', 'AiDash': 'United States',
     // Data centers
-    'DEWALT + August Robotics': 'United States', 'AWS + Molg': 'United States', 'SoftBank Corp.': 'Japan', 'NVIDIA — Cosmos': 'United States', 'Google': 'United States',
+    'DEWALT + August Robotics': 'United States', 'AWS + Molg': 'United States', 'SoftBank Corp.': 'Japan', 'NVIDIA — Cosmos': 'United States', 'Google': 'United States', 'Exclaim Robotics': 'Switzerland',
     // Mining
     'KoBold Metals': 'United States', 'Durin': 'United States', 'Caterpillar — MineStar': 'United States', 'Sandvik AutoMine': 'Sweden', 'Pronto': 'United States', 'Nox Metals': 'United States',
     // Manufacturing
@@ -610,6 +611,7 @@
     'Taurob — TotalEnergies', 'Energy Robotics (Korial)', 'Createc (RISER / N-Visage)',
     'KoBold Metals', 'Durin', 'Pronto',
     'Aetherflux', 'Solestial', 'Starcloud', 'Chemify', 'Kebotix',
+    'Exclaim Robotics',
   ]);
 
   /* Maturity of robots in the field for each entry. Default is "deployed";
@@ -623,7 +625,7 @@
   ]);
   const POTENTIAL = new Set([
     'Aetherflux', 'Google — Project Suncatcher', 'NVIDIA — Cosmos',
-    'Oak Ridge National Lab', 'Quaise Energy', 'Nox Metals',
+    'Oak Ridge National Lab', 'Quaise Energy', 'Nox Metals', 'Exclaim Robotics',
   ]);
   const statusOf = (name) => POTENTIAL.has(name) ? 'potential' : (ANNOUNCED.has(name) ? 'announced' : 'deployed');
 
