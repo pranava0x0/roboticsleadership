@@ -1,5 +1,773 @@
 [
   {
+    "id": "hn-49669538",
+    "title": "A.I. Could Possibly End Humanity. How Are Humans Supposed to Process That?",
+    "date": "2026-09-12",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.nytimes.com/2026/09/10/science/ai-humanity-risk.html",
+    "summary": "A.I. Could Possibly End Humanity. How Are Humans Supposed to Process That?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49676849",
+    "title": "OpenAI's Sam Altman says it would be 'ill-advised' to go public in 2026",
+    "date": "2026-09-12",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+    "summary": "OpenAI's Sam Altman says it would be 'ill-advised' to go public in 2026",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49679103",
+    "title": "AI's Code-Red Moment",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theatlantic.com/technology/2026/09/dario-amodei-slow-down-ai-save-humanity/688610/",
+    "summary": "AI's Code-Red Moment",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49681060",
+    "title": "AI staff 'genuinely frightened' for humanity's future",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.bbc.com/news/articles/c1kx0gyje9wo",
+    "summary": "AI staff 'genuinely frightened' for humanity's future",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49684289",
+    "title": "OpenArm: An open-source 7DOF humanoid arm",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/enactic/OpenArm",
+    "summary": "OpenArm: An open-source 7DOF humanoid arm",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49645186",
+    "title": "Streaming Is Raising Prices Faster Than Cable Ever Did",
+    "date": "2026-09-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.hollywoodreporter.com/business/business-news/streaming-inflation-raising-prices-cable-1236691404/",
+    "summary": "Streaming Is Raising Prices Faster Than Cable Ever Did",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49645521",
+    "title": "Show HN: Matcha Filter Remover – browser-first green cast correction",
+    "date": "2026-09-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://matchafilterremover.net/",
+    "summary": "Show HN: Matcha Filter Remover – browser-first green cast correction",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49647151",
+    "title": "Show HN: I created a translation service prompt",
+    "date": "2026-09-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/AlkalineGarrett/language-root-translator",
+    "summary": "I am in the process of learning European Portuguese because I moved to Portugal. I was having significant friction with Google Translate, so I started giving more and more instructions to Gemini Flash",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49647883",
+    "title": "Show HN: PromptSign – Sigstore signing and verification for AI instruction files",
+    "date": "2026-09-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://promptsign.ai/",
+    "summary": "I built PromptSign after finding some useful-looking AI skills on the Internet and realizing I couldn't really know where they came from. In particular, I could not answer:1) Who created the skil",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49649789",
+    "title": "Show HN: Bodily Oddities",
+    "date": "2026-09-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://vester.si/bodily-oddities/",
+    "summary": "When I was about 11 years old, my best friend and I were playing during recess at school, and I was carrying him around on my back, presumably pretending to be a multipart attack robot. All of a sudde",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49650597",
+    "title": "Robots stage 'protest' demanding stricter AI rules in Poland",
+    "date": "2026-09-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.polskieradio.pl/395/7991/artykul/3729785,robots-stage-protest-demanding-stricter-ai-rules-in-poland",
+    "summary": "Robots stage 'protest' demanding stricter AI rules in Poland",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49650608",
+    "title": "Using Forester Behavior Trees for Virtual Commissioning of Robotic Cells",
+    "date": "2026-09-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://besok.github.io/posts/forester-virtual-commissioning-of-robotic-cells/",
+    "summary": "Using Forester Behavior Trees for Virtual Commissioning of Robotic Cells",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49651833",
+    "title": "Just a VLM Agent Can Play Robots",
+    "date": "2026-09-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2609.10522",
+    "summary": "Just a VLM Agent Can Play Robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49654444",
+    "title": "XPENG's Humanoid Robots production line is finished",
+    "date": "2026-09-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=ZgBm8PdtpGo",
+    "summary": "XPENG's Humanoid Robots production line is finished",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49656324",
+    "title": "Show HN: You can't read every ToS, but the clanker can",
+    "date": "2026-09-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/PAndreew/termsinator",
+    "summary": "Termsinator is a public registry of LLM-performed analyses of public legal documents like ToSs, Privacy policies, Cookie policies, etc. The goal of this project is to help people better understand how",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49657453",
+    "title": "Show HN: Simseeder – an MMO Roguelike where players build the game",
+    "date": "2026-09-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://simseeder.com",
+    "summary": "Hi HN,For the past 5 years, I have been working on an online persistent game, where players create (as in, draw + give behaviour) objects, plants, creatures and can then build them in the world, for o",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49658869",
+    "title": "Omarchy Is a Power Grab",
+    "date": "2026-09-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://tante.cc/2026/09/11/power-grab/",
+    "summary": "Omarchy Is a Power Grab",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49660287",
+    "title": "Whirlwind and the Roots of Continental Air Defense",
+    "date": "2026-09-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.computer.org/csdl/magazine/an/2026/01/11087694/28xeMyStaYo",
+    "summary": "Whirlwind and the Roots of Continental Air Defense",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49662990",
+    "title": "I spent $220 on Google app ads and 60% of the installs were robots",
+    "date": "2026-09-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
+    "summary": "I spent $220 on Google app ads and 60% of the installs were robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49667084",
+    "title": "The robotics revolution won't be humanoid",
+    "date": "2026-09-11",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://techcrunch.com/video/the-robotics-revolution-wont-be-humanoid/",
+    "summary": "The robotics revolution won't be humanoid",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49670608",
+    "title": "BabaCAD Robotics Web – free browser-based industrial robot simulator",
+    "date": "2026-09-12",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.babacad.com/robotics/web/",
+    "summary": "BabaCAD Robotics Web – free browser-based industrial robot simulator",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49671355",
+    "title": "Show HN: TattooPreview AI – a planning workflow for tattoo artist conversations",
+    "date": "2026-09-12",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://tattoopreviewai.com",
+    "summary": "Show HN: TattooPreview AI – a planning workflow for tattoo artist conversations",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49672199",
+    "title": "Kubernetes v1.37: KubeletInUserNamespace (Rootless) to Beta",
+    "date": "2026-09-12",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/",
+    "summary": "Kubernetes v1.37: KubeletInUserNamespace (Rootless) to Beta",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49673310",
+    "title": "I spent $4,000 on a robot dog from China",
+    "date": "2026-09-12",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.understandingai.org/p/i-spent-4000-on-a-robot-dog-from",
+    "summary": "I spent $4,000 on a robot dog from China",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49675622",
+    "title": "San Franciscans are having sex in robotaxis, and nobody is talking about it",
+    "date": "2026-09-12",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://sfstandard.com/2023/08/11/san-francisco-robotaxi-cruise-debauchery/",
+    "summary": "San Franciscans are having sex in robotaxis, and nobody is talking about it",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49681513",
+    "title": "Robots protest in Poland over AI regulation concerns",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/robots-protest-in-poland-over-ai-regulation-concerns",
+    "summary": "Robots protest in Poland over AI regulation concerns",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49682192",
+    "title": "Show HN: AlertiGate – Kubernetes alerts in, evidence-backed root cause out",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://alertigate.com/",
+    "summary": "Show HN: AlertiGate – Kubernetes alerts in, evidence-backed root cause out",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-comau-automates-picking-handli-941",
+    "title": "Comau automates picking, handling, and palletizing for Decathlon",
+    "date": "2026-09-10",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/",
+    "summary": "Comau's system incorporates its MyCo cobot, ROS2 software architecture, AI-powered vision systems, and a modular gripper.\nThe post Comau automates picking, handling, and palletizing for Decathlon appe...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-swarmer-to-acquire-ukrainian-u-678",
+    "title": "Swarmer to acquire Ukrainian UGV maker Ratel Robotics for up to $224M",
+    "date": "2026-09-10",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/swarmer-to-acquire-ukrainian-ugv-maker-ratel-robotics-for-up-to-224m/",
+    "summary": "Swarmer, which has developed swarm software, plans to work with Ratel Robotics' unmanned ground vehicles in Ukraine.\nThe post Swarmer to acquire Ukrainian UGV maker Ratel Robotics for up to $224M appe...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-teradyne-robotics-sues-jaka-ov-970",
+    "title": "Teradyne Robotics sues JAKA over 3 Universal Robots patents",
+    "date": "2026-09-10",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/",
+    "summary": "New details reveal the lawsuit involves three Universal Robots patents about robot interfaces, safety brakes, and joints.\nThe post Teradyne Robotics sues JAKA over 3 Universal Robots patents appeared ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-how-drone-developers-are-navig-216",
+    "title": "How drone developers are navigating changing regulatory landscapes to help farmers",
+    "date": "2026-09-11",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-hylio-drone-developers-navigate-changing-regulatory-landscape-help-farmers/",
+    "summary": "Before the FCC put restrictions on foreign-made robots, it had already set similar restrictions on drones last year, noted Hylio.\nThe post How drone developers are navigating changing regulatory lands...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-how-to-select-the-right-rack-a-297",
+    "title": "How to select the right rack and pinion system for high-precision linear motion",
+    "date": "2026-09-11",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/",
+    "summary": "GAM explains why robotics designers should consider pinion size when thinking about motion control for high-precision applications. \nThe post How to select the right rack and pinion system for high-pr...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-learn-how-avs-and-robotics-are-698",
+    "title": "Learn how AVs and robotics are laying the groundwork for field deployments at RoboBusiness",
+    "date": "2026-09-11",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/learn-how-avs-robotics-are-laying-groundwork-field-deployments-robobusiness/",
+    "summary": "ASI CEO Mel Torrie will explore why the intersection of autonomous vehicles and robotics will further revolutionize field deployments.\nThe post Learn how AVs and robotics are laying the groundwork for...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-one-brick-at-a-time-how-monume-867",
+    "title": "One brick at a time: How Monumental uses robotics to build walls",
+    "date": "2026-09-11",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/",
+    "summary": "CEO Salar al Khafaji introduces podcast listeners to how Monumental is using robotics to build walls.\nThe post One brick at a time: How Monumental uses robotics to build walls appeared first on The Ro...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-ultrasound-offers-a-scalable-p-853",
+    "title": "Ultrasound offers a scalable path to tactile intelligence for physical AI",
+    "date": "2026-09-12",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/ultrasound-offers-scalable-path-tactile-intelligence-physical-ai/",
+    "summary": "Ultrasound sensing can provide tactile perception for robotic hands while avoiding wear and tear, says UltraSense.\nThe post Ultrasound offers a scalable path to tactile intelligence for physical AI ap...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-how-autonomous-fleets-are-chan-473",
+    "title": "How autonomous fleets are changing what’s possible in American agriculture",
+    "date": "2026-09-13",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/",
+    "summary": "Autonomous tractors can help American agriculture, as exemplified in ASI's collaboration with U.S. Sugar and Everglades Equipment.\nThe post How autonomous fleets are changing what’s possible in Americ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-mecka-ai-nears-500m-valuation-688",
+    "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+    "date": "2026-09-11",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+    "summary": "The round for the two-year-old startup is coming together months after Mecka announced its Series A.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-robots-are-learning-to-feel-877",
+    "title": "Robots Are Learning to Feel",
+    "date": "2026-09-10",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/tactile-data-robots",
+    "summary": "Dexterous manipulation remains one of the biggest barriers keeping robots from successfully tackling a wide range of everyday tasks. A sense of touch could be the key, but a lack of quality data has h...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-video-friday-humanoid-robot-ta-754",
+    "title": "Video Friday: Humanoid Robot Takes On Monkey Bars",
+    "date": "2026-09-11",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-disaster-response-robots",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "skild-ai-100m-arr-2026-09",
     "title": "Skild AI hits $100M revenue run rate 10 months after first commercial deployment",
     "date": "2026-09-10",
