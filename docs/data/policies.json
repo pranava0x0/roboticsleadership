@@ -3110,5 +3110,67 @@
       }
     ],
     "last_updated": "2026-08-26"
+  },
+  {
+    "id": "fedreg-2026-18429",
+    "title": "Medical Devices; Ear, Nose, and Throat Devices; Classification of the Cooperative Powered Surgical Assist Device for ENT Surgery",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-09-10",
+    "status": "In effect",
+    "bill_number": "2026-18429",
+    "sponsor": "Federal Agency",
+    "summary": "The Food and Drug Administration (FDA) is classifying the cooperative powered surgical assist device for ear, nose, and throat (ENT) surgery into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the cooperative powered surgical assist device for ENT surgery. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of the safety and effectiveness of the device. We believe this action will also enhance patients' access to beneficial innovative devices, in part by reducing regulatory burdens.",
+    "full_text_url": "https://www.federalregister.gov/documents/2026/09/10/2026-18429/medical-devices-ear-nose-and-throat-devices-classification-of-the-cooperative-powered-surgical",
+    "robotics_scope": "Federal Register publication",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal-register",
+      "federal"
+    ],
+    "themes": [],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/09/10/2026-18429/medical-devices-ear-nose-and-throat-devices-classification-of-the-cooperative-powered-surgical"
+      }
+    ],
+    "last_updated": "2026-09-14",
+    "_requires_curator_review": true
+  },
+  {
+    "id": "fedreg-2026-18282",
+    "title": "Unleashing Unlicensed Spectrum for Direct-to-Device",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-09-08",
+    "status": "Introduced",
+    "bill_number": "2026-18282",
+    "sponsor": "Federal Agency",
+    "summary": "The Federal Communications Commission (Commission or FCC) issues a Notice of Proposed Rulemaking proposes to expand opportunities for direct-to-device (D2D) communications by permitting certain unlicensed devices to communicate with satellites on a non-interference basis. Building on recent market growth and new industry investment in D2D technologies, the NPRM explores adding satellite allocations in specific unlicensed bands, clarifying that equipment may operate within spacecraft, and establishing a flexible regulatory framework that preserves incumbent operations while enabling continued innovation. The Commission seeks comment on technical, licensing, and policy considerations to support expanded D2D connectivity and ensure coexistence with existing services.",
+    "full_text_url": "https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device",
+    "robotics_scope": "Federal Register publication",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal-register",
+      "federal"
+    ],
+    "themes": [],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device"
+      }
+    ],
+    "last_updated": "2026-09-14",
+    "_requires_curator_review": true
   }
 ]
