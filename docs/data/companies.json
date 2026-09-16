@@ -4247,7 +4247,35 @@
     ],
     "primary_use_case": "ai_foundation_model",
     "flagship_product": "Skild Brain (general robot foundation model)",
-    "deployments": [],
+    "deployments": [
+      {
+        "customer": "NVIDIA / Foxconn",
+        "location": "USA/Taiwan",
+        "robot_count": null,
+        "start_date": "2026",
+        "status": "active",
+        "use_case": "Blackwell assembly line automation",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-09-10/robotics-startup-skild-ai-hits-100-million-in-revenue-run-rate"
+      },
+      {
+        "customer": "Sumitomo Wiring Systems",
+        "location": "Global",
+        "robot_count": null,
+        "start_date": "2026",
+        "status": "active",
+        "use_case": "Wiring harness manufacturing",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-09-10/robotics-startup-skild-ai-hits-100-million-in-revenue-run-rate"
+      },
+      {
+        "customer": "Mitsui & Co.",
+        "location": "Japan",
+        "robot_count": null,
+        "start_date": "2026",
+        "status": "active",
+        "use_case": "Commercial-kitchen automation",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-09-10/robotics-startup-skild-ai-hits-100-million-in-revenue-run-rate"
+      }
+    ],
     "headcount": null,
     "headcount_date": null,
     "target_price_usd": null,
@@ -4280,21 +4308,27 @@
       },
       {
         "url": "https://techcrunch.com/2026/01/14/robotic-software-maker-skild-ai-hits-14b-valuation/"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-09-10/robotics-startup-skild-ai-hits-100-million-in-revenue-run-rate"
       }
     ],
-    "last_updated": "2026-06-19",
+    "last_updated": "2026-09-16",
     "themes": [
       "foundation-models"
     ],
     "financials": {
-      "revenue_usd": null,
-      "revenue_year": null,
+      "revenue_usd": 100000000,
+      "revenue_year": "2026",
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private software/AI brain startup. Pre-revenue. Series C funding round in Jan 2026 raised $1.4B led by SoftBank (with Nvidia) at a $14B valuation, up from a $4.5B valuation in mid-2025.",
+      "details": "Private software/AI brain startup. Series C funding round in Jan 2026 raised $1.4B led by SoftBank (with Nvidia) at a $14B valuation, up from a $4.5B valuation in mid-2025. Reached a $100M ARR run-rate by Sep 2026, 10 months after its first commercial deployment — software now runs on hundreds of robots at 60+ paying customers (up from 8 earlier in 2026).",
       "sources": [
         {
           "url": "https://www.businesswire.com/news/home/20260114335623/en/Skild-AI-Raises-$1.4B-Now-Valued-Over-$14B"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-09-10/robotics-startup-skild-ai-hits-100-million-in-revenue-run-rate"
         }
       ]
     },
@@ -4985,10 +5019,21 @@
         ],
         "url": "https://news.cgtn.com/news/2026-06-01/Unitree-gets-STAR-Market-green-light-in-China-s-hard-tech-IPO-wave-1NCT9TksSVq/share_amp.html",
         "confidence": "confirmed"
+      },
+      {
+        "date": "2026-08",
+        "round": "IPO (STAR Market, debut)",
+        "amount_usd": null,
+        "valuation_usd": 66000000000,
+        "investors": [
+          "Public offering — Shanghai STAR Market"
+        ],
+        "url": "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
+        "confidence": "reported"
       }
     ],
     "total_funding_usd": 756000000,
-    "latest_valuation_usd": 6200000000,
+    "latest_valuation_usd": 31000000000,
     "robot_types": [
       "quadruped",
       "humanoid"
@@ -5037,9 +5082,11 @@
         "url": "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/"
       },
       "https://www.caixinglobal.com/2026-05-26/unitree-fast-tracks-shanghai-ipo-with-target-valuation-of-62-billion-102447449.html",
-      "https://news.cgtn.com/news/2026-06-01/Unitree-gets-STAR-Market-green-light-in-China-s-hard-tech-IPO-wave-1NCT9TksSVq/share_amp.html"
+      "https://news.cgtn.com/news/2026-06-01/Unitree-gets-STAR-Market-green-light-in-China-s-hard-tech-IPO-wave-1NCT9TksSVq/share_amp.html",
+      "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
+      "https://www.chinamoneynetwork.com/2026/09/09/chinese-regulators-tighten-approval-for-humanoid-ipos-amid-unitree-robotics-debut"
     ],
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-09-16",
     "themes": [
       "china-scale",
       "cost-trajectory"
@@ -5047,7 +5094,7 @@
     "financials": {
       "revenue_usd": 235000000,
       "revenue_year": "2025",
-      "details": "IPO prospectus: 2025 revenue CNY 1.71B (~$235M), up from CNY 392M in 2024; STAR Market IPO approved June 1, 2026 in a record 73-day review, raising ~CNY 4.2B at a target market cap of at least CNY 42B (~$6.2B)."
+      "details": "IPO prospectus: 2025 revenue CNY 1.71B (~$235M), up from CNY 392M in 2024. Debuted on the Shanghai STAR Market in Aug 2026, shares surged intraday to a ~$66B valuation before falling; as of 2026-09-09 shares traded ~53% below the debut peak (~$31B market cap, derived). China's CSRC subsequently gave informal guidance tightening humanoid-robot IPO approvals, citing the volatile debut."
     },
     "map_category": "humanoid"
   },

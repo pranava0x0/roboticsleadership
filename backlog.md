@@ -4,6 +4,13 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-09-16 (scheduled data refresh)
+
+- [ ] **New company discovery candidates surfaced but not yet added to `companies.json`.** This run's news curation surfaced four companies not currently tracked: **Walden Robotics** (Toyota spinoff, $300M raise at $1.1B valuation Jul 2026, partnership with Samsung SDS on factory-floor robot orchestration), **Monumental** (construction bricklaying robots, profiled by The Robot Report), **Maven Robotics** (robot-deployment brokerage, emerged from stealth with $100M Series A, TechCrunch), and **Vention** (opened a "Physical AI Lab" for manufacturing in Montreal). Per AGENTS.md §11–17, adding these properly needs a multi-source verification pass (founding date, HQ, funding history, map_category) rather than a stub record from a single news mention — flagged here for the next dedicated company-discovery sweep rather than fabricated under time pressure.
+- [ ] **77 of 81 `companies.json` records have `last_updated` > 30 days old (found 2026-09-16).** A full valuation-refresh sweep across the whole roster is out of scope for a single scheduled data-refresh run (it's the multi-agent research-economy workflow in AGENTS.md §11–17). This run corrected the two highest-materiality drifts surfaced by the news cycle itself (Unitree's post-IPO valuation collapse, Skild AI's $100M ARR + named deployments going pre-revenue → revenue-generating) rather than attempting all 77. Worth a dedicated staleness-sweep session before the drift compounds further.
+
+---
+
 ## ▶ Added 2026-09-11 (PR #200/#201 backlog curation)
 
 - [ ] **`auto/*` catch-up curation needs a cross-branch, source_url-level dedupe, not just id-level.** Curating the two open `auto/news-*` PRs (#200, #201) this run found the "latest branch is a superset" assumption (REFRESH.md 2026-09-07) false — each branch had 12 new-vs-main records the other lacked (rolling HN lookback window), requiring a manual union-by-id across both. Separately, one story (`blog.conan.io` "Robotics with Conan") surfaced under two different HN ids a day apart with an identical `source_url` — the scraper's within-run `source_url` dedupe doesn't span runs. Both problems go away if curation always diffs the full accumulated candidate set (union of all open `auto/*` branches vs `main`, deduped by `source_url` in addition to `id`) rather than trusting the newest branch alone. **M**, medium — only bites when PRs go unmerged for 2+ days, but that keeps happening (see issues.md 2026-09-07).
