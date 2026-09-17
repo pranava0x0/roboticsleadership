@@ -1,5 +1,111 @@
 [
   {
+    "id": "hn-49715541",
+    "title": "A labor forecasting approach built to keep pace with AI and robotics",
+    "date": "2026-09-15",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://endoflabor.org/",
+    "summary": "EOL Labor Analytics, a new independent research project, tracks AI and robotics displacement across 20 occupations (10 physical/robotics roles) through a six-stage capability-to-labor-market framework, publishing 2030/2035 employment outlooks alongside BLS projections.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49715997",
+    "title": "Smooth Exponentials for Robotics",
+    "date": "2026-09-15",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://evjang.com/2026/09/10/smooth-exponential.html",
+    "summary": "Robotics researcher Eric Jang argues robotics is entering a \"smooth capability exponential\" similar to LLMs, driven by China's manufacturing/entrepreneurship ecosystem, general-purpose LLMs performing robotic tasks zero-shot, and hardware-agnostic pretraining corpora — predicting the first general-purpose home robots by October 2027.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49719258",
+    "title": "'Robots building robots': a 10k unit industrial humanoid robot smart factory",
+    "date": "2026-09-15",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.globaltimes.cn/page/202609/1370528.shtml",
+    "summary": "UBTECH Robotics began production at what it calls the world's first 10,000-unit-capacity humanoid robot smart factory, in Liuzhou, China — built with Siemens Digital Industries Software, producing one Walker S/Cruzr-series industrial humanoid every 10 minutes.",
+    "category": "Competitive",
+    "companies": [
+      "ubtech"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49720571",
+    "title": "Waymo to start Tokyo robotaxi service next year in Asia push",
+    "date": "2026-09-16",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.japantimes.co.jp/business/2026/09/15/companies/waymo-tokyo-robotaxi-launch/",
+    "summary": "Waymo plans to launch a robotaxi service in Tokyo next year, its first market outside the US, as part of a broader push into Asia.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-robots-are-waiting-for-a-chatg-916",
+    "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
+    "date": "2026-09-16",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
+    "summary": "Nvidia robotics executive Les Karpas argues the robotics industry hasn't yet had its \"ChatGPT moment\" — the single inflection point where capability crosses into broad, everyday usefulness — commentary given at TechCrunch Disrupt 2026.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "skild-ai-100m-arr-2026-09",
     "title": "Skild AI hits $100M revenue run rate 10 months after first commercial deployment",
     "date": "2026-09-10",
