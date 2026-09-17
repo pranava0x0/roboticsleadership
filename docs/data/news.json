@@ -1,383 +1,24 @@
 [
   {
-    "id": "fedreg-news-2026-18997",
-    "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-ODVA, INC.",
-    "date": "2026-09-16",
-    "source": "Federal Register",
-    "source_type": "Government",
-    "source_url": "https://www.federalregister.gov/documents/2026/09/16/2026-18997/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-odva-inc",
-    "summary": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-ODVA, INC.",
-    "category": "Research",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "federal-register",
-      "rss-import"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49723272",
-    "title": "There is NO realistic scenario where AI wipes out all of humanity",
-    "date": "2026-09-16",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://twitter.com/RichardSocher/status/2099889673153683766",
-    "summary": "There is NO realistic scenario where AI wipes out all of humanity",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49727311",
-    "title": "Reddit co-founder says tech industry has been 'tone deaf' in explaining AI",
-    "date": "2026-09-16",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://www.cnbc.com/2026/09/16/reddit-ai-risk-humanity-warning-tech.html",
-    "summary": "Reddit co-founder says tech industry has been 'tone deaf' in explaining AI",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49727661",
-    "title": "Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity",
-    "date": "2026-09-16",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo",
-    "summary": "Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49681513",
-    "title": "Robots protest in Poland over AI regulation concerns",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/robots-protest-in-poland-over-ai-regulation-concerns",
-    "summary": "Robots protest in Poland over AI regulation concerns",
-    "category": "Policy",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49685136",
-    "title": "Show HN: Directory of 28 AI crawlers – robots.txt rules, IP ranges, open data",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://geoprompttracker.com/bots",
-    "summary": "Show HN: Directory of 28 AI crawlers – robots.txt rules, IP ranges, open data",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49689990",
-    "title": "Robots protest rampant AI in Poland",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://techxplore.com/news/2026-09-robots-protest-rampant-ai-poland.html",
-    "summary": "Robots protest rampant AI in Poland",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49691152",
-    "title": "OEMpocalypse: Unprivileged Android app to root on Samsung, Xiaomi, others",
-    "date": "2026-09-14",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://calif.io/research/oempocalypse",
-    "summary": "OEMpocalypse: Unprivileged Android app to root on Samsung, Xiaomi, others",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49691454",
-    "title": "Will Robots Inherit the Earth?(1997)",
-    "date": "2026-09-14",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://www.mit.edu/~dxh/marvin/web.media.mit.edu/~minsky/papers/sciam.inherit.html",
-    "summary": "Will Robots Inherit the Earth?(1997)",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49691619",
-    "title": "Below the Root: JavaScript port of the Commodore 64 game",
-    "date": "2026-09-14",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://below-the-root.saul.pw/about",
-    "summary": "Below the Root: JavaScript port of the Commodore 64 game",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49695490",
-    "title": "EPA Expected to Erase Limits on Climate Pollution from Power Plants",
-    "date": "2026-09-14",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://www.nytimes.com/2026/09/13/climate/epa-power-plant-climate-rules.html",
-    "summary": "EPA Expected to Erase Limits on Climate Pollution from Power Plants",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49697168",
-    "title": "Show HN: Chickadee – Free, local, open-source text-to-speech for web pages",
-    "date": "2026-09-14",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://www.usechickadee.com",
-    "summary": "I wanted to listen to articles without a robotic voice or another subscription, so I built Chickadee: a free, open-source Chrome extension that runs a voice model locally.It runs Kokoro-82M, an 82-mil",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49700979",
-    "title": "Itisamystery.com/",
-    "date": "2026-09-14",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://itisamystery.com/",
-    "summary": "Itisamystery.com/",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49708188",
-    "title": "Show HN: Chronocity – Watch your Git repo's history grow into a 3D city",
-    "date": "2026-09-15",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://dat999zx.github.io/chronocity/",
-    "summary": "This is timelapse of a 3D city simulation based on your Git history, files are buildings and height is based on LOC. Weather can determines if the repo is quiet or active during a span of time.Just a ",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49709175",
-    "title": "Claude Fable 5.1 and GPT 6 Astra controlled my Robot Arm. Who painted better?",
-    "date": "2026-09-15",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/s/rfi4npFNSr",
-    "summary": "Claude Fable 5.1 and GPT 6 Astra controlled my Robot Arm. Who painted better?",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49711306",
-    "title": "Show HN: ScaleUp City Simulator",
-    "date": "2026-09-15",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://city.scaleupcto.com/",
-    "summary": "I've been experimenting with Fable 5.1 and it's ability to one-shot from a reasonable PRD, and then follow up/evaluate its work and then create/improve via a ticket stack and loops",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49711766",
-    "title": "Show HN: Eleuteria – a privacy-first RoboSats coordinator",
-    "date": "2026-09-15",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://eleuteria-robosat.github.io/",
-    "summary": "I’m the operator behind Eleuteria.Eleuteria is a new coordinator in the RoboSats federation. I started running it because I like the idea of having multiple independent coordinators rather than relyin",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49711922",
-    "title": "South America's first teaser shows South Park going back to its roots [video]",
-    "date": "2026-09-15",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://www.youtube.com/shorts/KvnhB_OXIeM",
-    "summary": "South America's first teaser shows South Park going back to its roots [video]",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
     "id": "hn-49715541",
     "title": "A labor forecasting approach built to keep pace with AI and robotics",
     "date": "2026-09-15",
     "source": "Hacker News",
     "source_type": "Community",
     "source_url": "https://endoflabor.org/",
-    "summary": "A labor forecasting approach built to keep pace with AI and robotics",
-    "category": "Competitive",
+    "summary": "EOL Labor Analytics, a new independent research project, tracks AI and robotics displacement across 20 occupations (10 physical/robotics roles) through a six-stage capability-to-labor-market framework, publishing 2030/2035 employment outlooks alongside BLS projections.",
+    "category": "Research",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "physical-ai"
+    ],
     "sentiment": "Neutral",
-    "confidence": "Low",
+    "confidence": "Medium",
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49715997",
@@ -386,38 +27,20 @@
     "source": "Hacker News",
     "source_type": "Community",
     "source_url": "https://evjang.com/2026/09/10/smooth-exponential.html",
-    "summary": "Smooth Exponentials for Robotics",
-    "category": "Competitive",
+    "summary": "Robotics researcher Eric Jang argues robotics is entering a \"smooth capability exponential\" similar to LLMs, driven by China's manufacturing/entrepreneurship ecosystem, general-purpose LLMs performing robotic tasks zero-shot, and hardware-agnostic pretraining corpora — predicting the first general-purpose home robots by October 2027.",
+    "category": "Research",
     "companies": [],
     "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49718146",
-    "title": "Cisco email security boxes can be rooted by an email",
-    "date": "2026-09-15",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://www.theregister.com/security/2026/09/15/cisco-email-security-boxes-can-be-rooted-by-an-email/5296604",
-    "summary": "Cisco email security boxes can be rooted by an email",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49719258",
@@ -426,18 +49,22 @@
     "source": "Hacker News",
     "source_type": "Community",
     "source_url": "https://www.globaltimes.cn/page/202609/1370528.shtml",
-    "summary": "'Robots building robots': a 10k unit industrial humanoid robot smart factory",
+    "summary": "UBTECH Robotics began production at what it calls the world's first 10,000-unit-capacity humanoid robot smart factory, in Liuzhou, China — built with Siemens Digital Industries Software, producing one Walker S/Cruzr-series industrial humanoid every 10 minutes.",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "ubtech"
+    ],
     "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49720571",
@@ -446,97 +73,17 @@
     "source": "Hacker News",
     "source_type": "Community",
     "source_url": "https://www.japantimes.co.jp/business/2026/09/15/companies/waymo-tokyo-robotaxi-launch/",
-    "summary": "Waymo to start Tokyo robotaxi service next year in Asia push",
+    "summary": "Waymo plans to launch a robotaxi service in Tokyo next year, its first market outside the US, as part of a broader push into Asia.",
     "category": "Competitive",
     "companies": [],
     "policies": [],
     "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49721814",
-    "title": "Cisco Email Gateway SQL Injection Yields Unauthenticated Root (CVSS 9.8)",
-    "date": "2026-09-16",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX",
-    "summary": "Cisco Email Gateway SQL Injection Yields Unauthenticated Root (CVSS 9.8)",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49724567",
-    "title": "Termiclanker: Script a Robot with Bash",
-    "date": "2026-09-16",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://www.cli-games.com/wiki/termiclanker-base-walkthrough",
-    "summary": "Termiclanker: Script a Robot with Bash",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49725549",
-    "title": "Agility's new humanoid robot will stop, squat to avoid harming human coworkers",
-    "date": "2026-09-16",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/",
-    "summary": "Agility's new humanoid robot will stop, squat to avoid harming human coworkers",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "rss-next-wave-of-vcs-judging-start-310",
-    "title": "Next wave of VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026 revealed",
-    "date": "2026-09-16",
-    "source": "TechCrunch",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/09/16/next-wave-of-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026-revealed/",
-    "summary": "Meet the next five top-tier investors judging the Startup Battlefield 200 contenders live at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 and don't miss a moment of the ult...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
+    "sentiment": "Positive",
     "confidence": "Medium",
     "tags": [
-      "rss-import"
-    ],
-    "_requires_curator_review": true
+      "hacker-news",
+      "community"
+    ]
   },
   {
     "id": "rss-robots-are-waiting-for-a-chatg-916",
@@ -545,36 +92,18 @@
     "source": "TechCrunch",
     "source_type": "News",
     "source_url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
-    "summary": "The robotics industry is still waiting for their breakthrough into day-to-day life. Nvidia's Les Karpas has an answer as to why at TechCrunch Disrupt 2026. Register before September 25 to save up to $...",
+    "summary": "Nvidia robotics executive Les Karpas argues the robotics industry hasn't yet had its \"ChatGPT moment\" — the single inflection point where capability crosses into broad, everyday usefulness — commentary given at TechCrunch Disrupt 2026.",
     "category": "Competitive",
     "companies": [],
     "policies": [],
-    "themes": [],
+    "themes": [
+      "physical-ai"
+    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
       "rss-import"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "rss-digit-5-may-be-the-first-human-705",
-    "title": "Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe",
-    "date": "2026-09-15",
-    "source": "IEEE Spectrum",
-    "source_type": "News",
-    "source_url": "https://spectrum.ieee.org/humanoid-robot-safety",
-    "summary": "Despite the recent deluge of videos of humanoid robots doing backflips and kung-fu, the actual pace of progress towards humanoids that can do economically viable jobs at scale has at times seemed a bi...",
-    "category": "Funding",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "skild-ai-100m-arr-2026-09",
