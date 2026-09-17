@@ -3013,10 +3013,10 @@
     "level": "Federal",
     "state": "N/A",
     "introduced_date": "2026-06-03",
-    "status": "Introduced",
+    "status": "Committee",
     "bill_number": "H.R. 9129",
     "sponsor": "Rep. John Moolenaar (R-MI), with Rep. Jay Obernolte (R-CA) and Rep. Jennifer McClellan (D-VA)",
-    "summary": "Would require national security agencies to review humanoid and quadruped robots produced in China and other foreign adversary countries, and add platforms judged an unacceptable national security risk to the FCC's Covered List — barring their sale in the US. Any platform not reviewed within one year would be added automatically. Extends to robotics the Covered List machinery already applied to telecom equipment and drones. Introduced in the 119th Congress; a related provision advanced in the House-passed NDAA.",
+    "summary": "Would require national security agencies to review humanoid and quadruped robots produced in China and other foreign adversary countries, and add platforms judged an unacceptable national security risk to the FCC's Covered List — barring their sale in the US. Any platform not reviewed within one year would be added automatically. Extends to robotics the Covered List machinery already applied to telecom equipment and drones. Introduced in the 119th Congress; a related provision advanced in the House-passed NDAA. On September 1, 2026, the House Energy and Commerce Subcommittee on Communications and Technology marked up the bill and forwarded it to the full Committee by voice vote.",
     "full_text_url": "https://www.congress.gov/bill/119th-congress/house-bill/9129/text/ih",
     "robotics_scope": "Robotics is the entire subject of the bill: it defines a review-and-list regime specifically for foreign-adversary humanoid and quadruped robots.",
     "estimated_budget_usd": null,
@@ -3042,9 +3042,12 @@
       },
       {
         "url": "https://www.govinfo.gov/app/details/BILLS-119hr9129ih"
+      },
+      {
+        "url": "https://energycommerce.house.gov/posts/chairmen-guthrie-and-hudson-announce-c-and-t-subcommittee-markup-of-six-bills-to-strengthen-communications-networks-and-modernize-satellite-regulations"
       }
     ],
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-09-17"
   },
   {
     "id": "fedreg-2026-15418",
@@ -3141,5 +3144,92 @@
       }
     ],
     "last_updated": "2026-09-14"
+  },
+  {
+    "id": "proc-11055-drone-tariffs-2026",
+    "title": "Presidential Proclamation adjusts Section 232 tariffs on drone imports — up to 100%, effective Sept. 3, 2026",
+    "type": "Executive Order",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-08-13",
+    "status": "In effect",
+    "bill_number": "Proc. 11055",
+    "sponsor": "Executive Office of the President",
+    "summary": "President Trump signed a proclamation on August 13, 2026 imposing Section 232 tariffs on imported unmanned aircraft systems (UAS/drones) and components, following a national-security investigation into import dependence. Tariffs took effect September 3, 2026: 100% on higher-risk UAS (over 25kg or with thermal-imaging capability) and related equipment, 25% on other covered UAS, with reduced rates for qualifying imports from the EU, Japan, South Korea, Switzerland, Taiwan, Liechtenstein and the UK, and a 180-day delayed implementation for certain less-sensitive components. The broader Section 232 investigation into robotics and industrial machinery imports (separate from drones) remains open as of mid-September 2026.",
+    "full_text_url": "https://www.federalregister.gov/documents/2026/08/19/2026-16979/adjusting-imports-of-unmanned-aircraft-systems-and-unmanned-aircraft-systems-components-into-the",
+    "robotics_scope": "Drones (UAS) are a robotics category tracked by this site; the tariff directly restricts imports of foreign-made drone hardware and components on national-security grounds, and is procedurally linked to the still-open Section 232 robotics/industrial-machinery investigation (fedreg-2025-18749).",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "Domestic drone manufacturers",
+      "US robotics/industrial-machinery import-competing firms"
+    ],
+    "agency_responsible": [
+      "doc"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "tariff",
+      "section-232",
+      "drones",
+      "china",
+      "import-restriction"
+    ],
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/08/19/2026-16979/adjusting-imports-of-unmanned-aircraft-systems-and-unmanned-aircraft-systems-components-into-the"
+      },
+      {
+        "url": "https://mohawkglobal.com/word-from-the-white-house/new-section-232-tariffs-on-drones-and-drone-components-take-effect-september-3/"
+      }
+    ],
+    "last_updated": "2026-09-17"
+  },
+  {
+    "id": "ndaa-fy2026-sec225-munitions-robotics",
+    "title": "FY2026 NDAA Section 225 — Army directed to expand robotic automation in munitions manufacturing",
+    "type": "Bill",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2025-12-18",
+    "status": "In effect",
+    "bill_number": "Public Law 119-60 (S. 1071), Sec. 225",
+    "sponsor": "Senate Armed Services Committee",
+    "summary": "The FY2026 National Defense Authorization Act, signed into law December 18, 2025, authorizes over $25B to rebuild the U.S. munitions arsenal. Section 225 specifically directs the Army to expand robotic automation in ammunition/munitions manufacturing to improve safety, output and workforce training, with coordination through Army program offices.",
+    "full_text_url": "https://armedservices.house.gov/uploadedfiles/fy26_ndaa_joint_explanatory_statement.pdf",
+    "robotics_scope": "Directly mandates expansion of robotic automation within a specific, funded federal manufacturing base (munitions/ammunition production).",
+    "estimated_budget_usd": 25000000000,
+    "beneficiaries": [
+      "Defense industrial base",
+      "Robotics/automation integrators"
+    ],
+    "agency_responsible": [
+      "dod"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "ndaa",
+      "defense",
+      "munitions",
+      "reshoring"
+    ],
+    "themes": [
+      "defense-procurement",
+      "us-supply-chain"
+    ],
+    "sources": [
+      {
+        "url": "https://armedservices.house.gov/uploadedfiles/fy26_ndaa_joint_explanatory_statement.pdf"
+      },
+      {
+        "url": "https://www.hklaw.com/en/insights/publications/2025/12/fy-2026-national-defense-authorization-act"
+      }
+    ],
+    "last_updated": "2026-09-17"
   }
 ]

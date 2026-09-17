@@ -19289,5 +19289,97 @@
     "tags": [
       "rss-import"
     ]
+  },
+  {
+    "id": "d-robotics-series-c-2026-09",
+    "title": "D-Robotics raises $400M Series C led by Mirae Asset to build \"the brain for every robot\"",
+    "date": "2026-09-17",
+    "source": "PR Newswire",
+    "source_type": "Press Release",
+    "source_url": "https://www.prnewswire.com/news-releases/d-robotics-completes-400-million-in-series-c-funding-driving-the-robotics-industry-into-a-boom-in-product-categories-302881297.html",
+    "summary": "D-Robotics completed a $400M Series C led by Mirae Asset, with Meituan and other strategic and government-backed investors participating, to expand its Sunrise chip lineup and build a full-stack hardware-software platform spanning the robot development chain. Sunrise-series chip shipments have passed 8M units; the Sunrise S600 embodied-AI chip (launched Nov 2025) is now used by 20+ customers including UBTECH, Fourier, Astribot and Booster Robotics.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "funding",
+      "china",
+      "robot-compute",
+      "chips"
+    ]
+  },
+  {
+    "id": "vecna-robotics-funding-2026-09",
+    "title": "Vecna Robotics raises $31M to meet demand for flexible dock-to-dock warehouse automation",
+    "date": "2026-09-10",
+    "source": "GlobeNewswire",
+    "source_type": "Press Release",
+    "source_url": "https://www.globenewswire.com/news-release/2026/09/10/3359343/0/en/vecna-robotics-raises-31-million-to-meet-demand-for-flexible-dock-to-dock-automation.html",
+    "summary": "Vecna Robotics raised $31M led by Unless, with existing investors Drive Capital, Tiger Global, Highland Capital Partners and Tectonic Ventures, to scale its autonomous forklift/tugger fleet and CaseFlow product, demand for which has more than doubled year-over-year since its 2025 launch. The company cites rising demand for US-built warehouse automation following a White House policy restricting purchases of robots from certain foreign companies.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "funding",
+      "warehouse-automation",
+      "logistics",
+      "usa"
+    ]
+  },
+  {
+    "id": "ugo-nova-humanoid-2026-09",
+    "title": "ugo unveils \"ugo Nova\" semi-humanoid, targets 2027 mass production in Japan",
+    "date": "2026-09-16",
+    "source": "Humanoid Robotics Technology",
+    "source_type": "News",
+    "source_url": "https://humanoidroboticstechnology.com/industry-news/ugo-announces-new-humanoid-robot/",
+    "summary": "Japanese robotics company ugo unveiled ugo Nova, a wheeled dual-arm semi-humanoid designed and manufactured entirely in Japan, with mass production targeted for 2027. The robot will be proposed by the AI Robot Association (AIRoA) under a NEDO-commissioned project to develop a domestically produced general-purpose robot, and is designed to convert human work directly into learning data for robot foundation models.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "humanoid",
+      "japan",
+      "nedo"
+    ]
+  },
+  {
+    "id": "nsf-human-robot-coadaptation-2026-09",
+    "title": "NSF commits $30M to UT Austin-led Center for Human and Robot Co-Adaptation",
+    "date": "2026-08-27",
+    "source": "UT News (UT Austin)",
+    "source_type": "Press Release",
+    "source_url": "https://news.utexas.edu/2026/08/27/ut-to-lead-nsf-center-that-will-study-how-robots-and-people-learn-to-live-and-work-together/",
+    "summary": "The National Science Foundation awarded $30M over five years to establish the Center for Human and Robot Co-Adaptation, a Science and Technology Center led by UT Austin (director Joydeep Biswas) with MIT, Yale, Indiana University Bloomington, the University of Utah and Tufts, plus industry partners including Amazon, Apptronik, Google DeepMind and NVIDIA. The center studies how people and robots can adapt to one another over long periods as service and assistive robots enter homes, hospitals and workplaces.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "nsf",
+      "research-funding",
+      "academia"
+    ]
   }
 ]

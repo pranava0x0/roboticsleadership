@@ -4,6 +4,13 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-09-17 (30-day PhysicalAI X-list policy/funding sweep)
+
+- [ ] **New company discovery candidates surfaced but not yet added to `companies.json`.** This sweep surfaced three well-sourced companies not currently tracked: **D-Robotics** (Chinese robot-compute chipmaker, $400M Series C led by Mirae Asset, Sunrise-series chips shipped 8M+ units, 20+ embodied-AI customers including UBTECH/Fourier/Astribot), **Vecna Robotics** (US warehouse automation, $31M raise led by Unless on top of a 2024 $100M Series C, autonomous forklift/tugger fleet + CaseFlow), and **ugo** (Japanese semi-humanoid maker, unveiled "ugo Nova" with 2027 mass production target, NEDO/AIRoA-backed). All three have a corresponding news.json record with solid primary sourcing (PR Newswire / GlobeNewswire / industry press) — flagged here rather than rushed into companies.json without founding date/HQ/map_category verification, per the standing multi-source-verification rule.
+- [ ] **`@robotforamerica` (Robots for America, robotsforamerica.org) is a high-signal recurring source for federal robotics policy and should be added as a named account to watch in the data-refresh playbook's X-sweep step.** A trade-association account (joined X January 2026) that posts near-daily on GUARD Act, National Commission on Robotics Act, Section 232 tariff/investigation status, FCC Covered List, and NDAA robotics provisions — higher policy signal density than the general PhysicalAI list scroll. This sweep used `list:<id> (keyword) since:/until:` X search operators plus a direct profile scroll, which was far more efficient than a linear chronological scroll of the full list; worth folding into REFRESH.md Step 3b as the default technique instead of pure scroll+jiggle.
+
+---
+
 ## ▶ Added 2026-09-16 (scheduled data refresh)
 
 - [ ] **New company discovery candidates surfaced but not yet added to `companies.json`.** This run's news curation surfaced four companies not currently tracked: **Walden Robotics** (Toyota spinoff, $300M raise at $1.1B valuation Jul 2026, partnership with Samsung SDS on factory-floor robot orchestration), **Monumental** (construction bricklaying robots, profiled by The Robot Report), **Maven Robotics** (robot-deployment brokerage, emerged from stealth with $100M Series A, TechCrunch), and **Vention** (opened a "Physical AI Lab" for manufacturing in Montreal). Per AGENTS.md §11–17, adding these properly needs a multi-source verification pass (founding date, HQ, funding history, map_category) rather than a stub record from a single news mention — flagged here for the next dedicated company-discovery sweep rather than fabricated under time pressure.
