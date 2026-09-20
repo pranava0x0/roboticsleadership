@@ -1,5 +1,911 @@
 [
   {
+    "id": "fedreg-news-2026-19024",
+    "title": "Granting of Requests for Early Termination of the Waiting Period Under the Premerger Notification Rules",
+    "date": "2026-09-17",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/17/2026-19024/granting-of-requests-for-early-termination-of-the-waiting-period-under-the-premerger-notification",
+    "summary": "Granting of Requests for Early Termination of the Waiting Period Under the Premerger Notification Rules",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49745058",
+    "title": "Poll: Bi-partisan supermajority see serious risk of AI destroying humanity",
+    "date": "2026-09-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.politico.com/news/2026/09/16/poll-ai-technology-risks-humanity-trump-voters-01078087",
+    "summary": "Poll: Bi-partisan supermajority see serious risk of AI destroying humanity",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49745793",
+    "title": "Being Human After AI: Daft Punk, Pope Leo and 'Magnifica Humanitas'",
+    "date": "2026-09-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.americamagazine.org/music/2026/08/14/daft-punk-pope-leo-magnifica-humanitas/",
+    "summary": "Being Human After AI: Daft Punk, Pope Leo and 'Magnifica Humanitas'",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49770696",
+    "title": "Humanism Without (All) Humans",
+    "date": "2026-09-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://contraptions.venkateshrao.com/p/humanism-without-all-humans",
+    "summary": "Humanism Without (All) Humans",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49736856",
+    "title": "Show HN: I built a Mac app to make technical PDF textbooks easier to study",
+    "date": "2026-09-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://marginstudy.app/",
+    "summary": "I've always been a lifelong learner and have always tried to get through digital textbooks. Anyone who's used pdf textbooks know how much of a love/hate relationship it is.There are so ",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49742638",
+    "title": "Robotaxi Might Be a Narc",
+    "date": "2026-09-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theverge.com/transportation/996863/robotaxi-waymo-police-privacy-surveillance",
+    "summary": "Robotaxi Might Be a Narc",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49742642",
+    "title": "Go-based Robotics Framework built around NATS.io",
+    "date": "2026-09-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/emergingrobotics/gorai",
+    "summary": "Go-based Robotics Framework built around NATS.io",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49745223",
+    "title": "Robots are asking for tips. But who gets the money?",
+    "date": "2026-09-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.bbc.com/future/article/20260818-do-you-have-to-tip-the-robots",
+    "summary": "Robots are asking for tips. But who gets the money?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49745512",
+    "title": "Figure AI - Helix 2.5 Robot: Zero-Shot Home Generalization",
+    "date": "2026-09-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization",
+    "summary": "Figure AI - Helix 2.5 Robot: Zero-Shot Home Generalization",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49746492",
+    "title": "Wonder debuts first robotic meal assembly system, acquired tech from Sweetgreen",
+    "date": "2026-09-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.fastcompany.com/91606368/marc-lore-startup-wonder-infinite-makeline-robotic-food-prep",
+    "summary": "Wonder debuts first robotic meal assembly system, acquired tech from Sweetgreen",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49748237",
+    "title": "Publishers block the robots.txt path their own affiliate redirects live on",
+    "date": "2026-09-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://disclosed.info/the-index/",
+    "summary": "Publishers block the robots.txt path their own affiliate redirects live on",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49748760",
+    "title": "From Operations to a Robot Arm",
+    "date": "2026-09-18",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://huggingface.co/blog/TheMuz/from-operations-to-a-robot-arm",
+    "summary": "From Operations to a Robot Arm",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49748935",
+    "title": "Today we're releasing Helix 2.5",
+    "date": "2026-09-18",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/Figure_robot/status/2100657350952779925",
+    "summary": "Today we're releasing Helix 2.5",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49751000",
+    "title": "Smart devices can testify against you: How data from robots is used in court",
+    "date": "2026-09-18",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.the-independent.com/tech/robot-vacuum-fitbit-smart-device-data-trial-b3052060.html",
+    "summary": "Smart devices can testify against you: How data from robots is used in court",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49751892",
+    "title": "Robotic lab sets up and runs optics experiments on demand",
+    "date": "2026-09-18",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://news.mit.edu/2026/robotic-lab-runs-optics-experiments-on-demand-0917",
+    "summary": "Robotic lab sets up and runs optics experiments on demand",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49752421",
+    "title": "Why Robot Brains Should Live in the Cloud",
+    "date": "2026-09-18",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.dreamscalelabs.com/blog/why/",
+    "summary": "Why Robot Brains Should Live in the Cloud",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49752535",
+    "title": "Much Ado About Noising: Dispelling the Myths of Generative Robotic Control",
+    "date": "2026-09-18",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2512.01809",
+    "summary": "Much Ado About Noising: Dispelling the Myths of Generative Robotic Control",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49752579",
+    "title": "D-Robotics Closes $400M in Series C Funding to Boom the Robotics Industry",
+    "date": "2026-09-18",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://en.d-robotics.cc/blog/d-robotics-completes-400-million-in-series-c-funding-driving-the-robotics-industry-into-a-boom-in-product-categories",
+    "summary": "D-Robotics Closes $400M in Series C Funding to Boom the Robotics Industry",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49754196",
+    "title": "A quartet of Linux local root vulns: DirtyAH6, PPPoEject, TUNderflow, DiagSpill",
+    "date": "2026-09-18",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.openwall.com/lists/oss-security/2026/09/18/3",
+    "summary": "A quartet of Linux local root vulns: DirtyAH6, PPPoEject, TUNderflow, DiagSpill",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49757621",
+    "title": "Humanoid Robot Regulations have begun",
+    "date": "2026-09-18",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=qoZ_EjWJtes",
+    "summary": "Humanoid Robot Regulations have begun",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49757711",
+    "title": "The case for a robot tax to redistribute wealth",
+    "date": "2026-09-18",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://restofworld.org/2026/robot-tax-ai-wealth-redistribution/",
+    "summary": "The case for a robot tax to redistribute wealth",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49759109",
+    "title": "The US government just banned almost all robot vacuums – here's why",
+    "date": "2026-09-18",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.tomsguide.com/home/smart-home/the-us-government-just-banned-almost-all-robot-vacuums-heres-why",
+    "summary": "The US government just banned almost all robot vacuums – here's why",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49760459",
+    "title": "Friday Facts #446 – An ARM and a Frame",
+    "date": "2026-09-18",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://factorio.com/blog/post/fff-446",
+    "summary": "Friday Facts #446 – An ARM and a Frame",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49760758",
+    "title": "Valve has open-sourced Lepton, its tool to bring Android games to Steam",
+    "date": "2026-09-18",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theverge.com/tech/997315/valve-has-open-sourced-lepton-its-tool-to-bring-android-games-to-steam",
+    "summary": "Valve has open-sourced Lepton, its tool to bring Android games to Steam",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49765295",
+    "title": "Goosebumps: A Paradigm Shift Is Occurring in Robotics",
+    "date": "2026-09-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/ken_goldberg/status/2100986412762087909",
+    "summary": "Goosebumps: A Paradigm Shift Is Occurring in Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49769153",
+    "title": "Your robotic vacuum is a witness: evidence, privacy and the law",
+    "date": "2026-09-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://theconversation.com/your-robotic-vacuum-is-a-witness-what-home-robots-mean-for-evidence-privacy-and-the-law-291849",
+    "summary": "Your robotic vacuum is a witness: evidence, privacy and the law",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49769163",
+    "title": "Show HN: The meal planner that gets all your dishes ready at once",
+    "date": "2026-09-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robotrecipes.co/mise/",
+    "summary": "One thing that frustrates me about cooking is trying to get everything ready at the right time. Doing it with one dish is hard enough, but for meals with multiple dishes feels impossible.This meal pla",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49769818",
+    "title": "What we are seeing with GPT Astra in Robotics",
+    "date": "2026-09-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/GeorgiaChal/status/2101335513558929868",
+    "summary": "What we are seeing with GPT Astra in Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49770603",
+    "title": "Show HN: Set, offline Markdown note-taking app with device-to-device sync",
+    "date": "2026-09-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://app.writewithset.com",
+    "summary": "Hi HN. I am an avid user of Notion (https://notion.so) and really like the ergonomics of its block-based editor, but with how the product is evolving I felt I was missing a simple \"sing",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49771092",
+    "title": "Copper-Rs: Live Telemetry Deterministic Twins for Robots",
+    "date": "2026-09-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.copper-robotics.com/whats-new/copper-12-live-telemetry-and-replayable-logs-over-a-lossy-one-way-connection-with-twinning",
+    "summary": "Copper-Rs: Live Telemetry Deterministic Twins for Robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49772501",
+    "title": "Egocentric training's gig workers are helping robots learn how to do your dishes",
+    "date": "2026-09-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.abc.net.au/news/2026-09-20/egocentric-training-gig-workers-helping-robots-learn-tasks/107135216",
+    "summary": "Egocentric training's gig workers are helping robots learn how to do your dishes",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49775120",
+    "title": "RoboHarm: Do Frontier Robot Policies Refuse Unsafe Instructions?",
+    "date": "2026-09-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robocurve.org/roboharm/",
+    "summary": "RoboHarm: Do Frontier Robot Policies Refuse Unsafe Instructions?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-arm-total-design-for-physical-338",
+    "title": "Arm Total Design for Physical AI brings more than 80 developers together",
+    "date": "2026-09-17",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/arm-total-design-for-physical-ai-brings-more-than-80-developers-together/",
+    "summary": "With its new program and its Robotics Capability Framework, Arm aims to bring more clarity and unity to the robotics industry.\nThe post Arm Total Design for Physical AI brings more than 80 developers ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-robotics-investments-reach-4-9-731",
+    "title": "Robotics investments reach $4.9B in August 2026",
+    "date": "2026-09-17",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/robotics-investments-reach-4-9b-in-august-2026/",
+    "summary": "The August 2026 Robotics Investments Report includes a table with all 162 investments rounds, complete with breakdowns by technology, country, funding stage, and more.\nThe post Robotics investments re...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-designing-long-travel-axes-whe-278",
+    "title": "Designing long-travel axes: When rack and pinion outperforms ball screws and linear motors",
+    "date": "2026-09-17",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/designing-long-travel-axes-when-rack-and-pinion-outperforms-ball-screws-and-linear-motors/",
+    "summary": "When long-travel motion demands more than ball screws and linear motors can deliver, rack-and-pinion systems can offer a compelling combination of speed, precision, scalability, and cost. Here’s when ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-icarus-robotics-flies-iss-boun-411",
+    "title": "Icarus Robotics flies ISS-bound robot in microgravity for the first time",
+    "date": "2026-09-18",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/",
+    "summary": "This is the last major test of the system before Icarus Robotics will be sending JOY the the ISS in early 2027.\nThe post Icarus Robotics flies ISS-bound robot in microgravity for the first time appear...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-neptune-medical-earns-fda-clea-439",
+    "title": "Neptune Medical earns FDA clearance for its Triton 1 robotic system",
+    "date": "2026-09-18",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/neptune-medical-earns-fda-clearance-triton-1-robotic-system/",
+    "summary": "Neptune said Triton can elevate any endoscopist's capabilities for screening, surveillance, and diagnostic colonoscopies.\nThe post Neptune Medical earns FDA clearance for its Triton 1 robotic system a...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-f-prime-capital-to-give-insigh-430",
+    "title": "F-Prime Capital to give insights on the state of robotics investments at RoboBusiness",
+    "date": "2026-09-18",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/f-prime-capital-give-insights-state-robotics-investments-robobusiness/",
+    "summary": "Sanjay Aggarwal and Betsy Mulé of F-Prime Capital will unveil the firm's State of Robotics Investments report at RoboBusiness.\nThe post F-Prime Capital to give insights on the state of robotics invest...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-softbank-agrees-to-acquire-rob-725",
+    "title": "SoftBank agrees to acquire Robotics and AI Institute",
+    "date": "2026-09-18",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/",
+    "summary": "The deal has been rumored for a couple of months, but it is now being reviewed by the Committee on Foreign Investment in the United States.\nThe post SoftBank agrees to acquire Robotics and AI Institut...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-the-picks-and-shovels-strategy-67",
+    "title": "The picks-and-shovels strategy behind the robotics boom",
+    "date": "2026-09-18",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/",
+    "summary": "The real robotics opportunity isn’t a humanoid in every home—it’s packaging robots for the jobs businesses need done today.\nThe post The picks-and-shovels strategy behind the robotics boom appeared fi...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-hirebotics-adds-line-tracking-830",
+    "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
+    "date": "2026-09-19",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
+    "summary": "Hirebotics said these new capabilities extend the working range of the cobots, giving manufacturers greater flexibility.\nThe post Hirebotics adds line tracking and linear rail capabilities to its cobo...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-what-do-you-do-with-a-humanoid-634",
+    "title": "What do you do with a humanoid robot when it breaks down?",
+    "date": "2026-09-20",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
+    "summary": "Decommissioning a humanoid robot is not a matter of traditional scrapping. It's a highly technical, high-stakes surgical endeavor.\nThe post What do you do with a humanoid robot when it breaks down? ap...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-the-clock-is-ticking-final-24-942",
+    "title": "The clock is ticking: Final 24 hours to exhibit at TechCrunch Disrupt 2026",
+    "date": "2026-09-18",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/18/final-24-hours-to-exhibit-at-techcrunch-disrupt-2026/",
+    "summary": "Last day to book your exhibit table at Disrupt is today, September 18. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-prices-go-up-in-7-days-get-you-859",
+    "title": "Prices go up in 7 days. Get your Disrupt ticket now.",
+    "date": "2026-09-19",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now/",
+    "summary": "Current ticket pricing ends Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-6-days-left-to-get-ahead-at-te-30",
+    "title": "6 days left to get ahead at TechCrunch Disrupt 2026",
+    "date": "2026-09-20",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+    "summary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-video-friday-two-birotors-make-215",
+    "title": "Video Friday: Two Birotors Make a Quadrotor",
+    "date": "2026-09-18",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-quadrotor-from-birotor",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-49715541",
     "title": "A labor forecasting approach built to keep pace with AI and robotics",
     "date": "2026-09-15",
