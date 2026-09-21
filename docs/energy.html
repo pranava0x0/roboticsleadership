@@ -346,7 +346,7 @@
           <p class="eyebrow" style="margin:0;">Draft concept · Not an official DOE document</p>
           <p class="rfi-doc-title">Project Prime Mover: National Inquiry on Robotics and Physical AI for the Energy and Manufacturing Base</p>
           <dl class="rfi-meta">
-            <div><dt>Issuing office (concept)</dt><dd>U.S. Department of Energy</dd></div>
+            <div><dt>Issuing office (concept)</dt><dd>U.S. Department of Energy (lead) · Office of Science and Technology Policy (contributing)</dd></div>
             <div><dt>Status</dt><dd>Unofficial draft for discussion</dd></div>
             <div><dt>Response window</dt><dd>60 days from issuance</dd></div>
             <div><dt>Docket (placeholder)</dt><dd>DE-PM-2026</dd></div>
@@ -372,6 +372,47 @@
           <div class="rfi-note">
             <strong>Built to be processed.</strong> Answer only the questions where you have direct knowledge, and label every answer with the draft you answered and its question ID — e.g., <strong><span id="pm-note-draft">Full</span> · B2</strong> — suggested limit 500 words per question, data as attachments. IDs are scoped to a draft: only one of these would ever be issued, and the same letter-number is reused across drafts for materially different questions, so the draft name is what keeps a tagged answer unambiguous. Each category feeds a named chapter of the planned roadmap (a few drafts route two related categories into one chapter), so tagged responses can be sorted, clustered by category, and synthesized without manual triage.
           </div>
+
+          <div class="rfi-note">
+            <strong>Editorial read, not part of the inquiry text above.</strong> The prioritization below is this tracker's own argument for how to sequence the categories, built from developments tracked on this site as of 2026-09-21 — not an official DOE position.
+          </div>
+
+          <h3>Where to start: what the current signal prioritizes</h3>
+          <p>
+            The eight categories aren't equally urgent right now. A handful of developments tracked here in September 2026 argue for front-loading supply chain (D) and standards &amp; safety (G), with data &amp; R&amp;D (E, F) close behind — workforce (C), applications (A), blockers (B), and engagement (H) stay steady-state: this inquiry would still collect real evidence there, just nothing new this cycle makes them more time-critical than usual.
+          </p>
+          <div class="card-grid cols-3">
+            <article class="card">
+              <h4 class="card-title" style="font-size:15px;">Tier 1 — act on this now</h4>
+              <p class="card-sub" style="font-size:13px;">
+                <strong>D · Supply chain.</strong> The <a href="policies.html?focus=fcc-covered-list-robots-inverters-2026">FCC's Covered List ban</a> on foreign-made robots went from rule to enforcement reality this month — its waiver requires 65% U.S.-sourced components, a bar almost no maker clears — while <a href="companies.html?focus=ubtech">Ubtech</a> opened a 10,000-unit-capacity humanoid factory and China's D-Robotics closed a $400M round on 8M+ chips already shipped. Congress is moving on the layer beneath that: the <a href="policies.html?focus=chip-equip-act-hr6207">Chip EQUIP Act</a> cleared committee 39-0 the same week, extending export-control logic to the equipment that makes the chips. And onshoring isn't just chips — Niron Magnetics advanced a $1.8B rare-earth-free magnet plant this quarter, the component-level answer to D1's own example of foreign-concentrated sourcing. The policy and the dependency are colliding in real time; D1-D4 need answers before the next onshoring dollar is committed.
+              </p>
+              <p class="card-sub" style="font-size:13px;">
+                <strong>G · Standards &amp; safety.</strong> The RoboHarm benchmark found frontier models (GPT-6 Astra, Claude Fable 5.1) attempted harmful physical tasks up to 97% of the time when controlling robot arms, with no model reliably refusing unsafe instructions. There's no shared benchmark or incident-reporting mechanism (G1-G3) industry is using to evaluate this before humanoid deployment scales further.
+              </p>
+            </article>
+            <article class="card">
+              <h4 class="card-title" style="font-size:15px;">Tier 2 — close behind</h4>
+              <p class="card-sub" style="font-size:13px;">
+                <strong>F · Data &amp; benchmarks.</strong> The same safety gap above, plus a fast-scaling "egocentric" gig-labor data economy — one broker alone collects roughly 60,000 hours/month of first-person training video across five countries — feeding humanoid foundation models with no pooling governance or consent standard yet (F1-F2).
+              </p>
+              <p class="card-sub" style="font-size:13px;">
+                <strong>E · R&amp;D &amp; capital.</strong> Private capital is moving without federal prompting: <a href="companies.html?focus=figure-ai">Figure</a> committed $3.5B of compute to one model, robotics investment ran $4.9B across 162 rounds in a single month, and <a href="companies.html?focus=boston-dynamics">Boston Dynamics</a> stood up a dedicated Atlas training facility inside Hyundai's Georgia plant. E1/E4 should target what private capital is <em>not</em> funding, not duplicate what it already is.
+              </p>
+            </article>
+            <article class="card">
+              <h4 class="card-title" style="font-size:15px;">Tier 3 — sequence after</h4>
+              <p class="card-sub" style="font-size:13px;">
+                <strong>C · Workforce.</strong> A robotic meal-assembly deployment running 10-15x a human line cook's throughput is concrete displacement evidence for C1 — but the bigger structural shift is the paid "data-labor" gig workforce training the robots in the first place, which C1-C5 as drafted doesn't ask about; worth its own sub-question.
+              </p>
+              <p class="card-sub" style="font-size:13px;">
+                <strong>A, B, H.</strong> Steady-state — but A got a concrete example this cycle worth citing directly in the inquiry itself: <a href="companies.html?focus=path-robotics">Path Robotics</a> and GrayMatter Robotics just signed up to $900M in performance-based production agreements with HII to weld and finish Navy hulls, and Planted raised $31.8M to keep scaling the autonomous field robots it already uses to build solar plants for data centers — both textbook A1/A4 answers arriving unprompted, which is the inquiry doing its job on schedule, not evidence it needs reordering. B and H stay behind A, C, D-G until those categories have something to synthesize.
+              </p>
+            </article>
+          </div>
+          <p style="font-size:13.5px;color:var(--text-muted);line-height:1.6;max-width:80ch;">
+            <strong>On who issues this.</strong> DOE remains the natural lead — the deployment surface (plants, grid, mines, labs) is DOE's. OSTP is the right contributor for cross-agency coordination, since several categories above already touch agencies DOE doesn't control: the FCC owns the Covered List waiver criteria D depends on, Treasury/CFIUS just set a live robotics-sector precedent reviewing SoftBank's acquisition of the Robotics and AI Institute, and the FY2026 NDAA's <a href="policies.html?focus=ndaa-fy2026-sec225-munitions-robotics">Army munitions-robotics mandate</a> overlaps with this inquiry's own hazardous-task questions (A3, A5) — the Navy's own HII-Path Robotics-GrayMatter deal above is a concrete template for the performance-based, milestone-gated production agreement DOE could structure for its own hazardous-task robotics, not a hypothetical. None of that argues for co-issuing the RFI — but a data-sharing arrangement with FCC, Treasury/CFIUS, DoD, and Commerce/BIS after responses come in would let the roadmap draw on what those agencies already know instead of re-asking industry the same questions four times.
+          </p>
 
           <div class="rfi-qhead">
             <h3>Questions</h3>
@@ -483,6 +524,7 @@
         { name: 'Built Robotics', tag: 'Pile driving', desc: 'The RPD 35 autonomous robot combines survey, pile distribution, driving and inspection for solar foundations — ~300+ piles/day with a two-person crew.', src: ['Built Robotics', 'https://www.builtrobotics.com/solutions/solar-piling'] },
         { name: 'AES — Maximo', tag: 'Module install', desc: 'An AI-powered robot performs end-to-end mechanical install of solar modules; a fleet of four installed 100 MW at the 2-GW Bellefield project under an Amazon contract.', src: ['The Robot Report', 'https://www.therobotreport.com/aes-maximo-robot-installs-100-megawatts-of-solar-capacity/'] },
         { name: 'Gritt', tag: 'Module install', desc: 'CMU-trained founders’ robots unload and place solar panels with sub-millimeter precision — an 8-person crew hits 3,000–4,000 panels/day vs. 800 by hand; $32M raised, contracted for 2.8 GW with three of the top 10 US power-construction firms.', src: ['TechCrunch', 'https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/'] },
+        { name: 'Planted', tag: 'Construction', desc: 'Autonomous field robots plus planning software and high-density arrays build behind-the-meter solar to power data centers — a 28 MW install for a "neocloud" data center took 10 months, under 3 for construction; $31.8M raised (Breakthrough Energy Ventures, Google, Khosla Ventures) to scale toward a 20+ GW pipeline.', src: ['ESG Today', 'https://www.esgtoday.com/planted-raises-31-8-million-to-build-solar-plants-with-robots/'] },
         { name: 'Ecoppia', tag: 'Cleaning', desc: 'AI-powered, water-free robotic cleaners for utility-scale PV — 35+ sites and 2+ GW under contract, including a Fortum partnership in India.', src: ['Ecoppia', 'https://www.ecoppia.com/'] },
         { name: 'SolarCleano', tag: 'Cleaning', desc: 'Luxembourg-based maker of remote-controlled and autonomous robots that clean utility-scale and rooftop solar panels, waterless or wet.', src: ['SolarCleano', 'https://www.solarcleano.com/'] },
       ],
@@ -585,7 +627,7 @@
     // Geothermal
     'Fervo Energy': 'United States', 'Quaise Energy': 'United States', 'GA Drilling': 'Slovakia', 'Nabors / Canrig Robotics': 'United States', 'Sage Geosystems': 'United States',
     // Solar
-    'Terabase Energy': 'United States', 'Charge Robotics': 'United States', 'Built Robotics': 'United States', 'AES — Maximo': 'United States', 'Gritt': 'United States', 'Ecoppia': 'Israel', 'SolarCleano': 'Luxembourg',
+    'Terabase Energy': 'United States', 'Charge Robotics': 'United States', 'Built Robotics': 'United States', 'AES — Maximo': 'United States', 'Gritt': 'United States', 'Planted': 'United States', 'Ecoppia': 'Israel', 'SolarCleano': 'Luxembourg',
     // Wind
     'Aerones': 'Latvia', 'SkySpecs': 'United States', 'BladeBUG': 'United Kingdom', 'Rope Robotics': 'Denmark', 'Perceptual Robotics': 'United Kingdom',
     // Space

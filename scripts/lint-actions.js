@@ -32,6 +32,17 @@ try {
         errors.push(`${file}:${lineNum} — floating tag: ${line.trim()}`);
       }
     });
+
+    if (['scrape-news.yml', 'scrape-policy.yml'].includes(file)) {
+      if (!/gh pr list[^\n]*--limit\s+100/.test(content)) {
+        errors.push(`${file} — pending-PR lookup must search beyond gh's default 30 results`);
+      }
+      if (!content.includes('headRepositoryOwner,isCrossRepository') ||
+          !content.includes('(.isCrossRepository | not)') ||
+          !content.includes('.headRepositoryOwner.login == env.GITHUB_REPOSITORY_OWNER')) {
+        errors.push(`${file} — pending-PR lookup must reject fork-owned branches`);
+      }
+    }
   });
 
   if (errors.length > 0) {
