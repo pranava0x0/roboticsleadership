@@ -29,8 +29,41 @@ jobs:
         with:
           node-version: '20'
 
+      # Chain onto an already-open auto/policy-* PR instead of always branching
+      # off main — see scrape-news.yml for the full rationale (same pile-up
+      # problem, same fix). The lookback window widens to cover however long
+      # the pending PR has waited, so a slow curation pass loses nothing.
+      - name: Find a pending curator-review PR and size the scrape window
+        id: pending
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          PR_JSON=$(gh pr list --state open --base main --json number,headRefName,createdAt \
+            --jq '[.[] | select(.headRefName | startswith("auto/policy-"))] | sort_by(.createdAt) | .[0] // empty')
+          if [ -n "$PR_JSON" ]; then
+            BRANCH=$(echo "$PR_JSON" | jq -r '.headRefName')
+            NUMBER=$(echo "$PR_JSON" | jq -r '.number')
+            CREATED=$(echo "$PR_JSON" | jq -r '.createdAt')
+            DAYS=$(( ( $(date -u +%s) - $(date -u -d "$CREATED" +%s) ) / 86400 + 1 ))
+            [ "$DAYS" -lt 7 ] && DAYS=7
+            [ "$DAYS" -gt 60 ] && DAYS=60
+            echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+            echo "pr_number=$NUMBER" >> "$GITHUB_OUTPUT"
+            echo "days=$DAYS" >> "$GITHUB_OUTPUT"
+            echo "new_branch=false" >> "$GITHUB_OUTPUT"
+            echo "Appending to already-open PR #$NUMBER ($BRANCH, opened $CREATED) — using a ${DAYS}-day lookback so nothing published while it waited falls through the cracks."
+            git fetch origin "$BRANCH"
+            git checkout "$BRANCH"
+          else
+            echo "branch=auto/policy-$(date -u +%Y-%m-%d-%H%M%S)" >> "$GITHUB_OUTPUT"
+            echo "days=7" >> "$GITHUB_OUTPUT"
+            echo "new_branch=true" >> "$GITHUB_OUTPUT"
+            echo "No pending auto/policy-* PR — starting a fresh 7-day scrape."
+          fi
+
       - name: Run policy scraper
-        run: node scripts/scraper-policy.js
+        run: node scripts/scraper-policy.js --days=${{ steps.pending.outputs.days }}
 
       # Freshly scraped records carry _requires_curator_review by design, which
       # the deploy-time gate rejects. Check their shape here; pages.yml enforces
@@ -38,25 +71,31 @@ jobs:
       - name: Validate JSON after scrape
         run: node scripts/validate.js --allow-uncurated
 
-      - name: Open PR for curator review
+      - name: Commit and push
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
           if git diff --quiet docs/data/policies.json docs/data/sources.json; then
-            echo "No new policy items — nothing to PR."
+            echo "No new policy items — nothing to add."
             exit 0
           fi
-          STAMP="$(date -u +%Y-%m-%d-%H%M%S)"
-          BRANCH="auto/policy-$STAMP"
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -b "$BRANCH"
+          BRANCH="${{ steps.pending.outputs.branch }}"
+          if [ "${{ steps.pending.outputs.new_branch }}" = "true" ]; then
+            git checkout -b "$BRANCH"
+          fi
           git add docs/data/policies.json docs/data/sources.json
           git commit -m "data(policy): auto-scrape $(date -u +%Y-%m-%d)"
           git push --set-upstream origin "$BRANCH"
-          gh pr create \
-            --base main \
-            --head "$BRANCH" \
-            --title "data(policy): auto-scrape $(date -u +%Y-%m-%d)" \
-            --body-file .github/pr-body-policy.md
+          if [ "${{ steps.pending.outputs.new_branch }}" = "true" ]; then
+            gh pr create \
+              --base main \
+              --head "$BRANCH" \
+              --title "data(policy): auto-scrape $(date -u +%Y-%m-%d)" \
+              --body-file .github/pr-body-policy.md
+          else
+            gh pr comment "${{ steps.pending.outputs.pr_number }}" \
+              --body "Appended $(date -u +%Y-%m-%d)'s scrape to this still-open PR rather than opening a new one — see this branch's commit log for what's new. Still pending curator review before merge."
+          fi
