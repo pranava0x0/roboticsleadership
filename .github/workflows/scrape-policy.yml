@@ -39,8 +39,13 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
-          PR_JSON=$(gh pr list --state open --base main --json number,headRefName,createdAt \
-            --jq '[.[] | select(.headRefName | startswith("auto/policy-"))] | sort_by(.createdAt) | .[0] // empty')
+          PR_JSON=$(gh pr list --state open --base main --limit 100 \
+            --json number,headRefName,headRepositoryOwner,isCrossRepository,createdAt \
+            --jq '[.[] | select(
+              (.isCrossRepository | not) and
+              .headRepositoryOwner.login == env.GITHUB_REPOSITORY_OWNER and
+              (.headRefName | startswith("auto/policy-"))
+            )] | sort_by(.createdAt) | .[0] // empty')
           if [ -n "$PR_JSON" ]; then
             BRANCH=$(echo "$PR_JSON" | jq -r '.headRefName')
             NUMBER=$(echo "$PR_JSON" | jq -r '.number')
