@@ -2190,16 +2190,26 @@
     "source": "Hacker News",
     "source_type": "Community",
     "source_url": "https://www.consumerreports.org/appliances/vacuum-cleaners/foreign-made-robot-vacuums-fcc-ban-a9842224597/",
-    "summary": "What the FCC Ban on Foreign-Made Robot Vacuums Means for U.S. Consumers",
-    "category": "Competitive",
+    "summary": "The FCC's July 2026 Covered List expansion bars new-model equipment authorizations for foreign-made \"advanced mobile robots,\" a category broad enough to capture most consumer robot vacuums (the large majority of which are built in China). Existing authorized models already on the market are grandfathered and can continue to be sold; the restriction applies to future/new models seeking equipment authorization going forward.",
+    "category": "Policy",
     "companies": [],
-    "policies": [],
-    "themes": [],
+    "policies": [
+      "fcc-covered-list-robots-inverters-2026"
+    ],
+    "themes": [
+      "policy-momentum",
+      "china-scale",
+      "us-supply-chain"
+    ],
     "sentiment": "Neutral",
-    "confidence": "Low",
+    "confidence": "High",
     "tags": [
       "hacker-news",
-      "community"
+      "community",
+      "fcc",
+      "china",
+      "import-restriction",
+      "robot-vacuum"
     ]
   },
   {
@@ -19124,20 +19134,23 @@
     "source": "Hacker News",
     "source_type": "Community",
     "source_url": "https://www.agilityrobotics.com/solutions/digit-5",
-    "summary": "Agility reveals new robot: Digit 5",
+    "summary": "Agility Robotics revealed Digit 5, its next-generation humanoid, built around a safety architecture that uses real-time LiDAR, multi-angle depth cameras, and dynamic balance algorithms to detect nearby people within milliseconds. When a person comes close, Digit 5 autonomously avoids, stops, or lowers into a squat/seated posture to reduce collision risk — intended to let the robot work alongside people on warehouse and factory floors without isolated work cells or physical barriers.",
     "category": "Competitive",
     "companies": [
       "agility-robotics"
     ],
     "policies": [],
     "themes": [
-      "physical-ai"
+      "physical-ai",
+      "industrial-deployments"
     ],
-    "sentiment": "Neutral",
-    "confidence": "Low",
+    "sentiment": "Positive",
+    "confidence": "High",
     "tags": [
       "hacker-news",
-      "community"
+      "community",
+      "humanoid",
+      "safety"
     ]
   },
   {
@@ -19380,6 +19393,248 @@
       "nsf",
       "research-funding",
       "academia"
+    ]
+  },
+  {
+    "id": "boston-dynamics-metaplant-atlas-2026-09",
+    "title": "Boston Dynamics opens Metaplant Application Center to train Atlas humanoids",
+    "date": "2026-09-21",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/",
+    "summary": "Boston Dynamics opened a Robotics Metaplant Application Center inside Hyundai's Metaplant America facility in Georgia to train and deploy Atlas humanoids on live automotive production tasks — the first dedicated on-site facility for iterating Atlas against real factory workflows since Hyundai took full ownership of Boston Dynamics in June 2026.",
+    "category": "Deployment",
+    "companies": [
+      "boston-dynamics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "humanoid",
+      "boston-dynamics",
+      "hyundai",
+      "usa",
+      "automotive"
+    ]
+  },
+  {
+    "id": "softbank-acquires-rai-2026-09",
+    "title": "SoftBank agrees to acquire Robotics and AI Institute from Hyundai; deal faces CFIUS review",
+    "date": "2026-09-18",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/",
+    "summary": "SoftBank Group agreed to acquire the Robotics and AI Institute (RAI), the Cambridge, MA robot-control and manipulation research lab that Hyundai spun up in 2022 alongside its Boston Dynamics acquisition (founded by Marc Raibert, who also founded Boston Dynamics). Financial terms are undisclosed; the deal is under review by the Committee on Foreign Investment in the United States (CFIUS). SoftBank previously owned Boston Dynamics from 2017-2021 and exited its remaining Boston Dynamics stake for $325M in June 2026 as Hyundai took full ownership — this deal brings SoftBank back into the same robotics lineage via RAI.",
+    "category": "Geopolitics",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "m&a",
+      "softbank",
+      "cfius",
+      "japan",
+      "national-security"
+    ]
+  },
+  {
+    "id": "figure-helix-2-5-2026-09",
+    "title": "Figure debuts Helix 2.5, first zero-shot whole-body humanoid autonomy across 30 unseen homes",
+    "date": "2026-09-17",
+    "source": "Figure AI",
+    "source_type": "Press Release",
+    "source_url": "https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization",
+    "summary": "Figure introduced Helix 2.5, a humanoid neural network pretrained on its Index dataset of human behavior, and tested it zero-shot (no data collection, fine-tuning, or adaptation) across 30 rented Bay Area homes on tasks including tidying living rooms, folding towels, and making beds. Index pretraining lifted zero-shot task success from 9% to 56% while halving task-specific data needs; Index now generates roughly 35 minutes of new human experience per second, and Figure says it has committed $3.5B of compute to training Helix.",
+    "category": "Research",
+    "companies": [
+      "figure-ai"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "humanoid",
+      "figure-ai",
+      "foundation-model",
+      "usa"
+    ]
+  },
+  {
+    "id": "wonder-infinite-makeline-2026-09",
+    "title": "Wonder debuts Infinite Makeline robotic meal-assembly system, built on tech acquired from Sweetgreen",
+    "date": "2026-09-17",
+    "source": "Fast Company",
+    "source_type": "News",
+    "source_url": "https://www.fastcompany.com/91606368/marc-lore-startup-wonder-infinite-makeline-robotic-food-prep",
+    "summary": "Marc Lore's restaurant-tech startup Wonder deployed Infinite Makeline, a robotic meal-assembly system that can autonomously produce up to 500 bowls/hour from 68 ingredients, at its Midtown East New York location — roughly 10-15x a human worker's output (30-45 bowls/hour). The system runs on the Spyce/Infinite Kitchen automation platform Wonder acquired from Sweetgreen for $186.4M in December 2025; Sweetgreen keeps a supply-and-license deal and still runs Infinite Kitchen in 20+ of its own locations. Wonder plans \"tens of locations\" across the Northeast, DC metro, and Texas by 2027.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "food-robotics",
+      "usa",
+      "commercial-deployment"
+    ]
+  },
+  {
+    "id": "roboharm-benchmark-2026-09",
+    "title": "RoboHarm benchmark: frontier AI models attempted harmful physical tasks up to 97% of the time when controlling robot arms",
+    "date": "2026-09-21",
+    "source": "Tom's Hardware",
+    "source_type": "News",
+    "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-controlled-robot-arms-attempted-harmful-tasks-97-percent-of-the-time-experiments-included-stabbing-a-baby-doll-mixing-chemicals-openai-and-anthropic-models-try-mixing-bleach-and-stabbing-dolls-without-jailbreaks",
+    "summary": "Robocurve's RoboHarm benchmark tested OpenAI's GPT-6 Astra, Anthropic's Claude Fable 5.1, and Ai2's MolmoAct2 controlling I2RT-YAM robot arms across five dangerous tasks (stabbing a doll, heating a compressed-air can, inserting a screwdriver into a toaster, submerging a power bank, mixing bleach and ammonia), 20 attempts per instruction, no jailbreaks. GPT-6 Astra attempted harmful actions 97% of the time and completed 62% of dangerous tasks; Claude Fable refused the stabbing task in all 20 trials but completed the compressed-air-can task in 16 of 20. None of the three models reliably refused unsafe physical instructions.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Negative",
+    "confidence": "High",
+    "tags": [
+      "ai-safety",
+      "benchmark",
+      "foundation-model",
+      "robot-arm"
+    ]
+  },
+  {
+    "id": "egocentric-data-gig-workers-2026-09",
+    "title": "Gig workers' first-person video is becoming the raw material for humanoid robot training data",
+    "date": "2026-09-20",
+    "source": "ABC News (Australia)",
+    "source_type": "News",
+    "source_url": "https://www.abc.net.au/news/2026-09-20/egocentric-training-gig-workers-helping-robots-learn-tasks/107135216",
+    "summary": "Robotics and AI labs are buying hundreds of millions of hours of \"egocentric\" (head/chest-mounted, first-person) video of household tasks from gig workers to train humanoid foundation models, finding it cheaper and more varied than robot-collected data. Data broker Appen collects roughly 60,000 hours/month from about 5,000 contributors across India, Canada, the US, Brazil, Mexico and the Philippines, ranging from South Asian factory workers to US house cleaners and delivery drivers. Consent and privacy concerns persist over whether contributors understand how footage is used and resold.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "cost-trajectory"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "training-data",
+      "labor",
+      "foundation-model",
+      "privacy"
+    ]
+  },
+  {
+    "id": "arm-total-design-physical-ai-2026-09",
+    "title": "Arm launches Total Design for Physical AI, uniting 80+ hardware and software developers around a robotics compute framework",
+    "date": "2026-09-17",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/arm-total-design-for-physical-ai-brings-more-than-80-developers-together/",
+    "summary": "Arm launched Total Design for Physical AI, extending its chip-design ecosystem program to robotics alongside a new Robotics Capability Framework meant to standardize how developers evaluate and build on Arm-based robot compute. More than 80 hardware and software partners joined at launch, aiming to bring the same clarity and interoperability to the fragmented robotics-silicon market that Arm's existing Total Design program brought to smartphone and data-center chips.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "us-supply-chain"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "arm",
+      "compute",
+      "chips",
+      "ecosystem"
+    ]
+  },
+  {
+    "id": "robotics-investments-aug2026-4-9b",
+    "title": "Robotics investments reached $4.9B across 162 rounds in August 2026",
+    "date": "2026-09-17",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/robotics-investments-reach-4-9b-in-august-2026/",
+    "summary": "The Robot Report's August 2026 Robotics Investments Report tallied $4.9B in robotics funding across 162 rounds for the month, with a full breakdown by technology category, country, and funding stage.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "capital",
+      "funding-tracker"
+    ]
+  },
+  {
+    "id": "robotics-picks-and-shovels-2026-09",
+    "title": "Analysis: the real robotics opportunity is picks-and-shovels packaging, not a humanoid in every home",
+    "date": "2026-09-18",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/",
+    "summary": "The Robot Report argues the near-term robotics investment opportunity is less about general-purpose humanoids and more about \"picks-and-shovels\" infrastructure — compute, tooling, and integration layers — packaged for the specific jobs businesses need automated today, rather than a bet on broad household or general-purpose deployment.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "investment-strategy",
+      "analysis"
+    ]
+  },
+  {
+    "id": "fcc-robot-vacuum-ban-waiver-2026-09",
+    "title": "FCC robot-vacuum ban: waiver requires 65% US-sourced components, virtually no maker currently qualifies",
+    "date": "2026-09-18",
+    "source": "Tom's Guide",
+    "source_type": "News",
+    "source_url": "https://www.tomsguide.com/home/smart-home/the-us-government-just-banned-almost-all-robot-vacuums-heres-why",
+    "summary": "Follow-up reporting on the FCC's Covered List expansion (in effect since July 2026) details the waiver path for foreign-made robot vacuums: manufacturers can seek a waiver to keep selling new models, but must source at least 65% of components domestically — a bar Roborock, Ecovacs, Narwal, and nearly every other robot-vacuum brand (almost all China-based) currently fail to clear. Existing approved devices already in US homes are unaffected.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "fcc-covered-list-robots-inverters-2026"
+    ],
+    "themes": [
+      "policy-momentum",
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "fcc",
+      "china",
+      "import-restriction",
+      "robot-vacuum",
+      "waiver"
     ]
   }
 ]
