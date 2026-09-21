@@ -3384,13 +3384,23 @@
     ],
     "primary_use_case": "manufacturing",
     "flagship_product": "AI-guided autonomous welding robot system",
-    "deployments": [],
+    "deployments": [
+      {
+        "customer": "Huntington Ingalls Industries (HII)",
+        "location": "USA",
+        "robot_count": null,
+        "start_date": "2026-08",
+        "status": "announced",
+        "use_case": "Performance-based production agreement for robotic welding across Navy shipbuilding (carriers, submarines, destroyers, amphibious ships, future frigates, unmanned surface vessels) under HII's HYPR program — worth up to $600M of the combined up-to-$900M deal with GrayMatter Robotics, contingent on technology-readiness and performance milestones.",
+        "source_url": "https://www.hii.com/news/hii-signs-performance-based-production-agreements-with-path-robotics-and-graymatter-robotics"
+      }
+    ],
     "headcount": null,
     "headcount_date": null,
     "target_price_usd": null,
     "open_source": false,
     "us_manufactured": true,
-    "defense_contracts": false,
+    "defense_contracts": true,
     "founders": [
       {
         "name": "Andrew Loos",
@@ -3413,7 +3423,7 @@
         "url": "https://www.drivenbydata.com"
       }
     ],
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-09-21",
     "themes": [
       "industrial-deployments"
     ],

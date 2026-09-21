@@ -3016,7 +3016,7 @@
     "status": "Committee",
     "bill_number": "H.R. 9129",
     "sponsor": "Rep. John Moolenaar (R-MI), with Rep. Jay Obernolte (R-CA) and Rep. Jennifer McClellan (D-VA)",
-    "summary": "Would require national security agencies to review humanoid and quadruped robots produced in China and other foreign adversary countries, and add platforms judged an unacceptable national security risk to the FCC's Covered List — barring their sale in the US. Any platform not reviewed within one year would be added automatically. Extends to robotics the Covered List machinery already applied to telecom equipment and drones. Introduced in the 119th Congress; a related provision advanced in the House-passed NDAA. On September 1, 2026, the House Energy and Commerce Subcommittee on Communications and Technology marked up the bill and forwarded it to the full Committee by voice vote.",
+    "summary": "Would require national security agencies to review humanoid and quadruped robots produced in China and other foreign adversary countries, and add platforms judged an unacceptable national security risk to the FCC's Covered List — barring their sale in the US. Any platform not reviewed within one year would be added automatically. Extends to robotics the Covered List machinery already applied to telecom equipment and drones. Introduced in the 119th Congress; on September 1, 2026, the House Energy and Commerce Subcommittee on Communications and Technology marked up the bill and forwarded it to the full Committee by voice vote. The related provision that advanced in the House-passed FY2027 NDAA is Section 163, passed 216-212 on July 22, 2026: it bars the Department of Defense (not the wider federal government) from procuring, leasing, or operating a \"covered humanoid robotic system\" produced or developed by China (or incorporating Chinese firmware, software, AI models, cloud services, or remote-access/update capability); industrial robots, non-networked systems, and regulated medical devices are expressly excluded from the definition. Commercial sales remain legal under the NDAA provision — the GUARD Act's broader Covered List approach would go further.",
     "full_text_url": "https://www.congress.gov/bill/119th-congress/house-bill/9129/text/ih",
     "robotics_scope": "Robotics is the entire subject of the bill: it defines a review-and-list regime specifically for foreign-adversary humanoid and quadruped robots.",
     "estimated_budget_usd": null,
@@ -3047,7 +3047,7 @@
         "url": "https://energycommerce.house.gov/posts/chairmen-guthrie-and-hudson-announce-c-and-t-subcommittee-markup-of-six-bills-to-strengthen-communications-networks-and-modernize-satellite-regulations"
       }
     ],
-    "last_updated": "2026-09-17"
+    "last_updated": "2026-09-21"
   },
   {
     "id": "fedreg-2026-15418",
@@ -3231,5 +3231,45 @@
       }
     ],
     "last_updated": "2026-09-17"
+  },
+  {
+    "id": "chip-equip-act-hr6207",
+    "title": "Chip EQUIP Act (H.R. 6207) — bars foreign-adversary semiconductor manufacturing equipment purchases",
+    "type": "Bill",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2025-11-20",
+    "status": "Committee",
+    "bill_number": "H.R. 6207",
+    "sponsor": "Rep. Zoe Lofgren (D-CA), with Rep. Jay Obernolte (R-CA), Rep. Raja Krishnamoorthi (D-IL), Rep. John Moolenaar (R-MI), Rep. Greg Landsman (D-OH) and Rep. Erin Houchin (R-IN)",
+    "summary": "The Chip Equipment Quality, Usefulness, and Integrity Protection Act (\"Chip EQUIP Act\") would prohibit purchases of certain semiconductor manufacturing equipment from foreign entities of concern or their subsidiaries. Referred to the House Committees on Energy and Commerce and on Science, Space, and Technology; reported out of the full House Energy & Commerce Committee by a 39-0 roll call vote on September 16, 2026, alongside the GUARD Act in the same markup window — a companion bill, S. 3301, carries the same name in the Senate. Extends the chip/equipment export-control logic already central to the US-China tech contest explicitly into the equipment that manufactures semiconductors, which in turn are the compute layer under every robotics platform.",
+    "full_text_url": "https://www.congress.gov/bill/119th-congress/house-bill/6207/text",
+    "robotics_scope": "Indirect but structural: targets the semiconductor-manufacturing-equipment supply chain that produces the compute (including robot-compute chips like D-Robotics' Sunrise line) every robotics platform depends on, rather than robots themselves.",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "congress",
+      "bill",
+      "chips",
+      "export-control",
+      "china",
+      "bipartisan"
+    ],
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "sources": [
+      {
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/6207/text"
+      },
+      {
+        "url": "https://energycommerce.house.gov/posts/cmt-subcommittee-advances-12-bills-to-strengthen-american-competitiveness-and-enhance-consumer-protections"
+      }
+    ],
+    "last_updated": "2026-09-16"
   }
 ]

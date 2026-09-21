@@ -1170,7 +1170,7 @@
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
     "summary": "Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale.\nThe post XPeng Motors humanoid robot unit Dogotix raises $900M appeared fir...",
-    "category": "Policy",
+    "category": "Funding",
     "companies": [],
     "policies": [],
     "themes": [
@@ -4052,7 +4052,7 @@
     "source": "The Robot Report",
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/agibot-unveils-four-embodied-ai-products-real-world-operations-waic/",
-    "summary": "AGIBOT said its demoes and industrial deployments show its progress in turning embodied AI capabilities into repeatable workflows.\nThe post AGIBOT unveils four embodied AI products for real-world oper...",
+    "summary": "AGIBOT unveiled four embodied-AI products at WAIC 2026, headlined by its A3 Ultra humanoid (1.74m, 60kg, 51 active degrees of freedom, NVIDIA Thor compute, up to 8 hours runtime) built for factory, commercial and service work. The company said it has shipped 15,000 robots to date — a scale no Western competitor has matched — with G2-series humanoids already running unsupervised on a Longcheer Technology production line doing tablet quality control.",
     "category": "Deployment",
     "companies": [
       "agibot"
@@ -4060,12 +4060,15 @@
     "policies": [],
     "themes": [
       "china-scale",
-      "foundation-models"
+      "foundation-models",
+      "industrial-deployments"
     ],
     "sentiment": "Neutral",
-    "confidence": "Medium",
+    "confidence": "High",
     "tags": [
-      "rss-import"
+      "rss-import",
+      "humanoid",
+      "china"
     ]
   },
   {
@@ -6794,16 +6797,19 @@
     "source": "Hacker News",
     "source_type": "Community",
     "source_url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
-    "summary": "South Korea to spend $1T on more memory chip production and humanoid robots",
-    "category": "Competitive",
+    "summary": "South Korean President Lee Jae-myung unveiled a plan for at least $880B (roughly 5% of GDP) in public and private investment over 10 years across semiconductors, AI data centers and robotics. Centered on Samsung and SK Hynix, it commits about 800 trillion won over five years to four new memory-chip plants in southwestern South Korea; SK Group, GS Group and Naver separately plan 550 trillion won on AI data centers, targeting 8.4GW of capacity by 2029 and 10GW more by 2035. On robotics, the goal is to grow South Korea's share of the global humanoid market from 1% to 20% by 2028, with industry-specific humanoids commercialized by that year.",
+    "category": "Geopolitics",
     "companies": [],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
-    "confidence": "Low",
+    "confidence": "High",
     "tags": [
       "hacker-news",
-      "community"
+      "community",
+      "south-korea",
+      "chips",
+      "humanoid"
     ]
   },
   {
@@ -19635,6 +19641,248 @@
       "import-restriction",
       "robot-vacuum",
       "waiver"
+    ]
+  },
+  {
+    "id": "hii-path-graymatter-900m-2026-08",
+    "title": "HII signs up to $900M in production agreements with Path Robotics and GrayMatter Robotics for Navy shipbuilding",
+    "date": "2026-08-10",
+    "source": "HII",
+    "source_type": "Press Release",
+    "source_url": "https://www.hii.com/news/hii-signs-performance-based-production-agreements-with-path-robotics-and-graymatter-robotics",
+    "summary": "Huntington Ingalls Industries signed long-term, performance-based production agreements with Path Robotics (robotic welding) and GrayMatter Robotics (robotic sanding/blasting) worth up to $900M combined over seven years, contingent on meeting technology-readiness and performance milestones — Path Robotics' share alone up to $600M. Part of HII's HYPR (High-Yield Production Robotics) program launched in April 2026, targeting aircraft carriers, submarines, destroyers, amphibious ships, future frigates and unmanned surface vessels.",
+    "category": "Deployment",
+    "companies": [
+      "path-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "defense-procurement",
+      "industrial-deployments",
+      "us-supply-chain"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "defense",
+      "navy",
+      "shipbuilding",
+      "welding",
+      "usa"
+    ]
+  },
+  {
+    "id": "niron-magnetics-plant-aspina-2026-08",
+    "title": "Niron Magnetics advances $1.8B rare-earth-free magnet plant, signs motor supply deal with Japan's Aspina",
+    "date": "2026-08-01",
+    "source": "Manufacturing Dive",
+    "source_type": "News",
+    "source_url": "https://www.manufacturingdive.com/news/niron-magnetics-15b-iron-nitride-magnets-plant-savills/814845/",
+    "summary": "Niron Magnetics began formal site selection for a 1.6M-sq-ft, >$1.8B U.S. iron-nitride (rare-earth-free) magnet plant — 700+ jobs, up to 10,000 tons/year capacity. Separately, Niron signed a supply agreement with Japan's Aspina (Shinano Kenshi) to co-develop rare-earth-free motor platforms for automotive, robotics and other end markets — a direct alternative to the China-dominated rare-earth-magnet supply chains that feed every robot's electric motors.",
+    "category": "Supply Chain",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "cost-trajectory"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "rare-earth",
+      "magnets",
+      "supply-chain",
+      "usa",
+      "japan"
+    ]
+  },
+  {
+    "id": "openai-robotics-hiring-2026-09",
+    "title": "OpenAI's internal robotics group goes on a hardware-engineer hiring spree; Altman confirms a humanoid is coming",
+    "date": "2026-09-18",
+    "source": "Aroged",
+    "source_type": "News",
+    "source_url": "https://www.aroged.com/2026/09/18/openai-is-serious-about-robotics-the-company-is-hiring-dozens-of-engineers-and-promising-them-up-to-500000-a-year/",
+    "summary": "OpenAI's internal 'world simulation' research group, led by Aditya Ramesh, has become 'OpenAI Robotics' and is hiring dozens of full-stack hardware, actuator and ML engineers at up to $500K base salary to move from lab-scale to factory-scale hardware — custom motors, gears, sensors and controls. In an Aug 26 interview, Sam Altman confirmed OpenAI will \"definitely\" build a humanoid robot, saying everyone should eventually have a personal one — a reversal from OpenAI's earlier posture of backing Figure rather than building in-house.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "openai",
+      "humanoid",
+      "hiring",
+      "usa"
+    ]
+  },
+  {
+    "id": "xpeng-iron-production-line-2026-09",
+    "title": "XPeng's IRON humanoid walks off a new >80%-automated Guangzhou production line",
+    "date": "2026-09-08",
+    "source": "Electrek",
+    "source_type": "News",
+    "source_url": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/",
+    "summary": "XPeng's next-generation IRON humanoid autonomously walked off a new Guangzhou production line the company says is more than 80% automated end-to-end — robots assembling robots. The new IRON has 76 degrees of freedom (21 per hand) and three in-house Turing AI chips (2,250 TOPS combined), running on XPeng's new \"XPACE\" world-action model and simulator. Mass production is targeted by end of 2026 (own stores/campuses first); third-party commercial sales aren't expected until 2027.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "humanoid",
+      "china",
+      "manufacturing",
+      "xpeng"
+    ]
+  },
+  {
+    "id": "china-military-humanoid-robots-reuters-2026-09",
+    "title": "Reuters: China's military is researching humanoid robots for future combat use",
+    "date": "2026-09-07",
+    "source": "Reuters (via secondary coverage)",
+    "source_type": "News",
+    "source_url": "https://www.techtimes.com/articles/326931/20260908/chinas-pla-has-100-procurement-records-combat-humanoids-zero-deployments.htm",
+    "summary": "A Reuters investigation reviewed 100+ Chinese military procurement notices, academic studies, patents and official documents showing China's defense establishment accelerating research into humanoid robots' military applications, on a 5-10 year horizon. The PLA allocated roughly $300K in June 2026 for a system to collect and label multi-sensor training data (camera, radar, motion, terrain) across scenarios, including one modeling six robots in urban combat; two days after the World Humanoid Robot Games, the PLA's official newspaper called for accelerating lab-to-battlefield technology transfer. Reuters found no evidence an armed humanoid has been deployed with an operational PLA unit yet. Chinese manufacturers accounted for roughly 95% of global humanoid shipments in 2025, per BofA.",
+    "category": "Geopolitics",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "defense-procurement"
+    ],
+    "sentiment": "Negative",
+    "confidence": "High",
+    "tags": [
+      "china",
+      "military",
+      "humanoid",
+      "defense"
+    ]
+  },
+  {
+    "id": "chip-equip-act-hr6207-2026-09",
+    "title": "Chip EQUIP Act (H.R. 6207) reported out of House Energy & Commerce, 39-0",
+    "date": "2026-09-16",
+    "source": "House Committee on Energy and Commerce",
+    "source_type": "Press Release",
+    "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/6207",
+    "summary": "The House Energy & Commerce Committee reported H.R. 6207, the Chip Equipment Quality, Usefulness, and Integrity Protection Act (\"Chip EQUIP Act\"), to the full House by a 39-0 roll call vote on Sept. 16, 2026. The bill would bar purchases of certain semiconductor manufacturing equipment from foreign entities of concern or their subsidiaries. Robots for America, a robotics trade association, flagged its passage alongside the GUARD Act in the same committee window as evidence Congress is starting to treat robotics hardware and the equipment that builds it as a single security category.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "chip-equip-act-hr6207"
+    ],
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "congress",
+      "bill",
+      "chips",
+      "export-control",
+      "china"
+    ]
+  },
+  {
+    "id": "planted-solar-robots-2026-09",
+    "title": "Planted raises $31.8M to scale autonomous field robots for solar construction",
+    "date": "2026-09-15",
+    "source": "ESG Today",
+    "source_type": "News",
+    "source_url": "https://www.esgtoday.com/planted-raises-31-8-million-to-build-solar-plants-with-robots/",
+    "summary": "Oakland-based Planted raised $31.8M co-led by Piva Capital and RA Capital's Planetary Health team, with Breakthrough Energy Ventures, Gigascale, Google and Khosla Ventures participating, to expand its autonomous field-robot fleet for solar construction aimed at powering data centers and other large loads. Planted combines planning software, high-density solar arrays, storage and field robotics; it recently completed a 28MW behind-the-meter solar install for a \"neocloud\" data center in 10 months (construction under 3 months), deployed over 10MW in 2025, and is targeting 100MW by end of 2026 against a 20+ GW pipeline. A next-generation robot, \"Sage,\" launches later this year.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "energy",
+      "solar",
+      "construction-robotics",
+      "usa",
+      "data-centers"
+    ]
+  },
+  {
+    "id": "watney-robotics-series-a-2026-09",
+    "title": "Watney Robotics raises $80M Series A for data-center robots, Meta among early customers",
+    "date": "2026-09-17",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com",
+    "summary": "San Francisco-based Watney (founded 2023) raised an $80M Series A co-led by Valor Atreides AI Fund and Hummingbird Ventures, taking total funding above $100M. Watney builds two-armed robots for physical data-center work — cable swaps, server restarts — claiming \"four nines\" uptime. Meta is a customer, testing the robots at its Altoona, IA and New Albany, OH sites; Meta reportedly projects cable-swap robots could eventually replace up to 80% of some technical roles.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "data-centers",
+      "usa",
+      "meta"
+    ]
+  },
+  {
+    "id": "viabot-series-a-2026-09",
+    "title": "Viabot raises $24M Series A for autonomous outdoor commercial-property robots",
+    "date": "2026-09-17",
+    "source": "PR Newswire",
+    "source_type": "Press Release",
+    "source_url": "https://www.prnewswire.com/news-releases/viabot-announces-24m-series-a-to-scale-precision-outdoor-commercial-property-care-302882113.html",
+    "summary": "Santa Clara-based Viabot raised a $24M Series A led by Walden International, bringing total funding to $43M. Its \"Viabot One\" robot autonomously sweeps, self-empties and recharges, and services roughly 25M sq ft of U.S. commercial property with over 5.1B sq ft cleaned cumulatively; customers include big-box retailers, utilities and academic institutions.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "usa",
+      "commercial-services"
+    ]
+  },
+  {
+    "id": "liberai-liber0-2026-09",
+    "title": "China's LiberAI raises Pre-A++ round, tops the RoboDojo manipulation benchmark with Liber-0",
+    "date": "2026-09-17",
+    "source": "RoboDojo / company",
+    "source_type": "News",
+    "source_url": "https://robodojo-benchmark.com/LeaderBoard",
+    "summary": "LiberAI (founded Dec 2025), a Chinese general-purpose home-robotics startup, raised a Pre-A++ round led by Shunwei Capital with Cathay Capital, Oriza Holdings, HSG and ZhenFund, taking cumulative financing above RMB 1B (~$149M). Its Liber-0 Preview model topped the RoboDojo sim-and-real manipulation benchmark leaderboard on Sept 17, 2026, scoring 30.74 average with a 25.52% success rate across 42 tasks — deepening China's bench of well-funded home-humanoid entrants alongside Agibot, Unitree and Ubtech.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "funding",
+      "benchmark",
+      "home-robotics"
     ]
   }
 ]
