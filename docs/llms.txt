@@ -31,15 +31,15 @@ argument:
 
 All paths are relative to https://pranava0x0.github.io/roboticsleadership/
 
-Record counts below are **as of 2026-07-16** and grow as the trackers run —
+Record counts below are **as of 2026-09-22** and grow as the trackers run —
 treat them as a sense of scale, not a live figure. Each dataset's own
 `last_updated` / `_meta.last_updated` is authoritative.
 
 - [data/us_china.json](https://pranava0x0.github.io/roboticsleadership/data/us_china.json): The scoreboard. A structured document, not an array: `bluf` (headline + body), `sections[]` each holding `metrics[]`, and a `unitree_case` study. Every metric has `{id, metric, us, china, edge, sources[]}` where `edge` is one of `us` / `china` / `even` — the head-to-head verdict on that metric. 35 metrics. Start here.
-- [data/supply_chain.json](https://pranava0x0.github.io/roboticsleadership/data/supply_chain.json): Where robots are actually built. Structured document: `overview.bluf`, `chain_stages[]` (each with `us_position`: strong / contested / weak), `categories[]` with US/China/RoW share percentages and `chokepoints[]`, `companies[]`, `stakeholders[]`, and `production_trend[]` (annual US/China/RoW unit output, with `projected` marking forecast years). 80 records.
+- [data/supply_chain.json](https://pranava0x0.github.io/roboticsleadership/data/supply_chain.json): Where robots are actually built. Structured document: `overview.bluf`, `chain_stages[]` (each with `us_position`: strong / contested / weak), `categories[]` with US/China/RoW share percentages and `chokepoints[]`, `companies[]`, `stakeholders[]`, and `production_trend[]` (annual US/China/RoW industrial-robot installations, with `projected` marking forecast years). 80 records.
 - [data/companies.json](https://pranava0x0.github.io/roboticsleadership/data/companies.json): Array of 81 robotics companies — `funding_rounds[]`, `deployments[]`, valuation, HQ, `map_category` (humanoid / brains / industrial / defense / field / service / enablers), `data_confidence` (high / medium / low), `sources[]`.
-- [data/policies.json](https://pranava0x0.github.io/roboticsleadership/data/policies.json): Array of 77 federal and state policy records — bills, executive orders, regulations, incentive programs, procurement. Each has `type`, `level`, `status`, `introduced_date`, `robotics_scope` (why it matters to robotics), and `sources[]`.
-- [data/news.json](https://pranava0x0.github.io/roboticsleadership/data/news.json): Array of 741 tracked news records, newest first. Each has `date`, `source`, `source_url`, `summary`, `category` (Funding / Deployment / Policy / Competitive / Supply Chain / Geopolitics / Research), `sentiment`, `confidence`, and often an `archive_url` (Wayback snapshot).
+- [data/policies.json](https://pranava0x0.github.io/roboticsleadership/data/policies.json): Array of 63 federal, state, and city policy records — bills, executive orders, regulations, incentive programs, procurement. Each has `type`, `level`, `status`, `introduced_date`, `robotics_scope` (why it matters to robotics), and `sources[]`.
+- [data/news.json](https://pranava0x0.github.io/roboticsleadership/data/news.json): Array of 1008 tracked news records; the News page sorts them newest first. Each has `date`, `source`, `source_url`, `summary`, `category` (Funding / Deployment / Policy / Competitive / Supply Chain / Geopolitics / Research), `sentiment`, `confidence`, and often an `archive_url` (Wayback snapshot).
 - [data/themes.json](https://pranava0x0.github.io/roboticsleadership/data/themes.json): 8 cross-cutting narratives with `direction` (Accelerating / Stable / Slowing) — the leading indicators.
 - [data/state_policy.json](https://pranava0x0.github.io/roboticsleadership/data/state_policy.json): 5 state-policy themes — what states actually control.
 - [data/agencies.json](https://pranava0x0.github.io/roboticsleadership/data/agencies.json): 25 federal agencies referenced by policy records.
@@ -52,6 +52,7 @@ treat them as a sense of scale, not a live figure. Each dataset's own
 - [Supply Chain](https://pranava0x0.github.io/roboticsleadership/supply-chain.html): Materials, components, compute, assembly — categories, chokepoints, capacity, and the stakeholder map.
 - [Companies](https://pranava0x0.github.io/roboticsleadership/companies.html): The market map — funding, deployments, valuations.
 - [Policy](https://pranava0x0.github.io/roboticsleadership/policies.html): Federal bills, regulations, incentives, procurement.
+- [Physical AI Action Plan](https://pranava0x0.github.io/roboticsleadership/physical-ai-action-plan.html): Six-page research draft, outline, action options, and source links.
 - [State Policy](https://pranava0x0.github.io/roboticsleadership/states.html): Sidewalk/delivery robot laws, AV rules, incentives, the AI preemption fight.
 - [Themes](https://pranava0x0.github.io/roboticsleadership/themes.html): Cross-cutting narratives and cost trajectories.
 - [News](https://pranava0x0.github.io/roboticsleadership/news.html): The tracked feed, each item cited.

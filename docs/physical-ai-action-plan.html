@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="A sourced six-page research draft on U.S. physical AI and robotics actions, programs, and partners." />
+  <link rel="canonical" href="https://pranava0x0.github.io/roboticsleadership/physical-ai-action-plan.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Robotics Leadership Tracker" />
+  <meta property="og:title" content="Physical AI Action Plan · Robotics Tracker" />
+  <meta property="og:description" content="A sourced six-page research draft on U.S. physical AI and robotics actions, programs, and partners." />
+  <meta property="og:url" content="https://pranava0x0.github.io/roboticsleadership/physical-ai-action-plan.html" />
+  <meta property="og:image" content="https://pranava0x0.github.io/roboticsleadership/assets/share-card.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Where AI meets the physical world." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Physical AI Action Plan · Robotics Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
+  <script>
+    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+  <link rel="stylesheet" href="assets/styles.css" />
+
+  <style>
+    .plan-shell{max-width:930px;margin:0 auto;padding:36px 24px 80px}
+    .plan-hero{border-top:5px solid var(--accent,#bf4d2e);padding:28px 0 22px}
+    .plan-kicker,.plan-eyebrow{font:700 12px/1.4 system-ui,sans-serif;letter-spacing:.13em;text-transform:uppercase;color:var(--accent,#bf4d2e)}
+    .plan-title{font:700 clamp(2.7rem,7vw,5.2rem)/.96 Georgia,serif;letter-spacing:-.04em;max-width:760px;margin:14px 0}
+    .plan-deck{font:1.12rem/1.55 system-ui,sans-serif;max-width:760px}
+    .plan-meta{font:12px/1.4 system-ui,sans-serif;color:var(--muted,#667);margin-top:16px}
+    .plan-sheet{padding:24px 0 18px;border-top:1px solid currentColor;break-inside:auto}
+    .plan-sheet h2{font:700 clamp(1.7rem,4vw,2.45rem)/1.15 Georgia,serif;letter-spacing:-.025em;margin:8px 0 16px}
+    .plan-sheet h3{font:700 1.13rem/1.25 system-ui,sans-serif;margin:21px 0 8px}
+    .plan-sheet p,.plan-sheet li{font:15px/1.58 system-ui,sans-serif}
+    .plan-sheet p{margin:0 0 12px}
+    .plan-sheet ul,.plan-sheet ol{padding-left:1.3rem;margin:9px 0 16px}
+    .plan-sheet li{margin:0 0 9px}
+    .plan-sheet a{overflow-wrap:anywhere}
+    .plan-sheet .source-note{font-size:12px;color:var(--muted,#667)}
+    .plan-callout{border-left:4px solid var(--accent,#bf4d2e);padding:12px 16px;margin:18px 0;background:var(--surface,#f4f0e8)}
+    .plan-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .plan-grid>div{border-top:2px solid currentColor;padding-top:9px}
+    .plan-action{border-top:1px solid currentColor;padding:13px 0;break-inside:avoid}
+    .plan-action h3{margin:0 0 6px}
+    .plan-action p{margin-bottom:8px}
+    .plan-owner{font:700 12px/1.4 system-ui,sans-serif;letter-spacing:.04em;text-transform:uppercase}
+    .plan-small{font-size:13px!important;line-height:1.5!important}
+    .plan-links{display:flex;flex-wrap:wrap;gap:8px 16px}
+    .plan-links a{font-size:12px}
+    .plan-table{width:100%;border-collapse:collapse;font:13px/1.5 system-ui,sans-serif}
+    .plan-table th,.plan-table td{text-align:left;vertical-align:top;padding:9px;border-bottom:1px solid #aaa}
+    .plan-table th{font-weight:700}
+    @media(max-width:650px){.plan-shell{padding:24px 16px 52px}.plan-grid{grid-template-columns:1fr}.plan-table{font-size:12px}}
+    @media print{
+      @page{size:letter;margin:.52in .57in}
+      body{background:#fff!important;color:#111!important}
+      .site-header,.site-footer,.skip-link{display:none!important}
+      .plan-shell{max-width:none;padding:0}
+      .plan-title{font-size:36pt}
+      .plan-deck{font-size:12pt}
+      .plan-sheet{break-before:page;padding-top:0;border-top:0}
+      .plan-sheet:first-of-type{break-before:auto}
+      .plan-sheet h2{font-size:20pt}
+      .plan-sheet h3{font-size:11pt}
+      .plan-sheet p,.plan-sheet li{font-size:9pt;line-height:1.36}
+      .plan-small,.plan-links a,.plan-owner,.plan-meta{font-size:7.7pt!important}
+      .plan-action{padding:7px 0}
+      .plan-callout{background:#f5f5f5!important}
+      a{color:#111!important;text-decoration:none}
+      .plan-table{font-size:8pt}
+      .plan-table th,.plan-table td{padding:5px}
+    }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header" role="banner">
+    <div class="site-header-inner">
+      <a href="index.html" class="header-updated" aria-label="Home — last data refresh">
+        <span class="header-updated-label">Updated</span>
+        <span class="header-updated-date tnum">—</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary" id="primary-nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Front page</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="china.html">US vs China</a></li>
+          <li><a href="companies.html">Companies</a></li>
+          <li><a href="policies.html">Policy</a></li>
+          <li><a href="physical-ai-action-plan.html">Action Plan</a></li>
+          <li><a href="supply-chain.html">Supply Chain</a></li>
+          <li><a href="energy.html">Energy</a></li>
+          <li><a href="states.html">States</a></li>
+          <li><a href="themes.html">Themes</a></li>
+        </ul>
+        <details class="primary-more" hidden>
+          <summary>Sections</summary>
+          <div class="primary-more-menu"><ul class="nav-overflow"></ul></div>
+        </details>
+      </nav>
+      <details class="theme-picker" id="theme-picker">
+        <summary aria-label="Theme picker">
+          <span class="theme-picker-current">Dawn</span>
+          <svg class="theme-picker-chevron" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="theme-picker-menu" role="radiogroup" aria-label="Choose theme">
+          <label class="theme-option"><input type="radio" name="theme" value="caves"><span class="theme-option-name">Caves of Steel</span><span class="theme-option-tag">Earth</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Subconscious</span></label>
+        </div>
+      </details>
+    </div>
+  </header>
+
+<main id="main" class="plan-shell">
+  <header class="plan-hero">
+    <p class="plan-kicker">Research draft · 22 September 2026</p>
+    <h1 class="plan-title">Physical AI<br>Action Plan</h1>
+    <p class="plan-deck">A U.S. robotics agenda built around deployment, industrial capacity, and trusted cooperation. Draft options for decision; no agency has adopted this document.</p>
+    <p class="plan-meta">Prepared for the Robotics Leadership Tracker · Evidence cutoff: 22 September 2026 · Print: six-page brief</p>
+  </header>
+
+  <section class="plan-sheet" aria-labelledby="plan-outline">
+    <p class="plan-eyebrow">01 / Outline and framing</p>
+    <h2 id="plan-outline">From AI capability to productive machines</h2>
+    <p>The <a href="https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf">2025 AI Action Plan</a> uses short, action-led sections inside three pillars: innovation, infrastructure, and international diplomacy and security. The <a href="https://www.whitehouse.gov/wp-content/uploads/2026/08/NSSTS-082026.pdf">2026 National Security Science and Technology Strategy</a> adds focused competition, resilience, speed, protection, and means of implementation. <a href="https://www.whitehouse.gov/wp-content/uploads/2026/07/Science-A-New-Golden-Age.pdf">NSTM-5</a> sets the FY2028 R&amp;D budget frame. Public <a href="https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/">NSPM-11</a> covers national-security AI; it is not a general robotics statute.</p>
+    <div class="plan-callout"><strong>Core test.</strong> Count field use, worker and safety outcomes, domestic component capacity, and repeat purchases. Do not count a simulation demo, pilot announcement, or factory design target as deployment.</div>
+    <ol>
+      <li><strong>Pillar I — Deploy and learn:</strong> independent benchmarks, open and lawful data, small-firm adoption, and a usable safety evidence path.</li>
+      <li><strong>Pillar II — Build the industrial base:</strong> precision components, financing and procurement channels, workforce, and mission test sites.</li>
+      <li><strong>Pillar III — Work with trusted partners:</strong> existing UK, Japan, and Korea deals, interoperable tests and components, plus entity-level security review.</li>
+      <li><strong>Execution:</strong> OSTP convenes; lead agencies use existing authorities or seek explicit new authority. Publish a baseline, pilots, results, and corrections.</li>
+    </ol>
+    <p class="source-note">Framing adapts document architecture, not White House text. Proposed steps below require agency, budget, legal, and security review.</p>
+  </section>
+
+  <section class="plan-sheet" aria-labelledby="plan-baseline">
+    <p class="plan-eyebrow">02 / Evidence and blockers</p>
+    <h2 id="plan-baseline">The gap is adoption and repeatability</h2>
+    <div class="plan-grid">
+      <div><h3>Adoption is uneven</h3><p>NSF/Census 2021 business data show autonomous systems and robotics use at 33% among firms with 25,000 or more employees and about 4% among firms with 1–9 employees. This is a broad technology category, not a count of deployed industrial robots. <a href="https://ncses.nsf.gov/pubs/nsf25307/section/21139">Source</a>.</p></div>
+      <div><h3>Industrial installs recovered</h3><p>IFR's preliminary U.S. figure is 38,000 industrial robot installations in 2025, up 11%. It excludes many service and humanoid systems; it does not measure utilization or return on investment. <a href="https://ifr.org/ifr-press-releases/news/us-robot-industry-returns-to-double-digit-growth">Source</a>.</p></div>
+      <div><h3>Integration and safety cost matter</h3><p>OSHA's industrial robotics manual covers collaborative, non-collaborative, and mobile applications and emphasizes site-specific hazard assessment. NIST began a humanoid baseline benchmark in 2026; it is still in development. A recent <a href="https://robocurve.org/roboharm/">300-trial research benchmark</a> probes unsafe-instruction refusal in one setup; it is not a field injury rate. <a href="https://www.osha.gov/otm/section-4-safety-hazards/chapter-4">OSHA</a> · <a href="https://www.nist.gov/el/intelligent-systems-division-73500/humanoid-robot-baseline-performance-benchmark">NIST</a>.</p></div>
+      <div><h3>Data is fragmented</h3><p>Census ASM tracks industrial robot presence, purchases, and capital spending. Open robot-learning sets such as <a href="https://droid-dataset.github.io/">DROID</a>, <a href="https://github.com/google-deepmind/open_x_embodiment">Open X-Embodiment</a>, and <a href="https://huggingface.co/docs/lerobot/main/index">LeRobot</a> show usable formats, but coverage, rights, and transfer across hardware vary.</p></div>
+    </div>
+    <p><strong>Watch items.</strong> Commerce's <a href="https://www.bis.gov/about-bis/bis-leadership-and-offices/SIES/section-232-investigations">robotics and industrial-machinery Section 232 investigation</a> is listed as an investigation; an investigation is not a tariff. The FCC's July 2026 Covered List addition for foreign-produced advanced robotic devices has a <a href="https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf">DoW conditional-approval route</a>. These create sourcing and authorization questions, but their precise effect depends on device and supply chain. The 2025 Census baseline and import classifications need current, product-specific review before estimating market size or tariff exposure.</p>
+  </section>
+
+  <section class="plan-sheet" aria-labelledby="plan-pillar-one">
+    <p class="plan-eyebrow">03 / Pillar I — Accelerate useful deployment</p>
+    <h2 id="plan-pillar-one">Make real-world performance legible</h2>
+    <article class="plan-action"><h3>1. Common field-test evidence</h3><p><span class="plan-owner">Lead option: NIST · partners: OSHA, NSF, employers, unions, insurers, standards bodies</span></p><p>Extend NIST's in-development humanoid work into voluntary, task-level test methods for manipulation, mobile navigation, human proximity, recovery after fault, and maintenance. Publish protocols, failure definitions, and independent results; report task success and incidents separately. OSHA's current hazard-assessment guidance remains the workplace floor. A voluntary test method would not replace legal compliance or certify every worksite. <a href="https://www.nist.gov/el/intelligent-systems-division-73500/humanoid-robot-baseline-performance-benchmark">NIST</a> · <a href="https://www.osha.gov/otm/section-4-safety-hazards/chapter-4">OSHA</a>.</p><p class="plan-small"><strong>Decision gate:</strong> scope to one or two repeatable tasks first; measure inter-lab agreement before wider use.</p></article>
+    <article class="plan-action"><h3>2. Data commons with rights and provenance</h3><p><span class="plan-owner">Lead option: NSF and NIST · partners: universities, labs, nonprofits, vendors, states</span></p><p>Use open calls for diverse, consented robot task data and failure cases, with documented licenses, sensors, embodiment, site conditions, human review, and restrictions. Compare with <a href="https://droid-dataset.github.io/">DROID</a>, <a href="https://github.com/google-deepmind/open_x_embodiment">Open X-Embodiment</a>, <a href="https://huggingface.co/docs/lerobot/main/index">LeRobot</a>, and the recent <a href="https://huggingface.co/datasets/eidon-ai/tracker-pov">Eidon first-person dataset</a>. Release evaluation splits separately from training data. Secure sensitive facilities and worker data; open data is conditional on rights and safety.</p><p class="plan-small"><strong>Decision gate:</strong> publish a data-rights checklist and two independent baseline evaluations before scale-up.</p></article>
+    <article class="plan-action"><h3>3. Adoption evidence for smaller plants</h3><p><span class="plan-owner">Lead option: NIST MEP · partners: states, community colleges, manufacturers, SBA</span></p><p><a href="https://www.nist.gov/mep/robotics-and-manufacturing-automation">MEP centers</a> already advise small manufacturers on automation. <a href="https://www.nist.gov/news-events/news/2026/09/nist-awards-more-30-million-mep-centers-11-states-and-puerto-rico">September 2026 awards</a> provide more than $30 million in first-year support to 12 centers for AI, robotics, automation, and additive manufacturing, with at least 50% nonfederal match. Centers can compare automation opportunities with plant-level integration cost, uptime, worker training, and payback. A common, anonymized evaluation template could reveal where robots are uneconomic as well as successful. Link findings to Census <a href="https://www.census.gov/library/publications/2024/econ/2021-asm-robotic-equipment.html">ASM robot measures</a> and NSF/Census business-use data; publish methods that protect confidential firms. Existing <a href="https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-the-additional-first-year-depreciation-deduction-amended-as-part-of-the-one-big-beautiful-bill">100% bonus depreciation</a> may change equipment economics for eligible taxpayers, but is not a grant.</p></article>
+  </section>
+
+  <section class="plan-sheet" aria-labelledby="plan-pillar-two">
+    <p class="plan-eyebrow">04 / Pillar II — Build American capacity</p>
+    <h2 id="plan-pillar-two">Turn pilots into production capacity</h2>
+    <article class="plan-action"><h3>4. Map bottleneck parts before funding them</h3><p><span class="plan-owner">Lead option: Commerce/NIST · partners: DOE, DoD, OEMs, tier suppliers, state MEP centers</span></p><p>Commission a supplier-level map of precision reducers, bearings, roller screws, frameless motors, power electronics, sensors, and advanced magnets: domestic output, qualifying alternatives, lead times, cost, and single-source risk. The dashboard's <a href="supply-chain.html">supply-chain tab</a> identifies these as hypotheses for verification, not a complete national capacity inventory. Use the map to test whether existing manufacturing, procurement, and R&amp;D channels address demonstrated gaps. Do not infer a product's origin from a supplier headquarters.</p><p class="plan-small"><strong>Decision gate:</strong> publish methodology and aggregate findings; keep firm-sensitive data protected.</p></article>
+    <article class="plan-action"><h3>5. Mission sites for hard tasks</h3><p><span class="plan-owner">Lead options: DOE, USDA, and federal facility owners · partners: labs, states, firms, universities</span></p><p>Run bounded demonstrations where public missions create test value: hazardous inspection, laboratory automation, agricultural handling, and facility logistics. DOE's <a href="https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission-collaboration">Genesis consortium</a> already names robotics and automation as a working-group area; the <a href="https://news.utexas.edu/2026/08/27/ut-to-lead-nsf-center-that-will-study-how-robots-and-people-learn-to-live-and-work-together/">NSF-backed UT Austin center</a> studies human–robot work. Each site would define an operator, safety case, data rights, independent evaluation, and post-pilot purchasing path. A demonstration without a repeat buyer is a learning result, not commercial adoption.</p></article>
+    <article class="plan-action"><h3>6. State finance and worker pathways</h3><p><span class="plan-owner">Lead options: state economic-development agencies · partners: DOL, community colleges, MEP, employers</span></p><p>Use verified existing programs, with eligibility shown at point of use: <a href="https://gov.texas.gov/business/page/texas-enterprise-fund">Texas Enterprise Fund</a> for large competing sites; <a href="https://www.michigan.gov/taxes/business-taxes/rdcredit">Michigan's general R&amp;D credit</a>; <a href="https://esd.ny.gov/excelsior-jobs-program">New York Excelsior</a> with job thresholds; <a href="https://dced.pa.gov/newsroom/shapiro-administration-highlights-2026-27-budget-investments-in-innovation-economy-secured-in-2026-27-budget-during-visit-to-carnegie-foundry-at-cmus-robotics-institute-in-pittsburgh/">Pennsylvania Innovate in PA 2.0</a>; and <a href="https://business.ca.gov/california-competes-tax-credit/">California Competes</a>. A separate training track could measure technician placement, safety skills, wages, and retention rather than “jobs promised.”</p></article>
+  </section>
+
+  <section class="plan-sheet" aria-labelledby="plan-pillar-three">
+    <p class="plan-eyebrow">05 / Pillar III — Trusted international cooperation</p>
+    <h2 id="plan-pillar-three">Use deals already signed</h2>
+    <p>Three 2025 U.S. Technology Prosperity Deals create existing channels. A country-level agreement does not establish that a particular firm, dataset, component, or investor has no China, Russia, or North Korea nexus. Any project requires entity, beneficial-owner, supply-chain, export-control, and data-access review.</p>
+    <table class="plan-table"><thead><tr><th>Partner</th><th>Existing channel</th><th>Physical-AI scope to test</th></tr></thead><tbody>
+      <tr><td><strong>United Kingdom</strong></td><td><a href="https://www.whitehouse.gov/presidential-actions/2025/09/memorandum-of-understanding-between-the-government-of-the-united-states-of-america-and-the-government-of-the-united-kingdom-of-great-britain-and-northern-ireland-regarding-the-technology-prosperity-de/">September 2025 deal</a> names joint AI science, automated labs, standards/metrology, research resources, and workforce.</td><td>Shared benchmark protocols and automated-lab evaluation; no automatic transfer of restricted data.</td></tr>
+      <tr><td><strong>Japan</strong></td><td><a href="https://www.whitehouse.gov/releases/2025/10/the-united-states-signs-technology-prosperity-deals-with-japan-and-korea/">October 2025 deal</a> covers science, standards, and research security; a separate <a href="https://www.whitehouse.gov/briefings-statements/2025/10/united-states-japan-framework-for-securing-the-supply-of-critical-minerals-and-rare-earths-through-mining-and-processing/">critical-minerals framework</a> covers supply resilience.</td><td>Precision-component qualification and interoperable industrial tests with screened suppliers.</td></tr>
+      <tr><td><strong>Republic of Korea</strong></td><td><a href="https://www.whitehouse.gov/releases/2025/10/the-united-states-signs-technology-prosperity-deals-with-japan-and-korea/">October 2025 deal</a> covers emerging technology cooperation and supply chains; U.S.–Korea industrial deals cover manufacturing.</td><td>Advanced manufacturing, batteries, power electronics, and industrial testbeds with screened participants.</td></tr>
+    </tbody></table>
+    <article class="plan-action"><h3>7. Interoperable, secure evaluation</h3><p><span class="plan-owner">Lead option: OSTP/State/Commerce · partners: UK, Japan, Korea agencies and standards bodies</span></p><p>Start with shared vocabulary for task success, failure, safety incident, component provenance, and data rights. Permit reciprocal tests only where export controls, research security, and agency authorities allow. The <a href="https://www.whitehouse.gov/wp-content/uploads/2026/08/NSSTS-082026.pdf">NSSTS</a> calls for deeper work with allies while protecting research; the <a href="https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf">FCC robot Covered List</a> shows why device-specific review matters.</p></article>
+  </section>
+
+  <section class="plan-sheet" aria-labelledby="plan-delivery">
+    <p class="plan-eyebrow">06 / Delivery and accountability</p>
+    <h2 id="plan-delivery">A sequence that can be audited</h2>
+    <table class="plan-table"><thead><tr><th>Period</th><th>Concrete output for decision</th><th>Failure signal</th></tr></thead><tbody>
+      <tr><td>0–90 days</td><td>OSTP inventory of agency authorities, live robotics programs, and overlaps; NIST benchmark scoping; Commerce component-map specification; legal review of data sharing.</td><td>No named owner, no baseline, or a proposed activity outside available authority.</td></tr>
+      <tr><td>3–12 months</td><td>Public test methods for limited tasks; two independent datasets or evaluation splits; MEP adoption templates; first supplier map; small number of mission-site trials.</td><td>Results cannot be reproduced; vendors report only demos, not uptime, incidents, cost, and operator burden.</td></tr>
+      <tr><td>12–24 months</td><td>Independent field evaluation, repeat procurement where earned, workforce outcomes, supplier diversification evidence, and a public update of this plan.</td><td>No repeat buyer; safety or worker outcomes omitted; domestic-content claims lack part-level proof.</td></tr>
+    </tbody></table>
+    <p><strong>Measures.</strong> Report task success by environment; uptime and mean repair time; worker injuries and near misses; total integration and operating cost; technician placements and wages; domestic and trusted-partner parts by bill of materials; repeat purchases. Disaggregate by firm size and application. Publish negative results where lawful.</p>
+    <p><strong>Authority and budget.</strong> Existing NIST, NSF, DOE, Commerce, OSHA, Census, state, and tax programs each have distinct missions. The options above do not presume a new appropriation, mandatory standard, or blanket purchase preference. OSTP and OMB can coordinate a budget proposal under <a href="https://www.whitehouse.gov/wp-content/uploads/2026/07/Science-A-New-Golden-Age.pdf">NSTM-5</a>; Congress and agencies decide authority and funding. Procurement and international work remain subject to their own rules.</p>
+    <p class="source-note">Research inputs: tracker records; current OSTP/agency documents; signed-in PhysicalAI X-list text used only as leads, cross-checked against primary sources. Divyansh Kaushik's essays informed research questions; no posts or quotations are stored here. Date-specific claims are as of 22 September 2026.</p>
+  </section>
+</main>
+<footer class="site-footer">
+    <p>Research draft. Claims link to primary sources where available; see the <a href="policies.html">Policy</a> and <a href="states.html">States</a> tabs for live records.</p>
+    <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
+  </footer>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

@@ -14,7 +14,8 @@ A live-updating dashboard consolidating robotics startups, government policy, in
 docs/                  static site, publish root
   index.html           dashboard
   companies.html       directory + detail panel
-  policies.html        federal bills, agencies, state incentives (collapsible sections)
+  policies.html        federal bills and agencies (collapsible sections)
+  physical-ai-action-plan.html  sourced six-page action-plan draft
   states.html          state-policy overview (key themes + what's on the books)
   themes.html          deep-dives
   news.html            news + research items feed (filter/search)
@@ -25,7 +26,7 @@ docs/                  static site, publish root
     styles.css         design system tokens + components (incl. BLUF callout)
     app.js             shared utilities (fetch, format, theme toggle)
   data/
-    companies.json     ~60 companies, funding rounds, deployments
+    companies.json     81 companies, funding rounds, deployments
     policies.json      federal bills, state incentive programs
     state_policy.json  curated state-policy themes (delivery robots, AV, incentives, clusters, AI preemption)
     news.json          news + research items
