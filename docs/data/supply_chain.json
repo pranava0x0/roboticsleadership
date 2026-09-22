@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-09-22",
     "captured_at": "2026-06-12",
     "method": "Curated from primary sources (press releases, SEC filings, DoD announcements) and trade press (The Robot Report, IEEE Spectrum, TrendForce, Counterpoint, CSIS, Adamas) via seeded web search plus five parallel research sweeps"
   },
@@ -70,7 +70,7 @@
     { "year": "2022", "us_units": 40000, "china_units": 290000, "row_units": 223000, "projected": false, "note": "Industrial robot installations (IFR World Robotics via Our World in Data).", "sources": ["https://ourworldindata.org/grapher/annual-industrial-robots-installed"] },
     { "year": "2023", "us_units": 38000, "china_units": 276000, "row_units": 227000, "projected": false, "note": "Industrial robot installations (IFR World Robotics via Our World in Data).", "sources": ["https://ourworldindata.org/grapher/annual-industrial-robots-installed"] },
     { "year": "2024", "us_units": 34164, "china_units": 295045, "row_units": 212867, "projected": false, "note": "Industrial robot installations, record year (542,076 world total). Humanoids added 16,000 more units globally in 2025 (>80% China) — see the humanoid row in shipments[] above; not folded in here since no country-level historical humanoid series exists.", "sources": ["https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf", "https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years"] },
-    { "year": "2025", "us_units": 34500, "china_units": 324000, "row_units": 216500, "projected": true, "note": "Projected. IFR's stated 2025 world total is 575,000 units. China is estimated by applying IFR's stated 'around +10%' growth guidance to the 2024 actual. The US figure is derived from IFR's North-America-wide guidance ('broadly stable at ~43,500', which includes Canada and Mexico, not just the US) scaled down to the US's ~79% historical share of that regional total (matching the 2024 actual US/North-America ratio) — IFR does not publish an exact per-country 2025 figure.", "sources": ["https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf"] }
+    { "year": "2025", "us_units": 38000, "china_units": 324000, "row_units": 216500, "projected": true, "note": "Mixed basis: 2025 U.S. industrial-robot installations are IFR preliminary actuals (38,000, up 11% year over year). China and rest-of-world figures remain earlier projections, so the total and cross-country comparison are not final.", "sources": ["https://ifr.org/ifr-press-releases/news/us-robot-industry-returns-to-double-digit-growth", "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf"] }
   ],
   "chain_stages": [
     { "id": "materials", "name": "Materials & magnets", "us_position": "weak", "note": "Rare earths, NdFeB magnets, magnesium — China holds ~90% of refining and magnet output; U.S. capacity is being rebuilt with DoD money but operates at a fraction of announced targets.", "sources": ["https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions", "https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/"] },

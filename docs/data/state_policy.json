@@ -3,18 +3,37 @@
     "id": "state-delivery-robots",
     "title": "Sidewalk & delivery robots (PDD laws)",
     "direction": "Accelerating",
-    "summary": "States — not Congress — decide whether autonomous delivery robots can use sidewalks and roads. Over 20 states have passed 'personal delivery device' (PDD) statutes, most granting robots pedestrian-like rights with guardrails. The frontier in 2026 is local pushback: cities weighing surcharges, curfews, and sidewalk-clutter limits.",
+    "summary": "States \u2014 not Congress \u2014 decide whether autonomous delivery robots can use sidewalks and roads. Over 20 states have passed 'personal delivery device' (PDD) statutes, most granting robots pedestrian-like rights with guardrails. The frontier in 2026 is local pushback: cities weighing surcharges, curfews, and sidewalk-clutter limits.",
     "key_points": [
-      "20+ states authorize sidewalk/PDD operation; Pennsylvania (2021) classifies delivery robots as 'pedestrians'.",
+      "More than 20 states authorize sidewalk delivery devices; Pennsylvania\u2019s PDD statute was enacted in 2020 and treats qualifying devices as pedestrians under specified conditions.",
       "Common guardrails: speed caps (often <10 mph), weight limits, yield-to-pedestrian rules, and mandatory liability insurance.",
-      "2026 flashpoint: Philadelphia introduced a $1,000-per-delivery sidewalk surcharge — the leading edge of municipal cost/curfew rules.",
+      "Philadelphia Bill 260526 proposes a $1,000 fee per sidewalk delivery by autonomous units; city records still list it in committee, so it is not an enacted charge.",
       "Liability is unsettled: tort law assumes a human operator, so fault allocation for autonomous devices is being litigated case-by-case."
     ],
-    "example_states": ["PA", "VA", "FL", "TX", "AZ"],
+    "example_states": [
+      "PA",
+      "VA",
+      "FL",
+      "TX",
+      "AZ"
+    ],
     "sources": [
-      { "url": "https://www.supplychaindive.com/news/delivery-robot-bills-laws-proliferate-state-legislatures/648303/", "label": "Supply Chain Dive — delivery-robot bills proliferate" },
-      { "url": "https://www.inquirer.com/politics/philadelphia/uber-delivery-robots-center-city-regulation-20260518.html", "label": "Philadelphia Inquirer — Center City delivery-robot rules (May 2026)" },
-      { "url": "https://www.generalcode.com/blog/autonomous-robot-delivery-legislation/", "label": "General Code — autonomous robot delivery legislation overview" }
+      {
+        "url": "https://phila.legistar.com/LegislationDetail.aspx?From=RSS&FullText=1&GUID=CE66787D-5BD4-467C-8259-4E1CCF17F7C6&ID=8029006",
+        "label": "Philadelphia Bill 260526 status and text"
+      },
+      {
+        "url": "https://www.legis.state.pa.us/WU01/LI/LI/US/HTM/2020/0/0106..HTM",
+        "label": "Pennsylvania Act 106 of 2020"
+      },
+      {
+        "url": "https://www.supplychaindive.com/news/delivery-robot-bills-laws-proliferate-state-legislatures/648303/",
+        "label": "Supply Chain Dive \u2014 delivery-robot bills proliferate"
+      },
+      {
+        "url": "https://www.generalcode.com/blog/autonomous-robot-delivery-legislation/",
+        "label": "General Code \u2014 autonomous robot delivery legislation overview"
+      }
     ]
   },
   {
@@ -26,63 +45,118 @@
       "Most states have enacted AV legislation or executive orders; a smaller set permit fully driverless commercial deployment.",
       "Robotaxi expansion (Waymo and peers) is governed state-by-state and, in California, by both the DMV and the CPUC.",
       "Key fault lines: state vs. local control, data-sharing/crash-reporting mandates, and insurance minimums.",
-      "Sensor and perception suppliers (e.g. 4D imaging radar) ride this demand curve — see the Companies tab."
+      "Sensor and perception suppliers (e.g. 4D imaging radar) ride this demand curve \u2014 see the Companies tab."
     ],
-    "example_states": ["CA", "AZ", "TX", "NV", "FL"],
+    "example_states": [
+      "CA",
+      "AZ",
+      "TX",
+      "NV",
+      "FL"
+    ],
     "sources": [
-      { "url": "https://www.ncsl.org/transportation/autonomous-vehicles", "label": "NCSL — autonomous vehicles state bill tracker" },
-      { "url": "https://www.therobotreport.com/", "label": "The Robot Report — autonomy coverage" }
+      {
+        "url": "https://www.ncsl.org/transportation/autonomous-vehicles",
+        "label": "NCSL \u2014 autonomous vehicles state bill tracker"
+      },
+      {
+        "url": "https://www.therobotreport.com/",
+        "label": "The Robot Report \u2014 autonomy coverage"
+      }
     ]
   },
   {
     "id": "state-incentives-tax-credits",
     "title": "Incentives, R&D credits & site selection",
     "direction": "Accelerating",
-    "summary": "States compete hard for robotics manufacturing and jobs using tax credits, R&D incentives, and job-development grants. This is where most of the robotics money the tracker already follows at the state level actually sits — and it is the most actionable lever for founders choosing where to build.",
+    "summary": "States use broad jobs, investment, and research incentives that robotics firms may qualify for. Program thresholds matter: a large Texas facility and a small Michigan research shop face different eligibility tests.",
     "key_points": [
-      "Texas, Michigan, New York, North Carolina and Pennsylvania all run robotics/automation-relevant incentive programs.",
-      "Mechanisms vary: refundable R&D credits, capital-investment credits, mobility/automation grants, and workforce subsidies.",
-      "Startup eligibility differs widely — some programs require minimum headcount or capex thresholds that exclude early-stage firms.",
-      "These programs are tracked individually on the Policy tab (filter Level = State)."
+      "Texas Enterprise Fund is a performance-based cash grant, not a robotics tax credit; it requires a competing out-of-state site and significant jobs and investment.",
+      "Michigan\u2019s general refundable R&D credit began with 2025 tax years; New York\u2019s Excelsior program lists manufacturing, R&D, and software eligibility with job thresholds.",
+      "Pennsylvania\u2019s signed FY2026\u201327 budget created $125 million Innovate in PA 2.0; California Competes lists three FY2026\u201327 application windows.",
+      "State records and source links appear below on this States page; confirm current application and tax rules with the administering agency."
     ],
-    "example_states": ["TX", "MI", "NY", "NC", "PA"],
+    "example_states": [
+      "TX",
+      "MI",
+      "NY",
+      "NC",
+      "PA"
+    ],
     "sources": [
-      { "url": "policies.html?level=State", "label": "This tracker — state incentive programs (Policy tab)" },
-      { "url": "https://www.ncsl.org/", "label": "NCSL — state economic-development & incentive policy" }
+      {
+        "url": "https://gov.texas.gov/business/page/texas-enterprise-fund",
+        "label": "Texas Enterprise Fund eligibility"
+      },
+      {
+        "url": "https://www.michigan.gov/taxes/business-taxes/rdcredit",
+        "label": "Michigan R&D tax credit"
+      },
+      {
+        "url": "https://esd.ny.gov/excelsior-jobs-program",
+        "label": "New York Excelsior"
+      },
+      {
+        "url": "https://dced.pa.gov/newsroom/shapiro-administration-highlights-2026-27-budget-investments-in-innovation-economy-secured-in-2026-27-budget-during-visit-to-carnegie-foundry-at-cmus-robotics-institute-in-pittsburgh/",
+        "label": "Pennsylvania Innovate in PA 2.0"
+      }
     ]
   },
   {
     "id": "state-robotics-clusters",
     "title": "Robotics clusters & workforce pipelines",
     "direction": "Stable",
-    "summary": "Several states have built durable robotics ecosystems around anchor universities and non-profit hubs. These clusters shape talent flow, spinouts, and where deployment pilots land first — a structural advantage that incentives alone can't buy.",
+    "summary": "Several states have built durable robotics ecosystems around anchor universities and non-profit hubs. These clusters shape talent flow, spinouts, and where deployment pilots land first \u2014 a structural advantage that incentives alone can't buy.",
     "key_points": [
       "Pittsburgh (Carnegie Mellon + Pittsburgh Robotics Network) and Massachusetts (MIT/Harvard + MassRobotics) are the two deepest hubs.",
       "Texas, Michigan (mobility/auto), and California (Bay Area) round out the top tier.",
-      "Workforce policy — community-college automation programs, apprenticeships, reskilling grants — is increasingly bundled with incentives.",
-      "Cluster strength correlates with spinout density (e.g. CMU → Skild AI; see Companies)."
+      "Workforce policy \u2014 community-college automation programs, apprenticeships, reskilling grants \u2014 is increasingly bundled with incentives.",
+      "Cluster strength correlates with spinout density (e.g. CMU \u2192 Skild AI; see Companies)."
     ],
-    "example_states": ["PA", "MA", "TX", "MI", "CA"],
+    "example_states": [
+      "PA",
+      "MA",
+      "TX",
+      "MI",
+      "CA"
+    ],
     "sources": [
-      { "url": "https://www.pghrobotics.org/", "label": "Pittsburgh Robotics Network" },
-      { "url": "https://www.massrobotics.org/", "label": "MassRobotics" }
+      {
+        "url": "https://www.pghrobotics.org/",
+        "label": "Pittsburgh Robotics Network"
+      },
+      {
+        "url": "https://www.massrobotics.org/",
+        "label": "MassRobotics"
+      }
     ]
   },
   {
     "id": "state-ai-laws-preemption",
-    "title": "State AI laws × autonomous systems & federal preemption",
+    "title": "State AI laws \u00d7 autonomous systems & federal preemption",
     "direction": "Accelerating",
-    "summary": "State AI statutes (California, Colorado and others) increasingly reach automated decision-making and autonomous physical systems. The open question for 2026 is preemption: the March 2026 federal AI policy framework recommends limiting state authority, setting up a state-vs-federal collision that directly affects robotics deployers.",
+    "summary": "State automated-decision laws can affect some AI uses, but ordinary robot operation is not automatically covered. Colorado changed its law in 2026; its new ADMT Act applies to consequential decisions starting January 1, 2027. The White House March 2026 framework proposes federal preemption in some areas, but Congress has not enacted that proposal.",
     "key_points": [
-      "Colorado's AI Act and California's AI statutes are the templates other states are copying.",
-      "Coverage is creeping from software-only systems toward autonomous physical systems and robotics.",
-      "The federal preemption debate (post-March 2026 framework) could override state robotics/AI rules — or not.",
-      "Compliance teams must now track both layers; a federal-vs-state matrix is on the backlog."
+      "Colorado SB 26-189 governs automated technology that materially influences covered consequential decisions; its effective date is January 1, 2027.",
+      "The Colorado Attorney General filed draft implementing rules in August 2026; comments and final text remain open.",
+      "The March 2026 White House AI framework is legislative advice to Congress, not itself a change in state authority.",
+      "For any robot use case, check whether its AI makes a covered decision, then check applicable state and local law."
     ],
-    "example_states": ["CA", "CO", "CT", "TX"],
+    "example_states": [
+      "CA",
+      "CO",
+      "CT",
+      "TX"
+    ],
     "sources": [
-      { "url": "https://www.ncsl.org/technology-and-communication/artificial-intelligence", "label": "NCSL — artificial intelligence legislation tracker" },
-      { "url": "policies.html?focus=americas-ai-action-plan", "label": "This tracker — America's AI Action Plan" }
+      {
+        "url": "https://coag.gov/ai/",
+        "label": "Colorado Attorney General \u2014 ADMT Act and rulemaking"
+      },
+      {
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
+        "label": "White House \u2014 March 2026 legislative framework"
+      }
     ]
   }
 ]
