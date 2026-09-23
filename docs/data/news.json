@@ -1,5 +1,513 @@
 [
   {
+    "id": "hn-49802789",
+    "title": "Show HN: InstinctFlash – High-Performance Serving Runtime for Robotics Models",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/General-Instinct/InstinctFlash",
+    "summary": "Hey HN, Guanming here, cofounder of General Instinct. We just released InstinctFlash, a high-performance serving framework for robotics models. It’s licensed under AGPL-3.0.On Jetson Thor, we see spee",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49802984",
+    "title": "Graphlin – Jev-Enabled Live Architecture Visualizer",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robotpaper.ai/graphlin-jev-enabled-live-architecture-visualizer/",
+    "summary": "Graphlin – Jev-Enabled Live Architecture Visualizer",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49803034",
+    "title": "What to build when robotics enters the smooth exponential",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.giete.ma/blog/robotics-smooth-exponential",
+    "summary": "What to build when robotics enters the smooth exponential",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49807281",
+    "title": "Are Meta's smart glasses training AI for robots?",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://proton.me/blog/meta-smart-glasses-ai-robots",
+    "summary": "Are Meta's smart glasses training AI for robots?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-isaac-ros-5-0-brings-ai-agents-990",
+    "title": "Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA",
+    "date": "2026-09-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/",
+    "summary": "The release brings new agentic workflows and platform support to NVIDIA Isaac ROS to help developers deploy robotics applications faster. \nThe post Isaac ROS 5.0 brings AI agents to robotics developme...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-why-outdoor-robots-fail-and-ho-234",
+    "title": "Why outdoor robots fail (and how to build systems that survive)",
+    "date": "2026-09-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/why-outdoor-robots-fail-how-to-build-systems-that-survive/",
+    "summary": "Learn practical strategies for building reliable outdoor robots from WiBotic, Burro, and Nextpower at RoboBusiness in Silicon Valley.\nThe post Why outdoor robots fail (and how to build systems that su...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-intel-to-discuss-the-infrastru-141",
+    "title": "Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness",
+    "date": "2026-09-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/",
+    "summary": "Intel's Nagesh Puppala will discuss why the next phase of robotics innovation depends on more than bigger models or better simulations.\nThe post Intel to discuss the infrastructure needed to scale phy...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "hn-49765295",
+    "title": "Goosebumps: A Paradigm Shift Is Occurring in Robotics",
+    "date": "2026-09-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/ken_goldberg/status/2100986412762087909",
+    "summary": "Goosebumps: A Paradigm Shift Is Occurring in Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49769153",
+    "title": "Your robotic vacuum is a witness: evidence, privacy and the law",
+    "date": "2026-09-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://theconversation.com/your-robotic-vacuum-is-a-witness-what-home-robots-mean-for-evidence-privacy-and-the-law-291849",
+    "summary": "Your robotic vacuum is a witness: evidence, privacy and the law",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49769818",
+    "title": "What we are seeing with GPT Astra in Robotics",
+    "date": "2026-09-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/GeorgiaChal/status/2101335513558929868",
+    "summary": "What we are seeing with GPT Astra in Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49771092",
+    "title": "Copper-Rs: Live Telemetry Deterministic Twins for Robots",
+    "date": "2026-09-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.copper-robotics.com/whats-new/copper-12-live-telemetry-and-replayable-logs-over-a-lossy-one-way-connection-with-twinning",
+    "summary": "Copper-Rs: Live Telemetry Deterministic Twins for Robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49776827",
+    "title": "Show HN: Real Jev decisions on a simulated robot fleet – $24.57 per million",
+    "date": "2026-09-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/robokrunch/jev-physical-ai",
+    "summary": "Show HN: Real Jev decisions on a simulated robot fleet – $24.57 per million",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49778064",
+    "title": "Real-Time Robot Tracking, Re-Architected in Rust",
+    "date": "2026-09-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://intellycode.dev/case-studies/robot-tracking-rust",
+    "summary": "Real-Time Robot Tracking, Re-Architected in Rust",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49787898",
+    "title": "Robotics Is Harder",
+    "date": "2026-09-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://whattotelltherobot.com/p/robotics-really-is-harder",
+    "summary": "Robotics Is Harder",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49791442",
+    "title": "Robot Relations Departments: The New Corporate Reality",
+    "date": "2026-09-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.techbuzz.ai/articles/robot-relations-departments-the-new-corporate-reality",
+    "summary": "Robot Relations Departments: The New Corporate Reality",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49791720",
+    "title": "Roboharm: Do frontier robot policies refuse unsafe instructions?",
+    "date": "2026-09-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robocurve.org/roboharm/",
+    "summary": "Roboharm: Do frontier robot policies refuse unsafe instructions?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49794824",
+    "title": "Motor Characterization for Small Running Robots (2016)",
+    "date": "2026-09-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robot-daycare.com/posts/2016-01-06-motor-characterization-for-small-running-robots/",
+    "summary": "Motor Characterization for Small Running Robots (2016)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49797969",
+    "title": "Robot bunnies deployed in Florida to fight invasive pythons",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.popsci.com/environment/robot-bunnies-florida-invasive-pythons/",
+    "summary": "Robot bunnies deployed in Florida to fight invasive pythons",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49800447",
+    "title": "Google's Intrinsic open-sources its infrastructure for intelligent robots",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://siliconangle.com/2026/09/22/googles-robotics-unit-intrinsic-open-sources-its-foundational-infrastructure-for-intelligent-robots/",
+    "summary": "Google's Intrinsic open-sources its infrastructure for intelligent robots",
+    "category": "Competitive",
+    "companies": [
+      "intrinsic"
+    ],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49800991",
+    "title": "Nvidia Isaac ROS 5.0: agentic, open-source robotics development",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+    "summary": "Nvidia Isaac ROS 5.0: agentic, open-source robotics development",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49801925",
+    "title": "Show HN: DrivingBench – Frontier LLMs Driving a Real Toyota Corolla",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://drivingbench.com/",
+    "summary": "Hi all, wanted to share a cool project me and two buddies have been working on. Essentially we took a Toyota Corolla, installed a Comma 4, hooked it up to GPT-6 Astra/Claude Fable/Grok 4.6&#",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-hirebotics-adds-line-tracking-455",
+    "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
+    "date": "2026-09-19",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
+    "summary": "Hirebotics said these new capabilities extend the working range of the cobots, giving manufacturers greater flexibility.\nThe post Hirebotics adds line tracking and linear rail capabilities to its cobo...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-what-do-you-do-with-a-humanoid-867",
+    "title": "What do you do with a humanoid robot when it breaks down?",
+    "date": "2026-09-20",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
+    "summary": "Decommissioning a humanoid robot is not a matter of traditional scrapping. It's a highly technical, high-stakes surgical endeavor.\nThe post What do you do with a humanoid robot when it breaks down? ap...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-iac-completes-autonomous-racin-445",
+    "title": "IAC completes autonomous racing event at Laguna Seca",
+    "date": "2026-09-21",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/",
+    "summary": "At Laguna Seca, Unimore Racing won the Indy Autonomous Challenge, marking the IAC's first autonomous car overtakes on a road course.\nThe post IAC completes autonomous racing event at Laguna Seca appea...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-intrinsic-open-sources-key-par-577",
+    "title": "Intrinsic open sources key parts of its platform for easier development",
+    "date": "2026-09-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/",
+    "summary": "With Intrinsic Core, the company is making key parts of its manipulation platform available to robotics developers. \nThe post Intrinsic open sources key parts of its platform for easier development ap...",
+    "category": "Competitive",
+    "companies": [
+      "intrinsic"
+    ],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-techcrunch-disrupt-2026-aaron-81",
+    "title": "TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage",
+    "date": "2026-09-22",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
+    "summary": "Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a se...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-barbara-mazzolai-wants-to-buil-800",
+    "title": "Barbara Mazzolai Wants to Build a New Field of Robotics",
+    "date": "2026-09-22",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai",
+    "summary": "Throughout her career, roboticist Barbara Mazzolai has turned to nature for inspiration. Now she wants to ensure the technology she builds gives back to the environment, too.After starting her career ...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "hn-49715541",
     "title": "A labor forecasting approach built to keep pace with AI and robotics",
     "date": "2026-09-15",
