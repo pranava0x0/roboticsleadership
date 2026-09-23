@@ -1,92 +1,12 @@
 [
   {
-    "id": "hn-49770696",
-    "title": "Humanism Without (All) Humans",
-    "date": "2026-09-19",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://contraptions.venkateshrao.com/p/humanism-without-all-humans",
-    "summary": "Humanism Without (All) Humans",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49790064",
-    "title": "What would happen if the Yellowstone supervolcano erupted now",
-    "date": "2026-09-21",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://theconversation.com/end-of-humanity-blow-by-blow-account-of-what-would-happen-if-the-yellowstone-supervolcano-erupted-now-288649",
-    "summary": "What would happen if the Yellowstone supervolcano erupted now",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49790322",
-    "title": "Big AI to humanity: drop dead",
-    "date": "2026-09-21",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://matthewbutterick.com/chron/drop-dead.html",
-    "summary": "Big AI to humanity: drop dead",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49791825",
-    "title": "We Are Simulating Humanity",
-    "date": "2026-09-21",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://www.null0.ai",
-    "summary": "We Are Simulating Humanity",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49795990",
-    "title": "Something bugs me about AGI AI LLM, what if we back paddled 1000 year",
+    "id": "hn-49802789",
+    "title": "Show HN: InstinctFlash – High-Performance Serving Runtime for Robotics Models",
     "date": "2026-09-22",
     "source": "Hacker News",
     "source_type": "Community",
-    "source_url": "https://shatteringtheabyss.substack.com/p/llm-agi-god-congratulations-humanity",
-    "summary": "Something bugs me about AGI AI LLM, what if we back paddled 1000 year",
+    "source_url": "https://github.com/General-Instinct/InstinctFlash",
+    "summary": "Hey HN, Guanming here, cofounder of General Instinct. We just released InstinctFlash, a high-performance serving framework for robotics models. It’s licensed under AGPL-3.0.On Jetson Thor, we see spee",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -96,8 +16,118 @@
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
+    ]
+  },
+  {
+    "id": "hn-49802984",
+    "title": "Graphlin – Jev-Enabled Live Architecture Visualizer",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robotpaper.ai/graphlin-jev-enabled-live-architecture-visualizer/",
+    "summary": "Graphlin – Jev-Enabled Live Architecture Visualizer",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49803034",
+    "title": "What to build when robotics enters the smooth exponential",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.giete.ma/blog/robotics-smooth-exponential",
+    "summary": "What to build when robotics enters the smooth exponential",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49807281",
+    "title": "Are Meta's smart glasses training AI for robots?",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://proton.me/blog/meta-smart-glasses-ai-robots",
+    "summary": "Are Meta's smart glasses training AI for robots?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-isaac-ros-5-0-brings-ai-agents-990",
+    "title": "Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA",
+    "date": "2026-09-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/",
+    "summary": "The release brings new agentic workflows and platform support to NVIDIA Isaac ROS to help developers deploy robotics applications faster. \nThe post Isaac ROS 5.0 brings AI agents to robotics developme...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-why-outdoor-robots-fail-and-ho-234",
+    "title": "Why outdoor robots fail (and how to build systems that survive)",
+    "date": "2026-09-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/why-outdoor-robots-fail-how-to-build-systems-that-survive/",
+    "summary": "Learn practical strategies for building reliable outdoor robots from WiBotic, Burro, and Nextpower at RoboBusiness in Silicon Valley.\nThe post Why outdoor robots fail (and how to build systems that su...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-intel-to-discuss-the-infrastru-141",
+    "title": "Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness",
+    "date": "2026-09-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/",
+    "summary": "Intel's Nagesh Puppala will discuss why the next phase of robotics innovation depends on more than bigger models or better simulations.\nThe post Intel to discuss the infrastructure needed to scale phy...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
   },
   {
     "id": "hn-49765295",
@@ -116,8 +146,7 @@
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49769153",
@@ -136,28 +165,7 @@
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49769163",
-    "title": "Show HN: The meal planner that gets all your dishes ready at once",
-    "date": "2026-09-19",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://robotrecipes.co/mise/",
-    "summary": "One thing that frustrates me about cooking is trying to get everything ready at the right time. Doing it with one dish is hard enough, but for meals with multiple dishes feels impossible.This meal pla",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49769818",
@@ -176,28 +184,7 @@
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49770603",
-    "title": "Show HN: Set, offline Markdown note-taking app with device-to-device sync",
-    "date": "2026-09-19",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://app.writewithset.com",
-    "summary": "Hi HN. I am an avid user of Notion (https://notion.so) and really like the ergonomics of its block-based editor, but with how the product is evolving I felt I was missing a simple \"sing",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49771092",
@@ -216,8 +203,7 @@
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49776827",
@@ -236,8 +222,7 @@
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49778064",
@@ -256,28 +241,7 @@
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49784897",
-    "title": "TPM-Attest: Hardware-Rooted Anti-Cheat Alternative for Linux",
-    "date": "2026-09-21",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://arxiv.org/abs/2609.20909",
-    "summary": "TPM-Attest: Hardware-Rooted Anti-Cheat Alternative for Linux",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49787898",
@@ -296,48 +260,7 @@
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49788287",
-    "title": "Show HN: Mathy – Build Math Automaticity",
-    "date": "2026-09-21",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://mathy.game/",
-    "summary": "Mathy is a free tool I made to build math automaticity.If you think of something like Anki for drilling problems/formulas, it's like that but built for math and more convenient: no creating ",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49791398",
-    "title": "Show HN: VisionOS 27, iOS 27 object tracking demo – placing objects eyes closed",
-    "date": "2026-09-21",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://github.com/robomex/visionOS-27-iOS-27-Object-Tracking-Demo",
-    "summary": "I was very excited when visionOS 2 added object tracking two years ago, but there was significant lag that made it unsuitable for real-time placement of objects to match targets.With this year's ",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49791442",
@@ -356,8 +279,7 @@
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49791720",
@@ -376,28 +298,7 @@
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49792742",
-    "title": "Show HN: Blackgit – use Git to only download those cared files",
-    "date": "2026-09-21",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://github.com/zhuzhonghua/blackgit",
-    "summary": "Git is supposed to be bad at handling mono repos especially where there are many binary files like game projects repo, and also there are no permisson settings, but are important in game development. ",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49794824",
@@ -416,8 +317,7 @@
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49797969",
@@ -436,28 +336,7 @@
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49800114",
-    "title": "Bwbach, My Guardian Goblin",
-    "date": "2026-09-22",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://robertmay.photography/journal/bwbach-my-guardian-goblin",
-    "summary": "Bwbach, My Guardian Goblin",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49800447",
@@ -468,7 +347,9 @@
     "source_url": "https://siliconangle.com/2026/09/22/googles-robotics-unit-intrinsic-open-sources-its-foundational-infrastructure-for-intelligent-robots/",
     "summary": "Google's Intrinsic open-sources its infrastructure for intelligent robots",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "intrinsic"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -476,8 +357,7 @@
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49800991",
@@ -496,28 +376,7 @@
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49801329",
-    "title": "Show HN: Drop – a rootless Linux sandbox with gVisor support",
-    "date": "2026-09-22",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://droprun.sh/",
-    "summary": "I created Drop because I always felt uneasy installing and running third-party programs using my main user account. A single compromised dependency means a full compromise of the system. What is even ",
-    "category": "Deployment",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49801925",
@@ -536,48 +395,7 @@
     "tags": [
       "hacker-news",
       "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49802186",
-    "title": "Running Tailwind's engine against a shadow root, without a build step",
-    "date": "2026-09-22",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://blog.crossui.com/2026/09/shadcn-says-the-code-is-yours-so-why-cant-anything-edit-it",
-    "summary": "Running Tailwind's engine against a shadow root, without a build step",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "hn-49802630",
-    "title": "Show HN: SwarmSay – a public message board and post office for AI agents",
-    "date": "2026-09-22",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://swarmsay.com",
-    "summary": "All Agents are Welcome!Hi, I'm Oliver, and I built SwarmSay.Inspired by OpenAI's Hugging Face incident I saw an opportunity to provide a messageboard for agents that want to communicate. Thi",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Low",
-    "tags": [
-      "hacker-news",
-      "community"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "rss-hirebotics-adds-line-tracking-455",
@@ -595,8 +413,7 @@
     "confidence": "Medium",
     "tags": [
       "rss-import"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "rss-what-do-you-do-with-a-humanoid-867",
@@ -614,8 +431,7 @@
     "confidence": "Medium",
     "tags": [
       "rss-import"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "rss-iac-completes-autonomous-racin-445",
@@ -633,8 +449,7 @@
     "confidence": "Medium",
     "tags": [
       "rss-import"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "rss-intrinsic-open-sources-key-par-577",
@@ -645,91 +460,16 @@
     "source_url": "https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/",
     "summary": "With Intrinsic Core, the company is making key parts of its manipulation platform available to robotics developers. \nThe post Intrinsic open sources key parts of its platform for easier development ap...",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "intrinsic"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
       "rss-import"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "rss-prices-go-up-in-7-days-get-you-155",
-    "title": "Prices go up in 7 days — get your Disrupt ticket now",
-    "date": "2026-09-19",
-    "source": "TechCrunch",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now/",
-    "summary": "Current ticket pricing ends September 25 at 11:59 p.m. PT. Join 10,000+ founders, investors, and tech leaders at Disrupt and save up to $200 on your ticket.",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "rss-6-days-left-to-save-up-to-200-485",
-    "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
-    "date": "2026-09-20",
-    "source": "TechCrunch",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
-    "summary": "Current ticket pricing ends in 6 days on September 25 at 11:59 p.m. PT. Join 10,000+ founders, investors, and tech leaders at Disrupt and save up to $200 on your ticket.",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "rss-4-days-to-save-up-to-200-reaso-368",
-    "title": "4 days to save up to $200: Reason 2 of 5 to be at TechCrunch Disrupt 2026",
-    "date": "2026-09-22",
-    "source": "TechCrunch",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/",
-    "summary": "Save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second pass before prices increase on September 25 at 11:59 p.m. PT. Register today.",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "rss-exhibit-tables-added-one-last-543",
-    "title": "Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026",
-    "date": "2026-09-22",
-    "source": "TechCrunch",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/",
-    "summary": "We have reopened our exhibitor program for 1 more week. Book your exhibit table by September 30 at 11:59 p.m. PT and showcase your startup in front of 10,000+ founders, investors, and tech leaders at ...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "rss-techcrunch-disrupt-2026-aaron-81",
@@ -747,27 +487,7 @@
     "confidence": "Medium",
     "tags": [
       "rss-import"
-    ],
-    "_requires_curator_review": true
-  },
-  {
-    "id": "rss-five-ai-safety-sessions-every-271",
-    "title": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
-    "date": "2026-09-22",
-    "source": "TechCrunch",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
-    "summary": "At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, NVIDIA, AWS, Waabi, and more. Register now to save up to $200 b...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "rss-barbara-mazzolai-wants-to-buil-800",
@@ -785,8 +505,7 @@
     "confidence": "Medium",
     "tags": [
       "rss-import"
-    ],
-    "_requires_curator_review": true
+    ]
   },
   {
     "id": "hn-49715541",

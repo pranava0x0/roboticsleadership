@@ -4,6 +4,15 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 ## Open
 
+### 2026-09-23 — scraper-news.js — `reddit-robotics` source has been silently failing since 2026-06-23
+
+- **Area:** `scripts/scraper-news.js` `handleReddit()` / `docs/data/sources.json`'s `reddit-robotics` entry. Found during a routine 3-day data refresh: the source is `enabled: true` but its `last_run` was still `2026-06-23` — three months stale — while every other news source's `last_run` had been advancing normally.
+- **Symptom:** every scrape attempt against `https://www.reddit.com/r/robotics/.json` returns `HTTP 403`. Confirmed live with a direct `curl` (also 403) from this environment, so it isn't a one-run fluke.
+- **Root cause:** not yet diagnosed in depth, but consistent with Reddit blocking the environment's outbound IP/proxy range rather than anything wrong with the request — the scraper sends a descriptive `User-Agent` per CLAUDE.md's network-ethics rules and still gets 403 on a bare unauthenticated GET.
+- **Why it went unnoticed for 3 months:** `handleReddit()` throws on a non-OK response, and the per-source loop in `scraper-news.js` catches and logs (`Failed to process reddit-robotics: HTTP 403 from reddit-robotics`) rather than crashing — correct per CLAUDE.md's "never crash on one source" rule, but nothing surfaced the failure anywhere a human would see it (no issues.md entry, no PR-body warning), so it just silently zeroed out r/robotics coverage indefinitely.
+- **Status:** Open — not fixed this session. Reddit's public JSON endpoint needs either OAuth (`reddit.com/dev/api`) or a non-datacenter egress path to work reliably from cloud CI/agent environments; neither is in scope for a routine data refresh.
+- **Suggested fix:** (a) switch to Reddit's OAuth API (`oauth.reddit.com`, free tier) instead of the unauthenticated JSON endpoint, which is more reliably allowed for registered apps; and (b) have the scrape workflow surface a warning in the auto-scrape PR body when any configured source failed, so a 403 doesn't have to be rediscovered by accident again.
+
 ### 2026-09-07 — scheduled pipeline — 29 automated scrape PRs accumulated unmerged for 3+ weeks  ✅ FIXED 2026-09-21 (data caught up 2026-09-07; process gap closed 2026-09-21)
 
 - **Area:** `.github/workflows/scrape-news.yml` (daily) / `scrape-policy.yml` (weekly). Found while starting a routine manual data-refresh request.
