@@ -1,5 +1,557 @@
 [
   {
+    "id": "hn-49790064",
+    "title": "What would happen if the Yellowstone supervolcano erupted now",
+    "date": "2026-09-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://theconversation.com/end-of-humanity-blow-by-blow-account-of-what-would-happen-if-the-yellowstone-supervolcano-erupted-now-288649",
+    "summary": "What would happen if the Yellowstone supervolcano erupted now",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49790322",
+    "title": "Big AI to humanity: drop dead",
+    "date": "2026-09-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://matthewbutterick.com/chron/drop-dead.html",
+    "summary": "Big AI to humanity: drop dead",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49791825",
+    "title": "We Are Simulating Humanity",
+    "date": "2026-09-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.null0.ai",
+    "summary": "We Are Simulating Humanity",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49795990",
+    "title": "Something bugs me about AGI AI LLM, what if we back paddled 1000 year",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://shatteringtheabyss.substack.com/p/llm-agi-god-congratulations-humanity",
+    "summary": "Something bugs me about AGI AI LLM, what if we back paddled 1000 year",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49800566",
+    "title": "Show HN: Training a model to identify AI web content from structure alone",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2609.15369",
+    "summary": "Hey HN! We’re Vincent and Jochen from Sitefire (https://sitefire.ai). We have been working together for years, with backgrounds in RL/optimization at Stanford and software engineering f",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49802832",
+    "title": "Beyond the BBB: humanised mice, the missing link in glioblastoma research",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.nature.com/articles/s41388-026-03989-1",
+    "summary": "Beyond the BBB: humanised mice, the missing link in glioblastoma research",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49784897",
+    "title": "TPM-Attest: Hardware-Rooted Anti-Cheat Alternative for Linux",
+    "date": "2026-09-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2609.20909",
+    "summary": "TPM-Attest: Hardware-Rooted Anti-Cheat Alternative for Linux",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49788287",
+    "title": "Show HN: Mathy – Build Math Automaticity",
+    "date": "2026-09-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://mathy.game/",
+    "summary": "Mathy is a free tool I made to build math automaticity.If you think of something like Anki for drilling problems/formulas, it's like that but built for math and more convenient: no creating ",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49791398",
+    "title": "Show HN: VisionOS 27, iOS 27 object tracking demo – placing objects eyes closed",
+    "date": "2026-09-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/robomex/visionOS-27-iOS-27-Object-Tracking-Demo",
+    "summary": "I was very excited when visionOS 2 added object tracking two years ago, but there was significant lag that made it unsuitable for real-time placement of objects to match targets.With this year's ",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49792742",
+    "title": "Show HN: Blackgit – use Git to only download those cared files",
+    "date": "2026-09-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/zhuzhonghua/blackgit",
+    "summary": "Git is supposed to be bad at handling mono repos especially where there are many binary files like game projects repo, and also there are no permisson settings, but are important in game development. ",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49800114",
+    "title": "Bwbach, My Guardian Goblin",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robertmay.photography/journal/bwbach-my-guardian-goblin",
+    "summary": "Bwbach, My Guardian Goblin",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49801329",
+    "title": "Show HN: Drop – A rootless Linux sandbox with gVisor support",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://droprun.sh/",
+    "summary": "I created Drop because I always felt uneasy installing and running third-party programs using my main user account. A single compromised dependency means a full compromise of the system. What is even ",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49802186",
+    "title": "Running Tailwind's engine against a shadow root, without a build step",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://blog.crossui.com/2026/09/shadcn-says-the-code-is-yours-so-why-cant-anything-edit-it",
+    "summary": "Running Tailwind's engine against a shadow root, without a build step",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49802630",
+    "title": "Show HN: SwarmSay – a public message board and post office for AI agents",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://swarmsay.com",
+    "summary": "All Agents are Welcome!Hi, I'm Oliver, and I built SwarmSay.Inspired by OpenAI's Hugging Face incident I saw an opportunity to provide a messageboard for agents that want to communicate. Thi",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49803059",
+    "title": "Show HN: Kado – Search to Allow Personal Agents to Find Agent Apps",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://kado.so",
+    "summary": "Hey folks!My cofounder and I have built Kado - Search for Personal Agents to find Agent Apps[1].We think the future of agents that individuals will use few personal agents (think, personal computers) ",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49806180",
+    "title": "Goose Robot",
+    "date": "2026-09-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/RobotWorksGoose/status/2102463074452275423",
+    "summary": "Goose Robot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49811408",
+    "title": "A Machine Beat Me at Chess. I'm Still Rooting for AI",
+    "date": "2026-09-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.thenextmove.org/p/a-machine-beat-me-at-chess-im-still",
+    "summary": "A Machine Beat Me at Chess. I'm Still Rooting for AI",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49814643",
+    "title": "GPT-6 Astra is the best vision model",
+    "date": "2026-09-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://blog.roboflow.com/gpt-6-astra-vision/",
+    "summary": "GPT-6 Astra is the best vision model",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49814729",
+    "title": "Show HN: BuildABrowser (Java) – Passes Acid2, Has CSS Grid and an Android port",
+    "date": "2026-09-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://buildabrowser.net/",
+    "summary": "BuildABrowser Browser is an open-source browser and its rendering engine.It runs on Linux, Windows, and (experimental) Android Desktop.The rendering engine is written in Java, and features parsers and",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49815004",
+    "title": "Toyota orders workers to train humanoid robots but says humans won't be replaced",
+    "date": "2026-09-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/",
+    "summary": "Toyota orders workers to train humanoid robots but says humans won't be replaced",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-qualcomm-to-acquire-picknik-ro-509",
+    "title": "Qualcomm to acquire PickNik Robotics and keep MoveIt open-source",
+    "date": "2026-09-23",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/",
+    "summary": "Qualcomm plans to integrate the Dragonwing and Arduino platforms with the MoveIt open-source manipulation framework.\nThe post Qualcomm to acquire PickNik Robotics and keep MoveIt open-source appeared ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-state-of-humanoids-keynote-bri-651",
+    "title": "State of Humanoids keynote brings industry leaders to RoboBusiness",
+    "date": "2026-09-23",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/",
+    "summary": "At RoboBusiness, industry leaders will discuss the state of humanoids as the robots transition from demos to real industrial deployments.\nThe post State of Humanoids keynote brings industry leaders to...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-helicon-brings-automation-to-h-658",
+    "title": "Helicon brings automation to high-volume composites manufacturing",
+    "date": "2026-09-23",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/helicon-brings-automation-high-volume-composites-manufacturing/",
+    "summary": "Helicon has obtained seed funding to use automation to cut composite manufacturing lead times from months to weeks.\nThe post Helicon brings automation to high-volume composites manufacturing appeared ...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-6-days-left-to-save-up-to-200-948",
+    "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+    "date": "2026-09-20",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+    "summary": "Current ticket pricing ends in 6 days on September 25 at 11:59 p.m. PT. Join 10,000+ founders, investors, and tech leaders at Disrupt and save up to $200 on your ticket.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-4-days-to-save-up-to-200-reaso-412",
+    "title": "4 days to save up to $200: Reason 2 of 5 to be at TechCrunch Disrupt 2026",
+    "date": "2026-09-22",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/",
+    "summary": "Save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second pass before prices increase on September 25 at 11:59 p.m. PT. Register today.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-exhibit-tables-added-one-last-509",
+    "title": "Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026",
+    "date": "2026-09-22",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/",
+    "summary": "We have reopened our exhibitor program for 1 more week. Book your exhibit table by September 30 at 11:59 p.m. PT and showcase your startup in front of 10,000+ founders, investors, and tech leaders at ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-pitpro-s-first-tire-changing-r-306",
+    "title": "PitPro’s first tire-changing robot goes live in Canada",
+    "date": "2026-09-23",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/23/pitpros-first-tire-changing-robot-goes-live-in-canada/",
+    "summary": "The startup says its automated system can change four tires in under 15 minutes.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-3-days-left-to-save-up-to-200-337",
+    "title": "3 days left to save up to $200 and make impactful connections at TechCrunch Disrupt 2026",
+    "date": "2026-09-23",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/23/3-days-left-to-save-up-to-200-and-make-impactful-connections-at-techcrunch-disrupt-2026/",
+    "summary": "3 days to save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second. Make impactful connections with 10,000+ tech leaders. Last day to save is September 25, 11:59 p.m. PT. Register h...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-49802789",
     "title": "Show HN: InstinctFlash – High-Performance Serving Runtime for Robotics Models",
     "date": "2026-09-22",
