@@ -15,7 +15,7 @@ docs/                  static site, publish root
   index.html           dashboard
   companies.html       directory + detail panel
   policies.html        federal bills and agencies (collapsible sections)
-  physical-ai-action-plan.html  sourced seven-page action-plan draft
+  physical-ai-action-plan.html  draft robotics executive order and source notes
   states.html          state-policy overview (key themes + what's on the books)
   themes.html          deep-dives
   news.html            news + research items feed (filter/search)

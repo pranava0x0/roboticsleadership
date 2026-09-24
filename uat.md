@@ -120,3 +120,10 @@ Ideas worth checking on future runs, in no particular order:
 - Action plan ties proposed six-site work to accountable leads, deliverables, deadlines, replication, installed cost, and buy/retest/stop decisions. Cohort size and deadlines are proposals; older background claims retain their stated research baseline.
 - Verified both pages in Chrome at 375px and 1280px: no horizontal overflow, broken local anchors, or page errors. All four draft buttons render expected question counts. Letter print remains seven pages.
 - Checks: npm test, npm run validate, npm run bake:check, git diff --check.
+
+
+## 2026-09-24 — Executive-order conversion
+
+- Converted the action-plan page into an unofficial nine-section executive-order draft. Preserved the URL and prior section anchors; updated navigation, RFI cross-link, metadata, README, and llms.txt.
+- Added presidential authority language, signing-relative deadlines, agency responsibilities, voluntary non-Federal participation, appropriations limits, and standard general provisions. Drafting sources sit outside the operative text.
+- Verified Chrome at 375px and 1280px, local anchors, RFI variant toggles, and page errors. Print: five pages of draft order plus one page of drafting notes. Full tests, validation, static rendering, and diff checks pass.
