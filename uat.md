@@ -112,3 +112,11 @@ Ideas worth checking on future runs, in no particular order:
 - Sources with no archive: spot-check that "archived" links don't render when `archive_url` is null. (`RT.archiveLink('')` returns "" so this should hold.)
 - Try clicking very fast through the theme picker (open / click / open another / etc.) — make sure `localStorage` ends up matching the last selection.
 - Open detail panel on `companies.html`, then navigate to another page via the nav — the panel should be torn down, not persist.
+
+
+## 2026-09-24 — RFI and action-plan specificity
+
+- Replaced headline-based RFI prioritization with three proposed missions, a common task record, and 32/20/12/7 evidence requests across the existing draft variants. Revision date, variant, and question ID identify responses.
+- Action plan ties proposed six-site work to accountable leads, deliverables, deadlines, replication, installed cost, and buy/retest/stop decisions. Cohort size and deadlines are proposals; older background claims retain their stated research baseline.
+- Verified both pages in Chrome at 375px and 1280px: no horizontal overflow, broken local anchors, or page errors. All four draft buttons render expected question counts. Letter print remains seven pages.
+- Checks: npm test, npm run validate, npm run bake:check, git diff --check.
