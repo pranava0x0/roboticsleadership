@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-09-25",
     "captured_at": "2026-06-12",
     "method": "Curated from primary sources (press releases, SEC filings, DoD announcements) and trade press (The Robot Report, IEEE Spectrum, TrendForce, Counterpoint, CSIS, Adamas) via seeded web search plus five parallel research sweeps"
   },
@@ -15,7 +15,7 @@
     ],
     "kpis": [
       { "label": "Humanoids shipped · 2026", "value": ">50K", "sub": "global forecast, +700% vs 2025's ~16K units", "sources": ["https://www.trendforce.com/presscenter/news/20260409-13007.html"] },
-      { "label": "Industrial robots · 2024", "value": "542K", "sub": "global installs — China bought 54% of them", "sources": ["https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years"] },
+      { "label": "Industrial robots · 2025", "value": "603K", "sub": "global installs — China bought 59% of them", "sources": ["https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally", "https://thenextweb.com/news/industrial-robots-world-robotics-2026-china-59-eu-falls"] },
       { "label": "China · parts share", "value": "~70%", "sub": "of humanoid components (motors, actuators, sensors)", "sources": ["https://www.trendforce.com/presscenter/news/20251209-12825.html"] },
       { "label": "US magnet capacity", "value": "≈25K t/yr", "sub": "announced by ~2028 — China makes ~300K t/yr today", "sources": ["https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/"] },
       { "label": "No-China cost penalty", "value": "≈3×", "sub": "a humanoid built only with non-Chinese parts: $131K vs $46K", "sources": ["https://nextfinancial.substack.com/p/one-million-robots-per-year-the-38"] }
@@ -26,10 +26,10 @@
       "id": "industrial",
       "name": "Industrial robots",
       "definition": "Fixed robot arms on production lines — welding, assembly, painting, handling. The biggest robot category by far; includes cobots.",
-      "units": 542076,
-      "year": "2024",
-      "note": "Record level — demand doubled in 10 years. China installed 295,000 (54% of the world); the Americas took ~9%.",
-      "sources": ["https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years"]
+      "units": 603000,
+      "year": "2025",
+      "note": "IFR World Robotics 2026: installs rose 11% to a record 603K (IFR says 'more than 600,000') and the operating stock reached 5 million. China installed 354,200 (59%); the US 38,400, now second ahead of Japan; the Americas as a region 57,044. 2024 was 542,076.",
+      "sources": ["https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally", "https://thenextweb.com/news/industrial-robots-world-robotics-2026-china-59-eu-falls"]
     },
     {
       "id": "cobots",
@@ -55,8 +55,8 @@
       "definition": "Bipedal or wheeled-torso general-purpose robots. The smallest category today and the fastest-growing.",
       "units": 16000,
       "year": "2025",
-      "note": ">80% of 2025 installs were in China; 2026 forecast exceeds 50,000 units (+700% YoY).",
-      "sources": ["https://counterpointresearch.com/en/insights/Global-Humanoid-Robot-Installations-Reach-16,000-Units-in-2025-as-Mass-Production-Picks-Pace", "https://www.trendforce.com/presscenter/news/20260409-13007.html"]
+      "note": ">80% of 2025 installs were in China; 2026 forecast exceeds 50,000 units (+700% YoY). Counterpoint puts H1 2026 shipments above 22,000 (+~300% YoY). The IFR counts fewer for 2025, nearly 7,000 full-size humanoids from 174 makers (over half Chinese), on a narrower definition.",
+      "sources": ["https://counterpointresearch.com/en/insights/Global-Humanoid-Robot-Installations-Reach-16,000-Units-in-2025-as-Mass-Production-Picks-Pace", "https://www.trendforce.com/presscenter/news/20260409-13007.html", "https://thenextweb.com/news/industrial-robots-world-robotics-2026-china-59-eu-falls", "https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026"]
     }
   ],
   "production_trend": [
@@ -70,7 +70,8 @@
     { "year": "2022", "us_units": 40000, "china_units": 290000, "row_units": 223000, "projected": false, "note": "Industrial robot installations (IFR World Robotics via Our World in Data).", "sources": ["https://ourworldindata.org/grapher/annual-industrial-robots-installed"] },
     { "year": "2023", "us_units": 38000, "china_units": 276000, "row_units": 227000, "projected": false, "note": "Industrial robot installations (IFR World Robotics via Our World in Data).", "sources": ["https://ourworldindata.org/grapher/annual-industrial-robots-installed"] },
     { "year": "2024", "us_units": 34164, "china_units": 295045, "row_units": 212867, "projected": false, "note": "Industrial robot installations, record year (542,076 world total). Humanoids added 16,000 more units globally in 2025 (>80% China) — see the humanoid row in shipments[] above; not folded in here since no country-level historical humanoid series exists.", "sources": ["https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf", "https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years"] },
-    { "year": "2025", "us_units": 34500, "china_units": 324000, "row_units": 216500, "projected": true, "note": "Projected. IFR's stated 2025 world total is 575,000 units. China is estimated by applying IFR's stated 'around +10%' growth guidance to the 2024 actual. The US figure is derived from IFR's North-America-wide guidance ('broadly stable at ~43,500', which includes Canada and Mexico, not just the US) scaled down to the US's ~79% historical share of that regional total (matching the 2024 actual US/North-America ratio) — IFR does not publish an exact per-country 2025 figure.", "sources": ["https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf"] }
+    { "year": "2025", "us_units": 38400, "china_units": 354200, "row_units": 210400, "projected": false, "note": "Actual, replacing the 2025 projection made before World Robotics 2026 (US 34,500, China 324,000). IFR: China 354,200 (+20%), US 38,400 (+12%), world 'more than 600,000' (603,000 used here, so rest of world = 210,400 by subtraction).", "sources": ["https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally", "https://thenextweb.com/news/industrial-robots-world-robotics-2026-china-59-eu-falls"] },
+    { "year": "2026", "us_units": 39200, "china_units": 393200, "row_units": 222600, "projected": true, "note": "Projected. IFR forecasts 655,000 world installs in 2026, with Asia +11% and the Americas +2%. Here China is the 2025 actual times 1.11 and the US the 2025 actual times 1.02 (an assumption that the US tracks the Americas); the rest of the world is 655,000 minus those two. IFR does not publish per-country 2026 figures.", "sources": ["https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally", "https://thenextweb.com/news/industrial-robots-world-robotics-2026-china-59-eu-falls"] }
   ],
   "chain_stages": [
     { "id": "materials", "name": "Materials & magnets", "us_position": "weak", "note": "Rare earths, NdFeB magnets, magnesium — China holds ~90% of refining and magnet output; U.S. capacity is being rebuilt with DoD money but operates at a fraction of announced targets.", "sources": ["https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions", "https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/"] },
@@ -808,10 +809,12 @@
       ],
       "capacity_note": null,
       "financing": [
-        { "date": "2025-07", "type": "Series A / spinout", "amount_usd": 50000000, "detail": "$50M on spinout from Intel; Intel Capital and MediaTek Innovation Fund participated" }
+        { "date": "2025-07", "type": "Series A / spinout", "amount_usd": 50000000, "detail": "$50M on spinout from Intel; Intel Capital and MediaTek Innovation Fund participated" },
+        { "date": "2026-09", "type": "Acquisition (announced)", "amount_usd": 500000000, "detail": "Cognex agreed to buy RealSense for about $500M in cash; close expected Q4 2026. RealSense expects $80M-$90M of 2026 revenue, up more than 50%" }
       ],
       "sources": [
-        { "url": "https://www.cnbc.com/2025/07/11/intel-ai-robotics-realsense.html" }
+        { "url": "https://www.cnbc.com/2025/07/11/intel-ai-robotics-realsense.html" },
+        { "url": "https://www.cognex.com/en/company/press-releases/cognex-to-acquire-realsense" }
       ]
     },
     {
@@ -875,9 +878,12 @@
         { "location": "Taiwan / Korea (fabless)", "detail": "Leading-edge nodes at TSMC and Samsung", "capacity": null }
       ],
       "capacity_note": null,
-      "financing": [],
+      "financing": [
+        { "date": "2026-09", "type": "Acquisition (announced)", "amount_usd": null, "detail": "Agreed to acquire PickNik, maintainer of the MoveIt open-source manipulation framework; to be integrated with Dragonwing; terms not disclosed" }
+      ],
       "sources": [
-        { "url": "https://www.qualcomm.com/news/releases/2026/01/qualcomm-introduces-a-full-suite-of-robotics-technologies-power" }
+        { "url": "https://www.qualcomm.com/news/releases/2026/01/qualcomm-introduces-a-full-suite-of-robotics-technologies-power" },
+        { "url": "https://www.qualcomm.com/news/releases/2026/09/qualcomm-to-acquire-picknik-to-advance-the-future-of-open-roboti" }
       ]
     },
     {
@@ -1147,14 +1153,16 @@
       "categories": ["final-assembly"],
       "role": "First company globally to deliver 1,000+ industrial humanoids (Walker S series)",
       "sites": [
-        { "location": "Liuzhou, Guangxi, China", "detail": "1,000th Walker S2 rolled out; ~RMB 800M order book", "capacity": "5,000/yr target 2026 → 10,000/yr by 2027" }
+        { "location": "Liuzhou, Guangxi, China", "detail": "1,000th Walker S2 rolled out; ~RMB 800M order book", "capacity": "5,000/yr target 2026 → 10,000/yr by 2027" },
+        { "location": "Almaty, Kazakhstan (planned)", "detail": "First UBTECH plant outside China, with Nero Group; nearly $440M initial investment; educational robots from Oct 2026, humanoid and service robots from Q2 2027 per Kazakh press", "capacity": "up to 1,000 robots/yr (Kazakh press; not in the Astana Times report)" }
       ],
       "capacity_note": null,
       "financing": [
         { "date": "2025-11", "type": "Orders", "amount_usd": 113000000, "detail": "Walker S2 mass production began with orders exceeding RMB 800M" }
       ],
       "sources": [
-        { "url": "https://interestingengineering.com/ai-robotics/china-ubtech-builds-1000-humanoid-robots" }
+        { "url": "https://interestingengineering.com/ai-robotics/china-ubtech-builds-1000-humanoid-robots" },
+        { "url": "https://astanatimes.com/2026/09/kazakhstan-china-advance-440-million-robotics-localization-project/" }
       ]
     },
     {
@@ -1165,12 +1173,13 @@
       "categories": ["final-assembly"],
       "role": "No. 1 globally in 2025 humanoid installations (~31% share, Counterpoint)",
       "sites": [
-        { "location": "Shanghai, China", "detail": "10,000th cumulative humanoid produced March 30, 2026 — the last 5,000 in three months", "capacity": null }
+        { "location": "Shanghai, China", "detail": "10,000th cumulative humanoid produced March 30, 2026 — the last 5,000 in three months; 20,000th delivered by September 2026", "capacity": null }
       ],
       "capacity_note": null,
       "financing": [],
       "sources": [
         { "url": "https://www.therobotreport.com/agibot-rolls-out-10000th-humanoid-robot/" },
+        { "url": "https://www.prnewswire.com/apac/news-releases/agibot-and-chimelong-launch-large-scale-embodied-ai-theme-park-with-more-than-300-robots-302888863.html" },
         { "url": "https://counterpointresearch.com/en/insights/Global-Humanoid-Robot-Installations-Reach-16,000-Units-in-2025-as-Mass-Production-Picks-Pace" }
       ]
     },
@@ -1188,6 +1197,27 @@
       "financing": [],
       "sources": [
         { "url": "https://www.assemblymag.com/articles/99628-foxconn-to-deploy-humanoid-robots-on-production-line-at-houston-ai-server-plant" }
+      ]
+    },
+    {
+      "id": "amazon-robotics",
+      "name": "Amazon Robotics (manufacturing)",
+      "country": "USA",
+      "hq": "Massachusetts",
+      "categories": ["final-assembly"],
+      "role": "Builds its own warehouse robots at scale: more than 1 million robots built in the US and deployed across 300+ facilities, per Amazon; two more US manufacturing investments announced in 2026",
+      "sites": [
+        { "location": "Massachusetts (existing facilities)", "detail": "Amazon calls it one of the largest industrial robotics manufacturing operations in the world", "capacity": null },
+        { "location": "Texas (announced Aug 2026)", "detail": "New robotics manufacturing investment; the site is not named in Amazon's Greenwood release", "capacity": null },
+        { "location": "Greenwood, IN (planned, due by 2028)", "detail": "585,000 sq ft; fabrication, robotic welding, automated powder coating and assembly for Amazon's fulfillment and robotics network; 300 jobs", "capacity": null }
+      ],
+      "capacity_note": "Amazon's release does not say the Indiana plant builds robots themselves; it makes products for the fulfillment and robotics network.",
+      "financing": [
+        { "date": "2026-09", "type": "Capex (announced)", "amount_usd": 100000000, "detail": "Greenwood, IN plant: more than $100M" }
+      ],
+      "sources": [
+        { "url": "https://press.aboutamazon.com/job-creation-and-investment/2026/9/amazon-to-create-300-high-paying-jobs-at-new-advanced-manufacturing-facility-in-greenwood-indiana" },
+        { "url": "https://techcrunch.com/2025/07/01/amazon-deploys-its-1-millionth-robot-releases-generative-ai-model/" }
       ]
     }
   ],

@@ -14,7 +14,8 @@ A live-updating dashboard consolidating robotics startups, government policy, in
 docs/                  static site, publish root
   index.html           dashboard
   companies.html       directory + detail panel
-  policies.html        federal bills, agencies, state incentives (collapsible sections)
+  policies.html        federal bills and agencies (collapsible sections)
+  physical-ai-action-plan.html  draft robotics executive order and source notes
   states.html          state-policy overview (key themes + what's on the books)
   themes.html          deep-dives
   news.html            news + research items feed (filter/search)
@@ -25,7 +26,7 @@ docs/                  static site, publish root
     styles.css         design system tokens + components (incl. BLUF callout)
     app.js             shared utilities (fetch, format, theme toggle)
   data/
-    companies.json     ~60 companies, funding rounds, deployments
+    companies.json     81 companies, funding rounds, deployments
     policies.json      federal bills, state incentive programs
     state_policy.json  curated state-policy themes (delivery robots, AV, incentives, clusters, AI preemption)
     news.json          news + research items
@@ -41,6 +42,9 @@ scripts/               Node.js scrapers (Node 18+, no deps)
   scraper-policy.js    Federal Register search
   validate.js          schema check across all data files (now incl. state_policy)
   make-share-card.py   regenerates docs/assets/share-card.png (OG image) — run after thesis copy changes
+  site-metrics.js      page weight (gzip), request count and internal-link check; `npm run metrics`, `--append` logs to data/metrics/
+  uat-scroll-probe.js  paste-in browser probe: screens of scroll per page at desktop and phone width (history in data/metrics/uat-scroll.jsonl)
+  layout-guards.test.js  regression guards for the scroll-depth and mobile-overflow fixes
 ```
 
 ---

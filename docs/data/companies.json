@@ -347,13 +347,23 @@
       },
       {
         "url": "https://www.scmp.com/tech/big-tech/article/3303837/chinese-tech-giant-tencent-joins-latest-investment-round-shanghai-robotics-start-agibot"
+      },
+      {
+        "url": "https://www.prnewswire.com/apac/news-releases/agibot-and-chimelong-launch-large-scale-embodied-ai-theme-park-with-more-than-300-robots-302888863.html"
+      },
+      {
+        "url": "https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026"
       }
     ],
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-09-25",
     "themes": [
       "china-scale"
     ],
-    "financials": null,
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private; last disclosed valuation $2.07B (Tencent-led strategic round, 2025-03). Delivered its 20,000th robot by September 2026, double the 10,000th it marked on 2026-03-30, and launched a 300-robot deployment with Chimelong at a Zhuhai theme park on 2026-09-24. Counterpoint has AgiBot first in H1 2026 humanoid shipments with about 43% of units. Trade press reports a Hong Kong listing process; no filing was checked here."
+    },
     "map_category": "humanoid"
   },
   {
@@ -4321,9 +4331,12 @@
       },
       {
         "url": "https://www.bloomberg.com/news/articles/2026-09-10/robotics-startup-skild-ai-hits-100-million-in-revenue-run-rate"
+      },
+      {
+        "url": "https://www.skild.ai/blogs/physical-self-play"
       }
     ],
-    "last_updated": "2026-09-16",
+    "last_updated": "2026-09-25",
     "themes": [
       "foundation-models"
     ],
@@ -4953,9 +4966,15 @@
     "sources": [
       {
         "url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/"
+      },
+      {
+        "url": "https://astanatimes.com/2026/09/kazakhstan-china-advance-440-million-robotics-localization-project/"
+      },
+      {
+        "url": "https://pandaily.com/ubtech-uworld-u1-mass-deliveries-consumer-humanoid"
       }
     ],
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-09-25",
     "themes": [
       "china-scale"
     ],
@@ -4964,7 +4983,7 @@
       "revenue_year": "2025",
       "net_income_usd": -109000000,
       "net_income_year": "2025",
-      "details": "Publicly traded in HK (9880.HK). Reported FY2025 revenue of RMB 2.001B (~$276M USD, up 53.3% YoY) and net loss of RMB 789.8M (~$109M USD). Humanoid segment grew to RMB 820.6M. Market cap ~$6.73B (HK$52.77B on 9880.HK) as of 2026-06-22. FY2025 (announced 2026-03-31): revenue RMB 2.001B (+53.3% YoY), net loss narrowed to RMB 789.8M; full-size humanoids became the largest revenue line (41.1%).",
+      "details": "Publicly traded in HK (9880.HK). Reported FY2025 revenue of RMB 2.001B (~$276M USD, up 53.3% YoY) and net loss of RMB 789.8M (~$109M USD). Humanoid segment grew to RMB 820.6M. Market cap ~$6.73B (HK$52.77B on 9880.HK) as of 2026-06-22. FY2025 (announced 2026-03-31): revenue RMB 2.001B (+53.3% YoY), net loss narrowed to RMB 789.8M; full-size humanoids became the largest revenue line (41.1%). Update 2026-09-25: household deliveries of the UWORLD U1 humanoid began on 2026-09-16 (13,361 orders at launch), and a first plant outside China is under way in Almaty with Nero Group. The market-cap figure above predates both.",
       "sources": [
         {
           "url": "https://www.hkexnews.hk/"
@@ -5094,9 +5113,15 @@
       "https://www.caixinglobal.com/2026-05-26/unitree-fast-tracks-shanghai-ipo-with-target-valuation-of-62-billion-102447449.html",
       "https://news.cgtn.com/news/2026-06-01/Unitree-gets-STAR-Market-green-light-in-China-s-hard-tech-IPO-wave-1NCT9TksSVq/share_amp.html",
       "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
-      "https://www.chinamoneynetwork.com/2026/09/09/chinese-regulators-tighten-approval-for-humanoid-ipos-amid-unitree-robotics-debut"
+      "https://www.chinamoneynetwork.com/2026/09/09/chinese-regulators-tighten-approval-for-humanoid-ipos-amid-unitree-robotics-debut",
+      {
+        "url": "https://www.wilmerhale.com/en/insights/client-alerts/20260611-pentagon-adds-65-new-entities-to-the-1260h-list-of-chinese-military-companies"
+      },
+      {
+        "url": "https://finance.sina.cn/2026-09-19/detail-inisisqh7708274.d.html"
+      }
     ],
-    "last_updated": "2026-09-16",
+    "last_updated": "2026-09-25",
     "themes": [
       "china-scale",
       "cost-trajectory"
@@ -5104,7 +5129,7 @@
     "financials": {
       "revenue_usd": 235000000,
       "revenue_year": "2025",
-      "details": "IPO prospectus: 2025 revenue CNY 1.71B (~$235M), up from CNY 392M in 2024. Debuted on the Shanghai STAR Market in Aug 2026, shares surged intraday to a ~$66B valuation before falling; as of 2026-09-09 shares traded ~53% below the debut peak (~$31B market cap, derived). China's CSRC subsequently gave informal guidance tightening humanoid-robot IPO approvals, citing the volatile debut."
+      "details": "IPO prospectus: 2025 revenue CNY 1.71B (~$235M), up from CNY 392M in 2024. Debuted on the Shanghai STAR Market on 2026-08-19; shares hit an intraday high of 1,100 yuan (~$66B market cap, 444.9B yuan) before falling. On 2026-09-18 they closed at 514.98 yuan against a 150.80 yuan issue price, a 208.3B yuan market cap (~$31B, derived at the ~6.7 CNY/USD implied by the debut-day figures) and about 53% below the first-day high. On 2026-06-08 the Pentagon added Unitree to its Section 1260H list of Chinese military companies. China's CSRC gave informal guidance tightening humanoid-robot IPO approvals after the volatile debut."
     },
     "map_category": "humanoid"
   },
@@ -7443,5 +7468,145 @@
       "cost-trajectory"
     ],
     "map_category": "service"
+  },
+  {
+    "id": "feather-robotics",
+    "name": "Feather Robotics",
+    "founded": "2025",
+    "hq": {
+      "city": null,
+      "state": null,
+      "country": "USA"
+    },
+    "website": "https://feather.dev/",
+    "funding_rounds": [
+      {
+        "date": "2026-09",
+        "round": "Pre-seed",
+        "amount_usd": 7600000,
+        "valuation_usd": null,
+        "investors": [
+          "Gradient Ventures"
+        ],
+        "url": "https://techcrunch.com/2026/09/24/meet-feather-the-startup-building-the-android-of-robotics-for-developers/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 7600000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "humanoid",
+      "mobile manipulator",
+      "modular-robot"
+    ],
+    "primary_use_case": "developer hardware platform for third-party robot AI",
+    "flagship_product": "Feather Core: wheeled two-armed modular robot, height-adjustable torso, from $29,990",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": 29990,
+    "open_source": false,
+    "us_manufactured": null,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Hoa Mai",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Parsa Bakhtiari",
+        "role": "Co-founder"
+      }
+    ],
+    "ceo": null,
+    "tags": [
+      "developer-platform",
+      "modular",
+      "wheeled-humanoid",
+      "pre-seed"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/09/24/meet-feather-the-startup-building-the-android-of-robotics-for-developers/"
+      },
+      {
+        "url": "https://feather.dev/"
+      }
+    ],
+    "last_updated": "2026-09-25",
+    "themes": [
+      "physical-ai",
+      "cost-trajectory"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. $7.6M pre-seed led by Gradient Ventures. Company says revenue has passed $1M from small-quantity sales; customers undisclosed (robots working as restaurant cooks and lab cleaners). Revenue is company-reported. Price is about half that of Unitree's H2 Edu, per TechCrunch."
+    },
+    "map_category": "humanoid"
+  },
+  {
+    "id": "vesoma",
+    "name": "Vesoma",
+    "founded": "2025",
+    "hq": {
+      "city": "Munich",
+      "state": null,
+      "country": "Germany"
+    },
+    "website": "https://vesoma.com/",
+    "funding_rounds": [],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "humanoid"
+    ],
+    "primary_use_case": "humanoids that learn from their own experience for warehouse, factory and care work",
+    "flagship_product": "Vesoma 1 (prototype; no specs published)",
+    "deployments": [],
+    "headcount": 60,
+    "headcount_date": "2026-09",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Nikolai Ensslen",
+        "role": "Co-founder (Synapticon co-founder)"
+      },
+      {
+        "name": "Peter Skoromnyi",
+        "role": "Co-founder (Easybrain co-founder)"
+      }
+    ],
+    "ceo": null,
+    "tags": [
+      "europe",
+      "humanoid",
+      "reinforcement-learning",
+      "stealth-exit"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://vesoma.com/news/introducing-vesoma"
+      },
+      {
+        "url": "https://dealroom.co/news/155859-munich-humanoid-startup-vesoma-exits-stealth-with-60-person-team-deepmin/"
+      }
+    ],
+    "last_updated": "2026-09-25",
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. No funding amount, investors or valuation disclosed at the 2026-09-22 launch. Founded December 2025; more than 60 staff across Munich and Limassol, Cyprus. Chief AI Officer Martin Riedmiller previously led research at Google DeepMind. Rules out weapons, military and surveillance uses."
+    },
+    "map_category": "humanoid"
   }
 ]

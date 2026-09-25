@@ -1,5 +1,693 @@
 [
   {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "id": "ifr-world-robotics-2026-2026-09",
+    "title": "IFR: 5 million industrial robots now in operation; China installed 59% of 2025 units and the US passed Japan",
+    "date": "2026-09-24",
+    "source": "International Federation of Robotics",
+    "source_url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally",
+    "category": "Competitive",
+    "tags": [
+      "ifr",
+      "installations",
+      "china",
+      "united-states",
+      "world-robotics"
+    ],
+    "summary": "The IFR's World Robotics 2026 report puts the global operating stock of industrial robots at a record 5 million, after 2025 installations rose 11% to more than 600,000. China installed 354,200 units (up 20%, 59% of the world total). The US installed 38,400 (up 12%) and became the second-largest market as Japan fell 19% to about 36,200. Chinese suppliers held 55% of their home market, down from 57% in 2024. The IFR forecasts 655,000 installations in 2026. It also counted nearly 7,000 full-size humanoids sold in 2025 from 174 makers, more than half of them Chinese."
+  },
+  {
+    "id": "rss-isaac-ros-5-0-brings-ai-agents-100",
+    "title": "Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA",
+    "date": "2026-09-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/",
+    "summary": "Isaac ROS 5.0 adds agent-assisted workflows and support for robotics development. The open-source ROS 2 stack offers tooling; deployment claims need independent field evidence.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "open-source",
+      "robotics-software"
+    ]
+  },
+  {
+    "id": "rss-intrinsic-open-sources-key-par-754",
+    "title": "Intrinsic open sources key parts of its platform for easier development",
+    "date": "2026-09-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/",
+    "summary": "Intrinsic says it is releasing key infrastructure from its industrial robotics platform as Intrinsic Core. Check the published license and repository before treating the full platform as open source.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "open-source",
+      "robotics-software"
+    ]
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "themes": [
+      "physical-ai",
+      "us-supply-chain"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "id": "cognex-to-acquire-realsense-2026-09",
+    "title": "Cognex to acquire Intel spinout RealSense for about $500M",
+    "date": "2026-09-22",
+    "source": "Cognex",
+    "source_url": "https://www.cognex.com/en/company/press-releases/cognex-to-acquire-realsense",
+    "category": "Funding",
+    "tags": [
+      "acquisition",
+      "perception",
+      "depth-cameras",
+      "sensors"
+    ],
+    "summary": "Cognex agreed to buy RealSense, the depth-camera maker Intel spun out in 2025, for about $500 million in cash, with closing expected in the fourth quarter of 2026. RealSense expects $80 million to $90 million of revenue in 2026, up more than 50%. Cognex sizes robotic perception at about $600 million a year today and $1.6 billion by 2030. It will also fund a three-year, $56.5 million retention program for RealSense employees. The deal puts a sensor supplier used across AMRs, quadrupeds and humanoids under an established US machine-vision company."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "id": "qualcomm-to-acquire-picknik-2026-09",
+    "title": "Qualcomm to acquire PickNik, the company behind the MoveIt motion-planning framework",
+    "date": "2026-09-23",
+    "source": "Qualcomm",
+    "source_url": "https://www.qualcomm.com/news/releases/2026/09/qualcomm-to-acquire-picknik-to-advance-the-future-of-open-roboti",
+    "category": "Funding",
+    "tags": [
+      "acquisition",
+      "open-source",
+      "ros",
+      "moveit",
+      "dragonwing"
+    ],
+    "summary": "Qualcomm Technologies agreed to acquire PickNik, which maintains the open-source MoveIt manipulation framework and sells the commercial MoveIt Pro platform. Qualcomm plans to integrate MoveIt with its Dragonwing robotics platform and says MoveIt 1 and 2 stay open source and keep supporting third-party hardware. Terms and a closing date were not disclosed. MoveIt is widely used in ROS-based arms, so the deal ties a chip vendor to a common piece of robot software."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "themes": [
+      "industrial-deployments",
+      "us-supply-chain"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "id": "amazon-greenwood-indiana-robotics-plant-2026-09",
+    "title": "Amazon plans a $100M+ Indiana plant for its robotics and fulfillment equipment",
+    "date": "2026-09-24",
+    "source": "Amazon",
+    "source_url": "https://press.aboutamazon.com/job-creation-and-investment/2026/9/amazon-to-create-300-high-paying-jobs-at-new-advanced-manufacturing-facility-in-greenwood-indiana",
+    "category": "Supply Chain",
+    "tags": [
+      "amazon",
+      "manufacturing",
+      "indiana",
+      "onshoring"
+    ],
+    "summary": "Amazon will invest more than $100 million in a 585,000-square-foot manufacturing facility in Greenwood, Indiana, due to launch by 2028 with 300 jobs averaging nearly $100,000 a year. The plant combines fabrication, robotic welding, automated powder coating and assembly to make products for Amazon's fulfillment and robotics network across North America. Amazon says it has built more than 1 million robots in the US, deployed across more than 300 facilities, and that Greenwood follows an August announcement of a robotics manufacturing investment in Texas."
+  },
+  {
+    "id": "eidon-tracker-pov-2026",
+    "title": "Eidon releases first-person robot training dataset",
+    "date": "2026-09-21",
+    "source": "Eidon / Hugging Face",
+    "source_type": "Primary",
+    "source_url": "https://huggingface.co/datasets/eidon-ai/tracker-pov",
+    "summary": "Open dataset of wearable first-person recordings, paired with inertial data, intended for embodied-AI research. The data card describes collection scope and license; downstream task performance remains to be established.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "dataset",
+      "open-data",
+      "physical-ai"
+    ]
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "id": "toyota-400000-factory-robots-2028-2026-09",
+    "title": "Toyota tells investors it expects to deploy about 400,000 factory robots from 2028",
+    "date": "2026-09-21",
+    "source": "Automotive News",
+    "source_url": "https://www.autonews.com/toyota/an-toyota-plans-humanoid-robot-workers-from-2028-0921/",
+    "category": "Deployment",
+    "tags": [
+      "toyota",
+      "humanoid",
+      "automotive",
+      "teleoperation"
+    ],
+    "summary": "Toyota has said it expects to deploy about 400,000 robots from 2028, roughly 150,000 at its own plants and 250,000 at group companies and suppliers, at a cost of up to ¥1 trillion (about $6.4 billion) a year. The lead machine is ELEY, a 50 kg wheeled humanoid with two-fingered hands that learns from workers wearing finger-shaped jigs while they do routine tasks. Toyota says workers will not be replaced. The figures come from press coverage of Toyota's investor briefing, reported by Automotive News and Automotive World, not from a Toyota release."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "feather-robotics"
+    ],
+    "themes": [
+      "physical-ai",
+      "cost-trajectory"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "id": "feather-robotics-launch-2026-09",
+    "title": "Feather Robotics launches a $29,990 modular humanoid platform for developers",
+    "date": "2026-09-24",
+    "source": "TechCrunch",
+    "source_url": "https://techcrunch.com/2026/09/24/meet-feather-the-startup-building-the-android-of-robotics-for-developers/",
+    "category": "Funding",
+    "tags": [
+      "startup",
+      "humanoid",
+      "developer-platform",
+      "pre-seed"
+    ],
+    "summary": "Feather Robotics, founded in 2025 by Hoa Mai and Parsa Bakhtiari, is selling a modular wheeled humanoid platform for developers at $29,990, roughly half the price of Unitree's H2 Edu. It is backed by a $7.6 million pre-seed led by Gradient Ventures and says revenue has passed $1 million, with robots working as restaurant cooks and lab cleaners. Mai previously sold a humanoid startup to 1X; Bakhtiari is a former Tesla engineer. Feather sells the body and runs third-party models rather than building its own. The revenue figure is company-reported."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "vesoma"
+    ],
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "id": "vesoma-exits-stealth-2026-09",
+    "title": "Vesoma exits stealth in Munich with a 60-person team and a humanoid that learns from its own experience",
+    "date": "2026-09-22",
+    "source": "Vesoma",
+    "source_url": "https://vesoma.com/news/introducing-vesoma",
+    "category": "Competitive",
+    "tags": [
+      "startup",
+      "humanoid",
+      "europe",
+      "reinforcement-learning"
+    ],
+    "summary": "Vesoma, founded in December 2025 by Synapticon co-founder Nikolai Ensslen and Easybrain co-founder Peter Skoromnyi, came out of stealth with more than 60 staff across Munich and Limassol, Cyprus. Martin Riedmiller, formerly a research director at Google DeepMind, is chief AI officer. The company builds its own humanoid body and trains it with reinforcement learning from its own experience rather than human demonstrations; its first prototypes walk on a self-learned policy. It targets warehouse, factory and care work and rules out weapons, military and surveillance uses. No funding was disclosed."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "ubtech"
+    ],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "id": "ubtech-almaty-humanoid-plant-2026-09",
+    "title": "UBTECH and Nero Group advance a nearly $440M robot production project in Almaty",
+    "date": "2026-09-25",
+    "source": "The Astana Times",
+    "source_url": "https://astanatimes.com/2026/09/kazakhstan-china-advance-440-million-robotics-localization-project/",
+    "category": "Supply Chain",
+    "tags": [
+      "china",
+      "kazakhstan",
+      "overseas-manufacturing",
+      "ubtech"
+    ],
+    "summary": "Kazakhstan's Nero Group and China's UBTECH said at the Kazakhstan-China Investment Forum in Almaty that a project to localize robot production, research and programming has begun in a special economic zone, with an initial investment of nearly $440 million. Educational robot production is due to start in October, targeting about 30 Almaty schools by year-end. Kazakh press reports say humanoid and service-robot production follows from the second quarter of 2027 at up to 1,000 units a year; the Astana Times piece gives no capacity figure. It would be UBTECH's first robot plant outside China."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "agibot"
+    ],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "id": "agibot-chimelong-20000th-robot-2026-09",
+    "title": "AgiBot delivers its 20,000th robot as Chimelong opens a 300-robot theme-park deployment",
+    "date": "2026-09-24",
+    "source": "PR Newswire",
+    "source_url": "https://www.prnewswire.com/apac/news-releases/agibot-and-chimelong-launch-large-scale-embodied-ai-theme-park-with-more-than-300-robots-302888863.html",
+    "category": "Deployment",
+    "tags": [
+      "china",
+      "theme-park",
+      "humanoid",
+      "volume"
+    ],
+    "summary": "AgiBot and Chimelong Group launched the first phase of an embodied-AI deployment at Chimelong Spaceship Park in Zhuhai with more than 300 robots across seven scenarios, including performances, guided tours, retail stations and hotel services. The launch coincided with AgiBot's 20,000th robot coming off its production line, double the 10,000th it marked on March 30. The customer is an entertainment operator, so the deployment is closer to attractions than to factory or warehouse work."
+  },
+  {
+    "id": "rss-what-do-you-do-with-a-humanoid-641",
+    "title": "What do you do with a humanoid robot when it breaks down?",
+    "date": "2026-09-20",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
+    "summary": "The article examines repair, replacement, and end-of-life handling for humanoid robots, an operational cost often missing from deployment claims.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "maintenance",
+      "humanoid"
+    ]
+  },
+  {
+    "id": "rss-hirebotics-adds-line-tracking-715",
+    "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
+    "date": "2026-09-19",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
+    "summary": "Hirebotics added line tracking and linear-rail options for its welding cobots, extending work envelope in manufacturing use cases.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "cobots",
+      "manufacturing"
+    ]
+  },
+  {
+    "id": "fcc-robotics-covered-list-conditional-2026",
+    "title": "FCC announces conditional approval route for some advanced robotic devices",
+    "date": "2026-09-18",
+    "source": "FCC",
+    "source_type": "Primary",
+    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf",
+    "summary": "FCC notice details DoW conditional approvals that exempt certain foreign-produced advanced robotic devices from the July Covered List addition.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "fcc",
+      "covered-list",
+      "robotics"
+    ]
+  },
+  {
+    "id": "nist-mep-awards-2026-09",
+    "title": "NIST awards more than $30M to 12 MEP centers for advanced manufacturing adoption",
+    "date": "2026-09-15",
+    "source": "NIST",
+    "source_type": "Primary",
+    "source_url": "https://www.nist.gov/news-events/news/2026/09/nist-awards-more-30-million-mep-centers-11-states-and-puerto-rico",
+    "summary": "First-year MEP awards support small and medium-sized manufacturers adopting AI, robotics, automation, and additive manufacturing; 12 centers across 11 states and Puerto Rico must secure at least 50% nonfederal match.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "nist-mep-centers-awards-2026"
+    ],
+    "themes": [
+      "industrial-deployments",
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "mep",
+      "manufacturing",
+      "robotics-adoption"
+    ]
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "agibot",
+      "unitree",
+      "ubtech"
+    ],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "id": "counterpoint-h1-2026-humanoid-shipments-2026-08",
+    "title": "Counterpoint: humanoid shipments rose nearly 300% in H1 2026, with Chinese makers holding the top five spots",
+    "date": "2026-08-20",
+    "source": "Counterpoint Research",
+    "source_url": "https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026",
+    "category": "Competitive",
+    "tags": [
+      "counterpoint",
+      "shipments",
+      "humanoid",
+      "china"
+    ],
+    "summary": "Counterpoint Research put global humanoid shipments in the first half of 2026 at more than 22,000 units, up nearly 300% year on year. Trade coverage of the report has AgiBot first with about 43% of units and Unitree second with about 31%, followed by Galbot, UBTECH and Leju; Chinese firms took the top five places and 86% of units. Vendor unit counts differ between secondary summaries, so only shares are given here; the report body was not readable at the source. It supersedes the 2025 Counterpoint figure of about 16,000 units."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "skild-ai"
+    ],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "id": "skild-s1-physical-self-play-2026-09",
+    "title": "Skild AI shows S1 learning soccer through 140 simulated years of self-play",
+    "date": "2026-09-23",
+    "source": "Skild AI",
+    "source_url": "https://www.skild.ai/blogs/physical-self-play",
+    "category": "Research",
+    "tags": [
+      "foundation-model",
+      "self-play",
+      "sim-to-real",
+      "humanoid"
+    ],
+    "summary": "Skild AI published a preview of post-training its S1 robot foundation model by self-play: the policy played soccer against recent copies of itself in NVIDIA Isaac Sim for about 140 simulated years, then transferred to a real humanoid that played against people. Skild says dribbling, shielding and tackling emerged without hand-written rewards, and argues self-play is a route past the human-level ceiling of models pre-trained on human data. The post gives no success rates, robot model or match results, so the real-world claim rests on a video."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "id": "xpeng-iron-humanoid-line-2026-09",
+    "title": "XPeng opens a dedicated IRON humanoid line and holds a supplier conference",
+    "date": "2026-09-22",
+    "source": "CnEVPost",
+    "source_url": "https://cnevpost.com/2026/09/08/xpeng-opens-iron-humanoid-robot-production-line/",
+    "category": "Supply Chain",
+    "tags": [
+      "china",
+      "xpeng",
+      "humanoid",
+      "production-line"
+    ],
+    "summary": "XPeng opened a dedicated production line for its IRON humanoid in Guangzhou on September 8, with more than 80% of core processes automated, and held a supplier conference on September 22 at which it signed supplier designation agreements. XPeng targets mass production by the end of 2026, with first deployments in its own stores and campuses. The carmaker's humanoid unit, Dogotix, raised $900 million in August."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "ubtech"
+    ],
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "id": "ubtech-uworld-u1-first-deliveries-2026-09",
+    "title": "UBTECH begins consumer deliveries of its UWORLD U1 companion humanoid",
+    "date": "2026-09-16",
+    "source": "Pandaily",
+    "source_url": "https://pandaily.com/ubtech-uworld-u1-mass-deliveries-consumer-humanoid",
+    "category": "Deployment",
+    "tags": [
+      "china",
+      "consumer",
+      "humanoid",
+      "ubtech"
+    ],
+    "summary": "UBTECH said deliveries of the full-size UWORLD U1 to households began on September 16, against 13,361 orders reported at its June 30 launch. Prices run from 119,800 yuan for the U1 Lite to 990,000 yuan for top variants. The robot is sold for companionship rather than chores and is not offered to US buyers. How many units have shipped to date was not stated."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "apptronik"
+    ],
+    "themes": [
+      "us-supply-chain",
+      "cost-trajectory"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "id": "apptronik-ceo-us-gear-shortage-2026-09",
+    "title": "Apptronik CEO says the US lacks a gear supply base and actuators can reach 60% of a humanoid BOM",
+    "date": "2026-09-22",
+    "source": "Humanoids Daily",
+    "source_url": "https://www.humanoidsdaily.com/news/apptronik-cardenas-us-humanoid-parts-shortage",
+    "category": "Supply Chain",
+    "tags": [
+      "actuators",
+      "gears",
+      "supply-chain",
+      "us-manufacturing"
+    ],
+    "summary": "Speaking on Fox Business on September 22, Apptronik CEO Jeff Cardenas said the US has major shortages in items such as gears and that actuators can account for up to 60% of a robot's bill of materials. He said Apptronik has developed more than 80 electric actuators, and that the US leads in AI while China has the stronger industrial-robot manufacturing base. This is one company's view, relayed by a trade outlet."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "id": "genisom-ai-series-b-2026-09",
+    "title": "GENISOM AI raises a Series B of several hundred million yuan led by UAE-based Stone Venture",
+    "date": "2026-09-20",
+    "source": "Sina Finance",
+    "source_url": "https://finance.sina.com.cn/tech/roll/2026-09-20/doc-inismvpc2593206.shtml",
+    "category": "Funding",
+    "tags": [
+      "china",
+      "series-b",
+      "inspection",
+      "gulf-capital"
+    ],
+    "summary": "Beijing embodied-AI robot maker GENISOM AI announced a Series B of several hundred million yuan led by Stone Venture of the UAE, with Hongshan Capital and Guangdong Finance among the participants. The company makes robots for power, petrochemical, firefighting, security and emergency work and says it has produced more than 15,000 units in total. The exact round size and the unit count were not independently verified."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "themes": [
+      "policy-momentum",
+      "foundation-models"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "id": "south-korea-2027-robot-ai-program-2026-09",
+    "title": "South Korea outlines a 2027 robot AI program starting with postal and logistics trials",
+    "date": "2026-09-22",
+    "source": "Humanoids Daily",
+    "source_url": "https://www.humanoidsdaily.com/news/south-korea-robot-ai-2027-logistics",
+    "category": "Policy",
+    "tags": [
+      "korea",
+      "industrial-policy",
+      "foundation-model",
+      "logistics"
+    ],
+    "summary": "At Humanoids Summit Seoul, an official from South Korea's Ministry of Science and ICT described a program starting in 2027 that combines robot foundation and world models, a physical-data library and field trials in postal and logistics work. The budget is not final and should not be read as the earlier KRW 2.3 trillion plan that runs through 2030."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "id": "china-miit-humanoid-standards-draft-2026-08",
+    "title": "China drafts a plan for at least 100 humanoid robot standards by 2028",
+    "date": "2026-08-25",
+    "source": "China.org.cn",
+    "source_url": "http://www.china.org.cn/2026-08/25/content_118662803.shtml",
+    "category": "Policy",
+    "tags": [
+      "china",
+      "standards",
+      "miit",
+      "humanoid"
+    ],
+    "summary": "China's Ministry of Industry and Information Technology opened a draft guideline for a national humanoid-robot standard system to public comment from August 25 to September 23, proposing at least 100 key standards by 2028. It builds on the standard system released in March 2026, which is organized around six pillars including safety and ethics. A batch of national standards for intelligent robot control, including GB/T 47245-2026 on control-system architecture, took effect on September 1. The primary MIIT text was not reachable; this rests on China.org.cn's report."
+  },
+  {
+    "source_type": "News",
+    "policies": [
+      "guard-act-hr9129"
+    ],
+    "companies": [
+      "unitree"
+    ],
+    "themes": [
+      "defense-procurement",
+      "china-scale"
+    ],
+    "sentiment": "Negative",
+    "confidence": "High",
+    "id": "pentagon-1260h-adds-unitree-2026-06",
+    "title": "Pentagon adds Unitree, RoboSense and Autel to its list of Chinese military companies",
+    "date": "2026-06-08",
+    "source": "WilmerHale",
+    "source_url": "https://www.wilmerhale.com/en/insights/client-alerts/20260611-pentagon-adds-65-new-entities-to-the-1260h-list-of-chinese-military-companies",
+    "category": "Geopolitics",
+    "tags": [
+      "1260h",
+      "unitree",
+      "dod",
+      "sanctions",
+      "backfill"
+    ],
+    "summary": "On June 8, 2026 the Department of Defense updated its Section 1260H list of Chinese military companies, adding 65 entities for a total of 188. The additions include Alibaba, Baidu and BYD, and on the robotics side Unitree, the lidar maker RoboSense and the drone maker Autel. House China committee leaders had asked in December for Unitree and RoboSense to be listed. Recent NDAA provisions tie 1260H listing to procurement restrictions taking effect in 2026 and 2027. Added on 2026-09-25 as a backfill: this listing was not previously tracked here."
+  },
+  {
+    "id": "fedreg-news-2026-19704",
+    "title": "FDA issues draft premarket guidance for robotically assisted surgical devices",
+    "date": "2026-09-25",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/25/2026-19704/robotically-assisted-surgical-devices-premarket-submissions-draft-guidance-for-industry-and-food-and",
+    "summary": "The FDA published draft guidance on the nonclinical testing, clinical evidence and labeling it expects in premarket submissions for robotically assisted surgical devices, meaning software-controlled systems that help a surgeon position and control several instruments. It covers human-factors testing, emergency procedures, software interoperability and cybersecurity. Comments are due November 24, 2026 under docket FDA-2026-N-9505. The guidance is nonbinding and not yet final.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "fedreg-2026-19704"
+    ],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "fda",
+      "surgical-robotics",
+      "draft-guidance",
+      "regulation"
+    ]
+  },
+  {
+    "id": "kaist-raibo2-quadruped-marathon-2026-09",
+    "title": "KAIST quadruped RAIBO2 runs a full marathon on one battery charge, Nature reports",
+    "date": "2026-09-23",
+    "source": "Nature",
+    "source_type": "Community",
+    "source_url": "https://www.nature.com/articles/s41586-026-11102-5",
+    "summary": "A KAIST team published in Nature on 23 September a quadruped robot, RAIBO2, that finished the 42.195 km Sangju Marathon in 4 hours 19 minutes 52 seconds on a single charge of its 2,016 Wh battery. Its cost of transport was 0.25, against a human benchmark of 0.37, and the authors estimate it could have gone about 25 km further. The gains came from lightweight legs, a low-loss electrical design and a reinforcement-learning gait trained in simulation.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "quadruped",
+      "energy-efficiency",
+      "reinforcement-learning",
+      "korea"
+    ]
+  },
+  {
+    "id": "rss-agility-robotics-maker-of-digi-638",
+    "title": "Agility Robotics says it is exploring wheeled robots alongside Digit",
+    "date": "2026-09-25",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/",
+    "summary": "Agility Robotics CEO Jonathan Hurst told The Robot Report the company is exploring a range of designs, including wheels, for different operating environments and customers. A wheeled humanoid appeared in the launch video for Digit 5. Hurst gave no timeline and called it too early to say whether a wheeled product will ship. Agility agreed in June to go public through a SPAC merger.",
+    "category": "Competitive",
+    "companies": [
+      "agility-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "humanoid",
+      "form-factor",
+      "wheels"
+    ]
+  },
+  {
+    "id": "pitpro-first-tire-changing-robot-2026-09",
+    "title": "PitPro puts its first commercial tire-changing robot into a Calgary Kal Tire shop",
+    "date": "2026-09-23",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/23/pitpros-first-tire-changing-robot-goes-live-in-canada/",
+    "summary": "San Francisco startup PitPro Automation installed its first commercial tire-changing system at a Kal Tire location in Calgary, Alberta. The system uses two oven-sized robots that fit an existing service bay and changes a full set of four tires in under 15 minutes. CEO Jeremy Conrad cited a labor shortage in tire shops and the seasonal winter-tire swap as the near-term market. PitPro did not disclose funding in the announcement.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "service-robotics",
+      "automotive",
+      "labor-shortage"
+    ]
+  },
+  {
     "id": "hn-49802789",
     "title": "Show HN: InstinctFlash – High-Performance Serving Runtime for Robotics Models",
     "date": "2026-09-22",
@@ -17281,12 +17969,12 @@
   },
   {
     "id": "obbba-depreciation",
-    "title": "House passes One Big Beautiful Bill with 100% bonus depreciation for automation equipment",
-    "date": "2026-05-10",
-    "source": "Standard Bots",
-    "source_type": "Blog",
-    "source_url": "https://standardbots.com/blog/obbb-robotics",
-    "summary": "The One Big Beautiful Bill Act, as passed by the House, restores 100% bonus depreciation for qualifying equipment placed in service through 2029. Industrial robots, conveyors, welding systems, and palletizers all qualify. The provision reverses the depreciation phaseout that would have hit 0% by 2027, directly improving the unit-economics of robot deployment for US manufacturers.",
+    "title": "IRS guidance confirms permanent 100% bonus depreciation for qualifying equipment",
+    "date": "2026-01-14",
+    "source": "Internal Revenue Service",
+    "source_type": "Primary",
+    "source_url": "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-the-additional-first-year-depreciation-deduction-amended-as-part-of-the-one-big-beautiful-bill",
+    "summary": "Under Public Law 119-21, a permanent 100% first-year deduction generally applies to qualifying property acquired after January 19, 2025. Some industrial equipment may qualify; eligibility is asset- and taxpayer-specific.",
     "category": "Policy",
     "companies": [],
     "policies": [
@@ -17298,12 +17986,11 @@
       "policy-momentum"
     ],
     "sentiment": "Positive",
-    "confidence": "Medium",
+    "confidence": "High",
     "tags": [
-      "federal",
       "tax",
-      "manufacturing",
-      "capex"
+      "equipment",
+      "manufacturing"
     ],
     "archive_url": "https://web.archive.org/web/20260115081542/https://standardbots.com/blog/obbb-robotics"
   },

@@ -3,7 +3,7 @@
 > Living UAT plan. Run the **Critical flows** every pass. **Exploration** is open territory — vary it each run. Update `last_tested` per section as you go. New bugs land in `issues.md`.
 
 _Created: 2026-05-18_
-_Last run: 2026-05-18_ (second pass — added agencies page)
+_Last run: 2026-09-25_ (scheduled full-site refresh: scroll-depth + mobile-overflow pass on all 9 pages, dead-link and console checks)
 _Updated: 2026-06-07_ (documentation update — agencies/news consolidated into policies.html with collapsible sections)
 
 ---
@@ -112,3 +112,35 @@ Ideas worth checking on future runs, in no particular order:
 - Sources with no archive: spot-check that "archived" links don't render when `archive_url` is null. (`RT.archiveLink('')` returns "" so this should hold.)
 - Try clicking very fast through the theme picker (open / click / open another / etc.) — make sure `localStorage` ends up matching the last selection.
 - Open detail panel on `companies.html`, then navigate to another page via the nav — the panel should be torn down, not persist.
+
+---
+
+## Scroll-depth and weight metrics (added 2026-09-25)
+
+Two numbers per page, tracked over time so "too much scrolling" is a measurement, not a feeling.
+
+- **Screens of scroll** = page height / viewport height, read after the height stops changing (a JS-rendered page under-reports if read early). Run `scripts/uat-scroll-probe.js` in the browser on a page served from `docs/` at 1280×800 and 375×812. Budget: **10 screens desktop, 15 phone**. History: `data/metrics/uat-scroll.jsonl`.
+- **First-load weight** = gzip bytes of HTML + local CSS/JS + the `data/*.json` files a page fetches, plus request count. `node scripts/site-metrics.js` (also runs in `npm test`; `--append` logs to `data/metrics/site-metrics.jsonl`). Budget: 260 KB gzip per page. It also fails on any broken internal link or missing local asset.
+
+Baseline and result of the 2026-09-25 pass (desktop / phone screens): companies 12.4 / 11.0 → 4.8 / 5.0 (table capped at 25 rows, Show more / Show all); supply-chain 13.8 / 27.7 → 8.3 / 16.5 (sections collapsed by default, category tables wrapped so the page no longer overflows at 375 px). Still over budget: energy 14.3 / 32.8, policies (phone) 18.3, supply-chain (phone) 16.5. Backlog has the fixes.
+
+Also run each pass:
+
+- `python3 ~/Projects/coding-best-practices/tools/slopcheck.py docs/*.html docs/llms.txt` for writing tells, and the same tool with `--stdin` on any new record copy. Target: 0 FAIL. Remaining WARNs are long analytical sentences in `energy.html` and list lines in `llms.txt`.
+- `python3 ~/Projects/coding-best-practices/tools/designcheck.py docs/` (36 WARN, all `web-font-import`; a design call, see backlog).
+- Companies directory: Show more adds 25, Show all adds the rest, changing a filter resets to 25, and a `?focus=<id>` link still opens the panel for a company beyond row 25.
+
+
+## 2026-09-24 — RFI and action-plan specificity
+
+- Replaced headline-based RFI prioritization with three proposed missions, a common task record, and 32/20/12/7 evidence requests across the existing draft variants. Revision date, variant, and question ID identify responses.
+- Action plan ties proposed six-site work to accountable leads, deliverables, deadlines, replication, installed cost, and buy/retest/stop decisions. Cohort size and deadlines are proposals; older background claims retain their stated research baseline.
+- Verified both pages in Chrome at 375px and 1280px: no horizontal overflow, broken local anchors, or page errors. All four draft buttons render expected question counts. Letter print remains seven pages.
+- Checks: npm test, npm run validate, npm run bake:check, git diff --check.
+
+
+## 2026-09-24 — Executive-order conversion
+
+- Converted the action-plan page into an unofficial nine-section executive-order draft. Preserved the URL and prior section anchors; updated navigation, RFI cross-link, metadata, README, and llms.txt.
+- Added presidential authority language, signing-relative deadlines, agency responsibilities, voluntary non-Federal participation, appropriations limits, and standard general provisions. Drafting sources sit outside the operative text.
+- Verified Chrome at 375px and 1280px, local anchors, RFI variant toggles, and page errors. Print: five pages of draft order plus one page of drafting notes. Full tests, validation, static rendering, and diff checks pass.

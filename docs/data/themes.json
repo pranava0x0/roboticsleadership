@@ -276,7 +276,7 @@
   {
     "id": "policy-momentum",
     "name": "Federal Policy Momentum",
-    "narrative": "After years of dispersed activity, 2026 brought concentrated movement: HR 7334 (National Commission on Robotics) and HR 8189 (American Security Robotics Act) introduced in the 119th Congress; the One Big Beautiful Bill Act includes 100% bonus depreciation favoring automation capex; Robots For America launched May 11, 2026 as the industry's coordinated coalition. The watch list for the next six months: whether HR 7334 advances out of committee, OBBB final passage with depreciation provisions intact, and Replicator Tranche 2 size.",
+    "narrative": "The July 2025 AI Action Plan and August 2026 National Security Science and Technology Strategy give federal AI, manufacturing, research, and security priorities, but neither is a dedicated commercial robotics plan. H.R. 7334 and H.R. 8189 are tracked proposals. Public Law 119-21 enacted permanent 100% first-year depreciation for eligible business equipment acquired after January 19, 2025. The FCC added certain foreign-produced advanced robotic devices to its Covered List in July 2026 and clarified conditional approvals in September. Commerce still lists its robotics and industrial machinery Section 232 matter as an investigation; no robotics tariff is implied by that listing.",
     "direction": "Accelerating",
     "key_metrics": [
       {
@@ -317,15 +317,15 @@
     "government_intervention_ready": true,
     "recommended_actions": [
       "Track HR 7334 markup schedule — likely a leading indicator of broader federal alignment",
-      "Engage on OBBB conference negotiations to preserve depreciation language",
-      "Coalition (Robots For America) testimony at upcoming House Science / Armed Services hearings"
+      "Track IRS guidance for eligible automation equipment under enacted Public Law 119-21",
+      "Track FCC conditional approvals and Commerce Section 232 investigation outcomes"
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-09-22"
   },
   {
     "id": "physical-ai",
     "name": "Physical AI (\"AI with a body\")",
-    "narrative": "Physical AI — AI systems that perceive, reason about and act on the material world — became the dominant venture framing of 2026. Eclipse Ventures raised a dedicated $1.3B physical-AI fund (Apr 2026), and a16z, Lux, CapitalG, NVIDIA and SoftBank are all backing the category. Two layers are forming: (1) horizontal robot foundation-model labs (Physical Intelligence, Skild, Field AI, Generalist, Dyna) selling a \"brain\" that runs across many bodies, and (2) vertical players embedding embodied AI into specific machines — driving (Wayve), construction (Bedrock), delivery (Serve). The open question mirrors the foundation-models debate: does the value accrue to the model, the body, or the deployment?",
+    "narrative": "Physical AI — AI systems that perceive, reason about and act on the material world — became the dominant venture framing of 2026. Eclipse Ventures raised a dedicated $1.3B physical-AI fund (Apr 2026), and a16z, Lux, CapitalG, NVIDIA and SoftBank are all backing the category. Two layers are forming: (1) horizontal robot foundation-model labs (Physical Intelligence, Skild, Field AI, Generalist, Dyna) selling a \"brain\" that runs across many bodies, and (2) vertical players embedding embodied AI into specific machines — driving (Wayve), construction (Bedrock), delivery (Serve). Open datasets and tools now include DROID, Open X-Embodiment, LeRobot, and Eidon first-person recordings. The open question is how performance transfers between robot bodies and real workplaces; published dataset size does not establish deployment success.",
     "direction": "Accelerating",
     "key_metrics": [
       {
@@ -362,6 +362,14 @@
       {
         "label": "NVIDIA — taking Physical AI to the real world",
         "url": "https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world"
+      },
+      {
+        "label": "DROID — open manipulation dataset",
+        "url": "https://droid-dataset.github.io/"
+      },
+      {
+        "label": "LeRobot — open robotics data format",
+        "url": "https://huggingface.co/docs/lerobot/main/index"
       }
     ],
     "related_companies": [
@@ -382,7 +390,7 @@
       "Fund shared real-world robot data / sim infrastructure (NSF / NAIRR analogue) so value is not captured only by the best-capitalized labs",
       "Watch foreign capital concentration in physical-AI startups for supply-chain + national-security exposure"
     ],
-    "last_updated": "2026-06-01"
+    "last_updated": "2026-09-22"
   },
   {
     "id": "us-supply-chain",

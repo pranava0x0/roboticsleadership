@@ -1,160 +1,144 @@
 [
   {
-    "id": "fedreg-2026-12921",
-    "title": "Air Plan Approval; Ohio; Source-Specific Non-CTG RACT and SIP Strengthening for Ohio",
-    "type": "Regulation",
+    "id": "nist-mep-centers-awards-2026",
+    "title": "NIST MEP center awards for advanced manufacturing adoption",
+    "type": "Initiative",
     "level": "Federal",
     "state": "N/A",
-    "introduced_date": "2026-06-26",
+    "introduced_date": "2026-09-15",
+    "status": "Active",
+    "bill_number": "NIST Manufacturing Extension Partnership",
+    "sponsor": "National Institute of Standards and Technology",
+    "summary": "NIST announced more than $30 million in first-year awards for 12 MEP centers in 11 states and Puerto Rico. Cooperative agreements target small and medium-sized manufacturers adopting AI, robotics, automation, and additive manufacturing; awardees must secure at least 50% nonfederal matching funds. This is not a robotics-only grant to individual startups.",
+    "full_text_url": "https://www.nist.gov/news-events/news/2026/09/nist-awards-more-30-million-mep-centers-11-states-and-puerto-rico",
+    "robotics_scope": "Technical assistance and adoption metrics for small and medium-sized manufacturers.",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "MEP centers",
+      "Small and medium-sized manufacturers"
+    ],
+    "agency_responsible": [
+      "nist"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "manufacturing",
+      "adoption",
+      "mep",
+      "award"
+    ],
+    "themes": [
+      "policy-momentum",
+      "industrial-deployments"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nist.gov/news-events/news/2026/09/nist-awards-more-30-million-mep-centers-11-states-and-puerto-rico"
+      }
+    ],
+    "last_updated": "2026-09-22"
+  },
+  {
+    "id": "ostp-nssts-2026",
+    "type": "Initiative",
+    "level": "Federal",
+    "state": "N/A",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "national-strategy"
+    ],
+    "themes": [
+      "policy-momentum"
+    ],
+    "last_updated": "2026-09-22",
+    "title": "2026 National Security Science and Technology Strategy",
+    "introduced_date": "2026-08",
     "status": "In effect",
-    "bill_number": "2026-12921",
-    "sponsor": "Federal Agency",
-    "summary": "The Environmental Protection Agency (EPA) is approving source- specific State Implementation Plan (SIP) revisions submitted by Ohio. These revisions address major source volatile organic compound (VOC) and nitrogen oxide (NO<INF>X</INF>) reasonably available control technology (RACT) requirements for the Cleveland, OH Moderate nonattainment area for the 2015 ozone National Ambient Air Quality Standard (NAAQS or standard). The affected facilities include PPG Industries Ohio, Inc. (PPG), Owens Corning, Akron Paint and Varnish, Charter Steel, U. S. Steel Tubular Lorain, Carmeuse Lime, and Ross Incineration. The EPA is also approving source-specific SIP revisions for General Electric Aviation Evendale and Tyson Foods for the Cincinnati maintenance area for the 2015 ozone standard. Finally, the EPA is rescinding the source-specific VOC RACT rule for Formica Corporation since it is subject to an equivalent CTG-based rule in the Ohio Administrative Code (OAC). The EPA proposed to approve this action on February 27, 2026, and received five comments.",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12921/air-plan-approval-ohio-source-specific-non-ctg-ract-and-sip-strengthening-for-ohio",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
+    "bill_number": "42 USC §19221",
+    "sponsor": "White House OSTP",
+    "summary": "The 2026 NSSTS sets four pillars: focused technological competition, resilience, innovation speed, and protection of national-security S&T. It covers federal R&D, nonfederal partnerships, and cooperation with allies.",
+    "full_text_url": "https://www.whitehouse.gov/wp-content/uploads/2026/08/NSSTS-082026.pdf",
+    "robotics_scope": "Autonomous systems, industrial capacity, research security, test infrastructure, and trusted partners are relevant cross-cutting areas.",
+    "agency_responsible": [
+      "ostp"
     ],
-    "themes": [],
     "sources": [
       {
-        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12921/air-plan-approval-ohio-source-specific-non-ctg-ract-and-sip-strengthening-for-ohio"
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2026/08/NSSTS-082026.pdf"
       }
-    ],
-    "last_updated": "2026-06-27"
+    ]
   },
   {
-    "id": "fedreg-2026-12534",
-    "title": "Foreign-Trade Zone (FTZ) 18, Notification of Proposed Production Activity; KLA Corporation; (Semiconductor Wafer Fabrication Tools); Milpitas, California",
-    "type": "Regulation",
+    "id": "ostp-nstm5-fy2028",
+    "type": "Initiative",
     "level": "Federal",
     "state": "N/A",
-    "introduced_date": "2026-06-23",
-    "status": "Introduced",
-    "bill_number": "2026-12534",
-    "sponsor": "Federal Agency",
-    "summary": "Foreign-Trade Zone (FTZ) 18, Notification of Proposed Production Activity; KLA Corporation; (Semiconductor Wafer Fabrication Tools); Milpitas, California",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/06/23/2026-12534/foreign-trade-zone-ftz-18-notification-of-proposed-production-activity-kla-corporation-semiconductor",
-    "robotics_scope": "Federal Register publication",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "themes": [],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2026/06/23/2026-12534/foreign-trade-zone-ftz-18-notification-of-proposed-production-activity-kla-corporation-semiconductor"
-      }
-    ],
-    "last_updated": "2026-06-24"
-  },
-  {
-    "id": "fedreg-2026-12352",
-    "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-ODVA, Inc.",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-06-22",
-    "status": "Introduced",
-    "bill_number": "2026-12352",
-    "sponsor": "Federal Agency",
-    "summary": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-ODVA, Inc.",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/06/22/2026-12352/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-odva-inc",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
+      "federal",
+      "national-strategy"
     ],
     "themes": [
       "policy-momentum"
     ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2026/06/22/2026-12352/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-odva-inc"
-      }
-    ],
-    "last_updated": "2026-06-23"
-  },
-  {
-    "id": "fedreg-2026-11571",
-    "title": "Notice of Availability of Designation of Chinese Military Companies",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-06-10",
-    "status": "Introduced",
-    "bill_number": "2026-11571",
-    "sponsor": "Federal Agency",
-    "summary": "The Deputy Secretary of Defense has determined that the entities listed in the SUPPLEMENTARY INFORMATION section of this notice satisfy the requirements to be designated as a \"Chinese military company.\"",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "themes": [
-      "china-scale",
-      "defense-procurement"
+    "last_updated": "2026-09-22",
+    "title": "NSTM-5 — FY2028 Administration R&D Budget Priorities",
+    "introduced_date": "2026-07",
+    "status": "In effect",
+    "bill_number": "NSTM-5",
+    "sponsor": "White House OSTP and OMB",
+    "summary": "The FY2028 R&D priority memorandum frames a new golden age of science through federal research investment, mission focus, scientific infrastructure, and private-sector participation.",
+    "full_text_url": "https://www.whitehouse.gov/wp-content/uploads/2026/07/Science-A-New-Golden-Age.pdf",
+    "robotics_scope": "Research priorities and infrastructure channels relevant to robotics, autonomous experimentation, manufacturing, and scientific instruments.",
+    "agency_responsible": [
+      "ostp"
     ],
     "sources": [
       {
-        "url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2026/07/Science-A-New-Golden-Age.pdf"
       }
-    ],
-    "last_updated": "2026-06-15"
+    ]
   },
   {
-    "id": "fedreg-2026-11379",
-    "title": "Self-Regulatory Organizations; The Nasdaq Stock Market LLC; Noticing of Filing of Amendment No. 1 and Order Granting Accelerated Approval of a Proposed Rule Change, as Modified by Amendment No. 1, To Adopt Listing Rule IM-5101-4",
-    "type": "Regulation",
+    "id": "nspm11-2026",
+    "type": "Initiative",
     "level": "Federal",
     "state": "N/A",
-    "introduced_date": "2026-06-08",
-    "status": "Introduced",
-    "bill_number": "2026-11379",
-    "sponsor": "Federal Agency",
-    "summary": "Self-Regulatory Organizations; The Nasdaq Stock Market LLC; Noticing of Filing of Amendment No. 1 and Order Granting Accelerated Approval of a Proposed Rule Change, as Modified by Amendment No. 1, To Adopt Listing Rule IM-5101-4",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/06/08/2026-11379/self-regulatory-organizations-the-nasdaq-stock-market-llc-noticing-of-filing-of-amendment-no-1-and",
-    "robotics_scope": "Federal Register publication",
     "estimated_budget_usd": null,
     "beneficiaries": [],
-    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "tags": [
-      "federal-register",
-      "federal"
+      "federal",
+      "national-strategy"
     ],
     "themes": [
       "policy-momentum"
     ],
+    "last_updated": "2026-09-22",
+    "title": "National Security Presidential Memorandum 11",
+    "introduced_date": "2026-06-05",
+    "status": "In effect",
+    "bill_number": "NSPM-11",
+    "sponsor": "The White House",
+    "summary": "The memorandum addresses national-security uses of AI and federal coordination. It is a national-security directive, not a general commercial robotics rule.",
+    "full_text_url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/",
+    "robotics_scope": "Relevant to defense AI and autonomous-system governance within federal national-security missions.",
+    "agency_responsible": [],
     "sources": [
       {
-        "url": "https://www.federalregister.gov/documents/2026/06/08/2026-11379/self-regulatory-organizations-the-nasdaq-stock-market-llc-noticing-of-filing-of-amendment-no-1-and"
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/"
       }
-    ],
-    "last_updated": "2026-06-08"
+    ]
   },
   {
     "id": "great-american-ai-act-2026",
@@ -246,89 +230,55 @@
     "last_updated": "2026-06-04"
   },
   {
-    "id": "fedreg-2026-10969",
-    "title": "Pipeline Safety: Breakout Tank Inspection Rule",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-06-02",
-    "status": "Introduced",
-    "bill_number": "2026-10969",
-    "sponsor": "Federal Agency",
-    "summary": "Breakout tanks are used to \"relieve surges in a hazardous liquid pipeline system\" or to \"receive and store hazardous liquid transported by a pipeline for reinjection and continued transportation by pipeline.\" American Petroleum Institute Standard 653 (API Std 653) sets industry standards for the inspection, repair, alteration, and reconstruction of aboveground storage tanks. PHMSA currently incorporates the 3rd edition of API Std 653 (issued December 2001) by reference into its regulations for breakout tanks. In this rulemaking, PHMSA is proposing to update its regulations for breakout tanks to incorporate the 5th edition of API Std 653 (issued November 2014) by reference. As a key part of this, PHMSA is proposing to authorize the use of risk-based inspection (RBI) procedures for establishing the inspection intervals of in-service breakout tanks.",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/06/02/2026-10969/pipeline-safety-breakout-tank-inspection-rule",
-    "robotics_scope": "Federal Register publication",
+    "type": "Bill",
+    "level": "City",
+    "state": "PA",
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "tags": [
-      "federal-register",
-      "federal"
+      "policy-momentum"
     ],
-    "themes": [],
+    "themes": [
+      "policy-momentum",
+      "industrial-deployments"
+    ],
+    "last_updated": "2026-09-22",
+    "title": "Philadelphia — Bill 260526, autonomous delivery unit fees and registration",
+    "introduced_date": "2026-05-14",
+    "status": "Committee",
+    "bill_number": "Bill 260526",
+    "sponsor": "Philadelphia City Council",
+    "summary": "The proposed ordinance would register some delivery workers and autonomous delivery units and impose a $1,000 fee per sidewalk delivery by an autonomous unit. The city legislative record lists it in committee as of September 2026; the fee is not in effect.",
+    "full_text_url": "https://phila.legistar.com/LegislationDetail.aspx?From=RSS&FullText=1&GUID=CE66787D-5BD4-467C-8259-4E1CCF17F7C6&ID=8029006",
+    "robotics_scope": "Proposed local rules and fee for sidewalk delivery robots.",
     "sources": [
       {
-        "url": "https://www.federalregister.gov/documents/2026/06/02/2026-10969/pipeline-safety-breakout-tank-inspection-rule"
+        "url": "https://phila.legistar.com/LegislationDetail.aspx?From=RSS&FullText=1&GUID=CE66787D-5BD4-467C-8259-4E1CCF17F7C6&ID=8029006"
       }
     ],
-    "last_updated": "2026-06-08"
-  },
-  {
-    "id": "fedreg-2026-10697",
-    "title": "Proposal Review Panel for Computer and Network Systems; Committee Renewal",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-05-29",
-    "status": "Introduced",
-    "bill_number": "2026-10697",
-    "sponsor": "Federal Agency",
-    "summary": "The National Science Foundation (NSF) is renewing the committee for Proposal Review Panel for Computer and Network Systems.",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/05/29/2026-10697/proposal-review-panel-for-computer-and-network-systems-committee-renewal",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [
-      "nsf"
-    ],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2026/05/29/2026-10697/proposal-review-panel-for-computer-and-network-systems-committee-renewal"
-      }
-    ],
-    "last_updated": "2026-06-01",
-    "themes": []
+    "id": "phila-bill-260526-delivery"
   },
   {
     "id": "rfa-coalition-launch",
     "title": "Robots For America Coalition Policy Framework",
-    "type": "Executive Order",
+    "type": "Initiative",
     "level": "Federal",
     "state": "N/A",
     "introduced_date": "2026-05-11",
-    "status": "Introduced",
+    "status": "Active",
     "bill_number": "Industry framework (not legislation)",
     "sponsor": "Robots For America coalition",
-    "summary": "Industry coalition launched at the SCSP AI+ Expo in Washington, D.C., publishing a five-pillar policy framework: (1) reduce financial risk of robotic pilots, (2) modernize tax treatment of automation, (3) streamline regulation, (4) build workforce, (5) enable autonomous logistics. Not law, but signals the industry's coordinated ask.",
+    "summary": "Robots For America is a private industry coalition that released a federal policy agenda in May 2026 on deployment finance, tax, regulation, workforce, and logistics. It is not a government order or enacted policy.",
     "full_text_url": "https://www.design-engineering.com/robots-for-america-launches-national-coalition-to-advance-u-s-robotics-deployment-policy-1004048555/",
-    "robotics_scope": "Industry coalition policy framework",
+    "robotics_scope": "Non-government proposals aimed at federal robotics policy; included as stakeholder context.",
     "estimated_budget_usd": null,
     "beneficiaries": [
       "All US robotics companies"
     ],
-    "agency_responsible": [
-      "doc",
-      "dol",
-      "dot"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "tags": [
@@ -343,25 +293,87 @@
         "url": "https://www.design-engineering.com/robots-for-america-launches-national-coalition-to-advance-u-s-robotics-deployment-policy-1004048555/"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-09-22",
     "themes": [
       "policy-momentum"
     ]
   },
   {
-    "id": "doe-genesis-mission",
-    "title": "DOE Genesis Mission",
-    "type": "Incentive Program",
+    "type": "Bill",
+    "level": "State",
+    "state": "CO",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "policy-momentum"
+    ],
+    "themes": [
+      "policy-momentum"
+    ],
+    "last_updated": "2026-09-22",
+    "title": "Colorado — SB 26-189 Automated Decision-Making Technology Act",
+    "introduced_date": "2026-05",
+    "status": "Signed",
+    "bill_number": "SB 26-189",
+    "sponsor": "Colorado General Assembly",
+    "summary": "Colorado repealed and reenacted its high-risk AI consumer-protection provisions in 2026. The new ADMT Act governs automated technology that materially influences consequential decisions and takes effect January 1, 2027. The Attorney General is preparing rules; it is not a general robot-operation code.",
+    "full_text_url": "https://coag.gov/ai/",
+    "robotics_scope": "Potential effect only where a robot-enabled system materially influences a covered consequential decision; ordinary physical robot operation is not automatically in scope.",
+    "sources": [
+      {
+        "url": "https://coag.gov/ai/"
+      }
+    ],
+    "id": "co-sb26-189-admt"
+  },
+  {
+    "type": "Initiative",
     "level": "Federal",
     "state": "N/A",
-    "introduced_date": "2026-05",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "policy-momentum"
+    ],
+    "themes": [
+      "policy-momentum"
+    ],
+    "last_updated": "2026-09-22",
+    "title": "White House National AI Legislative Framework",
+    "introduced_date": "2026-03-20",
+    "status": "Draft",
+    "bill_number": null,
+    "sponsor": "The White House",
+    "summary": "March 2026 legislative recommendations ask Congress to establish a federal AI framework that limits certain state AI laws while preserving specified state roles. It is a recommendation to Congress, not enacted preemption.",
+    "full_text_url": "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
+    "robotics_scope": "Possible future interaction with state rules for AI models and robot deployment; current state law remains applicable unless displaced by enacted law.",
+    "sources": [
+      {
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf"
+      }
+    ],
+    "id": "white-house-ai-framework-2026"
+  },
+  {
+    "id": "doe-genesis-mission",
+    "title": "DOE Genesis Mission",
+    "type": "Initiative",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2025-11-24",
     "status": "In effect",
     "bill_number": "DOE Office of Science",
     "sponsor": "Department of Energy",
-    "summary": "Office of Science initiative investing $320M in FY26 across 14 robotics and automated-lab projects (including OPAL at PNNL for agentic biology design-build-test-learn, ACMAS for autonomous nuclear-materials characterization, and SYNAPS-I at LBNL for autonomous imaging at neutron/photon facilities).",
-    "full_text_url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
-    "robotics_scope": "Autonomous research laboratories and robotics R&D",
-    "estimated_budget_usd": 320000000,
+    "summary": "The Genesis Mission, launched in November 2025, links DOE national laboratories, scientific data, AI, and experimental platforms. DOE launched a consortium in February 2026; robotics and automation are among relevant enabling technologies. The program is broader than the earlier dashboard description of 14 robotics projects.",
+    "full_text_url": "https://www.energy.gov/articles/energy-department-launches-genesis-mission-consortium-accelerate-ai-driven-scientific",
+    "robotics_scope": "Autonomous science, laboratory automation, and robotics relevant to DOE research missions.",
+    "estimated_budget_usd": null,
     "beneficiaries": [
       "National labs",
       "Academic researchers",
@@ -380,18 +392,10 @@
     ],
     "sources": [
       {
-        "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
-        "archive_url": "https://web.archive.org/web/20260528152035/https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
-      },
-      {
-        "url": "https://www.executivegov.com/articles/doe-investment-genesis-mission-ai",
-        "archive_url": "https://web.archive.org/web/20260415193949/https://www.executivegov.com/articles/doe-investment-genesis-mission-ai"
-      },
-      {
-        "url": "https://www.hpcwire.com/2026/05/04/inside-the-doe-genesis-mission-core-components/"
+        "url": "https://www.energy.gov/articles/energy-department-launches-genesis-mission-consortium-accelerate-ai-driven-scientific"
       }
     ],
-    "last_updated": "2026-05-22",
+    "last_updated": "2026-09-22",
     "themes": [
       "industrial-deployments",
       "policy-momentum"
@@ -627,68 +631,6 @@
     ]
   },
   {
-    "id": "fedreg-2026-05925",
-    "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-The National Advanced Mobility Consortium, Inc. (Formerly Known as the Robotics Technology Consortium)",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-03-26",
-    "status": "Introduced",
-    "bill_number": "2026-05925",
-    "sponsor": "Federal Agency",
-    "summary": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-The National Advanced Mobility Consortium, Inc. (Formerly Known as the Robotics Technology Consortium)",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/03/26/2026-05925/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-the-national",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2026/03/26/2026-05925/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-the-national"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": [
-      "policy-momentum"
-    ]
-  },
-  {
-    "id": "fedreg-2026-04729",
-    "title": "DEKRA Certification Inc.: Grant of Expansion of Recognition and Modification to the NRTL Program's List of Appropriate Test Standards",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-03-11",
-    "status": "Introduced",
-    "bill_number": "2026-04729",
-    "sponsor": "Federal Agency",
-    "summary": "In this notice, OSHA announces the final decision to expand the scope of recognition for DEKRA Certification Inc., as a Nationally Recognized Testing Laboratory (NRTL). Additionally, OSHA announces the final decision to add one test standard to the NRTL Program's List of Appropriate Test Standards.",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/03/11/2026-04729/dekra-certification-inc-grant-of-expansion-of-recognition-and-modification-to-the-nrtl-programs-list",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2026/03/11/2026-04729/dekra-certification-inc-grant-of-expansion-of-recognition-and-modification-to-the-nrtl-programs-list"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": []
-  },
-  {
     "id": "fr-initiation-of-section-301-investigations-acts-policies-and-practices-of-certain-economi",
     "title": "Initiation of Section 301 Investigations: Acts, Policies, and Practices of Certain Economies Relating to Structural Excess Capacity and Production in Manufacturing Sectors",
     "type": "Regulation",
@@ -797,102 +739,6 @@
     ]
   },
   {
-    "id": "fedreg-2026-02906",
-    "title": "Government Owned Inventions Available for License: Gait Assistance Systems and Methods of Control Thereof",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-02-13",
-    "status": "Introduced",
-    "bill_number": "2026-02906",
-    "sponsor": "Federal Agency",
-    "summary": "The Clinical Center (CC), an institute/center of the National Institutes of Health (NIH), Department of Health and Human Services (HHS), is giving notice of the license opportunity for the invention listed below, which is owned by an agency of the U.S. Government and is available to achieve expeditious commercialization of results of federally-funded research and development.",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/02/13/2026-02906/government-owned-inventions-available-for-license-gait-assistance-systems-and-methods-of-control",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [
-      "nih"
-    ],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2026/02/13/2026-02906/government-owned-inventions-available-for-license-gait-assistance-systems-and-methods-of-control"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": []
-  },
-  {
-    "id": "fedreg-2026-02596",
-    "title": "Notice of Intent To Grant a Partially Exclusive Patent License",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-02-10",
-    "status": "Introduced",
-    "bill_number": "2026-02596",
-    "sponsor": "Federal Agency",
-    "summary": "Pursuant to the Bayh-Dole Act and implementing regulations, the Department of the Air Force hereby gives notice of its intent to grant a partially exclusive, the field to include foreign object debris detection on paved surfaces, patent license to Airtrek Robotics, Inc. having a place of business at 2900 Reading Road, Cincinnati, OH 45206.",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/02/10/2026-02596/notice-of-intent-to-grant-a-partially-exclusive-patent-license",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2026/02/10/2026-02596/notice-of-intent-to-grant-a-partially-exclusive-patent-license"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": [
-      "defense-procurement"
-    ]
-  },
-  {
-    "id": "fedreg-2026-02285",
-    "title": "Petition for Reconsideration of Action in Rulemaking Proceeding Application for Review of Action in Rulemaking Proceeding",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-02-05",
-    "status": "Introduced",
-    "bill_number": "2026-02285",
-    "sponsor": "Federal Agency",
-    "summary": "Petition for Reconsideration (Petition) has been filed in the Commission's proceeding by Travis LeBlanc on behalf of SZ DJI Technology Co., Ltd. Application for Review (AFR) has been filed in the Commission's proceeding by Fan Liang, Zhiyu Liang on behalf of Autel Robotics Co., Ltd.",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/02/05/2026-02285/petition-for-reconsideration-of-action-in-rulemaking-proceeding-application-for-review-of-action-in",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2026/02/05/2026-02285/petition-for-reconsideration-of-action-in-rulemaking-proceeding-application-for-review-of-action-in"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": [
-      "policy-momentum"
-    ]
-  },
-  {
     "id": "spaceforce-otter-contract",
     "title": "Space Force Otter Spacecraft Contract",
     "type": "Procurement",
@@ -979,38 +825,6 @@
       }
     ],
     "last_updated": "2026-05-17",
-    "themes": [
-      "policy-momentum"
-    ]
-  },
-  {
-    "id": "fedreg-2026-00091",
-    "title": "Agency Information Collection Activities: Supplemental Nutrition Assistance Program (SNAP): A Review of Major Changes in Program Design and Management Evaluation Systems",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-01-07",
-    "status": "Introduced",
-    "bill_number": "2026-00091",
-    "sponsor": "Federal Agency",
-    "summary": "In accordance with the Paperwork Reduction Act of 1995, this notice invites the general public and other public agencies to comment on this proposed information collection. This is a revision of a currently approved collection. This information collection is associated with State agencies' notification and data collection activities associated with Supplemental Nutrition Assistance Program review of major changes in program design at the State level.",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/01/07/2026-00091/agency-information-collection-activities-supplemental-nutrition-assistance-program-snap-a-review-of",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2026/01/07/2026-00091/agency-information-collection-activities-supplemental-nutrition-assistance-program-snap-a-review-of"
-      }
-    ],
-    "last_updated": "2026-05-22",
     "themes": [
       "policy-momentum"
     ]
@@ -1103,17 +917,17 @@
   },
   {
     "id": "obbba-bonus-depreciation",
-    "title": "One Big Beautiful Bill Act — 100% Bonus Depreciation",
-    "type": "Bill",
+    "title": "100% bonus depreciation under Public Law 119-21",
+    "type": "Incentive Program",
     "level": "Federal",
     "state": "N/A",
-    "introduced_date": "2026-01",
-    "status": "Passed House",
-    "bill_number": "H.R. 1 (consolidated)",
-    "sponsor": "House Republican leadership",
-    "summary": "Restores 100% bonus depreciation through 2029 for qualifying equipment placed in service, including industrial robots, conveyors, welding systems, and automated palletizers. Reverses the 2023–2027 phaseout that would have dropped bonus depreciation to 0% by 2027.",
-    "full_text_url": "https://www.congress.gov/",
-    "robotics_scope": "Tax treatment of automation capex",
+    "introduced_date": "2025-07-04",
+    "status": "In effect",
+    "bill_number": "Public Law 119-21, §70301; 26 USC §168(k)",
+    "sponsor": "Congress; Treasury and IRS implementation",
+    "summary": "Permanent 100% additional first-year depreciation is available for qualified property acquired after January 19, 2025. Eligible machinery and equipment may qualify; treatment depends on the asset and taxpayer. This is an enacted tax provision, not a robotics-only credit.",
+    "full_text_url": "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-the-additional-first-year-depreciation-deduction-amended-as-part-of-the-one-big-beautiful-bill",
+    "robotics_scope": "Potential first-year deduction for eligible purchased automation equipment; asset-specific tax rules apply.",
     "estimated_budget_usd": null,
     "beneficiaries": [
       "All US manufacturers buying robots",
@@ -1128,18 +942,17 @@
     "application_url": null,
     "tags": [
       "federal",
-      "passed-house",
+      "in-effect",
       "tax",
       "manufacturing",
       "capex"
     ],
     "sources": [
       {
-        "url": "https://standardbots.com/blog/obbb-robotics",
-        "archive_url": "https://web.archive.org/web/20260115081542/https://standardbots.com/blog/obbb-robotics"
+        "url": "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-the-additional-first-year-depreciation-deduction-amended-as-part-of-the-one-big-beautiful-bill"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-09-22",
     "archive_url": "https://web.archive.org/web/20260517181442/https://www.congress.gov/",
     "themes": [
       "policy-momentum"
@@ -1151,11 +964,11 @@
     "type": "Standard",
     "level": "Federal",
     "state": "N/A",
-    "introduced_date": "2026-01",
+    "introduced_date": "2026-04-20",
     "status": "In development",
     "bill_number": "NIST Benchmark",
     "sponsor": "NIST Intelligent Systems Division",
-    "summary": "Locomotion and manipulation test protocols for humanoid robots. NIST will fabricate and freely distribute test apparatuses to U.S. humanoid manufacturers and regional testing facilities as physical and virtual testbeds.",
+    "summary": "NIST is developing baseline humanoid performance benchmarks, test apparatus, and protocols for mobility and manipulation. The public project page describes planned work; it does not establish a completed certification standard.",
     "full_text_url": "https://www.nist.gov/el/intelligent-systems-division-73500/humanoid-robot-baseline-performance-benchmark",
     "robotics_scope": "Humanoid performance metrics and baseline standards",
     "estimated_budget_usd": null,
@@ -1180,7 +993,7 @@
         "archive_url": "https://web.archive.org/web/20260503164535/https://www.nist.gov/el/intelligent-systems-division-73500/humanoid-robot-baseline-performance-benchmark"
       }
     ],
-    "last_updated": "2026-05-22",
+    "last_updated": "2026-09-22",
     "themes": [
       "industrial-deployments",
       "cost-trajectory",
@@ -1267,38 +1080,6 @@
     "archive_url": "https://web.archive.org/web/20260528104122/https://www.darpa.mil/research/programs/robotic-servicing-of-geosynchronous-satellites"
   },
   {
-    "id": "fedreg-2025-24076",
-    "title": "UL LLC: Grant of Expansion of Recognition and Modification to the NRTL Program's List of Appropriate Test Standards",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2025-12-31",
-    "status": "Introduced",
-    "bill_number": "2025-24076",
-    "sponsor": "Federal Agency",
-    "summary": "In this notice, OSHA announces the final decision to expand the scope of recognition for UL LLC, as a Nationally Recognized Testing Laboratory (NRTL). Additionally, OSHA will add one standard to the NRTL Program's List of Appropriate Test Standards.",
-    "full_text_url": "https://www.federalregister.gov/documents/2025/12/31/2025-24076/ul-llc-grant-of-expansion-of-recognition-and-modification-to-the-nrtl-programs-list-of-appropriate",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2025/12/31/2025-24076/ul-llc-grant-of-expansion-of-recognition-and-modification-to-the-nrtl-programs-list-of-appropriate",
-        "archive_url": "https://web.archive.org/web/20260108232313/https://www.federalregister.gov/documents/2025/12/31/2025-24076/ul-llc-grant-of-expansion-of-recognition-and-modification-to-the-nrtl-programs-list-of-appropriate"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": [],
-    "archive_url": "https://web.archive.org/web/20260108232313/https://www.federalregister.gov/documents/2025/12/31/2025-24076/ul-llc-grant-of-expansion-of-recognition-and-modification-to-the-nrtl-programs-list-of-appropriate"
-  },
-  {
     "id": "fr-hazardous-materials-modernizing-regulations-to-facilitate-transportation-of-hazardous-m",
     "title": "Hazardous Materials: Modernizing Regulations To Facilitate Transportation of Hazardous Materials Using Highly Automated Transportation Systems",
     "type": "Regulation",
@@ -1331,50 +1112,18 @@
     "themes": []
   },
   {
-    "id": "fedreg-2025-18778",
-    "title": "UL LLC: Application for Expansion of Recognition and Proposed Modification to the NRTL Program's List of Appropriate Test Standards",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2025-09-29",
-    "status": "Introduced",
-    "bill_number": "2025-18778",
-    "sponsor": "Federal Agency",
-    "summary": "In this notice, OSHA announces the application of UL LLC, for expansion of the scope of recognition as a Nationally Recognized Testing Laboratory (NRTL) and presents the agency's preliminary finding to grant the application. Additionally, OSHA proposes to add one test standard to the NRTL Program's List of Appropriate Test Standards.",
-    "full_text_url": "https://www.federalregister.gov/documents/2025/09/29/2025-18778/ul-llc-application-for-expansion-of-recognition-and-proposed-modification-to-the-nrtl-programs-list",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2025/09/29/2025-18778/ul-llc-application-for-expansion-of-recognition-and-proposed-modification-to-the-nrtl-programs-list",
-        "archive_url": "https://web.archive.org/web/20260115025632/https://www.federalregister.gov/documents/2025/09/29/2025-18778/ul-llc-application-for-expansion-of-recognition-and-proposed-modification-to-the-nrtl-programs-list"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": [],
-    "archive_url": "https://web.archive.org/web/20260115025632/https://www.federalregister.gov/documents/2025/09/29/2025-18778/ul-llc-application-for-expansion-of-recognition-and-proposed-modification-to-the-nrtl-programs-list"
-  },
-  {
     "id": "fedreg-2025-18749",
-    "title": "Notice of Request for Public Comments on Section 232 National Security Investigation of Imports of Robotics and Industrial Machinery",
+    "title": "Commerce Section 232 investigation — robotics and industrial machinery imports",
     "type": "Regulation",
     "level": "Federal",
     "state": "N/A",
-    "introduced_date": "2025-09-26",
-    "status": "Introduced",
+    "introduced_date": "2025-09-02",
+    "status": "In development",
     "bill_number": "2025-18749",
     "sponsor": "Federal Agency",
-    "summary": "On September 2, 2025, the Secretary of Commerce initiated an investigation to determine the effects on the national security of imports of robotics and industrial machinery. This investigation has been initiated under section 232 of the Trade Expansion Act of 1962, as amended (Section 232). Interested parties are invited to submit written comments, data, analyses, or other information pertinent to the investigation to the Department of Commerce's (Department) Bureau of Industry and Security (BIS), Office of Strategic Industries and Economic Security. This notice identifies issues on which the Department is especially interested in obtaining the public's views.",
+    "summary": "The Commerce Department initiated a national-security investigation into imports of robotics and industrial machinery in September 2025 and sought public comments. BIS still lists it as an investigation; this record does not indicate a final tariff or finding.",
     "full_text_url": "https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of",
-    "robotics_scope": "Federal Register publication",
+    "robotics_scope": "Potential import-policy exposure for robotics and industrial machinery; product coverage and outcome remain unresolved.",
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
@@ -1388,113 +1137,17 @@
     ],
     "sources": [
       {
-        "url": "https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of",
-        "archive_url": "https://web.archive.org/web/20260204165838/https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of"
+        "url": "https://www.bis.gov/about-bis/bis-leadership-and-offices/SIES/section-232-investigations"
+      },
+      {
+        "url": "https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of"
       }
     ],
-    "last_updated": "2026-05-22",
+    "last_updated": "2026-09-22",
     "themes": [
       "policy-momentum"
     ],
     "archive_url": "https://web.archive.org/web/20260204165838/https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of"
-  },
-  {
-    "id": "fedreg-2025-18729",
-    "title": "Notice of Request for Public Comments on Section 232 National Security Investigation of Imports of Personal Protective Equipment, Medical Consumables, and Medical Equipment, Including Devices",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2025-09-26",
-    "status": "Introduced",
-    "bill_number": "2025-18729",
-    "sponsor": "Federal Agency",
-    "summary": "On September 2, 2025, the Secretary of Commerce initiated an investigation to determine the effects on the national security of imports of personal protective equipment (PPE), medical consumables, and medical equipment including devices. This investigation has been initiated under section 232 of the Trade Expansion Act of 1962, as amended (Section 232). Interested parties are invited to submit written comments, data, analyses, or other information pertinent to the investigation to the Department of Commerce's (Department) Bureau of Industry and Security (BIS), Office of Strategic Industries and Economic Security. This notice identifies issues on which the Department is especially interested in obtaining the public's views.",
-    "full_text_url": "https://www.federalregister.gov/documents/2025/09/26/2025-18729/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [
-      "doc"
-    ],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2025/09/26/2025-18729/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": [
-      "policy-momentum"
-    ]
-  },
-  {
-    "id": "fedreg-2025-17901",
-    "title": "Lawrence Berkeley National Laboratory et al.; Notice of Decision on Application for Duty-Free Entry of Scientific Instruments",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2025-09-16",
-    "status": "Introduced",
-    "bill_number": "2025-17901",
-    "sponsor": "Federal Agency",
-    "summary": "Lawrence Berkeley National Laboratory et al.; Notice of Decision on Application for Duty-Free Entry of Scientific Instruments",
-    "full_text_url": "https://www.federalregister.gov/documents/2025/09/16/2025-17901/lawrence-berkeley-national-laboratory-et-al-notice-of-decision-on-application-for-duty-free-entry-of",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [
-      "doe"
-    ],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2025/09/16/2025-17901/lawrence-berkeley-national-laboratory-et-al-notice-of-decision-on-application-for-duty-free-entry-of"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": []
-  },
-  {
-    "id": "fedreg-2025-16829",
-    "title": "Magnuson-Stevens Act Provisions; Atlantic Coastal Fisheries Cooperative Management Act Provisions; General Provisions for Domestic Fisheries; Application for Exempted Fishing Permits",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2025-09-03",
-    "status": "Introduced",
-    "bill_number": "2025-16829",
-    "sponsor": "Federal Agency",
-    "summary": "The Assistant Regional Administrator for Sustainable Fisheries, Greater Atlantic Region, NMFS, has made a preliminary determination that an Exempted Fishing Permit (EFP) application contains all of the required information and warrants further consideration. The EFP would allow federally permitted fishing vessels to fish outside fishery regulations in support of exempted fishing activities proposed by the Maine Department of Marine Resources. Regulations under the Magnuson-Stevens Fishery Conservation and Management Act and the Atlantic Coastal Fisheries Cooperative Management Act require publication of this notification to provide interested parties the opportunity to comment on applications for proposed EFPs.",
-    "full_text_url": "https://www.federalregister.gov/documents/2025/09/03/2025-16829/magnuson-stevens-act-provisions-atlantic-coastal-fisheries-cooperative-management-act-provisions",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2025/09/03/2025-16829/magnuson-stevens-act-provisions-atlantic-coastal-fisheries-cooperative-management-act-provisions",
-        "archive_url": "https://web.archive.org/web/20250908233342/https://www.federalregister.gov/documents/2025/09/03/2025-16829/magnuson-stevens-act-provisions-atlantic-coastal-fisheries-cooperative-management-act-provisions"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": [],
-    "archive_url": "https://web.archive.org/web/20250908233342/https://www.federalregister.gov/documents/2025/09/03/2025-16829/magnuson-stevens-act-provisions-atlantic-coastal-fisheries-cooperative-management-act-provisions"
   },
   {
     "id": "nist-sp-1227-draft",
@@ -1620,38 +1273,6 @@
     ]
   },
   {
-    "id": "fedreg-2025-15542",
-    "title": "Lawrence Berkeley National Laboratory et al. Application(s) for Duty-Free Entry of Scientific Instruments",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2025-08-15",
-    "status": "Introduced",
-    "bill_number": "2025-15542",
-    "sponsor": "Federal Agency",
-    "summary": "Lawrence Berkeley National Laboratory et al. Application(s) for Duty-Free Entry of Scientific Instruments",
-    "full_text_url": "https://www.federalregister.gov/documents/2025/08/15/2025-15542/lawrence-berkeley-national-laboratory-et-al-applications-for-duty-free-entry-of-scientific",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [
-      "doe"
-    ],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2025/08/15/2025-15542/lawrence-berkeley-national-laboratory-et-al-applications-for-duty-free-entry-of-scientific"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": []
-  },
-  {
     "id": "ostp-ai-action-plan",
     "title": "America's AI Action Plan",
     "type": "Initiative",
@@ -1661,9 +1282,9 @@
     "status": "In effect",
     "bill_number": "OSTP Policy",
     "sponsor": "White House Office of Science and Technology Policy",
-    "summary": "Action plan containing 90+ recommendations across innovation, infrastructure, and diplomacy pillars to secure U.S. leadership in artificial intelligence.",
-    "full_text_url": "https://www.whitehouse.gov/wp-content/uploads/2026/01/WHOSTP-2025-Wins.pdf",
-    "robotics_scope": "AI strategy and coordination",
+    "summary": "July 2025 White House plan organizes AI policy across innovation, infrastructure, and international diplomacy and security. It addresses open models, adoption, manufacturing, workers, science datasets, evaluations, government use, exports, and cybersecurity; it is not a stand-alone robotics plan.",
+    "full_text_url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+    "robotics_scope": "Directly relevant sections include manufacturing, open models, scientific datasets, evaluations, worker training, adoption, and secure exports.",
     "estimated_budget_usd": null,
     "beneficiaries": [
       "All US robotics companies",
@@ -1683,118 +1304,15 @@
     ],
     "sources": [
       {
-        "url": "https://www.whitehouse.gov/wp-content/uploads/2026/01/WHOSTP-2025-Wins.pdf",
-        "archive_url": "https://web.archive.org/web/20260515012824/https://www.whitehouse.gov/wp-content/uploads/2026/01/WHOSTP-2025-Wins.pdf"
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf"
       }
     ],
-    "last_updated": "2026-05-22",
+    "last_updated": "2026-09-22",
     "themes": [
       "policy-momentum",
       "foundation-models"
     ],
     "archive_url": "https://web.archive.org/web/20260515012824/https://www.whitehouse.gov/wp-content/uploads/2026/01/WHOSTP-2025-Wins.pdf"
-  },
-  {
-    "id": "fedreg-2025-10813",
-    "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-Medical Technology Enterprise Consortium",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2025-06-13",
-    "status": "Introduced",
-    "bill_number": "2025-10813",
-    "sponsor": "Federal Agency",
-    "summary": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-Medical Technology Enterprise Consortium",
-    "full_text_url": "https://www.federalregister.gov/documents/2025/06/13/2025-10813/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-medical-technology",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2025/06/13/2025-10813/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-medical-technology",
-        "archive_url": "https://web.archive.org/web/20250623202010/https://www.federalregister.gov/documents/2025/06/13/2025-10813/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-medical-technology"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": [
-      "policy-momentum"
-    ],
-    "archive_url": "https://web.archive.org/web/20250623202010/https://www.federalregister.gov/documents/2025/06/13/2025-10813/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-medical-technology"
-  },
-  {
-    "id": "fedreg-2025-03223",
-    "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-Expeditionary Missions Consortium-Crane",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2025-02-28",
-    "status": "Introduced",
-    "bill_number": "2025-03223",
-    "sponsor": "Federal Agency",
-    "summary": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-Expeditionary Missions Consortium-Crane",
-    "full_text_url": "https://www.federalregister.gov/documents/2025/02/28/2025-03223/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-expeditionary",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2025/02/28/2025-03223/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-expeditionary",
-        "archive_url": "https://web.archive.org/web/20250307133607/https://www.federalregister.gov/documents/2025/02/28/2025-03223/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-expeditionary"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": [
-      "policy-momentum"
-    ],
-    "archive_url": "https://web.archive.org/web/20250307133607/https://www.federalregister.gov/documents/2025/02/28/2025-03223/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-expeditionary"
-  },
-  {
-    "id": "fedreg-2025-01249",
-    "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-The National Advanced Mobility Consortium, Inc.",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2025-01-21",
-    "status": "Introduced",
-    "bill_number": "2025-01249",
-    "sponsor": "Federal Agency",
-    "summary": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-The National Advanced Mobility Consortium, Inc.",
-    "full_text_url": "https://www.federalregister.gov/documents/2025/01/21/2025-01249/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-the-national",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2025/01/21/2025-01249/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-the-national",
-        "archive_url": "https://web.archive.org/web/20250612044434/https://www.federalregister.gov/documents/2025/01/21/2025-01249/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-the-national"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": [
-      "policy-momentum"
-    ],
-    "archive_url": "https://web.archive.org/web/20250612044434/https://www.federalregister.gov/documents/2025/01/21/2025-01249/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-the-national"
   },
   {
     "id": "fedreg-2025-01161",
@@ -1829,74 +1347,6 @@
     "last_updated": "2026-05-22",
     "themes": [],
     "archive_url": "https://web.archive.org/web/20250327165855/https://www.federalregister.gov/documents/2025/01/17/2025-01161/notice-of-request-for-information-rfi-on-autonomous-experimentation-platforms-from-material-genome"
-  },
-  {
-    "id": "fedreg-2024-18543",
-    "title": "Certain Robotic Floor Cleaning Devices and Components Thereof; Notice of Commission Decision To Vacate the Portion of Its Final Determination Relating to an Expired Patent, To Institute a Rescission Proceeding, and To Rescind the Remedial Orders Based Thereon; Termination of the Rescission Proceeding",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2024-08-20",
-    "status": "Introduced",
-    "bill_number": "2024-18543",
-    "sponsor": "Federal Agency",
-    "summary": "Notice is hereby given that the U.S. International Trade Commission has determined to vacate the portion of its final determination relating to U.S. Patent No. 10,813,517 (\"the '517 patent\"), which has now expired, and to dismiss the related portion of the complaint. The Commission has also determined to institute a rescission proceeding and to rescind the limited exclusion order and cease and desist orders (collectively, \"the remedial orders\") issued in the underlying investigation which are based on the '517 patent. The rescission proceeding is terminated.",
-    "full_text_url": "https://www.federalregister.gov/documents/2024/08/20/2024-18543/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-decision-to",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2024/08/20/2024-18543/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-decision-to",
-        "archive_url": "https://web.archive.org/web/20250203183225/https://www.federalregister.gov/documents/2024/08/20/2024-18543/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-decision-to"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": [
-      "policy-momentum"
-    ],
-    "archive_url": "https://web.archive.org/web/20250203183225/https://www.federalregister.gov/documents/2024/08/20/2024-18543/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-decision-to"
-  },
-  {
-    "id": "fedreg-2024-08596",
-    "title": "Proposed Data Collection Submitted for Public Comment and Recommendations",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2024-04-23",
-    "status": "Introduced",
-    "bill_number": "2024-08596",
-    "sponsor": "Federal Agency",
-    "summary": "The Centers for Disease Control and Prevention (CDC), as part of its continuing effort to reduce public burden and maximize the utility of government information, invites the general public and other Federal agencies the opportunity to comment on a proposed information collection, as required by the Paperwork Reduction Act of 1995. This notice invites comment on a proposed information collection project titled Direct Reading Methodologies, Sensors, and Robotics Technology Assessment in Lab/Simulator-based Settings. The proposed data collection will allow NIOSH to assess the safety and health considerations of these rapidly changing direct reading methods, sensor, and robotics technologies.",
-    "full_text_url": "https://www.federalregister.gov/documents/2024/04/23/2024-08596/proposed-data-collection-submitted-for-public-comment-and-recommendations",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2024/04/23/2024-08596/proposed-data-collection-submitted-for-public-comment-and-recommendations",
-        "archive_url": "https://web.archive.org/web/20250424221221/https://www.federalregister.gov/documents/2024/04/23/2024-08596/proposed-data-collection-submitted-for-public-comment-and-recommendations"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": [
-      "policy-momentum"
-    ],
-    "archive_url": "https://web.archive.org/web/20250424221221/https://www.federalregister.gov/documents/2024/04/23/2024-08596/proposed-data-collection-submitted-for-public-comment-and-recommendations"
   },
   {
     "id": "doc-eda-tech-hubs",
@@ -2035,81 +1485,45 @@
   },
   {
     "id": "tx-robotics-investment",
-    "title": "Texas — Robotics Manufacturing Investment Credit",
+    "title": "Texas — Texas Enterprise Fund",
     "type": "Incentive Program",
     "level": "State",
     "state": "TX",
-    "introduced_date": "2023-06",
+    "introduced_date": "2003",
     "status": "In effect",
-    "bill_number": "TX S.B. 1545",
-    "sponsor": "Texas Legislature",
-    "summary": "State franchise tax credit for qualifying capital investment in advanced manufacturing equipment, including robotics. Stackable with federal bonus depreciation. Pairs with the Texas Enterprise Fund discretionary grants for major facility commitments.",
-    "full_text_url": "https://comptroller.texas.gov/economy/local/tef/",
-    "robotics_scope": "Manufacturing capex incentive",
+    "bill_number": null,
+    "sponsor": "Office of the Governor, Texas Economic Development",
+    "summary": "Performance-based deal-closing cash grants for a new or expanding Texas site competing with an out-of-state location. The project must exceed 75 new full-time jobs in urban areas or 25 in rural areas, meet wage and capital-investment tests, and show local support. This is not a robotics-specific franchise-tax credit.",
+    "full_text_url": "https://gov.texas.gov/business/page/texas-enterprise-fund",
+    "robotics_scope": "Potential support for qualifying robotics manufacturing or deployment facilities; substantial jobs and investment thresholds apply.",
     "estimated_budget_usd": null,
     "beneficiaries": [
       "Manufacturers locating in Texas",
       "Robotics OEMs"
     ],
     "agency_responsible": [
-      "tx-comptroller",
       "tx-gov"
     ],
-    "startup_eligible": true,
-    "application_url": "https://comptroller.texas.gov/economy/local/tef/",
+    "startup_eligible": false,
+    "application_url": "https://gov.texas.gov/business/page/texas-enterprise-fund",
     "tags": [
       "state",
       "texas",
       "in-effect",
-      "tax-credit",
+      "grant",
       "manufacturing",
-      "tax"
+      "jobs"
     ],
     "sources": [
       {
-        "url": "https://comptroller.texas.gov/",
-        "archive_url": "https://web.archive.org/web/20260514152214/https://comptroller.texas.gov/"
+        "url": "https://gov.texas.gov/business/page/texas-enterprise-fund"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-09-22",
     "themes": [
       "industrial-deployments",
       "policy-momentum"
     ]
-  },
-  {
-    "id": "fedreg-2023-06222",
-    "title": "Certain Robotic Floor Cleaning Devices and Components Thereof; Notice of Commission Final Determination Finding a Violation of Section 337; Issuance of a Limited Exclusion Order and Cease and Desist Orders; Termination of the Investigation",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2023-03-27",
-    "status": "Introduced",
-    "bill_number": "2023-06222",
-    "sponsor": "Federal Agency",
-    "summary": "Notice is hereby given that the U.S. International Trade Commission has found a violation of section 337 of the Tariff Act of 1930, as amended, in the above-captioned investigation. The Commission has issued a limited exclusion order (\"LEO\") prohibiting the importation of certain robotic floor cleaning devices and components thereof that are imported by or on behalf of SharkNinja Operating LLC, SharkNinja Management LLC, SharkNinja Management Co., SharkNinja Sales Co., EP Midco LLC, and SharkNinja Hong Kong Co. Ltd., and that infringe claims 1 and 9 of U.S. Patent No. 10,813,517 (\"the '517 patent\"). The Commission has also issued cease and desist orders (\"CDOs\") against each Respondent. The investigation is terminated.",
-    "full_text_url": "https://www.federalregister.gov/documents/2023/03/27/2023-06222/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-final",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2023/03/27/2023-06222/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-final",
-        "archive_url": "https://web.archive.org/web/20250203023424/https://www.federalregister.gov/documents/2023/03/27/2023-06222/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-final"
-      }
-    ],
-    "last_updated": "2026-05-22",
-    "themes": [
-      "policy-momentum"
-    ],
-    "archive_url": "https://web.archive.org/web/20250203023424/https://www.federalregister.gov/documents/2023/03/27/2023-06222/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-final"
   },
   {
     "id": "nist-ai-rmf",
@@ -2154,83 +1568,79 @@
   },
   {
     "id": "mi-mobility-r-d",
-    "title": "Michigan — Mobility and Automation R&D Tax Credit",
+    "title": "Michigan — Research and Development Tax Credit",
     "type": "Incentive Program",
     "level": "State",
     "state": "MI",
-    "introduced_date": "2022-12",
+    "introduced_date": "2024-12",
     "status": "In effect",
-    "bill_number": "MI MEDC R&D",
-    "sponsor": "Michigan Economic Development Corporation",
-    "summary": "Refundable R&D tax credit for advanced mobility and automation companies based in Michigan. Stacks with the Michigan Mobility Corridor incentives for AV/robotics testing.",
-    "full_text_url": "https://www.michiganbusiness.org/",
-    "robotics_scope": "R&D, mobility, AV/robotics testing",
+    "bill_number": "Public Acts 186 and 187 of 2024",
+    "sponsor": "Michigan Department of Treasury",
+    "summary": "Michigan provides a refundable R&D tax credit for qualifying research expenses incurred in the state beginning with tax years after January 1, 2025. It is broad rather than restricted to mobility or robotics; annual claim and proration rules apply.",
+    "full_text_url": "https://www.michigan.gov/taxes/business-taxes/rdcredit",
+    "robotics_scope": "Qualifying Michigan robotics R&D expenditures may be eligible under the general credit.",
     "estimated_budget_usd": null,
     "beneficiaries": [
       "Mobility startups",
       "Robotics R&D operations"
     ],
-    "agency_responsible": [
-      "medc"
-    ],
+    "agency_responsible": [],
     "startup_eligible": true,
-    "application_url": "https://www.michiganbusiness.org/",
+    "application_url": "https://www.michigan.gov/taxes/business-taxes/rdcredit",
     "tags": [
       "state",
       "michigan",
       "in-effect",
       "tax-credit",
-      "rd",
-      "mobility",
-      "tax"
+      "rd"
     ],
     "sources": [
       {
-        "url": "https://www.michiganbusiness.org/",
-        "archive_url": "https://web.archive.org/web/20260515100314/https://www.michiganbusiness.org/"
+        "url": "https://www.michigan.gov/taxes/business-taxes/rdcredit"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-09-22",
     "archive_url": "https://web.archive.org/web/20260515100314/https://www.michiganbusiness.org/",
     "archive_url_application": "https://web.archive.org/web/20260515100314/https://www.michiganbusiness.org/",
-    "themes": []
+    "themes": [
+      "policy-momentum"
+    ]
   },
   {
     "id": "pa-pittsburgh-robotics",
-    "title": "Pennsylvania — Pittsburgh Robotics Cluster Programs",
+    "title": "Pennsylvania — Innovate in PA 2.0",
     "type": "Incentive Program",
     "level": "State",
     "state": "PA",
-    "introduced_date": "2022-09",
-    "status": "In effect",
-    "bill_number": "PA DCED",
+    "introduced_date": "2026-08",
+    "status": "Signed",
+    "bill_number": "FY2026–27 Pennsylvania budget",
     "sponsor": "PA Department of Community and Economic Development",
-    "summary": "Cluster incentives in Pittsburgh's Strip District for robotics startups: tax abatements, R&D infrastructure cost-sharing, Pittsburgh Robotics Network membership benefits. Pairs with CMU and Pittsburgh Robotics Discovery District proximity.",
-    "full_text_url": "https://dced.pa.gov/",
-    "robotics_scope": "Cluster incentives, R&D infrastructure",
-    "estimated_budget_usd": null,
+    "summary": "The signed FY2026–27 budget provides $125 million to create Innovate in PA 2.0. DCED describes venture-capital access, research commercialization, and regional innovation ecosystems, with robotics among named sectors. It is not a Pittsburgh-only tax abatement or a Pittsburgh Robotics Network membership benefit.",
+    "full_text_url": "https://dced.pa.gov/newsroom/shapiro-administration-highlights-2026-27-budget-investments-in-innovation-economy-secured-in-2026-27-budget-during-visit-to-carnegie-foundry-at-cmus-robotics-institute-in-pittsburgh/",
+    "robotics_scope": "Broad innovation-capital and commercialization support with robotics named as a sector.",
+    "estimated_budget_usd": 125000000,
     "beneficiaries": [
-      "Pittsburgh-area robotics startups"
+      "Pennsylvania innovation ecosystem and eligible firms"
     ],
     "agency_responsible": [
       "pa-dced"
     ],
     "startup_eligible": true,
-    "application_url": "https://www.pittsburghroboticsnetwork.org/",
+    "application_url": null,
     "tags": [
       "state",
       "pennsylvania",
-      "in-effect",
-      "cluster",
-      "pittsburgh",
-      "tax"
+      "signed",
+      "commercialization",
+      "venture-capital"
     ],
     "sources": [
       {
-        "url": "https://www.pittsburghroboticsnetwork.org/"
+        "url": "https://dced.pa.gov/newsroom/shapiro-administration-highlights-2026-27-budget-investments-in-innovation-economy-secured-in-2026-27-budget-during-visit-to-carnegie-foundry-at-cmus-robotics-institute-in-pittsburgh/"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-09-22",
     "themes": [
       "industrial-deployments",
       "policy-momentum"
@@ -2577,20 +1987,20 @@
   },
   {
     "id": "ny-rd-credit",
-    "title": "New York — Excelsior Jobs Program (Robotics & AI Track)",
+    "title": "New York — Excelsior Jobs Program",
     "type": "Incentive Program",
     "level": "State",
     "state": "NY",
-    "introduced_date": "2020-04",
+    "introduced_date": "2010",
     "status": "In effect",
     "bill_number": "Empire State Development",
     "sponsor": "Empire State Development",
-    "summary": "Discretionary tax credit program targeting strategic industries including robotics/AI. Refundable credits across job creation, investment, and R&D categories; multi-year benefit periods.",
+    "summary": "Empire State Development offers job, investment, and R&D tax credits to qualifying firms in listed strategic industries. Manufacturing, scientific R&D, and software firms generally need at least five net new jobs; there is no separate robotics or AI track.",
     "full_text_url": "https://esd.ny.gov/excelsior-jobs-program",
-    "robotics_scope": "Strategic industry incentives",
+    "robotics_scope": "Robotics firms may qualify through manufacturing, scientific R&D, or software eligibility and job thresholds.",
     "estimated_budget_usd": null,
     "beneficiaries": [
-      "NY-based robotics + AI firms"
+      "Qualifying New York employers"
     ],
     "agency_responsible": [
       "esd"
@@ -2606,11 +2016,10 @@
     ],
     "sources": [
       {
-        "url": "https://esd.ny.gov/excelsior-jobs-program",
-        "archive_url": "https://web.archive.org/web/20260123150850/https://esd.ny.gov/excelsior-jobs-program"
+        "url": "https://esd.ny.gov/excelsior-jobs-program"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-09-22",
     "archive_url": "https://web.archive.org/web/20260123150850/https://esd.ny.gov/excelsior-jobs-program",
     "archive_url_application": "https://web.archive.org/web/20260123150850/https://esd.ny.gov/excelsior-jobs-program",
     "themes": []
@@ -2714,10 +2123,10 @@
     "status": "Active",
     "bill_number": null,
     "sponsor": "Governor's Office of Business and Economic Development (GO-Biz)",
-    "summary": "The California Competes Tax Credit (CCTC) is a negotiable income-tax-credit program run by GO-Biz that rewards companies for creating jobs and investing in California, with roughly $922.7M allocated for FY2025-26 across competitive application windows. Eligible sectors include advanced manufacturing, microelectronics, and aerospace, making robotics and hardware startups eligible to apply. It is open to businesses of any size, including startups expanding or relocating in-state.",
+    "summary": "Competitive tax credit for businesses expanding or relocating in California, assessed on jobs, investment, and other statutory factors. It is sector-neutral. GO-Biz lists FY2026–27 application windows of July 20–August 10, 2026; January 4–25, 2027; and March 1–15, 2027.",
     "full_text_url": "https://business.ca.gov/california-competes-tax-credit/",
     "robotics_scope": "Advanced-manufacturing & R&D job/investment tax credits",
-    "estimated_budget_usd": 922694691,
+    "estimated_budget_usd": null,
     "beneficiaries": [
       "advanced-manufacturing firms",
       "robotics/hardware startups",
@@ -2737,13 +2146,10 @@
     ],
     "sources": [
       {
-        "url": "https://business.ca.gov/california-awards-120-million-in-grants-and-66-4-million-in-tax-credits-projected-to-create-more-than-11607-jobs/"
-      },
-      {
-        "url": "https://www.gov.ca.gov/2026/05/06/governor-newsom-announces-1b-in-private-investment-generated-through-california-competes-tax-credits-driving-business-expansion-in-key-industry-sectors/"
+        "url": "https://business.ca.gov/california-competes-tax-credit/"
       }
     ],
-    "last_updated": "2026-06-19",
+    "last_updated": "2026-09-22",
     "themes": [
       "policy-momentum",
       "industrial-deployments",
@@ -2835,136 +2241,6 @@
     ]
   },
   {
-    "id": "fedreg-2026-13769",
-    "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Request for Comment; Crash Reporting Sampling System (CRSS), Non-Traffic Surveillance (NTS), and Special Study Data Collection",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-07-08",
-    "status": "Introduced",
-    "bill_number": "2026-13769",
-    "sponsor": "Federal Agency",
-    "summary": "In compliance with the Paperwork Reduction Act of 1995 (PRA), this notice announces that the Information Collection Request (ICR) summarized below will be submitted to the Office of Management and Budget (OMB) for review and approval. The ICR describes the nature of the information collection and its expected burden. This document describes a currently approved collection of information for which NHTSA intends to seek OMB approval for extension with modification on NHTSA's Crash Report Sampling System (CRSS), Non-Traffic Surveillance (NTS), and Special Study Data Collection. A Federal Register Notice with a 60-day comment period soliciting comments on the following information collection was published on March 19, 2026. Two comments were received.",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/07/08/2026-13769/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [
-      "dot"
-    ],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "themes": [
-      "policy-momentum"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2026/07/08/2026-13769/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for"
-      }
-    ],
-    "last_updated": "2026-07-08"
-  },
-  {
-    "id": "fedreg-2026-13656",
-    "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; Including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-07-07",
-    "status": "Introduced",
-    "bill_number": "2026-13656",
-    "sponsor": "Federal Agency",
-    "summary": "This proposed rule would revise the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the changes to the amounts and factors used to determine the payment rates for Medicare services paid under the OPPS and those paid under the ASC payment systems. In addition, this proposed rule would update and refine the requirements for the Hospital Outpatient Quality Reporting Program and the Ambulatory Surgical Center Quality Reporting Program. There are no changes to the Rural Emergency Hospital Quality Reporting Program. We propose to expand the prior authorization requirement to include additional Botulinum Toxin Injection services. We also propose to implement certain provisions of the Consolidated Appropriations Act, 2026, for off-campus outpatient departments of a provider. In addition, this proposed rule announces notices of closure of teaching hospitals and opportunities to apply for available slots. This rule also requests information regarding potential approaches to improve comparability and standardization, particularly for complex contracting methodologies, of the HPT information reported in machine- readable files and consumer-friendly displays. We propose hospital AOs with deeming authority to assess compliance with certain Emergency Medical Treatment and Labor Act (EMTALA) administrative requirements during accreditation and reaccreditation surveys. Finally, we are soliciting comments on a potential separate payment under the Inpatient Prospective Payment System (IPPS) for domestic procurement of personal protective equipment and essential medicines.",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/07/07/2026-13656/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "themes": [
-      "cost-trajectory"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2026/07/07/2026-13656/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment"
-      }
-    ],
-    "last_updated": "2026-07-08"
-  },
-  {
-    "id": "fedreg-2026-14208",
-    "title": "Reforming and Modernizing the NRC's Radiation Protection Framework",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-07-15",
-    "status": "Introduced",
-    "bill_number": "2026-14208",
-    "sponsor": "Federal Agency",
-    "summary": "The U.S. Nuclear Regulatory Commission (NRC) is proposing to amend its regulations that govern its standards for protection against radiation. These proposed revisions would address section 5(b) of Executive Order 14300, \"Ordering the Reform of the Nuclear Regulatory Commission,\" and would reflect the NRC's experience and other developments in the field of radiation protection since the NRC's last major revisions to these standards in 1991. In addition, the NRC is issuing for public comment draft implementing guidance.",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/07/15/2026-14208/reforming-and-modernizing-the-nrcs-radiation-protection-framework",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "themes": [
-      "policy-momentum"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2026/07/15/2026-14208/reforming-and-modernizing-the-nrcs-radiation-protection-framework"
-      }
-    ],
-    "last_updated": "2026-07-15"
-  },
-  {
-    "id": "fedreg-2026-14805",
-    "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-National Armaments Consortium",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-07-22",
-    "status": "Introduced",
-    "bill_number": "2026-14805",
-    "sponsor": "Federal Agency",
-    "summary": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-National Armaments Consortium",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/07/22/2026-14805/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-national-armaments",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "themes": [
-      "policy-momentum"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2026/07/22/2026-14805/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-national-armaments"
-      }
-    ],
-    "last_updated": "2026-07-22"
-  },
-  {
     "id": "fcc-covered-list-robots-inverters-2026",
     "title": "FCC Covered List expansion — advanced robotic devices and connected power inverters",
     "type": "Regulation",
@@ -2974,9 +2250,9 @@
     "status": "In effect",
     "bill_number": null,
     "sponsor": "Federal Communications Commission",
-    "summary": "The FCC added two foreign-produced device categories to the Covered List maintained under the Secure and Trusted Communications Networks Act: \"advanced robotic devices\" — mobile robots including humanoids and quadrupeds with networked capability — and connected power inverters. Listing bars new device models from the equipment authorization required to import, market, or sell a radiofrequency device in the US. Existing authorized models are grandfathered and may continue to be imported and sold; owners keep devices already purchased; federal agencies are not restricted from purchase or operation. Conditional approvals may be granted by the Department of War for robots and DHS for inverters where a firm demonstrates acceptable risk.",
-    "full_text_url": "https://docs.fcc.gov/public/attachments/DOC-423682A1.pdf",
-    "robotics_scope": "Directly scopes robotics: humanoid and quadruped mobile robots are a named Covered List category, blocking new foreign-made models from US equipment authorization.",
+    "summary": "On July 28, 2026 the FCC added foreign-produced advanced robotic devices to its Covered List, with an exception for devices receiving Department of War conditional approval. The September 18 FCC notice announced conditional approvals and exemptions for certain devices. The restriction concerns new equipment authorization; current authorization and device scope require case-specific review.",
+    "full_text_url": "https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf",
+    "robotics_scope": "Network-capable foreign-produced advanced robotic devices; DoW conditional approval and FCC equipment-authorization process matter.",
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [],
@@ -3001,10 +2277,10 @@
         "url": "https://docs.fcc.gov/public/attachments/DOC-423682A1.pdf"
       },
       {
-        "url": "https://www.nextgov.com/policy/2026/07/fcc-blocks-approval-new-foreign-made-robots-power-inverters/415070/"
+        "url": "https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf"
       }
     ],
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-09-22"
   },
   {
     "id": "guard-act-hr9129",
@@ -3016,7 +2292,7 @@
     "status": "Committee",
     "bill_number": "H.R. 9129",
     "sponsor": "Rep. John Moolenaar (R-MI), with Rep. Jay Obernolte (R-CA) and Rep. Jennifer McClellan (D-VA)",
-    "summary": "Would require national security agencies to review humanoid and quadruped robots produced in China and other foreign adversary countries, and add platforms judged an unacceptable national security risk to the FCC's Covered List — barring their sale in the US. Any platform not reviewed within one year would be added automatically. Extends to robotics the Covered List machinery already applied to telecom equipment and drones. Introduced in the 119th Congress; on September 1, 2026, the House Energy and Commerce Subcommittee on Communications and Technology marked up the bill and forwarded it to the full Committee by voice vote. The related provision that advanced in the House-passed FY2027 NDAA is Section 163, passed 216-212 on July 22, 2026: it bars the Department of Defense (not the wider federal government) from procuring, leasing, or operating a \"covered humanoid robotic system\" produced or developed by China (or incorporating Chinese firmware, software, AI models, cloud services, or remote-access/update capability); industrial robots, non-networked systems, and regulated medical devices are expressly excluded from the definition. Commercial sales remain legal under the NDAA provision — the GUARD Act's broader Covered List approach would go further.",
+    "summary": "Would require national security agencies to review humanoid and quadruped robots produced in China and other foreign adversary countries, and add platforms judged an unacceptable national security risk to the FCC's Covered List — barring their sale in the US. Any platform not reviewed within one year would be added automatically. Extends to robotics the Covered List machinery already applied to telecom equipment and drones. Introduced in the 119th Congress; on September 1, 2026, the House Energy and Commerce Subcommittee on Communications and Technology marked up the bill and forwarded it to the full Committee by voice vote. The related provision that advanced in the House-passed FY2027 NDAA is Section 163, passed 216-212 on July 22, 2026: it bars the Department of Defense (not the wider federal government) from procuring, leasing, or operating a \"covered humanoid robotic system\" produced or developed by China (or incorporating Chinese firmware, software, AI models, cloud services, or remote-access/update capability); industrial robots, non-networked systems, and regulated medical devices are expressly excluded from the definition. Commercial sales remain legal under the NDAA provision — the GUARD Act's broader Covered List approach would go further. The Senate Armed Services Committee bill (S. 4784) carries a parallel Sec. 5813 barring DoD from covered unmanned ground vehicles; the two chambers reconcile in conference.",
     "full_text_url": "https://www.congress.gov/bill/119th-congress/house-bill/9129/text/ih",
     "robotics_scope": "Robotics is the entire subject of the bill: it defines a review-and-list regime specifically for foreign-adversary humanoid and quadruped robots.",
     "estimated_budget_usd": null,
@@ -3045,9 +2321,12 @@
       },
       {
         "url": "https://energycommerce.house.gov/posts/chairmen-guthrie-and-hudson-announce-c-and-t-subcommittee-markup-of-six-bills-to-strengthen-communications-networks-and-modernize-satellite-regulations"
+      },
+      {
+        "url": "https://www.insidegovernmentcontracts.com/2026/09/mapping-china-in-the-national-defense-authorization-act-for-fy-2027-part-i-the-expanding-acquisition-perimeter/"
       }
     ],
-    "last_updated": "2026-09-21"
+    "last_updated": "2026-09-25"
   },
   {
     "id": "fedreg-2026-15418",
@@ -3081,38 +2360,6 @@
       }
     ],
     "last_updated": "2026-08-05"
-  },
-  {
-    "id": "fedreg-2026-17372",
-    "title": "The National Space Transportation Policy",
-    "type": "Regulation",
-    "level": "Federal",
-    "state": "N/A",
-    "introduced_date": "2026-08-25",
-    "status": "Introduced",
-    "bill_number": "2026-17372",
-    "sponsor": "Federal Agency",
-    "summary": "The National Space Transportation Policy",
-    "full_text_url": "https://www.federalregister.gov/documents/2026/08/25/2026-17372/the-national-space-transportation-policy",
-    "robotics_scope": "Federal Register publication",
-    "estimated_budget_usd": null,
-    "beneficiaries": [],
-    "agency_responsible": [],
-    "startup_eligible": false,
-    "application_url": null,
-    "tags": [
-      "federal-register",
-      "federal"
-    ],
-    "themes": [
-      "policy-momentum"
-    ],
-    "sources": [
-      {
-        "url": "https://www.federalregister.gov/documents/2026/08/25/2026-17372/the-national-space-transportation-policy"
-      }
-    ],
-    "last_updated": "2026-08-26"
   },
   {
     "id": "fedreg-2026-18429",
@@ -3271,5 +2518,47 @@
       }
     ],
     "last_updated": "2026-09-16"
+  },
+  {
+    "id": "fedreg-2026-19704",
+    "title": "FDA draft guidance: Robotically-Assisted Surgical Devices, Premarket Submissions",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-09-25",
+    "status": "Draft",
+    "bill_number": "2026-19704",
+    "sponsor": "FDA (CDRH)",
+    "summary": "Draft nonbinding guidance on the nonclinical testing, clinical evidence and labeling FDA expects in premarket submissions for robotically assisted surgical devices (RASDs). It covers human-factors testing, emergency procedures, software interoperability and cybersecurity. Published in the Federal Register on 2026-09-25; comments are due 2026-11-24 under docket FDA-2026-N-9505.",
+    "full_text_url": "https://www.federalregister.gov/documents/2026/09/25/2026-19704/robotically-assisted-surgical-devices-premarket-submissions-draft-guidance-for-industry-and-food-and",
+    "robotics_scope": "Premarket expectations for robotic surgical systems: human factors, emergency procedures, interoperability, cybersecurity and clinical evidence",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "Surgical robotics makers",
+      "Hospitals"
+    ],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "draft",
+      "fda",
+      "surgical-robotics",
+      "guidance",
+      "2026"
+    ],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/09/25/2026-19704/robotically-assisted-surgical-devices-premarket-submissions-draft-guidance-for-industry-and-food-and"
+      },
+      {
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/robotically-assisted-surgical-devices-premarket-submissions"
+      }
+    ],
+    "last_updated": "2026-09-25"
   }
 ]

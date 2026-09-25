@@ -2,7 +2,7 @@
 
 > Refresh this file (and re-fetch <https://pranava0x0.github.io/vibe-coding-security/llms-ctx.txt>) if `Last updated` below is more than 7 days old, before any `npm install` / `pip install` / dep upgrade.
 
-**Last updated:** 2026-05-22
+**Last updated:** 2026-09-25 (advisory index re-read; nothing applies: no runtime deps, no `npm install`/`pip install` this run. The scripts ran on a Node binary already on the machine (bundled inside another desktop app), not a downloaded package.)
 
 ---
 
