@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraper configuration. Each entry is consumed by scripts/scraper-*.js. Set enabled:false to skip. last_run is updated by the scraper on each invocation.",
-    "last_updated": "2026-09-23"
+    "last_updated": "2026-09-25"
   },
   "news": [
     {
@@ -11,7 +11,7 @@
       "frequency": "daily",
       "keywords": [],
       "enabled": true,
-      "last_run": "2026-09-23",
+      "last_run": "2026-09-25",
       "publication": "IEEE Spectrum"
     },
     {
@@ -21,7 +21,7 @@
       "frequency": "daily",
       "keywords": [],
       "enabled": true,
-      "last_run": "2026-09-23",
+      "last_run": "2026-09-25",
       "publication": "TechCrunch"
     },
     {
@@ -31,8 +31,19 @@
       "frequency": "daily",
       "keywords": [],
       "enabled": true,
-      "last_run": "2026-09-23",
+      "last_run": "2026-09-25",
       "publication": "The Robot Report"
+    },
+    {
+      "id": "robotics-automation-news",
+      "type": "rss",
+      "url": "https://roboticsandautomationnews.com/feed/",
+      "frequency": "daily",
+      "keywords": [],
+      "enabled": false,
+      "last_run": null,
+      "publication": "Robotics & Automation News",
+      "note": "Feed verified 2026-09-25 (HTTP 200, RSS). Press-release aggregator that carries small rounds other outlets skip (O-ID, for example). Disabled until one trial run shows the noise rate is tolerable."
     },
     {
       "id": "reddit-robotics",
@@ -67,7 +78,7 @@
       ],
       "enabled": true,
       "notes": "Hacker News Algolia search API — free, no auth. Filters to robotics/humanoid stories from the last N days.",
-      "last_run": "2026-09-23",
+      "last_run": "2026-09-25",
       "publication": "Hacker News"
     },
     {
@@ -81,7 +92,7 @@
         "humanoid"
       ],
       "enabled": true,
-      "last_run": "2026-09-23",
+      "last_run": "2026-09-25",
       "publication": "Federal Register"
     }
   ],
@@ -131,7 +142,7 @@
         "automation"
       ],
       "enabled": true,
-      "last_run": "2026-09-23"
+      "last_run": "2026-09-25"
     },
     {
       "id": "arpa-e",

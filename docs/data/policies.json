@@ -3016,7 +3016,7 @@
     "status": "Committee",
     "bill_number": "H.R. 9129",
     "sponsor": "Rep. John Moolenaar (R-MI), with Rep. Jay Obernolte (R-CA) and Rep. Jennifer McClellan (D-VA)",
-    "summary": "Would require national security agencies to review humanoid and quadruped robots produced in China and other foreign adversary countries, and add platforms judged an unacceptable national security risk to the FCC's Covered List — barring their sale in the US. Any platform not reviewed within one year would be added automatically. Extends to robotics the Covered List machinery already applied to telecom equipment and drones. Introduced in the 119th Congress; on September 1, 2026, the House Energy and Commerce Subcommittee on Communications and Technology marked up the bill and forwarded it to the full Committee by voice vote. The related provision that advanced in the House-passed FY2027 NDAA is Section 163, passed 216-212 on July 22, 2026: it bars the Department of Defense (not the wider federal government) from procuring, leasing, or operating a \"covered humanoid robotic system\" produced or developed by China (or incorporating Chinese firmware, software, AI models, cloud services, or remote-access/update capability); industrial robots, non-networked systems, and regulated medical devices are expressly excluded from the definition. Commercial sales remain legal under the NDAA provision — the GUARD Act's broader Covered List approach would go further.",
+    "summary": "Would require national security agencies to review humanoid and quadruped robots produced in China and other foreign adversary countries, and add platforms judged an unacceptable national security risk to the FCC's Covered List — barring their sale in the US. Any platform not reviewed within one year would be added automatically. Extends to robotics the Covered List machinery already applied to telecom equipment and drones. Introduced in the 119th Congress; on September 1, 2026, the House Energy and Commerce Subcommittee on Communications and Technology marked up the bill and forwarded it to the full Committee by voice vote. The related provision that advanced in the House-passed FY2027 NDAA is Section 163, passed 216-212 on July 22, 2026: it bars the Department of Defense (not the wider federal government) from procuring, leasing, or operating a \"covered humanoid robotic system\" produced or developed by China (or incorporating Chinese firmware, software, AI models, cloud services, or remote-access/update capability); industrial robots, non-networked systems, and regulated medical devices are expressly excluded from the definition. Commercial sales remain legal under the NDAA provision — the GUARD Act's broader Covered List approach would go further. The Senate Armed Services Committee bill (S. 4784) carries a parallel Sec. 5813 barring DoD from covered unmanned ground vehicles; the two chambers reconcile in conference.",
     "full_text_url": "https://www.congress.gov/bill/119th-congress/house-bill/9129/text/ih",
     "robotics_scope": "Robotics is the entire subject of the bill: it defines a review-and-list regime specifically for foreign-adversary humanoid and quadruped robots.",
     "estimated_budget_usd": null,
@@ -3045,9 +3045,12 @@
       },
       {
         "url": "https://energycommerce.house.gov/posts/chairmen-guthrie-and-hudson-announce-c-and-t-subcommittee-markup-of-six-bills-to-strengthen-communications-networks-and-modernize-satellite-regulations"
+      },
+      {
+        "url": "https://www.insidegovernmentcontracts.com/2026/09/mapping-china-in-the-national-defense-authorization-act-for-fy-2027-part-i-the-expanding-acquisition-perimeter/"
       }
     ],
-    "last_updated": "2026-09-21"
+    "last_updated": "2026-09-25"
   },
   {
     "id": "fedreg-2026-15418",
@@ -3271,5 +3274,47 @@
       }
     ],
     "last_updated": "2026-09-16"
+  },
+  {
+    "id": "fedreg-2026-19704",
+    "title": "FDA draft guidance: Robotically-Assisted Surgical Devices, Premarket Submissions",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-09-25",
+    "status": "Draft",
+    "bill_number": "2026-19704",
+    "sponsor": "FDA (CDRH)",
+    "summary": "Draft nonbinding guidance on the nonclinical testing, clinical evidence and labeling FDA expects in premarket submissions for robotically assisted surgical devices (RASDs). It covers human-factors testing, emergency procedures, software interoperability and cybersecurity. Published in the Federal Register on 2026-09-25; comments are due 2026-11-24 under docket FDA-2026-N-9505.",
+    "full_text_url": "https://www.federalregister.gov/documents/2026/09/25/2026-19704/robotically-assisted-surgical-devices-premarket-submissions-draft-guidance-for-industry-and-food-and",
+    "robotics_scope": "Premarket expectations for robotic surgical systems: human factors, emergency procedures, interoperability, cybersecurity and clinical evidence",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "Surgical robotics makers",
+      "Hospitals"
+    ],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "draft",
+      "fda",
+      "surgical-robotics",
+      "guidance",
+      "2026"
+    ],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/09/25/2026-19704/robotically-assisted-surgical-devices-premarket-submissions-draft-guidance-for-industry-and-food-and"
+      },
+      {
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/robotically-assisted-surgical-devices-premarket-submissions"
+      }
+    ],
+    "last_updated": "2026-09-25"
   }
 ]
