@@ -153,6 +153,12 @@
       </table>
     </div>
 
+    <div id="more-row" class="more-row" hidden>
+      <span id="more-status" class="muted" aria-live="polite"></span>
+      <button class="btn ghost" type="button" id="more-btn">Show 25 more</button>
+      <button class="btn ghost" type="button" id="all-btn">Show all</button>
+    </div>
+
     <div id="empty" class="empty-state" hidden>No companies match those filters.</div>
   </main>
 
@@ -205,7 +211,7 @@
       const el = document.getElementById(id);
       if (!el) return;
       const ev = el.tagName === 'SELECT' ? 'change' : 'input';
-      el.addEventListener(ev, render);
+      el.addEventListener(ev, () => render());
     });
     document.getElementById('f-reset').addEventListener('click', () => {
       document.getElementById('f-search').value = '';
@@ -216,7 +222,12 @@
 
     renderSegmentSummary();
 
-    function render() {
+    // The directory prints PAGE rows first; "Show more" / "Show all" widen it. Any filter
+    // change starts over, so a narrowed list never opens scrolled past its own top.
+    const PAGE = 25;
+    let shown = PAGE;
+    function render(keepShown) {
+      if (!keepShown) shown = PAGE;
       const search = document.getElementById('f-search').value.trim();
       const segment = document.getElementById('f-segment').value;
       const sort = document.getElementById('f-sort').value;
@@ -258,7 +269,7 @@
         emptyEl.hidden = false;
       } else {
         emptyEl.hidden = true;
-        tbody.innerHTML = rows.map(c => {
+        tbody.innerHTML = rows.slice(0, shown).map(c => {
           const lastRound = (c.funding_rounds || []).slice().sort((a, b) => (a.date < b.date ? 1 : -1))[0];
           const deps = c.deployments || [];
           const deploymentCount = deps.length;
@@ -295,7 +306,14 @@
       }
       document.getElementById('result-count').textContent =
         `${rows.length} ${rows.length === 1 ? 'company' : 'companies'}`;
+      const moreRow = document.getElementById('more-row');
+      const remaining = Math.max(rows.length - shown, 0);
+      moreRow.hidden = remaining === 0;
+      document.getElementById('more-status').textContent = `Showing ${Math.min(shown, rows.length)} of ${rows.length}`;
+      document.getElementById('more-btn').textContent = `Show ${Math.min(PAGE, remaining)} more`;
     }
+    document.getElementById('more-btn').addEventListener('click', () => { shown += PAGE; render(true); });
+    document.getElementById('all-btn').addEventListener('click', () => { shown = Infinity; render(true); });
 
     function openDetail(id) {
       const c = companies.find(x => x.id === id);

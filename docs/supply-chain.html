@@ -139,7 +139,7 @@
   <main id="main">
     <p class="eyebrow">Deep dive</p>
     <h1 class="page-title">The robotics supply chain.</h1>
-    <p class="page-lede">From rare-earth mines to finished robots — who makes what, where, at what capacity, and who pays for it. Every figure links to its source.</p>
+    <p class="page-lede">From rare-earth mines to finished robots — who makes what, where, at what capacity, and who pays for it, each figure sourced.</p>
 
     <aside class="bluf" aria-label="Bottom line up front">
       <span class="bluf-tag">Bottom line</span>
@@ -158,7 +158,7 @@
     </section>
 
     <!-- Chain map -->
-    <h2 class="section-title">The chain, end to end</h2>
+    <h2 class="section-title">From mine to finished robot</h2>
     <div class="chart" id="chain-map">
       <h3>Where the U.S. stands at each stage</h3>
       <p class="chart-sub">Mine to deployed robot. Color = U.S. position at that stage.</p>
@@ -189,7 +189,7 @@
     </div>
 
     <!-- US manufacturing sites -->
-    <details class="collapsible-section" id="sec-us-sites" open>
+    <details class="collapsible-section" id="sec-us-sites">
       <summary>
         <h2 class="section-title">U.S. manufacturing sites</h2>
         <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Every U.S. plant, mine, fab, and factory in the records below, grouped by state.</p>
@@ -412,8 +412,8 @@
       const byStage = {};
       sc.categories.forEach(c => { (byStage[c.stage] = byStage[c.stage] || []).push(c); });
       const root = document.getElementById('category-sections');
-      root.innerHTML = sc.chain_stages.filter(s => byStage[s.id]).map((stage, si) => `
-        <details class="collapsible-section" id="stage-${RT.slug(stage.id)}" ${si === 0 ? 'open' : ''}>
+      root.innerHTML = sc.chain_stages.filter(s => byStage[s.id]).map((stage) => `
+        <details class="collapsible-section" id="stage-${RT.slug(stage.id)}">
           <summary>
             <h2 class="section-title" style="display:inline-flex;align-items:center;gap:10px;">
               ${RT.escapeHTML(stage.name)}
@@ -439,14 +439,14 @@
             ${c.chokepoints.map(x => `<li style="margin:3px 0;">${RT.escapeHTML(x.text)} <span class="choke-src"><a href="${RT.escapeHTML(x.source)}" target="_blank" rel="noopener" title="${RT.escapeHTML(hostname(x.source))}">[${RT.escapeHTML(hostname(x.source))}]</a></span></li>`).join('')}
           </ul>` : ''}
         ${cos.length ? `
-        <table class="data-table">
+        <div class="table-wrap"><table class="data-table">
           <thead><tr>
             <th>Company</th><th>Role</th><th class="hide-mobile">Sites</th><th class="hide-mobile">Capacity</th><th>Financing</th>
           </tr></thead>
           <tbody>
             ${usFirst.map(co => companyRow(co)).join('')}
           </tbody>
-        </table>` : ''}
+        </table></div>` : ''}
         <p class="cat-src">Sources: ${(c.sources || []).map((s, i) => {
           const url = typeof s === 'string' ? s : s.url;
           const label = (typeof s === 'object' && s.label) || hostname(url);

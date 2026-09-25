@@ -1958,3 +1958,7 @@ button, [role="button"], a.btn {
     white-space: normal;
   }
 }
+
+/* "Showing N of M" row under a capped table (companies directory). [hidden] is global, so display:flex is safe. */
+.more-row { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin: 12px 0 0; }
+.more-row .btn { min-height: 44px; }
