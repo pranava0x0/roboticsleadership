@@ -25,6 +25,44 @@
     "summary": "The IFR's World Robotics 2026 report puts the global operating stock of industrial robots at a record 5 million, after 2025 installations rose 11% to more than 600,000. China installed 354,200 units (up 20%, 59% of the world total). The US installed 38,400 (up 12%) and became the second-largest market as Japan fell 19% to about 36,200. Chinese suppliers held 55% of their home market, down from 57% in 2024. The IFR forecasts 655,000 installations in 2026. It also counted nearly 7,000 full-size humanoids sold in 2025 from 174 makers, more than half of them Chinese."
   },
   {
+    "id": "rss-isaac-ros-5-0-brings-ai-agents-100",
+    "title": "Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA",
+    "date": "2026-09-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/",
+    "summary": "Isaac ROS 5.0 adds agent-assisted workflows and support for robotics development. The open-source ROS 2 stack offers tooling; deployment claims need independent field evidence.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "open-source",
+      "robotics-software"
+    ]
+  },
+  {
+    "id": "rss-intrinsic-open-sources-key-par-754",
+    "title": "Intrinsic open sources key parts of its platform for easier development",
+    "date": "2026-09-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/",
+    "summary": "Intrinsic says it is releasing key infrastructure from its industrial robotics platform as Intrinsic Core. Check the published license and repository before treating the full platform as open source.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "open-source",
+      "robotics-software"
+    ]
+  },
+  {
     "source_type": "News",
     "policies": [],
     "companies": [],
@@ -95,6 +133,26 @@
       "onshoring"
     ],
     "summary": "Amazon will invest more than $100 million in a 585,000-square-foot manufacturing facility in Greenwood, Indiana, due to launch by 2028 with 300 jobs averaging nearly $100,000 a year. The plant combines fabrication, robotic welding, automated powder coating and assembly to make products for Amazon's fulfillment and robotics network across North America. Amazon says it has built more than 1 million robots in the US, deployed across more than 300 facilities, and that Greenwood follows an August announcement of a robotics manufacturing investment in Texas."
+  },
+  {
+    "id": "eidon-tracker-pov-2026",
+    "title": "Eidon releases first-person robot training dataset",
+    "date": "2026-09-21",
+    "source": "Eidon / Hugging Face",
+    "source_type": "Primary",
+    "source_url": "https://huggingface.co/datasets/eidon-ai/tracker-pov",
+    "summary": "Open dataset of wearable first-person recordings, paired with inertial data, intended for embodied-AI research. The data card describes collection scope and license; downstream task performance remains to be established.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "dataset",
+      "open-data",
+      "physical-ai"
+    ]
   },
   {
     "source_type": "News",
@@ -222,6 +280,89 @@
       "volume"
     ],
     "summary": "AgiBot and Chimelong Group launched the first phase of an embodied-AI deployment at Chimelong Spaceship Park in Zhuhai with more than 300 robots across seven scenarios, including performances, guided tours, retail stations and hotel services. The launch coincided with AgiBot's 20,000th robot coming off its production line, double the 10,000th it marked on March 30. The customer is an entertainment operator, so the deployment is closer to attractions than to factory or warehouse work."
+  },
+  {
+    "id": "rss-what-do-you-do-with-a-humanoid-641",
+    "title": "What do you do with a humanoid robot when it breaks down?",
+    "date": "2026-09-20",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
+    "summary": "The article examines repair, replacement, and end-of-life handling for humanoid robots, an operational cost often missing from deployment claims.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "maintenance",
+      "humanoid"
+    ]
+  },
+  {
+    "id": "rss-hirebotics-adds-line-tracking-715",
+    "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
+    "date": "2026-09-19",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
+    "summary": "Hirebotics added line tracking and linear-rail options for its welding cobots, extending work envelope in manufacturing use cases.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "cobots",
+      "manufacturing"
+    ]
+  },
+  {
+    "id": "fcc-robotics-covered-list-conditional-2026",
+    "title": "FCC announces conditional approval route for some advanced robotic devices",
+    "date": "2026-09-18",
+    "source": "FCC",
+    "source_type": "Primary",
+    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf",
+    "summary": "FCC notice details DoW conditional approvals that exempt certain foreign-produced advanced robotic devices from the July Covered List addition.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "fcc",
+      "covered-list",
+      "robotics"
+    ]
+  },
+  {
+    "id": "nist-mep-awards-2026-09",
+    "title": "NIST awards more than $30M to 12 MEP centers for advanced manufacturing adoption",
+    "date": "2026-09-15",
+    "source": "NIST",
+    "source_type": "Primary",
+    "source_url": "https://www.nist.gov/news-events/news/2026/09/nist-awards-more-30-million-mep-centers-11-states-and-puerto-rico",
+    "summary": "First-year MEP awards support small and medium-sized manufacturers adopting AI, robotics, automation, and additive manufacturing; 12 centers across 11 states and Puerto Rico must secure at least 50% nonfederal match.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "nist-mep-centers-awards-2026"
+    ],
+    "themes": [
+      "industrial-deployments",
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "mep",
+      "manufacturing",
+      "robotics-adoption"
+    ]
   },
   {
     "source_type": "News",
@@ -17828,12 +17969,12 @@
   },
   {
     "id": "obbba-depreciation",
-    "title": "House passes One Big Beautiful Bill with 100% bonus depreciation for automation equipment",
-    "date": "2026-05-10",
-    "source": "Standard Bots",
-    "source_type": "Blog",
-    "source_url": "https://standardbots.com/blog/obbb-robotics",
-    "summary": "The One Big Beautiful Bill Act, as passed by the House, restores 100% bonus depreciation for qualifying equipment placed in service through 2029. Industrial robots, conveyors, welding systems, and palletizers all qualify. The provision reverses the depreciation phaseout that would have hit 0% by 2027, directly improving the unit-economics of robot deployment for US manufacturers.",
+    "title": "IRS guidance confirms permanent 100% bonus depreciation for qualifying equipment",
+    "date": "2026-01-14",
+    "source": "Internal Revenue Service",
+    "source_type": "Primary",
+    "source_url": "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-the-additional-first-year-depreciation-deduction-amended-as-part-of-the-one-big-beautiful-bill",
+    "summary": "Under Public Law 119-21, a permanent 100% first-year deduction generally applies to qualifying property acquired after January 19, 2025. Some industrial equipment may qualify; eligibility is asset- and taxpayer-specific.",
     "category": "Policy",
     "companies": [],
     "policies": [
@@ -17845,12 +17986,11 @@
       "policy-momentum"
     ],
     "sentiment": "Positive",
-    "confidence": "Medium",
+    "confidence": "High",
     "tags": [
-      "federal",
       "tax",
-      "manufacturing",
-      "capex"
+      "equipment",
+      "manufacturing"
     ],
     "archive_url": "https://web.archive.org/web/20260115081542/https://standardbots.com/blog/obbb-robotics"
   },

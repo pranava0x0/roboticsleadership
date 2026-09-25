@@ -54,6 +54,7 @@
           <li><a href="china.html">US vs China</a></li>
           <li><a href="companies.html">Companies</a></li>
           <li><a href="policies.html">Policy</a></li>
+          <li><a href="physical-ai-action-plan.html">Draft EO</a></li>
           <li><a href="supply-chain.html">Supply Chain</a></li>
           <li><a href="energy.html">Energy</a></li>
           <li><a href="states.html">States</a></li>
@@ -107,7 +108,7 @@
     <details class="collapsible-section" id="sec-onbooks" open>
       <summary>
         <h2 class="section-title">What's already on the books</h2>
-        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">State and local policy records this tracker already follows. Click through for the full detail on the Policy tab.</p>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">State and local policy records this tracker already follows. Open each source for the program details.</p>
       </summary>
       <div class="table-wrap">
         <table class="data-table" id="sp-onbooks-table">
@@ -149,12 +150,12 @@
     const statesRepresented = new Set(
       stateRecords.map(p => p.state).filter(s => s && s !== 'N/A')
     ).size;
-    const startupEligible = stateRecords.filter(p => p.startup_eligible).length;
+    const startupEligible = stateRecords.filter(p => p.type === 'Incentive Program' && p.startup_eligible).length;
     const kpis = [
       { label: 'Policy themes', value: String(statePolicy.length), sub: 'cross-cutting state threads' },
       { label: 'Tracked records', value: String(stateRecords.length), sub: 'state + local programs/laws' },
       { label: 'States represented', value: String(statesRepresented), sub: 'with a tracked record' },
-      { label: 'Startup-eligible', value: String(startupEligible), sub: 'programs open to early-stage' },
+      { label: 'Startup-eligible', value: String(startupEligible), sub: 'incentive programs (subject to thresholds)' },
     ];
     document.getElementById('sp-kpis').innerHTML = kpis.map(k => `
       <div class="kpi-card">
@@ -189,12 +190,12 @@
       const sorted = RT.sortBy(stateRecords, p => p.state || '', 'asc');
       tbody.innerHTML = sorted.map(p => `
         <tr tabindex="0" role="link"
-            data-href="policies.html?focus=${encodeURIComponent(p.id)}">
+            data-href="${RT.escapeHTML(p.full_text_url || RT.sourceURL((p.sources || [])[0]))}">
           <td><strong class="mono">${RT.escapeHTML(p.state || '—')}</strong></td>
           <td>${RT.escapeHTML(p.title)}<span class="secondary-line">${RT.escapeHTML(p.robotics_scope || '')}</span></td>
           <td class="hide-mobile">${RT.escapeHTML(p.type || '—')}</td>
           <td class="hide-mobile">${statusPill(p.status)}</td>
-          <td class="hide-mobile">${p.startup_eligible ? '<span class="pill positive">Eligible</span>' : '<span class="pill outline">Limited</span>'}</td>
+          <td class="hide-mobile">${p.type !== 'Incentive Program' ? '—' : (p.startup_eligible ? '<span class="pill positive">Potentially eligible</span>' : '<span class="pill outline">Limited</span>')}</td>
         </tr>
       `).join('');
       tbody.querySelectorAll('tr[data-href]').forEach(tr => {

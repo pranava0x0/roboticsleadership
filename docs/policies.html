@@ -4,12 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="color-scheme" content="light dark" />
-  <meta name="description" content="Federal bills, state incentives, regulatory items, and procurement programs affecting robotics." />
+  <meta name="description" content="Federal bills, regulations, research programs, and procurement affecting robotics." />
   <link rel="canonical" href="https://pranava0x0.github.io/roboticsleadership/policies.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Robotics Leadership Tracker" />
   <meta property="og:title" content="Policy · Robotics Tracker" />
-  <meta property="og:description" content="Federal bills, state incentives, regulatory items, and procurement programs affecting robotics." />
+  <meta property="og:description" content="Federal bills, regulations, research programs, and procurement affecting robotics." />
   <meta property="og:url" content="https://pranava0x0.github.io/roboticsleadership/policies.html" />
   <meta property="og:image" content="https://pranava0x0.github.io/roboticsleadership/assets/share-card.png" />
   <meta property="og:image:width" content="1200" />
@@ -68,6 +68,7 @@
           <li><a href="china.html">US vs China</a></li>
           <li><a href="companies.html">Companies</a></li>
           <li><a href="policies.html">Policy</a></li>
+          <li><a href="physical-ai-action-plan.html">Draft EO</a></li>
           <li><a href="supply-chain.html">Supply Chain</a></li>
           <li><a href="energy.html">Energy</a></li>
           <li><a href="states.html">States</a></li>
@@ -95,15 +96,15 @@
 
   <main id="main">
     <p class="eyebrow">Policy tracker</p>
-    <h1 class="page-title">Federal bills, state incentives, procurement.</h1>
+    <h1 class="page-title">Federal bills, programs, procurement.</h1>
     <p class="page-lede">
-      Every robotics-related policy item we track: Congressional bills, regulatory rules, state tax credits, federal grant programs, and procurement initiatives. Status updated weekly.
+      Federal robotics-related bills, rules, research programs, and procurement initiatives. State laws and incentives appear on the <a href="states.html">States page</a>. Records are dated at the source.
     </p>
 
     <aside class="bluf" aria-label="Bottom line up front">
       <span class="bluf-tag">Bottom line</span>
       <p class="bluf-body">
-        <strong>The most consequential federal robotics money in 2026 sits where procurement, manufacturing, and tax intersect</strong> — DoD Replicator, the CHIPS Act, and 100% bonus depreciation. Most momentum is security-driven, not innovation-driven; the rules for where robots actually operate are set by the <a href="states.html">states</a>.
+        <strong>Federal robotics policy spans procurement, manufacturing, research, and tax.</strong> This tracker follows live agency programs and proposed bills separately. States and cities also govern where many robots operate; see the <a href="states.html">States page</a>.
       </p>
     </aside>
 
@@ -152,8 +153,8 @@
 
     <details class="collapsible-section" id="sec-executive" open>
       <summary>
-        <h2 class="section-title">Executive actions</h2>
-        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Executive orders, agency regulations, federal grant programs, and procurement initiatives.</p>
+        <h2 class="section-title">Federal programs and national initiatives</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Executive orders, agency regulations, federal grant programs, procurement, and clearly marked stakeholder frameworks.</p>
       </summary>
       <div class="table-wrap">
         <table class="data-table" id="executive-table">
@@ -195,13 +196,13 @@
     </details>
 
     <div class="note-block">
-      <p style="margin:0;"><strong>Cross-cutting:</strong> The most consequential federal robotics money in 2026 sits at the intersection of <a href="policies.html?focus=dod-replicator">DoD Replicator</a> (procurement at scale), <a href="policies.html?focus=chips-act-advanced-manufacturing">CHIPS Act</a> (manufacturing), and <a href="policies.html?focus=obbba-bonus-depreciation">100% bonus depreciation</a> (demand-side). The R&amp;D agencies (ARPA-E, NSF, NASA JPL, NIH) generate the technology; DoD + Commerce buy and scale it.</p>
+      <p style="margin:0;"><strong>Cross-cutting:</strong> <a href="policies.html?focus=dod-replicator">DoD Replicator</a> is a procurement initiative; the <a href="policies.html?focus=chips-act-advanced-manufacturing">CHIPS Act</a> supports manufacturing and research; <a href="policies.html?focus=obbba-bonus-depreciation">100% bonus depreciation</a> is enacted tax treatment for eligible equipment. They differ in eligibility, authority, and application.</p>
     </div>
 
     <details class="collapsible-section" id="sec-tax">
       <summary>
         <h2 class="section-title">Tax &amp; demand-side incentives</h2>
-        <p class="muted" style="font-size:13px;margin:-4px 0 12px;">Tax treatment isn't a "program," but it's the largest lever the federal government pulls on robotics deployment economics. Three pieces matter:</p>
+        <p class="muted" style="font-size:13px;margin:-4px 0 12px;">Three federal tax provisions may affect robotics R&amp;D and equipment purchases. Eligibility depends on the taxpayer and asset.</p>
       </summary>
       <div class="table-wrap">
         <table class="data-table agency-table">
@@ -209,7 +210,7 @@
             <tr>
               <th>Provision</th>
               <th>What it does for robotics</th>
-              <th>Status (May 2026)</th>
+              <th>Status (September 2026)</th>
             </tr>
           </thead>
           <tbody id="tax-policies-tbody">
@@ -246,15 +247,15 @@
     });
 
     // ---- KPI strip ----
-    const inProgress = policies.filter(p => ['Introduced','Committee','Passed House','Passed Senate'].includes(p.status)).length;
+    const inProgress = policies.filter(p => p.level === 'Federal' && ['Introduced','Committee','Passed House','Passed Senate'].includes(p.status)).length;
     const congressCount = policies.filter(p => p.level === 'Federal' && p.type === 'Bill').length;
     const executiveCount = policies.filter(p => p.level === 'Federal' && p.type !== 'Bill').length;
-    const stateCount = policies.filter(p => p.level === 'State').length;
+    const stateCount = policies.filter(p => p.level === 'State' || p.level === 'City').length;
 
     document.getElementById('policy-kpis').innerHTML = [
-      { label: 'Congressional actions', value: congressCount, sub: 'bills in the 119th' },
-      { label: 'Executive actions', value: executiveCount, sub: 'EOs, regs, programs' },
-      { label: 'State incentives', value: stateCount, sub: 'tax credits + grants' },
+      { label: 'Bills and drafts', value: congressCount, sub: '119th Congress proposals' },
+      { label: 'Programs and initiatives', value: executiveCount, sub: 'federal + stakeholder context' },
+      { label: 'State/local records', value: stateCount, sub: 'see States page' },
       { label: 'In progress', value: inProgress, sub: 'pre-enactment, advancing' },
     ].map(k => `
       <div class="kpi-card">
@@ -424,9 +425,8 @@
 
       const taxTbody = document.getElementById('tax-policies-tbody');
       if (taxTbody) {
-        const taxPol = policies.filter(p => p.tags && p.tags.includes('tax'));
         const order = ['sec-174-rd-expensing', 'rd-tax-credit', 'obbba-bonus-depreciation'];
-        taxPol.sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id));
+        const taxPol = order.map(id => policies.find(p => p.id === id && p.level === 'Federal')).filter(Boolean);
 
         taxTbody.innerHTML = taxPol.map(p => {
           let statusHTML = '';
@@ -435,7 +435,7 @@
           } else if (p.id === 'rd-tax-credit') {
             statusHTML = `Permanent. Standard four-part qualification test. <a href="${RT.escapeHTML(p.sources[0]?.url || '')}" target="_blank" rel="noopener">Robotics-specific guidance</a>.`;
           } else if (p.id === 'obbba-bonus-depreciation') {
-            statusHTML = `<a href="policies.html?focus=obbba-bonus-depreciation">OBBBA restores to 100%</a> through 2029. <a href="${RT.escapeHTML(p.sources[0]?.url || '')}" target="_blank" rel="noopener">Industry analysis</a>.`;
+            statusHTML = `<a href="policies.html?focus=obbba-bonus-depreciation">Permanent 100% deduction</a> for qualifying property acquired after January 19, 2025. <a href="${RT.escapeHTML(p.sources[0]?.url || '')}" target="_blank" rel="noopener">IRS guidance</a>.`;
           } else {
             const sourcesLinks = (p.sources || []).map((s, idx) => `<a href="${RT.escapeHTML(RT.sourceURL(s))}" target="_blank" rel="noopener">Source [${idx + 1}]</a>`).join(', ');
             statusHTML = `${RT.escapeHTML(p.status)}. ${sourcesLinks}`;
