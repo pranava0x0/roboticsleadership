@@ -6,14 +6,15 @@
   "description": "Static-site dashboard for tracking robotics startups, government policy, and industry signals.",
   "scripts": {
     "validate": "node scripts/validate.js",
-    "test": "node scripts/scraper-news.test.js && node scripts/supply-chain.test.js && node scripts/us-china.test.js && node scripts/check-sources.js && node scripts/energy.test.js && node scripts/validate.test.js && node scripts/render-static.test.js",
+    "test": "node scripts/scraper-news.test.js && node scripts/supply-chain.test.js && node scripts/us-china.test.js && node scripts/check-sources.js && node scripts/energy.test.js && node scripts/validate.test.js && node scripts/render-static.test.js && node scripts/layout-guards.test.js && node scripts/site-metrics.js",
     "bake": "node scripts/render-static.js --write",
     "bake:check": "node scripts/render-static.js",
     "test:energy": "node scripts/energy.test.js",
     "check:sources": "node scripts/check-sources.js",
     "scrape:news": "node scripts/scraper-news.js",
     "scrape:policy": "node scripts/scraper-policy.js",
-    "serve": "python3 -m http.server -d docs 8000"
+    "serve": "python3 -m http.server -d docs 8000",
+    "metrics": "node scripts/site-metrics.js"
   },
   "engines": {
     "node": ">=18"
