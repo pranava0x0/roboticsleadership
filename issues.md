@@ -4,6 +4,14 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 ## Open
 
+### 2026-09-25 — supply-chain.html — category tables overflowed the page at 375 px  ✅ FIXED 2026-09-25
+
+- **Area:** `docs/supply-chain.html`, `categoryBlock()`. Found by the new scroll probe (`document.documentElement.scrollWidth` 394 vs `innerWidth` 375 on a phone-width iframe).
+- **Symptom:** the "Rare-earth mining, separation & refining" table (Company / Role / Financing after `.hide-mobile` drops two columns) was 381 px wide inside a 336 px container, so the whole page scrolled sideways on phones.
+- **Root cause (code bug):** the category tables were bare `<table class="data-table">`; only tables inside `.table-wrap` get `overflow-x: auto`. Long single-word cells (site names, dollar amounts) set the minimum width.
+- **Fix:** each category table now sits in `<div class="table-wrap">`. The two tallest sections on the page (U.S. manufacturing sites, first chain stage) also ship collapsed, cutting the phone page from 27.7 to 16.5 screens.
+- **Regression test:** `scripts/layout-guards.test.js` asserts the wrapper and the collapsed defaults. The rendered overflow check is `scripts/uat-scroll-probe.js` (`ovx` per page).
+
 ### 2026-09-23 — scraper-news.js — `reddit-robotics` source has been silently failing since 2026-06-23
 
 - **Area:** `scripts/scraper-news.js` `handleReddit()` / `docs/data/sources.json`'s `reddit-robotics` entry. Found during a routine 3-day data refresh: the source is `enabled: true` but its `last_run` was still `2026-06-23` — three months stale — while every other news source's `last_run` had been advancing normally.

@@ -41,6 +41,9 @@ scripts/               Node.js scrapers (Node 18+, no deps)
   scraper-policy.js    Federal Register search
   validate.js          schema check across all data files (now incl. state_policy)
   make-share-card.py   regenerates docs/assets/share-card.png (OG image) — run after thesis copy changes
+  site-metrics.js      page weight (gzip), request count and internal-link check; `npm run metrics`, `--append` logs to data/metrics/
+  uat-scroll-probe.js  paste-in browser probe: screens of scroll per page at desktop and phone width (history in data/metrics/uat-scroll.jsonl)
+  layout-guards.test.js  regression guards for the scroll-depth and mobile-overflow fixes
 ```
 
 ---

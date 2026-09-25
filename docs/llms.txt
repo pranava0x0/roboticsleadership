@@ -67,7 +67,7 @@ actually rests on: a filing, or an outlet's reporting of one.
 
 ## Caveats, stated plainly
 
-- Record counts are small and hand-curated by one person. This is a tracker, not a census — absence of a record is not evidence of absence.
+- Coverage is curated by one person. This is a tracker, not a census: absence of a record is not evidence of absence.
 - `data_confidence` and `confidence` fields mark how well-sourced a record is. Respect them; do not present a `low` / `Medium` record as settled fact.
 - Funding and valuation figures are reported values from press coverage unless a round is marked `confirmed`.
 - News `category` and `sentiment` are assigned at scrape time and are occasionally wrong.
