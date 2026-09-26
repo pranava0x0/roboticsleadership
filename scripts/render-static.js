@@ -118,16 +118,17 @@ function indexSlots(RT, data) {
   const kpis = RT.computeKPIs(companies, policies, sc);
   // Same single split the client uses, so lead / top stories / briefs bake in
   // the same three positions the browser then re-renders into.
-  const front = RT.frontPageStories(news);
+  const recent = RT.newsRecentPayload(news);
+  const front = RT.frontPageStories(recent.records);
   // A front page with no lead story is a broken deploy, not a rendering
   // outcome. bake() cannot catch it (an empty slot fill is legal) and pages.yml
   // never runs npm test, so this is the only gate on the deploy path.
   if (!front.lead) throw new Error('index.html: no lead story — news.json is empty or unreadable');
   return {
-    'index-standfirst': RT.renderStandfirst(companies, policies, news),
+    'index-standfirst': RT.renderStandfirst(companies, policies, recent.total),
     'index-lead': RT.renderLeadStory(front.lead, companies, policies),
     'index-topstories': RT.renderTopStories(front.top, companies),
-    'index-briefs': RT.renderNewsBriefs(front.briefs, news.length),
+    'index-briefs': RT.renderNewsBriefs(front.briefs, recent.total),
     'index-kpis': RT.renderKPIStrip(kpis),
     'index-themes': RT.renderThemeCards(themes),
     'index-companies': RT.renderTopCompanies(companies),
@@ -177,6 +178,9 @@ export function bakeAll({ write = false } = {}) {
   const RT = loadRT();
   const data = loadData();
   const results = [];
+  // Derived artifact the front page fetches instead of the whole archive. Written in
+  // both modes: it is gitignored, so a check-only run leaves nothing to commit.
+  writeFileSync(resolve(DOCS, 'data/news-recent.json'), JSON.stringify(RT.newsRecentPayload(data.news)) + '\n');
   for (const [page, slotsFor] of Object.entries(PAGES)) {
     const file = resolve(DOCS, page);
     const slots = slotsFor(RT, data);

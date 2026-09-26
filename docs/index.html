@@ -26,7 +26,7 @@
   </script>
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/companies.json" crossorigin />
-  <link rel="preload" as="fetch" href="data/news.json" crossorigin />
+  <link rel="preload" as="fetch" href="data/news-recent.json" crossorigin />
   <link rel="preload" as="fetch" href="data/supply_chain.json" crossorigin />
 </head>
 <body>
@@ -177,8 +177,13 @@
   document.addEventListener('DOMContentLoaded', async () => {
     // supply_chain feeds the thesis chart + install-gap KPI; if it fails,
     // degrade to the 5-KPI strip and skip the chart (loadData already logs).
-    const [{ companies, policies, news, themes }, sc] = await Promise.all([
-      RT.loadAll(),
+    // The front page renders ten stories and a total, so it loads the derived
+    // news-recent.json (latest 60 + count), not the whole archive.
+    const [companies, policies, themes, recent, sc] = await Promise.all([
+      RT.loadData('companies'),
+      RT.loadData('policies'),
+      RT.loadData('themes'),
+      RT.loadNewsRecent(),
       RT.loadData('supply_chain').catch(() => null),
     ]);
 
@@ -194,15 +199,15 @@
     // ---------- Front-page furniture ----------
     // One split, three positions — see RT.frontPageStories. Painting each from
     // the same object is what keeps a story out of two slots at once.
-    const front = RT.frontPageStories(news);
+    const front = RT.frontPageStories(recent.records);
     RT.paint(document.getElementById('front-lead'),
       RT.renderLeadStory(front.lead, companies, policies));
     RT.paint(document.getElementById('front-topstories'),
       RT.renderTopStories(front.top, companies));
     RT.paint(document.getElementById('front-briefs'),
-      RT.renderNewsBriefs(front.briefs, news.length));
+      RT.renderNewsBriefs(front.briefs, recent.total));
     RT.paint(document.querySelector('.masthead-standfirst'),
-      RT.renderStandfirst(companies, policies, news));
+      RT.renderStandfirst(companies, policies, recent.total));
 
     // ---------- Charts ----------
     // Still client-only: renderProductionTrend writes into live SVG nodes and

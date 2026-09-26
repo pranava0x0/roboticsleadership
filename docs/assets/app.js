@@ -778,6 +778,22 @@
     return sortBy(news || [], (n) => n.date, 'desc').slice(0, count);
   }
 
+  // The front page needs ten stories and a total, not the ~1,000-record archive.
+  // The deploy bake derives data/news-recent.json (gitignored, never committed) from
+  // news.json with this function; loadNewsRecent() falls back to building the same
+  // payload client-side, so local dev and a failed bake still work.
+  const NEWS_RECENT_COUNT = 60;
+  function newsRecentPayload(news) {
+    return { total: (news || []).length, records: latestNews(news, NEWS_RECENT_COUNT) };
+  }
+  async function loadNewsRecent() {
+    try {
+      return await loadData('news-recent');
+    } catch (err) {
+      return newsRecentPayload(await loadData('news'));
+    }
+  }
+
   function newsResultCount(total, page, size) {
     if (total <= size) return `${total} ${total === 1 ? 'story' : 'stories'}`;
     const start = Math.min((page - 1) * size + 1, total);
@@ -965,8 +981,8 @@
 
   // Masthead standfirst — the corpus, stated as a fact about the page rather
   // than a claim about the world. Counts come from the data, never hardcoded.
-  function renderStandfirst(companies, policies, news) {
-    return `${formatNumber((news || []).length)} news records · ` +
+  function renderStandfirst(companies, policies, newsTotal) {
+    return `${formatNumber(newsTotal || 0)} news records · ` +
       `${formatNumber((companies || []).length)} companies · ` +
       `${formatNumber((policies || []).length)} policy actions — ` +
       `every record is cited; primary sources preferred.`;
@@ -1053,7 +1069,10 @@
     // Pure page renderers — shared by the inline page scripts and the
     // deploy-time bake step (scripts/render-static.js). Keep them DOM-free.
     NEWS_PAGE_SIZE,
+    NEWS_RECENT_COUNT,
     latestNews,
+    newsRecentPayload,
+    loadNewsRecent,
     newsResultCount,
     chinaTally,
     renderChinaBluf,

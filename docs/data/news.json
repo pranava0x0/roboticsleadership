@@ -2,6 +2,191 @@
   {
     "source_type": "News",
     "policies": [],
+    "companies": [
+      "tesla-optimus"
+    ],
+    "sentiment": "Mixed",
+    "confidence": "Medium",
+    "tags": [
+      "tesla",
+      "optimus",
+      "humanoid",
+      "production",
+      "labor",
+      "china-suppliers"
+    ],
+    "id": "tesla-optimus-v3-ramp-2026-09",
+    "title": "Tesla is building hundreds of Optimus V3 a week, and workers pushed back on training their replacements",
+    "date": "2026-09-25",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
+    "category": "Deployment",
+    "themes": [
+      "industrial-deployments",
+      "us-supply-chain",
+      "cost-trajectory"
+    ],
+    "summary": "Ars Technica, summarizing reporting by The Information, says Tesla has scaled Optimus V3 to hundreds of robots a week at Fremont, which stopped making the Model S and Model X in May, and is aiming above 1,000 a week by year-end. Workers still assemble each hand and forearm by hand, more than 100 small parts, and unreliable touch sensors led Tesla to a replaceable sensor glove. Some factory workers who wore motion-capture suits to generate training data objected that they were training their replacements, so Tesla moved the work to dedicated teams. The report says Tesla still relies on Chinese suppliers. The figures come from anonymous sources and Tesla has not confirmed them."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "toyota",
+      "humanoid",
+      "automotive",
+      "japan",
+      "training-data"
+    ],
+    "id": "toyota-eley-worker-trained-humanoids-2026-09",
+    "title": "Toyota has workers wear finger jigs to teach its wheeled ELEY humanoid, and says the robots will not replace people",
+    "date": "2026-09-22",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/",
+    "category": "Deployment",
+    "themes": [
+      "industrial-deployments",
+      "china-scale"
+    ],
+    "summary": "Ars Technica, citing Nikkei Asia, reports that Toyota workers wear jigs shaped like the humanoid's fingers to teach the wheeled ELEY robot precise hand tasks on assembly lines. From 2028 the Toyota group plans to spend about $6.42 billion a year on factory upgrades, with 150,000 robots in its own plants and 250,000 more at group suppliers. Executive vice president Hiroki Nakajima told Nikkei the aim is robots that coexist with people rather than replace them. Toyota has not said how many robots it has deployed or how many will be humanoids. This adds the source trail behind the 400,000-robot figure in the 2026-09-21 record."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "mujin"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "japan",
+      "physical-ai",
+      "award",
+      "logistics",
+      "mujinos"
+    ],
+    "id": "mujin-prime-ministers-award-2026-09",
+    "title": "Mujin wins Japan's top startup prize, presented by the prime minister at a 'physical AI first year' ceremony",
+    "date": "2026-09-25",
+    "source": "Mujin",
+    "source_url": "https://www.mujin.co.jp/news/11325/",
+    "category": "Competitive",
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "summary": "Mujin won the Prime Minister's Award, the top prize of Japan Startup Award 2026 (run by the Ministry of Economy, Trade and Industry), presented by Prime Minister Sanae Takaichi on September 25. Mujin's release ties the award to the government's naming of 2026 as the first year of physical AI. Japan Times and Nikkei report a June 2026 strategy targeting ¥10.5 trillion ($65.1 billion) of public and private physical-AI investment by fiscal 2040 and about 10 million AI-equipped robots by 2040. Mujin sells MujinOS, a robot control platform for logistics and manufacturing, and raised $233 million in a December 2025 Series D first close. Japan is a third national approach beside the US and China cases tracked here."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "china",
+      "ipo",
+      "hong-kong",
+      "actuators",
+      "direct-drive"
+    ],
+    "id": "direct-drive-tech-hk-ipo-2026-09",
+    "title": "Direct Drive Tech opens a Hong Kong IPO to raise about $138M for reducer-free robot joints",
+    "date": "2026-09-22",
+    "source": "KrASIA",
+    "source_url": "https://kr-asia.com/direct-drive-tech-launches-hong-kong-ipo-testing-demand-for-physical-ai-hardware",
+    "category": "Funding",
+    "themes": [
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "summary": "Direct Drive Tech, founded in 2020, makes robot drive systems that skip the mechanical reducer. It began taking IPO orders on September 21 at HK$21.60 a share for 50 million H shares, or about HK$1.08 billion ($137.7 million) before the greenshoe, and plans to list on the Hong Kong main board on September 29. Two state-backed cornerstone investors took HK$472 million. Existing backers include Lenovo Capital and Horizon Robotics. The reducer is the gear stage that Apptronik's CEO called a US supply gap on 2026-09-22; a Chinese supplier going public on a design that removes it is worth watching alongside the gear-supplier map."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "softbank",
+      "construction",
+      "autonomy",
+      "joint-venture",
+      "utah"
+    ],
+    "id": "asi-softbank-construction-autonomy-2026-09",
+    "title": "SoftBank invests $225M in Autonomous Solutions and capitalizes a construction-autonomy joint venture",
+    "date": "2026-09-24",
+    "source": "Autonomous Solutions, Inc.",
+    "source_url": "https://asirobots.com/asi-and-softbank-group-form-joint-venture-to-advance-autonomous-construction-at-scale/",
+    "category": "Funding",
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
+    ],
+    "summary": "Utah-based Autonomous Solutions, Inc. (ASI) said SoftBank Group invested $225 million in the company and capitalized a joint venture to build and sell autonomous equipment for large infrastructure projects. ASI's Mobius platform runs mixed fleets of haul trucks, dozers, loaders and compactors from different manufacturers. The release does not give the joint venture's capital or ownership split."
+  },
+  {
+    "source_type": "News",
+    "policies": [
+      "fcc-covered-list-robots-inverters-2026"
+    ],
+    "companies": [],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "fcc",
+      "covered-list",
+      "china",
+      "ipo",
+      "lidar",
+      "robot-vacuum"
+    ],
+    "id": "camsense-hk-ipo-fcc-2026-09",
+    "title": "Robot-vacuum lidar maker Camsense prices a Hong Kong IPO despite the FCC Covered List action",
+    "date": "2026-09-23",
+    "source": "South China Morning Post",
+    "source_url": "https://www.scmp.com/business/markets/article/3368466/chinese-maker-robot-vacuum-sensors-launches-hong-kong-ipo-undeterred-us-ban",
+    "category": "Geopolitics",
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "summary": "Shenzhen Camsense Technologies, which makes spatial sensors for robot vacuums and counts BYD among its backers, plans to sell 11.58 million shares at HK$58.85 to raise about HK$680 million ($86.7 million), with trading due to start on September 30. Co-founder Zhou Kun said exports and procurement for existing client products are normal and the FCC's late-July Covered List action limits only new-product schedules. That is one supplier's account, and the FCC action blocks equipment authorization for new models rather than sales of authorized ones."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "sentiment": "Mixed",
+    "confidence": "Medium",
+    "tags": [
+      "rare-earths",
+      "export-controls",
+      "trade-truce",
+      "xi-visit",
+      "magnets"
+    ],
+    "id": "us-china-truce-extension-2026-09",
+    "title": "US and China extend their trade truce two months, delaying the rare-earth export ban to January 10",
+    "date": "2026-09-24",
+    "source": "Al Jazeera",
+    "source_url": "https://www.aljazeera.com/economy/2026/9/24/hostile-but-hooked-whats-behind-the-us-china-trade-truce-extension",
+    "category": "Geopolitics",
+    "themes": [
+      "us-supply-chain",
+      "china-scale",
+      "policy-momentum"
+    ],
+    "summary": "As Xi Jinping made a state visit to Washington, the Trump administration announced that the two countries would extend the October 2025 truce. Al Jazeera reports that China's rare-earth export ban is delayed until January 10; the site had tracked November 10, 2026 as the expiry. Analysts quoted call it a two-month holding measure, not a path to a larger deal. Another outlet reported a longer delay, so the term is not settled. The extension matters for actuator and magnet supply because the suspended controls reach magnets with even trace Chinese content."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
     "companies": [],
     "themes": [
       "china-scale",

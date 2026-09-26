@@ -1,0 +1,354 @@
+{
+  "date": "2026-09-26",
+  "note": "Scraper candidates (PR #225 branch) dropped in curation. Input for a future data/curation-blocklist.json (see ingestion-plan.md).",
+  "news": [
+    {
+      "id": "hn-49818624",
+      "source_url": "https://www.nytimes.com/2026/09/23/us/asilomar-dna-ai-self-regulation-laws.html",
+      "title": "How Scientists Contained a Threat That Could Have Destroyed Humanity",
+      "date": "2026-09-23",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49820126",
+      "source_url": "https://lastexam.ai/blog/hle-diamond",
+      "title": "Introducing HLE-Diamond – Humanity's Last Exam",
+      "date": "2026-09-23",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49825339",
+      "source_url": "https://www.theatlantic.com/technology/2026/09/kara-swisher-ai-destroy-humanity-atlantic-festival/688721/",
+      "title": "AI Isn't Going to Destroy Humanity–But the People Building It Might",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49827031",
+      "source_url": "https://interworky.com/",
+      "title": "Investigate top humanity questions with your own AI agent",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49835931",
+      "source_url": "https://apnews.com/article/ai-artificial-intelligence-un-security-council-64519ea66b38e2600026f4481ad7f211",
+      "title": "Tech leaders to UN: For sake of humanity, please control the AI tech we created",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49839812",
+      "source_url": "https://humanityark.cdtglobal.org/",
+      "title": "Human Help to Survive AI",
+      "date": "2026-09-25",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49842127",
+      "source_url": "https://passo.uno/tech-needs-humanists-more-than-ever/",
+      "title": "Tech Needs Humanists More",
+      "date": "2026-09-25",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49847375",
+      "source_url": "https://www.hussmanfunds.com/comment/ai_alignment_260917/",
+      "title": "Dear Humanity – Can We Teach AI Compassion?",
+      "date": "2026-09-25",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49855941",
+      "source_url": "https://gizmodo.com/in-silicon-valley-the-end-of-humanity-has-always-been-part-of-the-plan-2000816237",
+      "title": "In Silicon Valley, the End of Humanity Has Always Been Part of the Plan",
+      "date": "2026-09-26",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49811408",
+      "source_url": "https://www.thenextmove.org/p/a-machine-beat-me-at-chess-im-still",
+      "title": "A Machine Beat Me at Chess. I'm Still Rooting for AI",
+      "date": "2026-09-23",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49814643",
+      "source_url": "https://blog.roboflow.com/gpt-6-astra-vision/",
+      "title": "GPT-6 Astra is the best vision model",
+      "date": "2026-09-23",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49814729",
+      "source_url": "https://buildabrowser.net/",
+      "title": "Show HN: BuildABrowser (Java) – Passes Acid2, Has CSS Grid and an Android port",
+      "date": "2026-09-23",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49817579",
+      "source_url": "https://the412banner.github.io/Gamehub-Components/linux-steam-client/",
+      "title": "Valve's Linux Steam client now runs on an Android phone. No root",
+      "date": "2026-09-23",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49817703",
+      "source_url": "https://blackhat.com/europe/briefings/schedule/index.html#ionstack-1-click-browser-to-kernel-full-chain-to-get-root-shell-on-android-17-56148",
+      "title": "IonStack: 1-Click Browser to Kernel Full-Chain to Get Root Shell on Android 17",
+      "date": "2026-09-23",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49818490",
+      "source_url": "https://github.com/MG1937/ASC",
+      "title": "Show HN: Droid ASC – An On-Demand Android Decompiler, 41–269x Faster Than JADX",
+      "date": "2026-09-23",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49824948",
+      "source_url": "https://tools.simonwillison.net/shadow-roots",
+      "title": "Shadow roots, explained with live examples",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49830209",
+      "source_url": "https://phys.org/news/2026-09-robots-package-lettuce-year-norway.html",
+      "title": "Robots grow and package lettuce year-round in Norway's automated farm",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49830323",
+      "source_url": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+      "title": "Shadow roots, explained with live examples",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49830376",
+      "source_url": "https://www.wsj.com/tech/amazon-to-expand-robot-making-capacity-with-new-100-million-indiana-hub-87fce322",
+      "title": "Amazon to Expand Robot-Making Capacity with New, $100M Indiana Hub",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49833727",
+      "source_url": "https://www.labcraft.dev/blog/nix-gc-roots",
+      "title": "Why does a Nix store path survive garbage collection?",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49835216",
+      "source_url": "https://arxiv.org/abs/2509.06934",
+      "title": "\"It Was Tragic\": Exploring the Impact of a Robot's Shutdown",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49835987",
+      "source_url": "https://rerun.io/blog/data-layer-for-robot-learning",
+      "title": "A new data layer for robot learning",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49843811",
+      "source_url": "https://ali-alkhatib.com/blog/weeding-out-ai",
+      "title": "Ali Alkhatib: Weeds tend not to grow where they can't take root",
+      "date": "2026-09-25",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49845694",
+      "source_url": "https://www.bloomberg.com/news/newsletters/2026-09-25/robot-installations-outpaced-human-hiring-at-us-factories-in-2025",
+      "title": "Robot Installations Outpaced Human Hiring at US Factories in 2025",
+      "date": "2026-09-25",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49850842",
+      "source_url": "https://factorio.com/blog/post/fff-446",
+      "title": "An ARM and a Frame",
+      "date": "2026-09-25",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49851120",
+      "source_url": "https://www.nytimes.com/2026/09/25/technology/openai-hugging-face-hack.html",
+      "title": "How OpenAI's Rogue A.I. Agents Tried to Trick a Robot Detector",
+      "date": "2026-09-25",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49854042",
+      "source_url": "https://humansignal.com/blog/how-to-teach-a-robot-to-water-the-table/",
+      "title": "We asked Seedance, Veo and Kling to spill a glass of water. None of them could",
+      "date": "2026-09-26",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "hn-49856857",
+      "source_url": "https://removebackgroundmusic.com",
+      "title": "Show HN: RemoveBackgroundMusic – preview background music reduction",
+      "date": "2026-09-26",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-qualcomm-to-acquire-picknik-ro-451",
+      "source_url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/",
+      "title": "Qualcomm to acquire PickNik Robotics and keep MoveIt open-source",
+      "date": "2026-09-23",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-state-of-humanoids-keynote-bri-311",
+      "source_url": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/",
+      "title": "State of Humanoids keynote brings industry leaders to RoboBusiness",
+      "date": "2026-09-23",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-helicon-brings-automation-to-h-189",
+      "source_url": "https://www.therobotreport.com/helicon-brings-automation-high-volume-composites-manufacturing/",
+      "title": "Helicon brings automation to high-volume composites manufacturing",
+      "date": "2026-09-23",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-with-the-new-ventuno-q-board-a-841",
+      "source_url": "https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/",
+      "title": "With the new VENTUNO Q board, Arduino hopes to make robotics development easier",
+      "date": "2026-09-23",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-anybotics-opens-the-door-for-i-474",
+      "source_url": "https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/",
+      "title": "ANYbotics opens the door for inspections with ANYmal robots",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-epson-introduces-ax6-cobot-wit-585",
+      "source_url": "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/",
+      "title": "Epson introduces AX6 cobot with compact design, no-code programming",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-why-you-should-look-beyond-the-864",
+      "source_url": "https://www.therobotreport.com/why-you-should-look-beyond-spec-sheet-when-choosing-motion-architecture/",
+      "title": "Why you should look beyond the spec sheet when choosing motion architecture",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-5-million-robots-are-now-at-wo-953",
+      "source_url": "https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/",
+      "title": "5 million robots are now at work in factories worldwide, reports the IFR",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-farmers-are-facing-more-pressu-656",
+      "source_url": "https://www.therobotreport.com/farmers-are-facing-more-pressure-cnh-says-robotics-can-help/",
+      "title": "Farmers are facing more pressure; CNH says robotics can help",
+      "date": "2026-09-25",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-general-robotics-is-betting-on-997",
+      "source_url": "https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/",
+      "title": "General Robotics is betting on modular intelligence, not one robot brain",
+      "date": "2026-09-25",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-amazon-to-invest-100m-in-new-i-197",
+      "source_url": "https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/",
+      "title": "Amazon to invest $100M in new Indiana manufacturing facility",
+      "date": "2026-09-25",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-from-14-cities-to-15-000-what-291",
+      "source_url": "https://www.therobotreport.com/from-14-cities-to-15000-what-it-will-take-to-scale-robotaxis/",
+      "title": "From 14 cities to 15,000: What it will take to scale robotaxis?",
+      "date": "2026-09-26",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-3-days-left-to-save-up-to-200-443",
+      "source_url": "https://techcrunch.com/2026/09/23/3-days-left-to-save-up-to-200-and-make-impactful-connections-at-techcrunch-disrupt-2026/",
+      "title": "3 days left to save up to $200 and make impactful connections at TechCrunch Disrupt 2026",
+      "date": "2026-09-23",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-2-days-left-to-save-up-to-200-148",
+      "source_url": "https://techcrunch.com/2026/09/24/2-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026-reason-5-7-to-attend/",
+      "title": "2 days left to save up to $200 on a TechCrunch Disrupt 2026 pass — reason 4 of 5 to attend",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-shield-ai-waabi-and-general-mo-244",
+      "source_url": "https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026/",
+      "title": "Shield AI, Waabi, and General Motors on building AI when failure is not an option at TechCrunch Disrupt 2026",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-bring-your-co-founder-partner-599",
+      "source_url": "https://techcrunch.com/2026/09/24/bring-your-co-founder-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/",
+      "title": "Bring your co-founder, partner, or colleague and get 50% off a second TechCrunch Disrupt 2026 pass",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-last-24-hours-to-save-up-to-20-321",
+      "source_url": "https://techcrunch.com/2026/09/25/last-24-hours-to-save-up-to-200-on-techcrunch-disrupt-2026-reason-5-of-5-to-attend-momentum/",
+      "title": "Last 24 hours to save up to $200 on TechCrunch Disrupt 2026. Reason 5 of 5 to attend: Momentum",
+      "date": "2026-09-25",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-affected-by-layoffs-don-t-miss-229",
+      "source_url": "https://techcrunch.com/2026/09/25/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+      "title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+      "date": "2026-09-25",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-mexican-epics-in-ieee-team-bui-153",
+      "source_url": "https://spectrum.ieee.org/epics-in-ieee-portable-educational",
+      "title": "Mexican EPICS in IEEE Team Builds Portable Educational Platform",
+      "date": "2026-09-24",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    },
+    {
+      "id": "rss-video-friday-life-s-better-wit-722",
+      "source_url": "https://spectrum.ieee.org/video-friday-goose-household-robots",
+      "title": "Video Friday: Life’s Better With a Little Robot Goose",
+      "date": "2026-09-25",
+      "reason": "uncurated scraper candidate; off-thesis, duplicate, product-PR or event promo"
+    }
+  ],
+  "policy": [
+    {
+      "id": "fedreg-2026-18997",
+      "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-ODVA, INC.",
+      "reason": "antitrust filing notice, no robotics policy content"
+    },
+    {
+      "id": "fedreg-2026-19024",
+      "title": "Early Termination of the Waiting Period Under the Premerger Notification Rules",
+      "reason": "routine HSR notice"
+    }
+  ]
+}
