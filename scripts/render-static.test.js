@@ -148,6 +148,22 @@ eq(new Set(frontIds).size, frontIds.length, 'index.html never places the same st
 // caught in review of the WS0 KPI drill-downs.
 ok(index.includes('href="companies.html?sort=funding-desc"'), 'baked KPI cards keep working internal hrefs');
 
+// ---------- Front-page news payload ----------
+// index.html fetches news-recent.json instead of the archive. The front page must be
+// identical from the trimmed payload, and the bake must write a matching file.
+{
+  const RT2 = loadRT();
+  const { news } = loadData();
+  const recent = RT2.newsRecentPayload(news);
+  eq(recent.total, news.length, 'news-recent payload carries the full-archive total');
+  eq(recent.records.length, Math.min(RT2.NEWS_RECENT_COUNT, news.length), 'news-recent payload is capped at NEWS_RECENT_COUNT');
+  const ids = (f) => [f.lead, ...f.top, ...f.briefs].map((n) => n.id).join(',');
+  eq(ids(RT2.frontPageStories(recent.records)), ids(RT2.frontPageStories(news)),
+    'front page from the trimmed payload matches the front page from the whole archive');
+  const onDisk = JSON.parse(readFileSync(resolve(DOCS, 'data/news-recent.json'), 'utf8'));
+  eq(onDisk.total, news.length, 'bake wrote docs/data/news-recent.json for the current news.json');
+}
+
 // ---------- Committed pages must stay un-baked ----------
 // The bake mutates tracked source files, so a stray local `--write` that got
 // committed would put hundreds of KB of generated HTML into git and every

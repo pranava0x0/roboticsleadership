@@ -3,7 +3,7 @@
 > Living UAT plan. Run the **Critical flows** every pass. **Exploration** is open territory — vary it each run. Update `last_tested` per section as you go. New bugs land in `issues.md`.
 
 _Created: 2026-05-18_
-_Last run: 2026-09-25_ (scheduled full-site refresh: scroll-depth + mobile-overflow pass on all 9 pages, dead-link and console checks)
+_Last run: 2026-09-26_ (scheduled full-site refresh: scroll-depth + mobile-overflow pass on all 10 pages after the energy collapse, policies cap and front-page payload change; 0 dead links, 0 console errors, no overflow at 375px)
 _Updated: 2026-06-07_ (documentation update — agencies/news consolidated into policies.html with collapsible sections)
 
 ---

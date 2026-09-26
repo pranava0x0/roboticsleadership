@@ -58,6 +58,29 @@ test('companies filter listeners reset the cap (they must not pass the Event as 
   assert(/addEventListener\(ev, \(\) => render\(\)\)/.test(companies), 'filter listener passes its event to render()');
 });
 
+test('policies executive table is capped, offers Show more / Show all, and filter listeners reset the cap', () => {
+  const policies = read('policies.html');
+  assert(/const EXEC_PAGE = 15;/.test(policies), 'EXEC_PAGE cap missing');
+  assert(/executiveRows\.slice\(0, execShown\)/.test(policies), 'executive rows are not sliced by the cap');
+  assert(/id="exec-more-btn"/.test(policies) && /id="exec-all-btn"/.test(policies), 'more/all buttons missing');
+  assert(/addEventListener\(ev, \(\) => render\(\)\)/.test(policies), 'filter listener passes its event to render()');
+});
+
+test('energy application areas are collapsible <details>, only the first ships open, and the filter restores their state', () => {
+  const energy = read('energy.html');
+  assert(/<details class="collapsible-section e-section" id="\$\{id\}" \$\{firstSection \? 'open' : ''\}>/.test(energy), 'sections are not details with a first-only open flag');
+  assert(/prevOpen/.test(energy), 'filter does not remember and restore section state');
+  assert(/target\.tagName === 'DETAILS'\) target\.open = true/.test(energy), 'jump chips do not open their target');
+  assert(/autoOpened/.test(energy) && /!d\.dataset\.autoOpened/.test(read('assets/app.js')), 'filter-opened sections are persisted as if the reader chose them');
+});
+
+test('front page loads the trimmed news payload, never the whole archive', () => {
+  const index = read('index.html');
+  assert(!/RT\.loadAll\(\)/.test(index), 'index.html loads everything via loadAll()');
+  assert(/RT\.loadNewsRecent\(\)/.test(index), 'index.html does not use loadNewsRecent()');
+  assert(!/href="data\/news\.json"/.test(index), 'index.html still preloads data/news.json');
+});
+
 test('production_trend: one row per year, ascending, projections only after actuals, latest actual matches the industrial shipments row', () => {
   const t = supplyData.production_trend;
   const years = t.map((r) => Number(r.year));

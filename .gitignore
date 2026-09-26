@@ -40,3 +40,6 @@ scratch/
 # Downloaded source artifacts (index .md is committed; raw sources stay local)
 data/research/*.pdf
 data/research/*.txt
+
+# Derived by scripts/render-static.js (front-page payload); never committed
+docs/data/news-recent.json

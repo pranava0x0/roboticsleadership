@@ -321,7 +321,7 @@
         <span><a class="e-tracked" aria-hidden="true">Tracked <span class="e-arrow">↗</span></a> = also profiled in the <a href="companies.html">Companies</a> dataset.</span>
         <span>Every card is cited; primary sources preferred. As of 2026-06-16.</span>
       </p>
-      <p class="muted" style="font-size:13px;margin-top:8px;">September 2026 policy update: DOE’s <a href="https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission-collaboration">Genesis Mission Consortium</a> lists robotics and automation as a working-group area. The application inventory above was last comprehensively checked June 16, 2026.</p>
+      <p class="muted" style="font-size:13px;margin-top:8px;">September 2026 policy update: DOE’s <a href="https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission-collaboration">Genesis Mission Consortium</a> lists robotics and automation as a working-group area. The application inventory above was last checked June 16, 2026.</p>
     </section>
 
     <!-- Candidates to track (built from data) -->
@@ -380,7 +380,7 @@
             <li><strong>Work:</strong> asset type, task, operating envelope, customer role, dates, shifts, attempted tasks, and accepted results. Include rejected parts and aborted runs.</li>
             <li><strong>Baseline:</strong> current method, crew hours, inspection coverage or first-pass yield, outage hours, and cost per accepted unit. Compare the same workload and quality requirements.</li>
             <li><strong>Robot:</strong> hardware/software version, autonomous hours, remote and on-site interventions per 100 operating hours, downtime, recovery time, and safety events.</li>
-            <li><strong>Economics:</strong> equipment, tooling, integration, qualification, training, service, consumables, and decommissioning costs; utilization assumption and the threshold for a repeat purchase.</li>
+            <li><strong>Economics:</strong> equipment, tooling, integration, qualification, training, service, consumables, and decommissioning costs; use rate assumed and the threshold for a repeat purchase.</li>
             <li><strong>Evidence:</strong> measurement method, sample size, uncertainty, independent verification, and release rights. Report measured exposure separately from claims about injuries avoided.</li>
           </ul>
           <div class="rfi-note"><strong>Public response boundary.</strong> Do not include classified information, facility vulnerabilities, personal records, or confidential commercial data here. A real notice would need agency-approved handling instructions before requesting protected attachments. Public summaries can use ranges and redacted task records.</div>
@@ -681,6 +681,7 @@
     // Build sections, grouped inside a wrapper per cluster (so the cluster
     // label hides with its sections when filtering empties the group).
     let html = '';
+    let firstSection = true;
     CLUSTERS.forEach((cluster) => {
       html += `<div class="e-cluster"><p class="e-cluster-label">${cluster.label}</p>`;
       cluster.sections.forEach((id) => {
@@ -710,11 +711,16 @@
             </div>
           </article>`;
         }).join('');
-        html += `<section class="e-section" id="${id}">
-          <div class="e-section-head"><h2 class="section-title">${s.title}</h2></div>
-          <p class="e-section-sub">${s.sub}</p>
+        // Collapsed by default (first area open): the page was 14 desktop / 32 phone screens
+        // with every area expanded. Chips, hashes and the filter open what they point at.
+        html += `<details class="collapsible-section e-section" id="${id}" ${firstSection ? 'open' : ''}>
+          <summary>
+            <h2 class="section-title">${s.title} <span class="e-cand-count e-sec-n">${s.items.length}</span></h2>
+            <p class="muted" style="font-size:13px;margin:-4px 0 10px;">${s.sub}</p>
+          </summary>
           <div class="card-grid cols-3">${cards}</div>
-        </section>`;
+        </details>`;
+        firstSection = false;
       });
       html += `</div>`;
     });
@@ -787,10 +793,23 @@
         card.hidden = !match;
         if (match) { shown++; const sid = card.closest('.e-section').id; perSection[sid] = (perSection[sid] || 0) + 1; }
       });
+      const filteringNow = !!(q || reg || st);
       // Hide empty sections + update chip counts
       sectionEls.forEach((sec) => {
         const n = perSection[sec.id] || 0;
         sec.hidden = n === 0;
+        const secN = sec.querySelector('.e-sec-n');
+        if (secN) secN.textContent = n;
+        // A closed section would hide the very cards the filter matched: open matches
+        // while filtering, put every section back the way it was when the filter clears.
+        if (filteringNow) {
+          if (sec.dataset.prevOpen === undefined) sec.dataset.prevOpen = sec.open ? '1' : '0';
+          if (n > 0 && !sec.open) { sec.dataset.autoOpened = '1'; sec.open = true; }
+        } else if (sec.dataset.prevOpen !== undefined) {
+          delete sec.dataset.autoOpened;
+          sec.open = sec.dataset.prevOpen === '1';
+          delete sec.dataset.prevOpen;
+        }
         const chip = chipById[sec.id];
         if (chip) {
           chip.querySelector('.e-chip-n').textContent = n;
@@ -809,6 +828,13 @@
     statusEl.addEventListener('change', applyFilter);
     regionEl.addEventListener('change', applyFilter);
     if (clearBtn) clearBtn.addEventListener('click', () => { searchEl.value = ''; statusEl.value = ''; regionEl.value = ''; applyFilter(); searchEl.focus(); });
+
+    // A chip for an already-current hash fires no hashchange, so open the target here too.
+    navEl.addEventListener('click', (e) => {
+      const chip = e.target.closest('.e-chip');
+      const target = chip && document.getElementById(chip.dataset.target);
+      if (target && target.tagName === 'DETAILS') target.open = true;
+    });
 
     // Scroll-spy: highlight active chip
     const chips = Array.from(navEl.querySelectorAll('.e-chip'));

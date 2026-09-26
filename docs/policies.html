@@ -170,6 +170,11 @@
           <tbody id="executive-tbody"></tbody>
         </table>
       </div>
+      <div id="exec-more-row" class="more-row" hidden>
+        <span id="exec-more-status" class="muted" aria-live="polite"></span>
+        <button class="btn ghost" type="button" id="exec-more-btn">Show 15 more</button>
+        <button class="btn ghost" type="button" id="exec-all-btn">Show all</button>
+      </div>
     </details>
 
     <details class="collapsible-section" id="sec-agencies">
@@ -281,7 +286,7 @@
     ['f-search','f-level','f-status','f-type','f-sort'].forEach(id => {
       const el = document.getElementById(id);
       const ev = el.tagName === 'SELECT' ? 'change' : 'input';
-      el.addEventListener(ev, render);
+      el.addEventListener(ev, () => render());
     });
     document.getElementById('f-reset').addEventListener('click', () => {
       ['f-search','f-level','f-status','f-type'].forEach(id => { document.getElementById(id).value = ''; });
@@ -289,7 +294,12 @@
       render();
     });
 
-    function render() {
+    // The executive table prints EXEC_PAGE rows first ("Show more" / "Show all" widen it);
+    // any filter change starts over so a narrowed list never opens scrolled past its top.
+    const EXEC_PAGE = 15;
+    let execShown = EXEC_PAGE;
+    function render(keepShown) {
+      if (!keepShown) execShown = EXEC_PAGE;
       const search = document.getElementById('f-search').value.trim();
       const level = document.getElementById('f-level').value;
       const status = document.getElementById('f-status').value;
@@ -346,7 +356,7 @@
         : '<tr><td colspan="5" class="muted center">No congressional items match.</td></tr>';
 
       document.getElementById('executive-tbody').innerHTML = executiveRows.length
-        ? executiveRows.map(p => {
+        ? executiveRows.slice(0, execShown).map(p => {
             const primaryRaw = (p.agency_responsible || [])[0];
             const primary = primaryRaw ? (agencyMap[primaryRaw] || primaryRaw) : (p.sponsor || '—');
             const secondary = (p.agency_responsible || []).slice(1)
@@ -366,6 +376,11 @@
             `;
           }).join('')
         : '<tr><td colspan="5" class="muted center">No executive items match.</td></tr>';
+
+      const execRemaining = Math.max(executiveRows.length - execShown, 0);
+      document.getElementById('exec-more-row').hidden = execRemaining === 0;
+      document.getElementById('exec-more-status').textContent = `Showing ${Math.min(execShown, executiveRows.length)} of ${executiveRows.length}`;
+      document.getElementById('exec-more-btn').textContent = `Show ${Math.min(EXEC_PAGE, execRemaining)} more`;
 
       // Wire row clicks
       document.querySelectorAll('[data-id]').forEach(tr => {
@@ -556,6 +571,8 @@
         sel.appendChild(o);
       });
     }
+    document.getElementById('exec-more-btn').addEventListener('click', () => { execShown += EXEC_PAGE; render(true); });
+    document.getElementById('exec-all-btn').addEventListener('click', () => { execShown = Infinity; render(true); });
     function unique(arr) { return [...new Set(arr.filter(Boolean))]; }
 
     render();

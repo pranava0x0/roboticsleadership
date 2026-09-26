@@ -4758,7 +4758,7 @@
       "humanoid"
     ],
     "primary_use_case": "manufacturing",
-    "flagship_product": "Optimus Gen 2",
+    "flagship_product": "Optimus V3 (production ramp; V3 is not the version planned for commercial sale)",
     "deployments": [
       {
         "customer": "Tesla (internal)",
@@ -4795,9 +4795,12 @@
       {
         "url": "https://www.tesla.com/AI",
         "archive_url": "https://web.archive.org/web/20250704181649/https://www.tesla.com/AI"
+      },
+      {
+        "url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/"
       }
     ],
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-09-26",
     "themes": [
       "cost-trajectory",
       "industrial-deployments"
@@ -4807,10 +4810,13 @@
       "revenue_year": "2025",
       "net_income_usd": 15000000000,
       "net_income_year": "2025",
-      "details": "Optimus program is funded internally through Tesla's cash flow. Tesla reported total FY2025 revenue of $96.77B, net income of $15B, and R&D expenses of $4.87B.",
+      "details": "Optimus program is funded internally through Tesla's cash flow. Tesla reported total FY2025 revenue of $96.77B, net income of $15B, and R&D expenses of $4.87B. Per The Information as summarized by Ars Technica (2026-09-25), Optimus V3 output reached hundreds of units a week at Fremont, targeting more than 1,000 a week by end-2026; most units are used internally, and the hand assembly and sensors remain production bottlenecks.",
       "sources": [
         {
           "url": "https://www.tesla.com/AI"
+        },
+        {
+          "url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/"
         }
       ]
     },
@@ -7608,5 +7614,90 @@
       "details": "Private. No funding amount, investors or valuation disclosed at the 2026-09-22 launch. Founded December 2025; more than 60 staff across Munich and Limassol, Cyprus. Chief AI Officer Martin Riedmiller previously led research at Google DeepMind. Rules out weapons, military and surveillance uses."
     },
     "map_category": "humanoid"
+  },
+  {
+    "id": "mujin",
+    "name": "Mujin",
+    "founded": "2011",
+    "hq": {
+      "city": "Tokyo",
+      "state": null,
+      "country": "Japan"
+    },
+    "website": "https://mujin-corp.com/",
+    "funding_rounds": [
+      {
+        "date": "2025-12",
+        "round": "Series D (first close)",
+        "amount_usd": 233000000,
+        "valuation_usd": null,
+        "investors": [
+          "NTT Group",
+          "Qatar Investment Authority",
+          "Mitsubishi HC Capital Realty",
+          "Salesforce Ventures"
+        ],
+        "url": "https://mujin-corp.com/press-releases/mujin-raises-233-million-accelerate-global-growth-mujinos-future-intelligent-automation/",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 411000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "software-platform",
+      "industrial manipulator"
+    ],
+    "primary_use_case": "intelligent robot control for palletizing, picking and fleet automation in logistics and manufacturing",
+    "flagship_product": "MujinOS",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Rosen Diankov",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Kazuyuki Takino",
+        "role": "Co-founder and CEO"
+      }
+    ],
+    "ceo": "Kazuyuki Takino",
+    "tags": [
+      "japan",
+      "software-platform",
+      "logistics",
+      "series-d",
+      "digital-twin"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://mujin-corp.com/press-releases/mujin-raises-233-million-accelerate-global-growth-mujinos-future-intelligent-automation/"
+      },
+      {
+        "url": "https://www.mujin.co.jp/news/11325/"
+      }
+    ],
+    "last_updated": "2026-09-26",
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. Series D first close in December 2025 raised $233M: $133M of equity led by NTT Group with Qatar Investment Authority as co-lead, plus $100M of debt from Japanese banks. Company-stated total raised is $411M. A second close was planned. Valuation not disclosed. Won Japan Startup Award 2026's Prime Minister's Award on 2026-09-25.",
+      "sources": [
+        {
+          "url": "https://mujin-corp.com/press-releases/mujin-raises-233-million-accelerate-global-growth-mujinos-future-intelligent-automation/"
+        }
+      ]
+    },
+    "map_category": "brains"
   }
 ]
