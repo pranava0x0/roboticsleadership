@@ -495,7 +495,8 @@
       // Delegated + capture: one listener that outlives any container re-render.
       document.addEventListener('toggle', (e) => {
         const d = e.target;
-        if (d && d.matches && d.matches('details.collapsible-section[id]')) {
+        // data-auto-opened marks a section a filter opened for the reader, which is not a choice to keep.
+        if (d && d.matches && d.matches('details.collapsible-section[id]') && !d.dataset.autoOpened) {
           localStorage.setItem(pageDetailsKey(d.id), d.open ? 'open' : 'closed');
         }
       }, true);

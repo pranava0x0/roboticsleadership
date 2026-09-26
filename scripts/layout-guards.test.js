@@ -71,6 +71,7 @@ test('energy application areas are collapsible <details>, only the first ships o
   assert(/<details class="collapsible-section e-section" id="\$\{id\}" \$\{firstSection \? 'open' : ''\}>/.test(energy), 'sections are not details with a first-only open flag');
   assert(/prevOpen/.test(energy), 'filter does not remember and restore section state');
   assert(/target\.tagName === 'DETAILS'\) target\.open = true/.test(energy), 'jump chips do not open their target');
+  assert(/autoOpened/.test(energy) && /!d\.dataset\.autoOpened/.test(read('assets/app.js')), 'filter-opened sections are persisted as if the reader chose them');
 });
 
 test('front page loads the trimmed news payload, never the whole archive', () => {

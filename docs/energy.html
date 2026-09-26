@@ -804,8 +804,9 @@
         // while filtering, put every section back the way it was when the filter clears.
         if (filteringNow) {
           if (sec.dataset.prevOpen === undefined) sec.dataset.prevOpen = sec.open ? '1' : '0';
-          if (n > 0) sec.open = true;
+          if (n > 0 && !sec.open) { sec.dataset.autoOpened = '1'; sec.open = true; }
         } else if (sec.dataset.prevOpen !== undefined) {
+          delete sec.dataset.autoOpened;
           sec.open = sec.dataset.prevOpen === '1';
           delete sec.dataset.prevOpen;
         }
