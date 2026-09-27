@@ -4,6 +4,17 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-09-27 (scheduled full-site refresh: X list, web sweep, perf pass)
+
+**Done this run.** Scraped + curated 10 of 53 news candidates (rest logged to `data/research/refresh-2026-09-27-dropped.json`), dropped 1 off-topic Federal Register policy stub. X list harvest via `search?q=list:...-filter:replies` was mostly hobbyist/meme volume this run — one real lead (Niantic Spatial's Places Library). A single wide Sonnet sweep agent verified 5 candidate items and found 9 more; added as news + updated/added company records: XPeng Robotics (new company, $900M+ raise, $6.3B valuation), Boston Dynamics (RMAC training center + 25K-unit Hyundai/Kia commitment), Agility Robotics (Digit 5 unveiled, SPAC status), Weave Robotics (new company, Isaac 1 launch, low-confidence funding flagged), UBTECH (Liuzhou 10K-unit/yr factory, state-media sourced — flagged), plus standalone China-IPO-slowdown and rare-earth-magnet-export news. `supply-chain.html` was over its phone scroll budget (16 screens); collapsed "Financing the chain" and "Full stakeholder map" into the same `<details>` pattern as its other reference sections (16.0 → 7.7 phone, 8.3 → 5.1 desktop).
+
+**Data leads not pursued this run (lower confidence, per the sweep agent's own flags).**
+
+- [ ] **AIDIN Robotics (Korea):** 16B won (~$12.1M) from HD Hyundai Robotics + Samsung Venture Investment, 2026-09-11. Only Korean trade press (KED Global, The Elec) found, no company/investor primary release. Force/torque sensor maker, shipbuilding focus — would need a primary source before adding.
+- [ ] **Feather Robotics:** $7.6M pre-seed for a $29,990 modular wheeled bimanual "humanoid platform for developers," led by Gradient. Single secondary tech-press source (AI Insider), no primary release found.
+- [ ] **IROS 2026 (Pittsburgh) starts 2026-09-28** — the day after this run. Astribot T1, Sharpa, and MANUS are previewed on the X list. Check the following week for capability claims worth a record.
+- [ ] **No new robotics-specific federal RFI, executive order, or draft regulatory report found this run** (checked NIST/CAISI, DoD/Pentagon contract announcements) in the 2026-09-20 to 09-27 window — nothing to reframe or add to the Draft EO tracker this pass.
+
 ## ▶ Added 2026-09-26 (scheduled full-site refresh: X list, web sweep, perf pass)
 
 **Done this run (checked off from 2026-09-25's list).** Front page now fetches `news-recent.json` (latest 60 + total) instead of the 1,050-record archive: index 242 → 117 KB gzip. `energy.html` sections are collapsed `<details>` (desktop 14.3 → 7.7 screens). `policies.html` executive table shows 15 rows with Show more / Show all (desktop 6.0 → 3.7).
@@ -11,7 +22,8 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 **Perf follow-ups.**
 
 - [ ] **Medium: `news.html` is now the heaviest page (239 KB gzip, budget 260) and 12 screens on a phone.** It needs the whole archive for search and filters. Option: paint the first 20 from `news-recent.json`, then load `news.json` only when a filter, search or page 2 is used. Then ratchet `BUDGET_GZ_KB` in `scripts/site-metrics.js` to the new worst page plus 10%.
-- [ ] **Medium: `supply-chain.html` (16.5 phone screens) and `physical-ai-action-plan.html` (15) are over the 15-screen phone budget.** Same treatment as energy: closed `<details>` by default, first one open.
+- [x] **Medium: `supply-chain.html` (16 phone screens) was over the 15-screen phone budget (done 2026-09-27).** Wrapped "Financing the chain" and "Full stakeholder map" in `<details class="collapsible-section">`, closed by default like the page's other reference sections (US manufacturing sites, Key figures). Phone: 16.0 → 7.7 screens; desktop: 8.3 → 5.1.
+- [ ] **Medium: `physical-ai-action-plan.html` is exactly at the 15-screen phone budget.** Not yet over, but no headroom — next content addition there should get the same collapsible treatment.
 - [ ] **Low: `docs/data/news-recent.json` is a gitignored bake artifact.** If a second page needs a trimmed archive (companies detail pane uses related news), generalize `RT.newsRecentPayload` rather than adding a second file.
 
 **Policy and reframing ideas (this run's sweep).**
@@ -27,7 +39,7 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 - [ ] **Companies to add:** Autonomous Solutions Inc. (Utah, Mobius fleet software, $225M from SoftBank 2026-09-24; founding year not verified), O-ID (Tokyo modular humanoid, $1.2M pre-seed led by TAWANI, Sept 2026), Direct Drive Tech (HK IPO due 2026-09-29; revenue and margin figures seen only in snippets), Tekever (Portugal/UK defense drones, $580M Series D at $6.4B, 2026-09-23, Europe), UniX AI (CNBC 2026-09-24, Singapore and India expansion, IPO plans; CNBC returned 403), Qiyuan (consumer humanoids from ¥19,999, English name unverified).
 - [ ] **Physical Intelligence:** Dealroom's headline says $1.6B across two rounds at $11.2B; every other source found still says "in talks" (March 2026). The record stays at $5.6B until a primary source confirms.
-- [ ] **Bloomberg (2026-09-25):** US factories installed about 38,500 robots in 2025 while cutting 100,000+ jobs (search snippet only; paywalled, IFR count on the site is 38,400). Add a labor line to the IFR record if the article can be read.
+- [x] **Bloomberg (2026-09-25): done 2026-09-27** — added as a curated news record (`hn-49845694`, category Deployment/Mixed) rather than a supply_chain.json line; the article is still paywalled beyond the headline, so the summary states only what the headline supports (installs outpaced hiring), not the specific unit/job counts.
 - [ ] **Seen and skipped:** Unitree 19-H2 swarm at WorldSkills (spectacle), Changan humanoid mass production by 2028 (Chinese sources only), Hygon embedded x86 chips (SCMP summary), Light Origins Light-O1 and China Mobile Open-RAIL (company benchmarks only), Miefeng crowdsourced data collection, IDTechEx humanoid design shares (forecast), Perceptron Mk1.5, Archer buying Boeing's Wisk, SkyGrid and Insitu, Musk telling CCTV he expects a billion humanoids in ten years (forecast; CGTN body not read). Revisit if a second source or a primary appears.
 - [ ] **IROS 2026 (Pittsburgh) starts 2026-09-28.** Astribot T1, Sharpa and MANUS are on the X list's preview. Check the week after for capability claims worth a record.
 
