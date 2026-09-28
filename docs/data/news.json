@@ -1,5 +1,342 @@
 [
   {
+    "id": "hn-49868831",
+    "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+    "date": "2026-09-27",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
+    "summary": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49875148",
+    "title": "AI companies in race to demonstrate their model most threatening to humanity",
+    "date": "2026-09-28",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/",
+    "summary": "AI companies in race to demonstrate their model most threatening to humanity",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49877630",
+    "title": "AI can destroy humanity – an illustrated guide",
+    "date": "2026-09-28",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://airisk.thomasunise.com",
+    "summary": "AI can destroy humanity – an illustrated guide",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49871965",
+    "title": "Flux 3 Action: A 7B open-weight world action model for robots",
+    "date": "2026-09-27",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://huggingface.co/blog/black-forest-labs/flux-3-action",
+    "summary": "Flux 3 Action: A 7B open-weight world action model for robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49875033",
+    "title": "Researcher discloses vulnerabilities to OnePlus, they respond with legal threats",
+    "date": "2026-09-28",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.notebookcheck.net/An-app-with-no-permissions-can-gain-root-access-on-OnePlus-and-Oppo-phones.1409406.0.html",
+    "summary": "Researcher discloses vulnerabilities to OnePlus, they respond with legal threats",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49876042",
+    "title": "Guide to Investigating Tech and AI in Modern Warfare",
+    "date": "2026-09-28",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://gijn.org/resource/investigate-tech-ai-modern-warfare/",
+    "summary": "Guide to Investigating Tech and AI in Modern Warfare",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49876066",
+    "title": "Robots Have No Voice",
+    "date": "2026-09-28",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://randsinrepose.com/archives/robots-have-no-voice/",
+    "summary": "Robots Have No Voice",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49877182",
+    "title": "Show HN: I emulated Roborock's cloud so my vacuum works without internet",
+    "date": "2026-09-28",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/Python-roborock/local_roborock_server",
+    "summary": "Hi! I maintain the python-roborock library and the Roborock integration in Home Assistant.Roborock vacuums use a local protocol for direct commands, but they still route all map data strictly through ",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49879160",
+    "title": "Cory Doctorow says Hugging Face attack was just \"a Python loop and a chatbot\"",
+    "date": "2026-09-28",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://pluralistic.net/2026/09/12/god-in-the-box/#llms-are-fake",
+    "summary": "Cory Doctorow says Hugging Face attack was just \"a Python loop and a chatbot\"",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49879346",
+    "title": "Getting out of the way: my robotics crash course",
+    "date": "2026-09-28",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://thisismypersonalblog.com/posts/2026-09-25-getting-out-of-the-way/",
+    "summary": "Getting out of the way: my robotics crash course",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49880401",
+    "title": "The large robotic arm on the International Space Station has stopped working",
+    "date": "2026-09-28",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/space/2026/09/the-large-robotic-arm-on-the-international-space-station-has-stopped-working/",
+    "summary": "The large robotic arm on the International Space Station has stopped working",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49880968",
+    "title": "We Can't Let Enormous Weirdos Regulate AI",
+    "date": "2026-09-28",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://little-flying-robots.ghost.io/why-we-cant-let-enormous-weirdos-regulate-ai/",
+    "summary": "We Can't Let Enormous Weirdos Regulate AI",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49881185",
+    "title": "EnigmaForge – an LLM benchmark where the question is hidden in the story",
+    "date": "2026-09-28",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2609.30144",
+    "summary": "EnigmaForge – an LLM benchmark where the question is hidden in the story",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49881410",
+    "title": "NASA, for the time being, is unable to move the ISS's large robotic arm",
+    "date": "2026-09-28",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/space/2026/09/nasa-for-the-time-being-is-unable-to-move-the-space-stations-large-robotic-armthe-large-robotic-arm-on-the-international-space-station-has-stopped-working/",
+    "summary": "NASA, for the time being, is unable to move the ISS's large robotic arm",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-raise-robotics-to-discuss-scal-250",
+    "title": "Raise Robotics to discuss scaling field robots at RoboBusiness",
+    "date": "2026-09-28",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/",
+    "summary": "Raise Robotics said attendees will learn a decision rule for allocating engineering capacity and a vocabulary for two hidden failure modes.\nThe post Raise Robotics to discuss scaling field robots at R...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-gecko-robotics-works-with-nvid-40",
+    "title": "Gecko Robotics works with NVIDIA to add AI agent security and control",
+    "date": "2026-09-28",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/",
+    "summary": "Gecko Robotics is using the new NVIDIA Open Agent Safety Platform to ensure the secure autonomous control of systems.\nThe post Gecko Robotics works with NVIDIA to add AI agent security and control app...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-your-final-chance-to-grab-your-120",
+    "title": "Your final chance to grab your exhibit table at TechCrunch Disrupt 2026 is October 2",
+    "date": "2026-09-28",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/28/disrupt-2026-exhibitor-program-extended-until-oct-2/",
+    "summary": "The last day to book your Disrupt 2026 exhibit table is this Friday, October 2 at 11:59 p.m. PT. Secure your exhibit table and get your startup in front of 10,000+ founders, investors, and tech leader...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-49825339",
     "title": "AI Isn't Going to Destroy Humanity–But the People Building It Might",
     "date": "2026-09-24",
