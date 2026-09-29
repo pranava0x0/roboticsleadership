@@ -1,5 +1,95 @@
 [
   {
+    "id": "hn-49871965",
+    "title": "Flux 3 Action: A 7B open-weight world action model for robots",
+    "date": "2026-09-27",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://bfl.ai/models/flux-3-action",
+    "summary": "Black Forest Labs open-weighted FLUX 3 Action, a 7B-parameter \"world action model\" that takes camera video, robot state and a natural-language instruction and predicts both the next action and how the scene will change. It topped NVIDIA's public RoboLab-120 leaderboard (42.9% success) while using under half the parameters of the next-best open model (Cosmos3-Nano-Policy, 16B) and running faster. Weights are free on Hugging Face under a non-commercial research license; production use needs a separate commercial agreement.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "foundation-model",
+      "open-weights",
+      "black-forest-labs"
+    ]
+  },
+  {
+    "id": "rss-robonomics-on-the-threshold-ec-599",
+    "title": "Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids",
+    "date": "2026-09-28",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/",
+    "summary": "Analysis piece on \"robonomics\" — the case for giving delivery and household humanoid robots their own economic agency (micropayments, on-chain wallets, service-level contracts) as they take on paid tasks in public and private spaces. Framed as both a capability driver (robots that can transact unlock new business models) and a governance question (liability and payment-fraud exposure once a machine, not a person, is the counterparty) — an open policy gap flagged for the liability/insurance backlog theme.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "discourse",
+      "economics"
+    ]
+  },
+  {
+    "id": "rss-gecko-robotics-works-with-nvid-283",
+    "title": "Gecko Robotics works with NVIDIA to add AI agent security and control",
+    "date": "2026-09-28",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/",
+    "summary": "Gecko Robotics is integrating NVIDIA's new Open Agent Safety Platform into its infrastructure-inspection robots, using it to sandbox and audit the AI agents that plan and execute autonomous inspection routines before they act on physical equipment. Positioned as a template for adding guardrails to agentic AI running on physical/industrial robots, not just chat-based agents.",
+    "category": "Competitive",
+    "companies": [
+      "gecko-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "ai-safety",
+      "partnership"
+    ]
+  },
+  {
+    "id": "rss-meet-flourish-one-the-raspberr-836",
+    "title": "Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents",
+    "date": "2026-09-29",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/",
+    "summary": "Flourish is shipping \"Flourish One,\" a $3,555 Raspberry-Pi-powered home humanoid pitched at busy parents for phone-trainable, cloud-trained chore automation. Notable mainly for price: a sub-$4K humanoid list price is far below the $16K-plus figures usually cited for early commercial humanoids, though it targets a much narrower home-chore task set rather than general-purpose work.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "cost-trajectory",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "new-product",
+      "home-robot",
+      "humanoid"
+    ]
+  },
+  {
     "id": "hn-49859299",
     "title": "HomeBody: A humanoid that explores, remembers, and acts on its own",
     "date": "2026-09-26",
@@ -21700,6 +21790,98 @@
       "humanoid",
       "consumer",
       "wheeled"
+    ]
+  },
+  {
+    "id": "rss-farmers-are-facing-more-pressu-923",
+    "title": "Farmers are facing more pressure; CNH says robotics can help",
+    "date": "2026-09-25",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/farmers-are-facing-more-pressure-cnh-says-robotics-can-help/",
+    "summary": "CNH Industrial says labor availability, cost, productivity and efficiency are the top concerns it hears from farm customers as 2026 trade-war input costs and volatile crop prices squeeze margins. Its R4 platform targets vineyard, orchard and specialty-crop growers who need automation that is easy to adopt, not just technically capable — a deployment-readiness framing distinct from the industrial-humanoid cost story.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "agriculture",
+      "cnh"
+    ]
+  },
+  {
+    "id": "adi-alif-semiconductor-acquisition-2026-09",
+    "title": "Analog Devices to acquire Alif Semiconductor for $1.35B, citing \"Physical Intelligence\"",
+    "date": "2026-09-09",
+    "source": "Analog Devices",
+    "source_type": "News",
+    "source_url": "https://www.analog.com/en/newsroom/press-releases/2026/9-9-2026-adi-to-acquire-alif-semiconductor.html",
+    "summary": "Analog Devices agreed to buy Alif Semiconductor, a Pleasanton, CA maker of AI-native edge microcontrollers and fusion processors, for $1.35B cash plus up to $200M contingent consideration, closing expected by end of 2026. ADI frames the deal around \"Physical Intelligence\" — AI-native, power-efficient compute for systems that sense and act in the physical world (motion, sound, vibration) — a direct US semiconductor consolidation feeding the robotics/embedded-AI compute stack.",
+    "category": "Supply Chain",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "acquisition",
+      "semiconductors",
+      "edge-ai"
+    ]
+  },
+  {
+    "id": "ice-boston-dynamics-spot-procurement-2026-09",
+    "title": "ICE plans to buy Boston Dynamics Spot robots for immigration enforcement operations",
+    "date": "2026-08-29",
+    "source": "NBC News",
+    "source_type": "News",
+    "source_url": "https://www.nbcnews.com/politics/immigration/ice-buy-robot-dogs-immigration-enforcement-rcna594897",
+    "summary": "U.S. Immigration and Customs Enforcement issued a procurement notice for Boston Dynamics' quadruped Spot robot, budgeted at roughly $1-2M, for \"inspection, situational awareness, and hazard assessment\" during enforcement operations, as ICE arrests hit a term-high in July 2026. It is among the first concrete US federal law-enforcement procurements of a commercial robot platform, and has drawn civil-liberties criticism over surveillance and mission creep for a robot marketed for industrial inspection.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "defense-procurement"
+    ],
+    "sentiment": "Negative",
+    "confidence": "High",
+    "tags": [
+      "procurement",
+      "ice",
+      "boston-dynamics",
+      "domestic-policy"
+    ]
+  },
+  {
+    "id": "edgerun-exoskeleton-ukraine-2026-09",
+    "title": "Edgerun launches a sub-10-lb hip exoskeleton field-tested with Ukrainian troops",
+    "date": "2026-09-08",
+    "source": "Y Combinator",
+    "source_type": "News",
+    "source_url": "https://www.ycombinator.com/companies/edgerun",
+    "summary": "YC S26 startup Edgerun Industries came out of stealth with a hip-mounted military exoskeleton, under 10 lbs, that cuts the effort of moving under combat load by 30-45%. Since April 2026 it has run 100+ field tests with Ukrainian infantry and special-operations units out of a Kyiv field office and says it has secured $150M+ in letters of intent. Founder David Venegas previously co-founded autonomous-mining startup Durin.",
+    "category": "Funding",
+    "companies": [
+      "edgerun"
+    ],
+    "policies": [],
+    "themes": [
+      "defense-procurement"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "exoskeleton",
+      "defense",
+      "yc",
+      "ukraine"
     ]
   }
 ]

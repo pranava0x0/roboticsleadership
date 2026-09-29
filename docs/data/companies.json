@@ -5011,7 +5011,7 @@
         "url": "https://www.globaltimes.cn/page/202609/1370528.shtml"
       }
     ],
-    "last_updated": "2026-09-27",
+    "last_updated": "2026-09-29",
     "themes": [
       "china-scale"
     ],
@@ -5020,7 +5020,7 @@
       "revenue_year": "2025",
       "net_income_usd": -109000000,
       "net_income_year": "2025",
-      "details": "Publicly traded in HK (9880.HK). Reported FY2025 revenue of RMB 2.001B (~$276M USD, up 53.3% YoY) and net loss of RMB 789.8M (~$109M USD). Humanoid segment grew to RMB 820.6M. Market cap ~$6.73B (HK$52.77B on 9880.HK) as of 2026-06-22. FY2025 (announced 2026-03-31): revenue RMB 2.001B (+53.3% YoY), net loss narrowed to RMB 789.8M; full-size humanoids became the largest revenue line (41.1%). Update 2026-09-25: household deliveries of the UWORLD U1 humanoid began on 2026-09-16 (13,361 orders at launch), and a first plant outside China is under way in Almaty with Nero Group. The market-cap figure above predates both.",
+      "details": "Publicly traded in HK (9880.HK). Reported FY2025 revenue of RMB 2.001B (~$276M USD, up 53.3% YoY) and net loss of RMB 789.8M (~$109M USD). Humanoid segment grew to RMB 820.6M. Market cap ~$6.73B (HK$52.77B on 9880.HK) as of 2026-06-22. FY2025 (announced 2026-03-31): revenue RMB 2.001B (+53.3% YoY), net loss narrowed to RMB 789.8M; full-size humanoids became the largest revenue line (41.1%). Update 2026-09-25: household deliveries of the UWORLD U1 humanoid began on 2026-09-16 (13,361 orders at launch), and a first plant outside China is under way in Almaty with Nero Group. The market-cap figure above predates both. Of the 13,361 U1 pre-orders at launch, UBTECH says it will only fulfill 1,500-2,000 units in 2026 — a real order-vs-delivery gap in China's consumer-humanoid push, not full-volume shipment.",
       "sources": [
         {
           "url": "https://www.hkexnews.hk/"
@@ -5030,6 +5030,9 @@
         },
         {
           "url": "https://www.humanoidsdaily.com/news/ubtech-s-2025-financials-humanoids-leap-to-center-stage-as-losses-narrow"
+        },
+        {
+          "url": "https://finance.biggo.com/news/2a817f52-5771-4c3a-ad15-529eb4914c00"
         }
       ]
     },
@@ -7924,5 +7927,87 @@
       ]
     },
     "map_category": "humanoid"
+  },
+  {
+    "id": "edgerun",
+    "name": "Edgerun Industries",
+    "founded": "2025",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.edgerun.com",
+    "funding_rounds": [
+      {
+        "date": "2026-09",
+        "round": "Seed / YC S26",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "Y Combinator",
+          "H.R. McMaster",
+          "Cyan Banister",
+          "Joshua Steinman",
+          "Jason Miller"
+        ],
+        "url": "https://www.ycombinator.com/companies/edgerun",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "exoskeleton"
+    ],
+    "primary_use_case": "defense / soldier augmentation",
+    "flagship_product": "hip-mounted military exoskeleton",
+    "deployments": [
+      {
+        "customer": "Ukrainian infantry and special-operations units",
+        "location": "Ukraine",
+        "robot_count": null,
+        "start_date": "2026-04",
+        "status": "active",
+        "use_case": "field-testing a sub-10-lb hip-mounted exoskeleton that adds torque under combat load; 100+ field tests since April 2026",
+        "source_url": "https://runtimewire.com/article/edgerun-launches-military-hip-exoskeleton-ukraine"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "David Venegas",
+        "role": "Founder / CEO"
+      }
+    ],
+    "ceo": "David Venegas",
+    "tags": [
+      "exoskeleton",
+      "defense",
+      "usa",
+      "yc"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.ycombinator.com/companies/edgerun"
+      },
+      {
+        "url": "https://runtimewire.com/article/edgerun-launches-military-hip-exoskeleton-ukraine"
+      },
+      {
+        "url": "https://app.dealroom.co/news/note/edgerun-introduces-a-hip-mounted-military-exoskeleton"
+      }
+    ],
+    "last_updated": "2026-09-29",
+    "themes": [
+      "defense-procurement"
+    ],
+    "map_category": "defense"
   }
 ]
