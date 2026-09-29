@@ -8008,6 +8008,14 @@
     "themes": [
       "defense-procurement"
     ],
-    "map_category": "defense"
+    "map_category": "defense",
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Pre-revenue defense-hardware startup; no financials disclosed as of Sep 2026.",
+      "sources": []
+    }
   }
 ]

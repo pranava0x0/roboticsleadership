@@ -21845,7 +21845,9 @@
     "source_url": "https://www.nbcnews.com/politics/immigration/ice-buy-robot-dogs-immigration-enforcement-rcna594897",
     "summary": "U.S. Immigration and Customs Enforcement issued a procurement notice for Boston Dynamics' quadruped Spot robot, budgeted at roughly $1-2M, for \"inspection, situational awareness, and hazard assessment\" during enforcement operations, as ICE arrests hit a term-high in July 2026. It is among the first concrete US federal law-enforcement procurements of a commercial robot platform, and has drawn civil-liberties criticism over surveillance and mission creep for a robot marketed for industrial inspection.",
     "category": "Policy",
-    "companies": [],
+    "companies": [
+      "boston-dynamics"
+    ],
     "policies": [],
     "themes": [
       "defense-procurement"
