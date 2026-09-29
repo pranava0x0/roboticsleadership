@@ -428,7 +428,7 @@
       "warehouse_robot"
     ],
     "primary_use_case": "logistics",
-    "flagship_product": "Digit v4",
+    "flagship_product": "Digit 5",
     "deployments": [
       {
         "customer": "Amazon",
@@ -497,9 +497,12 @@
       },
       {
         "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/"
+      },
+      {
+        "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
       }
     ],
-    "last_updated": "2026-06-30",
+    "last_updated": "2026-09-27",
     "themes": [
       "cost-trajectory",
       "industrial-deployments",
@@ -510,13 +513,16 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private company. Generates revenue through hardware sales, leasing, and subscription-based service models (Agility Arc/RaaS). Latest Series C valued the company at $1.8B. Agreed 2026-06-24 to go public via a $2.5B SPAC merger with Churchill Capital Corp XI (ticker AGLT); deal expected to generate $620M+ in proceeds with Foxconn leading a PIPE. Agility reports $300M+ in multi-year Digit v5 orders and deployments across nine sites with 65,000+ operating hours. Note: the $2.5B SPAC-implied valuation reflects an announced, not-yet-closed deal; latest_valuation_usd retains the last confirmed Series C figure ($2.12B) until the merger closes.",
+      "details": "Private company. Generates revenue through hardware sales, leasing, and subscription-based service models (Agility Arc/RaaS). Latest Series C valued the company at $1.8B. Agreed 2026-06-24 to go public via a $2.5B SPAC merger with Churchill Capital Corp XI (ticker AGLT); deal expected to generate $620M+ in proceeds with Foxconn leading a PIPE. Agility reports $300M+ in multi-year Digit v5 orders and deployments across nine sites with 65,000+ operating hours. Note: the $2.5B SPAC-implied valuation reflects an announced, not-yet-closed deal; latest_valuation_usd retains the last confirmed Series C figure ($2.12B) until the merger closes.\n\nDigit 5 unveiled 2026-09-15: 50 lb payload (up from 35), 90-min runtime/9-min charge, swappable end-effectors; early access 1H 2027, general availability end of 2027. As of late September 2026 the SPAC merger Form S-4 is in SEC review, with an investor day set for 2026-10-06 and close expected Q4 2026.",
       "sources": [
         {
           "url": "https://www.geekwire.com/2025/agility-robotics-reportedly-raising-400m-for-humanoid-warehouse-robots/"
         },
         {
           "url": "https://www.businesswire.com/news/home/20260624555633/en/Agility-Robotics-to-Go-Public-Through-$2.5-Billion-Merger-with-Churchill-Capital-Corp-XI"
+        },
+        {
+          "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
         }
       ]
     },
@@ -1122,6 +1128,15 @@
         "use_case": "industrial inspection, security, data capture",
         "source_url": "https://www.bostondynamics.com",
         "archive_url": "https://web.archive.org/web/20260508103946/https://bostondynamics.com/"
+      },
+      {
+        "customer": "Hyundai Motor / Kia",
+        "location": "Georgia Metaplant America (Hyundai) and Kia Georgia plant",
+        "robot_count": 25000,
+        "start_date": "2028",
+        "status": "planned",
+        "use_case": "electric Atlas deployment across Hyundai/Kia global plants; opened a Robotics Metaplant Application Center (RMAC) at the Georgia site 2026-09-21 to train Atlas for manufacturing tasks ahead of a 2028 Georgia / 2029 Kia Georgia start; US production line targeted at 30,000 robots/year with a companion actuator plant for 350,000 actuators/year from 2028",
+        "source_url": "https://bostondynamics.com/news/boston-dynamics-opens-robotics-metaplant-application-center-to-train-humanoid-robots-for-manufacturing-tasks"
       }
     ],
     "headcount": 500,
@@ -1149,11 +1164,15 @@
       {
         "url": "https://www.bostondynamics.com",
         "archive_url": "https://web.archive.org/web/20260508103946/https://bostondynamics.com/"
+      },
+      {
+        "url": "https://bostondynamics.com/news/boston-dynamics-opens-robotics-metaplant-application-center-to-train-humanoid-robots-for-manufacturing-tasks"
       }
     ],
-    "last_updated": "2026-06-30",
+    "last_updated": "2026-09-27",
     "themes": [
-      "industrial-deployments"
+      "industrial-deployments",
+      "us-supply-chain"
     ],
     "financials": {
       "revenue_usd": 112000000,
@@ -4946,6 +4965,15 @@
         "status": "active",
         "use_case": "industrial humanoid deployments — first company globally over 1,000 units",
         "source_url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/"
+      },
+      {
+        "customer": "Internal manufacturing",
+        "location": "Liuzhou, Guangxi, China",
+        "robot_count": null,
+        "start_date": "2026-09",
+        "status": "active",
+        "use_case": "a 14,000 sq m \"super smart factory\" built with Siemens, which UBTECH says can produce 10,000 Walker S/Cruzr-series robots a year on a flexible non-conveyor line (as reported by Chinese state media Global Times, not independently verified)",
+        "source_url": "https://www.globaltimes.cn/page/202609/1370528.shtml"
       }
     ],
     "headcount": null,
@@ -4978,9 +5006,12 @@
       },
       {
         "url": "https://pandaily.com/ubtech-uworld-u1-mass-deliveries-consumer-humanoid"
+      },
+      {
+        "url": "https://www.globaltimes.cn/page/202609/1370528.shtml"
       }
     ],
-    "last_updated": "2026-09-25",
+    "last_updated": "2026-09-29",
     "themes": [
       "china-scale"
     ],
@@ -4989,7 +5020,7 @@
       "revenue_year": "2025",
       "net_income_usd": -109000000,
       "net_income_year": "2025",
-      "details": "Publicly traded in HK (9880.HK). Reported FY2025 revenue of RMB 2.001B (~$276M USD, up 53.3% YoY) and net loss of RMB 789.8M (~$109M USD). Humanoid segment grew to RMB 820.6M. Market cap ~$6.73B (HK$52.77B on 9880.HK) as of 2026-06-22. FY2025 (announced 2026-03-31): revenue RMB 2.001B (+53.3% YoY), net loss narrowed to RMB 789.8M; full-size humanoids became the largest revenue line (41.1%). Update 2026-09-25: household deliveries of the UWORLD U1 humanoid began on 2026-09-16 (13,361 orders at launch), and a first plant outside China is under way in Almaty with Nero Group. The market-cap figure above predates both.",
+      "details": "Publicly traded in HK (9880.HK). Reported FY2025 revenue of RMB 2.001B (~$276M USD, up 53.3% YoY) and net loss of RMB 789.8M (~$109M USD). Humanoid segment grew to RMB 820.6M. Market cap ~$6.73B (HK$52.77B on 9880.HK) as of 2026-06-22. FY2025 (announced 2026-03-31): revenue RMB 2.001B (+53.3% YoY), net loss narrowed to RMB 789.8M; full-size humanoids became the largest revenue line (41.1%). Update 2026-09-25: household deliveries of the UWORLD U1 humanoid began on 2026-09-16 (13,361 orders at launch), and a first plant outside China is under way in Almaty with Nero Group. The market-cap figure above predates both. Of the 13,361 U1 pre-orders at launch, UBTECH says it will only fulfill 1,500-2,000 units in 2026 — a real order-vs-delivery gap in China's consumer-humanoid push, not full-volume shipment.",
       "sources": [
         {
           "url": "https://www.hkexnews.hk/"
@@ -4999,6 +5030,9 @@
         },
         {
           "url": "https://www.humanoidsdaily.com/news/ubtech-s-2025-financials-humanoids-leap-to-center-stage-as-losses-narrow"
+        },
+        {
+          "url": "https://finance.biggo.com/news/2a817f52-5771-4c3a-ad15-529eb4914c00"
         }
       ]
     },
@@ -7699,5 +7733,292 @@
       ]
     },
     "map_category": "brains"
+  },
+  {
+    "id": "xpeng-robotics",
+    "name": "XPeng Robotics",
+    "founded": "2026",
+    "hq": {
+      "city": "Guangzhou",
+      "state": "Guangdong",
+      "country": "China"
+    },
+    "website": "https://www.xpeng.com",
+    "funding_rounds": [
+      {
+        "date": "2026-08",
+        "round": "Strategic (carve-out)",
+        "amount_usd": 900000000,
+        "valuation_usd": 6300000000,
+        "investors": [
+          "IDG Capital",
+          "Tencent",
+          "Alibaba",
+          "Gaorong Ventures",
+          "XPeng Motors",
+          "He Xiaopeng",
+          "Gu Hongdi"
+        ],
+        "url": "https://www.xpeng.com/pressroom/news/01a03797fccda01e0de68a02a256006a",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 900000000,
+    "latest_valuation_usd": 6300000000,
+    "robot_types": [
+      "humanoid"
+    ],
+    "primary_use_case": "research",
+    "flagship_product": "IRON humanoid",
+    "deployments": [
+      {
+        "customer": "XPeng Motors",
+        "location": "Guangzhou, China",
+        "robot_count": null,
+        "start_date": "2026-09",
+        "status": "planned",
+        "use_case": "internal stores/campus deployment ahead of a planned 2027 commercial launch (China and overseas); mass production confirmed by end of 2026",
+        "source_url": "https://www.prnewswire.com/news-releases/xpeng-holds-its-first-robotics-supply-chain-partner-conference-302887834.html"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "He Xiaopeng",
+        "role": "Chairman (also XPeng Motors CEO)"
+      }
+    ],
+    "ceo": "Gu Hongdi",
+    "tags": [
+      "humanoid",
+      "china",
+      "automaker-backed",
+      "high-volume"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.xpeng.com/pressroom/news/01a03797fccda01e0de68a02a256006a"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/xpeng-holds-its-first-robotics-supply-chain-partner-conference-302887834.html"
+      }
+    ],
+    "last_updated": "2026-09-27",
+    "themes": [
+      "china-scale"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "XPeng carved out its humanoid-robot unit (registered as Dogotix, branded XPENG Robotics) and raised over $900M at a post-money valuation above $6.3B in August 2026, with XPeng Motors retaining roughly 68.4% control. Held its first Robotics Supply Chain Partner Conference in Guangzhou (2026-09-22/23) to organize suppliers of joint modules, actuators, and precision structural parts ahead of confirmed mass production by end of 2026.",
+      "sources": [
+        {
+          "url": "https://www.xpeng.com/pressroom/news/01a03797fccda01e0de68a02a256006a"
+        },
+        {
+          "url": "https://www.prnewswire.com/news-releases/xpeng-holds-its-first-robotics-supply-chain-partner-conference-302887834.html"
+        }
+      ]
+    },
+    "map_category": "humanoid"
+  },
+  {
+    "id": "weave-robotics",
+    "name": "Weave Robotics",
+    "founded": "2024",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.weaverobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2024",
+        "round": "Pre-seed/Seed",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "Y Combinator",
+          "Adjacent",
+          "ALM Ventures",
+          "CoreNest Capital",
+          "Maxitech"
+        ],
+        "url": "https://www.weaverobotics.com/isaac-1",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "humanoid"
+    ],
+    "primary_use_case": "consumer",
+    "flagship_product": "Isaac 1",
+    "deployments": [
+      {
+        "customer": "Direct-to-consumer",
+        "location": "California (first), broader US through 2027",
+        "robot_count": null,
+        "start_date": "2026-09",
+        "status": "planned",
+        "use_case": "wheeled home humanoid for chores — laundry, tidying, bed-making; $7,999 upfront or $449/month; first shipments fall 2026",
+        "source_url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": 7999,
+    "open_source": false,
+    "us_manufactured": null,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Kaan Doğrusöz",
+        "role": "Co-Founder"
+      },
+      {
+        "name": "Evan Wineland",
+        "role": "Co-Founder"
+      }
+    ],
+    "ceo": "Kaan Doğrusöz",
+    "tags": [
+      "humanoid",
+      "consumer",
+      "wheeled",
+      "yc-backed"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      {
+        "url": "https://www.weaverobotics.com/isaac-1"
+      },
+      {
+        "url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/"
+      }
+    ],
+    "last_updated": "2026-09-27",
+    "themes": [
+      "cost-trajectory"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Y Combinator S24 company. Crunchbase shows only ~$500K raised across one pre-seed round pre-launch, which looks low for a consumer-hardware launch at this scale — flagged as low-confidence/possibly stale; no Series A has been found. Isaac 1 is telescoping 0.9-1.75m tall with an 8-hour battery and 2-hour recharge, priced at $7,999 upfront or $449/month with a $250 refundable deposit.",
+      "sources": [
+        {
+          "url": "https://www.weaverobotics.com/isaac-1"
+        },
+        {
+          "url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/"
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/weave-robotics"
+        }
+      ]
+    },
+    "map_category": "humanoid"
+  },
+  {
+    "id": "edgerun",
+    "name": "Edgerun Industries",
+    "founded": "2025",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.edgerun.com",
+    "funding_rounds": [
+      {
+        "date": "2026-09",
+        "round": "Seed / YC S26",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "Y Combinator",
+          "H.R. McMaster",
+          "Cyan Banister",
+          "Joshua Steinman",
+          "Jason Miller"
+        ],
+        "url": "https://www.ycombinator.com/companies/edgerun",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "exoskeleton"
+    ],
+    "primary_use_case": "defense / soldier augmentation",
+    "flagship_product": "hip-mounted military exoskeleton",
+    "deployments": [
+      {
+        "customer": "Ukrainian infantry and special-operations units",
+        "location": "Ukraine",
+        "robot_count": null,
+        "start_date": "2026-04",
+        "status": "active",
+        "use_case": "field-testing a sub-10-lb hip-mounted exoskeleton that adds torque under combat load; 100+ field tests since April 2026",
+        "source_url": "https://runtimewire.com/article/edgerun-launches-military-hip-exoskeleton-ukraine"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "David Venegas",
+        "role": "Founder / CEO"
+      }
+    ],
+    "ceo": "David Venegas",
+    "tags": [
+      "exoskeleton",
+      "defense",
+      "usa",
+      "yc"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.ycombinator.com/companies/edgerun"
+      },
+      {
+        "url": "https://runtimewire.com/article/edgerun-launches-military-hip-exoskeleton-ukraine"
+      },
+      {
+        "url": "https://app.dealroom.co/news/note/edgerun-introduces-a-hip-mounted-military-exoskeleton"
+      }
+    ],
+    "last_updated": "2026-09-29",
+    "themes": [
+      "defense-procurement"
+    ],
+    "map_category": "defense",
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Pre-revenue defense-hardware startup; no financials disclosed as of Sep 2026.",
+      "sources": []
+    }
   }
 ]

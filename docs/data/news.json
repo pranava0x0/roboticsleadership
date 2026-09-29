@@ -1,5 +1,278 @@
 [
   {
+    "id": "hn-49871965",
+    "title": "Flux 3 Action: A 7B open-weight world action model for robots",
+    "date": "2026-09-27",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://bfl.ai/models/flux-3-action",
+    "summary": "Black Forest Labs open-weighted FLUX 3 Action, a 7B-parameter \"world action model\" that takes camera video, robot state and a natural-language instruction and predicts both the next action and how the scene will change. It topped NVIDIA's public RoboLab-120 leaderboard (42.9% success) while using under half the parameters of the next-best open model (Cosmos3-Nano-Policy, 16B) and running faster. Weights are free on Hugging Face under a non-commercial research license; production use needs a separate commercial agreement.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "foundation-model",
+      "open-weights",
+      "black-forest-labs"
+    ]
+  },
+  {
+    "id": "rss-robonomics-on-the-threshold-ec-599",
+    "title": "Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids",
+    "date": "2026-09-28",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/",
+    "summary": "Analysis piece on \"robonomics\" — the case for giving delivery and household humanoid robots their own economic agency (micropayments, on-chain wallets, service-level contracts) as they take on paid tasks in public and private spaces. Framed as both a capability driver (robots that can transact unlock new business models) and a governance question (liability and payment-fraud exposure once a machine, not a person, is the counterparty) — an open policy gap flagged for the liability/insurance backlog theme.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "discourse",
+      "economics"
+    ]
+  },
+  {
+    "id": "rss-gecko-robotics-works-with-nvid-283",
+    "title": "Gecko Robotics works with NVIDIA to add AI agent security and control",
+    "date": "2026-09-28",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/",
+    "summary": "Gecko Robotics is integrating NVIDIA's new Open Agent Safety Platform into its infrastructure-inspection robots, using it to sandbox and audit the AI agents that plan and execute autonomous inspection routines before they act on physical equipment. Positioned as a template for adding guardrails to agentic AI running on physical/industrial robots, not just chat-based agents.",
+    "category": "Competitive",
+    "companies": [
+      "gecko-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "ai-safety",
+      "partnership"
+    ]
+  },
+  {
+    "id": "rss-meet-flourish-one-the-raspberr-836",
+    "title": "Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents",
+    "date": "2026-09-29",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/",
+    "summary": "Flourish is shipping \"Flourish One,\" a $3,555 Raspberry-Pi-powered home humanoid pitched at busy parents for phone-trainable, cloud-trained chore automation. Notable mainly for price: a sub-$4K humanoid list price is far below the $16K-plus figures usually cited for early commercial humanoids, though it targets a much narrower home-chore task set rather than general-purpose work.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "cost-trajectory",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "new-product",
+      "home-robot",
+      "humanoid"
+    ]
+  },
+  {
+    "id": "hn-49859299",
+    "title": "HomeBody: A humanoid that explores, remembers, and acts on its own",
+    "date": "2026-09-26",
+    "source": "Stanford TML Lab",
+    "source_type": "News",
+    "source_url": "https://tml.stanford.edu/homebody/",
+    "summary": "Stanford and Caltech researchers built HomeBody, which gives a frontier vision-language model (GPT Astra) persistent spatial memory and a library of reusable motor skills so a Unitree G1 humanoid can clean up an unseen kitchen and retrieve a remembered object from an underspecified request — without environment-specific training or a separate learned action-generation model in between.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "stanford",
+      "humanoid",
+      "vlm",
+      "spatial-memory",
+      "unitree-g1"
+    ]
+  },
+  {
+    "id": "hn-49845694",
+    "title": "Robot Installations Outpaced Human Hiring at US Factories in 2025",
+    "date": "2026-09-25",
+    "source": "Bloomberg",
+    "source_type": "News",
+    "source_url": "https://www.bloomberg.com/news/newsletters/2026-09-25/robot-installations-outpaced-human-hiring-at-us-factories-in-2025",
+    "summary": "Bloomberg reports US factories installed more industrial robots than they added human workers in 2025, the clearest sign yet that automation is now outpacing hiring on American production lines rather than merely supplementing it.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "industrial-deployments"
+    ],
+    "sentiment": "Mixed",
+    "confidence": "Medium",
+    "tags": [
+      "us-factories",
+      "robot-installations",
+      "labor",
+      "workforce"
+    ]
+  },
+  {
+    "id": "hn-49860649",
+    "title": "Simple visual patterns can trick AI-powered vehicles and robots",
+    "date": "2026-09-26",
+    "source": "University of Florida",
+    "source_type": "News",
+    "source_url": "https://news.ufl.edu/2026/09/ai-powered-vehicles/",
+    "summary": "University of Florida researchers found that a simple repeating black-and-white stripe pattern can fool the depth-estimation algorithms autonomous vehicles and robots use to judge distance to obstacles, potentially triggering an unnecessary evasive maneuver or a collision — a previously overlooked adversarial vulnerability in perception stacks.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "adversarial-patterns",
+      "computer-vision",
+      "depth-perception",
+      "safety",
+      "autonomous-vehicles"
+    ]
+  },
+  {
+    "id": "rss-helicon-brings-automation-to-h-742",
+    "title": "Helicon brings automation to high-volume composites manufacturing",
+    "date": "2026-09-23",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/helicon-brings-automation-high-volume-composites-manufacturing/",
+    "summary": "Composites-manufacturing startup Helicon emerged from stealth with a $16 million oversubscribed seed round led by AlleyCorp. The Los Angeles-based company is automating high-volume composite part production, aiming to cut lead times from about six months to two weeks by replacing manual layup and curing steps with robotic automation.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "us-supply-chain"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "helicon",
+      "composites-manufacturing",
+      "seed-funding",
+      "automation"
+    ]
+  },
+  {
+    "id": "rss-anybotics-opens-the-door-for-i-56",
+    "title": "ANYbotics opens the door for inspections with ANYmal robots",
+    "date": "2026-09-24",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/",
+    "summary": "ANYbotics partnered with access-control vendors dormakaba and LEGIC Identsystems so its ANYmal quadruped can badge through secured doors like an employee, letting the robot move autonomously between zones during industrial inspection rounds.",
+    "category": "Competitive",
+    "companies": [
+      "anybotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "anybotics",
+      "anymal",
+      "quadruped",
+      "access-control",
+      "inspection"
+    ]
+  },
+  {
+    "id": "rss-epson-introduces-ax6-cobot-wit-407",
+    "title": "Epson introduces AX6 cobot with compact design, no-code programming",
+    "date": "2026-09-24",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/",
+    "summary": "Epson Robots expanded its six-axis arm line with the AX6, a compact force- and power-limited cobot aimed at manufacturers that want no-code programming and a smaller footprint than its existing industrial arms.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "epson",
+      "cobot",
+      "six-axis-arm",
+      "no-code-programming"
+    ]
+  },
+  {
+    "id": "rss-general-robotics-is-betting-on-873",
+    "title": "General Robotics is betting on modular intelligence, not one robot brain",
+    "date": "2026-09-25",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/",
+    "summary": "Startup General Robotics is building modular, composable AI capabilities rather than one monolithic model, betting that stitching together specialized skills lets robots adapt across tasks and hardware form factors faster than training a single end-to-end brain.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "general-robotics",
+      "modular-ai",
+      "skill-composition"
+    ]
+  },
+  {
+    "id": "rss-from-14-cities-to-15-000-what-761",
+    "title": "From 14 cities to 15,000: What it will take to scale robotaxis?",
+    "date": "2026-09-26",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/from-14-cities-to-15000-what-it-will-take-to-scale-robotaxis/",
+    "summary": "Robotaxi operators have proven the driving technology works across roughly 14 cities; The Robot Report argues scaling to 15,000 vehicles hinges on the less glamorous problem of fast, local vehicle servicing and maintenance infrastructure, not further gains in autonomy software.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "robotaxi",
+      "autonomous-vehicles",
+      "scaling",
+      "fleet-servicing"
+    ]
+  },
+  {
     "source_type": "News",
     "policies": [],
     "companies": [
@@ -5231,24 +5504,6 @@
     "source_url": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/",
     "summary": "Monumental acts as a subcontractor during construction tasks. Contractors pay the company for finished walls rather than for robots.\nThe post With new funding, Monumental plans to bring its constructi...",
     "category": "Funding",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-weave-robotics-launches-isaac-769",
-    "title": "Weave Robotics launches Isaac, its first mobile humanoid robot",
-    "date": "2026-07-17",
-    "source": "The Robot Report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/",
-    "summary": "Weave Robotics has listed the features of its Isaac wheeled bimanual manipulator robot for household and office use.\nThe post Weave Robotics launches Isaac, its first mobile humanoid robot appeared fi...",
-    "category": "Competitive",
     "companies": [],
     "policies": [],
     "themes": [],
@@ -20514,32 +20769,6 @@
     ]
   },
   {
-    "id": "hn-49713796",
-    "title": "Agility reveals new robot: Digit 5",
-    "date": "2026-09-15",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://www.agilityrobotics.com/solutions/digit-5",
-    "summary": "Agility Robotics revealed Digit 5, its next-generation humanoid, built around a safety architecture that uses real-time LiDAR, multi-angle depth cameras, and dynamic balance algorithms to detect nearby people within milliseconds. When a person comes close, Digit 5 autonomously avoids, stops, or lowers into a squat/seated posture to reduce collision risk — intended to let the robot work alongside people on warehouse and factory floors without isolated work cells or physical barriers.",
-    "category": "Competitive",
-    "companies": [
-      "agility-robotics"
-    ],
-    "policies": [],
-    "themes": [
-      "physical-ai",
-      "industrial-deployments"
-    ],
-    "sentiment": "Positive",
-    "confidence": "High",
-    "tags": [
-      "hacker-news",
-      "community",
-      "humanoid",
-      "safety"
-    ]
-  },
-  {
     "id": "rss-ultrasound-offers-a-scalable-p-702",
     "title": "Ultrasound offers a scalable path to tactile intelligence for physical AI",
     "date": "2026-09-12",
@@ -20643,28 +20872,6 @@
     "companies": [],
     "policies": [],
     "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-agility-s-digit-5-humanoid-has-151",
-    "title": "Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades",
-    "date": "2026-09-15",
-    "source": "The Robot Report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/",
-    "summary": "The latest version of Digit includes new knees, upgraded batteries, and more comprehensive safety architecture.\nThe post Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades appeared...",
-    "category": "Competitive",
-    "companies": [
-      "agility-robotics"
-    ],
-    "policies": [],
-    "themes": [
-      "physical-ai"
-    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -20779,33 +20986,6 @@
       "nsf",
       "research-funding",
       "academia"
-    ]
-  },
-  {
-    "id": "boston-dynamics-metaplant-atlas-2026-09",
-    "title": "Boston Dynamics opens Metaplant Application Center to train Atlas humanoids",
-    "date": "2026-09-21",
-    "source": "The Robot Report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/",
-    "summary": "Boston Dynamics opened a Robotics Metaplant Application Center inside Hyundai's Metaplant America facility in Georgia to train and deploy Atlas humanoids on live automotive production tasks — the first dedicated on-site facility for iterating Atlas against real factory workflows since Hyundai took full ownership of Boston Dynamics in June 2026.",
-    "category": "Deployment",
-    "companies": [
-      "boston-dynamics"
-    ],
-    "policies": [],
-    "themes": [
-      "industrial-deployments",
-      "physical-ai"
-    ],
-    "sentiment": "Positive",
-    "confidence": "High",
-    "tags": [
-      "humanoid",
-      "boston-dynamics",
-      "hyundai",
-      "usa",
-      "automotive"
     ]
   },
   {
@@ -21263,6 +21443,304 @@
       "funding",
       "benchmark",
       "home-robotics"
+    ]
+  },
+  {
+    "id": "niantic-spatial-places-library-2026-09",
+    "title": "Niantic Spatial launches Places Library, 100 real-world scenes for robot training",
+    "date": "2026-09-25",
+    "source": "Niantic Spatial",
+    "source_type": "News",
+    "source_url": "https://www.nianticspatial.com/blog/spatial-infrastructure-for-general-purpose-robotics",
+    "summary": "Niantic Spatial opened a Places Library of 100 real-world 3D environments — industrial, delivery/logistics, commercial, and residential spaces — for training robots in simulation. Each scene pairs a Gaussian splat (visual appearance, built from Niantic's Pokemon Go-era scanning data) with a matching collision mesh, delivered as a USDZ file at real-world scale for NVIDIA Isaac Sim, Isaac Lab, and other OpenUSD simulators. Two scenes are free; the rest require an access request or a paid Embodied AI plan.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "niantic-spatial",
+      "simulation",
+      "training-data",
+      "isaac-sim",
+      "sim2real"
+    ]
+  },
+  {
+    "id": "xpeng-robotics-900m-raise-2026-08",
+    "title": "XPeng Robotics raises over $900M at a $6.3B+ post-money valuation",
+    "date": "2026-08-25",
+    "source": "XPeng",
+    "source_type": "News",
+    "source_url": "https://www.xpeng.com/pressroom/news/01a03797fccda01e0de68a02a256006a",
+    "summary": "XPeng spun out its humanoid-robot unit (registered as Dogotix, branded XPENG Robotics) and raised more than $900 million at a post-money valuation over $6.3 billion. Investors include IDG Capital (~$300M), Tencent, Alibaba, and Gaorong Ventures ($100M each strategic), plus XPeng itself ($200M) and founder He Xiaopeng with Gu Hongdi personally ($100M combined). XPeng retains roughly 68.4% control.",
+    "category": "Funding",
+    "companies": [
+      "xpeng-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "xpeng-robotics",
+      "dogotix",
+      "humanoid",
+      "china",
+      "funding"
+    ]
+  },
+  {
+    "id": "boston-dynamics-rmac-hyundai-georgia-2026-09",
+    "title": "Boston Dynamics opens Atlas training center at Hyundai’s Georgia Metaplant",
+    "date": "2026-09-21",
+    "source": "Boston Dynamics",
+    "source_type": "News",
+    "source_url": "https://bostondynamics.com/news/boston-dynamics-opens-robotics-metaplant-application-center-to-train-humanoid-robots-for-manufacturing-tasks",
+    "summary": "Boston Dynamics opened a Robotics Metaplant Application Center (RMAC) at Hyundai’s Georgia Metaplant to train electric Atlas humanoids for manufacturing tasks. The company reiterated plans to deploy 25,000 Atlas units across Hyundai and Kia plants worldwide, starting at Georgia Metaplant America in 2028 and Kia’s Georgia plant in 2029, backed by a US production line meant to reach 30,000 robots a year and a companion actuator plant targeting 350,000 actuators a year from 2028. Boston Dynamics says it is also evaluating Atlas for aerospace, semiconductor, logistics, food and beverage, and life-sciences work beyond automotive.",
+    "category": "Deployment",
+    "companies": [
+      "boston-dynamics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "us-supply-chain"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "boston-dynamics",
+      "hyundai",
+      "atlas",
+      "manufacturing",
+      "georgia"
+    ]
+  },
+  {
+    "id": "china-humanoid-ipo-slowdown-2026-09",
+    "title": "China quietly slows humanoid-robot IPOs after Unitree’s 55% post-listing plunge",
+    "date": "2026-09-21",
+    "source": "Reuters",
+    "source_type": "News",
+    "source_url": "https://www.rte.ie/news/business/2026/0921/1592325-china-slows-humanoid-robot-ipo-rush/",
+    "summary": "Chinese securities regulators are reportedly using informal \"window guidance\" to hold back a wave of planned humanoid-robot IPOs (including Deep Robotics, X Square Robot, and AgiBot) after Unitree quintupled on its Shanghai STAR Market debut and then fell 55% from its peak. Reuters reports investor concern that much of the revenue behind these valuations comes from local-government-subsidized data-collection and joint-venture deals rather than commercial sales, with one investor estimating 60-70% valuation downside if that revenue were excluded.",
+    "category": "Geopolitics",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Negative",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "unitree",
+      "ipo",
+      "valuation",
+      "regulation"
+    ]
+  },
+  {
+    "id": "china-rare-earth-magnet-exports-drop-2026-09",
+    "title": "China’s rare-earth magnet exports to the US fell 21% month over month ahead of the Xi-Trump summit",
+    "date": "2026-09-21",
+    "source": "Bloomberg",
+    "source_type": "News",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-21/china-rare-earth-magnet-exports-to-us-drop-before-xi-trump-meet",
+    "summary": "Chinese customs data show rare-earth permanent-magnet shipments to the US fell to 512 metric tons in August 2026, down from 647 tons in July — a 21% month-over-month drop — even as China’s total global rare-earth magnet exports rose 23% year over year for January-August. The timing, just before the Trump-Xi summit that extended the trade truce, points to Beijing tightening near-term supply to a robotics input (actuator magnets) while broader trade terms stayed unresolved.",
+    "category": "Supply Chain",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "sentiment": "Negative",
+    "confidence": "Medium",
+    "tags": [
+      "rare-earth",
+      "magnets",
+      "export-controls",
+      "china",
+      "supply-chain"
+    ]
+  },
+  {
+    "id": "ubtech-liuzhou-humanoid-factory-2026-09",
+    "title": "UBTECH commissions a 10,000-unit-a-year humanoid \"super smart factory\" in Liuzhou",
+    "date": "2026-09-12",
+    "source": "Global Times",
+    "source_type": "News",
+    "source_url": "https://www.globaltimes.cn/page/202609/1370528.shtml",
+    "summary": "UBTECH commissioned a 14,000-square-meter humanoid manufacturing plant in Liuzhou, Guangxi, built with Siemens, that the company says can produce 10,000 Walker S and Cruzr-series robots a year on a flexible, non-conveyor line where robots help build robots, roughly one unit every 10 minutes. Global Times is Chinese state media, so figures are as reported and not independently verified; the plant is a concrete, already-operational data point on Chinese humanoid manufacturing capacity, distinct from Boston Dynamics and Hyundai’s 2028 production target at Georgia.",
+    "category": "Deployment",
+    "companies": [
+      "ubtech"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "ubtech",
+      "china",
+      "manufacturing",
+      "humanoid",
+      "liuzhou"
+    ]
+  },
+  {
+    "id": "agility-digit-5-unveiled-2026-09",
+    "title": "Agility Robotics unveils Digit 5, a 50-lb-payload humanoid with swappable end-effectors",
+    "date": "2026-09-15",
+    "source": "Agility Robotics",
+    "source_type": "News",
+    "source_url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+    "summary": "Agility Robotics unveiled Digit 5, which raises payload from 35 to 50 pounds, runs 90 minutes on a 9-minute charge, and adds swappable end-effectors on a 5′11″ frame with a 7.2-foot reach. Early access is planned for the first half of 2027, with general availability by the end of 2027. The announcement comes as Agility’s pending SPAC merger with Churchill Capital Corp XI ($2.5B valuation, deal expected to generate ~$620M in proceeds including a Foxconn-led PIPE) remains in SEC review, with an investor day set for 2026-10-06 and close expected in Q4 2026.",
+    "category": "Competitive",
+    "companies": [
+      "agility-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "agility-robotics",
+      "digit-5",
+      "humanoid",
+      "product-launch"
+    ]
+  },
+  {
+    "id": "weave-robotics-isaac-1-launch-2026-09",
+    "title": "Weave Robotics launches Isaac 1, a $7,999 wheeled home humanoid for chores",
+    "date": "2026-09-24",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/",
+    "summary": "YC-backed startup Weave Robotics launched Isaac 1, a telescoping wheeled home humanoid (0.9-1.75m tall, 8-hour battery) built to fold laundry, tidy rooms, make beds, and put away toys. It costs $7,999 upfront or $449/month with a $250 refundable deposit; first shipments start in California this fall, with broader US availability through 2027.",
+    "category": "Competitive",
+    "companies": [
+      "weave-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "cost-trajectory"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "weave-robotics",
+      "isaac-1",
+      "humanoid",
+      "consumer",
+      "wheeled"
+    ]
+  },
+  {
+    "id": "rss-farmers-are-facing-more-pressu-923",
+    "title": "Farmers are facing more pressure; CNH says robotics can help",
+    "date": "2026-09-25",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/farmers-are-facing-more-pressure-cnh-says-robotics-can-help/",
+    "summary": "CNH Industrial says labor availability, cost, productivity and efficiency are the top concerns it hears from farm customers as 2026 trade-war input costs and volatile crop prices squeeze margins. Its R4 platform targets vineyard, orchard and specialty-crop growers who need automation that is easy to adopt, not just technically capable — a deployment-readiness framing distinct from the industrial-humanoid cost story.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "agriculture",
+      "cnh"
+    ]
+  },
+  {
+    "id": "adi-alif-semiconductor-acquisition-2026-09",
+    "title": "Analog Devices to acquire Alif Semiconductor for $1.35B, citing \"Physical Intelligence\"",
+    "date": "2026-09-09",
+    "source": "Analog Devices",
+    "source_type": "News",
+    "source_url": "https://www.analog.com/en/newsroom/press-releases/2026/9-9-2026-adi-to-acquire-alif-semiconductor.html",
+    "summary": "Analog Devices agreed to buy Alif Semiconductor, a Pleasanton, CA maker of AI-native edge microcontrollers and fusion processors, for $1.35B cash plus up to $200M contingent consideration, closing expected by end of 2026. ADI frames the deal around \"Physical Intelligence\" — AI-native, power-efficient compute for systems that sense and act in the physical world (motion, sound, vibration) — a direct US semiconductor consolidation feeding the robotics/embedded-AI compute stack.",
+    "category": "Supply Chain",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "acquisition",
+      "semiconductors",
+      "edge-ai"
+    ]
+  },
+  {
+    "id": "ice-boston-dynamics-spot-procurement-2026-09",
+    "title": "ICE plans to buy Boston Dynamics Spot robots for immigration enforcement operations",
+    "date": "2026-08-29",
+    "source": "NBC News",
+    "source_type": "News",
+    "source_url": "https://www.nbcnews.com/politics/immigration/ice-buy-robot-dogs-immigration-enforcement-rcna594897",
+    "summary": "U.S. Immigration and Customs Enforcement issued a procurement notice for Boston Dynamics' quadruped Spot robot, budgeted at roughly $1-2M, for \"inspection, situational awareness, and hazard assessment\" during enforcement operations, as ICE arrests hit a term-high in July 2026. It is among the first concrete US federal law-enforcement procurements of a commercial robot platform, and has drawn civil-liberties criticism over surveillance and mission creep for a robot marketed for industrial inspection.",
+    "category": "Policy",
+    "companies": [
+      "boston-dynamics"
+    ],
+    "policies": [],
+    "themes": [
+      "defense-procurement"
+    ],
+    "sentiment": "Negative",
+    "confidence": "High",
+    "tags": [
+      "procurement",
+      "ice",
+      "boston-dynamics",
+      "domestic-policy"
+    ]
+  },
+  {
+    "id": "edgerun-exoskeleton-ukraine-2026-09",
+    "title": "Edgerun launches a sub-10-lb hip exoskeleton field-tested with Ukrainian troops",
+    "date": "2026-09-08",
+    "source": "Y Combinator",
+    "source_type": "News",
+    "source_url": "https://www.ycombinator.com/companies/edgerun",
+    "summary": "YC S26 startup Edgerun Industries came out of stealth with a hip-mounted military exoskeleton, under 10 lbs, that cuts the effort of moving under combat load by 30-45%. Since April 2026 it has run 100+ field tests with Ukrainian infantry and special-operations units out of a Kyiv field office and says it has secured $150M+ in letters of intent. Founder David Venegas previously co-founded autonomous-mining startup Durin.",
+    "category": "Funding",
+    "companies": [
+      "edgerun"
+    ],
+    "policies": [],
+    "themes": [
+      "defense-procurement"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "exoskeleton",
+      "defense",
+      "yc",
+      "ukraine"
     ]
   }
 ]
