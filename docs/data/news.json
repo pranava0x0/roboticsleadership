@@ -160,31 +160,6 @@
     ]
   },
   {
-    "id": "rss-qualcomm-to-acquire-picknik-ro-24",
-    "title": "Qualcomm to acquire PickNik Robotics and keep MoveIt open-source",
-    "date": "2026-09-23",
-    "source": "The Robot Report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/",
-    "summary": "Qualcomm agreed to acquire motion-planning startup PickNik Robotics, which maintains the open-source MoveIt manipulation framework used widely in ROS-based arms. Qualcomm said it will keep MoveIt open-source and plans to integrate it with its Dragonwing edge-AI chips and Arduino platform, aiming to lower the barrier for manipulation software on commodity robot hardware.",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [
-      "physical-ai"
-    ],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "qualcomm",
-      "picknik-robotics",
-      "moveit",
-      "acquisition",
-      "open-source",
-      "manipulation"
-    ]
-  },
-  {
     "id": "rss-helicon-brings-automation-to-h-742",
     "title": "Helicon brings automation to high-volume composites manufacturing",
     "date": "2026-09-23",
@@ -274,31 +249,6 @@
       "general-robotics",
       "modular-ai",
       "skill-composition"
-    ]
-  },
-  {
-    "id": "rss-amazon-to-invest-100m-in-new-i-371",
-    "title": "Amazon to invest $100M in new Indiana manufacturing facility",
-    "date": "2026-09-25",
-    "source": "The Robot Report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/",
-    "summary": "Amazon will invest $100 million in a new manufacturing facility in Indiana to build components and equipment that power its fulfillment and robotics network across North America, adding domestic capacity for the hardware behind its warehouse-automation fleet.",
-    "category": "Deployment",
-    "companies": [],
-    "policies": [],
-    "themes": [
-      "us-supply-chain",
-      "industrial-deployments"
-    ],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "amazon",
-      "manufacturing",
-      "indiana",
-      "fulfillment",
-      "robotics-supply-chain"
     ]
   },
   {
@@ -5554,24 +5504,6 @@
     "source_url": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/",
     "summary": "Monumental acts as a subcontractor during construction tasks. Contractors pay the company for finished walls rather than for robots.\nThe post With new funding, Monumental plans to bring its constructi...",
     "category": "Funding",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-weave-robotics-launches-isaac-769",
-    "title": "Weave Robotics launches Isaac, its first mobile humanoid robot",
-    "date": "2026-07-17",
-    "source": "The Robot Report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/",
-    "summary": "Weave Robotics has listed the features of its Isaac wheeled bimanual manipulator robot for household and office use.\nThe post Weave Robotics launches Isaac, its first mobile humanoid robot appeared fi...",
-    "category": "Competitive",
     "companies": [],
     "policies": [],
     "themes": [],
@@ -20837,32 +20769,6 @@
     ]
   },
   {
-    "id": "hn-49713796",
-    "title": "Agility reveals new robot: Digit 5",
-    "date": "2026-09-15",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://www.agilityrobotics.com/solutions/digit-5",
-    "summary": "Agility Robotics revealed Digit 5, its next-generation humanoid, built around a safety architecture that uses real-time LiDAR, multi-angle depth cameras, and dynamic balance algorithms to detect nearby people within milliseconds. When a person comes close, Digit 5 autonomously avoids, stops, or lowers into a squat/seated posture to reduce collision risk — intended to let the robot work alongside people on warehouse and factory floors without isolated work cells or physical barriers.",
-    "category": "Competitive",
-    "companies": [
-      "agility-robotics"
-    ],
-    "policies": [],
-    "themes": [
-      "physical-ai",
-      "industrial-deployments"
-    ],
-    "sentiment": "Positive",
-    "confidence": "High",
-    "tags": [
-      "hacker-news",
-      "community",
-      "humanoid",
-      "safety"
-    ]
-  },
-  {
     "id": "rss-ultrasound-offers-a-scalable-p-702",
     "title": "Ultrasound offers a scalable path to tactile intelligence for physical AI",
     "date": "2026-09-12",
@@ -20966,28 +20872,6 @@
     "companies": [],
     "policies": [],
     "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-agility-s-digit-5-humanoid-has-151",
-    "title": "Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades",
-    "date": "2026-09-15",
-    "source": "The Robot Report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/",
-    "summary": "The latest version of Digit includes new knees, upgraded batteries, and more comprehensive safety architecture.\nThe post Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades appeared...",
-    "category": "Competitive",
-    "companies": [
-      "agility-robotics"
-    ],
-    "policies": [],
-    "themes": [
-      "physical-ai"
-    ],
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
@@ -21102,33 +20986,6 @@
       "nsf",
       "research-funding",
       "academia"
-    ]
-  },
-  {
-    "id": "boston-dynamics-metaplant-atlas-2026-09",
-    "title": "Boston Dynamics opens Metaplant Application Center to train Atlas humanoids",
-    "date": "2026-09-21",
-    "source": "The Robot Report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/",
-    "summary": "Boston Dynamics opened a Robotics Metaplant Application Center inside Hyundai's Metaplant America facility in Georgia to train and deploy Atlas humanoids on live automotive production tasks — the first dedicated on-site facility for iterating Atlas against real factory workflows since Hyundai took full ownership of Boston Dynamics in June 2026.",
-    "category": "Deployment",
-    "companies": [
-      "boston-dynamics"
-    ],
-    "policies": [],
-    "themes": [
-      "industrial-deployments",
-      "physical-ai"
-    ],
-    "sentiment": "Positive",
-    "confidence": "High",
-    "tags": [
-      "humanoid",
-      "boston-dynamics",
-      "hyundai",
-      "usa",
-      "automotive"
     ]
   },
   {
@@ -21747,7 +21604,7 @@
     "source": "Agility Robotics",
     "source_type": "News",
     "source_url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
-    "summary": "Agility Robotics unveiled Digit 5, which raises payload from 35 to 50 pounds, runs 90 minutes on a 9-minute charge, and adds swappable end-effectors on a 5‱11″ frame with a 7.2-foot reach. Early access is planned for the first half of 2027, with general availability by the end of 2027. The announcement comes as Agility’s pending SPAC merger with Churchill Capital Corp XI ($2.5B valuation, ~$620M raised including a Foxconn-led PIPE) remains in SEC review, with an investor day set for 2026-10-06 and close expected in Q4 2026.",
+    "summary": "Agility Robotics unveiled Digit 5, which raises payload from 35 to 50 pounds, runs 90 minutes on a 9-minute charge, and adds swappable end-effectors on a 5′11″ frame with a 7.2-foot reach. Early access is planned for the first half of 2027, with general availability by the end of 2027. The announcement comes as Agility’s pending SPAC merger with Churchill Capital Corp XI ($2.5B valuation, deal expected to generate ~$620M in proceeds including a Foxconn-led PIPE) remains in SEC review, with an investor day set for 2026-10-06 and close expected in Q4 2026.",
     "category": "Competitive",
     "companies": [
       "agility-robotics"

@@ -7916,13 +7916,16 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Y Combinator S24 company. Public funding records (Crunchbase) show only ~$500K raised across two rounds pre-launch, which looks low for a consumer-hardware launch at this scale — flagged as low-confidence/possibly stale; no Series A has been found. Isaac 1 is telescoping 0.9-1.75m tall with an 8-hour battery and 2-hour recharge, priced at $7,999 upfront or $449/month with a $250 refundable deposit.",
+      "details": "Y Combinator S24 company. Crunchbase shows only ~$500K raised across one pre-seed round pre-launch, which looks low for a consumer-hardware launch at this scale — flagged as low-confidence/possibly stale; no Series A has been found. Isaac 1 is telescoping 0.9-1.75m tall with an 8-hour battery and 2-hour recharge, priced at $7,999 upfront or $449/month with a $250 refundable deposit.",
       "sources": [
         {
           "url": "https://www.weaverobotics.com/isaac-1"
         },
         {
           "url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/"
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/weave-robotics"
         }
       ]
     },
