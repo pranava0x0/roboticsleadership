@@ -8062,8 +8062,8 @@
     "funding_rounds": [
       {
         "date": "2026-09",
-        "round": "Acquisition (AMD, all-stock)",
-        "amount_usd": 8200000000,
+        "round": "Acquisition agreement (AMD, all-stock, pending close)",
+        "amount_usd": null,
         "valuation_usd": 8200000000,
         "investors": [
           "AMD"
@@ -8072,7 +8072,7 @@
         "confidence": "reported"
       }
     ],
-    "total_funding_usd": 8200000000,
+    "total_funding_usd": null,
     "latest_valuation_usd": 8200000000,
     "robot_types": [
       "foundation_model"
@@ -8098,7 +8098,7 @@
       "foundation-model",
       "simulation",
       "ai-software",
-      "acquired"
+      "pending-acquisition"
     ],
     "data_confidence": "high",
     "sources": [
@@ -8117,7 +8117,7 @@
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "Pre-revenue per reporting at acquisition. Founded 2024 by Fei-Fei Li; builds spatial-intelligence models that generate, reconstruct and simulate interactive 3D environments from text/image/video, plus robotic-learning and simulation technology. Acquired by AMD in an all-stock deal valuing the company at ~$8.2B, AMD's second-largest acquisition ever; Li joins AMD as EVP & chief scientist. Deal expected to close by end of 2026."
+      "details": "Pre-revenue per reporting at announcement. Founded 2024 by Fei-Fei Li; builds spatial-intelligence models that generate, reconstruct and simulate interactive 3D environments from text/image/video, plus robotic-learning and simulation technology. AMD agreed to acquire World Labs in an all-stock deal valuing the company at ~$8.2B (announced 2026-09-28, AMD's second-largest acquisition ever); Li will join AMD as EVP & chief scientist once the deal closes, expected by end of 2026. Prior funding raised by World Labs is not disclosed in this record."
     },
     "map_category": "brains"
   },
