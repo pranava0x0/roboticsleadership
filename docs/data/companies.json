@@ -1894,7 +1894,7 @@
       "foundation_model"
     ],
     "primary_use_case": "dexterous manipulation foundation models",
-    "flagship_product": "DYNA-1 (dexterous manipulation foundation model)",
+    "flagship_product": "DYNA 2.1 (semi-humanoid \"Physical Agent\" — completes full unattended workflows, e.g. a commercial laundry shift)",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -1930,9 +1930,12 @@
       },
       {
         "url": "https://www.prnewswire.com/news-releases/dyna-robotics-raises-120-million-to-advance-robotic-foundation-models-on-the-path-to-physical-artificial-general-intelligence-302556817.html"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/dyna-robotics-launches-dyna-2-1-physical-agent-a-semi-humanoid-robot-that-completes-full-workflows-such-as-a-commercial-laundry-shift-302892411.html"
       }
     ],
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-09-30",
     "themes": [
       "foundation-models",
       "physical-ai"
@@ -1940,7 +1943,7 @@
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "Private. DYNA-1 is positioned as the first commercially deployed dexterous-manipulation foundation model, improving via continuous reinforcement learning in real deployments. Series A $120M at a >$600M valuation (Sep 2025); investors include CRV, First Round Capital, NVIDIA Ventures and the Amazon Industrial Innovation Fund. Founders previously sold Caper AI for ~$350M."
+      "details": "Private. DYNA 2.1 (Sep 2026) is Dyna's \"Physical Agent,\" built on the DYNA-2 world-action model (~1M hours of human+robot video), completing full connected workflows unattended and evaluated on Mean Time Between Interventions rather than single-task success. Predecessor DYNA-1 was the first commercially deployed dexterous-manipulation foundation model. Series A $120M at a >$600M valuation (Sep 2025); investors include CRV, First Round Capital, NVIDIA Ventures and the Amazon Industrial Innovation Fund. Founders previously sold Caper AI for ~$350M."
     },
     "map_category": "brains"
   },
@@ -4504,8 +4507,8 @@
     "name": "Standard Bots",
     "founded": "2022",
     "hq": {
-      "city": "Piscataway",
-      "state": "NJ",
+      "city": "Glen Cove",
+      "state": "NY",
       "country": "USA"
     },
     "website": "https://www.standardbots.com",
@@ -4520,10 +4523,22 @@
         ],
         "url": "https://standardbots.com",
         "confidence": "reported"
+      },
+      {
+        "date": "2026-06",
+        "round": "Series C",
+        "amount_usd": 200000000,
+        "valuation_usd": 1000000000,
+        "investors": [
+          "RoboStrategy",
+          "General Catalyst"
+        ],
+        "url": "https://www.prnewswire.com/news-releases/standard-bots-raises-200-million-series-c-at-1-billion-valuation-to-scale-american-made-ai-native-industrial-robots-302795268.html",
+        "confidence": "reported"
       }
     ],
-    "total_funding_usd": 35000000,
-    "latest_valuation_usd": null,
+    "total_funding_usd": 235000000,
+    "latest_valuation_usd": 1000000000,
     "robot_types": [
       "cobot",
       "industrial-arm"
@@ -4539,11 +4554,15 @@
     "defense_contracts": false,
     "founders": [
       {
-        "name": "Philipp Jurgens",
-        "role": "CEO & Co-Founder"
+        "name": "Evan Beard",
+        "role": "Co-Founder & CEO"
+      },
+      {
+        "name": "David Golden",
+        "role": "Co-Founder"
       }
     ],
-    "ceo": "Philipp Jurgens",
+    "ceo": "Evan Beard",
     "tags": [
       "cobot",
       "robot-arm",
@@ -4559,9 +4578,18 @@
       },
       {
         "url": "https://standardbots.com/blog/obbb-robotics"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/standard-bots-raises-200-million-series-c-at-1-billion-valuation-to-scale-american-made-ai-native-industrial-robots-302795268.html"
+      },
+      {
+        "url": "https://www.forbes.com/sites/johnkoetsier/2026/06/10/bringing-jobs-back-to-the-us-via--robots-standard-bots-raises-200-million/"
+      },
+      {
+        "url": "https://techfundingnews.com/standard-bots-hits-unicorn-status-with-200m-raise-co-led-by-general-catalyst-to-bring-ai-robots-to-americas-factory-floors/"
       }
     ],
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-09-30",
     "themes": [
       "industrial-deployments",
       "cost-trajectory",
@@ -8020,5 +8048,568 @@
       "details": "Pre-revenue defense-hardware startup; no financials disclosed as of Sep 2026.",
       "sources": []
     }
+  },
+  {
+    "id": "world-labs",
+    "name": "World Labs",
+    "founded": "2024",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.worldlabs.ai",
+    "funding_rounds": [
+      {
+        "date": "2026-09",
+        "round": "Acquisition agreement (AMD, all-stock, pending close)",
+        "amount_usd": null,
+        "valuation_usd": 8200000000,
+        "investors": [
+          "AMD"
+        ],
+        "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": 8200000000,
+    "robot_types": [
+      "foundation_model"
+    ],
+    "primary_use_case": "spatial-intelligence models for robotic learning and simulation",
+    "flagship_product": "Marble (3D world-generation model) and robotic-simulation/learning models",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Fei-Fei Li",
+        "role": "Co-founder"
+      }
+    ],
+    "ceo": "Fei-Fei Li",
+    "tags": [
+      "spatial-intelligence",
+      "foundation-model",
+      "simulation",
+      "ai-software",
+      "pending-acquisition"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-09-28/amd-to-buy-fei-fei-li-s-world-labs-ai-startup-for-8-2-billion"
+      }
+    ],
+    "last_updated": "2026-09-30",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Pre-revenue per reporting at announcement. Founded 2024 by Fei-Fei Li; builds spatial-intelligence models that generate, reconstruct and simulate interactive 3D environments from text/image/video, plus robotic-learning and simulation technology. AMD agreed to acquire World Labs in an all-stock deal valuing the company at ~$8.2B (announced 2026-09-28, AMD's second-largest acquisition ever); Li will join AMD as EVP & chief scientist once the deal closes, expected by end of 2026. Prior funding raised by World Labs is not disclosed in this record."
+    },
+    "map_category": "brains"
+  },
+  {
+    "id": "sima-ai",
+    "name": "SiMa.ai",
+    "founded": "2018",
+    "hq": {
+      "city": "San Jose",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://sima.ai",
+    "funding_rounds": [
+      {
+        "date": "2026-09",
+        "round": "Series C",
+        "amount_usd": 150000000,
+        "valuation_usd": 1450000000,
+        "investors": [
+          "Fidelity Management & Research",
+          "Amplify",
+          "Alter Venture Partners",
+          "Dell Technologies Capital",
+          "Maverick Capital",
+          "Point72",
+          "StepStone Group"
+        ],
+        "url": "https://techcrunch.com/2026/09/28/physical-ai-chip-developer-sima-ai-hits-1-45b-valuation/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 500000000,
+    "latest_valuation_usd": 1450000000,
+    "robot_types": [
+      "enabling_tech"
+    ],
+    "primary_use_case": "energy-efficient edge AI compute for physical-AI platforms",
+    "flagship_product": "Modalix chips + Palette software",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Krishna Rangasayee",
+        "role": "Founder & CEO"
+      }
+    ],
+    "ceo": "Krishna Rangasayee",
+    "tags": [
+      "chips",
+      "edge-compute",
+      "physical-ai",
+      "enabler"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/09/28/physical-ai-chip-developer-sima-ai-hits-1-45b-valuation/"
+      },
+      {
+        "url": "https://sima.ai/press-release/sima-ai-reaches-1-45b-valuation-with-500-million-in-total-funding-to-scale-physical-ai-in-humanoids-automotive-and-drones/"
+      }
+    ],
+    "last_updated": "2026-09-30",
+    "themes": [
+      "us-supply-chain",
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. Founded 2018 by ex-Groq COO Krishna Rangasayee. Builds low-power edge AI compute (Modalix chips, Palette software) for on-device perception/navigation/world models in humanoid robots, automotive systems, drones and industrial automation, avoiding cloud round-trips. $150M oversubscribed Series C (Sep 2026) at $1.45B valuation, $500M total raised."
+    },
+    "map_category": "enablers"
+  },
+  {
+    "id": "knowin",
+    "name": "KNOWIN",
+    "founded": "2025",
+    "hq": {
+      "city": "Shenzhen",
+      "state": null,
+      "country": "China"
+    },
+    "website": "https://www.knowinai.com",
+    "funding_rounds": [
+      {
+        "date": "2026-09",
+        "round": "Angel round",
+        "amount_usd": 41300000,
+        "valuation_usd": null,
+        "investors": [
+          "JD.com",
+          "Zhengxinggu Capital",
+          "Nanshan Strategic Emerging Investment",
+          "Walden International"
+        ],
+        "url": "https://dealroom.co/news/157447-chinas-knowin-raises-45m-angel-round-led-by-jd-com-for-home-robots/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-08",
+        "round": "Angel++ round",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "MPCi",
+          "Redpoint China Ventures",
+          "Sense Capital",
+          "Huadeng Technology",
+          "Lighthouse Capital"
+        ],
+        "url": "https://finance.biggo.com/news/69a25c81-6524-4233-ab97-ff067471e8de",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 149000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "service"
+    ],
+    "primary_use_case": "home cleaning and household chores",
+    "flagship_product": "KNOWIN-X1 — foldable dual-arm home robot, 23 total DoF",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Yinchuan Li",
+        "role": "Founder & CEO"
+      }
+    ],
+    "ceo": "Yinchuan Li",
+    "tags": [
+      "china",
+      "home-robot",
+      "service-robot",
+      "foldable"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://dealroom.co/news/157447-chinas-knowin-raises-45m-angel-round-led-by-jd-com-for-home-robots/"
+      },
+      {
+        "url": "https://finance.biggo.com/news/69a25c81-6524-4233-ab97-ff067471e8de"
+      }
+    ],
+    "last_updated": "2026-09-30",
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private, pre-product. Founded 2025 by Yinchuan Li, a former Huawei LLM researcher with a joint PhD from Beijing Institute of Technology and Columbia. Five funding rounds in its first year totaling over RMB1B (~$149M) as of Sep 2026. A reported valuation above RMB2B appears in Chinese press but is not confirmed in USD-equivalent terms by a primary filing, so latest_valuation_usd is left null rather than guessing a conversion. Developing KNOWIN-X1, a foldable dual-arm home robot targeting cleaning and laundry, not yet commercially shipping."
+    },
+    "map_category": "service"
+  },
+  {
+    "id": "delta-intelligence",
+    "name": "Delta Intelligence",
+    "founded": "2026",
+    "hq": {
+      "city": "Beijing",
+      "state": null,
+      "country": "China"
+    },
+    "website": "https://deltai.com/en",
+    "funding_rounds": [
+      {
+        "date": "2026-09",
+        "round": "Angel++ round (6th round)",
+        "amount_usd": 74000000,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://finance.biggo.com/news/ee5188b4-6f51-474a-bed2-1d1f3361dabd",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 74000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "foundation_model"
+    ],
+    "primary_use_case": "humanoid foundation models for whole-body loco-manipulation",
+    "flagship_product": "Delta-0 — brain-cerebellum-force humanoid foundation model, 69 DoF generalist policy",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "china",
+      "humanoid",
+      "foundation-model",
+      "loco-manipulation"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://pandaily.com/delta-intelligence-delta-0-native-humanoid-foundation-model"
+      },
+      {
+        "url": "https://finance.biggo.com/news/ee5188b4-6f51-474a-bed2-1d1f3361dabd"
+      }
+    ],
+    "last_updated": "2026-09-30",
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private, pre-revenue. Founded January 2026 by three UCLA PhD holders; builds \"native\" humanoid foundation models trained on native humanoid-robot data with a three-layer cerebrum/cerebellum/force-position architecture. Sixth funding round in six months (angel++, ~$74M/~500M yuan) as of Sep 2026; investor names not disclosed in reporting. Delta-0, released 2026-09-28, demoed 32 planned steps across nine household tasks in ~210 seconds of continuous autonomy."
+    },
+    "map_category": "brains"
+  },
+  {
+    "id": "maven-robotics",
+    "name": "Maven Robotics",
+    "founded": "2024",
+    "hq": {
+      "city": "Santa Clara",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.mavenrobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2026-09",
+        "round": "Series A",
+        "amount_usd": 100000000,
+        "valuation_usd": null,
+        "investors": [
+          "RoboStrategy",
+          "LocalGlobe",
+          "Vine Ventures",
+          "XTX Markets Ventures"
+        ],
+        "url": "https://www.globenewswire.com/news-release/2026/09/10/3359782/0/en/maven-robotics-raises-100m-series-a-for-the-world-s-first-general-purpose-robotics-system-for-industrial-work.html",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 100000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "industrial-arm",
+      "amr"
+    ],
+    "primary_use_case": "warehouse mixed palletizing",
+    "flagship_product": "Maven mixed-palletizing robot (3rd generation)",
+    "deployments": [
+      {
+        "customer": "Fortune 250 consumer-goods company (unnamed)",
+        "location": "USA",
+        "robot_count": 8,
+        "start_date": "2026",
+        "status": "active",
+        "use_case": "16-hour shifts, 99%+ uptime mixed palletizing",
+        "source_url": "https://www.globenewswire.com/news-release/2026/09/10/3359782/0/en/maven-robotics-raises-100m-series-a-for-the-world-s-first-general-purpose-robotics-system-for-industrial-work.html"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Hamza Derbas",
+        "role": "Co-founder & CEO"
+      },
+      {
+        "name": "Khalid Derbas",
+        "role": "Co-founder & CFO"
+      }
+    ],
+    "ceo": "Hamza Derbas",
+    "tags": [
+      "warehouse",
+      "palletizing",
+      "amr",
+      "logistics"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/09/10/3359782/0/en/maven-robotics-raises-100m-series-a-for-the-world-s-first-general-purpose-robotics-system-for-industrial-work.html"
+      },
+      {
+        "url": "https://siliconangle.com/2026/09/10/maven-robotics-launches-with-100m-to-scale-its-industrial-robots/"
+      }
+    ],
+    "last_updated": "2026-09-30",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private, early commercial revenue via deployed units. Founded 2024 by brothers Hamza Derbas (CEO) and Khalid Derbas (CFO). $100M Series A (Sep 2026) backs building 250 third-generation robots and designing a fourth-generation platform."
+    },
+    "map_category": "industrial"
+  },
+  {
+    "id": "walden-robotics",
+    "name": "Walden Robotics",
+    "founded": "2026",
+    "hq": {
+      "city": "Cambridge",
+      "state": "MA",
+      "country": "USA"
+    },
+    "website": "https://www.waldenrobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2026-07",
+        "round": "Seed",
+        "amount_usd": 300000000,
+        "valuation_usd": 1100000000,
+        "investors": [
+          "Toyota",
+          "Deviation Capital",
+          "NVIDIA",
+          "Boeing",
+          "Samsung Ventures",
+          "CoreWeave Ventures",
+          "Prologis Ventures"
+        ],
+        "url": "https://www.businesswire.com/news/home/20260715089377/en/Walden-Robotics-Launches-with-$300-Million-to-Put-General-Purpose-Robots-to-Work-Today",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 300000000,
+    "latest_valuation_usd": 1100000000,
+    "robot_types": [
+      "humanoid"
+    ],
+    "primary_use_case": "manufacturing and logistics — wheeled humanoid upper body on a mobile base",
+    "flagship_product": "Walden wheeled humanoid (upper body + wheeled mobile base)",
+    "deployments": [
+      {
+        "customer": "Toyota",
+        "location": "North America",
+        "robot_count": null,
+        "start_date": "2026-02",
+        "status": "active",
+        "use_case": "moved from pilot to production work at a Toyota manufacturing plant in under two months",
+        "source_url": "https://www.businesswire.com/news/home/20260715089377/en/Walden-Robotics-Launches-with-$300-Million-to-Put-General-Purpose-Robots-to-Work-Today"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Russ Tedrake",
+        "role": "Co-founder"
+      }
+    ],
+    "ceo": null,
+    "tags": [
+      "toyota",
+      "spinout",
+      "wheeled-humanoid",
+      "manufacturing"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.businesswire.com/news/home/20260715089377/en/Walden-Robotics-Launches-with-$300-Million-to-Put-General-Purpose-Robots-to-Work-Today"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-07-15/toyota-backed-robotics-startup-walden-launches-with-1-1-billion-valuation"
+      }
+    ],
+    "last_updated": "2026-09-30",
+    "themes": [
+      "industrial-deployments",
+      "foundation-models"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. Spun out of the Toyota Research Institute in January 2026 by former TRI SVP of Large Behavior Models Russ Tedrake. $300M seed (Jul 2026) at $1.1B valuation, co-led by Toyota and Deviation Capital. Deliberately builds a wheeled (not bipedal) humanoid upper body, arguing wheels suit factory floors better than legs."
+    },
+    "map_category": "humanoid"
+  },
+  {
+    "id": "monumental",
+    "name": "Monumental",
+    "founded": "2020",
+    "hq": {
+      "city": "Amsterdam",
+      "state": null,
+      "country": "Netherlands"
+    },
+    "website": "https://www.monumental.co",
+    "funding_rounds": [
+      {
+        "date": "2026-07",
+        "round": "Series B",
+        "amount_usd": 32000000,
+        "valuation_usd": null,
+        "investors": [
+          "Khosla Ventures",
+          "Plural",
+          "Hummingbird"
+        ],
+        "url": "https://tech.eu/2026/07/15/monumental-secures-32m-series-b-to-accelerate-construction-automation/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 32000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "field"
+    ],
+    "primary_use_case": "autonomous bricklaying for construction",
+    "flagship_product": "Monumental bricklaying robot",
+    "deployments": [
+      {
+        "customer": "Multiple construction projects (Netherlands, UK)",
+        "location": "Netherlands, UK",
+        "robot_count": 150,
+        "start_date": "2026",
+        "status": "active",
+        "use_case": "100+ buildings completed: houses, a school, a community center, a hotel, canal walls",
+        "source_url": "https://tech.eu/2026/07/15/monumental-secures-32m-series-b-to-accelerate-construction-automation/"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Salar al Khafaji",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Sebastiaan Visser",
+        "role": "Co-founder"
+      }
+    ],
+    "ceo": "Salar al Khafaji",
+    "tags": [
+      "construction",
+      "bricklaying",
+      "field-robot",
+      "europe"
+    ],
+    "data_confidence": "high",
+    "sources": [
+      {
+        "url": "https://tech.eu/2026/07/15/monumental-secures-32m-series-b-to-accelerate-construction-automation/"
+      },
+      {
+        "url": "https://fortune.com/2026/07/15/construction-robotics-startup-monumental-raises-32-million-from-khosla-ventures-to-tackle-labor-shortages/"
+      }
+    ],
+    "last_updated": "2026-09-30",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. Founded 2020 by ex-Palantir engineers Salar al Khafaji and Sebastiaan Visser. $32M Series B (Jul 2026) led by Khosla Ventures backs expansion of a 150+ robot fleet from Netherlands/UK into the US."
+    },
+    "map_category": "field"
   }
 ]
