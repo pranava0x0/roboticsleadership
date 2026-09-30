@@ -4581,6 +4581,12 @@
       },
       {
         "url": "https://www.prnewswire.com/news-releases/standard-bots-raises-200-million-series-c-at-1-billion-valuation-to-scale-american-made-ai-native-industrial-robots-302795268.html"
+      },
+      {
+        "url": "https://www.forbes.com/sites/johnkoetsier/2026/06/10/bringing-jobs-back-to-the-us-via--robots-standard-bots-raises-200-million/"
+      },
+      {
+        "url": "https://techfundingnews.com/standard-bots-hits-unicorn-status-with-200m-raise-co-led-by-general-catalyst-to-bring-ai-robots-to-americas-factory-floors/"
       }
     ],
     "last_updated": "2026-09-30",
@@ -8221,7 +8227,7 @@
         "date": "2026-08",
         "round": "Angel++ round",
         "amount_usd": null,
-        "valuation_usd": 2000000000,
+        "valuation_usd": null,
         "investors": [
           "MPCi",
           "Redpoint China Ventures",
@@ -8234,7 +8240,7 @@
       }
     ],
     "total_funding_usd": 149000000,
-    "latest_valuation_usd": 2000000000,
+    "latest_valuation_usd": null,
     "robot_types": [
       "service"
     ],
@@ -8277,7 +8283,7 @@
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "Private, pre-product. Founded 2025 by Yinchuan Li, a former Huawei LLM researcher with a joint PhD from Beijing Institute of Technology and Columbia. Five funding rounds in its first year totaling over RMB1B (~$149M) as of Sep 2026; reported valuation above RMB2B (~$281M-equivalent by one Chinese-press account, cited here in USD terms with the August round's reported $2B RMB-equivalent figure flagged as unconfirmed against a primary filing). Developing KNOWIN-X1, a foldable dual-arm home robot targeting cleaning and laundry, not yet commercially shipping."
+      "details": "Private, pre-product. Founded 2025 by Yinchuan Li, a former Huawei LLM researcher with a joint PhD from Beijing Institute of Technology and Columbia. Five funding rounds in its first year totaling over RMB1B (~$149M) as of Sep 2026. A reported valuation above RMB2B appears in Chinese press but is not confirmed in USD-equivalent terms by a primary filing, so latest_valuation_usd is left null rather than guessing a conversion. Developing KNOWIN-X1, a foldable dual-arm home robot targeting cleaning and laundry, not yet commercially shipping."
     },
     "map_category": "service"
   },
@@ -8518,7 +8524,7 @@
       "revenue_year": null,
       "details": "Private. Spun out of the Toyota Research Institute in January 2026 by former TRI SVP of Large Behavior Models Russ Tedrake. $300M seed (Jul 2026) at $1.1B valuation, co-led by Toyota and Deviation Capital. Deliberately builds a wheeled (not bipedal) humanoid upper body, arguing wheels suit factory floors better than legs."
     },
-    "map_category": "industrial"
+    "map_category": "humanoid"
   },
   {
     "id": "monumental",
