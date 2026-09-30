@@ -1,5 +1,319 @@
 [
   {
+    "id": "dyna-robotics-dyna21-2026-09",
+    "title": "Dyna Robotics launches Dyna-2.1, a \"Physical Agent\" that runs full unattended shifts",
+    "date": "2026-09-29",
+    "source": "PR Newswire",
+    "source_type": "News",
+    "source_url": "https://www.prnewswire.com/news-releases/dyna-robotics-launches-dyna-2-1-physical-agent-a-semi-humanoid-robot-that-completes-full-workflows-such-as-a-commercial-laundry-shift-302892411.html",
+    "summary": "Dyna Robotics released Dyna-2.1, which it calls the first \"Physical Agent\" to achieve reliable super-long-horizon whole-body autonomy — combining new semi-humanoid hardware with an agentic system built on its Dyna-2 world-action model (trained on roughly 1M hours of human and robot video) to complete entire connected workflows, such as a full commercial laundry shift, without intervention. Dyna evaluates itself on Mean Time Between Interventions rather than single-task success rate, and feeds execution data (reasoning traces, joint loads) back into a continuous-improvement loop. The company's prior flagship, DYNA-1, followed its $120M Series A at a >$600M valuation in September 2025; no new funding was announced alongside this release.",
+    "category": "Deployment",
+    "companies": [
+      "dyna-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "dyna-robotics",
+      "humanoid",
+      "foundation-model",
+      "product-launch"
+    ]
+  },
+  {
+    "id": "idc-china-humanoid-shipment-share-2026-09",
+    "title": "China accounts for 77.9% of global humanoid robot shipments in H1 2026, IDC says",
+    "date": "2026-09-29",
+    "source": "TechNode",
+    "source_type": "News",
+    "source_url": "https://technode.com/2026/09/29/china-accounts-for-77-9-of-global-humanoid-robot-shipments-in-h1-2026-idc-says/",
+    "summary": "IDC data cited by TechNode puts China at 77.9% of global humanoid robot shipments in H1 2026, another data point (alongside Counterpoint's ~86% Chinese-maker share figure already tracked on this site) confirming Chinese manufacturers' dominant and growing share of humanoid unit volume, even as US foundation-model and valuation leadership persists.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "humanoid",
+      "shipments",
+      "idc",
+      "market-share"
+    ]
+  },
+  {
+    "id": "innodata-motion-capture-lab-2026-09",
+    "title": "Innodata opens motion-capture lab with Vicon to train humanoid movement",
+    "date": "2026-09-29",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/innodata-opens-motion-capture-lab-help-humanoids-move-more-like-people/",
+    "summary": "Data-services firm Innodata opened a New Jersey motion-capture lab built with Vicon, using sub-millimeter, low-latency infrared optical tracking to generate and sell human-movement training data for humanoid robots, and to independently validate robots' own internally reported performance data. Customers can buy off-the-shelf motion packages, commission custom captures, or send robots in for scripted-scenario evaluation — another sign of a training-data supply chain forming around humanoid locomotion and manipulation, alongside existing simulation and teleoperation-data vendors.",
+    "category": "Supply Chain",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "innodata",
+      "motion-capture",
+      "training-data",
+      "humanoid",
+      "vicon"
+    ]
+  },
+  {
+    "id": "amd-world-labs-acquisition-2026-09",
+    "title": "AMD agrees to acquire Fei-Fei Li's World Labs for $8.2 billion",
+    "date": "2026-09-28",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+    "summary": "AMD agreed to acquire World Labs, the San Francisco spatial-intelligence and robotics-simulation lab founded by Fei-Fei Li, in an all-stock deal worth about $8.2B — AMD's second-largest acquisition ever after Xilinx. World Labs builds models that generate and simulate interactive 3D environments from text, image and video, plus technology for robotic learning and simulation; Li becomes AMD's chief scientist, reporting to CEO Lisa Su. AMD frames the deal as building model-research expertise into its hardware roadmap as compute demand expands into robotics and physical-world applications, directly challenging NVIDIA's lead in physical-AI compute.",
+    "category": "Funding",
+    "companies": [
+      "world-labs"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "acquisition",
+      "world-labs",
+      "amd",
+      "spatial-intelligence",
+      "compute",
+      "fei-fei-li"
+    ]
+  },
+  {
+    "id": "sima-ai-series-c-2026-09",
+    "title": "SiMa.ai raises $150M Series C at $1.45B valuation to scale physical-AI chips",
+    "date": "2026-09-28",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/09/28/physical-ai-chip-developer-sima-ai-hits-1-45b-valuation/",
+    "summary": "San Jose chipmaker SiMa.ai closed an oversubscribed $150M Series C co-led by Fidelity and Amplify, taking total capital raised to $500M at a $1.45B valuation. SiMa.ai builds energy-efficient edge compute (Modalix chips + Palette software) that runs perception, navigation and world models directly on humanoid robots, automotive systems and drones without round-tripping to the cloud — the funding backs expansion across those physical-AI markets as Counterpoint projects 145M cumulative physical-AI device shipments by 2035.",
+    "category": "Funding",
+    "companies": [
+      "sima-ai"
+    ],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "funding",
+      "series-c",
+      "sima-ai",
+      "edge-compute",
+      "chips",
+      "physical-ai"
+    ]
+  },
+  {
+    "id": "delta-intelligence-delta0-2026-09",
+    "title": "Delta Intelligence ships Delta-0 humanoid foundation model, sixth funding round in six months",
+    "date": "2026-09-28",
+    "source": "Pandaily",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/delta-intelligence-delta-0-native-humanoid-foundation-model",
+    "summary": "Delta Intelligence, a Beijing humanoid-foundation-model startup founded in January 2026 by three UCLA PhDs, released Delta-0 — a \"cerebrum + cerebellum + force-position hybrid control\" model that demoed 32 planned steps and nine household tasks (including bed-making) in about 210 seconds of continuous loco-manipulation, controlling 69 degrees of freedom with one generalist policy. The release lands alongside the company's sixth funding round in six months, an angel++ round of nearly 500M yuan (~$74M), continuing the rapid-fundraising-cadence pattern also seen at KNOWIN and other Chinese embodied-AI startups this year.",
+    "category": "Research",
+    "companies": [
+      "delta-intelligence"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "humanoid",
+      "foundation-model",
+      "delta-intelligence",
+      "funding"
+    ]
+  },
+  {
+    "id": "asi-softbank-construction-jv-2026-09",
+    "title": "ASI and SoftBank form $225M joint venture for autonomous construction equipment",
+    "date": "2026-09-24",
+    "source": "Business Wire",
+    "source_type": "News",
+    "source_url": "https://www.businesswire.com/news/home/20260924920006/en/ASI-and-SoftBank-Group-Form-Joint-Venture-to-Advance-Autonomous-Construction-at-Scale",
+    "summary": "Utah-based Autonomous Solutions Inc. (ASI) and SoftBank Group formed a joint venture to commercialize autonomous heavy construction equipment, with SoftBank investing $225M in ASI and separately capitalizing the JV. ASI's Mobius software runs fleets of self-driving haul trucks, dozers, loaders and compactors from any major equipment brand rather than locking customers to one OEM; the JV targets self-driving machines for roads, rail and airport projects, addressing construction labor shortages with brand-agnostic autonomy.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "softbank",
+      "asi",
+      "construction",
+      "autonomy",
+      "joint-venture"
+    ]
+  },
+  {
+    "id": "qualcomm-picknik-moveit-2026-09",
+    "title": "Qualcomm to acquire PickNik Robotics, steward of the open-source MoveIt framework",
+    "date": "2026-09-24",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/",
+    "summary": "Qualcomm agreed to acquire PickNik Inc., longtime steward of MoveIt, one of the most widely used open-source robot-manipulation frameworks, and plans to integrate MoveIt Pro with its Dragonwing compute platform while extending MoveIt support to Arduino's VENTUNO Q boards. Qualcomm said MoveIt 1 and 2 will remain open-source and community-supported across third-party hardware. Financial terms were not disclosed. The deal folds a foundational piece of the robotics software commons into a major chip vendor's compute stack, mirroring similar open-source-to-platform consolidation moves in the sector.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "qualcomm",
+      "acquisition",
+      "moveit",
+      "open-source",
+      "dragonwing",
+      "compute"
+    ]
+  },
+  {
+    "id": "knowin-funding-pace-2026-09",
+    "title": "China's KNOWIN raises $41M more for foldable home robot, fifth round in a year",
+    "date": "2026-09-15",
+    "source": "Dealroom",
+    "source_type": "News",
+    "source_url": "https://dealroom.co/news/157447-chinas-knowin-raises-45m-angel-round-led-by-jd-com-for-home-robots/",
+    "summary": "Shenzhen-based KNOWIN (founded 2025 by ex-Huawei LLM lead Yinchuan Li) raised a $41.3M angel round led by JD.com, its fifth financing round in about a year and part of over RMB1B (~$149M) raised since founding. KNOWIN is building KNOWIN-X1, a foldable dual-arm home robot aimed at cleaning and laundry, with an August 2026 CNY500M round from MPCi, Redpoint China Ventures and others preceding this one. The pace — five rounds in twelve months for a pre-product home-robot startup — illustrates how much faster Chinese investors are cycling capital into embodied-AI startups than their US counterparts.",
+    "category": "Funding",
+    "companies": [
+      "knowin"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "funding",
+      "home-robot",
+      "knowin",
+      "jd-com"
+    ]
+  },
+  {
+    "id": "maven-robotics-series-a-2026-09",
+    "title": "Maven Robotics raises $100M Series A for general-purpose warehouse robots",
+    "date": "2026-09-10",
+    "source": "GlobeNewswire",
+    "source_type": "News",
+    "source_url": "https://www.globenewswire.com/news-release/2026/09/10/3359782/0/en/maven-robotics-raises-100m-series-a-for-the-world-s-first-general-purpose-robotics-system-for-industrial-work.html",
+    "summary": "Santa Clara-based Maven Robotics emerged from stealth with a $100M Series A from RoboStrategy, LocalGlobe, Vine Ventures and XTX Markets Ventures. Founded in 2024 by brothers Hamza Derbas (CEO) and Khalid Derbas (CFO), Maven builds autonomous mixed-palletizing warehouse robots; eight third-generation robots are already running 16-hour shifts at a Fortune 250 consumer-goods company at 99%+ uptime, and the funding backs building 250 more units plus a fourth-generation platform.",
+    "category": "Funding",
+    "companies": [
+      "maven-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "funding",
+      "series-a",
+      "maven-robotics",
+      "warehouse",
+      "palletizing"
+    ]
+  },
+  {
+    "id": "walden-robotics-launch-2026-07",
+    "title": "Toyota Research Institute spinout Walden Robotics launches with $300M, $1.1B valuation",
+    "date": "2026-07-15",
+    "source": "Business Wire",
+    "source_type": "News",
+    "source_url": "https://www.businesswire.com/news/home/20260715089377/en/Walden-Robotics-Launches-with-$300-Million-to-Put-General-Purpose-Robots-to-Work-Today",
+    "summary": "Walden Robotics, a Cambridge, MA startup spun out of the Toyota Research Institute in January 2026 by former TRI SVP of Large Behavior Models Russ Tedrake, launched from stealth with $300M in seed funding at a $1.1B valuation, co-led by Toyota and Deviation Capital with NVIDIA, Boeing, Samsung Ventures, CoreWeave Ventures and Prologis Ventures participating. Rather than building bipedal humanoids, Walden mounts a humanoid upper body on a wheeled mobile base, arguing wheels suit factory floors better than legs; its robots moved from pilot to production work at a Toyota North American plant in under two months.",
+    "category": "Funding",
+    "companies": [
+      "walden-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "foundation-models"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "funding",
+      "toyota",
+      "walden-robotics",
+      "spinout",
+      "wheeled-humanoid"
+    ]
+  },
+  {
+    "id": "monumental-series-b-2026-07",
+    "title": "Monumental raises $32M Series B to scale bricklaying robots into the US",
+    "date": "2026-07-15",
+    "source": "Tech.eu",
+    "source_type": "News",
+    "source_url": "https://tech.eu/2026/07/15/monumental-secures-32m-series-b-to-accelerate-construction-automation/",
+    "summary": "Amsterdam-based Monumental, founded by ex-Palantir engineers Salar al Khafaji and Sebastiaan Visser, raised a $32M Series B led by Khosla Ventures (with Plural and Hummingbird returning) to expand its fleet of autonomous bricklaying robots from the Netherlands and UK into the US. The robots pair computer vision and robotic cranes for millimeter-precision bricklaying and have completed 100+ buildings — houses, a school, a community center, a hotel and canal walls — with a 150+ robot fleet already deployed.",
+    "category": "Funding",
+    "companies": [
+      "monumental"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "funding",
+      "series-b",
+      "monumental",
+      "construction",
+      "bricklaying"
+    ]
+  },
+  {
     "id": "hn-49871965",
     "title": "Flux 3 Action: A 7B open-weight world action model for robots",
     "date": "2026-09-27",
