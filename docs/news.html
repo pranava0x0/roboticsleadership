@@ -126,6 +126,13 @@
           fullLoaded = true;
           refreshSelectOptions();
           return news;
+        }).catch((err) => {
+          // RT.loadData() already drops its own cache entry on failure so a later
+          // call can retry the network — mirror that here, or every search/filter/
+          // page-4+/old-deep-link for the rest of the page's life reuses this same
+          // rejected promise and can never recover from one transient network blip.
+          fullNewsPromise = null;
+          throw err;
         });
       }
       return fullNewsPromise;
@@ -180,7 +187,7 @@
     // Pre-warm the full archive as soon as the reader shows intent to filter, so
     // it's usually ready by the time `change` fires and the await below is instant.
     ['f-category', 'f-company', 'f-search'].forEach((id) => {
-      document.getElementById(id).addEventListener('focus', () => ensureFullNews(), { once: true });
+      document.getElementById(id).addEventListener('focus', () => { ensureFullNews().catch(() => {}); }, { once: true });
     });
 
     // A <select>'s value silently fails to set when no <option> has that value
@@ -228,7 +235,17 @@
       densityBtn.textContent = isCompact ? 'Expanded' : 'Compact';
     });
 
+    // Only one render may be in flight without an await (synchronous: reads the
+    // controls and paints immediately), but a render that needs the archive
+    // awaits a network fetch — and a second, faster render can finish and paint
+    // first. Without a check, the slower one would resume later and overwrite
+    // the newer, correct paint with its own (by-then-stale) captured filters.
+    // Each call claims the next token and bails after the await if a newer
+    // call has already claimed it.
+    let renderGen = 0;
+
     async function renderNewsFeed() {
+      const myGen = ++renderGen;
       const search = document.getElementById('f-search').value.trim();
       const category = document.getElementById('f-category').value;
       const company = document.getElementById('f-company').value;
@@ -243,6 +260,7 @@
         const pageBeyondRecent = !filtered && newsPage * PAGE_SIZE > news.length && news.length < newsTotalUnfiltered;
         if (filtered || hashMissing || pageBeyondRecent) await ensureFullNews();
       }
+      if (myGen !== renderGen) return; // a newer render already won; don't paint stale filters
 
       const newQ = { ...RT.readQuery(), search, category, company, sort };
       if (!search) delete newQ.search;
