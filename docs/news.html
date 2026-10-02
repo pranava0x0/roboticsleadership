@@ -183,9 +183,21 @@
       document.getElementById(id).addEventListener('focus', () => ensureFullNews(), { once: true });
     });
 
+    // A <select>'s value silently fails to set when no <option> has that value
+    // yet — and since refreshSelectOptions() above only built options from the
+    // recent-60 window, most companies (78 of 94 at last count) aren't there.
+    // A shared/bookmarked ?company=... URL for any of them would otherwise
+    // restore to "All companies" with no error. Inject a placeholder option so
+    // the value takes, which also makes `filtered` true below and triggers the
+    // full-archive load that replaces it with the real option.
     ['search','category','company','sort'].forEach(k => {
       const el = document.getElementById(`f-${k}`);
-      if (el && q[k]) el.value = q[k];
+      if (!el || !q[k]) return;
+      if (el.tagName === 'SELECT' && ![...el.options].some((o) => o.value === q[k])) {
+        const label = k === 'company' ? (companies.find((c) => c.id === q[k])?.name || q[k]) : q[k];
+        el.appendChild(new Option(label, q[k]));
+      }
+      el.value = q[k];
     });
 
     // Shared with scripts/render-static.js, which bakes exactly this page's

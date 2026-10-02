@@ -88,6 +88,14 @@ test('news page first-paints from the trimmed payload and only fetches the full 
   assert(/RT\.loadNewsRecent\(\)/.test(news), 'news.html does not call RT.loadNewsRecent() for first paint');
   assert(/function ensureFullNews/.test(news), 'news.html has no lazy full-archive loader');
   assert(/await ensureFullNews\(\)/.test(news), 'renderNewsFeed never awaits the lazy full-archive loader');
+
+  // A <select>'s .value assignment silently no-ops when no <option> has that
+  // value yet. Since the company/category <select>s are now built from the
+  // recent-60 window first, restoring ?company=<id> for the ~80% of tracked
+  // companies absent from that window would otherwise revert to "All
+  // companies" with no error, no warning, and no visible difference from a
+  // typo'd id — caught in review of this same change, not by the test suite.
+  assert(/some\(\(o\) => o\.value === q\[k\]\)/.test(news), 'query-string filter restore no longer guards against a missing <option> for the recent-60-only select');
 });
 
 test('production_trend: one row per year, ascending, projections only after actuals, latest actual matches the industrial shipments row', () => {
