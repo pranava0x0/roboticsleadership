@@ -81,6 +81,15 @@ test('front page loads the trimmed news payload, never the whole archive', () =>
   assert(!/href="data\/news\.json"/.test(index), 'index.html still preloads data/news.json');
 });
 
+test('news page first-paints from the trimmed payload and only fetches the full archive on demand (2026-10-02, was 259/260 KB gzip)', () => {
+  const news = read('news.html');
+  assert(!/href="data\/news\.json"/.test(news), 'news.html still preloads the full archive instead of data/news-recent.json');
+  assert(/href="data\/news-recent\.json"/.test(news), 'news.html does not preload data/news-recent.json');
+  assert(/RT\.loadNewsRecent\(\)/.test(news), 'news.html does not call RT.loadNewsRecent() for first paint');
+  assert(/function ensureFullNews/.test(news), 'news.html has no lazy full-archive loader');
+  assert(/await ensureFullNews\(\)/.test(news), 'renderNewsFeed never awaits the lazy full-archive loader');
+});
+
 test('production_trend: one row per year, ascending, projections only after actuals, latest actual matches the industrial shipments row', () => {
   const t = supplyData.production_trend;
   const years = t.map((r) => Number(r.year));
