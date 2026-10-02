@@ -316,3 +316,8 @@ The report breaks industrial robotics down by *application* — a lens we don't 
 - **Investor portfolio rollup** — "all Sequoia robotics bets" view. Nice cross-cut once data is denser.
 - **Lights-out factory case studies** — Track fully autonomous 24/7 manufacturing and self-maintenance initiatives (e.g. Tesla Fremont humanoid lines, Samsung, BMW) to compile operational metrics.
 - **Edge AI compute infrastructure tracker** — Track hardware deployment trends for local, real-time edge learning (e.g. CSIRO's Vetra network) that eliminates cloud latency in dynamic physical environments.
+
+- (medium, 2026-10-02) Check Federal Register / BIS directly for the Section 232 robotics and industrial machinery investigation outcome (opened 2025-09-02); no result surfaced in search.
+- (medium, 2026-10-02) China MIIT humanoid-robot standard-system draft: comment window closed 2026-09-23, targets 100+ key standards by 2028. Add to china.html standards row once the final text lands.
+- (low, 2026-10-02) Add company records for Astribot, Daimon Robotics, Destro AI, Inbolt, RobotPlusPlus; only news records exist so far.
+- (low, 2026-10-02) Curation note: keep borderline trade-press items rather than pruning to a handful; mark confidence Low instead.
