@@ -1,5 +1,26 @@
 [
   {
+    "id": "microsoft-rho-vla-foundation-model-2026-10",
+    "title": "Microsoft Research releases Rho, an open-weights VLA foundation model for bimanual manipulation",
+    "date": "2026-10-01",
+    "source": "Microsoft Research",
+    "source_type": "Company",
+    "source_url": "https://microsoft.github.io/rhobotics/",
+    "summary": "Microsoft Research released Rho, a family of open-weights, 5B-parameter vision-language-action (VLA) models for bimanual robotic manipulation, pretrained on 3,200+ hours of data. Rho-base is midtrained into ready-to-adapt variants for three dual-arm platforms (I²RT YAM Box, Universal Robots UR AI Trainer, Franka FR3 Duo), with code, models, and data released; task policies can keep improving post-deployment from a handful of human corrections.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "vla",
+      "foundation-model",
+      "open-weights",
+      "manipulation"
+    ]
+  },
+  {
     "id": "neura-healthtech-2026-10-02",
     "title": "Neura Robotics forms a HealthTech unit and shows a hospital bed-moving AMR",
     "date": "2026-10-02",

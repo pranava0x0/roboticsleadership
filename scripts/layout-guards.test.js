@@ -81,6 +81,23 @@ test('front page loads the trimmed news payload, never the whole archive', () =>
   assert(!/href="data\/news\.json"/.test(index), 'index.html still preloads data/news.json');
 });
 
+test('news page first-paints from the trimmed payload and only fetches the full archive on demand (2026-10-02, was 259/260 KB gzip)', () => {
+  const news = read('news.html');
+  assert(!/href="data\/news\.json"/.test(news), 'news.html still preloads the full archive instead of data/news-recent.json');
+  assert(/href="data\/news-recent\.json"/.test(news), 'news.html does not preload data/news-recent.json');
+  assert(/RT\.loadNewsRecent\(\)/.test(news), 'news.html does not call RT.loadNewsRecent() for first paint');
+  assert(/function ensureFullNews/.test(news), 'news.html has no lazy full-archive loader');
+  assert(/await ensureFullNews\(\)/.test(news), 'renderNewsFeed never awaits the lazy full-archive loader');
+
+  // A <select>'s .value assignment silently no-ops when no <option> has that
+  // value yet. Since the company/category <select>s are now built from the
+  // recent-60 window first, restoring ?company=<id> for the ~80% of tracked
+  // companies absent from that window would otherwise revert to "All
+  // companies" with no error, no warning, and no visible difference from a
+  // typo'd id — caught in review of this same change, not by the test suite.
+  assert(/some\(\(o\) => o\.value === q\[k\]\)/.test(news), 'query-string filter restore no longer guards against a missing <option> for the recent-60-only select');
+});
+
 test('production_trend: one row per year, ascending, projections only after actuals, latest actual matches the industrial shipments row', () => {
   const t = supplyData.production_trend;
   const years = t.map((r) => Number(r.year));

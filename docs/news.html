@@ -24,7 +24,7 @@
     (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
   </script>
   <link rel="stylesheet" href="assets/styles.css" />
-  <link rel="preload" as="fetch" href="data/news.json" crossorigin />
+  <link rel="preload" as="fetch" href="data/news-recent.json" crossorigin />
   <link rel="preload" as="fetch" href="data/companies.json" crossorigin />
   <link rel="preload" as="fetch" href="data/policies.json" crossorigin />
 </head>
@@ -105,10 +105,38 @@
   <script src="assets/app.js" defer></script>
   <script defer>
   document.addEventListener('DOMContentLoaded', async () => {
-    // Load only what this page renders (renderNewsCard needs all three).
-    const [companies, policies, news] = await Promise.all([
-      RT.loadData('companies'), RT.loadData('policies'), RT.loadData('news'),
+    // First paint uses the ~60-record news-recent.json (prefix of news.json, same
+    // sort), not the full ~1,100-record archive — news.html was the heaviest page
+    // on the site (259 KB gzip / 260 KB budget) almost entirely because of an
+    // unconditional full-archive fetch. The full archive is fetched lazily via
+    // ensureFullNews() only when a filter/search/sort-asc/page-4+/deep-link-miss
+    // actually needs it (see below), and pre-warmed on filter-control focus so it's
+    // usually ready by the time the user picks a value.
+    const [companies, policies, newsRecent] = await Promise.all([
+      RT.loadData('companies'), RT.loadData('policies'), RT.loadNewsRecent(),
     ]);
+    let news = newsRecent.records;
+    const newsTotalUnfiltered = newsRecent.total;
+    let fullLoaded = false;
+    let fullNewsPromise = null;
+    function ensureFullNews() {
+      if (!fullNewsPromise) {
+        fullNewsPromise = RT.loadData('news').then((full) => {
+          news = full;
+          fullLoaded = true;
+          refreshSelectOptions();
+          return news;
+        }).catch((err) => {
+          // RT.loadData() already drops its own cache entry on failure so a later
+          // call can retry the network — mirror that here, or every search/filter/
+          // page-4+/old-deep-link for the rest of the page's life reuses this same
+          // rejected promise and can never recover from one transient network blip.
+          fullNewsPromise = null;
+          throw err;
+        });
+      }
+      return fullNewsPromise;
+    }
     const q = RT.readQuery();
 
     // Deep-link target (e.g. news.html#hn-123): capture it ONCE, before the
@@ -128,21 +156,55 @@
     }
     function unique(arr) { return [...new Set(arr.filter(Boolean))]; }
 
-    fillSelect('f-category', unique(news.map(n => n.category)).sort());
-    const companyOpts = companies
-      .filter(c => news.some(n => (n.companies || []).includes(c.id)))
-      .map(c => ({ value: c.id, label: c.name }))
-      .sort((a, b) => a.label.localeCompare(b.label));
-    const selCompany = document.getElementById('f-company');
-    companyOpts.forEach(o => {
-      const opt = document.createElement('option');
-      opt.value = o.value; opt.textContent = o.label;
-      selCompany.appendChild(opt);
+    // Rebuilt against `news` (recent-60 at first, the full archive once loaded) so
+    // the dropdowns start usable immediately and quietly grow complete once the
+    // background fetch resolves — in place, preserving whatever the user already
+    // picked, since a selection mid-flight is possible via the focus pre-warm below.
+    function refreshSelectOptions() {
+      const selCategory = document.getElementById('f-category');
+      const selCompany = document.getElementById('f-company');
+      const prevCategory = selCategory.value;
+      const prevCompany = selCompany.value;
+
+      selCategory.replaceChildren(new Option('All categories', ''));
+      fillSelect('f-category', unique(news.map(n => n.category)).sort());
+      selCategory.value = prevCategory;
+
+      const companyOpts = companies
+        .filter(c => news.some(n => (n.companies || []).includes(c.id)))
+        .map(c => ({ value: c.id, label: c.name }))
+        .sort((a, b) => a.label.localeCompare(b.label));
+      selCompany.replaceChildren(new Option('All companies', ''));
+      companyOpts.forEach(o => {
+        const opt = document.createElement('option');
+        opt.value = o.value; opt.textContent = o.label;
+        selCompany.appendChild(opt);
+      });
+      selCompany.value = prevCompany;
+    }
+    refreshSelectOptions();
+
+    // Pre-warm the full archive as soon as the reader shows intent to filter, so
+    // it's usually ready by the time `change` fires and the await below is instant.
+    ['f-category', 'f-company', 'f-search'].forEach((id) => {
+      document.getElementById(id).addEventListener('focus', () => { ensureFullNews().catch(() => {}); }, { once: true });
     });
 
+    // A <select>'s value silently fails to set when no <option> has that value
+    // yet — and since refreshSelectOptions() above only built options from the
+    // recent-60 window, most companies (78 of 94 at last count) aren't there.
+    // A shared/bookmarked ?company=... URL for any of them would otherwise
+    // restore to "All companies" with no error. Inject a placeholder option so
+    // the value takes, which also makes `filtered` true below and triggers the
+    // full-archive load that replaces it with the real option.
     ['search','category','company','sort'].forEach(k => {
       const el = document.getElementById(`f-${k}`);
-      if (el && q[k]) el.value = q[k];
+      if (!el || !q[k]) return;
+      if (el.tagName === 'SELECT' && ![...el.options].some((o) => o.value === q[k])) {
+        const label = k === 'company' ? (companies.find((c) => c.id === q[k])?.name || q[k]) : q[k];
+        el.appendChild(new Option(label, q[k]));
+      }
+      el.value = q[k];
     });
 
     // Shared with scripts/render-static.js, which bakes exactly this page's
@@ -173,11 +235,32 @@
       densityBtn.textContent = isCompact ? 'Expanded' : 'Compact';
     });
 
-    function renderNewsFeed() {
+    // Only one render may be in flight without an await (synchronous: reads the
+    // controls and paints immediately), but a render that needs the archive
+    // awaits a network fetch — and a second, faster render can finish and paint
+    // first. Without a check, the slower one would resume later and overwrite
+    // the newer, correct paint with its own (by-then-stale) captured filters.
+    // Each call claims the next token and bails after the await if a newer
+    // call has already claimed it.
+    let renderGen = 0;
+
+    async function renderNewsFeed() {
+      const myGen = ++renderGen;
       const search = document.getElementById('f-search').value.trim();
       const category = document.getElementById('f-category').value;
       const company = document.getElementById('f-company').value;
       const sort = document.getElementById('f-sort').value;
+      const filtered = Boolean(search || category || company) || sort !== 'date-desc';
+
+      // The recent-60 payload only covers pages 1-3 of the unfiltered, newest-first
+      // view and may not contain an old deep-linked story; anything else (a filter,
+      // a non-default sort, or a page past what's loaded) needs the full archive.
+      if (!fullLoaded) {
+        const hashMissing = pendingHash && !news.some(n => n.id === pendingHash);
+        const pageBeyondRecent = !filtered && newsPage * PAGE_SIZE > news.length && news.length < newsTotalUnfiltered;
+        if (filtered || hashMissing || pageBeyondRecent) await ensureFullNews();
+      }
+      if (myGen !== renderGen) return; // a newer render already won; don't paint stale filters
 
       const newQ = { ...RT.readQuery(), search, category, company, sort };
       if (!search) delete newQ.search;
@@ -206,7 +289,10 @@
         if (idx >= 0) newsPage = Math.floor(idx / PAGE_SIZE) + 1;
       }
 
-      const totalPages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
+      // Before the full archive loads, an unfiltered view's true count comes from
+      // news-recent.json's `total` field, not rows.length (which is capped at 60).
+      const totalCount = (!fullLoaded && !filtered) ? newsTotalUnfiltered : rows.length;
+      const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE));
       if (newsPage > totalPages) newsPage = totalPages;
 
       const pageRows = rows.slice((newsPage - 1) * PAGE_SIZE, newsPage * PAGE_SIZE);
@@ -224,7 +310,7 @@
       }
 
       document.getElementById('result-count').textContent =
-        RT.newsResultCount(rows.length, newsPage, PAGE_SIZE);
+        RT.newsResultCount(totalCount, newsPage, PAGE_SIZE);
 
       renderPagination(newsPage, totalPages);
 
