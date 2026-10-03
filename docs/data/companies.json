@@ -8611,5 +8611,80 @@
       "details": "Private. Founded 2020 by ex-Palantir engineers Salar al Khafaji and Sebastiaan Visser. $32M Series B (Jul 2026) led by Khosla Ventures backs expansion of a 150+ robot fleet from Netherlands/UK into the US."
     },
     "map_category": "field"
+  },
+  {
+    "id": "astribot",
+    "name": "Astribot",
+    "founded": "2022",
+    "hq": {
+      "city": "Shenzhen",
+      "state": null,
+      "country": "China"
+    },
+    "website": "https://www.astribot.com",
+    "funding_rounds": [
+      {
+        "date": "2026-06",
+        "round": "Series B (RMB 1B+)",
+        "amount_usd": 140000000,
+        "valuation_usd": 1400000000,
+        "investors": [
+          "Bohua Capital",
+          "Yangzhou Longtou Chiplet",
+          "Zhongbo Juli",
+          "ThunderSoft",
+          "Kede Education",
+          "Guoke Investment"
+        ],
+        "url": "https://autonews.gasgoo.com/articles/news/seeds-astribot-completes-over-1-billion-yuan-series-b-financing-round-2062155019816882177",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 140000000,
+    "latest_valuation_usd": 1400000000,
+    "robot_types": [
+      "humanoid"
+    ],
+    "primary_use_case": "general-purpose humanoid (service, entertainment, light industrial demos)",
+    "flagship_product": "S1 (flagship bipedal humanoid, ~$100K) and T1 (wheeled-base humanoid, from RMB 89,900 / ~$13,000)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": 13000,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Lai Jie",
+        "role": "Founder & CEO"
+      }
+    ],
+    "ceo": "Lai Jie",
+    "tags": [
+      "china",
+      "humanoid",
+      "wheeled-base"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://autonews.gasgoo.com/articles/news/seeds-astribot-completes-over-1-billion-yuan-series-b-financing-round-2062155019816882177"
+      },
+      {
+        "url": "https://www.thewirechina.com/whos_who/lai-jie-%E6%9D%A5%E6%9D%B0/"
+      }
+    ],
+    "last_updated": "2026-10-03",
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. Founded 2022 by Lai Jie (ex-Baidu/Tencent robotics lead). Series B closed Jun 2026 at over RMB1B (~$140M, approx. conversion), pushing valuation past RMB10B (~$1.4B approx.) — exact USD figures not disclosed by a primary filing. Flagship S1 is a cable-driven bipedal humanoid (~$100K) deployed across research/commercial/entertainment demos; T1 is a lower-cost wheeled-base humanoid (23 DoF, 5kg/arm payload) that opened orders from RMB 89,900 (~$13,000), undercutting most peers. T1 made its overseas debut at IROS 2026 (Pittsburgh, Oct 2026)."
+    },
+    "map_category": "humanoid"
   }
 ]

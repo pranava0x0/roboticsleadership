@@ -306,7 +306,7 @@
       "id": "final-assembly",
       "name": "Robot final assembly & integration",
       "stage": "assembly",
-      "summary": "Final assembly is the most visible U.S. push: BotQ ramped from one robot/day to one per hour in four months, Tesla is converting Fremont's Model S/X lines for late-2026 Optimus mass production, Agility's RoboFab is designed for 10,000 Digits/yr, and Hyundai plans 30,000 Atlas robots/yr near its Savannah Metaplant by 2028. But realized output is still overwhelmingly Chinese — China took >80% of the ~16,000 humanoid installations in 2025, AgiBot hit its 10,000th cumulative unit in March 2026, and Unitree targets 20,000 units this year. In industrial robots, FANUC, Yaskawa, ABB, and Universal Robots are all localizing U.S. assembly.",
+      "summary": "Final assembly is the most visible U.S. push: BotQ ramped from one robot/day to one per hour in four months, Tesla is converting Fremont's Model S/X lines for ~1M Optimus units/yr while breaking ground on a dedicated Giga Texas Optimus factory targeting up to 10M units/yr (production targeted summer 2027), Agility's RoboFab is designed for 10,000 Digits/yr, and Hyundai plans 30,000 Atlas robots/yr near its Savannah Metaplant by 2028. But realized output is still overwhelmingly Chinese — China took >80% of the ~16,000 humanoid installations in 2025, AgiBot hit its 10,000th cumulative unit in March 2026, and Unitree targets 20,000 units this year. In industrial robots, FANUC, Yaskawa, ABB, and Universal Robots are all localizing U.S. assembly.",
       "us_share_pct": 15,
       "china_share_pct": 80,
       "row_share_pct": 5,
@@ -320,7 +320,8 @@
       "sources": [
         { "url": "https://counterpointresearch.com/en/insights/Global-Humanoid-Robot-Installations-Reach-16,000-Units-in-2025-as-Mass-Production-Picks-Pace", "label": "Counterpoint" },
         { "url": "https://www.trendforce.com/presscenter/news/20260409-13007.html", "label": "TrendForce 2026" },
-        { "url": "https://www.figure.ai/news/botq", "label": "Figure BotQ" }
+        { "url": "https://www.figure.ai/news/botq", "label": "Figure BotQ" },
+        { "url": "https://www.basenor.com/blogs/news/tesla-breaks-ground-on-10m-year-optimus-factory-at-giga-texas", "label": "Tesla Giga Texas Optimus factory" }
       ]
     }
   ],

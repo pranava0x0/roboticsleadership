@@ -52,7 +52,9 @@
     "source_url": "https://roboticsandautomationnews.com/2026/10/02/astribot-brings-its-t1-humanoid-robot-to-north-america/105448/",
     "summary": "Astribot showed the T1 at IROS 2026 in Pittsburgh: 1.55 m, 66 kg, cable-driven, 23 degrees of freedom, 5 kg payload per arm, running its Lumo-2 model. US pricing starts at $18,000 with delivery offered immediately, a data point on Chinese humanoid pricing in the US market.",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "astribot"
+    ],
     "policies": [],
     "themes": [
       "china-scale",
@@ -22447,5 +22449,28 @@
       "source:federal-register-robotics"
     ],
     "archive_url": "https://web.archive.org/web/20250203023424/https://www.federalregister.gov/documents/2023/03/27/2023-06222/certain-robotic-floor-cleaning-devices-and-components-thereof-notice-of-commission-final"
+  },
+  {
+    "id": "robotaxi-firms-real-estate-footprint-2026-09",
+    "title": "Robotaxi operators quietly lease industrial real estate ahead of regulatory approval",
+    "date": "2026-09-28",
+    "source": "Bisnow",
+    "source_type": "News",
+    "source_url": "https://www.bisnow.com/news/new-york/industrial/robotaxi-firms-quietly-growing-real-estate-footprint-even-where-they-re-not-yet-legal",
+    "summary": "Lyft, Uber, Waymo, and Amazon-owned Zoox leased nearly 1M sq ft of industrial depot/charging space in 2026 alone — more than the combined 830K sq ft leased 2022-2025 — including Uber's 50K sq ft Houston depot (part of a buildout AV partners could push toward $10B) and Waymo's 32K sq ft NE D.C. facility (tens of millions of dollars committed) despite its NYC testing permit having expired with legalization still unresolved. Operators are securing depot and maintenance infrastructure in markets ahead of — and in some cases without — local legalization, positioning to scale quickly once rules pass.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "robotaxi",
+      "autonomous-vehicles",
+      "real-estate",
+      "regulation"
+    ]
   }
 ]
