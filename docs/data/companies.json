@@ -8673,6 +8673,10 @@
       },
       {
         "url": "https://www.thewirechina.com/whos_who/lai-jie-%E6%9D%A5%E6%9D%B0/"
+      },
+      {
+        "url": "https://roboticsandautomationnews.com/2026/10/02/astribot-brings-its-t1-humanoid-robot-to-north-america/105448/",
+        "label": "T1 pricing (China base price and US launch price)"
       }
     ],
     "last_updated": "2026-10-03",
@@ -8683,7 +8687,7 @@
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "Private. Founded 2022 by Lai Jie (ex-Baidu/Tencent robotics lead). Series B closed Jun 2026 at over RMB1B (~$140M, approx. conversion), pushing valuation past RMB10B (~$1.4B approx.) — exact USD figures not disclosed by a primary filing. Flagship S1 is a cable-driven bipedal humanoid (~$100K) deployed across research/commercial/entertainment demos; T1 is a lower-cost wheeled-base humanoid (23 DoF, 5kg/arm payload) that opened orders from RMB 89,900 (~$13,000), undercutting most peers. T1 made its overseas debut at IROS 2026 (Pittsburgh, Oct 2026)."
+      "details": "Private. Founded 2022 by Lai Jie (ex-Baidu/Tencent robotics lead). Series B closed Jun 2026 at over RMB1B (~$140M, approx. conversion), pushing valuation past RMB10B (~$1.4B approx.) — exact USD figures not disclosed by a primary filing. Flagship S1 is a cable-driven bipedal humanoid (~$100K) deployed across research/commercial/entertainment demos; T1 is a lower-cost wheeled-base humanoid (23 DoF, 5kg/arm payload) that opened orders in China from RMB 89,900 (~$13,000, used as target_price_usd below), undercutting most peers. T1 made its overseas debut at IROS 2026 (Pittsburgh, Oct 2026), where its US launch price was set higher, at $18,000."
     },
     "map_category": "humanoid"
   }
