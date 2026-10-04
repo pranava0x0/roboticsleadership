@@ -37,6 +37,8 @@
     { "id": "rss-last-24-hours-exhibit-at-techc-651", "reason": "TechCrunch Disrupt ticket promo" },
     { "id": "rss-affected-by-layoffs-don-t-miss-166", "reason": "TechCrunch Disrupt ticket promo" },
     { "id": "rss-video-friday-albatross-falls-s-910", "reason": "IEEE Spectrum weekly link-roundup, not a single-story item" },
-    { "id": "fedreg-2026-20178", "reason": "policy scraper: same REAP rural-energy false positive as the news-side record" }
+    { "id": "fedreg-2026-20178", "reason": "policy scraper: same REAP rural-energy false positive as the news-side record" },
+    { "id": "rss-boston-dynamics-drops-pinkie-o-25", "reason": "post-publish fix (Codex review): duplicate of already-tracked rss-atlas-robot-s-new-hand-may-out-854, same Oct 1 BD Atlas-hand announcement, caught after initial commit" },
+    { "id": "mark-cuban-humanoid-form-factor-2026-10", "reason": "post-publish fix (Codex review): the linked AOL article is dated 2026-03-20, not fresh Oct news as authored — dropped rather than republished under the old date" }
   ]
 }

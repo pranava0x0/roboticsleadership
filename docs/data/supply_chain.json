@@ -1259,7 +1259,7 @@
           "actions": [
             { "date": "2026-06", "detail": "GUARD Act (H.R. 9129) extends the FCC Covered List framework to humanoid/quadruped robots from countries of concern", "amount_usd": null },
             { "date": "2026-04", "detail": "National Commission on Robotics Act introduced in both chambers; 'Robots Made in America' House Science hearing", "amount_usd": null },
-            { "date": "2026-09", "detail": "FCC Covered List FAQ sets the compliance bar: US-assembled advanced robots need >65% domestic content by value by 2028, >75% by 2029; Gavekal analysts note actuators alone are 40-60% of the hardware BOM and predominantly Chinese-sourced, calling the targets hard to hit without a clear substitution path", "amount_usd": null }
+            { "date": "2026-09", "detail": "FCC Covered List FAQ sets the compliance bar: US-assembled advanced robots need >65% domestic content by value by 2028, >75% by 2029; Gavekal analysts note actuators alone are 40-60% of the hardware BOM, and separately that China supplies the majority of the batteries, LiDAR, and motor controllers used to assemble robots, calling the targets hard to hit without a clear substitution path", "amount_usd": null }
           ],
           "sources": [
             { "url": "https://dronelife.com/2026/06/04/congress-introduces-guard-act-extending-fcc-covered-list-framework-to-robotics/" },

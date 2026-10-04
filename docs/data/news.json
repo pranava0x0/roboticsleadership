@@ -39,14 +39,16 @@
   },
   {
     "id": "hn-49939769",
-    "title": "Humanoid robots destroy themselves after being decommissioned",
+    "title": "Figure says it melted down decommissioned F.02 humanoids in molten steel",
     "date": "2026-10-02",
     "source": "Hacker News",
     "source_type": "Community",
     "source_url": "https://www.the-independent.com/tech/robot-suicide-humanoid-death-figure-b3060486.html",
-    "summary": "The Independent reports on an art/decommissioning project in which two-year-old humanoid robots, after being retired from service, were programmed to walk themselves into molten steel for recycling — a staged send-off that doubles as commentary on short humanoid-robot service lifespans and end-of-life disposal.",
+    "summary": "The Independent reports that Figure AI destroyed its retired two-year-old F.02 humanoid robots by having them walk into a vat of molten steel at a foundry in Imatra, Finland, after US and Mexican foundries declined over the robots' lithium-ion batteries. Founder Brett Adcock said the method (suggested by Arnold Schwarzenegger after Adcock crowdsourced ideas on X) protected the robots' proprietary actuators and IP from disassembly, which Figure said would have delayed the next-generation F.04 launch.",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "figure-ai"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -122,7 +124,9 @@
     "source_url": "https://electrek.co/2026/10/03/tesla-robotaxi-pets-night-musk-lidar/",
     "summary": "Elon Musk said Tesla Robotaxi's limited night-time operation stems largely from difficulty detecting low-contrast obstacles like pets in the dark (his example: \"grey kittens on grey tarmac\") — a classic weak point for camera-only perception that lidar and radar are designed to handle, reviving scrutiny of Tesla's vision-only approach versus lidar-equipped competitors like Waymo.",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "tesla-optimus"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
@@ -139,25 +143,7 @@
     "source": "The Robot Report",
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/your-robots-safety-functions-already-work-what-if-the-input-lies/",
-    "summary": "A robot can follow its safety rules and still act on manipulated information. See what this means for robot safety and how teams can strengthen their testing and evidence.\nThe post Your Robot’s Safety...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-boston-dynamics-drops-pinkie-o-25",
-    "title": "Boston Dynamics drops pinkie on new humanoid hand",
-    "date": "2026-10-01",
-    "source": "The Robot Report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/",
-    "summary": "Boston Dynamics engineers taped their pinkies and ring fingers together for a day to learn what they weren’t able to do.\nThe post Boston Dynamics drops pinkie on new humanoid hand appeared first on Th...",
+    "summary": "The Robot Report examines a safety gap in robots that follow their safety rules correctly but act on sensor or perception input that has been manipulated or spoofed, and argues teams need stronger testing and evidence to catch compromised inputs, not just rule compliance.",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -175,7 +161,7 @@
     "source": "The Robot Report",
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/inside-omrons-next-generation-ld-mobile-robots/",
-    "summary": "In mobile robotics, software, safety, and fleet management are becoming just as important as the robot itself, according to an OMROM project manager.\nThe post Inside Omron’s next-generation LD mobile ...",
+    "summary": "Omron unveiled next-generation LD-150 and LD-300 autonomous mobile robots at Automate 2026 (150kg and 300kg payload respectively), with a new 360-degree safety rating that lets them run at full speed (up to 2.1 m/s) in both forward and reverse, LiDAR-based dynamic navigation around people and obstacles without fixed paths, and FLOW Core fleet-management software for mixed fleets including legacy LD-series robots.",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -193,7 +179,7 @@
     "source": "The Robot Report",
     "source_type": "News",
     "source_url": "https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/",
-    "summary": "Patent protection is important for robotics startups, but they should be strategic in determining what IP is important, says Lightbringer.\nThe post The physical AI race will be won in the patent offic...",
+    "summary": "The Robot Report argues that patent strategy is becoming a competitive differentiator for physical-AI/robotics startups, citing commentary from Lightbringer, an AI-native patent-filing firm, that founders need to be deliberate about which IP is actually worth protecting rather than patenting broadly.",
     "category": "Competitive",
     "companies": [],
     "policies": [],
@@ -22676,26 +22662,6 @@
       "autonomous-vehicles",
       "real-estate",
       "regulation"
-    ]
-  },
-  {
-    "id": "mark-cuban-humanoid-form-factor-2026-10",
-    "title": "Mark Cuban predicts general-purpose humanoid robots fail within a decade, homes redesigned for task-specific robots instead",
-    "date": "2026-10-03",
-    "source": "AOL / Barchart",
-    "source_type": "News",
-    "source_url": "https://www.aol.com/news/mark-cuban-says-thinks-humanoid-041801892.html",
-    "summary": "Billionaire investor Mark Cuban argued humanoid robots are a passing novelty that will not last 5-10 years, saying the industry has the form factor backwards: rather than building human-shaped robots to fit human environments, homes and workplaces will instead be redesigned around whatever shape is actually optimal for a given task (he cites warehouses, where task-specific robots already beat humanoid designs). The comments add a prominent skeptical voice to the ongoing industry debate over humanoid vs. purpose-built form factors.",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Negative",
-    "confidence": "Medium",
-    "tags": [
-      "humanoid",
-      "discourse",
-      "form-factor-debate"
     ]
   }
 ]
