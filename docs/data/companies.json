@@ -8690,5 +8690,79 @@
       "details": "Private. Founded 2022 by Lai Jie (ex-Baidu/Tencent robotics lead). Series B closed Jun 2026 at over RMB1B (~$140M, approx. conversion), pushing valuation past RMB10B (~$1.4B approx.) — exact USD figures not disclosed by a primary filing. Flagship S1 is a cable-driven bipedal humanoid (~$100K) deployed across research/commercial/entertainment demos; T1 is a lower-cost wheeled-base humanoid (23 DoF, 5kg/arm payload) that opened orders in China from RMB 89,900 (~$13,000, used as target_price_usd below), undercutting most peers. T1 made its overseas debut at IROS 2026 (Pittsburgh, Oct 2026), where its US launch price was set higher, at $18,000."
     },
     "map_category": "humanoid"
+  },
+  {
+    "id": "roboparty",
+    "name": "RoboParty",
+    "founded": "2025",
+    "hq": {
+      "city": "Shanghai",
+      "state": null,
+      "country": "China"
+    },
+    "website": "https://www.roboparty.com",
+    "funding_rounds": [
+      {
+        "date": "2026-10",
+        "round": "Angel++ / Pre-A (CATL-led)",
+        "amount_usd": 70000000,
+        "valuation_usd": null,
+        "investors": [
+          "CATL",
+          "Shunwei Capital",
+          "Matrix Partners China",
+          "Xiaomi",
+          "SenseTime Guoxiang Fund"
+        ],
+        "url": "https://autonews.gasgoo.com/articles/news/seeds-roboparty-raises-nearly-500-million-yuan-catl-exclusively-leads-pre-a-round-2077393070516568065",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 70000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "humanoid"
+    ],
+    "primary_use_case": "open-source bipedal humanoid platform",
+    "flagship_product": "ROBOTO Origin (open-source prototype); RP1 (next-gen, launching Q4 2026)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": true,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Huang Yi",
+        "role": "Founder & CEO"
+      }
+    ],
+    "ceo": "Huang Yi",
+    "tags": [
+      "china",
+      "humanoid",
+      "open-source"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://autonews.gasgoo.com/articles/news/seeds-roboparty-raises-nearly-500-million-yuan-catl-exclusively-leads-pre-a-round-2077393070516568065"
+      },
+      {
+        "url": "https://www.letsdatascience.com/news/roboparty-open-sources-roboto-origin-humanoid-platform-75201d39"
+      }
+    ],
+    "last_updated": "2026-10-04",
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. Founded 2025 in Shanghai by Huang Yi (b. 2004), who independently built a bipedal humanoid prototype as a Harbin Institute of Technology freshman before graduating a year early to found the company. Open-sourced the ROBOTO Origin prototype (~1.25m, ~34kg, up to 3 m/s, running and jumping demonstrated) in Jan 2026 — hardware blueprints, control code, and AMP motion-control algorithms. Raised nearly RMB500M (~M approx. conversion) across Angel++ and Pre-A rounds; CATL exclusively led the Pre-A, with the battery maker positioning the open-source platform for real-world feedback in its own manufacturing/energy sites. Capital funds mass-production ramp of next-gen platform RP1, launching Q4 2026."
+    },
+    "map_category": "humanoid"
   }
 ]

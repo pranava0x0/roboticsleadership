@@ -1,5 +1,210 @@
 [
   {
+    "id": "hn-49908023",
+    "title": "How Do Astra and Opus 5.5 Perform on Robotics and Web Tasks",
+    "date": "2026-09-30",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.fig.inc/blog/astra-opus-5-5-and-other-frontier-models-demonstrate-jagged-performance-across-sota-agentic-tasks-from-web-browsing-to-robotics/",
+    "summary": "Fig AI benchmarked frontier multimodal models, including OpenAI's Astra and Anthropic's Opus 5.5, on physical-manipulation and autonomous-driving task suites (VLABench, Bench2Drive-VL, Assembly101) alongside web-browsing agentic tasks. Results were uneven across models and task types rather than scaling uniformly — strong on some robotics benchmarks, weak on others — a reminder that general LLM capability gains do not automatically transfer to embodied robotics.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49934452",
+    "title": "Driverless Cab Is Spying on You",
+    "date": "2026-10-02",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.wired.com/story/when-the-robotaxis-are-watching-you/",
+    "summary": "Wired reports that robotaxis from Waymo, Zoox, and Tesla carry interior and exterior cameras that, in addition to enabling autonomous driving, let operators and law enforcement view riders in real time — including one case where Waymo staff viewed a passenger via in-car cameras and called police. The piece examines the surveillance and privacy implications of always-on robotaxi camera systems as the fleets scale.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49939769",
+    "title": "Humanoid robots destroy themselves after being decommissioned",
+    "date": "2026-10-02",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.the-independent.com/tech/robot-suicide-humanoid-death-figure-b3060486.html",
+    "summary": "The Independent reports on an art/decommissioning project in which two-year-old humanoid robots, after being retired from service, were programmed to walk themselves into molten steel for recycling — a staged send-off that doubles as commentary on short humanoid-robot service lifespans and end-of-life disposal.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49940547",
+    "title": "Can we predict the jobs robots will do?",
+    "date": "2026-10-03",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.anthropic.com/research/what-work-can-robots-do",
+    "summary": "Anthropic's economic-research team published a \"robot exposure index\" estimating that robots can already perform about three-quarters of physical job tasks in the US (34% of working hours), concentrated in driving and warehouse work, while nursing and general-repair tasks remain largely unexposed. Combined with LLM exposure, about 80% of job tasks by working time are touched by either robots or LLMs — but robots are cost-competitive with human labor for only about 0.3% of tasks today, since hardware remains far more expensive than wages.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49941473",
+    "title": "Katalyst Concludes Link Mission, Advances Future Robotic Space Operations",
+    "date": "2026-10-03",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.katalystspace.com/news/katalyst-concludes-link-mission-advances-future-robotic-space-operations",
+    "summary": "Katalyst Space announced completion of its LINK mission, a commercial robotic spacecraft built to rendezvous with and boost the orbit of NASA's aging Swift Observatory. The spacecraft did not ultimately capture Swift, but flew for 85 days after a roughly nine-month award-to-launch timeline, which Katalyst says demonstrates a faster model for fielding commercial in-space servicing robotics.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49947440",
+    "title": "Behind the killer robots of Ukraine's new warfare 'revolution'",
+    "date": "2026-10-03",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.reuters.com/business/aerospace-defense/behind-killer-robots-ukraines-new-warfare-revolution-2026-09-11/",
+    "summary": "Reuters reports on the rapid proliferation of ground and aerial robotic weapons systems in Ukraine's war against Russia, describing it as reshaping modern battlefield tactics as both sides scale up unmanned and semi-autonomous systems. (Reuters' site blocked automated fetch of the full body; summary is based on the headline and dateline — verify details against the primary link before citing specifics.)",
+    "category": "Geopolitics",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "hn-49950226",
+    "title": "Musk explains why Tesla Robotaxi isn't running at night, and Lidar is the answer",
+    "date": "2026-10-04",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://electrek.co/2026/10/03/tesla-robotaxi-pets-night-musk-lidar/",
+    "summary": "Elon Musk said Tesla Robotaxi's limited night-time operation stems largely from difficulty detecting low-contrast obstacles like pets in the dark (his example: \"grey kittens on grey tarmac\") — a classic weak point for camera-only perception that lidar and radar are designed to handle, reviving scrutiny of Tesla's vision-only approach versus lidar-equipped competitors like Waymo.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "hacker-news",
+      "community"
+    ]
+  },
+  {
+    "id": "rss-your-robot-s-safety-functions-607",
+    "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
+    "date": "2026-10-01",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/your-robots-safety-functions-already-work-what-if-the-input-lies/",
+    "summary": "A robot can follow its safety rules and still act on manipulated information. See what this means for robot safety and how teams can strengthen their testing and evidence.\nThe post Your Robot’s Safety...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-boston-dynamics-drops-pinkie-o-25",
+    "title": "Boston Dynamics drops pinkie on new humanoid hand",
+    "date": "2026-10-01",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/",
+    "summary": "Boston Dynamics engineers taped their pinkies and ring fingers together for a day to learn what they weren’t able to do.\nThe post Boston Dynamics drops pinkie on new humanoid hand appeared first on Th...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-inside-omron-s-next-generation-68",
+    "title": "Inside Omron’s next-generation LD mobile robots",
+    "date": "2026-10-02",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/inside-omrons-next-generation-ld-mobile-robots/",
+    "summary": "In mobile robotics, software, safety, and fleet management are becoming just as important as the robot itself, according to an OMROM project manager.\nThe post Inside Omron’s next-generation LD mobile ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
+    "id": "rss-the-physical-ai-race-will-be-w-632",
+    "title": "The physical AI race will be won in the patent office",
+    "date": "2026-10-03",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/",
+    "summary": "Patent protection is important for robotics startups, but they should be strategic in determining what IP is important, says Lightbringer.\nThe post The physical AI race will be won in the patent offic...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ]
+  },
+  {
     "id": "microsoft-rho-vla-foundation-model-2026-10",
     "title": "Microsoft Research releases Rho, an open-weights VLA foundation model for bimanual manipulation",
     "date": "2026-10-01",
@@ -22471,6 +22676,26 @@
       "autonomous-vehicles",
       "real-estate",
       "regulation"
+    ]
+  },
+  {
+    "id": "mark-cuban-humanoid-form-factor-2026-10",
+    "title": "Mark Cuban predicts general-purpose humanoid robots fail within a decade, homes redesigned for task-specific robots instead",
+    "date": "2026-10-03",
+    "source": "AOL / Barchart",
+    "source_type": "News",
+    "source_url": "https://www.aol.com/news/mark-cuban-says-thinks-humanoid-041801892.html",
+    "summary": "Billionaire investor Mark Cuban argued humanoid robots are a passing novelty that will not last 5-10 years, saying the industry has the form factor backwards: rather than building human-shaped robots to fit human environments, homes and workplaces will instead be redesigned around whatever shape is actually optimal for a given task (he cites warehouses, where task-specific robots already beat humanoid designs). The comments add a prominent skeptical voice to the ongoing industry debate over humanoid vs. purpose-built form factors.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Negative",
+    "confidence": "Medium",
+    "tags": [
+      "humanoid",
+      "discourse",
+      "form-factor-debate"
     ]
   }
 ]
