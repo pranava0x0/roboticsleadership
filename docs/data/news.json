@@ -1,5 +1,343 @@
 [
   {
+    "id": "hn-49962951",
+    "title": "Show HN: Reright.it – Human approval for agent-written text",
+    "date": "2026-10-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://reright.it/",
+    "summary": "So, I use agents to write a ton of stuff now: e-mails, client messages, commit messages, comments, etc.The problem is that AI writing is VERY easy to spot and most of the time I don't want it bei",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49962953",
+    "title": "Creation of the Humanoids (1962)",
+    "date": "2026-10-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.moviestvnetwork.com/movies/2060",
+    "summary": "Creation of the Humanoids (1962)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49965329",
+    "title": "Om Malik, Last Humanist",
+    "date": "2026-10-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://logranmar.substack.com/p/om-malik-last-humanist",
+    "summary": "Om Malik, Last Humanist",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49965363",
+    "title": "Destroying all of humanity is hard work, even for a superintelligence",
+    "date": "2026-10-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://nibblestew.blogspot.com/2026/10/destroying-all-of-humanity-is-hard-work.html",
+    "summary": "Destroying all of humanity is hard work, even for a superintelligence",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49956461",
+    "title": "Jumper – Cute Crab Robot",
+    "date": "2026-10-04",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/KingKongRobotics/jumper",
+    "summary": "Jumper – Cute Crab Robot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49958131",
+    "title": "Show HN: An eBPF kernel guard for vTPM access",
+    "date": "2026-10-04",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/bschaatsbergen/tpmlsm",
+    "summary": "A kernel guard I prototyped after eBPF and vTPM work for a customer, where we use the TPM to protect the private keys for mTLS. Any process running as root can open the TPM devices, and so can any pro",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49961248",
+    "title": "Serve Launches Robot Delivery, Adding Grubhub to Its Delivery Network",
+    "date": "2026-10-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://investors.serverobotics.com/news-releases/news-release-details/serve-launches-robot-delivery-wonder-adding-grubhub-its-growing",
+    "summary": "Serve Launches Robot Delivery, Adding Grubhub to Its Delivery Network",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49963366",
+    "title": "Germany’s RobCo hits $1B valuation",
+    "date": "2026-10-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
+    "summary": "Germany’s RobCo hits $1B valuation",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49963843",
+    "title": "UK's Extend Robotics Secures US$3.3M to Sell Factory Work Instead of Machines",
+    "date": "2026-10-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.saasrise.com/deals/uks-extend-robotics-secures-us33m-26m-to-sell-factory-work-instead-of-machines-ece16ecf-ddd3-45b4-be83-97cf30b01f4e",
+    "summary": "UK's Extend Robotics Secures US$3.3M to Sell Factory Work Instead of Machines",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49964322",
+    "title": "F.02 Robot Decommission",
+    "date": "2026-10-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.figure.ai/news/f-02-decommission?shem=aimgspe,",
+    "summary": "F.02 Robot Decommission",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49964652",
+    "title": "Uber invests in Verne, confirmed by the CEO of the Croatian robotaxi company",
+    "date": "2026-10-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://evwire.com/p/verne-ceo-confirms-uber-investment-robotaxi-europe",
+    "summary": "Uber invests in Verne, confirmed by the CEO of the Croatian robotaxi company",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49965628",
+    "title": "As robotaxi accidents increase in L.A., the data reveal the safer driver",
+    "date": "2026-10-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.latimes.com/business/story/2026-10-05/la-has-more-driverless-cars-more-crashes-look-at-data",
+    "summary": "As robotaxi accidents increase in L.A., the data reveal the safer driver",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49965985",
+    "title": "Using Docker-compose with Podman rootless",
+    "date": "2026-10-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://elou.world/en/tutorial/podman-docker-compose",
+    "summary": "Using Docker-compose with Podman rootless",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49967654",
+    "title": "Stop Efforts to Greenlight AI Robocalls Ahead of the Midterms",
+    "date": "2026-10-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.nclc.org/stop-efforts-to-greenlight-ai-robocalls-ahead-of-the-midterms/",
+    "summary": "Stop Efforts to Greenlight AI Robocalls Ahead of the Midterms",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49967994",
+    "title": "A Tesla Veteran Is Running a Copper Mine with AI-Powered Robots",
+    "date": "2026-10-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.forbes.com/sites/alanohnsman/2026/04/27/this-tesla-veteran-is-running-a-copper-mine-with-ai-powered-robots/",
+    "summary": "A Tesla Veteran Is Running a Copper Mine with AI-Powered Robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-fcc-robot-restrictions-could-a-315",
+    "title": "FCC robot restrictions could accelerate shift to local AI",
+    "date": "2026-10-05",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/fcc-robot-restrictions-could-accelerate-shift-to-local-ai/",
+    "summary": "Companies deploying physical AI today need to decide which AI workloads belong on the robot, what can remain in the cloud, and whether the underlying technology stack can meet rising expectations for ...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-can-safeworld-convince-people-237",
+    "title": "Can Safeworld convince people that GenAI robots won’t hurt them?",
+    "date": "2026-10-05",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+    "summary": "Safeworld is building digital humans to make sure robots don't hurt the real ones.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "fedreg-news-2026-20178",
     "title": "Unleashing American Energy and Economic Prosperity; Rural Energy for America Program (REAP)",
     "date": "2026-10-01",
