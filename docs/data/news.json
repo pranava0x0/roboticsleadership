@@ -1,5 +1,298 @@
 [
   {
+    "id": "hn-50001441",
+    "title": "Humanity's Last Problem",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://benhylak.substack.com/p/humanitys-last-problem",
+    "summary": "Humanity's Last Problem",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50008586",
+    "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
+    "summary": "The Download: AI roadblocks for humanoids and portable rubber dams",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50000914",
+    "title": "The impact of Dolly Parton's death on Wikipedia",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://diff.wikimedia.org/2026/10/07/storms-make-trees-take-deeper-roots-the-impact-of-dolly-partons-death-on-wikipedia/",
+    "summary": "The impact of Dolly Parton's death on Wikipedia",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50002256",
+    "title": "The Startup That Wants to Build 'Microrobots' with A.I",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.nytimes.com/2026/10/07/science/atomic-machines-ai-micro-robots.html",
+    "summary": "The Startup That Wants to Build 'Microrobots' with A.I",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50003705",
+    "title": "Show HN: Tide, simple self-hosted video meetings. URL is a demo anon deployment",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://demo.tide.convex.works/",
+    "summary": "Show HN: Tide, simple self-hosted video meetings. URL is a demo anon deployment",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50004321",
+    "title": "AI breakthroughs in robotics won't change your life any time soon",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+    "summary": "AI breakthroughs in robotics won't change your life any time soon",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50004960",
+    "title": "Man vs. 'Terminator'-Like Robot in a Cage. California Called It Illegal",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.nytimes.com/2026/10/08/technology/human-robot-cage-fights-california-rek.html",
+    "summary": "Man vs. 'Terminator'-Like Robot in a Cage. California Called It Illegal",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50007819",
+    "title": "Cloudhiker",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://cloudhiker.net",
+    "summary": "Cloudhiker",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-ptc-acquisition-positions-schn-684",
+    "title": "PTC acquisition positions Schneider Electric to challenge Siemens",
+    "date": "2026-10-07",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/ptc-acquisition-positions-schneider-electric-challenge-siemens/",
+    "summary": "The Schneider Electric acquisition of PTC gives it a 'digital thread' from design through operations, but it needs to integrate data and software, says Interact Analysis.\nThe post PTC acquisition posi...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-aws-launches-open-source-physi-562",
+    "title": "AWS launches open-source Physical AI Toolchain for robotics",
+    "date": "2026-10-08",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/",
+    "summary": "The toolchain combines AWS and NVIDIA tools for synthetic data generation, model training, simulation and validation, edge deployment, and continuous improvement.\nThe post AWS launches open-source Phy...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-helm-ai-reaches-70m-in-signed-460",
+    "title": "Helm.ai reaches $70M in signed commercial contracts for its foundation models",
+    "date": "2026-10-08",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/helm-ai-reaches-70m-signed-commercial-contracts-foundation-models/",
+    "summary": "Helm.ai trained its foundation models using its unsupervised 'deep teaching' methodology to master the structure of the physical world itself.\nThe post Helm.ai reaches $70M in signed commercial contra...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-jabil-discusses-the-pace-of-hu-194",
+    "title": "Jabil discusses the pace of humanoid robot development and production",
+    "date": "2026-10-08",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/jabil-discusses-pace-humanoid-robot-development-production/",
+    "summary": "Jabil, which is working with robot developers such as Apptronik, provides a design perspective on humanoid progress.\nThe post Jabil discusses the pace of humanoid robot development and production appe...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-robot-data-startup-mecka-ai-na-110",
+    "title": "Robot data startup Mecka AI nabs $60M from Sequoia",
+    "date": "2026-10-07",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
+    "summary": "Mecka AI collects and analyzes human motion data to train humanoid robots and other kinds of robots. The startup pays people to record everyday tasks.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-5-days-to-techcrunch-disrupt-2-375",
+    "title": "5 days to TechCrunch Disrupt 2026: Don’t pay more at the door for your pass",
+    "date": "2026-10-08",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door/",
+    "summary": "The global tech ecosystem gathers at TechCrunch Disrupt 2026 at San Francisco’s Moscone West on October 13-15. Get your pass now to save up to $100. Get a second of the same ticket type to save 50%.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-this-disembodied-hand-is-all-t-481",
+    "title": "This Disembodied Hand Is All the Robot You Need",
+    "date": "2026-10-08",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/walking-robotic-hand",
+    "summary": "A hand attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have turned an off-the-shelf robotic han...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-49981294",
     "title": "Will AI replace workers? Not if we build it right",
     "date": "2026-10-06",
