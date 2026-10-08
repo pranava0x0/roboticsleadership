@@ -1,5 +1,293 @@
 [
   {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "sentiment": "Mixed",
+    "confidence": "High",
+    "tags": [
+      "nvidia",
+      "foxconn",
+      "hon-hai",
+      "manufacturing",
+      "humanoid",
+      "us-supply-chain"
+    ],
+    "id": "nvidia-foxconn-gb300-robots-2026-10",
+    "title": "NVIDIA details a GB300 robotic-assembly pilot with Foxconn that still falls short of deployment targets",
+    "date": "2026-10-07",
+    "source": "NVIDIA Technical Blog",
+    "source_url": "https://developer.nvidia.com/blog/the-machines-that-make-the-machines",
+    "category": "Deployment",
+    "themes": [
+      "us-supply-chain",
+      "industrial-deployments"
+    ],
+    "summary": "In an October 7 technical blog post (\"The Machines That Make the Machines\"), NVIDIA and manufacturing partner Hon Hai (Foxconn) detailed a pilot using robots to assemble parts of the GB300 NVL72 AI rack: busbar assembly (16 screws per tray) hit a 95%+ success rate but took 160 seconds against a 124-second target, and four-cable multi-connector insertion hit 90-95% success at roughly 40 seconds per cable (~160s for all four) against a 72-second target. NVIDIA's own post says performance \"falls short of deployment requirements\" on both tasks, with work ongoing to close the gap — this is a disclosed pilot result, not a completed deployment. (A separate, older report from June 2025 that NVIDIA and Foxconn were \"in talks\" to deploy humanoid robots at a Houston GB300 plant is a distinct, earlier story and is not conflated with this pilot's results.)"
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "agility-robotics"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "agility",
+      "digit",
+      "unit-economics",
+      "investor-day",
+      "cost-trajectory"
+    ],
+    "id": "agility-investor-day-digit5-economics-2026-10",
+    "title": "Agility Robotics' investor day discloses Digit 5 unit economics and a $300M-plus order backlog",
+    "date": "2026-10-06",
+    "source": "Humanoids Daily",
+    "source_url": "https://www.humanoidsdaily.com/news/agility-investor-day-digit-5-launch-costs-and-a-300m-order-that-unlocks-skill-by-skill",
+    "category": "Competitive",
+    "themes": [
+      "cost-trajectory",
+      "industrial-deployments"
+    ],
+    "summary": "At its 2026-10-06 Analyst & Investor Day (ahead of its SPAC merger with Churchill Capital Corp XI), Agility Robotics disclosed illustrative Digit 5 unit economics: a $200,000 purchase price, $20,000 deployment fee and $36,000/year software-and-maintenance — roughly $400,000 over five years per robot. Digit 5's launch bill-of-materials is about $150,000 (versus Digit 4's ~$125,000, already disclosed in Agility's SPAC Form S-4), which Agility is targeting to cut to ~$75,000 at 1,000 robots/year and ~$30,000 at 10,000/year, aiming for a 70% product margin over five years. The company also confirmed a $300M-plus Digit 5 order backlog."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "teradyne",
+      "universal-robots",
+      "elite-robots",
+      "ip-dispute",
+      "china",
+      "cobots"
+    ],
+    "id": "teradyne-elite-robots-settlement-2026-10",
+    "title": "Teradyne Robotics and China's Elite Robots settle cobot software IP dispute",
+    "date": "2026-10-01",
+    "source": "Universal Robots (press release)",
+    "source_url": "https://www.universal-robots.com/news-and-media/news-center/pending-legal-dispute-between-elite-robots-and-teradyne-robotics-resolved-by-mutual-agreement/",
+    "category": "Policy",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "summary": "Teradyne Robotics (parent of Universal Robots) and Chinese collaborative-robot maker Elite Robots resolved by mutual, confidential agreement the lawsuit in which Teradyne had accused Elite of infringing Universal Robots' proprietary software — a dispute that had produced a preliminary injunction from Germany's Hamburg Regional Court in April barring Elite Robots Germany from selling the disputed software there. The settlement is not an admission of liability by either side and both companies said they are refocusing on product development."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "bright-machines"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "bright-machines",
+      "teradyne",
+      "manufacturing",
+      "ai-infrastructure",
+      "cobots"
+    ],
+    "id": "teradyne-bright-machines-2026-10",
+    "title": "Teradyne invests in Bright Machines to bring robotics and test tech to AI-infrastructure manufacturing",
+    "date": "2026-10-05",
+    "source": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/",
+    "category": "Funding",
+    "themes": [
+      "industrial-deployments",
+      "us-supply-chain"
+    ],
+    "summary": "Teradyne made a strategic, undisclosed-size investment in Bright Machines (San Francisco, software-defined manufacturing — 130+ microfactories deployed across 10+ countries) alongside a plan to run Bright Machines' platform, Universal Robots cobots, and Teradyne board-test systems on a single production line. The goal is an end-to-end record linking assembly, robotics and electrical-test data as hyperscalers and chipmakers pour money into new AI-infrastructure manufacturing capacity, where build speed and quality increasingly gate deployment."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "industrial-software",
+      "m-and-a",
+      "schneider-electric",
+      "ptc",
+      "siemens"
+    ],
+    "id": "schneider-ptc-acquisition-2026-10",
+    "title": "Schneider Electric to acquire industrial-software maker PTC for $22.6B, squaring off with Siemens",
+    "date": "2026-10-05",
+    "source": "The Boston Globe",
+    "source_url": "https://www.bostonglobe.com/2026/10/05/business/schneider-electric-ptc/",
+    "category": "Competitive",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "summary": "Schneider Electric agreed to acquire PTC, a leader in industrial product design, engineering and data-management software, for $205/share in cash (~$22.6B equity value, a 42.3% premium) — Schneider's largest-ever acquisition. The deal links PTC's product-design and engineering data with Schneider's data on how factories, equipment and energy systems actually run, aimed at industrial-AI applications, and is read by trade press as a direct challenge to Siemens' industrial-software stack (Siemens Xcelerator/Teamcenter). Expected to close Q3 2027 pending shareholder and regulatory approval."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "figure-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "figure",
+      "compute",
+      "nvidia",
+      "vera-rubin",
+      "training-data"
+    ],
+    "id": "figure-nscale-vera-rubin-2026-09",
+    "title": "Figure signs $3.5B (scalable to $6B) Nscale compute deal for up to 100,000 NVIDIA Vera Rubin GPUs",
+    "date": "2026-09-03",
+    "source": "unite.ai",
+    "source_url": "https://unite.ai/nscale-figure-ink-3-5b-deal-for-up-to-100000-vera-rubin-gpus",
+    "category": "Funding",
+    "themes": [
+      "physical-ai",
+      "us-supply-chain"
+    ],
+    "summary": "Figure signed a strategic partnership with AI-infrastructure provider Nscale to deploy NVIDIA's next-generation Vera Rubin rack-scale platform across up to 100,000 GPUs, with an initial $3.5B compute commitment the companies say can scale past $6B; deployment is targeted for Barstow, Texas starting in H2 2027. Nscale is also making a strategic investment in Figure, and the two plan to explore scaling Nscale's own supply chain with humanoid robots. Figure says it is now compute- and data-bound training Helix, its humanoid foundation model, with its Index data-collection effort generating 35 minutes of training data every second."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "safeworld"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "stealth-exit",
+      "safety",
+      "simulation",
+      "funding",
+      "cmu"
+    ],
+    "id": "safeworld-stealth-2026-10",
+    "title": "CMU spinout Safeworld raises $12M+ to stress-test gen-AI robots in simulation before deployment",
+    "date": "2026-10-05",
+    "source": "TechCrunch",
+    "source_url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+    "category": "Funding",
+    "themes": [
+      "physical-ai"
+    ],
+    "summary": "Safeworld, a Carnegie Mellon spinout co-founded by Safe AI Lab director Ding Zhao, raised a $12M+ seed (Shine Capital, a16z Speedrun, Box Group, CMU Endowment, Innovation Endeavors, SV Angel) for a platform that runs a customer's generative-AI robot-control software inside physics simulators (built on Genesis/MuJoCo) populated with simulated humans varied in size, shape and behavior — tripping, crouching, running — to surface safety failures before a robot ever operates near a real person. Early customer Gritt Robotics, which makes solar-panel-installation robots, is already using the platform to test its systems."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "minerva-humanoids"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "stealth-exit",
+      "humanoid",
+      "funding",
+      "teleoperation",
+      "hazardous-duty"
+    ],
+    "id": "minerva-humanoids-stealth-2026-10",
+    "title": "Minerva Humanoids emerges from stealth with $10M to build VR-teleoperated humanoids for dangerous jobs",
+    "date": "2026-10-06",
+    "source": "GlobeNewswire",
+    "source_url": "https://www.globenewswire.com/news-release/2026/10/06/3375277/0/en/minerva-humanoids-emerges-from-stealth-with-10m-pre-seed-round-led-by-general-catalyst-to-build-humanoid-robots-for-the-world-s-most-dangerous-jobs.html",
+    "category": "Funding",
+    "themes": [
+      "physical-ai"
+    ],
+    "summary": "Minerva Humanoids emerged from stealth with a $10M pre-seed led by General Catalyst (co-leads Long Journey Ventures, Credo Ventures) to build \"Roger,\" a humanoid steered via VR headset by a trained human specialist while its own \"Minerva Intelligence\" software handles balance, navigation and fall recovery autonomously. Target jobs are ones considered too dangerous or irregular for full autonomy today: offshore oil-and-gas work, explosive-ordnance disposal, hazmat response and airport security. Co-founders are CEO Sandor Felber (MIT CSAIL humanoid research, prior work on Tesla's Optimus program) and CTO Maurice Rahme (six years at Boston Dynamics leading the Stretch robot to commercial deployment)."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "mecka-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "funding",
+      "series-b",
+      "robot-data",
+      "physical-ai"
+    ],
+    "id": "mecka-ai-series-b-sequoia-2026-10",
+    "title": "Robot-data startup Mecka AI raises $60M Series B led by Sequoia at ~$500M valuation",
+    "date": "2026-10-07",
+    "source": "TechCrunch",
+    "source_url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
+    "category": "Funding",
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "summary": "Mecka AI, which pays contributors in 12+ countries to film themselves doing everyday tasks (making coffee, fixing cars) with body sensors and smartphones and sells the resulting labeled human-motion data to robotics labs, closed a $60M Series B led by Sequoia Capital with NVIDIA and Microsoft's M12 participating, valuing the four-year-old, founder-non-robotics-background company at roughly $500M. It follows a separate $60M Series A (Framework Ventures, Feb 2026) — pitched as building \"the data and deployment layer for physical AI,\" analogous to Scale AI for large language models."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "boston-dynamics"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "boston-dynamics",
+      "leadership",
+      "humanoid",
+      "hyundai"
+    ],
+    "id": "boston-dynamics-rohit-prasad-ceo-2026-10",
+    "title": "Boston Dynamics names ex-Amazon Alexa/AGI chief Rohit Prasad as CEO",
+    "date": "2026-10-06",
+    "source": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/",
+    "category": "Competitive",
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
+    ],
+    "summary": "Hyundai-owned Boston Dynamics appointed Rohit Prasad as CEO, effective 2026-10-07. Prasad spent 12 years at Amazon, most recently as SVP and head scientist for Alexa and the company's AGI effort, helping scale Alexa into a service used in hundreds of millions of households. He succeeds Amanda McMaster, the company's CFO who had served as interim CEO since Robert Playter stepped down in February 2026. Boston Dynamics framed the hire as accelerating its \"physical AI\" strategy — pairing its Atlas/Spot hardware with large-scale AI — as it works toward commercializing humanoids at scale."
+  },
+  {
+    "source_type": "News",
+    "policies": [],
+    "companies": [
+      "robco"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "funding",
+      "unicorn",
+      "industrial",
+      "germany",
+      "cobot"
+    ],
+    "id": "robco-unicorn-2026-10",
+    "title": "German industrial-robotics startup RobCo crosses $1B valuation",
+    "date": "2026-10-05",
+    "source": "Sifted",
+    "source_url": "https://sifted.eu/articles/robco-hits-unicorn-valuation-in-employee-share-sale/",
+    "category": "Funding",
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ],
+    "summary": "Munich-based RobCo, which sells a modular, self-learning industrial-robot kit (software: RobCo Studio) as a subscription service to manufacturing SMEs, crossed a $1B valuation via a transaction pairing fresh capital with an employee secondary share sale — about double its ~$500M valuation from January 2026. The $40M transaction drew existing backers (Sequoia, Lightspeed, Greenfield, Kindred, Lingotto, Promus) plus new investors Cherry Ventures and European Tech Collective, following a $100M Series C in February 2026. RobCo has deployed 1,000+ robots to industrial customers including BMW, and CEO Roman Hölzl has relocated to the US (San Francisco/Austin) to chase the company's fastest-growing market."
+  },
+  {
     "id": "hn-49908023",
     "title": "How Do Astra and Opus 5.5 Perform on Robotics and Web Tasks",
     "date": "2026-09-30",
