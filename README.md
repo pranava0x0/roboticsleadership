@@ -26,7 +26,7 @@ docs/                  static site, publish root
     styles.css         design system tokens + components (incl. BLUF callout)
     app.js             shared utilities (fetch, format, theme toggle)
   data/
-    companies.json     81 companies, funding rounds, deployments
+    companies.json     101 companies, funding rounds, deployments
     policies.json      federal bills, state incentive programs
     state_policy.json  curated state-policy themes (delivery robots, AV, incentives, clusters, AI preemption)
     news.json          news + research items

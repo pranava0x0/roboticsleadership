@@ -500,9 +500,12 @@
       },
       {
         "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+      },
+      {
+        "url": "https://www.humanoidsdaily.com/news/agility-investor-day-digit-5-launch-costs-and-a-300m-order-that-unlocks-skill-by-skill"
       }
     ],
-    "last_updated": "2026-09-27",
+    "last_updated": "2026-10-08",
     "themes": [
       "cost-trajectory",
       "industrial-deployments",
@@ -513,7 +516,7 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private company. Generates revenue through hardware sales, leasing, and subscription-based service models (Agility Arc/RaaS). Latest Series C valued the company at $1.8B. Agreed 2026-06-24 to go public via a $2.5B SPAC merger with Churchill Capital Corp XI (ticker AGLT); deal expected to generate $620M+ in proceeds with Foxconn leading a PIPE. Agility reports $300M+ in multi-year Digit v5 orders and deployments across nine sites with 65,000+ operating hours. Note: the $2.5B SPAC-implied valuation reflects an announced, not-yet-closed deal; latest_valuation_usd retains the last confirmed Series C figure ($2.12B) until the merger closes.\n\nDigit 5 unveiled 2026-09-15: 50 lb payload (up from 35), 90-min runtime/9-min charge, swappable end-effectors; early access 1H 2027, general availability end of 2027. As of late September 2026 the SPAC merger Form S-4 is in SEC review, with an investor day set for 2026-10-06 and close expected Q4 2026.",
+      "details": "Private company. Generates revenue through hardware sales, leasing, and subscription-based service models (Agility Arc/RaaS). Latest Series C valued the company at $1.8B. Agreed 2026-06-24 to go public via a $2.5B SPAC merger with Churchill Capital Corp XI (ticker AGLT); deal expected to generate $620M+ in proceeds with Foxconn leading a PIPE. Agility reports $300M+ in multi-year Digit v5 orders and deployments across nine sites with 65,000+ operating hours. Note: the $2.5B SPAC-implied valuation reflects an announced, not-yet-closed deal; latest_valuation_usd retains the last confirmed Series C figure ($2.12B) until the merger closes.\n\nDigit 5 unveiled 2026-09-15: 50 lb payload (up from 35), 90-min runtime/9-min charge, swappable end-effectors; early access 1H 2027, general availability end of 2027. As of late September 2026 the SPAC merger Form S-4 is in SEC review, with an investor day set for 2026-10-06 and close expected Q4 2026. Analyst & Investor Day (2026-10-06) disclosed Digit 5 unit economics: illustrative $200,000 robot purchase price, $20,000 deployment fee, $36,000/yr software-and-maintenance — roughly $400,000 five-year cost per robot. Digit 4's BOM was ~$125,000 (already disclosed in the SPAC Form S-4); Digit 5 launch BOM is ~$150,000, targeted to fall to ~$75,000 at 1,000 robots/year and ~$30,000 at 10,000/year, with a targeted 70% product margin over five years. Confirmed a $300M+ Digit 5 order backlog.",
       "sources": [
         {
           "url": "https://www.geekwire.com/2025/agility-robotics-reportedly-raising-400m-for-humanoid-warehouse-robots/"
@@ -523,6 +526,9 @@
         },
         {
           "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+        },
+        {
+          "url": "https://www.humanoidsdaily.com/news/agility-investor-day-digit-5-launch-costs-and-a-300m-order-that-unlocks-skill-by-skill"
         }
       ]
     },
@@ -1151,7 +1157,7 @@
         "role": "Founder (now Chairman)"
       }
     ],
-    "ceo": "Robert Playter",
+    "ceo": "Rohit Prasad",
     "tags": [
       "humanoid",
       "quadruped",
@@ -1167,9 +1173,12 @@
       },
       {
         "url": "https://bostondynamics.com/news/boston-dynamics-opens-robotics-metaplant-application-center-to-train-humanoid-robots-for-manufacturing-tasks"
+      },
+      {
+        "url": "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/"
       }
     ],
-    "last_updated": "2026-09-27",
+    "last_updated": "2026-10-08",
     "themes": [
       "industrial-deployments",
       "us-supply-chain"
@@ -1179,7 +1188,7 @@
       "revenue_year": "2025",
       "net_income_usd": -394000000,
       "net_income_year": "2025",
-      "details": "Reported annual revenue of 150.1 billion KRW (~$112M USD) and a net loss of 528.4 billion KRW (~$394M USD) for 2025. Supported by parent company Hyundai Motor Group. Hyundai took full control 2026-06 by buying SoftBank’s remaining 9.65% stake for $325M, implying a ~$3.37B valuation. Press reporting (Seoul Economic Daily, 2026-03) cites an implied ~$21B figure ahead of a planned early-2027 Nasdaq IPO (secondary source, not a primary filing). Electric Atlas shown at CES 2026.",
+      "details": "Reported annual revenue of 150.1 billion KRW (~$112M USD) and a net loss of 528.4 billion KRW (~$394M USD) for 2025. Supported by parent company Hyundai Motor Group. Hyundai took full control 2026-06 by buying SoftBank’s remaining 9.65% stake for $325M, implying a ~$3.37B valuation. Press reporting (Seoul Economic Daily, 2026-03) cites an implied ~$21B figure ahead of a planned early-2027 Nasdaq IPO (secondary source, not a primary filing). Electric Atlas shown at CES 2026. CEO change 2026-10: Rohit Prasad (ex-Amazon SVP/head scientist for Alexa and AGI, 12 years at Amazon) appointed CEO effective 2026-10-07, succeeding interim CEO/CFO Amanda McMaster (who had covered since Robert Playter's February 2026 departure). Boston Dynamics said the move \"accelerates its physical AI strategy.\"",
       "sources": [
         {
           "url": "https://www.sedaily.com/"
@@ -1192,6 +1201,9 @@
         },
         {
           "url": "https://thenextweb.com/news/hyundai-to-buy-softbanks-last-boston-dynamics-stake-for-325m"
+        },
+        {
+          "url": "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/"
         }
       ]
     },
@@ -1234,6 +1246,17 @@
         ],
         "url": "https://www.brightmachines.com",
         "confidence": "reported"
+      },
+      {
+        "date": "2026-10",
+        "round": "Strategic investment (Teradyne)",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "Teradyne"
+        ],
+        "url": "https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/",
+        "confidence": "confirmed"
       }
     ],
     "total_funding_usd": 259000000,
@@ -1272,12 +1295,16 @@
       },
       {
         "url": "https://techcrunch.com/2022/06/08/bright-machines-series-b/"
+      },
+      {
+        "url": "https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/"
       }
     ],
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-10-08",
     "themes": [
       "industrial-deployments",
-      "physical-ai"
+      "physical-ai",
+      "us-supply-chain"
     ],
     "map_category": "industrial"
   },
@@ -8764,5 +8791,491 @@
       "details": "Private. Founded 2025 in Shanghai by Huang Yi (b. 2004), who independently built a bipedal humanoid prototype as a Harbin Institute of Technology freshman before graduating a year early to found the company. Open-sourced the ROBOTO Origin prototype (~1.25m, ~34kg, up to 3 m/s, running and jumping demonstrated) in Jan 2026 — hardware blueprints, control code, and AMP motion-control algorithms. Raised nearly RMB500M (~$70M approx. conversion) across Angel++ and Pre-A rounds; CATL exclusively led the Pre-A, with the battery maker positioning the open-source platform for real-world feedback in its own manufacturing/energy sites. Capital funds mass-production ramp of next-gen platform RP1, launching Q4 2026."
     },
     "map_category": "humanoid"
+  },
+  {
+    "id": "robco",
+    "name": "RobCo",
+    "founded": "2020",
+    "hq": {
+      "city": "Munich",
+      "state": null,
+      "country": "Germany"
+    },
+    "website": "https://www.rob.co",
+    "funding_rounds": [
+      {
+        "date": "2024-02",
+        "round": "Series B",
+        "amount_usd": 42000000,
+        "valuation_usd": null,
+        "investors": [
+          "Lightspeed Venture Partners"
+        ],
+        "url": "https://www.munich-startup.de/en/116681/robco-series-c/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-02",
+        "round": "Series C",
+        "amount_usd": 100000000,
+        "valuation_usd": null,
+        "investors": [
+          "Lightspeed Venture Partners",
+          "Lingotto Innovation",
+          "Sequoia Capital",
+          "Greenfield Partners",
+          "Kindred Capital",
+          "Leitmotif"
+        ],
+        "url": "https://www.munich-startup.de/en/116681/robco-series-c/",
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-10",
+        "round": "Secondary share sale (employee liquidity event)",
+        "amount_usd": 40000000,
+        "valuation_usd": 1000000000,
+        "investors": [
+          "Sequoia Capital",
+          "Lightspeed Venture Partners",
+          "Greenfield Partners",
+          "Kindred Capital",
+          "Lingotto Innovation",
+          "Promus Ventures",
+          "Cherry Ventures",
+          "European Tech Collective"
+        ],
+        "url": "https://sifted.eu/articles/robco-hits-unicorn-valuation-in-employee-share-sale/",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 182000000,
+    "latest_valuation_usd": 1000000000,
+    "robot_types": [
+      "industrial-robot",
+      "cobot"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Alfie — bimanual, self-learning industrial robot (RobCo Studio software), sold as Robotics-as-a-Service",
+    "deployments": [
+      {
+        "customer": "BMW",
+        "location": "Germany",
+        "robot_count": null,
+        "start_date": null,
+        "status": "active",
+        "use_case": "industrial automation for manufacturing SMEs; part of 1,000+ robots deployed to industrial customers",
+        "source_url": "https://www.robotics247.com/article/robco-surpasses-1b-valuation-offers-employees-liquidity"
+      }
+    ],
+    "headcount": 50,
+    "headcount_date": "2026-10",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Roman Hölzl",
+        "role": "Co-Founder & CEO"
+      }
+    ],
+    "ceo": "Roman Hölzl",
+    "tags": [
+      "industrial",
+      "unicorn",
+      "robotics-as-a-service",
+      "germany",
+      "cobot"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.robotics247.com/article/robco-surpasses-1b-valuation-offers-employees-liquidity"
+      },
+      {
+        "url": "https://sifted.eu/articles/robco-hits-unicorn-valuation-in-employee-share-sale/"
+      },
+      {
+        "url": "https://www.rob.co"
+      }
+    ],
+    "last_updated": "2026-10-08",
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. Co-founded 2020 by a team from the Technical University of Munich's Chair of Robotics and AI, led by CEO Roman Hölzl. Patented modular hardware kit + RobCo Studio software platform for plug-and-play industrial automation (machine loading, palletizing, dispensing, welding) aimed at manufacturing SMEs that cannot afford traditional integration costs. Crossed a $1B valuation 2026-10-05 via a transaction pairing new investment with an employee secondary share sale (doubling its ~$500M January 2026 valuation); raised a $100M Series C in February 2026. Expanding from Munich HQ into the US (San Francisco, Austin), where CEO Hölzl has relocated. Flagship robot \"Alfie\" (two-armed, self-learning) is slated to launch March 2027."
+    },
+    "map_category": "industrial"
+  },
+  {
+    "id": "mecka-ai",
+    "name": "Mecka AI",
+    "founded": "2024",
+    "hq": {
+      "city": "New York",
+      "state": "NY",
+      "country": "USA"
+    },
+    "website": "https://www.mecka.ai",
+    "funding_rounds": [
+      {
+        "date": "2025-08",
+        "round": "Seed",
+        "amount_usd": 8000000,
+        "valuation_usd": null,
+        "investors": [
+          "Neo",
+          "SV Angel",
+          "Offline VC"
+        ],
+        "url": "https://techstrong.ai/articles/mecka-ai-trains-robots-by-watching-humans-work/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-02",
+        "round": "Series A",
+        "amount_usd": 60000000,
+        "valuation_usd": null,
+        "investors": [
+          "Framework Ventures",
+          "Menlo Ventures",
+          "SV Angel",
+          "Kindred Ventures"
+        ],
+        "url": "https://pulse2.com/mecka-raises-60-million-to-build-the-data-and-deployment-layer-for-physical-ai/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-10",
+        "round": "Series B",
+        "amount_usd": 60000000,
+        "valuation_usd": 500000000,
+        "investors": [
+          "Sequoia Capital",
+          "NVIDIA",
+          "Microsoft M12"
+        ],
+        "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 128000000,
+    "latest_valuation_usd": 500000000,
+    "robot_types": [
+      "enabling_tech"
+    ],
+    "primary_use_case": "training data for humanoid and industrial robot foundation models",
+    "flagship_product": "Egoverse — a first-person (egocentric) human-motion dataset, captured via body sensors and smartphones and sold to robotics/embodied-AI labs",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Josh Gao",
+        "role": "Co-Founder & CEO"
+      },
+      {
+        "name": "Jason Chong",
+        "role": "Co-Founder & CTO"
+      },
+      {
+        "name": "Duy Nguyen",
+        "role": "Co-Founder & COO"
+      },
+      {
+        "name": "Mogen Cheng",
+        "role": "Co-Founder & CPO"
+      }
+    ],
+    "ceo": "Josh Gao",
+    "tags": [
+      "enabler",
+      "data",
+      "physical-ai",
+      "humanoid-adjacent"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/"
+      },
+      {
+        "url": "https://www.mecka.ai"
+      }
+    ],
+    "last_updated": "2026-10-08",
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. Founded 2024 by four founders with no robotics background (prior ventures in restaurant fintech and crypto); pays contributors in 12+ countries to film themselves performing everyday tasks with body sensors and smartphones, then sells the resulting labeled, egocentric human-motion data (\"Egoverse\") to robotics and embodied-AI teams — positioned as \"the data and deployment layer for physical AI,\" analogous to Scale AI for LLMs. As of early June 2026 was projecting a $100M annual run rate by year-end. A $60M Series A (Framework Ventures, Feb 2026) was followed by a $60M Series B led by Sequoia Capital at a ~$500M valuation (closed, reported 2026-10-07), with NVIDIA and Microsoft's M12 participating."
+    },
+    "map_category": "enablers"
+  },
+  {
+    "id": "bonsai-robotics",
+    "name": "Bonsai Robotics",
+    "founded": "2022",
+    "hq": {
+      "city": "San Jose",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.bonsairobotics.ai",
+    "funding_rounds": [
+      {
+        "date": "2025-01",
+        "round": "Series A",
+        "amount_usd": 15000000,
+        "valuation_usd": null,
+        "investors": [
+          "Bison Ventures",
+          "Cibus Capital"
+        ],
+        "url": "https://www.silicon.co.uk/press-release/bonsai-robotics-secures-15-million-in-series-a-funding-to-advance-its-physical-ai-solutions-for-agriculture-applications",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 25500000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "agricultural robot"
+    ],
+    "primary_use_case": "agriculture — vision-based autonomy retrofits for OEM farm equipment",
+    "flagship_product": "Visionsteer — vision-based crop analysis and autonomous vehicle control, retrofitted onto OEM equipment (first product: Orchard Machinery Corp's Shockwave X autonomous nut-tree harvester)",
+    "deployments": [
+      {
+        "customer": "Orchard Machinery Corporation (Shockwave X)",
+        "location": "USA — tree-nut orchards",
+        "robot_count": 40,
+        "start_date": "2025-01",
+        "status": "active",
+        "use_case": "autonomous harvesting retrofit for nut-tree orchard equipment",
+        "source_url": "https://www.silicon.co.uk/press-release/bonsai-robotics-secures-15-million-in-series-a-funding-to-advance-its-physical-ai-solutions-for-agriculture-applications"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Tyler Niday",
+        "role": "Co-Founder & CEO"
+      }
+    ],
+    "ceo": "Tyler Niday",
+    "tags": [
+      "agriculture",
+      "field",
+      "oem-retrofit",
+      "us-manufactured"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2023/10/02/eyeing-vision-based-autonomy-for-farm-equipment-bonsai-robotics-raises-10-5m"
+      },
+      {
+        "url": "https://www.silicon.co.uk/press-release/bonsai-robotics-secures-15-million-in-series-a-funding-to-advance-its-physical-ai-solutions-for-agriculture-applications"
+      },
+      {
+        "url": "https://www.bonsairobotics.ai"
+      }
+    ],
+    "last_updated": "2026-10-08",
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. Founded 2022 by Tyler Niday (ex-Blue River Technology, which built John Deere's \"See and Spray\"; later John Deere's first autonomy-team engineer). Sells vision-based autonomy (\"Visionsteer\") as an OEM/dealer retrofit for farm equipment rather than building its own vehicles, starting with tree-nut harvesters (Orchard Machinery Corp's Shockwave X) and over 40 units deployed as of its $15M Series A (Jan 2025, led by Bison Ventures). Surfaced via a 2026-10-08 founder interview (TBPN) describing an expanded \"autonomous-first Amiga lineup\" OEM retrofit strategy; no new funding event reported this week."
+    },
+    "map_category": "field"
+  },
+  {
+    "id": "minerva-humanoids",
+    "name": "Minerva Humanoids",
+    "founded": "2026",
+    "hq": {
+      "city": null,
+      "state": null,
+      "country": "USA"
+    },
+    "website": "https://www.minervahumanoids.com",
+    "funding_rounds": [
+      {
+        "date": "2026-10",
+        "round": "Pre-seed",
+        "amount_usd": 10000000,
+        "valuation_usd": null,
+        "investors": [
+          "General Catalyst",
+          "Long Journey Ventures",
+          "Credo Ventures"
+        ],
+        "url": "https://www.globenewswire.com/news-release/2026/10/06/3375277/0/en/minerva-humanoids-emerges-from-stealth-with-10m-pre-seed-round-led-by-general-catalyst-to-build-humanoid-robots-for-the-world-s-most-dangerous-jobs.html",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 10000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "humanoid"
+    ],
+    "primary_use_case": "hazardous-duty work (EOD, offshore oil & gas, hazmat response, airport security)",
+    "flagship_product": "Roger — a VR-teleoperated humanoid (balance, navigation and fall-recovery handled autonomously by \"Minerva Intelligence\"; higher-level tasks steered by a trained human specialist)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Sandor Felber",
+        "role": "Co-Founder & CEO"
+      },
+      {
+        "name": "Maurice Rahme",
+        "role": "Co-Founder & CTO"
+      }
+    ],
+    "ceo": "Sandor Felber",
+    "tags": [
+      "humanoid",
+      "teleoperation",
+      "defense-adjacent",
+      "stealth-exit"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/10/06/3375277/0/en/minerva-humanoids-emerges-from-stealth-with-10m-pre-seed-round-led-by-general-catalyst-to-build-humanoid-robots-for-the-world-s-most-dangerous-jobs.html"
+      },
+      {
+        "url": "https://thenextweb.com/news/minerva-humanoids-10m-pre-seed-general-catalyst"
+      }
+    ],
+    "last_updated": "2026-10-08",
+    "themes": [
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private, pre-revenue. Emerged from stealth 2026-10-06 with a $10M pre-seed led by General Catalyst (co-leads Long Journey Ventures, Credo Ventures; ~12 other participants). CEO Sandor Felber previously worked on Tesla's Optimus program and MIT CSAIL humanoid research; CTO Maurice Rahme spent six years at Boston Dynamics leading the Stretch robot from prototype to commercial deployment. Pitch: a VR-teleoperated humanoid (\"Roger\") for jobs too dangerous or irregular for full autonomy today — offshore rigs, EOD, hazmat — with the robot's own AI handling balance/locomotion/fall-recovery so a remote specialist only needs to steer higher-level task execution."
+    },
+    "map_category": "defense"
+  },
+  {
+    "id": "safeworld",
+    "name": "Safeworld",
+    "founded": "2025",
+    "hq": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "country": "USA"
+    },
+    "website": "https://www.safeworld.ai",
+    "funding_rounds": [
+      {
+        "date": "2026-10",
+        "round": "Seed",
+        "amount_usd": 12000000,
+        "valuation_usd": null,
+        "investors": [
+          "Shine Capital",
+          "a16z Speedrun",
+          "Box Group",
+          "CMU Endowment",
+          "Innovation Endeavors",
+          "SV Angel"
+        ],
+        "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 12000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "enabling_tech"
+    ],
+    "primary_use_case": "pre-deployment safety simulation/testing for generative-AI-controlled robots",
+    "flagship_product": "A digital-twin simulation platform (built on Genesis/MuJoCo) that runs a customer's robot-control software against simulated humans — varied in size, shape, height, skin color and behavior — to surface safety failures before a robot operates near real people",
+    "deployments": [
+      {
+        "customer": "Gritt Robotics",
+        "location": null,
+        "robot_count": null,
+        "start_date": "2026-10",
+        "status": "active",
+        "use_case": "pre-deployment safety testing for solar-panel-installation robots",
+        "source_url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Ding Zhao",
+        "role": "Co-Founder (directs CMU's Safe AI Lab)"
+      },
+      {
+        "name": "Kyle Wong",
+        "role": "Co-Founder & CEO (ex-Pixlee co-founder, former Stanford StartX CEO)"
+      },
+      {
+        "name": "Simo Rachidi",
+        "role": "Co-Founder, ML Engineer"
+      }
+    ],
+    "ceo": "Kyle Wong",
+    "tags": [
+      "enabler",
+      "safety",
+      "simulation",
+      "cmu-spinout"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/"
+      },
+      {
+        "url": "https://aiweekly.co/alerts/safeworld-raises-12m-to-stress-test-gen-ai-robots-in-simulation"
+      }
+    ],
+    "last_updated": "2026-10-08",
+    "themes": [
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private, early revenue. A Carnegie Mellon spinout (Prof. Ding Zhao directs CMU's Safe AI Lab) that raised a $12M+ seed (Shine Capital, a16z Speedrun, Box Group, CMU Endowment, Innovation Endeavors, SV Angel) to run customers' generative-AI robot-control software inside physics simulators (Genesis/MuJoCo) populated with simulated humans of varied size, shape and behavior, surfacing safety failures (collisions, near-misses) before a robot is deployed around real people. Early customer Gritt Robotics (solar-panel-install robots, also tracked on this site's energy page) is already using the platform. Announced 2026-10-05."
+    },
+    "map_category": "enablers"
   }
 ]
