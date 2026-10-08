@@ -9059,11 +9059,11 @@
       {
         "customer": "Orchard Machinery Corporation (Shockwave X)",
         "location": "USA — tree-nut orchards",
-        "robot_count": 40,
+        "robot_count": 400,
         "start_date": "2025-01",
         "status": "active",
-        "use_case": "autonomous harvesting retrofit for nut-tree orchard equipment",
-        "source_url": "https://www.silicon.co.uk/press-release/bonsai-robotics-secures-15-million-in-series-a-funding-to-advance-its-physical-ai-solutions-for-agriculture-applications"
+        "use_case": "vision-based autonomy retrofits across tree, bedded, trellised and row crops (Amiga and AR-500 platforms); company site claims 400+ machines deployed across 1M+ acres as of Oct 2026, up from 40 at its Jan 2025 Series A",
+        "source_url": "https://www.bonsairobotics.ai"
       }
     ],
     "headcount": null,
@@ -9092,6 +9092,9 @@
       },
       {
         "url": "https://www.silicon.co.uk/press-release/bonsai-robotics-secures-15-million-in-series-a-funding-to-advance-its-physical-ai-solutions-for-agriculture-applications"
+      },
+      {
+        "url": "https://www.bonsairobotics.ai"
       },
       {
         "url": "https://www.bonsairobotics.ai"
@@ -9190,8 +9193,8 @@
     "name": "Safeworld",
     "founded": "2025",
     "hq": {
-      "city": "Pittsburgh",
-      "state": "PA",
+      "city": "Palo Alto",
+      "state": "CA",
       "country": "USA"
     },
     "website": "https://www.safeworld.ai",
@@ -9265,6 +9268,9 @@
       },
       {
         "url": "https://aiweekly.co/alerts/safeworld-raises-12m-to-stress-test-gen-ai-robots-in-simulation"
+      },
+      {
+        "url": "https://roboticsandautomationnews.com/2026/10/05/safeworld-emerges-from-stealth-with-12-2-million-to-develop-robot-safety-simulation-technology/105530/"
       }
     ],
     "last_updated": "2026-10-08",
