@@ -8937,9 +8937,20 @@
         "confidence": "reported"
       },
       {
-        "date": "2026-02",
+        "date": "2025-11",
         "round": "Series A",
-        "amount_usd": 60000000,
+        "amount_usd": 25000000,
+        "valuation_usd": null,
+        "investors": [
+          "Framework Ventures"
+        ],
+        "url": "https://fortune.com/2026/06/01/mecka-ai-series-a-60-million-robotics-data-training/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-02",
+        "round": "Series A follow-on",
+        "amount_usd": 35000000,
         "valuation_usd": null,
         "investors": [
           "Framework Ventures",
@@ -8947,7 +8958,7 @@
           "SV Angel",
           "Kindred Ventures"
         ],
-        "url": "https://pulse2.com/mecka-raises-60-million-to-build-the-data-and-deployment-layer-for-physical-ai/",
+        "url": "https://fortune.com/2026/06/01/mecka-ai-series-a-60-million-robotics-data-training/",
         "confidence": "reported"
       },
       {
@@ -9020,7 +9031,7 @@
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "Private. Founded 2024 by four founders with no robotics background (prior ventures in restaurant fintech and crypto); pays contributors in 12+ countries to film themselves performing everyday tasks with body sensors and smartphones, then sells the resulting labeled, egocentric human-motion data (\"Egoverse\") to robotics and embodied-AI teams — positioned as \"the data and deployment layer for physical AI,\" analogous to Scale AI for LLMs. As of early June 2026 was projecting a $100M annual run rate by year-end. A $60M Series A (Framework Ventures, Feb 2026) was followed by a $60M Series B led by Sequoia Capital at a ~$500M valuation (closed, reported 2026-10-07), with NVIDIA and Microsoft's M12 participating."
+      "details": "Private. Founded 2024 by four founders with no robotics background (prior ventures in restaurant fintech and crypto); pays contributors in 12+ countries to film themselves performing everyday tasks with body sensors and smartphones, then sells the resulting labeled, egocentric human-motion data (\"Egoverse\") to robotics and embodied-AI teams — positioned as \"the data and deployment layer for physical AI,\" analogous to Scale AI for LLMs. As of early June 2026 was projecting a $100M annual run rate by year-end. A $25M Series A (Framework Ventures, Nov 2025) plus a $35M follow-on (Framework Ventures, Menlo Ventures, SV Angel, Kindred Ventures, reported by June 2026) — $60M combined — was followed by a $60M Series B led by Sequoia Capital at a ~$500M valuation (closed, reported 2026-10-07), with NVIDIA and Microsoft's M12 participating."
     },
     "map_category": "enablers"
   },

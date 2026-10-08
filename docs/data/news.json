@@ -3,7 +3,7 @@
     "source_type": "News",
     "policies": [],
     "companies": [],
-    "sentiment": "Positive",
+    "sentiment": "Mixed",
     "confidence": "High",
     "tags": [
       "nvidia",
@@ -14,16 +14,16 @@
       "us-supply-chain"
     ],
     "id": "nvidia-foxconn-gb300-robots-2026-10",
-    "title": "NVIDIA and Foxconn use robots to assemble GB300 AI-server components, eyeing a Houston humanoid-staffed plant",
-    "date": "2026-10-02",
-    "source": "Tom's Hardware",
-    "source_url": "https://tomshardware.com/tech-industry/semiconductors/nvidia-products-could-be-made-using-humanoid-robots-for-the-first-time-ever-company-in-talks-with-foxconn-to-deploy-them-in-houston-factory-building-gb300-ai-servers",
+    "title": "NVIDIA details a GB300 robotic-assembly pilot with Foxconn that still falls short of deployment targets",
+    "date": "2026-10-07",
+    "source": "NVIDIA Technical Blog",
+    "source_url": "https://developer.nvidia.com/blog/the-machines-that-make-the-machines",
     "category": "Deployment",
     "themes": [
       "us-supply-chain",
       "industrial-deployments"
     ],
-    "summary": "In an October 2 technical blog post (\"The Machines that Make the Machines\"), NVIDIA detailed how its own operations team and manufacturing partner Hon Hai (Foxconn) trained robots to assemble parts of the GB300 NVL72 AI rack — busbar assembly (16 screws per tray, >95% success within a 124-second target) and multi-connector insertion (four connector sizes, 90-95% success within 72 seconds). Hon Hai, which controls over 40% of the global AI-server market, is expanding the approach to plants in Texas, Wisconsin and California, and has said it is working with NVIDIA toward a Houston facility that would use NVIDIA-developed humanoid robots to build AI servers."
+    "summary": "In an October 7 technical blog post (\"The Machines That Make the Machines\"), NVIDIA and manufacturing partner Hon Hai (Foxconn) detailed a pilot using robots to assemble parts of the GB300 NVL72 AI rack: busbar assembly (16 screws per tray) hit a 95%+ success rate but took 160 seconds against a 124-second target, and four-cable multi-connector insertion hit 90-95% success at roughly 40 seconds per cable (~160s for all four) against a 72-second target. NVIDIA's own post says performance \"falls short of deployment requirements\" on both tasks, with work ongoing to close the gap — this is a disclosed pilot result, not a completed deployment. (A separate, older report from June 2025 that NVIDIA and Foxconn were \"in talks\" to deploy humanoid robots at a Houston GB300 plant is a distinct, earlier story and is not conflated with this pilot's results.)"
   },
   {
     "source_type": "News",
