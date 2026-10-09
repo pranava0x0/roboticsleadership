@@ -111,5 +111,16 @@ test('production_trend: one row per year, ascending, projections only after actu
   assert(Math.abs(sum - ship.units) <= 1, `latest actual row sums to ${sum}, shipments.industrial.units is ${ship.units}`);
 });
 
+test('physical-ai-action-plan: later sections ship collapsed, and print opens them', () => {
+  // The page was 15.0 phone screens (budget 15). Sections 4-9 are details so the
+  // page is a few taps rather than a scroll; a closed <details> would drop out of
+  // a printed copy, so the beforeprint handler must reopen them.
+  const html = read('physical-ai-action-plan.html');
+  const closed = html.match(/<details class="collapsible-section plan-sheet" id="sec-[a-z-]+">/g) || [];
+  assert(closed.length >= 6, `expected >= 6 collapsed plan sections, found ${closed.length}`);
+  assert(!/<details class="collapsible-section plan-sheet"[^>]*\bopen\b/.test(html), 'a collapsed plan section is authored open');
+  assert(/beforeprint/.test(html) && /details\.plan-sheet/.test(html), 'beforeprint handler that reopens plan sections is gone');
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);

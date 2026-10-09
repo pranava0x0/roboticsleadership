@@ -9294,5 +9294,68 @@
       "details": "Private, early revenue. A Carnegie Mellon spinout (Prof. Ding Zhao directs CMU's Safe AI Lab) that raised a $12M+ seed (Shine Capital, a16z Speedrun, Box Group, CMU Endowment, Innovation Endeavors, SV Angel) to run customers' generative-AI robot-control software inside physics simulators (Genesis/MuJoCo) populated with simulated humans of varied size, shape and behavior, surfacing safety failures (collisions, near-misses) before a robot is deployed around real people. Early customer Gritt Robotics (solar-panel-install robots, also tracked on this site's energy page) is already using the platform. Announced 2026-10-05."
     },
     "map_category": "enablers"
+  },
+  {
+    "id": "ultra",
+    "name": "Ultra",
+    "founded": "2024",
+    "hq": {
+      "city": "Brooklyn",
+      "state": "NY",
+      "country": "USA"
+    },
+    "website": "https://ultra.tech",
+    "funding_rounds": [
+      {
+        "date": "2026-10",
+        "round": "Series A",
+        "amount_usd": 50000000,
+        "valuation_usd": null,
+        "investors": [
+          "Framework Ventures",
+          "Y Combinator"
+        ],
+        "url": "https://fortune.com/2026/10/09/ultra-raises-62-million-fast-growing-robots-service-tie-up-ai-research-firm-physical-intelligence/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 62000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "warehouse"
+    ],
+    "primary_use_case": "robots-as-a-service for warehouse order packing, leased monthly",
+    "flagship_product": null,
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "raas",
+      "warehouse",
+      "physical-ai"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      {
+        "url": "https://fortune.com/2026/10/09/ultra-raises-62-million-fast-growing-robots-service-tie-up-ai-research-firm-physical-intelligence/"
+      }
+    ],
+    "last_updated": "2026-10-09",
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": null
+    },
+    "map_category": "industrial"
   }
 ]
