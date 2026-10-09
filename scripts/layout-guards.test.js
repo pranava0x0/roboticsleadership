@@ -120,6 +120,7 @@ test('physical-ai-action-plan: later sections ship collapsed, and print opens th
   assert(closed.length >= 6, `expected >= 6 collapsed plan sections, found ${closed.length}`);
   assert(!/<details class="collapsible-section plan-sheet"[^>]*\bopen\b/.test(html), 'a collapsed plan section is authored open');
   assert(/beforeprint/.test(html) && /details\.plan-sheet/.test(html), 'beforeprint handler that reopens plan sections is gone');
+  assert(/afterprint/.test(html), 'afterprint no longer restores the pre-print state (the open toggles would otherwise persist to localStorage)');
 });
 
 console.log(`\n${passed} passed, ${failed} failed`);

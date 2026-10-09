@@ -194,7 +194,9 @@
     "summary": "FMCSA is granting a limited five-year exemption to Aurora Operations and other carriers running Level 4 automated driving system trucks, with prior notice to the agency, from the rule on warning devices such as triangles placed behind a stopped truck.",
     "category": "Policy",
     "companies": [],
-    "policies": [],
+    "policies": [
+      "fedreg-2026-20734"
+    ],
     "themes": [],
     "sentiment": "Neutral",
     "confidence": "High",
