@@ -4,6 +4,18 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-10-09 (scheduled full-site refresh: X list, web sweep, UAT pass)
+
+- [ ] **(medium) Treasury's first Outbound Investment Security Program penalty hit a robotics target.** $200K on Amidi (Plug and Play parent) over a ~$92K stake in Shanghai Qiongche (Noematrix), 2026-10-07. us_china.json has no row for outbound-investment rules; consider a "capital flows" metric alongside the Entity List and FCC rows. Reframe candidate: the US now polices US money into Chinese embodied AI, not only Chinese hardware into the US.
+- [ ] **(medium) China's 2026 dual-use import/export catalogue (MOFCOM/GACC Announcement 2025 No. 91, effective 2026-01-01) is untracked.** Raised on the X list (168 pages). Not yet confirmed whether robots, reducers or sensors have their own lines; the catalogue applies by description even without an HS code. Read the annex before writing it into china.html or supply-chain.
+- [ ] **(medium) FieldAI $700M at ~$10B term sheet — still single-source.** Business Insider via runtimewire (2026-10-02), no company confirmation, no lead named. Same status as the 2026-10-04 entry; apply only when a primary or second outlet confirms.
+- [ ] **(low) Leads not applied:** a former Tesla Optimus lead launching an industrial-robot startup (The Information, paywalled, founder unnamed); Reka Rho-1 19B action model (simulation-only, no source opened); Reactor Series A with NVIDIA (world-model software, indirect); Multiply Labs and Hai Robotics need company records if a primary source appears. Lukas Ziegler's "who invests in robots and actually buys them" chart (Schaeffler→Humanoid, Toyota, Bosch→Neura, Amazon/Schaeffler→Agility) is a good template for a buyer-side view on companies.html.
+- [ ] **(low) The X PhysicalAI list is now mostly hardware vendors.** Seeed Studio alone swamped the chronological view; add `-from:seeedstudio` to the search. Signal that day came from ~5 accounts.
+- Curated this run: scraper pass yielded 55 news + 2 policy candidates; kept 11 scraper items and wrote 8 from the sweep (Treasury, Ultra, Multiply Labs, UBTECH/FAW-VW, Hai Robotics, IDC/AgiBot shipments, Galbot IROS, Deliveroo/Coco). Dropped 43 (HN noise, duplicates of items already curated, ticket promos) to `data/research/refresh-2026-10-09-dropped.json`. Dropped a USDA REAP rule from policies.
+- UAT: desktop all pages ≤ 7.8 screens; phone worst were physical-ai-action-plan (15.0, at budget) and energy (14.4). Collapsed action-plan sections 4–9 (print reopens them). Energy is next.
+
+---
+
 ## ▶ Added 2026-10-04 (scheduled full-site refresh: X list, web sweep, perf pass)
 
 - [ ] **(medium) Field AI $700M raise at $10B valuation — UNCONFIRMED, do not apply.** An X post (clankrmedia, 2026-10-03) claims Field AI is "reportedly raising $700M" at a "$10B" valuation, up from $2B. Web search found no corroborating primary or secondary source — the only verifiable round is the already-tracked $405M Series D at a $2B valuation (Aug 2025, Bill Gates/Bezos Expeditions/NVIDIA). Re-check next run before updating `companies.json → field-ai`; if a primary surfaces, also refresh the stale `last_updated: 2026-06-01` stamp.

@@ -1,5 +1,422 @@
 [
   {
+    "id": "treasury-outbound-penalty-noematrix-2026-10",
+    "title": "Treasury issues first Outbound Investment Security Program penalty, over a Chinese embodied-AI investment",
+    "date": "2026-10-07",
+    "source": "U.S. Department of the Treasury",
+    "source_type": "Government",
+    "source_url": "https://home.treasury.gov/news/press-releases/sb0652",
+    "summary": "Treasury fined Amidi, LLC (parent of Plug and Play Tech Center) $200,000 for failing to notify it of a roughly $92,000 investment its Chinese fund subsidiary made in Shanghai Qiongche Intelligent Technology (Noematrix) on 2025-04-19. Treasury describes Noematrix as a Chinese company developing AI, robotics and embodied intelligence. It is the first penalty under the outbound program and the first to land on a robotics target.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "outbound-investment",
+      "treasury",
+      "china"
+    ]
+  },
+  {
+    "id": "ultra-series-a-physical-intelligence-2026-10",
+    "title": "Ultra raises $62M and ties up with Physical Intelligence on its leased warehouse robots",
+    "date": "2026-10-09",
+    "source": "Fortune",
+    "source_type": "News",
+    "source_url": "https://fortune.com/2026/10/09/ultra-raises-62-million-fast-growing-robots-service-tie-up-ai-research-firm-physical-intelligence/",
+    "summary": "Ultra, a Brooklyn robots-as-a-service company, raised a $50M Series A led by Framework Ventures with Y Combinator participating, after a $12M seed. It leases warehouse robots by the month and says they have packed more than 500,000 orders. Fortune reports a tie-up with Physical Intelligence; the autonomy figure circulating in search summaries was not verified against a primary source.",
+    "category": "Funding",
+    "companies": [
+      "ultra",
+      "physical-intelligence"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "funding",
+      "series-a",
+      "raas"
+    ]
+  },
+  {
+    "id": "multiply-labs-series-b-2026-10",
+    "title": "Multiply Labs raises $75M Series B for robotic biologics manufacturing",
+    "date": "2026-10-06",
+    "source": "Let's Data Science",
+    "source_type": "News",
+    "source_url": "https://letsdatascience.com/news/multiply-labs-raises-75m-series-b-for-drug-manufacturing-rob-8811b172",
+    "summary": "The round was led by Patrick Soon-Shiong and NantWorks, with AstraZeneca, Lingotto, Teradyne and Strange Ventures joining. Total funding passes $100M. Proceeds go to manufacturing capacity, the product roadmap and regulatory and commercial hiring. Secondary coverage only; sources differ on the lead investor.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "funding",
+      "series-b",
+      "biomanufacturing"
+    ]
+  },
+  {
+    "id": "ubtech-faw-vw-logistics-2026-10",
+    "title": "UBTECH and FAW-Volkswagen sign a strategic deal to take humanoids from inspection into logistics",
+    "date": "2026-10-08",
+    "source": "Pandaily",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/ubtech-faw-volkswagen-strategic-cooperation-humanoid-robots-logistics-qingdao",
+    "summary": "The two will develop and test logistics use cases and build demonstration sites at the Qingdao plant. It builds on Walker S Lite quality-inspection training there; a Walker S pilot at the plant dates to July 2024.",
+    "category": "Deployment",
+    "companies": [
+      "ubtech"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "automotive",
+      "pilot"
+    ]
+  },
+  {
+    "id": "hai-robotics-hk-ipo-2026-10",
+    "title": "Hai Robotics pursues a Hong Kong listing with Goldman Sachs and CITIC Securities",
+    "date": "2026-10-09",
+    "source": "TechNode",
+    "source_type": "News",
+    "source_url": "https://technode.com/2026/10/09/the-robots-taking-warehouses-to-new-heights/",
+    "summary": "The Shenzhen warehouse-robot maker refreshed its listing application on 2026-09-13. Revenue was RMB 2.02B in 2025, and sales outside mainland China were just over half of revenue in H1 2026. The filing predates this week; the feature is the new coverage.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "ipo",
+      "warehouse"
+    ]
+  },
+  {
+    "id": "agibot-idc-h1-2026-shipments-2026-10",
+    "title": "IDC: AgiBot led H1 2026 humanoid shipments with more than 8,600 units",
+    "date": "2026-10-02",
+    "source": "Robotics & Automation News",
+    "source_type": "News",
+    "source_url": "https://roboticsandautomationnews.com/2026/10/02/idc-data-shows-agibot-led-global-humanoid-robot-shipments-in-h1-2026/105463/",
+    "summary": "IDC's figure implies roughly 35% share of nearly 25,000 global humanoid shipments, up 432% year on year. Counterpoint puts AgiBot near 9,700 units and 43%, so unit counts and shares differ by firm. The chart was supplied by AgiBot and IDC's methodology is not published.",
+    "category": "Competitive",
+    "companies": [
+      "agibot"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "china",
+      "shipments",
+      "market-share"
+    ]
+  },
+  {
+    "id": "galbot-latent-iros-2026-2026-10",
+    "title": "Galbot and Tsinghua win an IROS 2026 paper award for a humanoid tennis forehand",
+    "date": "2026-10-08",
+    "source": "Pandaily",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/galbot-tsinghua-latent-iros-2026-humanoid-tennis-forehand-imperfect-data",
+    "summary": "The LATENT paper trained a humanoid forehand from about five hours of imperfect amateur motion capture. In simulation the policy returned 96.52% of balls with a 1.32 m average landing error. Results are as relayed by Pandaily.",
+    "category": "Competitive",
+    "companies": [
+      "galbot"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "china",
+      "research",
+      "iros"
+    ]
+  },
+  {
+    "id": "deliveroo-coco-uk-sidewalk-2026-10",
+    "title": "Deliveroo and Coco Robotics launch exclusive UK sidewalk delivery in Canary Wharf",
+    "date": "2026-10-05",
+    "source": "Deliveroo",
+    "source_type": "Company",
+    "source_url": "https://deliveroo.co.uk/more/news-articles/autonomous-robot-launch",
+    "summary": "Service starts in Canary Wharf this October, with Milton Keynes, Leeds, Stockton-on-Tees and Nottingham planned within weeks. It is Deliveroo's first autonomous delivery in the UK and the US company Coco's UK debut.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "delivery",
+      "uk"
+    ]
+  },
+  {
+    "id": "fedreg-news-2026-20734",
+    "title": "FMCSA grants Aurora and other Level 4 truck operators a five-year warning-device exemption",
+    "date": "2026-10-09",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/09/2026-20734/parts-and-accessories-necessary-for-safe-operation-application-for-exemption-from-aurora-operations",
+    "summary": "FMCSA is granting a limited five-year exemption to Aurora Operations and other carriers running Level 4 automated driving system trucks, with prior notice to the agency, from the rule on warning devices such as triangles placed behind a stopped truck.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "fedreg-2026-20734"
+    ],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "federal-register",
+      "av-trucking"
+    ]
+  },
+  {
+    "id": "hn-49963843",
+    "title": "UK's Extend Robotics raises US$3.3M to sell factory work instead of machines",
+    "date": "2026-10-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.saasrise.com/deals/uks-extend-robotics-secures-us33m-26m-to-sell-factory-work-instead-of-machines-ece16ecf-ddd3-45b4-be83-97cf30b01f4e",
+    "summary": "Extend Robotics, a UK teleoperation and robot-AI company, raised US$3.3M, per SaaS Rise deal coverage. The pitch is selling completed factory tasks rather than robots.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "funding"
+    ]
+  },
+  {
+    "id": "hn-49994206",
+    "title": "HUMXN pays for home-service calls in three US metros to record technicians as robot training data",
+    "date": "2026-10-07",
+    "source": "HUMXN",
+    "source_type": "Company",
+    "source_url": "https://humxn.io/humxn-launches-free-home-service-program",
+    "summary": "HUMXN, an AI data company, will subsidize plumbing, electrical, HVAC, air-duct and carpet-cleaning appointments in Minneapolis, Chicago and Miami so technicians can wear capture rigs on normal service calls. The footage becomes datasets for physical-AI developers; the company announced the program on 2026-10-06.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "hacker-news",
+      "training-data"
+    ]
+  },
+  {
+    "id": "hn-50004321",
+    "title": "MIT Technology Review: AI breakthroughs in robotics won't change your life any time soon",
+    "date": "2026-10-08",
+    "source": "MIT Technology Review",
+    "source_type": "News",
+    "source_url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+    "summary": "MIT Technology Review's explainer sets Musk's and Huang's humanoid timelines against researchers who doubt language-and-image AI will yet master physical variability. Yann LeCun is quoted saying none of the humanoid makers know how to make robots smart enough to be useful; Agility's Jonathan Hurst says a humanlike body is far easier than humanlike dynamics.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "hacker-news",
+      "discourse"
+    ]
+  },
+  {
+    "id": "hn-50004960",
+    "title": "California ruling stops a human-vs-robot cage fight",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.nytimes.com/2026/10/08/technology/human-robot-cage-fights-california-rek.html",
+    "summary": "The New York Times reports on a staged human-versus-humanoid cage fight that California called illegal. It is a small data point on how state regulators treat humanoid spectacle events.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "state-policy"
+    ]
+  },
+  {
+    "id": "hn-50012401",
+    "title": "Atomic Machines comes out of stealth with a \"Matter Compiler\" for micro-machines",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.nytimes.com/2026/10/07/science/atomic-machines-ai-micro-robots.html",
+    "summary": "Atomic Machines, after about six years in stealth, says its Matter Compiler turns code into working micro-machines without per-product tooling, per the New York Times (2026-10-07). Independent verification of the claim is not yet available.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "stealth"
+    ]
+  },
+  {
+    "id": "rss-fcc-robot-restrictions-could-a-614",
+    "title": "FCC robot restrictions push builders to decide what runs on the robot and what stays in the cloud",
+    "date": "2026-10-05",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/fcc-robot-restrictions-could-accelerate-shift-to-local-ai/",
+    "summary": "A Robot Report analysis argues the FCC covered-list action on foreign-made robots pushes companies deploying physical AI to split workloads between on-robot and cloud inference, and to check that the stack meets tightening security expectations.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "rss-import",
+      "fcc"
+    ]
+  },
+  {
+    "id": "rss-firedome-builds-autonomous-art-37",
+    "title": "FireDome builds autonomous wildfire-defense systems",
+    "date": "2026-10-06",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/firedome-builds-autonomous-artillery-for-wildfire-defense/",
+    "summary": "FireDome builds autonomous systems meant to protect communities and infrastructure from wildfire before firefighters arrive, per The Robot Report.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "rss-import",
+      "field-robotics"
+    ]
+  },
+  {
+    "id": "rss-sovereign-ai-same-landlord-tho-614",
+    "title": "\"Sovereign AI, same landlord\": NVIDIA's hold on physical-AI infrastructure",
+    "date": "2026-10-06",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/sovereign-ai-same-landlord-thoughts-physical-ai-race/",
+    "summary": "A Robot Report commentary argues that as physical-AI architectures multiply, NVIDIA is positioning its sovereign-AI strategy to stay the underlying platform in each country.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "rss-import",
+      "commentary"
+    ]
+  },
+  {
+    "id": "rss-aws-launches-open-source-physi-850",
+    "title": "AWS launches an open-source Physical AI Toolchain for robotics",
+    "date": "2026-10-08",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/",
+    "summary": "The toolchain strings together AWS and NVIDIA tools for synthetic data generation, model training, simulation and validation, edge deployment and continuous improvement. It puts a hyperscaler default underneath the NVIDIA robotics stack.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "rss-import",
+      "platform"
+    ]
+  },
+  {
+    "id": "rss-helm-ai-reaches-70m-in-signed-198",
+    "title": "Helm.ai says it has $70M in signed commercial contracts for its foundation models",
+    "date": "2026-10-08",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/helm-ai-reaches-70m-signed-commercial-contracts-foundation-models/",
+    "summary": "Helm.ai, the autonomous-driving and robotics software company, reports $70M in signed commercial contracts for models trained with its \"deep teaching\" unsupervised method. The figure is the company's own, via The Robot Report; the contract counterparties are not named in the excerpt.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "rss-import",
+      "self-reported"
+    ]
+  },
+  {
+    "id": "rss-jabil-discusses-the-pace-of-hu-66",
+    "title": "Jabil on the pace of humanoid development and production",
+    "date": "2026-10-08",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/jabil-discusses-pace-humanoid-robot-development-production/",
+    "summary": "Jabil, the contract manufacturer that works with humanoid developers such as Apptronik, gives a design-for-manufacture view of humanoid progress in a Robot Report interview.",
+    "category": "Deployment",
+    "companies": [
+      "apptronik"
+    ],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "rss-import",
+      "manufacturing"
+    ]
+  },
+  {
     "source_type": "News",
     "policies": [],
     "companies": [],

@@ -2560,5 +2560,35 @@
       }
     ],
     "last_updated": "2026-09-25"
+  },
+  {
+    "id": "fedreg-2026-20734",
+    "title": "FMCSA exemption: Level 4 automated trucks (Aurora) and warning devices",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-10-09",
+    "status": "In effect",
+    "bill_number": "2026-20734",
+    "sponsor": "Federal Agency",
+    "summary": "FMCSA announces its decision to grant a limited five-year exemption to Aurora Operations, Inc. (Aurora) and other motor carriers operating Level 4 automated driving system (ADS)-equipped commercial motor vehicles (CMVs), with prior notice to FMCSA, from compliance with the warning device placement requirements, the steady-burning lamp requirements, and the requirements for the types and number of warning devices. This exemption permits motor carriers to use cab-mounted warning beacons in lieu of traditional warning devices on Level 4 ADS- equipped CMVs. The Agency has determined that granting the exemption would likely achieve a level of safety equivalent to or greater than the level of safety provided by the regulation.",
+    "full_text_url": "https://www.federalregister.gov/documents/2026/10/09/2026-20734/parts-and-accessories-necessary-for-safe-operation-application-for-exemption-from-aurora-operations",
+    "robotics_scope": "Autonomous trucking: lets Level 4 driverless trucks use cab-mounted beacons instead of roadside triangles for five years.",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal-register",
+      "federal"
+    ],
+    "themes": [],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/10/09/2026-20734/parts-and-accessories-necessary-for-safe-operation-application-for-exemption-from-aurora-operations"
+      }
+    ],
+    "last_updated": "2026-10-09"
   }
 ]
