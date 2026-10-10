@@ -268,7 +268,9 @@
     "summary": "Chairman Brendan Carr announced on Oct 7 and the FCC published on Oct 8 a draft Third Report and Order (ET Docket 24-136) that would end FCC recognition of test labs and certification bodies in economies without reciprocal arrangements, including mainland China, on Dec 1, 2028. Labs in China tested 82% of devices that applied for FCC authorization in 2025 versus under 4% for US labs, and the draft counts 609 recognized labs, 25.1% of them in China. Every robot, drone and connected device sold in the US needs FCC authorization, so the order adds testing-capacity risk on top of the Covered List restrictions on foreign robots; China has filed a WTO TBT enquiry against it.",
     "category": "Policy",
     "companies": [],
-    "policies": [],
+    "policies": [
+      "fcc-et-24-136-china-test-labs-2026"
+    ],
     "themes": [
       "policy-momentum",
       "us-supply-chain"

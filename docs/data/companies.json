@@ -2207,19 +2207,10 @@
         ],
         "url": "https://www.therobotreport.com/fieldai-raises-405m-scales-physics-first-foundation-models-robots/",
         "confidence": "reported"
-      },
-      {
-        "date": "2026-10",
-        "round": "Reported round",
-        "amount_usd": 700000000,
-        "valuation_usd": 10000000000,
-        "investors": [],
-        "url": "https://runtimewire.com/article/fieldai-700m-term-sheet-10b-valuation",
-        "confidence": "reported"
       }
     ],
     "total_funding_usd": 405000000,
-    "latest_valuation_usd": 10000000000,
+    "latest_valuation_usd": 2000000000,
     "robot_types": [
       "foundation_model"
     ],
