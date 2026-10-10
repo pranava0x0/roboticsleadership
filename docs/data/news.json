@@ -1,5 +1,289 @@
 [
   {
+    "id": "microagi-100m-run-rate-claim-2026-10",
+    "title": "Microagi says it reached a $100M annualized revenue run rate six months after launching its Shift data platform",
+    "date": "2026-10-09",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/microagi-100-million-revenue-run-rate-six-months",
+    "summary": "CEO Bercan Kilic announced on Oct 9 that Munich-based Microagi hit a $100M annualized run rate within six months of launching Shift, which records people doing physical work and sells it as robot training data. The figure is a company claim: no revenue breakdown or calculation was given, and Humanoids Daily has not verified it. Microagi also sells Atlas, a deployment platform that runs on customers' existing hardware, raised a $55M seed led by Hummingbird this summer, and says chief research officer Animesh Garg's goal is to deploy one million robots.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "training-data",
+      "revenue-claim"
+    ]
+  },
+  {
+    "id": "china-new-quality-productive-forces-19-measures-2026-10",
+    "title": "Beijing issues 19-measure guideline on 'new quality productive forces' that names embodied intelligence a future industry and adds a risk-sharing mechanism",
+    "date": "2026-10-09",
+    "source": "Global Times",
+    "source_type": "News",
+    "source_url": "https://www.globaltimes.cn/page/202610/1371923.shtml",
+    "summary": "The CPC Central Committee and State Council published the 'Opinions on Developing New Quality Productive Forces' on Oct 9, with 19 measures covering technology and industrial innovation, 'AI Plus' adoption, institutional reform and talent. BigGo's reading is that it lists embodied intelligence among future industries and for the first time proposes an investment-growth and risk-sharing mechanism for them; Global Times says it also warns localities against 'involution-style' competition, speculative expansion and blind investment. Global Times cites National Bureau of Statistics data showing industrial robot output up 34.6% year on year in August.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "industrial-policy",
+      "embodied-ai"
+    ]
+  },
+  {
+    "id": "danu-robotics-seed-2026-10",
+    "title": "Edinburgh's Danu Robotics raises $5M late-seed for a claw-based recycling-sorting robot",
+    "date": "2026-10-09",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
+    "summary": "Danu Robotics raised $5M in late-seed funding for H.E.R.O., a recycling-sorting robot that picks with a pincer claw instead of suction and improves its software with AI. It reports $500,000 of signed contracts, letters of interest from two large customers and more than 200 customers in its pipeline; founder Amy Ma estimates a site earns $485,000 a year in added revenue against a $160,000 initial cost and $24,000 in annual maintenance. Danu competes with suction-based sorters such as Glacier and RecycleEye and will pitch at TechCrunch Disrupt's Startup Battlefield 200 on Oct 13-15.",
+    "category": "Funding",
+    "companies": [
+      "danu-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "funding",
+      "recycling",
+      "manipulation"
+    ]
+  },
+  {
+    "id": "robotera-vpp2-robodojo-2026-10",
+    "title": "Robotera's VPP2 world action model tops the RoboDojo simulation benchmark and beats pi0.5 zero-shot on real ALOHA arms",
+    "date": "2026-10-09",
+    "source": "Pandaily",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/robotera-vpp2-world-action-model-robodojo-aloha-zero-shot-open-source",
+    "summary": "Robotera says VPP2 ranks first on RoboDojo, a University of Hong Kong MMLab-led benchmark with about 20 institutions, averaging 32.26% success across 42 dual-arm tasks versus 22.48% for the strongest cited baseline (GPT-6-Astra). On a real ALOHA dual-arm robot it averaged 58.5% over 10 zero-shot task types against 40% for Physical Intelligence's pi0.5, with about 0.22 s latency per action chunk. These are company-reported results; rival Simate separately claimed the RoboDojo top spot last month, and Robotera says it already runs robots in more than 10 logistics centers across five provinces and cities.",
+    "category": "Research",
+    "companies": [
+      "robotera"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "china",
+      "world-model",
+      "benchmark"
+    ]
+  },
+  {
+    "id": "shield-ai-xbat-navy-150m-2026-10",
+    "title": "Navy adds $150M to Shield AI's X-BAT autonomous VTOL fighter, matched by $150M of company capital",
+    "date": "2026-10-08",
+    "source": "The Register",
+    "source_type": "News",
+    "source_url": "https://www.theregister.com/offbeat/2026/10/09/us-navy-bets-another-150m-on-fighter-drone-that-skips-the-runway/5302237",
+    "summary": "Shield AI says combined US government funding and its own commitments for the X-BAT autonomous vertical-takeoff fighter drone have reached $400M: the Navy committed an additional $150M, Shield AI is adding $150M of its own capital, and an earlier $50M under the RIMES program was also matched. Flight testing is slated for later this year and 'mission capability' for 2028. GeekWire reported the Navy award on Oct 8 and said the jet will be built south of Seattle.",
+    "category": "Funding",
+    "companies": [
+      "shield-ai"
+    ],
+    "policies": [],
+    "themes": [
+      "defense-procurement"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "defense",
+      "autonomy",
+      "navy"
+    ]
+  },
+  {
+    "id": "livsyn-series-a-2026-10",
+    "title": "Beijing's LivSyn Robotics raises a Series A of at least RMB 100M for a robot-to-AI-model integration platform",
+    "date": "2026-10-08",
+    "source": "TechNode",
+    "source_type": "News",
+    "source_url": "https://technode.com/2026/10/10/livsyn-robotics-raises-series-a-funding-for-platform-connecting-robots-with-ai-models/",
+    "summary": "LivSyn's Series A, announced Oct 8, drew financial investors, listed energy-services firm Suwen Electric Energy and an undisclosed embodied-AI strategic investor; Dealroom lists about $14.9M. Its RUDA architecture links different robot designs to AI models, with PhiAgent turning human demonstration videos into training data and RoboAgent executing tasks. It says the technology is deployed in optical-module insertion and removal, battery assembly and electronics inspection.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "funding",
+      "embodied-ai"
+    ]
+  },
+  {
+    "id": "leju-sabo-acquisition-2026-10",
+    "title": "Leju Robotics buys German garden-equipment maker SABO for up to EUR 6M to enter European sales channels",
+    "date": "2026-10-08",
+    "source": "BigGo Finance",
+    "source_type": "News",
+    "source_url": "https://finance.biggo.com/news/7ed8b6ba-2f15-479f-b750-4ebdcb32808f",
+    "summary": "Hong Kong-listed Leju Robotics (01236.HK) said it will acquire all equity in SABO-Maschinenfabrik GmbH for no more than EUR 6M, to gain a European brand, a network of more than 1,400 specialty retailers, a service network and local supply-chain resources for its smart garden robots. SABO becomes a wholly owned subsidiary consolidated into Leju's accounts. Leju shares rose as much as 20% intraday to HK$31.68 before paring gains to about 3%.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "china",
+      "acquisition",
+      "europe"
+    ]
+  },
+  {
+    "id": "ifr-service-robots-2025-shipments-2026-10",
+    "title": "IFR: professional service-robot shipments rose 24% to almost 250,000 units in 2025, with about 7,000 full-size humanoids sold",
+    "date": "2026-10-08",
+    "source": "International Federation of Robotics",
+    "source_type": "Primary",
+    "source_url": "https://ifr.org/news/global-sales-of-professional-service-robots-surge-24-percent/",
+    "summary": "The IFR's World Robotics 2026 service-robot report counts almost 250,000 professional service robots shipped in 2025 (+24%), led by transport and logistics at 117,500 units (+21%, 47% share), with robots-as-a-service already the dominant model in the US. Medical robots grew 19% (surgical robots 8,400 units, +57%), consumer service robots rose 37% to about 34.2M units, and about 7,000 full-size humanoids (over 140 cm) were sold for commercial and professional use. The IFR notes most humanoid applications remain specialized and often need human teleoperation.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "ifr",
+      "service-robots",
+      "statistics"
+    ]
+  },
+  {
+    "id": "striding-ai-h1-convenience-store-2026-10",
+    "title": "Striding AI shows H1 humanoid and C1 wheeled robots for 24/7 convenience stores and targets 2027 commercial service",
+    "date": "2026-10-08",
+    "source": "Pandaily",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/striding-ai-retail-physical-ai-h1-humanoid-c1-wheeled-robot-m1-convenience-stores",
+    "summary": "Beijing-based Striding AI, co-founded with Thailand's Charoen Pokphand Group, showed its H1 biped, C1 wheeled arm robot and M1 management platform at the 22nd Asia-Pacific Retailers Convention on Oct 8, saying the setup needs no shelf retrofits. It claims robots finish 99% of tasks autonomously (not explained in detail), reports 98.6% average success on the LIBERO benchmark for its SLM-0.5 model and 95% on a shelf-stocking task, and plans a test with a large global retailer before commercial service in 2027.",
+    "category": "Competitive",
+    "companies": [
+      "striding-ai"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "china",
+      "humanoid",
+      "retail"
+    ]
+  },
+  {
+    "id": "parallel-systems-series-c-2026-10",
+    "title": "Parallel Systems raises $100M Series C led by AVP to scale autonomous freight-rail vehicles",
+    "date": "2026-10-07",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/07/spacex-alumni-nab-100m-to-rethink-shipping-with-autonomous-freight-trains/",
+    "summary": "Parallel Systems closed a $100M Series C led by AVP, with Hillspire, Agility Global and Cobalt Capital joining and Anthos Capital, Congruent Ventures, Riot and Collaborative Fund returning. The money funds production of its third-generation battery-electric Panther rail vehicle, which can carry several tons of freight up to 500 miles without an operator, and entry into international markets. It runs a Federal Railroad Administration-supervised pilot with Genesee & Wyoming in Georgia, and several major railroads are under contract per its press release.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "funding",
+      "rail",
+      "autonomy"
+    ]
+  },
+  {
+    "id": "figure-nvidia-1b-talks-2026-10",
+    "title": "Nvidia reportedly discussed another $1B investment in Figure AI at about a $38B pre-money valuation",
+    "date": "2026-10-07",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/nvidia-figure-billion-investment-talks-report",
+    "summary": "The Information reported on Oct 7 that Nvidia has discussed investing another $1B in Figure, which is reportedly seeking new financing at roughly a $38B pre-money valuation. No deal, closing date or terms were reported. Figure's September 2025 Series C raised more than $1B at a $39B post-money valuation with Nvidia among backers, and its September 2026 Nscale compute deal commits an initial $3.5B toward up to 100,000 Vera Rubin GPUs.",
+    "category": "Funding",
+    "companies": [
+      "figure-ai"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "funding",
+      "nvidia",
+      "reported-talks"
+    ]
+  },
+  {
+    "id": "fcc-test-lab-draft-order-2026-10",
+    "title": "FCC to vote Oct 29 on ending recognition of every mainland-China test lab on Dec 1, 2028",
+    "date": "2026-10-07",
+    "source": "DroneXL",
+    "source_type": "News",
+    "source_url": "https://dronexl.co/2026/10/10/fcc-vote-chinese-test-labs-82-percent-us-devices/",
+    "summary": "Chairman Brendan Carr announced on Oct 7 and the FCC published on Oct 8 a draft Third Report and Order (ET Docket 24-136) that would end FCC recognition of test labs and certification bodies in economies without reciprocal arrangements, including mainland China, on Dec 1, 2028. Labs in China tested 82% of devices that applied for FCC authorization in 2025 versus under 4% for US labs, and the draft counts 609 recognized labs, 25.1% of them in China. Every robot, drone and connected device sold in the US needs FCC authorization, so the order adds testing-capacity risk on top of the Covered List restrictions on foreign robots; China has filed a WTO TBT enquiry against it.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "fcc-et-24-136-china-test-labs-2026"
+    ],
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "fcc",
+      "china",
+      "testing-labs"
+    ]
+  },
+  {
     "id": "treasury-outbound-penalty-noematrix-2026-10",
     "title": "Treasury issues first Outbound Investment Security Program penalty, over a Chinese embodied-AI investment",
     "date": "2026-10-07",
@@ -45,6 +329,31 @@
       "funding",
       "series-a",
       "raas"
+    ]
+  },
+  {
+    "id": "anduril-arsenal2-shipyard-2026-10",
+    "title": "Anduril and the Navy commit $6.6B to a 'software-defined' Maryland shipyard for Virginia-class submarine components",
+    "date": "2026-10-06",
+    "source": "DefenseScoop",
+    "source_type": "News",
+    "source_url": "https://defensescoop.com/2026/10/06/white-house-anduril-announce-new-shipyard-baltimore-county/",
+    "summary": "The White House and Anduril unveiled Arsenal-2 on Oct 6: a Navy contract worth up to $2.9B plus $3.7B of Anduril's own funds to build a 187-acre, 2M-square-foot facility at Tradepoint Atlantic in Baltimore County. It will build Virginia-class submarine components for Electric Boat and Newport News Shipbuilding on Anduril's ArsenalOS production software, with initial operations expected in 2030. The White House cited more than 13,000 direct and indirect jobs.",
+    "category": "Deployment",
+    "companies": [
+      "anduril"
+    ],
+    "policies": [],
+    "themes": [
+      "defense-procurement",
+      "us-supply-chain"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "defense",
+      "shipbuilding",
+      "manufacturing"
     ]
   },
   {
@@ -113,6 +422,31 @@
       "china",
       "ipo",
       "warehouse"
+    ]
+  },
+  {
+    "id": "fieldai-700m-10b-report-2026-10",
+    "title": "FieldAI reported to be raising $700M at a $10B valuation, up from $2B in 2025",
+    "date": "2026-10-02",
+    "source": "Runtime Wire",
+    "source_type": "News",
+    "source_url": "https://runtimewire.com/article/fieldai-700m-term-sheet-10b-valuation",
+    "summary": "Business Insider reported on Oct 2 that Irvine-based FieldAI has a $700M round at a $10B valuation, five times its $2B valuation in 2025; one summary says a term sheet is signed and the round has not formally closed, and no lead investor was named. FieldAI says revenue plus signed contracts have passed $135M across more than 30 customers in construction, data centers and defense, including at least $35M added since June. Prior backers include Bezos Expeditions, Emerson Collective and Khosla Ventures.",
+    "category": "Funding",
+    "companies": [
+      "field-ai"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Low",
+    "tags": [
+      "funding",
+      "valuation",
+      "reported"
     ]
   },
   {

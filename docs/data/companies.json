@@ -2248,7 +2248,7 @@
         "url": "https://www.prnewswire.com/news-releases/fieldai-announces-over-400m-in-funds-raised-to-advance-embodied-ai-at-scale-302534675.html"
       }
     ],
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-10-10",
     "themes": [
       "foundation-models",
       "physical-ai"
@@ -9370,6 +9370,130 @@
       "revenue_usd": null,
       "revenue_year": null,
       "details": null
+    },
+    "map_category": "industrial"
+  },
+  {
+    "id": "striding-ai",
+    "name": "Striding AI",
+    "founded": "N/A",
+    "hq": {
+      "city": "Beijing",
+      "state": "N/A",
+      "country": "China"
+    },
+    "website": "https://app.dealroom.co/companies/striding_ai",
+    "funding_rounds": [
+      {
+        "date": "2026-06",
+        "round": "Angel",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "CP Group",
+          "Huaqin Technology"
+        ],
+        "url": "https://eu.36kr.com/en/newsflashes/3865134271599874",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "humanoid"
+    ],
+    "primary_use_case": "convenience-store humanoid and wheeled-arm robots",
+    "flagship_product": "H1 humanoid; C1 wheeled robot",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "china",
+      "humanoid",
+      "retail"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      {
+        "url": "https://eu.36kr.com/en/newsflashes/3865134271599874"
+      },
+      {
+        "url": "https://pandaily.com/striding-ai-retail-physical-ai-h1-humanoid-c1-wheeled-robot-m1-convenience-stores"
+      }
+    ],
+    "last_updated": "2026-10-10",
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Nearly $100M angel round (June 2026, 36Kr) with CP Group and Huaqin. Founding year and website are unverified; company-claimed performance figures only."
+    },
+    "map_category": "humanoid"
+  },
+  {
+    "id": "danu-robotics",
+    "name": "Danu Robotics",
+    "founded": "N/A",
+    "hq": {
+      "city": "Edinburgh",
+      "state": "N/A",
+      "country": "UK"
+    },
+    "website": "https://www.danurobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2026-10",
+        "round": "Late seed",
+        "amount_usd": 5000000,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 5000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "manipulator"
+    ],
+    "primary_use_case": "recycling sorting with a pincer-claw robot",
+    "flagship_product": "H.E.R.O.",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "recycling",
+      "manipulation"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/"
+      }
+    ],
+    "last_updated": "2026-10-10",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "$5M late seed; reports $500,000 of signed contracts. Investors not named in the source."
     },
     "map_category": "industrial"
   }

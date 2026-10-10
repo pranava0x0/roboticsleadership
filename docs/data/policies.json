@@ -2590,5 +2590,46 @@
       }
     ],
     "last_updated": "2026-10-09"
+  },
+  {
+    "id": "fcc-et-24-136-china-test-labs-2026",
+    "title": "FCC draft order: end recognition of mainland-China test labs (ET Docket 24-136)",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-10-07",
+    "status": "Draft",
+    "bill_number": "ET Docket 24-136",
+    "sponsor": "FCC",
+    "summary": "Chairman Brendan Carr announced on Oct 7 and the FCC published on Oct 8 a draft Third Report and Order (ET Docket 24-136) that would end FCC recognition of test labs and certification bodies in economies without reciprocal arrangements, including mainland China, on Dec 1, 2028. Labs in China tested 82% of devices that applied for FCC authorization in 2025 versus under 4% for US labs, and the draft counts 609 recognized labs, 25.1% of them in China. Every robot, drone and connected device sold in the US needs FCC authorization, so the order adds testing-capacity risk on top of the Covered List restrictions on foreign robots; China has filed a WTO TBT enquiry against it.",
+    "full_text_url": "https://dronexl.co/2026/10/10/fcc-vote-chinese-test-labs-82-percent-us-devices/",
+    "robotics_scope": "Every robot, drone and connected device sold in the US needs FCC authorization; most of that testing happens in China today.",
+    "estimated_budget_usd": null,
+    "beneficiaries": [
+      "US test labs"
+    ],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "draft",
+      "fcc",
+      "china",
+      "testing"
+    ],
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "sources": [
+      {
+        "url": "https://dronexl.co/2026/10/10/fcc-vote-chinese-test-labs-82-percent-us-devices/"
+      },
+      {
+        "url": "https://www.thestandard.com.hk/finance/article/344931/US-FCC-to-vote-to-ban-all-Chinese-labs-from-testing-US-electronics"
+      }
+    ],
+    "last_updated": "2026-10-10"
   }
 ]
