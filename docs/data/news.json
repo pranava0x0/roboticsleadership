@@ -1,5 +1,790 @@
 [
   {
+    "id": "hn-49991381",
+    "title": "AI Just Became Humanity's Biggest Threat [video]",
+    "date": "2026-10-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=ujkD4SxPKOI",
+    "summary": "AI Just Became Humanity's Biggest Threat [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50001441",
+    "title": "Humanity's Last Problem",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://benhylak.substack.com/p/humanitys-last-problem",
+    "summary": "Humanity's Last Problem",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50008586",
+    "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
+    "summary": "The Download: AI roadblocks for humanoids and portable rubber dams",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50021594",
+    "title": "A Code of Conduct for Humanist AI",
+    "date": "2026-10-09",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/mustafasuleyman/status/2099488602418028917",
+    "summary": "A Code of Conduct for Humanist AI",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50023136",
+    "title": "How people use social media may matter more than screen time for mental health",
+    "date": "2026-10-09",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://news.exeter.ac.uk/faculty-of-humanities-arts-and-social-sciences/focus-on-social-media-engagement-not-just-screen-time-essential-to-help-protect-mental-health/",
+    "summary": "How people use social media may matter more than screen time for mental health",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49991829",
+    "title": "Show HN: PanelAlpha Engine – Turn your VPS into a programmable hosting layer",
+    "date": "2026-10-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://engine.panelalpha.com/",
+    "summary": "PanelAlpha Engine is an open-source hosting environment for your VPS, programmable through MCP, API and CLI.After ~2 years in the making (we started back in the non-ai era) we've decided to open ",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49992038",
+    "title": "The keys to the Internet change on October 11. Are you ready?",
+    "date": "2026-10-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
+    "summary": "The keys to the Internet change on October 11. Are you ready?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49992104",
+    "title": "Jumper – a 22-DoF crab robot",
+    "date": "2026-10-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/KingKongRobotics/jumper",
+    "summary": "Jumper – a 22-DoF crab robot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49993797",
+    "title": "Show HN: 3D-printed bipedal robot with 8-servo limit to teach robotics",
+    "date": "2026-10-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://nixrobot.pages.dev/",
+    "summary": "Hi HN,I wanted to share a 10-DOF bipedal robot with open CAD files that I built. In my opinion, it is a nice platform for studying robotics. The machine can walk, sit, stand up after falls, kick, turn",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49993798",
+    "title": "JengaBot: Pez for Robots",
+    "date": "2026-10-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://thisismypersonalblog.com/posts/2026-10-07-pez-for-robots/",
+    "summary": "JengaBot: Pez for Robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49993993",
+    "title": "Show HN: Collision avoidance in industrial robotics using robotsimulator.ai",
+    "date": "2026-10-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.babacad.com/robotics/web/",
+    "summary": "Show HN: Collision avoidance in industrial robotics using robotsimulator.ai",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-49994345",
+    "title": "Configurable physical test lines for robot evaluation",
+    "date": "2026-10-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.datacompany.dev",
+    "summary": "Configurable physical test lines for robot evaluation",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50000914",
+    "title": "The impact of Dolly Parton's death on Wikipedia",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://diff.wikimedia.org/2026/10/07/storms-make-trees-take-deeper-roots-the-impact-of-dolly-partons-death-on-wikipedia/",
+    "summary": "The impact of Dolly Parton's death on Wikipedia",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50010904",
+    "title": "JengaBot part 2: Pez for robots",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://medium.com/@rob.bercik/jenga-bot-pt2-pez-for-robots-a37786b165dc",
+    "summary": "JengaBot part 2: Pez for robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50011975",
+    "title": "Rolling the Root Key (Update)",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://ispcol.potaroo.net/2026-10/kskroll.html",
+    "summary": "Rolling the Root Key (Update)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50012433",
+    "title": "A robot entered a Denver comedy club. (This isn't a joke.)",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://coloradosun.com/2026/10/08/robot-improv-death-artificial-intelligence-research-human/",
+    "summary": "A robot entered a Denver comedy club. (This isn't a joke.)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50013223",
+    "title": "This San Francisco Restaurant Tried Pay-What-You-Can Dining and It's Going Great",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://sf.eater.com/restaurant-news/213772/merchant-roots-pay-what-you-can-update-san-francisco",
+    "summary": "This San Francisco Restaurant Tried Pay-What-You-Can Dining and It's Going Great",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50013723",
+    "title": "Planning system ensures a robot's flight path will remain collision-free",
+    "date": "2026-10-08",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://news.mit.edu/2026/planning-system-ensures-robots-flight-path-will-remain-collision-free-1007",
+    "summary": "Planning system ensures a robot's flight path will remain collision-free",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50014480",
+    "title": "Show HN: Agents can now create iOS Live Activities",
+    "date": "2026-10-09",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/kunalabcdani/status/2108353343089152106",
+    "summary": "I gave my agents a way to create Live Activities on my iPhone lock screen.Their notifications were becoming noise, so I built Agent Activity to surface what matters, updating in real timeSome of my fa",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50019294",
+    "title": "Tiny(43mb) voice-first decision model for robotics",
+    "date": "2026-10-09",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://huggingface.co/neuphonic/neudecide",
+    "summary": "Tiny(43mb) voice-first decision model for robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50023510",
+    "title": "\"I'm programmed to get money every day like a robot\"",
+    "date": "2026-10-09",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://bellrun.com",
+    "summary": "\"I'm programmed to get money every day like a robot\"",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50024570",
+    "title": "Rolling the Root Key",
+    "date": "2026-10-09",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://blog.apnic.net/2026/10/09/rolling-the-root-key-2/",
+    "summary": "Rolling the Root Key",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50024816",
+    "title": "Root Zone KSK Rollover on October 11",
+    "date": "2026-10-09",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://lists.icann.org/hyperkitty/list/ksk-rollover@icann.org/thread/2JDG6PJDGXHZNHON62B2A43QQVN5FZHN/#RRERE3AYVWHOMA6VQXM3GPFWXBI54ENL",
+    "summary": "Root Zone KSK Rollover on October 11",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50030491",
+    "title": "Meet Bibi: We're Building a Voice-Controlled Robot",
+    "date": "2026-10-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/shorts/dQeFn7aHyGc",
+    "summary": "Meet Bibi: We're Building a Voice-Controlled Robot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50033189",
+    "title": "Show HN: Tessary – Find the AI agent failures your sampled evals miss",
+    "date": "2026-10-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/tessaryai/tessary",
+    "summary": "Hey, I'm Akhil, co-founder of Tessary. An open-source agent reliability platform that monitors every production trace, detects issues that sampled evals miss, and investigates to find the root ca",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-harmonic-drive-to-share-how-in-140",
+    "title": "Harmonic Drive to share how integrated actuators can reduce engineering at RoboBusiness",
+    "date": "2026-10-07",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/harmonic-drive-share-how-integrated-actuators-reduce-engineering-robobusiness/",
+    "summary": "Attendees will learn how integrated actuators can reduce engineering effort by simplifying system integration.\nThe post Harmonic Drive to share how integrated actuators can reduce engineering at RoboB...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-teradyne-robotics-elite-robots-273",
+    "title": "Teradyne Robotics, Elite Robots settle cobot dispute",
+    "date": "2026-10-07",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/terayne-robotics-elite-robots-settle-cobot-dispute/",
+    "summary": "Teradyne Robotics and Elite Robots have settled their software dispute, ending the legal case without disclosing the terms of the agreement.\nThe post Teradyne Robotics, Elite Robots settle cobot dispu...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-ptc-acquisition-positions-schn-581",
+    "title": "PTC acquisition positions Schneider Electric to challenge Siemens",
+    "date": "2026-10-07",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/ptc-acquisition-positions-schneider-electric-challenge-siemens/",
+    "summary": "The Schneider Electric acquisition of PTC gives it a 'digital thread' from design through operations, but it needs to integrate data and software, says Interact Analysis.\nThe post PTC acquisition posi...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-safeworld-emerges-from-stealth-352",
+    "title": "SafeWorld emerges from stealth to build, deploy robot safety simulation technologies",
+    "date": "2026-10-08",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/safeworld-emerges-stealth-build-deploy-robot-safety-simulation-technologies/",
+    "summary": "SafeWorld’s platform provides testing and simulation software to help enterprises evaluate and deploy robots safely and responsibly.\nThe post SafeWorld emerges from stealth to build, deploy robot safe...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-groceryshop-2026-shows-that-re-337",
+    "title": "Groceryshop 2026 shows that retail robots are ready to scale, use AI",
+    "date": "2026-10-09",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/groceryshop-2026-shows-retail-robots-ready-scale-use-ai/",
+    "summary": "Groceryshop 2026 not only featured mobile robots for taking inventory, but it also showed how retail automation is evolving.\nThe post Groceryshop 2026 shows that retail robots are ready to scale, use ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-boston-dynamics-gives-more-ins-561",
+    "title": "Boston Dynamics gives more insight into its redesigned humanoid hand",
+    "date": "2026-10-09",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its-redesigned-humanoid-hand/",
+    "summary": "The Robot Report spoke with Alberto Rodriguez, the director of robot behavior for Atlas at Boston Dynamics, about the humanoid's new hand.\nThe post Boston Dynamics gives more insight into its redesign...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-why-humanoid-robot-demos-still-256",
+    "title": "Why humanoid robot demos still fail the generalization test",
+    "date": "2026-10-09",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/",
+    "summary": "How better data and human judgment can help robots move beyond demos toward reliable real-world performance.\nThe post Why humanoid robot demos still fail the generalization test appeared first on The ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-why-dexterity-is-physical-ai-s-924",
+    "title": "Why dexterity is physical AI’s real bottleneck",
+    "date": "2026-10-10",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/why-dexterity-is-physical-ai-real-bottleneck/",
+    "summary": "The next major challenge in robotic dexterity is making the entire system reliable enough to turn capabilities into useful work.\nThe post Why dexterity is physical AI’s real bottleneck appeared first ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-5-days-to-techcrunch-disrupt-2-142",
+    "title": "5 days to TechCrunch Disrupt 2026: Don’t pay more at the door for your pass",
+    "date": "2026-10-08",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door/",
+    "summary": "The global tech ecosystem gathers at TechCrunch Disrupt 2026 at San Francisco’s Moscone West on October 13-15. Get your pass now to save up to $100. Get a second of the same ticket type to save 50%.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-techcrunch-disrupt-2026-starts-375",
+    "title": "TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise",
+    "date": "2026-10-09",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
+    "summary": "Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, investors, and tech leaders gather in San Francisco's Moscone West on October 13-15. Save up to $100 on your price. Plus, save 50%...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-we-can-t-help-treating-ai-like-973",
+    "title": "We can’t help treating AI like it’s human. But should we?",
+    "date": "2026-10-09",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
+    "summary": "\"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,\" Dr. Sherry Turkle writes. \"And we are wired to care for it in return.\"",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-3-days-to-techcrunch-disrupt-2-947",
+    "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+    "date": "2026-10-10",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+    "summary": "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ s...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-hiphi-a-large-scale-benchmark-376",
+    "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction",
+    "date": "2026-10-07",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/",
+    "summary": "This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how polici...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-this-disembodied-hand-is-all-t-330",
+    "title": "This Disembodied Hand Is All the Robot You Need",
+    "date": "2026-10-08",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/walking-robotic-hand",
+    "summary": "A hand attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have turned an off-the-shelf robotic han...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-video-friday-robot-decommissio-541",
+    "title": "Video Friday: Robot Decommissioning Takes a Fun Turn",
+    "date": "2026-10-09",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-reachy-mini-raps",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "microagi-100m-run-rate-claim-2026-10",
     "title": "Microagi says it reached a $100M annualized revenue run rate six months after launching its Shift data platform",
     "date": "2026-10-09",
