@@ -9385,7 +9385,7 @@
   {
     "id": "striding-ai",
     "name": "Striding AI",
-    "founded": "2025",
+    "founded": "N/A",
     "hq": {
       "city": "Beijing",
       "state": "N/A",
@@ -9396,7 +9396,7 @@
       {
         "date": "2026-06",
         "round": "Angel",
-        "amount_usd": 100000000,
+        "amount_usd": null,
         "valuation_usd": null,
         "investors": [
           "CP Group",
@@ -9406,7 +9406,7 @@
         "confidence": "reported"
       }
     ],
-    "total_funding_usd": 100000000,
+    "total_funding_usd": null,
     "latest_valuation_usd": null,
     "robot_types": [
       "humanoid"

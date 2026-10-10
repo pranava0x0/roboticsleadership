@@ -123,12 +123,12 @@ test('physical-ai-action-plan: later sections ship collapsed, and print opens th
   assert(/afterprint/.test(html), 'afterprint no longer restores the pre-print state (the open toggles would otherwise persist to localStorage)');
 });
 
-console.log(`\n${passed} passed, ${failed} failed`);
-if (failed) process.exit(1);
-
 test('energy: Project Prime Mover ships collapsed, and print opens it', () => {
   // Always-visible draft RFI pushed energy.html to 14.4 phone screens (budget 15).
   const html = read('energy.html');
   assert(/<details class="collapsible-section e-section" id="prime-mover"(?![^>]*\bopen\b)/.test(html), 'prime-mover is not a closed details');
   assert(/beforeprint/.test(html) && /afterprint/.test(html), 'energy.html lost its print handler for collapsed sections');
 });
+
+console.log(`\n${passed} passed, ${failed} failed`);
+if (failed) process.exit(1);

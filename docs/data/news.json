@@ -53,7 +53,9 @@
     "source_url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
     "summary": "Danu Robotics raised $5M in late-seed funding for H.E.R.O., a recycling-sorting robot that picks with a pincer claw instead of suction and improves its software with AI. It reports $500,000 of signed contracts, letters of interest from two large customers and more than 200 customers in its pipeline; founder Amy Ma estimates a site earns $485,000 a year in added revenue against a $160,000 initial cost and $24,000 in annual maintenance. Danu competes with suction-based sorters such as Glacier and RecycleEye and will pitch at TechCrunch Disrupt's Startup Battlefield 200 on Oct 13-15.",
     "category": "Funding",
-    "companies": [],
+    "companies": [
+      "danu-robotics"
+    ],
     "policies": [],
     "themes": [
       "industrial-deployments"
@@ -192,7 +194,9 @@
     "source_url": "https://pandaily.com/striding-ai-retail-physical-ai-h1-humanoid-c1-wheeled-robot-m1-convenience-stores",
     "summary": "Beijing-based Striding AI, co-founded with Thailand's Charoen Pokphand Group, showed its H1 biped, C1 wheeled arm robot and M1 management platform at the 22nd Asia-Pacific Retailers Convention on Oct 8, saying the setup needs no shelf retrofits. It claims robots finish 99% of tasks autonomously (not explained in detail), reports 98.6% average success on the LIBERO benchmark for its SLM-0.5 model and 95% on a shelf-stocking task, and plans a test with a large global retailer before commercial service in 2027.",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "striding-ai"
+    ],
     "policies": [],
     "themes": [
       "china-scale",
