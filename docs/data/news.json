@@ -1,5 +1,49 @@
 [
   {
+    "id": "agile-robots-worker-video-training-2026-10",
+    "title": "Agile Robots says factory robots can be trained from workers filming their own tasks",
+    "date": "2026-10-09",
+    "source": "The Star",
+    "source_type": "News",
+    "source_url": "https://www.thestar.com.my/tech/tech-news/2026/10/09/german-startup-trains-its-robots-using-humans-filming-themselves",
+    "summary": "Agile Robots CEO Zhaopeng Chen said in Turin that workers film their hand movements at the Munich company's Robot Academy, combined with simulation, to close a training-data shortfall. He said it has deployed over 20,000 systems and raised US$1.5B to date; both are company figures.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "training-data",
+      "europe"
+    ]
+  },
+  {
+    "id": "byd-humanoid-design-patent-2026-10",
+    "title": "BYD humanoid robot design patent published in China",
+    "date": "2026-10-09",
+    "source": "CnEVPost",
+    "source_type": "News",
+    "source_url": "https://cnevpost.com/2026/10/09/byd-humanoid-robot-design-emerges/",
+    "summary": "China's patent office published a design patent for an embodied-intelligence robot held by BYD, showing a bipedal humanoid with articulated fingers. It covers appearance only; BYD had not formally unveiled the robot as of Oct 9, despite earlier saying it would show one in August.",
+    "category": "Geopolitics",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "china",
+      "patent",
+      "automaker"
+    ]
+  },
+  {
     "id": "microagi-100m-run-rate-claim-2026-10",
     "title": "Microagi says it reached a $100M annualized revenue run rate six months after launching its Shift data platform",
     "date": "2026-10-09",
@@ -91,6 +135,27 @@
       "china",
       "world-model",
       "benchmark"
+    ]
+  },
+  {
+    "id": "mmi-series-d-2026-10",
+    "title": "Medical Microinstruments raises $125M Series D for its Symani robotic microsurgery system",
+    "date": "2026-10-08",
+    "source": "MedTech Dive",
+    "source_type": "News",
+    "source_url": "https://www.medtechdive.com/news/mmi-raises-125m-to-scale-up-in-robotic-microsurgery/832607/",
+    "summary": "Jacksonville-based Medical Microinstruments closed a $125M Series D led by BioStar Capital, with S3 Ventures and Angelini Ventures participating. The company reports about 50 installed Symani systems and roughly 3,500 procedures performed worldwide.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "surgical-robotics",
+      "series-d"
     ]
   },
   {
@@ -208,6 +273,30 @@
       "china",
       "humanoid",
       "retail"
+    ]
+  },
+  {
+    "id": "tesla-optimus-1000-week-target-2026-10",
+    "title": "Tesla reportedly targets 1,000+ Optimus robots a week by end-2026",
+    "date": "2026-10-07",
+    "source": "BGR",
+    "source_type": "News",
+    "source_url": "https://www.bgr.com/2279995/tesla-optimus-robot-production-ramp-up/",
+    "summary": "BGR, citing The Information, reports Tesla expects to build more than 1,000 Optimus units a week by end-2026, about 10x its Q2 output. Hand and forearm assembly remains a manual bottleneck. The target is not confirmed by Tesla.",
+    "category": "Deployment",
+    "companies": [
+      "tesla-optimus"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "optimus",
+      "production-ramp",
+      "unconfirmed"
     ]
   },
   {
@@ -422,6 +511,30 @@
       "china",
       "ipo",
       "warehouse"
+    ]
+  },
+  {
+    "id": "jpmorgan-unitree-underweight-2026-10",
+    "title": "JPMorgan initiates Unitree at Underweight with a 300 yuan target",
+    "date": "2026-10-05",
+    "source": "Tiger Brokers",
+    "source_type": "News",
+    "source_url": "https://www.itiger.com/news/1164841332",
+    "summary": "JPMorgan started coverage of Unitree (STAR Market) at Underweight with a 300 yuan target against a share price near 450 yuan, citing about 46x 2027 price-to-sales. Market cap is near 200 billion yuan, roughly half the listing-day peak; Nomura's target is 370 yuan.",
+    "category": "Funding",
+    "companies": [
+      "unitree"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Negative",
+    "confidence": "Medium",
+    "tags": [
+      "unitree",
+      "valuation",
+      "analyst"
     ]
   },
   {

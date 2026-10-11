@@ -4,6 +4,16 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-10-11 (scheduled full-site refresh: X list, web sweep)
+
+- [ ] **(medium) Track the robotics-commission bills in policies.json.** National Commission on Robotics Act (H.R. 7334, House, Feb 2026; Senate companion S. 4686, Young/McCormick/Hickenlooper, 2026-06-04, in Commerce) and the Humanoid ROBOT Act (S. 3275, Cassidy/Coons). Check which are already rows; the commission bills are the closest thing to a national strategy vehicle and frame the "no centralized US robotics strategy" gap on the front page.
+- [ ] **(low) Unitree trades at ~46x 2027 sales (JPMorgan, Underweight, 300 yuan vs ~450); shares about half the listing-day peak.** Consider a valuation-vs-revenue row on china.html with Nomura (370) as the other analyst anchor; sources are secondary market wires.
+- [ ] **(low) Tesla 1,000 Optimus/week target is single-source (The Information via BGR).** Do not put it in the Tesla company record until Tesla or a second outlet confirms.
+- [ ] **(low) Leads not applied:** MicroFactory $11,950 desktop mini-factory (Ilir Aliu, X); Humanoid Hub Conference, SF, Oct 15-16 (Auki's Nils Pihl keynoting); Geek+ stake in Beijing Shenyi; SenseTime/Galbot retail bids (no primary source found).
+- Curated this run: scraper pass 40 news + 1 policy candidates, kept 0 (all noise or already tracked; list in data/research/refresh-2026-10-11-dropped.json). The sweep supplied 5 records, all authored. X list was thin (commentary and map posts, no new capital events).
+
+---
+
 ## ▶ Added 2026-10-09 (scheduled full-site refresh: X list, web sweep, UAT pass)
 
 - [ ] **(medium) Treasury's first Outbound Investment Security Program penalty hit a robotics target.** $200K on Amidi (Plug and Play parent) over a ~$92K stake in Shanghai Qiongche (Noematrix), 2026-10-07. us_china.json has no row for outbound-investment rules; consider a "capital flows" metric alongside the Entity List and FCC rows. Reframe candidate: the US now polices US money into Chinese embodied AI, not only Chinese hardware into the US.
