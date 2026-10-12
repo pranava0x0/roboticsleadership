@@ -390,3 +390,6 @@ The report breaks industrial robotics down by *application* — a lens we don't 
 - (low, 2026-10-10) Unverified leads: ex-Tesla Optimus lead's industrial-robot startup (The Information, paywalled); Terafab/TSMC chip-fab talk; Sifted report of an ex-OpenAI robotics lead's factory startup in insolvency. Confirm before authoring.
 - (low, 2026-10-10) Add a "tested at a count of N labs" measure to the supply-chain tab if the FCC order passes; 82% of FCC-authorization applications were tested in China in 2025.
 - (medium, 2026-10-10) FieldAI $700M at $10B is a reported term sheet, not closed; companies.json keeps the $2B Series D valuation. Add the round once it closes.
+
+- **Policy watch: UK Robotics Adoption Hubs (£40M, 2026-10-09)** — add a non-US/China 'allies' strip to policies.html or us_china if a third comparator is wanted; medium priority. No new US federal RFI/EO found in the Oct 7-12 Federal Register sweep.
+- **Framing: China component investing** — 36Kr counts 20+ embodied-AI firms with 100+ outside investments; consider a supply-chain 'who funds the components' view. Low priority.
