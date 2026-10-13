@@ -1,5 +1,300 @@
 [
   {
+    "id": "astribot-rmb1b-round-2026-10",
+    "title": "Astribot raises another RMB 1 billion at a RMB 15 billion valuation, its fourth round in six months",
+    "date": "2026-10-13",
+    "source": "Sina Finance",
+    "source_url": "https://finance.sina.com.cn/tech/roll/2026-10-13/doc-inivafqm8110245.shtml",
+    "summary": "Shenzhen's Astribot closed a roughly RMB 1B (~US$140M) round led by SZ Capital's Donghai fund, with Hontai Fund and Shanhen Capital joining and existing backer Xianmu following on. Reports put the valuation at RMB 15B (~US$2.1B), up from about RMB 10B in the June Series B; the money goes to model iteration, hiring, commercialisation and production capacity.",
+    "category": "Funding",
+    "companies": [
+      "astribot"
+    ],
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "humanoid",
+      "funding"
+    ],
+    "source_type": "News",
+    "policies": []
+  },
+  {
+    "id": "stryker-cmr-surgical-400m-2026-10",
+    "title": "Stryker invests $400M in CMR Surgical, with an option to buy the company",
+    "date": "2026-10-12",
+    "source": "MedTech Dive",
+    "source_url": "https://www.medtechdive.com/news/stryker-enters-soft-tissue-robotics-with-400m-investment-in-cmr-surgical/832751/",
+    "summary": "Stryker is investing about $400M in the UK soft-tissue surgical robot maker and becomes exclusive US sales agent for its Versius system. An option to acquire the rest of CMR sets Stryker against Intuitive, J&J and Medtronic in soft-tissue robotics.",
+    "category": "Funding",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "surgical",
+      "m-and-a",
+      "uk"
+    ],
+    "source_type": "News",
+    "policies": [],
+    "companies": []
+  },
+  {
+    "id": "ola-dimensions-fourth-round-2026-10",
+    "title": "Home-robot startup Ola Dimensions closes a fourth round in about six months",
+    "date": "2026-10-13",
+    "source": "TechNode",
+    "source_url": "https://technode.com/2026/10/13/home-robot-startup-ola-dimensions-raises-hundreds-of-millions-of-rmb-in-fourth-funding-round/",
+    "summary": "Ola Dimensions raised hundreds of millions of RMB from new and existing investors including Tuobang and Hony Capital. Founder Zhou Shunbo left Huawei in March 2026; the company is aiming first at makers and developers rather than mainstream consumers.",
+    "category": "Funding",
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "china",
+      "home-robot"
+    ],
+    "source_type": "News",
+    "policies": [],
+    "companies": []
+  },
+  {
+    "id": "xpeng-iron-delivery-timeline-2026-10",
+    "title": "XPeng gives an IRON humanoid timetable: mass production by end-2026, deliveries in H1 2027, Europe in H2 2027",
+    "date": "2026-10-13",
+    "source": "TechNode",
+    "source_url": "https://technode.com/2026/10/13/xpeng-plans-humanoid-robot-deliveries-in-2027-and-european-rollout-later-that-year/",
+    "summary": "At its Paris event, CEO He Xiaopeng named stores and shopping malls as the first commercial settings, with industrial and household use later. The schedule follows the dedicated IRON line XPeng opened in September.",
+    "category": "Deployment",
+    "companies": [
+      "xpeng-robotics"
+    ],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "china",
+      "humanoid",
+      "europe"
+    ],
+    "source_type": "News",
+    "policies": []
+  },
+  {
+    "id": "chaifu-cr5000-ciif-2026-10",
+    "title": "Shanghai Chaifu Robotics shows a 5-tonne-payload industrial arm at CIIF",
+    "date": "2026-10-13",
+    "source": "TechNode",
+    "source_url": "https://technode.com/2026/10/13/a-chinese-five-ton-robot-debuts-at-shanghais-ciif-but-real-world-performance-is-what-counts/",
+    "summary": "The CR5000-3700 is rated at about 5,000 kg with 3.7 m reach and was shown lifting a vehicle; the article compares it with a 2,300 kg FANUC figure. The numbers are the company's own and the piece questions how far the payload carries over to real factory work.",
+    "category": "Research",
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "industrial-arm"
+    ],
+    "source_type": "News",
+    "policies": [],
+    "companies": []
+  },
+  {
+    "id": "siemens-china-physical-ai-testbeds-2026-10",
+    "title": "Siemens opens six physical-AI test scenarios across five China factories",
+    "date": "2026-10-12",
+    "source": "The AI Insider",
+    "source_url": "https://theaiinsider.tech/2026/10/12/siemens-opens-factory-testbeds-in-china-to-advance-physical-ai/",
+    "summary": "The scenarios cover sorting and feeding, autonomous container movement, palletizing, inspection, screw tightening and flexible packaging. Siemens also cites 40+ cooperation agreements and 20+ new products at CIIF.",
+    "category": "Deployment",
+    "themes": [
+      "industrial-deployments",
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "factory",
+      "germany"
+    ],
+    "source_type": "News",
+    "policies": [],
+    "companies": []
+  },
+  {
+    "id": "robros-korea-sandbox-humanoid-trial-2026-10",
+    "title": "South Korea's sandbox committee approves a 20-humanoid Robros trial at industrial sites",
+    "date": "2026-10-13",
+    "source": "Humanoids Daily",
+    "source_url": "https://humanoidsdaily.com/news/robros-20-humanoid-industrial-trial-korea",
+    "summary": "The committee exempted the trial from rules that separate workers from fixed robots; named sites include Nepes, Sungwoo Hitech and HD Hyundai Samho. It is an approval to test, not a performance result, and the report cites Seoul Economic Daily.",
+    "category": "Policy",
+    "themes": [
+      "policy-momentum",
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "korea",
+      "sandbox",
+      "humanoid"
+    ],
+    "source_type": "News",
+    "policies": [],
+    "companies": []
+  },
+  {
+    "id": "musk-optimus-magnets-ramp-2026-10",
+    "title": "Musk says China's magnet export curbs delayed Optimus by 2-3 months and the initial ramp will be slow",
+    "date": "2026-10-13",
+    "source": "Humanoids Daily",
+    "source_url": "https://humanoidsdaily.com/news/musk-optimus-hand-challenges-production-ramp-x-takeover",
+    "summary": "In an Oct 10 interview Musk said motor-magnet export limits cost Optimus two to three months last year and that Tesla needs US production if Chinese supply is cut. He also named hand durability and touch sensing as reasons for a slow start.",
+    "category": "Supply Chain",
+    "companies": [
+      "tesla-optimus"
+    ],
+    "themes": [
+      "us-supply-chain",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rare-earth",
+      "magnets",
+      "optimus"
+    ],
+    "source_type": "News",
+    "policies": []
+  },
+  {
+    "id": "deepmind-cambridge-robotics-lab-2026-10",
+    "title": "Google DeepMind is building a robotics hardware lab in the Cambridge area, per Aaron Saunders",
+    "date": "2026-10-12",
+    "source": "Humanoids Daily",
+    "source_url": "https://humanoidsdaily.com/news/google-deepmind-cambridge-robotics-lab-aaron-saunders",
+    "summary": "Saunders, formerly Boston Dynamics CTO, said his team will move into a new lab and promised more news in 2027. Size, budget and location were not disclosed.",
+    "category": "Competitive",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "deepmind",
+      "lab"
+    ],
+    "source_type": "News",
+    "policies": [],
+    "companies": []
+  },
+  {
+    "id": "nature-will-natura-1-2026-10",
+    "title": "Nature Will releases Natura-1, a 50B-parameter model for dexterous robot hands",
+    "date": "2026-10-13",
+    "source": "Forbes",
+    "source_url": "https://www.forbes.com/sites/johnkoetsier/2026/10/13/startup-releases-50-billion-parameter-physical-general-foundation-model-for-instant-robot-intelligence/",
+    "summary": "The San Francisco lab says the mixture-of-experts model was pre-trained on over 1M hours of egocentric human video and runs a 100 ms control loop. It covers hands only, and the performance claims are the company's own with no independent benchmark.",
+    "category": "Research",
+    "themes": [
+      "foundation-models"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "foundation-model",
+      "dexterity"
+    ],
+    "source_type": "News",
+    "policies": [],
+    "companies": []
+  },
+  {
+    "id": "army-390a-robotics-warrant-officers-2026-10",
+    "title": "US Army inducts its first 390A robotics technician warrant officers",
+    "date": "2026-10-12",
+    "source": "Defense News",
+    "source_url": "https://www.defensenews.com/news/your-military/2026/10/12/us-army-creates-robotics-technician-job-to-focus-on-drone-warfare/",
+    "summary": "Ten warrant officers started at the JFK Special Warfare Center in the Army's first robotics and unmanned-systems specialty. The 19-week course includes building drones that navigate without GPS or radio.",
+    "category": "Policy",
+    "themes": [
+      "defense-procurement"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "army",
+      "drones",
+      "workforce"
+    ],
+    "source_type": "News",
+    "policies": [],
+    "companies": []
+  },
+  {
+    "id": "china-humanoid-rental-prices-fall-2026-10",
+    "title": "China's humanoid rental prices fall while staffing and service costs stay",
+    "date": "2026-10-12",
+    "source": "Humanoids Daily",
+    "source_url": "https://humanoidsdaily.com/news/china-humanoid-robot-rental-prices-service-costs",
+    "summary": "Chinese reports show rental rates dropping, with cheap advertised prices hiding the operator and service costs behind commercial use. It is a data point on humanoid unit economics in China, summarised second-hand.",
+    "category": "Competitive",
+    "themes": [
+      "cost-trajectory",
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "china",
+      "rental",
+      "unit-economics"
+    ],
+    "source_type": "News",
+    "policies": [],
+    "companies": []
+  },
+  {
+    "id": "amazon-one-million-robots-ars-2026-10",
+    "title": "Ars Technica: Amazon runs more than 1 million robots alongside 1.5 million human employees",
+    "date": "2026-10-12",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+    "summary": "Ars reports Amazon operates over 1 million warehouse robots and plans to grow the fleet by building more robot factories. Researchers quoted say collaborative robots that sit next to workers can set the pace of work, while US warehouse injury rates run more than double the all-industry average, per OSHA.",
+    "category": "Deployment",
+    "companies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "warehouse",
+      "amazon",
+      "labor"
+    ],
+    "source_type": "News",
+    "policies": []
+  },
+  {
     "id": "deepseek-winverse-ai-seed-2026-10",
     "title": "DeepSeek to lead seed round for Winverse AI, a robot-AI startup founded by a former Tencent scientist",
     "date": "2026-10-12",

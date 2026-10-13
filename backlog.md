@@ -393,3 +393,6 @@ The report breaks industrial robotics down by *application* — a lens we don't 
 
 - **Policy watch: UK Robotics Adoption Hubs (£40M, 2026-10-09)** — add a non-US/China 'allies' strip to policies.html or us_china if a third comparator is wanted; medium priority. No new US federal RFI/EO found in the Oct 7-12 Federal Register sweep.
 - **Framing: China component investing** — 36Kr counts 20+ embodied-AI firms with 100+ outside investments; consider a supply-chain 'who funds the components' view. Low priority.
+
+- [ ] **(medium) Re-check Sankai / Dachen-backed reducer maker Series B (Dealroom + 36Kr headlines, 2026-10-13).** Could not open either article; fits the joint-module and reducer theme on supply-chain.html. Verify before authoring.
+- [ ] **(low) Add humanoidsdaily.com/news, technode.com/feed/ and Google News RSS (`when:4d`) as sweep inputs in REFRESH.md.** Sweep agent found all three reliable on 2026-10-13.
