@@ -9514,5 +9514,118 @@
       "details": "$5M late seed; reports $500,000 of signed contracts. Investors not named in the source."
     },
     "map_category": "industrial"
+  },
+  {
+    "id": "mind-robotics",
+    "name": "Mind Robotics",
+    "founded": "2025",
+    "hq": {
+      "city": "Palo Alto",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.mindrobotics.com",
+    "funding_rounds": [],
+    "total_funding_usd": 1000000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "industrial"
+    ],
+    "primary_use_case": "purpose-built industrial robots and a full-stack manufacturing system on foundation models",
+    "flagship_product": "Not disclosed",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [],
+    "ceo": "RJ Scaringe",
+    "tags": [
+      "us",
+      "industrial",
+      "rivian-spinout"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      "https://techcrunch.com/2026/10/13/rivians-startup-mind-robotics-hires-former-ford-ev-chief-doug-field/"
+    ],
+    "last_updated": "2026-10-14",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "map_category": "industrial"
+  },
+  {
+    "id": "promise-robotics",
+    "name": "Promise Robotics",
+    "founded": "2021",
+    "hq": {
+      "city": "Toronto",
+      "state": null,
+      "country": "Canada"
+    },
+    "website": "https://www.promiserobotics.com",
+    "funding_rounds": [],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "factory automation"
+    ],
+    "primary_use_case": "Factory-as-a-Service robotic production of homebuilding components",
+    "flagship_product": "Factory-as-a-Service",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "canada",
+      "construction"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      "https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/"
+    ],
+    "last_updated": "2026-10-14",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "map_category": "industrial"
+  },
+  {
+    "id": "industrial-next",
+    "name": "Industrial Next",
+    "founded": "2021",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.industrialnext.com",
+    "funding_rounds": [],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "industrial"
+    ],
+    "primary_use_case": "self-contained robotic stations that retool for new tasks in minutes",
+    "flagship_product": "Not disclosed",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "us",
+      "industrial",
+      "manufacturing"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/"
+    ],
+    "last_updated": "2026-10-14",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "map_category": "industrial"
   }
 ]

@@ -1,5 +1,179 @@
 [
   {
+    "id": "agibot-pre-ipo-round-rmb50b-2026-10",
+    "title": "AgiBot is reported nearing a RMB 1B-1.5B round at about a RMB 50B valuation",
+    "date": "2026-10-14",
+    "source": "TechNode",
+    "source_url": "https://technode.com/2026/10/14/robot-maker-agibot-nears-new-funding-round-at-rmb-50-billion-valuation/",
+    "summary": "Per investors cited by Caijing, the round is not closed and AgiBot declined to comment. A required 120-day gap between pre-IPO financing and listing would push its Hong Kong IPO past end-2026. It reported 2025 revenue of RMB 1.05B.",
+    "category": "Funding",
+    "companies": [
+      "agibot"
+    ],
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "humanoid",
+      "ipo"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "galbot-passage-obstacle-traversal-2026-10",
+    "title": "Galbot's PASSAGE framework has humanoids step over, duck under and squeeze past obstacles",
+    "date": "2026-10-13",
+    "source": "Humanoids Daily",
+    "source_url": "https://www.humanoidsdaily.com/news/galbot-passage-humanoid-obstacle-traversal",
+    "summary": "Trained on 100 hours of human motion across 1,500 virtual scenes and run on a Jetson AGX Orin with LiDAR and no prebuilt map. Simulation reach rate is 98.67%, but contact-free success is 70.3%. Tested on a Unitree G1.",
+    "category": "Research",
+    "companies": [
+      "galbot"
+    ],
+    "themes": [
+      "physical-ai",
+      "china-scale"
+    ],
+    "tags": [
+      "locomotion",
+      "research",
+      "humanoid"
+    ],
+    "source_type": "News",
+    "policies": [],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
+    "id": "industrial-next-bmw-2026-10",
+    "title": "Industrial Next takes a BMW Group Technology Office evaluation of its quick-retool robot stations",
+    "date": "2026-10-13",
+    "source": "TechCrunch",
+    "source_url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+    "summary": "The San Francisco startup, founded in 2021 by ex-Tesla engineers, runs self-contained stations on its own foundation models and says a line changes task in minutes rather than weeks. Announced at Disrupt; no funding figure given and the retooling claim is the company's.",
+    "category": "Competitive",
+    "companies": [
+      "industrial-next"
+    ],
+    "themes": [
+      "industrial-deployments",
+      "foundation-models"
+    ],
+    "tags": [
+      "manufacturing",
+      "automotive",
+      "startup"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "promise-robotics-dr-horton-2026-10",
+    "title": "Promise Robotics signs a multi-year deal to build more than 1,250 D.R. Horton homes",
+    "date": "2026-10-13",
+    "source": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/",
+    "summary": "The Toronto company will supply its Factory-as-a-Service platform, where robots produce wall and building components off site. Single trade-press source; terms beyond the home count were not given.",
+    "category": "Deployment",
+    "companies": [
+      "promise-robotics"
+    ],
+    "themes": [
+      "industrial-deployments",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "construction",
+      "homebuilding",
+      "factory-as-a-service"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "mind-robotics-doug-field-president-2026-10",
+    "title": "Rivian spin-out Mind Robotics names former Ford EV chief Doug Field president",
+    "date": "2026-10-13",
+    "source": "TechCrunch",
+    "source_url": "https://techcrunch.com/2026/10/13/rivians-startup-mind-robotics-hires-former-ford-ev-chief-doug-field/",
+    "summary": "Field, ex-Apple Project Titan and Tesla engineering, will run product, engineering and operations. Mind has raised over $1B from Accel, a16z, Eclipse, Kleiner Perkins, Volkswagen and Salesforce venture arms; Rivian holds about a third and is the first customer. It builds purpose-built industrial robots, not humanoids.",
+    "category": "Competitive",
+    "companies": [
+      "mind-robotics"
+    ],
+    "themes": [
+      "industrial-deployments",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "leadership",
+      "manufacturing",
+      "rivian"
+    ],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
+    "id": "gemini-4-argon-robotics-2026-10",
+    "title": "Google releases Gemini 4 Argon for robotics, claiming 87% on the ERQA embodied-reasoning benchmark",
+    "date": "2026-10-13",
+    "source": "Google Developers Blog",
+    "source_url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "summary": "The physical-reasoning model is available through AI Studio, the Gemini API and Antigravity. Google reports a vision-language-action policy rising from 56% to 75% real-world success after 4,500+ simulated episodes. Benchmarks are the company's own. In a Google demo, Apptronik's Apollo 2 learned a cornhole throw from human video and simulation.",
+    "category": "Research",
+    "companies": [
+      "apptronik"
+    ],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "tags": [
+      "foundation-model",
+      "simulation",
+      "google"
+    ],
+    "source_type": "Company",
+    "policies": [],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
+    "id": "physical-intelligence-api-beta-2026-10",
+    "title": "Physical Intelligence opens a hosted fine-tuning and inference API for its robot models",
+    "date": "2026-10-13",
+    "source": "Physical Intelligence",
+    "source_url": "https://www.pi.website/blog/api-beta",
+    "summary": "The waitlist beta lets developers upload data, fine-tune on Pi-managed compute and run inference through a hosted gateway. Named uses include Actor's operator-free wheel loader in Utah and Almond's dual-arm deburring robot, built in four days. Pricing is not stated.",
+    "category": "Competitive",
+    "companies": [
+      "physical-intelligence"
+    ],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "tags": [
+      "foundation-model",
+      "api",
+      "platform"
+    ],
+    "source_type": "Company",
+    "policies": [],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
     "id": "astribot-rmb1b-round-2026-10",
     "title": "Astribot raises another RMB 1 billion at a RMB 15 billion valuation, its fourth round in six months",
     "date": "2026-10-13",

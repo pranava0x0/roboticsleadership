@@ -396,3 +396,7 @@ The report breaks industrial robotics down by *application* — a lens we don't 
 
 - [ ] **(medium) Re-check Sankai / Dachen-backed reducer maker Series B (Dealroom + 36Kr headlines, 2026-10-13).** Could not open either article; fits the joint-module and reducer theme on supply-chain.html. Verify before authoring.
 - [ ] **(low) Add humanoidsdaily.com/news, technode.com/feed/ and Google News RSS (`when:4d`) as sweep inputs in REFRESH.md.** Sweep agent found all three reliable on 2026-10-13.
+
+- (medium, 2026-10-14) Reframe: Physical Intelligence's hosted API beta (2026-10-13) and Gemini 4 Argon for robotics move foundation models from lab artifact to rented service. Consider a "who sells the model layer, on what terms" row on china.html / themes.html; pricing and access terms are not public yet, so wait for them.
+- (medium, 2026-10-14) AgiBot RMB 50B pre-IPO round is reported, not closed; add to `companies.json` funding_rounds once confirmed. Its 120-day rule would push the HK listing past end-2026.
+- (low, 2026-10-14) Unverified: Microintelligence (Changzhou) HK IPO, Archon Robotics (Shanghai) whole-body demo, Dynamic Creatures "Hugo"; no funding or primary figures. Add as companies only if a second source appears.
