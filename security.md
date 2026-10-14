@@ -2,13 +2,15 @@
 
 > Refresh this file (and re-fetch <https://pranava0x0.github.io/vibe-coding-security/llms-ctx.txt>) if `Last updated` below is more than 7 days old, before any `npm install` / `pip install` / dep upgrade.
 
-**Last updated:** 2026-09-25 (advisory index re-read; nothing applies: no runtime deps, no `npm install`/`pip install` this run. The scripts ran on a Node binary already on the machine (bundled inside another desktop app), not a downloaded package.)
+**Last updated:** 2026-10-14 (advisory index re-read before adding the CI-only Playwright pin; no advisory names playwright, greenlet, pyee or typing-extensions.)
 
 ---
 
 ## Current dependency surface
 
 **None.** This project ships zero runtime dependencies — vanilla HTML / CSS / JS in `docs/`, plain Node `fetch` in `scripts/` (Node 18+ built-in).
+
+**CI-only (not shipped to the site):** `scripts/requirements-uat.txt` pins `playwright==1.58.0`, `greenlet==3.2.5`, `pyee==13.0.1`, `typing-extensions==4.15.0` for the interaction-cost job in `ci.yml`. Installed into a throwaway venv on the runner; Playwright downloads its own Chromium. Advisory check: 2026-10-14, clean. `scripts/requirements.txt` (pillow, share-card only) is unchanged.
 
 If we ever add a runtime dep, document the reason here, the advisory check date, and the pinned version. The folder default is "don't add a dep you can't maintain alone."
 

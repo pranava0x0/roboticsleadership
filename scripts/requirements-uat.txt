@@ -1,0 +1,6 @@
+# Interaction-cost tracker (scripts/interaction-cost.py) only. CI installs these
+# into a throwaway venv; the site itself has no Python or npm dependencies.
+playwright==1.58.0
+greenlet==3.2.5
+pyee==13.0.1
+typing-extensions==4.15.0

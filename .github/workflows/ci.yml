@@ -41,3 +41,27 @@ jobs:
 
       - name: Run tests
         run: npm test
+
+  # How many taps, swipes and keystrokes a reader spends to reach each key fact,
+  # at 375 / 768 / 1280 px. Fails when a task goes over uat/interaction-budgets.json,
+  # a target becomes unreachable, a page throws, or a page overflows sideways.
+  # Runner Node and Python only; Playwright goes into a throwaway venv.
+  interaction-cost:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+
+      - name: Install Playwright (pinned)
+        run: |
+          python3 -m venv .venv
+          .venv/bin/pip install --quiet -r scripts/requirements-uat.txt
+          .venv/bin/python -m playwright install --with-deps chromium
+
+      # Check-only mode still writes the gitignored news-recent.json, so the
+      # front page is measured on the payload production serves.
+      - name: Write derived data
+        run: node scripts/render-static.js
+
+      - name: Measure interaction cost against budgets
+        run: .venv/bin/python scripts/interaction-cost.py

@@ -1,0 +1,262 @@
+{
+ "_note": "One task per fact a reader comes for. Steps: [\"nav\", page.html] taps the primary-nav link (opening the Sections overflow if it is parked there); [\"tap\", selector]; [\"type\", selector, text]; [\"see\", selector] scrolls/opens until the target is on screen. Selectors may use Playwright's :has-text().",
+ "tasks": {
+  "front_lead": {
+   "steps": [
+    [
+     "see",
+     "#front-lead h2, #front-lead .lead-story"
+    ]
+   ]
+  },
+  "front_top_company": {
+   "steps": [
+    [
+     "see",
+     "#top-companies"
+    ]
+   ]
+  },
+  "summit_last_session": {
+   "steps": [
+    [
+     "nav",
+     "scsp-summit.html"
+    ],
+    [
+     "see",
+     "#agenda-list li.summit-session:last-child .summit-session-title"
+    ]
+   ]
+  },
+  "summit_bio_from_agenda": {
+   "steps": [
+    [
+     "nav",
+     "scsp-summit.html"
+    ],
+    [
+     "tap",
+     "#agenda-list li.summit-session:last-child .summit-who a"
+    ],
+    [
+     "see",
+     "#detail-panel .summit-sheet p"
+    ]
+   ]
+  },
+  "summit_path_news": {
+   "steps": [
+    [
+     "nav",
+     "scsp-summit.html"
+    ],
+    [
+     "see",
+     "#org-list details:has(summary:has-text(\"Path Robotics\")) li"
+    ]
+   ]
+  },
+  "summit_path_news_jump": {
+   "steps": [
+    [
+     "nav",
+     "scsp-summit.html"
+    ],
+    [
+     "tap",
+     ".jump-nav a[href=\"#org-news\"]"
+    ],
+    [
+     "see",
+     "#org-list details:has(summary:has-text(\"Path Robotics\")) li"
+    ]
+   ]
+  },
+  "summit_commission_figures": {
+   "steps": [
+    [
+     "nav",
+     "scsp-summit.html"
+    ],
+    [
+     "see",
+     "#context-body ul.summit-recent li"
+    ]
+   ]
+  },
+  "summit_commission_jump": {
+   "steps": [
+    [
+     "nav",
+     "scsp-summit.html"
+    ],
+    [
+     "tap",
+     ".jump-nav a[href=\"#context\"]"
+    ],
+    [
+     "see",
+     "#context-body ul.summit-recent li"
+    ]
+   ]
+  },
+  "company_figure_detail": {
+   "steps": [
+    [
+     "nav",
+     "companies.html"
+    ],
+    [
+     "tap",
+     "#companies-tbody tr[data-id=\"figure-ai\"]"
+    ],
+    [
+     "see",
+     "#detail-title"
+    ]
+   ]
+  },
+  "policy_hr7334_detail": {
+   "steps": [
+    [
+     "nav",
+     "policies.html"
+    ],
+    [
+     "tap",
+     "tr[data-id=\"hr-7334-national-commission-robotics\"]"
+    ],
+    [
+     "see",
+     "#detail-title"
+    ]
+   ]
+  },
+  "china_last_metric": {
+   "steps": [
+    [
+     "nav",
+     "china.html"
+    ],
+    [
+     "see",
+     "#vs-sections details:last-of-type .vs-table td.vs-metric"
+    ]
+   ]
+  },
+  "supply_share_rows": {
+   "steps": [
+    [
+     "nav",
+     "supply-chain.html"
+    ],
+    [
+     "see",
+     "#share-rows .share-row"
+    ]
+   ]
+  },
+  "energy_candidate": {
+   "steps": [
+    [
+     "nav",
+     "energy.html"
+    ],
+    [
+     "see",
+     "#cand-grid .e-cand"
+    ]
+   ]
+  },
+  "energy_candidate_jump": {
+   "steps": [
+    [
+     "nav",
+     "energy.html"
+    ],
+    [
+     "tap",
+     "#jumpnav a[href=\"#sec-candidates\"]"
+    ],
+    [
+     "see",
+     "#cand-grid .e-cand"
+    ]
+   ]
+  },
+  "news_search_agility": {
+   "steps": [
+    [
+     "nav",
+     "news.html"
+    ],
+    [
+     "type",
+     "#f-search",
+     "Agility"
+    ],
+    [
+     "see",
+     "#feed .feed-card"
+    ]
+   ]
+  },
+  "states_first_row": {
+   "steps": [
+    [
+     "nav",
+     "states.html"
+    ],
+    [
+     "see",
+     "#sp-onbooks-tbody tr"
+    ]
+   ]
+  },
+  "theme_detail": {
+   "steps": [
+    [
+     "nav",
+     "themes.html"
+    ],
+    [
+     "tap",
+     "#themes-grid .theme-card"
+    ],
+    [
+     "see",
+     "#detail-title"
+    ]
+   ]
+  },
+  "eo_workforce": {
+   "steps": [
+    [
+     "nav",
+     "physical-ai-action-plan.html"
+    ],
+    [
+     "see",
+     "#sec-eo-workforce > p"
+    ]
+   ]
+  },
+  "eo_workforce_jump": {
+   "steps": [
+    [
+     "nav",
+     "physical-ai-action-plan.html"
+    ],
+    [
+     "tap",
+     ".jump-nav a[href=\"#eo-workforce\"]"
+    ],
+    [
+     "see",
+     "#sec-eo-workforce > p"
+    ]
+   ]
+  }
+ }
+}

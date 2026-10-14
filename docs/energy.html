@@ -243,6 +243,7 @@
           <li><a href="energy.html">Energy</a></li>
           <li><a href="states.html">States</a></li>
           <li><a href="themes.html">Themes</a></li>
+          <li><a href="scsp-summit.html">SCSP Summit</a></li>
         </ul>
         <details class="primary-more" hidden>
           <summary>Sections</summary>
@@ -680,6 +681,8 @@
     // the question data and reruns on every variant switch.
     pmChip.appendChild(pmN);
     navEl.appendChild(pmChip);
+    // Shortlist chip: the candidates <details> sits below Prime Mover; the hash opens it.
+    navEl.insertAdjacentHTML('beforeend', '<a class="e-chip" href="#sec-candidates" data-target="sec-candidates">Shortlist</a>');
 
     // Build sections, grouped inside a wrapper per cluster (so the cluster
     // label hides with its sections when filtering empties the group).
@@ -843,7 +846,7 @@
     const chips = Array.from(navEl.querySelectorAll('.e-chip'));
     const byId = Object.fromEntries(chips.map((c) => [c.dataset.target, c]));
     const sections = order.map((id) => document.getElementById(id)).filter(Boolean)
-      .concat(document.getElementById('prime-mover') || []);
+      .concat(document.getElementById('prime-mover') || [], document.getElementById('sec-candidates') || []);
     let current = null;
     const setActive = (id) => {
       if (id === current) return;

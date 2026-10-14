@@ -30,6 +30,8 @@
     .sp-card h3.card-title { margin: 0; }
     .sp-card .sp-summary { font-size: 13.5px; line-height: 1.55; color: var(--text); margin: 0; }
     .sp-card ul.sp-points { margin: 2px 0 0; padding-left: 18px; display: flex; flex-direction: column; gap: 5px; }
+    .sp-more > summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-size: 13px; font-weight: 600; color: var(--accent); }
+    .sp-more[open] > summary { margin-bottom: 6px; }
     .sp-card ul.sp-points li { font-size: 13px; line-height: 1.45; color: var(--text-muted); }
     .sp-states { display: flex; flex-wrap: wrap; gap: 5px; }
     .sp-links { display: flex; flex-direction: column; gap: 4px; margin-top: 2px; }
@@ -59,6 +61,7 @@
           <li><a href="energy.html">Energy</a></li>
           <li><a href="states.html">States</a></li>
           <li><a href="themes.html">Themes</a></li>
+          <li><a href="scsp-summit.html">SCSP Summit</a></li>
         </ul>
         <details class="primary-more" hidden>
           <summary>Sections</summary>
@@ -102,7 +105,7 @@
     </div>
 
     <h2 class="section-title">Key themes</h2>
-    <p class="muted" style="font-size:13px;margin:-4px 0 14px;">The five threads that define state-level robotics policy in 2026. Each card links out to primary sources.</p>
+    <p class="muted" style="font-size:13px;margin:-4px 0 14px;">The five threads that define state-level robotics policy in 2026. Open a card for its key points and sources.</p>
     <div class="sp-theme-grid" id="sp-themes"></div>
 
     <details class="collapsible-section" id="sec-onbooks" open>
@@ -177,9 +180,11 @@
           </div>
           <h3 class="card-title">${RT.escapeHTML(t.title)}</h3>
           <p class="sp-summary">${RT.escapeHTML(t.summary)}</p>
-          ${points ? `<ul class="sp-points">${points}</ul>` : ''}
           ${states ? `<div class="sp-states">${states}</div>` : ''}
-          ${links ? `<span class="sp-deeper-label">Go deeper</span><div class="sp-links">${links}</div>` : ''}
+          ${points || links ? `<details class="sp-more"><summary>Key points${links ? ' &amp; sources' : ''}</summary>
+            ${points ? `<ul class="sp-points">${points}</ul>` : ''}
+            ${links ? `<span class="sp-deeper-label">Go deeper</span><div class="sp-links">${links}</div>` : ''}
+          </details>` : ''}
         </article>
       `;
     }).join('');
