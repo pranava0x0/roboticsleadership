@@ -1822,7 +1822,7 @@ button, [role="button"], a.btn {
   cursor: pointer;
   font-size: 13px;
   color: var(--text);
-  min-height: 36px;
+  min-height: 44px;
   transition: background var(--transition-fast, 90ms);
 }
 .theme-option:hover { background: var(--surface-2); }
