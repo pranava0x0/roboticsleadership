@@ -154,7 +154,10 @@
     const date = (d) => /^\d{4}-\d{2}-\d{2}$/.test(d || '') ? RT.formatDate(d) : (d || '—');
     let d, report;
     try {
-      [d, report] = await Promise.all([RT.loadData('scsp-ai-robotics-2026'), RT.loadData('scsp-robotics-commission-2026')]);
+      const [summitResult, reportResult] = await Promise.allSettled([RT.loadData('scsp-ai-robotics-2026'), RT.loadData('scsp-robotics-commission-2026')]);
+      if (summitResult.status === 'rejected') throw summitResult.reason;
+      d = summitResult.value;
+      report = reportResult.status === 'fulfilled' ? reportResult.value : null;
     } catch (err) {
       document.getElementById('bluf').textContent = 'Could not load the summit data. Try reloading.';
       return;
@@ -172,10 +175,10 @@
       ['Sessions', d.sessions.filter(s => s.kind !== 'Break').length, 'panels, demos, firesides'],
       ['On stage', d.people.length, 'speakers and moderators'],
       ['Commissioners', commCount, 'speakers on the SCSP commission'],
-      ['2025 robot installs', 'CN 354K · US 38K', 'commission report, p. 15'],
+      ['2025 robot installs', 'CN 354K · US 38K', 'commission report', true],
     ];
-    document.getElementById('kpis').innerHTML = kpis.map(([l, v, s]) =>
-      `<div class="kpi-card"><span class="kpi-label">${E(l)}</span><span class="kpi-value tnum">${E(String(v))}</span><span class="kpi-sub">${E(s)}</span></div>`).join('');
+    document.getElementById('kpis').innerHTML = kpis.map(([l, v, s, cited]) =>
+      `<div class="kpi-card"><span class="kpi-label">${E(l)}</span><span class="kpi-value tnum">${E(String(v))}</span><span class="kpi-sub">${cited ? RT.reportCite({pdf_url: rep.pdf_url}, {page: 15, pdf_page: 16}, s + ", p. 15") : E(s)}</span></div>`).join('');
 
     // Agenda
     const who = (sp) => {
@@ -249,7 +252,7 @@
         <p style="margin:0;font-size:14px;line-height:1.5;">${p.bio ? E(p.bio) : '<span class="muted-cell">No public bio found as of Oct 14, 2026.</span>'}</p>
         <p class="card-sub" style="margin:0;"><strong>At the summit:</strong> ${p.sessions.map(E).join('; ')}</p>
         ${p.recent.length ? `<div><strong style="font-size:13px;">Recent</strong><ul class="summit-recent">${p.recent.map(r => `<li><span class="tnum muted">${E(date(r.date))}</span> ${E(r.summary || r.title || '')} ${link(r.url, host(r.url))}</li>`).join('')}</ul></div>` : ''}
-        <p class="card-meta" style="margin:0;">${[handleLinks(p.handles), (p.sources || []).slice(0, 4).map(u => link(u, host(u))).join('<span class="sep"></span>')].filter(Boolean).join('<span class="sep"></span>') || '<span class="muted-cell">No sources</span>'}</p>
+        <p class="card-meta" style="margin:0;">${[handleLinks(p.handles), (p.sources || []).map(u => link(u, host(u))).join('<span class="sep"></span>')].filter(Boolean).join('<span class="sep"></span>') || '<span class="muted-cell">No sources</span>'}</p>
       </div>`;
     const speakerCard = (p) => `
       <a class="card card-hoverable summit-person" id="p-${E(p.id)}" href="#p-${E(p.id)}" data-person="${E(p.id)}">
@@ -312,8 +315,9 @@
       <ul class="summit-recent">${d.scsp_work.map(w => `<li><span class="tnum muted">${E(date(w.date))}</span> <strong>${E(w.title)}</strong> ${link(w.url, host(w.url))}${(w.key_points || []).length ? `<br><span class="muted">${(w.key_points || []).map(E).join(' · ')}</span>` : ''}</li>`).join('')}</ul>
       </details>`;
 
+    if (report) {
     // Commission report: theme buttons filter the findings and the figures table.
-    const cite = (item, label) => RT.reportCite(report, item, label);
+    const cite = (item, label) => [RT.reportCite(report, item, label), ...(item.additional_citations || []).map(c => RT.reportCite(report, c))].join(' ');
     document.getElementById('report-meta').innerHTML =
       `${E(report.publisher)}, released ${E(date(report.released))}, ${report.pdf_pages} pages. ` +
       `<a href="${E(RT.safeURL(report.pdf_url))}" target="_blank" rel="noopener">PDF</a> · ` +
@@ -369,6 +373,11 @@
     renderReport();
     document.getElementById('report-directions').innerHTML = report.directions.map(x => `<li>${E(x.text)} ${cite(x)}</li>`).join('');
     document.getElementById('report-caveats').innerHTML = report.caveats.map(x => `<li>${E(x.text)} ${cite(x)}</li>`).join('');
+
+    } else {
+      document.getElementById('report-meta').textContent = 'Could not load the commission report. The summit agenda and speaker profiles are available below.';
+      document.getElementById('report-figs-more').hidden = true;
+    }
 
     RT.applyCollapsibleState();
     if (location.hash.startsWith('#p-')) openPerson(location.hash.slice(3));

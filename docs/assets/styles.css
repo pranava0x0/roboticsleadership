@@ -2018,7 +2018,8 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
 #context-body .card { gap: 10px; }
 
 /* SCSP commission report: page citations, the summit breakdown, and the notes on other pages */
-.report-cite { display: inline-block; padding: 6px 2px; font-size: 12px; white-space: nowrap; }
+.report-cite { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; box-sizing: border-box; padding: 6px 4px; font-size: 12px; white-space: nowrap; }
+.summit-sheet .card-meta a { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; }
 .report-themes { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
 .report-themes button {
   min-height: 44px; padding: 0 12px; font: inherit; font-size: 13px; cursor: pointer;

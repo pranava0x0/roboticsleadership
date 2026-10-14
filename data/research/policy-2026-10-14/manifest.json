@@ -1,0 +1,785 @@
+{
+  "captured_at": "2026-10-14",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 199,
+      "sha256": "ffcec30a04ca127e2efb424f7ee3f0087a80820f8d27cf5345e0fcc118e4c6e7",
+      "versioned": true
+    },
+    {
+      "path": "bills/119hr7334ih.htm",
+      "bytes": 17400,
+      "sha256": "9f24437fff8681198d168ad0ef630d4f0cdf4ce901c4ef03c2e1ecaf11a6166b",
+      "versioned": false
+    },
+    {
+      "path": "bills/119hr7334ih.pdf",
+      "bytes": 263057,
+      "sha256": "235f591a6ec5b6d83ebe70f8ccb146ad6486ee639f515d3036f485a6294ea37a",
+      "versioned": false
+    },
+    {
+      "path": "bills/119hr7334ih.txt",
+      "bytes": 17155,
+      "sha256": "208f82d07786a20ae7e5a981ea9a58ff8171e808d48737369739d1a62d7fdaa9",
+      "versioned": true
+    },
+    {
+      "path": "bills/119hr7334ih.xml",
+      "bytes": 23126,
+      "sha256": "4ee2fae026ac17964acbcaaac9c8e1dcaee721972285b69880f440b383f34753",
+      "versioned": false
+    },
+    {
+      "path": "bills/119hr8189ih.htm",
+      "bytes": 6695,
+      "sha256": "941638a1ac3bd07de951c5325e9812b9a0d5cb5be37772712a7ee08fe0445ff8",
+      "versioned": false
+    },
+    {
+      "path": "bills/119hr8189ih.pdf",
+      "bytes": 249641,
+      "sha256": "9e1c48da9f4ec6a2337d3b99d5c3bdaebb8b0cd18b2b6a236cccbcbef9b90ae7",
+      "versioned": false
+    },
+    {
+      "path": "bills/119hr8189ih.txt",
+      "bytes": 6580,
+      "sha256": "f19231dc0e11c3a7c88e2b181dbe843deb812fbab57c2fc23ae52bfe76527945",
+      "versioned": true
+    },
+    {
+      "path": "bills/119hr8189ih.xml",
+      "bytes": 11057,
+      "sha256": "75aa12cf8adeb68f6581c9b5cbaa6eb83d82f11311650b59d372b06bd8588b2a",
+      "versioned": false
+    },
+    {
+      "path": "bills/119hr9129ih.htm",
+      "bytes": 9105,
+      "sha256": "3a59888e7efc292ef439d0558250db2d0ef6376577f08e95701cfd542f6b8cbf",
+      "versioned": false
+    },
+    {
+      "path": "bills/119hr9129ih.pdf",
+      "bytes": 251431,
+      "sha256": "f058e7a8124ba8a56b6114b231110dc36cc664b20ccfe737d059d4863ddfa481",
+      "versioned": false
+    },
+    {
+      "path": "bills/119hr9129ih.txt",
+      "bytes": 8959,
+      "sha256": "4f1701df0cdc57a9fc173968baf10ecab796673d79a228467faaa1ecdda6d8a0",
+      "versioned": true
+    },
+    {
+      "path": "bills/119hr9129ih.xml",
+      "bytes": 12492,
+      "sha256": "d2591a57370a284e5f909633ca3b1e2c5c909be5d514a5495f37e1786aceb669",
+      "versioned": false
+    },
+    {
+      "path": "bills/119hr9687ih.htm",
+      "bytes": 7198,
+      "sha256": "b17d7299d1947fa550f895e8d6b7f78daa3eab30df9a41b59beec67ab1530d95",
+      "versioned": false
+    },
+    {
+      "path": "bills/119hr9687ih.pdf",
+      "bytes": 249437,
+      "sha256": "1c0957873b684f03c6c857fa5e4593284223fc84c0a22852b9dff0f7d8cf375a",
+      "versioned": false
+    },
+    {
+      "path": "bills/119hr9687ih.txt",
+      "bytes": 7077,
+      "sha256": "2fa737a667afd5b8e07113e2379ca6b4c8cea8602332a67f1cccc0dd2d4a3313",
+      "versioned": true
+    },
+    {
+      "path": "bills/119hr9687ih.xml",
+      "bytes": 11272,
+      "sha256": "5d8d785eaa530a0579a72dea6bdf01e97e013fd0dbc79e71d7bf87db886bc0ae",
+      "versioned": false
+    },
+    {
+      "path": "bills/119s3275is.htm",
+      "bytes": 13201,
+      "sha256": "6f1ef24054981bdda7a17b5792ccf0252f8565672c11a8d33da3f07dbd350171",
+      "versioned": false
+    },
+    {
+      "path": "bills/119s3275is.pdf",
+      "bytes": 255651,
+      "sha256": "1128d89253cdcfe27b314b3d4841f25374773a5ac947e9bc37fcd5206c7b31a8",
+      "versioned": false
+    },
+    {
+      "path": "bills/119s3275is.txt",
+      "bytes": 13015,
+      "sha256": "eb8e80f9c2ae9e7d25fb1ab5c0ce1556a2eba605069c7144b82d8ab46a4f60cf",
+      "versioned": true
+    },
+    {
+      "path": "bills/119s3275is.xml",
+      "bytes": 19726,
+      "sha256": "0c3c1e5ba5545d3a3b65cf306d72f34b02e033dd5229afab89c90363d18bb64c",
+      "versioned": false
+    },
+    {
+      "path": "bills/119s4235is.htm",
+      "bytes": 6758,
+      "sha256": "9f2697bc2f69836c424ee2cd912145f32e96f9ca5061513793f95bcc4bca0cf8",
+      "versioned": false
+    },
+    {
+      "path": "bills/119s4235is.pdf",
+      "bytes": 249704,
+      "sha256": "7ede922362facb71124834f143fdc76245a47f2baeaf849fa9249b9682afddfc",
+      "versioned": false
+    },
+    {
+      "path": "bills/119s4235is.txt",
+      "bytes": 6642,
+      "sha256": "c5bcc22433cd374f2afe91fe7c73e0a23f3d83e88435428dd9648afd286dbb94",
+      "versioned": true
+    },
+    {
+      "path": "bills/119s4235is.xml",
+      "bytes": 10953,
+      "sha256": "dc64a349b7a675f93288da690f212600dfe9b2fcf78f47ab384843ebb41cad1f",
+      "versioned": false
+    },
+    {
+      "path": "bills/119s4586is.htm",
+      "bytes": 7154,
+      "sha256": "adc57dd965e47406aca43ed9dc2b9a9c32b637a7a9d6c58b252e53b442392b8d",
+      "versioned": false
+    },
+    {
+      "path": "bills/119s4586is.pdf",
+      "bytes": 249615,
+      "sha256": "f4b45a7185e676d9dad58cdfda8dda02d9a0182a5a18fdeab62c2a84816c60c1",
+      "versioned": false
+    },
+    {
+      "path": "bills/119s4586is.txt",
+      "bytes": 7034,
+      "sha256": "2642123499236aa52feb9ff65832d7e02c0d9ee64740efd2445d866d002f374d",
+      "versioned": true
+    },
+    {
+      "path": "bills/119s4586is.xml",
+      "bytes": 11434,
+      "sha256": "7b1302eedbd1aec1179f3473c3a9e08b21c3e31bdc12d7e0a7bafa8641585d8d",
+      "versioned": false
+    },
+    {
+      "path": "bills/119s4686is.htm",
+      "bytes": 18189,
+      "sha256": "b209831d4574fcdecf2beb2416042bc1c8b4c16d951c843e7bf9014028da2047",
+      "versioned": false
+    },
+    {
+      "path": "bills/119s4686is.pdf",
+      "bytes": 264536,
+      "sha256": "26cb7d1bdb2c9a7916214c0024a1e4b7df89e012a6b9612b1a8c28b8e8dc31bb",
+      "versioned": false
+    },
+    {
+      "path": "bills/119s4686is.txt",
+      "bytes": 17942,
+      "sha256": "064a472aa4d62246c1efa48fa73a55883ce826b54924726795c3357193f101ac",
+      "versioned": true
+    },
+    {
+      "path": "bills/119s4686is.xml",
+      "bytes": 25741,
+      "sha256": "ad05cc2ab657a4d23e5dfee6a61ee8e8a1e64e97253de356776f34929cb14f9a",
+      "versioned": false
+    },
+    {
+      "path": "bills/BILLSTATUS-119hr7334.xml",
+      "bytes": 11282,
+      "sha256": "02ffb8ff90a428486bd66ec792a7c6473e8fa2b661a08ce001572d4a0ce17a94",
+      "versioned": true
+    },
+    {
+      "path": "bills/BILLSTATUS-119hr8189.xml",
+      "bytes": 6584,
+      "sha256": "bcbdd8274b293ce9c3a66d741c061ec6722078cf2e17385cb0d0ee432987f904",
+      "versioned": true
+    },
+    {
+      "path": "bills/BILLSTATUS-119hr8800.xml",
+      "bytes": 314957,
+      "sha256": "89d638786ffcc5221bf993e0654e13367f61424b9991a0aba2a7e57cfb8ac44e",
+      "versioned": true
+    },
+    {
+      "path": "bills/BILLSTATUS-119hr9129.xml",
+      "bytes": 14704,
+      "sha256": "83618a4faa886bafe43bd55635c1988ecee07cf386e474fc51edcb819c060bd6",
+      "versioned": true
+    },
+    {
+      "path": "bills/BILLSTATUS-119hr9687.xml",
+      "bytes": 7983,
+      "sha256": "79fc4f05a4f3129c313ba26a5d266fd7c81adb501dd8a941a4b35fd1b6ab2856",
+      "versioned": true
+    },
+    {
+      "path": "bills/BILLSTATUS-119s3275.xml",
+      "bytes": 6431,
+      "sha256": "e31578c7a50ffc6de0fec48de41419bf33c17b144b89ac470e72e750e9aabb83",
+      "versioned": true
+    },
+    {
+      "path": "bills/BILLSTATUS-119s4235.xml",
+      "bytes": 6148,
+      "sha256": "1f8f0551539bfe29cefe8d04fe022114675500cc8aaaa20b9121af0d1867c96e",
+      "versioned": true
+    },
+    {
+      "path": "bills/BILLSTATUS-119s4586.xml",
+      "bytes": 7336,
+      "sha256": "8f253445f675c200abb6244712ded56b1b3d29871c34d1a66e20eb9f9d9e8721",
+      "versioned": true
+    },
+    {
+      "path": "bills/BILLSTATUS-119s4686.xml",
+      "bytes": 7087,
+      "sha256": "fbcb022c95091de5584ae33269cd94dddfa1086b5fac05da99d3b88cc89b4c87",
+      "versioned": true
+    },
+    {
+      "path": "bills/CREC-2026-09-01-pt1-PgD855.pdf",
+      "bytes": 279629,
+      "sha256": "1f3018c666b04e66df2586fdfd8c71fbaf5c744488dd6a0403a376e421800370",
+      "versioned": false
+    },
+    {
+      "path": "bills/CREC-2026-09-01-pt1-PgD855.txt",
+      "bytes": 10737,
+      "sha256": "fb8565a9c0228e2aaafce7553a8d8fc99220b964d3fd1bb0d96161896973bfee",
+      "versioned": true
+    },
+    {
+      "path": "bills/amendment-6312/119hr8800eh.htm",
+      "bytes": 3779590,
+      "sha256": "3c9b36205ce1156d102cae4ce3eddab3f4f3326821a9352ff2fd2877f1a32423",
+      "versioned": false
+    },
+    {
+      "path": "bills/amendment-6312/119hr8800eh.txt",
+      "bytes": 3743938,
+      "sha256": "6c4a29a0e689b22bdb246b466d03f58379e6f8519f42d6d94f93fec10384f0f5",
+      "versioned": false
+    },
+    {
+      "path": "bills/amendment-6312/119hr8800rh.htm",
+      "bytes": 2542770,
+      "sha256": "d7556cb4bb10fe2096ef04ca30d8a34acf09b08f1101f6d74df84ddcbab18787",
+      "versioned": false
+    },
+    {
+      "path": "bills/amendment-6312/119hr8800rh.txt",
+      "bytes": 2520689,
+      "sha256": "264f847c572b7e5ecacfae1055b7e2f0dba865208b8ea205b50dc4806c227f82",
+      "versioned": false
+    },
+    {
+      "path": "bills/amendment-6312/FY27-NDAA-markup-amendment-log-6312-source.pdf",
+      "bytes": 882182,
+      "sha256": "be2f47ed17fb1d0fd8623901829a5c7307a265009d7aee6a21bdd332b4c9fd50",
+      "versioned": false
+    },
+    {
+      "path": "bills/amendment-6312/FY27-NDAA-markup-amendment-log-6312-source.txt",
+      "bytes": 194411,
+      "sha256": "57b71aa4f0e71611fadc77dd8d1c7025eb0aafa3fc96015150fca426ab1f0fa7",
+      "versioned": true
+    },
+    {
+      "path": "bills/amendment-6312/house-passed-section-163.txt",
+      "bytes": 4574,
+      "sha256": "043ec00fade7645e2c0c4ce7f231b0803598fc05e30527ff2450f1632771ce24",
+      "versioned": true
+    },
+    {
+      "path": "bills/american-security-robotics-act-2026.json",
+      "bytes": 3282,
+      "sha256": "86426255d3de21697c66f1d308c9523369494f4ec3cca5c5903b7fab8e73d9fb",
+      "versioned": true
+    },
+    {
+      "path": "bills/blocking-ccp-spy-tech-act-2026.json",
+      "bytes": 4093,
+      "sha256": "bcf88ac083d8b1a0424911c1bb07fb66014d9f1ef6064ca681fde6f1dc993499",
+      "versioned": true
+    },
+    {
+      "path": "bills/gooden-fy2027-ndaa-humanoid-robotics-provision.json",
+      "bytes": 2530,
+      "sha256": "b1c6e7ba6faa8094a0e5583b601ef2422e509c51fa4bd03f1dd2f65648a2cf02",
+      "versioned": true
+    },
+    {
+      "path": "bills/guard-act-2026.json",
+      "bytes": 2895,
+      "sha256": "6943fa59b7e530691aef8e1f2c36d6e8f39e498246f8f17f2dd4295bc4b7f003",
+      "versioned": true
+    },
+    {
+      "path": "bills/humanoid-robot-act-2025.json",
+      "bytes": 2345,
+      "sha256": "e6a673c08e01f3b46939f635b16c8e0f808aa8082983553675209f303928c851",
+      "versioned": true
+    },
+    {
+      "path": "bills/index.json",
+      "bytes": 1310,
+      "sha256": "bcdaa2dcd61670ada6cb7b393f6464f13ca443f44d41fe214bf2f511e97f1f16",
+      "versioned": true
+    },
+    {
+      "path": "bills/national-commission-on-robotics-act.json",
+      "bytes": 4195,
+      "sha256": "be10d8146715a1d78819c5b2f4e5cb6a613b739fa643eb8ff8516f6e3fe23beb",
+      "versioned": true
+    },
+    {
+      "path": "current-status.json",
+      "bytes": 4570,
+      "sha256": "ad6926fa73abe2f0976df9da84b50bdd266f845c2a5e8807b02415517ffcb14c",
+      "versioned": true
+    },
+    {
+      "path": "final-quote-checks.json",
+      "bytes": 6007,
+      "sha256": "3351d0b613b97b3b16bc83fd11463166f2bc349934dedd13402355bb1ff6163f",
+      "versioned": true
+    },
+    {
+      "path": "index.json",
+      "bytes": 41548,
+      "sha256": "cd9c7ff12cf1485dfa3ed58ade9b096f2a37d0439ada002693d390427ab51980",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/2026-03-17-testimony-matthew-malchano.pdf",
+      "bytes": 772008,
+      "sha256": "3b2a6a3e56466e8e91a9f6a64d9b82771c6550d480ea9fcf0d5c1bde6f47d175",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/2026-03-17-testimony-matthew-malchano.pdf.txt",
+      "bytes": 31578,
+      "sha256": "58f466d9e782d2b6e5d417214a47c1336aac2e33a3bb9ee41d73441d9b2a09c3",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/2026-03-17-testimony-max-fenkell.pdf",
+      "bytes": 201951,
+      "sha256": "5ac589336c1dc32628a1a7abe302f944f5355b3722a4a12588b7fa5e892b9c40",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/2026-03-17-testimony-max-fenkell.pdf.txt",
+      "bytes": 17287,
+      "sha256": "2033c37ad2df73cb1073e8abdc98f421860a034a3bc9c3551548310ff8dcf222",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/2026-03-17-testimony-michael-robbins.pdf",
+      "bytes": 291082,
+      "sha256": "8ac20ace47b9201cfd899895dc4e064d4bf222a58befad0921723cc19b816bcc",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/2026-03-17-testimony-michael-robbins.pdf.txt",
+      "bytes": 37783,
+      "sha256": "9448903e78bd88e2a5c15c021ae587731dc29a3cfdd71939bcaab2221d1e2aa8",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/2026-03-17-testimony-rush-doshi.pdf",
+      "bytes": 444137,
+      "sha256": "21e02d1108f4e920d75d08fdbeee113b8f286155815db710352d5d6b6c5953fa",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/2026-03-17-testimony-rush-doshi.pdf.txt",
+      "bytes": 47143,
+      "sha256": "7f8bbafbc777118a29bc72dc4a4aba116fdc939efc7950fc869c012ccb70c445",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/2026-04-21-testimony-1.pdf",
+      "bytes": 291697,
+      "sha256": "a32bed0cbe2621a381de2d1c864a16e11fefbd64bde3425c4875fb9dac963a7c",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/2026-04-21-testimony-1.pdf.txt",
+      "bytes": 47608,
+      "sha256": "13b5ba02d837cb42b2bd45b238c3018da27bdd6c1cf70fb00839144cab7aba67",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/2026-04-21-testimony-2.pdf",
+      "bytes": 1110920,
+      "sha256": "0bc16d7f3d0c2c10021d8f77fc5f64e09945466d7f8ec6edb73929308be9d706",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/2026-04-21-testimony-2.pdf.txt",
+      "bytes": 14514,
+      "sha256": "673d2e86036030c070e5720f8864928795ab170371d5dafbab3e001c4900343f",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/2026-04-21-testimony-3.pdf",
+      "bytes": 296533,
+      "sha256": "1d5e05baf0a7fb51871e62daa75d924880d2ebaf2d53655b949d7a717b66502a",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/2026-04-21-testimony-3.pdf.txt",
+      "bytes": 43802,
+      "sha256": "05aef5cb3893920a919df52525d44e7e24c3e1c7ca8193bb1a916b67fd2f3330",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/2026-04-21-testimony-4.pdf",
+      "bytes": 345292,
+      "sha256": "dd8674118f5f40bcdb6d024b3c6b6231c4639b6276805c508de3b526aa1eac50",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/2026-04-21-testimony-4.pdf.txt",
+      "bytes": 47067,
+      "sha256": "8cfb54ce56bf285955acab49f1d833dfe84ea5377ce63492b7cabd98f38ae7a5",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/2026-04-21-testimony-5.pdf",
+      "bytes": 291217,
+      "sha256": "179ee9f6d87c0d847a9683f7a16939247f2716f73c2468a212beeb00f1f59004",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/2026-04-21-testimony-5.pdf.txt",
+      "bytes": 14227,
+      "sha256": "7a05a23fc131f95d2368240cd6b71a018d322438d68fc3bca13f99286f8d30c4",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/2026-06-30-testimony-1.pdf",
+      "bytes": 2761596,
+      "sha256": "ab91b51a75c62b0f220ebe0202a561744113b554f600bf33a2edf6152cc286ca",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/2026-06-30-testimony-1.pdf.txt",
+      "bytes": 5427,
+      "sha256": "6ed9e175d430cfe991cda0b145782e3bb98bf8a151d94eaeeeb788dbb1571530",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/2026-06-30-testimony-2.pdf",
+      "bytes": 812343,
+      "sha256": "7ff2b6269a7d7110fc4f50707a1c4d470f4633eb7964c988ccad1129023f53cc",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/2026-06-30-testimony-2.pdf.txt",
+      "bytes": 46812,
+      "sha256": "a44785492c549bde46d703f38a5a18faad0a618066bae39f715616b38d2cbd1e",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/2026-06-30-testimony-3.pdf",
+      "bytes": 291547,
+      "sha256": "4a74c467f72ac31879ebe4979c2d35fdf1f7538c4b4bbe0cbe67654ad9b545d1",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/2026-06-30-testimony-3.pdf.txt",
+      "bytes": 26305,
+      "sha256": "fda05bb581e3858199ebf922e00ec154be49237055a009e8deb42414d503c79b",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/2026-06-30-testimony-4.pdf",
+      "bytes": 117851,
+      "sha256": "017483b2039df02daf5951e4119ea5a4d501d70200b4fc533889a7d17c8a2c1a",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/2026-06-30-testimony-4.pdf.txt",
+      "bytes": 30019,
+      "sha256": "bbd9b00bfbe3e51cf2265442c3029c4a36167c22f6ff9469c3506b6608576e36",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/HHRG-119-IF16-Transcript-20260722.pdf",
+      "bytes": 288780,
+      "sha256": "1e6ed5fc739a72c03b37a160d55155aa446c633b47d5ab773b141a56d650aae5",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/HHRG-119-IF16-Transcript-20260722.pdf.txt",
+      "bytes": 139062,
+      "sha256": "e516628724e96fb97ad34a504152df9ac0016ea0de91109fe15db5b89a5e2013",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/HHRG-119-IF16-Wstate-GormanL-20260722.pdf",
+      "bytes": 249659,
+      "sha256": "71f2e1023098649d7f13f03103c8ce6afb28c3d4dc63c687558395c8f32bb3e6",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/HHRG-119-IF16-Wstate-GormanL-20260722.pdf.txt",
+      "bytes": 14990,
+      "sha256": "3998df73e2e7829264d1bf690a44eeba7bee65cd67746929b1387786bfdff8a1",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/HHRG-119-IF16-Wstate-RobbinsM-20260722.pdf",
+      "bytes": 349481,
+      "sha256": "2959b84c9c34a04632484264d76f00dfd347bb9068f36f956714e210b7e68530",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/HHRG-119-IF16-Wstate-RobbinsM-20260722.pdf.txt",
+      "bytes": 68381,
+      "sha256": "d0342724fcbfa43b224a0ec71f051d722f9ee0db65bf890a14e9d855480fe42b",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/HHRG-119-IF16-Wstate-RupyK-20260722.pdf",
+      "bytes": 214782,
+      "sha256": "2d1224fa69b30dce49e8829e9e72b6abe53a0e0d8ca3275cbff0662fd2179873",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/HHRG-119-IF16-Wstate-RupyK-20260722.pdf.txt",
+      "bytes": 29536,
+      "sha256": "9336d6cff60d12d80c829e07ab7595b60f451412b0ad276200d95102e583a78f",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/HHRG-119-IF16-Wstate-VonAhA-20260722.pdf",
+      "bytes": 454235,
+      "sha256": "4ec3abd2c325940aac83941a185d39c2a67e086f506ffdc26b7fd3214ab411b8",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/HHRG-119-IF16-Wstate-VonAhA-20260722.pdf.txt",
+      "bytes": 19275,
+      "sha256": "c82e0a073b025693a7f59991916d578eba41f73d7132062d6afe6d5e90fac588",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/april21-event-119190.html",
+      "bytes": 62902,
+      "sha256": "5d418f93300d10f21b0c050af98752c77e940c3331160bb13084c4a3080ce397",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/april21-event-119190.html.txt",
+      "bytes": 32817,
+      "sha256": "c49a4ec1d017d35b26860949d3486c6b3b7438e4d45fe59afdf046e1d15e1e2a",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/april21-govinfo-daily-digest.pdf",
+      "bytes": 211034,
+      "sha256": "e67cbf473ec42e8e628cb246f60eecd41064abe5de409c08318498a9552276a9",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/april21-govinfo-daily-digest.pdf.txt",
+      "bytes": 38557,
+      "sha256": "5f1939b588109dea04a5d2d043d7aba2d50485e855062f47d394a8b2045fe9cd",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/april21-june30-transcript-availability.txt",
+      "bytes": 831,
+      "sha256": "a1808400606afa8926ecee7dfbd6683f41199c841017ae9d20233c1f541b5ad9",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/april21-june30-video-metadata.json",
+      "bytes": 2276,
+      "sha256": "446d7c44d45186cbd947272616a55f4ac06d266e83bdc52a79722b653e42ccba",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/china-15th-five-year-plan-outline-official-alternative.html",
+      "bytes": 213005,
+      "sha256": "bc7ea1982b7347631a0332631b9e304b7943c42e9f7459a2434577135b7edc85",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/china-15th-five-year-plan-outline-official-alternative.html.txt",
+      "bytes": 177878,
+      "sha256": "c9dc2752f64d3954d2e41c918dea5af926969164de168eedee58cd1ab7d9f9a2",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/china-plan-adoption-resolution-excerpt.txt",
+      "bytes": 303,
+      "sha256": "14ae1744175ef4e74c1cb86fc8253e9c93a777165954c619c61a4562be601fd8",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/commerce-section-232-robotics-2025-notice.pdf",
+      "bytes": 266076,
+      "sha256": "50f0f12c35f2a6b3d707bb9683fe551bcddad7a502000f33e8f69f0cfee2129c",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/commerce-section-232-robotics-2025-notice.pdf.txt",
+      "bytes": 8412,
+      "sha256": "af53612268a55fc064d6f6b1fa94c4b675b04dd54bcf5dda973936902c8843dd",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/fcc-da-26-786-2026-07-28-covered-list-notice.pdf",
+      "bytes": 1936619,
+      "sha256": "ce1f83baffa267cf82dcb27c6433e0afbf8a1d10795ef8ee04573a927195d5a6",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/fcc-da-26-786-2026-07-28-covered-list-notice.pdf.txt",
+      "bytes": 17869,
+      "sha256": "6b15f2fe0e604a9c7b5cd0df2b70fdb656b37d421cfdd753749dab518d5573ae",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/hearing-2026-03-17-house-homeland-repository.html",
+      "bytes": 61647,
+      "sha256": "1db9c1d2d6706522ad5a662b56679e03bb3091c121a2cce4a2404974bbcef853",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/hearing-2026-03-17-house-homeland-repository.html.txt",
+      "bytes": 2546,
+      "sha256": "743596c3d8d6306f93b60db9bb34964806e469c3573e38a566a1a785535d5080",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/hearing-2026-04-21-house-science.html",
+      "bytes": 26173,
+      "sha256": "f850629f9dcaa3651c404cc5bc759e4b6a4960a5995f209cf707561f76c391ba",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/hearing-2026-04-21-house-science.html.txt",
+      "bytes": 1980,
+      "sha256": "5ae194b44bebae8697393bb28766608b16cf1a581f501fb3f65209a5ff9d1a7a",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/hearing-2026-06-30-house-energy-commerce.html",
+      "bytes": 84733,
+      "sha256": "fe6bff58d7cba704ec944715a8f20441ff0164b6c193fdbfa51793fb91578a13",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/hearing-2026-06-30-house-energy-commerce.html.txt",
+      "bytes": 453,
+      "sha256": "604d9d02e31958b340a787b855d65a1600dcad7abf2c4a0fc8787512132ae9f1",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/hearing-2026-07-22-house-energy-commerce-notice.html",
+      "bytes": 64473,
+      "sha256": "18722abee775ac6f9406e019f3e2a61fde665f83f403a97e059ddeece094ff26",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/hearing-2026-07-22-house-energy-commerce-notice.html.txt",
+      "bytes": 3109,
+      "sha256": "3d6f64efeb849c6688fc79970fb1fa1d93feb1fd126ce20d2922a46c67a8cdf4",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/index.json",
+      "bytes": 17087,
+      "sha256": "e8adece18bdea60b1ab4cfb7225d944af90872a65e86d6f53d017f6ba6e2bfe3",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/july22-house-repository.html",
+      "bytes": 65930,
+      "sha256": "f8c4cb44e9e3a4a637031115b7ac46ca6a6f1a2954cafe17031cec5c36f54e67",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/july22-robbins-testimony.pdf",
+      "bytes": 349481,
+      "sha256": "2959b84c9c34a04632484264d76f00dfd347bb9068f36f956714e210b7e68530",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/july22-robbins-testimony.pdf.txt",
+      "bytes": 68381,
+      "sha256": "d0342724fcbfa43b224a0ec71f051d722f9ee0db65bf890a14e9d855480fe42b",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/june30-event-119423.html",
+      "bytes": 66380,
+      "sha256": "a4860a9087d4cf175601fb65a66b4e673c6a1fe4c2733e6b0753aeb57d484770",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/june30-event-119423.html.txt",
+      "bytes": 33593,
+      "sha256": "598ff916779e3df9a2ca5985a4d2f67d34321c9e805de4ef47c8968f9b6033b7",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/june30-govinfo-daily-digest.pdf",
+      "bytes": 349367,
+      "sha256": "42c90956a94b175fee016fb2c8c3bad6de307c6ab467082a0f3b849b529ad2a7",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/june30-govinfo-daily-digest.pdf.txt",
+      "bytes": 21758,
+      "sha256": "fdedf1b7ce021163c3f761a410135f99e96c9f39be0e8ca74c6ce6bb5bc02331",
+      "versioned": true
+    },
+    {
+      "path": "plans-hearings/march17-official-hearing-transcript.htm",
+      "bytes": 167641,
+      "sha256": "dbcbf3e575927002d54e2e83180333f78cb4ca55072ae98c429324943ae7a314",
+      "versioned": false
+    },
+    {
+      "path": "plans-hearings/march17-official-hearing-transcript.txt",
+      "bytes": 165319,
+      "sha256": "fbdf22875541f84f63d1641913a19c2388908d9b9e645bbdf400b39b0c534495",
+      "versioned": true
+    },
+    {
+      "path": "synthesis.md",
+      "bytes": 4409,
+      "sha256": "89dc115e35d4aaf3a5f7660a855b3613e0330b9e9ba21fa3ac5a7e34324a6cf9",
+      "versioned": true
+    },
+    {
+      "path": "validation.json",
+      "bytes": 19616,
+      "sha256": "0e534d7ceabc8e54f9d34f66255fc7e70685c2cc64166861f37bf710049a9ac3",
+      "versioned": true
+    }
+  ]
+}

@@ -223,7 +223,7 @@
    "title": "The effect on jobs is mixed and not settled",
    "report_heading": "The effects of robotics on employment are ambiguous and not predetermined.",
    "summary": "Robots remove some jobs, change others and create new ones, all at once. Studies disagree on the net effect, which depends on how fast robots spread and on policy. Recent factory job losses came mostly from the business cycle and trade.",
-   "pages": "34–37",
+   "pages": "34–38",
    "page": 34,
    "pdf_page": 35,
    "themes": [
@@ -380,10 +380,16 @@
    ],
    "evidence": [
     {
-     "claim": "Leaderdrive holds over 60% of China's domestic harmonic reducer market, capacity exceeding 500,000 units a year.",
+     "claim": "Chinese makers collectively hold over 60% of China's domestic harmonic-reducer market; Leaderdrive has capacity exceeding 500,000 units a year.",
      "page": 60,
      "pdf_page": 61,
-     "underlying_source": "Leaderdrive company information"
+     "underlying_source": "Leaderdrive company information",
+     "additional_citations": [
+      {
+       "page": 61,
+       "pdf_page": 62
+      }
+     ]
     },
     {
      "claim": "China controls about 90% of rare-earth processing and 69% of mining; Chinese share of humanoid inputs: bearings 40%, motors 35%, power electronics 30%.",
@@ -543,7 +549,13 @@
    "themes": [
     "deployment-gap"
    ],
-   "id": "chinese-owned-home-market-share-2024"
+   "id": "chinese-owned-home-market-share-2024",
+   "additional_citations": [
+    {
+     "page": 67,
+     "pdf_page": 68
+    }
+   ]
   },
   {
    "label": "Robots in operation in China (end of 2024)",
@@ -567,7 +579,13 @@
    "themes": [
     "deployment-gap"
    ],
-   "id": "u-s-operational-stock"
+   "id": "u-s-operational-stock",
+   "additional_citations": [
+    {
+     "page": 49,
+     "pdf_page": 50
+    }
+   ]
   },
   {
    "label": "US plants using robots (2021)",
@@ -695,7 +713,13 @@
    "themes": [
     "components-supply-chain"
    ],
-   "id": "strain-wave-reducers"
+   "id": "strain-wave-reducers",
+   "additional_citations": [
+    {
+     "page": 61,
+     "pdf_page": 62
+    }
+   ]
   },
   {
    "label": "Machine-tool output (2022)",
@@ -778,7 +802,13 @@
    "themes": [
     "capital-costs"
    ],
-   "id": "humanoid-funding-share"
+   "id": "humanoid-funding-share",
+   "additional_citations": [
+    {
+     "page": 82,
+     "pdf_page": 83
+    }
+   ]
   },
   {
    "label": "Industrial-robot makers' share of funding",
@@ -1135,7 +1165,17 @@
   {
    "text": "The report gives Chinese makers' share of China's market as 55% for 2025 here, and 57% for 2024 on pp. 26 and 67. Both are shown with their year.",
    "page": 15,
-   "pdf_page": 16
+   "pdf_page": 16,
+   "additional_citations": [
+    {
+     "page": 26,
+     "pdf_page": 27
+    },
+    {
+     "page": 67,
+     "pdf_page": 68
+    }
+   ]
   },
   {
    "text": "Figure 2 gives China's robot density as 166 per 10,000 workers. The IFR figure this site uses elsewhere is about 470, so 166 is left out here.",
@@ -1145,7 +1185,13 @@
   {
    "text": "The humanoid share of robotics venture funding is \"more than 20%\" on p. 64 and \"roughly 22%\" in the appendix (p. 82).",
    "page": 64,
-   "pdf_page": 65
+   "pdf_page": 65,
+   "additional_citations": [
+    {
+     "page": 82,
+     "pdf_page": 83
+    }
+   ]
   },
   {
    "text": "This is a preliminary diagnosis. The Commission's recommendations are due in the final report in March 2027.",

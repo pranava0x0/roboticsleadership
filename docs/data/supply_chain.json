@@ -1255,14 +1255,14 @@
         {
           "name": "US Congress",
           "type": "agency",
-          "role": "Bipartisan robotics bills in the 119th Congress: GUARD Act (ban adversary robots), National Commission on Robotics Act, American Security Robotics Act",
+          "role": "Proposed security-review, procurement and coordination bills; the FCC Covered List action is a separate administrative measure.",
           "actions": [
-            { "date": "2026-06", "detail": "GUARD Act (H.R. 9129) extends the FCC Covered List framework to humanoid/quadruped robots from countries of concern", "amount_usd": null },
-            { "date": "2026-04", "detail": "National Commission on Robotics Act introduced in both chambers; 'Robots Made in America' House Science hearing", "amount_usd": null },
+            { "date": "2026-06", "detail": "GUARD Act (H.R. 9129) would require security review of covered foreign-entity humanoid/quadruped communications equipment, with FCC listing after a risk finding or missed deadline", "amount_usd": null },
+            { "date": "2026-06", "detail": "National Commission on Robotics Act: House introduced Feb. 3, Senate June 4; House Science held 'Robots Made in America' on April 21", "amount_usd": null },
             { "date": "2026-09", "detail": "FCC Covered List FAQ sets the compliance bar: US-assembled advanced robots need >65% domestic content by value by 2028, >75% by 2029; Gavekal analysts note actuators alone are 40-60% of the hardware BOM, and separately that China supplies the majority of the batteries, LiDAR, and motor controllers used to assemble robots, calling the targets hard to hit without a clear substitution path", "amount_usd": null }
           ],
           "sources": [
-            { "url": "https://dronelife.com/2026/06/04/congress-introduces-guard-act-extending-fcc-covered-list-framework-to-robotics/" },
+            { "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr9129ih/html/BILLS-119hr9129ih.htm" },
             { "url": "https://www.mccormick.senate.gov/news/press-releases/senators-mccormick-hickenlooper-young-and-heinrich-introduce-bipartisan-bill-to-establish-national-commission-on-robotics/" },
             { "url": "https://kr-asia.com/us-robot-curbs-lay-bare-industrys-dependence-on-chinese-parts" }
           ]

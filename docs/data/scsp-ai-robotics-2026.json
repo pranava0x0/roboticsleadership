@@ -71,7 +71,8 @@
     "https://www.prnewswire.com/news-releases/scsp-national-security-commission-on-robotics-for-advanced-manufacturing-releases-preliminary-report-america-leads-in-robotics-innovation-but-is-not-on-track-to-lead-in-physical-ai-302907514.html",
     "https://scsp222.substack.com/p/turning-americas-ai-advantage-into",
     "https://www.unite.ai/bipartisan-robotics-panel-warns-of-widening-u-s-deployment-gap-with-china/"
-   ]
+   ],
+   "pdf_url": "https://www.scsp.ai/wp-content/uploads/2026/10/NSCRAM_Interim-Report.pdf"
   },
   "sources": [
    "https://www.scsp.ai/2026/03/scsp-announces-launch-of-national-security-commission-on-robotics-for-advanced-manufacturing/",
@@ -146,8 +147,8 @@
    "title": "National Commission on Robotics Act (H.R. 7334)",
    "date": "2026-02-03",
    "sponsor": "Rep. Jay Obernolte (R-CA) with Reps. Bob Latta (R-OH) and Jennifer McClellan (D-VA)",
-   "summary": "Independent 18-member commission under Commerce; interim report within 1 year, final within 2 years; scope: workforce, supply chain, manufacturing competitiveness, national security. Referred to Science/E&C/Foreign Affairs/Ed&Workforce.",
-   "url": "https://www.congress.gov/bill/119th-congress/house-bill/7334/all-info",
+   "summary": "Would establish an independent 18-member robotics commission within Commerce to review competitiveness, workforce, supply chains, manufacturing and national security. Interim and final reports are due one and two years after establishment. H.R. 7334 was introduced February 3; S. 4686 on June 4. Both remain referred to committee as of October 14, 2026; this is separate from SCSP’s nongovernmental commission.",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr7334ih/html/BILLS-119hr7334ih.htm",
    "site_record_id": "hr-7334-national-commission-robotics"
   },
   {
@@ -155,8 +156,8 @@
    "date": "2026-06-04",
    "sponsor": "Sen. David McCormick (R-PA); cosponsors Hickenlooper (D-CO), Heinrich (D-NM), Young (R-IN)",
    "summary": "Senate companion; referred to Commerce, Science, and Transportation. Budd and Slotkin are not listed as sponsors.",
-   "url": "https://www.thelobbynews.com/congress/bills/119/senate-bill/4686/text",
-   "site_record_id": null
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119s4686is/html/BILLS-119s4686is.htm",
+   "site_record_id": "hr-7334-national-commission-robotics"
   },
   {
    "title": "Robotics Supply Chain Improvement Act (S. 5310)",
@@ -170,24 +171,24 @@
    "title": "GUARD Act (H.R. 9129)",
    "date": "2026-06-03",
    "sponsor": "Reps. John Moolenaar (R-MI), Jay Obernolte (R-CA), Jennifer McClellan (D-VA)",
-   "summary": "National security agencies review humanoid and quadruped robots from China and other foreign adversaries; platforms judged an unacceptable risk go on the FCC Covered List, and any not reviewed within one year are listed automatically. Referred to House Energy and Commerce; its Communications and Technology subcommittee forwarded it on 2026-09-01. A DoD-only version, Sec. 163, is in the House-passed FY2027 NDAA (H.R. 8800).",
-   "url": "https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-obernolte-mcclellan-introduce-legislation-to-ban-dangerous-chinese-robots",
+   "summary": "Would direct an appropriate national-security agency to determine within one year whether covered humanoid/quadruped robotics communications equipment or services pose an unacceptable risk to U.S. national security or the safety/security of U.S. persons. If the agency does not make a determination by the deadline, the FCC must add all covered equipment/services to its covered list; affirmative findings trigger listing and reporting. A negative finding requires reporting and review by other appropriate national-security agencies. The Communications and Technology subcommittee forwarded H.R. 9129 to the full committee by voice vote on September 1, its latest action as of October 14. This is proposed legislation, separate from the FCC’s July listing and the House NDAA’s DoD-only Section 163.",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr9129ih/html/BILLS-119hr9129ih.htm",
    "site_record_id": "guard-act-hr9129"
   },
   {
    "title": "Humanoid ROBOT Act (S. 3275)",
-   "date": "2026-02 (Robot Report week of Feb 6)",
+   "date": "2025-11-20",
    "sponsor": "Sens. Bill Cassidy (R-LA), Chris Coons (D-DE)",
-   "summary": "Bars federal acquisition of foreign-made AI-integrated humanoid robots incl. from China, Iran, North Korea, Russia.",
-   "url": "https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/",
-   "site_record_id": null
+   "summary": "Would bar executive agency procurement or use by federal contractors of humanoid robots designed, tested, developed, or manufactured by covered entities, with a Defense Secretary waiver for national-security or research objectives. Would direct CFIUS to review certain investments in humanoid-robot production. Would direct the Defense Secretary to report within a year on national-security threats, including privacy/data security, supply-side development and export-control or IP concerns. Latest official actions remain committee referrals as of October 14, 2026.",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119s3275is/html/BILLS-119s3275is.htm",
+   "site_record_id": "s-3275-humanoid-robot"
   },
   {
    "title": "American Security Robotics Act (S. 4235)",
    "date": "2026-03-26",
    "sponsor": "Sens. Tom Cotton (R-AR) and Chuck Schumer (D-NY); House companion Rep. Elise Stefanik (R-NY)",
-   "summary": "Bars federal agencies from buying or operating unmanned ground vehicle systems (explicitly including humanoid robots and autonomous patrol technology) made by covered foreign entities such as Chinese firms; takes effect one year after enactment. Senate bill S. 4235 went to Homeland Security and Governmental Affairs on 2026-03-26. DLA Piper lists the House companion as H.R. 8189 (Stefanik); the site's policy record names Rep. Harrigan as its sponsor, so the House sponsor is unresolved.",
-   "url": "https://thelobbynews.com/congress/bills/119/senate-bill/4235",
+   "summary": "Would bar executive agencies from procuring covered unmanned ground vehicle systems made or assembled by covered foreign entities. After one year, would bar agency operation and use of federal funds through contracts, grants, cooperative agreements, or otherwise for procurement or operation. The definition explicitly includes ground mobile robotics, autonomous patrol technology, and humanoid robots. The procurement ban has no one-year delay; the operation and federal-funds bans do. Both bills remain referred to committee as of October 14, 2026.",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119s4235is/html/BILLS-119s4235is.htm",
    "site_record_id": "hr-8189-american-security-robotics"
   },
   {
@@ -242,9 +243,9 @@
    "title": "FCC adds foreign-produced robots and power inverters to the Covered List",
    "date": "2026-07-28",
    "sponsor": "FCC, on a national security determination from an interagency body",
-   "summary": "Covers mobile ground robots (autonomous mobile robots, humanoids, quadrupeds); fixed factory arms, connected vehicles, medical devices and drones are excluded. 'Foreign-produced' means anything that is not a Buy American 'domestic end product', whatever the country, so allied-made robots are covered; DoD can grant conditional approvals. Devices already authorized are unaffected.",
-   "url": "https://www.clearytradewatch.com/2026/08/fcc-adds-foreign-produced-robotics-power-inverters-to-covered-list-house-ndaa-targets-foreign-adversary-humanoid-robots/",
-   "site_record_id": null
+   "summary": "On July 28, the FCC added foreign-produced advanced robotic devices to its Covered List, based on an Executive Branch interagency national-security determination attached to DA 26-786 as Appendix C. Listing restricts new FCC equipment authorizations and federal subsidies; it does not ban existing ownership. Department of War conditional approvals are an exception. This is separate from Commerce’s Section 232 investigation. The September 18 notice records later approvals and exemptions.",
+   "url": "https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf",
+   "site_record_id": "fcc-covered-list-robots-inverters-2026"
   },
   {
    "title": "Communications and Technology Transparency Act of 2026 (title per BillTrack50; number unconfirmed)",
@@ -269,6 +270,22 @@
    "summary": "Would write into statute a ban on connected vehicles, software and hardware from China and other foreign adversaries (software from 2027, hardware from 2030). Senate Commerce approved it by voice vote 2026-07-22; reports conflict on whether the full Senate has passed it, and a unanimous-consent attempt was blocked by Sen. Rand Paul.",
    "url": "https://www.asashop.org/2026/07/23/senate-commerce-science-and-transportation-committee-advances-connected-vehicle-security-act/",
    "site_record_id": null
+  },
+  {
+   "title": "Blocking CCP Spy Tech Act of 2026 (S. 4586 / H.R. 9687)",
+   "date": "2026-05-20",
+   "sponsor": "Sen. Rick Scott; House sponsor Rep. Scott Perry",
+   "summary": "Would require an appropriate national-security agency to assess within one year whether communications equipment or services produced/provided by six named entities and their specified affiliates, joint ventures, or licensees pose an unacceptable national-security or U.S.-person safety/security risk. A positive determination triggers FCC addition to its covered list; if the agency misses the deadline, the FCC must add all listed entities’ covered products/services. A negative determination triggers reporting and follow-on review by other national-security agencies. Both introduced versions also direct the Defense Secretary to determine whether named entities should be identified as Chinese military companies under the annual NDAA review. Latest official actions remain committee referrals as of October 14, 2026.",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr9687ih/html/BILLS-119hr9687ih.htm",
+   "site_record_id": "blocking-ccp-spy-tech-2026"
+  },
+  {
+   "title": "FY2027 NDAA Section 163 — foreign-adversary humanoid systems (H.R. 8800 §163; HASC LOG ID 6312)",
+   "date": "2026-06-04",
+   "sponsor": "House Armed Services Committee; related markup item offered by Rep. Lance Gooden",
+   "summary": "Gooden’s markup log item 6312, revision 2, was agreed to by voice vote. The House-passed FY2027 NDAA contains a related Section 163 barring DoD procurement, leasing or obtaining of covered humanoid robotic systems made or developed by foreign adversaries, or carrying their software, AI, cloud or remote-control services. A controlled-testing waiver and exclusions for fixed industrial robots, non-networked systems and regulated medical devices apply. H.R. 8800 passed the House July 22 and was received in the Senate September 14; it is not enacted as of October 14.",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr8800eh/html/BILLS-119hr8800eh.htm",
+   "site_record_id": "ndaa-fy2027-sec163-humanoid"
   }
  ],
  "themes": [
