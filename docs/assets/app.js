@@ -160,12 +160,13 @@
     return `<a class="archive-link" href="${escapeHTML(safeURL(archiveUrl))}" target="_blank" rel="noopener" title="Wayback Machine snapshot">${escapeHTML(label || 'archived')} ↗</a>`;
   }
 
-  // ---------- Theme picker (4-up; see DESIGN.md § 15) ----------
+  // ---------- Theme picker (see DESIGN.md § 15) ----------
   const THEMES = [
     { id: 'caves',         name: 'Caves of Steel',  tag: 'Earth' },
     { id: 'naked-sun',     name: 'The Naked Sun',   tag: 'Solaria' },
     { id: 'dawn',          name: 'Robots of Dawn',  tag: 'Aurora' },
     { id: 'robot-dreams',  name: 'Robot Dreams',    tag: 'Subconscious' },
+    { id: 'foundation',    name: 'Foundation',      tag: 'Trantor' },
   ];
   const THEME_IDS = new Set(THEMES.map((t) => t.id));
   const LEGACY = { light: 'naked-sun', dark: 'caves' }; // migrate old values

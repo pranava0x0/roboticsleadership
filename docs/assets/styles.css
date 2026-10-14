@@ -27,8 +27,6 @@
   --transition-base: 120ms;
   --transition-slow: 200ms;
 
-  /* Tabular numerals everywhere */
-  font-feature-settings: "tnum";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -170,24 +168,24 @@
 
   --status-positive: #3b6534;
   --status-positive-soft: #e1ebd6;
-  --status-warning: #8f4a0c;
+  --status-warning: #7a5a08;
   --status-warning-soft: #f7e2ce;
-  --status-negative: #8a2618;
+  --status-negative: #9c1c3c;
   --status-negative-soft: #f5d7d1;
   --status-neutral: #655648;
   --status-neutral-soft: #eee5dc;
 
   --cat-funding: #5a3a8c;
   --cat-deployment: #1b6363;
-  --cat-policy: #8f5312;
-  --cat-competitive: #a32a64;
+  --cat-policy: #7a4a10;
+  --cat-competitive: #982660;
   --cat-supplychain: #37547f;
   --cat-geopolitics: #653232;
-  --cat-research: #3f6a3d;
+  --cat-research: #386236;
 
   --dir-accelerating: #3b6534;
   --dir-stable: #655648;
-  --dir-slowing: #8f5312;
+  --dir-slowing: #7a4a10;
 
   --radius-card: 16px;
   --shadow-rest: 0 1px 3px rgba(43, 34, 28, 0.08);
@@ -222,8 +220,8 @@
 
   --status-positive: #8fd79a;
   --status-positive-soft: rgba(143, 215, 154, 0.14);
-  --status-warning: #f2c75a;
-  --status-warning-soft: rgba(242, 199, 90, 0.14);
+  --status-warning: #e6dc7a;
+  --status-warning-soft: rgba(230, 220, 122, 0.14);
   --status-negative: #f08279;
   --status-negative-soft: rgba(240, 130, 121, 0.14);
   --status-neutral: #a39d91;
@@ -239,12 +237,73 @@
 
   --dir-accelerating: #8fd79a;
   --dir-stable: #a39d91;
-  --dir-slowing: #f2c75a;
+  --dir-slowing: #e6dc7a;
 
   --radius-card: 12px;
   --shadow-rest: 0 0 0 1px rgba(242, 166, 90, 0.08);
   --shadow-elevated: 0 0 24px rgba(242, 166, 90, 0.16);
   --surface-backdrop: blur(12px) saturate(120%);
+}
+
+/* --- Theme 5: Foundation (Trantor) ---
+   The dying capital: a metal-sheathed planet-city with no sky, an Empire in
+   imperial violet, and the Prime Radiant's equations glowing cold in the dark.
+   So: a violet-black ground, one cool cyan light as the accent (the other two
+   dark themes are amber), and tarnished brass for warning. Spectral for the
+   Encyclopedia, IBM Plex Sans for psychohistory. 6px radius = riveted plate. */
+
+[data-theme="foundation"] {
+  --font-serif: "Spectral", "Iowan Old Style", Georgia, "Palatino Linotype", serif;
+  --font-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+
+  --bg: #0d0b1a;
+  --surface: #161327;
+  --surface-2: #201c36;
+  --border: #2f2a4a;
+  --border-strong: #7a7499;
+  --text: #ebe9f5;
+  --text-muted: #b0abcb;
+  --text-faint: #9893b8;
+  --accent: #62d4f0;
+  --accent-soft: #12303b;
+  --accent-on: #0d0b1a;
+  --link: #62d4f0;
+
+  --status-positive: #9aeab0;
+  --status-positive-soft: #173524;
+  --status-warning: #e0b455;
+  --status-warning-soft: #35290f;
+  --status-negative: #ff6f6f;
+  --status-negative-soft: #3d1620;
+  --status-neutral: #b0abcb;
+  --status-neutral-soft: #262239;
+
+  --cat-funding: #c6a4f7;
+  --cat-deployment: #5fdcb8;
+  --cat-policy: #e6c25a;
+  --cat-competitive: #f58fb8;
+  --cat-supplychain: #8fa9f7;
+  --cat-geopolitics: #f5a07c;
+  --cat-research: #b3dc7c;
+
+  --dir-accelerating: #9aeab0;
+  --dir-stable: #b0abcb;
+  --dir-slowing: #e0b455;
+
+  --radius-card: 6px;
+  --radius-pill: 4px;
+  --shadow-rest: 0 0 0 1px rgba(0, 0, 0, 0.45);
+  --shadow-elevated: 0 0 0 1px var(--border-strong), 0 0 28px rgba(98, 212, 240, 0.10);
+}
+
+/* Robot Dreams: a faint lit-from-within ground, so the glass surfaces have
+   something to blur (on a flat colour the backdrop-filter showed nothing). */
+[data-theme="robot-dreams"] body {
+  background: radial-gradient(1200px 640px at 20% -10%, #1f2131, transparent 70%) no-repeat, var(--bg);
+}
+/* Dark themes: a full-white masthead rule was the brightest thing on screen. */
+:is([data-theme="caves"], [data-theme="robot-dreams"], [data-theme="foundation"]) .masthead {
+  border-bottom-color: var(--border-strong);
 }
 
 /* Reset */
@@ -293,7 +352,7 @@ input, select, textarea {
   left: -9999px;
   top: 0;
   background: var(--accent);
-  color: #fff;
+  color: var(--accent-on);
   padding: 8px 12px;
   z-index: 100;
   border-radius: 0 0 8px 0;
@@ -615,7 +674,7 @@ h2.section-title.rule {
   line-height: 1.55;
   color: var(--text-muted);
   margin: 0 0 12px;
-  max-width: 68ch;
+  max-width: 62ch;
 }
 .lead-byline,
 .story-byline {
@@ -1152,7 +1211,7 @@ a.kpi-card:hover {
 .btn:hover { background: var(--surface); border-color: var(--border-strong); }
 .btn.primary {
   background: var(--accent);
-  color: #fff;
+  color: var(--accent-on);
   border-color: var(--accent);
 }
 .btn.primary:hover { filter: brightness(1.05); }
@@ -1238,7 +1297,7 @@ a.kpi-card:hover {
 
 /* Company name + derived deployment-stage pill (companies table) */
 .company-name-row { display: inline-flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-.stage-pill { font-size: 9.5px; padding: 1px 6px; letter-spacing: 0.06em; }
+.stage-pill { font-size: 10.5px; padding: 1px 6px; letter-spacing: 0.06em; }
 
 /* show-mobile: only visible when hide-mobile columns are hidden (≤760px).
    Must match .secondary-line specificity (0,3,0) to win. */
@@ -1463,10 +1522,10 @@ a.kpi-card:hover {
   margin: 0 0 12px;
 }
 .chart svg { display: block; width: 100%; height: auto; overflow: visible; }
-.chart .axis-label { fill: var(--text-muted); font-size: 10px; }
+.chart .axis-label { fill: var(--text-muted); font-size: 11.5px; }
 .chart-source {
   margin: 10px 0 0;
-  font-size: 11px;
+  font-size: 11.5px;
   color: var(--text-faint);
   line-height: 1.4;
 }
@@ -1805,11 +1864,9 @@ button, [role="button"], a.btn {
   white-space: nowrap;
 }
 
-/* Override: cyan accent in Robot Dreams needs explicit on-text */
-[data-theme="robot-dreams"] .btn.primary,
-[data-theme="robot-dreams"] .pill.cat-accent {
-  color: var(--accent-on);
-}
+/* Numbers line up in columns where they are compared; body copy keeps
+   proportional figures (global "tnum" widened hyphens in Inter/Jakarta). */
+table, .kpi-value, .kpi-sub, .chart text { font-variant-numeric: tabular-nums; }
 
 /* Reduced-motion: kill transitions across themes + picker.
    This is the single source of truth for motion gating. */

@@ -290,24 +290,24 @@ Decisions made by *omission*:
 
 ---
 
-## 15. Theme system — the four Asimov themes
+## 15. Theme system — the five Asimov themes
 
-> **Project-specific.** Most rules in this document are universal. The four themes below are the concrete visual identity of the Robotics Tracker project. They override § 2's "no web fonts" default with an explicit justification: **the typography is the theme identity**. Without distinct type, the themes collapse into "just a palette swap."
+> **Project-specific.** Most rules in this document are universal. The five themes below are the concrete visual identity of the Robotics Tracker project. They override § 2's "no web fonts" default with an explicit justification: **the typography is the theme identity**. Without distinct type, the themes collapse into "just a palette swap."
 
-The project ships four named themes, each evoking a setting from Isaac Asimov's Robot series. The aesthetic philosophy of each theme is enforced by typography, color, density, and motion — not by extra components or layouts.
+The project ships five named themes: four from Isaac Asimov's Robot series and one (Foundation, added 2026-10-14) from the Foundation series. The aesthetic philosophy of each theme is enforced by typography, color, density, and motion — not by extra components or layouts.
 
 ### 15.1 Architecture
 
 - **Single source of truth: CSS custom properties** on the `<html>` element, scoped by `[data-theme="<name>"]`. JS reads `getComputedStyle()` for any value it needs; no hex codes live outside the theme blocks.
 - **Token names are role-based, not theme-specific.** `--bg`, `--surface`, `--surface-2`, `--text`, `--text-muted`, `--accent` mean the same role in every theme; only the value changes. The variable `--font-serif` is the "display / headers" font even when the theme's chosen face is technically condensed-sans (Caves) or monospace (Robot Dreams).
 - **`<html data-theme="...">` is set before first paint** by a tiny inline boot script reading `localStorage` and falling back to `prefers-color-scheme`. Avoids FOUC.
-- **Persistence:** `localStorage.theme` stores one of `caves` / `naked-sun` / `dawn` / `robot-dreams`. Legacy values `light` and `dark` migrate to `naked-sun` and `caves` respectively.
+- **Persistence:** `localStorage.theme` stores one of `caves` / `naked-sun` / `dawn` / `robot-dreams` / `foundation`. Legacy values `light` and `dark` migrate to `naked-sun` and `caves` respectively.
 - **Default rule:** `prefers-color-scheme: dark` → `caves`, otherwise `dawn`. Any stored choice wins over both.
 - **Per-theme aesthetic tokens** allow a single component (`.card`, `.pill`, `.surface`) to look different across themes without theme-specific CSS classes. Tokens that vary per theme: `--radius-card`, `--shadow-rest`, `--shadow-elevated`, `--surface-backdrop` (the last only set in Robot Dreams).
 
 ### 15.2 Accessibility — WCAG 2.1 AA
 
-All four themes meet or exceed **4.5:1 for every text token** — including `--text-faint`, which carries real
+All five themes meet or exceed **4.5:1 for every text token** — including `--text-faint`, which carries real
 text (dates, record counts, KPI sublabels) and is therefore held to the body-text bar, not the 3:1 large-text
 one — and **3:1 for `--border-strong`**, the keyline the front page's section rules and rail dividers are drawn
 with.
@@ -328,14 +328,21 @@ across all backgrounds:
 | The Naked Sun   | 15.4:1    | 6.3:1       | 4.9:1       | 7.4:1        | 3.3:1 |
 | Robots of Dawn  | 12.5:1    | 5.7:1       | 4.6:1       | 5.5:1        | 3.6:1 |
 | Robot Dreams    | 13.3:1    | 6.2:1       | 5.6:1       | 8.3:1        | 3.8:1 |
+| Foundation      | 13.7:1    | 7.4:1       | 5.6:1       | 9.5:1        | 3.7:1 |
 
 Two theme-specific rules survive the rework:
 
 - **Caves' `--status-positive` is only ever used on dark surfaces** (it is a dark-mode-only theme, so this is
   automatic, but it is why the token may not be lifted into a light theme unchanged).
-- **Robot Dreams requires `--accent-on` for text inside any accent fill.** The accent moved from cyan to amber
-  but the hazard did not: amber `#F2A65A` on warm-silver `#E8E4DB` is ~1.9:1. Any filled `.btn.primary`,
-  `.pill.cat-accent`, or skip-link must take `color: var(--accent-on)`.
+- **Text inside any accent fill uses `--accent-on`, in every theme (2026-10-14).** `.btn.primary` and the
+  skip link used to hardcode `#fff`, with only Robot Dreams overridden — white on Caves' sodium amber was
+  1.83:1 and on Foundation's cyan ~1.7:1. Every theme defines `--accent-on`; never write `#fff` on `--accent`.
+- **Tinted pills are checked too, not just plain text.** A 10.5px pill is text on its own 14% tint over each
+  surface. The 2026-10-14 pass found four Dawn pills under 4.5:1 on `--surface-2` (policy, slowing,
+  research, competitive) and darkened those tokens.
+- **Tabular figures are scoped, not global.** `font-feature-settings: "tnum"` on `:root` widened hyphens in
+  Inter and Plus Jakarta body copy ("120 - day"). Tables, KPI values and chart text take
+  `font-variant-numeric: tabular-nums`; add `.tnum` to any other number that has to line up.
 
 Other accessibility requirements every theme respects:
 
@@ -432,7 +439,10 @@ Body font     Montserrat, system-ui, -apple-system, "Segoe UI", sans-serif
 --text-faint      #756454                              4.6:1 (min) — was 3.81:1 on --bg, failed AA
 --accent          #9a3d12  low-sun terracotta           6.5:1
 --cat-funding     #5a3a8c  pre-dawn violet
---cat-competitive #a32a64  dawn rose
+--cat-competitive #982660  dawn rose (was #a32a64; pill 4.45:1 on --surface-2)
+--cat-policy      #7a4a10  (was #8f5312; pill 4.11:1)
+--status-warning  #7a5a08  ochre (was #8f4a0c, read as the accent)
+--status-negative #9c1c3c  crimson (was #8a2618, read as the accent)
 --radius-card     16px     most pronounced
 ```
 
@@ -465,9 +475,44 @@ Body font     Plus Jakarta Sans, system-ui, -apple-system, sans-serif
 --text-faint       #9a9488                              5.6:1 (min) — was #847e73, 4.18:1 on --surface
 --accent           #f2a65a  dream-sun amber (was #00E5FF cyan)   9.0:1
 --accent-on        #14151a  text colour inside any accent fill
+--status-warning   #e6dc7a  pale straw (was #f2c75a, too close to the amber accent)
 --radius-card      12px
 --shadow-elevated  0 0 24px rgba(242, 166, 90, 0.16)   subtle glow
 ```
+
+The body carries a faint radial light at the top of the page so the glass has something to blur; on a flat
+ground the backdrop-filter rendered nothing.
+
+#### Theme 5 — Foundation (Trantor)
+
+**Aesthetic.** The dying capital of the Galactic Empire: a metal-sheathed planet-city with no sky, the
+Empire's violet, and the Prime Radiant's equations glowing in the dark of the Time Vault. Dark, because
+every image the series is remembered by is light on dark.
+
+**Why it looks the way it does.** The two existing dark themes both use amber, so this one flips to a **cool
+cyan accent on a violet-black ground**, with **tarnished brass** for warning (decaying imperial gold).
+**Spectral** for display (the Encyclopedia Galactica) and **IBM Plex Sans** for body (psychohistory as a
+technical discipline). 6px radius, between Caves' 2px and Dreams' 12px: riveted metal plate. Opaque
+surfaces, no glass.
+
+```
+Display font  Spectral, "Iowan Old Style", Georgia, "Palatino Linotype", serif
+Body font     IBM Plex Sans, system-ui, -apple-system, "Segoe UI", Arial, sans-serif
+
+--bg               #0d0b1a  imperial violet-black
+--surface          #161327
+--surface-2        #201c36
+--border-strong    #7a7499                              3.7:1 (min)
+--text             #ebe9f5                             16.2:1
+--text-muted       #b0abcb                              8.8:1
+--text-faint       #9893b8                              5.6:1 (min)
+--accent           #62d4f0  Prime Radiant cyan         11.3:1
+--accent-on        #0d0b1a
+--status-warning   #e0b455  tarnished brass
+--radius-card      6px
+```
+
+Positive vs negative stays distinguishable under deuteranopia (ΔE 22, against 7–15 in the other themes).
 
 > **Robot Dreams pitfall.** The `backdrop-filter: blur(...)` rule violates the § 10 "no filter on hot panes"
 > pitfall *for content panes* (maps, scrolling feeds). It is acceptable here because it is applied only to
