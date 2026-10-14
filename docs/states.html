@@ -128,6 +128,14 @@
     </details>
 
     <div id="sp-empty" class="empty-state" hidden>No state or local records tracked yet.</div>
+    <details class="collapsible-section" id="sec-commission">
+      <summary>
+        <h2 class="section-title">What the SCSP robotics commission found</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Its findings on the manufacturing workforce and small manufacturers.</p>
+      </summary>
+      <div id="commission-note"><p class="muted-cell">Loading…</p></div>
+    </details>
+
   </main>
 
   <footer class="site-footer">
@@ -230,6 +238,9 @@
       return `<span class="pill ${map[s] || 'outline'}">${RT.escapeHTML(s)}</span>`;
     }
   });
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => RT.mountCommissionNote('#commission-note', {"findings": [5, 7], "figures": ["manufacturing-labor-gap", "apprentices", "smm-share-of-u-s-manufacturers", "robot-presence-by-plant-size"], "theme": "workforce-talent"}));
   </script>
 </body>
 </html>

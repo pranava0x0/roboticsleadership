@@ -78,12 +78,33 @@
     <div class="kpi-strip cols-4" id="kpis" style="margin-top:16px;"></div>
 
     <nav class="jump-nav" aria-label="On this page">
-      <a href="#agenda">Agenda</a><a href="#themes">Themes</a><a href="#speakers">Speakers</a><a href="#org-news">Company news</a><a href="#posts">Recent posts</a><a href="#context">Policy context</a>
+      <a href="#agenda">Agenda</a><a href="#report">Commission report</a><a href="#themes">Themes</a><a href="#speakers">Speakers</a><a href="#org-news">Company news</a><a href="#posts">Recent posts</a><a href="#context">Policy context</a>
     </nav>
 
     <h2 class="section-title rule" id="agenda">Agenda</h2>
     <p class="muted">All times ET. SCSP notes titles and times were subject to change. Tap a name for the bio.</p>
     <ol class="summit-agenda" id="agenda-list"></ol>
+
+    <h2 class="section-title rule" id="report">The commission's preliminary report</h2>
+    <p class="muted" id="report-meta">Loading…</p>
+    <div class="report-themes" id="report-themes" role="group" aria-label="Show findings on one theme"></div>
+    <p id="report-theme-desc" style="margin:0 0 6px;font-size:14px;max-width:74ch;"></p>
+    <ol class="report-findings" id="report-findings"></ol>
+    <h3 style="margin:24px 0 8px;">Figures in the report</h3>
+    <div class="table-wrap">
+      <table class="data-table" id="report-figs">
+        <thead><tr><th>Figure</th><th>Value</th><th class="hide-mobile">Note</th><th class="col-tight">Page</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div id="report-figs-more" class="more-row" hidden>
+      <span id="report-figs-status" class="muted" aria-live="polite"></span>
+      <button class="btn ghost" type="button" id="report-figs-all">Show all</button>
+    </div>
+    <h3 style="margin:24px 0 8px;">Where the final report (March 2027) is headed</h3>
+    <ul class="summit-recent" id="report-directions"></ul>
+    <h3 style="margin:24px 0 8px;">Where the report's numbers disagree</h3>
+    <ul class="summit-recent" id="report-caveats"></ul>
 
     <h2 class="section-title rule" id="themes">Themes emerging</h2>
     <p class="muted">Drawn from the agenda and the Commission's preliminary report released the day before.</p>
@@ -122,9 +143,9 @@
     const link = (u, label) => `<a href="${E(RT.safeURL(u))}" target="_blank" rel="noopener">${E(label)}</a>`;
     const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } };
     const date = (d) => /^\d{4}-\d{2}-\d{2}$/.test(d || '') ? RT.formatDate(d) : (d || '—');
-    let d;
+    let d, report;
     try {
-      d = await RT.loadData('scsp-ai-robotics-2026');
+      [d, report] = await Promise.all([RT.loadData('scsp-ai-robotics-2026'), RT.loadData('scsp-robotics-commission-2026')]);
     } catch (err) {
       document.getElementById('bluf').textContent = 'Could not load the summit data. Try reloading.';
       return;
@@ -142,7 +163,7 @@
       ['Sessions', d.sessions.filter(s => s.kind !== 'Break').length, 'panels, demos, firesides'],
       ['On stage', d.people.length, 'speakers and moderators'],
       ['Commissioners', commCount, 'speakers on the SCSP commission'],
-      ['2025 robot installs', 'CN 354K · US 38K', 'per the preliminary report'],
+      ['2025 robot installs', 'CN 354K · US 38K', 'commission report, p. 15'],
     ];
     document.getElementById('kpis').innerHTML = kpis.map(([l, v, s]) =>
       `<div class="kpi-card"><span class="kpi-label">${E(l)}</span><span class="kpi-value tnum">${E(String(v))}</span><span class="kpi-sub">${E(s)}</span></div>`).join('');
@@ -240,8 +261,7 @@
         <h3 class="card-title" style="font-size:17px;">${E(c.name.split(' (')[0])}</h3>
         <p class="card-sub" style="margin:0;">Announced ${E(date(c.announced))} · co-chairs ${c.co_chairs.map(E).join(', ')} · ${E(c.duration_and_deliverables)}</p>
         <p style="margin:0;font-size:14px;">${E(c.mandate)}</p>
-        <p style="margin:0;font-size:14px;"><strong>Preliminary report (${E(date(rep.date))}):</strong> ${E(rep.central_finding)} ${E(rep.recommendation_status)}</p>
-        <div><strong style="font-size:13px;">Figures cited</strong><ul class="summit-recent">${rep.key_numbers.map(n => `<li>${E(n)}</li>`).join('')}</ul></div>
+        <p style="margin:0;font-size:14px;"><strong>Preliminary report (${E(date(rep.date))}):</strong> <a href="#report">findings and figures, with page links</a>.</p>
         <p class="card-sub" style="margin:0;"><strong>Commissioners:</strong> ${c.commissioners.map(E).join('; ')}</p>
         <p class="card-meta" style="margin:0;">${[...c.sources, ...rep.sources].filter((u, i, a) => a.indexOf(u) === i).map(u => link(u, host(u))).join('<span class="sep"></span>')}</p>
       </article>
@@ -251,6 +271,54 @@
         <summary><h3 class="section-title" style="font-size:17px;">SCSP's earlier robotics work <span class="muted tnum" style="font-size:13px;">${d.scsp_work.length}</span></h3></summary>
       <ul class="summit-recent">${d.scsp_work.map(w => `<li><span class="tnum muted">${E(date(w.date))}</span> <strong>${E(w.title)}</strong> ${link(w.url, host(w.url))}${(w.key_points || []).length ? `<br><span class="muted">${(w.key_points || []).map(E).join(' · ')}</span>` : ''}</li>`).join('')}</ul>
       </details>`;
+
+    // Commission report: theme buttons filter the findings and the figures table.
+    const cite = (item, label) => RT.reportCite(report, item, label);
+    document.getElementById('report-meta').innerHTML =
+      `${E(report.publisher)}, released ${E(date(report.released))}, ${report.pdf_pages} pages. ` +
+      `<a href="${E(RT.safeURL(report.pdf_url))}" target="_blank" rel="noopener">PDF</a> · ` +
+      `<a href="${E(RT.safeURL(report.page_url))}" target="_blank" rel="noopener">Summary page</a>. ` +
+      `Each finding below is our summary; the page links open the PDF at the page cited.`;
+    const themeName = Object.fromEntries(report.themes.map(t => [t.id, t.name]));
+    const findingHTML = (f) => `
+      <li><details class="report-finding" id="finding-${f.n}">
+        <summary><span class="report-finding-n tnum">${f.n}</span><span><span class="report-finding-title">${E(f.title)}</span> <span class="muted tnum" style="font-size:12px;white-space:nowrap;">pp. ${E(f.pages)}</span></span></summary>
+        <div class="report-finding-body">
+          <p>${E(f.summary)} ${cite(f)}</p>
+          ${f.evidence.length ? `<ul>${f.evidence.map(ev => `<li>${E(ev.claim)} ${cite(ev)}${ev.underlying_source ? ` <span class="muted">Source cited: ${E(ev.underlying_source)}.</span>` : ''}</li>`).join('')}</ul>` : ''}
+          <p class="card-meta">${f.themes.map(t => `<span class="pill outline">${E(themeName[t])}</span>`).join(' ')}</p>
+        </div>
+      </details></li>`;
+    const figHTML = (k) => `<tr><td>${E(k.label)}</td><td class="tnum">${E(k.value)}</td><td class="hide-mobile muted">${E(k.context || '—')}</td><td class="col-tight">${cite(k)}</td></tr>`;
+    // "All findings" lists 39 figures; show the first 8 so the sections below stay reachable on a phone.
+    const FIGS_SHOWN = 8;
+    let figsAll = false;
+    let reportTheme = report.themes.some(t => t.id === RT.readQuery().theme) ? RT.readQuery().theme : '';
+    function renderReport() {
+      const t = report.themes.find(x => x.id === reportTheme);
+      document.getElementById('report-themes').innerHTML = [['', 'All findings', report.findings.length], ...report.themes.map(x => [x.id, x.name, x.findings.length])]
+        .map(([id, name, n]) => `<button type="button" data-theme-id="${E(id)}" aria-pressed="${id === reportTheme}">${E(name)} <span class="tnum">${n}</span></button>`).join('');
+      document.getElementById('report-theme-desc').textContent = t ? t.description : '';
+      const fs = report.findings.filter(f => !t || t.findings.includes(f.n));
+      document.getElementById('report-findings').innerHTML = fs.map(findingHTML).join('');
+      const ks = report.key_figures.filter(k => !t || k.themes.includes(t.id));
+      const cap = figsAll || t ? ks.length : FIGS_SHOWN;
+      document.getElementById('report-figs-more').hidden = ks.length <= cap;
+      document.getElementById('report-figs-status').textContent = `Showing ${Math.min(cap, ks.length)} of ${ks.length}`;
+      document.querySelector('#report-figs tbody').innerHTML = ks.slice(0, cap).map(figHTML).join('') ||
+        '<tr><td colspan="4" class="muted-cell">The report gives no headline figures for this theme. The findings above carry its evidence.</td></tr>';
+    }
+    document.getElementById('report-themes').addEventListener('click', (e) => {
+      const b = e.target.closest('button[data-theme-id]');
+      if (!b) return;
+      reportTheme = b.dataset.themeId;
+      RT.writeQuery({ theme: reportTheme || null });
+      renderReport();
+    });
+    document.getElementById('report-figs-all').addEventListener('click', () => { figsAll = true; renderReport(); });
+    renderReport();
+    document.getElementById('report-directions').innerHTML = report.directions.map(x => `<li>${E(x.text)} ${cite(x)}</li>`).join('');
+    document.getElementById('report-caveats').innerHTML = report.caveats.map(x => `<li>${E(x)}</li>`).join('');
 
     RT.applyCollapsibleState();
     if (location.hash.startsWith('#p-')) openPerson(location.hash.slice(3));

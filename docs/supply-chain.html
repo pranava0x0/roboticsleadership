@@ -241,6 +241,14 @@
       <div id="stakeholder-grid" class="stakeholder-grid"></div>
     </details>
 
+    <details class="collapsible-section" id="sec-commission">
+      <summary>
+        <h2 class="section-title">What the SCSP robotics commission found</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Its findings on magnets, reducers and the suppliers below them.</p>
+      </summary>
+      <div id="commission-note"><p class="muted-cell">Loading…</p></div>
+    </details>
+
     <!-- Key figures -->
     <details class="collapsible-section" id="sec-facts">
       <summary>
@@ -558,6 +566,9 @@
       return s.length > n ? s.slice(0, n - 1).replace(/[\s.,;:]+$/, '') + '…' : s;
     }
   });
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => RT.mountCommissionNote('#commission-note', {"findings": [9, 8], "figures": ["sintered-permanent-magnets-china", "strain-wave-reducers", "humanoid-inputs-china-share", "tier-2-3-supplier-visibility", "new-supplier-qualification"], "theme": "components-supply-chain"}));
   </script>
 </body>
 </html>

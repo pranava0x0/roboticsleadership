@@ -1,0 +1,1140 @@
+{
+ "id": "nscram-preliminary-2026",
+ "title": "National Security Commission on Robotics for Advanced Manufacturing (NSCRAM) Preliminary Report",
+ "short_title": "NSCRAM preliminary report",
+ "publisher": "Special Competitive Studies Project (SCSP)",
+ "released": "2026-10-13",
+ "captured_at": "2026-10-14",
+ "page_url": "https://www.scsp.ai/robotics-preliminary-report/",
+ "pdf_url": "https://www.scsp.ai/wp-content/uploads/2026/10/NSCRAM_Interim-Report.pdf",
+ "pdf_pages": 90,
+ "page_note": "\"p.\" is the printed page number. Links open the PDF at that page (PDF page = printed page + 1).",
+ "themes": [
+  {
+   "id": "deployment-gap",
+   "name": "Deployment gap and the flywheel",
+   "description": "U.S. leads in AI and design but trails China in installations, stock and diffusion; deployment volume drives learning, cost and supplier investment.",
+   "findings": [
+    1,
+    2,
+    10
+   ]
+  },
+  {
+   "id": "components-supply-chain",
+   "name": "Components and supply chain",
+   "description": "Concentration in magnets, reducers, sensors and sub-tier parts, opaque supplier visibility, and cyber exposure from foreign-linked hardware.",
+   "findings": [
+    3,
+    8,
+    9
+   ]
+  },
+  {
+   "id": "smes-adoption",
+   "name": "SME adoption barriers",
+   "description": "Small and medium manufacturers face capital, knowledge, readiness, ROI-framing and demand-signal barriers; RaaS and MEP help but are limited.",
+   "findings": [
+    2,
+    6,
+    7
+   ]
+  },
+  {
+   "id": "workforce-talent",
+   "name": "Workforce and talent",
+   "description": "Aging workforce, lost wage premium, skills mismatch, apprenticeship limits, micro-credentials and STEM pipeline; employment effects are ambiguous.",
+   "findings": [
+    4,
+    5
+   ]
+  },
+  {
+   "id": "federal-coordination",
+   "name": "Federal coordination and public trust",
+   "description": "Fragmented agencies without a single accountable owner, ended programs, and contested public attitudes toward automation.",
+   "findings": [
+    2,
+    3,
+    10
+   ]
+  },
+  {
+   "id": "standards-safety-cyber",
+   "name": "Standards, safety and cybersecurity",
+   "description": "Safety, performance and liability standards lag flexible robots; networked systems expand attack surface; FCC Covered List action.",
+   "findings": [
+    3,
+    6,
+    7
+   ]
+  },
+  {
+   "id": "data-simulation",
+   "name": "Data and simulation",
+   "description": "Robot training data is scarce, proprietary and fragmented; simulation needs real-world grounding; China pays to pool data.",
+   "findings": [
+    9
+   ]
+  },
+  {
+   "id": "capital-costs",
+   "name": "Capital, financing and cost",
+   "description": "Venture timelines mismatch hardware, humanoids absorb funding, and China's scale, density and subsidies drive structural cost advantages.",
+   "findings": [
+    8,
+    9
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "n": 1,
+   "title": "The US is not on track to lead physical AI at scale",
+   "report_heading": "Physical AI at scale will define the next industrial era, and the United States is not on a trajectory to lead it.",
+   "summary": "The US has the strongest AI models, research and startups, but builds and installs far fewer robots than China, makes few of the key parts, and few small factories use robots. The report measures leadership by robots at work, not by models.",
+   "pages": "12–17",
+   "page": 12,
+   "pdf_page": 13,
+   "themes": [
+    "deployment-gap"
+   ],
+   "evidence": [
+    {
+     "claim": "In 2024 the U.S. ranked eighth in robot density at roughly 307 robots per 10,000 manufacturing employees versus Korea's 1,220.",
+     "page": 15,
+     "pdf_page": 16,
+     "underlying_source": "IFR, Robot Density Surges in Europe, Asia, and Americas (2026)"
+    },
+    {
+     "claim": "China installed about 354,200 industrial robots in 2025 (59% of world installs) versus about 38,400 in the U.S.",
+     "page": 15,
+     "pdf_page": 16,
+     "underlying_source": "IFR, China Installs 59 Percent of World's Industrial Robots (2026)"
+    },
+    {
+     "claim": "Chinese suppliers held 55% of installations in their home market in 2025.",
+     "page": 15,
+     "pdf_page": 16,
+     "underlying_source": "IFR (2026)"
+    },
+    {
+     "claim": "By end-2024 China had over two million operating industrial robots, more than five times the U.S. stock of 393,700.",
+     "page": 16,
+     "pdf_page": 17,
+     "underlying_source": "IFR, China Tops World Record of 2 Million Factory Robots (2025)"
+    },
+    {
+     "claim": "Share of U.S. establishments with active robots rises from 1.6% (0-5 employees) to 40.9% (1,000+); all establishments 6.4% (2022).",
+     "page": 17,
+     "pdf_page": 18,
+     "underlying_source": "IFR / Census data as charted in Figure 2"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Buyers wait for cheaper robots; costs fall only with volume",
+   "report_heading": "A supply-demand paradox is preventing the U.S. robotics flywheel from starting.",
+   "summary": "Manufacturers hold off until robots get cheaper and easier to install. Robot makers can't cut costs until they sell more. Each side waits on the other, and small manufacturers are hit hardest.",
+   "pages": "18–21",
+   "page": 18,
+   "pdf_page": 19,
+   "themes": [
+    "deployment-gap",
+    "smes-adoption",
+    "federal-coordination"
+   ],
+   "evidence": [
+    {
+     "claim": "Regional robot adoption correlates with the presence of integrators and peer robot-using manufacturers (Census Annual Survey of Manufactures research).",
+     "page": 19,
+     "pdf_page": 20,
+     "underlying_source": "Brynjolfsson et al., Robot Hubs in U.S. Manufacturing, Census (2023)"
+    },
+    {
+     "claim": "NIST found small and medium manufacturers often lack robotics expertise, knowledge of capabilities, and unbiased guidance.",
+     "page": 19,
+     "pdf_page": 20,
+     "underlying_source": "NIST, Best Practices for Cobot Integration in SMMs (2021)"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Federal programs are scattered and public trust is weak",
+   "report_heading": "Fragmented institutions, unmanaged strategic risk, and weak public confidence compound to block coordinated action.",
+   "summary": "Robotics programs sit in at least four federal departments with no one in charge. Many Americans worry about job losses. Foreign parts and software in US robots create supply and security risks.",
+   "pages": "21–27",
+   "page": 21,
+   "pdf_page": 22,
+   "themes": [
+    "components-supply-chain",
+    "federal-coordination",
+    "standards-safety-cyber"
+   ],
+   "evidence": [
+    {
+     "claim": "The National Robotics Initiative coordinated more than $250 million across more than 300 projects before NSF ended it in 2022.",
+     "page": 23,
+     "pdf_page": 24,
+     "underlying_source": "NSF NRI Sunset Announcement (2022)"
+    },
+    {
+     "claim": "July 2026 poll of 1,306 U.S. adults: 74% worried robots would take others' jobs within five years; 31% of 582 employed worried about their own job.",
+     "page": 24,
+     "pdf_page": 25,
+     "underlying_source": "Breakwater Strategy/YouGov Robotics Omnibus (July 2026)"
+    },
+    {
+     "claim": "Comfort with robots: 63% in grocery stockrooms/loading docks, 59% cleaning floors, 39% at self-checkout.",
+     "page": 24,
+     "pdf_page": 25,
+     "underlying_source": "Breakwater Strategy (2026)"
+    },
+    {
+     "claim": "Pittsburgh Robotics Network survey of 642 adults: 44% expect more U.S. manufacturing from robotics; 62% prefer or are more likely to use domestic robotics.",
+     "page": 25,
+     "pdf_page": 26,
+     "underlying_source": "Pittsburgh Robotics Network (March 2025)"
+    },
+    {
+     "claim": "In 2024 Chinese-owned manufacturers held 57% of China's home industrial-robot market.",
+     "page": 26,
+     "pdf_page": 27,
+     "underlying_source": "SCSP, The Robot Deficit (2026); IFR (2025)"
+    },
+    {
+     "claim": "In 2024 China had about 60% of rare-earth mine production for magnets, 91% of refined output, and 94% of sintered permanent-magnet production.",
+     "page": 26,
+     "pdf_page": 27,
+     "underlying_source": "IEA Rare Earth Elements (2026)"
+    },
+    {
+     "claim": "A 2026 robot-vacuum vulnerability exposed camera, audio and floor plans of nearly 7,000 devices in 24 countries.",
+     "page": 27,
+     "pdf_page": 28,
+     "underlying_source": "The Verge (2026)"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "The effect on jobs is mixed and not settled",
+   "report_heading": "The effects of robotics on employment are ambiguous and not predetermined.",
+   "summary": "Robots remove some jobs, change others and create new ones, all at once. Studies disagree on the net effect, which depends on how fast robots spread and on policy. Recent factory job losses came mostly from the business cycle and trade.",
+   "pages": "34–37",
+   "page": 34,
+   "pdf_page": 35,
+   "themes": [
+    "workforce-talent"
+   ],
+   "evidence": [
+    {
+     "claim": "One welding developer reports a trained welder in a robotic cell can reach up to five times manual output.",
+     "page": 35,
+     "pdf_page": 36,
+     "underlying_source": "SCSP staff engagement with Path Robotics (Aug 2026)"
+    },
+    {
+     "claim": "U.S. commuting-zone study (1990-2007): each additional robot per thousand workers cut national employment by about 3.3 jobs.",
+     "page": 37,
+     "pdf_page": 38,
+     "underlying_source": "Acemoglu & Restrepo (2020)"
+    },
+    {
+     "claim": "Contrasting studies: zero net job loss across 17 industrialized countries; net positive effect across 16 EU economies.",
+     "page": 37,
+     "pdf_page": 38,
+     "underlying_source": "Graetz & Michaels (2018); Bachmann et al. (2024)"
+    },
+    {
+     "claim": "U.S. manufacturing employment fell about 290,000 from 12.87M (Dec 2023) to 12.58M (Dec 2025); recovered 72,000 to 12.65M in Sept 2026.",
+     "page": 37,
+     "pdf_page": 38,
+     "underlying_source": "BLS CES (2026)"
+    },
+    {
+     "claim": "Manufacturing job openings were 522,000 in August 2026, up from 416,000 a year earlier.",
+     "page": 38,
+     "pdf_page": 39,
+     "underlying_source": "BLS JOLTS (Aug 2026)"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Labor shortages and skills gaps limit deployment",
+   "report_heading": "Labor shortages and skills misalignment limit manufacturing at scale and robotics deployment.",
+   "summary": "Factory workers are getting older, factory pay no longer beats other work by much, and training is slow and scattered. The report points to short credentials, apprenticeships and hands-on engineering courses.",
+   "pages": "38–48",
+   "page": 38,
+   "pdf_page": 39,
+   "themes": [
+    "workforce-talent"
+   ],
+   "evidence": [
+    {
+     "claim": "Manufacturers need to fill about 3.8 million jobs by 2033, with up to 1.9 million possibly unfilled; 65% of executives cite talent as top challenge.",
+     "page": 28,
+     "pdf_page": 29,
+     "underlying_source": "Deloitte / Manufacturing Institute (2024)"
+    },
+    {
+     "claim": "Median age in manufacturing is 44 versus 42.1 for all U.S. workers; 40% of manufacturing jobs are at firms where at least one in four workers is 55+.",
+     "page": 28,
+     "pdf_page": 29,
+     "underlying_source": "BLS CPS (2026); Census (2025)"
+    },
+    {
+     "claim": "Welding: over 157,000 welders (43%) retire within 15-20 years; about 80,000 openings per year 2025-2029.",
+     "page": 29,
+     "pdf_page": 30,
+     "underlying_source": "American Welding Society; Path Robotics"
+    },
+    {
+     "claim": "Apprentices are 0.3% of the U.S. workforce; 95,000-97,500 registered manufacturing apprentices (about 0.7-0.8% in-training ratio).",
+     "page": 40,
+     "pdf_page": 41,
+     "underlying_source": "Jobs for the Future (2025); DOL Office of Apprenticeship (2025)"
+    },
+    {
+     "claim": "DOL awarded a four-year $35.8 million apprenticeship incentive fund paying $3,500 per apprentice completing 90 days.",
+     "page": 45,
+     "pdf_page": 46,
+     "underlying_source": "Arkansas Office of Skills Development; NC Community Colleges"
+    },
+    {
+     "claim": "U.S. fourth- and eighth-grade TIMSS math scores fell 18 and 27 points between 2019 and 2023.",
+     "page": 46,
+     "pdf_page": 47,
+     "underlying_source": "U.S. Dept of Education IES (2024)"
+    },
+    {
+     "claim": "57% of U.S. high schools offer computer science but only 5.8% of students enroll.",
+     "page": 46,
+     "pdf_page": 47,
+     "underlying_source": "Code Advocacy Coalition (2025)"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "AI programming and mobile robots are widening what can be automated",
+   "report_heading": "The industrial robotics landscape is undergoing a transformation in deployment dynamics driven by AI-assisted programming, low-code interfaces, and open-space mobile manipulation.",
+   "summary": "AI-assisted programming, simpler interfaces and mobile robots let smaller factories automate low-volume work. Safety and liability rules haven't caught up. Renting robots as a service lowers the upfront cost.",
+   "pages": "51–54",
+   "page": 51,
+   "pdf_page": 52,
+   "themes": [
+    "smes-adoption",
+    "standards-safety-cyber"
+   ],
+   "evidence": [
+    {
+     "claim": "Legacy standards do not fully cover AI-adaptive or dynamically balancing systems; humanoids need power to stay upright, so emergency shutdown can be hazardous.",
+     "page": 53,
+     "pdf_page": 54,
+     "underlying_source": "Robey et al., Science (2026); MIT Technology Review (2025)"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Small manufacturers lack know-how, staff and steady demand",
+   "report_heading": "Robotics adoption across manufacturing remains constrained by lack of knowledge, internal capability gaps, and unsteady demand signals.",
+   "summary": "Many small manufacturers don't know what robots can do, lack the staff and IT to run them, and judge them on narrow payback numbers. Help programs like MEP are thin, and uneven orders make investment risky.",
+   "pages": "54–57",
+   "page": 54,
+   "pdf_page": 55,
+   "themes": [
+    "smes-adoption",
+    "standards-safety-cyber"
+   ],
+   "evidence": [
+    {
+     "claim": "MEP Centers are the primary federal vehicle for assisting SMMs but have limited resources and have faced proposed elimination.",
+     "page": 55,
+     "pdf_page": 56,
+     "underlying_source": "Manufacturing Dive (2026)"
+    },
+    {
+     "claim": "The report identifies four reinforcing adoption barriers: financial, readiness, risk and liability, and knowledge gap.",
+     "page": 57,
+     "pdf_page": 58,
+     "underlying_source": null
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "title": "US robot makers face higher costs and a financing gap",
+   "report_heading": "Systematic cost disadvantages and a financing gap keep U.S. robotics firms from scaling production.",
+   "summary": "Venture funding suits software, not the tooling, inventory and field service hardware needs. US robot makers depend on Chinese sub-suppliers they often can't see, and humanoid startups get a large share of the money.",
+   "pages": "59–64",
+   "page": 59,
+   "pdf_page": 60,
+   "themes": [
+    "components-supply-chain",
+    "capital-costs"
+   ],
+   "evidence": [
+    {
+     "claim": "Leaderdrive holds over 60% of China's domestic harmonic reducer market, capacity exceeding 500,000 units a year.",
+     "page": 60,
+     "pdf_page": 61,
+     "underlying_source": "Leaderdrive company information"
+    },
+    {
+     "claim": "China controls about 90% of rare-earth processing and 69% of mining; Chinese share of humanoid inputs: bearings 40%, motors 35%, power electronics 30%.",
+     "page": 61,
+     "pdf_page": 62,
+     "underlying_source": "IEA Rare Earth Elements (2026)"
+    },
+    {
+     "claim": "China's 2022 machine-tool output was $27.1B, about 4.6 times U.S. output of $5.9B.",
+     "page": 62,
+     "pdf_page": 63,
+     "underlying_source": "ITIF (2025)"
+    },
+    {
+     "claim": "Onboarding a new electronics manufacturer takes 12-20 weeks to first-article approval; stable volume takes four to six months.",
+     "page": 62,
+     "pdf_page": 63,
+     "underlying_source": "Amtech"
+    },
+    {
+     "claim": "Only 6.2% of 2,805 surveyed organizations had full visibility into Tier 2 and Tier 3 suppliers.",
+     "page": 63,
+     "pdf_page": 64,
+     "underlying_source": "Achilles Annual Risk and Sustainability Report (2026)"
+    },
+    {
+     "claim": "Physical AI VC deal count and volume nearly doubled from Q1 2024 to Q1 2026; humanoids took over 20% of funding with 3% of firms.",
+     "page": 64,
+     "pdf_page": 65,
+     "underlying_source": "PitchBook, Robotics & Physical AI VC Trends (2026)"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "title": "Components and training data are bottlenecks",
+   "report_heading": "Supply chain bottlenecks for physical components and data keep U.S. robotics too expensive and too static.",
+   "summary": "Robot training data is locked in incompatible proprietary systems, and simulation can't fully replace it. China's scale, nearby suppliers and subsidies make parts cheaper. Integration, more than hardware, drives what a deployment costs.",
+   "pages": "65–71",
+   "page": 65,
+   "pdf_page": 66,
+   "themes": [
+    "components-supply-chain",
+    "data-simulation",
+    "capital-costs"
+   ],
+   "evidence": [
+    {
+     "claim": "Open X-Embodiment pooled 60 datasets from 34 labs, 22 robot types, 527 skills, about one million trajectories.",
+     "page": 65,
+     "pdf_page": 66,
+     "underlying_source": "Open X-Embodiment / DROID literature"
+    },
+    {
+     "claim": "China installed 295,000 industrial robots in 2024 (54% of world); domestic firms took 57% of home market, up from about 28% a decade ago.",
+     "page": 67,
+     "pdf_page": 68,
+     "underlying_source": "IFR World Robotics 2025"
+    },
+    {
+     "claim": "One FANUC-certified integrator puts the robot at roughly a quarter of total cell cost.",
+     "page": 68,
+     "pdf_page": 69,
+     "underlying_source": "Motion Controls Robotics"
+    },
+    {
+     "claim": "Subsidies accounted for as much as 40% of net profit at some publicly listed Chinese robotics firms in some years.",
+     "page": 68,
+     "pdf_page": 69,
+     "underlying_source": "Cheng et al., Stanford SCCEI (2021)"
+    },
+    {
+     "claim": "China manufactures 94% of the world's permanent magnets.",
+     "page": 68,
+     "pdf_page": 69,
+     "underlying_source": "IEA Rare Earth Elements (2026)"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "title": "The Commission calls for a national mission built around deployment",
+   "report_heading": "A national mission is needed to start the U.S. robotics flywheel.",
+   "summary": "The report calls for a national strategy aimed at putting robots to work, with much more US hardware production. It says the US should not try to make every part at home or copy China's state-directed model.",
+   "pages": "72–74",
+   "page": 72,
+   "pdf_page": 73,
+   "themes": [
+    "deployment-gap",
+    "federal-coordination"
+   ],
+   "evidence": [
+    {
+     "claim": "Proposed success measures: adoption breadth, time and cost from assessment to operation, pilot-to-repeat share, domestic and allied component capacity, integration services, workforce advancement, security and interoperability.",
+     "page": 73,
+     "pdf_page": 74,
+     "underlying_source": null
+    }
+   ]
+  }
+ ],
+ "key_figures": [
+  {
+   "label": "US robots per 10,000 factory workers (2024)",
+   "value": "About 307 (8th in the world)",
+   "context": "South Korea: 1,220",
+   "page": 15,
+   "pdf_page": 16,
+   "underlying_source": "IFR Robot Density (2026)",
+   "themes": [
+    "deployment-gap"
+   ],
+   "id": "u-s-robot-density-2024"
+  },
+  {
+   "label": "Robots installed in China (2025)",
+   "value": "About 354,200 (59% of the world)",
+   "context": "US: about 38,400, so China installed 9.2 times as many",
+   "page": 15,
+   "pdf_page": 16,
+   "underlying_source": "IFR (2026)",
+   "themes": [
+    "deployment-gap"
+   ],
+   "id": "china-annual-installations-2025"
+  },
+  {
+   "label": "Robots installed in the US (2025)",
+   "value": "About 38,400 (preliminary)",
+   "context": "Peak was 40,000 in 2022",
+   "page": 49,
+   "pdf_page": 50,
+   "underlying_source": "IFR World Robotics 2026",
+   "themes": [
+    "deployment-gap"
+   ],
+   "id": "u-s-annual-installations-2025"
+  },
+  {
+   "label": "Chinese makers' share of China's market (2025)",
+   "value": "55%",
+   "page": 15,
+   "pdf_page": 16,
+   "underlying_source": "IFR (2026)",
+   "themes": [
+    "deployment-gap"
+   ],
+   "id": "chinese-supplier-home-share-2025"
+  },
+  {
+   "label": "Chinese makers' share of China's market (2024)",
+   "value": "57%",
+   "context": "About 28% a decade earlier (p. 67)",
+   "page": 26,
+   "pdf_page": 27,
+   "underlying_source": "SCSP Robot Deficit; IFR (2025)",
+   "themes": [
+    "deployment-gap"
+   ],
+   "id": "chinese-owned-home-market-share-2024"
+  },
+  {
+   "label": "Robots in operation in China (end of 2024)",
+   "value": "Over 2 million",
+   "context": "More than five times the US stock of 393,700",
+   "page": 16,
+   "pdf_page": 17,
+   "underlying_source": "IFR (2025)",
+   "themes": [
+    "deployment-gap"
+   ],
+   "id": "china-operational-stock-end-2024"
+  },
+  {
+   "label": "Robots in operation in the US (2024)",
+   "value": "393,700",
+   "context": "8.3% of the world total (p. 49)",
+   "page": 16,
+   "pdf_page": 17,
+   "underlying_source": "IFR World Robotics 2025",
+   "themes": [
+    "deployment-gap"
+   ],
+   "id": "u-s-operational-stock"
+  },
+  {
+   "label": "US plants using robots (2021)",
+   "value": "12.1%",
+   "context": "Census Annual Survey of Manufactures",
+   "page": 49,
+   "pdf_page": 50,
+   "underlying_source": "U.S. Census Bureau (2025)",
+   "themes": [
+    "smes-adoption"
+   ],
+   "id": "u-s-plants-using-robots"
+  },
+  {
+   "label": "Robots installed in China (2024)",
+   "value": "About 295,000 (54% of the world)",
+   "page": 67,
+   "pdf_page": 68,
+   "underlying_source": "IFR World Robotics 2025",
+   "themes": [
+    "deployment-gap"
+   ],
+   "id": "china-installations-2024"
+  },
+  {
+   "label": "Made in China 2025 robot target",
+   "value": "1.8 million robots in operation by 2025",
+   "context": "China passed 2 million early in 2024",
+   "page": 49,
+   "pdf_page": 50,
+   "underlying_source": "CSIS China Power (2026)",
+   "themes": [
+    "deployment-gap"
+   ],
+   "id": "made-in-china-2025-robot-goal"
+  },
+  {
+   "label": "Plants with robots, by size (2022)",
+   "value": "1.6% of plants with 0–5 staff; 40.9% with 1,000+",
+   "context": "6.4% of all plants",
+   "page": 17,
+   "pdf_page": 18,
+   "underlying_source": "IFR World Robotics 2026",
+   "themes": [
+    "smes-adoption"
+   ],
+   "id": "robot-presence-by-plant-size"
+  },
+  {
+   "label": "Small and medium firms' share of US manufacturers",
+   "value": "About 95% of firms",
+   "context": "Many are sub-suppliers to defense",
+   "page": 50,
+   "pdf_page": 51,
+   "underlying_source": "SBA (2025)",
+   "themes": [
+    "smes-adoption"
+   ],
+   "id": "smm-share-of-u-s-manufacturers"
+  },
+  {
+   "label": "China's share of rare-earth mining (2024)",
+   "value": "About 60%",
+   "context": "Mostly used in magnets",
+   "page": 26,
+   "pdf_page": 27,
+   "underlying_source": "IEA Rare Earth Elements (2026)",
+   "themes": [
+    "components-supply-chain"
+   ],
+   "id": "rare-earth-mine-production-china"
+  },
+  {
+   "label": "China's share of rare-earth refining (2024)",
+   "value": "91%",
+   "page": 26,
+   "pdf_page": 27,
+   "underlying_source": "IEA Rare Earth Elements (2026)",
+   "themes": [
+    "components-supply-chain"
+   ],
+   "id": "rare-earth-refined-output-china"
+  },
+  {
+   "label": "China's share of sintered magnet output (2024)",
+   "value": "94%",
+   "page": 26,
+   "pdf_page": 27,
+   "underlying_source": "IEA Rare Earth Elements (2026)",
+   "themes": [
+    "components-supply-chain"
+   ],
+   "id": "sintered-permanent-magnets-china"
+  },
+  {
+   "label": "China's share of rare-earth processing / mining",
+   "value": "About 90% processing, 69% mining",
+   "context": "From the report's humanoid parts analysis",
+   "page": 61,
+   "pdf_page": 62,
+   "underlying_source": "IEA Rare Earth Elements (2026)",
+   "themes": [
+    "components-supply-chain"
+   ],
+   "id": "rare-earth-processing-mining-china"
+  },
+  {
+   "label": "China's share of humanoid parts",
+   "value": "Bearings 40%, motors 35%, power electronics 30%",
+   "page": 61,
+   "pdf_page": 62,
+   "underlying_source": "IEA Rare Earth Elements (2026)",
+   "themes": [
+    "components-supply-chain"
+   ],
+   "id": "humanoid-inputs-china-share"
+  },
+  {
+   "label": "Strain wave gears (a key joint part)",
+   "value": "One Chinese maker, Leaderdrive, holds over 60% of China's market",
+   "context": "Capacity over 500,000 units a year (p. 60)",
+   "page": 60,
+   "pdf_page": 61,
+   "underlying_source": "Leaderdrive",
+   "themes": [
+    "components-supply-chain"
+   ],
+   "id": "strain-wave-reducers"
+  },
+  {
+   "label": "Machine-tool output (2022)",
+   "value": "China $27.1B, US $5.9B",
+   "context": "The US made about a fifth of the world's machine tools in the early 1980s",
+   "page": 62,
+   "pdf_page": 63,
+   "underlying_source": "ITIF (2025)",
+   "themes": [
+    "components-supply-chain"
+   ],
+   "id": "machine-tool-output-2022"
+  },
+  {
+   "label": "Time to qualify a new supplier",
+   "value": "12–20 weeks to a first part; 4–6 months to volume",
+   "page": 62,
+   "pdf_page": 63,
+   "underlying_source": "Amtech",
+   "themes": [
+    "components-supply-chain"
+   ],
+   "id": "new-supplier-qualification"
+  },
+  {
+   "label": "Firms that can see their whole supply chain",
+   "value": "6.2% of 2,805 firms surveyed",
+   "context": "Full view of their second- and third-tier suppliers, 2026 survey",
+   "page": 63,
+   "pdf_page": 64,
+   "underlying_source": "Achilles (2026)",
+   "themes": [
+    "components-supply-chain"
+   ],
+   "id": "tier-2-3-supplier-visibility"
+  },
+  {
+   "label": "Robot's share of a work cell's cost",
+   "value": "About a quarter",
+   "context": "Per one certified integrator; the rest is integration",
+   "page": 68,
+   "pdf_page": 69,
+   "underlying_source": "Motion Controls Robotics",
+   "themes": [
+    "smes-adoption",
+    "capital-costs"
+   ],
+   "id": "robot-share-of-cell-cost"
+  },
+  {
+   "label": "Subsidies in Chinese robot makers' profit",
+   "value": "Up to 40% in some years",
+   "context": "Publicly listed Chinese robot makers",
+   "page": 68,
+   "pdf_page": 69,
+   "underlying_source": "Cheng et al. (2021)",
+   "themes": [
+    "capital-costs"
+   ],
+   "id": "chinese-subsidy-share-of-profit"
+  },
+  {
+   "label": "Venture deals in physical AI",
+   "value": "Deal count and dollars nearly doubled, Q1 2024 to Q1 2026",
+   "page": 64,
+   "pdf_page": 65,
+   "underlying_source": "PitchBook (2026)",
+   "themes": [
+    "capital-costs"
+   ],
+   "id": "physical-ai-vc"
+  },
+  {
+   "label": "Humanoid makers' share of robot funding",
+   "value": "Over 20% of the money, 3% of the firms",
+   "context": "The appendix gives about 22% (p. 82)",
+   "page": 64,
+   "pdf_page": 65,
+   "underlying_source": "PitchBook; SCSP analysis",
+   "themes": [
+    "capital-costs"
+   ],
+   "id": "humanoid-funding-share"
+  },
+  {
+   "label": "Industrial-robot makers' share of funding",
+   "value": "35.7% of the money, 52.5% of the firms",
+   "page": 82,
+   "pdf_page": 83,
+   "underlying_source": "PitchBook; SCSP analysis",
+   "themes": [
+    "capital-costs"
+   ],
+   "id": "industrial-robot-firms-funding-share"
+  },
+  {
+   "label": "Extra funding raised by humanoid makers",
+   "value": "About $193M more per firm than other robot makers",
+   "context": "Regression on 625 firms (p. 83)",
+   "page": 83,
+   "pdf_page": 84,
+   "underlying_source": "SCSP regressions on PitchBook",
+   "themes": [
+    "capital-costs"
+   ],
+   "id": "humanoid-funding-premium"
+  },
+  {
+   "label": "Factory jobs to fill by 2033",
+   "value": "3.8 million, of which up to 1.9 million may go unfilled",
+   "context": "65% of executives call hiring their top problem",
+   "page": 28,
+   "pdf_page": 29,
+   "underlying_source": "Deloitte / Manufacturing Institute (2024)",
+   "themes": [
+    "workforce-talent"
+   ],
+   "id": "manufacturing-labor-gap"
+  },
+  {
+   "label": "Median age of factory workers",
+   "value": "44, vs 42.1 for all workers",
+   "page": 28,
+   "pdf_page": 29,
+   "underlying_source": "BLS; Census",
+   "themes": [
+    "workforce-talent"
+   ],
+   "id": "manufacturing-median-age"
+  },
+  {
+   "label": "Welders near retirement",
+   "value": "Over 157,000 (43%) within 15–20 years",
+   "context": "About 80,000 openings a year, 2025–2029",
+   "page": 29,
+   "pdf_page": 30,
+   "underlying_source": "American Welding Society",
+   "themes": [
+    "workforce-talent"
+   ],
+   "id": "welders-retiring"
+  },
+  {
+   "label": "Apprentices in the US workforce",
+   "value": "0.3% of all US workers",
+   "context": "95,000–97,500 registered manufacturing apprentices",
+   "page": 40,
+   "pdf_page": 41,
+   "underlying_source": "JFF; DOL",
+   "themes": [
+    "workforce-talent"
+   ],
+   "id": "apprentices"
+  },
+  {
+   "label": "US manufacturing jobs",
+   "value": "12.65 million (Sept 2026)",
+   "context": "Down from 12.87M to 12.58M, Dec 2023–Dec 2025",
+   "page": 37,
+   "pdf_page": 38,
+   "underlying_source": "BLS",
+   "themes": [
+    "workforce-talent"
+   ],
+   "id": "manufacturing-employment"
+  },
+  {
+   "label": "Federal apprenticeship incentive fund",
+   "value": "$35.8M over four years",
+   "context": "$3,500 per apprentice",
+   "page": 45,
+   "pdf_page": 46,
+   "underlying_source": "DOL / Arkansas",
+   "themes": [
+    "workforce-talent"
+   ],
+   "id": "federal-apprenticeship-fund"
+  },
+  {
+   "label": "BuildFreedom.US scholarships",
+   "value": "$10M for skilled-trades scholarships",
+   "context": "Department of War",
+   "page": 46,
+   "pdf_page": 47,
+   "underlying_source": "Dept of War (2026)",
+   "themes": [
+    "workforce-talent"
+   ],
+   "id": "buildfreedom-us"
+  },
+  {
+   "label": "Workforce Pell grants",
+   "value": "Covers 8–15 week programs from July 1, 2026",
+   "context": "Created by the 2025 budget law (OBBBA)",
+   "page": 45,
+   "pdf_page": 46,
+   "underlying_source": "Austin Community College",
+   "themes": [
+    "workforce-talent"
+   ],
+   "id": "workforce-pell"
+  },
+  {
+   "label": "Americans worried robots will take jobs",
+   "value": "74% worry for others' jobs; 31% for their own",
+   "context": "Survey of 1,306 adults",
+   "page": 24,
+   "pdf_page": 25,
+   "underlying_source": "Breakwater/YouGov (July 2026)",
+   "themes": [
+    "federal-coordination"
+   ],
+   "id": "public-concern"
+  },
+  {
+   "label": "National Robotics Initiative (ended 2022)",
+   "value": "More than $250M across 300+ projects",
+   "context": "NSF ended it in 2022",
+   "page": 23,
+   "pdf_page": 24,
+   "underlying_source": "NSF (2022)",
+   "themes": [
+    "federal-coordination"
+   ],
+   "id": "national-robotics-initiative"
+  },
+  {
+   "label": "Open X-Embodiment robot dataset",
+   "value": "About 1 million robot trajectories from 34 labs",
+   "page": 65,
+   "pdf_page": 66,
+   "underlying_source": "Open X-Embodiment",
+   "themes": [
+    "data-simulation"
+   ],
+   "id": "open-x-embodiment",
+   "context": "60 datasets, 22 robot types"
+  },
+  {
+   "label": "Jobs lost per added robot (1990–2007 study)",
+   "value": "About 3.3 jobs per added robot",
+   "context": "US local labor markets, 1990–2007",
+   "page": 37,
+   "pdf_page": 38,
+   "underlying_source": "Acemoglu & Restrepo (2020)",
+   "themes": [
+    "workforce-talent"
+   ],
+   "id": "u-s-job-displacement-estimate"
+  }
+ ],
+ "directions": [
+  {
+   "text": "The final report, due March 2027, will make recommendations to federal, state and regional officials, industry, educators, workers and investors.",
+   "page": 3,
+   "pdf_page": 4
+  },
+  {
+   "text": "This report diagnoses the problem. The recommendations come later.",
+   "page": 73,
+   "pdf_page": 74
+  },
+  {
+   "text": "The US should build much more robot hardware at home, without trying to make every part here.",
+   "page": 72,
+   "pdf_page": 73
+  },
+  {
+   "text": "Government should not pick one technology or copy China's state-directed model.",
+   "page": 72,
+   "pdf_page": 73
+  },
+  {
+   "text": "Government's job: set national goals, fix coordination problems, and remove barriers no single firm can.",
+   "page": 73,
+   "pdf_page": 74
+  },
+  {
+   "text": "Policy should aim at getting robots into productive use. Programs that don't do that miss the main problem.",
+   "page": 71,
+   "pdf_page": 72
+  },
+  {
+   "text": "Copying China's low-cost supply chain for older parts won't work. Designing around chokepoints might, for example motors that don't need rare earths.",
+   "page": 68,
+   "pdf_page": 69
+  },
+  {
+   "text": "Measure success by results: how many firms adopt robots, how long and how much it takes, how many pilots turn into repeat orders, and parts capacity. Not by program counts or dollars spent.",
+   "page": 73,
+   "pdf_page": 74
+  },
+  {
+   "text": "Public trust needs clear safety and workforce plans, a say for workers, training and accountability.",
+   "page": 25,
+   "pdf_page": 26
+  },
+  {
+   "text": "Better data on mobile robots and humanoids is needed before broader conclusions about who leads.",
+   "page": 16,
+   "pdf_page": 17
+  },
+  {
+   "text": "Safety standards for flexible robots and workforce credentials both need updating.",
+   "page": 52,
+   "pdf_page": 53
+  }
+ ],
+ "programs": [
+  {
+   "name": "National Robotics Initiative",
+   "agency": "NSF",
+   "note": "Coordinated more than $250M across 300+ projects; ended 2022.",
+   "page": 23,
+   "pdf_page": 24
+  },
+  {
+   "name": "Manufacturing Extension Partnership (MEP)",
+   "agency": "NIST / Commerce",
+   "note": "51 centers; primary federal vehicle for SMM modernization; faced proposed cuts.",
+   "page": 55,
+   "pdf_page": 56
+  },
+  {
+   "name": "Manufacturing USA",
+   "agency": "Multi-agency network",
+   "note": "Network of 18 public-private institutes; shared research and workforce standards.",
+   "page": 43,
+   "pdf_page": 44
+  },
+  {
+   "name": "ARM Institute",
+   "agency": "Manufacturing USA institute",
+   "note": "Defines adaptive skills, RoboticsCareer.org, endorses training programs.",
+   "page": 39,
+   "pdf_page": 40
+  },
+  {
+   "name": "American Manufacturing Apprenticeship Incentive Fund",
+   "agency": "DOL (administered by Arkansas)",
+   "note": "$35.8M, four years, $3,500 per apprentice completing 90 days.",
+   "page": 45,
+   "pdf_page": 46
+  },
+  {
+   "name": "Workforce Pell Grants",
+   "agency": "Dept of Education (OBBBA)",
+   "note": "Pell for 8-15 week programs from July 1, 2026.",
+   "page": 45,
+   "pdf_page": 46
+  },
+  {
+   "name": "BuildFreedom.US",
+   "agency": "Dept of War",
+   "note": "Skilled-trades awareness coalition; $10M scholarships.",
+   "page": 45,
+   "pdf_page": 46
+  },
+  {
+   "name": "FCC Covered List determination on foreign-produced advanced robotic devices",
+   "agency": "FCC",
+   "note": "2026 national security determination restricting new equipment authorizations.",
+   "page": 26,
+   "pdf_page": 27
+  },
+  {
+   "name": "Registered Apprenticeship",
+   "agency": "DOL / state agencies",
+   "note": "Formal programs; 2,000 OJT hours and 144 RTI hours per year minimum.",
+   "page": 42,
+   "pdf_page": 43
+  },
+  {
+   "name": "Section 232 tariffs (aluminum, steel, copper)",
+   "agency": "White House / Commerce",
+   "note": "Raise retooling cost for metal-intensive robotics.",
+   "page": 62,
+   "pdf_page": 63
+  },
+  {
+   "name": "America's AI Action Plan",
+   "agency": "White House",
+   "note": "Cited on federal robotics activity.",
+   "page": 22,
+   "pdf_page": 23
+  },
+  {
+   "name": "Made in China 2025 / Five-Year Robotics Plans",
+   "agency": "China (not U.S.)",
+   "note": "1.8 million robot goal; second Five-Year Robotics Plan.",
+   "page": 25,
+   "pdf_page": 26
+  },
+  {
+   "name": "Census Annual Survey of Manufactures",
+   "agency": "Census Bureau",
+   "note": "Source of robot adoption data (12.1% plants, 2021).",
+   "page": 49,
+   "pdf_page": 50
+  },
+  {
+   "name": "Joint FBI/NSA memo and CISA advisories",
+   "agency": "FBI, NSA, CISA",
+   "note": "2025 memo on attack risk; 2026 CISA warnings on PLC exploits and Universal Robots flaw.",
+   "page": 56,
+   "pdf_page": 57
+  }
+ ],
+ "quotes": [
+  {
+   "text": "Physical AI at scale will define the next industrial era, and the United States is not on a trajectory to lead it.",
+   "page": 1,
+   "pdf_page": 2
+  },
+  {
+   "text": "Waiting for perfect technology or perfect evidence is not a neutral position. It is itself a strategic choice.",
+   "page": 2,
+   "pdf_page": 3
+  },
+  {
+   "text": "Flywheels do not start themselves.",
+   "page": 18,
+   "pdf_page": 19
+  },
+  {
+   "text": "The United States cannot secure or scale a supply chain it cannot see.",
+   "page": 63,
+   "pdf_page": 64
+  },
+  {
+   "text": "Industrial data is abundant in aggregate and inaccessible in practice.",
+   "page": 67,
+   "pdf_page": 68
+  }
+ ],
+ "caveats": [
+  "The report gives China's home-market supplier share as 55% for 2025 (p. 15) and 57% for 2024 (pp. 26, 67). Both are shown with their year.",
+  "Figure 2 (p. 17) gives China's robot density as 166 per 10,000 workers. The IFR figure this site uses elsewhere is about 470, so the 166 figure is left out here.",
+  "The humanoid share of robotics venture funding is \"more than 20%\" on p. 64 and \"roughly 22%\" in the appendix (p. 82).",
+  "This is a preliminary diagnosis. The Commission's recommendations are due in the final report in March 2027."
+ ]
+}

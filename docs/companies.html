@@ -158,6 +158,14 @@
     </div>
 
     <div id="empty" class="empty-state" hidden>No companies match those filters.</div>
+    <details class="collapsible-section" id="sec-commission">
+      <summary>
+        <h2 class="section-title">What the SCSP robotics commission found</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Its findings on what it costs to build robots here and who gets funded.</p>
+      </summary>
+      <div id="commission-note"><p class="muted-cell">Loading…</p></div>
+    </details>
+
   </main>
 
   <footer class="site-footer">
@@ -525,6 +533,9 @@
       setTimeout(() => openDetail(q.focus), 50);
     }
   });
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => RT.mountCommissionNote('#commission-note', {"findings": [8], "figures": ["humanoid-funding-share", "industrial-robot-firms-funding-share", "physical-ai-vc"], "theme": "capital-costs"}));
   </script>
 </body>
 </html>

@@ -126,6 +126,14 @@
       </table>
     </div>
 
+    <details class="collapsible-section" id="sec-commission">
+      <summary>
+        <h2 class="section-title">What the SCSP robotics commission found</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Its numbers on installations, installed base and China's home-market suppliers.</p>
+      </summary>
+      <div id="commission-note"><p class="muted-cell">Loading…</p></div>
+    </details>
+
     <p class="muted" id="method-note" style="font-size:12px;margin-top:24px;"><!--static:china-method:start--><!--static:china-method:end--></p>
   </main>
 
@@ -172,6 +180,9 @@
 
     document.getElementById('method-note').textContent = RT.chinaMethodNote(uc);
   });
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => RT.mountCommissionNote('#commission-note', {"findings": [1, 9], "figures": ["china-annual-installations-2025", "china-operational-stock-end-2024", "chinese-supplier-home-share-2025", "chinese-subsidy-share-of-profit"], "theme": "deployment-gap"}));
   </script>
 </body>
 </html>

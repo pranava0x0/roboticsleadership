@@ -2016,3 +2016,33 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
 .summit-posts { list-style: none; margin: 0; padding: 0; font-size: 14px; line-height: 1.5; }
 .summit-posts li { padding: 10px 0; border-bottom: 1px solid var(--border); }
 #context-body .card { gap: 10px; }
+
+/* SCSP commission report: page citations, the summit breakdown, and the notes on other pages */
+.report-cite { font-size: 12px; white-space: nowrap; }
+.report-themes { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
+.report-themes button {
+  min-height: 44px; padding: 0 12px; font: inherit; font-size: 13px; cursor: pointer;
+  border: 1px solid var(--border); border-radius: var(--radius-pill); background: var(--surface); color: var(--text);
+}
+.report-themes button:hover { border-color: var(--border-strong); }
+.report-themes button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-on); }
+.report-findings { list-style: none; margin: 0; padding: 0; }
+.report-finding { border-bottom: 1px solid var(--border); }
+.report-finding > summary {
+  display: grid; grid-template-columns: 28px 1fr; gap: 8px; align-items: baseline;
+  min-height: 44px; padding: 10px 0; cursor: pointer; list-style: none;
+}
+.report-finding > summary::-webkit-details-marker { display: none; }
+.report-finding-n { font-weight: 600; color: var(--accent); }
+.report-finding-title { font-family: var(--font-serif); font-size: 16px; line-height: 1.35; }
+.report-finding-body { padding: 0 0 14px 36px; font-size: 14px; line-height: 1.55; max-width: 80ch; }
+#report-figs tbody tr:hover { cursor: default; }
+.report-finding-body p { margin: 0 0 8px; }
+.report-finding-body ul { margin: 0 0 8px; padding-left: 18px; }
+.report-finding-body li { margin-bottom: 6px; }
+.commission-findings { margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.55; max-width: 74ch; }
+.commission-findings li { margin-bottom: 8px; }
+.commission-figs { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; margin: 12px 0 0; }
+.commission-figs > div { padding: 10px 12px; border: 1px solid var(--border); border-radius: var(--radius-card); background: var(--surface); }
+.commission-figs dt { font-size: 12px; color: var(--text-muted); margin-bottom: 2px; }
+.commission-figs dd { margin: 0; font-size: 14px; line-height: 1.4; }
