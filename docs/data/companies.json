@@ -9525,9 +9525,43 @@
       "country": "USA"
     },
     "website": "https://www.mindrobotics.com",
-    "funding_rounds": [],
-    "total_funding_usd": 1000000000,
-    "latest_valuation_usd": null,
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Seed",
+        "amount_usd": 115000000,
+        "valuation_usd": null,
+        "investors": [
+          "Eclipse"
+        ],
+        "url": "https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-03",
+        "round": "Growth",
+        "amount_usd": 500000000,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-05",
+        "round": "Growth",
+        "amount_usd": 400000000,
+        "valuation_usd": null,
+        "investors": [
+          "Kleiner Perkins",
+          "Volkswagen",
+          "Salesforce Ventures"
+        ],
+        "url": "https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 1015000000,
+    "latest_valuation_usd": 3000000000,
     "robot_types": [
       "industrial"
     ],
@@ -9543,7 +9577,7 @@
       "industrial",
       "rivian-spinout"
     ],
-    "data_confidence": "low",
+    "data_confidence": "medium",
     "sources": [
       "https://techcrunch.com/2026/10/13/rivians-startup-mind-robotics-hires-former-ford-ev-chief-doug-field/"
     ],
