@@ -130,6 +130,14 @@ runInNewContext(inlineScript, sandbox);
 await callbacks.DOMContentLoaded();
 check('summit renders agenda, speakers, news, posts and context after report failure',
   ['agenda-list', 'speaker-grid', 'org-list', 'post-list', 'context-body'].filter(id => !nodes.get(id)?.innerHTML).map(id => `${id} stayed blank`));
+check('session_notes entries are well-formed (title, time, points with topic/said/check and http(s) sources)',
+  (summit.session_notes || []).flatMap((sn, i) => [
+    ...(!sn.title || !sn.time || !Array.isArray(sn.points) || !sn.points.length ? [`note ${i}: missing title, time or points`] : []),
+    ...(sn.points || []).flatMap((pt, j) => [
+      ...['topic', 'said', 'check'].filter(k => !pt[k]).map(k => `note ${i} point ${j}: empty ${k}`),
+      ...(!Array.isArray(pt.sources) || !pt.sources.length || !pt.sources.every(u => /^https?:\/\//.test(u)) ? [`note ${i} point ${j}: sources must be non-empty http(s) URLs`] : []),
+    ]),
+  ]));
 check('report failure is localized and KPI retains its PDF page link', [
   ...(!nodes.get('report-meta').textContent.includes('Could not load') ? ['missing report error'] : []),
   ...(!nodes.get('kpis').innerHTML.includes('NSCRAM_Interim-Report.pdf#page=16') ? ['KPI lacks page 16 link'] : []),
