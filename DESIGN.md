@@ -339,7 +339,9 @@ Two theme-specific rules survive the rework:
   1.83:1 and on Foundation's cyan ~1.7:1. Every theme defines `--accent-on`; never write `#fff` on `--accent`.
 - **Tinted pills are checked too, not just plain text.** A 10.5px pill is text on its own 14% tint over each
   surface. The 2026-10-14 pass found four Dawn pills under 4.5:1 on `--surface-2` (policy, slowing,
-  research, competitive) and darkened those tokens.
+  research, competitive) and darkened those tokens. Status pills use their `--status-*-soft` token instead
+  (Dawn warning on its soft tint is 5.1:1); the same colour on a 14% self-tint over `--surface-2` would be
+  4.27:1, so don't switch status pills to `color-mix` without re-checking.
 - **Tabular figures are scoped, not global.** `font-feature-settings: "tnum"` on `:root` widened hyphens in
   Inter and Plus Jakarta body copy ("120 - day"). Tables, KPI values and chart text take
   `font-variant-numeric: tabular-nums`; add `.tnum` to any other number that has to line up.
