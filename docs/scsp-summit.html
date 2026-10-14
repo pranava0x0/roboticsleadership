@@ -278,7 +278,7 @@
       `${E(report.publisher)}, released ${E(date(report.released))}, ${report.pdf_pages} pages. ` +
       `<a href="${E(RT.safeURL(report.pdf_url))}" target="_blank" rel="noopener">PDF</a> · ` +
       `<a href="${E(RT.safeURL(report.page_url))}" target="_blank" rel="noopener">Summary page</a>. ` +
-      `Each finding below is our summary; the page links open the PDF at the page cited.`;
+      `The report's ten findings, summarized in our words. Page links open the PDF at the page cited.`;
     const themeName = Object.fromEntries(report.themes.map(t => [t.id, t.name]));
     const findingHTML = (f) => `
       <li><details class="report-finding" id="finding-${f.n}">
@@ -296,8 +296,8 @@
     let reportTheme = report.themes.some(t => t.id === RT.readQuery().theme) ? RT.readQuery().theme : '';
     function renderReport() {
       const t = report.themes.find(x => x.id === reportTheme);
-      document.getElementById('report-themes').innerHTML = [['', 'All findings', report.findings.length], ...report.themes.map(x => [x.id, x.name, x.findings.length])]
-        .map(([id, name, n]) => `<button type="button" data-theme-id="${E(id)}" aria-pressed="${id === reportTheme}">${E(name)} <span class="tnum">${n}</span></button>`).join('');
+      // Buttons are built once below; re-rendering them would drop keyboard focus.
+      document.querySelectorAll('#report-themes button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.themeId === reportTheme)));
       document.getElementById('report-theme-desc').textContent = t ? t.description : '';
       const fs = report.findings.filter(f => !t || t.findings.includes(f.n));
       document.getElementById('report-findings').innerHTML = fs.map(findingHTML).join('');
@@ -308,21 +308,35 @@
       document.querySelector('#report-figs tbody').innerHTML = ks.slice(0, cap).map(figHTML).join('') ||
         '<tr><td colspan="4" class="muted-cell">The report gives no headline figures for this theme. The findings above carry its evidence.</td></tr>';
     }
+    document.getElementById('report-themes').innerHTML = [['', 'All findings', report.findings.length], ...report.themes.map(x => [x.id, x.name, x.findings.length])]
+      .map(([id, name, n]) => `<button type="button" data-theme-id="${E(id)}" aria-pressed="false">${E(name)} <span class="tnum">${n}</span></button>`).join('');
     document.getElementById('report-themes').addEventListener('click', (e) => {
       const b = e.target.closest('button[data-theme-id]');
       if (!b) return;
       reportTheme = b.dataset.themeId;
       RT.writeQuery({ theme: reportTheme || null });
+      // writeQuery drops the fragment; keep #report so a reload or a shared link lands here.
+      history.replaceState(null, '', `${location.pathname}${location.search}#report`);
       renderReport();
     });
-    document.getElementById('report-figs-all').addEventListener('click', () => { figsAll = true; renderReport(); });
+    document.getElementById('report-figs-all').addEventListener('click', () => {
+      figsAll = true;
+      renderReport();
+      // The button hides itself; hand focus to the first newly shown row's page link.
+      const next = document.querySelectorAll('#report-figs tbody tr')[FIGS_SHOWN];
+      if (next) next.querySelector('a').focus();
+    });
     renderReport();
     document.getElementById('report-directions').innerHTML = report.directions.map(x => `<li>${E(x.text)} ${cite(x)}</li>`).join('');
     document.getElementById('report-caveats').innerHTML = report.caveats.map(x => `<li>${E(x)}</li>`).join('');
 
     RT.applyCollapsibleState();
     if (location.hash.startsWith('#p-')) openPerson(location.hash.slice(3));
-    else if (location.hash) { const el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView(); }
+    else if (location.hash) {
+      const el = document.getElementById(location.hash.slice(1));
+      if (el && el.matches('details.report-finding')) el.open = true;
+      if (el) el.scrollIntoView();
+    }
   });
   </script>
 </body>

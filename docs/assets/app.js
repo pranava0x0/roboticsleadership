@@ -1062,10 +1062,11 @@
       .then((report) => paint(el, renderCommissionNote(report, opts)))
       .catch((err) => {
         console.error('Commission report failed to load:', err);
-        paint(el, '<p class="muted-cell">Could not load the commission report.</p>');
+        paint(el, '<p class="muted-cell">Could not load the commission report. Close and reopen this section to try again.</p>');
+        if (box) box.addEventListener('toggle', onToggle); // loadData clears its cache on failure, so a reopen retries
       });
-    if (!box || box.open) { load(); return; }
     const onToggle = () => { if (box.open) { box.removeEventListener('toggle', onToggle); load(); } };
+    if (!box || box.open) { load(); return; }
     box.addEventListener('toggle', onToggle);
   }
 

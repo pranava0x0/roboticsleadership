@@ -12,7 +12,7 @@
  "themes": [
   {
    "id": "deployment-gap",
-   "name": "Deployment gap and the flywheel",
+   "name": "Deployment gap",
    "description": "U.S. leads in AI and design but trails China in installations, stock and diffusion; deployment volume drives learning, cost and supplier investment.",
    "findings": [
     1,
@@ -607,7 +607,7 @@
   {
    "label": "Plants with robots, by size (2022)",
    "value": "1.6% of plants with 0–5 staff; 40.9% with 1,000+",
-   "context": "6.4% of all plants",
+   "context": "6.4% of all plants. Read from the Figure 2 chart",
    "page": 17,
    "pdf_page": 18,
    "underlying_source": "IFR World Robotics 2026",
@@ -687,8 +687,8 @@
   },
   {
    "label": "Strain wave gears (a key joint part)",
-   "value": "One Chinese maker, Leaderdrive, holds over 60% of China's market",
-   "context": "Capacity over 500,000 units a year (p. 60)",
+   "value": "Chinese makers such as Leaderdrive hold over 60% of China's market",
+   "context": "Leaderdrive's capacity: over 500,000 units a year (p. 61)",
    "page": 60,
    "pdf_page": 61,
    "underlying_source": "Leaderdrive",

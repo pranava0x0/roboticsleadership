@@ -2018,7 +2018,7 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
 #context-body .card { gap: 10px; }
 
 /* SCSP commission report: page citations, the summit breakdown, and the notes on other pages */
-.report-cite { font-size: 12px; white-space: nowrap; }
+.report-cite { display: inline-block; padding: 6px 2px; font-size: 12px; white-space: nowrap; }
 .report-themes { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
 .report-themes button {
   min-height: 44px; padding: 0 12px; font: inherit; font-size: 13px; cursor: pointer;
@@ -2029,13 +2029,15 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
 .report-findings { list-style: none; margin: 0; padding: 0; }
 .report-finding { border-bottom: 1px solid var(--border); }
 .report-finding > summary {
-  display: grid; grid-template-columns: 28px 1fr; gap: 8px; align-items: baseline;
+  display: grid; grid-template-columns: 36px 1fr; gap: 8px; align-items: baseline;
   min-height: 44px; padding: 10px 0; cursor: pointer; list-style: none;
 }
 .report-finding > summary::-webkit-details-marker { display: none; }
 .report-finding-n { font-weight: 600; color: var(--accent); }
+.report-finding-n::after { content: " ▸"; font-size: 10px; color: var(--text-muted); }
+.report-finding[open] .report-finding-n::after { content: " ▾"; }
 .report-finding-title { font-family: var(--font-serif); font-size: 16px; line-height: 1.35; }
-.report-finding-body { padding: 0 0 14px 36px; font-size: 14px; line-height: 1.55; max-width: 80ch; }
+.report-finding-body { padding: 0 0 14px 44px; font-size: 14px; line-height: 1.55; max-width: 80ch; }
 #report-figs tbody tr:hover { cursor: default; }
 .report-finding-body p { margin: 0 0 8px; }
 .report-finding-body ul { margin: 0 0 8px; padding-left: 18px; }
