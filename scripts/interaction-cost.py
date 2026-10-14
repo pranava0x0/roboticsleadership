@@ -15,13 +15,15 @@ Budgets: uat/interaction-budgets.json (max total per device/task; measured + 15%
 Output:  uat/interaction-costs.json   (last full run with each step; gitignored)
 
 Exits 1 when a task fails, a target cannot be reached, a page errors, the page
-overflows sideways, or a cost goes over budget. CI runs this on every PR.
+overflows sideways, header items overlap (also swept on every page at 300px),
+or a cost goes over budget. CI runs this on every PR.
 Needs: pip install -r scripts/requirements-uat.txt && playwright install chromium
 """
 from __future__ import annotations
 
 import argparse
 import json
+import logging
 import math
 import socket
 import subprocess
@@ -34,6 +36,7 @@ from typing import Any, Dict, List
 ROOT = Path(__file__).resolve().parent.parent
 UAT = ROOT / "uat"
 DEVICES = {"mobile": (375, 812), "tablet": (768, 1024), "desktop": (1280, 800)}
+log = logging.getLogger("interaction-cost")
 SWIPE = 0.75  # one swipe or wheel flick moves this fraction of the visible band
 HEADROOM = 0.15  # budgets sit this far above the measured cost
 
@@ -64,19 +67,25 @@ MEASURE = r"""
   const r = el.getBoundingClientRect();
   if (r.width === 0 && r.height === 0) return {invisible: true};
   const vh = window.innerHeight;
-  // Inside pinned chrome (the sticky header, the fixed detail panel) the target
-  // does not move with the page: it is on screen or it is not reachable by scrolling.
+  // A fixed ancestor (the detail sheet) never moves with the page: only its own
+  // scrollers count. A sticky ancestor (header, jump nav) scrolls with the page
+  // until it pins, so it is measured like anything else, just without
+  // subtracting the pinned band it belongs to.
+  let fixed = false, sticky = false;
   for (let n = el; n && n !== document.body; n = n.parentElement) {
     const p = getComputedStyle(n).position;
-    if (p === 'sticky' || p === 'fixed') return {dy: 0, span: vh, dx: 0, wspan: window.innerWidth};
+    if (p === 'fixed') fixed = true;
+    if (p === 'sticky') sticky = true;
   }
-  // Sticky/fixed chrome pinned to the top hides part of the viewport.
+  // Pinned chrome stacked at the top (site header, then any sticky bar right
+  // under it) hides that much of the viewport.
   let top = 0;
-  for (const s of document.querySelectorAll('header, nav, .site-header')) {
-    const p = getComputedStyle(s).position;
-    if (p !== 'sticky' && p !== 'fixed') continue;
-    const sr = s.getBoundingClientRect();
-    if (sr.top <= 1 && sr.bottom > 0 && sr.height < vh * 0.4) top = Math.max(top, sr.bottom);
+  if (!sticky && !fixed) {
+    const pinned = [...document.querySelectorAll('body *')].filter(s => {
+      const p = getComputedStyle(s).position;
+      return (p === 'sticky' || p === 'fixed') && s.offsetHeight > 0 && s.offsetHeight < vh * 0.4;
+    }).map(s => s.getBoundingClientRect()).sort((a, b) => a.top - b.top);
+    for (const sr of pinned) if (sr.top <= top + 1 && sr.bottom > top && sr.width > window.innerWidth * 0.5) top = sr.bottom;
   }
   const ys = scroller('y');
   let lo = top, hi = vh;
@@ -85,8 +94,10 @@ MEASURE = r"""
   const span = hi - lo;
   const line = Math.min(r.height, 24);
   let dy = 0;
-  if (r.top < lo) dy = r.top - lo - 8;
-  else if (r.top + line > hi) dy = r.top - (lo + span * 0.25);
+  if (!fixed || ys) {
+    if (r.top < lo) dy = r.top - lo - 8;
+    else if (r.top + line > hi) dy = r.top - (lo + span * 0.25);
+  }
   const xs = scroller('x');
   let dx = 0, wspan = window.innerWidth;
   if (xs) {
@@ -180,6 +191,44 @@ def reveal(page: Any, selector: str, cost: Dict[str, Any]) -> str:
     raise RuntimeError("could not reveal " + selector)
 
 
+# Header items that sit on top of each other. The current page's nav link is
+# pinned inline, so a long label ("SCSP Summit") at 320px once printed under
+# the "Sections" button; the document never overflowed, so nothing else saw it.
+OVERLAP = r"""
+() => {
+  const vis = (e) => e && e.offsetParent !== null && !e.closest('[hidden]');
+  const boxes = [...document.querySelectorAll('.site-header-inner > *, .nav-list > li, .primary-more > summary')]
+    .filter(vis).map(e => [e, e.getBoundingClientRect()]);
+  for (let i = 0; i < boxes.length; i++) for (let j = i + 1; j < boxes.length; j++) {
+    const [a, ra] = boxes[i], [b, rb] = boxes[j];
+    if (a.contains(b) || b.contains(a)) continue;
+    const w = Math.min(ra.right, rb.right) - Math.max(ra.left, rb.left);
+    const h = Math.min(ra.bottom, rb.bottom) - Math.max(ra.top, rb.top);
+    if (w > 2 && h > 2) return (a.textContent.trim() || a.className).slice(0, 30) + ' / ' + (b.textContent.trim() || b.className).slice(0, 30);
+  }
+  return null;
+}
+"""
+NARROW = (300, 640)  # the narrowest phone in use plus a split-pane preview
+
+
+def header_sweep(browser: Any, base: str) -> List[str]:
+    """Every page at the narrowest phone width: no overlapping header items, no sideways scroll."""
+    problems = []
+    for page_file in sorted((ROOT / "docs").glob("*.html")):
+        ctx = browser.new_context(viewport={"width": NARROW[0], "height": NARROW[1]}, is_mobile=True, has_touch=True)
+        page = ctx.new_page()
+        page.goto(base + page_file.name)
+        settle(page)
+        hit = page.evaluate(OVERLAP)
+        if hit:
+            problems.append("%dpx/%s: header items overlap (%s)" % (NARROW[0], page_file.name, hit))
+        if page.evaluate("document.documentElement.scrollWidth > innerWidth + 1"):
+            problems.append("%dpx/%s: page overflows sideways" % (NARROW[0], page_file.name))
+        ctx.close()
+    return problems
+
+
 def run_task(page: Any, base: str, task: Dict[str, Any]) -> Dict[str, Any]:
     cost: Dict[str, Any] = {"taps": 0, "swipes": 0, "hswipes": 0, "types": 0, "path": []}
     t0 = time.monotonic()
@@ -214,11 +263,16 @@ def main() -> int:
     ap.add_argument("--device", action="append", choices=list(DEVICES))
     ap.add_argument("--base", help="measure an already-running site instead of starting serve.js")
     args = ap.parse_args()
+    logging.basicConfig(level=logging.INFO, format="%(message)s")
 
     from playwright.sync_api import sync_playwright
 
     tasks: Dict[str, Any] = json.loads((UAT / "interaction-tasks.json").read_text())["tasks"]
     if args.only:
+        unknown = sorted(set(args.only) - set(tasks))
+        if unknown:  # a typo would otherwise pass as "0 tasks within budget"
+            log.error("unknown task(s): %s (see uat/interaction-tasks.json)", ", ".join(unknown))
+            return 2
         tasks = {k: v for k, v in tasks.items() if k in args.only}
     devices = {k: v for k, v in DEVICES.items() if not args.device or k in args.device}
     server = None
@@ -245,14 +299,19 @@ def main() -> int:
                             cost = run_task(page, base, task)
                             if page.evaluate("document.documentElement.scrollWidth > innerWidth + 1"):
                                 failures.append("%s/%s: page overflows sideways" % (dev, name))
+                            hit = page.evaluate(OVERLAP)
+                            if hit:
+                                failures.append("%s/%s: header items overlap (%s)" % (dev, name, hit))
                         except Exception as e:  # report every task, then fail once at the end
                             cost = {"error": str(e).splitlines()[0], "total": None}
                             failures.append("%s/%s: %s" % (dev, name, cost["error"]))
                         if errors:
                             failures.append("%s/%s: page error: %s" % (dev, name, errors[0]))
                         results[dev][name] = cost
-                        print("%-8s %-24s %s" % (dev, name, cost["total"] if cost["total"] is not None else "FAIL"), flush=True)
+                        log.info("%-8s %-26s %s", dev, name, cost["total"] if cost["total"] is not None else "FAIL")
                         ctx.close()
+                if not args.only and not args.device:
+                    failures += header_sweep(browser, base)
             finally:
                 browser.close()
     finally:
@@ -267,13 +326,13 @@ def main() -> int:
     budget_file = UAT / "interaction-budgets.json"
     if args.establish_budgets:
         if failures:
-            print("\n".join(failures), file=sys.stderr)
+            log.error("not writing budgets:\n  %s", "\n  ".join(failures))
             return 1
         # Headroom: CI's Linux fonts wrap text differently from a Mac, which moves
         # a target by a swipe or two. A real regression costs far more than this.
         budgets = {d: {k: v + max(1, math.ceil(v * HEADROOM)) for k, v in t.items()} for d, t in totals.items()}
         budget_file.write_text(json.dumps(budgets, indent=1) + "\n")
-        print("wrote", budget_file.relative_to(ROOT))
+        log.info("wrote %s", budget_file.relative_to(ROOT))
         return 0
     budgets = json.loads(budget_file.read_text()) if budget_file.exists() else {}
     for dev, t in totals.items():
@@ -284,9 +343,9 @@ def main() -> int:
             elif total is not None and total > limit:
                 failures.append("%s/%s: %d interactions > budget %d" % (dev, name, total, limit))
     if failures:
-        print("\nFAILED:\n  " + "\n  ".join(failures), file=sys.stderr)
+        log.error("FAILED:\n  %s", "\n  ".join(failures))
         return 1
-    print("\nAll %d tasks within budget on %d devices." % (len(tasks), len(devices)))
+    log.info("All %d tasks within budget on %d devices.", len(tasks), len(devices))
     return 0
 
 

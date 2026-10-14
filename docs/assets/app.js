@@ -434,14 +434,14 @@
     if (backdrop) backdrop.classList.remove('open');
   }
 
-  // ---------- Header "Updated <date>" populator ----------
+  // ---------- "Updated <date>" (front-page kicker, page footers) ----------
   async function loadHeaderUpdated() {
-    const el = document.querySelector('.header-updated-date');
-    if (!el) return;
+    const els = document.querySelectorAll('.updated-date');
+    if (!els.length) return;
     try {
       const sources = await loadData('sources');
       const date = sources?._meta?.last_updated;
-      if (date) el.textContent = formatDate(date);
+      if (date) els.forEach((el) => { el.textContent = formatDate(date); });
     } catch (e) { /* leave the dash placeholder */ }
   }
 
@@ -767,7 +767,7 @@
   // escapes it. Returning a string keeps both callers honest about which it is.
   function chinaMethodNote(uc) {
     const meta = uc._meta || {};
-    return `Method: ${meta.method || ''}. Captured as of ${formatDate(meta.captured_at || meta.last_updated)}. "Edge" calls are editorial judgments on sourced data, not scores.`;
+    return `Method: ${meta.method || ''}. Captured as of ${formatDate(meta.captured_at || meta.last_updated)}. "Edge" calls are editorial judgments, not scores.`;
   }
 
   // ---------- News (news.html, index.html) ----------
@@ -983,10 +983,9 @@
   // Masthead standfirst — the corpus, stated as a fact about the page rather
   // than a claim about the world. Counts come from the data, never hardcoded.
   function renderStandfirst(companies, policies, newsTotal) {
-    return `${formatNumber(newsTotal || 0)} news records · ` +
-      `${formatNumber((companies || []).length)} companies · ` +
-      `${formatNumber((policies || []).length)} policy actions — ` +
-      `every record is cited; primary sources preferred.`;
+    return `Tracking ${formatNumber(newsTotal || 0)} news stories, ` +
+      `${formatNumber((companies || []).length)} companies and ` +
+      `${formatNumber((policies || []).length)} policy actions.`;
   }
 
   function renderThemeCards(themes) {

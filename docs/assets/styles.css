@@ -331,34 +331,6 @@ input, select, textarea {
   height: var(--header-h);
 }
 
-/* Header status block (replaces the old brand wordmark). Wrapped in an
-   <a href="index.html"> so the upper-left area still navigates home. */
-.header-updated {
-  display: flex;
-  flex: 0 0 auto;   /* fixed sibling — see the flex-basis note on .primary-nav */
-  flex-direction: column;
-  gap: 0;
-  line-height: 1.15;
-  color: var(--text-muted);
-  border-bottom: none;
-  transition: color var(--transition-base, 120ms);
-}
-.header-updated:hover { color: var(--text); border-bottom: none; }
-.header-updated-label {
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--text-faint);
-  font-weight: 600;
-}
-.header-updated-date {
-  font-family: var(--font-serif);
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: -0.005em;
-  color: var(--text);
-}
-
 /* Priority+ nav. Every section link ships once, in .nav-list; app.js moves the
    trailing ones into .nav-overflow (inside the "Sections" disclosure) until the
    strip fits, and moves them back as the window widens. Two consequences the
@@ -401,6 +373,15 @@ nav.primary-nav.nav-managed { overflow: visible; }
   min-width: 0;
 }
 .nav-list > li { flex: 0 0 auto; }
+/* The current page's link is never moved to the overflow, so on a very narrow
+   screen it is the one item that can run out of room ("SCSP Summit" at 320px
+   printed under "Sections"). Once it is the only link left inline, let it
+   shrink and truncate. Only then: a shrinkable link with siblings still inline
+   lets the fit check pass with "F…" squeezed next to "News". */
+.nav-managed .nav-list > li:only-child { flex: 0 1 auto; min-width: 0; }
+.nav-managed .nav-list a[aria-current="page"] {
+  display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
 .nav-overflow {
   list-style: none;
   margin: 0;
@@ -1694,8 +1675,6 @@ button, [role="button"], a.btn {
 /* Mobile nav adjustment */
 @media (max-width: 540px) {
   .site-header-inner { gap: 8px; padding: 8px 12px; }
-  .header-updated-label { display: none; }
-  .header-updated-date { font-size: 13px; }
   /* Overflow is the priority+ layout's job now, not a display:none here — at
      this width it usually collapses the whole strip into "Sections" and keeps
      only the current page's link inline. */
@@ -1995,7 +1974,7 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
 .summit-who { margin: 0; font-size: 13.5px; line-height: 1.5; }
 .summit-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 14px; }
 .summit-filter input[type="search"] {
-  flex: 1 1 220px; min-height: 44px; padding: 0 12px; font: inherit;
+  flex: 1 1 220px; min-height: 44px; padding: 0 12px; font-family: inherit; font-size: 16px; /* under 16px, iOS zooms on focus */
   border: 1px solid var(--border); border-radius: var(--radius-card); background: var(--surface); color: var(--text);
 }
 .summit-check { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; font-size: 13px; }

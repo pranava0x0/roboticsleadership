@@ -7,6 +7,7 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 ## ▶ Added 2026-10-14 (interaction-cost pass)
 
 - [ ] **(medium) Front page: top companies is 9 swipes down on a phone.** Five data sections follow the news well with no index. A compact "On this page" row under the masthead, or moving top companies above the charts, would cut it to 1–2. Measure with `--only front_top_company`.
+- [ ] **(medium) Horizontal jump-nav rows hide their tail on phones.** Energy's 13 chips cost 5 sideways swipes to reach "Shortlist"; the EO's 9 cost 2. Options: wrap to two rows until the bar pins, a "Jump to" `<select>` on narrow screens, or put the chip for the section a reader most often wants first. Measure with `--only energy_candidate_jump`.
 - [ ] **(low) Summit agenda: 18 sessions is 6 swipes on a phone.** Group by morning/afternoon in two `<details>`, or a "Now / next" strip on event day.
 - [ ] **(low) Interaction-cost tasks for the remaining pages' second-tier facts** (a supply-chain US site, a China Unitree row, a policies tax-incentive row). Add a task whenever a new section ships.
 

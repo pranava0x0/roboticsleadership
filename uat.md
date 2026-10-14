@@ -154,13 +154,13 @@ Baseline and result, 2026-10-14 (total interactions; mobile / tablet / desktop):
 | Summit: Path Robotics news, scrolling | 57 / 29 / 27 | 26 / 14 / 14 | Speaker cards are an index; the bio opens in the detail sheet. Org news starts collapsed. |
 | Summit: Path Robotics news, via jump nav | n/a | 7 / 6 / 6 | Jump nav is sticky under the header. |
 | Summit: commission figures, scrolling | 62 / 31 / 29 | 31 / 16 / 16 | Same, plus SCSP's earlier work collapsed. |
-| Summit: commission figures, via jump nav | n/a | 4 / 3 / 3 | |
+| Summit: commission figures, via jump nav | n/a | 5 / 3 / 2 | |
 | Summit: bio from an agenda name | 9 / 7 / 7 | 9 / 7 / 8 | Tap opens the sheet in place; closing it returns to the agenda. Desktop +1 is the sticky bar's height. |
-| Draft EO: Sec. 6, via jump nav | n/a (12 / 7 / 7 scrolling) | 3 / 3 / 2 | New sticky section index; the hash opens the section. |
-| Energy: shortlist, via jump nav | n/a (11 / 7 / 6 scrolling) | 3 / 3 / 3 | "Shortlist" chip added. |
+| Draft EO: Sec. 6, via jump nav | n/a (12 / 7 / 7 scrolling) | 5 / 3 / 2 | New sticky section index; the hash opens the section. |
+| Energy: shortlist, via jump nav | n/a (11 / 7 / 6 scrolling) | 8 / 6 / 4 | "Shortlist" chip added. |
 | States: first on-the-books row | 10 / 6 / 5 | 6 / 5 / 4 | Theme cards keep summary + states; key points and sources sit behind "Key points". |
 
-Unchanged and within budget: front lead 0, Figure AI detail 4–6, HR 7334 detail 4–5, China last metric 4–7, supply-chain share rows 6–8, news search 2, theme detail 2–3. Remaining heaviest: the front page's top-companies block (9 swipes on mobile) and summit agenda end (8). See backlog.
+Unchanged and within budget: front lead 0, Figure AI detail 4–6, HR 7334 detail 4–5, China last metric 4–7, supply-chain share rows 6–8, news search 2, theme detail 2–3. Jump-nav counts include the sideways swipes to reach a chip off the end of the row (5 for Energy's "Shortlist" on a phone). Remaining heaviest: the front page's top-companies block (9 swipes on mobile) and summit agenda end (8). See backlog.
 
 Patterns weighed: **sticky in-page index** (used: summit, draft EO; energy had one), **bottom sheet** for a record a reader dips into from a list (used: summit speakers; companies/policies/themes already did), **accordion with summary visible** (used: org news, states key points), **collapsed-by-default long tail** (used). Not used: tabs (hide content from crawlers and from in-page search, and break the one-scroll reading of a brief); back-to-top button (the sticky header already carries the nav); popovers (no hover on touch).
 

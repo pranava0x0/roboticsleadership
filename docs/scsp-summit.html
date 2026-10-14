@@ -30,10 +30,6 @@
   <a href="#main" class="skip-link">Skip to content</a>
   <header class="site-header" role="banner">
     <div class="site-header-inner">
-      <a href="index.html" class="header-updated" aria-label="Home — last data refresh">
-        <span class="header-updated-label">Updated</span>
-        <span class="header-updated-date tnum">—</span>
-      </a>
       <nav class="primary-nav" aria-label="Primary" id="primary-nav">
         <ul class="nav-list">
           <li><a href="index.html">Front page</a></li>
@@ -71,7 +67,7 @@
     <p class="eyebrow">Event brief · Oct 14, 2026 · Washington, D.C.</p>
     <h1 class="page-title">SCSP AI+ Robotics Summit.</h1>
     <p class="page-lede">
-      Who spoke, what each session covered, and the record behind it: speaker bios, recent news from their organizations, recent public posts, and the policy context. Compiled from the <a href="https://www.scsp.ai/ai-robotics/" target="_blank" rel="noopener">SCSP agenda</a> and public sources as of <span class="tnum" id="captured">Oct 14, 2026</span>.
+      The agenda, the speakers, recent news from their organizations, their recent posts, and the policy context. Compiled from the <a href="https://www.scsp.ai/ai-robotics/" target="_blank" rel="noopener">SCSP agenda</a> and public sources as of <span class="tnum" id="captured">Oct 14, 2026</span>.
     </p>
 
     <aside class="bluf" aria-label="Bottom line up front">
@@ -90,7 +86,7 @@
     <ol class="summit-agenda" id="agenda-list"></ol>
 
     <h2 class="section-title rule" id="themes">Themes emerging</h2>
-    <p class="muted">Drawn from the agenda and the Commission's preliminary report released the day before. Descriptive, attributed; not a forecast.</p>
+    <p class="muted">Drawn from the agenda and the Commission's preliminary report released the day before.</p>
     <div class="card-grid cols-3" id="theme-grid"></div>
 
     <h2 class="section-title rule" id="speakers">Speakers &amp; moderators</h2>
@@ -115,7 +111,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>Every record is cited; primary sources preferred. Bios and summaries are paraphrased from the linked sources.</p>
+    <p>Bios and summaries are paraphrased from the linked sources.</p>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 
@@ -137,8 +133,9 @@
     const rep = d.commission.preliminary_report;
 
     document.getElementById('bluf').innerHTML =
-      `<strong>The summit followed by one day the preliminary report of SCSP's ${E(d.commission.name.split(' (')[0])}</strong>, co-chaired by Sens. Budd and Slotkin and SCSP's Ylli Bajraktari. ` +
-      `The report says the U.S. leads in robotics "brain" technologies but trails in deployment and component manufacturing; nine of the speakers sit on that commission, and the agenda is organized around the same deployment question.`;
+      `<strong>SCSP's ${E(d.commission.name.split(' (')[0])} released its preliminary report the day before the summit.</strong> ` +
+      `Sens. Budd and Slotkin and SCSP's Ylli Bajraktari co-chair it. The report says the US leads on robot AI but trails in deployment and component manufacturing. ` +
+      `${d.people.filter(p => p.commissioner).length} of the speakers are commissioners, and most panels were about deployment.`;
 
     const commCount = d.people.filter(p => p.commissioner).length;
     const kpis = [
