@@ -138,6 +138,13 @@ check('session_notes entries are well-formed (title, time, points with topic/sai
       ...(!Array.isArray(pt.sources) || !pt.sources.length || !pt.sources.every(u => /^https?:\/\//.test(u)) ? [`note ${i} point ${j}: sources must be non-empty http(s) URLs`] : []),
     ]),
   ]));
+check('session_notes render one details block per entry with every source linked', (summit.session_notes || []).flatMap((sn, i) => {
+  const html = nodes.get('notes-list').innerHTML;
+  return [
+    ...(!html.includes(`id="note-${i + 1}"`) ? [`note ${i}: no details block`] : []),
+    ...sn.points.flatMap(pt => pt.sources.filter(u => !html.includes(`href="${u}"`)).map(u => `note ${i}: ${u} not linked`)),
+  ];
+}));
 check('report failure is localized and KPI retains its PDF page link', [
   ...(!nodes.get('report-meta').textContent.includes('Could not load') ? ['missing report error'] : []),
   ...(!nodes.get('kpis').innerHTML.includes('NSCRAM_Interim-Report.pdf#page=16') ? ['KPI lacks page 16 link'] : []),
