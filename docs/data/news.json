@@ -129,11 +129,9 @@
     "date": "2026-10-13",
     "source": "Google Developers Blog",
     "source_url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
-    "summary": "The physical-reasoning model is available through AI Studio, the Gemini API and Antigravity. Google reports a vision-language-action policy rising from 56% to 75% real-world success after 4,500+ simulated episodes. Benchmarks are the company's own. In a Google demo, Apptronik's Apollo 2 learned a cornhole throw from human video and simulation.",
+    "summary": "The physical-reasoning model is available through AI Studio (Ultra subscribers), the paid Gemini API and Antigravity. Google reports a vision-language-action policy rising from 56% to 75% real-world success after 4,500+ simulated episodes, and demos turning a sketch into a MuJoCo simulation. Benchmarks are the company's own.",
     "category": "Research",
-    "companies": [
-      "apptronik"
-    ],
+    "companies": [],
     "themes": [
       "foundation-models",
       "physical-ai"
