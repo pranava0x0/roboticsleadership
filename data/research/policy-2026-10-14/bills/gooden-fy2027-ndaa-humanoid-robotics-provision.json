@@ -1,0 +1,44 @@
+{
+  "id": "gooden-fy2027-ndaa-humanoid-robotics-provision",
+  "title": "Prohibition on Chinese Humanoid Robotic Systems (FY2027 NDAA markup item)",
+  "number": "H.R. 8800 §163; HASC markup LOG ID 6312",
+  "date": "2026-06-04",
+  "sponsor": "Rep. Lance Gooden",
+  "committee": "House Armed Services Committee",
+  "status": "H.R. 8800: 2026-09-14 — Received in the Senate.",
+  "status_as_of": "2026-10-14",
+  "source_urls": [
+    "https://docs.house.gov/meetings/AS/AS00/20260604/119333/HMKP-119-AS00-20260604-SD001.pdf",
+    "https://www.govinfo.gov/content/pkg/BILLS-119hr8800eh/html/BILLS-119hr8800eh.htm"
+  ],
+  "local_files": [
+    "amendment-6312/FY27-NDAA-markup-amendment-log-6312-source.pdf",
+    "amendment-6312/FY27-NDAA-markup-amendment-log-6312-source.txt",
+    "amendment-6312/119hr8800rh.htm",
+    "amendment-6312/119hr8800rh.txt",
+    "amendment-6312/119hr8800eh.htm",
+    "amendment-6312/119hr8800eh.txt",
+    "amendment-6312/house-passed-section-163.txt"
+  ],
+  "summary": "Gooden’s markup log item 6312, revision 2, was agreed to by voice vote. The House-passed FY2027 NDAA contains a related Section 163 barring DoD procurement, leasing or obtaining of covered humanoid robotic systems made or developed by foreign adversaries, or carrying their software, AI, cloud or remote-control services. A controlled-testing waiver and exclusions for fixed industrial robots, non-networked systems and regulated medical devices apply.",
+  "mechanism_scope_limitations": "Section 163 applies to contracts and agreements after enactment and requires implementation guidance within 180 days. It is not a general civilian possession ban. The markup log identifies Gooden’s contribution but does not independently prove verbatim continuity into Section 163; the House-passed text establishes that section’s scope. House passage is not enactment.",
+  "quotes": [
+    {
+      "quote": "The Secretary of Defense may not procure, lease, or otherwise obtain a covered humanoid robotic system",
+      "reference": "H.R. 8800 EH §163(a)(1)"
+    }
+  ],
+  "unresolved_discrepancies": [
+    "Exact amendment-to-section lineage not independently established; related operative text verified in House-passed §163."
+  ],
+  "captured_at": "2026-10-14",
+  "latest_actions": [
+    {
+      "number": "H.R. 8800",
+      "date": "2026-09-14",
+      "text": "Received in the Senate.",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8800.xml",
+      "local_file": "BILLSTATUS-119hr8800.xml"
+    }
+  ]
+}

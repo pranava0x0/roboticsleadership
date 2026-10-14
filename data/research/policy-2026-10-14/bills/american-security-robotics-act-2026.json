@@ -1,0 +1,66 @@
+{
+  "id": "american-security-robotics-act-2026",
+  "title": "American Security Robotics Act of 2026",
+  "number": [
+    "H.R. 8189",
+    "S. 4235"
+  ],
+  "date": {
+    "H.R. 8189": "2026-04-02",
+    "S. 4235": "2026-03-26"
+  },
+  "sponsor": {
+    "H.R. 8189": "Rep. Elise Stefanik",
+    "S. 4235": "Sen. Tom Cotton"
+  },
+  "committee": {
+    "H.R. 8189": "House Committee on Oversight and Government Reform",
+    "S. 4235": "Senate Committee on Homeland Security and Governmental Affairs"
+  },
+  "status": "H.R. 8189: 2026-04-02 — Referred to the House Committee on Oversight and Government Reform.; S. 4235: 2026-03-26 — Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+  "status_as_of": "2026-10-14",
+  "source_urls": [
+    "https://www.govinfo.gov/content/pkg/BILLS-119hr8189ih/html/BILLS-119hr8189ih.htm",
+    "https://www.govinfo.gov/content/pkg/BILLS-119s4235is/html/BILLS-119s4235is.htm"
+  ],
+  "local_files": [
+    "119hr8189ih.htm",
+    "119hr8189ih.txt",
+    "119hr8189ih.xml",
+    "119hr8189ih.pdf",
+    "119s4235is.htm",
+    "119s4235is.txt",
+    "119s4235is.xml",
+    "119s4235is.pdf"
+  ],
+  "summary": "Bars executive agencies from procuring covered unmanned ground vehicle systems made or assembled by covered foreign entities. After one year, bars agency operation and use of federal funds through contracts, grants, cooperative agreements, or otherwise for procurement or operation. The definition explicitly includes ground mobile robotics, autonomous patrol technology, and humanoid robots.",
+  "mechanism_scope_limitations": "Applies to federal executive agencies and systems manufactured or assembled by entities domiciled in or controlled by a covered nation, or their subsidiaries/affiliates. DHS, DOD, State, and DOJ receive an exemption only for specified national-interest uses (research/testing/training/electronic or information warfare/counterterrorism etc.) or systems modified so they cannot exchange data with covered foreign entities and pose no agency-determined cybersecurity risk. It does not create a general private-sector ban.",
+  "quotes": [
+    {
+      "quote": "Except as provided under subsection (e), the head of an executive agency may not procure any covered unmanned ground vehicle system.",
+      "reference": "H.R. 8189 / S. 4235, § 2(b)"
+    },
+    {
+      "quote": "beginning on the date that is one year after the date of the enactment of this Act, no executive agency may operate a covered unmanned ground vehicle system.",
+      "reference": "H.R. 8189 / S. 4235, § 2(c)(1)"
+    }
+  ],
+  "unresolved_discrepancies": [],
+  "captured_at": "2026-10-14",
+  "latest_actions": [
+    {
+      "number": "H.R. 8189",
+      "date": "2026-04-02",
+      "text": "Referred to the House Committee on Oversight and Government Reform.",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8189.xml",
+      "local_file": "BILLSTATUS-119hr8189.xml"
+    },
+    {
+      "number": "S. 4235",
+      "date": "2026-03-26",
+      "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4235.xml",
+      "local_file": "BILLSTATUS-119s4235.xml"
+    }
+  ]
+}

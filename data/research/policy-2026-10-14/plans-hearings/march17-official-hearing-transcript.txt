@@ -1,0 +1,2807 @@
+
+ - DEEPSEEK AND UNITREE ROBOTICS: EXAMINING THE NATIONAL SECURITY RISKS OF PRC ARTIFICIAL INTELLIGENCE, ROBOTICS, AND AUTONOMOUS TECHNOLOGIES AND BUILDING A SECURE U.S. TECHNOLOGY BASE
+
+[House Hearing, 119 Congress]
+[From the U.S. Government Publishing Office]
+
+
+
+ DEEPSEEK AND UNITREE ROBOTICS: EXAMINING THE NATIONAL SECURITY RISKS
+      OF PRC ARTIFICIAL INTELLIGENCE, ROBOTICS, AND AUTONOMOUS
+       TECHNOLOGIES AND BUILDING A SECURE U.S. TECHNOLOGY BASE
+
+=======================================================================
+
+                                HEARING
+
+                               before the
+
+                            SUBCOMMITTEE ON
+                    CYBERSECURITY AND INFRASTRUCTURE
+                               PROTECTION
+
+                                 of the
+
+                     COMMITTEE ON HOMELAND SECURITY
+                        HOUSE OF REPRESENTATIVES
+
+                    ONE HUNDRED NINETEENTH CONGRESS
+
+                             SECOND SESSION
+
+                               __________
+
+
+                             MARCH 17, 2026
+
+                               __________
+
+
+                           Serial No. 119-42
+
+                               __________
+
+
+       Printed for the use of the Committee on Homeland Security
+
+
+
+
+
+                 [GRAPHIC NOT AVAILABLE IN TIFF FORMAT]
+
+
+
+
+
+        Available via the World Wide Web: http://www.govinfo.gov
+
+                               __________
+
+
+                 U.S. GOVERNMENT PUBLISHING OFFICE
+
+64-201 PDF                WASHINGTON : 2026
+
+
+
+
+
+
+
+
+
+                     COMMITTEE ON HOMELAND SECURITY
+
+                Andrew R. Garbarino, New York, Chairman
+
+Michael T. McCaul, Texas, Vice       Bennie G. Thompson, Mississippi,
+    Chair                                Ranking Member
+Michael Guest, Mississippi           Eric Swalwell, California
+Carlos A. Gimenez, Florida           J. Luis Correa, California
+August Pfluger, Texas                Shri Thanedar, Michigan
+Tony Gonzales, Texas                 Seth Magaziner, Rhode Island
+Morgan Luttrell, Texas               Daniel S. Goldman, New York
+Dale W. Strong, Alabama              Delia C. Ramirez, Illinois
+Josh Brecheen, Oklahoma              Timothy M. Kennedy, New York
+Elijah Crane, Arizona                LaMonica McIver, New Jersey
+Andrew Ogles, Tennessee              Julie Johnson, Texas, Vice Ranking
+Sheri Biggs, South Carolina              Member
+Gabe Evans, Colorado                 Pablo Jose Hernandez, Puerto Rico
+Ryan Mackenzie, Pennsylvania         Nellie Pou, New Jersey
+Brad Knott, North Carolina           James R. Walkinshaw, Virginia
+Vince Fong, California               Troy A. Carter, Louisiana
+Matt Van Epps, Tennessee             Al Green, Texas
+Vacant
+                     Keighle Joyce, Staff Director
+                  Hope Goins, Minority Staff Director
+                       Sean Corcoran, Chief Clerk
+
+                                 ------
+
+
+      SUBCOMMITTEE ON CYBERSECURITY AND INFRASTRUCTURE PROTECTION
+
+                   Andrew Ogles, Tennessee, Chairman
+
+Carlos A. Gimenez, Florida           Eric Swalwell, California, Ranking
+Morgan Luttrell, Texas                   Member
+Ryan Mackenzie, Pennsylvania         Seth Magaziner, Rhode Island
+Vince Fong, California               LaMonica McIver, New Jersey
+Andrew R. Garbarino, New York (ex    James R. Walkinshaw, Virginia
+    officio)                         Bennie G. Thompson, Mississippi
+                                         (ex officio)
+
+             Roland Hernandez, Subcommittee Staff Director
+           Moira Bergin, Minority Subcommittee Staff Director
+
+
+
+
+
+
+
+
+
+                            C O N T E N T S
+
+                              ----------
+                                                                   Page
+
+                               Statements
+
+The Honorable Vince Fong, a Representative in Congress From the
+  State of California:
+  Oral Statement.................................................     1
+  Prepared Statement.............................................     3
+The Honorable James R. Walkinshaw, a Representative in Congress
+  From the State of Virginia:
+  Oral Statement.................................................     4
+  Prepared Statement.............................................     6
+The Honorable Bennie G. Thompson, a Representative in Congress
+  From the State of Mississippi, and Ranking Member, Committee on
+  Homeland Security:
+  Prepared Statement.............................................     7
+
+                               Witnesses
+
+Mr. Max Fenkell, Global Head of Policy and Government Relations,
+  Scale AI:
+  Oral Statement.................................................     9
+  Prepared Statement.............................................    10
+Mr. Matthew Malchano, Vice President of Software, Boston
+  Dynamics:
+  Oral Statement.................................................    13
+  Prepared Statement.............................................    15
+Mr. Michael Robbins, President and Chief Executive Officer,
+  Association for Uncrewed Vehicle Systems International:
+  Oral Statement.................................................    22
+  Prepared Statement.............................................    24
+Mr. Rush Doshi, Ph.D., C.V. Starr Senior Fellow for Asia Studies
+  and Director of the China Strategy Initiative, Council on
+  Foreign Relations:
+  Oral Statement.................................................    31
+  Prepared Statement.............................................    34
+
+
+
+
+
+
+
+
+
+ DEEPSEEK AND UNITREE ROBOTICS: EXAMINING THE NATIONAL SECURITY RISKS
+      OF PRC ARTIFICIAL INTELLIGENCE, ROBOTICS, AND AUTONOMOUS
+       TECHNOLOGIES AND BUILDING A SECURE U.S. TECHNOLOGY BASE
+
+                              ----------
+
+
+                        Tuesday, March 17, 2026
+
+             U.S. House of Representatives,
+                    Committee on Homeland Security,
+                         Subcommittee on Cybersecurity and
+                                 Infrastructure Protection,
+                                                    Washington, DC.
+    The subcommittee met, pursuant to notice, at 2:10 p.m., in
+room 310, Cannon House Office Building, Hon. Vince Fong [Acting
+Chairman of the subcommittee] presiding.
+    Present: Representatives: Fong and Walkinshaw.
+    Mr. Fong. The Committee on Homeland Security Subcommittee
+on Cybersecurity and Infrastructure will come to order. Without
+objection, the Chairman can declare the committee in recess at
+any point.
+    The purpose of this hearing is to examine the national and
+economic security risks to the United States by artificial
+intelligence, robotics, and autonomous sensing technologies
+developed by companies affiliated with the People's Republic of
+China. This hearing will also evaluate whether existing Federal
+guidance and supply chain security practices sufficiently
+address the risks posed by China as these classes of emerging
+technologies are rapidly adopted and our adversaries try to
+keep pace with American innovation.
+    I now recognize myself for an opening statement.
+    Good afternoon and thank you all for being here. Today,
+this subcommittee is examining a national security challenge
+that is currently unfolding inside the United States. The
+People's Republic of China is moving aggressively to dominate
+the technologies that are reshaping the global economy and
+security, including artificial intelligence, robotics, and
+autonomous systems. This competition is already present on
+American campuses, in American police departments, on American
+smartphones, and increasingly within systems connected to our
+critical infrastructure.
+    The pattern behind this expansion should look familiar.
+Chinese companies replicate or acquire American innovation,
+benefit from large-scale state support, undercut competitors on
+price, and then use the growing market presence to collect data
+and expand Beijing's strategic reach. Washington saw this
+pattern before in industries such as solar panels, drones, and
+electric vehicles. We are now seeing it again in artificial
+intelligence and robotics.
+    I want to start with DeepSeek because what happened during
+the past year represents something genuinely alarming that we
+have not fully reckoned with. In January 2025, a Chinese
+artificial intelligence company called DeepSeek released a
+model that rivaled the best systems produced by leading
+American AI innovators at a claimed cost that was a fraction of
+what American companies invested. The technology world and the
+market was shocked. Observers called it an AI Sputnik moment.
+    But the real story was not just what DeepSeek built. It was
+how. Within weeks of its release, American AI companies raise
+serious concerns that DeepSeek used their proprietary models
+without consent to train its own through a process known as
+model distillation. Rather than investing years of effort and
+billions of dollars in frontier research, DeepSeek appeared to
+have fed outputs from leading American AI systems into its
+training pipeline, illicitly reverse engineering the
+capabilities those companies had developed through legitimate
+investment.
+    More recently, in February 2026, DeepSeek, along with
+Chinese AI firms MiniMax and Moonshot AI, had reportedly
+orchestrated an industrial-scale campaign to extract
+capabilities to distillation attacks. Further reporting
+suggested that DeepSeek employees used third-party routers and
+networks of unauthorized resellers to circumvent existing
+safeguards and may have sought to override safety protections
+around biological and chemical weapons research.
+    Let me be clear about what that means. DeepSeek did not
+simply out-compete American companies. According to these
+disclosures, it stole from them.
+    DeepSeek is not just a competitive concern. It is also a
+data and influence concern sitting on millions of American
+devices. The application is available today in the Apple App
+Store. Every interaction is stored on servers located in the
+People's Republic of China, where authorities can demand access
+to that data under Chinese law. Researchers have also
+documented that DeepSeek censors questions related to issues
+sensitive to Beijing and frequently produces responses that
+align with official Chinese Communist Party positions.
+    The same concerns apply to Unitree Robotics. Unitree has
+become a dominant global supplier of robotic dogs and humanoid
+robots, supported by Chinese manufacturing scale and State
+subsidies that allow its products to be sold at a fraction of
+the price of American systems. As a result, these robots are
+already appearing in police departments, universities, and even
+parts of the Federal Government here in the United States.
+Researchers have discovered vulnerabilities in Unitree systems
+that could allow unauthorized access to live camera feeds or
+even remote control of the devices. Additional research has
+identified weaknesses that could allow one compromised robot to
+spread attacks to others nearby. Some of these systems have
+also been observed transmitting operational data back to
+servers located in China.
+    American companies are innovating and competing seriously
+in robotics and artificial intelligence, and this subcommittee
+strongly supports their work. The answer is not to retreat from
+these technologies. It is to invest in trusted American
+alternatives, strengthen cybersecurity practices, and prevent
+Federal funds from supporting platforms that put American data
+and infrastructure at risk and give China an economic and
+military advantage.
+    The witnesses before us today have direct knowledge of
+these threats and the larger dynamics at play across these
+industries. I look forward to their testimony. Thank you.
+    [The statement of Chairman Fong follows:]
+                    Statement of Chairman Vince Fong
+                             March 17, 2026
+    Good morning and thank you all for being here.
+    Today, this subcommittee is examining a national security challenge
+that is currently unfolding inside the United States.
+    The People's Republic of China is moving aggressively to dominate
+the technologies that are reshaping the global economy and security,
+including artificial intelligence, robotics, and autonomous systems.
+This competition is already present on American campuses, in American
+police departments, on American smartphones, and increasingly within
+systems connected to our critical infrastructure.
+    The pattern behind this expansion should look familiar. Chinese
+companies replicate or acquire American innovation, benefit from large-
+scale state support, undercut competitors on price, and then use their
+growing market presence to collect data and expand Beijing's strategic
+reach.
+    Washington saw this pattern before in industries such as solar
+panels, drones, and electric vehicles. We are now seeing it again in
+artificial intelligence and robotics.
+    I want to start with DeepSeek, because what happened during the
+past year represents something genuinely alarming that we have not
+fully reckoned with.
+    In January 2025, a Chinese artificial intelligence company called
+DeepSeek released a model that rivaled the best systems produced by
+leading American AI innovators at a claimed cost that was a fraction of
+what American companies invested. The technology world, and the market,
+was shocked. Observers called it an AI Sputnik moment.
+    But the real story was not just what DeepSeek built. It was how.
+    Within weeks of its release, American AI companies raised serious
+concerns that DeepSeek used their proprietary models, without consent,
+to train its own through a process known as model distillation. Rather
+than investing years of effort and billions of dollars in frontier
+research, DeepSeek appeared to have fed outputs from leading American
+AI systems into its training pipeline, illicitly reverse-engineering
+the capabilities those companies had developed through legitimate
+investment.
+    More recently, in February 2026, DeepSeek, along with Chinese AI
+firms MiniMax and Moonshot AI, had reportedly orchestrated an
+industrial-scale campaign to extract capabilities through distillation
+attacks.
+    Further reporting suggested that DeepSeek employees used third-
+party routers and networks of unauthorized resellers to circumvent
+existing safeguards, and may have sought to override safety protections
+around biological and chemical weapons research.
+    Let me be clear about what that means. DeepSeek did not simply
+outcompete American companies. According to these disclosures, it stole
+from them.
+    And DeepSeek is not just a competitive concern. It is also a data
+and influence concern sitting on millions of American devices. The
+application is available today in the Apple App Store. Every
+interaction is stored on servers located in the People's Republic of
+China, where authorities can demand access to that data under Chinese
+law. Researchers have also documented that DeepSeek censors questions
+related to issues sensitive to Beijing and frequently produces
+responses that align with official Chinese Communist Party positions.
+    The same concerns apply to Unitree Robotics. Unitree has become a
+dominant global supplier of robotic dogs and humanoid robots, supported
+by Chinese manufacturing scale and state subsidies that allow its
+products to be sold at a fraction of the price of American systems. As
+a result, these robots are already appearing in police departments,
+universities, and even parts of the Federal Government here in the
+United States.
+    Researchers have discovered vulnerabilities in Unitree systems that
+could allow unauthorized access to live camera feeds or even remote
+control of the devices. Additional research has identified weaknesses
+that could allow one compromised robot to spread attacks to others
+nearby. Some of these systems have also been observed transmitting
+operational data back to servers located in China.
+    American companies are innovating and competing seriously in
+robotics and artificial intelligence, and this subcommittee strongly
+supports their work. The answer is not to retreat from these
+technologies. It is to invest in trusted American alternatives,
+strengthen cybersecurity practices, and prevent Federal funds from
+supporting platforms that put American data and infrastructure at risk
+and give China an economic and military advantage.
+    The witnesses before us today have direct knowledge of these
+threats and the larger dynamics at play across these industries. I look
+forward to their testimony.
+    Thank you.
+
+    Mr. Fong. I now recognize the Ranking Member, the gentleman
+from Virginia, Mr. Walkinshaw, for his opening statement.
+    Mr. Walkinshaw. Thank you, Mr. Chairman. Good afternoon,
+everyone. I appreciate the opportunity to discuss the national
+security risks posed by technological advances in the People's
+Republic of China.
+    We are living through a period of rapid technological
+transformation. AI, advanced computing, and digital
+technologies are reshaping our economy and our national
+security landscape. The implications are profound and the
+United States must be prepared. Maintaining leadership and
+technological innovation is not simply an economic priority. It
+is a national security imperative.
+    To succeed, we must pursue policies that both drive
+innovation at home and mitigate the risks posed by adversaries.
+That requires a clear-eyed understanding of the PRC's strategy.
+    We have known for many years that the PRC views its
+industrial policy as a critical tool to reshape the world order
+and emerge as the economic leader in global superpower. With
+extensive State investment in technology companies and laws
+that enlist private companies to serve the interests of the
+government, the PRC's military-civil fusion is a serious threat
+to our own national security.
+    Historically, Congress has recognized this threat. There
+has been bipartisan consensus around reducing supply chain
+vulnerabilities, restricting the use of certain PRC
+technologies, limiting exports of sensitive U.S. technologies,
+and strengthening secure supply chains with trusted partners.
+Unfortunately, policies of the Trump administration have
+undermined that progress.
+    Upon taking office, President Trump took his DOGE chainsaw
+to the Federal work force, weakening agencies essential to our
+national security and scientific leadership. The Cybersecurity
+and Infrastructure Security Agency, CISA, has lost nearly a
+third of its work force because the Trump administration fired
+people, reassigned people, or bullied people into quitting. At
+the very moment our adversaries are expanding their cyber
+arsenals, the administration is cutting our own defenses.
+    From the PRC to Russia to Iran, our adversaries leverage
+cyber space and related technologies to fight international
+conflicts on our homeland. We have seen Iran do this already.
+Just last week, a pro-Iran Iran-connected hacker group caused
+global disruptions at a major medical device manufacturer,
+Stryker, in response to the President's war with Iran. The PRC
+is a far more capable cyber actor than Iran, and the potential
+consequences of a future conflict with the PRC are far more
+severe.
+    Yet instead of strengthening our technological and
+cybersecurity defenses, the administration has weakened the
+agencies responsible for securing our networks and advancing
+our scientific leadership. Key institutions, like the National
+Science Foundation and the National Institute of Standards and
+Technology, NIST, have also seen major work force cuts. At a
+time when technological competition is intensifying,
+dismantling our technical expertise is incomprehensible to me.
+    The administration also launched a chaotic trade war that
+fails to distinguish between allies and adversaries. Rather
+than building trusted supply chains with our partners, these
+erratic policies alienate allies and inject uncertainty into
+the global economy.
+    Even more troubling, in the fall last year, the Trump
+administration announced that it would allow for the export of
+advanced semiconductors, Nvidia H200 chips, to the PRC. With
+access to more advanced chips, the risk of a more rapid
+frontier AI development in China increases. Imagine you were in
+a race and only you had access to high-octane fuel that let you
+drive 10 miles per hour faster than your opponent. Would you
+give that high-octane fuel to your opponent, your opponent who
+is determined to leave you in the dust and crush you? That is
+what President Trump did. It was weak.
+    Finally, we should recognize a fundamental truth about
+American innovation. The United States leads the world in
+technology because we attract the best talent from around the
+globe. Immigrants have played an outsized role in building our
+technology sector. Policies and statements that target
+immigrants do not strengthen America. They weaken our ability
+to compete with our adversaries. We could spend all day naming
+the immigrants who have played a critical role in developing
+technologies that advance American economic and national
+security. I will name just a few.
+    Sal Khan, the son of a Bengali Muslim immigrant, created
+Khan Academy, household name, and in 2023, launched Khanmigo,
+an AI-powered personal tutor and teaching assistant now offered
+free to every teacher in every classroom in the United States.
+    Rana el Kaliouby, an Egyptian-American who founded
+Affectiva, which built AI that understands human emotions and
+cognitive states by analyzing facial and voice expressions. She
+cohosts a PBS NOVA series on AI.
+    Dina Katabi, an immigrant from Syria, who is one of MIT's
+most decorated scientists, the winner of every science award
+there is to win. She developed an AI-powered device that can
+detect Parkinson's based on how a patient breathes at night.
+    Mr. Chairman, these are some of the people that Chairman
+Ogles and other Republicans in this body recently said don't
+belong in America. Sal Khan's father came to this country from
+Bangladesh, Rana el Kaliouby from Egypt, Dina Katabi from
+Syria, all happened to be Muslim. Together, along with many
+others, they are helping America win the AI race, win the
+robotics race, win the technology race. Our adversaries, China,
+Russia, Iran, would love nothing more than for us to drive out
+the scientists, engineers, innovators, and entrepreneurs who
+help make this country the most advanced and, yes, the greatest
+nation on Earth.
+    So I beg my colleagues, I beg you, Chairman Ogles, stop
+doing their work for them. With that, I look forward to hearing
+from our witnesses.
+    I yield back.
+    [The statement of Ranking Member Walkinshaw follows:]
+              Statement of Ranking Member James Walkinshaw
+                             March 17, 2026
+    I appreciate the opportunity to discuss the national security risks
+posed by technological advances in the People's Republic of China.
+    We are living through a period of rapid technological
+transformation. Artificial intelligence, advanced computing, and
+digital technologies are reshaping our economy and our national
+security landscape. The implications are profound, and the United
+States must be prepared. Maintaining leadership in technological
+innovation is not simply an economic priority, it is a national
+security imperative.
+    To succeed, we must pursue policies that both drive innovation at
+home and mitigate the risks posed by adversaries. That requires a
+clear-eyed understanding of the PRC's strategy. We have known for many
+years that the PRC views its industrial policy as a critical tool to
+reshape the world order and emerge as an economic leader and global
+superpower. With extensive state investment in technology companies and
+laws that enlist private companies to serve the interest of the
+government, the PRC's military-civil fusion is a serious threat to our
+own national security.
+    Historically, Congress has recognized this threat. There has been
+bipartisan consensus around reducing supply chain vulnerabilities,
+restricting the use of certain PRC technologies, limiting exports of
+sensitive U.S. technologies, and strengthening secure supply chains
+with trusted partners. Unfortunately, the policies of the Trump
+administration have undermined that progress.
+    Upon taking office, President Trump took his DOGE chainsaw to the
+Federal workforce, weakening agencies essential to our national
+security and scientific leadership. The Cybersecurity and
+Infrastructure Security Agency--CISA--has lost nearly a third of its
+workforce because the Trump administration fired people, reassigned
+people, or bullied people into quitting. At the very moment our
+adversaries are expanding their cyber arsenals, the Trump
+administration is cutting our own defenses.
+    From the PRC to Russia to Iran, our adversaries leverage cyber
+space and related technologies to fight international conflicts on our
+homeland. We've seen Iran do this already. Just last week, a pro-Iran
+hacker caused global disruptions at a major medical device
+manufacturer--Stryker--in response to the President's war with Iran.
+The PRC is a far more capable cyber actor, and the potential
+consequences of a future cyber conflict with the PRC are far more
+severe.
+    Yet instead of strengthening our technological and cybersecurity
+defenses, the administration has weakened the agencies responsible for
+securing our networks and advancing our scientific leadership.
+    Key institutions like the National Science Foundation and the
+National Institute of Standards and Technology have also seen major
+workforce cuts. At a time when technological competition is
+intensifying, dismantling our Government's technical expertise is
+incomprehensible.
+    The Trump administration has also launched a chaotic trade war that
+fails to distinguish between allies and adversaries. Rather than
+building trusted supply chains with our partners, these erratic tariff
+policies alienate allies and inject uncertainty into the global
+economy. Even more troubling, in the fall, the Trump administration
+announced that it would allow for the export of advanced
+semiconductors--NVIDIA H200 Chips--to the PRC.
+    With access to more advanced chips, the risk of more rapid frontier
+AI development in China only increases. Imagine you were in a race and
+only you had access to high-octane fuel that let you drive 10 mph
+faster than your opponent. Would you give that high octane fuel to your
+opponent? Your opponent who is determined to leave you in the dust and
+then crush you? That's what Trump did. It was weak.
+    Finally, we should recognize a fundamental truth about American
+innovation. The United States leads the world in technology because we
+attract the best talent from around the globe. Immigrants have played
+an outsized role in building our technology sector. Policies that
+target immigrants do not strengthen America--they weaken our ability to
+compete with our adversaries.
+    We could spend all day naming the immigrants who have played a
+critical role in developing technologies that advance American economic
+and national security. I'll name just a few. Sal Khan, the son of a
+Bengali-Muslim immigrant, created Khan Academy and in 2023 launched
+Khanmigo, an AI-powered personal tutor and teaching assistant now
+offered free to every teacher in the United States.
+    Rana el Kaliouby, an Egyptian-American who founded Affectiva, which
+built AI that understands human emotions and cognitive states by
+analyzing facial and voice expressions. She co-hosts a PBS NOVA series
+on AI. And Dina Katabi, an immigrant from Syria, who is one of MIT's
+most decorated scientists, winner of every science award there is to
+win, who developed an AI-powered device that can detect Parkinson's
+based on how a patient breathes at night.
+    Mr. Chairman, these are the people you recently said don't belong
+in America. Sal Khan's father came to this country from Bangladesh,
+Rana el Kaliouby came from Egypt. Dina Katabi came from Syria. All
+happen to be Muslim. And together, along with many, many others, they
+are helping America win the AI race, win the robotics race, win the
+technology race.
+    Our adversaries--China, Russia, Iran--would love nothing more than
+for us to drive out the scientists, engineers, innovators, and
+entrepreneurs who make this country the most advanced--and, yes, the
+greatest--nation on Earth. I beg you . . . Stop doing their work for
+them.
+
+    Mr. Fong. Thank you, Ranking Member Walkinshaw. Other
+Members of the committee are reminded that opening statements
+may be submitted for the record.
+    [The statement of Ranking Member Thompson follows:]
+             Statement of Ranking Member Bennie G. Thompson
+                             March 17, 2026
+    Before I begin, I would like to address disparaging comments about
+immigrants and America's Muslim community made by my Republican
+colleagues on social media. As Members of Congress, our job is to
+advocate vigorously for policy positions that make the Nation more
+secure, more prosperous, and more just. Maligning entire groups of
+people while parroting bigoted stereotypes does nothing to achieve any
+of those ends.
+    When I began my work in the civil rights movement in the 1960's,
+there were people in this country who thought Black people didn't
+belong in schools, didn't belong in certain jobs, and didn't belong at
+polling places, much less on the ballot. Americans across the political
+spectrum worked hard to dismantle entrenched beliefs that certain types
+of people were less deserving of being American or enjoying the full
+benefits of citizenship.
+    I'm disturbed that today, in 2026, Republicans in Congress are
+devoting so much energy to undoing the progress we made and
+perpetuating such ugly divisions. As Members of the Homeland Security
+Committee, our job is to keep the homeland secure--and that requires
+uniting Americans, not dividing them. I urge my colleagues to stop
+their divisive rhetoric about their fellow Americans and immigrants--
+you are putting entire populations of people at risk.
+    Turning to the subject of today's hearing, we have known for well
+over a decade that the United States would need to work aggressively to
+maintain its dominance in technology. Our most formidable competitor--
+the People's Republic of China--is willing to do things the United
+States will not in pursuit of innovation. Notably, the PRC has a
+notorious track record of engaging in intellectual property theft.
+    As we've seen with DeepSeek, the PRC entities will devote
+significant resources to stealing U.S. AI models, as it is has done
+with Anthropic and Open AI. The PRC has also invested significant
+government resources in tech innovation, through which it intends to
+gain global influence economically and politically. Although the United
+States would not and should not engage in the kind of intellectual
+property theft supported by the PRC, we can and should certainly be
+investing in tech innovation.
+    Unfortunately, the Trump administration has gutted investment in
+agencies that support research and development. Moreover, the
+administration has decimated agencies responsible for mitigating the
+national security risks associated with the emerging dual-use
+technologies that will define the 21st Century. This committee oversees
+the Cybersecurity and Infrastructure Security Agency.
+    Bipartisan Members of this committee established CISA to empower
+the United States Government to harness the potential of emerging
+technology securely while defending against the malicious use cases our
+adversaries might pursue.
+    Over the past 8 years, CISA has taken on that mantle, building
+programs to advise critical infrastructure owners and operators on how
+to deploy security technologies to defend against modern threats and
+helping tech companies build security into their products so that they
+are safe for the digital ecosystem out of the box. Unfortunately, the
+Trump administration harassed one-third of CISA's staff into leaving
+their jobs, leaving United States less secure as the PRC more
+aggressively pursues its tech innovation agenda. The President has also
+recklessly ceded America's competitive edge in AI by permitting the
+sale of high-powered AI chips to the PRC.
+    If the President is sincere in his commitment to pursuing ``America
+first'' policies, he has a funny way of showing it. I look forward to
+discussing what the United States can do--on our own and with our
+allies--to facilitate innovation and preserve our competitive edge in
+tech innovation.
+
+    Mr. Fong. I am pleased to have a distinguished panel of
+witnesses before us today on this important topic. Pursuant to
+committee rule VII(C), I ask that our witnesses please rise and
+raise their right hands.
+    [Witnesses sworn.]
+    Mr. Fong. Let the record reflect that the witnesses have
+answered in the affirmative. Thank you. Please be seated.
+    I would now like to formally introduce our witnesses.
+First, Mr. Max Fenkell is the global head of policy and
+government relations at Scale AI, where he leads the company's
+global engagement on AI governance, data policy, and emerging
+technology strategy to shape frameworks that ensure U.S.
+technological leadership and national security while promoting
+innovation. Prior to joining Scale, he most recently held jobs
+and roles at Joby Aviation and the Aerospace Industries
+Association.
+    Next, Mr. Matthew Malchano is the vice president of
+software at Boston Dynamics, where he has worked for 22 years,
+contributing to projects on advanced robotics technologies, AI,
+and autonomy. He also currently holds the role of Boston
+Dynamics' security officer. Mr. Malchano holds degrees from MIT
+in computer science and electrical engineering, and prior to
+Boston Dynamics, worked in software development and engineering
+roles at Akamai Technologies and Google.
+    Mr. Michael Robbins is the president and CEO at the
+Association for Uncrewed Vehicle Systems International, an
+association representing uncrewed systems, robotics, and
+autonomous companies in both the commercial and defense
+sectors. Mr. Robbins also currently serves as the MITRE
+Corporation's Aviation Advisory Committee and the National
+Advanced Mobility Consortium's Advisory Committee, and is an
+officer in the United States Naval Reserve. Thank you for your
+service.
+    Dr. Rush Doshi is the C.V. Starr senior fellow for Asia
+studies and director of the China Strategy Initiative at the
+Council on Foreign Relations, and is an assistant professor at
+Georgetown's School of Foreign Service. His expertise includes
+China's foreign policy, U.S. strategy toward China, cross-
+strait issues, and Indo-Pacific security. Prior to joining CFR,
+Dr. Doshi most recently served on the National Security
+Council's China Directorate.
+    I thank each of our distinguished witnesses for being here
+today.
+    I now recognize Mr. Fenkell for 5 minutes to summarize his
+opening statement.
+
+STATEMENT OF MAX FENKELL, GLOBAL HEAD OF POLICY AND GOVERNMENT
+                      RELATIONS, SCALE AI
+
+    Mr. Fenkell. Chairman Fong, Ranking Member Walkinshaw,
+Members of the subcommittee, thank you for the opportunity to
+appear before you today. My name is Max Fenkell and I lead
+global policy and government relations at Scale AI.
+    Since 2016, we have worked with nearly every major AI lab,
+powered Fortune 500 companies and the most ambitious government
+AI programs, and are now at the frontier of physical AI and
+robotics. We do this across two main lines of effort: providing
+high-quality data to train, improve and evaluate AI models; and
+building applications to help our customers bring AI into
+production. Let me start with a reflection of where things
+stand today.
+    Last month, Chinese viewers rang in the Lunar New Year
+watching AI-powered humanoid robots perform coordinated martial
+arts on live television. The video went viral not because it
+was impressive, but because of what happened when people
+compared it to last year. Twelve months ago, those same robots
+could barely shuffle through a dance routine. This year they
+were doing karate. That is the speed of this competition.
+    The United States is winning on the dimensions Washington
+tracks: the models and the chips. But we are losing where the
+future will be decided: data and implementation. We are seeing
+two different races play out. I fear right now the United
+States may be winning the wrong one.
+    Nowhere is that gap more alarming than in physical AI and
+robotics. Unlike large language models, which train on data
+scraped from the internet, robots have no such resource. A
+robot learns by doing in the physical world. That requires
+thousands of hours of real-world data collected, labeled, and
+ready to train on. This is why autonomous vehicles spend months
+driving city streets before launch. Every mile is training
+data.
+    For robotics think warehouse-scale facilities filled with
+machines running around the clock not to move goods, but to
+generate the fuel that trains the next generation of AI. China
+has industrialized that process. We have not. According to
+Scale's internal estimates, China owns roughly 90 percent of
+the commercially-available robotics AI data market today. They
+produce that data at 60 percent lower cost than U.S. companies
+can match.
+    The U.S. Government invests roughly $100 million a year in
+AI data. China invests 1 to 1.5 billion, 10 to 15 times more.
+They have 7 government-directed data labeling hubs and
+warehouses with robots running 17 hours a day solely to
+generate training data. By all accounts, this is a state-
+directed campaign to win.
+    That structural advantage has direct national security
+consequences. The same platforms training on Chinese data today
+are candidates for deployment in American ports, hospitals,
+defense facilities, and homes tomorrow. The data that trains
+these systems shapes how they behave, what they optimize for,
+and where they are vulnerable. Ceding the robotics data layer
+to China is not a technology policy concern. It is a critical
+infrastructure risk and the window to address it is closing
+fast.
+    Winning requires a whole-of-Government approach and 4 key
+actions. First, investigate Chinese robotics data as a national
+security threat and treat U.S. data as a national asset.
+Congress should ask the national security apparatus to study
+this dependency and require U.S. Government data assets be made
+AI-ready.
+    Second, establish one national regulatory framework for
+artificial intelligence. This should govern outputs, not
+inputs. A patchwork of state rules is not a regulatory system.
+It is a competitive liability.
+    Third, mandate government AI deployment. The Department of
+War has transitioned one AI program--to program of record since
+2016. China deployed 81 large language models into their
+People's Liberation Army in the first half of 2024 alone, 1
+versus 81. That is not a technology gap. It is a failure of
+will. Congress should direct every agency to launch at least 5
+flagship agentic AI programs by 2028 to start to fill the gap.
+    Fourth, export the AI technology stack to our allies before
+China does. China won on 5G because America didn't show up with
+a competitive alternative. We are at that same fork in the road
+on AI right now today. The Exporting the American AI Tech Stack
+Executive Order is a great first step, but Congress must codify
+and resource it.
+    This is not the first time America has faced a defining
+technological competition and is not the first time the outcome
+looked uncertain. We have every asset required to win: the
+talent, the capital, and the allies. The variable is urgency,
+and the time to act is now. Scale is fully committed to
+supporting the United States in this race. We look forward to
+working with Congress and the Trump administration to find ways
+to do just that.
+    Thank you again for the opportunity to be here and I look
+forward to your questions.
+    [The prepared statement of Mr. Fenkell follows:]
+                   Prepared Statement of Max Fenkell
+                             March 17, 2026
+    Chairman Ogles, Ranking Member Swalwell, and Members of the House
+Committee on Homeland Security Subcommittee on Cybersecurity and
+Infrastructure Protection, thank you for the opportunity to appear
+before you today. My name is Max Fenkell, and I serve as Scale AI's
+(Scale) global head of policy and government relations. This hearing
+comes at a critical time for the future of United States leadership in
+artificial intelligence (AI), and I appreciate the chance to discuss
+the steps necessary to ensure the United States wins the global AI
+race.
+                              introduction
+    Over the past 5 years, no topic has captured global attention more
+than AI and since our founding in 2016, Scale has been at the forefront
+of AI innovation. Every day, our company works to build reliable AI
+systems for the world's most important decisions. We work across the
+entirety of the AI ecosystem, supporting customers from AI labs
+developing frontier models, to governments and enterprises looking to
+implement AI solutions. We do this in two main ways: first, by building
+high-quality, frontier data to develop, improve, and evaluate AI
+models; and second, by building applications to deliver solutions.
+    In the earliest days of our company, we started by building the
+Data Engine to power the autonomous vehicle industry. Later, that same
+Data Engine matured to serve as the foundational infrastructure to
+power the generative AI (GenAI) revolution; it now powers leading AI
+companies working to bring the technology into the physical world
+through robotics and autonomous systems. Our expertise in data has also
+enabled us to understand how to best implement our AI solutions across
+leading enterprises and governments, placing us at the forefront of AI
+deployment. Today, our Data Engine has powered the most ambitious
+Government AI programs, shaped the frontier of industry, and is
+actively working to power the next generation of agentic and physical
+AI platforms.
+    AI has always been powered by a data foundation, and winning on
+data will contribute to the United States winning on AI. Scale directly
+enables this to occur.
+                 winning starts with the right strategy
+    To start, it is useful to understand the AI tech stack. Across
+almost all use cases, AI fundamentally boils down to four parts:
+compute, model, data, and applications. Compute refers to the chips
+that power AI development and implementation; models are the engine
+that powers the AI to be useful; data is what makes the AI robust and
+intelligent; and applications leverage the rest of the tech stack to
+deliver high-quality AI solutions.
+    Understanding the state of the AI race requires examining
+leadership across each element of the tech stack. While the United
+States maintains an advantage on models and compute, China has
+established significant advantages in data and large-scale deployment.
+China continues to invest aggressively across the entire tech stack
+through an approach that fundamentally differs from the United States.
+The United States is chasing technological superiority, whereas China
+is looking to win on implementation \1\ and diffusion of its technology
+across the world.\2\
+---------------------------------------------------------------------------
+    \1\ See, https://www.reuters.com/world/asia-pacific/china-vows-
+accelerate-technological-self-reliance-ai-push-2026-03-05/.
+    \2\ See, https://www.index.dev/blog/chinese-open-source-ai-models-
+statistics.
+---------------------------------------------------------------------------
+    As the AI industry continues to advance from a model-first approach
+to applications and embodied AI platforms, it is clear that the country
+that best implements AI solutions will reap the biggest benefit.
+Leadership in chips and models alone will not be sufficient. Without a
+stronger focus on implementation and deployment, the United States
+risks falling behind and never catching up.
+ robotics is the next frontier, but the united states is not currently
+                              in the race
+    Since the public release of generative AI systems in November
+2022,\3\ they have garnered much of the world's attention. However,
+this represents only the beginning of the AI transformation. AI
+capabilities are already evolving beyond conversational systems toward
+agentic workflows, and the next wave of AI will see models shift from
+text-based to physical, powering real-world systems such as robotics.
+Winning on these systems requires a fundamentally different approach
+from the ground up, starting with how you train the models.
+---------------------------------------------------------------------------
+    \3\ See, https://en.wikipedia.org/wiki/ChatGPT.
+---------------------------------------------------------------------------
+    Training a Large Language Model (LLM) requires two foundational
+steps. The first is pre-training: training on publicly-available data.
+The second is post-training: augmenting a pre-trained model with high-
+quality, human decisions to fine-tune and evaluate it. Once completed,
+that AI model is deployed through a user interface and constantly
+improved based on real-world feedback.
+    A physical AI system follows a different path. These systems
+require the collection of thousands of hours of real-world data prior
+to the labeling process. Once collected, that data is labeled, tagged,
+and annotated to build a high-quality Vision Language Action Model, and
+once deployed in a real-world environment, it is augmented by real-
+world data to continuously improve.
+    This is why autonomous vehicles spend months driving city streets
+before launch--every mile is training data. For robotics, the
+equivalent is warehouse-scale facilities filled with machines running
+around the clock, not to move goods, but to generate the data that
+trains the next generation of AI systems. China has industrialized this
+process in a way the United States has not. According to Scale's
+internal estimates, China owns roughly 90 percent of the commercially-
+available robotics AI data industry today and produces it at 60 percent
+lower cost than U.S. companies can match. More investment alone will
+not close that gap. The advantage China has built is structural, state-
+directed, and years in the making.
+    The reason for this lies in China's approach. For many years, China
+has viewed data dominance as a key pillar of its AI Master Plan. While
+the U.S. Government directly invests roughly $100 million a year in AI
+data, China invests between 10x and 15x more, or roughly between $1
+billion and $1.5 billion annually.\4\ However, the difference extends
+beyond the investment levels.
+---------------------------------------------------------------------------
+    \4\ These statistics are based on Scale's internal analysis of
+publicly-available sources.
+---------------------------------------------------------------------------
+    China currently has 7 data-labeling hubs \5\ across the country,
+provides government tax credits and subsidies for AI data,\6\ and
+operates multiple of the world's largest warehouses with robots working
+up to 17 hours per day for the sole purpose of data collection.\7\ This
+is not organic industrial development: it is a state-directed campaign
+to leverage the entirety of state capacity to control the foundational
+inputs of AI before the United States recognizes the threat.
+---------------------------------------------------------------------------
+    \5\ See, https://www.globaltimes.cn/page/202404/1309974.shtml.
+    \6\ See, https://english.www.gov.cn/news/202501/14/
+content_WS67859ba1c6d0868f4e8eeca- 1.html.
+    \7\ See, https://robotsbeat.com/china-closes-robotics-gap-physical-
+ai/.
+---------------------------------------------------------------------------
+    The national security implications are clear. The same AI models
+being integrated into platforms and trained on Chinese data today are
+candidates for deployment in American homes, ports, hospitals,
+warehouses, and defense facilities tomorrow. The data that trains these
+systems shapes how they behave, what they optimize for, and where they
+are vulnerable. Ceding the robotics data layer to China is not an
+abstract technology policy concern, it is a critical infrastructure
+risk.
+    If the United States wants to win, we must recognize that the race
+is not just about platforms or technology superiority: we must also win
+on data. As with every form of AI, winning comes down to having a data
+advantage. Beyond global leadership, relying on Chinese data to train
+American companies' AI platforms carries significant security risks:
+supply chain issues, data poisoning,\8\ backdooring,\9\ and more.
+Unless we change our approach quickly, we will be almost entirely
+reliant on China to build America's robotics industry.
+---------------------------------------------------------------------------
+    \8\ See, https://www.knostic.ai/blog/ai-data-
+poisoning?utm_source=chatgpt.com.
+    \9\ See, https://cybernews.com/security/dji-robot-vacuum-backdoor/.
+---------------------------------------------------------------------------
+                   winning requires four key actions
+    Given the state of the global AI race and China's clear strategic
+advantage, the United States must act with urgency. The United States
+is winning the AI race on the dimensions we can see--the models and the
+chips. We are losing it on the dimensions that will ultimately decide
+the outcome: data and implementation. Winning is not just about
+building the best technology; it is also about successfully deploying
+these systems across real-world applications. To achieve this, 4
+actions are necessary:
+    First, investigate Chinese robotics data as a national security
+threat and treat U.S. data as a national asset.--China's growing
+dominance in the robotics AI data raises significant national security
+concerns for U.S. industry, and an over-reliance on China to provide
+our leading companies with AI-ready data carries risks that should be
+carefully examined and mitigated. Further, we should explore how the
+U.S. Government's best-in-class data could be better leveraged as a
+strategic asset for AI leadership. Multiple National AI Strategies have
+called AI-ready data vital to advancing AI, and while progress has been
+made, more must be done to translate these commitments into action.
+China is taking a whole-of-government approach to winning on data. The
+United States must be prepared to match that intensity--and where
+possible, surpass it.
+    Recommendation.--Congress should immediately ask the National
+        Security apparatus to study the risks associated with an over-
+        reliance on Chinese robotics data. Additionally, Congress
+        should require Federal data assets be made AI-ready and put in
+        place Government-wide AI-ready data infrastructure to harness
+        it.
+    Second, establish the right regulatory framework that maximizes
+innovation while putting in place guardrails where needed.--The right
+framework will lay the groundwork for global leadership. Scale strongly
+believes that this system starts with a use-case-based approach that
+leverages the existing regulatory system, finding and filling gaps if
+they exist. The right model governs outputs, not inputs--just as the
+Government does not regulate a laptop, it regulates the malicious use
+of a laptop. AI should be governed the same way. Where a regulation is
+sufficient, it requires clear implementation and compliance guidance,
+as well as third-party testing to verify compliance. Regulation that
+handicaps American AI companies is not sound policy; it is a strategic
+concession to Beijing.
+    Recommendation.--Congress should work to pass a legislative package
+        that sets one national framework for AI governance and codifies
+        the regulatory gap analysis approach.
+    Third, shift to an implementation-first mindset.--As previously
+stated, the United States is pursuing technology superiority whereas
+China has an implementation-first mindset. This is most visible in
+government adoption for defense use cases. Since 2016, the Department
+of War has successfully transitioned only one AI program to a Program
+of Record. In contrast, China implemented 81 LLMs into People's
+Liberation Army operations in the first half of 2024 alone.\10\ This is
+true across the private sector as well. Recent studies show that only
+roughly 1 in 20 enterprise AI pilots reach production.\11\ If we want
+to win, we must shift to an implementation-first approach.
+---------------------------------------------------------------------------
+    \10\ See, https://www.scmp.com/tech/tech-trends/article/3267866/
+chinas-public-sector-accelerates-ai-adoption-2024-zhipu-and-iflytek-
+emerge-winners.
+    \11\ See, https://fortune.com/2025/08/18/mit-report-95-percent-
+generative-ai-pilots-at-companies-failing-cfo/.
+---------------------------------------------------------------------------
+    Recommendation.--Congress should require Federal departments and
+        agencies to stand up at least 5 flagship agentic AI programs,
+        or programs that leverage frontier AI capabilities to solve for
+        individual use cases, no later than the end of 2028. The over
+        1,700 AI use cases already identified across the Federal
+        Government make clear that agencies know where AI can be most
+        effective--the barrier is not imagination, it is execution.
+        Additionally, they should set up an interagency working group
+        tasked and empowered to break down all barriers to Government
+        AI implementation and use every tool at their disposal to
+        encourage private-sector adoption of agentic AI solutions.
+    Fourth, export the AI tech stack to our allies and partners.--For
+too long, the United States has allowed China to dominate global tech
+exports through initiatives like the Belt and Road Initiative and
+Digital Silk Road,\12\ which saw China win on 5G. This has led to
+China's technology becoming the global standard around the world and
+this cannot happen on AI. Countries around the world, or AI
+geopolitical swing states, will soon be forced to choose between
+deploying Western or Chinese technology. The Trump administration has
+taken critical steps to counter China's exports around the world
+through the ``Promoting the Export of the AI Technology Stack''\13\
+Executive Order, but this must only be a starting point. It is critical
+that Congress codifies key provisions from this Executive Order and
+ensures that the Departments of State and Commerce are resourced to
+effectively carry out their mandates. Global leadership on AI starts
+with becoming the global standard.
+---------------------------------------------------------------------------
+    \12\ See, https://www.cfr.org/china-digital-silk-road/.
+    \13\ See, https://www.whitehouse.gov/presidential-actions/2025/07/
+promoting-the-export-of-the-american-ai-technology-stack/.
+---------------------------------------------------------------------------
+    Recommendation.--Congress should immediately work to codify this
+        Executive Order and ensure adequate funding for the agencies
+        tasked with implementing it.
+                               conclusion
+    The AI race will not be won in a laboratory or manufacturing plant
+alone. It will be won through the strategic decisions we make today.
+This is not the first time America has faced a defining technological
+competition, and we have every asset required to win: the talent, the
+capital, and the allies. The variable is urgency.
+    Despite years of strong rhetoric, a clear-eyed understanding of
+where this race is actually being run has been missing. It is being run
+on data and implementation, and without direct action, we will lose.
+    The window to act is open, but it will not remain open
+indefinitely.
+    Scale is fully committed to supporting the United States in the
+global AI race. We look forward to working with this committee to find
+ways to do just that.
+    Thank you again for the opportunity to be here and I look forward
+to your questions.
+
+    Mr. Fong. Thank you very much.
+    I now recognize Mr. Malchano for 5 minutes to summarize
+your opening statement.
+
+  STATEMENT OF MATTHEW MALCHANO, VICE PRESIDENT OF SOFTWARE,
+                        BOSTON DYNAMICS
+
+    Mr. Malchano. Mr. Chairman and Members of the subcommittee,
+I am the vice president of software at Boston Dynamics and I
+serve as the company's security officer, responsible for
+overseeing our cybersecurity and data sovereignty protocols.
+    At Boston Dynamics, our mission has always been to create a
+future in which humans and machines work together to improve
+everyone's safety, productivity, and quality of life. Our
+robots are in use in manufacturing facilities, semiconductor
+fabrication, energy plants, and by first responders. Our robots
+are used by the Secret Service to protect the President and by
+military agencies to neutralize the threat of IEDs. One of our
+robots has taken bullets in the line of duty, keeping police
+and bystanders safe from harm. We have a growing work force of
+over 1,000 employees and proudly design and manufacture our
+robots in the United States.
+    There are at least 4 reasons why robotics should be a top
+policy priority for Congress. First, advanced robots are the
+physical manifestation of AI. Robots leverage AI techniques
+such as computer vision and reinforcement learning to perform a
+wide range of useful tasks. In order to win the AI race, we
+must also win the robotics race.
+    Second, robots are increasingly crucial in manufacturing.
+Humanoids allow for automated physical operations and work
+spaces designed and built for humans. The countries that build
+and deploy robots will be the ones that will manufacture on
+their own shores and address demographic challenges. Robotics
+will be crucial to economic security.
+    Third, robots present new and unique classes of
+cybersecurity risk and beyond AI and computer systems. The
+combination of hardware, software, sensors, mobility, and
+communications makes advanced mobile robots higher risk than
+other IoT technologies. Attackers could sabotage those systems
+to interfere with manufacturing lines or halt security patrols.
+Robots are becoming a potent threat vector to crucial
+infrastructure.
+    Fourth, robotic technologies are dual-use. Robots with
+enhanced mobility and AI-powered capabilities will become
+increasingly important in military applications. We have seen
+how aerial robotics, namely drones intended for consumer use,
+can become a pivotal technology in warfare. Robots increasingly
+will become part of national defense strategies.
+    The Chinese government understands this. This is why China
+just released a new 5-year plan that identifies robotics as
+their top new industry tracks. The plan envisions transforming
+virtually every major industry in China by integrating AI-
+powered robots. It unlocks access to funding and implements
+policies that drive adoption across industries, creating a
+flywheel effect for robot AI. As one analyst remarked, this is
+less an industrial policy for robots than an industrial policy
+through robots.
+    This government support isn't new. Previous government
+plans from the past decade outline the many mechanisms and
+policies that have supported Chinese robotics industry. These
+plans are already working. China last year adopted and
+installed 10 times more robots in factories than the United
+States.
+    China also uses its little giant designation to provide
+companies with government funding and support. One of the
+companies designated as a little giant is Unitree, the most
+visible Chinese company selling legged robots in the United
+States. Unitree is rapidly capturing market share in the U.S.
+university, research, and law enforcement markets. Researchers
+have reported crucial Unitree cybersecurity vulnerabilities.
+    Unitree's products have also been seen in PLA military
+exercises and its ties to Chinese military have been noted by
+the House Select Committee on China as well as the Department
+of War. So it's not surprising that Unitree has captured the
+attention of this committee and the U.S. Government.
+    However, there are dozens of other Chinese companies
+working to develop advanced robotics technologies powered by
+AI. At the recent CES Las Vegas show, Chinese robots on
+display, humanoids, outnumbered American humanoids by 5 to 1.
+While Unitree deserves close scrutiny, a broad whole-of-
+Government strategic approach is what's truly needed. This is
+why we are asking for the development and launch of a national
+robotics strategy consistent with a broad set of policies
+designed to support the growth and success of the industry.
+    Time is running out for policy efforts to have an impact.
+The recently-introduced National Robotics Commission Act, H.R.
+7334, would kick-start the process of developing such a
+strategy. We urge Congress to pass this bill.
+    We also respectfully ask this subcommittee to direct CISA
+to swiftly undertake a security evaluation of foreign robots.
+Independent researchers have already revealed crucial
+vulnerabilities, but a more comprehensive Government-directed
+study would provide broader guidance to users and Government
+about the risk of foreign robotics projects.
+    Thank you very much for the opportunity to testify. I
+welcome your questions.
+    [The prepared statement of Mr. Malchano follows:]
+                 Prepared Statement of Matthew Malchano
+                             March 17, 2026
+    Chairman Ogles, Ranking Member Swalwell, and distinguished Members
+of the subcommittee. Thank you for the opportunity to testify on this
+very important and timely topic. I am vice president of software at
+Boston Dynamics, the world's leading developer of advanced mobile
+robots. I also serve as the company's security officer, responsible for
+overseeing our cybersecurity and data sovereignty protocols. Having
+worked for the company for 22 years in leadership and technical roles,
+on both commercial products and Government projects, I have witnessed
+our industry's transition from its initial era of academic
+experimentation, to Government-funded research projects, to early
+commercial deployment and, now, to a company that is engaged in one of
+the most consequential global competitions in advanced technology.
+    Our company, founded over 30 years ago by a Massachusetts Institute
+of Technology professor and his students, is at the forefront of an
+industry which will result in advanced mobile robots becoming common in
+industrial, public safety, entertainment, defense and security
+applications. Advanced mobile robots are still a new technology, but
+our robots are already in use in manufacturing facilities,
+semiconductor fabrication plants,\1\ energy plants,\2\ as well as in
+police departments. One of our robots has even taken bullets in the
+line of duty.\3\ Our robots are used by the United States Secret
+Service to protect the President,\4\ and by military agencies to
+investigate and neutralize the threat of improvised explosive
+devices.\5\ We are headquartered in Massachusetts, with a growing
+workforce of over 1,000 employees, and we proudly design and
+manufacture our robots in the United States.
+---------------------------------------------------------------------------
+    \1\ See Global Foundries Case Study, available at https://
+bostondynamics.com/case-studies/globalfoundries/.
+    \2\ See Meet Chevron's New Energy Watchdog, available at https://
+bostondynamics.com/case-studies/meet-chevrons-new-energy-watchdog/.
+    \3\ See ``Robotic police dog shot multiple times, credited with
+avoiding potential bloodshed,'' Associated Press, March 27, 2024,
+available at https://apnews.com/article/massachusetts-cape-cod-robot-
+dog-polic-f63586d5286750702f396109c9a81836.
+    \4\ See ``Robotic dogs are patrolling Mar-a-Lago to help protect
+Trump, Secret Service confirms,'' FOX 59, November 8, 2024, available
+at https://fox59.com/news/national-world/robotic-dogs-are-patrolling-
+mar-a-lago-to-help-protect-trump-secret-service-confirms/.
+    \5\ See ``Boston Dynamics Awarded Contract to Supply Spot to the
+Dutch Ministry of Defence,'' available at https://bostondynamics.com/
+blog/boston-dynamics-awarded-contract-to-supply-spot-to-the-dutch-
+ministry-of-defence/.
+---------------------------------------------------------------------------
+    Exciting recent advances in AI are already accelerating the
+development of a new generation of mobile robots. Computer vision
+enables robots to perceive their environment, recognize objects, and
+offer contextually relevant services. Vision and natural language
+processing will enable us to more easily communicate with robots using
+language and gestures. Motion control software, created by machine
+learning and reinforcement learning, increasingly drives the robots,
+accelerating their development. Robots now learn tasks using AI
+technologies to observe and analyze the movements of people or other
+robots doing that task.\6\ But these advances in AI also enable
+competitors, including those headquartered in foreign adversarial
+nations, to quickly close the gap in capabilities. Their robots and
+ours can now be built and programmed in 30 months to do what our
+company once took 30 years to develop.
+---------------------------------------------------------------------------
+    \6\ For a recent explanation from our robotics AI team of how we
+are using AI to make robots more capable than ever before, with
+accompanying illustrative videos, please see ``Large Behavior Models
+and Atlas Find New Footing,'' Boston Dynamics, available at https://
+bostondynamics.com/blog/large-behavior-models-atlas-find-new-footing/.
+---------------------------------------------------------------------------
+ the new generation of robotics raises economic security and national
+                             security risks
+    The types of products or machines that could be described as a
+``robot'' are very broad. I focus my testimony on what I call advanced
+robotic technologies. Advanced robotic technologies consist of highly-
+agile mobile robots designed to be put to work in a variety of
+environments and applications, and whose functionality is trained by,
+or enhanced by, artificial intelligence methodologies. These types of
+robots raise heightened economic security interests and national
+security risks, and therefore should most squarely be the focus of
+Federal policy, for the following reasons:
+    1. Advanced robotic technologies are dual-use.--A robot developed
+to navigate complex environments, using legs or other methods providing
+enhanced agility and dexterity, will eventually be useful in the
+battlefield. Just in the past few months, we have seen Chinese-made
+quadrupeds exhibited during China's military parade,\7\ and videos of
+Chinese humanoids training to fight in hand-to-hand combat.\8\ There
+have also been reports of quadrupeds, developed by Chinese robotics
+companies including the company identified in the title of this
+hearing, armed with machine guns and used in joint military training
+exercises in Cambodia.\9\ And of course, U.S. forces have been using
+mobile robots for years to investigate and mitigate IEDs. Robots with
+enhanced mobility and AI-powered capabilities will be even more
+important in military applications, and we have seen in recent years
+how aerial robotics (drones), including those designed and intended for
+commercial or consumer use, can become consequential, or even outcome-
+determinant, in warfare.\10\ Therefore, ensuring the success and growth
+of the domestic advanced robotics industry, including ground robotics
+systems designed and developed for commercial and industrial
+applications, is of national security importance.
+---------------------------------------------------------------------------
+    \7\ See ``Weaponised `robot wolves' make cameo at China military
+parade,'' The Guardian, September 5, 2025, available at https://
+www.theguardian.com/world/video/2025/sep/04/weaponised-robot-wolves-
+make-cameo-at-big-china-military-parade-video.
+    \8\ See ``China Just Held the First-Ever Humanoid Robot Fight
+Night,'' Vice.com, May 27, 2025, available at https://www.vice.com/en/
+article/china-just-held-the-first-ever-humanoid-robot-fight-night/.
+    \9\ See ``Meet the Chinese army's latest weapon: the gun-toting
+dog,'' The Guardian, May 30, 2024, available at https://
+www.theguardian.com/science/article/2024/may/30/chinese-armys-latest-
+weapon-gun-toting-dog.
+    \10\ ``Ukraine Says More Than 80 percent of Enemy Targets Now
+Destroyed by Drones,'' Defense News, January 28, 2026, available at
+https://www.defensenews.com/global/europe/2026/01/28/ukraine-says-more-
+than-80-of-enemy-targets-now-destroyed-by-drones/.
+---------------------------------------------------------------------------
+    2. Advanced robotic technologies are increasingly crucial in the
+manufacture, production, and supply chain of other goods.--These
+technologies will help address workforce shortages of the future due to
+demographic inevitabilities arising from diminishing birth rates in the
+United States and elsewhere. Humanoids and similar form factors allow
+for automated physical operations in work spaces designed and built for
+humans, allowing existing infrastructure and factories to remain in
+operation even during labor shortages. The countries that build and
+deploy these advanced robots will be the ones that are best poised to
+manufacture on their own shores efficiently, and to protect their
+supply chains in other industries including automobiles, ships, defense
+materiel, and rail cars. Manufacturing in these other sectors has
+already been recognized by the Federal Government as being of national
+security importance to the United States. The robots that enable and
+sustain such manufacturing are a matter of economic security as well.
+Fast, agile manufacturing is, in turn, a key flywheel for advanced
+research and development. It is likely that robot acceleration may
+create a run-away amplification effect for technology development and
+industrial dominance.
+    3. Advanced robotic technologies are the physical embodiment of
+artificial intelligence.--Various officials in the United States
+Government have rightfully emphasized the need for the United States to
+win the AI race. Advanced robots are the physical manifestation of AI,
+leveraging everything from computer vision and reinforcement learning
+to visual language action and large behavior models--to learn how to
+interface with the real world and perform a wide range of useful tasks.
+Some of these tasks will have national security importance. Even if the
+United States leads on software AI, the potential for dominance of
+robotic hardware by foreign adversaries will create national security
+vulnerabilities. If U.S.-sourced software can only be deployed in
+machines that have been produced elsewhere because of the erosion of
+the domestic robotics industry, AI-only security will be insufficient.
+To win the AI race, the United States must win the robotics race.
+    4. Using foreign advanced robotics technology in critical roles
+creates a risk of interference, access, and denial of service.--The
+unique combination of hardware, software, sensors, mobility, and
+communication mechanisms makes advanced mobile robots higher risk than
+other internet-of-things technologies, and it can be practically
+impossible to rule out tampering by adverse interests if done by the
+manufacturer. As robots become a critical part of key infrastructure,
+they become a potential and potent threat vector to that
+infrastructure.
+  other nations, including u.s. adversaries, are prioritizing robotics
+    The economic, strategic and national security importance of
+robotics is evident from efforts made by other nations to support and
+promote their domestic robot industries. Nations that have implemented
+some form of national strategy initiative for robotics include Japan,
+South Korea, Singapore, Germany, France, the Netherlands, India, and
+China. See ``A Time to Act: Policies to Strengthen the US Robotics
+Industry,'' Information Technology & Innovation Foundation, July 18,
+2025, available at https://itif.org/publications/2025/07/18/time-to-
+act-policies-to-strengthen-us-robotics-industry/.
+    Recent events demonstrate that China, especially, has recognized
+the national security implications of its advanced robotic technologies
+sector. In February 2025, the CEO of prominent Chinese robotics company
+Unitree, which develops and manufactures quadrupeds and humanoids, was
+seated prominently across from Chinese President Xi at a summit of tech
+executives. See ``What did China's tech entrepreneurs tell Xi Jinping
+at the symposium?'' South China Morning Post, February 21, 2025,
+available at https://www.scmp.com/tech/big-tech/article/3299599/what-
+did-chinas-tech-entrepreneurs-tell-xi-jinping-symposium. China also
+recently hosted a humanoid half-marathon and humanoid ``Olympics.'' See
+``China's robots race against humans--and their U.S. counterparts,''
+NBC News, April 23, 2025, available at https://www.nbcnews.com/news/
+world/china-robots-race-humans-half-marathon-rcna195586; ``Tesla
+Optimus rival Unitree shines at the `World Humanoid Robot Games' in
+China,'' CNBC, August 18, 2025, available at https://www.cnbc.com/2025/
+08/18/world-humanoid-robot-games-china-tesla-unitree.html.
+    The elevation of China's robotics community onto its national stage
+is not accidental. Instead, it is a direct consequence of comprehensive
+government support of China's robotics industry and AI-driven
+innovations. For example, we note the PRC's ``Fourteenth Five-Year Plan
+for the Robotics Industry'' (2021-2025), Central People's Government,
+December 21, 2021, available at https://www.gov.cn/zhengce/zhengceku/
+2021-12/28/content_5664988.htm as well as its ``Implementation Plan for
+the `Robotics Plus' Application Special Operation,'' PRC Central
+People's Government, January 18, 2023, available at https://www.gov.cn/
+zhengce/zhengceku/2023-01/19/content_5738112.htm. These documents
+outline the many mechanisms and policies that have supported the
+Chinese robotics industry, ranging from government-funded R&D, to tax
+deductions, to government acting as first adopters to SOE robot
+procurement prioritization. See also China M.I.I.T. ''Guiding Opinions
+on the Innovative Development of Humanoid Robots,'' Center for Science
+and Technology Innovation (Beijing), November 3, 2023, available at
+https://www.ncsti.gov.cn/zcfg/zcwj/202311/t20231103_140346.html.
+    Commentators and experts have evaluated the impact of these
+policies on the industry. See, e.g., ``America Is Missing The New Labor
+Economy--Robotics,'' SemiAnalysis, March 11, 2025, available at https:/
+/semianalysis.com/2025/03/11/america-is-missing-the-new-labor-economy-
+robotics-part-1/ (indicating that there is ``an existential threat to
+the US as it is outcompeted in all capacities''); ``The Humanoid 100:
+Mapping the Humanoid Robot Value Chain,'' Morgan Stanley, available at
+https://advisor.morganstanley.com/john.howard/documents/field/j/jo/
+john-howard/The_Humanoid_100_Mapping_the_Humanoid_Robot_Value_-
+Chain.pdf (``Our research suggests China continues to show the most
+impressive progress in humanoid robotics where startups are benefiting
+from established supply chains, local adoption opportunities, and
+strong degrees of national government support.''); ``How Innovative Is
+China in the Robotics Industry?,'' Information Technology & Innovation
+Foundation, available at https://itif.org/publications/2024/03/11/how-
+innovative-is-china-in-the-robotics-industry/ (``China had 12 times the
+rate of robot use in manufacturing than did the United States.'');
+Testimony of Sunny Cheung, Jamestown Foundation, before the U.S.-China
+Economic and Security Review Commission, February 6, 2025, available at
+https://www.uscc.gov/sites/default/files/2025-02/
+Sunny_Cheung_Testimony.pdf (``The results of these sustained efforts
+are evident in the rapid rise of leading Chinese robotics companies
+such as UBTech, Fourier Intelligence, Unitree Robotics, and major tech
+giants like Xiaomi and XPeng, which have expanded into humanoid
+robotics development. These companies are increasingly competitive in
+global markets, not just as adopters of automation but as innovators
+producing cutting-edge robotic systems with intelligent AI
+integration.''); Embodied Intelligence: The PRC's Whole-of-Nation Push
+into Robotics, Sunny Cheung, Jamestown Foundation, August 9, 2025,
+available at https://jamestown.org/program/embodied-intelligence-the-
+prcs-whole-of-nation-push-into-robotics/ (``The rise of the PRC's
+robotics industry represents a tightly-coordinated, whole-of-nation
+campaign driven by national strategy, regional policy alignment, and
+deep industrial integration.'').
+    National strategies in Chinese industry policy are often executed
+via government subsidies at the local or provincial level. See Far From
+Normal: An Augmented Assessment of China's State Support, Rhodium
+Group, March 17, 2025, available at https://rhg.com/research/far-from-
+normal-an-augmented-assessment-of-chinas-state-support/ (``China spends
+more through direct grants and tax benefits than any other major
+economy, both in absolute amounts and as a share of GDP''). ``China's
+industrial policy spending is enormous, totaling at least 1.73 percent
+of GDP in 2019. This is equivalent to more than $248 billion at nominal
+exchange rates and $407 billion at purchasing power parity exchange
+rates.'' See ``Red Ink: Estimating Chinese Industrial Policy Spending
+in Comparative Perspective,'' Center for Strategic & International
+studies, available at https://www.csis.org/analysis/red-ink-estimating-
+chinese-industrial-policy-spending-comparative-perspective. According
+to Jamestown Foundation's research, state-sponsored overproduction is
+another policy-driven approach that will have an impact on the robotics
+sector. See, e.g., Beyond overcapacity: Chinese-style modernization and
+the clash of economic models, Mercator Institute for China Studies,
+April 1, 2025, available at https://merics.org/en/report/beyond-
+overcapacity-chinese-style-modernization-and-clash-economic-models
+(indicating that ``advanced industrial machinery and components'' is
+one of the sectors most likely to see overcapacities emerge due to
+Chinese government policy). China has used state-backed financing to
+boost its intelligent robotics industry, offering tens of millions of
+dollars in subsidies, loans, and other financial support. ``[P]rovinces
+and cities [in China] are engaged in a de facto `subsidy race,' each
+vying to foster the next national robotics champion within their
+jurisdiction.'' Id.
+    One example of Chinese government support that we have been able to
+trace is the ``little giant'' designation. Enterprises that secure a
+national designation from China's Ministry of Industry and Information
+Technology (MIIT) as specialized, refined, distinctive, and innovative
+``little giant'' firms are eligible for provincial funding, reduced
+corporate income tax rates, accelerated depreciation of R&D equipment,
+and matching grants for innovation projects. Our research of sources in
+China indicates that various leading Chinese robotics companies have
+received the so-called ``little giant'' designation, including Unitree
+but also DEEP, Fourier, Leju, Qiteng, and Tianlian. This designation
+signals their ability to access a wide range of government funding and
+support. Indeed, a recent Guangdong province policy document, ``Notice
+on Organizing the Project Entry of Specialized, Refined, Distinctive,
+and Innovative `Little Giant' Enterprises in the Field of Artificial
+Intelligence and Robotics'' (September 2, 2025), outlines subsidies for
+designated ``little giant'' enterprises specifically in the field of AI
+and robotics. It is evident that China's robotics producers have been
+the beneficiaries of state subsidies and support.
+    China is proceeding expeditiously with its government-sponsored
+industrial strategy. As just one example, in November 2025, the Chinese
+government formed an advisory committee on humanoid robotics, overseen
+by the Ministry of Industry and Information Technology, and appointed
+the CEOs of Unitree and AgiBot as co-chairs.\11\ By March 2026, barely
+3 months later, working together with 120 research institutions, the
+committee had already developed and released a six-pillar national
+standard for humanoid robotics, described as the ``first comprehensive,
+top-level design covering the entire industrial chain and full life
+cycle of humanoid robotics and embodied intelligence.''\12\
+---------------------------------------------------------------------------
+    \11\ ``Unitree, AgiBot founders, China's robotics stars, join panel
+to shape industry standards,'' South China Morning Post, November 25,
+2025, available at https://www.scmp.com/tech/policy/article/3333964/
+unitree-agibot-founders-chinas-robotics-stars-join-panel-shape-
+industry-standards.
+    \12\ ``China's first national standard system for humanoid robotics
+poised to spur industry development,'' Xinhua, March 3, 2026, available
+at https://english.news.cn/20260303/0e51ac8- f66c542c5bacf2af3f80b3a40/
+c.html .
+---------------------------------------------------------------------------
+    China's strategy for advanced robotic technologies mimics the same
+approaches that it has used in other technology sectors: marketing
+products at prices which can only be possible by government support,
+intentionally over-produced and/or sold below cost. If left unchecked,
+over time, the impact of China's state support will echo in robotics
+the results seen in unmanned aircraft systems (drones): producers in
+the United States will struggle to compete, lose sales due to price
+differentials, and eventually many of them may be forced to drop out of
+the market.
+    Due to the nascent nature of the advanced robotic technologies
+industry, these impacts have yet to be felt in the U.S. industrial
+sector, but they have become evident in research universities and
+academic institutions, who are typically the early adopters of such
+technologies. Boston Dynamics' Spot robot dominated this research
+market from 2020-2022. However, in only the past 12-18 months, advanced
+robotic technology uses in that market have become dominated by the
+less-expensive and less-featured Chinese brands, particularly Unitree.
+This rapid shift in the academic/research market foreshadows the
+potential future dominance of foreign producers of advanced robotic
+technologies across other sectors worldwide, such as manufacturing,
+energy, logistics, security patrol, law enforcement, and even defense.
+Indeed, we are already seeing a notable increase in adoption of Chinese
+quadruped robot ``dogs'' by domestic law enforcement agencies, similar
+to the early years of Chinese drone adoption by law enforcement
+agencies.\13\ Additionally, network effects here mean that as a
+platform becomes dominant in the new market, new capabilities and
+applications will favor that platform, leading to a substantial first
+mover advantage.
+---------------------------------------------------------------------------
+    \13\ U.S. police departments and public safety agencies that have
+recently adopted Chinese ``robot dog'' models include Brawley Police
+Department (California), Charles County DES (Maryland), Topeka Police
+Department (Kansas), Pullman Police Department (Washington), and Port
+St. Lucie Police Department (Florida).
+---------------------------------------------------------------------------
+    The role of robotics across key industrial sectors, and the extent
+of the Chinese government's support for robotics, are starkly revealed
+by the Chinese government's new 5-year plan, released earlier this
+month in Beijing. Robotics ``now commands its own dedicated inset box
+among the plan's top ten `new industry tracks.' '' China's New Five-
+Year Plan Prioritizes Robotics. The World Should Pay Attention, The
+Diplomat, March 14, 2026.
+
+``[R]obotics is not treated as a standalone sector but as an enabler
+woven across chapters on manufacturing, digital transformation, elderly
+care, national security, and even cultural development. This is less an
+industrial policy for robots than an industrial policy through robots.
+``Id. (emphasis in original).''
+
+    This new plan makes clear that the full support of the Chinese
+government now stands behind its robotics sector, including ``access to
+the 60 billion RMB ($8.2 billion) National AI Industry Investment Fund,
+provincial matching funds, and the full apparatus of state-backed
+venture capital.'' Id. These efforts are currently unmatched by any
+policy efforts in the United States to support its domestic robotics
+industry.
+                 the nature of the cybersecurity threat
+    Robots that are not secure and that contain cyber vulnerabilities,
+especially those produced by adversarial actors, pose a variety of
+serious risks to the facilities and/or agencies that deploy them.
+    Advanced mobile robots present new and unique classes of
+cybersecurity risk beyond AI and computer systems. These robots are
+complex systems made of software and hardware. When produced by
+adversarial nations they carry larger probabilities of being
+compromised with backdoors and remote access allowing nation-state
+attackers (intelligence or military) to take control. If compromised
+robots become critical components of in-turn security critical systems,
+attackers can sabotage those systems, interfere with a manufacturing
+line or halt a security patrol. As robot capabilities approach those of
+humans in terms of seeing, moving, and manipulation, a compromised
+robot gives attackers eyes and hands throughout sensitive facilities.
+Growing autonomy lets these robots take actions on their own.
+    Public security researchers have additionally demonstrated clear
+gaps in Chinese manufactured robot security. Even in the absence of
+specific attack intent, these vulnerabilities open users of these
+systems to potential third-party attacks.
+    Securing systems that are used in high-value or sensitive
+operations should be a priority for both engineers and nations. Boston
+Dynamics has set out our approach to securing robots in a white paper
+describing how we maximize the security of our products, including the
+features and design considerations which enable these platforms to be
+trusted parts of customer IT integrations. See https://
+bostondynamics.com/wp-content/uploads/2024/03/spot-and-site-hub-
+security-white-paper.pdf.
+            unitree: one of many companies raising concerns
+    This hearing's title calls out Chinese robotics company Unitree
+specifically. To be sure, Unitree has been the most visible company
+marketing and selling its legged robots in the United States, and also
+appears to have been chosen by the government of China as a national
+champion. News media have reported cybersecurity vulnerabilities in the
+company's products, including data exfiltration exploits and remote-
+control backdoor access.\14\ Additional security research relating to
+Unitree robots that did not receive wide press coverage include a
+reported exploit that enables a network-based takeover of the robot and
+the discovery of a reported Unitree AI/LLM cloud service that could
+cause arbitrary commands to be executed on the robot.\15\ The company
+also seems to be widely engaged in white labeling products that appear
+in the United States under different brand names.\16\ A few weeks ago,
+following earlier reports of connections between Unitree and the
+PLA,\17\ Unitree was placed on the Department of War's Section 1260H
+list of Chinese Military Companies, before that list was withdrawn
+(apparently, temporarily and not for reasons related to Unitree).\18\
+Most recently, 49 Unitree humanoids performed at a high-profile Spring
+Festival spectacular, dancing rhythmically, vaulting, breakdancing, and
+mock sword fighting, showing a high degree of confidence in placing
+fast-moving robots next to child performers before a live audience.
+Unitree is also moving forward with an initial public offering this
+year. Given its market penetration, reported security vulnerabilities,
+and apparent ties to the Chinese government and military, it is not
+surprising that Unitree has earned the focus and attention of the U.S.
+Government, security analysts, and policy makers. Scrutiny by this
+subcommittee is certainly warranted.
+---------------------------------------------------------------------------
+    \14\ See ``Exploit Allows for Takeover of Fleets of Unitree
+Robots,'' IEEE Spectrum, Sept 25, 2025, available at https://
+spectrum.ieee.org/unitree-robot-exploit and ``Unitree humanoid robots
+send data to China every 5 minutes, raising security fears,''
+Interesting Engineering, October 1, 2025, available at https://
+interestingengineering.com/innovation/security-flaw-unitree-humanoids-
+china.
+    \15\ For the original research reporting these issues, see: ``The
+Jailbroken Unitree Robot Dog ,'' available at https://www.darknavy.org/
+darknavy_insight/the_jailbroken_unitree_- robot_dog/; ``39C3_Skynet
+Starter Kit: From Embodied AI Jailbreak to Remote Takeover of Humanoid
+Robots,'' available at https://www.youtube.com/watch?v=qjA_5-Bybs;
+``Skynet Starter Kit--Researchers control humanoid robots via radio &
+AI,'' available at https://www.heise.de/en/background/39C3-Skynet-
+Starter-Kit-Researchers-control-humanoid-robots-via-radio-AI-
+11125615.html.
+    \16\ One example is a flamethrower-equipped quadruped robot sold by
+a company called Throwflame, which is obviously a white-labelled
+Unitree robot. https://throwflame.com/products/thermonator-robodog/.
+Another company, Robot.com, is using rebranded Unitree robots for urban
+delivery. https://www.robot.com/.
+    \17\ `` `The Robot Dog's Time to Kill': At China's Star Robotics
+Firm, the Military Ties Keep Mounting,'' Kharon The Brief, July 17,
+2025, available at https://www.kharon.com/brief/unitree-robotics-china-
+pla.
+    \18\ ``U.S. Briefly Adds Alibaba, BYD and Other High-Profile Firms
+to List of Chinese Military Companies,'' Kharon Research, February 13,
+2026, available at https://www.kharon.com/brief/us-china-news-alibaba-
+byd-defense-department-1260h. (Source: https://x.com/Robo_Tuo/status/
+1991882471156457894).
+---------------------------------------------------------------------------
+    However, there are literally dozens of other Chinese companies
+making rapid progress with government support, particularly in the
+humanoid space. At the 2026 Consumer Electronics Show in Las Vegas,
+where we debuted the new version of our Atlas humanoid robot, Chinese
+companies displaying humanoid robots appeared to outnumber U.S.
+companies by a factor of 5 to 1. On social media, industry observers
+are tracking dozens of Chinese humanoid companies, compared to just a
+handful in the United States:
+
+[GRAPHIC(S) NOT AVAILABLE IN TIFF FORMAT]
+
+    This wide set of actors means that, although Federal policy can and
+should target specific companies that are of concern to national
+security, a broader all-of-government strategic approach is needed to
+support the U.S. robotics industry and to provide greater assurance of
+economic security.
+                            recommendations
+    We respectfully make the following recommendations to this
+subcommittee, to Congress, and to the broader United States Government:
+    1. Direct the Department of Homeland Security, Cybersecurity and
+Infrastructure Security Agency (CISA) to expeditiously undertake a
+national security evaluation of the use of foreign adversarial robots
+in American industry and governmental operations.
+    Although private researchers have raised alarm by uncovering
+backdoors and vulnerabilities in specific Chinese robotics products on
+the market, these are one-off studies and we are not aware of any
+comprehensive Government-led study of this issue. Such a study would
+provide clear guidance to private industry, Government contractors,
+public safety agencies, and other stakeholders regarding the security
+of advanced robotics products acquired from foreign companies. The
+examination would be informative to both important end-users and policy
+makers and is, we believe, overdue.
+    2. Pass the National Robotics Commission Act, as a Step Toward a
+National Robotics Strategy.
+    Recently, a bipartisan bill was introduced in the House that would
+establish a National Robotics Commission, H.R. 7334. Modeled on the AI
+and Biotech Commissions that were so useful to those industries and to
+Government stakeholders, a Robotics Commission would bring experts,
+industry, and Government together to recommend the policies that would
+support the growth and success of the industry.
+    Our company began calling for the development of a national
+robotics strategy in 2023. While Chinese advisory committees have
+already made quick progress on collaborative standards and strategies,
+and another 5-year plan emerges from the Chinese government that
+elevates robotics even more than the prior plans, and while about a
+dozen other counties have their own robotics strategies, the United
+States Government has yet to move forward with establishing a
+deliberative body or tasking an agency to begin developing its own
+national strategy. Time is running short and we urge Congress to move
+forward as soon as possible with this legislation and related policy
+efforts to kick-start the development of a national robotics strategy.
+    Boston Dynamics is grateful for the opportunity to share our
+perspectives with you on this important topic. I look forward to your
+questions.
+
+    Mr. Fong. Thank you very much.
+    I now recognize Mr. Robbins for 5 minutes to summarize his
+opening statement.
+
+  STATEMENT OF MICHAEL ROBBINS, PRESIDENT AND CHIEF EXECUTIVE
+OFFICER, ASSOCIATION FOR UNCREWED VEHICLE SYSTEMS INTERNATIONAL
+
+    Mr. Robbins. Chairman Fong, Ranking Member Walkinshaw,
+distinguished Members of the committee, thank you so much for
+the invitation to testify today. My name is Michael Robbins. I
+am the president and CEO of AUVSI, the trade association for
+the autonomous systems, drones, and robotic industry. Our
+members, including Boston Dynamics, are at the leading edge of
+the transformation where AI, robotics, and autonomy are
+converging to create a new frontier of cyber physical systems.
+    Today, we are at the precipice of a new era defined by the
+convergence of AI and physical machines, and it holds immense
+promise for American productivity and competitiveness. But also
+introduce unprecedented national security vulnerabilities when
+these systems are developed within adversarial-controlled
+technology ecosystems.
+    Modern robots are highly networked physical cyber systems.
+A compromised laptop can expose data, but a compromised robot
+can expose data and map, move, surveil, or physically disrupt
+operations in the real world. We are here today because our
+adversaries, specifically the People's Republic of China, are
+methodically executing a centrally planned playbook to hollow
+out the U.S. robotics industrial base and install Trojan horses
+within our critical infrastructure. Unfortunately, we have seen
+this exact threat before and we cannot ignore the lessons
+learned from the commercial drone industry.
+    Over the last decade, the PRC leveraged massive state
+subsidies, IP theft, and deliberate market dumping to drive
+many American drone manufacturers out of business by flooding
+the global market with artificially cheap systems. This
+deliberate market capture engineered a profound national
+security crisis here in America, exposing sensitive U.S. data
+to Chinese state intelligence and leaving our Nation
+dangerously dependent on adversary-built technologies.
+    Today, the PRC is aggressively executing the exact same
+playbook in the advanced robotics sector. Fueled by over $137
+billion in state subsidies and initiatives, like Made in China
+2025, PRC robotics firms are systematically undercutting
+American companies, starving U.S. firms of the revenue needed
+to scale domestic capacity and maintain our technological
+leadership. If we fail to act, the U.S. robotics and autonomy
+industrial base will be hollowed out, leaving us dangerously
+dependent on adversarial-linked technology to run our economy.
+    Furthermore, we must address this vulnerability in the
+upstream supply chain, where PRC's dominance of rare earth
+minerals and the threat of export controls could effectively
+decapitate American robotics manufacturing before a single
+system is even built. This aggressive market capture is not
+just an economic issue, it is a profound national security
+threat. The PRC is actively weaponizing advanced civilian
+robotics to enhance its military capabilities. Recent footage
+released by the People's Liberation Army features a video
+ominously titled ``The Robot Dog's Time to Kill Has Come,''
+depicting a unitary robotics quadruped equipped with an
+automatic rifle, striking targets with precision. Because of
+Beijing's military-civil fusion strategy, PRC robotics firms
+flooding our markets are directly serving as R&D extensions of
+the PLA.
+    Even more alarming, PRC companies pair their robots with
+subsidized LiDAR from firms like Hesai and DJI's Livox,
+companies our Department of Defense designates as Chinese
+military companies. These sensors generate precise 3D maps and
+persistent spatial awareness, thereby handing the CCP a
+persistent digital map of our Nation.
+    Furthermore, PRC AI firms like DeepSeek are accelerating
+this threat, illicitly extracting the capabilities of advanced
+U.S. AI models to rapidly and cheaply build the brains for
+these subsidized robotic platforms. The PRC's national
+intelligence and cybersecurity laws create a homeland security
+crisis, compelling all Chinese commercial entities to provide
+state intelligence unfettered access to their systems.
+    Allowing PRC market dominance is a national security
+nightmare for America. Allowing the CCP to install Trojan
+horses within U.S. critical infrastructure, exposing our Nation
+to severe risks of data exfiltration, remote operational
+disruption, and the weaponization of our supply chains. We
+simply cannot allow this dangerous erosion of American
+industrial capacity and national security to happen.
+    Recognizing this, AUVSI recently launched our Partnership
+for Robotics Competitiveness. Securing our future requires both
+carrots and sticks. We must pair aggressive restrictions on
+adversary technology with bold incentives for domestic
+production to restore a level playing field and ensure American
+technological leadership. We urge Congress to pass a
+coordinated national robotics strategy and update trade
+enforcement mechanisms to counter PRC dumping.
+    We must address risk-based restrictions on PRC technologies
+in sensitive environments, including bans on PRC UGVs and on
+the importation of 1260H companies, while also deploying robust
+economic incentives, like production, tax credits, loan
+guarantees, and employing advanced market commitments to
+stimulate domestic manufacturing and derisk private investment.
+    We must learn from the past to protect our future. The
+window to ensure American dominance and autonomy in robotics is
+closing and the stakes could not be higher. By acting today, we
+ensure that the next generation of autonomous systems bolsters
+rather than threatens the security and resilience of the United
+States.
+    Thank you. I look forward to your questions.
+    [The prepared statement of Mr. Robbins follows:]
+                 Prepared Statement of Michael Robbins
+                             March 17, 2026
+    Chairman Ogles, Ranking Member Swalwell, and distinguished Members
+of the subcommittee, thank you for the opportunity to testify today.
+    My name is Michael Robbins, and I am the president and chief
+executive officer of the Association for Uncrewed Vehicle Systems
+International, or AUVSI, the world's largest industry association
+representing robotics, uncrewed systems, and autonomous technologies.
+Our members develop and deploy advanced systems that operate in the
+air, on the ground, and in the maritime domain across commercial,
+public safety, and defense applications.
+    Advanced technologies can transform society for the better,
+improving safety, strengthening resilience, and expanding opportunity.
+However, these same technologies can also become a direct threat to
+freedom when serving authoritarian power. The technologies examined in
+today's hearing, particularly artificial intelligence systems and
+robotics platforms associated with companies based in the People's
+Republic of China (PRC) such as DeepSeek and Unitree Robotics,
+illustrate how emerging technologies can introduce new national
+security risks when developed within adversary-controlled technology
+ecosystems. Robotics systems of today are not simply software tools,
+nor are they the simple robots of the past executing a scripted task.
+They are networked machines capable of sensing, communicating, and
+acting in the physical world. When vulnerabilities exist in these
+systems, the consequences can extend beyond data exposure to
+surveillance, disruption of infrastructure, and physical operational
+risk.
+    While consumer-facing, `chat-based' AI has attracted much of the
+public's attention, physical applications of AI-enabled robotics
+represent the next frontier. This integration of artificial
+intelligence technology in modern robotics and autonomous platforms
+allows for significant leaps in perception, navigation, and decision
+making.
+    Here in the United States as well as among our allies, AUVSI's
+members, including Boston Dynamics, testifying with me here today, are
+at the leading edge of this transformation across the entire robotics
+technology stack. However, our adversaries--specifically the People's
+Republic of China--are methodically executing a centrally-planned
+playbook to capture global market dominance at the direct expense of
+American industry. Backed by initiatives like ``Made in China 2025''
+and fueled by over $137 billion in state investment funds, the PRC is
+deliberately flooding the global market with artificially cheap,
+subsidized robotic platforms. This aggressive dumping is designed to
+systematically undercut U.S. producers--offering systems at a fraction
+of the cost of American-made counterparts--which starves U.S. companies
+of the revenue needed to scale domestic industrial capacity and stifles
+private-sector investment in research and development. Ultimately, this
+concerted national effort aims to hollow out the U.S. robotics
+industrial base, creating entrenched technological and industrial
+dependency while embedding structural cyber-physical vulnerabilities
+across our critical infrastructure.
+    This convergence between artificial intelligence and robotics is a
+major technological development. But it also introduces a new category
+of risk. When AI software systems are embedded in connected physical
+machines, the result is a cyber-physical system whose vulnerabilities
+can affect both digital networks and real-world operations.
+Furthermore, documented vulnerabilities and software back doors, such
+as those in Unitree Robotics' Go1 robot and DJI's robot vacuums and
+drones, underscore how real this threat is: these vulnerabilities are
+not hypothetical, but a real and present threat to homeland
+security.\1\ \2\ \3\
+---------------------------------------------------------------------------
+    \1\ Sam Sabin, ``Chinese Robotics Manufacturer Left Backdoor in
+Product,'' Axios, April 1, 2025, https://www.axios.com/2025/04/01/
+threat-spotlight-backdoor-in-chinese-robots-future-of-cybersecurity.
+    \2\ Eric Berger, ``Spanish Engineer Reports Flaw in `Smart' Vacuums
+After Gaining Control of 7,000 Devices,'' The Guardian, February 24,
+2026, https://www.theguardian.com/world/2026/feb/24/spanish-engineer-
+smart-vacuums-remote-control.
+    \3\ Fortress Information Security, Securing the Skies: Case Study
+(v1.1), DJI Mini 2 Drone Teardown Exposes Security Risks, 2024, https:/
+/8759415.fs1.hubspotusercontent-na1.net/hubfs/8759415/
+Securing%20the%20Skies%20%20Case%20Study_v1.1.pdf.
+---------------------------------------------------------------------------
+    Further underscoring the risk to U.S. national security, the PRC is
+aggressively weaponizing advanced civilian robotics to enhance its
+military capabilities, a reality that demands immediate Congressional
+attention. Recent footage released by the People's Liberation Army
+(PLA) starkly illustrates this threat, including a video ominously
+titled ``The Robot Dog's Time to Kill Has Come,'' which depicts a
+Unitree Robotics quadruped equipped with an automatic rifle striking
+targets with precision. Chinese state media has broadcast joint
+military exercises featuring these robotic dogs operating alongside
+armed quadcopters and human troops in urban assault simulations, while
+recent university-led military training exercises have even deployed
+robot dogs capable of launching rockets.\4\ To enable the autonomous
+navigation, terrain mapping, and off-road mobility of these platforms,
+the PLA frequently pairs these military robots with LiDAR sensors
+produced by subsidized Chinese firms, including Hesai, a company on the
+U.S. Department of Defense's 1260H designation as a Chinese military
+company, but still with deep penetration into the U.S. market.\5\ This
+rapid battlefield integration is the direct result of Beijing's
+Military-Civil Fusion strategy, which systematically funnels ostensibly
+commercial technology through defense-linked universities into the
+hands of the PLA.
+---------------------------------------------------------------------------
+    \4\ Jane Tang, `` `The Robot Dog's Time to Kill': At China's Star
+Robotics Firm, the Military Ties Keep Mounting,'' The Brief (Kharon),
+July 16, 2025, https://www.kharon.com/brief/unitree-robotics-china-pla.
+    \5\ U.S. Department of Defense, ``Notice of Designation of Chinese
+Military Company,'' Federal Register 89, no. 205 (October 23, 2024):
+84547-84548, https://www.federalregister.gov/documents/2024/10/23/2024-
+24723/notice-of-designation-of-chinese-military-company.
+---------------------------------------------------------------------------
+    Crucially, the Chinese commercial robotics firms supplying these
+systems--such as Unitree--are bolstered by massive state subsidies and
+protective industrial policies deliberately designed to capture the
+global market at the direct expense of U.S. industry. By flooding the
+international market with artificially cheap robotic platforms, the PRC
+systematically undercuts American producers, starving U.S. companies of
+the revenue needed to invest in R&D and scale domestic industrial
+capacity. As these subsidized Chinese firms drive American competitors
+out of business, they are simultaneously functioning as critical
+research and development extensions of the PLA. As the PLA advances to
+the next phase of modern warfare by integrating artificial intelligence
+into these unmanned systems, we must recognize that allowing PRC
+dominance in the commercial robotics sector directly underwrites their
+military modernization, hollowing out U.S. industrial capacity and
+presenting a profound national security threat.
+    Unfortunately, we have seen this in the United States before in
+another segment of the autonomous systems industry. The PRC is
+executing the exact same centrally-planned playbook in the advanced
+robotics sector that it used to decimate the U.S. commercial drone
+industry: leveraging massive state subsidies to flood the market with
+below-cost systems and deliberately drive American manufacturers out of
+business.\6\ Propelled by initiatives like ``Made in China 2025'' and
+over $137 billion in state investment funds, subsidized Chinese
+robotics firms are artificially suppressing prices, starving U.S.
+companies of the revenue needed to scale domestic capacity, and
+maintain technological leadership.\7\
+---------------------------------------------------------------------------
+    \6\ Association for Uncrewed Vehicle Systems International (AUVSI),
+Partnership for Drone Competitiveness White Paper (Arlington, VA:
+AUVSI, 2025), https://www.auvsi.org/wp-content/uploads/2025/07/AUVSI-
+Partnership-for-Drone-Competitiveness-White-Paper.pdf.
+    \7\ Keith Bradsher, ``China Has an Army of Robots on Its Side in
+the Tariff War,'' The New York Times, April 23, 2025, https://
+www.nytimes.com/2025/04/23/business/china-tariffs-robots-
+automation.html.
+---------------------------------------------------------------------------
+    This aggressive economic market capture transforms into a dire
+national security threat when combined with the PRC's sweeping legal
+framework--including its National Intelligence, Cybersecurity, and Data
+Security laws--which legally compels all Chinese commercial entities to
+provide state intelligence services with unfettered access to their
+data and systems. Because modern robotic platforms are highly-connected
+cyber-physical systems embedded across our logistics, manufacturing,
+and defense sectors, allowing PRC market dominance effectively installs
+Trojan horses, or embedded vulnerabilities, within U.S. critical
+infrastructure, exposing our Nation to severe risks of data
+exfiltration, remote operational disruption, and the weaponization of
+our supply chains during times of conflict.
+    Furthermore, the systematic expropriation of U.S. technology
+extends beyond hardware into the very foundation of artificial
+intelligence through industrial-scale ``distillation attacks''. Leading
+Chinese AI laboratories--including DeepSeek, Moonshot, and MiniMax--are
+illicitly extracting the capabilities of advanced U.S. models to train
+their own systems.\8\ By utilizing proxy networks and fraudulent
+accounts to farm millions of interactions from American models like
+Anthropic's Claude and OpenAI's ChatGPT, these PRC firms acquire
+frontier AI capabilities at a fraction of the time and cost required
+for independent development. This theft presents a severe and immediate
+national security risk: illicitly-distilled Chinese models bypass the
+critical safety guardrails embedded in U.S. systems, directly enabling
+authoritarian governments to deploy frontier AI for offensive cyber
+operations, mass surveillance, and disinformation campaigns.
+---------------------------------------------------------------------------
+    \8\ Anthropic, ``Detecting and Preventing Distillation Attacks,''
+Anthropic News, February 23, 2026, https://www.anthropic.com/news/
+detecting-and-preventing-distillation-attacks.
+---------------------------------------------------------------------------
+    Furthermore, as highlighted by the Center for Strategic and
+International Studies, this accelerated development allows China to
+aggressively export its artificially cheap, open-weight models
+globally, securing future tech ecosystems in developing economies and
+fostering international dependence on PRC technology.\9\ DeepSeek is
+emblematic of how rapidly these capabilities can proliferate when
+illicit extraction, open weights, and state-driven incentives converge.
+When these unregulated, illicitly-trained AI ``brains'' are combined
+with the heavily-subsidized robotics platforms currently flooding the
+market, they create an unprecedented cyber-physical threat to U.S.
+national security and economic leadership.
+---------------------------------------------------------------------------
+    \9\ Richard Gray and Michael H. Gary, ``Hedged Bets on the U.S.-
+China AI Race,'' Charting Geoeconomics (Center for Strategic and
+International Studies), January 20, 2026, https://www.csis.org/blogs/
+charting-geoeconomics/hedged-bets-us-china-ai-race.
+---------------------------------------------------------------------------
+    We simply cannot allow this dangerous erosion of American
+industrial capacity and national security to happen, and AUVSI commends
+the committee for holding this vital hearing to confront these urgent
+threats and ensure U.S. leadership in advanced robotics.
+    Recognizing both the critical importance of these technologies to
+the United States' economic competitiveness and national security, as
+well as the risks associated with insecure or adversary-linked systems,
+AUVSI recently launched our Partnership for Robotics Competitiveness,
+an industry initiative focused on strengthening U.S. leadership in
+robotics and physical artificial intelligence while addressing
+cybersecurity, supply chain, and national security risks associated
+with connected robotics systems.\10\
+---------------------------------------------------------------------------
+    \10\ Association for Uncrewed Vehicle Systems International
+(AUVSI), Partnership for Robotics Competitiveness: Securing U.S.
+Leadership in Robotics and Physical Artificial Intelligence (Arlington,
+VA: AUVSI, 2026), https://www.auvsi.org/wp-content/uploads/2026/02/
+AUVSI-PFRC-Whitepaper.pdf.
+---------------------------------------------------------------------------
+         robotics and physical ai as a homeland security issue
+    As AI-enabled robotics systems become more capable and more widely
+deployed, they are increasingly operating in highly-sensitive
+environments with significant implications for homeland security. These
+include logistics hubs, ports, warehouses, manufacturing facilities,
+transportation systems, energy infrastructure, public safety
+operations, and emergency response environments.
+    In these settings, robotics systems are not isolated machines. They
+are connected cyber-physical platforms that combine sensors, software,
+networking, cloud connectivity, and physical actuation. They collect
+data from the surrounding environment, transmit and receive information
+across networks, and in many cases can be monitored, updated, or
+controlled remotely. That combination of digital connectivity and real-
+world physical action is what makes robotics in this context such a
+pressing homeland security issue.
+    That is what makes the risk posed here so significant: A
+compromised laptop exposes data; a compromised robot can expose data
+and move, map, surveil, disrupt operations, or create physical hazards.
+With advanced sensors used in these systems, including Light Detection
+and Ranging (LiDAR) sensors, the data exposed itself presents a unique
+risk: data vulnerabilities might mean a highly-detailed three-
+dimensional map of critical infrastructure or other sensitive sites.
+Moreover, because these systems interface with the physical world, a
+compromised robot could present a physical threat in myriad ways:
+           cyber-physical risk in connected robotics systems
+    Modern robotics systems should be understood as connected cyber-
+physical platforms that combine software, communications networks,
+sensors, and physical machines capable of interacting directly with
+real-world environments. As these systems become more advanced, they
+increasingly rely on cloud connectivity, remote monitoring, over-the-
+air software updates, and continuous data collection to support
+performance improvements, predictive maintenance, and adaptive
+learning. While these capabilities provide important operational
+benefits, they also expand the attack surface associated with robotics
+systems and introduce new forms of cyber-physical risk.
+    In practical terms, these risks generally fall into 3 categories:
+   First, robotics systems create data exposure risks.
+        Connected robots routinely collect detailed operational data
+        from the environments in which they operate. This can include
+        facility layouts, movement patterns, environmental sensing
+        data, workflow information, and records of human-machine
+        interaction. Over time, aggregated data from these systems can
+        reveal sensitive insights about infrastructure operations,
+        logistics networks, and industrial processes.
+   Second, robotics platforms create remote disruption risks.
+        If vulnerabilities exist in software, firmware, communications
+        links, or cloud management tools, these systems may be
+        susceptible to unauthorized observation, manipulation, or loss
+        of control. Because robotics platforms operate in the physical
+        world, a cyber compromise can translate directly into physical
+        consequences, including disruption of operations or
+        interference with safety-critical environments.
+   Third, connected robotics systems can create persistent
+        access risks through update and support pathways. Many systems
+        rely on remote software updates, cloud services, and vendor-
+        managed diagnostics throughout their life cycle. When those
+        pathways remain accessible after deployment, they can create
+        long-term dependencies on external software environments and
+        provide on-going access points into operational systems.
+    Recent incidents illustrate these risks in concrete terms. Security
+researchers identified an undocumented access pathway in a Unitree Go1
+quadruped robot that allowed remote access to camera feeds and control
+functions without user authorization, demonstrating how hidden
+vulnerabilities in connected robotics platforms can enable both
+surveillance and system takeover.\11\
+---------------------------------------------------------------------------
+    \11\ Dave Lawler, ``Threat Spotlight: Backdoor Found in Chinese
+Robots,'' Axios, April 1, 2025, https://www.axios.com/2025/04/01/
+threat-spotlight-backdoor-in-chinese-robots-future-of-cybersecurity.
+---------------------------------------------------------------------------
+    The potential implications of these technologies have also drawn
+bipartisan concern in Congress. In 2025, members of the House Select
+Committee on the Chinese Communist Party warned that robotics
+platforms, such as those produced by Unitree, could present
+surveillance and national security risks if deployed within sensitive
+U.S. institutions and infrastructure environments. The committee also
+urged that Unitree be accordingly designated as Chinese Military
+Companies under 1260H of the fiscal year 2021 National Defense
+Authorization Act.\12\ It is notable that when the Department of
+Defense briefly updated the 1260H list in February 2026, Unitree
+Robotics was listed, however the list was rapidly taken down after
+posting.
+---------------------------------------------------------------------------
+    \12\ U.S. House Select Committee on the Strategic Competition
+Between the United States and the Chinese Communist Party, ``Trojan
+Horse Tech: Select Committee Sounds Alarm on CCP Robots Inside U.S.
+Institutions,'' press release, May 7, 2025, https://
+chinaselectcommittee.house.gov/media/press-releases/trojan-horse-tech-
+select-committee-sounds-alarm-on-ccp-robots-inside-us-institutions.
+---------------------------------------------------------------------------
+        sensor risk, lidar, and sensitive infrastructure mapping
+    Modern robotics and autonomous systems rely on integrated sensing
+suites that may include cameras, radar, and LiDAR to perceive and
+navigate their environments. These sensing technologies allow machines
+to identify obstacles, understand spatial relationships, and operate
+safely alongside people and other equipment.
+    Among these technologies, LiDAR merits particular attention because
+of its ability to generate high-resolution, three-dimensional
+representations of physical environments. In robotics and autonomous
+systems, LiDAR supports localization, mapping, obstacle detection, and
+coordinated autonomous behavior. These capabilities allow robotic
+systems to move through complex environments, build detailed maps of
+their surroundings, and perform tasks with increasing levels of
+autonomy.\13\
+---------------------------------------------------------------------------
+    \13\ Association for Uncrewed Vehicle Systems International
+(AUVSI), Partnership for Robotics Competitiveness: Securing U.S.
+Leadership in Robotics and Physical Artificial Intelligence (Arlington,
+VA: AUVSI, 2026), https://www.auvsi.org/wp-content/uploads/2026/02/
+AUVSI-PFRC-Whitepaper.pdf.
+---------------------------------------------------------------------------
+    However, the same capabilities that make LiDAR valuable for
+robotics applications can also introduce security concerns when
+deployed in sensitive environments. It is almost certainly for this
+reason that a LiDAR sensor was used by Chinese intelligence in an
+attempt to map a U.S. military installation in the Philippines.\14\
+---------------------------------------------------------------------------
+    \14\ Jack Burnham and Johanna Yang, ``Philippines Busts Chinese Spy
+Ring Targeting U.S. and Allied Military Infrastructure,'' Foundation
+for Defense of Democracies, February 3, 2025, https://www.fdd.org/
+analysis/2025/02/03/philippines-busts-chinese-spy-ring-targeting-u-s-
+and-allied-military-infrastructure/.
+---------------------------------------------------------------------------
+    Because LiDAR sensors continuously generate precise spatial data,
+they can produce highly-accurate digital maps of the environments in
+which they operate. In industrial or infrastructure settings, this may
+include facility layouts, equipment locations, operational workflows,
+and patterns of movement within a site. Over time, aggregated data from
+these sensors can provide detailed insight into how facilities function
+and how sensitive environments are structured.
+    Where LiDAR-enabled systems are deployed in factories, ports,
+logistics hubs, transportation nodes, energy infrastructure,
+warehouses, or public safety environments, they can generate persistent
+spatial awareness of locations that may be commercially sensitive,
+operationally sensitive, or nationally sensitive.\15\
+---------------------------------------------------------------------------
+    \15\ Foundation for Defense of Democracies Action, ``Policy Alert:
+Urgent U.S. Response Needed to Counter China's Strategic Use of LiDAR
+Technology,'' September 23, 2025, https://www.fdd.org/analysis/2025/09/
+23/urgent-us-response-needed-to-counter-chinas-strategic-use-of-lidar-
+technology/.
+---------------------------------------------------------------------------
+    These concerns are not hypothetical. In June 2025, AUVSI wrote to
+New York State and city officials warning about potential security
+risks associated with LiDAR sensors manufactured by Livox, a Chinese
+company owned by DJI, after such sensors were observed deployed at JFK
+International Airport and Penn Station in New York City.\16\
+---------------------------------------------------------------------------
+    \16\ Association for Uncrewed Vehicle Systems International
+(AUVSI), Letter Regarding Security Risks of Livox LiDAR Deployments at
+JFK Airport and Penn Station, March 2026, https://www.auvsi.org/wp-
+content/uploads/2026/03/AUVSI-Livox_JFK_PennStation.pdf.
+---------------------------------------------------------------------------
+    As described in that letter, LiDAR sensors can collect detailed
+real-time spatial data that could reveal sensitive information about
+transportation infrastructure, security postures, and crowd flow
+patterns if compromised or accessed by adversaries. In this case, these
+sensors were deployed in a static setting, affixed to certain points at
+these facilities; deployed in a dynamic setting, such as on a robotic
+platform, further compounds the threat.
+    structural and jurisdictional risk in networked robotics systems
+    Cyber-physical risk in robotics systems cannot be evaluated solely
+through the lens of individual software vulnerabilities or hardware
+components. Instead, these risks must be understood within a broader
+geopolitical and legal context of supply chains, software dependencies,
+and data flows.
+    Modern robotics platforms are not stand-alone machines. They are
+networked cyber-physical systems that often rely on cloud services,
+data streams, remote diagnostics, and software updates delivered
+throughout the operational life of the system. These features provide
+important operational benefits but also create on-going connections
+between deployed machines and the vendors responsible for maintaining
+them, such as on-going software and firmware updates, data storage, and
+even remote access.
+    Accordingly, China's legal and regulatory framework governing
+technology companies must be considered when evaluating the security
+implications of connected robotics platforms. Unitree Robotics and
+DeepSeek, like any Chinese company, operate within the legal system of
+the People's Republic of China. Under China's national security laws,
+these companies can be, and are, compelled to operate functionally as
+an instrument of Chinese Communist Party (CCP).\17\ \18\
+---------------------------------------------------------------------------
+    \17\ Chun Han Wong, ``China Adopts Sweeping National Security
+Law,'' The Wall Street Journal, July 1, 2015, https://www.wsj.com/
+articles/china-adopts-sweeping-national-security-law-1435757589.
+    \18\ Cybersecurity and Infrastructure Security Agency (CISA) and
+Federal Bureau of Investigation (FBI), Cybersecurity Guideance:
+Chinese-Manufactured Unmanned Aircraft Systems (UAS), January 17, 2024,
+https://www.cisa.gov/sites/default/files/2024-01/Cybersecurity%20-
+Guidance%20Chinese-Manufactured%20UAS.pdf
+---------------------------------------------------------------------------
+    A series of national security and data governance laws, including
+the National Intelligence Law, Cybersecurity Law, Data Security Law,
+and Personal Information Protection Law, collectively establish an
+environment in which companies operating within China's technology
+sector may be required to cooperate with state intelligence and
+security authorities and provide access to relevant data, systems, or
+technical capabilities.\19\ The National Intelligence Law mandates that
+all citizens and organizations must assist and cooperate with national
+intelligence work when requested. This provision establishes a legal
+obligation for companies to comply with intelligence-related directives
+issued by state authorities whatever they may be. This is further
+entrenched by China's Cybersecurity Law, Data Security Law, and
+Personal Information Protection Law which establish mechanisms through
+which government authorities may require access to data, technical
+systems, or other information under the control of companies operating
+within China's technology ecosystem.
+---------------------------------------------------------------------------
+    \19\ Association for Uncrewed Vehicle Systems International
+(AUVSI), Partnership for Robotics Competitiveness: Securing U.S.
+Leadership in Robotics and Physical Artificial Intelligence (Arlington,
+VA: AUVSI, 2026), https://www.auvsi.org/wp-content/uploads/2026/02/
+AUVSI-PFRC-Whitepaper.pdf.
+---------------------------------------------------------------------------
+    These legal obligations create structural pathways through which
+operational data or system access could become available to the Chinese
+state. As a result, risks associated with connected robotics platforms
+are not limited to technical vulnerabilities alone; they are also
+shaped by the legal jurisdiction governing the companies that design,
+manufacture, and maintain those systems. In this case, the laws
+promulgated by the CCP. In the context of connected robotics systems,
+where cloud services, telemetry data, remote diagnostics, software
+updates, and continuous data collection are core operational features,
+these authorities create structural pathways through which operational
+data or system access could be obtained by the state.
+    Cyber-physical risk exposure in robotics systems is not neutral
+across suppliers but rather is greatly shaped by the legal framework
+governing the companies that develop, maintain, and support the
+technology. Accordingly, the risks posed here are not normal
+cybersecurity risks but rather a potential vector for nation-state-
+level cyber warfare enabled by Chinese law and civil-military fusion.
+Knowing this, it is therefore crucial that policy action be taken to
+address the serious and unique threat posed by PRC-based companies
+across the entire robotics technology stack.
+         economic competition and supply chain risk in robotics
+    Beyond cybersecurity considerations, robotics must also be
+understood through the lens of global economic competition and
+industrial policy. Advanced robotics systems depend on complex supply
+chains that include rare-earth magnets, electric motors, batteries,
+precision actuators, sensors, semiconductors, and specialized software
+systems. These components are deeply integrated into robotics platforms
+and are not easily interchangeable.
+    Over the past 2 decades, the People's Republic of China has pursued
+a coordinated national strategy to build dominance across many of these
+enabling technologies. Through unprecedented subsidies, preferential
+financing, industrial planning, and coordinated investment, Chinese
+firms have rapidly expanded production capacity across multiple layers
+of the robotics technology stack. At the national level, China's top
+economic planning agency announced a 1 trillion yuan (roughly $137
+billion) venture capital fund dedicated to robotics, artificial
+intelligence, and advanced technologies. This is compounded at the
+local level by municipal governments and state-backed hedge funds,
+including a $14 billion robotics and AI fund in Beijing and a $77
+million embodied AI fund in Shanghai. Furthermore, China's government-
+controlled banks have increased industrial lending by a staggering $1.9
+trillion over the past 4 years to bankroll factory construction and
+robotic automation.\20\
+---------------------------------------------------------------------------
+    \20\ Keith Bradsher, ``China Has an Army of Robots on Its Side in
+the Tariff War,'' The New York Times, April 23, 2025, https://
+www.nytimes.com/2025/04/23/business/china-tariffs-robots-
+automation.html.
+---------------------------------------------------------------------------
+    These efforts are closely tied to China's Military-Civil Fusion
+strategy, which explicitly seeks to integrate civilian technological
+innovation with national defense and intelligence objectives. State-
+backed firms operating with this massive, multi-tiered financial
+backing can aggressively dump products at artificially suppressed
+prices, placing market-based American companies at a severe structural
+disadvantage.
+    Over time, this deliberate strategy leads to market capture, supply
+chain concentration, and dangerous technological dependency. We have
+seen this exact centrally-planned playbook executed before in the
+commercial drone industry, where sustained dumping by heavily-
+subsidized Chinese firms like DJI decimated the U.S. drone
+manufacturing base and left our Nation dangerously dependent on
+adversary-linked technology.
+    Fortunately, we still have a critical window of opportunity to stop
+this from happening to the robotics industry. However, if we fail to
+act before PRC market dominance hardens into structural dependence,
+U.S. and allied companies will be forced out of the global market by
+these unfair trade practices, leading to the wide-spread deployment of
+unsecure robotic systems that amount to a global back door into our
+critical infrastructure.
+                   policy steps congress can take now
+    As robotics and autonomous systems become increasingly embedded in
+infrastructure, logistics, manufacturing, and public safety
+environments, policy makers must consider how these technologies
+intersect with cybersecurity, supply chain integrity, and
+infrastructure protection.
+    Accordingly, AUVSI urges Congress to consider several policy
+priorities:
+   Congress should support the development of a coordinated
+        national strategy for robotics and physical artificial
+        intelligence. Robotics is rapidly becoming foundational
+        infrastructure for modern economies and future military
+        operations, yet the United States lacks a comprehensive Federal
+        strategy guiding policy across research, manufacturing,
+        deployment, workforce development, and supply chain security.
+        Bipartisan legislation introduced this Congress, such as the
+        National Robotics Commission Act (H.R. 7334), introduced by
+        Congressman Jay Obernolte (CA-23) and Congresswoman Jennifer
+        McClellan (VA-03), would take crucial steps toward a national
+        strategy by working to align Federal efforts, set measurable
+        goals, and ensure sustained U.S. leadership in this
+        strategically important technology domain.
+   Leadership in advanced robotics is essential for sustaining
+        the American workforce. Rather than replacing human labor,
+        robotics augment our workforce, addressing persistent labor
+        shortages, improving occupational safety by taking over
+        hazardous tasks, and keeping U.S. manufacturing globally
+        competitive. AUVSI explicitly calls for a comprehensive
+        National Robotics Strategy that prioritizes robust workforce
+        development programs. By pairing these initiatives with
+        workforce development tax credits, we can offset the costs of
+        training workers for the robotics age, transitioning the
+        American workforce toward higher-skilled programming, system
+        integration, and maintenance roles that command higher wages.
+   Congress should build on recent work addressing adversary-
+        linked uncrewed ground vehicles, including robotics, in Federal
+        procurement. AUVSI was active in supporting the inclusion of a
+        provision in House version of the fiscal year 2026 National
+        Defense Authorization Act which would have prohibited Federal
+        procurement of uncrewed ground vehicles produced by foreign
+        countries of concern, such as the PRC. This would have
+        restricted government procurement of any uncrewed ground
+        system--from small multipurpose robots to large autonomous
+        vehicles. Beyond managing the serious risks posed by deployment
+        of these systems by the Federal Government, Federal procurement
+        policies play a powerful role in shaping emerging technology
+        markets. Accordingly, we urge Congress to take up this measure
+        again as a stand-alone bill as well as in this year's National
+        Defense Authorization Act.
+   Congress should continue advancing risk-based restrictions
+        on adversary-linked technologies deployed in infrastructure
+        environments. Legislation such as the Securing Infrastructure
+        from Adversaries Act (H.R. 4802/S. 4000) reflects serious risks
+        posed by foreign-adversary made LiDAR sensors embedded within
+        sensitive operational environments. Robotics systems, sensors,
+        and related technologies produced within adversary-controlled
+        ecosystems introduce surveillance vulnerabilities, data
+        exposure risks, and persistent access pathways into critical
+        infrastructure systems. Establishing clear authorities to
+        evaluate and restrict the deployment of adversary-linked
+        technologies in critical infrastructure environments represents
+        an important step toward protecting the security and integrity
+        of the Nation's operational systems.
+   Policy makers should continue examining the security
+        implications of key enabling technologies used in robotics and
+        autonomous systems. Technologies such as advanced sensing
+        systems, including LiDAR, are foundational to the operation of
+        modern robotics platforms. At the same time, their ability to
+        generate detailed spatial and environmental data raises
+        important security considerations when deployed in sensitive
+        environments. The SAFE LiDAR Act (H.R. 6576) represents an
+        important effort to address these risks by evaluating the
+        national security implications associated with certain LiDAR
+        technologies and by promoting greater transparency into the
+        supply chains behind these systems. Beyond this, we urge
+        Congress to consider similar measures across the robotics
+        technology stack.
+   Addressing the cyber-physical risks requires not only
+        restricting unsafe technologies but also accelerating the
+        growth of trusted alternatives. Congress should prioritize
+        strengthening the U.S. robotics industrial base and building
+        secure allied supply chains for critical technologies. Congress
+        should support policies that expand U.S. robotics
+        manufacturing, use Federal procurement and demand signals to
+        support trusted systems, and encourage private investment in
+        domestic production to build resilient supply chains for
+        critical robotics components; including sensors, batteries,
+        rare earth magnets, and advanced electronics.
+    Taken together, these efforts represent important early steps
+toward developing a broader policy framework for addressing cyber-
+physical risk in robotics and autonomous systems. By proactively
+addressing these issues now, Congress can help ensure that robotics
+technologies strengthen U.S. infrastructure, economic competitiveness,
+and national security rather than introducing new vulnerabilities into
+the systems that underpin the Nation's economy and public safety
+operations.
+                               conclusion
+    The issues raised by companies such as DeepSeek and Unitree
+Robotics reflect a broader challenge as robotics, artificial
+intelligence, and autonomous systems become increasingly embedded
+across the U.S. economy and critical infrastructure. These technologies
+are rapidly becoming foundational to logistics networks, manufacturing
+systems, transportation infrastructure, energy operations, and public
+safety environments. While they offer significant benefits in
+productivity, efficiency, and safety, their growing integration into
+the physical world also means that vulnerabilities in these systems, or
+in the ecosystems that produce them, can introduce serious risks to
+both national security and economic resilience.
+    The threat posed by PRC-linked robotics companies must be
+understood within this broader context. These firms operate within a
+state-directed system that combines aggressive industrial policy,
+supply chain consolidation, and legal obligations to cooperate with
+state intelligence authorities. When robotics platforms produced within
+this ecosystem are deployed in sensitive environments, the risks extend
+beyond ordinary cybersecurity concerns to include potential
+surveillance, exposure of sensitive operational data, and persistent
+access to critical infrastructure systems. At the same time, sustained
+subsidies and coordinated industrial strategies can enable these
+companies to capture global markets, creating technological
+dependencies that are difficult to reverse once systems are widely
+deployed.
+    For the United States, the challenge is therefore both a security
+issue and a strategic economic one. Ensuring that robotics systems
+deployed across our infrastructure and industries are secure, trusted,
+and developed within resilient supply chains will be essential to
+protecting both national security and long-term technological
+leadership. By recognizing the strategic implications of robotics and
+taking proactive steps to address the risks posed by adversary-linked
+technologies, Congress can help ensure that the next generation of
+robotics strengthens, rather than undermines, the security, resilience,
+and competitiveness of the United States. AUVSI and our members stand
+ready to work with Congress and Federal agencies to support that
+effort.
+
+    Mr. Fong. Thank you, Mr. Robbins.
+    I now recognize Dr. Doshi for 5 minutes to summarize your
+opening statement.
+
+ STATEMENT OF RUSH DOSHI, PH.D., C.V. STARR SENIOR FELLOW FOR
+  ASIA STUDIES AND DIRECTOR OF THE CHINA STRATEGY INITIATIVE,
+                  COUNCIL ON FOREIGN RELATIONS
+
+    Mr. Doshi. Thank you. Chairman Fong, Ranking Member
+Walkinshaw, distinguished Members of the subcommittee, thank
+you for the opportunity to testify today.
+    My core argument today is simple: AI and robotics are
+changing the global balance of power. China has moved faster
+and achieved more than most Americans realize, but we still
+have advantages. The question before this subcommittee is
+whether we will use them before China pulls too far ahead. I'd
+like to structure my testimony to answer 4 questions.
+    First, what are China's objectives in AI and robotics? The
+Chinese Communist Party aims to catch up and surpass the West.
+It believes there have been 4 industrial revolutions that
+determine the fate of nations. The first was steam power, which
+brought British dominance. The second was electrification. The
+third was mass manufacturing, which brought American dominance.
+Now we're in the fourth, quantum, biotech, and, of course,
+robotics and AI, which China is determined to win, not just for
+the sake of prosperity, but for the sake of relative power.
+    That brings me to a second question. How is China doing? In
+robotics, China increasingly is winning. In 2024, Chinese
+factories installed roughly 300,000 new industrial robots.
+American factories installed 30,000. Today there are now more
+than 2 million industrial robots working in Chinese factories.
+In the United States, the number is one-fifth that. China is
+investing in the future. It's pulling ahead in research
+publications and patent filings and pouring hundreds of
+billions of dollars into the robotics sector. Just 10 years
+ago, China imported three-quarters of its industrial robots.
+    So how did all this happen so quickly? Part of it is
+because China is the world's greatest manufacturer, with 2
+times our share of global manufacturing. But a lot of it is
+because of sustained government focus. China acquired robotics
+know-how from German companies like KUKA. It protected its home
+market. It then launched a decade of industrial policy
+programs, like Made in China 2025, to dominate the sector. This
+year alone, China may spend $400 billion on industrial policy.
+The U.S. CHIPS and Science Act, by comparison, provided $50
+billion over multiple years.
+    In AI the story is more complex. China has made AI an
+industrial policy priority for more than a decade. It's the
+only country that rivals the United States. Many of its open-
+source models are on top lists for key benchmarks and it's
+diffusing those models throughout society. But America is still
+ahead at the frontier. Unlike in robotics, where China's
+manufacturing advantages pay rich dividends, China's progress
+in AI relies on access to compute. That is access to advanced
+AI chips. China's own AI companies openly admit this and
+reports show that U.S. chips are 4 to 5 times better. They may
+soon be 17 times better in the next 2 years that the United
+States has a growing share of global compute. If we surrender
+this advantage, we will probably fall behind. China has more
+energy. It added 8 times more power to the grid last year than
+we did. It has more talent. But for now, it has less compute.
+    That leads me to a third question. What are the risks of
+falling behind in robotics and AI? Let me offer 3. First,
+robotics will be critical to manufacturing. If we lose robotics
+the way we lost solar panels and batteries and EVs, we will
+hollow out our American manufacturing ecosystem and become even
+more dependent on China. We've seen that in rare earth minerals
+and magnets. It's not wise to put ourselves in that position of
+dependency.
+    Second, China's National Intelligence Law, its
+counterespionage law, require Chinese companies to cooperate
+with Chinese intelligence and not disclose that fact to others.
+That creates espionage risks. These robots are equipped with
+LiDAR systems, microphones, and cameras that make them mobile
+surveillance platforms. Already, Unitree's quadruped robots
+have been shown to have back-door camera access. Its humanoid
+robots transmit data back to China every 5 minutes.
+    But espionage is not the only risk. Last year I testified
+before this committee on how China was pre-positioning for
+destructive cyber attack on American power, gas, water,
+telecom, and transportation infrastructure. We simply cannot
+employ robots in sensitive facilities from the very country
+that is targeting those facilities.
+    A third and final risk is that AI and robotics are dual-
+use. China is using American AI tools to launch cyber attacks.
+It's incorporating armed robots into military exercises. If we
+fall behind, it means our deterrence will be less effective.
+    Which leads me to the question of what we should do. First,
+we should extend the ICTS framework that we apply to connected
+vehicles to cover PRC robots. That limits their importation
+unless China addresses key vulnerabilities.
+    Second, we should direct CISA to audit where robots and AI
+models are deployed in critical infrastructure so we know the
+risks that we face.
+    Third, we should prohibit Federal agencies and Federal
+contractors from procuring PRC robotic systems or AI systems.
+We currently treat American AI companies, like Anthropic, with
+more regulatory scrutiny than we treat Chinese ones, like
+DeepSeek.
+    Fourth, we should maintain and strengthen semiconductor
+export controls, the one advantage we retain in AI, and limit
+remote access and smuggling.
+    Finally, we should build allies' scale to rival China's
+scale in the sector. That means better terms for allies and
+partners than for Beijing. It gives us a chance to bring down
+costs and reduce China dependence.
+    China believes this is a pivotal moment. They're probably
+right. We should believe it, too.
+    With that, thank you and I look forward to your questions.
+    [The prepared statement of Mr. Doshi follows:]
+
+[GRAPHIC(S) NOT AVAILABLE IN TIFF FORMAT]
+
+
+    Mr. Fong. Thank you, Dr. Doshi.
+    Members will be recognized by order of seniority for their
+5 minutes of questioning. I now recognize myself for 5 minutes
+of questioning.
+    My first question goes to you, Mr. Fenkell. Many American
+start-ups and developers are beginning to build on Chinese open
+models, like DeepSeek, because they appear highly capable and
+are offered at extremely low costs. We have seen this strategy
+before. Chinese companies, like DJI, use aggressive pricing and
+rapid deployment to dominate the global drone market, which
+made it extremely difficult for American companies to compete.
+Unlike the drone sector, however, the United States already has
+leading AI developers that are building highly-capable frontier
+models. Do you see Chinese AI companies attempting to follow a
+similar strategy with models like DeepSeek by rapidly expanding
+global adoption in order to capture market share before trusted
+alternatives can compete?
+    Mr. Fenkell. Thank you for that question. Yes, simply, I
+think as we've seen play out in AI, the diffusion of the
+technology will ultimately win out. I think for the last year
+or so we've believed it's been a model-based adoption. I think
+we're shifting into a belief of a tech stack-based adoption. So
+when you look at the AI tech stack, it fundamentally is made up
+of compute, data, model, and applications. I think we've seen
+people begin to recognize in order to really win on AI, you
+have to win on the tech stack, which ultimately solves a hard
+problem.
+    We've seen China look to imitate their Belt and Road
+Initiative, their Digital Silk Road Initiative to ensure that
+their models are winning across the world. It's imperative, and
+we spoke about it in our testimony, that the United States not
+only counters this, but wins on it. That's why we feel really
+strongly that the Exporting American AI Tech Stack Executive
+Order is a critical path forward on this that must be codified
+and resourced. Then we as industry have to do everything we can
+to bring our technology to the world.
+    Mr. Fong. So as a follow-up question, but in terms of
+censorship and information control by DeepSeek, researchers and
+journalists have found that DeepSeek censors its own answers in
+real time, deleting responses and related topics, like
+Tiananmen Square, Taiwan, or criticism of the Chinese Communist
+Party. In some cases, the model initially generates accurate
+information, but then erases it and replaces it with a
+different answer. What risks arise when an AI system that may
+reflect the information controls and propaganda narratives of
+an authoritarian government become widely used around the
+world?
+    Mr. Fenkell. I believe there are a number of different
+risks associated with it. What we've seen is that in order to
+release a model in China, you have to pass a test, essentially
+adhering to those laws that you referenced. I think Scale as a
+company is now doing more AI evaluations than nearly anyone
+else and we evaluate all of the world's leading models to
+better understand their capabilities. AI evaluation is an
+amazing tool for this.
+    It's really important, though, that we're putting models
+out to the world that we believe have democratic values and
+ideals and uphold American values. That's, again, why it's
+important that we not only match, but exceed China's intensity
+in diffusing our tech globally.
+    Mr. Fong. Thank you.
+    Mr. Malchano, unlike traditional internet of things
+devices, robots are not just collecting data. They are physical
+machines capable of movement and interaction with the
+environment. If a malicious actor gained control of a connected
+robot operating in a sensitive environment, such as a research
+laboratory, industrial facility, or transportation hub, what
+kinds of physical or operational risks could arise?
+    Mr. Malchano. Thank you, Mr. Chairman. Those risks are very
+similar to the kinds of risks that would happen if you allowed
+someone into your environment that was a hostile person. Right?
+So that robot could go around, manipulate things, look at
+things. To make that very realistic, if you had an assembly
+line, that robot could destroy the assembly line or otherwise
+take malicious photos of materials going through. So in many
+ways, a robot represents a kind of risk that is beyond the
+passive risks of IoT devices if compromised.
+    Mr. Fong. Thank you.
+    Mr. Robbins, we have already seen what can happen when
+Chinese technology rapidly dominates critical markets, like I
+mentioned with DJI drones. What lessons should policy makers
+take from that experience when thinking about AI systems,
+robotics platforms, and autonomous technologies developed by
+Chinese companies?
+    Mr. Robbins. Yes, thank you for that question, Mr. Fong.
+The No. 1 lesson is don't wait 'til the problem is upon us and
+we get behind. Take action now to level the playing field for
+U.S. robotics and AI companies and autonomy companies so they
+can compete globally on a level playing field now instead of
+having to fight from behind like American drone companies are
+doing today. There are policy actions Congress can take,
+there's actions the Executive branch can take now with existing
+authorities to level the playing field. We spell those out in
+our partnerships for robotics competitors' white paper.
+    Mr. Fong. Let me throw this out to everyone. But in terms
+of procurement, should Congress consider a policy similar to
+existing restrictions on Huawei or DJI, where certain Chinese
+technologies are prohibited from procurement by Federal
+agencies? I got 15 seconds, so maybe I just open it up to
+everybody.
+    Mr. Doshi. Absolutely, yes.
+    Mr. Robbins. Yes.
+    Mr. Malchano. Yes, in line with the things that is done in
+the past with DJI.
+    Mr. Fenkell. Yes.
+    Mr. Fong. Thank you.
+    With that, I now recognize the Ranking Member, the
+gentleman from Virginia, Mr. Walkinshaw, for his 5 minutes of
+questions.
+    Mr. Walkinshaw. Thank you, Mr. Chairman, and thank you to
+our witnesses. Really powerful opening statements.
+    I want to start just on international collaboration and
+supply chains. We know and you all ably outlined the ways in
+which the PRC's threats pose a significant challenge not just
+to the United States, but to our allies around the world. While
+we have significant resources and capabilities that perhaps we
+need to do a better job of bringing to bear, our allies also
+have resources and manufacturing capabilities and supply chain
+capabilities that could help us in this effort.
+    Dr. Doshi, your testimony discusses the importance of
+working with allies like Japan to develop alternative supply
+chains to avoid reliance on the PRC. Can you just elaborate on
+the importance and maybe the opportunity of international
+collaboration in combating PRC supply chain risk? How can we
+ensure that our policies are implemented in conjunction with
+key allies and partners around the globe?
+    Mr. Doshi. Well, thank you very much for the question,
+Ranking Member Walkinshaw. Let me begin with one quick point,
+which is that China outscales the United States when it comes
+to manufacturing. They are two times American manufacturing
+value-added. How do you deal with a competitor that outscales
+you in manufacturing? The only way is to add up American
+manufacturing with allied manufacturing. Collectively, that
+block completely outscales China.
+    So what I'd like to see is a preferential system, a trading
+block, if you will, among allies, where we lowered the barriers
+to each other and raise them against China, so that we have
+that chance to sell to each other and build scale within our
+own collective market. Right now, there are allies like Japan
+which dominate key inputs for the robotics industry. We should
+help those companies succeed. Maybe they can set up plants in
+the United States, but either way, if those companies
+disappear, then the only game left in town for the robotics
+supply chain is China, which we simply cannot allow.
+    Mr. Ranking Member, we've seen this story in industry after
+industry. We're seeing it in cars, we're seeing it in
+pharmaceuticals, we're seeing it in biotech. We don't want to
+see it in robotics because it is a critical enabling
+technology. So one way we could do this kind of collaboration,
+in addition to tariff-based or trade-based policy, is
+regulatory policy. We have a tool, the ICTS tool, which
+basically allows us to prohibit or import control certain
+finished products from foreign countries that are threats and
+connected to our networks. We can align that regulatory tool
+with our allies and partners and create a bit of a wall that
+keeps certain Chinese products out and gives ourselves and our
+friends time to rebuild.
+    Mr. Walkinshaw. OK. Anyone else with a thought on that? Mr.
+Robbins, you looked antsy there.
+    Mr. Robbins. No, I gave a speech last May where I quoted a
+very smart individual where I noted that if our authoritarian
+rivals can work together to undermine democracy, then
+democratic rivals must work together to protect democracy, and
+that person was Dr. Rush Doshi. So I completely agree with what
+Rush said.
+    We have an I at the end of our name. We work very
+aggressively to enhance partnerships with international
+democratic allies, like Taiwan, like Japan, and Europe, and
+throughout the world. That is really the key to the future of
+the robotics and autonomy and AI industry, is ensuring that
+American leads and that Western values are driving this
+technology forward. But as Rush said, we're stronger when we do
+that together and we work with our Western allies on this
+front.
+    Mr. Walkinshaw. Dr. Doshi, your written statement
+referenced extending export controls to inference chips. I want
+to give Mr. Fenkell and Mr. Malchano a quick opportunity to
+describe for us, why are inference chips so critical when it
+comes to robotics relative to training chips? What is the
+distinction? Why is it relevant to robotics?
+    Mr. Malchano. So training chips are relevant to robotics in
+order to train, but in terms of what is deployed inside the
+robot is a different kind of chip, an embedded processor
+designed to be able to run ML applications quickly at a low
+power state inside of a robot. Those chips are just as
+important and exist one per each robot that you build. So
+although America is doing a good job of thinking about the
+plans with regards to the chips used for training, we would
+encourage also thinking about inference chips as are
+distributed in a vended context.
+    Mr. Walkinshaw. OK. Mr. Fenkell, anything on that, training
+versus inference chips?
+    Mr. Fenkell. Nothing to add specifically. I think he
+covered it. I do think, getting back to the allies point,
+there's two sides where ally cooperation is very important. One
+is diffusion of the technology stack, and we've spoken about
+that already. The second is on standards collaboration. I think
+we look at the Center for AI Standards and Innovation, the U.S.
+CAISI, which is housed at the Department of Commerce. There are
+also AI safety institutes and security institutes around the
+world. It's critical that we're working together on the
+measurement science for these technologies because, ultimately,
+what we saw in 5G is China began to win that race when they won
+on standards. On AI, those standards are currently being
+written and it's critical that they're being written by America
+and Western ideal countries.
+    Mr. Walkinshaw. Thank you. Thank you, Mr. Chairman.
+    Mr. Fong. Thank you very much. Maybe we will do one more
+round of questions then before we conclude this hearing.
+    I wanted to follow up on the last question I asked in terms
+of procurement. You certainly all answered in the affirmative
+that we should have a policy restricting certain technologies
+from procurement by Federal agencies. I wanted to ask about the
+supply chain then in that aspect.
+    China has spent years positioning itself at key points in
+global technology supply chains. In a geopolitical crisis, what
+technology supply chain choke points could China potentially
+exploit to pressure the United States or our allies? How do we
+go about this? I will open that question to all of the
+panelists and leave that to you, Jay, how you guys want to
+answer it.
+    Mr. Fenkell. Yes, maybe I'll start with the data portion of
+it. Obviously, Scale is one of the leading companies working on
+providing training and evaluation data to nearly every frontier
+AI lab, as well as the robotics industry today. We work with a
+number of robotics companies and have done over 250,000 hours
+of robotics data to those companies. What we've seen today,
+though, is still China owns 90 percent of the commercially-
+available AI data market for robotics. Obviously the cost is
+much higher at about 60 percent. So that is a massive
+dependency on the Chinese supply chain. Obviously, during a
+geopolitical context, that can become an issue.
+    Mr. Fong. You said 90 percent?
+    Mr. Fenkell. That's based off our internal estimates, yes.
+So what we've seen is that a geopolitical context, that's a big
+issue. So in our testimony, we've asked the national security
+apparatus to begin to look into this dependency and then also
+not only counter, but exceed their intensity on data.
+    They're outspending us tremendously. They value this far
+greater. So as we look at it, every Federal data asset should
+be made AI-ready. Every asset that can be open-source should be
+open-source. Then, ultimately, we have to value data as a
+critical part of the supply chain.
+    Mr. Robbins. Yes. I'll just add, sir, that in my--as I said
+in my opening statement, it has to be a policy of both carrots
+and sticks. You asked previously about the restrictions, and
+that's an absolutely critical piece of the, getting this right.
+There also have to be incentives to scale domestic
+manufacturing to break some of those critical chokeholds.
+    One good example where there is some good work being done
+right now is in the area of rare earth magnets. We experienced
+this in real time in our industry last year, in May, when China
+began throttling export controls on rare earth magnets as part
+of the broader trade war with China and the United States. That
+was sending shock waves through our industry because, as I
+mentioned in my critical statement, without those rare earth
+magnets, we're not building robots, we're not building drones.
+We're also not building Columbia class submarines or F-35s. It
+is a critical dependency on China.
+    So in the United States, companies like Vulcan Elements
+have worked with the U.S. Government to leverage existing
+tools, like the Office of Strategic Capital and leftover funds
+from the CHIPS Act, to drive scaling manufacturing here in the
+United States. We need to double down on that in a significant
+way, both in that industry as well as other industries as well,
+including in batteries, in lithium and graphite, some of the
+critical minerals that make up batteries as well.
+    Mr. Fong. Thank you, sir.
+    Mr. Doshi. Mr. Chairman, I'll just add one quick point. I
+agree with what Mr. Robbins said. Right now, if we were to just
+do a blanket prohibition on Chinese robots, it would be
+effective in securing elements of our national security. Of
+course, those robots are cheaper than the ones that we make
+here at home. So the question then is, what do we do about that
+price differential? That is where the government has to step in
+and provide a solid industrial policy framework to help drive
+this industry.
+    Let's just look at the historical record. Again, 10 years
+ago, China was not a leader in robotics. They did not have--
+they were importing most of their industrial robots, more than
+65 percent. Today they produce those robots at home. The way
+they did that was a careful combination of market restrictions
+and market access protection combined with industrial policy.
+So some combination of those tools will have to be in our
+toolkit going forward.
+    Mr. Malchano. I'd just like to add that the supply chain
+for robotics is very broad and involves many high-tech areas,
+which is all a reason for us to consider the national strategy
+as a way to create a central point of contact for both sides of
+that supply chain to interact with the U.S. Government and
+figure out the best ways to make that move forward on American
+soil.
+    Mr. Fong. Then on that note, is it possible then, I mean
+the phrase ``decouple,'' but is it possible to nearshore or
+decouple from China in the context of supply chain?
+    Mr. Robbins. It is possible. It will take time and it
+requires, as the other witness said, a concerted national
+strategy. If we go about this in a sort-of one-off way here and
+there, we won't get there. We won't get there in time.
+    Mr. Doshi. Mr. Chairman, if I could just add one point.
+China still has its own dependencies in its robotic supply
+chain, dependencies not just on our chips, but on certain
+products manufactured in Japan. So when we think about the
+overall supply chain, we should think where do we have
+advantages and choke points that we can harness? Where do the
+Chinese have choke points and how do we mitigate those choke
+points?
+    Mr. Fong. Any of the other two, do you have anything to
+add? You want to jump in?
+    Mr. Fenkell. I think the only thing I'd add to that is as
+we look at the supply chain, we have to recognize all aspects
+of it. We typically focus on the platform-based aspects of it.
+Obviously from the scale side, we definitely would recommend
+that we also include the data supply chain in there, just given
+that AI, ultimately, is only as good as the data that it's
+trained on.
+    Mr. Malchano. I'd also just add that in terms of a national
+strategy, demand-side activities, like encouraging the
+additional use of robots in the Federal Government as well as
+incentivizing people to adapt robots and adopt their industries
+for the coming high-tech future, are all key ways for us to
+push that supply chain to produce on American soil.
+    Mr. Fong. Thank you. Well, I want to thank the witnesses
+for your testimony and for the questions from the Ranking
+Member. Critically important short-term, long-term challenges
+that we need to address and we need to take care of these
+issues in real time. So thank you for your expertise.
+    Members of the subcommittee may have some additional
+questions for the witnesses and we would ask the witnesses to
+respond to these in writing. Pursuant to committee rule VII(E),
+the hearing record will be held open for 10 days.
+    Without objection, this subcommittee stands adjourned.
+    [Whereupon, at 3:02 p.m., the subcommittee was adjourned.]
+
+                            [all]
+

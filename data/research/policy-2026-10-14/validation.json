@@ -1,0 +1,331 @@
+{
+  "as_of": "2026-10-14",
+  "findings": [
+    {
+      "item": "china-15fyp",
+      "severity": "high",
+      "issue": "Adoption date is March 13; official resolution says March 12. Institution also conflates NPC approval with CPPCC consultation.",
+      "correction": "Use adopted March 12, 2026; separately date republication of outline. NPC approved the plan; CPPCC discussed the draft.",
+      "source": "https://www.bjrd.gov.cn/zyfb/zt/14jqgrd04chybjdbthdztbd/wjbg/202603/t20260313_4556146.html"
+    },
+    {
+      "item": "blocking-ccp-spy-tech-act-2026",
+      "severity": "high",
+      "issue": "Record says only House bill includes §3 military-company determination; Senate saved text also includes it.",
+      "correction": "Remove claimed House-only distinction from summary, limitations, and discrepancy list. Both introduced texts include §3.",
+      "source": "bills/119s4586is.txt §3; bills/119hr9687ih.txt §3"
+    },
+    {
+      "item": "bill-status-as-of",
+      "severity": "resolved",
+      "issue": "Official root bill/latestAction now checked for all eight standalone robotics bills plus H.R.8800.",
+      "correction": "H.R.9129 latest action September 1: forwarded by subcommittee to full committee by voice vote. Other seven standalone bills latest actions are original referrals. H.R.8800 latest action September 14: received in Senate. No reviewed bill is enacted.",
+      "source": "current-status.json; bills/BILLSTATUS-119*.xml root bill/latestAction"
+    },
+    {
+      "item": "american-security-robotics-act-2026",
+      "severity": "low",
+      "issue": "Senate sponsor field omits original cosponsor Chuck Schumer although some other records include original cosponsors.",
+      "correction": "For consistent attribution use sponsor Tom Cotton; original cosponsor Chuck Schumer. Dates, sponsors and referrals otherwise agree with saved introduced texts.",
+      "source": "bills/119s4235is.txt introduction"
+    },
+    {
+      "item": "four-hearings",
+      "severity": "medium",
+      "issue": "Four hearings should not be described as four robotics-only sessions or unprecedented activity. March session also covered AI/autonomy; June and July covered multiple technology/communications bills.",
+      "correction": "Describe four hearings involving robotics: April dedicated to robotics/manufacturing, March expressly AI/robotics/autonomy, June and July broader legislative hearings. A historical series would be needed to claim unprecedented frequency.",
+      "source": "plans-hearings/index.json; saved official hearing pages"
+    },
+    {
+      "item": "china-ten-tracks",
+      "severity": "medium",
+      "issue": "An official ten-track industrial count is not established by the plan.",
+      "correction": "Relevant clauses enumerate eight emerging-industry groups and six future-industry groups, with open-ended language. Robotics and embodied intelligence are distinct placements. Do not convert these into a formal ten-track taxonomy.",
+      "source": "plans-hearings/china-15th-five-year-plan-outline-official-alternative.html.txt Chapter 5"
+    },
+    {
+      "item": "fcc-versus-section232",
+      "severity": "medium",
+      "issue": "FCC July action can be conflated with GUARD proposal or Commerce trade investigation.",
+      "correction": "July 28 FCC listing is an actual administrative action on foreign-produced advanced devices, with conditional approvals. September 2025 Section 232 notice initiated trade investigation; neither that notice nor GUARD introduced text establishes a tariff or blanket ownership ban.",
+      "source": "plans-hearings/fcc-da-26-786-2026-07-28-covered-list-notice.pdf.txt; commerce-section-232-robotics-2025-notice.pdf.txt"
+    },
+    {
+      "item": "gooden-fy2027-ndaa-humanoid-robotics-provision",
+      "severity": "medium",
+      "issue": "Initial bundle lacked operative text; newly saved H.R.8800 reported and House-engrossed text both contain §163. Markup log ID 6312 alone still does not establish every version-identification step.",
+      "correction": "Use House-passed §163 to describe DoD procurement, lease or otherwise obtaining covered humanoid systems tied to foreign-adversary nations/entities, specified software/services or remote-control authority. Includes controlled-testing waiver and industrial, non-networked and regulated-medical exclusions. Applies to post-enactment contracts; bill received in Senate September 14 and is not enacted.",
+      "source": "bills/amendment-6312/119hr8800eh.txt §163; 119hr8800rh.txt §163; bills/BILLSTATUS-119hr8800.xml"
+    },
+    {
+      "item": "existing-policies-hr8189",
+      "severity": "high",
+      "issue": "Existing policies.json claims covered-entity list maintained by Commerce and DoD; introduced text defines covered entity by domicile/control and DHS/DoD determination, without that list requirement.",
+      "correction": "Correct existing seed in a future authorized edit; do not repeat invented list mechanism.",
+      "source": "docs/data/policies.json hr-8189-american-security-robotics; bills/119hr8189ih.txt §2(a)"
+    },
+    {
+      "item": "existing-policies-commission-budget",
+      "severity": "high",
+      "issue": "Existing commission policy has estimated budget $50 million; saved House introduced text contains no such funding amount.",
+      "correction": "Mark budget unsupported by this bill text; remove or independently source estimate. Commerce establishment and 18 members are supported.",
+      "source": "docs/data/policies.json hr-7334-national-commission-robotics; bills/119hr7334ih.txt"
+    },
+    {
+      "item": "existing-scsp-legislation-dates",
+      "severity": "medium",
+      "issue": "SCSP JSON dates Humanoid ROBOT Act to February 2026 secondary coverage and says American Security Robotics Act takes effect one year after enactment without separating procurement from operation.",
+      "correction": "Use S.3275 introduction November 20, 2025; H.R.8189/S.4235 procurement prohibition has no one-year delay, while operation and federal-funds prohibitions start after one year.",
+      "source": "docs/data/scsp-ai-robotics-2026.json legislation; bills/119s3275is.txt; bills/119hr8189ih.txt §2"
+    },
+    {
+      "item": "commission-distinction",
+      "severity": "low",
+      "issue": "SCSP commission and proposed National Commission on Robotics share terminology but different authority and timetable.",
+      "correction": "Keep SCSP nongovernmental commission separate from proposed statutory 18-member commission, whose reports run from establishment after enactment.",
+      "source": "docs/data/scsp-ai-robotics-2026.json commission; bills/119hr7334ih.txt"
+    },
+    {
+      "item": "exact-quotation-integrity",
+      "severity": "high",
+      "issue": "6 of 21 claimed exact quotes fail whitespace-normalized substring check.",
+      "correction": "Failures include ellipsis-stitched S.3275 passage, reformatted Gooden table row, March revised-notice quote without saved artifact, absent Doshi sentence, July comma spacing, and FCC capitalization. Replace or label unverified; retain verbatim punctuation/case.",
+      "source": "quote_checks"
+    },
+    {
+      "item": "existing-policies-guard-ndaa-scope",
+      "severity": "high",
+      "issue": "Existing GUARD record describes House NDAA §163 as China-only and a general procurement/leasing/operation prohibition. Saved House-engrossed operative clause prohibits procurement, lease or otherwise obtaining and defines foreign adversaries through covered nations, not China alone.",
+      "correction": "Use exact operative scope and foreign-adversary definition; do not present a separate blanket operation prohibition or enacted NDAA restriction.",
+      "source": "docs/data/policies.json guard-act-hr9129; bills/amendment-6312/119hr8800eh.txt §163(a),(e)"
+    }
+  ],
+  "quote_checks": [
+    {
+      "item": "american-security-robotics-act-2026",
+      "quote_index": 0,
+      "quote": "Except as provided under subsection (e), the head of an executive agency may not procure any covered unmanned ground vehicle system.",
+      "status": "verified",
+      "matching_files": [
+        "bills/119hr8189ih.txt",
+        "bills/119s4235is.txt"
+      ],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved."
+    },
+    {
+      "item": "american-security-robotics-act-2026",
+      "quote_index": 1,
+      "quote": "beginning on the date that is one year after the date of the enactment of this Act, no executive agency may operate a covered unmanned ground vehicle system.",
+      "status": "verified",
+      "matching_files": [
+        "bills/119hr8189ih.txt",
+        "bills/119s4235is.txt"
+      ],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved."
+    },
+    {
+      "item": "humanoid-robot-act-2025",
+      "quote_index": 0,
+      "quote": "A person awarded a contract by an executive agency may not use a humanoid robot designed, tested, developed, or manufactured by a covered entity to fulfill, execute, or otherwise support carrying out the contract.",
+      "status": "verified",
+      "matching_files": [
+        "bills/119s3275is.txt"
+      ],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved."
+    },
+    {
+      "item": "humanoid-robot-act-2025",
+      "quote_index": 1,
+      "quote": "the report required by subsection (a) shall include ... an analysis of the privacy and data security threats relating to the use of data of United States persons obtained through humanoid robots",
+      "status": "unverified",
+      "matching_files": [],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved.",
+      "correction": "Do not label exact/verbatim until replaced with a contiguous saved-source excerpt or supporting artifact is saved."
+    },
+    {
+      "item": "guard-act-2026",
+      "quote_index": 0,
+      "quote": "If the appropriate national security agency does not make a determination as required by paragraph (1) within 1 year after the enactment of this Act, the Commission shall add all covered robotics communications equipment or services to the covered list.",
+      "status": "verified",
+      "matching_files": [
+        "bills/119hr9129ih.txt"
+      ],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved."
+    },
+    {
+      "item": "guard-act-2026",
+      "quote_index": 1,
+      "quote": "H.R. 9129, H.R. 6152, H.R. 2805, and H.R. 4950 were forwarded to the full Committee, without amendment.",
+      "status": "verified",
+      "matching_files": [
+        "bills/CREC-2026-09-01-pt1-PgD855.txt"
+      ],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved."
+    },
+    {
+      "item": "blocking-ccp-spy-tech-act-2026",
+      "quote_index": 0,
+      "quote": "If an appropriate national security agency does not make a determination as required by subsection (a), the Commission shall, not later than 30 days after the date specified in subsection (a), add all communications equipment and services described in subsection (b) to the covered list.",
+      "status": "verified",
+      "matching_files": [
+        "bills/119hr9687ih.txt",
+        "bills/119s4586is.txt"
+      ],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved."
+    },
+    {
+      "item": "blocking-ccp-spy-tech-act-2026",
+      "quote_index": 1,
+      "quote": "the Secretary of Defense shall determine if any entity described in section 2(b) should be identified under such section 1260H(a) as a Chinese military company operating directly or indirectly in the United States.",
+      "status": "verified",
+      "matching_files": [
+        "bills/119hr9687ih.txt",
+        "bills/119s4586is.txt"
+      ],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved."
+    },
+    {
+      "item": "gooden-fy2027-ndaa-humanoid-robotics-provision",
+      "quote_index": 0,
+      "quote": "LOG ID 6312 | REV # 2 | SPONSOR Gooden | TYPE Bill | DESCRIPTION Prohibition on Chinese Humanoid Robotic Systems | MARKUP LOCATION CHM | MARKUP ACTION EB 1 | OUTCOME Agreed to by voice vote",
+      "status": "unverified",
+      "matching_files": [],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved.",
+      "correction": "Do not label exact/verbatim until replaced with a contiguous saved-source excerpt or supporting artifact is saved."
+    },
+    {
+      "item": "national-commission-on-robotics-act",
+      "quote_index": 0,
+      "quote": "The Commission shall carry out a review of advances in robotics.",
+      "status": "verified",
+      "matching_files": [
+        "bills/119hr7334ih.txt",
+        "bills/119s4686is.txt"
+      ],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved."
+    },
+    {
+      "item": "national-commission-on-robotics-act",
+      "quote_index": 1,
+      "quote": "Not later than two years after the date on which the Commission is established under subsection (a), the Commission shall submit to the appropriate congressional committees and the President a final report",
+      "status": "verified",
+      "matching_files": [
+        "bills/119hr7334ih.txt",
+        "bills/119s4686is.txt"
+      ],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved."
+    },
+    {
+      "item": "china-15fyp",
+      "quote_index": 0,
+      "quote": "推动量子科技、生物制造、氢能和核聚变能、脑机接口、具身智能、第六代移动通信等成为新的经济增长点。",
+      "status": "verified",
+      "matching_files": [
+        "plans-hearings/china-15th-five-year-plan-outline-official-alternative.html.txt"
+      ],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved."
+    },
+    {
+      "item": "china-15fyp",
+      "quote_index": 1,
+      "quote": "加快新一代信息技术、新能源、新材料、智能网联新能源汽车、机器人、生物医药、高端装备、航空航天等战略性新兴产业发展",
+      "status": "verified",
+      "matching_files": [
+        "plans-hearings/china-15th-five-year-plan-outline-official-alternative.html.txt"
+      ],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved."
+    },
+    {
+      "item": "hearing-2026-03-17",
+      "quote_index": 0,
+      "quote": "The Subcommittee will now meet at 2:00 p.m. EDT",
+      "status": "unverified",
+      "matching_files": [],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved.",
+      "correction": "Do not label exact/verbatim until replaced with a contiguous saved-source excerpt or supporting artifact is saved."
+    },
+    {
+      "item": "hearing-2026-03-17",
+      "quote_index": 1,
+      "quote": "This administration has made no secret of its desire to integrate AI into every aspect of government and industry.",
+      "status": "unverified",
+      "matching_files": [],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved.",
+      "correction": "Do not label exact/verbatim until replaced with a contiguous saved-source excerpt or supporting artifact is saved."
+    },
+    {
+      "item": "hearing-2026-04-21",
+      "quote_index": 0,
+      "quote": "No country can win the AI race without also leading in robotics.",
+      "status": "verified",
+      "matching_files": [
+        "plans-hearings/2026-04-21-testimony-2.pdf.txt"
+      ],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved."
+    },
+    {
+      "item": "hearing-2026-06-30",
+      "quote_index": 0,
+      "quote": "H.R. 7334, National Commission on Robotics Act",
+      "status": "verified",
+      "matching_files": [
+        "plans-hearings/2026-06-30-testimony-1.pdf.txt"
+      ],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved.",
+      "locator_note": "Matches Neil Chilson testimony, not the cited official hearing-page description; correct locator."
+    },
+    {
+      "item": "hearing-2026-07-22",
+      "quote_index": 0,
+      "quote": "H.R. 9129, GUARD Act (Reps. Moolenaar and McClellan)",
+      "status": "unverified",
+      "matching_files": [],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved.",
+      "correction": "Do not label exact/verbatim until replaced with a contiguous saved-source excerpt or supporting artifact is saved."
+    },
+    {
+      "item": "fcc-robotics-covered-list",
+      "quote_index": 0,
+      "quote": "foreign-produced advanced robotic devices, except advanced robotic devices which have been granted a Conditional Approval by DoW",
+      "status": "unverified",
+      "matching_files": [],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved.",
+      "correction": "Do not label exact/verbatim until replaced with a contiguous saved-source excerpt or supporting artifact is saved."
+    },
+    {
+      "item": "fcc-robotics-covered-list",
+      "quote_index": 1,
+      "quote": "pose an unacceptable risk to the national security of the United States and to the safety and security of U.S. persons",
+      "status": "verified",
+      "matching_files": [
+        "plans-hearings/fcc-da-26-786-2026-07-28-covered-list-notice.pdf.txt"
+      ],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved."
+    },
+    {
+      "item": "commerce-section-232-robotics",
+      "quote_index": 0,
+      "quote": "On September 2, 2025, the Secretary of Commerce initiated an investigation under Section 232 (19 U.S.C. 1862)",
+      "status": "verified",
+      "matching_files": [
+        "plans-hearings/commerce-section-232-robotics-2025-notice.pdf.txt"
+      ],
+      "method": "Exact substring after whitespace normalization only; case and punctuation preserved."
+    }
+  ],
+  "reruns_needed": [
+    "Fetch/save revised March hearing notice only if retaining 2pm quotation; remove Doshi sentence unless found in the correct source.",
+    "Replace six failed quotes with contiguous source text and rerun whitespace-normalized substring check.",
+    "Source corrections belong to parent; no seed/build data edited by validator."
+  ],
+  "completed_followups": [
+    "Parsed all nine official root bill/latestAction histories; current-status.json preserves dates and action text.",
+    "Read House-engrossed H.R.8800 §163; operative language now located. H.R.8800 is received in Senate, not enacted.",
+    "July 22 Robbins written testimony saved as plans-hearings/july22-robbins-testimony.pdf.txt; no transcript claim inferred."
+  ],
+  "parent_resolution": "Corrected dates, bill mechanisms, unsupported budget, scope and source metadata; retained 17 quotes all verified by final-quote-checks.json. Official bill action histories are saved. Gooden operative §163 and March/July transcripts subsequently retrieved; April/June repository rechecks found no transcript entries.",
+  "remaining_limitations": [
+    "Exact Gooden log-to-Section163 textual lineage not independently established.",
+    "April21 and June30 official transcripts/caption tracks not found; statements and video metadata saved."
+  ]
+}

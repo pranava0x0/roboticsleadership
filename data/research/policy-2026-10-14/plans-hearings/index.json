@@ -1,0 +1,301 @@
+[
+  {
+    "id": "china-15fyp",
+    "title": "Outline of the 15th Five-Year Plan for National Economic and Social Development",
+    "date": "2026-03-12",
+    "institution": "National People’s Congress; outline republished by Beijing Municipal People’s Congress",
+    "type": "National plan",
+    "source_urls": [
+      "https://www.bjrd.gov.cn/zyfb/zt/14jqgrd04chybjdbthdztbd/wjbg/202603/t20260314_4557219.html",
+      "https://www.bjrd.gov.cn/zyfb/zt/14jqgrd04chybjdbthdztbd/wjbg/202603/t20260313_4556146.html"
+    ],
+    "local_files": [
+      "china-15th-five-year-plan-outline-official-alternative.html",
+      "china-15th-five-year-plan-outline-official-alternative.html.txt",
+      "china-plan-adoption-resolution-excerpt.txt"
+    ],
+    "summary": "The 2026–2030 outline places robotics among strategic emerging industries and embodied intelligence among future industries. It directs AI-plus adoption, model/algorithm work including embodied AI, and real-world application pilots; the text is a broad planning framework rather than an appropriated robotics program.",
+    "mechanism": "Five-year national guidance: industrial prioritization, application demonstrations, future-industry pilots, and AI+ deployment.",
+    "limitations": "The plan names eight strategic emerging industries and six future-industry fields across the relevant clauses; it does not establish an official “10 industry tracks” count. No robotics-specific quantified national target in the plan text located.",
+    "exact_quotes": [
+      {
+        "quote": "推动量子科技、生物制造、氢能和核聚变能、脑机接口、具身智能、第六代移动通信等成为新的经济增长点。",
+        "locator": "Chapter 5, section 2 (future industries)"
+      },
+      {
+        "quote": "加快新一代信息技术、新能源、新材料、智能网联新能源汽车、机器人、生物医药、高端装备、航空航天等战略性新兴产业发展",
+        "locator": "Chapter 5, section 1"
+      }
+    ],
+    "captured_at": "2026-10-14"
+  },
+  {
+    "id": "hearing-2026-03-17",
+    "title": "DeepSeek and Unitree Robotics: Examining the National Security Risks of PRC Artificial Intelligence, Robotics, and Autonomous Technologies and Building a Secure U.S. Technology Base",
+    "date": "2026-03-17",
+    "institution": "House Homeland Security Committee, Subcommittee on Cybersecurity and Infrastructure Protection",
+    "type": "Congressional hearing",
+    "source_urls": [
+      "https://docs.house.gov/committee/calendar/ByEvent.aspx?EventID=118982",
+      "https://www.govinfo.gov/content/pkg/CHRG-119hhrg64201/html/CHRG-119hhrg64201.htm"
+    ],
+    "local_files": [
+      "hearing-2026-03-17-house-homeland-repository.html",
+      "hearing-2026-03-17-house-homeland-repository.html.txt",
+      "2026-03-17-testimony-max-fenkell.pdf",
+      "2026-03-17-testimony-matthew-malchano.pdf",
+      "2026-03-17-testimony-michael-robbins.pdf",
+      "2026-03-17-testimony-rush-doshi.pdf",
+      "2026-03-17-testimony-max-fenkell.pdf.txt",
+      "2026-03-17-testimony-matthew-malchano.pdf.txt",
+      "2026-03-17-testimony-michael-robbins.pdf.txt",
+      "2026-03-17-testimony-rush-doshi.pdf.txt",
+      "march17-official-hearing-transcript.htm",
+      "march17-official-hearing-transcript.txt"
+    ],
+    "summary": "Confirmed hearing at 2 p.m. EDT, rescheduled from 10 a.m. The session examined PRC AI/robotics security and the U.S. technology base; official repository lists four public witnesses and their written statements.",
+    "mechanism": "Oversight and public testimony; no legislation enacted by the hearing itself.",
+    "limitations": "Repository has witness statements, not an official hearing transcript. An official livestream was announced; no official video/transcript artifact appeared in the repository checked.",
+    "exact_quotes": [],
+    "witnesses": [
+      "Max Fenkell",
+      "Matthew Malchano",
+      "Michael Robbins",
+      "Rush Doshi"
+    ],
+    "transcript_availability": "Official published GPO transcript (Serial 119-42, CHRG-119hhrg64201), full text saved. Written statements archived separately.",
+    "captured_at": "2026-10-14",
+    "documents": [
+      {
+        "kind": "published_transcript",
+        "url": "https://www.govinfo.gov/content/pkg/CHRG-119hhrg64201/html/CHRG-119hhrg64201.htm",
+        "text_file": "march17-official-hearing-transcript.txt"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "id": "hearing-2026-04-21",
+    "title": "Robots Made in America: Advancing U.S. Leadership in Manufacturing and Automation",
+    "date": "2026-04-21",
+    "institution": "House Committee on Science, Space, and Technology, Subcommittee on Research and Technology",
+    "type": "Congressional hearing",
+    "source_urls": [
+      "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190",
+      "https://republicans-science.house.gov/2026/4/research-and-technology-subcommittee-hearing-robotics"
+    ],
+    "local_files": [
+      "hearing-2026-04-21-house-science.html",
+      "hearing-2026-04-21-house-science.html.txt",
+      "2026-04-21-testimony-1.pdf",
+      "2026-04-21-testimony-2.pdf",
+      "2026-04-21-testimony-3.pdf",
+      "2026-04-21-testimony-4.pdf",
+      "2026-04-21-testimony-5.pdf",
+      "2026-04-21-testimony-1.pdf.txt",
+      "2026-04-21-testimony-2.pdf.txt",
+      "2026-04-21-testimony-3.pdf.txt",
+      "2026-04-21-testimony-4.pdf.txt",
+      "2026-04-21-testimony-5.pdf.txt",
+      "april21-event-119190.html",
+      "april21-event-119190.html.txt",
+      "april21-govinfo-daily-digest.pdf",
+      "april21-govinfo-daily-digest.pdf.txt"
+    ],
+    "summary": "The subcommittee examined U.S. robotics manufacturing and automation leadership. The official page identifies four witnesses and links written testimony; a livestream link is present, but the page/repository reviewed did not offer an official transcript.",
+    "mechanism": "Policy oversight on manufacturing, workforce, innovation, adoption, and standards.",
+    "limitations": "Witness claims are testimony, not committee findings; no official transcript located.",
+    "exact_quotes": [
+      {
+        "quote": "No country can win the AI race without also leading in robotics.",
+        "locator": "Jeff Burnstein written testimony, p. 2"
+      }
+    ],
+    "witnesses": [
+      "Evan Beard (Standard Bots)",
+      "Jeff Burnstein (A3)",
+      "Michael Robbins (AUVSI)",
+      "Susan Helper (Case Western Reserve University)"
+    ],
+    "transcript_availability": "No transcript entry in official House repository Event 119190 and none found in a targeted GovInfo search. Official video available; captions endpoint listed no tracks. Four prepared witness statements and hearing charter saved; these are not a transcript.",
+    "captured_at": "2026-10-14",
+    "video_url": "https://www.youtube.com/watch?v=Lfh-EQ4OeOM"
+  },
+  {
+    "id": "hearing-2026-06-30",
+    "title": "American Global Competitiveness at 250: Legislative Proposals to Secure U.S. Technology Leadership",
+    "date": "2026-06-30",
+    "institution": "House Committee on Energy and Commerce, Subcommittee on Commerce, Manufacturing, and Trade",
+    "type": "Legislative hearing",
+    "source_urls": [
+      "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119423",
+      "https://energycommerce.house.gov/events/cmt-hearing-american-global-competitiveness-at-250-legislative-proposals-to-secure-u-s-technology-leadership"
+    ],
+    "local_files": [
+      "hearing-2026-06-30-house-energy-commerce.html",
+      "hearing-2026-06-30-house-energy-commerce.html.txt",
+      "2026-06-30-testimony-1.pdf",
+      "2026-06-30-testimony-2.pdf",
+      "2026-06-30-testimony-3.pdf",
+      "2026-06-30-testimony-4.pdf",
+      "2026-06-30-testimony-1.pdf.txt",
+      "2026-06-30-testimony-2.pdf.txt",
+      "2026-06-30-testimony-3.pdf.txt",
+      "2026-06-30-testimony-4.pdf.txt",
+      "june30-event-119423.html",
+      "june30-event-119423.html.txt",
+      "june30-govinfo-daily-digest.pdf",
+      "june30-govinfo-daily-digest.pdf.txt"
+    ],
+    "summary": "The hearing considered a slate of technology and competitiveness bills, including H.R. 7334, the National Commission on Robotics Act. Four witnesses included Boston Dynamics chief legal officer Jason Fiorillo; it was not a robotics-only hearing.",
+    "mechanism": "Legislative examination of proposed bills; hearing itself did not enact them.",
+    "limitations": "The “10 industry tracks” framing is not corroborated here; the page lists multiple bills and broad technology competitiveness themes. Witness claims are advocacy/testimony.",
+    "exact_quotes": [
+      {
+        "quote": "H.R. 7334, National Commission on Robotics Act",
+        "locator": "Neil Chilson written testimony (bill list)"
+      }
+    ],
+    "witnesses": [
+      "Neil Chilson (Abundance Institute)",
+      "Jason Fiorillo (Boston Dynamics)",
+      "Marty Durbin (U.S. Chamber of Commerce)",
+      "Jedidah Isler (Federation of American Scientists)"
+    ],
+    "transcript_availability": "No transcript entry in official House repository Event 119423. Official video available; captions endpoint listed no tracks. Four prepared witness statements saved separately.",
+    "captured_at": "2026-10-14",
+    "video_url": "https://www.youtube.com/watch?v=Ajc2mReIpCM"
+  },
+  {
+    "id": "hearing-2026-07-22",
+    "title": "Legislative Hearing on Protecting Communications Networks and Improving Connectivity",
+    "date": "2026-07-22",
+    "institution": "House Committee on Energy and Commerce, Subcommittee on Communications and Technology",
+    "type": "Legislative hearing",
+    "source_urls": [
+      "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119488",
+      "https://energycommerce.house.gov/posts/chairmen-guthrie-and-hudson-announce-hearing-on-protecting-communications-networks-and-improving-connectivity"
+    ],
+    "local_files": [
+      "hearing-2026-07-22-house-energy-commerce-notice.html",
+      "hearing-2026-07-22-house-energy-commerce-notice.html.txt",
+      "july22-robbins-testimony.pdf",
+      "july22-robbins-testimony.pdf.txt",
+      "july22-house-repository.html",
+      "HHRG-119-IF16-Transcript-20260722.pdf",
+      "HHRG-119-IF16-Transcript-20260722.pdf.txt",
+      "HHRG-119-IF16-Wstate-GormanL-20260722.pdf",
+      "HHRG-119-IF16-Wstate-GormanL-20260722.pdf.txt",
+      "HHRG-119-IF16-Wstate-RobbinsM-20260722.pdf",
+      "HHRG-119-IF16-Wstate-RobbinsM-20260722.pdf.txt",
+      "HHRG-119-IF16-Wstate-RupyK-20260722.pdf",
+      "HHRG-119-IF16-Wstate-RupyK-20260722.pdf.txt",
+      "HHRG-119-IF16-Wstate-VonAhA-20260722.pdf",
+      "HHRG-119-IF16-Wstate-VonAhA-20260722.pdf.txt"
+    ],
+    "summary": "The subcommittee considered several communications bills, including H.R. 9129 (GUARD Act), which would direct scrutiny of foreign adversary robotics. Four witnesses were listed; AUVSI’s Michael Robbins was the robotics-relevant witness.",
+    "mechanism": "Legislative hearing on proposals; GUARD Act at this point was proposed legislation.",
+    "limitations": "The Select Committee press release describes a potential import prohibition in the proposed bill; that is not itself an FCC Covered List action or enacted restriction.",
+    "exact_quotes": [],
+    "witnesses": [
+      "Michael Robbins (AUVSI)",
+      "Kevin Rupy (Wiley Rein LLP)",
+      "Andrew Von Ah (GAO)",
+      "Lindsay Gorman (former White House advisor)"
+    ],
+    "transcript_availability": "Official unedited hearing transcript posted July 31, 2026 in House repository; full text saved. Prepared witness statements separately archived.",
+    "testimony_sources": [
+      {
+        "witness": "Michael Robbins",
+        "url": "https://democrats-energycommerce.house.gov/sites/evo-subsites/democrats-energycommerce.house.gov/files/evo-media-document/witness-testimony_robbins_cat_07.22.26.pdf",
+        "text_file": "july22-robbins-testimony.pdf.txt"
+      }
+    ],
+    "captured_at": "2026-10-14",
+    "documents": [
+      {
+        "url": "https://docs.house.gov/meetings/IF/IF16/20260722/119488/HHRG-119-IF16-Transcript-20260722.pdf",
+        "file": "HHRG-119-IF16-Transcript-20260722.pdf",
+        "text_file": "HHRG-119-IF16-Transcript-20260722.pdf.txt",
+        "kind": "unedited_transcript"
+      },
+      {
+        "url": "https://docs.house.gov/meetings/IF/IF16/20260722/119488/HHRG-119-IF16-Wstate-GormanL-20260722.pdf",
+        "file": "HHRG-119-IF16-Wstate-GormanL-20260722.pdf",
+        "text_file": "HHRG-119-IF16-Wstate-GormanL-20260722.pdf.txt",
+        "kind": "written_testimony"
+      },
+      {
+        "url": "https://docs.house.gov/meetings/IF/IF16/20260722/119488/HHRG-119-IF16-Wstate-RobbinsM-20260722.pdf",
+        "file": "HHRG-119-IF16-Wstate-RobbinsM-20260722.pdf",
+        "text_file": "HHRG-119-IF16-Wstate-RobbinsM-20260722.pdf.txt",
+        "kind": "written_testimony"
+      },
+      {
+        "url": "https://docs.house.gov/meetings/IF/IF16/20260722/119488/HHRG-119-IF16-Wstate-RupyK-20260722.pdf",
+        "file": "HHRG-119-IF16-Wstate-RupyK-20260722.pdf",
+        "text_file": "HHRG-119-IF16-Wstate-RupyK-20260722.pdf.txt",
+        "kind": "written_testimony"
+      },
+      {
+        "url": "https://docs.house.gov/meetings/IF/IF16/20260722/119488/HHRG-119-IF16-Wstate-VonAhA-20260722.pdf",
+        "file": "HHRG-119-IF16-Wstate-VonAhA-20260722.pdf",
+        "text_file": "HHRG-119-IF16-Wstate-VonAhA-20260722.pdf.txt",
+        "kind": "written_testimony"
+      }
+    ]
+  },
+  {
+    "id": "fcc-robotics-covered-list",
+    "title": "FCC Public Safety and Homeland Security Bureau Announces Addition of Foreign-Produced Power Inverters and Advanced Robotic Devices to FCC Covered List",
+    "date": "2026-07-28",
+    "institution": "Federal Communications Commission",
+    "type": "Public notice",
+    "source_urls": [
+      "https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf"
+    ],
+    "local_files": [
+      "fcc-da-26-786-2026-07-28-covered-list-notice.pdf",
+      "fcc-da-26-786-2026-07-28-covered-list-notice.pdf.txt"
+    ],
+    "summary": "FCC added foreign-produced advanced robotic devices to its Covered List, except devices receiving DoW Conditional Approval. It relied on an Executive Branch interagency National Security Determination that such devices posed unacceptable national-security and U.S.-person safety/security risks.",
+    "mechanism": "Secure Networks Act Section 2 / FCC equipment-authorization and subsidy restrictions, based on the Executive Branch interagency determination attached as Appendix C to DA 26-786. Covered devices include network-capable mobile ground robots; exclusions and Department of War conditional approval matter.",
+    "limitations": "This is a device-category supply-chain/equipment authorization mechanism; it is separate from Commerce Section 232 import investigation. The September 2026 FCC notice later describes conditional approvals.",
+    "exact_quotes": [
+      {
+        "quote": "Foreign-produced advanced robotic devices, except advanced robotic devices which have been granted a Conditional Approval by DoW",
+        "locator": "DA 26-786, Covered List addition (July 28, 2026)"
+      },
+      {
+        "quote": "pose an unacceptable risk to the national security of the United States and to the safety and security of U.S. persons",
+        "locator": "DA 26-786, national security determination summary"
+      }
+    ],
+    "captured_at": "2026-10-14"
+  },
+  {
+    "id": "commerce-section-232-robotics",
+    "title": "Notice of Request for Public Comments on Section 232 National Security Investigation of Imports of Robotics and Industrial Machinery",
+    "date": "2025-09-26 (investigation initiated 2025-09-02)",
+    "institution": "U.S. Department of Commerce, Bureau of Industry and Security",
+    "type": "Federal Register notice",
+    "source_urls": [
+      "https://public-inspection.federalregister.gov/2025-18749.pdf",
+      "https://www.federalregister.gov/d/2025-18749"
+    ],
+    "local_files": [
+      "commerce-section-232-robotics-2025-notice.pdf",
+      "commerce-section-232-robotics-2025-notice.pdf.txt"
+    ],
+    "summary": "Commerce initiated a Section 232 investigation into national-security effects of imports of robotics and industrial machinery, parts and components. BIS requested public comments on domestic production, supply concentration, subsidies, import reliance, tariffs/quotas, employment and security risks.",
+    "mechanism": "Trade Expansion Act Section 232 investigation under 19 U.S.C. §1862; distinct trade/import review potentially informing trade measures.",
+    "limitations": "This is not the FCC Covered List action and does not itself establish the July 2026 foreign-produced advanced-device FCC restriction. Scope includes industrial machinery; excludes UAS.",
+    "exact_quotes": [
+      {
+        "quote": "On September 2, 2025, the Secretary of Commerce initiated an investigation under Section 232 (19 U.S.C. 1862)",
+        "locator": "Federal Register notice, p. 1"
+      }
+    ],
+    "captured_at": "2026-10-14"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "id": "blocking-ccp-spy-tech-act-2026",
+  "title": "Blocking CCP Spy Tech Act of 2026",
+  "number": [
+    "H.R. 9687",
+    "S. 4586"
+  ],
+  "date": {
+    "H.R. 9687": "2026-07-14",
+    "S. 4586": "2026-05-20"
+  },
+  "sponsor": {
+    "H.R. 9687": "Rep. Scott Perry",
+    "S. 4586": "Sen. Rick Scott (introduced for himself and Sen. Tom Cotton)"
+  },
+  "committee": {
+    "H.R. 9687": "House Committees on Energy and Commerce and Armed Services",
+    "S. 4586": "Senate Select Committee on Intelligence"
+  },
+  "status": "H.R. 9687: 2026-07-14 — Referred to the Committee on Energy and Commerce, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.; S. 4586: 2026-05-20 — Read twice and referred to the Select Committee on Intelligence.",
+  "status_as_of": "2026-10-14",
+  "source_urls": [
+    "https://www.govinfo.gov/content/pkg/BILLS-119hr9687ih/html/BILLS-119hr9687ih.htm",
+    "https://www.govinfo.gov/content/pkg/BILLS-119s4586is/html/BILLS-119s4586is.htm"
+  ],
+  "local_files": [
+    "119hr9687ih.htm",
+    "119hr9687ih.txt",
+    "119hr9687ih.xml",
+    "119hr9687ih.pdf",
+    "119s4586is.htm",
+    "119s4586is.txt",
+    "119s4586is.xml",
+    "119s4586is.pdf"
+  ],
+  "summary": "Requires an appropriate national-security agency to assess within one year whether communications equipment or services produced/provided by six named entities and their specified affiliates, joint ventures, or licensees pose an unacceptable national-security or U.S.-person safety/security risk. A positive determination triggers FCC addition to its covered list; if the agency misses the deadline, the FCC must add all listed entities’ covered products/services. A negative determination triggers reporting and follow-on review by other national-security agencies. Both introduced versions also direct the Defense Secretary to determine whether named entities should be identified as Chinese military companies under the annual NDAA review.",
+  "mechanism_scope_limitations": "The House text names Game Science, DeepSeek, Unitree Robotics, DEEP Robotics, BrainCo, and Manycore Tech, and defined related entities. The Senate bill has the same short title and central review/list mechanism; both introduced texts include a DoD Chinese-military-company determination section. The core effect is risk assessment and possible FCC covered-list restrictions, not a general private possession ban.",
+  "quotes": [
+    {
+      "quote": "If an appropriate national security agency does not make a determination as required by subsection (a), the Commission shall, not later than 30 days after the date specified in subsection (a), add all communications equipment and services described in subsection (b) to the covered list.",
+      "reference": "H.R. 9687, § 2(c)(1)"
+    },
+    {
+      "quote": "the Secretary of Defense shall determine if any entity described in section 2(b) should be identified under such section 1260H(a) as a Chinese military company operating directly or indirectly in the United States.",
+      "reference": "H.R. 9687, § 3"
+    }
+  ],
+  "unresolved_discrepancies": [],
+  "captured_at": "2026-10-14",
+  "latest_actions": [
+    {
+      "number": "H.R. 9687",
+      "date": "2026-07-14",
+      "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9687.xml",
+      "local_file": "BILLSTATUS-119hr9687.xml"
+    },
+    {
+      "number": "S. 4586",
+      "date": "2026-05-20",
+      "text": "Read twice and referred to the Select Committee on Intelligence.",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4586.xml",
+      "local_file": "BILLSTATUS-119s4586.xml"
+    }
+  ]
+}
