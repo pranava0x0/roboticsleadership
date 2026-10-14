@@ -278,3 +278,7 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 - **Fix:** <what changed; commit hash>
 - **Regression test:** <added? skipped? why?>
 ```
+
+### 2026-10-14 — SCSP report citations and independent loading — Fixed
+
+Expected each cited claim to expose its PDF page and the summit to survive an independent report-fetch failure. Additional context pages and bio sources were hidden, citation targets were under 44px, and a shared Promise.all blanked the summit when only the report failed. The fix links every cited page, exposes all bio sources, corrects the finding range and Leaderdrive attribution, and isolates report loading. Regression checks in commission-report.test.js cover page targets, note destinations, actual failed-fetch wiring and the speaker sheet; mobile browser checks confirm 44px links and preserved report hash.
