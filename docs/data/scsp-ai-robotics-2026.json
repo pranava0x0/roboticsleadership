@@ -2442,7 +2442,7 @@
      "topic": "Pre-set consortia and the full stack",
      "speaker": "Teddy Bretschger",
      "said": "A company can bid for the whole stack alone or with partners as a pre-set consortium. Applications are closed, and the first designations will be announced shortly. He said this is all public.",
-     "check": "Confirmed. The call opened April 1 and closed June 30, 2026 (91 FR 18412). Commerce reviews on a rolling basis: a completeness check within 14 business days, then a designation decision within 60 days. The stack has five layers: AI hardware, data pipelines and labeling, models and systems, security, and applications. I found no published designations as of Oct 14. The Federal Register calls it the American AI Exports Program; the program's own site now brands it the American SI Exports Program, which matches your notes.",
+     "check": "Confirmed. The call opened April 1 and closed June 30, 2026 (91 FR 18412). Commerce reviews on a rolling basis and says it intends a completeness check within 14 business days, then a designation decision within 60 days. The stack has five layers: AI hardware, data pipelines and labeling, models and systems, security, and applications. I found no published designations as of Oct 14. The Federal Register calls it the American AI Exports Program; the program's own site now brands it the American SI Exports Program.",
      "sources": [
       "https://www.federalregister.gov/documents/2026/04/10/2026-06952/american-ai-exports-program-call-for-proposals-for-pre-set-consortia",
       "https://siexports.gov/faq",
@@ -2453,7 +2453,7 @@
      "topic": "An on-demand track for partial stacks",
      "speaker": "Teddy Bretschger",
      "said": "An on-demand program will be announced shortly. It matters more for robotics, because a company may cover only part of the stack rather than all five layers.",
-     "check": "The track exists. Commerce's March 16 release says on-demand consortia form for a specific opportunity the program identifies and need cover only the layers that deal requires. I found no separate on-demand call issued yet. That it suits robotics is his view.",
+     "check": "The track exists. Commerce's March 16 release says on-demand consortia form for a specific opportunity the program identifies and need cover only the layers that deal requires, with one selection process for both kinds. The Federal Register call covers pre-set consortia only, and I found no separate on-demand call. That it suits robotics is his view.",
      "sources": [
       "https://www.trade.gov/press-release/department-commerce-announces-new-american-ai-exports-program-phase",
       "https://siexports.gov/faq"
@@ -2463,7 +2463,7 @@
      "topic": "Small businesses and demand signals",
      "speaker": "Teddy Bretschger",
      "said": "The program could suit small and mid-size firms and responds to demand signals from specific areas. Support is priority advocacy, licensing and US government financing.",
-     "check": "The three supports are confirmed. The notes' small-business point I could not source: I found no provision aimed at small firms. 'Demand signals' fits the on-demand design, where the program identifies the opportunity first.",
+     "check": "The three supports are confirmed, each conditional on the US interest and none guaranteed. I found no provision aimed specifically at small firms. 'Demand signals' fits the on-demand design, where the program identifies the opportunity first.",
      "sources": [
       "https://siexports.gov/faq",
       "https://www.trade.gov/press-release/department-commerce-announces-new-american-ai-exports-program-phase"
@@ -2473,7 +2473,7 @@
      "topic": "Financing partners",
      "speaker": "Teddy Bretschger",
      "said": "ITA is working with EXIM and other agencies on financing, bringing resources together for the export program.",
-     "check": "EXIM is confirmed: its ExportAI Initiative offers guarantees and direct loans and eases content-certification rules for exports Commerce designates. Federal financing is 'priority routing' of referrals, and each agency keeps its own authority and underwriting standards. The 'OSC' in the notes could be DoD's Office of Strategic Capital, but I found no source linking it to the program.",
+     "check": "EXIM is confirmed: its ExportAI Initiative offers guarantees and direct loans and eases content-certification rules for exports Commerce designates. Federal financing is 'priority routing' of referrals, and each agency keeps its own authority and underwriting standards. An 'OSC' (possibly DoD's Office of Strategic Capital) is not linked to the program in any source I found.",
      "sources": [
       "https://www.exim.gov/about/special-initiatives/export-ai-initiative",
       "https://siexports.gov/faq"
@@ -2481,7 +2481,7 @@
     }
    ],
    "open_items": [
-    "His services portfolio remarks were missed",
+    
     "Which agencies besides EXIM were named",
     "When the first designations and the on-demand call will be published"
    ]
