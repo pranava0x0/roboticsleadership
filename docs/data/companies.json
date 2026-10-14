@@ -9514,5 +9514,152 @@
       "details": "$5M late seed; reports $500,000 of signed contracts. Investors not named in the source."
     },
     "map_category": "industrial"
+  },
+  {
+    "id": "mind-robotics",
+    "name": "Mind Robotics",
+    "founded": "2025",
+    "hq": {
+      "city": "Palo Alto",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.mindrobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Seed",
+        "amount_usd": 115000000,
+        "valuation_usd": null,
+        "investors": [
+          "Eclipse"
+        ],
+        "url": "https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-03",
+        "round": "Growth",
+        "amount_usd": 500000000,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-05",
+        "round": "Growth",
+        "amount_usd": 400000000,
+        "valuation_usd": null,
+        "investors": [
+          "Kleiner Perkins",
+          "Volkswagen",
+          "Salesforce Ventures"
+        ],
+        "url": "https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 1015000000,
+    "latest_valuation_usd": 3000000000,
+    "robot_types": [
+      "industrial"
+    ],
+    "primary_use_case": "purpose-built industrial robots and a full-stack manufacturing system on foundation models",
+    "flagship_product": "Not disclosed",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [],
+    "ceo": "RJ Scaringe",
+    "tags": [
+      "us",
+      "industrial",
+      "rivian-spinout"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      "https://techcrunch.com/2026/10/13/rivians-startup-mind-robotics-hires-former-ford-ev-chief-doug-field/"
+    ],
+    "last_updated": "2026-10-14",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "map_category": "industrial"
+  },
+  {
+    "id": "promise-robotics",
+    "name": "Promise Robotics",
+    "founded": "2021",
+    "hq": {
+      "city": "Toronto",
+      "state": null,
+      "country": "Canada"
+    },
+    "website": "https://www.promiserobotics.com",
+    "funding_rounds": [],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "factory automation"
+    ],
+    "primary_use_case": "Factory-as-a-Service robotic production of homebuilding components",
+    "flagship_product": "Factory-as-a-Service",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "canada",
+      "construction"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      "https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/"
+    ],
+    "last_updated": "2026-10-14",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "map_category": "industrial"
+  },
+  {
+    "id": "industrial-next",
+    "name": "Industrial Next",
+    "founded": "2021",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://industrialnext.ai",
+    "funding_rounds": [],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "industrial"
+    ],
+    "primary_use_case": "self-contained robotic stations that retool for new tasks in minutes",
+    "flagship_product": "Not disclosed",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "us",
+      "industrial",
+      "manufacturing"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/"
+    ],
+    "last_updated": "2026-10-14",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "map_category": "industrial"
   }
 ]
