@@ -4,6 +4,12 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-10-14 (SCSP summit talk notes)
+
+- [ ] **(high) Bring the summit talk notes into the SCSP summit tab.** Four fact-checked notes are in `data/research/talk-2026-10-14-*.md`: the Deployment Moat panel, the FANUC America demo, From Pilot to Scale, and Trusted Scale. Add a "What was said" block to each session on `scsp-summit.html`: 3–5 key claims, each with its verdict and source, plus the speaker's interest. Link each claim to the matching finding and page in the commission report (`scsp-robotics-commission-2026.json`); every note ends with that mapping table. Put the data in `scsp-ai-robotics-2026.json` (a `notes` field per session), not in the HTML. Keep it attributed and descriptive: these are first-hand notes, so mark them "attendee notes" and cite primary sources for any number. Don't publish the unverified figures (Baratta's 15%/3x/2x, MxD's 10K/200K, Robbins's $20B, Beard's 6-month payback) without a source.
+- [ ] **(medium) Add the bills and standards these talks surfaced to `policies.json`:** the Humanoid ROBOT Act (S. 3275), the Robotics Supply Chain Improvement Act (S. 5310), the Senate National Commission on Robotics Act (S. 4686), and ISO 25785-1 (committee draft, ISO/TC 299 WG 12). Also the March 17 House Homeland and April 21 House Science robotics hearings as news records. (This overlaps with the 2026-10-11 "commission bills" item; do both together.)
+- [ ] **(low) Track RaaS data-ownership terms.** No published standard exists. The norm is that the customer keeps title and the vendor gets a broad license. Worth a theme note if a vendor publishes terms.
+
 ## ▶ Added 2026-10-14 (theme pass)
 
 - [ ] **(medium) `--country-us` / `--country-cn` chart tokens.** Charts colour China with `--status-negative` and the US with `--cat-supplychain`, which mixes country with status and editorially reads "China = negative".
