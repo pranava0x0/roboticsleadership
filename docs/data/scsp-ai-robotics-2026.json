@@ -169,9 +169,9 @@
   {
    "title": "GUARD Act (H.R. 9129)",
    "date": "2026-06-03",
-   "sponsor": "Rep. Moolenaar (R-MI) with Obernolte, McClellan (per AI Insider)",
-   "summary": "National security agencies review humanoid and quadruped robots from China/foreign adversaries; unacceptable-risk robots go on FCC Covered List; unreviewed within 1 year auto-listed.",
-   "url": "https://theaiinsider.tech/2026/06/05/us-lawmakers-introduce-legislation-to-establish-national-robotics-strategy-regulate-robotics-from-china/",
+   "sponsor": "Reps. John Moolenaar (R-MI), Jay Obernolte (R-CA), Jennifer McClellan (D-VA)",
+   "summary": "National security agencies review humanoid and quadruped robots from China and other foreign adversaries; platforms judged an unacceptable risk go on the FCC Covered List, and any not reviewed within one year are listed automatically. Referred to House Energy and Commerce; its Communications and Technology subcommittee forwarded it on 2026-09-01. A DoD-only version, Sec. 163, is in the House-passed FY2027 NDAA (H.R. 8800).",
+   "url": "https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-obernolte-mcclellan-introduce-legislation-to-ban-dangerous-chinese-robots",
    "site_record_id": "guard-act-hr9129"
   },
   {
@@ -183,18 +183,18 @@
    "site_record_id": null
   },
   {
-   "title": "American Security Robotics Act (H.R. 8189)",
-   "date": "2026",
-   "sponsor": "Reported (DLA Piper) as Sens. Cotton and Schumer, Rep. Stefanik",
-   "summary": "Bar federal procurement/operation of robots or AVs from foreign adversary entities.",
-   "url": "https://www.dlapiper.com/en-us/insights/publications/2025/12/congressional-robotics-caucus",
+   "title": "American Security Robotics Act",
+   "date": "2026-03-26",
+   "sponsor": "Sens. Tom Cotton (R-AR) and Chuck Schumer (D-NY); House companion Rep. Elise Stefanik (R-NY)",
+   "summary": "Bars federal agencies from buying or operating unmanned ground vehicle systems (explicitly including humanoid robots and autonomous patrol technology) made by covered foreign entities such as Chinese firms; takes effect one year after enactment. DLA Piper lists the House number as H.R. 8189; the Cotton release gives no number, and the site's policy record names a different House sponsor (Rep. Harrigan), so the House sponsor is unresolved.",
+   "url": "https://www.cotton.senate.gov/news/press-releases/cotton-schumer-introduce-bipartisan-bill-to-protect-americans-data-from-foreign-adversaries",
    "site_record_id": "hr-8189-american-security-robotics"
   },
   {
    "title": "Congressional Robotics Caucus (relaunched 2025)",
    "date": "2025-05",
    "sponsor": "Reps. McGovern, Latta, Obernolte, Stevens",
-   "summary": "Bipartisan caucus; goals include national robotics strategy, international standards, worker protections.",
+   "summary": "Bipartisan House caucus; goals include a national robotics strategy, international standards, worker protections. Co-chairs McGovern (D-MA), Latta (R-OH), Obernolte (R-CA), Stevens (D-MI). Members listed by DLA Piper: Bishop (D-GA), Fry (R-SC), Gillen (D-NY), Lee (D-PA), Salinas (D-OR), Schakowsky (D-IL), Suozzi (D-NY), B. Thompson (D-MS), G. Thompson (R-PA). House-only: no senator is listed, and Slotkin is on the SCSP commission, not the caucus.",
    "url": "https://www.dlapiper.com/en-us/insights/publications/2025/12/congressional-robotics-caucus",
    "site_record_id": null
   },
@@ -236,6 +236,38 @@
    "sponsor": "Office of the Under Secretary of War, ManTech",
    "summary": "Ten projects at 12 military manufacturing sites. Not announced by Cadenazzi's office.",
    "url": "https://www.robotics247.com/article/arm-institute-modernizes-military-manufacturing-sites-with-nearly-90m-in-funds",
+   "site_record_id": null
+  },
+  {
+   "title": "FCC adds foreign-produced robots and power inverters to the Covered List",
+   "date": "2026-07-28",
+   "sponsor": "FCC, on a national security determination from an interagency body",
+   "summary": "Covers mobile ground robots (autonomous mobile robots, humanoids, quadrupeds); fixed factory arms, connected vehicles, medical devices and drones are excluded. 'Foreign-produced' means anything that is not a Buy American 'domestic end product', whatever the country, so allied-made robots are covered; DoD can grant conditional approvals. Devices already authorized are unaffected.",
+   "url": "https://www.clearytradewatch.com/2026/08/fcc-adds-foreign-produced-robotics-power-inverters-to-covered-list-house-ndaa-targets-foreign-adversary-humanoid-robots/",
+   "site_record_id": null
+  },
+  {
+   "title": "Communications and Technology Transparency Act of 2026 (title per BillTrack50; number unconfirmed)",
+   "date": "2026-09",
+   "sponsor": "Reps. Brett Guthrie (R-KY, E&C chair) and Frank Pallone (D-NJ, ranking member)",
+   "summary": "Gives the Energy and Commerce Committee more oversight of the FCC Covered List. A machine-generated summary says it would widen the list's scope from communications equipment to information and communications technology and require updates at least every six months; verify against the bill text. Reports date the filing 2026-09-16 or 2026-09-24.",
+   "url": "https://broadbandbreakfast.com/guthrie-pallone-introduce-bill-to-increase-oversight-of-fcc-covered-list/",
+   "site_record_id": null
+  },
+  {
+   "title": "Future of Defense Manufacturing Act (S. 2214)",
+   "date": "2025-07-08",
+   "sponsor": "Sen. Elissa Slotkin (D-MI)",
+   "summary": "Bars DoD from buying or operating additive-manufacturing (3D printing) machines made or controlled by entities in China, Iran, North Korea or Russia, and sets up regional dual-use advanced manufacturing hubs. Slotkin's office says it was folded into the Senate FY2026 NDAA; the enacted text was not checked.",
+   "url": "https://policysoup.com/bills/s2214-119",
+   "site_record_id": null
+  },
+  {
+   "title": "Connected Vehicle Security Act of 2026 (S. 4429; House companion H.R. 8730)",
+   "date": "2026-04-29",
+   "sponsor": "Sens. Bernie Moreno (R-OH) and Elissa Slotkin (D-MI); House: Rep. Moolenaar",
+   "summary": "Would write into statute a ban on connected vehicles, software and hardware from China and other foreign adversaries (software from 2027, hardware from 2030). Senate Commerce approved it by voice vote 2026-07-22; reports conflict on whether the full Senate has passed it, and a unanimous-consent attempt was blocked by Sen. Rand Paul.",
+   "url": "https://www.asashop.org/2026/07/23/senate-commerce-science-and-transportation-committee-advances-connected-vehicle-security-act/",
    "site_record_id": null
   }
  ],
@@ -2248,5 +2280,107 @@
    "url": "https://bsky.app/profile/newsen.bsky.social/post/3mxrqikbteh2w",
    "summary": "Bluesky news account shared coverage of the Commission's preliminary report."
   }
- ]
+ ],
+ "hill_session": {
+  "title": "The Hill's Robotics Agenda",
+  "time": "12:50",
+  "panelists": [
+   "grace-kim",
+   "charlie-mlcek",
+   "tony-samp"
+  ],
+  "note": "Paraphrased from live notes, not a transcript. These are staff remarks, not Member positions. Each point is checked against public sources; the check is shown beside it.",
+  "committees": [
+   "Sen. Slotkin: Armed Services (ranking member, Emerging Threats and Capabilities), Homeland Security and Governmental Affairs, Agriculture, Veterans' Affairs",
+   "Rep. Latta: Energy and Commerce; chairs the Energy subcommittee and sits on Communications and Technology, the panel that handled the GUARD Act",
+   "Rep. Obernolte: chairs Science, Space, and Technology's Research and Technology subcommittee; also on Energy and Commerce",
+   "Rep. Guthrie: chairs Energy and Commerce, which oversees the FCC and its Covered List",
+   "Commission bills: H.R. 7334 went to Science, Energy and Commerce, Foreign Affairs and Education and Workforce; S. 4686 went to Senate Commerce"
+  ],
+  "committee_sources": [
+   "https://breakingdefense.com/2025/10/whos-who-in-defense-elissa-slotkin-ranking-member-senate-armed-services-sasc-subcommittee-on-emerging-threats-and-capabilities/",
+   "https://energycommerce.house.gov/posts/chairman-guthrie-announces-119th-energy-and-commerce-republican-subcommittee-assignments",
+   "https://obernolte.house.gov/media/press-releases/rep-jay-obernolte-named-chairman-key-science-subcommittee-will-lead-ai-and"
+  ],
+  "points": [
+   {
+    "topic": "Jobs and the Toledo-area district",
+    "speaker": "Charlie Mlcek",
+    "said": "Latta's district around Toledo is a very large manufacturing district with a robotics hub. Openings outnumber qualified workers, and the office expects robotics to add jobs. Latta co-chairs the Robotics Caucus.",
+    "check": "Confirmed: Latta (OH-5) is one of four caucus co-chairs. The 86,000-jobs figure is Latta's own, from an undated statement; other sources give 60,000 to 77,000. Treat it as roughly 60,000 to 86,000.",
+    "sources": [
+     "https://www.dlapiper.com/en-us/insights/publications/2025/12/congressional-robotics-caucus",
+     "https://wfin.com/local-news/congressman-latta-speaks-in-findlay/",
+     "https://nam.org/rep-latta-touts-tax-reform-benefits-for-workers-at-kalmbach-feeds/"
+    ]
+   },
+   {
+    "topic": "A national strategy from the commission, not the statute",
+    "speaker": "Grace Kim",
+    "said": "Congress's own commission bill is slow, so Slotkin co-chairs SCSP's commission to move first. The office hopes a national strategy comes out of its report.",
+    "check": "Corrected: SCSP's final report is due March 2027; a preliminary report came out 2026-10-13. The statutory National Commission on Robotics Act (H.R. 7334, S. 4686) has not advanced, and the SCSP commission is not a congressional body.",
+    "sources": [
+     "https://www.dlapiper.com/en-us/insights/publications/2025/12/congressional-robotics-caucus",
+     "https://www.scsp.ai/2026/03/scsp-announces-launch-of-national-security-commission-on-robotics-for-advanced-manufacturing/"
+    ]
+   },
+   {
+    "topic": "Where robots land, not just where they are built",
+    "speaker": "Grace Kim",
+    "said": "Every state matters, including those that only deploy robots or feel the effects, and she sees parallels to data-center pushback. She also stressed safety and trust.",
+    "check": "Attributed opinion; nothing to check. Kim's three priorities: prepare the workforce, get security and safeguards right, and fix the messaging.",
+    "sources": []
+   },
+   {
+    "topic": "Security, agents and privacy",
+    "speaker": "Charlie Mlcek",
+    "said": "Worried about AI agents hacking deployed robots; wants an assurance and security focus for the caucus, updated privacy law (a parallel to IoT), capturing the upside and raising wages.",
+    "check": "Attributed opinion. Related: Samp's firm published a note on Sen. Warner's draft on securing AI agents (2026-07-01). The notes also mention a Hugging Face parallel from both staffers; that point is too unclear to publish.",
+    "sources": [
+     "https://www.dlapiper.com/en/people/s/samp-tony"
+    ]
+   },
+   {
+    "topic": "Procurement bill",
+    "speaker": "Charlie Mlcek",
+    "said": "Backs the procurement bill Stefanik carries.",
+    "check": "Corrected: the name is the American Security Robotics Act, not 'American Strategic Security Robotics Act'. Cotton and Schumer introduced it in the Senate (2026-03-26) with Stefanik's House companion. It covers federal buying and operating of Chinese-made robots, including humanoids.",
+    "sources": [
+     "https://www.cotton.senate.gov/news/press-releases/cotton-schumer-introduce-bipartisan-bill-to-protect-americans-data-from-foreign-adversaries",
+     "https://www.globalpolicywatch.com/2026/04/the-next-frontier-of-supply-chain-security-congress-trains-its-sights-on-robotics/"
+    ]
+   },
+   {
+    "topic": "GUARD Act and the FCC Covered List",
+    "speaker": "Charlie Mlcek",
+    "said": "Supports the GUARD Act and FCC Covered List action to box China out. Reshoring is needed because Canada and China are treated alike. Guthrie is working on Covered List reform.",
+    "check": "Confirmed, with context. GUARD is H.R. 9129 (Moolenaar, Obernolte, McClellan). The FCC listed foreign-produced mobile robots on 2026-07-28 and defines 'foreign-produced' as anything short of Buy American domestic content, which is why allies like Canada are caught too. Guthrie and Pallone filed a Covered List oversight bill in September 2026.",
+    "sources": [
+     "https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-obernolte-mcclellan-introduce-legislation-to-ban-dangerous-chinese-robots",
+     "https://www.clearytradewatch.com/2026/08/fcc-adds-foreign-produced-robotics-power-inverters-to-covered-list-house-ndaa-targets-foreign-adversary-humanoid-robots/",
+     "https://broadbandbreakfast.com/guthrie-pallone-introduce-bill-to-increase-oversight-of-fcc-covered-list/"
+    ]
+   },
+   {
+    "topic": "R&D, rare earths and defense manufacturing",
+    "speaker": "Grace Kim",
+    "said": "Wants incentives for R&D on batteries, components and rare-earth magnets. Cited the Future of Defense Manufacturing Act from last year's NDAA, and banning Chinese vehicles.",
+    "check": "Corrected: the Act bars DoD from Chinese-made 3D printers, not printed components. The vehicle ban is a separate bill, the Connected Vehicle Security Act (S. 4429, Slotkin and Moreno); it cleared Senate Commerce 2026-07-22 and its floor status is disputed. Magnet context: China makes about 94% of sintered permanent magnets (commission report).",
+    "sources": [
+     "https://www.slotkin.senate.gov/2025/05/28/slotkin-announces-michigan-defense-plan-and-bill-to-bolster-defense-manufacturing-in-michigan",
+     "https://policysoup.com/bills/s2214-119",
+     "https://www.asashop.org/2026/07/23/senate-commerce-science-and-transportation-committee-advances-connected-vehicle-security-act/"
+    ]
+   },
+   {
+    "topic": "Promotion, labs and workforce",
+    "speaker": "Grace Kim",
+    "said": "On the positive side: frontier labs doing more on security, FANUC and workforce training, and a heavy focus on jobs. The Robotics Caucus is adding staff and Mlcek solicited interest.",
+    "check": "FANUC America's Mike Cicco is an SCSP commissioner. Caucus staffing is unverified; no public source.",
+    "sources": [
+     "https://www.scsp.ai/2026/03/scsp-announces-launch-of-national-security-commission-on-robotics-for-advanced-manufacturing/"
+    ]
+   }
+  ]
+ }
 }

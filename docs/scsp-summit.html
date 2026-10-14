@@ -78,7 +78,7 @@
     <div class="kpi-strip cols-4" id="kpis" style="margin-top:16px;"></div>
 
     <nav class="jump-nav" aria-label="On this page">
-      <a href="#agenda">Agenda</a><a href="#report">Commission report</a><a href="#themes">Themes</a><a href="#speakers">Speakers</a><a href="#org-news">Company news</a><a href="#posts">Recent posts</a><a href="#context">Policy context</a>
+      <a href="#agenda">Agenda</a><a href="#report">Commission report</a><a href="#themes">Themes</a><a href="#speakers">Speakers</a><a href="#org-news">Company news</a><a href="#posts">Recent posts</a><a href="#hill">The Hill</a><a href="#context">Policy context</a>
     </nav>
 
     <h2 class="section-title rule" id="agenda">Agenda</h2>
@@ -126,6 +126,11 @@
     <h2 class="section-title rule" id="posts">Recent posts</h2>
     <p class="muted">From X and Bluesky. Summaries are paraphrased; follow the link for the original.</p>
     <ul class="summit-posts" id="post-list"></ul>
+
+    <h2 class="section-title rule" id="hill">The Hill's robotics agenda</h2>
+    <p class="muted" id="hill-note"></p>
+    <div class="card-grid" id="hill-grid"></div>
+    <details class="collapsible-section" id="hill-committees"></details>
 
     <h2 class="section-title rule" id="context">Policy context</h2>
     <div id="context-body"></div>
@@ -191,6 +196,22 @@
         ${t.sessions && t.sessions.length ? `<p class="card-sub" style="margin:0;">Sessions: ${t.sessions.map(E).join(' · ')}</p>` : ''}
         <p class="card-meta" style="margin:0;">${(t.sources || []).map(u => link(u, host(u))).join('<span class="sep"></span>')}</p>
       </article>`).join('');
+
+    // The Hill session
+    const hs = d.hill_session;
+    document.getElementById('hill-note').textContent = `${hs.time} ET conversation. ${hs.note}`;
+    document.getElementById('hill-grid').innerHTML = hs.points.map(pt => `
+      <article class="card">
+        <h3 class="card-title" style="font-size:16px;">${E(pt.topic)}</h3>
+        <p class="card-sub" style="margin:0;">${E(pt.speaker)}</p>
+        <p style="margin:0;font-size:14px;line-height:1.5;">${E(pt.said)}</p>
+        <p style="margin:0;font-size:14px;line-height:1.5;"><strong>Check:</strong> ${E(pt.check)}</p>
+        ${pt.sources.length ? `<p class="card-meta" style="margin:0;">${pt.sources.map(u => link(u, host(u))).join('<span class="sep"></span>')}</p>` : ''}
+      </article>`).join('');
+    document.getElementById('hill-committees').innerHTML = `
+      <summary><h3 class="section-title" style="font-size:17px;">Committees behind these bills <span class="muted tnum" style="font-size:13px;">${hs.committees.length}</span></h3></summary>
+      <ul class="summit-recent">${hs.committees.map(c => `<li>${E(c)}</li>`).join('')}</ul>
+      <p class="card-meta" style="margin:0;">${hs.committee_sources.map(u => link(u, host(u))).join('<span class="sep"></span>')}</p>`;
 
     // Speakers
     const handleLinks = (h) => Object.entries(h || {}).map(([k, u]) => link(u, k === 'x' ? 'X' : k[0].toUpperCase() + k.slice(1))).join(' · ');
