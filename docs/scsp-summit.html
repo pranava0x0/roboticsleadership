@@ -328,7 +328,7 @@
     });
     renderReport();
     document.getElementById('report-directions').innerHTML = report.directions.map(x => `<li>${E(x.text)} ${cite(x)}</li>`).join('');
-    document.getElementById('report-caveats').innerHTML = report.caveats.map(x => `<li>${E(x)}</li>`).join('');
+    document.getElementById('report-caveats').innerHTML = report.caveats.map(x => `<li>${E(x.text)} ${cite(x)}</li>`).join('');
 
     RT.applyCollapsibleState();
     if (location.hash.startsWith('#p-')) openPerson(location.hash.slice(3));

@@ -45,6 +45,7 @@ const cited = [
   ...report.directions.map((d, i) => [`direction ${i}`, d]),
   ...report.programs.map((p) => [`program ${p.name}`, p]),
   ...report.quotes.map((q, i) => [`quote ${i}`, q]),
+  ...report.caveats.map((c, i) => [`caveat ${i}`, c]),
 ];
 
 check('pdf_url and page_url are https', [report.pdf_url, report.page_url].filter((u) => !/^https:\/\//.test(u)));
