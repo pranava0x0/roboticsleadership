@@ -395,6 +395,7 @@
   }
 
   // ---------- Detail panel (shared bottom-sheet / side-panel) ----------
+  let detailOpener = null;
   function openDetail(html) {
     let panel = document.getElementById('detail-panel');
     let backdrop = document.getElementById('detail-backdrop');
@@ -418,6 +419,11 @@
         if (e.key === 'Escape') closeDetail();
       });
     }
+    // Remember the opener so focus returns there, and make the page behind
+    // the sheet inert so Tab stays inside it (aria-modal alone doesn't).
+    if (!panel.classList.contains('open')) detailOpener = document.activeElement;
+    document.querySelectorAll('body > header, body > main, body > footer')
+      .forEach((el) => { el.inert = true; });
     panel.innerHTML = html;
     panel.classList.add('open');
     backdrop.classList.add('open');
@@ -430,18 +436,23 @@
   function closeDetail() {
     const panel = document.getElementById('detail-panel');
     const backdrop = document.getElementById('detail-backdrop');
-    if (panel) panel.classList.remove('open');
+    if (!panel || !panel.classList.contains('open')) return;
+    panel.classList.remove('open');
     if (backdrop) backdrop.classList.remove('open');
+    document.querySelectorAll('body > header, body > main, body > footer')
+      .forEach((el) => { el.inert = false; });
+    if (detailOpener && detailOpener.isConnected) detailOpener.focus();
+    detailOpener = null;
   }
 
-  // ---------- Header "Updated <date>" populator ----------
+  // ---------- "Updated <date>" (front-page kicker, page footers) ----------
   async function loadHeaderUpdated() {
-    const el = document.querySelector('.header-updated-date');
-    if (!el) return;
+    const els = document.querySelectorAll('.updated-date');
+    if (!els.length) return;
     try {
       const sources = await loadData('sources');
       const date = sources?._meta?.last_updated;
-      if (date) el.textContent = formatDate(date);
+      if (date) els.forEach((el) => { el.textContent = formatDate(date); });
     } catch (e) { /* leave the dash placeholder */ }
   }
 
@@ -767,7 +778,7 @@
   // escapes it. Returning a string keeps both callers honest about which it is.
   function chinaMethodNote(uc) {
     const meta = uc._meta || {};
-    return `Method: ${meta.method || ''}. Captured as of ${formatDate(meta.captured_at || meta.last_updated)}. "Edge" calls are editorial judgments on sourced data, not scores.`;
+    return `Method: ${meta.method || ''}. Captured as of ${formatDate(meta.captured_at || meta.last_updated)}. "Edge" calls are editorial judgments, not scores.`;
   }
 
   // ---------- News (news.html, index.html) ----------
@@ -980,15 +991,6 @@
     return items + `<li class="brief brief-all"><a href="news.html">All ${formatNumber(total)} stories →</a></li>`;
   }
 
-  // Masthead standfirst — the corpus, stated as a fact about the page rather
-  // than a claim about the world. Counts come from the data, never hardcoded.
-  function renderStandfirst(companies, policies, newsTotal) {
-    return `${formatNumber(newsTotal || 0)} news records · ` +
-      `${formatNumber((companies || []).length)} companies · ` +
-      `${formatNumber((policies || []).length)} policy actions — ` +
-      `every record is cited; primary sources preferred.`;
-  }
-
   function renderThemeCards(themes) {
     return (themes || []).slice(0, 6).map((t) => `
       <a class="card card-hoverable" href="themes.html#${encodeURIComponent(t.id)}" style="color:inherit;border-bottom:none;">
@@ -1090,7 +1092,6 @@
     renderLeadStory,
     renderTopStories,
     renderNewsBriefs,
-    renderStandfirst,
     renderThemeCards,
     renderTopCompanies,
   };

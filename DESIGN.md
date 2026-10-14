@@ -221,7 +221,7 @@ These apply to any project that surfaces data, claims, or content from external 
 - **"Not available", not blank.** Optional fields render as italic muted placeholders — never an empty cell.
 - **"Adjacent", not "0.0 mi".** Pre-rounding bin edges are signals, not nulls. Render `n < threshold` as a meaningful word, not a misleading number.
 - **No emojis by default.** Outline pills do the badge work. If the project's voice calls for emoji (consumer apps, social features), use sparingly and document in the project `design.md`.
-- **Lowercase for prose, uppercase for labels.** Eyebrows, KPI labels, table heads, and outline-pill text are uppercase with `0.04–0.14em` letter-spacing. Everything else is sentence case.
+- **Lowercase for prose, uppercase for labels.** KPI labels, table heads, and outline-pill text are uppercase with `0.04–0.14em` letter-spacing. Everything else is sentence case.
 - **AI-generated content is visibly distinguished.** A 3px accent left-border on the card plus a meta line crediting the model. The reader should never wonder whether they're looking at primary data or generated narrative.
 
 ---
@@ -275,6 +275,8 @@ Decisions made by *omission*:
 - **No marker clustering on maps** (when canvas markers + decimation handle the load). `leaflet.markercluster` is the right answer when interactive behavior demands grouping.
 - **No multi-toast queue** (until a project actually needs it).
 - **No infinite zoom / unconstrained pan.** Set `maxBounds`. Most projects have a meaningful viewport (US-only, city-only); enforce it.
+- **No eyebrows or kickers above titles (2026-10-14, owner call).** A small-caps label over a heading ("Deep dive", "Strategic context", "A cited record") repeats the title or says nothing, and it is the most recognisable template tell on the site. If the information matters (a date, a place, a disclaimer), put it in the lede or the body as a sentence. News-card category tags are filters, not eyebrows, and stay.
+- **No self-description of sourcing in copy.** Links on each record are the citation. Lines like "every record is cited; primary sources preferred" were cut sitewide on 2026-10-14.
 - **No backend until profit / scale demands one.** Static-first is the default. JSON in `docs/`, GitHub Pages, no runtime. (levels.io: "you don't need a backend.")
 
 ---

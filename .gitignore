@@ -43,3 +43,6 @@ data/research/*.txt
 
 # Derived by scripts/render-static.js (front-page payload); never committed
 docs/data/news-recent.json
+
+# Interaction-cost tracker output (timings churn every run; budgets and tasks are tracked)
+uat/interaction-costs.json

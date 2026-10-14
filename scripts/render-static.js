@@ -125,7 +125,6 @@ function indexSlots(RT, data) {
   // never runs npm test, so this is the only gate on the deploy path.
   if (!front.lead) throw new Error('index.html: no lead story — news.json is empty or unreadable');
   return {
-    'index-standfirst': RT.renderStandfirst(companies, policies, recent.total),
     'index-lead': RT.renderLeadStory(front.lead, companies, policies),
     'index-topstories': RT.renderTopStories(front.top, companies),
     'index-briefs': RT.renderNewsBriefs(front.briefs, recent.total),
