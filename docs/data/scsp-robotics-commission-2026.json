@@ -381,9 +381,15 @@
    "evidence": [
     {
      "claim": "Chinese makers collectively hold over 60% of China's domestic harmonic-reducer market; Leaderdrive has capacity exceeding 500,000 units a year.",
-     "page": 61,
-     "pdf_page": 62,
-     "underlying_source": "Leaderdrive company information"
+     "page": 60,
+     "pdf_page": 61,
+     "underlying_source": "Leaderdrive company information",
+     "additional_citations": [
+      {
+       "page": 61,
+       "pdf_page": 62
+      }
+     ]
     },
     {
      "claim": "China controls about 90% of rare-earth processing and 69% of mining; Chinese share of humanoid inputs: bearings 40%, motors 35%, power electronics 30%.",

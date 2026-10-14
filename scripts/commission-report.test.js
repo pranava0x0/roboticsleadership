@@ -47,7 +47,7 @@ const cited = [
   ...report.programs.map((p) => [`program ${p.name}`, p]),
   ...report.quotes.map((q, i) => [`quote ${i}`, q]),
   ...report.caveats.map((c, i) => [`caveat ${i}`, c]),
-  ...[...report.caveats, ...report.key_figures].flatMap((x, i) => (x.additional_citations || []).map((c, j) => [`additional citation ${i}/${j}`, c])),
+  ...[...report.caveats, ...report.key_figures, ...report.findings.flatMap(f => f.evidence)].flatMap((x, i) => (x.additional_citations || []).map((c, j) => [`additional citation ${i}/${j}`, c])),
 ];
 
 check('pdf_url and page_url are https', [report.pdf_url, report.page_url].filter((u) => !/^https:\/\//.test(u)));

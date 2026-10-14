@@ -10,7 +10,7 @@
   "summit_commission_jump": 7,
   "summit_report_evidence": 7,
   "company_figure_detail": 7,
-  "policy_hr7334_detail": 6,
+  "policy_hr7334_detail": 9,
   "china_last_metric": 9,
   "supply_share_rows": 10,
   "supply_commission_note": 15,
@@ -20,7 +20,9 @@
   "states_first_row": 7,
   "theme_detail": 4,
   "eo_workforce": 14,
-  "eo_workforce_jump": 6
+  "eo_workforce_jump": 6,
+  "policy_hearing_transcript": 7,
+  "china_five_year_plan": 4
  },
  "tablet": {
   "front_lead": 1,
@@ -43,7 +45,9 @@
   "states_first_row": 5,
   "theme_detail": 4,
   "eo_workforce": 9,
-  "eo_workforce_jump": 4
+  "eo_workforce_jump": 4,
+  "policy_hearing_transcript": 6,
+  "china_five_year_plan": 3
  },
  "desktop": {
   "front_lead": 1,
@@ -66,6 +70,8 @@
   "states_first_row": 4,
   "theme_detail": 3,
   "eo_workforce": 9,
-  "eo_workforce_jump": 3
+  "eo_workforce_jump": 3,
+  "policy_hearing_transcript": 6,
+  "china_five_year_plan": 3
  }
 }

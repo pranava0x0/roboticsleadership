@@ -282,3 +282,11 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 ### 2026-10-14 — SCSP report citations and independent loading — Fixed
 
 Expected each cited claim to expose its PDF page and the summit to survive an independent report-fetch failure. Additional context pages and bio sources were hidden, citation targets were under 44px, and a shared Promise.all blanked the summit when only the report failed. The fix links every cited page, exposes all bio sources, corrects the finding range and Leaderdrive attribution, and isolates report loading. Regression checks in commission-report.test.js cover page targets, note destinations, actual failed-fetch wiring and the speaker sheet; mobile browser checks confirm 44px links and preserved report hash.
+
+### 2026-10-14 — UAT CLI invocation — usage note
+
+Expected `--base http://localhost:8765` to accept the server origin. The runner formed `http://localhost:8765china.html` because it appends page paths directly. Supply a trailing slash: `--base http://localhost:8765/`; an already-running server also avoids depending on the launcher readiness probe.
+
+### 2026-10-14 — research navigation on phones — Fixed
+
+Expected the source shortcuts in each page’s lede to be available on mobile. The interaction sweep found both unavailable because the site hides `.page-lede` below 640px. Keep navigation outside hero copy; the shortcuts now have their own nav and are covered by the two research interaction tasks.
