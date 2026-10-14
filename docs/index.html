@@ -69,13 +69,10 @@
   </header>
 
   <main id="main">
-    <!-- Masthead. A front page announces what it is before it starts
-         reporting; the standfirst counts are baked from the data. -->
+    <!-- Masthead: title and one line, then straight into the lead. -->
     <div class="masthead">
-      <p class="masthead-kicker">US &amp; China robotics · Updated <span class="updated-date tnum">—</span></p>
       <h1 class="masthead-title">Robotics — How the U.S. can Lead</h1>
-      <p class="masthead-strap">Where AI meets the physical world.</p>
-      <p class="masthead-standfirst"><!--static:index-standfirst:start--><!--static:index-standfirst:end--></p>
+      <p class="masthead-strap">Where AI meets the physical world. Updated <span class="updated-date tnum">—</span>.</p>
     </div>
 
     <!-- Above the fold: the well (lead + secondaries) beside the rail of
@@ -200,8 +197,6 @@
       RT.renderTopStories(front.top, companies));
     RT.paint(document.getElementById('front-briefs'),
       RT.renderNewsBriefs(front.briefs, recent.total));
-    RT.paint(document.querySelector('.masthead-standfirst'),
-      RT.renderStandfirst(companies, policies, recent.total));
 
     // ---------- Charts ----------
     // Still client-only: renderProductionTrend writes into live SVG nodes and

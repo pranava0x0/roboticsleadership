@@ -468,14 +468,6 @@ main {
   padding: 24px 16px 52px;
 }
 
-.eyebrow {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--text-muted);
-}
-
 h1.page-title {
   font-family: var(--font-serif);
   font-weight: 700;
@@ -562,14 +554,6 @@ h2.section-title.rule {
   padding-bottom: 14px;
   margin-bottom: 20px;
 }
-.masthead-kicker {
-  margin: 0;
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  color: var(--text-muted);
-}
 .masthead-title {
   font-family: var(--font-serif);
   font-weight: 700;
@@ -584,11 +568,6 @@ h2.section-title.rule {
   color: var(--text-muted);
   margin: 8px 0 0;
   max-width: 60ch;
-}
-.masthead-standfirst {
-  margin: 10px 0 0;
-  font-size: 12.5px;
-  color: var(--text-faint);
 }
 
 /* Lead + rail. Single grid, one DOM order: on narrow screens the rail simply
@@ -1282,8 +1261,12 @@ a.kpi-card:hover {
   border: 1px solid var(--border);
   box-shadow: var(--shadow-elevated);
   overflow-y: auto;
-  transition: transform 200ms ease;
+  /* Hidden once it has slid away, so a closed sheet's close button is out of
+     the tab order; visibility flips after the slide, not before it. */
+  visibility: hidden;
+  transition: transform 200ms ease, visibility 0s linear 200ms;
 }
+.detail-panel.open { visibility: visible; transition: transform 200ms ease; }
 @media (max-width: 1023px) {
   .detail-panel {
     left: 0;
@@ -1345,9 +1328,9 @@ a.kpi-card:hover {
   margin-top: 4px;
 }
 .detail-close {
-  width: 36px;
-  height: 36px;
-  flex: 0 0 36px;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
   border-radius: 8px;
   display: inline-flex;
   align-items: center;
@@ -1867,8 +1850,7 @@ button, [role="button"], a.btn {
 /* Mobile (<=640px) Responsive Layout Refinements */
 @media (max-width: 640px) {
   /* Hide verbose hero copy to save screen space */
-  .page-lede,
-  .eyebrow {
+  .page-lede {
     display: none;
   }
   

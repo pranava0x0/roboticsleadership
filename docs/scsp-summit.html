@@ -64,10 +64,9 @@
     </div>
   </header>
   <main id="main" class="summit-page">
-    <p class="eyebrow">Event brief · Oct 14, 2026 · Washington, D.C.</p>
     <h1 class="page-title">SCSP AI+ Robotics Summit.</h1>
     <p class="page-lede">
-      The agenda, the speakers, recent news from their organizations, their recent posts, and the policy context. Compiled from the <a href="https://www.scsp.ai/ai-robotics/" target="_blank" rel="noopener">SCSP agenda</a> and public sources as of <span class="tnum" id="captured">Oct 14, 2026</span>.
+      Washington, D.C., Oct 14, 2026. The agenda, the speakers, recent news from their organizations, their recent posts, and the policy context. Compiled from the <a href="https://www.scsp.ai/ai-robotics/" target="_blank" rel="noopener">SCSP agenda</a> and public sources as of <span class="tnum" id="captured">Oct 14, 2026</span>.
     </p>
 
     <aside class="bluf" aria-label="Bottom line up front">
@@ -133,9 +132,9 @@
     const rep = d.commission.preliminary_report;
 
     document.getElementById('bluf').innerHTML =
-      `<strong>SCSP's ${E(d.commission.name.split(' (')[0])} released its preliminary report the day before the summit.</strong> ` +
+      `<strong>SCSP's ${E(d.commission.name.split(' (')[0])} released its preliminary report the day before the summit</strong> (Oct 14, 2026, Washington, D.C.). ` +
       `Sens. Budd and Slotkin and SCSP's Ylli Bajraktari co-chair it. The report says the US leads on robot AI but trails in deployment and component manufacturing. ` +
-      `${d.people.filter(p => p.commissioner).length} of the speakers are commissioners, and most panels were about deployment.`;
+      `${d.people.filter(p => p.commissioner).length} of the speakers are commissioners.`;
 
     const commCount = d.people.filter(p => p.commissioner).length;
     const kpis = [
@@ -246,7 +245,7 @@
         <p class="card-meta" style="margin:0;">${[...c.sources, ...rep.sources].filter((u, i, a) => a.indexOf(u) === i).map(u => link(u, host(u))).join('<span class="sep"></span>')}</p>
       </article>
       <h3 style="margin:24px 0 8px;">Related legislation</h3>
-      <ul class="summit-recent">${d.legislation.map(l => `<li><span class="tnum muted">${E(date(l.date))}</span> <strong>${E(l.title)}</strong> — ${E(l.sponsor || '')}. ${E(l.summary || '')} ${link(l.url, host(l.url))}${l.site_record_id ? ` · <a href="policies.html?focus=${encodeURIComponent(l.site_record_id)}">Site record</a>` : ''}</li>`).join('')}</ul>
+      <ul class="summit-recent">${d.legislation.map(l => `<li><span class="tnum muted">${E(date(l.date))}</span> <strong>${E(l.title)}</strong> — ${E(l.sponsor || '')}. ${E(l.summary || '')} ${link(l.url, host(l.url))}${(l.site_record_id || '').split(';').map(x => x.trim()).filter(Boolean).map(id => ` · <a href="policies.html?focus=${encodeURIComponent(id)}">Site record</a>`).join('')}</li>`).join('')}</ul>
       <details class="collapsible-section">
         <summary><h3 class="section-title" style="font-size:17px;">SCSP's earlier robotics work <span class="muted tnum" style="font-size:13px;">${d.scsp_work.length}</span></h3></summary>
       <ul class="summit-recent">${d.scsp_work.map(w => `<li><span class="tnum muted">${E(date(w.date))}</span> <strong>${E(w.title)}</strong> ${link(w.url, host(w.url))}${(w.key_points || []).length ? `<br><span class="muted">${(w.key_points || []).map(E).join(' · ')}</span>` : ''}</li>`).join('')}</ul>
