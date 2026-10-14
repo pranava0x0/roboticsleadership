@@ -183,11 +183,11 @@
    "site_record_id": null
   },
   {
-   "title": "American Security Robotics Act",
+   "title": "American Security Robotics Act (S. 4235)",
    "date": "2026-03-26",
    "sponsor": "Sens. Tom Cotton (R-AR) and Chuck Schumer (D-NY); House companion Rep. Elise Stefanik (R-NY)",
-   "summary": "Bars federal agencies from buying or operating unmanned ground vehicle systems (explicitly including humanoid robots and autonomous patrol technology) made by covered foreign entities such as Chinese firms; takes effect one year after enactment. DLA Piper lists the House number as H.R. 8189; the Cotton release gives no number, and the site's policy record names a different House sponsor (Rep. Harrigan), so the House sponsor is unresolved.",
-   "url": "https://www.cotton.senate.gov/news/press-releases/cotton-schumer-introduce-bipartisan-bill-to-protect-americans-data-from-foreign-adversaries",
+   "summary": "Bars federal agencies from buying or operating unmanned ground vehicle systems (explicitly including humanoid robots and autonomous patrol technology) made by covered foreign entities such as Chinese firms; takes effect one year after enactment. Senate bill S. 4235 went to Homeland Security and Governmental Affairs on 2026-03-26. DLA Piper lists the House companion as H.R. 8189 (Stefanik); the site's policy record names Rep. Harrigan as its sponsor, so the House sponsor is unresolved.",
+   "url": "https://thelobbynews.com/congress/bills/119/senate-bill/4235",
    "site_record_id": "hr-8189-american-security-robotics"
   },
   {
@@ -2344,10 +2344,11 @@
     "topic": "Procurement bill",
     "speaker": "Charlie Mlcek",
     "said": "Backs the procurement bill Stefanik carries.",
-    "check": "Corrected: the name is the American Security Robotics Act, not 'American Strategic Security Robotics Act'. Cotton and Schumer introduced it in the Senate (2026-03-26) with Stefanik's House companion. It covers federal buying and operating of Chinese-made robots, including humanoids.",
+    "check": "Corrected: the name is the American Security Robotics Act, not \"American Strategic Security Robotics Act\". Cotton and Schumer introduced it as S. 4235 on 2026-03-26 (Homeland Security and Governmental Affairs), with a House companion from Stefanik (DLA Piper: H.R. 8189). It covers federal buying and operating of Chinese-made robots, including humanoids.",
     "sources": [
      "https://www.cotton.senate.gov/news/press-releases/cotton-schumer-introduce-bipartisan-bill-to-protect-americans-data-from-foreign-adversaries",
-     "https://www.globalpolicywatch.com/2026/04/the-next-frontier-of-supply-chain-security-congress-trains-its-sights-on-robotics/"
+     "https://www.globalpolicywatch.com/2026/04/the-next-frontier-of-supply-chain-security-congress-trains-its-sights-on-robotics/",
+     "https://thelobbynews.com/congress/bills/119/senate-bill/4235"
     ]
    },
    {
