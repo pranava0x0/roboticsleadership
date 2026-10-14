@@ -1,5 +1,437 @@
 [
   {
+    "id": "hn-50073879",
+    "title": "Gemini 4 Argon",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://deepmind.google/models/gemini/",
+    "summary": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50076802",
+    "title": "Show HN: PanamaKVM – direct-booting Linux from Java 25 via FFM/KVM",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/rusanoph/panama-kvm",
+    "summary": "Hi HN!PanamaKVM is an experimental miniVM containing the bare minimum components needed to boot an x86 Linux kernel and run an interactive terminal. Its key feature is that it is built on top of Java ",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50077204",
+    "title": "AI Dividend: Economy of the Near Future",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robotpaidmoose.com/",
+    "summary": "AI Dividend: Economy of the Near Future",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50079005",
+    "title": "Playground for Robotics: Prompt robotics models on real hardware",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://playground.blupe.io",
+    "summary": "Playground for Robotics: Prompt robotics models on real hardware",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50079437",
+    "title": "Physical Intelligence API Beta: Frontier Models for Every Robot",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.pi.website/blog/api-beta",
+    "summary": "Physical Intelligence API Beta: Frontier Models for Every Robot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50079638",
+    "title": "Nix and Lix local root-privilege-escalation vulnerabilities",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://lwn.net/Articles/1100247/",
+    "summary": "Nix and Lix local root-privilege-escalation vulnerabilities",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50080184",
+    "title": "Botflix TV – 24/7 Robot TV. For robots",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://botflix.tv/",
+    "summary": "Botflix TV – 24/7 Robot TV. For robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50080778",
+    "title": "Robot seized by German police after allegedly groping teenage girl",
+    "date": "2026-10-14",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.bbc.com/news/articles/ck9dzj40nzj5o",
+    "summary": "Robot seized by German police after allegedly groping teenage girl",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50081463",
+    "title": "Why robots can't pick strawberries yet [video]",
+    "date": "2026-10-14",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=TumxO2glmPQ",
+    "summary": "Why robots can't pick strawberries yet [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50082540",
+    "title": "Streaming 100 TB+ Robot Datasets",
+    "date": "2026-10-14",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/LeRobotHF/status/2108544543171789290",
+    "summary": "Streaming 100 TB+ Robot Datasets",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50083849",
+    "title": "Soniqo Mimi, home companion robot [video]",
+    "date": "2026-10-14",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/shorts/Fsw5_pN2_kg",
+    "summary": "Soniqo Mimi, home companion robot [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50085282",
+    "title": "The meaning of life in a world without work – Yuval Noah Harari (2017)",
+    "date": "2026-10-14",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/technology/2017/may/08/virtual-reality-religion-robots-sapiens-book",
+    "summary": "The meaning of life in a world without work – Yuval Noah Harari (2017)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50086344",
+    "title": "Humxn Commits $50M to Buy Skilled Trades Data for Robotics Training",
+    "date": "2026-10-14",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://markets.businessinsider.com/news/stocks/humxn-research-labs-wants-to-buy-50-million-worth-of-skilled-trades-farming-and-manufacturing-data-for-ai-robotics-training-1036622854",
+    "summary": "Humxn Commits $50M to Buy Skilled Trades Data for Robotics Training",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50088181",
+    "title": "I'm Not a Robot: The Internet's Human Test",
+    "date": "2026-10-14",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://foundinthemachine.com/episodes/8-i-m-not-a-robot-the-internet-s-human-test/",
+    "summary": "I'm Not a Robot: The Internet's Human Test",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-hello-robot-a-k-robotics-to-di-311",
+    "title": "Hello Robot, A&K Robotics to discuss how robots navigate crowded indoor spaces at RoboBusiness",
+    "date": "2026-10-13",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/hello-robot-ak-robotics-discuss-how-robots-navigate-crowded-indoor-spaces-robobusiness/",
+    "summary": "As robots move beyond warehouses and other controlled environments and into everyday life, navigation challenges will be critical.\nThe post Hello Robot, A&K Robotics to discuss how robots navigate cro...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-nysofa-expands-partnership-wit-52",
+    "title": "NYSOFA expands partnership with Intuition Robotics to bring ElliQ to more seniors",
+    "date": "2026-10-13",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/nysofa-expands-partnership-intuition-robotics-bring-elliq-more-seniors/",
+    "summary": "With the expansion, NYSOFA and Intuition Robotics established a new three-year, $2.1 million agreement to keep rolling out ElliQ.\nThe post NYSOFA expands partnership with Intuition Robotics to bring E...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-timken-precision-drives-puts-t-548",
+    "title": "Timken Precision Drives puts the motion challenge first in humanoid robots",
+    "date": "2026-10-14",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/timken-precision-drives-puts-motion-challenge-first-humanoid-robots/",
+    "summary": "Timken combines the expertise of Cone Drive, SPINEA, CGI Motion, and Timken Encoders to develop application-specific motion systems.\nThe post Timken Precision Drives puts the motion challenge first in...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-robobusiness-2026-panel-to-dis-277",
+    "title": "RoboBusiness 2026 panel to discuss reshoring with robots",
+    "date": "2026-10-14",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/robobusiness-2026-panel-discusses-reshoring-with-robots/",
+    "summary": "While reshoring manufacturing is a high priority for policymakers and technologists, RoboBusiness panelists will examine how to promote it.\nThe post RoboBusiness 2026 panel to discuss reshoring with r...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-rivian-s-startup-mind-robotics-636",
+    "title": "Rivian’s startup Mind Robotics hires former Ford EV chief Doug Field",
+    "date": "2026-10-13",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/13/rivians-startup-mind-robotics-hires-former-ford-ev-chief-doug-field/",
+    "summary": "Field also worked on Apple's secretive car project and oversaw development of the Tesla Model 3.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-industrial-next-wants-factory-353",
+    "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+    "date": "2026-10-13",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+    "summary": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-techcrunch-disrupt-2026-day-2-164",
+    "title": "TechCrunch Disrupt 2026: Day 2",
+    "date": "2026-10-14",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/14/techcrunch-disrupt-2026-day-2/",
+    "summary": "Day 2 at TechCrunch Disrupt 2026, full of all themes across AI, investor-only session, more roundtables, and more. Register to save 50% on your pass.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-save-50-on-your-techcrunch-dis-265",
+    "title": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last two days in San Francisco’s Moscone West",
+    "date": "2026-10-14",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/",
+    "summary": "Get 50% discount on the last two days of TechCrunch Disrupt 2026, Oct. 14-25, in San Francisco's Moscone West. Register now and join the rest of the startup ecosystem. Today, it's all about physical a...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-50047980",
     "title": "Nuclear war and malicious use of AI threaten end of humanity by 2100, Lancet say",
     "date": "2026-10-11",
