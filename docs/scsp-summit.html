@@ -78,7 +78,7 @@
     <div class="kpi-strip cols-4" id="kpis" style="margin-top:16px;"></div>
 
     <nav class="jump-nav" aria-label="On this page">
-      <a href="#agenda">Agenda</a><a href="#report">Commission report</a><a href="#themes">Themes</a><a href="#speakers">Speakers</a><a href="#org-news">Company news</a><a href="#posts">Recent posts</a><a href="#hill">The Hill</a><a href="#context">Policy context</a>
+      <a href="#agenda">Agenda</a><a href="#report">Commission report</a><a href="#themes">Themes</a><a href="#speakers">Speakers</a><a href="#org-news">Company news</a><a href="#posts">Recent posts</a><a href="#hill">The Hill</a><a href="#notes">Session notes</a><a href="#context">Policy context</a>
     </nav>
 
     <h2 class="section-title rule" id="agenda">Agenda</h2>
@@ -131,6 +131,10 @@
     <p class="muted" id="hill-note"></p>
     <div class="card-grid" id="hill-grid"></div>
     <details class="collapsible-section" id="hill-committees"></details>
+
+    <h2 class="section-title rule" id="notes">Other session notes</h2>
+    <p class="muted">Paraphrased from live notes, not transcripts, and checked against public sources. Each claim shows what the check found.</p>
+    <div id="notes-list"></div>
 
     <h2 class="section-title rule" id="context">Policy context</h2>
     <div id="context-body"></div>
@@ -212,6 +216,21 @@
       <summary><h3 class="section-title" style="font-size:17px;">Committees behind these bills <span class="muted tnum" style="font-size:13px;">${hs.committees.length}</span></h3></summary>
       <ul class="summit-recent">${hs.committees.map(c => `<li>${E(c)}</li>`).join('')}</ul>
       <p class="card-meta" style="margin:0;">${hs.committee_sources.map(u => link(u, host(u))).join('<span class="sep"></span>')}</p>`;
+
+    // Other session notes: one collapsed block per session, same point shape as the Hill grid.
+    document.getElementById('notes-list').innerHTML = (d.session_notes || []).map(sn => `
+      <details class="collapsible-section">
+        <summary><h3 class="section-title" style="font-size:17px;">${E(sn.title)} <span class="muted tnum" style="font-size:13px;">${E(sn.time)} · ${sn.points.length}</span></h3>${sn.summary ? `<p class="muted">${E(sn.summary)}</p>` : ''}</summary>
+        <div class="card-grid">${sn.points.map(pt => `
+          <article class="card">
+            <h4 class="card-title" style="font-size:16px;">${E(pt.topic)}</h4>
+            ${pt.speaker ? `<p class="card-sub" style="margin:0;">${E(pt.speaker)}</p>` : ''}
+            <p style="margin:0;font-size:14px;line-height:1.5;">${E(pt.said)}</p>
+            <p style="margin:0;font-size:14px;line-height:1.5;"><strong>Check:</strong> ${E(pt.check)}</p>
+            ${pt.sources.length ? `<p class="card-meta" style="margin:0;">${pt.sources.map(u => link(u, host(u))).join('<span class="sep"></span>')}</p>` : ''}
+          </article>`).join('')}</div>
+        ${(sn.open_items || []).length ? `<p class="card-sub" style="margin:8px 0 0;"><strong>Not confirmed:</strong> ${sn.open_items.map(E).join('; ')}</p>` : ''}
+      </details>`).join('');
 
     // Speakers
     const handleLinks = (h) => Object.entries(h || {}).map(([k, u]) => link(u, k === 'x' ? 'X' : k[0].toUpperCase() + k.slice(1))).join(' · ');

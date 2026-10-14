@@ -46,3 +46,7 @@ docs/data/news-recent.json
 
 # Interaction-cost tracker output (timings churn every run; budgets and tasks are tracked)
 uat/interaction-costs.json
+
+# Raw talk notes and their fact-check working files stay local (~/Documents/roboticsleadership-notes);
+# only the synthesis in docs/data/scsp-ai-robotics-2026.json is published.
+data/research/talk-*.md

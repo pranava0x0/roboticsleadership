@@ -1555,10 +1555,27 @@
    "org": "International Trade Administration, U.S. Department of Commerce",
    "bio": "Teddy Bretschger is Deputy Assistant Secretary for Services at ITA, covering financial and professional services, digital and emerging technologies, global data policy and privacy, and supply chain services. He was previously Senior Advisor to the Under Secretary for International Trade, after about ten years as an Operating Partner at T Capital Management and earlier institutional equities work focused on tech. He holds a Wharton BS and a Duke Fuqua MBA. He is the Commerce official covering services and emerging-tech trade promotion.",
    "handles": {},
-   "recent": [],
+   "recent": [
+    {
+     "date": "2026-04-10",
+     "title": "American AI Exports Program: call for proposals from pre-set consortia",
+     "summary": "ITA's Federal Register call for full-stack export packages; proposals were accepted through June 30, 2026.",
+     "url": "https://www.federalregister.gov/documents/2026/04/10/2026-06952/american-ai-exports-program-call-for-proposals-for-pre-set-consortia",
+     "kind": "federal register"
+    },
+    {
+     "date": "2026-03-16",
+     "title": "Commerce announces the American AI Exports Program call for proposals",
+     "summary": "Describes pre-set and on-demand consortia and the support designated packages can receive.",
+     "url": "https://www.trade.gov/press-release/department-commerce-announces-new-american-ai-exports-program-phase",
+     "kind": "press release"
+    }
+   ],
    "sources": [
     "https://www.trade.gov/biography/teddy-bretschger",
-    "https://www.scsp.ai/ai-robotics/"
+    "https://www.scsp.ai/ai-robotics/",
+    "https://siexports.gov/faq",
+    "https://www.exim.gov/about/special-initiatives/export-ai-initiative"
    ],
    "commissioner": false,
    "sessions": [
@@ -2387,5 +2404,70 @@
     ]
    }
   ]
- }
+ },
+ "session_notes": [
+  {
+   "title": "Fireside with Commerce's International Trade Administration",
+   "time": "4:10",
+   "summary": "Teddy Bretschger, ITA's deputy assistant secretary for services, on the Commerce program that packages US AI exports. Most of it is public; the check shows where.",
+   "points": [
+    {
+     "topic": "Export promotion, not export controls",
+     "speaker": "Teddy Bretschger",
+     "said": "Export controls came up. The program he described promotes exports; licensing is one of its benefits.",
+     "check": "Partly right. Designated packages get priority review of export-license applications at the Bureau of Industry and Security, but the program itself is promotion: advocacy, licensing priority and financing referrals. It does not change the controls.",
+     "sources": [
+      "https://www.trade.gov/press-release/department-commerce-announces-new-american-ai-exports-program-phase",
+      "https://siexports.gov/faq"
+     ]
+    },
+    {
+     "topic": "Pre-set consortia and the full stack",
+     "speaker": "Teddy Bretschger",
+     "said": "A company can bid for the whole stack alone or with partners as a pre-set consortium. Applications are closed, and the first designations will be announced shortly. He said this is all public.",
+     "check": "Confirmed. The call opened April 1 and closed June 30, 2026 (91 FR 18412). Commerce reviews on a rolling basis: a completeness check within 14 business days, then a designation decision within 60 days. The stack has five layers: AI hardware, data pipelines and labeling, models and systems, security, and applications. I found no published designations as of Oct 14. The Federal Register calls it the American AI Exports Program; the program's own site now brands it the American SI Exports Program, which matches your notes.",
+     "sources": [
+      "https://www.federalregister.gov/documents/2026/04/10/2026-06952/american-ai-exports-program-call-for-proposals-for-pre-set-consortia",
+      "https://siexports.gov/faq",
+      "https://www.whitehouse.gov/presidential-actions/2025/07/promoting-the-export-of-the-american-ai-technology-stack/"
+     ]
+    },
+    {
+     "topic": "An on-demand track for partial stacks",
+     "speaker": "Teddy Bretschger",
+     "said": "An on-demand program will be announced shortly. It matters more for robotics, because a company may cover only part of the stack rather than all five layers.",
+     "check": "The track exists. Commerce's March 16 release says on-demand consortia form for a specific opportunity the program identifies and need cover only the layers that deal requires. I found no separate on-demand call issued yet. That it suits robotics is his view.",
+     "sources": [
+      "https://www.trade.gov/press-release/department-commerce-announces-new-american-ai-exports-program-phase",
+      "https://siexports.gov/faq"
+     ]
+    },
+    {
+     "topic": "Small businesses and demand signals",
+     "speaker": "Teddy Bretschger",
+     "said": "The program could suit small and mid-size firms and responds to demand signals from specific areas. Support is priority advocacy, licensing and US government financing.",
+     "check": "The three supports are confirmed. The notes' small-business point I could not source: I found no provision aimed at small firms. 'Demand signals' fits the on-demand design, where the program identifies the opportunity first.",
+     "sources": [
+      "https://siexports.gov/faq",
+      "https://www.trade.gov/press-release/department-commerce-announces-new-american-ai-exports-program-phase"
+     ]
+    },
+    {
+     "topic": "Financing partners",
+     "speaker": "Teddy Bretschger",
+     "said": "ITA is working with EXIM and other agencies on financing, bringing resources together for the export program.",
+     "check": "EXIM is confirmed: its ExportAI Initiative offers guarantees and direct loans and eases content-certification rules for exports Commerce designates. Federal financing is 'priority routing' of referrals, and each agency keeps its own authority and underwriting standards. The 'OSC' in the notes could be DoD's Office of Strategic Capital, but I found no source linking it to the program.",
+     "sources": [
+      "https://www.exim.gov/about/special-initiatives/export-ai-initiative",
+      "https://siexports.gov/faq"
+     ]
+    }
+   ],
+   "open_items": [
+    "His services portfolio remarks were missed",
+    "Which agencies besides EXIM were named",
+    "When the first designations and the on-demand call will be published"
+   ]
+  }
+ ]
 }
