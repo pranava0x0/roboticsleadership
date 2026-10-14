@@ -71,7 +71,8 @@
     "https://www.prnewswire.com/news-releases/scsp-national-security-commission-on-robotics-for-advanced-manufacturing-releases-preliminary-report-america-leads-in-robotics-innovation-but-is-not-on-track-to-lead-in-physical-ai-302907514.html",
     "https://scsp222.substack.com/p/turning-americas-ai-advantage-into",
     "https://www.unite.ai/bipartisan-robotics-panel-warns-of-widening-u-s-deployment-gap-with-china/"
-   ]
+   ],
+   "pdf_url": "https://www.scsp.ai/wp-content/uploads/2026/10/NSCRAM_Interim-Report.pdf"
   },
   "sources": [
    "https://www.scsp.ai/2026/03/scsp-announces-launch-of-national-security-commission-on-robotics-for-advanced-manufacturing/",
@@ -146,8 +147,8 @@
    "title": "National Commission on Robotics Act (H.R. 7334)",
    "date": "2026-02-03",
    "sponsor": "Rep. Jay Obernolte (R-CA) with Reps. Bob Latta (R-OH) and Jennifer McClellan (D-VA)",
-   "summary": "Independent 18-member commission under Commerce; interim report within 1 year, final within 2 years; scope: workforce, supply chain, manufacturing competitiveness, national security. Referred to Science/E&C/Foreign Affairs/Ed&Workforce.",
-   "url": "https://www.congress.gov/bill/119th-congress/house-bill/7334/all-info",
+   "summary": "Would establish an independent 18-member robotics commission within Commerce to review competitiveness, workforce, supply chains, manufacturing and national security. Interim and final reports are due one and two years after establishment. H.R. 7334 was introduced February 3; S. 4686 on June 4. Both remain referred to committee as of October 14, 2026; this is separate from SCSP’s nongovernmental commission.",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr7334ih/html/BILLS-119hr7334ih.htm",
    "site_record_id": "hr-7334-national-commission-robotics"
   },
   {
@@ -155,8 +156,8 @@
    "date": "2026-06-04",
    "sponsor": "Sen. David McCormick (R-PA); cosponsors Hickenlooper (D-CO), Heinrich (D-NM), Young (R-IN)",
    "summary": "Senate companion; referred to Commerce, Science, and Transportation. Budd and Slotkin are not listed as sponsors.",
-   "url": "https://www.thelobbynews.com/congress/bills/119/senate-bill/4686/text",
-   "site_record_id": null
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119s4686is/html/BILLS-119s4686is.htm",
+   "site_record_id": "hr-7334-national-commission-robotics"
   },
   {
    "title": "Robotics Supply Chain Improvement Act (S. 5310)",
@@ -169,32 +170,32 @@
   {
    "title": "GUARD Act (H.R. 9129)",
    "date": "2026-06-03",
-   "sponsor": "Rep. Moolenaar (R-MI) with Obernolte, McClellan (per AI Insider)",
-   "summary": "National security agencies review humanoid and quadruped robots from China/foreign adversaries; unacceptable-risk robots go on FCC Covered List; unreviewed within 1 year auto-listed.",
-   "url": "https://theaiinsider.tech/2026/06/05/us-lawmakers-introduce-legislation-to-establish-national-robotics-strategy-regulate-robotics-from-china/",
+   "sponsor": "Reps. John Moolenaar (R-MI), Jay Obernolte (R-CA), Jennifer McClellan (D-VA)",
+   "summary": "Would direct an appropriate national-security agency to determine within one year whether covered humanoid/quadruped robotics communications equipment or services pose an unacceptable risk to U.S. national security or the safety/security of U.S. persons. If the agency does not make a determination by the deadline, the FCC must add all covered equipment/services to its covered list; affirmative findings trigger listing and reporting. A negative finding requires reporting and review by other appropriate national-security agencies. The Communications and Technology subcommittee forwarded H.R. 9129 to the full committee by voice vote on September 1, its latest action as of October 14. This is proposed legislation, separate from the FCC’s July listing and the House NDAA’s DoD-only Section 163.",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr9129ih/html/BILLS-119hr9129ih.htm",
    "site_record_id": "guard-act-hr9129"
   },
   {
    "title": "Humanoid ROBOT Act (S. 3275)",
-   "date": "2026-02 (Robot Report week of Feb 6)",
+   "date": "2025-11-20",
    "sponsor": "Sens. Bill Cassidy (R-LA), Chris Coons (D-DE)",
-   "summary": "Bars federal acquisition of foreign-made AI-integrated humanoid robots incl. from China, Iran, North Korea, Russia.",
-   "url": "https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/",
-   "site_record_id": null
+   "summary": "Would bar executive agency procurement or use by federal contractors of humanoid robots designed, tested, developed, or manufactured by covered entities, with a Defense Secretary waiver for national-security or research objectives. Would direct CFIUS to review certain investments in humanoid-robot production. Would direct the Defense Secretary to report within a year on national-security threats, including privacy/data security, supply-side development and export-control or IP concerns. Latest official actions remain committee referrals as of October 14, 2026.",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119s3275is/html/BILLS-119s3275is.htm",
+   "site_record_id": "s-3275-humanoid-robot"
   },
   {
-   "title": "American Security Robotics Act (H.R. 8189)",
-   "date": "2026",
-   "sponsor": "Reported (DLA Piper) as Sens. Cotton and Schumer, Rep. Stefanik",
-   "summary": "Bar federal procurement/operation of robots or AVs from foreign adversary entities.",
-   "url": "https://www.dlapiper.com/en-us/insights/publications/2025/12/congressional-robotics-caucus",
+   "title": "American Security Robotics Act (S. 4235)",
+   "date": "2026-03-26",
+   "sponsor": "Sens. Tom Cotton (R-AR) and Chuck Schumer (D-NY); House companion Rep. Elise Stefanik (R-NY)",
+   "summary": "Would bar executive agencies from procuring covered unmanned ground vehicle systems made or assembled by covered foreign entities. After one year, would bar agency operation and use of federal funds through contracts, grants, cooperative agreements, or otherwise for procurement or operation. The definition explicitly includes ground mobile robotics, autonomous patrol technology, and humanoid robots. The procurement ban has no one-year delay; the operation and federal-funds bans do. Both bills remain referred to committee as of October 14, 2026.",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119s4235is/html/BILLS-119s4235is.htm",
    "site_record_id": "hr-8189-american-security-robotics"
   },
   {
    "title": "Congressional Robotics Caucus (relaunched 2025)",
    "date": "2025-05",
    "sponsor": "Reps. McGovern, Latta, Obernolte, Stevens",
-   "summary": "Bipartisan caucus; goals include national robotics strategy, international standards, worker protections.",
+   "summary": "Bipartisan House caucus; goals include a national robotics strategy, international standards, worker protections. Co-chairs McGovern (D-MA), Latta (R-OH), Obernolte (R-CA), Stevens (D-MI). Members listed by DLA Piper: Bishop (D-GA), Fry (R-SC), Gillen (D-NY), Lee (D-PA), Salinas (D-OR), Schakowsky (D-IL), Suozzi (D-NY), B. Thompson (D-MS), G. Thompson (R-PA). House-only: no senator is listed, and Slotkin is on the SCSP commission, not the caucus.",
    "url": "https://www.dlapiper.com/en-us/insights/publications/2025/12/congressional-robotics-caucus",
    "site_record_id": null
   },
@@ -237,6 +238,54 @@
    "summary": "Ten projects at 12 military manufacturing sites. Not announced by Cadenazzi's office.",
    "url": "https://www.robotics247.com/article/arm-institute-modernizes-military-manufacturing-sites-with-nearly-90m-in-funds",
    "site_record_id": null
+  },
+  {
+   "title": "FCC adds foreign-produced robots and power inverters to the Covered List",
+   "date": "2026-07-28",
+   "sponsor": "FCC, on a national security determination from an interagency body",
+   "summary": "On July 28, the FCC added foreign-produced advanced robotic devices to its Covered List, based on an Executive Branch interagency national-security determination attached to DA 26-786 as Appendix C. Listing restricts new FCC equipment authorizations and federal subsidies; it does not ban existing ownership. Department of War conditional approvals are an exception. This is separate from Commerce’s Section 232 investigation. The September 18 notice records later approvals and exemptions.",
+   "url": "https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf",
+   "site_record_id": "fcc-covered-list-robots-inverters-2026"
+  },
+  {
+   "title": "Communications and Technology Transparency Act of 2026 (title per BillTrack50; number unconfirmed)",
+   "date": "2026-09",
+   "sponsor": "Reps. Brett Guthrie (R-KY, E&C chair) and Frank Pallone (D-NJ, ranking member)",
+   "summary": "Gives the Energy and Commerce Committee more oversight of the FCC Covered List. A machine-generated summary says it would widen the list's scope from communications equipment to information and communications technology and require updates at least every six months; verify against the bill text. Reports date the filing 2026-09-16 or 2026-09-24.",
+   "url": "https://broadbandbreakfast.com/guthrie-pallone-introduce-bill-to-increase-oversight-of-fcc-covered-list/",
+   "site_record_id": null
+  },
+  {
+   "title": "Future of Defense Manufacturing Act (S. 2214)",
+   "date": "2025-07-08",
+   "sponsor": "Sen. Elissa Slotkin (D-MI)",
+   "summary": "Bars DoD from buying or operating additive-manufacturing (3D printing) machines made or controlled by entities in China, Iran, North Korea or Russia, and sets up regional dual-use advanced manufacturing hubs. Slotkin's office says it was folded into the Senate FY2026 NDAA; the enacted text was not checked.",
+   "url": "https://policysoup.com/bills/s2214-119",
+   "site_record_id": null
+  },
+  {
+   "title": "Connected Vehicle Security Act of 2026 (S. 4429; House companion H.R. 8730)",
+   "date": "2026-04-29",
+   "sponsor": "Sens. Bernie Moreno (R-OH) and Elissa Slotkin (D-MI); House: Rep. Moolenaar",
+   "summary": "Would write into statute a ban on connected vehicles, software and hardware from China and other foreign adversaries (software from 2027, hardware from 2030). Senate Commerce approved it by voice vote 2026-07-22; reports conflict on whether the full Senate has passed it, and a unanimous-consent attempt was blocked by Sen. Rand Paul.",
+   "url": "https://www.asashop.org/2026/07/23/senate-commerce-science-and-transportation-committee-advances-connected-vehicle-security-act/",
+   "site_record_id": null
+  },
+  {
+   "title": "Blocking CCP Spy Tech Act of 2026 (S. 4586 / H.R. 9687)",
+   "date": "2026-05-20",
+   "sponsor": "Sen. Rick Scott; House sponsor Rep. Scott Perry",
+   "summary": "Would require an appropriate national-security agency to assess within one year whether communications equipment or services produced/provided by six named entities and their specified affiliates, joint ventures, or licensees pose an unacceptable national-security or U.S.-person safety/security risk. A positive determination triggers FCC addition to its covered list; if the agency misses the deadline, the FCC must add all listed entities’ covered products/services. A negative determination triggers reporting and follow-on review by other national-security agencies. Both introduced versions also direct the Defense Secretary to determine whether named entities should be identified as Chinese military companies under the annual NDAA review. Latest official actions remain committee referrals as of October 14, 2026.",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr9687ih/html/BILLS-119hr9687ih.htm",
+   "site_record_id": "blocking-ccp-spy-tech-2026"
+  },
+  {
+   "title": "FY2027 NDAA Section 163 — foreign-adversary humanoid systems (H.R. 8800 §163; HASC LOG ID 6312)",
+   "date": "2026-06-04",
+   "sponsor": "House Armed Services Committee; related markup item offered by Rep. Lance Gooden",
+   "summary": "Gooden’s markup log item 6312, revision 2, was agreed to by voice vote. The House-passed FY2027 NDAA contains a related Section 163 barring DoD procurement, leasing or obtaining of covered humanoid robotic systems made or developed by foreign adversaries, or carrying their software, AI, cloud or remote-control services. A controlled-testing waiver and exclusions for fixed industrial robots, non-networked systems and regulated medical devices apply. H.R. 8800 passed the House July 22 and was received in the Senate September 14; it is not enacted as of October 14.",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr8800eh/html/BILLS-119hr8800eh.htm",
+   "site_record_id": "ndaa-fy2027-sec163-humanoid"
   }
  ],
  "themes": [
@@ -1259,13 +1308,14 @@
    "name": "Paul Boulware",
    "title": "Senior Director of Government Solutions",
    "org": "Path Robotics",
-   "bio": "Paul Boulware is Senior Director of Government Solutions at Path Robotics (title per SCSP speaker page), the Columbus, Ohio physical-AI welding company. No independent bio, prior roles or statements were found. Context: Path has a shipbuilding agreement with HII (reported up to $900M over seven years, per a secondary source) to automate welding for Navy vessels, making government engagement central to its business.",
+   "bio": "Paul Boulware is Senior Director of Government Solutions at Path Robotics (title per SCSP speaker page), the Columbus, Ohio physical-AI welding company. No independent bio, prior roles or statements were found. Context: Path and GrayMatter Robotics signed performance-based production agreements with HII on 2026-08-06 worth up to $900M combined over seven years, of which Path's share is up to $600M and contingent on milestones, to automate welding for Navy vessels, making government engagement central to its business.",
    "handles": {},
    "recent": [],
    "sources": [
     "https://www.scsp.ai/ai-robotics/",
     "https://oceannews.com/news/science-technology/hii-teams-with-path-robotics-to-integrate-physical-ai-into-manned-and-unmanned-shipbuilding/",
-    "https://industrialmachinerydigest.com/articles/hii-and-path-robotics-team-up-on-900m-deal-to-automate-defense-shipbuilding"
+    "https://industrialmachinerydigest.com/articles/hii-and-path-robotics-team-up-on-900m-deal-to-automate-defense-shipbuilding",
+    "https://hii.com/news/hii-signs-performance-based-production-agreements-with-path-robotics-and-graymatter-robotics"
    ],
    "commissioner": false,
    "sessions": [
@@ -1277,13 +1327,16 @@
    "name": "Peter Barrett",
    "title": "Founding General Partner",
    "org": "Playground Global",
-   "bio": "Peter Barrett, an Australian entrepreneur, co-founded Playground Global, a venture fund and design studio for hardware and deep-tech startups, with Andy Rubin and Bruce Leak. He was earlier CTO at CloudCar, held executive roles at Microsoft and WebTV, and co-founded Rocket Science Games. Playground has invested in robotics for years (portfolio has included Agility Robotics, RightHand, FarmWise per TechCrunch), making him a long-standing private-capital voice on robotics funding.",
+   "bio": "Peter Barrett, an Australian entrepreneur, co-founded Playground Global, a venture fund and design studio for hardware and deep-tech startups, with Andy Rubin and Bruce Leak. He was earlier CTO at CloudCar, held executive roles at Microsoft and WebTV, and co-founded Rocket Science Games. Playground has invested in robotics for years (portfolio has included Agility Robotics, RightHand, FarmWise per TechCrunch), making him a long-standing private-capital voice on robotics funding. Playground also backs xLight (Commerce CHIPS R&D letter of intent for up to $150M in equity-linked incentives, Dec 2025; Playground general partner Pat Gelsinger is its executive chairman) and PsiQuantum (named in Commerce's May 2026 quantum equity letters). Agility is merging with SPAC Churchill Capital Corp XI at a $2.5B pre-money value, with a shareholder vote on 2026-11-02.",
    "handles": {},
    "recent": [],
    "sources": [
     "https://en.wikipedia.org/wiki/Peter_Barrett_(entrepreneur)",
     "https://techcrunch.com/2018/04/14/playground-is-betting-big-on-robots/",
-    "https://www.scsp.ai/ai-robotics/"
+    "https://www.scsp.ai/ai-robotics/",
+    "https://www.bloomberg.com/news/articles/2025-12-02/commerce-department-to-back-chip-startup-from-former-intel-ceo",
+    "https://siliconflorist.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-at-a-2-5-billion-valuation/",
+    "https://datacenterdynamics.com/en/news/us-dept-of-commerce-awards-nine-quantum-computing-companies-2bn-in-exchange-for-non-controlling-equity-stakes/"
    ],
    "commissioner": true,
    "sessions": [
@@ -1519,10 +1572,27 @@
    "org": "International Trade Administration, U.S. Department of Commerce",
    "bio": "Teddy Bretschger is Deputy Assistant Secretary for Services at ITA, covering financial and professional services, digital and emerging technologies, global data policy and privacy, and supply chain services. He was previously Senior Advisor to the Under Secretary for International Trade, after about ten years as an Operating Partner at T Capital Management and earlier institutional equities work focused on tech. He holds a Wharton BS and a Duke Fuqua MBA. He is the Commerce official covering services and emerging-tech trade promotion.",
    "handles": {},
-   "recent": [],
+   "recent": [
+    {
+     "date": "2026-04-10",
+     "title": "American AI Exports Program: call for proposals from pre-set consortia",
+     "summary": "ITA's Federal Register call for full-stack export packages; proposals were accepted through June 30, 2026.",
+     "url": "https://www.federalregister.gov/documents/2026/04/10/2026-06952/american-ai-exports-program-call-for-proposals-for-pre-set-consortia",
+     "kind": "federal register"
+    },
+    {
+     "date": "2026-03-16",
+     "title": "Commerce announces the American AI Exports Program call for proposals",
+     "summary": "Describes pre-set and on-demand consortia and the support designated packages can receive.",
+     "url": "https://www.trade.gov/press-release/department-commerce-announces-new-american-ai-exports-program-phase",
+     "kind": "press release"
+    }
+   ],
    "sources": [
     "https://www.trade.gov/biography/teddy-bretschger",
-    "https://www.scsp.ai/ai-robotics/"
+    "https://www.scsp.ai/ai-robotics/",
+    "https://siexports.gov/faq",
+    "https://www.exim.gov/about/special-initiatives/export-ai-initiative"
    ],
    "commissioner": false,
    "sessions": [
@@ -2247,6 +2317,174 @@
    "date": "2026-10-13",
    "url": "https://bsky.app/profile/newsen.bsky.social/post/3mxrqikbteh2w",
    "summary": "Bluesky news account shared coverage of the Commission's preliminary report."
+  }
+ ],
+ "hill_session": {
+  "title": "The Hill's Robotics Agenda",
+  "time": "12:50",
+  "panelists": [
+   "grace-kim",
+   "charlie-mlcek",
+   "tony-samp"
+  ],
+  "note": "Paraphrased from live notes, not a transcript. These are staff remarks, not Member positions. Each point is checked against public sources; the check is shown beside it.",
+  "committees": [
+   "Sen. Slotkin: Armed Services (ranking member, Emerging Threats and Capabilities), Homeland Security and Governmental Affairs, Agriculture, Veterans' Affairs",
+   "Rep. Latta: Energy and Commerce; chairs the Energy subcommittee and sits on Communications and Technology, the panel that handled the GUARD Act",
+   "Rep. Obernolte: chairs Science, Space, and Technology's Research and Technology subcommittee; also on Energy and Commerce",
+   "Rep. Guthrie: chairs Energy and Commerce, which oversees the FCC and its Covered List",
+   "Commission bills: H.R. 7334 went to Science, Energy and Commerce, Foreign Affairs and Education and Workforce; S. 4686 went to Senate Commerce"
+  ],
+  "committee_sources": [
+   "https://breakingdefense.com/2025/10/whos-who-in-defense-elissa-slotkin-ranking-member-senate-armed-services-sasc-subcommittee-on-emerging-threats-and-capabilities/",
+   "https://energycommerce.house.gov/posts/chairman-guthrie-announces-119th-energy-and-commerce-republican-subcommittee-assignments",
+   "https://obernolte.house.gov/media/press-releases/rep-jay-obernolte-named-chairman-key-science-subcommittee-will-lead-ai-and"
+  ],
+  "points": [
+   {
+    "topic": "Jobs and the Toledo-area district",
+    "speaker": "Charlie Mlcek",
+    "said": "Latta's district around Toledo is a very large manufacturing district with a robotics hub. Openings outnumber qualified workers, and the office expects robotics to add jobs. Latta co-chairs the Robotics Caucus.",
+    "check": "Confirmed: Latta (OH-5) is one of four caucus co-chairs. The 86,000-jobs figure is Latta's own, from an undated statement; other sources give 60,000 to 77,000. Treat it as roughly 60,000 to 86,000.",
+    "sources": [
+     "https://www.dlapiper.com/en-us/insights/publications/2025/12/congressional-robotics-caucus",
+     "https://wfin.com/local-news/congressman-latta-speaks-in-findlay/",
+     "https://nam.org/rep-latta-touts-tax-reform-benefits-for-workers-at-kalmbach-feeds/"
+    ]
+   },
+   {
+    "topic": "A national strategy from the commission, not the statute",
+    "speaker": "Grace Kim",
+    "said": "Congress's own commission bill is slow, so Slotkin co-chairs SCSP's commission to move first. The office hopes a national strategy comes out of its report.",
+    "check": "Corrected: SCSP's final report is due March 2027; a preliminary report came out 2026-10-13. The statutory National Commission on Robotics Act (H.R. 7334, S. 4686) has not advanced, and the SCSP commission is not a congressional body.",
+    "sources": [
+     "https://www.dlapiper.com/en-us/insights/publications/2025/12/congressional-robotics-caucus",
+     "https://www.scsp.ai/2026/03/scsp-announces-launch-of-national-security-commission-on-robotics-for-advanced-manufacturing/"
+    ]
+   },
+   {
+    "topic": "Where robots land, not just where they are built",
+    "speaker": "Grace Kim",
+    "said": "Every state matters, including those that only deploy robots or feel the effects, and she sees parallels to data-center pushback. She also stressed safety and trust.",
+    "check": "Attributed opinion; nothing to check. Kim's three priorities: prepare the workforce, get security and safeguards right, and fix the messaging.",
+    "sources": []
+   },
+   {
+    "topic": "Security, agents and privacy",
+    "speaker": "Charlie Mlcek",
+    "said": "Worried about AI agents hacking deployed robots; wants an assurance and security focus for the caucus, updated privacy law (a parallel to IoT), capturing the upside and raising wages.",
+    "check": "Attributed opinion. Related: Samp's firm published a note on Sen. Warner's draft on securing AI agents (2026-07-01). The notes also mention a Hugging Face parallel from both staffers; that point is too unclear to publish.",
+    "sources": [
+     "https://www.dlapiper.com/en/people/s/samp-tony"
+    ]
+   },
+   {
+    "topic": "Procurement bill",
+    "speaker": "Charlie Mlcek",
+    "said": "Backs the procurement bill Stefanik carries.",
+    "check": "Corrected: the name is the American Security Robotics Act, not \"American Strategic Security Robotics Act\". Cotton and Schumer introduced it as S. 4235 on 2026-03-26 (Homeland Security and Governmental Affairs), with a House companion from Stefanik (DLA Piper: H.R. 8189). It covers federal buying and operating of Chinese-made robots, including humanoids.",
+    "sources": [
+     "https://www.cotton.senate.gov/news/press-releases/cotton-schumer-introduce-bipartisan-bill-to-protect-americans-data-from-foreign-adversaries",
+     "https://www.globalpolicywatch.com/2026/04/the-next-frontier-of-supply-chain-security-congress-trains-its-sights-on-robotics/",
+     "https://thelobbynews.com/congress/bills/119/senate-bill/4235"
+    ]
+   },
+   {
+    "topic": "GUARD Act and the FCC Covered List",
+    "speaker": "Charlie Mlcek",
+    "said": "Supports the GUARD Act and FCC Covered List action to box China out. Reshoring is needed because Canada and China are treated alike. Guthrie is working on Covered List reform.",
+    "check": "Confirmed, with context. GUARD is H.R. 9129 (Moolenaar, Obernolte, McClellan). The FCC listed foreign-produced mobile robots on 2026-07-28 and defines 'foreign-produced' as anything short of Buy American domestic content, which is why allies like Canada are caught too. Guthrie and Pallone filed a Covered List oversight bill in September 2026.",
+    "sources": [
+     "https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-obernolte-mcclellan-introduce-legislation-to-ban-dangerous-chinese-robots",
+     "https://www.clearytradewatch.com/2026/08/fcc-adds-foreign-produced-robotics-power-inverters-to-covered-list-house-ndaa-targets-foreign-adversary-humanoid-robots/",
+     "https://broadbandbreakfast.com/guthrie-pallone-introduce-bill-to-increase-oversight-of-fcc-covered-list/"
+    ]
+   },
+   {
+    "topic": "R&D, rare earths and defense manufacturing",
+    "speaker": "Grace Kim",
+    "said": "Wants incentives for R&D on batteries, components and rare-earth magnets. Cited the Future of Defense Manufacturing Act from last year's NDAA, and banning Chinese vehicles.",
+    "check": "Corrected: the Act bars DoD from Chinese-made 3D printers, not printed components. The vehicle ban is a separate bill, the Connected Vehicle Security Act (S. 4429, Slotkin and Moreno); it cleared Senate Commerce 2026-07-22 and its floor status is disputed. Magnet context: China makes about 94% of sintered permanent magnets (commission report).",
+    "sources": [
+     "https://www.slotkin.senate.gov/2025/05/28/slotkin-announces-michigan-defense-plan-and-bill-to-bolster-defense-manufacturing-in-michigan",
+     "https://policysoup.com/bills/s2214-119",
+     "https://www.asashop.org/2026/07/23/senate-commerce-science-and-transportation-committee-advances-connected-vehicle-security-act/"
+    ]
+   },
+   {
+    "topic": "Promotion, labs and workforce",
+    "speaker": "Grace Kim",
+    "said": "On the positive side: frontier labs doing more on security, FANUC and workforce training, and a heavy focus on jobs. The Robotics Caucus is adding staff and Mlcek solicited interest.",
+    "check": "FANUC America's Mike Cicco is an SCSP commissioner. Caucus staffing is unverified; no public source.",
+    "sources": [
+     "https://www.scsp.ai/2026/03/scsp-announces-launch-of-national-security-commission-on-robotics-for-advanced-manufacturing/"
+    ]
+   }
+  ]
+ },
+ "session_notes": [
+  {
+   "title": "Fireside with Commerce's International Trade Administration",
+   "time": "4:10",
+   "summary": "Teddy Bretschger, ITA's deputy assistant secretary for services, on the Commerce program that packages US AI exports. Most of it is public; the check shows where.",
+   "points": [
+    {
+     "topic": "Export promotion, not export controls",
+     "speaker": "Teddy Bretschger",
+     "said": "Export controls came up. The program he described promotes exports; licensing is one of its benefits.",
+     "check": "Partly right. Designated packages get priority review of export-license applications at the Bureau of Industry and Security, but the program itself is promotion: advocacy, licensing priority and financing referrals. It does not change the controls.",
+     "sources": [
+      "https://www.trade.gov/press-release/department-commerce-announces-new-american-ai-exports-program-phase",
+      "https://siexports.gov/faq"
+     ]
+    },
+    {
+     "topic": "Pre-set consortia and the full stack",
+     "speaker": "Teddy Bretschger",
+     "said": "A company can bid for the whole stack alone or with partners as a pre-set consortium. Applications are closed, and the first designations will be announced shortly. He said this is all public.",
+     "check": "Confirmed. The call opened April 1 and closed June 30, 2026 (91 FR 18412). Commerce reviews on a rolling basis and says it intends a completeness check within 14 business days, then a designation decision within 60 days. The stack has five layers: AI hardware, data pipelines and labeling, models and systems, security, and applications. I found no published designations as of Oct 14. The Federal Register calls it the American AI Exports Program; the program's own site now brands it the American SI Exports Program.",
+     "sources": [
+      "https://www.federalregister.gov/documents/2026/04/10/2026-06952/american-ai-exports-program-call-for-proposals-for-pre-set-consortia",
+      "https://siexports.gov/faq",
+      "https://www.whitehouse.gov/presidential-actions/2025/07/promoting-the-export-of-the-american-ai-technology-stack/"
+     ]
+    },
+    {
+     "topic": "An on-demand track for partial stacks",
+     "speaker": "Teddy Bretschger",
+     "said": "An on-demand program will be announced shortly. It matters more for robotics, because a company may cover only part of the stack rather than all five layers.",
+     "check": "The track exists. Commerce's March 16 release says on-demand consortia form for a specific opportunity the program identifies and need cover only the layers that deal requires, with one selection process for both kinds. The Federal Register call covers pre-set consortia only, and I found no separate on-demand call. That it suits robotics is his view.",
+     "sources": [
+      "https://www.trade.gov/press-release/department-commerce-announces-new-american-ai-exports-program-phase",
+      "https://siexports.gov/faq"
+     ]
+    },
+    {
+     "topic": "Small businesses and demand signals",
+     "speaker": "Teddy Bretschger",
+     "said": "The program could suit small and mid-size firms and responds to demand signals from specific areas. Support is priority advocacy, licensing and US government financing.",
+     "check": "The three supports are confirmed, each conditional on the US interest and none guaranteed. I found no provision aimed specifically at small firms. 'Demand signals' fits the on-demand design, where the program identifies the opportunity first.",
+     "sources": [
+      "https://siexports.gov/faq",
+      "https://www.trade.gov/press-release/department-commerce-announces-new-american-ai-exports-program-phase"
+     ]
+    },
+    {
+     "topic": "Financing partners",
+     "speaker": "Teddy Bretschger",
+     "said": "ITA is working with EXIM and other agencies on financing, bringing resources together for the export program.",
+     "check": "EXIM is confirmed: its ExportAI Initiative offers guarantees and direct loans and eases content-certification rules for exports Commerce designates. Federal financing is 'priority routing' of referrals, and each agency keeps its own authority and underwriting standards. An 'OSC' (possibly DoD's Office of Strategic Capital) is not linked to the program in any source I found.",
+     "sources": [
+      "https://www.exim.gov/about/special-initiatives/export-ai-initiative",
+      "https://siexports.gov/faq"
+     ]
+    }
+   ],
+   "open_items": [
+    
+    "Which agencies besides EXIM were named",
+    "When the first designations and the on-demand call will be published"
+   ]
   }
  ]
 }

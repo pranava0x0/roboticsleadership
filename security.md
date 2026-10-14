@@ -2,7 +2,7 @@
 
 > Refresh this file (and re-fetch <https://pranava0x0.github.io/vibe-coding-security/llms-ctx.txt>) if `Last updated` below is more than 7 days old, before any `npm install` / `pip install` / dep upgrade.
 
-**Last updated:** 2026-10-14 (advisory index re-read before adding the CI-only Playwright pin; no advisory names playwright, greenlet, pyee or typing-extensions.)
+**Last updated:** 2026-10-14 (fresh advisory index checked before installing the existing pinned UAT requirements into a temporary test environment; no matching advisory for playwright, greenlet, pyee or typing-extensions. Runtime dependencies remain unchanged.)
 
 ---
 

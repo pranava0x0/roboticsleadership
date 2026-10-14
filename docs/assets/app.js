@@ -1027,6 +1027,49 @@
     `).join('');
   }
 
+  // ---------- SCSP robotics commission report (data/scsp-robotics-commission-2026.json) ----------
+  // Every claim carries a printed page and a PDF page; links open the PDF at the PDF page.
+  function reportCite(report, item, label) {
+    const href = safeURL(`${report.pdf_url}#page=${item.pdf_page}`);
+    const text = label || (item.pages ? `pp. ${item.pages}` : `p. ${item.page}`);
+    return `<a class="report-cite tnum" href="${escapeHTML(href)}" target="_blank" rel="noopener">${escapeHTML(text)}</a>`;
+  }
+
+  // A short note on another page: chosen findings and figures, each with its page link.
+  // opts: { findings: [n], figures: [key-figure id], theme: theme id }
+  function renderCommissionNote(report, opts) {
+    const findings = (opts.findings || []).map((n) => report.findings.find((f) => f.n === n)).filter(Boolean);
+    const figures = (opts.figures || []).map((id) => report.key_figures.find((k) => k.id === id)).filter(Boolean);
+    const more = `scsp-summit.html${opts.theme ? `?theme=${encodeURIComponent(opts.theme)}` : ''}#report`;
+    return `
+      <p class="muted" style="margin:0 0 10px;font-size:13px;">From the ${escapeHTML(report.publisher.replace(/ \(.*/, ''))}'s robotics commission, <a href="${escapeHTML(safeURL(report.page_url))}" target="_blank" rel="noopener">preliminary report</a>, ${escapeHTML(formatDate(report.released))}. Page links open the PDF.</p>
+      <ul class="commission-findings">${findings.map((f) => `
+        <li><strong>${escapeHTML(f.title)}.</strong> ${escapeHTML(f.summary)} ${reportCite(report, f)}</li>`).join('')}
+      </ul>
+      ${figures.length ? `<dl class="commission-figs">${figures.map((k) => `
+        <div><dt>${escapeHTML(k.label)}</dt><dd><span class="tnum">${escapeHTML(k.value)}</span> ${reportCite(report, k)}</dd></div>`).join('')}
+      </dl>` : ''}
+      <p style="margin:10px 0 0;font-size:13.5px;"><a href="${more}">All of the report's findings on this →</a></p>`;
+  }
+
+  // Page glue: the note sits in a collapsed <details>, so the report is fetched
+  // only when a reader opens it. A failed load says so instead of leaving "Loading…".
+  function mountCommissionNote(selector, opts) {
+    const el = document.querySelector(selector);
+    if (!el) { console.warn(`mountCommissionNote: no ${selector}`); return; }
+    const box = el.closest('details');
+    const load = () => loadData('scsp-robotics-commission-2026')
+      .then((report) => paint(el, renderCommissionNote(report, opts)))
+      .catch((err) => {
+        console.error('Commission report failed to load:', err);
+        paint(el, '<p class="muted-cell">Could not load the commission report. Close and reopen this section to try again.</p>');
+        if (box) box.addEventListener('toggle', onToggle); // loadData clears its cache on failure, so a reopen retries
+      });
+    const onToggle = () => { if (box.open) { box.removeEventListener('toggle', onToggle); load(); } };
+    if (!box || box.open) { load(); return; }
+    box.addEventListener('toggle', onToggle);
+  }
+
   // ---------- Boot sequence ----------
   function init() {
     initThemePicker();
@@ -1095,5 +1138,8 @@
     renderNewsBriefs,
     renderThemeCards,
     renderTopCompanies,
+    reportCite,
+    renderCommissionNote,
+    mountCommissionNote,
   };
 })(window);

@@ -324,16 +324,14 @@ across all backgrounds:
 
 | Theme           | Body (min) | Muted (min) | Faint (min) | Accent (min) | `--border-strong` (min) |
 |-----------------|-----------|-------------|-------------|--------------|-------------------------|
-| Caves of Steel  | 13.8:1    | 7.2:1       | 5.5:1       | 8.4:1        | 3.2:1 |
-| The Naked Sun   | 15.4:1    | 6.3:1       | 4.9:1       | 7.4:1        | 3.3:1 |
-| Robots of Dawn  | 12.5:1    | 5.7:1       | 4.6:1       | 5.5:1        | 3.6:1 |
-| Robot Dreams    | 13.3:1    | 6.2:1       | 5.6:1       | 8.3:1        | 3.8:1 |
-| Foundation      | 13.7:1    | 7.4:1       | 5.6:1       | 9.5:1        | 3.7:1 |
+| Caves of Steel  | 12.0:1    | 7.1:1       | 5.4:1       | 6.6:1        | 3.6:1 |
+| The Naked Sun   | 14.1:1    | 7.8:1       | 6.6:1       | 5.3:1        | 4.2:1 |
+| Robots of Dawn  | 13.3:1    | 6.3:1       | 5.1:1       | 5.8:1        | 3.5:1 |
+| Robot Dreams    | 9.8:1     | 6.8:1       | 5.7:1       | 6.2:1        | 3.6:1 |
+| Foundation      | 13.9:1    | 9.1:1       | 6.5:1       | 5.2:1        | 3.6:1 |
 
-Two theme-specific rules survive the rework:
+Theme-wide rules:
 
-- **Caves' `--status-positive` is only ever used on dark surfaces** (it is a dark-mode-only theme, so this is
-  automatic, but it is why the token may not be lifted into a light theme unchanged).
 - **Text inside any accent fill uses `--accent-on`, in every theme (2026-10-14).** `.btn.primary` and the
   skip link used to hardcode `#fff`, with only Robot Dreams overridden — white on Caves' sodium amber was
   1.83:1 and on Foundation's cyan ~1.7:1. Every theme defines `--accent-on`; never write `#fff` on `--accent`.
@@ -350,189 +348,93 @@ Other accessibility requirements every theme respects:
 
 - **Fallback font stacks** declared after every web font; if the network fails or the font is being fetched, the system fallback is visually close.
 - **`@media (prefers-reduced-motion: reduce)`** kills theme-specific transitions (Naked Sun's slow fades, Robot Dreams' glow pulses).
-- **Focus indicators** never go below 2px solid outline at 2px offset; cyan inside Robot Dreams uses `outline-color: var(--accent)` so it's visible against any surface.
+- **Focus indicators** never go below 2px solid outline at 2px offset; every theme uses `outline-color: var(--accent)`, which clears 3:1 on all three surfaces.
 - **No information conveyed by color alone.** Status pills always pair color with a label.
 
 ### 15.3 Theme specs
 
-> **Reworked 2026-07-28.** The first pass named the themes after the books; this one takes its values *from*
-> them. Four things changed and each is a book detail, not a taste call — they are recorded here because the
-> next person to "tidy" a hex code needs to know what it was doing.
+> **Rebuilt 2026-10-14 from the cover art.** The earlier palettes were four variations on "dark with amber" and
+> "light with a dark accent", and the owner found they all looked the same. Each theme now takes its ground
+> and accent from one specific cover, so the five read as different books at a glance: steel blue, sun
+> yellow, dawn aqua, dusk plum, black and cream. When changing a value, keep it traceable to the cover.
 
 #### Theme 1 — Caves of Steel (Earth)
 
-**Aesthetic.** The enclosed City: eight million people under one roof, no sky, permanent artificial light.
-Sharp borders replace open whitespace; numbers and tables dominate. Flattest edges of the four.
+**Cover.** 1954 Doubleday jacket (cobalt blue, red accent); Michael Whelan, 1986 (steel-blue girders, one orange beam).
 
-**What the book changed.** The accent is now **low-pressure sodium amber**, the actual colour of the lighting
-a domed City and its expressway strips would run on — `#FFC700` was a lemon yellow no sodium lamp emits.
-`--status-positive` is **yeast-vat green**, because Earth eats what the New Jersey yeast farms grow; the old
-`#00FF66` was a terminal-phosphor green with nothing to do with the setting. Neutrals carry a faint blue-steel
-cast: steel and concrete, not warm carbon.
+**Treatment.** Dark. Deep steel-blue ground, blue-grey neutrals, girder orange as the only accent. Barlow Condensed + Roboto. 2px corners, flat shadows.
 
 ```
-Display font  Barlow Condensed, "Arial Narrow", "Helvetica Condensed", sans-serif
-Body font     Roboto, system-ui, "Segoe UI", Arial, sans-serif
-
---bg              #101013  steel black (was #121212 warm carbon)
---surface         #191a1e
---surface-2       #232529  concrete
---border          #303338
---border-strong   #6b7280                              3.2:1 (min, on --surface-2)
---text            #f2f3f5                             17.1:1
---text-muted      #adb2ba                              8.9:1
---text-faint      #949ba5                              5.5:1 (min) — was #828892, 4.30:1 on --surface-2
---accent          #ffb000  low-pressure sodium amber   10.4:1
---status-positive #86c46a  yeast-vat green              9.2:1
---radius-card     2px      sharpest of the four (was 4px)
---shadow-rest     0 0 0 1px rgba(0,0,0,0.5)            flat, no blur
+--bg #0c1622   --surface #132233   --surface-2 #1b2d42   --border-strong #6585a6
+--text #e8eef5   --text-muted #a9bbcd   --text-faint #8ea3b8
+--accent #ff9a3c   --accent-on #0c1622
+--status  positive #7fd4a0  warning #f2d06b  negative #ff7a6b
 ```
 
 #### Theme 2 — The Naked Sun (Solaria)
 
-**Aesthetic.** Twenty thousand people on a whole planet, ten thousand robots each. Hyper-minimalist, sterile,
-ultra-isolated; the only decoration is whitespace, and the transitions are the slowest of the four (Solarians
-do not hurry, and they meet by "viewing", never in person).
+**Cover.** 1957 Doubleday jacket: a flat field of sun-yellow, red condensed title, black ink drawing.
 
-**What the book changed.** The word for this world is *bleached*, so **every neutral is now cold**. The old
-palette's alabaster beige (`--surface-2 #F0ECE1`, `--border #E5E0D5`) was the single biggest reason this theme
-read as a slightly duller Robots of Dawn rather than its opposite — two light themes that both leaned warm.
-The accent is Solarian estate cypress pushed toward teal: the one saturated thing on an over-lit world.
+**Treatment.** Light. Pale sun-yellow ground, black-ink text, title red as the accent, a hard noon shadow under cards. Oswald + Inter.
 
 ```
-Display font  Didot, "Bodoni MT", "Bodoni Moda", "Big Caslon", Georgia, serif
-Body font     Inter, system-ui, -apple-system, "Segoe UI", sans-serif
-
---bg              #fbfcfc  bleached white
---surface         #ffffff
---surface-2       #eceff1  cold grey (was #F0ECE1 warm beige)
---border          #dfe4e7  (was #E5E0D5)
---border-strong   #7c8489                              3.3:1 (min) — was #8a9298, 2.74:1 on --surface-2
---text            #15181a                             17.4:1
---text-muted      #4f585d                              7.5:1
---text-faint      #5f686e                              4.9:1 (min) — was 4.15:1 on --bg, failed AA
---accent          #14564a  cold cypress                 8.3:1
---radius-card     14px
---shadow-rest     none     intentionally flat
---transition-slow 320ms
+--bg #fdf1c7   --surface #fffbea   --surface-2 #f7e39a   --border-strong #7d6a1c
+--text #1a1608   --text-muted #4a4220   --text-faint #574d22
+--accent #b0231a   --accent-on #fffbea
+--status  positive #265a22  warning #6e4a00  negative #9e1b1b
 ```
 
 #### Theme 3 — The Robots of Dawn (Aurora)
 
-**Aesthetic.** Aurora is named for the goddess of the dawn — the World of the Dawn, first and richest of the
-Spacer worlds. Utopian, premium, serene. Rounded cards, soft depth, reads like an Atlantic feature.
+**Cover.** Michael Whelan, 1984: bronze Giskard against a pale-aqua-to-lemon dawn sky over violet ground.
 
-**What the book changed.** The direction was already right; the depth was not. `#8C4303` reads brown rather
-than sunrise and left no contrast headroom, so the accent is now a deeper terracotta struck by low sun. The
-category ramp gains the violet of the sky before sunrise (funding) and a true rose (competitive). This is the
-one theme allowed to be unapologetically warm — it is what The Naked Sun is now defined against.
+**Treatment.** Light. Aqua-white page with the dawn sky washed across the top, bronze accent, violet for funding. Cormorant Garamond + Montserrat. 16px corners.
 
 ```
-Display font  Cormorant Garamond, Georgia, "Iowan Old Style", "Apple Garamond", serif
-Body font     Montserrat, system-ui, -apple-system, "Segoe UI", sans-serif
-
---bg              #fff8f2  dawn blush
---surface         #ffffff
---surface-2       #f3e4d6  warm marble
---border          #e8d9c7
---border-strong   #8c7454                              3.6:1 (min) — was #9e8668, 2.78:1 on --surface-2
---text            #2b221c                             14.8:1
---text-muted      #655648                              6.7:1
---text-faint      #756454                              4.6:1 (min) — was 3.81:1 on --bg, failed AA
---accent          #9a3d12  low-sun terracotta           6.5:1
---cat-funding     #5a3a8c  pre-dawn violet
---cat-competitive #982660  dawn rose (was #a32a64; pill 4.45:1 on --surface-2)
---cat-policy      #7a4a10  (was #8f5312; pill 4.11:1)
---status-warning  #7a5a08  ochre (was #8f4a0c, read as the accent)
---status-negative #9c1c3c  crimson (was #8a2618, read as the accent)
---radius-card     16px     most pronounced
+--bg #effaf6   --surface #ffffff   --surface-2 #dcf1ea   --border-strong #5c867c
+--text #14262a   --text-muted #3f5a5c   --text-faint #4d6869
+--accent #8a4a06   --accent-on #ffffff
+--status  positive #2c6a3a  warning #735400  negative #a01d3d
 ```
 
 #### Theme 4 — Robot Dreams (the subconscious)
 
-**Aesthetic.** Elvex, the robot who dreams. Soft-edged, lit from within, glassmorphic surfaces over a
-grey-indigo ground.
+**Cover.** Ralph McQuarrie, 1986: a silver robot asleep on a dusty-rose couch, lavender dusk, pale sun over a teal sea.
 
-**What the book changed — the big one.** This theme was cyan-on-midnight with Orbitron, which owed more to
-stock sci-fi than to the 1986 story: *cosmic* was never in it. What Elvex actually dreams is a colourless grey
-in which robots labour, lit by one distant sun. So the ground is **grey-indigo, not saturated space blue**;
-the text is **warm silver**; the hairlines are **warm grey, not blue**; and the accent is **a single amber
-light**, the sun of the dream. Orbitron gave way to **Fraunces**, a soft-serif whose optical wonkiness reads
-dreamlike where a wide-tracked geometric read like a spaceship console. The glass and the glow stay — the
-dream is still soft-edged — only the hue moved. The theme's picker tag changed from "Cosmic" to
-"Subconscious" to match.
+**Treatment.** Dark (dusk, not night). Plum-grey ground, silver-lilac text, dusty-rose accent, sea teal for positive. Fraunces + Plus Jakarta Sans. Opaque surfaces; the old glass blur is gone.
 
 ```
-Display font  Fraunces, "Iowan Old Style", Georgia, "Palatino Linotype", serif  (was Orbitron)
-Body font     Plus Jakarta Sans, system-ui, -apple-system, sans-serif
-
---bg               #14151a  grey-indigo (was #0A0915 positronic midnight)
---surface          rgba(31, 33, 41, 0.66)   glass
---surface-2        rgba(31, 33, 41, 0.45)
---surface-backdrop blur(12px) saturate(120%)
---border           rgba(205, 199, 187, 0.16)  warm grey (was blue)
---border-strong    rgba(205, 199, 187, 0.55)           3.8:1 (min) — 0.45 was 2.90:1 on --surface
---text             #e8e4db  warm silver                14.4:1
---text-muted       #a39d91                              6.8:1
---text-faint       #9a9488                              5.6:1 (min) — was #847e73, 4.18:1 on --surface
---accent           #f2a65a  dream-sun amber (was #00E5FF cyan)   9.0:1
---accent-on        #14151a  text colour inside any accent fill
---status-warning   #e6dc7a  pale straw (was #f2c75a, too close to the amber accent)
---radius-card      12px
---shadow-elevated  0 0 24px rgba(242, 166, 90, 0.16)   subtle glow
+--bg #2b2530   --surface #352e3b   --surface-2 #3f3746   --border-strong #9a8ca3
+--text #f1ecf2   --text-muted #d0c5d4   --text-faint #c0b4c5
+--accent #f2adb7   --accent-on #2b2530
+--status  positive #9fdcc8  warning #ecd38a  negative #ff9a9a
 ```
-
-The body carries a faint radial light at the top of the page so the glass has something to blur; on a flat
-ground the backdrop-filter rendered nothing.
 
 #### Theme 5 — Foundation (Trantor)
 
-**Aesthetic.** The dying capital of the Galactic Empire: a metal-sheathed planet-city with no sky, the
-Empire's violet, and the Prime Radiant's equations glowing in the dark of the Time Vault. Dark, because
-every image the series is remembered by is light on dark.
+**Cover.** 1951 Gnome Press jacket: black space, cream spiral galaxy, title in red, byline in gold.
 
-**Why it looks the way it does.** The two existing dark themes both use amber, so this one flips to a **cool
-cyan accent on a violet-black ground**, with **tarnished brass** for warning (decaying imperial gold).
-**Spectral** for display (the Encyclopedia Galactica) and **IBM Plex Sans** for body (psychohistory as a
-technical discipline). 6px radius, between Caves' 2px and Dreams' 12px: riveted metal plate. Opaque
-surfaces, no glass.
+**Treatment.** Dark. Near-black ground, cream text, title-red accent, gold for warning, a faint galaxy glow at the top. Spectral + IBM Plex Sans. 4px corners.
 
 ```
-Display font  Spectral, "Iowan Old Style", Georgia, "Palatino Linotype", serif
-Body font     IBM Plex Sans, system-ui, -apple-system, "Segoe UI", Arial, sans-serif
-
---bg               #0d0b1a  imperial violet-black
---surface          #161327
---surface-2        #201c36
---border-strong    #7a7499                              3.7:1 (min)
---text             #ebe9f5                             16.2:1
---text-muted       #b0abcb                              8.8:1
---text-faint       #9893b8                              5.6:1 (min)
---accent           #62d4f0  Prime Radiant cyan         11.3:1
---accent-on        #0d0b1a
---status-warning   #e0b455  tarnished brass
---radius-card      6px
+--bg #0b0b0e   --surface #141418   --surface-2 #1d1d22   --border-strong #77736a
+--text #f1e9d6   --text-muted #c7bea8   --text-faint #a9a18c
+--accent #f0604f   --accent-on #0b0b0e
+--status  positive #9fd79a  warning #e3c36b  negative #ff7aa3
 ```
-
-Positive vs negative stays distinguishable under deuteranopia (ΔE 22, against 7–15 in the other themes).
-
-> **Robot Dreams pitfall.** The `backdrop-filter: blur(...)` rule violates the § 10 "no filter on hot panes"
-> pitfall *for content panes* (maps, scrolling feeds). It is acceptable here because it is applied only to
-> bounded card surfaces, not to a viewport-sized scrolling layer. If we later add a map view, the cards must
-> drop blur when overlaid on map tiles or perf collapses on mobile.
 
 ### 15.4 Toggle UI
 
-A single disclosure element in the header. Native `<details>` for show/hide (zero JS for the open/close primitive), a `<fieldset>` with four `<input type="radio">` for selection. Keyboard accessible by HTML default; semantic; no ARIA roles needed beyond the labeled fieldset.
+A single disclosure element in the header. Native `<details>` for show/hide (zero JS for the open/close primitive), a `<fieldset>` with five `<input type="radio">` for selection. Keyboard accessible by HTML default; semantic; no ARIA roles needed beyond the labeled fieldset.
 
 Why not a `<select>`: native select chrome can't be styled across browsers without invasive overrides, and it doesn't accommodate per-option preview/description chips.
 Why not a popover menu with `role="menu"`: more JS for the same UX as a `<details>` + radios.
 
 The disclosure is sticky-in-header on every page so a user reading on one page can switch themes without losing position.
 
-### 15.5 When to add a fifth theme
+### 15.5 When to add another theme
 
-The four cover four distinct moods. Don't add a fifth unless an editorial use case demands it (e.g. a print-friendly mode, or a colorblind-safe mode that the four can't all satisfy via tokens alone). Each new theme is a maintenance tax — every component template has to be visually validated against every theme.
+The five cover five distinct moods. Don't add a fifth unless an editorial use case demands it (e.g. a print-friendly mode, or a colorblind-safe mode that the five can't all satisfy via tokens alone). Each new theme is a maintenance tax — every component template has to be visually validated against every theme.
 
 ---
 

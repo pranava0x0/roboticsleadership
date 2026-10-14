@@ -1,0 +1,68 @@
+{
+  "id": "national-commission-on-robotics-act",
+  "title": "National Commission on Robotics Act",
+  "number": [
+    "H.R. 7334",
+    "S. 4686"
+  ],
+  "date": {
+    "H.R. 7334": "2026-02-03",
+    "S. 4686": "2026-06-04"
+  },
+  "sponsor": {
+    "H.R. 7334": "Rep. Jay Obernolte (introduced for himself, Rep. Jennifer McClellan, and Rep. Robert Latta)",
+    "S. 4686": "Sen. Dave McCormick (introduced for himself, Sens. John Hickenlooper, Todd Young, and Martin Heinrich)"
+  },
+  "committee": {
+    "H.R. 7334": "House Committees on Science, Space, and Technology; Energy and Commerce; Foreign Affairs; and Education and Workforce",
+    "S. 4686": "Senate Committee on Commerce, Science, and Transportation"
+  },
+  "status": "H.R. 7334: 2026-02-03 — Referred to the Committee on Science, Space, and Technology, and in addition to the Committees on Energy and Commerce, Foreign Affairs, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.; S. 4686: 2026-06-04 — Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+  "status_as_of": "2026-10-14",
+  "source_urls": [
+    "https://www.govinfo.gov/content/pkg/BILLS-119hr7334ih/html/BILLS-119hr7334ih.htm",
+    "https://www.govinfo.gov/content/pkg/BILLS-119s4686is/html/BILLS-119s4686is.htm"
+  ],
+  "local_files": [
+    "119hr7334ih.htm",
+    "119hr7334ih.txt",
+    "119hr7334ih.xml",
+    "119hr7334ih.pdf",
+    "119s4686is.htm",
+    "119s4686is.txt",
+    "119s4686is.xml",
+    "119s4686is.pdf"
+  ],
+  "summary": "Establishes an independent robotics commission to review advances in robotics and recommend policies addressing U.S. economic competitiveness and national security. Its review includes domestic and international competitiveness, strategic investment and partnerships, workforce, supply chains, and manufacturing. It requires an interim report within one year and a final report within two years after the commission is established, then terminates the commission 18 months after the final report.",
+  "mechanism_scope_limitations": "Creates a time-limited advisory commission, not an operating robotics agency or direct regulatory regime. The House and Senate bills are substantially parallel in purpose and review/report structure, with differences in some provisions and text; this record does not treat one as a formal companion unless Congress.gov explicitly labels them so.",
+  "quotes": [
+    {
+      "quote": "The Commission shall carry out a review of advances in robotics.",
+      "reference": "H.R. 7334 / S. 4686, § 2(e)(1)"
+    },
+    {
+      "quote": "Not later than two years after the date on which the Commission is established under subsection (a), the Commission shall submit to the appropriate congressional committees and the President a final report",
+      "reference": "H.R. 7334 / S. 4686, § 2(f)(2)"
+    }
+  ],
+  "unresolved_discrepancies": [
+    "H.R. 7334 and S. 4686 share the title and substantially similar structure, but the bills are independently introduced and their texts contain differences; exact companion/identical-bill status was not verified from a Congress.gov relationship record."
+  ],
+  "captured_at": "2026-10-14",
+  "latest_actions": [
+    {
+      "number": "H.R. 7334",
+      "date": "2026-02-03",
+      "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committees on Energy and Commerce, Foreign Affairs, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7334.xml",
+      "local_file": "BILLSTATUS-119hr7334.xml"
+    },
+    {
+      "number": "S. 4686",
+      "date": "2026-06-04",
+      "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4686.xml",
+      "local_file": "BILLSTATUS-119s4686.xml"
+    }
+  ]
+}

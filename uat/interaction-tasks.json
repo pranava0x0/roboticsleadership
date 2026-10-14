@@ -81,7 +81,7 @@
     ],
     [
      "see",
-     "#context-body ul.summit-recent li"
+     "#report-figs tbody tr"
     ]
    ]
   },
@@ -93,11 +93,31 @@
     ],
     [
      "tap",
-     ".jump-nav a[href=\"#context\"]"
+     ".jump-nav a[href=\"#report\"]"
     ],
     [
      "see",
-     "#context-body ul.summit-recent li"
+     "#report-figs tbody tr"
+    ]
+   ]
+  },
+  "summit_report_evidence": {
+   "steps": [
+    [
+     "nav",
+     "scsp-summit.html"
+    ],
+    [
+     "tap",
+     ".jump-nav a[href=\"#report\"]"
+    ],
+    [
+     "tap",
+     "#finding-9 > summary"
+    ],
+    [
+     "see",
+     "#finding-9 .report-finding-body li"
     ]
    ]
   },
@@ -154,6 +174,22 @@
     [
      "see",
      "#share-rows .share-row"
+    ]
+   ]
+  },
+  "supply_commission_note": {
+   "steps": [
+    [
+     "nav",
+     "supply-chain.html"
+    ],
+    [
+     "tap",
+     "#sec-commission > summary"
+    ],
+    [
+     "see",
+     "#commission-note .commission-findings li"
     ]
    ]
   },
@@ -255,6 +291,42 @@
     [
      "see",
      "#sec-eo-workforce > p"
+    ]
+   ]
+  },
+  "policy_hearing_transcript": {
+   "steps": [
+    [
+     "nav",
+     "policies.html"
+    ],
+    [
+     "tap",
+     "#policy-research-jump"
+    ],
+    [
+     "tap",
+     "#hearing-2026-07-22 > summary"
+    ],
+    [
+     "see",
+     "#hearing-2026-07-22 a:has-text(\"Unedited transcript\")"
+    ]
+   ]
+  },
+  "china_five_year_plan": {
+   "steps": [
+    [
+     "nav",
+     "china.html"
+    ],
+    [
+     "tap",
+     "#five-year-plan-jump"
+    ],
+    [
+     "see",
+     "#sec-five-year-plan blockquote"
     ]
    ]
   }

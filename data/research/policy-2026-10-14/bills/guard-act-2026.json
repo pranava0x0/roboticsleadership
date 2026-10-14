@@ -1,0 +1,45 @@
+{
+  "id": "guard-act-2026",
+  "title": "Guarding the U.S. against Adversarial Robotics Dominance Act of 2026 (GUARD Act of 2026)",
+  "number": "H.R. 9129",
+  "date": "2026-06-03",
+  "sponsor": "Rep. John R. Moolenaar (introduced for himself, Rep. Jay Obernolte, and Rep. Jennifer McClellan)",
+  "committee": "House Committee on Energy and Commerce",
+  "status": "H.R. 9129: 2026-09-01 — Forwarded by Subcommittee to Full Committee by Voice Vote.",
+  "status_as_of": "2026-10-14",
+  "source_urls": [
+    "https://www.govinfo.gov/content/pkg/BILLS-119hr9129ih/html/BILLS-119hr9129ih.htm",
+    "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/pdf/CREC-2026-09-01-pt1-PgD855.pdf"
+  ],
+  "local_files": [
+    "119hr9129ih.htm",
+    "119hr9129ih.txt",
+    "119hr9129ih.xml",
+    "119hr9129ih.pdf",
+    "CREC-2026-09-01-pt1-PgD855.pdf",
+    "CREC-2026-09-01-pt1-PgD855.txt"
+  ],
+  "summary": "Directs an appropriate national-security agency to determine within one year whether covered humanoid/quadruped robotics communications equipment or services pose an unacceptable risk to U.S. national security or the safety/security of U.S. persons. If the agency does not make a determination by the deadline, the FCC must add all covered equipment/services to its covered list; affirmative findings trigger listing and reporting. A negative finding requires reporting and review by other appropriate national-security agencies.",
+  "mechanism_scope_limitations": "Covers humanoid or quadruped ground robots, their control software/external devices, when they are communications equipment or services produced/provided by a covered foreign entity (including entities tied to a country of concern through control, ownership, joint venture, or technology-sharing/licensing). The bill provides a path to avoid listing on a timely negative determination; it does not itself impose a direct across-the-board procurement or private ownership ban.",
+  "quotes": [
+    {
+      "quote": "If the appropriate national security agency does not make a determination as required by paragraph (1) within 1 year after the enactment of this Act, the Commission shall add all covered robotics communications equipment or services to the covered list.",
+      "reference": "H.R. 9129, § 2(a)(3)"
+    },
+    {
+      "quote": "H.R. 9129, H.R. 6152, H.R. 2805, and H.R. 4950 were forwarded to the full Committee, without amendment.",
+      "reference": "Congressional Record, Daily Digest, 2026-09-01, House subcommittee markup entry"
+    }
+  ],
+  "unresolved_discrepancies": [],
+  "captured_at": "2026-10-14",
+  "latest_actions": [
+    {
+      "number": "H.R. 9129",
+      "date": "2026-09-01",
+      "text": "Forwarded by Subcommittee to Full Committee by Voice Vote.",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9129.xml",
+      "local_file": "BILLSTATUS-119hr9129.xml"
+    }
+  ]
+}
