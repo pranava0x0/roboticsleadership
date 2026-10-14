@@ -5,8 +5,8 @@
     "method": "Curated from primary sources (press releases, SEC filings, DoD announcements) and trade press (The Robot Report, IEEE Spectrum, TrendForce, Counterpoint, CSIS, Adamas) via seeded web search plus five parallel research sweeps"
   },
   "overview": {
-    "headline": "The U.S. is rebuilding the robot supply chain from both ends — and the middle is missing.",
-    "bluf": "Capital and federal money now flow into the two ends of the chain: rare-earth magnets (MP Materials, Vulcan, USA Rare Earth — backed by ~$3B+ of DoD equity, loans, and price floors) and final assembly (BotQ, RoboFab, Tesla Fremont, Hyundai's planned 30k/yr Atlas plant). But the precision middle — reducers, roller screws, bearings, frameless motors, dexterous hands — remains roughly 90% Japanese and Chinese, with near-zero U.S. merchant capacity. China controls ~70% of humanoid component supply overall, ~90% of magnet production, and ~89% of lidar; building a U.S. humanoid without Chinese parts roughly triples its bill of materials.",
+    "headline": "U.S. investment is going into magnets and final assembly. Little is going into the precision parts in between.",
+    "bluf": "Capital and federal money now flow into the two ends of the chain: rare-earth magnets (MP Materials, Vulcan, USA Rare Earth — backed by ~$3B+ of DoD equity, loans, and price floors) and final assembly (BotQ, RoboFab, Tesla Fremont, Hyundai's planned 30k/yr Atlas plant). The parts in between (reducers, roller screws, bearings, frameless motors, dexterous hands) are still roughly 90% Japanese and Chinese, with near-zero U.S. merchant capacity. China controls ~70% of humanoid component supply overall, ~90% of magnet production, and ~89% of lidar; building a U.S. humanoid without Chinese parts roughly triples its bill of materials.",
     "sources": [
       { "url": "https://www.trendforce.com/presscenter/news/20251209-12825.html", "label": "TrendForce — component shares" },
       { "url": "https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/", "label": "Adamas — US magnet build-out" },

@@ -6,9 +6,7 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ## ▶ Added 2026-10-14 (theme pass)
 
-- [ ] **(medium) Load a real display face for The Naked Sun.** Didot / Bodoni MT are system-only, so off Apple devices the theme silently becomes Georgia. Add Bodoni Moda 500/600 to the Google Fonts link, restrict it to ≥24px, and use Inter 600 for card titles (Didot hairlines are spindly at 18px).
 - [ ] **(medium) `--country-us` / `--country-cn` chart tokens.** Charts colour China with `--status-negative` and the US with `--cat-supplychain`, which mixes country with status and editorially reads "China = negative".
-- [ ] **(low) Caves: amber is accent, link, warning, "mixed" and "slowing" at once.** Labels carry the meaning today; separating warning needs a design call because it changes the theme's one-colour look.
 
 ## ▶ Added 2026-10-14 (interaction-cost pass)
 
