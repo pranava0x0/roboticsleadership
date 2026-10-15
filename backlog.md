@@ -4,6 +4,16 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-10-15 (scheduled full-site refresh: X list, web sweep)
+
+- [ ] **(medium) Shanghai's 8,000-humanoid-by-2028 factory target (launched 2026-10-12, CIIF) belongs on china.html as a city-level policy row.** Compare with national-level targets; the announcement names no suppliers, budget or baseline, so it is a goal, not an order book.
+- [ ] **(medium) Agility merger vote 2026-11-02 (AGLT).** After it closes, update agility-robotics funding_rounds with the SPAC proceeds (over $620M gross, ~$200M Foxconn-led PIPE) and the public-company flag.
+- [ ] **(low) Section 232 robotics report is overdue on the public timeline (investigation opened 2025-09-02) and no proclamation found.** Re-check Federal Register / whitehouse.gov proclamations each run; policies.json `fedreg-2025-18749` still reads "In development".
+- [ ] **(low) Leads not applied:** Humxn paying tradespeople for capture data (HN only, no $50M figure found; the scraper title was wrong); SPRIN-D Next Frontier Robotics Challenge jury (Lukas Ziegler, X); Andromeda aged-care fleet 4-5x in six weeks (Joe Harris, X, promotional); Diebo and Shishi angel rounds (single aggregator each).
+- Curated this run: scraper 56 news + 0 policy candidates, kept 0 (list in data/research/refresh-2026-10-15-dropped.json); the X list and humanoidsdaily.com plus one Sonnet sweep supplied 8 records. UAT: worst phone page news at 9.2 screens, worst gzip index at 131.8 KB; no fix needed.
+
+---
+
 ## ▶ Added 2026-10-11 (scheduled full-site refresh: X list, web sweep)
 
 - [ ] **(medium) Track the robotics-commission bills in policies.json.** National Commission on Robotics Act (H.R. 7334, House, Feb 2026; Senate companion S. 4686, Young/McCormick/Hickenlooper, 2026-06-04, in Commerce) and the Humanoid ROBOT Act (S. 3275, Cassidy/Coons). Check which are already rows; the commission bills are the closest thing to a national strategy vehicle and frame the "no centralized US robotics strategy" gap on the front page.

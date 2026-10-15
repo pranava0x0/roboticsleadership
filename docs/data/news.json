@@ -1,5 +1,198 @@
 [
   {
+    "id": "icon-series-d-200m-2026-10",
+    "title": "ICON raises $200M Series D at a $1.4B valuation for robotic construction",
+    "date": "2026-10-13",
+    "source": "Bisnow",
+    "source_url": "https://www.bisnow.com/news/national/proptech/blackrock-baillie-gifford-icon-series-d-valuation",
+    "summary": "Baillie Gifford and BlackRock-managed funds co-led, bringing total funding to about $700M. Proceeds go to manufacturing, an Austin R&D site and the multistory Titan 3D-printing system; the cost and schedule claims for Titan are the company's own.",
+    "category": "Funding",
+    "companies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "us",
+      "construction",
+      "3d-printing",
+      "series-d"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive"
+  },
+  {
+    "id": "roboparty-rp1-open-source-2026-10",
+    "title": "RoboParty open-sources RP1 humanoid hardware files, firmware and motion policies",
+    "date": "2026-10-15",
+    "source": "Humanoids Daily",
+    "source_url": "https://humanoidsdaily.com/news/roboparty-rp1-open-source-hardware-motion-policies",
+    "summary": "The release covers STEP models, PCB files, bills of materials, joint-module docs and 24- and 28-DoF motion-policy checkpoints, with hardware under CERN-OHL-W-2.0. No price or shipping date is given.",
+    "category": "Competitive",
+    "companies": [
+      "roboparty"
+    ],
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ],
+    "tags": [
+      "china",
+      "humanoid",
+      "open-source"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "rhoda-touch-only-manipulation-2026-10",
+    "title": "Rhoda AI shows touch-only manipulation with a new tactile sensor",
+    "date": "2026-10-15",
+    "source": "Rhoda AI",
+    "source_url": "https://www.rhoda.ai/research/giving-robots-a-sense-of-touch",
+    "summary": "With head and wrist cameras blocked, a robot retrieved three textured balls out of seven using tactile sensing and Rhoda's video-action model. No trial count or success rate is reported, and the video shows wrong picks and recoveries.",
+    "category": "Research",
+    "companies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "tags": [
+      "tactile",
+      "manipulation",
+      "research"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "Company",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "boston-dynamics-atlas-build-time-2026-10",
+    "title": "Boston Dynamics says an Atlas takes about a day to build and targets an hour",
+    "date": "2026-10-14",
+    "source": "Humanoids Daily",
+    "source_url": "https://humanoidsdaily.com/news/boston-dynamics-atlas-prototype-shop-build-time",
+    "summary": "A program manager says in a recruiting video that the in-house prototype shop builds an Atlas in roughly a day, with a goal of about an hour next year. The video gives no shipment rate.",
+    "category": "Supply Chain",
+    "companies": [
+      "boston-dynamics"
+    ],
+    "themes": [
+      "cost-trajectory",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "humanoid",
+      "manufacturing",
+      "us"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "shanghai-8000-humanoids-2028-2026-10",
+    "title": "Shanghai sets a target of 8,000 humanoid robots in factories by 2028",
+    "date": "2026-10-14",
+    "source": "Shanghai Commission of Economy and Informatization",
+    "source_url": "https://www.sheitc.sh.gov.cn/zxxx/20261014/9265de645239417196f709ed48fae9dd.html",
+    "summary": "Launched at the China International Industry Fair on 2026-10-12, the city's smart-manufacturing initiative also targets 500 advanced smart factories and 600 industrial robots per 10,000 workers. It is a deployment goal: no suppliers, budget or current baseline are named.",
+    "category": "Policy",
+    "companies": [],
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "tags": [
+      "china",
+      "humanoid",
+      "industrial-policy",
+      "shanghai"
+    ],
+    "confidence": "High",
+    "policies": [],
+    "source_type": "Government",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "agility-s4-effective-vote-nov2-2026-10",
+    "title": "Agility's SPAC registration is declared effective, with the merger vote set for Nov 2",
+    "date": "2026-10-14",
+    "source": "Agility Robotics",
+    "source_url": "https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-s-4-registration-statement-declared-effective-by-sec-in-connection-with-proposed-business-combination",
+    "summary": "The SEC cleared the Churchill Capital Corp XI S-4 on 2026-10-13. Shareholders vote on 2026-11-02 for a proposed Nasdaq listing as AGLT, with over $620M gross proceeds including a Foxconn-led PIPE of about $200M. Closing still needs the vote and other conditions.",
+    "category": "Funding",
+    "companies": [
+      "agility-robotics"
+    ],
+    "themes": [
+      "us-supply-chain"
+    ],
+    "tags": [
+      "spac",
+      "ipo",
+      "humanoid",
+      "us"
+    ],
+    "confidence": "High",
+    "policies": [],
+    "source_type": "Press Release",
+    "sentiment": "Positive"
+  },
+  {
+    "id": "neura-neuron-ai-2026-10",
+    "title": "NEURA introduces Neuron AI, a robot model that adds touch, audio and memory",
+    "date": "2026-10-14",
+    "source": "NEURA Robotics",
+    "source_url": "https://neura-robotics.com/neuron-ai/",
+    "summary": "The model runs on the robot without a cloud link and supports five embodiments. NEURA plans an 11-minute autonomous laundry demo at GTC Berlin on Oct 20-22; no success rates or intervention counts are published.",
+    "category": "Research",
+    "companies": [
+      "neura-robotics"
+    ],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "tags": [
+      "europe",
+      "foundation-model",
+      "humanoid"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "Company",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "120ft-microfactories-angel-2026-10",
+    "title": "Swedish startup 120ft raises EUR 576,000 for humanoid-run microfactories in shipping containers",
+    "date": "2026-10-15",
+    "source": "SiliconANGLE",
+    "source_url": "https://siliconangle.com/2026/10/15/120ft-raises-angel-funding-to-build-autonomous-microfactories-run-by-humanoid-robots/",
+    "summary": "The Stockholm company emerged from stealth with money from 22 angels. It plans to own the facilities and charge brands per finished product, starting with rigid parts under 5 kg. Its seven-minutes-per-skill figure is a 2027 outlook, and the robots shown appear to be Unitree G1s.",
+    "category": "Funding",
+    "companies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "europe",
+      "seed",
+      "humanoid",
+      "manufacturing"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
     "id": "agibot-pre-ipo-round-rmb50b-2026-10",
     "title": "AgiBot is reported nearing a RMB 1B-1.5B round at about a RMB 50B valuation",
     "date": "2026-10-14",
