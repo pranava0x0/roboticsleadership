@@ -4,6 +4,16 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-10-15 (scheduled full-site refresh: X list, web sweep)
+
+- [ ] **(medium) Shanghai's 8,000-humanoid-by-2028 factory target (launched 2026-10-12, CIIF) belongs on china.html as a city-level policy row.** Compare with national-level targets; the announcement names no suppliers, budget or baseline, so it is a goal, not an order book.
+- [ ] **(medium) Agility merger vote 2026-11-02 (AGLT).** After it closes, update agility-robotics funding_rounds with the SPAC proceeds (over $620M gross, ~$200M Foxconn-led PIPE) and the public-company flag.
+- [ ] **(low) Section 232 robotics report is overdue on the public timeline (investigation opened 2025-09-02) and no proclamation found.** Re-check Federal Register / whitehouse.gov proclamations each run; policies.json `fedreg-2025-18749` still reads "In development".
+- [ ] **(low) Leads not applied:** Humxn paying tradespeople for capture data (HN only, no $50M figure found; the scraper title was wrong); SPRIN-D Next Frontier Robotics Challenge jury (Lukas Ziegler, X); Andromeda aged-care fleet 4-5x in six weeks (Joe Harris, X, promotional); Diebo and Shishi angel rounds (single aggregator each).
+- Curated this run: scraper 56 news + 0 policy candidates, kept 0 (list in data/research/refresh-2026-10-15-dropped.json); the X list and humanoidsdaily.com plus one Sonnet sweep supplied 8 records. UAT: worst phone page news at 9.2 screens, worst gzip index at 131.8 KB; no fix needed.
+
+---
+
 ## ▶ Added 2026-10-14 (SCSP summit talk notes)
 
 - [ ] **(high) Port the remaining summit sessions into `session_notes[]`.** The checked working notes are kept locally, not in the repo; only the synthesis is published. Done so far: the Hill session (`hill_session`) and the Commerce ITA fireside. Still to add on `scsp-summit.html`, each as 3–5 claims with verdict and sources: Deployment Moat, FANUC demo, From Pilot to Scale, Trusted Scale, Path Robotics, Capital Stack, NVIDIA, Allied Industrial Power, Federal Robotics Policy, Robotics Compact.
