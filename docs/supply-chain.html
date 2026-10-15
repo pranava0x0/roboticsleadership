@@ -19,10 +19,10 @@
   <title>Supply Chain — Robotics Tracker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Oswald:wght@500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=Spectral:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" />
   <script>
     /* Set data-theme before first paint to avoid FOUC. See DESIGN.md § 15. */
-    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
+    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams','foundation'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
   </script>
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/supply_chain.json" crossorigin />
@@ -100,10 +100,6 @@
 
   <header class="site-header" role="banner">
     <div class="site-header-inner">
-      <a href="index.html" class="header-updated" aria-label="Home — last data refresh">
-        <span class="header-updated-label">Updated</span>
-        <span class="header-updated-date tnum">—</span>
-      </a>
       <nav class="primary-nav" aria-label="Primary" id="primary-nav">
         <ul class="nav-list">
           <li><a href="index.html">Front page</a></li>
@@ -116,6 +112,7 @@
           <li><a href="energy.html">Energy</a></li>
           <li><a href="states.html">States</a></li>
           <li><a href="themes.html">Themes</a></li>
+          <li><a href="scsp-summit.html">SCSP Summit</a></li>
         </ul>
         <details class="primary-more" hidden>
           <summary>Sections</summary>
@@ -132,15 +129,15 @@
           <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Subconscious</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="foundation"><span class="theme-option-name">Foundation</span><span class="theme-option-tag">Trantor</span></label>
         </div>
       </details>
     </div>
   </header>
 
   <main id="main">
-    <p class="eyebrow">Deep dive</p>
     <h1 class="page-title">The robotics supply chain.</h1>
-    <p class="page-lede">From rare-earth mines to finished robots — who makes what, where, at what capacity, and who pays for it, each figure sourced.</p>
+    <p class="page-lede">From rare-earth mines to finished robots: who makes what, where, how much, and who pays for it.</p>
 
     <aside class="bluf" aria-label="Bottom line up front">
       <span class="bluf-tag">Bottom line</span>
@@ -175,7 +172,7 @@
     <h2 class="section-title">Who ships what — robot classes</h2>
     <div class="chart" id="shipments-chart">
       <h3>Annual shipments by robot class</h3>
-      <p class="chart-sub">"Non-humanoid" splits into named categories: industrial robots (arms), cobots (human-safe arms), and professional service robots (AMRs/AGVs, delivery, cleaning, medical). Humanoids are the smallest class — and the fastest-growing.</p>
+      <p class="chart-sub">"Non-humanoid" splits into named categories: industrial robots (arms), cobots (human-safe arms), and professional service robots (AMRs/AGVs, delivery, cleaning, medical). Humanoids are the smallest class and the fastest-growing.</p>
       <div id="shipments-bars"></div>
       <div id="shipments-defs" class="shipments-defs"></div>
     </div>
@@ -215,8 +212,8 @@
       <p class="chart-source">Shares are best-available estimates; each category below cites its sources.</p>
     </div>
 
-    <!-- Category deep dives -->
-    <h2 class="section-title">Category deep dives</h2>
+    <!-- By category -->
+    <h2 class="section-title">By category</h2>
     <p class="muted" style="font-size:13px;margin:-6px 0 12px;">Grouped by chain stage. Each category: assessment, chokepoints, and the specific companies, sites, capacity, and financing behind it.</p>
     <div id="category-sections"></div>
 
@@ -229,7 +226,7 @@
       <div class="chart-grid">
         <div class="chart" id="gov-programs">
           <h3>Government programs &amp; instruments</h3>
-          <p class="chart-sub">Company-level financing events are in each category deep dive above.</p>
+          <p class="chart-sub">Company-level financing events are in each category above.</p>
           <div id="gov-programs-list"></div>
         </div>
       </div>
@@ -244,11 +241,19 @@
       <div id="stakeholder-grid" class="stakeholder-grid"></div>
     </details>
 
+    <details class="collapsible-section" id="sec-commission">
+      <summary>
+        <h2 class="section-title">What the SCSP robotics commission found</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Its findings on magnets, reducers and the suppliers below them.</p>
+      </summary>
+      <div id="commission-note"><p class="muted-cell">Loading…</p></div>
+    </details>
+
     <!-- Key figures -->
     <details class="collapsible-section" id="sec-facts">
       <summary>
         <h2 class="section-title">Key figures</h2>
-        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Load-bearing numbers behind the assessment, each with its source.</p>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">The numbers behind the assessment.</p>
       </summary>
       <table class="data-table" id="facts-table">
         <thead><tr><th>Figure</th><th>Value</th><th class="hide-mobile">Source</th></tr></thead>
@@ -257,10 +262,11 @@
     </details>
 
     <p class="muted" id="method-note" style="font-size:12px;margin-top:24px;"></p>
+    <p class="muted">For the procurement and security rules affecting robot suppliers, see the <a class="report-cite" href="policies.html#policy-research">2026 policy documents and hearings</a>.</p>
   </main>
 
   <footer class="site-footer">
-    <p>Every record is cited; primary sources preferred.</p>
+    <p>Data updated <span class="updated-date tnum">—</span>.</p>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 
@@ -561,6 +567,9 @@
       return s.length > n ? s.slice(0, n - 1).replace(/[\s.,;:]+$/, '') + '…' : s;
     }
   });
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => RT.mountCommissionNote('#commission-note', {"findings": [9, 8], "figures": ["sintered-permanent-magnets-china", "strain-wave-reducers", "humanoid-inputs-china-share", "tier-2-3-supplier-visibility", "new-supplier-qualification"], "theme": "components-supply-chain"}));
   </script>
 </body>
 </html>

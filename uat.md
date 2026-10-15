@@ -3,7 +3,7 @@
 > Living UAT plan. Run the **Critical flows** every pass. **Exploration** is open territory — vary it each run. Update `last_tested` per section as you go. New bugs land in `issues.md`.
 
 _Created: 2026-05-18_
-_Last run: 2026-09-26_ (scheduled full-site refresh: scroll-depth + mobile-overflow pass on all 10 pages after the energy collapse, policies cap and front-page payload change; 0 dead links, 0 console errors, no overflow at 375px)
+_Last run: 2026-10-14_ (interaction-cost pass: 19 reader tasks × 3 viewports, then redesign of the summit, draft EO, states and energy pages; budgets now gate every PR)
 _Updated: 2026-06-07_ (documentation update — agencies/news consolidated into policies.html with collapsible sections)
 
 ---
@@ -130,6 +130,39 @@ Also run each pass:
 - `python3 ~/Projects/coding-best-practices/tools/designcheck.py docs/` (36 WARN, all `web-font-import`; a design call, see backlog).
 - Companies directory: Show more adds 25, Show all adds the rest, changing a filter resets to 25, and a `?focus=<id>` link still opens the panel for a company beyond row 25.
 
+
+## Interaction cost (added 2026-10-14)
+
+How many taps, swipes and keystrokes a reader spends to reach a fact, starting from the front page. `scripts/interaction-cost.py` (ported from Scorpius's `interaction_cost.cjs`) drives Playwright at 375×812, 768×1024 and 1280×800 and counts:
+
+- **tap:** a nav link, a row, a jump chip, or opening a closed `<details>` the target sits in. A link parked in the "Sections" overflow costs 2 taps.
+- **swipe:** one per 75% of the visible band, minus the sticky header (and any sticky jump nav). Sideways scrollers count separately.
+- **type:** filling a search box.
+
+Tasks live in `uat/interaction-tasks.json` and budgets in `uat/interaction-budgets.json` (measured + 15%, min +1, because CI's Linux fonts wrap differently). `ci.yml` job `interaction-cost` fails a PR that goes over budget, leaves a target unreachable, throws a page error, or overflows sideways.
+
+```
+python3 scripts/interaction-cost.py                       # gate
+python3 scripts/interaction-cost.py --only summit_bio_from_agenda --device mobile
+python3 scripts/interaction-cost.py --establish-budgets   # after an intended change; review the diff
+```
+
+Baseline and result, 2026-10-14 (total interactions; mobile / tablet / desktop):
+
+| Task | Before | After | What changed |
+|---|---|---|---|
+| Summit: Path Robotics news, scrolling | 57 / 29 / 27 | 26 / 14 / 14 | Speaker cards are an index; the bio opens in the detail sheet. Org news starts collapsed. |
+| Summit: Path Robotics news, via jump nav | n/a | 7 / 6 / 6 | Jump nav is sticky under the header. |
+| Summit: commission figures, scrolling | 62 / 31 / 29 | 31 / 16 / 16 | Same, plus SCSP's earlier work collapsed. |
+| Summit: commission figures, via jump nav | n/a | 5 / 3 / 2 | |
+| Summit: bio from an agenda name | 9 / 7 / 7 | 9 / 7 / 8 | Tap opens the sheet in place; closing it returns to the agenda. Desktop +1 is the sticky bar's height. |
+| Draft EO: Sec. 6, via jump nav | n/a (12 / 7 / 7 scrolling) | 5 / 3 / 2 | New sticky section index; the hash opens the section. |
+| Energy: shortlist, via jump nav | n/a (11 / 7 / 6 scrolling) | 8 / 6 / 4 | "Shortlist" chip added. |
+| States: first on-the-books row | 10 / 6 / 5 | 6 / 5 / 4 | Theme cards keep summary + states; key points and sources sit behind "Key points". |
+
+Unchanged and within budget: front lead 0, Figure AI detail 4–6, HR 7334 detail 4–5, China last metric 4–7, supply-chain share rows 6–8, news search 2, theme detail 2–3. Jump-nav counts include the sideways swipes to reach a chip off the end of the row (5 for Energy's "Shortlist" on a phone). Remaining heaviest: the front page's top-companies block (9 swipes on mobile) and summit agenda end (8). See backlog.
+
+Patterns weighed: **sticky in-page index** (used: summit, draft EO; energy had one), **bottom sheet** for a record a reader dips into from a list (used: summit speakers; companies/policies/themes already did), **accordion with summary visible** (used: org news, states key points), **collapsed-by-default long tail** (used). Not used: tabs (hide content from crawlers and from in-page search, and break the one-scroll reading of a brief); back-to-top button (the sticky header already carries the nav); popovers (no hover on touch).
 
 ## 2026-09-24 — RFI and action-plan specificity
 

@@ -19,9 +19,9 @@
   <title>Policy · Robotics Tracker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Oswald:wght@500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=Spectral:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" />
   <script>
-    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
+    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams','foundation'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
   </script>
   <link rel="stylesheet" href="assets/styles.css" />
   <style>
@@ -57,10 +57,6 @@
   <a href="#main" class="skip-link">Skip to content</a>
   <header class="site-header" role="banner">
     <div class="site-header-inner">
-      <a href="index.html" class="header-updated" aria-label="Home — last data refresh">
-        <span class="header-updated-label">Updated</span>
-        <span class="header-updated-date tnum">—</span>
-      </a>
       <nav class="primary-nav" aria-label="Primary" id="primary-nav">
         <ul class="nav-list">
           <li><a href="index.html">Front page</a></li>
@@ -73,6 +69,7 @@
           <li><a href="energy.html">Energy</a></li>
           <li><a href="states.html">States</a></li>
           <li><a href="themes.html">Themes</a></li>
+          <li><a href="scsp-summit.html">SCSP Summit</a></li>
         </ul>
         <details class="primary-more" hidden>
           <summary>Sections</summary>
@@ -89,17 +86,18 @@
           <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Subconscious</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="foundation"><span class="theme-option-name">Foundation</span><span class="theme-option-tag">Trantor</span></label>
         </div>
       </details>
     </div>
   </header>
 
   <main id="main">
-    <p class="eyebrow">Policy tracker</p>
     <h1 class="page-title">Federal bills, programs, procurement.</h1>
     <p class="page-lede">
       Federal robotics-related bills, rules, research programs, and procurement initiatives. State laws and incentives appear on the <a href="states.html">States page</a>. Records are dated at the source.
     </p>
+    <nav aria-label="Research sources"><a class="report-cite" id="policy-research-jump" href="#policy-research">Hearings and source archive</a></nav>
 
     <aside class="bluf" aria-label="Bottom line up front">
       <span class="bluf-tag">Bottom line</span>
@@ -226,14 +224,61 @@
     </details>
 
     <aside class="note-block" id="sec-state">
-      <p style="margin:0;"><strong>State &amp; local incentives</strong> — tax credits, grants, and where robots are actually authorized to operate — are tracked on the <a href="states.html">States page</a>, alongside the state-by-state narrative. This page is the federal record.</p>
+      <p style="margin:0;">State tax credits, grants and operating rules are on the <a href="states.html">States page</a>.</p>
     </aside>
 
     <div id="empty" class="empty-state" hidden>No policies match those filters.</div>
+    <details class="collapsible-section" id="sec-commission">
+      <summary>
+        <h2 class="section-title">What the SCSP robotics commission found</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Its findings on how federal robotics programs are organized.</p>
+      </summary>
+      <div id="commission-note"><p class="muted-cell">Loading…</p></div>
+    </details>
+
+    <details class="collapsible-section" id="policy-research">
+      <summary><h2 class="section-title">2026 robotics hearings and policy documents</h2></summary>
+      <p>Four hearings involving robotics between March and July. April focused on manufacturing and automation; March also covered AI and autonomy; June and July considered broader legislative packages. These records show congressional attention, but do not establish an unprecedented hearing frequency.</p>
+      <details class="collapsible-section" id="hearing-2026-03-17">
+        <summary><h3 class="section-title">2026-03-17 · DeepSeek and Unitree Robotics: Examining the National Security Risks of PRC Artificial Intelligence, Robotics, and Autonomous Technologies and Building a Secure U.S. Technology Base</h3></summary>
+        <p>House Homeland Security Committee, Subcommittee on Cybersecurity and Infrastructure Protection. Confirmed hearing at 2 p.m. EDT, rescheduled from 10 a.m. The session examined PRC AI/robotics security and the U.S. technology base; official repository lists four public witnesses and their written statements.</p>
+        <p><strong>Witnesses:</strong> Max Fenkell; Matthew Malchano; Michael Robbins; Rush Doshi.</p>
+        <p>Official published GPO transcript (Serial 119-42, CHRG-119hhrg64201), full text saved. Written statements archived separately.</p>
+        <p><a class="report-cite" href="https://docs.house.gov/committee/calendar/ByEvent.aspx?EventID=118982" target="_blank" rel="noopener">Hearing and statements</a> <a class="report-cite" href="https://www.govinfo.gov/content/pkg/CHRG-119hhrg64201/html/CHRG-119hhrg64201.htm" target="_blank" rel="noopener">Full transcript</a></p>
+      </details>
+      <details class="collapsible-section" id="hearing-2026-04-21">
+        <summary><h3 class="section-title">2026-04-21 · Robots Made in America: Advancing U.S. Leadership in Manufacturing and Automation</h3></summary>
+        <p>House Committee on Science, Space, and Technology, Subcommittee on Research and Technology. The subcommittee examined U.S. robotics manufacturing and automation leadership. The official page identifies four witnesses and links written testimony; a livestream link is present, but the page/repository reviewed did not offer an official transcript.</p>
+        <p><strong>Witnesses:</strong> Evan Beard (Standard Bots); Jeff Burnstein (A3); Michael Robbins (AUVSI); Susan Helper (Case Western Reserve University).</p>
+        <p>No transcript entry in official House repository Event 119190 and none found in a targeted GovInfo search. Official video available; captions endpoint listed no tracks. Four prepared witness statements and hearing charter saved; these are not a transcript.</p>
+        <p><a class="report-cite" href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Hearing and statements</a> <a class="report-cite" href="https://www.youtube.com/watch?v=Lfh-EQ4OeOM" target="_blank" rel="noopener">Official video</a></p>
+      </details>
+      <details class="collapsible-section" id="hearing-2026-06-30">
+        <summary><h3 class="section-title">2026-06-30 · American Global Competitiveness at 250: Legislative Proposals to Secure U.S. Technology Leadership</h3></summary>
+        <p>House Committee on Energy and Commerce, Subcommittee on Commerce, Manufacturing, and Trade. The hearing considered a slate of technology and competitiveness bills, including H.R. 7334, the National Commission on Robotics Act. Four witnesses included Boston Dynamics chief legal officer Jason Fiorillo; it was not a robotics-only hearing.</p>
+        <p><strong>Witnesses:</strong> Neil Chilson (Abundance Institute); Jason Fiorillo (Boston Dynamics); Marty Durbin (U.S. Chamber of Commerce); Jedidah Isler (Federation of American Scientists).</p>
+        <p>No transcript entry in official House repository Event 119423. Official video available; captions endpoint listed no tracks. Four prepared witness statements saved separately.</p>
+        <p><a class="report-cite" href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119423" target="_blank" rel="noopener">Hearing and statements</a> <a class="report-cite" href="https://www.youtube.com/watch?v=Ajc2mReIpCM" target="_blank" rel="noopener">Official video</a></p>
+      </details>
+      <details class="collapsible-section" id="hearing-2026-07-22">
+        <summary><h3 class="section-title">2026-07-22 · Legislative Hearing on Protecting Communications Networks and Improving Connectivity</h3></summary>
+        <p>House Committee on Energy and Commerce, Subcommittee on Communications and Technology. The subcommittee considered several communications bills, including H.R. 9129 (GUARD Act), which would direct scrutiny of foreign adversary robotics. Four witnesses were listed; AUVSI’s Michael Robbins was the robotics-relevant witness.</p>
+        <p><strong>Witnesses:</strong> Michael Robbins (AUVSI); Kevin Rupy (Wiley Rein LLP); Andrew Von Ah (GAO); Lindsay Gorman (former White House advisor).</p>
+        <p>Official unedited hearing transcript posted July 31, 2026 in House repository; full text saved. Prepared witness statements separately archived.</p>
+        <p><a class="report-cite" href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119488" target="_blank" rel="noopener">Hearing and statements</a> <a class="report-cite" href="https://docs.house.gov/meetings/IF/IF16/20260722/119488/HHRG-119-IF16-Transcript-20260722.pdf" target="_blank" rel="noopener">Unedited transcript</a></p>
+      </details>
+      <h3>Executive action and proposed bills</h3>
+      <p>The FCC’s July 28 Covered List addition rests on an interagency national-security determination, reproduced in Appendix C of its notice. It restricts new equipment authorizations, with conditional approvals; it is separate from Commerce’s September 2025 Section 232 investigation. The six legislative items above concern procurement, security review or coordination. They are proposals or House-passed text, rather than enacted robotics programs as of October 14, 2026.</p>
+      <p><a class="report-cite" href="https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf" target="_blank" rel="noopener">FCC notice and determination</a> <a class="report-cite" href="https://www.federalregister.gov/d/2025-18749" target="_blank" rel="noopener">Section 232 notice</a></p>
+      <h3>Policy options from this comparison</h3>
+      <p>These are our proposals, not recommendations attributed to the sources. Deployment trials for small manufacturers could measure uptime, cost per task and paid worker training; the risk is subsidizing purchases firms would make anyway. A published security approval route could preserve access to trusted equipment, but requires ongoing testing. A commission needs an implementation owner and milestones if its reports are to lead to decisions. Component support tied to customer orders could target shortages; broad subsidies may instead protect weak suppliers.</p>
+      <p><a class="report-cite" href="https://github.com/pranava0x0/roboticsleadership/tree/main/data/research/policy-2026-10-14" target="_blank" rel="noopener">Source archive and metadata</a> <a class="report-cite" href="https://github.com/pranava0x0/roboticsleadership/blob/main/data/research/policy-2026-10-14/synthesis.md" target="_blank" rel="noopener">Synthesis and tradeoffs</a> <a class="report-cite" href="physical-ai-action-plan.html#plan-outlook">Related drafting notes</a></p>
+    </details>
+
   </main>
 
   <footer class="site-footer">
-    <p>Every record is cited, nearly all to a primary source (Congress.gov, Federal Register, state agency); a few to trade press.</p>
+    <p>Data updated <span class="updated-date tnum">—</span>.</p>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 
@@ -578,6 +623,9 @@
     render();
     if (q.focus) setTimeout(() => openPolicy(q.focus), 50);
   });
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => RT.mountCommissionNote('#commission-note', {"findings": [3, 10], "figures": ["national-robotics-initiative", "public-concern"], "theme": "federal-coordination"}));
   </script>
 </body>
 </html>

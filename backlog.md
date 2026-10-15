@@ -14,9 +14,26 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-10-14 (SCSP summit talk notes)
+
+- [ ] **(high) Port the remaining summit sessions into `session_notes[]`.** The checked working notes are kept locally, not in the repo; only the synthesis is published. Done so far: the Hill session (`hill_session`) and the Commerce ITA fireside. Still to add on `scsp-summit.html`, each as 3–5 claims with verdict and sources: Deployment Moat, FANUC demo, From Pilot to Scale, Trusted Scale, Path Robotics, Capital Stack, NVIDIA, Allied Industrial Power, Federal Robotics Policy, Robotics Compact.
+- [ ] **(medium) Add the bills and standards these talks surfaced to `policies.json`:** the Humanoid ROBOT Act (S. 3275), the Robotics Supply Chain Improvement Act (S. 5310), the Senate National Commission on Robotics Act (S. 4686), and ISO 25785-1 (committee draft, ISO/TC 299 WG 12). Also the March 17 House Homeland and April 21 House Science robotics hearings as news records. (This overlaps with the 2026-10-11 "commission bills" item; do both together.)
+- [ ] **(low) Track RaaS data-ownership terms.** No published standard exists. The norm is that the customer keeps title and the vendor gets a broad license. Worth a theme note if a vendor publishes terms.
+
+## ▶ Added 2026-10-14 (theme pass)
+
+- [ ] **(medium) `--country-us` / `--country-cn` chart tokens.** Charts colour China with `--status-negative` and the US with `--cat-supplychain`, which mixes country with status and editorially reads "China = negative".
+
+## ▶ Added 2026-10-14 (interaction-cost pass)
+
+- [ ] **(medium) Front page: top companies is 9 swipes down on a phone.** Five data sections follow the news well with no index. A compact "On this page" row under the masthead, or moving top companies above the charts, would cut it to 1–2. Measure with `--only front_top_company`.
+- [ ] **(medium) Horizontal jump-nav rows hide their tail on phones.** Energy's 13 chips cost 5 sideways swipes to reach "Shortlist"; the EO's 9 cost 2. Options: wrap to two rows until the bar pins, a "Jump to" `<select>` on narrow screens, or put the chip for the section a reader most often wants first. Measure with `--only energy_candidate_jump`.
+- [ ] **(low) Summit agenda: 18 sessions is 6 swipes on a phone.** Group by morning/afternoon in two `<details>`, or a "Now / next" strip on event day.
+- [ ] **(low) Interaction-cost tasks for the remaining pages' second-tier facts** (a supply-chain US site, a China Unitree row, a policies tax-incentive row). Add a task whenever a new section ships.
+
 ## ▶ Added 2026-10-11 (scheduled full-site refresh: X list, web sweep)
 
-- [ ] **(medium) Track the robotics-commission bills in policies.json.** National Commission on Robotics Act (H.R. 7334, House, Feb 2026; Senate companion S. 4686, Young/McCormick/Hickenlooper, 2026-06-04, in Commerce) and the Humanoid ROBOT Act (S. 3275, Cassidy/Coons). Check which are already rows; the commission bills are the closest thing to a national strategy vehicle and frame the "no centralized US robotics strategy" gap on the front page.
+- [x] **(medium) Track the robotics-commission bills in policies.json.** Completed 2026-10-14: H.R. 7334 / S. 4686 and S. 3275 indexed against official bill texts and action histories; policy-source archive at `data/research/policy-2026-10-14/index.json`.
 - [ ] **(low) Unitree trades at ~46x 2027 sales (JPMorgan, Underweight, 300 yuan vs ~450); shares about half the listing-day peak.** Consider a valuation-vs-revenue row on china.html with Nomura (370) as the other analyst anchor; sources are secondary market wires.
 - [ ] **(low) Tesla 1,000 Optimus/week target is single-source (The Information via BGR).** Do not put it in the Tesla company record until Tesla or a second outlet confirms.
 - [ ] **(low) Leads not applied:** MicroFactory $11,950 desktop mini-factory (Ilir Aliu, X); Humanoid Hub Conference, SF, Oct 15-16 (Auki's Nils Pihl keynoting); Geek+ stake in Beijing Shenyi; SenseTime/Galbot retail bids (no primary source found).
@@ -410,3 +427,8 @@ The report breaks industrial robotics down by *application* — a lens we don't 
 - (medium, 2026-10-14) Reframe: Physical Intelligence's hosted API beta (2026-10-13) and Gemini 4 Argon for robotics move foundation models from lab artifact to rented service. Consider a "who sells the model layer, on what terms" row on china.html / themes.html; pricing and access terms are not public yet, so wait for them.
 - (medium, 2026-10-14) AgiBot RMB 50B pre-IPO round is reported, not closed; add to `companies.json` funding_rounds once confirmed. Its 120-day rule would push the HK listing past end-2026.
 - (low, 2026-10-14) Unverified: Microintelligence (Changzhou) HK IPO, Archon Robotics (Shanghai) whole-body demo, Dynamic Creatures "Hugo"; no funding or primary figures. Add as companies only if a second source appears.
+
+## ▶ 2026-10-14 — policy document research
+
+- [ ] **(low) Recheck April 21 and June 30 hearing transcripts when posted.** Official repositories Events 119190 and 119423 have prepared statements and video metadata but no transcript entries as of this capture. March 17 published and July 22 unedited transcripts are saved.
+- [ ] **(low) Trace HASC log 6312, revision 2, to the exact adopted amendment text.** The log records Gooden’s item as agreed by voice vote; related House-passed H.R. 8800 Section 163 is archived, but exact textual lineage remains unverified.

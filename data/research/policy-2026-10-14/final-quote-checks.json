@@ -1,0 +1,151 @@
+{
+  "captured_at": "2026-10-14",
+  "method": "Exact substring after whitespace normalization; punctuation and capitalization preserved.",
+  "checks": [
+    {
+      "item": "american-security-robotics-act-2026",
+      "quote": "Except as provided under subsection (e), the head of an executive agency may not procure any covered unmanned ground vehicle system.",
+      "verified": true,
+      "files": [
+        "bills/119s4235is.txt",
+        "bills/119hr8189ih.txt"
+      ]
+    },
+    {
+      "item": "american-security-robotics-act-2026",
+      "quote": "beginning on the date that is one year after the date of the enactment of this Act, no executive agency may operate a covered unmanned ground vehicle system.",
+      "verified": true,
+      "files": [
+        "bills/119s4235is.txt",
+        "bills/119hr8189ih.txt"
+      ]
+    },
+    {
+      "item": "national-commission-on-robotics-act",
+      "quote": "The Commission shall carry out a review of advances in robotics.",
+      "verified": true,
+      "files": [
+        "bills/119hr7334ih.txt",
+        "bills/119s4686is.txt"
+      ]
+    },
+    {
+      "item": "national-commission-on-robotics-act",
+      "quote": "Not later than two years after the date on which the Commission is established under subsection (a), the Commission shall submit to the appropriate congressional committees and the President a final report",
+      "verified": true,
+      "files": [
+        "bills/119hr7334ih.txt",
+        "bills/119s4686is.txt"
+      ]
+    },
+    {
+      "item": "humanoid-robot-act-2025",
+      "quote": "A person awarded a contract by an executive agency may not use a humanoid robot designed, tested, developed, or manufactured by a covered entity to fulfill, execute, or otherwise support carrying out the contract.",
+      "verified": true,
+      "files": [
+        "bills/119s3275is.txt"
+      ]
+    },
+    {
+      "item": "blocking-ccp-spy-tech-act-2026",
+      "quote": "If an appropriate national security agency does not make a determination as required by subsection (a), the Commission shall, not later than 30 days after the date specified in subsection (a), add all communications equipment and services described in subsection (b) to the covered list.",
+      "verified": true,
+      "files": [
+        "bills/119s4586is.txt",
+        "bills/119hr9687ih.txt"
+      ]
+    },
+    {
+      "item": "blocking-ccp-spy-tech-act-2026",
+      "quote": "the Secretary of Defense shall determine if any entity described in section 2(b) should be identified under such section 1260H(a) as a Chinese military company operating directly or indirectly in the United States.",
+      "verified": true,
+      "files": [
+        "bills/119s4586is.txt",
+        "bills/119hr9687ih.txt"
+      ]
+    },
+    {
+      "item": "guard-act-2026",
+      "quote": "If the appropriate national security agency does not make a determination as required by paragraph (1) within 1 year after the enactment of this Act, the Commission shall add all covered robotics communications equipment or services to the covered list.",
+      "verified": true,
+      "files": [
+        "bills/119hr9129ih.txt"
+      ]
+    },
+    {
+      "item": "guard-act-2026",
+      "quote": "H.R. 9129, H.R. 6152, H.R. 2805, and H.R. 4950 were forwarded to the full Committee, without amendment.",
+      "verified": true,
+      "files": [
+        "bills/CREC-2026-09-01-pt1-PgD855.txt"
+      ]
+    },
+    {
+      "item": "gooden-fy2027-ndaa-humanoid-robotics-provision",
+      "quote": "The Secretary of Defense may not procure, lease, or otherwise obtain a covered humanoid robotic system",
+      "verified": true,
+      "files": [
+        "bills/amendment-6312/house-passed-section-163.txt",
+        "bills/amendment-6312/119hr8800eh.txt",
+        "bills/amendment-6312/119hr8800rh.txt"
+      ]
+    },
+    {
+      "item": "china-15fyp",
+      "quote": "推动量子科技、生物制造、氢能和核聚变能、脑机接口、具身智能、第六代移动通信等成为新的经济增长点。",
+      "verified": true,
+      "files": [
+        "plans-hearings/china-15th-five-year-plan-outline-official-alternative.html.txt"
+      ]
+    },
+    {
+      "item": "china-15fyp",
+      "quote": "加快新一代信息技术、新能源、新材料、智能网联新能源汽车、机器人、生物医药、高端装备、航空航天等战略性新兴产业发展",
+      "verified": true,
+      "files": [
+        "plans-hearings/china-15th-five-year-plan-outline-official-alternative.html.txt"
+      ]
+    },
+    {
+      "item": "hearing-2026-04-21",
+      "quote": "No country can win the AI race without also leading in robotics.",
+      "verified": true,
+      "files": [
+        "plans-hearings/2026-04-21-testimony-2.pdf.txt"
+      ]
+    },
+    {
+      "item": "hearing-2026-06-30",
+      "quote": "H.R. 7334, National Commission on Robotics Act",
+      "verified": true,
+      "files": [
+        "plans-hearings/june30-event-119423.html.txt",
+        "plans-hearings/2026-06-30-testimony-1.pdf.txt"
+      ]
+    },
+    {
+      "item": "fcc-robotics-covered-list",
+      "quote": "Foreign-produced advanced robotic devices, except advanced robotic devices which have been granted a Conditional Approval by DoW",
+      "verified": true,
+      "files": [
+        "plans-hearings/fcc-da-26-786-2026-07-28-covered-list-notice.pdf.txt"
+      ]
+    },
+    {
+      "item": "fcc-robotics-covered-list",
+      "quote": "pose an unacceptable risk to the national security of the United States and to the safety and security of U.S. persons",
+      "verified": true,
+      "files": [
+        "plans-hearings/fcc-da-26-786-2026-07-28-covered-list-notice.pdf.txt"
+      ]
+    },
+    {
+      "item": "commerce-section-232-robotics",
+      "quote": "On September 2, 2025, the Secretary of Commerce initiated an investigation under Section 232 (19 U.S.C. 1862)",
+      "verified": true,
+      "files": [
+        "plans-hearings/commerce-section-232-robotics-2025-notice.pdf.txt"
+      ]
+    }
+  ]
+}

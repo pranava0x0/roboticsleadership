@@ -1,0 +1,8 @@
+# Raw copies stay local; readable source text and official actions are versioned.
+*.pdf
+*.html
+*.htm
+*.xml
+!BILLSTATUS-*.xml
+bills/amendment-6312/119hr8800rh.txt
+bills/amendment-6312/119hr8800eh.txt

@@ -19,10 +19,10 @@
   <title>US vs China · Robotics Tracker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Oswald:wght@500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=Spectral:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" />
   <script>
     /* Set data-theme before first paint to avoid FOUC. See DESIGN.md § 15. */
-    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
+    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams','foundation'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
   </script>
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/us_china.json" crossorigin />
@@ -59,10 +59,6 @@
 
   <header class="site-header" role="banner">
     <div class="site-header-inner">
-      <a href="index.html" class="header-updated" aria-label="Home — last data refresh">
-        <span class="header-updated-label">Updated</span>
-        <span class="header-updated-date tnum">—</span>
-      </a>
       <nav class="primary-nav" aria-label="Primary" id="primary-nav">
         <ul class="nav-list">
           <li><a href="index.html">Front page</a></li>
@@ -75,6 +71,7 @@
           <li><a href="energy.html">Energy</a></li>
           <li><a href="states.html">States</a></li>
           <li><a href="themes.html">Themes</a></li>
+          <li><a href="scsp-summit.html">SCSP Summit</a></li>
         </ul>
         <details class="primary-more" hidden>
           <summary>Sections</summary>
@@ -91,15 +88,16 @@
           <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Subconscious</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="foundation"><span class="theme-option-name">Foundation</span><span class="theme-option-tag">Trantor</span></label>
         </div>
       </details>
     </div>
   </header>
 
   <main id="main">
-    <p class="eyebrow">Head to head</p>
     <h1 class="page-title">US vs China.</h1>
-    <p class="page-lede">Every key metric on this site, side by side — deployment, humanoids, supply chain, capital — plus the SemiAnalysis Unitree comparison in full.</p>
+    <p class="page-lede">Deployment, humanoids, supply chain and capital, compared metric by metric, plus the SemiAnalysis Unitree comparison.</p>
+    <nav aria-label="Research sources"><a class="report-cite" id="five-year-plan-jump" href="#sec-five-year-plan">15th Five-Year Plan</a></nav>
 
     <aside class="bluf" aria-label="Bottom line up front">
       <span class="bluf-tag">Bottom line</span>
@@ -129,11 +127,30 @@
       </table>
     </div>
 
+    <details class="collapsible-section" id="sec-commission">
+      <summary>
+        <h2 class="section-title">What the SCSP robotics commission found</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Its numbers on installations, installed base and China's home-market suppliers.</p>
+      </summary>
+      <div id="commission-note"><p class="muted-cell">Loading…</p></div>
+    </details>
+
+    <details class="collapsible-section" id="sec-five-year-plan">
+      <summary><h2 class="section-title">China’s 15th Five-Year Plan, 2026–2030</h2></summary>
+      <p>The National People’s Congress approved the plan on March 12, 2026. Chapter 5 lists robotics among strategic emerging industries and embodied intelligence among future industries. The plan calls for application demonstrations, industrial clusters and AI adoption. The relevant lists are open-ended; they do not establish “10 industry tracks” or a robotics-specific appropriation.</p>
+      <p>Original wording, Chapter 5, section 1:</p>
+      <blockquote lang="zh">加快新一代信息技术、新能源、新材料、智能网联新能源汽车、机器人、生物医药、高端装备、航空航天等战略性新兴产业发展</blockquote>
+      <p>Chapter 5, section 2:</p>
+      <blockquote lang="zh">推动量子科技、生物制造、氢能和核聚变能、脑机接口、具身智能、第六代移动通信等成为新的经济增长点。</blockquote>
+      <p>In English: accelerate the listed strategic emerging industries, including robotics; develop the listed future fields, including embodied intelligence, into new sources of economic growth. This is our translation.</p>
+      <p><a class="report-cite" href="https://www.bjrd.gov.cn/zyfb/zt/14jqgrd04chybjdbthdztbd/wjbg/202603/t20260314_4557219.html" target="_blank" rel="noopener">Official plan</a> <a class="report-cite" href="https://www.bjrd.gov.cn/zyfb/zt/14jqgrd04chybjdbthdztbd/wjbg/202603/t20260313_4556146.html" target="_blank" rel="noopener">Approval resolution</a> <a class="report-cite" href="policies.html#policy-research">US hearings and policy comparison</a></p>
+    </details>
+
     <p class="muted" id="method-note" style="font-size:12px;margin-top:24px;"><!--static:china-method:start--><!--static:china-method:end--></p>
   </main>
 
   <footer class="site-footer">
-    <p>Every record is cited; primary sources preferred.</p>
+    <p>Data updated <span class="updated-date tnum">—</span>.</p>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 
@@ -175,6 +192,9 @@
 
     document.getElementById('method-note').textContent = RT.chinaMethodNote(uc);
   });
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => RT.mountCommissionNote('#commission-note', {"findings": [1, 9], "figures": ["china-annual-installations-2025", "china-operational-stock-end-2024", "chinese-supplier-home-share-2025", "chinese-subsidy-share-of-profit"]}));
   </script>
 </body>
 </html>

@@ -449,23 +449,19 @@
     "type": "Bill",
     "level": "Federal",
     "state": "N/A",
-    "introduced_date": "2026-04",
+    "introduced_date": "2026-04-02",
     "status": "Introduced",
-    "bill_number": "H.R. 8189",
-    "sponsor": "Rep. Pat Harrigan (R-NC)",
-    "summary": "Restricts federal procurement of humanoid robots and robotic systems manufactured in countries of concern (notably China), citing supply-chain security and dual-use concerns. Establishes a covered-entity list maintained by Commerce and DoD.",
-    "full_text_url": "https://www.congress.gov/bill/119th-congress/house-bill/8189",
-    "robotics_scope": "Federal procurement restrictions on foreign-made robots",
+    "bill_number": "H.R. 8189 / S. 4235",
+    "sponsor": "Rep. Elise Stefanik; Senate sponsor Sen. Tom Cotton, original cosponsor Sen. Chuck Schumer",
+    "summary": "Would bar executive agencies from procuring covered unmanned ground vehicle systems made or assembled by covered foreign entities. After one year, would bar agency operation and use of federal funds through contracts, grants, cooperative agreements, or otherwise for procurement or operation. The definition explicitly includes ground mobile robotics, autonomous patrol technology, and humanoid robots. The procurement ban has no one-year delay; the operation and federal-funds bans do. Both bills remain referred to committee as of October 14, 2026.",
+    "full_text_url": "https://www.govinfo.gov/content/pkg/BILLS-119hr8189ih/html/BILLS-119hr8189ih.htm",
+    "robotics_scope": "Applies to federal executive agencies and systems manufactured or assembled by entities domiciled in or controlled by a covered nation, or their subsidiaries/affiliates. DHS, DOD, State, and DOJ receive an exemption only for specified national-interest uses (research/testing/training/electronic or information warfare/counterterrorism etc.) or systems modified so they cannot exchange data with covered foreign entities and pose no agency-determined cybersecurity risk. It does not create a general private-sector ban.",
     "estimated_budget_usd": null,
     "beneficiaries": [
       "US robotics manufacturers",
       "Defense contractors"
     ],
-    "agency_responsible": [
-      "doc",
-      "dod",
-      "gsa"
-    ],
+    "agency_responsible": [],
     "startup_eligible": false,
     "application_url": null,
     "tags": [
@@ -478,14 +474,13 @@
     ],
     "sources": [
       {
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8189"
+        "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr8189ih/html/BILLS-119hr8189ih.htm"
       },
       {
-        "url": "https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/",
-        "archive_url": "https://web.archive.org/web/20260306200257/https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/"
+        "url": "https://www.govinfo.gov/content/pkg/BILLS-119s4235is/html/BILLS-119s4235is.htm"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-10-14",
     "themes": [
       "china-scale",
       "defense-procurement",
@@ -788,14 +783,14 @@
     "type": "Bill",
     "level": "Federal",
     "state": "N/A",
-    "introduced_date": "2026-02",
+    "introduced_date": "2026-02-03",
     "status": "Introduced",
-    "bill_number": "H.R. 7334",
-    "sponsor": "Rep. Jay Obernolte (R-CA)",
-    "summary": "Directs the Department of Commerce to establish an independent National Commission on Robotics composed of 18 recognized robotics experts, appointed by Congressional leadership and the President. The Commission would submit an interim report within one year and a final report with actionable recommendations on U.S. robotics competitiveness within two years.",
-    "full_text_url": "https://www.congress.gov/bill/119th-congress/house-bill/7334/text",
+    "bill_number": "H.R. 7334 / S. 4686",
+    "sponsor": "Rep. Jay Obernolte; Senate sponsor Sen. Dave McCormick",
+    "summary": "Would establish an independent 18-member robotics commission within Commerce to review competitiveness, workforce, supply chains, manufacturing and national security. Interim and final reports are due one and two years after establishment. H.R. 7334 was introduced February 3; S. 4686 on June 4. Both remain referred to committee as of October 14, 2026; this is separate from SCSP’s nongovernmental commission.",
+    "full_text_url": "https://www.govinfo.gov/content/pkg/BILLS-119hr7334ih/html/BILLS-119hr7334ih.htm",
     "robotics_scope": "National robotics strategy and coordination",
-    "estimated_budget_usd": 50000000,
+    "estimated_budget_usd": null,
     "beneficiaries": [
       "All US robotics companies",
       "Federal research agencies",
@@ -817,14 +812,13 @@
     ],
     "sources": [
       {
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7334/text"
+        "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr7334ih/html/BILLS-119hr7334ih.htm"
       },
       {
-        "url": "https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/",
-        "archive_url": "https://web.archive.org/web/20260306200257/https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/"
+        "url": "https://www.govinfo.gov/content/pkg/BILLS-119s4686is/html/BILLS-119s4686is.htm"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-10-14",
     "themes": [
       "policy-momentum"
     ]
@@ -1121,7 +1115,7 @@
     "status": "In development",
     "bill_number": "2025-18749",
     "sponsor": "Federal Agency",
-    "summary": "The Commerce Department initiated a national-security investigation into imports of robotics and industrial machinery in September 2025 and sought public comments. BIS still lists it as an investigation; this record does not indicate a final tariff or finding.",
+    "summary": "Commerce initiated a Section 232 national-security investigation into robotics and industrial-machinery imports and components on September 2, 2025; the September 26 notice sought comments. The notice asks about domestic capacity, foreign subsidies, supply-chain risks and possible trade remedies. It does not establish a final tariff or finding, and it is separate from the July 2026 FCC action.",
     "full_text_url": "https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of",
     "robotics_scope": "Potential import-policy exposure for robotics and industrial machinery; product coverage and outcome remain unresolved.",
     "estimated_budget_usd": null,
@@ -1143,7 +1137,7 @@
         "url": "https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of"
       }
     ],
-    "last_updated": "2026-09-22",
+    "last_updated": "2026-10-14",
     "themes": [
       "policy-momentum"
     ],
@@ -2250,7 +2244,7 @@
     "status": "In effect",
     "bill_number": null,
     "sponsor": "Federal Communications Commission",
-    "summary": "On July 28, 2026 the FCC added foreign-produced advanced robotic devices to its Covered List, with an exception for devices receiving Department of War conditional approval. The September 18 FCC notice announced conditional approvals and exemptions for certain devices. The restriction concerns new equipment authorization; current authorization and device scope require case-specific review.",
+    "summary": "On July 28, the FCC added foreign-produced advanced robotic devices to its Covered List, based on an Executive Branch interagency national-security determination attached to DA 26-786 as Appendix C. Listing restricts new FCC equipment authorizations and federal subsidies; it does not ban existing ownership. Department of War conditional approvals are an exception. This is separate from Commerce’s Section 232 investigation. The September 18 notice records later approvals and exemptions.",
     "full_text_url": "https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf",
     "robotics_scope": "Network-capable foreign-produced advanced robotic devices; DoW conditional approval and FCC equipment-authorization process matter.",
     "estimated_budget_usd": null,
@@ -2274,13 +2268,13 @@
     ],
     "sources": [
       {
-        "url": "https://docs.fcc.gov/public/attachments/DOC-423682A1.pdf"
+        "url": "https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf"
       },
       {
         "url": "https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf"
       }
     ],
-    "last_updated": "2026-09-22"
+    "last_updated": "2026-10-14"
   },
   {
     "id": "guard-act-hr9129",
@@ -2292,9 +2286,9 @@
     "status": "Committee",
     "bill_number": "H.R. 9129",
     "sponsor": "Rep. John Moolenaar (R-MI), with Rep. Jay Obernolte (R-CA) and Rep. Jennifer McClellan (D-VA)",
-    "summary": "Would require national security agencies to review humanoid and quadruped robots produced in China and other foreign adversary countries, and add platforms judged an unacceptable national security risk to the FCC's Covered List — barring their sale in the US. Any platform not reviewed within one year would be added automatically. Extends to robotics the Covered List machinery already applied to telecom equipment and drones. Introduced in the 119th Congress; on September 1, 2026, the House Energy and Commerce Subcommittee on Communications and Technology marked up the bill and forwarded it to the full Committee by voice vote. The related provision that advanced in the House-passed FY2027 NDAA is Section 163, passed 216-212 on July 22, 2026: it bars the Department of Defense (not the wider federal government) from procuring, leasing, or operating a \"covered humanoid robotic system\" produced or developed by China (or incorporating Chinese firmware, software, AI models, cloud services, or remote-access/update capability); industrial robots, non-networked systems, and regulated medical devices are expressly excluded from the definition. Commercial sales remain legal under the NDAA provision — the GUARD Act's broader Covered List approach would go further. The Senate Armed Services Committee bill (S. 4784) carries a parallel Sec. 5813 barring DoD from covered unmanned ground vehicles; the two chambers reconcile in conference.",
-    "full_text_url": "https://www.congress.gov/bill/119th-congress/house-bill/9129/text/ih",
-    "robotics_scope": "Robotics is the entire subject of the bill: it defines a review-and-list regime specifically for foreign-adversary humanoid and quadruped robots.",
+    "summary": "Would direct an appropriate national-security agency to determine within one year whether covered humanoid/quadruped robotics communications equipment or services pose an unacceptable risk to U.S. national security or the safety/security of U.S. persons. If the agency does not make a determination by the deadline, the FCC must add all covered equipment/services to its covered list; affirmative findings trigger listing and reporting. A negative finding requires reporting and review by other appropriate national-security agencies. The Communications and Technology subcommittee forwarded H.R. 9129 to the full committee by voice vote on September 1, its latest action as of October 14. This is proposed legislation, separate from the FCC’s July listing and the House NDAA’s DoD-only Section 163.",
+    "full_text_url": "https://www.govinfo.gov/content/pkg/BILLS-119hr9129ih/html/BILLS-119hr9129ih.htm",
+    "robotics_scope": "Covers humanoid or quadruped ground robots, their control software/external devices, when they are communications equipment or services produced/provided by a covered foreign entity (including entities tied to a country of concern through control, ownership, joint venture, or technology-sharing/licensing). The bill provides a path to avoid listing on a timely negative determination; it does not itself impose a direct across-the-board procurement or private ownership ban.",
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [],
@@ -2314,19 +2308,13 @@
     ],
     "sources": [
       {
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9129/text/ih"
+        "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr9129ih/html/BILLS-119hr9129ih.htm"
       },
       {
-        "url": "https://www.govinfo.gov/app/details/BILLS-119hr9129ih"
-      },
-      {
-        "url": "https://energycommerce.house.gov/posts/chairmen-guthrie-and-hudson-announce-c-and-t-subcommittee-markup-of-six-bills-to-strengthen-communications-networks-and-modernize-satellite-regulations"
-      },
-      {
-        "url": "https://www.insidegovernmentcontracts.com/2026/09/mapping-china-in-the-national-defense-authorization-act-for-fy-2027-part-i-the-expanding-acquisition-perimeter/"
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/pdf/CREC-2026-09-01-pt1-PgD855.pdf"
       }
     ],
-    "last_updated": "2026-09-25"
+    "last_updated": "2026-10-14"
   },
   {
     "id": "fedreg-2026-15418",
@@ -2631,5 +2619,116 @@
       }
     ],
     "last_updated": "2026-10-10"
+  },
+  {
+    "id": "s-3275-humanoid-robot",
+    "title": "Humanoid ROBOT Act of 2025",
+    "type": "Bill",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2025-11-20",
+    "status": "Introduced",
+    "bill_number": "S. 3275",
+    "sponsor": "Sen. Bill Cassidy; original cosponsor Sen. Chris Coons",
+    "summary": "Would bar executive agency procurement or use by federal contractors of humanoid robots designed, tested, developed, or manufactured by covered entities, with a Defense Secretary waiver for national-security or research objectives. Would direct CFIUS to review certain investments in humanoid-robot production. Would direct the Defense Secretary to report within a year on national-security threats, including privacy/data security, supply-side development and export-control or IP concerns. Latest official actions remain committee referrals as of October 14, 2026.",
+    "robotics_scope": "Procurement/contractor prohibitions apply 180 days after enactment; the waiver is assigned to the Secretary of Defense. The CFIUS review and DoD report concern countries/entities defined in the bill; this is a federal procurement, investment-review, and reporting framework rather than a general civilian use prohibition.",
+    "full_text_url": "https://www.govinfo.gov/content/pkg/BILLS-119s3275is/html/BILLS-119s3275is.htm",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "national-security",
+      "robotics"
+    ],
+    "themes": [
+      "policy-momentum",
+      "defense-procurement"
+    ],
+    "sources": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/BILLS-119s3275is/html/BILLS-119s3275is.htm"
+      },
+      {
+        "url": "https://www.govinfo.gov/app/details/BILLS-119s3275is"
+      }
+    ],
+    "last_updated": "2026-10-14"
+  },
+  {
+    "id": "blocking-ccp-spy-tech-2026",
+    "title": "Blocking CCP Spy Tech Act of 2026",
+    "type": "Bill",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-05-20",
+    "status": "Introduced",
+    "bill_number": "S. 4586 / H.R. 9687",
+    "sponsor": "Sen. Rick Scott; House sponsor Rep. Scott Perry",
+    "summary": "Would require an appropriate national-security agency to assess within one year whether communications equipment or services produced/provided by six named entities and their specified affiliates, joint ventures, or licensees pose an unacceptable national-security or U.S.-person safety/security risk. A positive determination triggers FCC addition to its covered list; if the agency misses the deadline, the FCC must add all listed entities’ covered products/services. A negative determination triggers reporting and follow-on review by other national-security agencies. Both introduced versions also direct the Defense Secretary to determine whether named entities should be identified as Chinese military companies under the annual NDAA review. Latest official actions remain committee referrals as of October 14, 2026.",
+    "robotics_scope": "The House text names Game Science, DeepSeek, Unitree Robotics, DEEP Robotics, BrainCo, and Manycore Tech, and defined related entities. The Senate bill has the same short title and central review/list mechanism; both introduced texts include a DoD Chinese-military-company determination section. The core effect is risk assessment and possible FCC covered-list restrictions, not a general private possession ban.",
+    "full_text_url": "https://www.govinfo.gov/content/pkg/BILLS-119hr9687ih/html/BILLS-119hr9687ih.htm",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "national-security",
+      "robotics"
+    ],
+    "themes": [
+      "policy-momentum",
+      "china-scale"
+    ],
+    "sources": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr9687ih/html/BILLS-119hr9687ih.htm"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/BILLS-119s4586is/html/BILLS-119s4586is.htm"
+      }
+    ],
+    "last_updated": "2026-10-14"
+  },
+  {
+    "id": "ndaa-fy2027-sec163-humanoid",
+    "title": "FY2027 NDAA Section 163 — foreign-adversary humanoid systems",
+    "type": "Bill",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-06-04",
+    "status": "Passed House",
+    "bill_number": "H.R. 8800 §163; HASC LOG ID 6312",
+    "sponsor": "House Armed Services Committee; related markup item offered by Rep. Lance Gooden",
+    "summary": "Gooden’s markup log item 6312, revision 2, was agreed to by voice vote. The House-passed FY2027 NDAA contains a related Section 163 barring DoD procurement, leasing or obtaining of covered humanoid robotic systems made or developed by foreign adversaries, or carrying their software, AI, cloud or remote-control services. A controlled-testing waiver and exclusions for fixed industrial robots, non-networked systems and regulated medical devices apply. H.R. 8800 passed the House July 22 and was received in the Senate September 14; it is not enacted as of October 14.",
+    "robotics_scope": "Section 163 applies to contracts and agreements after enactment and requires implementation guidance within 180 days. It is not a general civilian possession ban. The markup log identifies Gooden’s contribution but does not independently prove verbatim continuity into Section 163; the House-passed text establishes that section’s scope. House passage is not enactment.",
+    "full_text_url": "https://www.govinfo.gov/content/pkg/BILLS-119hr8800eh/html/BILLS-119hr8800eh.htm",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "national-security",
+      "robotics"
+    ],
+    "themes": [
+      "policy-momentum",
+      "defense-procurement"
+    ],
+    "sources": [
+      {
+        "url": "https://docs.house.gov/meetings/AS/AS00/20260604/119333/HMKP-119-AS00-20260604-SD001.pdf"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr8800eh/html/BILLS-119hr8800eh.htm"
+      }
+    ],
+    "last_updated": "2026-10-14"
   }
 ]

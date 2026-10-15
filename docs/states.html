@@ -19,9 +19,9 @@
   <title>State Policy · Robotics Tracker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Oswald:wght@500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=Spectral:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" />
   <script>
-    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
+    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams','foundation'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
   </script>
   <link rel="stylesheet" href="assets/styles.css" />
   <style>
@@ -30,6 +30,8 @@
     .sp-card h3.card-title { margin: 0; }
     .sp-card .sp-summary { font-size: 13.5px; line-height: 1.55; color: var(--text); margin: 0; }
     .sp-card ul.sp-points { margin: 2px 0 0; padding-left: 18px; display: flex; flex-direction: column; gap: 5px; }
+    .sp-more > summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-size: 13px; font-weight: 600; color: var(--accent); }
+    .sp-more[open] > summary { margin-bottom: 6px; }
     .sp-card ul.sp-points li { font-size: 13px; line-height: 1.45; color: var(--text-muted); }
     .sp-states { display: flex; flex-wrap: wrap; gap: 5px; }
     .sp-links { display: flex; flex-direction: column; gap: 4px; margin-top: 2px; }
@@ -43,10 +45,6 @@
   <a href="#main" class="skip-link">Skip to content</a>
   <header class="site-header" role="banner">
     <div class="site-header-inner">
-      <a href="index.html" class="header-updated" aria-label="Home — last data refresh">
-        <span class="header-updated-label">Updated</span>
-        <span class="header-updated-date tnum">—</span>
-      </a>
       <nav class="primary-nav" aria-label="Primary" id="primary-nav">
         <ul class="nav-list">
           <li><a href="index.html">Front page</a></li>
@@ -59,6 +57,7 @@
           <li><a href="energy.html">Energy</a></li>
           <li><a href="states.html">States</a></li>
           <li><a href="themes.html">Themes</a></li>
+          <li><a href="scsp-summit.html">SCSP Summit</a></li>
         </ul>
         <details class="primary-more" hidden>
           <summary>Sections</summary>
@@ -75,22 +74,22 @@
           <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Subconscious</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="foundation"><span class="theme-option-name">Foundation</span><span class="theme-option-tag">Trantor</span></label>
         </div>
       </details>
     </div>
   </header>
 
   <main id="main">
-    <p class="eyebrow">State & local policy</p>
     <h1 class="page-title">State robotics policy.</h1>
     <p class="page-lede">
-      Where robots are actually allowed to operate is decided in statehouses and city councils as well as Congress. This is the lay of the land: the key themes, what's already on the books, and where to read further.
+      States and cities, not only Congress, decide where robots may operate. Below are the main themes and the state laws and programs this site tracks.
     </p>
 
     <aside class="bluf" aria-label="Bottom line up front">
       <span class="bluf-tag">Bottom line</span>
       <p class="bluf-body">
-        <strong>The states are the rulebook.</strong> 20+ states authorize sidewalk delivery robots, nearly all regulate autonomous-vehicle testing, and a competitive thicket of tax credits courts robotics jobs — while state AI laws creep toward autonomous physical systems and a federal preemption fight looms. There is no single national framework, so the map <em>is</em> the policy.
+        <strong>More than 20 states authorize sidewalk delivery robots</strong>, and nearly all regulate autonomous-vehicle testing. Many offer tax credits for robotics jobs. State AI laws are starting to reach autonomous physical systems, and federal preemption of those laws is being debated. There is no national framework.
       </p>
     </aside>
 
@@ -102,7 +101,7 @@
     </div>
 
     <h2 class="section-title">Key themes</h2>
-    <p class="muted" style="font-size:13px;margin:-4px 0 14px;">The five threads that define state-level robotics policy in 2026. Each card links out to primary sources.</p>
+    <p class="muted" style="font-size:13px;margin:-4px 0 14px;">Five themes in state robotics policy in 2026. Open a card for its key points and sources.</p>
     <div class="sp-theme-grid" id="sp-themes"></div>
 
     <details class="collapsible-section" id="sec-onbooks" open>
@@ -129,10 +128,18 @@
     </details>
 
     <div id="sp-empty" class="empty-state" hidden>No state or local records tracked yet.</div>
+    <details class="collapsible-section" id="sec-commission">
+      <summary>
+        <h2 class="section-title">What the SCSP robotics commission found</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Its findings on the manufacturing workforce and small manufacturers.</p>
+      </summary>
+      <div id="commission-note"><p class="muted-cell">Loading…</p></div>
+    </details>
+
   </main>
 
   <footer class="site-footer">
-    <p>Curated overview with primary-source citations. State law changes fast — every theme links out so you can verify the current text. See also <a href="policies.html">federal policy</a>.</p>
+    <p>Data updated <span class="updated-date tnum">—</span>. State law changes often; check the linked text before relying on it. See also <a href="policies.html">federal policy</a>.</p>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 
@@ -177,9 +184,11 @@
           </div>
           <h3 class="card-title">${RT.escapeHTML(t.title)}</h3>
           <p class="sp-summary">${RT.escapeHTML(t.summary)}</p>
-          ${points ? `<ul class="sp-points">${points}</ul>` : ''}
           ${states ? `<div class="sp-states">${states}</div>` : ''}
-          ${links ? `<span class="sp-deeper-label">Go deeper</span><div class="sp-links">${links}</div>` : ''}
+          ${points || links ? `<details class="sp-more"><summary>Key points${links ? ' &amp; sources' : ''}</summary>
+            ${points ? `<ul class="sp-points">${points}</ul>` : ''}
+            ${links ? `<span class="sp-deeper-label">Go deeper</span><div class="sp-links">${links}</div>` : ''}
+          </details>` : ''}
         </article>
       `;
     }).join('');
@@ -229,6 +238,9 @@
       return `<span class="pill ${map[s] || 'outline'}">${RT.escapeHTML(s)}</span>`;
     }
   });
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => RT.mountCommissionNote('#commission-note', {"findings": [5, 7], "figures": ["manufacturing-labor-gap", "apprentices", "smm-share-of-u-s-manufacturers", "robot-presence-by-plant-size"]}));
   </script>
 </body>
 </html>

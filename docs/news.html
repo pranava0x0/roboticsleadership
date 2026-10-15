@@ -4,12 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="color-scheme" content="light dark" />
-  <meta name="description" content="The latest tracked robotics news — funding, deployments, policy, and competitive moves, each cited; primary sources preferred." />
+  <meta name="description" content="Robotics news on funding, deployments, policy and competition between the US and China." />
   <link rel="canonical" href="https://pranava0x0.github.io/roboticsleadership/news.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Robotics Leadership Tracker" />
   <meta property="og:title" content="News · Robotics Tracker" />
-  <meta property="og:description" content="The latest tracked robotics news — funding, deployments, policy, and competitive moves, each cited; primary sources preferred." />
+  <meta property="og:description" content="Robotics news on funding, deployments, policy and competition between the US and China." />
   <meta property="og:url" content="https://pranava0x0.github.io/roboticsleadership/news.html" />
   <meta property="og:image" content="https://pranava0x0.github.io/roboticsleadership/assets/share-card.png" />
   <meta property="og:image:width" content="1200" />
@@ -19,9 +19,9 @@
   <title>News · Robotics Tracker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Oswald:wght@500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=Spectral:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" />
   <script>
-    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
+    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams','foundation'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
   </script>
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/news-recent.json" crossorigin />
@@ -32,10 +32,6 @@
   <a href="#main" class="skip-link">Skip to content</a>
   <header class="site-header" role="banner">
     <div class="site-header-inner">
-      <a href="index.html" class="header-updated" aria-label="Home — last data refresh">
-        <span class="header-updated-label">Updated</span>
-        <span class="header-updated-date tnum">—</span>
-      </a>
       <nav class="primary-nav" aria-label="Primary" id="primary-nav">
         <ul class="nav-list">
           <li><a href="index.html">Front page</a></li>
@@ -48,6 +44,7 @@
           <li><a href="energy.html">Energy</a></li>
           <li><a href="states.html">States</a></li>
           <li><a href="themes.html">Themes</a></li>
+          <li><a href="scsp-summit.html">SCSP Summit</a></li>
         </ul>
         <details class="primary-more" hidden>
           <summary>Sections</summary>
@@ -64,16 +61,16 @@
           <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Subconscious</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="foundation"><span class="theme-option-name">Foundation</span><span class="theme-option-tag">Trantor</span></label>
         </div>
       </details>
     </div>
   </header>
 
   <main id="main">
-    <p class="eyebrow">Latest intelligence</p>
     <h1 class="page-title">News.</h1>
     <p class="page-lede">
-      Curated robotics stories on funding, deployments, policy, and competitive moves. Every item is cited; filter by category or company below.
+      Robotics stories on funding, deployments, policy and competition. Filter by category or company.
     </p>
 
     <form class="filter-bar" id="filter-form" onsubmit="return false;" aria-label="Filter news">
@@ -98,7 +95,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>Every record is cited; primary sources preferred. Curated narratives live on <a href="themes.html">Themes</a>.</p>
+    <p>Data updated <span class="updated-date tnum">—</span>. Longer narratives are on <a href="themes.html">Themes</a>.</p>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 

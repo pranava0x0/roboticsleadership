@@ -160,12 +160,13 @@
     return `<a class="archive-link" href="${escapeHTML(safeURL(archiveUrl))}" target="_blank" rel="noopener" title="Wayback Machine snapshot">${escapeHTML(label || 'archived')} ↗</a>`;
   }
 
-  // ---------- Theme picker (4-up; see DESIGN.md § 15) ----------
+  // ---------- Theme picker (see DESIGN.md § 15) ----------
   const THEMES = [
     { id: 'caves',         name: 'Caves of Steel',  tag: 'Earth' },
     { id: 'naked-sun',     name: 'The Naked Sun',   tag: 'Solaria' },
     { id: 'dawn',          name: 'Robots of Dawn',  tag: 'Aurora' },
     { id: 'robot-dreams',  name: 'Robot Dreams',    tag: 'Subconscious' },
+    { id: 'foundation',    name: 'Foundation',      tag: 'Trantor' },
   ];
   const THEME_IDS = new Set(THEMES.map((t) => t.id));
   const LEGACY = { light: 'naked-sun', dark: 'caves' }; // migrate old values
@@ -395,6 +396,7 @@
   }
 
   // ---------- Detail panel (shared bottom-sheet / side-panel) ----------
+  let detailOpener = null;
   function openDetail(html) {
     let panel = document.getElementById('detail-panel');
     let backdrop = document.getElementById('detail-backdrop');
@@ -418,6 +420,11 @@
         if (e.key === 'Escape') closeDetail();
       });
     }
+    // Remember the opener so focus returns there, and make the page behind
+    // the sheet inert so Tab stays inside it (aria-modal alone doesn't).
+    if (!panel.classList.contains('open')) detailOpener = document.activeElement;
+    document.querySelectorAll('body > header, body > main, body > footer')
+      .forEach((el) => { el.inert = true; });
     panel.innerHTML = html;
     panel.classList.add('open');
     backdrop.classList.add('open');
@@ -430,18 +437,23 @@
   function closeDetail() {
     const panel = document.getElementById('detail-panel');
     const backdrop = document.getElementById('detail-backdrop');
-    if (panel) panel.classList.remove('open');
+    if (!panel || !panel.classList.contains('open')) return;
+    panel.classList.remove('open');
     if (backdrop) backdrop.classList.remove('open');
+    document.querySelectorAll('body > header, body > main, body > footer')
+      .forEach((el) => { el.inert = false; });
+    if (detailOpener && detailOpener.isConnected) detailOpener.focus();
+    detailOpener = null;
   }
 
-  // ---------- Header "Updated <date>" populator ----------
+  // ---------- "Updated <date>" (front-page kicker, page footers) ----------
   async function loadHeaderUpdated() {
-    const el = document.querySelector('.header-updated-date');
-    if (!el) return;
+    const els = document.querySelectorAll('.updated-date');
+    if (!els.length) return;
     try {
       const sources = await loadData('sources');
       const date = sources?._meta?.last_updated;
-      if (date) el.textContent = formatDate(date);
+      if (date) els.forEach((el) => { el.textContent = formatDate(date); });
     } catch (e) { /* leave the dash placeholder */ }
   }
 
@@ -767,7 +779,7 @@
   // escapes it. Returning a string keeps both callers honest about which it is.
   function chinaMethodNote(uc) {
     const meta = uc._meta || {};
-    return `Method: ${meta.method || ''}. Captured as of ${formatDate(meta.captured_at || meta.last_updated)}. "Edge" calls are editorial judgments on sourced data, not scores.`;
+    return `Method: ${meta.method || ''}. Captured as of ${formatDate(meta.captured_at || meta.last_updated)}. "Edge" calls are editorial judgments, not scores.`;
   }
 
   // ---------- News (news.html, index.html) ----------
@@ -980,15 +992,6 @@
     return items + `<li class="brief brief-all"><a href="news.html">All ${formatNumber(total)} stories →</a></li>`;
   }
 
-  // Masthead standfirst — the corpus, stated as a fact about the page rather
-  // than a claim about the world. Counts come from the data, never hardcoded.
-  function renderStandfirst(companies, policies, newsTotal) {
-    return `${formatNumber(newsTotal || 0)} news records · ` +
-      `${formatNumber((companies || []).length)} companies · ` +
-      `${formatNumber((policies || []).length)} policy actions — ` +
-      `every record is cited; primary sources preferred.`;
-  }
-
   function renderThemeCards(themes) {
     return (themes || []).slice(0, 6).map((t) => `
       <a class="card card-hoverable" href="themes.html#${encodeURIComponent(t.id)}" style="color:inherit;border-bottom:none;">
@@ -1022,6 +1025,49 @@
         </dl>
       </a>
     `).join('');
+  }
+
+  // ---------- SCSP robotics commission report (data/scsp-robotics-commission-2026.json) ----------
+  // Every claim carries a printed page and a PDF page; links open the PDF at the PDF page.
+  function reportCite(report, item, label) {
+    const href = safeURL(`${report.pdf_url}#page=${item.pdf_page}`);
+    const text = label || (item.pages ? `pp. ${item.pages}` : `p. ${item.page}`);
+    return `<a class="report-cite tnum" href="${escapeHTML(href)}" target="_blank" rel="noopener">${escapeHTML(text)}</a>`;
+  }
+
+  // A short note on another page: chosen findings and figures, each with its page link.
+  // opts: { findings: [n], figures: [key-figure id], theme: theme id }
+  function renderCommissionNote(report, opts) {
+    const findings = (opts.findings || []).map((n) => report.findings.find((f) => f.n === n)).filter(Boolean);
+    const figures = (opts.figures || []).map((id) => report.key_figures.find((k) => k.id === id)).filter(Boolean);
+    const more = `scsp-summit.html${opts.theme ? `?theme=${encodeURIComponent(opts.theme)}` : ''}#report`;
+    return `
+      <p class="muted" style="margin:0 0 10px;font-size:13px;">From the ${escapeHTML(report.publisher.replace(/ \(.*/, ''))}'s robotics commission, <a href="${escapeHTML(safeURL(report.page_url))}" target="_blank" rel="noopener">preliminary report</a>, ${escapeHTML(formatDate(report.released))}. Page links open the PDF.</p>
+      <ul class="commission-findings">${findings.map((f) => `
+        <li><strong>${escapeHTML(f.title)}.</strong> ${escapeHTML(f.summary)} ${reportCite(report, f)}</li>`).join('')}
+      </ul>
+      ${figures.length ? `<dl class="commission-figs">${figures.map((k) => `
+        <div><dt>${escapeHTML(k.label)}</dt><dd><span class="tnum">${escapeHTML(k.value)}</span> ${reportCite(report, k)}</dd></div>`).join('')}
+      </dl>` : ''}
+      <p style="margin:10px 0 0;font-size:13.5px;"><a href="${more}">All of the report's findings on this →</a></p>`;
+  }
+
+  // Page glue: the note sits in a collapsed <details>, so the report is fetched
+  // only when a reader opens it. A failed load says so instead of leaving "Loading…".
+  function mountCommissionNote(selector, opts) {
+    const el = document.querySelector(selector);
+    if (!el) { console.warn(`mountCommissionNote: no ${selector}`); return; }
+    const box = el.closest('details');
+    const load = () => loadData('scsp-robotics-commission-2026')
+      .then((report) => paint(el, renderCommissionNote(report, opts)))
+      .catch((err) => {
+        console.error('Commission report failed to load:', err);
+        paint(el, '<p class="muted-cell">Could not load the commission report. Close and reopen this section to try again.</p>');
+        if (box) box.addEventListener('toggle', onToggle); // loadData clears its cache on failure, so a reopen retries
+      });
+    const onToggle = () => { if (box.open) { box.removeEventListener('toggle', onToggle); load(); } };
+    if (!box || box.open) { load(); return; }
+    box.addEventListener('toggle', onToggle);
   }
 
   // ---------- Boot sequence ----------
@@ -1090,8 +1136,10 @@
     renderLeadStory,
     renderTopStories,
     renderNewsBriefs,
-    renderStandfirst,
     renderThemeCards,
     renderTopCompanies,
+    reportCite,
+    renderCommissionNote,
+    mountCommissionNote,
   };
 })(window);

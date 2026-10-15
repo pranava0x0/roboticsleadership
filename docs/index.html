@@ -4,12 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="color-scheme" content="light dark" />
-  <meta name="description" content="A cited, current record of the US and Chinese robotics industries — funding, deployments, supply chain, and US policy. Every record is cited; primary sources preferred." />
+  <meta name="description" content="Funding, deployments, supply chain and policy in US and Chinese robotics." />
   <link rel="canonical" href="https://pranava0x0.github.io/roboticsleadership/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Robotics Leadership Tracker" />
   <meta property="og:title" content="Robotics — How the U.S. can Lead" />
-  <meta property="og:description" content="A cited, current record of the US and Chinese robotics industries — funding, deployments, supply chain, and US policy. Every record is cited; primary sources preferred." />
+  <meta property="og:description" content="Funding, deployments, supply chain and policy in US and Chinese robotics." />
   <meta property="og:url" content="https://pranava0x0.github.io/roboticsleadership/" />
   <meta property="og:image" content="https://pranava0x0.github.io/roboticsleadership/assets/share-card.png" />
   <meta property="og:image:width" content="1200" />
@@ -19,10 +19,10 @@
   <title>Robotics — How the U.S. can Lead</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Oswald:wght@500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=Spectral:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" />
   <script>
     /* Set data-theme before first paint to avoid FOUC. See DESIGN.md § 15. */
-    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
+    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams','foundation'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
   </script>
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/companies.json" crossorigin />
@@ -34,10 +34,6 @@
 
   <header class="site-header" role="banner">
     <div class="site-header-inner">
-      <a href="index.html" class="header-updated" aria-label="Home — last data refresh">
-        <span class="header-updated-label">Updated</span>
-        <span class="header-updated-date tnum">—</span>
-      </a>
       <nav class="primary-nav" aria-label="Primary" id="primary-nav">
         <ul class="nav-list">
           <li><a href="index.html">Front page</a></li>
@@ -50,6 +46,7 @@
           <li><a href="energy.html">Energy</a></li>
           <li><a href="states.html">States</a></li>
           <li><a href="themes.html">Themes</a></li>
+          <li><a href="scsp-summit.html">SCSP Summit</a></li>
         </ul>
         <details class="primary-more" hidden>
           <summary>Sections</summary>
@@ -66,19 +63,17 @@
           <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Subconscious</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="foundation"><span class="theme-option-name">Foundation</span><span class="theme-option-tag">Trantor</span></label>
         </div>
       </details>
     </div>
   </header>
 
   <main id="main">
-    <!-- Masthead. A front page announces what it is before it starts
-         reporting; the standfirst counts are baked from the data. -->
+    <!-- Masthead: title and one line, then straight into the lead. -->
     <div class="masthead">
-      <p class="masthead-kicker">US &amp; China robotics · a cited record</p>
       <h1 class="masthead-title">Robotics — How the U.S. can Lead</h1>
-      <p class="masthead-strap">Where AI meets the physical world.</p>
-      <p class="masthead-standfirst"><!--static:index-standfirst:start--><!--static:index-standfirst:end--></p>
+      <p class="masthead-strap">Where AI meets the physical world. Updated <span class="updated-date tnum">—</span>.</p>
     </div>
 
     <!-- Above the fold: the well (lead + secondaries) beside the rail of
@@ -110,17 +105,17 @@
     </section>
 
     <!-- The scoreboard: the thesis chart -->
-    <h2 class="section-title rule">The scoreboard — who builds</h2>
+    <h2 class="section-title rule">Who builds the robots</h2>
     <div class="chart" id="production-trend-chart">
       <h3>Industrial robot installations — US vs China vs rest of world</h3>
-      <p class="chart-sub">The manufacturing-scale half of the thesis: China now installs more industrial robots each year than the rest of the world combined, while US installations have stayed between 31,000 and 40,000 a year since 2016 (38,400 in 2025). Dashed = IFR outlook. Metric-by-metric comparison on <a href="china.html">US vs China</a>.</p>
+      <p class="chart-sub">China now installs more industrial robots each year than the rest of the world combined, while US installations have stayed between 31,000 and 40,000 a year since 2016 (38,400 in 2025). Dashed = IFR outlook. Metric-by-metric comparison on <a href="china.html">US vs China</a>.</p>
       <svg id="production-trend-svg" viewBox="0 0 560 280" role="img" aria-label="Industrial robot installations, US vs China vs rest of world, 2015 to 2025"></svg>
       <div class="chart-legend" id="production-trend-legend"></div>
       <p class="chart-source" id="production-trend-source"></p>
     </div>
 
     <!-- Charts -->
-    <h2 class="section-title rule">What America is winning — capital</h2>
+    <h2 class="section-title rule">Capital</h2>
     <div class="chart-grid">
       <div class="chart" id="chart-top-valuations">
         <div class="chart-head">
@@ -150,7 +145,7 @@
     <aside class="bluf" aria-label="What this is">
       <span class="bluf-tag">What this is</span>
       <p class="bluf-body">
-        <strong>America leads on AI and capital; China leads on installation and supply chain.</strong> Whether either advantage decides the decade is an open question — this site doesn&rsquo;t answer it. It tracks what&rsquo;s measurable, shows its sources, and marks its own judgment calls as judgments.
+        <strong>On the measures tracked here, the US leads on AI and capital, and China on robot installations and the supply chain.</strong> The site tracks those numbers. It does not predict which lead matters more.
       </p>
     </aside>
 
@@ -160,15 +155,12 @@
         <li><strong>Where China leads</strong> — 59% of world robot installations in 2025, more than half of global cobot shipments, and 2 million robots in operation.</li>
         <li><strong>What&rsquo;s contested</strong> — components, batteries, sensors, and how fast either lead diffuses.</li>
       </ol>
-      <p class="exec-brief-note">Every number above is tracked and cited on the <a href="china.html">US vs China scoreboard</a>, where each &ldquo;edge&rdquo; call is marked as an editorial judgment on sourced data rather than a score.</p>
+      <p class="exec-brief-note">Sources for each number are on the <a href="china.html">US vs China scoreboard</a>. Its &ldquo;edge&rdquo; calls are editorial judgments, not scores.</p>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>
-      Curated data with primary-source citations. Records carry confidence levels.
-      View <a href="news.html">all news</a>.
-    </p>
+    <p>See <a href="news.html">all news</a>.</p>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 
@@ -206,8 +198,6 @@
       RT.renderTopStories(front.top, companies));
     RT.paint(document.getElementById('front-briefs'),
       RT.renderNewsBriefs(front.briefs, recent.total));
-    RT.paint(document.querySelector('.masthead-standfirst'),
-      RT.renderStandfirst(companies, policies, recent.total));
 
     // ---------- Charts ----------
     // Still client-only: renderProductionTrend writes into live SVG nodes and

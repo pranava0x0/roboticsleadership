@@ -19,9 +19,9 @@
   <title>Companies · Robotics Tracker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Oswald:wght@500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=Spectral:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" />
   <script>
-    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
+    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams','foundation'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
   </script>
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/companies.json" crossorigin />
@@ -54,10 +54,6 @@
   <a href="#main" class="skip-link">Skip to content</a>
   <header class="site-header" role="banner">
     <div class="site-header-inner">
-      <a href="index.html" class="header-updated" aria-label="Home — last data refresh">
-        <span class="header-updated-label">Updated</span>
-        <span class="header-updated-date tnum">—</span>
-      </a>
       <nav class="primary-nav" aria-label="Primary" id="primary-nav">
         <ul class="nav-list">
           <li><a href="index.html">Front page</a></li>
@@ -70,6 +66,7 @@
           <li><a href="energy.html">Energy</a></li>
           <li><a href="states.html">States</a></li>
           <li><a href="themes.html">Themes</a></li>
+          <li><a href="scsp-summit.html">SCSP Summit</a></li>
         </ul>
         <details class="primary-more" hidden>
           <summary>Sections</summary>
@@ -86,27 +83,27 @@
           <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
           <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Subconscious</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="foundation"><span class="theme-option-name">Foundation</span><span class="theme-option-tag">Trantor</span></label>
         </div>
       </details>
     </div>
   </header>
 
   <main id="main">
-    <p class="eyebrow">Directory</p>
     <h1 class="page-title">Companies</h1>
     <p class="page-lede">
-      Robotics startups and incumbents we track: funding history, deployment footprint, founders, headcount. Click any row for the full detail panel.
+      Robotics startups and incumbents: funding, deployments, founders and headcount. Tap a row for details.
     </p>
 
     <aside class="bluf" aria-label="Bottom line up front">
       <span class="bluf-tag">Bottom line</span>
       <p class="bluf-body">
-        <strong>Capital is concentrating in a few humanoid players</strong> (Figure, Tesla Optimus, Apptronik, 1X), but today's real deployment lead belongs to narrow, proven systems — delivery, warehouse logistics, and defense. Watch the gap between valuation and units shipped.
+        <strong>Most of the capital is going to a few humanoid companies</strong> (Figure, Tesla Optimus, Apptronik, 1X). Most of the robots actually deployed are narrower systems: delivery, warehouse logistics and defense.
       </p>
     </aside>
 
     <!-- Segment summary -->
-    <h2 class="section-title">The map of the space</h2>
+    <h2 class="section-title">Value by segment</h2>
     <div class="chart" id="segment-summary">
       <h3>Where the capital sits — by segment and by country</h3>
       <p class="chart-sub">Total tracked value per segment (latest valuation, or total raised where valuation is undisclosed), split by where the companies are based. Bar length is comparable across segments; click a segment to filter the directory below.</p>
@@ -161,10 +158,18 @@
     </div>
 
     <div id="empty" class="empty-state" hidden>No companies match those filters.</div>
+    <details class="collapsible-section" id="sec-commission">
+      <summary>
+        <h2 class="section-title">What the SCSP robotics commission found</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Its findings on what it costs to build robots here and who gets funded.</p>
+      </summary>
+      <div id="commission-note"><p class="muted-cell">Loading…</p></div>
+    </details>
+
   </main>
 
   <footer class="site-footer">
-    <p>Every record carries a confidence level and primary-source citations. <a href="news.html">See recent activity →</a></p>
+    <p>Data updated <span class="updated-date tnum">—</span>. <a href="news.html">Recent news →</a></p>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 
@@ -528,6 +533,9 @@
       setTimeout(() => openDetail(q.focus), 50);
     }
   });
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => RT.mountCommissionNote('#commission-note', {"findings": [8], "figures": ["humanoid-funding-share", "industrial-robot-firms-funding-share", "physical-ai-vc"], "theme": "capital-costs"}));
   </script>
 </body>
 </html>

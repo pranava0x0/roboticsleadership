@@ -1,0 +1,156 @@
+#!/usr/bin/env node
+/**
+ * commission-report.test.js — integrity checks for the SCSP robotics commission
+ * report index (docs/data/scsp-robotics-commission-2026.json) and the pages that
+ * quote it.
+ *
+ * Every citation on the site links to `pdf_url#page=<pdf_page>`. The report's
+ * printed page numbers run one behind the PDF's (the cover is PDF page 1), so a
+ * pdf_page that isn't page + 1 sends a reader to the wrong page — silently.
+ * The notes on other pages name findings, figures and themes by id; a typo there
+ * renders nothing, also silently. Both fail here instead.
+ *
+ * No dependencies. Exit 0 = all good; exit 1 = problems found.
+ *   node scripts/commission-report.test.js
+ */
+
+import { readFileSync, readdirSync } from 'node:fs';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { runInNewContext } from 'node:vm';
+
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const report = JSON.parse(readFileSync(resolve(ROOT, 'docs/data/scsp-robotics-commission-2026.json'), 'utf8'));
+
+let passed = 0;
+let failed = 0;
+function check(name, problems) {
+  if (problems.length) {
+    failed++;
+    console.error(`✗ ${name}`);
+    problems.slice(0, 10).forEach((p) => console.error(`    ${p}`));
+  } else {
+    passed++;
+    console.log(`✓ ${name}`);
+  }
+}
+
+const themeIds = new Set(report.themes.map((t) => t.id));
+const findingNs = new Set(report.findings.map((f) => f.n));
+const figureIds = new Set(report.key_figures.map((k) => k.id));
+
+const cited = [
+  ...report.findings.map((f) => [`finding ${f.n}`, f]),
+  ...report.findings.flatMap((f) => f.evidence.map((e, i) => [`finding ${f.n} evidence ${i}`, e])),
+  ...report.key_figures.map((k) => [`figure ${k.id}`, k]),
+  ...report.directions.map((d, i) => [`direction ${i}`, d]),
+  ...report.programs.map((p) => [`program ${p.name}`, p]),
+  ...report.quotes.map((q, i) => [`quote ${i}`, q]),
+  ...report.caveats.map((c, i) => [`caveat ${i}`, c]),
+  ...[...report.caveats, ...report.key_figures, ...report.findings.flatMap(f => f.evidence)].flatMap((x, i) => (x.additional_citations || []).map((c, j) => [`additional citation ${i}/${j}`, c])),
+];
+
+check('pdf_url and page_url are https', [report.pdf_url, report.page_url].filter((u) => !/^https:\/\//.test(u)));
+check('every cited item has page and pdf_page = page + 1',
+  cited.filter(([, x]) => !Number.isInteger(x.page) || x.pdf_page !== x.page + 1).map(([n, x]) => `${n}: page ${x.page}, pdf_page ${x.pdf_page}`));
+check('every pdf_page is inside the PDF',
+  cited.filter(([, x]) => x.pdf_page < 1 || x.pdf_page > report.pdf_pages).map(([n, x]) => `${n}: ${x.pdf_page}`));
+check('every finding has a title, summary and page range',
+  report.findings.filter((f) => !f.title || !f.summary || !/^\d+–\d+$/.test(f.pages)).map((f) => `finding ${f.n}`));
+check('finding page range starts at its page',
+  report.findings.filter((f) => Number(f.pages.split('–')[0]) !== f.page).map((f) => `finding ${f.n}: ${f.pages} vs ${f.page}`));
+check('finding 4 includes printed page 38', report.findings.find(f => f.n === 4).pages === '34–38' ? [] : ['finding 4 range must be 34–38']);
+check('context and caveat page references have link targets',
+  [...report.caveats, ...report.key_figures].flatMap(x => {
+    const pages = [...(x.text || x.context || '').matchAll(/(?:p\. |pp\. )(\d+)(?: and (\d+))?/g)].flatMap(m => [m[1], m[2]].filter(Boolean).map(Number));
+    const linked = [x.page, ...(x.additional_citations || []).map(c => c.page)];
+    return pages.filter(p => !linked.includes(p)).map(p => `${x.id || 'caveat'}: p. ${p} lacks citation`);
+  }));
+check('theme → finding references resolve',
+  report.themes.flatMap((t) => t.findings.filter((n) => !findingNs.has(n)).map((n) => `${t.id} → ${n}`)));
+check('finding and figure theme tags resolve', [
+  ...report.findings.flatMap((f) => f.themes.filter((t) => !themeIds.has(t)).map((t) => `finding ${f.n} → ${t}`)),
+  ...report.key_figures.flatMap((k) => k.themes.filter((t) => !themeIds.has(t)).map((t) => `${k.id} → ${t}`)),
+]);
+check('figure ids are unique', figureIds.size === report.key_figures.length ? [] : ['duplicate figure id']);
+check('every figure has a label and value',
+  report.key_figures.filter((k) => !k.label || !k.value).map((k) => k.id));
+
+// Pages that mount a commission note: every id they name must exist.
+const pages = readdirSync(resolve(ROOT, 'docs')).filter((f) => f.endsWith('.html'));
+const mounts = [];
+for (const page of pages) {
+  const html = readFileSync(resolve(ROOT, 'docs', page), 'utf8');
+  for (const m of html.matchAll(/RT\.mountCommissionNote\('([^']+)', (\{.*?\})\)\);/g)) {
+    mounts.push([page, m[1], JSON.parse(m[2]), html]);
+  }
+}
+check('at least five pages carry a commission note', mounts.length >= 5 ? [] : [`found ${mounts.length}`]);
+check('commission notes reference real findings, figures and themes', mounts.flatMap(([page, , o]) => [
+  ...(o.findings || []).filter((n) => !findingNs.has(n)).map((n) => `${page}: finding ${n}`),
+  ...(o.figures || []).filter((id) => !figureIds.has(id)).map((id) => `${page}: figure ${id}`),
+  ...(o.theme && !themeIds.has(o.theme) ? [`${page}: theme ${o.theme}`] : []),
+]));
+check('filtered note destination includes every previewed item', mounts.flatMap(([page, , o]) => {
+  if (!o.theme) return [];
+  const theme = report.themes.find(t => t.id === o.theme);
+  return [
+    ...(o.findings || []).filter(n => !theme.findings.includes(n)).map(n => `${page}: finding ${n} excluded by ${o.theme}`),
+    ...(o.figures || []).filter(id => !report.key_figures.find(k => k.id === id).themes.includes(o.theme)).map(id => `${page}: figure ${id} excluded by ${o.theme}`),
+  ];
+}));
+check('each note has its mount point on the page',
+  mounts.filter(([, sel, , html]) => !html.includes(`id="${sel.replace(/^#/, '')}"`)).map(([page, sel]) => `${page}: ${sel}`));
+
+// Exercise the actual summit glue with its independent report request failing.
+const summit = JSON.parse(readFileSync(resolve(ROOT, 'docs/data/scsp-ai-robotics-2026.json'), 'utf8'));
+const summitHTML = readFileSync(resolve(ROOT, 'docs/scsp-summit.html'), 'utf8');
+const inlineScript = [...summitHTML.matchAll(/<script defer>([\s\S]*?)<\/script>/g)].at(-1)[1];
+const nodes = new Map();
+const callbacks = {};
+const documentStub = {
+  readyState: 'loading',
+  addEventListener: (name, fn) => { callbacks[name] = fn; },
+  getElementById: (id) => {
+    if (!nodes.has(id)) nodes.set(id, {innerHTML: '', textContent: '', value: '', checked: false, hidden: false, addEventListener() {}});
+    return nodes.get(id);
+  },
+};
+const sandbox = {window: {}, document: documentStub, URL, console};
+runInNewContext(readFileSync(resolve(ROOT, 'docs/assets/app.js'), 'utf8'), sandbox);
+const RT = sandbox.window.RT;
+let sheet = '';
+Object.assign(RT, {
+  loadData: async (name) => { if (name === 'scsp-robotics-commission-2026') throw new Error('simulated report failure'); return summit; },
+  openDetail: (html) => { sheet = html; },
+  applyCollapsibleState() {},
+});
+Object.assign(sandbox, {RT, location: {hash: '#p-peter-barrett'}, history: {replaceState() {}}});
+runInNewContext(inlineScript, sandbox);
+await callbacks.DOMContentLoaded();
+check('summit renders agenda, speakers, news, posts and context after report failure',
+  ['agenda-list', 'speaker-grid', 'org-list', 'post-list', 'context-body'].filter(id => !nodes.get(id)?.innerHTML).map(id => `${id} stayed blank`));
+check('session_notes entries are well-formed (title, time, points with topic/said/check and http(s) sources)',
+  (summit.session_notes || []).flatMap((sn, i) => [
+    ...(!sn.title || !sn.time || !Array.isArray(sn.points) || !sn.points.length ? [`note ${i}: missing title, time or points`] : []),
+    ...(sn.points || []).flatMap((pt, j) => [
+      ...['topic', 'said', 'check'].filter(k => !pt[k]).map(k => `note ${i} point ${j}: empty ${k}`),
+      ...(!Array.isArray(pt.sources) || !pt.sources.length || !pt.sources.every(u => /^https?:\/\//.test(u)) ? [`note ${i} point ${j}: sources must be non-empty http(s) URLs`] : []),
+    ]),
+  ]));
+check('session_notes render one details block per entry with every source linked', (summit.session_notes || []).flatMap((sn, i) => {
+  const html = nodes.get('notes-list').innerHTML;
+  return [
+    ...(!html.includes(`id="note-${i + 1}"`) ? [`note ${i}: no details block`] : []),
+    ...sn.points.flatMap(pt => pt.sources.filter(u => !html.includes(`href="${u}"`)).map(u => `note ${i}: ${u} not linked`)),
+  ];
+}));
+check('report failure is localized and KPI retains its PDF page link', [
+  ...(!nodes.get('report-meta').textContent.includes('Could not load') ? ['missing report error'] : []),
+  ...(!nodes.get('kpis').innerHTML.includes('NSCRAM_Interim-Report.pdf#page=16') ? ['KPI lacks page 16 link'] : []),
+]);
+check('speaker sheet exposes every supporting source',
+  summit.people.find(p => p.id === 'peter-barrett').sources.filter(u => !sheet.includes(RT.escapeHTML(u))).map(u => `hidden source: ${u}`));
+
+console.log(`\n${passed} passed, ${failed} failed`);
+process.exit(failed ? 1 : 0);
