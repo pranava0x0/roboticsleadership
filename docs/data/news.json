@@ -1,5 +1,171 @@
 [
   {
+    "id": "ruoyu-technology-pre-a-2026-10",
+    "title": "Shenzhen's Ruoyu Technology raises RMB 100M+ Pre-A for a robot AI brain",
+    "date": "2026-10-16",
+    "source": "TechNode",
+    "source_url": "https://technode.com/2026/10/16/robot-ai-developer-ruoyu-secures-pre-a-funding-led-by-sunway-communication/",
+    "summary": "Sunway Communication led the round. The 2023 Harbin Institute of Technology, Shenzhen spinout pairs cloud planning with local control, and its first use is robotic refueling, tested with an explosion-protected setup at a Foshan station.",
+    "category": "Funding",
+    "companies": [],
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "tags": [
+      "china",
+      "pre-a",
+      "robot-brain",
+      "refueling"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive"
+  },
+  {
+    "id": "agility-nyobolt-digit5-charging-2026-10",
+    "title": "Agility picks Nyobolt cells for Digit 5: 90 minutes of runtime, 9-minute charge",
+    "date": "2026-10-15",
+    "source": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/agility-robotics-chooses-nyobolt-ultra-fast-charging-digit-5-humanoid/",
+    "summary": "Agility says the run-to-charge ratio rises from 2:1 on Digit 4 to 10:1, or more than 20 productive hours in a 24-hour day. Early access starts in the first half of 2027; the figures are Agility's own. Nyobolt is a Cambridge, UK battery maker valued at $1B in May 2026.",
+    "category": "Supply Chain",
+    "companies": [
+      "agility-robotics"
+    ],
+    "themes": [
+      "us-supply-chain"
+    ],
+    "tags": [
+      "us",
+      "uk",
+      "battery",
+      "humanoid",
+      "charging"
+    ],
+    "confidence": "High",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive"
+  },
+  {
+    "id": "hesai-kosmo-3d-data-engine-2026-10",
+    "title": "Hesai launches Kosmo, a lidar-based 3D data engine for robot training",
+    "date": "2026-10-14",
+    "source": "TechNode",
+    "source_url": "https://technode.com/2026/10/16/teaching-robots-the-shape-of-reality-hesai-s-kosmo-turns-real-places-into-3d-assets/",
+    "summary": "Hesai says one capture yields more than 10,000 training trajectories, and a 15-minute scan with Sharpa replaced about 300 hours of manual modeling. Galbot and Dexmal are named partners and it plugs into Nvidia Isaac Sim; the figures are the company's own.",
+    "category": "Competitive",
+    "companies": [],
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "tags": [
+      "china",
+      "lidar",
+      "simulation",
+      "training-data"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive"
+  },
+  {
+    "id": "timken-precision-drives-humanoid-motion-2026-10",
+    "title": "Timken groups four gearing and encoder units into a humanoid-actuator pitch",
+    "date": "2026-10-14",
+    "source": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/timken-precision-drives-puts-motion-challenge-first-humanoid-robots/",
+    "summary": "Timken Precision Drives combines Cone Drive strain-wave gearing, SPINEA cycloidal reducers, CGI Motion micro gearing and magnetic encoders. The article names no customers, prices or performance figures, so this is a supplier positioning move, not a design win.",
+    "category": "Supply Chain",
+    "companies": [],
+    "themes": [
+      "us-supply-chain"
+    ],
+    "tags": [
+      "us",
+      "actuators",
+      "reducers",
+      "humanoid"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "symbotic-cellumation-acquisition-2026-10",
+    "title": "Symbotic to acquire Bremen sortation maker cellumation",
+    "date": "2026-10-13",
+    "source": "Robotics & Automation News",
+    "source_url": "https://roboticsandautomationnews.com/2026/10/13/symbotic-announces-acquisition-of-cellumation-advancing-next-generation-sortation-technology-for-the-global-supply-chain/105868/",
+    "summary": "cellumation makes the celluveyor, a sortation floor built from hundreds of independently controlled cells. Price and terms were not disclosed.",
+    "category": "Competitive",
+    "companies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "us",
+      "germany",
+      "warehouse",
+      "acquisition",
+      "sortation"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "ubitium-seed-14m-physical-ai-chip-2026-10",
+    "title": "Ubitium raises a $14M seed for a universal physical-AI processor",
+    "date": "2026-10-13",
+    "source": "Robotics & Automation News",
+    "source_url": "https://roboticsandautomationnews.com/2026/10/13/ubitium-raises-14-million-to-build-first-universal-processor-for-physical-ai/105882/",
+    "summary": "Ibex Investors led, taking total seed funding to $18M. The first chip, UB108, has 256 processing elements on Samsung's 8nm process; the planned UB410 has 4,096, with evaluation units due in 2027.",
+    "category": "Funding",
+    "companies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "chips",
+      "seed",
+      "compute"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive"
+  },
+  {
+    "id": "laplace-intelligence-robot-red-teaming-2026-10",
+    "title": "Laplace Intelligence sells simulated red-teaming for robots and autonomous trucks",
+    "date": "2026-10-13",
+    "source": "TechCrunch",
+    "source_url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+    "summary": "The Ann Arbor University of Michigan spinout rebuilds real-world scenes in simulation and uses AI agents to hunt for failures before deployment. Customers include Bot Auto and a Japanese automaker; the company says it is profitable and has not disclosed funding.",
+    "category": "Competitive",
+    "companies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "us",
+      "simulation",
+      "safety",
+      "testing"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
     "id": "icon-series-d-200m-2026-10",
     "title": "ICON raises $200M Series D at a $1.4B valuation for robotic construction",
     "date": "2026-10-13",
