@@ -4,6 +4,13 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-10-16 (scheduled full-site refresh: X list, web sweep)
+
+- [ ] **(medium) Bedrock Robotics reportedly raising a $600M Series C at ~$3.5B pre-money (Axios Pro, 2026-10-13, unconfirmed).** Add to companies.json funding_rounds only when the company or a second outlet confirms; Series B is $270M at $1.75B.
+- [ ] **(medium) Policy window was empty: no new Federal Register robotics items, EO, RFI, or China state-policy item 2026-10-12 to 10-16.** Standing items to re-check: FCC covered-list robot ban (2026-07-28) follow-through, NDAA humanoid procurement language in conference, National Commission on Robotics Act (S. 4686 / H.R. 7334). Consider a policies.html note on what the FCC ban exempts (new models only, DoD/DHS waivers).
+- [ ] **(low) AgiBot financing: X post cites a $7B valuation, but search finds that number only for Unitree's STAR IPO target; AgiBot's tracked round is RMB 1B-1.5B at ~RMB 50B.** Do not use the X figure.
+- [ ] **(low) Leads not applied:** Pudu D7 semi-humanoid (shown at IFA in September); AutoStore Pio Pal release; Tesla tactile-skin patent application; Dynamic Creatures Hugo; NEXFORM $4.48M seed (single aggregator).
+
 ## ▶ Added 2026-10-15 (scheduled full-site refresh: X list, web sweep)
 
 - [ ] **(medium) Shanghai's 8,000-humanoid-by-2028 factory target (launched 2026-10-12, CIIF) belongs on china.html as a city-level policy row.** Compare with national-level targets; the announcement names no suppliers, budget or baseline, so it is a goal, not an order book.
