@@ -73,7 +73,7 @@
     "date": "2026-10-14",
     "source": "Interesting Engineering",
     "source_url": "https://interestingengineering.com/ai-robotics/china-neo1-hydraulic-humanoid-robot-1102-pound-payload",
-    "summary": "The Tsinghua-linked company showed Neo1 at CIIF with JD Industrial: 41 active degrees of freedom, 39 of them miniature hydraulic joints. The payload and repeatability figures are company claims; reports differ on the repeatability value and none is independently verified.",
+    "summary": "The Tsinghua-linked company showed Neo1 at CIIF with JD Industrial: 41 active degrees of freedom, 39 of them miniature hydraulic joints. The payload and repeatability (±0.0002 in) figures are company claims and are not independently verified.",
     "category": "Competitive",
     "companies": [],
     "themes": [
@@ -95,7 +95,7 @@
     "date": "2026-10-14",
     "source": "Phoenix Tech",
     "source_url": "https://tech.ifeng.com/c/8xDi1hTzVYC",
-    "summary": "Reported as a round of \"hundreds of millions\" of RMB (about RMB 100M; exact amount not given). Investors include Fosun Ruizheng and Qingshi Asset Management. Dierbo sells cutting, welding, painting and grinding workstations to steel, shipbuilding and energy-equipment customers.",
+    "summary": "Reported as a 亿元级 round (RMB 100M scale; exact amount not disclosed). Investors include Fosun Ruizheng and Qingshi Asset Management. Dierbo sells cutting, welding, painting and grinding workstations to steel, shipbuilding and energy-equipment customers.",
     "category": "Funding",
     "companies": [],
     "themes": [
@@ -114,10 +114,10 @@
   {
     "id": "aitu-sewing-robot-plant-2026-10",
     "title": "Aitu Technology starts production at a sewing-robot plant in Zhejiang with 10,000 units a year planned",
-    "date": "2026-10-13",
+    "date": "2026-10-14",
     "source": "Tide News",
     "source_url": "https://tidenews.com.cn/news.html?id=3584793",
-    "summary": "The plant in Taizhou Bay New Area is billed as the first dedicated to sewing robots. Xinhua earlier reported a 97% piece-separation success rate and a sewing pass rate above 98% for one fabric and one product category, with payback around 18 months.",
+    "summary": "Jack Technology (杰克科技) began production at a plant for its Aitu sewing robots in Taizhou Bay New Area, Zhejiang, with 10,000 units a year planned. It is billed as the first plant dedicated to sewing robots. Performance claims are not in the cited article.",
     "category": "Deployment",
     "companies": [],
     "themes": [
@@ -137,9 +137,9 @@
     "id": "agibot-yuansheng-university-program-2026-10",
     "title": "AgiBot says it is placing more than 1,000 robots in 20+ universities under its \"Yuansheng\" program",
     "date": "2026-10-14",
-    "source": "Sina",
-    "source_url": "https://k.sina.com.cn/article_7857201856_1d45362c001908r15i.html",
-    "summary": "Schools named include Peking, Tsinghua and Zhejiang, with total investment above RMB 200M. The source is a Sina digest with no link to AgiBot's own announcement, so treat the figures as unconfirmed.",
+    "source": "Sina Finance",
+    "source_url": "https://finance.sina.com.cn/roll/2026-10-14/doc-inivevcq1299946.shtml",
+    "summary": "Schools named include Peking, Tsinghua and Zhejiang, with total investment above RMB 200M. The report credits Yangcheng Evening News and links no AgiBot release, so treat the figures as unconfirmed.",
     "category": "Competitive",
     "companies": [
       "agibot"
@@ -163,7 +163,7 @@
     "date": "2026-10-13",
     "source": "The Robot Report",
     "source_url": "https://www.therobotreport.com/nysofa-expands-partnership-intuition-robotics-bring-elliq-more-seniors/",
-    "summary": "The New York State Office for the Aging program began in 2022 as a pilot of roughly 800-900 units. Intuition Robotics has similar state partnerships in Wisconsin, Florida and Washington. The loneliness-reduction result comes from NYSOFA's own 2023 release.",
+    "summary": "The New York State Office for the Aging program began in 2022; hundreds of older adults have received ElliQ since, and more than 3,500 applied in 2025. Intuition Robotics has similar state partnerships in Wisconsin, Florida and Washington. NYSOFA reports favorable results; the article gives no figures.",
     "category": "Deployment",
     "companies": [],
     "themes": [
