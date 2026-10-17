@@ -442,6 +442,6 @@ The report breaks industrial robotics down by *application* — a lens we don't 
 
 ## ▶ 2026-10-17 — refresh
 
-- [ ] **(medium) Add company entries for Plim Robotics (ex-Devanthro, Munich), NeodraDynamics, Dierbo (Suzhou) and AiMOGA (Chery).** News records exist with empty `companies`; none has a `companies.json` row yet.
+- [ ] **(medium) Add company entries for Plim Robotics (ex-Devanthro, Munich), NeodraDynamics, DareRobot / 帝尔博格 (Suzhou) and AiMOGA (Chery).** News records exist with empty `companies`; none has a `companies.json` row yet.
 - [ ] **(low) Confirm AgiBot's "Yuansheng" university program against AgiBot's own release.** Only a Sina digest carries it; the record is Low confidence.
 - [ ] **(low) Watch the IT Juzi October embodied-AI deal count (19 deals, RMB 4.9B at mid-month).** Compare to month end before using it as a funding-pace signal.
