@@ -1,5 +1,206 @@
 [
   {
+    "id": "plim-robotics-devanthro-rebrand-2026-10",
+    "title": "Devanthro becomes Plim Robotics and shows a wheeled home robot a relative can operate remotely",
+    "date": "2026-10-17",
+    "source": "Humanoids Daily",
+    "source_url": "https://www.humanoidsdaily.com/news/devanthro-plim-robotics-home-robot-teleoperation",
+    "summary": "The Munich company renamed itself and introduced Plim, a 1.65 m, 80 kg robot on a three-wheel base with 7-DoF arms, a 3 kg payload and Nvidia Jetson Thor. A family member or caregiver can step in and drive it remotely. Battery runtime is two hours; no price or delivery date is given.",
+    "category": "Competitive",
+    "companies": [],
+    "themes": [
+      "foundation-models"
+    ],
+    "tags": [
+      "europe",
+      "home-robot",
+      "teleoperation"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "unitree-uniuni-swarm-control-2026-10",
+    "title": "Unitree introduces UniUni, a control system for choreographing robot teams in plain language",
+    "date": "2026-10-17",
+    "source": "Humanoids Daily",
+    "source_url": "https://www.humanoidsdaily.com/news/unitree-uniuni-robot-swarm-choreography-control",
+    "summary": "UniUni combines LiDAR stage mapping, a per-robot choreography timeline and live battery, temperature and emergency-stop monitoring, with a prompt box for requesting choreography changes. Unitree gave no price, supported models or robot count; the demo is a promotional video.",
+    "category": "Competitive",
+    "companies": [
+      "unitree"
+    ],
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "performance",
+      "software"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "aimoga-mobo-preorders-2026-10",
+    "title": "Chery unit AiMOGA plans global pre-orders for Mobo, a 22-DoF home companion humanoid",
+    "date": "2026-10-17",
+    "source": "The AI Insider",
+    "source_url": "https://theaiinsider.tech/2026/10/17/aimoga-to-open-global-pre-orders-for-mobo-home-humanoid-robot",
+    "summary": "Pre-orders are due to open at the Chery International User Summit in Wuhu, Oct 19-23. AiMOGA says its robots have cumulative deliveries above 3,000 units in over 60 countries and regions (company claim). Price, deposit and delivery timing are not disclosed.",
+    "category": "Competitive",
+    "companies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "home-robot",
+      "consumer"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "neodradynamics-neo1-hydraulic-humanoid-2026-10",
+    "title": "NeodraDynamics shows Neo1, a hydraulic humanoid it says lifts 1,102 lb with two arms",
+    "date": "2026-10-14",
+    "source": "Interesting Engineering",
+    "source_url": "https://interestingengineering.com/ai-robotics/china-neo1-hydraulic-humanoid-robot-1102-pound-payload",
+    "summary": "The Tsinghua-linked company showed Neo1 at CIIF with JD Industrial: 41 active degrees of freedom, 39 of them miniature hydraulic joints. The payload and repeatability (±0.0002 in) figures are company claims and are not independently verified.",
+    "category": "Competitive",
+    "companies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "hydraulic",
+      "heavy-payload"
+    ],
+    "confidence": "Low",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "darerobot-pre-a-plus-2026-10",
+    "title": "Suzhou welding-robot maker DareRobot (帝尔博格) raises a roughly RMB 100M Pre-A+",
+    "date": "2026-10-14",
+    "source": "Phoenix Tech",
+    "source_url": "https://tech.ifeng.com/c/8xDi1hTzVYC",
+    "summary": "DareRobot (Dierbo in some translations) was reported as a 亿元级 round (RMB 100M scale; exact amount not disclosed). Investors include Fosun Ruizheng and Qingshi Asset Management. Dierbo sells cutting, welding, painting and grinding workstations to steel, shipbuilding and energy-equipment customers.",
+    "category": "Funding",
+    "companies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "pre-a",
+      "industrial"
+    ],
+    "confidence": "Low",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive"
+  },
+  {
+    "id": "aitu-sewing-robot-plant-2026-10",
+    "title": "Aitu Technology starts production at a sewing-robot plant in Zhejiang with 10,000 units a year planned",
+    "date": "2026-10-14",
+    "source": "Tide News",
+    "source_url": "https://tidenews.com.cn/news.html?id=3584793",
+    "summary": "Jack Technology (杰克科技) began production at a plant for its Aitu sewing robots in Taizhou Bay New Area, Zhejiang, with 10,000 units a year planned. It is billed as the first plant dedicated to sewing robots. Performance claims are not in the cited article.",
+    "category": "Deployment",
+    "companies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "manufacturing",
+      "textiles"
+    ],
+    "confidence": "Low",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive"
+  },
+  {
+    "id": "agibot-yuansheng-university-program-2026-10",
+    "title": "AgiBot says it is placing more than 1,000 robots in 20+ universities under its \"Yuansheng\" program",
+    "date": "2026-10-14",
+    "source": "Sina Finance",
+    "source_url": "https://finance.sina.com.cn/roll/2026-10-14/doc-inivevcq1299946.shtml",
+    "summary": "Schools named include Peking, Tsinghua and Zhejiang, with total investment above RMB 200M. The report credits Yangcheng Evening News and links no AgiBot release, so treat the figures as unconfirmed.",
+    "category": "Competitive",
+    "companies": [
+      "agibot"
+    ],
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "education",
+      "data-collection"
+    ],
+    "confidence": "Low",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "nysofa-elliq-expansion-2026-10",
+    "title": "New York extends its ElliQ companion-robot program for seniors in a $2.1M, three-year agreement",
+    "date": "2026-10-13",
+    "source": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/nysofa-expands-partnership-intuition-robotics-bring-elliq-more-seniors/",
+    "summary": "The New York State Office for the Aging program began in 2022; hundreds of older adults have received ElliQ since, and more than 3,500 applied in 2025. Intuition Robotics has similar state partnerships in Wisconsin, Florida and Washington. NYSOFA reports favorable results; the article gives no figures.",
+    "category": "Deployment",
+    "companies": [],
+    "themes": [
+      "foundation-models"
+    ],
+    "tags": [
+      "us",
+      "eldercare",
+      "state-program"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive"
+  },
+  {
+    "id": "itjuzi-oct-embodied-funding-pace-2026-10",
+    "title": "IT Juzi counts 19 embodied-AI deals worth RMB 4.9B in October so far, against 70+ a month in July-September",
+    "date": "2026-10-15",
+    "source": "Wenxuecity",
+    "source_url": "https://www.wenxuecity.com/news/2026/10/15/126806255.html",
+    "summary": "The month is only half over, and the article notes some announcements are of deals closed months earlier, so the drop may partly be reporting lag. Treat it as a pace indicator, not a total.",
+    "category": "Funding",
+    "companies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "funding-pace"
+    ],
+    "confidence": "Low",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
     "id": "ruoyu-technology-pre-a-2026-10",
     "title": "Shenzhen's Ruoyu Technology raises RMB 100M+ Pre-A for a robot AI brain",
     "date": "2026-10-16",
