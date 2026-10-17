@@ -439,3 +439,9 @@ The report breaks industrial robotics down by *application* — a lens we don't 
 
 - [ ] **(low) Recheck April 21 and June 30 hearing transcripts when posted.** Official repositories Events 119190 and 119423 have prepared statements and video metadata but no transcript entries as of this capture. March 17 published and July 22 unedited transcripts are saved.
 - [ ] **(low) Trace HASC log 6312, revision 2, to the exact adopted amendment text.** The log records Gooden’s item as agreed by voice vote; related House-passed H.R. 8800 Section 163 is archived, but exact textual lineage remains unverified.
+
+## ▶ 2026-10-17 — refresh
+
+- [ ] **(medium) Add company entries for Plim Robotics (ex-Devanthro, Munich), NeodraDynamics, Dierbo (Suzhou) and AiMOGA (Chery).** News records exist with empty `companies`; none has a `companies.json` row yet.
+- [ ] **(low) Confirm AgiBot's "Yuansheng" university program against AgiBot's own release.** Only a Sina digest carries it; the record is Low confidence.
+- [ ] **(low) Watch the IT Juzi October embodied-AI deal count (19 deals, RMB 4.9B at mid-month).** Compare to month end before using it as a funding-pace signal.
