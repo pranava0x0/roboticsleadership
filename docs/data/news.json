@@ -1,5 +1,49 @@
 [
   {
+    "id": "faraday-future-nova-humanoid-2026-10",
+    "title": "Faraday Future launches the $2,490 FF Nova humanoid for developers and a $299 kids model",
+    "date": "2026-10-15",
+    "source": "The Next Web",
+    "source_url": "https://thenextweb.com/news/faraday-future-nova-humanoid-robots",
+    "summary": "FF Nova has 20 degrees of freedom, stands 49.7 cm and weighs 2.8 kg; the first 100 units are invitation-only, 20 ready to ship. The companies call it the cheapest embodied-AI humanoid sold in the US, a claim TNW did not verify. Separately, FF EAI Robotics Ecosystem agreed to buy FF's robotics business in an all-stock deal valued at about $200M.",
+    "category": "Competitive",
+    "companies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "humanoid",
+      "low-cost",
+      "education"
+    ],
+    "confidence": "Medium",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
+    "id": "humxn-50m-trades-data-purchase-2026-10",
+    "title": "HUMXN Research Labs says it will buy $50M of skilled-trades and manufacturing data to train robots",
+    "date": "2026-10-13",
+    "source": "Business Insider Markets (press release)",
+    "source_url": "https://markets.businessinsider.com/news/stocks/humxn-research-labs-wants-to-buy-50-million-worth-of-skilled-trades-farming-and-manufacturing-data-for-ai-robotics-training-1036622854",
+    "summary": "The Minneapolis company wants service records, job-site photos and training videos from plumbing, HVAC, farming and manufacturing businesses, then licenses finished datasets to robotics labs. The $50M is a purchase target in its own release, not a funding round; no investors are named.",
+    "category": "Research",
+    "companies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "data-collection",
+      "training-data",
+      "trades"
+    ],
+    "confidence": "Low",
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral"
+  },
+  {
     "id": "plim-robotics-devanthro-rebrand-2026-10",
     "title": "Devanthro becomes Plim Robotics and shows a wheeled home robot a relative can operate remotely",
     "date": "2026-10-17",
