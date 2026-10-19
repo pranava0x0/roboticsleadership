@@ -1,5 +1,96 @@
 [
   {
+    "companies": [],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral",
+    "id": "x-square-x2real-benchmark-2026-10",
+    "title": "X Square Robot releases X2Real, a 44-task benchmark of how well simulation scores predict real-robot results",
+    "date": "2026-10-19",
+    "source": "Humanoids Daily",
+    "source_url": "https://www.humanoidsdaily.com/news/x-square-x2real-simulation-real-robot-benchmark",
+    "summary": "The Shenzhen company built X2Real on NVIDIA Isaac Lab-Arena, covering 44 tasks across 10 capability dimensions. On an 8-task comparison, task-progress scores in simulation and on hardware correlated at 0.84 and success rates at 0.74; placing glasses on a shelf succeeded in 70% of real trials and none in simulation. The public release covers in-distribution evaluation only.",
+    "category": "Research",
+    "themes": [
+      "physical-ai",
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "benchmark",
+      "simulation"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive",
+    "id": "fairino-series-d-meituan-2026-10",
+    "title": "Cobot maker FAIRINO closes a Series D led by Meituan; its C+ and D rounds total nearly RMB 1B",
+    "date": "2026-10-19",
+    "source": "TechNode",
+    "source_url": "https://technode.com/2026/10/19/meituan-leads-series-d-funding-for-collaborative-robot-maker-fairino/",
+    "summary": "The Series C+ was led by Meituan's Long-Z arm and the D by Meituan; Yongxin Capital and Suzhou Capital Group also joined. The two rounds together raised nearly RMB 1 billion, with no separate Series D figure disclosed. Proceeds go to capacity for ART force-controlled arms and the AIRLab embodied-intelligence platform.",
+    "category": "Funding",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "series-d",
+      "cobot",
+      "industrial"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive",
+    "id": "gewu-tongzhi-angel-2026-10",
+    "title": "Hangzhou startup Gewu Tongzhi raises nearly RMB 100M angel for dexterous-manipulation AI",
+    "date": "2026-10-18",
+    "source": "TechNode",
+    "source_url": "https://technode.com/2026/10/19/former-huawei-engineers-robot-ai-startup-gewu-tongzhi-raises-nearly-rmb-100-million/",
+    "summary": "Founded in 2026 by Cai Jia, a former Huawei researcher who worked on its ADS driving systems, the company combines world models with learning from physical interaction. Investors are Hongfu Asset Management, Peak Investment, Hangzhou Capital and Hangzhou Talent Group. It runs proof-of-concept projects in textiles, optical modules and auto parts, with a first delivery expected by end-2026.",
+    "category": "Funding",
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "tags": [
+      "china",
+      "angel",
+      "dexterous-manipulation"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral",
+    "id": "roboct-consumer-exoskeleton-2026-10",
+    "title": "RoboCT bets on consumer exoskeletons: a 2.3 kg battery-free model built on a two-line Wuxi plant",
+    "date": "2026-10-16",
+    "source": "TechNode",
+    "source_url": "https://technode.com/2026/10/16/from-rehabilitation-rooms-to-everyday-steps-robocts-exoskeleton-bet/",
+    "summary": "RoboCT raised more than RMB 100M in a Series B+ in March 2026, led by ABC Capital, and began producing the GoGo exoskeleton at a Wuxi plant by July. IDC puts China's 2025 exoskeleton market at over RMB 1.6B and about 26,000 units, with consumer devices more than 70% of shipments. The figures predate the article.",
+    "category": "Deployment",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "exoskeleton",
+      "consumer"
+    ],
+    "confidence": "Low"
+  },
+  {
     "id": "faraday-future-nova-humanoid-2026-10",
     "title": "Faraday Future launches the $2,490 FF Nova humanoid for developers and a $299 kids model",
     "date": "2026-10-15",
