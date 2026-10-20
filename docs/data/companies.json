@@ -9686,7 +9686,7 @@
     "total_funding_usd": 90000000,
     "latest_valuation_usd": null,
     "robot_types": [
-      "humanoid"
+      "foundation_model"
     ],
     "primary_use_case": "robot-agnostic world action model sold by API",
     "flagship_product": "Dream-1",

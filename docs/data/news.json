@@ -122,7 +122,9 @@
     "confidence": "High"
   },
   {
-    "companies": [],
+    "companies": [
+      "serve-robotics"
+    ],
     "policies": [],
     "source_type": "News",
     "sentiment": "Negative",
