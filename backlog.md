@@ -445,3 +445,11 @@ The report breaks industrial robotics down by *application* — a lens we don't 
 - [ ] **(medium) Add company entries for Plim Robotics (ex-Devanthro, Munich), NeodraDynamics, DareRobot / 帝尔博格 (Suzhou) and AiMOGA (Chery).** News records exist with empty `companies`; none has a `companies.json` row yet.
 - [ ] **(low) Confirm AgiBot's "Yuansheng" university program against AgiBot's own release.** Only a Sina digest carries it; the record is Low confidence.
 - [ ] **(low) Watch the IT Juzi October embodied-AI deal count (19 deals, RMB 4.9B at mid-month).** Compare to month end before using it as a funding-pace signal.
+
+## ▶ 2026-10-20 — refresh
+
+- [ ] **(medium) Policy: no robotics executive order or RFI found as of 2026-10-20.** The National Commission on Robotics Act (S. sponsors McCormick, Hickenlooper, Young, Heinrich; House H.R. 7334) and the American Security Robotics Act have no recorded committee action. Reframe `policies.html` copy only if an EO or Section 232 robotics action lands; the Boston Report's Oct 11 piece is the current roundup to check against.
+- [ ] **(medium) Policy: add the Coco and Serve BIPA class actions (Cook County, filed 2026-10-09) to the state-policy or privacy view.** First robot-sensor biometric suits tracked; the news record exists with no policy row.
+- [ ] **(low) Locate the Ministry of Commerce guidance behind Unitree's 16% jump (2026-10-19).** Only Humanoids Daily describes it; the news record is Low confidence until a primary document is found.
+- [ ] **(low) Dream Labs' investors are unnamed in its launch post; add them to `companies.json` when The Information or a filing names them.**
+- [ ] **(low) Siemens–NVIDIA Erlangen "autonomous factory" announcement (2026-10-19) and Asimov 1 open-source humanoid seen on X; neither verified against a primary this run.**
