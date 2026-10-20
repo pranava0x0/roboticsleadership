@@ -1,5 +1,310 @@
 [
   {
+    "companies": [
+      "neolix"
+    ],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive",
+    "id": "neolix-series-e-2026-10",
+    "title": "Neolix raises nearly $400M Series E for autonomous delivery vehicles",
+    "date": "2026-10-20",
+    "source": "TechNode",
+    "source_url": "https://technode.com/2026/10/20/autonomous-delivery-vehicle-maker-neolix-raises-nearly-400-million-in-series-e-funding/",
+    "summary": "Boyu Capital and a national-level fund led the round; Jiemian, citing sources, identifies it as China's National AI Industry Investment Fund. Alibaba's AEF NextGen, Vertex Growth and GAC Capital also joined, and cumulative funding is above RMB 10B after a Series D of more than $600M last year.",
+    "category": "Funding",
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "tags": [
+      "china",
+      "funding",
+      "delivery"
+    ],
+    "confidence": "High"
+  },
+  {
+    "companies": [
+      "gecko-robotics"
+    ],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive",
+    "id": "gecko-navy-300m-ceiling-2026-10",
+    "title": "Gecko Robotics quadruples its US Navy and GSA contract ceiling, citing $300M",
+    "date": "2026-10-20",
+    "source": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/",
+    "summary": "The Robot Report says the Navy and GSA added $300M and quadrupled the ceiling of an IDIQ contract first awarded six months ago at $71M; whether $300M is the increment or the new total is not stated. The work covers inspecting ships and submarines with wall-climbing robots, drones and fixed sensors; the benefit claims are Gecko's own.",
+    "category": "Deployment",
+    "themes": [
+      "defense-procurement",
+      "physical-ai"
+    ],
+    "tags": [
+      "defense",
+      "inspection",
+      "contract"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "companies": [
+      "dream-labs"
+    ],
+    "policies": [],
+    "source_type": "Primary",
+    "sentiment": "Positive",
+    "id": "dream-labs-dream-1-seed-2026-10",
+    "title": "Dream Labs leaves stealth with $90M seed and Dream-1, a robot model sold by API",
+    "date": "2026-10-19",
+    "source": "Dream Labs",
+    "source_url": "https://dreamlabs.ai/research/dream-1",
+    "summary": "Dream-1 is a world action model the company says controls robots it has not seen, from $3 an hour. It runs on a bimanual arm setup and other low-cost arms. The post names no investors; The Information reported in April that founder Joel Jang, formerly of NVIDIA's GR00T team, was raising.",
+    "category": "Funding",
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "tags": [
+      "foundation-model",
+      "seed",
+      "api"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "companies": [
+      "origin-construction"
+    ],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive",
+    "id": "origin-og1-drywall-20m-2026-10",
+    "title": "Origin leaves stealth with $20M for OG-1, a drywall-finishing robot",
+    "date": "2026-10-15",
+    "source": "DealStreetAsia",
+    "source_url": "https://www.dealstreetasia.com/stories/origin-accel-zacua-498325/",
+    "summary": "Accel and Zacua Ventures co-led, with Unilazer, Schema and Z21 and angels from Anduril, Skild AI, 1X and Tesla. Two large US drywall contractors are working with it, pilots are planned in Germany, Sweden, France and Saudi Arabia, and the target is 150 robots by the end of 2027. The speed claim of 3x human is the company's.",
+    "category": "Funding",
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "construction",
+      "seed",
+      "stealth"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive",
+    "id": "kodama-forestry-7m-2026-10",
+    "title": "Kodama raises $7M to bring supervised autonomy to logging equipment",
+    "date": "2026-10-19",
+    "source": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/",
+    "summary": "Konvoy Ventures and Breakwater Ventures co-led, bringing total funding to $14M. The system pairs teleoperation with supervised autonomy on logging skidders in the southeastern US, with cutters and loaders next.",
+    "category": "Funding",
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "forestry",
+      "teleoperation",
+      "funding"
+    ],
+    "confidence": "High"
+  },
+  {
+    "companies": [
+      "serve-robotics"
+    ],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Negative",
+    "id": "coco-serve-bipa-suits-2026-10",
+    "title": "Chicago customers sue Coco and Serve over delivery-robot cameras under Illinois biometric law",
+    "date": "2026-10-16",
+    "source": "Block Club Chicago",
+    "source_url": "https://blockclubchicago.org/2026/10/16/delivery-robots-accused-of-scanning-customers-faces-sharing-biometric-data/",
+    "summary": "Two class actions filed in Cook County on Oct. 9 say the robots' cameras and LiDAR captured faces and hands without written consent under BIPA, and that the data trains AI. One suit says Coco shared data with OpenAI. Statutory damages run $1,000 to $5,000 per violation; both companies dispute the claims.",
+    "category": "Policy",
+    "themes": [
+      "policy-momentum"
+    ],
+    "tags": [
+      "privacy",
+      "lawsuit",
+      "delivery"
+    ],
+    "confidence": "High"
+  },
+  {
+    "companies": [
+      "unitree"
+    ],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive",
+    "id": "unitree-moc-guidance-shares-2026-10",
+    "title": "Unitree shares jump 16% after China guidance lists robots among smart products",
+    "date": "2026-10-19",
+    "source": "Humanoids Daily",
+    "source_url": "https://humanoidsdaily.com/news/unitree-shares-surge-october-19-robotics-policy",
+    "summary": "Unitree closed up 16.15% at RMB 495.92 after the Ministry of Commerce and eight other departments called for more supply of robots and embodied intelligence in household services and commercial logistics. The guidance names no Unitree orders; the policy document itself was not located in a primary source.",
+    "category": "Policy",
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "tags": [
+      "china",
+      "policy",
+      "ipo"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "companies": [
+      "figure-ai"
+    ],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral",
+    "id": "figure-03-treadmill-348-miles-2026-10",
+    "title": "Figure says a Figure 03 has walked 348 miles on a treadmill in nine days",
+    "date": "2026-10-19",
+    "source": "Humanoids Daily",
+    "source_url": "https://humanoidsdaily.com/news/figure-03-nine-day-treadmill-million-steps",
+    "summary": "Brett Adcock posted about 1.2 million steps and said the test was still running. No protocol, power setup or maintenance log was shared, and the result covers walking endurance only.",
+    "category": "Competitive",
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "humanoid",
+      "endurance"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral",
+    "id": "acerobotics-ace-brain-06-2026-10",
+    "title": "SenseTime co-founder's ACE Robotics releases ACE-Brain-0.6 for robot spatial grounding",
+    "date": "2026-10-19",
+    "source": "TechNode",
+    "source_url": "https://technode.com/2026/10/20/sensetime-co-founders-ace-robotics-releases-model-for-robot-spatial-perception/",
+    "summary": "The model is a fine-tune of Qwen3.5-9B trained on about 1M spatial-grounding samples. ACE reports 94.13 on RobotGrounding against 91.10 for GPT-6 Astra; all figures are company-reported.",
+    "category": "Research",
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "tags": [
+      "china",
+      "model",
+      "benchmark"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral",
+    "id": "kaist-humanoid-v09-2026-10",
+    "title": "KAIST humanoid v0.9 pushes 35 kg and lifts 20 kg with whole-body control",
+    "date": "2026-10-19",
+    "source": "Humanoids Daily",
+    "source_url": "https://humanoidsdaily.com/news/kaist-humanoid-v0-9-whole-body-lifting-pushing",
+    "summary": "The DRCD Lab demo shows a full-size humanoid with custom actuators moving objects up to 35 kg by pushing and 20 kg by lifting. Skills came from reinforcement learning plus human demonstrations; no commercial payload rating was given.",
+    "category": "Research",
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "humanoid",
+      "research",
+      "korea"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral",
+    "id": "phybot-phyhand-23dof-2026-10",
+    "title": "Phybot shows a 23-DoF, 750 g direct-drive hand at the Canton Fair",
+    "date": "2026-10-19",
+    "source": "Humanoids Daily",
+    "source_url": "https://humanoidsdaily.com/news/phybot-phyhand-23-dof-robotic-hand",
+    "summary": "The PhyHand has 23 active degrees of freedom and dual encoders. Pandaily reports fine grasping is still in development; grip force, tactile specs and price are undisclosed.",
+    "category": "Competitive",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "hand",
+      "actuator"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive",
+    "id": "sinomags-hk-ipo-robot-joints-2026-10",
+    "title": "Sinomags prepares a Hong Kong IPO with robot joints as a target market",
+    "date": "2026-10-20",
+    "source": "TechNode",
+    "source_url": "https://technode.com/2026/10/20/chinas-magnetic-sensor-champion-bets-on-robot-joints/",
+    "summary": "The magnetic-sensor maker ranks tenth globally by 2025 revenue (RMB 845.3M revenue, RMB 52.6M profit). Proceeds fund a Wuxi base for 38 million sensors due in H1 2027 and a German wafer line upgrade.",
+    "category": "Supply Chain",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "sensors",
+      "ipo"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral",
+    "id": "alibaba-xuantie-e908a-c950a-2026-10",
+    "title": "Alibaba DAMO unveils the XuanTie E908A RISC-V core and a C950A roadmap that covers robotics",
+    "date": "2026-10-19",
+    "source": "TechNode",
+    "source_url": "https://technode.com/2026/10/20/alibaba-unveils-automotive-risc-v-processor-ip-and-roadmap-for-self-driving-and-robotics/",
+    "summary": "The E908A, shown at the RISC-V China Summit, targets ASIL-B/D safety computing. The C950A, claimed at 5x current automotive RISC-V performance, is due by end-2027 and is aimed at self-driving and robotics.",
+    "category": "Supply Chain",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "risc-v",
+      "chips"
+    ],
+    "confidence": "Medium"
+  },
+  {
     "companies": [],
     "policies": [],
     "source_type": "News",

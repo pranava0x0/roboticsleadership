@@ -9661,5 +9661,161 @@
       "industrial-deployments"
     ],
     "map_category": "industrial"
+  },
+  {
+    "id": "dream-labs",
+    "name": "Dream Labs",
+    "founded": "2026",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://dreamlabs.ai",
+    "funding_rounds": [
+      {
+        "date": "2026-10",
+        "round": "Seed",
+        "amount_usd": 90000000,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://dreamlabs.ai/research/dream-1",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 90000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "foundation_model"
+    ],
+    "primary_use_case": "robot-agnostic world action model sold by API",
+    "flagship_product": "Dream-1",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "us",
+      "brains",
+      "foundation-model"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      "https://dreamlabs.ai/research/dream-1"
+    ],
+    "last_updated": "2026-10-20",
+    "themes": [
+      "foundation-models"
+    ],
+    "map_category": "brains"
+  },
+  {
+    "id": "origin-construction",
+    "name": "Origin",
+    "founded": "2026",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "Not disclosed",
+    "funding_rounds": [
+      {
+        "date": "2026-10",
+        "round": "Seed",
+        "amount_usd": 20000000,
+        "valuation_usd": null,
+        "investors": [
+          "Accel",
+          "Zacua Ventures",
+          "Unilazer Ventures",
+          "Schema Ventures",
+          "Z21"
+        ],
+        "url": "https://www.dealstreetasia.com/stories/origin-accel-zacua-498325/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 20000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "field"
+    ],
+    "primary_use_case": "autonomous wall finishing for interior construction",
+    "flagship_product": "OG-1",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "us",
+      "construction",
+      "field"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      "https://www.dealstreetasia.com/stories/origin-accel-zacua-498325/"
+    ],
+    "last_updated": "2026-10-20",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "map_category": "field"
+  },
+  {
+    "id": "neolix",
+    "name": "Neolix",
+    "founded": "2018",
+    "hq": {
+      "city": "Beijing",
+      "state": "",
+      "country": "China"
+    },
+    "website": "Not disclosed",
+    "funding_rounds": [
+      {
+        "date": "2026-10",
+        "round": "Series E",
+        "amount_usd": 400000000,
+        "valuation_usd": null,
+        "investors": [
+          "Boyu Capital",
+          "National AI Industry Investment Fund (reported)",
+          "AEF NextGen",
+          "Vertex Growth",
+          "GAC Capital"
+        ],
+        "url": "https://technode.com/2026/10/20/autonomous-delivery-vehicle-maker-neolix-raises-nearly-400-million-in-series-e-funding/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "field"
+    ],
+    "primary_use_case": "autonomous delivery vehicles",
+    "flagship_product": "Not disclosed",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "china",
+      "delivery",
+      "field"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      "https://technode.com/2026/10/20/autonomous-delivery-vehicle-maker-neolix-raises-nearly-400-million-in-series-e-funding/"
+    ],
+    "last_updated": "2026-10-20",
+    "themes": [
+      "china-scale"
+    ],
+    "map_category": "field"
   }
 ]
