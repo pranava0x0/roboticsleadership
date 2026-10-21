@@ -4,6 +4,15 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-10-21 (scheduled full-site refresh: X list, web sweep)
+
+- [ ] **(high) Rare-earth export-control truce expiry is unsettled: most sources say the suspension of China's October 2025 expanded controls ends 2026-11-10; one commentary site says Beijing extended it to 2027-01-10, but no numbered MOFCOM notice amending Announcement No. 70 was found.** Read MOFCOM Nos. 61, 62 and 70 directly before the 11-10 date and put the verified status on china.html and supply-chain.html (magnet exposure per humanoid is quoted as 3.5-4.5 kg, also unverified). The April 2025 licensing regime (No. 18, seven medium and heavy rare earths) was never suspended.
+- [ ] **(medium) No robotics executive order has issued; an Oct 11 secondary report still describes a Commerce-led strategy and Section 232 as pending.** The 2025 "EO for 2026" stories are stale. Re-check whitehouse.gov and the Federal Register each run and keep the policies.html wording at "reported, not issued".
+- [ ] **(medium) NVIDIA's GTC Berlin Isaac release (2026-10-21) names Agile Robots, a Munich company, as the reference-humanoid vendor, and reports a ~$10B European investment plan.** Candidate framing for us_china or a Europe note: where the US-China frame leaves out a third pole whose stack sits on NVIDIA. Needs a primary source for the $10B figure (Bloomberg, paywalled) before use.
+- [ ] **(medium) Add Agility's Pittsburgh hub and the AGCO pilot to the companies.html deployment view after the 2026-11-02 merger vote;** the AGCO row is in companies.json with `status: planned`.
+- [ ] **(low) Leads not applied:** Unitree H2-X "Kung Fu Guardian" (X posts only, no primary page or specs; a search finds nothing newer than the 2025 H2); Humanoid (UK) deeper NVIDIA integration (X post only); Pantheon UMI dataset and Dream Labs Dream-1 (HN, covered by the existing Dream Labs record); Reservoir agricultural incubator.
+- Curated this run: scraper 56 news + 0 policy candidates, kept 0 (list in data/research/refresh-2026-10-21-dropped.json); the X list (GTC Berlin day), primaries and one Sonnet sweep supplied 12 records and the Eka Robotics company row.
+
 ## ▶ Added 2026-10-16 (scheduled full-site refresh: X list, web sweep)
 
 - [ ] **(medium) Bedrock Robotics reportedly raising a $600M Series C at ~$3.5B pre-money (Axios Pro, 2026-10-13, unconfirmed).** Add to companies.json funding_rounds only when the company or a second outlet confirms; Series B is $270M at $1.75B.
