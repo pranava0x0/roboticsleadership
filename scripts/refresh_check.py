@@ -64,6 +64,7 @@ HOST_GAP_S = 1.5  # minimum gap between requests to one host
 MIN_AGE_DAYS = 2  # window floor; also the whole window on a cold start (no backlog flood)
 MAX_AGE_DAYS = 14  # window ceiling after a long gap
 SEEN_KEEP_DAYS = 60
+HELD_KEEP_DAYS = 28  # candidates cut by the display cap wait this long for a free slot
 X_EVERY_DAYS = 7  # the X list needs a browser; force a model run this often
 BROKEN_AFTER_RUNS = 3  # unread this many runs in a row -> hand to the model once
 MAX_PER_SOURCE = 12
@@ -314,7 +315,7 @@ def tracked_hint(item: Item, index: List[Tuple[str, Set[str]]]) -> Optional[str]
 def load_state(path: Path) -> dict:
     if path.exists():
         return json.loads(path.read_text())
-    return {"version": 1, "seen": {}, "pending": [], "unread_streak": {}, "x_checked": None,
+    return {"version": 1, "seen": {}, "pending": [], "unread_streak": {}, "held": {}, "x_checked": None,
             "last_checked": None, "last_ack": None}
 
 
@@ -362,6 +363,15 @@ def run_check(state: dict, fetch: Fetcher, tracked: Set[str], now: datetime, day
     seen = state["seen"]
     new: List[Item] = []
     keys: Set[str] = set()
+    held = state.setdefault("held", {})
+    expired = (now - timedelta(days=HELD_KEEP_DAYS)).date().isoformat()
+    for url, (src, title, date, since) in list(held.items()):
+        if since < expired or url in tracked or url in seen:
+            del held[url]
+        else:  # cut by the cap on an earlier run: re-offered ahead of fresh items, any age
+            keys.add(url)
+            new.append(Item(src, url, title, date))
+    held_urls = set(keys)
     for r in results:
         for it in r.items:
             if it.url in tracked or it.url in seen or it.url in keys:
@@ -370,7 +380,7 @@ def run_check(state: dict, fetch: Fetcher, tracked: Set[str], now: datetime, day
                 continue
             keys.add(it.url)
             new.append(it)
-    new.sort(key=lambda i: (i.date, i.source), reverse=True)
+    new.sort(key=lambda i: (i.url in held_urls, i.date, i.source), reverse=True)
 
     streak = state.setdefault("unread_streak", {})
     unread = [(r.id, r.error) for r in results if r.error]
@@ -400,6 +410,9 @@ def run_check(state: dict, fetch: Fetcher, tracked: Set[str], now: datetime, day
             shown.append(it)
         else:
             hidden[it.source] = hidden.get(it.source, 0) + 1
+    today = now.date().isoformat()
+    cut = [i for i in new if i not in shown]
+    state["held"] = {i.url: [i.source, i.title, i.date, held.get(i.url, [None, None, None, today])[3]] for i in cut}
     new = shown
     state["pending"] = [i.url for i in new]
     state["last_checked"] = now.isoformat(timespec="seconds")
@@ -428,7 +441,7 @@ def render(rep: Report) -> str:
         hint = f" | maybe dup of {rep.hints[it.url]}" if rep.hints and it.url in rep.hints else ""
         out.append(f"[{it.source}] {it.date or '????-??-??'} | {t} | {it.url}{hint}")
     for src, count in (rep.hidden or {}).items():
-        out.append(f"[{src}] +{count} older not shown (cap {MAX_PER_SOURCE}/source); they appear next run")
+        out.append(f"[{src}] +{count} older not shown (cap {MAX_PER_SOURCE}/source); they are held and listed on later runs")
     for sid, err in rep.unread:
         out.append(f"UNREAD {sid}: {err}")
     for sid, runs, err in rep.broken:

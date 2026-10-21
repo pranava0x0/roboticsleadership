@@ -3,6 +3,7 @@
 import contextlib
 import io
 import json
+import re
 import sys
 import tempfile
 import unittest
@@ -175,6 +176,29 @@ class TestChangeDetection(Base):
         _, out = self.run_main(web)  # the 5 hidden ones surface now
         self.assertIn("5 new", out)
         self.assertEqual(out.count("[the-robot-report]"), 5)
+
+    def test_held_items_survive_a_busier_next_day_and_the_short_window(self):
+        self.mark_x_checked()
+        n = rc.MAX_PER_SOURCE
+        day1 = [story(url=f"https://e.com/a{i}", title=f"Robot a{i}") for i in range(n + 3)]
+        self.run_main(FakeWeb(feed_items={"therobotreport": day1}))
+        self.run_main(FakeWeb(), "--ack")  # 3 held
+        later = datetime(2026, 10, 25, 12, 0, tzinfo=timezone.utc)  # past the 2-day window for day-1 dates
+        day2 = [story(url=f"https://e.com/b{i}", title=f"Robot b{i}", day="Sat, 24 Oct 2026 10:00:00 GMT") for i in range(n + 3)]
+        _, out = self.run_main(FakeWeb(feed_items={"therobotreport": day2}), now=later)
+        self.assertEqual(sum(1 for i in range(n + 3) if f"https://e.com/a{i}" in re.split(r"[\s|]+", out)), 3)  # held first, not starved
+        self.run_main(FakeWeb(feed_items={"therobotreport": day2}), "--ack", now=later)
+        state = rc.load_state(self.state_path)
+        self.assertTrue(all(u.startswith("https://e.com/") for u in state["held"]))
+        self.assertFalse(any(f"e.com/a{i}" in state["held"] for i in range(n + 3)))
+
+    def test_held_items_expire(self):
+        self.mark_x_checked()
+        state = rc.load_state(self.state_path)
+        state["held"] = {"https://e.com/stale": ["the-robot-report", "Robot stale", "2026-09-01", "2026-09-01"]}
+        rc.save_state(self.state_path, state)
+        self.assertEqual(self.run_main(FakeWeb())[0], 0)
+        self.assertEqual(rc.load_state(self.state_path)["held"], {})
 
 class TestUnreadHandling(Base):
     def test_fetch_failure_is_unread_never_no_changes(self):
