@@ -459,6 +459,15 @@
         "use_case": "RAV4 logistics — Robots-as-a-Service",
         "source_url": "https://blog.robozaps.com/b/agility-robotics-digit-review",
         "archive_url": "https://web.archive.org/web/20260325193410/https://blog.robozaps.com/b/agility-robotics-digit-review"
+      },
+      {
+        "customer": "AGCO",
+        "location": "Hesston, KS, USA",
+        "robot_count": null,
+        "start_date": "2027",
+        "status": "planned",
+        "use_case": "parts sorting and stacking, tote positioning — pilot expected 2027",
+        "source_url": "https://www.humanoidsdaily.com/news/agco-agility-digit-hesston-kansas-manufacturing-pilot"
       }
     ],
     "headcount": 406,
@@ -505,7 +514,7 @@
         "url": "https://www.humanoidsdaily.com/news/agility-investor-day-digit-5-launch-costs-and-a-300m-order-that-unlocks-skill-by-skill"
       }
     ],
-    "last_updated": "2026-10-08",
+    "last_updated": "2026-10-21",
     "themes": [
       "cost-trajectory",
       "industrial-deployments",
@@ -9817,5 +9826,80 @@
       "china-scale"
     ],
     "map_category": "field"
+  },
+  {
+    "id": "eka-robotics",
+    "name": "Eka Robotics",
+    "founded": "Not disclosed",
+    "hq": {
+      "city": null,
+      "state": null,
+      "country": "USA"
+    },
+    "website": "https://ekarobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2026-10",
+        "round": "Series A",
+        "amount_usd": 150000000,
+        "valuation_usd": 1450000000,
+        "investors": [
+          "a16z",
+          "F-Prime"
+        ],
+        "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 150000000,
+    "latest_valuation_usd": 1450000000,
+    "robot_types": [
+      "enabling_tech"
+    ],
+    "primary_use_case": "dexterous pick-and-place manipulation",
+    "flagship_product": "Force-sensitive gripper with a vision-force-action model trained by reinforcement learning in simulation",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Pulkit Agrawal",
+        "role": "Co-Founder (MIT professor)"
+      },
+      {
+        "name": "Tuomas Haarnoja",
+        "role": "Co-Founder (ex-Google DeepMind)"
+      }
+    ],
+    "ceo": null,
+    "tags": [
+      "manipulation",
+      "foundation-models",
+      "physical-ai"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/"
+      },
+      {
+        "url": "https://ekarobotics.com"
+      }
+    ],
+    "last_updated": "2026-10-21",
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "details": "Private. $150M Series A led by a16z and F-Prime at a $1.45B post-money valuation (TechCrunch, 2026-10-20). Company claims about 1,500 picks an hour of objects up to 1 kg at over 95% reliability; founding year and HQ not stated in the source."
+    },
+    "map_category": "enablers"
   }
 ]

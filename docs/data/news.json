@@ -1,5 +1,263 @@
 [
   {
+    "companies": [],
+    "policies": [],
+    "source_type": "Press Release",
+    "sentiment": "Neutral",
+    "id": "nvidia-isaac-agile-one-sn-2026-10",
+    "title": "NVIDIA expands Isaac at GTC Berlin; Agile Robots unveils the Agile ONE SN reference humanoid",
+    "date": "2026-10-21",
+    "source": "NVIDIA (GlobeNewswire)",
+    "source_url": "https://www.globenewswire.com/news-release/2026/10/21/3385337/0/en/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data.html",
+    "summary": "Agile ONE SN is 1.40 m, 40 kg, 31 DoF, runs on Jetson Thor, and is scheduled for early 2027; the release names Stanford and ETH Zurich as interested. NVIDIA also made Isaac Lab 3.0 generally available, released the Isaac OS runtime, and posted a 2,000-asset SimReady library and a Human 1M dataset on Hugging Face.",
+    "category": "Competitive",
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "tags": [
+      "nvidia",
+      "europe",
+      "humanoid",
+      "simulation"
+    ],
+    "confidence": "High"
+  },
+  {
+    "companies": [
+      "agility-robotics"
+    ],
+    "policies": [],
+    "source_type": "Press Release",
+    "sentiment": "Positive",
+    "id": "agility-pittsburgh-expansion-2026-10",
+    "title": "Agility plans a 50,000 sq ft Pittsburgh hub for Digit software, AI and service",
+    "date": "2026-10-21",
+    "source": "Agility Robotics",
+    "source_url": "https://www.agilityrobotics.com/content/agility-robotics-expands-pittsburgh-presence-to-support-growing-customer-deployments",
+    "summary": "The site adds about 35,000 sq ft to Agility's existing Pittsburgh footprint and becomes its software and AI center and East Coast service center. Agility also says it added four customers across automotive, consumer goods and agriculture and holds over $300M in multi-year Digit 5 orders subject to contractual milestones.",
+    "category": "Deployment",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "humanoid",
+      "facility",
+      "us"
+    ],
+    "confidence": "High"
+  },
+  {
+    "companies": [
+      "unitree"
+    ],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral",
+    "id": "unitree-abnormal-trading-warning-2026-10",
+    "title": "Unitree warns of uncertain demand after a STAR Market abnormal-trading filing; trailing P/E 388",
+    "date": "2026-10-21",
+    "source": "Humanoids Daily",
+    "source_url": "https://www.humanoidsdaily.com/news/unitree-stock-surge-commercialization-valuation-warning",
+    "summary": "The filing (announcement 2026-003) cites uncertainty over technology maturity, downstream demand and supply-chain capacity after closing-price gains deviated by more than 30% across Oct 16, 19 and 20. Trailing P/E was 388.25 on Oct 20 against a 39.51 industry average; the figures come from the filing as relayed by Humanoids Daily.",
+    "category": "Competitive",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "ipo",
+      "china",
+      "valuation"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral",
+    "id": "generative-bionics-amd-hub-2026-10",
+    "title": "Generative Bionics plans a 5,000 sq m humanoid training hub in Italy with AMD",
+    "date": "2026-10-21",
+    "source": "Humanoids Daily",
+    "source_url": "https://www.humanoidsdaily.com/news/generative-bionics-amd-italy-physical-ai-data-factory",
+    "summary": "The first of a proposed three-site Physical AI Data Factory network would run on AMD Helios infrastructure and train GENE.01 humanoids, with operations targeted for Q4 2027. \"Europe's largest\" is the company's own claim.",
+    "category": "Deployment",
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "humanoid",
+      "europe",
+      "data-center"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "companies": [
+      "galbot",
+      "fourier-intelligence"
+    ],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive",
+    "id": "yita-seed-2026-10",
+    "title": "YITA raises over RMB 100M across seed rounds from Galbot, Fourier and Matrix Partners China",
+    "date": "2026-10-21",
+    "source": "TechNode",
+    "source_url": "https://technode.com/2026/10/21/robot-hardware-startup-yita-secures-funding-from-galbot-and-fourier/",
+    "summary": "YITA, founded in May 2026, makes force-controlled robot arms and joint modules for embodied AI and announced the raise on October 20. Other investors include CCB International, SenseTime Guoxiang Capital and the L2F founder fund.",
+    "category": "Funding",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "funding",
+      "components"
+    ],
+    "confidence": "High"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive",
+    "id": "jingji-intelligent-seed-2026-10",
+    "title": "Shanghai cleaning-robot startup Jingji Intelligent raises tens of millions of RMB a month after founding",
+    "date": "2026-10-21",
+    "source": "TechNode",
+    "source_url": "https://technode.com/2026/10/21/cleaning-robotics-startup-jingji-intelligent-raises-tens-of-millions-of-rmb-in-seed-funding/",
+    "summary": "Haowen Tianshu Robotics and Shanghai Lanyun Industrial Development funded the seed round, disclosed October 20. The company applies medical-robotics force control and vision to cleaning vertical surfaces and says it has partners in Australia, Spain, Singapore and Vietnam.",
+    "category": "Funding",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "funding",
+      "cleaning"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "companies": [
+      "eka-robotics"
+    ],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive",
+    "id": "eka-robotics-series-a-2026-10",
+    "title": "Eka Robotics raises $150M Series A at a $1.45B valuation for force-sensing manipulation",
+    "date": "2026-10-20",
+    "source": "TechCrunch",
+    "source_url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+    "summary": "a16z and F-Prime led the round, which TechCrunch says values Eka at $1.45B post-money. The startup, founded by MIT's Pulkit Agrawal and ex-DeepMind's Tuomas Haarnoja, pairs a force-sensitive gripper with a vision-force-action model trained in simulation, and says it picks about 1,500 objects an hour at over 95% reliability.",
+    "category": "Funding",
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "tags": [
+      "funding",
+      "manipulation",
+      "us"
+    ],
+    "confidence": "High"
+  },
+  {
+    "companies": [
+      "agility-robotics"
+    ],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Positive",
+    "id": "agco-agility-digit-pilot-2026-10",
+    "title": "AGCO signs Agility Robotics to pilot Digit humanoids at its Hesston, Kansas plant",
+    "date": "2026-10-20",
+    "source": "Humanoids Daily",
+    "source_url": "https://www.humanoidsdaily.com/news/agco-agility-digit-hesston-kansas-manufacturing-pilot",
+    "summary": "AGCO signed a commercial agreement for Digit to sort and stack parts and position totes at its Hesston factory, with a pilot expected in 2027. Robot count, contract value and pilot length were not disclosed.",
+    "category": "Deployment",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "humanoid",
+      "deployment",
+      "agriculture"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral",
+    "id": "schaeffler-taicang-humanoid-line-2026-10",
+    "title": "Schaeffler opens a Taicang line where six humanoids assemble actuator parts for other humanoids",
+    "date": "2026-10-20",
+    "source": "Humanoids Daily",
+    "source_url": "https://www.humanoidsdaily.com/news/schaeffler-taicang-humanoids-build-robot-components",
+    "summary": "Six humanoids work five stations making linear and rotary actuators at a roughly 7,500 sq m site in China. Schaeffler puts global humanoid-robotics incoming orders at about EUR 400M, which are orders rather than recognized revenue.",
+    "category": "Supply Chain",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "humanoid",
+      "actuators",
+      "china",
+      "factory"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral",
+    "id": "tuesday-labs-voxel-2026-10",
+    "title": "Tuesday Labs opens $200 reservations for Voxel, a roughly $20,000 legged home robot",
+    "date": "2026-10-20",
+    "source": "Humanoids Daily",
+    "source_url": "https://www.humanoidsdaily.com/news/tuesday-labs-voxel-home-robot-reservations",
+    "summary": "The New York startup, led by an ex-Boston Dynamics roboticist, shows a development prototype for tidying, fetching and watering plants. It lists an estimated $20,000 price and US deliveries from 2028, with Y Combinator and FCVC as backers.",
+    "category": "Competitive",
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "home-robot",
+      "consumer",
+      "us"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "source_type": "News",
+    "sentiment": "Neutral",
+    "id": "faraday-future-robotics-shell-deal-2026-10",
+    "title": "Faraday Future agrees to move its robotics business into a listed shell in a roughly $200M all-stock deal",
+    "date": "2026-10-20",
+    "source": "Humanoids Daily",
+    "source_url": "https://www.humanoidsdaily.com/news/faraday-future-200-million-robotics-deal-delivery-questions",
+    "summary": "FF EAI Robotics Ecosystem (formerly AIxCrypto Holdings) signed agreements to acquire the robotics business for about $200M in stock. Faraday Future is expected to keep about 65.7%, with closing targeted for the end of October; the outlet raises open questions on deliveries.",
+    "category": "Competitive",
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "ipo",
+      "m-and-a",
+      "us"
+    ],
+    "confidence": "Medium"
+  },
+  {
     "companies": [
       "neolix"
     ],
