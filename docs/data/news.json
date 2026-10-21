@@ -62,7 +62,6 @@
     "summary": "The filing (announcement 2026-003) cites uncertainty over technology maturity, downstream demand and supply-chain capacity after closing-price gains deviated by more than 30% across Oct 16, 19 and 20. Trailing P/E was 388.25 on Oct 20 against a 39.51 industry average; the figures come from the filing as relayed by Humanoids Daily.",
     "category": "Competitive",
     "themes": [
-      "china-scale",
       "china-scale"
     ],
     "tags": [
@@ -174,7 +173,7 @@
     "policies": [],
     "source_type": "News",
     "sentiment": "Positive",
-    "id": "agcom-agility-digit-pilot-2026-10",
+    "id": "agco-agility-digit-pilot-2026-10",
     "title": "AGCO signs Agility Robotics to pilot Digit humanoids at its Hesston, Kansas plant",
     "date": "2026-10-20",
     "source": "Humanoids Daily",
@@ -249,7 +248,7 @@
     "summary": "FF EAI Robotics Ecosystem (formerly AIxCrypto Holdings) signed agreements to acquire the robotics business for about $200M in stock. Faraday Future is expected to keep about 65.7%, with closing targeted for the end of October; the outlet raises open questions on deliveries.",
     "category": "Competitive",
     "themes": [
-      "china-scale"
+      "physical-ai"
     ],
     "tags": [
       "ipo",
@@ -305,29 +304,6 @@
       "defense",
       "inspection",
       "contract"
-    ],
-    "confidence": "Medium"
-  },
-  {
-    "companies": [],
-    "policies": [],
-    "source_type": "News",
-    "sentiment": "Neutral",
-    "id": "humxn-free-home-services-2026-10",
-    "title": "HUMXN offers free plumbing and HVAC repairs in three cities to record training data",
-    "date": "2026-10-19",
-    "source": "Tom's Hardware",
-    "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning",
-    "summary": "Technicians wear sensors that record video while they work, and residents in Minneapolis, Chicago and Miami get the service free in exchange for the recording rights. The program is a paid-for-data approach to trades training data, following HUMXN's earlier $50M data-purchase commitment.",
-    "category": "Research",
-    "themes": [
-      "physical-ai",
-      "foundation-models"
-    ],
-    "tags": [
-      "data",
-      "training-data",
-      "trades"
     ],
     "confidence": "Medium"
   },

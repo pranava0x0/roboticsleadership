@@ -11,7 +11,7 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 - [ ] **(medium) NVIDIA's GTC Berlin Isaac release (2026-10-21) names Agile Robots, a Munich company, as the reference-humanoid vendor, and reports a ~$10B European investment plan.** Candidate framing for us_china or a Europe note: where the US-China frame leaves out a third pole whose stack sits on NVIDIA. Needs a primary source for the $10B figure (Bloomberg, paywalled) before use.
 - [ ] **(medium) Add Agility's Pittsburgh hub and the AGCO pilot to the companies.html deployment view after the 2026-11-02 merger vote;** the AGCO row is in companies.json with `status: planned`.
 - [ ] **(low) Leads not applied:** Unitree H2-X "Kung Fu Guardian" (X posts only, no primary page or specs; a search finds nothing newer than the 2025 H2); Humanoid (UK) deeper NVIDIA integration (X post only); Pantheon UMI dataset and Dream Labs Dream-1 (HN, covered by the existing Dream Labs record); Reservoir agricultural incubator.
-- Curated this run: scraper 56 news + 0 policy candidates, kept 0 (list in data/research/refresh-2026-10-21-dropped.json); the X list (GTC Berlin day), primaries and one Sonnet sweep supplied 12 records and the Eka Robotics company row.
+- Curated this run: scraper 56 news + 0 policy candidates, kept 0 (list in data/research/refresh-2026-10-21-dropped.json); the X list (GTC Berlin day), primaries and one Sonnet sweep supplied 11 records and the Eka Robotics company row.
 
 ## ▶ Added 2026-10-16 (scheduled full-site refresh: X list, web sweep)
 
