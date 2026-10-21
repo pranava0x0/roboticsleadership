@@ -38,6 +38,19 @@ from pathlib import Path
 from typing import Callable, Dict, Iterable, List, Optional, Set, Tuple
 
 log = logging.getLogger("refresh_check")
+report_log = logging.getLogger("refresh_check.report")  # the CLI's stdout contract, via logging
+
+
+class _StdoutHandler(logging.Handler):
+    """Writes bare messages to whatever sys.stdout is at emit time."""
+
+    def emit(self, record: logging.LogRecord) -> None:
+        sys.stdout.write(record.getMessage() + "\n")
+
+
+report_log.addHandler(_StdoutHandler())
+report_log.propagate = False
+report_log.setLevel(logging.INFO)
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "docs" / "data"
@@ -324,6 +337,7 @@ class Report:
     x_due: Optional[str]
     exit_code: int
     hints: Optional[Dict[str, str]] = None  # item url -> news.json id it probably duplicates
+    hidden: Optional[Dict[str, int]] = None  # source -> candidates beyond the cap (not shown, not acked)
 
 
 def window_days(state: dict, now: datetime, override: Optional[int]) -> int:
@@ -376,6 +390,17 @@ def run_check(state: dict, fetch: Fetcher, tracked: Set[str], now: datetime, day
         if age_d >= x_every:
             x_due = f"last checked {age_d} days ago"
 
+    # Only what the curator will see can be acked; the rest stays unseen and is listed next run.
+    shown: List[Item] = []
+    hidden: Dict[str, int] = {}
+    per: Dict[str, int] = {}
+    for it in new:
+        per[it.source] = per.get(it.source, 0) + 1
+        if per[it.source] <= MAX_PER_SOURCE:
+            shown.append(it)
+        else:
+            hidden[it.source] = hidden.get(it.source, 0) + 1
+    new = shown
     state["pending"] = [i.url for i in new]
     state["last_checked"] = now.isoformat(timespec="seconds")
 
@@ -386,7 +411,7 @@ def run_check(state: dict, fetch: Fetcher, tracked: Set[str], now: datetime, day
     else:
         code = 0
     hints = {i.url: h for i in new if (h := tracked_hint(i, index or []))}
-    return Report(len(results) - len(unread), len(results), new, unread, broken, x_due, code, hints)
+    return Report(len(results) - len(unread), len(results), new, unread, broken, x_due, code, hints, hidden)
 
 
 def render(rep: Report) -> str:
@@ -398,17 +423,12 @@ def render(rep: Report) -> str:
         out.append(f"nothing new in the {rep.checked} sources read, but {len(rep.unread)} NOT read -- UNVERIFIED ({n})")
     else:
         out.append(f"{len(rep.new)} new, {n}")
-    per: Dict[str, int] = {}
     for it in rep.new:
-        per[it.source] = per.get(it.source, 0) + 1
-        if per[it.source] > MAX_PER_SOURCE:
-            continue
         t = it.title if len(it.title) <= TITLE_CHARS else it.title[:TITLE_CHARS - 1] + "…"
         hint = f" | maybe dup of {rep.hints[it.url]}" if rep.hints and it.url in rep.hints else ""
         out.append(f"[{it.source}] {it.date or '????-??-??'} | {t} | {it.url}{hint}")
-    for src, count in per.items():
-        if count > MAX_PER_SOURCE:
-            out.append(f"[{src}] +{count - MAX_PER_SOURCE} older not shown (cap {MAX_PER_SOURCE}/source)")
+    for src, count in (rep.hidden or {}).items():
+        out.append(f"[{src}] +{count} older not shown (cap {MAX_PER_SOURCE}/source); they appear next run")
     for sid, err in rep.unread:
         out.append(f"UNREAD {sid}: {err}")
     for sid, runs, err in rep.broken:
@@ -450,12 +470,12 @@ def main(argv: Optional[Iterable[str]] = None, fetch: Optional[Fetcher] = None,
         if args.ack:
             n = ack(state, now, args.x_checked)
             save_state(args.state, state)
-            print(f"acked {n} items" + ("; X list marked checked" if args.x_checked else ""))
+            report_log.info("acked %d items%s", n, "; X list marked checked" if args.x_checked else "")
             return 0
         rep = run_check(state, fetch or HttpFetcher(), tracked_urls(args.root), now, args.days, args.x_every_days,
                         recent_news_index(args.root, now))
         save_state(args.state, state)
-        print(render(rep))
+        report_log.info("%s", render(rep))
         return rep.exit_code
     except Exception:
         log.exception("refresh_check failed")

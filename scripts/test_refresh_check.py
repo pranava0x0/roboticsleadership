@@ -163,13 +163,18 @@ class TestChangeDetection(Base):
         _, out = self.run_main(web)
         self.assertIn("maybe dup of 2026-10-20-eka", out)
 
-    def test_cap_per_source(self):
+    def test_cap_per_source_and_capped_items_are_not_acked(self):
         self.mark_x_checked()
-        many = [story(url=f"https://e.com/{i}", title=f"Robot story {i}") for i in range(rc.MAX_PER_SOURCE + 5)]
-        _, out = self.run_main(FakeWeb(feed_items={"therobotreport": many}))
+        many = [story(url=f"https://e.com/{i}", title=f"Robot story {i}", day=f"Tue, 20 Oct 2026 {10 + i % 10}:00:00 GMT")
+                for i in range(rc.MAX_PER_SOURCE + 5)]
+        web = FakeWeb(feed_items={"therobotreport": many})
+        _, out = self.run_main(web)
         self.assertIn("+5 older not shown", out)
         self.assertEqual(out.count("[the-robot-report]") - 1, rc.MAX_PER_SOURCE)
-
+        self.assertIn(f"acked {rc.MAX_PER_SOURCE} items", self.run_main(web, "--ack")[1])
+        _, out = self.run_main(web)  # the 5 hidden ones surface now
+        self.assertIn("5 new", out)
+        self.assertEqual(out.count("[the-robot-report]"), 5)
 
 class TestUnreadHandling(Base):
     def test_fetch_failure_is_unread_never_no_changes(self):
