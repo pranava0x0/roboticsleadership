@@ -462,6 +462,3 @@ The report breaks industrial robotics down by *application* — a lens we don't 
 - [ ] **(low) Locate the Ministry of Commerce guidance behind Unitree's 16% jump (2026-10-19).** Only Humanoids Daily describes it; the news record is Low confidence until a primary document is found.
 - [ ] **(low) Dream Labs' investors are unnamed in its launch post; add them to `companies.json` when The Information or a filing names them.**
 - [ ] **(low) Siemens–NVIDIA Erlangen "autonomous factory" announcement (2026-10-19) and Asimov 1 open-source humanoid seen on X; neither verified against a primary this run.**
-
-- **[medium] Make the X `PhysicalAI` list readable without a browser** (2026-10-21). `scripts/refresh_check.py` cannot read it (x.com needs a login, syndication endpoint 404s), so the daily check forces a browser run every 7 days instead (`X_EVERY_DAYS`). If an X API token or a stable list mirror appears, add it as a source and drop the forced run.
-- **[low] Reddit r/robotics in `refresh_check.py`** (2026-10-21). `.json` returns 403 to scripts; `sources.json` lists it enabled but neither the scrapers nor the check read it. Try the RSS endpoint with a logged-in cookie, or remove the entry.
