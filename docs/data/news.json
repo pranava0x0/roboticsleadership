@@ -1,5 +1,76 @@
 [
   {
+    "policies": [],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "companies": [
+      "tesla-optimus"
+    ],
+    "source_type": "News Article",
+    "id": "tesla-optimus-fremont-production-2026-10",
+    "title": "Tesla starts Optimus production at Fremont and says the ramp will be slow",
+    "date": "2026-10-21",
+    "source": "TechCrunch",
+    "source_url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43",
+    "summary": "Tesla's Q3 letter says the robots coming off the Fremont line are its first production-quality units. Musk called it early production with a bumpy ramp, and repeated a target of 20,000 a week by the end of 2027.",
+    "category": "Deployment",
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "tesla",
+      "optimus",
+      "humanoid",
+      "fremont"
+    ]
+  },
+  {
+    "policies": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "companies": [],
+    "source_type": "News Article",
+    "id": "nvidia-flora-video-labels-2026-10",
+    "title": "NVIDIA releases Flora, models that turn robot and human video into training labels",
+    "date": "2026-10-21",
+    "source": "Humanoids Daily",
+    "source_url": "https://humanoidsdaily.com/news/nvidia-flora-robot-video-training-data-models",
+    "summary": "Flora segments actions, captions them and scores task success to feed the GR00T pipeline. NVIDIA reports 200,000 video hours a day on 512 GB300 GPUs, which measures annotation throughput, not new robot data. Three models are on Hugging Face; two are research-use only.",
+    "category": "Competitive",
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "tags": [
+      "nvidia",
+      "gr00t",
+      "training-data"
+    ]
+  },
+  {
+    "policies": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "companies": [],
+    "source_type": "News Article",
+    "id": "origami-s1-skill-capture-glove-2026-10",
+    "title": "Origami Robotics launches S1, a glove that records finger angles and touch for its robot hand",
+    "date": "2026-10-21",
+    "source": "Humanoids Daily",
+    "source_url": "https://humanoidsdaily.com/news/origami-robotics-s1-skill-capture-glove",
+    "summary": "S1 measures 20 finger joint angles with encoders and logs pressure and video together, laid out to match Origami's own hand. The company says mass production has started; moving recorded touch into robot execution is still work in progress.",
+    "category": "Competitive",
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "dexterity",
+      "teleoperation",
+      "training-data"
+    ]
+  },
+  {
     "companies": [],
     "policies": [],
     "source_type": "Press Release",
