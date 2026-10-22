@@ -81,22 +81,6 @@ agencies:  id, name, full_name, parent, url, show_in_rd_table, notes
 
 ---
 
-## Step -1 — Change check (scheduled runs; added 2026-10-21)
-
-`python3 scripts/refresh_check.py` runs before everything else. It fetches the watched feeds
-(enabled RSS in `sources.json`, Humanoids Daily, TechNode, Product Hunt, Hacker News, Federal
-Register), removes what `news.json`/`policies.json`/`companies.json`, the dropped logs, and its own
-state already cover, and prints the rest. Exit 0 = nothing new, every source read: the run ends.
-Exit 2 = nothing new but some sources unread: unverified, not "no changes". Exit 1 = the printed
-lines are the candidates; scrapers are no longer the default first move. After curating, run
-`--ack` (plus `--x-checked` if the X list was harvested) so the items are not listed again.
-State is `~/.claude/scheduled-tasks/robotics-refresh/refresh-state.json` (outside the repo, survives
-worktrees). Tests: `python3 -m unittest scripts/test_refresh_check.py` (part of `npm test`).
-The script cannot read the X list (needs the logged-in browser), so it forces a run when the list
-was last harvested 7+ days ago (`X_EVERY_DAYS`). Reddit is not read (403 to scripts).
-
----
-
 ## Step 0 — Load current state (never skip)
 
 ```
