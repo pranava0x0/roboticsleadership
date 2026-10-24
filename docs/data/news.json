@@ -1,5 +1,322 @@
 [
   {
+    "id": "fedreg-news-2026-21786",
+    "title": "Outbound Investment Security Program Regulations",
+    "date": "2026-10-26",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations",
+    "summary": "This proposed rule sets forth regulations that would implement Subtitle C of the Comprehensive Outbound Investment National Security Act, which is codified at Title VIII of the Defense Production Act....",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "fedreg-news-2026-21777",
+    "title": "Performance Review Board Membership",
+    "date": "2026-10-26",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21777/performance-review-board-membership",
+    "summary": "Notice is given of the names of members of a Performance Review Board for the Department of the Army.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50211266",
+    "title": "Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks, Embodiments",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2610.10409",
+    "summary": "Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks, Embodiments",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50212341",
+    "title": "Do pricier robot vacuums get better reviews? 737 reviews",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.bettascore.ai/research/robot-vacuum-prices",
+    "summary": "Do pricier robot vacuums get better reviews? 737 reviews",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50213160",
+    "title": "RoboJev: Grade robot task success 48x cheaper than 6 Astra",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://huggingface.co/spaces/josefchen/RoboJev",
+    "summary": "RoboJev: Grade robot task success 48x cheaper than 6 Astra",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50213536",
+    "title": "Show HN: Cascache – A Go cache where slow reads can't undo invalidation",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/unkn0wn-root/cascache/",
+    "summary": "Show HN: Cascache – A Go cache where slow reads can't undo invalidation",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50214466",
+    "title": "Show HN: Sillage, a small contemplative game drawn after Haeckel's plates",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://sillage.denzen.online",
+    "summary": "Hi HN. Sillage (French for the wake a boat leaves behind) is a small browser game with no goal.You're a blob: hold the mouse or a finger down to swim toward it, and fast currents carry you into t",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50215485",
+    "title": "Biggest Fails from the 2026 World Humanoid Robot Games in China [video]",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=XgnBN8BLc-o",
+    "summary": "Biggest Fails from the 2026 World Humanoid Robot Games in China [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50215552",
+    "title": "Show HN: Distributed, deterministically secure agentic swarm runtime. Enclawed",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://zenodo.org/records/23602948",
+    "summary": "A Deterministic Security Runtime for LLM Agents on MPI and Batch-Scheduled HPC Systems: Consensus-Governed, Hardware-Rooted Supervision of Every Rank",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50217573",
+    "title": "Show HN: 27B open model to grade robot data 48x cheaper/27x faster vs. 6 Astra",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/josefchen/status/2113687649131336039",
+    "summary": "Show HN: 27B open model to grade robot data 48x cheaper/27x faster vs. 6 Astra",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50220042",
+    "title": "Show HN: Autonomous root for Tcl Android TV via CVE-2022-22706",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://gitlab.com/c4psu13/mali-pagecache-root",
+    "summary": "Show HN: Autonomous root for Tcl Android TV via CVE-2022-22706",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50220510",
+    "title": "Solving a Giant Rubik's Cube with a Quadruped Robot",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://leggedrobotics.github.io/rubik-skills/",
+    "summary": "Solving a Giant Rubik's Cube with a Quadruped Robot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50220529",
+    "title": "China's Baidu tests robotaxi on London streets",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.reuters.com/business/finance/chinas-baidu-tests-robotaxi-london-streets-2026-10-23/",
+    "summary": "China's Baidu tests robotaxi on London streets",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-generative-bionics-to-launch-p-943",
+    "title": "Generative Bionics to launch Physical AI Data Factory in Italy",
+    "date": "2026-10-23",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/generative-bionics-to-launch-physical-ai-data-factory-in-italy/",
+    "summary": "Generative Bionics says it hopes to advance European robotics sovereignty by ensuring that humanoid data is are generated on the continent. \nThe post Generative Bionics to launch Physical AI Data Fact...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-webinar-to-discuss-how-the-fcc-318",
+    "title": "Webinar to discuss how the FCC robotics ruling affects automation buyers",
+    "date": "2026-10-23",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/webinar-discuss-how-fcc-robotics-ruling-affects-automation-buyers/",
+    "summary": "Industry leaders will discuss what robotics buyers should know about the recent FCC restriction on certain connected systems.\nThe post Webinar to discuss how the FCC robotics ruling affects automation...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-eka-robotics-raises-150m-to-sc-206",
+    "title": "Eka Robotics raises $150M to scale its vision-force-action model for robots",
+    "date": "2026-10-24",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/",
+    "summary": "Eka Robotics is building a vision-force-action, or VFA, model to develop an intuition of physics through reinforcement learning at scale.\nThe post Eka Robotics raises $150M to scale its vision-force-a...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-50188497",
     "title": "39-humanizer, for anyone under 40 who would rather not sound like a bot",
     "date": "2026-10-21",
