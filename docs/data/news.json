@@ -1,5 +1,164 @@
 [
   {
+    "id": "hn-50218633",
+    "title": "Root shell on Samsung TV",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
+    "summary": "Root shell on Samsung TV",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50223343",
+    "title": "Batchplan: Plan batches of robot motions, use for execution or training data",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/natsuku-lab/batchplan",
+    "summary": "Batchplan: Plan batches of robot motions, use for execution or training data",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50223473",
+    "title": "I Replaced 50 PHP Workers with One Go Process",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://sentinel.rootstuff.io/blog/laravel-edge-workers-to-go-probes",
+    "summary": "I Replaced 50 PHP Workers with One Go Process",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50223536",
+    "title": "I built a livestream where you can control a $4k 7-DOF Robot [video]",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=uSrAc9nv_do",
+    "summary": "I built a livestream where you can control a $4k 7-DOF Robot [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50226125",
+    "title": "RoboJev: Jev, but to Grade Robot Data",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robo-jev.com/",
+    "summary": "RoboJev: Jev, but to Grade Robot Data",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50227798",
+    "title": "OpenJDK randomly(?) removes all eMudhra root CAs",
+    "date": "2026-10-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/openjdk/jdk/pull/33554",
+    "summary": "OpenJDK randomly(?) removes all eMudhra root CAs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50228053",
+    "title": "Chasing the cognitive roots of our rectangular mindset (2004)",
+    "date": "2026-10-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.cdac.in/index.aspx?id=pdf_dkatre5",
+    "summary": "Chasing the cognitive roots of our rectangular mindset (2004)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-teradyne-robotics-partners-wit-18",
+    "title": "Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics",
+    "date": "2026-10-25",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/",
+    "summary": "Sereact and Teradyne have already shipped hundreds of UR robots in dual-arm systems to live customer sites across Europe.\nThe post Teradyne Robotics partners with Sereact to scale physical AI in retai...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "fedreg-news-2026-21786",
     "title": "Outbound Investment Security Program Regulations",
     "date": "2026-10-26",
