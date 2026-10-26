@@ -2730,5 +2730,67 @@
       }
     ],
     "last_updated": "2026-10-14"
+  },
+  {
+    "id": "fedreg-2026-21777",
+    "title": "Performance Review Board Membership",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-10-26",
+    "status": "Introduced",
+    "bill_number": "2026-21777",
+    "sponsor": "Federal Agency",
+    "summary": "Notice is given of the names of members of a Performance Review Board for the Department of the Army.",
+    "full_text_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21777/performance-review-board-membership",
+    "robotics_scope": "Federal Register publication",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal-register",
+      "federal"
+    ],
+    "themes": [],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21777/performance-review-board-membership"
+      }
+    ],
+    "last_updated": "2026-10-26",
+    "_requires_curator_review": true
+  },
+  {
+    "id": "fedreg-2026-21786",
+    "title": "Outbound Investment Security Program Regulations",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-10-26",
+    "status": "Introduced",
+    "bill_number": "2026-21786",
+    "sponsor": "Federal Agency",
+    "summary": "This proposed rule sets forth regulations that would implement Subtitle C of the Comprehensive Outbound Investment National Security Act, which is codified at Title VIII of the Defense Production Act. The proposed rule would require United States persons to provide notification to the U.S. Department of the Treasury regarding certain transactions involving foreign persons that are engaged in notifiable technologies; and prohibit United States persons from engaging in certain other transactions involving foreign persons that are engaged in prohibited technologies. Where consistent with Title VIII, the proposed rule incorporates certain definitions and concepts from the current regulations governing the Outbound Investment Security Program. The proposed rule also would add applicability dates to the regulations, such that those regulations would continue to apply to activities that occurred within the relevant timeframe.",
+    "full_text_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations",
+    "robotics_scope": "Federal Register publication",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal-register",
+      "federal"
+    ],
+    "themes": [],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations"
+      }
+    ],
+    "last_updated": "2026-10-26",
+    "_requires_curator_review": true
   }
 ]
