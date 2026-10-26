@@ -1,5 +1,2362 @@
 [
   {
+    "id": "hn-50245113",
+    "title": "Humanity Top 10K: Ranking historical figures through 1.24M comparisons of deeds",
+    "date": "2026-10-26",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://hominidintelligence.org/leaderboard",
+    "summary": "Humanity Top 10K: Ranking historical figures through 1.24M comparisons of deeds",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50246115",
+    "title": "Anthropic files for IPO even as CEO warns of risk to humanity from AI",
+    "date": "2026-10-26",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://apnews.com/article/anthropic-ipo-shares-public-ca2f4c282bef3201a392e59e3df2300c",
+    "summary": "Anthropic files for IPO even as CEO warns of risk to humanity from AI",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50235958",
+    "title": "Raspberry Pi PicoW + LeRobot SO-ARM100 controlled via a webpage/mqtt/openai",
+    "date": "2026-10-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/AdrianCX/picohive-robotarm",
+    "summary": "Raspberry Pi PicoW + LeRobot SO-ARM100 controlled via a webpage/mqtt/openai",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50242202",
+    "title": "Lula Vows to Regulate Social Media Giants",
+    "date": "2026-10-26",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.riotimesonline.com/lula-victory-speech-social-media-regulation-2026/",
+    "summary": "Lula Vows to Regulate Social Media Giants",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50243831",
+    "title": "Show HN: Building the European Company Graph one website at a time",
+    "date": "2026-10-26",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://firmendaten.researchly.at/netzwerk",
+    "summary": "At Researchly (https://www.researchly.at) we automate market and competitive analysis. We learned that on-the-fly web search through AI agents isn't reliable enough for consistent, in-d",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50243871",
+    "title": "The Roots of the UK's New Censorship Agency",
+    "date": "2026-10-26",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.effort.news/ncid",
+    "summary": "The Roots of the UK's New Censorship Agency",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50245001",
+    "title": "Build a Hidden Lock with a Magnetic Imager",
+    "date": "2026-10-26",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://spectrum.ieee.org/magnetic",
+    "summary": "Build a Hidden Lock with a Magnetic Imager",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50245135",
+    "title": "Wages Fall to 43% of U.S. Gross Domestic Income, Lowest Since 1929",
+    "date": "2026-10-26",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://unusualwhales.com/news/wages-43-percent-gdi-lowest-since-great-depression",
+    "summary": "Wages Fall to 43% of U.S. Gross Domestic Income, Lowest Since 1929",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50245820",
+    "title": "Show HN: git-dupe – Version private files alongside a public Git repo",
+    "date": "2026-10-26",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/BrianWeiHaoMa/git-dupe/tree/main",
+    "summary": "Hi HN!I made git-dupe to solve the problem where I have notes, skills, and agent instructions that are part of my personal workflow, so I do not want them committed to the public repo, but at the same",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-agility-and-gxo-logistics-plan-43",
+    "title": "Agility and GXO Logistics plan expanded deployment of Digit humanoid",
+    "date": "2026-10-26",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/",
+    "summary": "GXO Logistics, which has tested humanoid robots from multiple companies, will deploy Agility's Digit at two more sites.\nThe post Agility and GXO Logistics plan expanded deployment of Digit humanoid ap...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50218633",
+    "title": "Root shell on Samsung TV",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
+    "summary": "Root shell on Samsung TV",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50223343",
+    "title": "Batchplan: Plan batches of robot motions, use for execution or training data",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/natsuku-lab/batchplan",
+    "summary": "Batchplan: Plan batches of robot motions, use for execution or training data",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50223473",
+    "title": "I Replaced 50 PHP Workers with One Go Process",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://sentinel.rootstuff.io/blog/laravel-edge-workers-to-go-probes",
+    "summary": "I Replaced 50 PHP Workers with One Go Process",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50223536",
+    "title": "I built a livestream where you can control a $4k 7-DOF Robot [video]",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=uSrAc9nv_do",
+    "summary": "I built a livestream where you can control a $4k 7-DOF Robot [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50226125",
+    "title": "RoboJev: Jev, but to Grade Robot Data",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robo-jev.com/",
+    "summary": "RoboJev: Jev, but to Grade Robot Data",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50227798",
+    "title": "OpenJDK randomly(?) removes all eMudhra root CAs",
+    "date": "2026-10-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/openjdk/jdk/pull/33554",
+    "summary": "OpenJDK randomly(?) removes all eMudhra root CAs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50228053",
+    "title": "Chasing the cognitive roots of our rectangular mindset (2004)",
+    "date": "2026-10-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.cdac.in/index.aspx?id=pdf_dkatre5",
+    "summary": "Chasing the cognitive roots of our rectangular mindset (2004)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-teradyne-robotics-partners-wit-18",
+    "title": "Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics",
+    "date": "2026-10-25",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/",
+    "summary": "Sereact and Teradyne have already shipped hundreds of UR robots in dual-arm systems to live customer sites across Europe.\nThe post Teradyne Robotics partners with Sereact to scale physical AI in retai...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "fedreg-news-2026-21786",
+    "title": "Outbound Investment Security Program Regulations",
+    "date": "2026-10-26",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations",
+    "summary": "This proposed rule sets forth regulations that would implement Subtitle C of the Comprehensive Outbound Investment National Security Act, which is codified at Title VIII of the Defense Production Act....",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "fedreg-news-2026-21777",
+    "title": "Performance Review Board Membership",
+    "date": "2026-10-26",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21777/performance-review-board-membership",
+    "summary": "Notice is given of the names of members of a Performance Review Board for the Department of the Army.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50211266",
+    "title": "Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks, Embodiments",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2610.10409",
+    "summary": "Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks, Embodiments",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50212341",
+    "title": "Do pricier robot vacuums get better reviews? 737 reviews",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.bettascore.ai/research/robot-vacuum-prices",
+    "summary": "Do pricier robot vacuums get better reviews? 737 reviews",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50213160",
+    "title": "RoboJev: Grade robot task success 48x cheaper than 6 Astra",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://huggingface.co/spaces/josefchen/RoboJev",
+    "summary": "RoboJev: Grade robot task success 48x cheaper than 6 Astra",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50213536",
+    "title": "Show HN: Cascache – A Go cache where slow reads can't undo invalidation",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/unkn0wn-root/cascache/",
+    "summary": "Show HN: Cascache – A Go cache where slow reads can't undo invalidation",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50214466",
+    "title": "Show HN: Sillage, a small contemplative game drawn after Haeckel's plates",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://sillage.denzen.online",
+    "summary": "Hi HN. Sillage (French for the wake a boat leaves behind) is a small browser game with no goal.You're a blob: hold the mouse or a finger down to swim toward it, and fast currents carry you into t",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50215485",
+    "title": "Biggest Fails from the 2026 World Humanoid Robot Games in China [video]",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=XgnBN8BLc-o",
+    "summary": "Biggest Fails from the 2026 World Humanoid Robot Games in China [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50215552",
+    "title": "Show HN: Distributed, deterministically secure agentic swarm runtime. Enclawed",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://zenodo.org/records/23602948",
+    "summary": "A Deterministic Security Runtime for LLM Agents on MPI and Batch-Scheduled HPC Systems: Consensus-Governed, Hardware-Rooted Supervision of Every Rank",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50217573",
+    "title": "Show HN: 27B open model to grade robot data 48x cheaper/27x faster vs. 6 Astra",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/josefchen/status/2113687649131336039",
+    "summary": "Show HN: 27B open model to grade robot data 48x cheaper/27x faster vs. 6 Astra",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50220042",
+    "title": "Show HN: Autonomous root for Tcl Android TV via CVE-2022-22706",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://gitlab.com/c4psu13/mali-pagecache-root",
+    "summary": "Show HN: Autonomous root for Tcl Android TV via CVE-2022-22706",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50220510",
+    "title": "Solving a Giant Rubik's Cube with a Quadruped Robot",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://leggedrobotics.github.io/rubik-skills/",
+    "summary": "Solving a Giant Rubik's Cube with a Quadruped Robot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50220529",
+    "title": "China's Baidu tests robotaxi on London streets",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.reuters.com/business/finance/chinas-baidu-tests-robotaxi-london-streets-2026-10-23/",
+    "summary": "China's Baidu tests robotaxi on London streets",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-generative-bionics-to-launch-p-943",
+    "title": "Generative Bionics to launch Physical AI Data Factory in Italy",
+    "date": "2026-10-23",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/generative-bionics-to-launch-physical-ai-data-factory-in-italy/",
+    "summary": "Generative Bionics says it hopes to advance European robotics sovereignty by ensuring that humanoid data is are generated on the continent. \nThe post Generative Bionics to launch Physical AI Data Fact...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-webinar-to-discuss-how-the-fcc-318",
+    "title": "Webinar to discuss how the FCC robotics ruling affects automation buyers",
+    "date": "2026-10-23",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/webinar-discuss-how-fcc-robotics-ruling-affects-automation-buyers/",
+    "summary": "Industry leaders will discuss what robotics buyers should know about the recent FCC restriction on certain connected systems.\nThe post Webinar to discuss how the FCC robotics ruling affects automation...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-eka-robotics-raises-150m-to-sc-206",
+    "title": "Eka Robotics raises $150M to scale its vision-force-action model for robots",
+    "date": "2026-10-24",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/",
+    "summary": "Eka Robotics is building a vision-force-action, or VFA, model to develop an intuition of physics through reinforcement learning at scale.\nThe post Eka Robotics raises $150M to scale its vision-force-a...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50188497",
+    "title": "39-humanizer, for anyone under 40 who would rather not sound like a bot",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/OmShiv/39-humanizer",
+    "summary": "39-humanizer, for anyone under 40 who would rather not sound like a bot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50197192",
+    "title": "The Titanic didn't sink for just one reason",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://rootly.com/blog/the-titanic-didnt-sink-for-just-one-reason",
+    "summary": "The Titanic didn't sink for just one reason",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50199157",
+    "title": "Delivery robots have moved to the street",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://brandondonnelly.com/delivery-robots-have-moved-to-the-street/",
+    "summary": "Delivery robots have moved to the street",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50199504",
+    "title": "We tried reproducing Robocurve's RoboHarm results",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robouse.ai/blog/robouse-harm-1/",
+    "summary": "We tried reproducing Robocurve's RoboHarm results",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50200482",
+    "title": "Backdoored robot tries its hand at finger chopping and cat cooking",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theregister.com/ai-and-ml/2026/10/22/backdoored-robot-tries-its-hand-at-finger-chopping-and-cat-cooking/5304870",
+    "summary": "Backdoored robot tries its hand at finger chopping and cat cooking",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50204013",
+    "title": "Japan: Scientists develop autonomously swarming robodogs for anti-bear patrols",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://soranews24.com/2026/10/22/japanese-scientists-developing-cute-autonomously-swarming-robo-dogs-for-anti-bear-patrols-video/",
+    "summary": "Japan: Scientists develop autonomously swarming robodogs for anti-bear patrols",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50204304",
+    "title": "Brain organoid computing for robotic decision-making",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750426v1",
+    "summary": "Brain organoid computing for robotic decision-making",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50205425",
+    "title": "The DNSSEC Root Signing Ceremony",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.cloudflare.com/learning/dns/dnssec/root-signing-ceremony/",
+    "summary": "The DNSSEC Root Signing Ceremony",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50205934",
+    "title": "Disney Raising Prices Days After Confirming Ads Will Now Show Up on Every Tier",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.tvfandomlounge.com/disney-plus-price-hike-ads-premium-tier-nielsen-emmys-2026/",
+    "summary": "Disney Raising Prices Days After Confirming Ads Will Now Show Up on Every Tier",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50206190",
+    "title": "Fortescue is using KUKA welding robots to handle 6 MW charging cables",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://electrek.co/2026/10/22/fortescue-is-using-kuka-welding-robots-to-handle-6-mw-charging-cables-video/",
+    "summary": "Fortescue is using KUKA welding robots to handle 6 MW charging cables",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50206592",
+    "title": "Show HN: Flaksorama – A party game for work events where anyone can win",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://flaksorama.com/demo",
+    "summary": "Hi HN, we're Andrea (product and design) and Yulai (code). We met as consultants on the same dev team and somehow ended up planning parties. It escalated. Christmas Olympics, bug hunt, and our ow",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50207105",
+    "title": "Capitalists Don't Take on \"Risk,\" Workers Do",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.currentaffairs.org/news/capitalists-dont-take-on-risk-workers-do",
+    "summary": "Capitalists Don't Take on \"Risk,\" Workers Do",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50208296",
+    "title": "A live zoo of bots visiting one site, with a trap for those ignoring robots.txt",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://crawlerzoo.com/",
+    "summary": "A live zoo of bots visiting one site, with a trap for those ignoring robots.txt",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50208731",
+    "title": "The Miniaturization of Military Robots",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://smallwarsjournal.com/2026/10/23/the-miniaturization-of-military-robots/",
+    "summary": "The Miniaturization of Military Robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50209337",
+    "title": "UK council accuses Microsoft of \"blackmail\" as software fees jump 15%",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.neowin.net/news/uk-council-accuses-microsoft-of-blackmail-as-software-fees-jump-15/",
+    "summary": "UK council accuses Microsoft of \"blackmail\" as software fees jump 15%",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50209961",
+    "title": "When the Term \"Heatwave\" Is No Longer Enough",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://coveringclimatenow.org/from-us-story/when-the-term-heatwave-is-no-longer-enough/",
+    "summary": "When the Term \"Heatwave\" Is No Longer Enough",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50210067",
+    "title": "eMudhra ignored Mozilla Root investigation deadline; blames social media",
+    "date": "2026-10-23",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2083449",
+    "summary": "eMudhra ignored Mozilla Root investigation deadline; blames social media",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-former-openai-science-lead-lau-338",
+    "title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
+    "date": "2026-10-22",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
+    "summary": "Wearing cameras and sensor gloves, the startup’s human chemists will train robots to perform various lab tasks.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-video-friday-quadruped-robot-s-330",
+    "title": "Video Friday: Quadruped Robot Solves Giant Rubik’s Cube By Itself",
+    "date": "2026-10-23",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-rubiks-cube-robot",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50183877",
+    "title": "US envoy Witkoff to Putin: 'You are a humanitarian ... I salute that'",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.politico.eu/article/us-special-envoy-witkoff-to-putin-you-are-a-humanitarian-i-salute-that/",
+    "summary": "US envoy Witkoff to Putin: 'You are a humanitarian ... I salute that'",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50194792",
+    "title": "How to Protect Humanity from AI – Robert Reich",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robertreich.substack.com/p/how-to-protect-humanity-from-ai",
+    "summary": "How to Protect Humanity from AI – Robert Reich",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50183100",
+    "title": "9/10 research papers disputing ultraprocessed food definition have industry ties",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theexamination.org/articles/nova-ultraprocessed-foods-industry-ties-study",
+    "summary": "9/10 research papers disputing ultraprocessed food definition have industry ties",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50183915",
+    "title": "Show HN: IDE for a general-purpose visual programming language \"Pipe\"",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.pipelang.com/",
+    "summary": "I'm happy to announce the release of the web-based Pipe IDE, availablle by clicking button \"Try Pipe IDE\" on website.Pipe IDE requires no account - all data is stored locally in your br",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50184593",
+    "title": "Show HN: Decentralised AI Inference Network",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://rootmode.ai/",
+    "summary": "Show HN: Decentralised AI Inference Network",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50184967",
+    "title": "Lucid's 25,000 Bolt robotaxis will run on Nvidia's self-driving software",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://electrek.co/2026/10/21/lucid-bolt-robotaxi-nvidia-alpamayo-madrid-2027/",
+    "summary": "Lucid's 25,000 Bolt robotaxis will run on Nvidia's self-driving software",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50188809",
+    "title": "Robotaxi – Safety",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "summary": "Robotaxi – Safety",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50193108",
+    "title": "Show HN: Moin – A P2P voice app built on iroh and Media over QUIC",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://moin.chat/",
+    "summary": "The first voice chat app I used with friends was Roger Wilco back in 1999. We later moved to TeamSpeak, Ventrilo and Mumble. I loved how simple and self-hostable they were. Then Discord came along...W",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50193919",
+    "title": "Talking to the robots (my first encounter with an AI agent)",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://blog.excelpricefeed.com/2026/10/22/talking-to-the-robots/",
+    "summary": "Talking to the robots (my first encounter with an AI agent)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50194415",
+    "title": "Show HN: VLDA-learn compact Deltas as actionable transition interfaces for robot",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://baidu-baige.github.io/LoongForge/projects/vlda.html",
+    "summary": "Introducing LoongForge-VLDA, a Vision-Language-Delta-Action model trained with LoongForge: 98.5% on LIBERO, 84.5% zero-shot on LIBERO-Plus, and +17–18 points over π0.5 on real robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50194551",
+    "title": "Automattic begins layoffs following board upheaval and executive departures",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://techcrunch.com/2026/10/21/automattic-begins-layoffs-following-board-upheaval-and-executive-departures/",
+    "summary": "Automattic begins layoffs following board upheaval and executive departures",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50194574",
+    "title": "Huang shrugs off protestors to kick off GTC Berlin with DSX Pods, Robots",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.nextplatform.com/control/2026/10/21/huang-shrugs-off-protestors-to-kick-off-gtc-berlin-with-dsx-pods-robots/5304447",
+    "summary": "Huang shrugs off protestors to kick off GTC Berlin with DSX Pods, Robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50194714",
+    "title": "Kansas farm equipment factory will put humanoid robots to work in 2027",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.techspot.com/news/114297-kansas-farm-equipment-factory-put-humanoid-robots-work.html",
+    "summary": "Kansas farm equipment factory will put humanoid robots to work in 2027",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50195373",
+    "title": "AI-powered robots can be tricked into slicing off fingers",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.popsci.com/technology/ai-powered-robot-slices-fingers/",
+    "summary": "AI-powered robots can be tricked into slicing off fingers",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-dream-labs-raises-90m-and-laun-437",
+    "title": "Dream Labs raises $90M and launches Dream API",
+    "date": "2026-10-22",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/dream-labs-raises-90m-and-launches-dream-api/",
+    "summary": "Dream Labs says its Dream-1 AI model works across robots from different manufacturers and will allow robots to transfer their learning.\nThe post Dream Labs raises $90M and launches Dream API appeared ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-tesla-starts-optimus-robot-pro-424",
+    "title": "Tesla starts Optimus robot production in California as profit falls 43%",
+    "date": "2026-10-21",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
+    "summary": "Tesla's revenue was flat and its expenses skyrocketed as it pressed the accelerator on its Optimus robots, AI, and autonomous driving.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50139775",
+    "title": "The Landscape of Humanoids – 2,351 products, 788 companies",
+    "date": "2026-10-18",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://airfold.co/humanoid-technology-map/",
+    "summary": "The Landscape of Humanoids – 2,351 products, 788 companies",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50153403",
+    "title": "Big Tech Oligarchs Have a Terrible Plan for Humanity",
+    "date": "2026-10-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theatlantic.com/ideas/2026/10/ai-regulation-transhumanism-oligarchs/689013/",
+    "summary": "Big Tech Oligarchs Have a Terrible Plan for Humanity",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50165992",
+    "title": "The Death of Humanity",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://fortune.com/2026/10/16/the-death-of-humanity-stephen-messer/",
+    "summary": "The Death of Humanity",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50166062",
+    "title": "Computer Chips Are the Most Magnificent Things Humanity Has Ever Made",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.newyorker.com/magazine/2026/10/26/computer-chips-are-the-most-magnificent-things-weve-ever-made",
+    "summary": "Computer Chips Are the Most Magnificent Things Humanity Has Ever Made",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50170125",
+    "title": "Is Taste a Moat?",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://humansignal.com/essays/is-taste-a-moat/",
+    "summary": "Is Taste a Moat?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50179684",
+    "title": "Cryptid preying on chickens along US-Mexico border: paranormal investigator",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://nypost.com/2026/10/19/world-news/humanoid-predator-cryptid-preying-on-chickens-along-us-mexico-border-report/",
+    "summary": "Cryptid preying on chickens along US-Mexico border: paranormal investigator",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50142428",
+    "title": "Goalia, the Robotic Goalie – Banting Robotics",
+    "date": "2026-10-18",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.banting7200.com/blog/goalia-the-robotic-goalie",
+    "summary": "Goalia, the Robotic Goalie – Banting Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50154060",
+    "title": "AI lab offers free plumbing and HVAC repairs across three cities to train robots",
+    "date": "2026-10-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning",
+    "summary": "AI lab offers free plumbing and HVAC repairs across three cities to train robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50157175",
+    "title": "Show HN: Robotics startup with $10–12 meals delivered in SF",
+    "date": "2026-10-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.dailys.menu/",
+    "summary": "Daily's is a robotics startup aiming to decrease the cost of great food, something we believe will be the most impactful application of robotics. We launched our first ghost kitchen, and are sell",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50162122",
+    "title": "OpenPCIE – FPGA Root Complex, OpenBackplane, EduBOS5 RISC-V, Co-SIM",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/chili-chips-ba/openPCIE",
+    "summary": "OpenPCIE – FPGA Root Complex, OpenBackplane, EduBOS5 RISC-V, Co-SIM",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50164496",
+    "title": "Zippy: The smallest power-autonomous bipedal robot(2025)",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2505.05686",
+    "summary": "Zippy: The smallest power-autonomous bipedal robot(2025)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50164534",
+    "title": "Trump Appointees Asked a Federal Cybersecurity Agency to Hack a Voting Machine",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.propublica.org/article/cisa-election-security-donald-trump",
+    "summary": "Trump Appointees Asked a Federal Cybersecurity Agency to Hack a Voting Machine",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50164756",
+    "title": "Old Blood Cells Have Been Transformed into Brain Stem Cells That Get Younger",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.sciencealert.com/old-blood-cells-have-been-transformed-into-brain-stem-cells-that-get-younger-as-they-age",
+    "summary": "Old Blood Cells Have Been Transformed into Brain Stem Cells That Get Younger",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50165801",
+    "title": "Publish fake stats, get cited in LLMs",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+    "summary": "Publish fake stats, get cited in LLMs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50166522",
+    "title": "Can a robot assemble tight-clearance parts using only its proprioception?",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/younghyo_park/status/2112182379091501136",
+    "summary": "Can a robot assemble tight-clearance parts using only its proprioception?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50168316",
+    "title": "Add Honest Achmed's root certificate",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://bugzilla.mozilla.org/show_bug.cgi?id=647959",
+    "summary": "Add Honest Achmed's root certificate",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50170319",
+    "title": "The dangers of letting tech billionaires shape our world",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/global/2026/oct/19/musk-ukraine-ai-music",
+    "summary": "The dangers of letting tech billionaires shape our world",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50170492",
+    "title": "Salmon Farmers Deploy Lasers, Robots to Meet Booming Demand",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.wsj.com/business/salmon-farmers-deploy-lasers-robots-to-meet-booming-demand-2cad3925",
+    "summary": "Salmon Farmers Deploy Lasers, Robots to Meet Booming Demand",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50170661",
+    "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+    "summary": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50171498",
+    "title": "Building a Robot Owl with No Robotics Experience",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://mattcool.tech/posts/hoot-a-small-robot-companion-for-learning/",
+    "summary": "Building a Robot Owl with No Robotics Experience",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50172336",
+    "title": "Certifi bundles emSign root CAs with compromised intermediate CA keys",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/advisories/GHSA-6q48-6c7w-9gw2",
+    "summary": "Certifi bundles emSign root CAs with compromised intermediate CA keys",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50172432",
+    "title": "I Built a Stereo Vision Board for Hardware Hackers",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://rootkitlabs.com/2026/10/06/i-built-a-stereo-vision-board-for-hardware-hackers/",
+    "summary": "I Built a Stereo Vision Board for Hardware Hackers",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50172597",
+    "title": "We just launched Voxel, a Droid Butler",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://tuesdaylabs.com/robot",
+    "summary": "We just launched Voxel, a Droid Butler",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50174317",
+    "title": "LabRobotBench v0.1: Benchmarking wet lab robotics",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://gamowlabs.com/lab-robot-bench-v0-1",
+    "summary": "LabRobotBench v0.1: Benchmarking wet lab robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50174642",
+    "title": "Secret trigger words could make AI-powered robots dangerous",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.binghamton.edu/news/story/6544/secret-trigger-words-could-make-ai-powered-robots-dangerous-and-these-researchers-developed-a-defense",
+    "summary": "Secret trigger words could make AI-powered robots dangerous",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50174841",
+    "title": "Letting the internet destroy stuff with a 3000lb robot [video]",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=jorcg0Bx3Cw",
+    "summary": "Letting the internet destroy stuff with a 3000lb robot [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50176035",
+    "title": "Pantheon: Building the Most Diverse UMI Dataset in Robotics",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://pantheon.inc/research/diverse-umi",
+    "summary": "Pantheon: Building the Most Diverse UMI Dataset in Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50176238",
+    "title": "Self-hosted web app for Roborock vacuums that chains cleans",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/zarifaziz/roborock-webapp",
+    "summary": "Self-hosted web app for Roborock vacuums that chains cleans",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50176483",
+    "title": "Delivery Robots Accused of Scanning Customers' Faces and Sharing Biometric Data",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://apnews.com/article/chicago-food-delivery-robots-biometric-data-lawsuits-16ead54eb7dc7c6eacbf011c53b9b20d",
+    "summary": "Delivery Robots Accused of Scanning Customers' Faces and Sharing Biometric Data",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50177523",
+    "title": "Manufacturing Nostalgia: Paula Sweeney on Longing for How Life Once Felt",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://philosophybreak.com/articles/manufacturing-nostalgia-paula-sweeney-on-longing-for-how-life-once-felt/",
+    "summary": "Manufacturing Nostalgia: Paula Sweeney on Longing for How Life Once Felt",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50177829",
+    "title": "Big Tech Will Not Broadcast Your Dissent",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.motherjones.com/politics/2026/10/meta-x-no-kings-elections-protests-midterms-free-speech-us-brazil/",
+    "summary": "Big Tech Will Not Broadcast Your Dissent",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50178404",
+    "title": "The Media 'Manufactured' Millionaire Exodus from UK, Campaigners Tell IPSO",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://bylinetimes.com/2026/10/20/the-media-manufactured-millionaire-exodus-from-uk-campaigners-tell-ipso-in-open-letter/",
+    "summary": "The Media 'Manufactured' Millionaire Exodus from UK, Campaigners Tell IPSO",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50178881",
+    "title": "It's a bird, it's a plane it's a robo-puffin?",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.technologyreview.com/2026/10/20/1145205/its-a-bird-its-a-plane-its-a-robo-puffin/",
+    "summary": "It's a bird, it's a plane it's a robo-puffin?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50180866",
+    "title": "Self-hosted Claude Environments on secure open-source infrastructure",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/obot-platform/obot/",
+    "summary": "Self-hosted Claude Environments on secure open-source infrastructure",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50181137",
+    "title": "The No Kings Takedown Is Why You Shouldn't Rent Your Megaphone from Zuck",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.techdirt.com/2026/10/20/accident-or-not-the-no-kings-takedown-is-why-you-shouldnt-rent-your-megaphone-from-zuck/",
+    "summary": "The No Kings Takedown Is Why You Shouldn't Rent Your Megaphone from Zuck",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50181176",
+    "title": "eMudhra Statement on Distrust of Select Global TLS Intermediate and One Root CA",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://emudhra.com/en/press-release/emudhra-statement-distrust-global-tls-intermediate-root-ca",
+    "summary": "eMudhra Statement on Distrust of Select Global TLS Intermediate and One Root CA",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-how-to-choose-a-bldc-motor-for-206",
+    "title": "How to choose a BLDC motor for robotic arms and mobile robots",
+    "date": "2026-10-18",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-to-choose-bldc-motor-robotic-arms-mobile-robots/",
+    "summary": "Several factors, from sensors to safety and robotic arms or mobile platforms, help determine the selection of a brushless DC or BLDC motor.\nThe post How to choose a BLDC motor for robotic arms and mob...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-a-guide-to-everything-happenin-415",
+    "title": "A guide to everything happening at RoboBusiness 2026",
+    "date": "2026-10-19",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/a-guide-to-everything-happening-at-robobusiness-2026/",
+    "summary": "RoboBusiness 2026 will start tomorrow, so we're putting together an overview of everything happening at the show over the next two days.\nThe post A guide to everything happening at RoboBusiness 2026 a...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-daimon-robotics-building-the-i-706",
+    "title": "Daimon Robotics building the infrastructure layer for tactile intelligence",
+    "date": "2026-10-19",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/daimon-robotics-building-the-infrastructure-layer-for-tactile-intelligence/",
+    "summary": "The company is connecting tactile sensing, real-world data collection, simulation, and AI models to help robots perform physical tasks more reliably.\nThe post Daimon Robotics building the infrastructu...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-unleash-ai-innovation-the-powe-733",
+    "title": "Unleash AI Innovation: The Power of NVIDIA RTX PRO 6000 Blackwell Workstation Edition Fueled by PNY-Supplied GPUs",
+    "date": "2026-10-19",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/unleash-ai-innovation-the-power-of-nvidia-rtx-pro-6000-blackwell-workstation-edition-fueled-by-pny-supplied-gpus/",
+    "summary": "As robotics systems grow more capable — faster, more precise, and increasingly reliant on AI-driven vision and control — the humble interconnect is being asked to do more than ever.\nThe post Unleash A...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-a-guide-to-day-1-of-robobusine-821",
+    "title": "A guide to Day 1 of RoboBusiness 2026",
+    "date": "2026-10-20",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/a-guide-to-day-1-of-robobusiness-2026/",
+    "summary": "We've compiled a schedule for everything happening on the first day of RoboBusiness 2026 in Santa Clara, Calif.\nThe post A guide to Day 1 of RoboBusiness 2026 appeared first on The Robot Report.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-avenda-health-expands-unfold-a-903",
+    "title": "Avenda Health expands Unfold AI platform to support intraoperative prostate cancer care",
+    "date": "2026-10-20",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/avenda-health-expands-unfold-ai-platform-support-intraoperative-prostate-cancer-care/",
+    "summary": "Surgery Mode in Unfold AI brings patient-specific 3D maps to give an enhanced view of cancer anatomy during robotic prostate procedures.\nThe post Avenda Health expands Unfold AI platform to support in...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-2027-trr50-robotics-innovation-185",
+    "title": "2027 TRR50 Robotics Innovation Awards open nominations",
+    "date": "2026-10-20",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/",
+    "summary": "The TRR50 winners will be celebrated at an awards gala during the Robotics Summit & Expo, which will be held on June 2-3, 2027 in Boston.\nThe post 2027 TRR50 Robotics Innovation Awards open nomination...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-robobusiness-rebrands-as-robot-913",
+    "title": "RoboBusiness rebrands as Robotics Summit & Expo West",
+    "date": "2026-10-20",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/robobusiness-rebrands-as-robotics-summit-expo-west/",
+    "summary": "Robotics Summit & Expo West sharpens focus on deploying robotics and AI in the real world, complementing the East Coast flagship event.\nThe post RoboBusiness rebrands as Robotics Summit & Expo West ap...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-reservoir-launches-new-agricul-501",
+    "title": "Reservoir launches new agricultural robotics incubator for Washington growers",
+    "date": "2026-10-20",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/reservoir-launches-new-agricultural-robotics-incubator-for-washington-growers/",
+    "summary": "Reservoir hopes to put agricultural robotics startups to work in the orchards, vineyards and berry fields alongside researchers and growers.\nThe post Reservoir launches new agricultural robotics incub...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-a-guide-to-day-2-of-robobusine-631",
+    "title": "A guide to Day 2 of RoboBusiness 2026",
+    "date": "2026-10-21",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/a-guide-to-day-2-of-robobusiness-2026/",
+    "summary": "Day 2 of RoboBusiness 2026, the 20th anniversary of the event, will include interesting keynotes around humanoids and social robots.\nThe post A guide to Day 2 of RoboBusiness 2026 appeared first on Th...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-agco-to-deploy-agility-digit-h-18",
+    "title": "AGCO to deploy Agility Digit humanoid in Kansas factory",
+    "date": "2026-10-21",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/",
+    "summary": "The Agility pilot, which is expected to begin in 2027, will begin at an AGCO production facility for agricultural equipment.\nThe post AGCO to deploy Agility Digit humanoid in Kansas factory appeared f...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-laplace-intelligence-red-teams-801",
+    "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+    "date": "2026-10-19",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+    "summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in ...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-ex-nvidia-turned-vc-amulya-vis-651",
+    "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in its LEGO era’",
+    "date": "2026-10-20",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+    "summary": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-the-robot-i-didn-t-expect-to-b-649",
+    "title": "The Robot I Didn’t Expect to Build",
+    "date": "2026-10-19",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
+    "summary": "Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economi...",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "companies": [],
     "policies": [],
     "source_type": "Press Release",
