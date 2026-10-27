@@ -50,12 +50,11 @@
       {
         "customer": "Consumer pre-orders",
         "location": "USA",
-        "robot_count": 10000,
-        "start_date": "2026-04",
-        "status": "pilot",
-        "use_case": "household assistance — opening doors, fetching items, lighting control",
-        "source_url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/",
-        "archive_url": "https://web.archive.org/web/20260529030912/https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
+        "robot_count": null,
+        "start_date": "2026",
+        "status": "planned",
+        "use_case": "NEO household assistance offered by preorder; consumer deliveries planned, not a verified deployment count",
+        "source_url": "https://www.1x.tech/ja_jp/discover/neo-factory"
       }
     ],
     "headcount": null,
@@ -87,9 +86,12 @@
       {
         "url": "https://sifted.eu/articles/1x-humanoid-robot-launch",
         "archive_url": "https://web.archive.org/web/20251130090543/https://sifted.eu/articles/1x-humanoid-robot-launch"
+      },
+      {
+        "url": "https://www.1x.tech/ja_jp/discover/neo-factory"
       }
     ],
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-10-26",
     "themes": [
       "cost-trajectory"
     ],
@@ -98,10 +100,10 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private company. Funded by OpenAI Startup Fund, Tiger Global, EQT Ventures. Revenue generation started in 2026 via NEO consumer humanoid pre-orders. Reportedly raising a ~$1B Series C at a ~$10B valuation (first reported Sep 2025); as of Jun 2026 no source confirms the round has closed — not reflected in valuation.",
+      "details": "Private company. NEO was offered for preorder. In April 2026, 1X said its Hayward factory was ramping toward an initial capacity of 10,000 NEOs per year and that early units were prioritized for internal development and home testing; customer deliveries were planned to start in 2026. Capacity and preorders are not robots delivered. A reported ~$1B Series C at a ~$10B valuation remained unconfirmed in the cited reporting.",
       "sources": [
         {
-          "url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
+          "url": "https://www.1x.tech/ja_jp/discover/neo-factory"
         },
         {
           "url": "https://techstartups.com/2025/09/24/norways-1x-raising-1b-at-10b-valuation-to-bring-humanoid-robot-neo-into-homes/"
@@ -320,7 +322,17 @@
     ],
     "primary_use_case": "manufacturing",
     "flagship_product": "Yuanzheng A2",
-    "deployments": [],
+    "deployments": [
+      {
+        "customer": "Chimelong Group",
+        "location": "Zhuhai, China",
+        "robot_count": null,
+        "start_date": "2026-09",
+        "status": "active",
+        "use_case": "Company reports more than 300 robots across entertainment, visitor services, education and hotel operations; the mix of robot types is not disclosed",
+        "source_url": "https://www.prnewswire.com/apac/news-releases/agibot-and-chimelong-launch-large-scale-embodied-ai-theme-park-with-more-than-300-robots-302888863.html"
+      }
+    ],
     "headcount": null,
     "headcount_date": null,
     "target_price_usd": null,
@@ -355,14 +367,14 @@
         "url": "https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026"
       }
     ],
-    "last_updated": "2026-09-25",
+    "last_updated": "2026-10-26",
     "themes": [
       "china-scale"
     ],
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "Private; last disclosed valuation $2.07B (Tencent-led strategic round, 2025-03). Delivered its 20,000th robot by September 2026, double the 10,000th it marked on 2026-03-30, and launched a 300-robot deployment with Chimelong at a Zhuhai theme park on 2026-09-24. Counterpoint has AgiBot first in H1 2026 humanoid shipments with about 43% of units. Trade press reports a Hong Kong listing process; no filing was checked here."
+      "details": "Private; last disclosed valuation $2.07B (Tencent-led strategic round, 2025-03). Delivered its 20,000th robot by September 2026, double the 10,000th it marked on 2026-03-30, and reported a deployment of more than 300 mixed-type robots with Chimelong at a Zhuhai theme park on 2026-09-24. Counterpoint has AgiBot first in H1 2026 humanoid shipments with about 43% of units. Trade press reports a Hong Kong listing process; no filing was checked here."
     },
     "map_category": "humanoid"
   },
@@ -411,17 +423,18 @@
       {
         "date": "2026-06",
         "round": "SPAC merger (announced)",
-        "amount_usd": 620000000,
+        "amount_usd": null,
         "valuation_usd": 2500000000,
         "investors": [
           "Churchill Capital Corp XI",
           "Foxconn (PIPE)"
         ],
         "url": "https://www.businesswire.com/news/home/20260624555633/en/Agility-Robotics-to-Go-Public-Through-$2.5-Billion-Merger-with-Churchill-Capital-Corp-XI",
-        "confidence": "reported"
+        "confidence": "reported",
+        "notes": "Announced transaction expects more than $620M in proceeds, subject to closing and redemptions; not completed financing as of October 26, 2026."
       }
     ],
-    "total_funding_usd": 1170000000,
+    "total_funding_usd": null,
     "latest_valuation_usd": 2120000000,
     "robot_types": [
       "humanoid",
@@ -468,6 +481,24 @@
         "status": "planned",
         "use_case": "parts sorting and stacking, tote positioning — pilot expected 2027",
         "source_url": "https://www.humanoidsdaily.com/news/agco-agility-digit-hesston-kansas-manufacturing-pilot"
+      },
+      {
+        "customer": "GXO Logistics",
+        "location": "Statesville, NC, USA",
+        "robot_count": null,
+        "start_date": "2027",
+        "status": "planned",
+        "use_case": "e-commerce material handling; Digit 4 expected in early 2027, with Digit 5 planned when commercially available",
+        "source_url": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations"
+      },
+      {
+        "customer": "GXO Logistics",
+        "location": "Lebanon, TN, USA",
+        "robot_count": null,
+        "start_date": "2027",
+        "status": "planned",
+        "use_case": "e-commerce material handling; Digit 4 expected in early 2027, with Digit 5 planned when commercially available",
+        "source_url": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations"
       }
     ],
     "headcount": 406,
@@ -512,9 +543,12 @@
       },
       {
         "url": "https://www.humanoidsdaily.com/news/agility-investor-day-digit-5-launch-costs-and-a-300m-order-that-unlocks-skill-by-skill"
+      },
+      {
+        "url": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations"
       }
     ],
-    "last_updated": "2026-10-21",
+    "last_updated": "2026-10-26",
     "themes": [
       "cost-trajectory",
       "industrial-deployments",
@@ -525,7 +559,7 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private company. Generates revenue through hardware sales, leasing, and subscription-based service models (Agility Arc/RaaS). Latest Series C valued the company at $1.8B. Agreed 2026-06-24 to go public via a $2.5B SPAC merger with Churchill Capital Corp XI (ticker AGLT); deal expected to generate $620M+ in proceeds with Foxconn leading a PIPE. Agility reports $300M+ in multi-year Digit v5 orders and deployments across nine sites with 65,000+ operating hours. Note: the $2.5B SPAC-implied valuation reflects an announced, not-yet-closed deal; latest_valuation_usd retains the last confirmed Series C figure ($2.12B) until the merger closes.\n\nDigit 5 unveiled 2026-09-15: 50 lb payload (up from 35), 90-min runtime/9-min charge, swappable end-effectors; early access 1H 2027, general availability end of 2027. As of late September 2026 the SPAC merger Form S-4 is in SEC review, with an investor day set for 2026-10-06 and close expected Q4 2026. Analyst & Investor Day (2026-10-06) disclosed Digit 5 unit economics: illustrative $200,000 robot purchase price, $20,000 deployment fee, $36,000/yr software-and-maintenance — roughly $400,000 five-year cost per robot. Digit 4's BOM was ~$125,000 (already disclosed in the SPAC Form S-4); Digit 5 launch BOM is ~$150,000, targeted to fall to ~$75,000 at 1,000 robots/year and ~$30,000 at 10,000/year, with a targeted 70% product margin over five years. Confirmed a $300M+ Digit 5 order backlog.",
+      "details": "Agility remains private pending its announced merger with Churchill Capital Corp XI. Its Form S-4 became effective October 13, 2026; the shareholder vote is scheduled for November 2 and closing is expected in Q4 2026. The announced $2.5B transaction valuation is not a closed public-market valuation. latest_valuation_usd retains the reported $2.12B Series C valuation. The listed $150M Series B and reported $400M Series C sum to $550M, excluding proposed $620M-plus merger proceeds; these records do not establish lifetime funding, so total_funding_usd is unknown. Agility’s October 26 release reports over 65,000 operating hours. GXO’s two additional US sites are planned for early 2027; Digit 5 early access is expected in the first half of 2027 and general availability by year end.\n\nAnalyst & Investor Day (2026-10-06) disclosed Digit 5 unit economics: illustrative $200,000 robot purchase price, $20,000 deployment fee, $36,000/yr software-and-maintenance — roughly $400,000 five-year cost per robot. Digit 4's BOM was ~$125,000 (already disclosed in the SPAC Form S-4); Digit 5 launch BOM is ~$150,000, targeted to fall to ~$75,000 at 1,000 robots/year and ~$30,000 at 10,000/year, with a targeted 70% product margin over five years. Agility’s October 26 release says the $300M-plus order value depends on milestones, product features and specifications; it is not current-period revenue.",
       "sources": [
         {
           "url": "https://www.geekwire.com/2025/agility-robotics-reportedly-raising-400m-for-humanoid-warehouse-robots/"
@@ -538,6 +572,12 @@
         },
         {
           "url": "https://www.humanoidsdaily.com/news/agility-investor-day-digit-5-launch-costs-and-a-300m-order-that-unlocks-skill-by-skill"
+        },
+        {
+          "url": "https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-s-4-registration-statement-declared-effective-by-sec-in-connection-with-proposed-business-combination"
+        },
+        {
+          "url": "https://www.agilityrobotics.com/content/agility-robotics-highlights-commercial-momentum-and-growing-enterprise-demand-for-digit-humanoid-robot"
         }
       ]
     },
@@ -1037,17 +1077,49 @@
         ],
         "url": "https://www.prnewswire.com/news-releases/bedrock-robotics-raises-270-million-in-series-b-funding-to-accelerate-the-future-of-autonomous-construction-302679014.html",
         "confidence": "reported"
+      },
+      {
+        "date": "2026-10",
+        "round": "Series C",
+        "amount_usd": 600000000,
+        "valuation_usd": 4100000000,
+        "investors": [
+          "CapitalG",
+          "Emergence Capital",
+          "US Innovative Technology Fund",
+          "Bessemer Venture Partners",
+          "Temasek",
+          "8VC",
+          "Georgian",
+          "Valor Equity Partners",
+          "Xora",
+          "Eclipse",
+          "Perry Creek Capital",
+          "NVIDIA"
+        ],
+        "url": "https://www.globenewswire.com/news-release/2026/10/26/3388197/0/en/bedrock-robotics-raises-600-million-series-c-to-scale-autonomous-construction-equipment-across-u-s-sites.html",
+        "confidence": "confirmed"
       }
     ],
-    "total_funding_usd": 350000000,
-    "latest_valuation_usd": 1750000000,
+    "total_funding_usd": 950000000,
+    "latest_valuation_usd": 4100000000,
     "robot_types": [
       "autonomous vehicle",
       "AMR"
     ],
     "primary_use_case": "autonomous construction equipment",
     "flagship_product": "Bedrock Operator (autonomy retrofit kit)",
-    "deployments": [],
+    "deployments": [
+      {
+        "customer": "Commercial construction contractors",
+        "location": "USA",
+        "robot_count": null,
+        "start_date": "2026-08",
+        "status": "active",
+        "use_case": "Company reports autonomous excavators performing paid work on live commercial job sites",
+        "source_url": "https://www.globenewswire.com/news-release/2026/10/26/3388197/0/en/bedrock-robotics-raises-600-million-series-c-to-scale-autonomous-construction-equipment-across-u-s-sites.html"
+      }
+    ],
     "headcount": null,
     "headcount_date": null,
     "target_price_usd": null,
@@ -1078,16 +1150,24 @@
       },
       {
         "url": "https://www.constructiondive.com/news/bedrock-robotics-raise-ai-automation-funding/811982/"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/10/26/3388197/0/en/bedrock-robotics-raises-600-million-series-c-to-scale-autonomous-construction-equipment-across-u-s-sites.html"
       }
     ],
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-10-26",
     "themes": [
       "physical-ai"
     ],
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "Private. Retrofits existing heavy construction equipment with an autonomy kit (lidar, GPS, motion sensors) — the \"Bedrock Operator.\" Founded by former Waymo leaders (incl. the head of its trucking program). Emerged from stealth July 2025 with $80M; Series B $270M at a $1.75B post-money valuation (Feb 2026), total raised >$350M. Targeting first fully autonomous excavator deployments in 2026."
+      "details": "Private. Bedrock retrofits construction equipment with autonomy systems. In October 2026 it announced a $600M Series C at a $4.1B post-money valuation; its disclosed Seed/Series A, Series B and Series C amounts total $950M, while the company describes total funding as nearly $1B. Bedrock says autonomous excavators began paid work on live commercial job sites in August 2026; it did not disclose a fleet count.",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/10/26/3388197/0/en/bedrock-robotics-raises-600-million-series-c-to-scale-autonomous-construction-equipment-across-u-s-sites.html"
+        }
+      ]
     },
     "map_category": "field"
   },
@@ -1839,7 +1919,7 @@
       "service_robot"
     ],
     "primary_use_case": "healthcare",
-    "flagship_product": "Moxi",
+    "flagship_product": "Moxi 2.0 hospital assistant robot",
     "deployments": [
       {
         "customer": "Multiple hospital systems",
@@ -1881,18 +1961,24 @@
       {
         "url": "https://diligentrobots.com",
         "archive_url": "https://web.archive.org/web/20260412134505/https://www.diligentrobots.com/"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1832483/000121390026043149/ea0283053-8ka1_serve.htm"
+      },
+      {
+        "url": "https://serverobotics.gcs-web.com/news-releases/news-release-details/serve-launches-robot-delivery-wonder-adding-grubhub-its-growing"
       }
     ],
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-10-26",
     "themes": [],
     "financials": {
-      "details": "Acquired by Serve Robotics (NASDAQ: SERV): announced 2026-01-19, closed 2026-01-27 — all-stock deal valued ~$29M (final purchase-price allocation ~$25.7M). Now a Serve subsidiary; the consideration is an acquisition value, not a step-up valuation.",
+      "details": "Serve Robotics completed its acquisition of Diligent on January 27, 2026. The company said Moxi 2.0 began rolling out to health systems in August 2026.",
       "sources": [
         {
-          "url": "https://www.stocktitan.net/news/SERV/serve-robotics-to-acquire-diligent-robotics-expanding-physical-ai-ybnl2fpexb8x.html"
+          "url": "https://www.sec.gov/Archives/edgar/data/1832483/000121390026043149/ea0283053-8ka1_serve.htm"
         },
         {
-          "url": "https://techcrunch.com/2026/01/20/why-serve-robotics-is-acquiring-a-hospital-assistant-robot-company/"
+          "url": "https://serverobotics.gcs-web.com/news-releases/news-release-details/serve-launches-robot-delivery-wonder-adding-grubhub-its-growing"
         }
       ]
     },
@@ -2553,14 +2639,25 @@
       },
       {
         "url": "https://techcrunch.com/2021/07/20/gecko-robotics/"
+      },
+      {
+        "url": "https://www.geckorobotics.com/news/navy-idiq-expansion"
       }
     ],
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-10-26",
     "themes": [
       "industrial-deployments",
       "defense-procurement"
     ],
-    "map_category": "field"
+    "map_category": "field",
+    "financials": {
+      "details": "In October 2026 Gecko said the U.S. Navy and GSA increased the ceiling of its five-year inspection and maintenance IDIQ contract from $71M to $300M. A contract ceiling is not guaranteed revenue or obligated spending.",
+      "sources": [
+        {
+          "url": "https://www.geckorobotics.com/news/navy-idiq-expansion"
+        }
+      ]
+    }
   },
   {
     "id": "gen-reasoning",
@@ -2674,15 +2771,26 @@
         ],
         "url": "https://siliconangle.com/2026/06/04/generalist-ai-raises-400m-2b-valuation-build-general-intelligence-real-world/",
         "confidence": "confirmed"
+      },
+      {
+        "date": "2026-08",
+        "round": "Series B extension (reported)",
+        "amount_usd": null,
+        "valuation_usd": 3000000000,
+        "investors": [
+          "8VC"
+        ],
+        "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+        "confidence": "reported"
       }
     ],
-    "total_funding_usd": 540000000,
-    "latest_valuation_usd": 2000000000,
+    "total_funding_usd": null,
+    "latest_valuation_usd": 3000000000,
     "robot_types": [
       "foundation_model"
     ],
     "primary_use_case": "general-purpose robot foundation models",
-    "flagship_product": "Generalist robot foundation model (VLA)",
+    "flagship_product": "Gen 1.5 robot foundation model",
     "deployments": [],
     "headcount": 67,
     "headcount_date": "2026-04",
@@ -2717,9 +2825,12 @@
       },
       {
         "url": "https://www.crunchbase.com/organization/generalist-ai"
+      },
+      {
+        "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/"
       }
     ],
-    "last_updated": "2026-06-05",
+    "last_updated": "2026-10-26",
     "themes": [
       "foundation-models",
       "physical-ai"
@@ -2727,7 +2838,12 @@
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "Private. Building general-purpose sensorimotor foundation models (GEN-1) that transfer across robot arms and environments. GEN-1 achieves 99% reliability across dexterous tasks at 3x prior SOTA speed. ~$540M raised total: $140M seed (Mar 2025), $400M Series B (Jun 2026) at $2B valuation led by Radical Ventures. Investors include Bezos Expeditions, NVIDIA, Union Square Ventures, 8VC, and Fei-Fei Li."
+      "details": "Private company building robot foundation models. In August 2026 TechCrunch reported that Generalist raised nearly $200M in a Series B extension led by 8VC at a $3B valuation; the company did not comment. The June Series B announcement was $400M. The extension is approximate, so total funding is not presented as an exact figure.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/"
+        }
+      ]
     },
     "map_category": "brains"
   },
@@ -2833,10 +2949,11 @@
       {
         "customer": "Hospitals (global)",
         "location": "Global",
-        "robot_count": 10763,
+        "robot_count": 12094,
         "status": "active",
-        "use_case": "da Vinci installed base",
-        "start_date": "2000"
+        "use_case": "da Vinci installed base, as of September 30, 2026",
+        "start_date": "2000",
+        "source_url": "https://isrg.intuitive.com/node/23381/pdf"
       }
     ],
     "headcount": null,
@@ -2870,14 +2987,22 @@
       },
       {
         "url": "https://www.stocktitan.net/news/ISRG/intuitive-announces-first-quarter-1rw9huwnl0u6.html"
+      },
+      {
+        "url": "https://isrg.intuitive.com/node/23381/pdf"
       }
     ],
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-10-26",
     "themes": [],
     "financials": {
-      "revenue_usd": 2510000000,
-      "revenue_year": "Q3 2025",
-      "details": "Publicly traded (Nasdaq: ISRG); founded 1995, IPO 2000. The dominant surgical-robotics company. Q3 2025 revenue $2.51B (+23% YoY); da Vinci installed base 10,763 systems as of Sep 30, 2025 (+13% YoY). Dave Rosa became CEO July 1, 2025."
+      "revenue_usd": 3050000000,
+      "revenue_year": "Q3 2026",
+      "details": "Publicly traded (Nasdaq: ISRG). Intuitive reported Q3 2026 revenue of $3.05B and 546 da Vinci placements, including 315 da Vinci 5 systems. Its installed base was 12,094 da Vinci systems as of September 30, 2026. Dave Rosa became CEO July 1, 2025.",
+      "sources": [
+        {
+          "url": "https://isrg.intuitive.com/node/23381/pdf"
+        }
+      ]
     },
     "map_category": "service"
   },
@@ -2933,10 +3058,9 @@
     ],
     "ceo": "Gary Cohen",
     "tags": [
-      "public",
       "consumer",
       "home",
-      "nasdaq-irbt"
+      "private"
     ],
     "data_confidence": "high",
     "sources": [
@@ -2945,14 +3069,22 @@
       },
       {
         "url": "https://www.sec.gov/Archives/edgar/data/0001159167/000115916725000050/ex991q12025pressrelease.htm"
+      },
+      {
+        "url": "https://media.irobot.com/2026-01-23-iRobot-Completes-Court-Supervised-Transaction-with-Picea%2C-Enabling-the-Next-Chapter-of-Growth"
       }
     ],
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-10-26",
     "themes": [],
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "Publicly traded (Nasdaq: IRBT); founded 1990, pioneer of consumer home robots (Roomba). Launched its largest-ever product refresh in March 2025, but 2025 quarters fell below expectations amid market headwinds and production/shipping delays; the board is running a review of strategic alternatives (going-concern pressure). CEO Gary Cohen."
+      "details": "Founded in 1990, iRobot makes Roomba home-cleaning robots. On January 23, 2026 it completed a court-supervised restructuring and became a privately held company wholly owned by Picea. Gary Cohen was CEO at the closing announcement.",
+      "sources": [
+        {
+          "url": "https://media.irobot.com/2026-01-23-iRobot-Completes-Court-Supervised-Transaction-with-Picea%2C-Enabling-the-Next-Chapter-of-Growth"
+        }
+      ]
     },
     "map_category": "service"
   },
@@ -2979,9 +3111,18 @@
         "url": "https://locusrobotics.com",
         "confidence": "confirmed",
         "archive_url": "https://web.archive.org/web/20260430225422/https://locusrobotics.com/"
+      },
+      {
+        "date": "2026-09",
+        "round": "Series G (in progress)",
+        "amount_usd": 41600000,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://www.axios.com/pro/enterprise-software-deals/2026/09/01/locus-robotics-series-g",
+        "confidence": "reported"
       }
     ],
-    "total_funding_usd": 423000000,
+    "total_funding_usd": null,
     "latest_valuation_usd": 2000000000,
     "robot_types": [
       "AMR"
@@ -3029,19 +3170,22 @@
       {
         "url": "https://locusrobotics.com",
         "archive_url": "https://web.archive.org/web/20260430225422/https://locusrobotics.com/"
+      },
+      {
+        "url": "https://www.axios.com/pro/enterprise-software-deals/2026/09/01/locus-robotics-series-g"
       }
     ],
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-10-26",
     "themes": [],
     "financials": {
-      "revenue_usd": 230000000,
-      "revenue_year": "2024",
+      "revenue_usd": null,
+      "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private company. Revenue estimated at $230M (late 2024 projections) based on subscription-based warehouse robotics automation (Robotics-as-a-Service model).",
+      "details": "Private warehouse-robotics company. In September 2026 CEO Rick Faulk told Axios Locus had raised $41.6M from existing investors in a Series G that was still in progress. The previous $230M figure was a 2024 projection, not verified actual revenue; an exact cumulative funding figure has not been established here.",
       "sources": [
         {
-          "url": "https://locusrobotics.com"
+          "url": "https://www.axios.com/pro/enterprise-software-deals/2026/09/01/locus-robotics-series-g"
         }
       ]
     },
@@ -4107,12 +4251,13 @@
     "flagship_product": "Autonomous sidewalk delivery robot (Gen3); 'Maggie' conversational robot",
     "deployments": [
       {
-        "customer": "Uber Eats & restaurant partners",
-        "location": "44 cities across 14 states (US)",
-        "robot_count": 2000,
+        "customer": "Delivery platform and restaurant partners",
+        "location": "USA",
+        "robot_count": null,
         "status": "active",
-        "use_case": "Last-mile sidewalk delivery",
-        "start_date": "2022"
+        "use_case": "Last-mile delivery; company says more than 2,000 robots deployed nationally, while Q2 daily-active count includes indoor and outdoor robots",
+        "start_date": "2022",
+        "source_url": "https://ir.serverobotics.com/news-releases/news-release-details/serve-robotics-announces-second-quarter-2026-results"
       }
     ],
     "headcount": null,
@@ -4147,14 +4292,25 @@
       },
       {
         "url": "https://www.nvidia.com/en-us/case-studies/serve-robotics/"
+      },
+      {
+        "url": "https://ir.serverobotics.com/news-releases/news-release-details/serve-robotics-announces-second-quarter-2026-results"
+      },
+      {
+        "url": "https://serverobotics.gcs-web.com/news-releases/news-release-details/serve-launches-robot-delivery-wonder-adding-grubhub-its-growing"
       }
     ],
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-10-26",
     "themes": [],
     "financials": {
-      "revenue_usd": 3000000,
-      "revenue_year": "Q1 2026",
-      "details": "Publicly traded (Nasdaq: SERV); spun out of Uber/Postmates in 2021. Q1 2026 revenue $3.0M, up 238% sequentially and 578% YoY; reaffirmed ~$26M FY2026 revenue guidance. Largest US sidewalk-delivery fleet (2,000+ robots across 44 cities / 14 states). Acquired Diligent Robotics in 2026 to expand into indoor service robots."
+      "revenue_usd": 3238000,
+      "revenue_year": "Q2 2026",
+      "details": "Publicly traded (Nasdaq: SERV); spun out of Uber/Postmates in 2021. Q2 2026 revenue was $3.238M. Serve revised FY2026 revenue guidance to $9M–$10M, citing lower expected Uber Eats delivery volume. It reported an average 792 daily active robots in Q2 across indoor and outdoor fleets. It acquired Diligent Robotics in January 2026.",
+      "sources": [
+        {
+          "url": "https://ir.serverobotics.com/news-releases/news-release-details/serve-robotics-announces-second-quarter-2026-results"
+        }
+      ]
     },
     "map_category": "service"
   },
@@ -4333,25 +4489,25 @@
         "start_date": "2026",
         "status": "active",
         "use_case": "Blackwell assembly line automation",
-        "source_url": "https://www.bloomberg.com/news/articles/2026-09-10/robotics-startup-skild-ai-hits-100-million-in-revenue-run-rate"
+        "source_url": "https://skild.ai/blogs/skild-crosses-100m-arr"
       },
       {
         "customer": "Sumitomo Wiring Systems",
         "location": "Global",
         "robot_count": null,
         "start_date": "2026",
-        "status": "active",
-        "use_case": "Wiring harness manufacturing",
-        "source_url": "https://www.bloomberg.com/news/articles/2026-09-10/robotics-startup-skild-ai-hits-100-million-in-revenue-run-rate"
+        "status": "planned",
+        "use_case": "Working toward use of S1 in wire-harness manufacturing",
+        "source_url": "https://skild.ai/blogs/skild-crosses-100m-arr"
       },
       {
         "customer": "Mitsui & Co.",
         "location": "Japan",
         "robot_count": null,
         "start_date": "2026",
-        "status": "active",
-        "use_case": "Commercial-kitchen automation",
-        "source_url": "https://www.bloomberg.com/news/articles/2026-09-10/robotics-startup-skild-ai-hits-100-million-in-revenue-run-rate"
+        "status": "pilot",
+        "use_case": "Piloting S1-powered robots in commercial kitchens",
+        "source_url": "https://skild.ai/blogs/skild-crosses-100m-arr"
       }
     ],
     "headcount": null,
@@ -4392,24 +4548,27 @@
       },
       {
         "url": "https://www.skild.ai/blogs/physical-self-play"
+      },
+      {
+        "url": "https://skild.ai/blogs/skild-crosses-100m-arr"
       }
     ],
-    "last_updated": "2026-09-25",
+    "last_updated": "2026-10-26",
     "themes": [
       "foundation-models"
     ],
     "financials": {
-      "revenue_usd": 100000000,
-      "revenue_year": "2026",
+      "revenue_usd": null,
+      "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private software/AI brain startup. Series C funding round in Jan 2026 raised $1.4B led by SoftBank (with Nvidia) at a $14B valuation, up from a $4.5B valuation in mid-2025. Reached a $100M ARR run-rate by Sep 2026, 10 months after its first commercial deployment — software now runs on hundreds of robots at 60+ paying customers (up from 8 earlier in 2026).",
+      "details": "Private robotics software company. Its January 2026 Series C raised $1.4B at a reported $14B valuation. In September 2026 Skild reported over $100M in annual recurring revenue and $50M recognized since it began deployments ten months earlier. ARR is a run rate, not annual recognized revenue.",
       "sources": [
         {
           "url": "https://www.businesswire.com/news/home/20260114335623/en/Skild-AI-Raises-$1.4B-Now-Valued-Over-$14B"
         },
         {
-          "url": "https://www.bloomberg.com/news/articles/2026-09-10/robotics-startup-skild-ai-hits-100-million-in-revenue-run-rate"
+          "url": "https://skild.ai/blogs/skild-crosses-100m-arr"
         }
       ]
     },
@@ -4800,25 +4959,28 @@
       {
         "url": "https://www.symbotic.com",
         "archive_url": "https://web.archive.org/web/20260506210620/https://www.symbotic.com/"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000042/q3268-k_ex991.htm"
+      },
+      {
+        "url": "https://www.symbotic.com/news/symbotic-announces-acquisition-of-cellumation-advancing-next-generation-sortation-technology-for-the-global-supply-chain/"
       }
     ],
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-10-26",
     "themes": [],
     "financials": {
-      "revenue_usd": 2247000000,
-      "revenue_year": "2025",
-      "net_income_usd": -91000000,
-      "net_income_year": "2025",
-      "details": "Public company (SYM). Reported FY2025 revenue of $2.247B and a net loss of $91M. Contracting backlog is $22.4B. Q1 FY2026 reported revenue of $630M and net income of $13M. Market cap ~$24.23B as of 2026-06-22. Q2 FY2026 (reported 2026-05-06): revenue $676M (+23% YoY), first GAAP-profitable quarter with $9M net income, adj. EBITDA $78M, backlog ~$22.7B.",
+      "revenue_usd": 720838000,
+      "revenue_year": "Q3 FY2026",
+      "net_income_usd": 55000000,
+      "net_income_year": "Q3 FY2026",
+      "details": "Public company (Nasdaq: SYM). Q3 fiscal 2026 revenue was $720.8M and net income $55M. The company reported 77 systems in deployment, which is not a count of completed or operating systems. In October 2026 Symbotic acquired German sortation company cellumation; its founders remain in place and it continues under its own name.",
       "sources": [
         {
-          "url": "https://ir.symbotic.com/"
+          "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000042/q3268-k_ex991.htm"
         },
         {
-          "url": "https://stockanalysis.com/stocks/sym/market-cap/"
-        },
-        {
-          "url": "https://www.stocktitan.net/news/SYM/symbotic-reports-second-quarter-fiscal-year-2026-uc7ef87gezqw.html"
+          "url": "https://www.symbotic.com/news/symbotic-announces-acquisition-of-cellumation-advancing-next-generation-sortation-technology-for-the-global-supply-chain/"
         }
       ]
     },
@@ -4881,25 +5043,34 @@
       },
       {
         "url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/"
+      },
+      {
+        "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf"
       }
     ],
-    "last_updated": "2026-09-26",
+    "last_updated": "2026-10-26",
     "themes": [
       "cost-trajectory",
       "industrial-deployments"
     ],
     "financials": {
-      "revenue_usd": 96770000000,
+      "revenue_usd": 94827000000,
       "revenue_year": "2025",
-      "net_income_usd": 15000000000,
+      "net_income_usd": 3794000000,
       "net_income_year": "2025",
-      "details": "Optimus program is funded internally through Tesla's cash flow. Tesla reported total FY2025 revenue of $96.77B, net income of $15B, and R&D expenses of $4.87B. Per The Information as summarized by Ars Technica (2026-09-25), Optimus V3 output reached hundreds of units a week at Fremont, targeting more than 1,000 a week by end-2026; most units are used internally, and the hand assembly and sensors remain production bottlenecks.",
+      "details": "Optimus program is funded internally through Tesla's cash flow. Tesla reported FY2025 company-wide revenue of $94.827B, net income attributable to common stockholders of $3.794B, and R&D expenses of $6.411B. These are Tesla totals, not Optimus revenue or program spending. Per The Information as summarized by Ars Technica (2026-09-25), Optimus V3 output reached hundreds of units a week at Fremont, targeting more than 1,000 a week by end-2026; most units are used internally, and the hand assembly and sensors remain production bottlenecks. In its Q3 2026 update, Tesla said early production had begun at Fremont and described the units as its first production-quality Optimus robots; it did not disclose the number produced.",
       "sources": [
         {
           "url": "https://www.tesla.com/AI"
         },
         {
           "url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/"
+        },
+        {
+          "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm"
         }
       ]
     },
@@ -4937,13 +5108,13 @@
     "flagship_product": "UV-C Autonomous Field Robot",
     "deployments": [
       {
-        "customer": "Strawberry farms (pilot)",
+        "customer": "Strawberry farms",
         "location": "California, USA",
-        "robot_count": null,
+        "robot_count": 15,
         "start_date": "2024",
-        "status": "pilot",
-        "use_case": "autonomous pest control without pesticides",
-        "source_url": "https://www.therobotreport.com/tric-robotics-raises-seed-funding-help-farmers-control-pests-plant-disease/"
+        "status": "active",
+        "use_case": "UV-C and vacuum pest control; company reported 15 machines operating nightly in 2026",
+        "source_url": "https://agfundernews.com/%F0%9F%8E%A5-tric-robotics-scales-to-1500-strawberry-acres-with-15-robot-fleet"
       }
     ],
     "headcount": null,
@@ -4976,12 +5147,15 @@
       "us-founded"
     ],
     "data_confidence": "high",
-    "last_updated": "2026-06-14",
+    "last_updated": "2026-10-26",
     "source_url": "https://www.therobotreport.com/tric-robotics-raises-seed-funding-help-farmers-control-pests-plant-disease/",
     "notes": "Founded 2017, origin at University of Delaware. Fully autonomous field robots using UV-C light for pest control. 70% pesticide reduction in pilots. Service-based business model. Verified via The Robot Report, Yahoo Finance, Crunchbase.",
     "sources": [
       {
         "url": "https://www.therobotreport.com/tric-robotics-raises-seed-funding-help-farmers-control-pests-plant-disease/"
+      },
+      {
+        "url": "https://agfundernews.com/%F0%9F%8E%A5-tric-robotics-scales-to-1500-strawberry-acres-with-15-robot-fleet"
       }
     ],
     "themes": [
@@ -5585,6 +5759,15 @@
         "use_case": "autonomous drone delivery — health, retail, food (2M+ commercial deliveries)",
         "source_url": "https://www.therobotreport.com/zipline-raises-over-600m-in-funding-surpasses-2m-commercial-drone-deliveries/",
         "archive_url": "https://web.archive.org/web/20260218125946/https://www.therobotreport.com/zipline-raises-over-600m-in-funding-surpasses-2m-commercial-drone-deliveries/"
+      },
+      {
+        "customer": "Uber Eats",
+        "location": "USA",
+        "robot_count": null,
+        "start_date": "2026",
+        "status": "planned",
+        "use_case": "announced drone-delivery partnership; first deliveries expected in 2026",
+        "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Zipline-Partner-to-Bring-Drone-Delivery-to-Millions-of-Americans/default.aspx"
       }
     ],
     "headcount": null,
@@ -5621,9 +5804,12 @@
       },
       {
         "url": "https://www.bloomberg.com/news/articles/2026-01-20/drone-delivery-startup-zipline-hits-7-6-billion-valuation"
+      },
+      {
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Zipline-Partner-to-Bring-Drone-Delivery-to-Millions-of-Americans/default.aspx"
       }
     ],
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-10-26",
     "themes": [],
     "financials": {
       "revenue_usd": null,
@@ -5983,9 +6169,24 @@
         ],
         "url": "https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/",
         "confidence": "reported"
+      },
+      {
+        "date": "2026-09",
+        "round": "Series A",
+        "amount_usd": 32000000,
+        "valuation_usd": null,
+        "investors": [
+          "Greylock",
+          "A* Capital",
+          "Category Ventures",
+          "BoxGroup",
+          "Icehouse Ventures"
+        ],
+        "url": "https://www.antioch.com/blog/series-a",
+        "confidence": "confirmed"
       }
     ],
-    "total_funding_usd": 12750000,
+    "total_funding_usd": 40500000,
     "latest_valuation_usd": 60000000,
     "robot_types": [
       "software-platform"
@@ -6050,9 +6251,12 @@
       },
       {
         "url": "https://siliconangle.com/2025/12/08/anticoh-lands-4-25m-pre-seed-funding-accelerate-autonomous-robot-testing-digital-twins/"
+      },
+      {
+        "url": "https://www.antioch.com/blog/series-a"
       }
     ],
-    "last_updated": "2026-06-16",
+    "last_updated": "2026-10-26",
     "themes": [
       "physical-ai"
     ],
@@ -6061,10 +6265,13 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private seed-stage NYC startup building cloud simulation / digital-twin infrastructure for autonomous-systems development (\"the Cursor for physical AI\"). ~$4.25M pre-seed (Dec 2025) and ~$8.5M seed (Apr 2026) at a reported ~$60M valuation; early MIT CSAIL pilot. Software platform, not a hardware maker.",
+      "details": "Private startup building simulation and testing infrastructure for autonomous systems. Antioch announced a $32M Series A in September 2026 and said total funding was $40.5M, including its previously announced $8.5M seed. Prior reporting also lists a separate $4.25M pre-seed, yielding a different total if added separately; the company’s reported total is shown here without assuming whether the rounds overlap.",
       "sources": [
         {
-          "url": "https://siliconangle.com/2026/04/16/antioch-prepares-accelerate-simulated-testing-autonomous-robots-raising-8-5m/"
+          "url": "https://www.antioch.com/blog/series-a"
+        },
+        {
+          "url": "https://siliconangle.com/2026/09/08/antioch-raises-32m-to-move-robot-testing-into-simulation/"
         }
       ]
     },
@@ -6250,19 +6457,28 @@
       },
       {
         "url": "https://new.abb.com/products/robotics"
+      },
+      {
+        "url": "https://www.abb.com/global/en/news/139480/prsrl-abb-robotics-brings-industrial-grade-physical-ai-to-fashion-logistics"
       }
     ],
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-10-26",
     "themes": [
       "industrial-deployments"
     ],
     "financials": {
       "revenue_usd": 3800000000,
       "revenue_year": "2025",
-      "details": "One of the 'big four' industrial-robot incumbents (FAI 2026). ABB agreed to divest its Robotics division to SoftBank for ~$5.375B (announced Oct 2025; expected to close mid-to-late 2026).",
+      "details": "One of the 'big four' industrial-robot incumbents (FAI 2026). ABB agreed to divest its Robotics division to SoftBank for ~$5.375B (announced Oct 2025; ABB’s October 20, 2026 report expects Q4 2026 closing, subject to regulatory approvals and customary conditions). In October 2026 ABB launched an AI Robot Trainer upgrade for its Fashion Inductor fashion-logistics module.",
       "sources": [
         {
           "url": "https://www.therobotreport.com/abb-group-sells-abb-robotics-softbank-5-3b/"
+        },
+        {
+          "url": "https://www.abb.com/global/en/news/139480/prsrl-abb-robotics-brings-industrial-grade-physical-ai-to-fashion-logistics"
+        },
+        {
+          "url": "https://attachment.news.eu.nasdaq.com/a432a6ff77b9f9e09c9fe0318fd0bbdee"
         }
       ]
     },
@@ -6398,17 +6614,23 @@
       },
       {
         "url": "https://www.universal-robots.com"
+      },
+      {
+        "url": "https://sereact.ai/posts/teradyne-robotics-partnership"
       }
     ],
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-10-26",
     "themes": [
       "industrial-deployments"
     ],
     "financials": {
-      "details": "The world's largest cobot maker (~30% market share), a subsidiary of US-listed Teradyne (acquired 2015 for ~$285M; reported separately within Teradyne's Robotics segment). FAI 2026 notes UR revenue has declined in recent years amid Chinese competition; it opened its first overseas plant in China in late 2024.",
+      "details": "The world's largest cobot maker (~30% market share), a subsidiary of US-listed Teradyne (acquired 2015 for ~$285M; reported separately within Teradyne's Robotics segment). FAI 2026 notes UR revenue has declined in recent years amid Chinese competition; it opened its first overseas plant in China in late 2024. In October 2026 Teradyne Robotics and Sereact announced a partnership combining Universal Robots arms with Sereact Cortex software for retail and logistics tasks.",
       "sources": [
         {
           "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+        },
+        {
+          "url": "https://sereact.ai/posts/teradyne-robotics-partnership"
         }
       ]
     },
@@ -7201,9 +7423,9 @@
       },
       {
         "date": "2026-06",
-        "round": "Series C",
-        "amount_usd": 1400000000,
-        "valuation_usd": 7000000000,
+        "round": "Series C (announced up to $1.4B)",
+        "amount_usd": null,
+        "valuation_usd": null,
         "investors": [
           "Tether Investments"
         ],
@@ -7211,8 +7433,8 @@
         "confidence": "reported"
       }
     ],
-    "total_funding_usd": 1530000000,
-    "latest_valuation_usd": 7000000000,
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
     "robot_types": [
       "humanoid",
       "cobot",
@@ -7248,9 +7470,12 @@
       },
       {
         "url": "https://neura-robotics.com"
+      },
+      {
+        "url": "https://neura-robotics.com/record-series-c/"
       }
     ],
-    "last_updated": "2026-06-30",
+    "last_updated": "2026-10-26",
     "themes": [
       "physical-ai",
       "foundation-models"
@@ -7260,13 +7485,13 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Founded 2019 by David Reger in Metzingen, Germany. Positions itself as Europe’s leading \"Physical AI\" / cognitive-robotics platform across service, industrial and humanoid form factors. Raised a record Series C of up to $1.4B (led by Tether Investments, announced 2026-06-10) at roughly a $7B valuation, on top of a €120M ($130M) Series B in January 2025. Showcased its full-stack platform at Automate 2026 (2026-06-19).",
+      "details": "Founded in 2019 in Metzingen, Germany. NEURA announced a Series C of up to $1.4B in June 2026; the cited announcement does not specify the amount closed or a valuation. It previously announced a €120M Series B in January 2025. No exact total or latest valuation is shown until supported by a source.",
       "sources": [
         {
-          "url": "https://www.businesswire.com/news/home/20260610204575/en/NEURA-Robotics-Announces-Record-Series-C-of-up-to-$1.4-Billion-to-Accelerate-the-Worlds-Leading-Physical-AI-Platform"
+          "url": "https://neura-robotics.com/record-series-c/"
         },
         {
-          "url": "https://www.businesswire.com/news/home/20260619441783/en/NEURA-Robotics-Showcases-Full-Stack-Robotics-Platform-at-Automate-2026"
+          "url": "https://neura-robotics.com/neura-robotics-secures-euro-120-million-series-b/"
         }
       ]
     },

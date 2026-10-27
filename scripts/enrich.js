@@ -60,7 +60,7 @@ const POLICY_RULES = [
   { id: 'mi-mobility-r-d', keywords: [/michigan/i, /mi medc/i] },
   { id: 'pa-pittsburgh-robotics', keywords: [/pennsylvania/i, /pittsburgh robotics/i] },
   { id: 'nc-advanced-mfg', keywords: [/north carolina/i, /nc jdig/i] },
-  { id: 'arpa-e-embodied-ai', keywords: [/arpa-e/i, /embodied ai for energy/i] },
+  { id: 'arpa-e-catalchem-e', keywords: [/catalchem-e/i] },
   { id: 'ny-rd-credit', keywords: [/new york/i, /excelsior jobs/i] },
   { id: 'rfa-coalition-launch', keywords: [/robots for america/i, /scsp ai/i] },
   { id: 'ostp-ai-action-plan', keywords: [/america's ai action plan/i, /ai action plan/i, /ostp.*ai/i] },

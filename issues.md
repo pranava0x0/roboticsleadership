@@ -8,7 +8,7 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 - **Root cause (code bug):** `renderProductionTrend` always rendered “Dashed = projected”, including when no row was projected.
 - **Fix:** show that legend only when forecast rows exist. The refresh removes unsupported country projections; historical observations stay solid.
-- **Regression coverage:** `scripts/render-static.test.js` checks actual-only and mixed actual/forecast inputs. Included in the October 26 refresh PR.
+- **Regression coverage:** `scripts/render-static.test.js` checks actual-only and mixed actual/forecast inputs. Commit: `86acf38`.
 
 
 ### 2026-09-25 — supply-chain.html — category tables overflowed the page at 375 px  ✅ FIXED 2026-09-25

@@ -4,7 +4,7 @@
   "date": "2026-10-14",
   "venue": "Waldorf Astoria, Washington, D.C.",
   "url": "https://www.scsp.ai/ai-robotics/",
-  "captured_at": "2026-10-14"
+  "captured_at": "2026-10-26"
  },
  "commission": {
   "name": "National Security Commission on Robotics for Advanced Manufacturing (SCSP initiative; non-governmental, not a congressional/statutory body)",
@@ -38,16 +38,16 @@
    "David Van Wie (JHU APL)"
   ],
   "advisor_note": "DLA Piper's Tony Samp is described as an official advisor (DLA Piper).",
-  "duration_and_deliverables": "One year; preliminary report released 2026-10-13 (~90 pages per one secondary source); final report with recommendations due March 2027.",
+  "duration_and_deliverables": "One year; preliminary report released October 13, 2026 (90 PDF pages); final recommendations scheduled for March 2027.",
   "preliminary_report": {
    "date": "2026-10-13",
    "headline": "America Leads in Robotics Innovation but Is Not on Track to Lead in Physical AI",
    "central_finding": "U.S. leads in 'brain' technologies (AI, computer vision, autonomy, software) but lacks scale to deploy robots, produce robotic systems and manufacture critical components domestically.",
    "key_numbers": [
-    "China ~354,200 industrial robot installs in 2025 (~59% of global) vs U.S. ~38,400 (Bajraktari Substack)",
+    "2025: China about 354,200 industrial robot installations (59% of global) vs US about 38,400 (IFR country release)",
     "2024: China 295,000 installs (54%) vs U.S. 34,200 (PR Newswire)",
     "Operational stock end-2024: China >2M vs U.S. 393,700 (>5x)",
-    "U.S. 8th in robot density (~307 per 10,000 mfg workers; S. Korea 1,220)",
+    "2024 density: US 307 robots per 10,000 manufacturing workers (8th); China 166 on IFR’s revised workforce denominator; South Korea 1,220",
     "12.1% of U.S. plants used robots (2021)",
     "Up to 1.9M unfilled mfg jobs by 2033 (~3.8M needed); apprentices 0.3% of workforce",
     "China ~94% of sintered permanent magnets (2024), 91% refined rare earths",
@@ -68,13 +68,14 @@
     "Slotkin": "bring back and expand critical manufacturing processes here at home"
    },
    "sources": [
+    "https://www.scsp.ai/robotics-preliminary-report/",
     "https://www.prnewswire.com/news-releases/scsp-national-security-commission-on-robotics-for-advanced-manufacturing-releases-preliminary-report-america-leads-in-robotics-innovation-but-is-not-on-track-to-lead-in-physical-ai-302907514.html",
-    "https://scsp222.substack.com/p/turning-americas-ai-advantage-into",
-    "https://www.unite.ai/bipartisan-robotics-panel-warns-of-widening-u-s-deployment-gap-with-china/"
+    "https://ifr.org/downloads/press_docs/EN-2026-SEP-24-IFR_Press_Release_WR-USA.pdf"
    ],
    "pdf_url": "https://www.scsp.ai/wp-content/uploads/2026/10/NSCRAM_Interim-Report.pdf"
   },
   "sources": [
+   "https://www.scsp.ai/robotics-commission/",
    "https://www.scsp.ai/2026/03/scsp-announces-launch-of-national-security-commission-on-robotics-for-advanced-manufacturing/",
    "https://www.therobotreport.com/scsp-launches-national-security-commission-robotics-advanced-manufacturing/",
    "https://www.dlapiper.com/en-us/insights/publications/2025/12/congressional-robotics-caucus",
@@ -82,8 +83,8 @@
   ],
   "caveats": [
    "scsp.ai/ai-robotics page itself only says 'Commission Co-Chairs' and does not name the commission; the identification comes from the March 2026 launch release.",
-   "Discrepancies: the unite.ai figures (2025 installs) and PR Newswire (2024 installs) cite different years - both given. A HyperSinc article says 'April 2026 launch' and 'Strategic Competition Support Partnership'; SCSP's release says March 17 - treat HyperSinc as erroneous.",
-   "Bajraktari is styled 'CEO' on the summit agenda and 'President' in the launch release."
+   "Bajraktari is styled 'CEO' on the summit agenda and 'President' in the launch release.",
+   "The commission is an SCSP initiative, separate from the proposed statutory commission. Its preliminary diagnosis remains distinct from final recommendations expected in March 2027."
   ]
  },
  "scsp_work": [
@@ -139,6 +140,14 @@
    "url": "https://scsp222.substack.com/p/turning-americas-ai-advantage-into",
    "key_points": [
     "See commission.preliminary_report"
+   ]
+  },
+  {
+   "title": "Attendee account of the AI+ Robotics Summit",
+   "date": "2026-10-26",
+   "url": "https://www.enovix.com/news/notes-from-the-ai-robotics-conference-in-washington-dc",
+   "key_points": [
+    "Enovix marketing director Robin Schneider describes the October 14 event, including Spot’s demonstration and discussions of integration data, components and workforce capacity. This is an attributed attendee account; its forecasts and cost estimates are not independent deployment evidence."
    ]
   }
  ],
@@ -1779,9 +1788,18 @@
   },
   {
    "org": "Agility Robotics",
-   "one_liner": "Unveiled Digit 5 and disclosed unit economics at investor day ahead of Churchill Capital XI SPAC merger.",
+   "one_liner": "GXO expansion to two US sites is planned for early 2027. Digit 5 access and the proposed SPAC merger remain future milestones.",
    "company_id": "agility-robotics",
    "news": [
+    {
+     "date": "2026-10-26",
+     "headline": "Agility reports GXO expansion and paid manufacturing programs",
+     "summary": "Agility says GXO will add two US sites in early 2027 and three unnamed manufacturers have paid programs. The $300M-plus Digit 5 order value is conditional future value, not current revenue.",
+     "url": "https://www.agilityrobotics.com/content/agility-robotics-highlights-commercial-momentum-and-growing-enterprise-demand-for-digit-humanoid-robot",
+     "source_name": "Agility Robotics",
+     "source_type": "primary",
+     "site_record_id": null
+    },
     {
      "date": "2026-10-06",
      "headline": "Investor day: Digit 5 economics and $300M+ order backlog",
@@ -1827,8 +1845,8 @@
     },
     {
      "date": "2026-10-18",
-     "headline": "FANUC America to show AI packaging cells at PACK EXPO (Oct 18-21)",
-     "summary": "Planned CRX cobot work cell with generative-AI natural-language commands and a 40 kg-payload CRX variant. Upcoming event, announcement date approximate.",
+     "headline": "FANUC America announced AI packaging cells for PACK EXPO (October 18–21)",
+     "summary": "The announcement described CRX cells with natural-language commands and a 40 kg-payload variant. The show has passed; this record establishes the announced exhibit, not deployment results.",
      "url": "https://www.plantautomation-technology.com/pressreleases/fanuc-america-brings-ai-powered-robotics",
      "source_name": "Plant Automation Technology (syndicated release)",
      "source_type": "trade/secondary",
@@ -1872,9 +1890,18 @@
   },
   {
    "org": "MxD",
-   "one_liner": "DoD-linked Chicago manufacturing institute; recent news is Department of War industrial-base awards and cybersecurity, not robotics per se. MxD Summit is Oct 20-22.",
+   "one_liner": "Chicago manufacturing institute; October updates cover workforce training access and its October 20–22 summit.",
    "company_id": null,
    "news": [
+    {
+     "date": "2026-10-15",
+     "headline": "MxD and Amatrol expand access to manufacturing training",
+     "summary": "Three MxD courses will be offered through Amatrol’s learning platform; completers may take a separate SACA credential assessment.",
+     "url": "https://www.mxdusa.org/news/mxd-and-amatrol-partner-to-expand-access-to-manufacturing-training/",
+     "source_name": "MxD",
+     "source_type": "primary",
+     "site_record_id": null
+    },
     {
      "date": "2026-08-05",
      "headline": "MxD awarded $67M by Department of War for organic industrial base modernization",
@@ -1905,10 +1932,10 @@
     {
      "date": "2026-10-20",
      "headline": "MxD Summit 2026 'Ready Now: Manufacturing at Mission Speed' (Oct 20-22, Chicago)",
-     "summary": "Upcoming event gathering government, industry and technology providers.",
-     "url": "https://www.manufacturingusa.com/events/mxd-summit-2026",
-     "source_name": "Manufacturing USA",
-     "source_type": "trade/secondary",
+     "summary": "MxD’s October 20–22 summit in Chicago is now a past event; no deployment outcomes are inferred from attendance.",
+     "url": "https://www.mxdusa.org/past-events/",
+     "source_name": "MxD",
+     "source_type": "primary",
      "site_record_id": null
     }
    ]
@@ -2481,7 +2508,6 @@
     }
    ],
    "open_items": [
-    
     "Which agencies besides EXIM were named",
     "When the first designations and the on-demand call will be published"
    ]

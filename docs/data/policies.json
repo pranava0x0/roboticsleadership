@@ -1,5 +1,42 @@
 [
   {
+    "id": "fedreg-2026-21786",
+    "title": "Treasury proposed outbound investment security regulations",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-10-26",
+    "status": "Introduced",
+    "bill_number": "2026-21786",
+    "sponsor": "U.S. Department of the Treasury",
+    "summary": "Treasury proposes rules to implement the outbound investment provisions of the COINS Act. The proposal would prohibit certain covered U.S. transactions involving foreign persons in countries of concern engaged in specified technologies and require notification for others. It includes development of super-intelligence systems and laboratory robotics within specified prohibited-technology categories. Comments are due December 7, 2026; the proposed rule is not final.",
+    "full_text_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations",
+    "robotics_scope": "The proposed definition of super-intelligence systems includes embodied systems such as robots; another proposed prohibited-technology category covers hardware, robotics or software for automated scientific discovery. Restrictions apply to covered transactions, not all robots or foreign investment.",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [
+      "treasury"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal-register",
+      "federal",
+      "investment",
+      "proposed"
+    ],
+    "themes": [
+      "policy-momentum",
+      "physical-ai"
+    ],
+    "sources": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-26/pdf/2026-21786.pdf"
+      }
+    ],
+    "last_updated": "2026-10-26"
+  },
+  {
     "id": "nist-mep-centers-awards-2026",
     "title": "NIST MEP center awards for advanced manufacturing adoption",
     "type": "Initiative",
@@ -245,13 +282,13 @@
       "policy-momentum",
       "industrial-deployments"
     ],
-    "last_updated": "2026-09-22",
+    "last_updated": "2026-10-26",
     "title": "Philadelphia — Bill 260526, autonomous delivery unit fees and registration",
     "introduced_date": "2026-05-14",
     "status": "Committee",
     "bill_number": "Bill 260526",
     "sponsor": "Philadelphia City Council",
-    "summary": "The proposed ordinance would register some delivery workers and autonomous delivery units and impose a $1,000 fee per sidewalk delivery by an autonomous unit. The city legislative record lists it in committee as of September 2026; the fee is not in effect.",
+    "summary": "The proposed ordinance would register some delivery workers and autonomous delivery units and impose a $1,000 fee per sidewalk delivery by an autonomous unit. The city legislative record lists it in committee as of October 26, 2026; the fee is not in effect.",
     "full_text_url": "https://phila.legistar.com/LegislationDetail.aspx?From=RSS&FullText=1&GUID=CE66787D-5BD4-467C-8259-4E1CCF17F7C6&ID=8029006",
     "robotics_scope": "Proposed local rules and fee for sidewalk delivery robots.",
     "sources": [
@@ -313,13 +350,13 @@
     "themes": [
       "policy-momentum"
     ],
-    "last_updated": "2026-09-22",
+    "last_updated": "2026-10-26",
     "title": "Colorado — SB 26-189 Automated Decision-Making Technology Act",
     "introduced_date": "2026-05",
     "status": "Signed",
     "bill_number": "SB 26-189",
     "sponsor": "Colorado General Assembly",
-    "summary": "Colorado repealed and reenacted its high-risk AI consumer-protection provisions in 2026. The new ADMT Act governs automated technology that materially influences consequential decisions and takes effect January 1, 2027. The Attorney General is preparing rules; it is not a general robot-operation code.",
+    "summary": "Colorado repealed and reenacted its automated-decision consumer-protection provisions in 2026. The ADMT Act covers technology that materially influences consequential decisions; substantive provisions take effect January 1, 2027. The Attorney General’s proposed rules remain in rulemaking, with a hearing scheduled for October 26. The act is not a general robot-operation code.",
     "full_text_url": "https://coag.gov/ai/",
     "robotics_scope": "Potential effect only where a robot-enabled system materially influences a covered consequential decision; ordinary physical robot operation is not automatically in scope.",
     "sources": [
@@ -868,16 +905,16 @@
   },
   {
     "id": "sec-174-rd-expensing",
-    "title": "Section 174 R&D Expensing",
+    "title": "Section 174A domestic R&D expensing",
     "type": "Regulation",
     "level": "Federal",
     "state": "N/A",
-    "introduced_date": "2026-01",
+    "introduced_date": "2025-07-04",
     "status": "In effect",
-    "bill_number": "IRC §174",
+    "bill_number": "IRC §174A",
     "sponsor": "N/A",
-    "summary": "Restores full first-year deduction for domestic R&D expenses (foreign R&D still amortized over 15 years), reversing the amortization requirement. Provides material cash-flow relief for pre-revenue robotics startups whose payroll is the bulk of Qualified Research Expenses.",
-    "full_text_url": "https://www.rehmann.com/resource/understanding-obbbs-rd-tax-credits-and-section-174-updates/",
+    "summary": "For tax years beginning after 2024, taxpayers may deduct eligible domestic research or experimental expenditures or elect to amortize them over at least 60 months. Foreign research expenditures remain subject to 15-year amortization. The treatment and any cash-flow benefit depend on the taxpayer and expense.",
+    "full_text_url": "https://www.irs.gov/newsroom/working-families-tax-cuts",
     "robotics_scope": "Tax treatment of domestic research & development payroll and expenses",
     "estimated_budget_usd": null,
     "beneficiaries": [
@@ -898,13 +935,13 @@
     ],
     "sources": [
       {
-        "url": "https://www.rehmann.com/resource/understanding-obbbs-rd-tax-credits-and-section-174-updates/"
+        "url": "https://www.irs.gov/newsroom/working-families-tax-cuts"
       },
       {
-        "url": "https://dhjj.com/understanding-rd-tax-credits-and-section-174-in-2026/"
+        "url": "https://www.rehmann.com/resource/understanding-obbbs-rd-tax-credits-and-section-174-updates/"
       }
     ],
-    "last_updated": "2026-05-22",
+    "last_updated": "2026-10-26",
     "themes": [
       "policy-momentum"
     ]
@@ -919,7 +956,7 @@
     "status": "In effect",
     "bill_number": "Public Law 119-21, §70301; 26 USC §168(k)",
     "sponsor": "Congress; Treasury and IRS implementation",
-    "summary": "Permanent 100% additional first-year depreciation is available for qualified property acquired after January 19, 2025. Eligible machinery and equipment may qualify; treatment depends on the asset and taxpayer. This is an enacted tax provision, not a robotics-only credit.",
+    "summary": "A permanent 100% additional first-year depreciation deduction applies to eligible qualified property acquired and placed in service after January 19, 2025, subject to elections and other eligibility rules. Eligible machinery may qualify; this is not a robotics-only credit.",
     "full_text_url": "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-the-additional-first-year-depreciation-deduction-amended-as-part-of-the-one-big-beautiful-bill",
     "robotics_scope": "Potential first-year deduction for eligible purchased automation equipment; asset-specific tax rules apply.",
     "estimated_budget_usd": null,
@@ -943,10 +980,10 @@
     ],
     "sources": [
       {
-        "url": "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-the-additional-first-year-depreciation-deduction-amended-as-part-of-the-one-big-beautiful-bill"
+        "url": "https://www.irs.gov/irb/2026-06_IRB"
       }
     ],
-    "last_updated": "2026-09-22",
+    "last_updated": "2026-10-26",
     "archive_url": "https://web.archive.org/web/20260517181442/https://www.congress.gov/",
     "themes": [
       "policy-momentum"
@@ -1223,48 +1260,46 @@
     ]
   },
   {
-    "id": "arpa-e-embodied-ai",
-    "title": "ARPA-E — Embodied AI for Energy Systems Solicitation",
+    "id": "arpa-e-catalchem-e",
+    "title": "ARPA-E CATALCHEM-E — AI and autonomous labs for catalysts",
     "type": "Incentive Program",
     "level": "Federal",
     "state": "N/A",
-    "introduced_date": "2025-09",
-    "status": "In effect",
-    "bill_number": "ARPA-E open call",
+    "introduced_date": "2024-11-14",
+    "status": "Active",
+    "bill_number": "DE-FOA-0003505",
     "sponsor": "ARPA-E (DOE)",
-    "summary": "ARPA-E open program-area solicitation targeting embodied AI applied to energy infrastructure: grid inspection, fuel-cycle maintenance, wind/solar plant operations. Typical awards $1–10M. Robotics startups partnering with utilities + national labs are competitive.",
-    "full_text_url": "https://arpa-e.energy.gov/",
-    "robotics_scope": "Robotics + AI for energy infrastructure",
-    "estimated_budget_usd": 30000000,
+    "summary": "In April 2026 ARPA-E announced $34 million for 12 CATALCHEM-E projects pairing AI with self-driving laboratories to develop industrial catalysts. Selected projects include robotic synthesis and experimentation. The announcement is a selection, not evidence that all work is complete or that applications remain open.",
+    "full_text_url": "https://arpa-e.energy.gov/news-and-events/news-and-insights",
+    "robotics_scope": "Automated laboratory workflows and robotic synthesis for catalyst R&D.",
+    "estimated_budget_usd": 34000000,
     "beneficiaries": [
-      "Energy + robotics startups",
-      "National labs"
+      "Selected research teams"
     ],
     "agency_responsible": [
-      "doe",
-      "arpa-e"
+      "arpa-e",
+      "doe"
     ],
-    "startup_eligible": true,
-    "application_url": "https://arpa-e.energy.gov/",
+    "startup_eligible": false,
+    "application_url": null,
     "tags": [
       "federal",
-      "in-effect",
       "rd-grant",
       "energy",
       "arpa-e"
     ],
+    "themes": [
+      "physical-ai"
+    ],
     "sources": [
       {
-        "url": "https://arpa-e.energy.gov/",
-        "archive_url": "https://web.archive.org/web/20260509040423/https://arpa-e.energy.gov/"
+        "url": "https://arpa-e.energy.gov/news-and-events/news-and-insights"
+      },
+      {
+        "url": "https://arpa-e.energy.gov/sites/default/files/2026-04/CATALCHEM-E_selection_project%20descriptions_final_1.pdf"
       }
     ],
-    "last_updated": "2026-05-17",
-    "archive_url": "https://web.archive.org/web/20260509040423/https://arpa-e.energy.gov/",
-    "archive_url_application": "https://web.archive.org/web/20260509040423/https://arpa-e.energy.gov/",
-    "themes": [
-      "foundation-models"
-    ]
+    "last_updated": "2026-10-26"
   },
   {
     "id": "ostp-ai-action-plan",
@@ -1570,7 +1605,7 @@
     "status": "In effect",
     "bill_number": "Public Acts 186 and 187 of 2024",
     "sponsor": "Michigan Department of Treasury",
-    "summary": "Michigan provides a refundable R&D tax credit for qualifying research expenses incurred in the state beginning with tax years after January 1, 2025. It is broad rather than restricted to mobility or robotics; annual claim and proration rules apply.",
+    "summary": "Michigan provides a refundable R&D tax credit for eligible businesses with qualifying research expenses above a base amount, for tax years beginning on or after January 1, 2025. The credit is broad rather than restricted to robotics; annual application and proration rules apply.",
     "full_text_url": "https://www.michigan.gov/taxes/business-taxes/rdcredit",
     "robotics_scope": "Qualifying Michigan robotics R&D expenditures may be eligible under the general credit.",
     "estimated_budget_usd": null,
@@ -1593,7 +1628,7 @@
         "url": "https://www.michigan.gov/taxes/business-taxes/rdcredit"
       }
     ],
-    "last_updated": "2026-09-22",
+    "last_updated": "2026-10-26",
     "archive_url": "https://web.archive.org/web/20260515100314/https://www.michiganbusiness.org/",
     "archive_url_application": "https://web.archive.org/web/20260515100314/https://www.michiganbusiness.org/",
     "themes": [
@@ -1610,10 +1645,10 @@
     "status": "Signed",
     "bill_number": "FY2026–27 Pennsylvania budget",
     "sponsor": "PA Department of Community and Economic Development",
-    "summary": "The signed FY2026–27 budget provides $125 million to create Innovate in PA 2.0. DCED describes venture-capital access, research commercialization, and regional innovation ecosystems, with robotics among named sectors. It is not a Pittsburgh-only tax abatement or a Pittsburgh Robotics Network membership benefit.",
-    "full_text_url": "https://dced.pa.gov/newsroom/shapiro-administration-highlights-2026-27-budget-investments-in-innovation-economy-secured-in-2026-27-budget-during-visit-to-carnegie-foundry-at-cmus-robotics-institute-in-pittsburgh/",
+    "summary": "Pennsylvania’s FY2026–27 budget created Innovate in PA 2.0, a fund of up to $125 million for innovation and commercialization. DCED says its funding depends on selling insurance premium tax credits, and grant programs depend on sufficient proceeds. Robotics is among the sectors described by DCED.",
+    "full_text_url": "https://dced.pa.gov/business-assistance/technology-innovation/innovate-in-pa/",
     "robotics_scope": "Broad innovation-capital and commercialization support with robotics named as a sector.",
-    "estimated_budget_usd": 125000000,
+    "estimated_budget_usd": null,
     "beneficiaries": [
       "Pennsylvania innovation ecosystem and eligible firms"
     ],
@@ -1631,10 +1666,13 @@
     ],
     "sources": [
       {
+        "url": "https://dced.pa.gov/business-assistance/technology-innovation/innovate-in-pa/"
+      },
+      {
         "url": "https://dced.pa.gov/newsroom/shapiro-administration-highlights-2026-27-budget-investments-in-innovation-economy-secured-in-2026-27-budget-during-visit-to-carnegie-foundry-at-cmus-robotics-institute-in-pittsburgh/"
       }
     ],
-    "last_updated": "2026-09-22",
+    "last_updated": "2026-10-26",
     "themes": [
       "industrial-deployments",
       "policy-momentum"
@@ -1694,13 +1732,13 @@
     "type": "Initiative",
     "level": "Federal",
     "state": "N/A",
-    "introduced_date": "2021-08",
+    "introduced_date": "2024-04-18",
     "status": "In effect",
-    "bill_number": "USDA-NSF NIFA Partnership",
+    "bill_number": "NSF 24-080",
     "sponsor": "USDA NIFA + NSF",
-    "summary": "Partnership between NIFA and NSF to fund collaborative proposals for agricultural robotics innovation under the National Robotics Initiative framework.",
-    "full_text_url": "https://www.nifa.usda.gov/about-nifa/press-releases/nsf-usda-join-forces-boost-innovation-agricultural-robotics",
-    "robotics_scope": "Collaborative agricultural robotics",
+    "summary": "NSF and USDA NIFA announced a joint funding opportunity in 2024 for foundational agricultural robotics research. Proposals of mutual interest are submitted through NSF’s Foundational Research in Robotics program; the NSF letter describes the opportunity as active and advises applicants to contact program officers.",
+    "full_text_url": "https://www.nsf.gov/funding/opportunities/dcl-joint-national-science-foundation-united-states-department",
+    "robotics_scope": "Foundational agricultural robotics research under NSF FRR and USDA NIFA.",
     "estimated_budget_usd": null,
     "beneficiaries": [
       "Academic researchers",
@@ -1711,7 +1749,7 @@
       "nsf"
     ],
     "startup_eligible": false,
-    "application_url": null,
+    "application_url": "https://www.nsf.gov/funding/opportunities/dcl-joint-national-science-foundation-united-states-department",
     "tags": [
       "federal",
       "in-effect",
@@ -1720,15 +1758,13 @@
     ],
     "sources": [
       {
-        "url": "https://www.nifa.usda.gov/about-nifa/press-releases/nsf-usda-join-forces-boost-innovation-agricultural-robotics",
-        "archive_url": "https://web.archive.org/web/20251016003626/https://www.nifa.usda.gov/about-nifa/press-releases/nsf-usda-join-forces-boost-innovation-agricultural-robotics"
+        "url": "https://www.nsf.gov/funding/opportunities/dcl-joint-national-science-foundation-united-states-department"
       }
     ],
-    "last_updated": "2026-05-22",
+    "last_updated": "2026-10-26",
     "themes": [
       "industrial-deployments"
-    ],
-    "archive_url": "https://web.archive.org/web/20251016003626/https://www.nifa.usda.gov/about-nifa/press-releases/nsf-usda-join-forces-boost-innovation-agricultural-robotics"
+    ]
   },
   {
     "id": "nc-advanced-mfg",
@@ -1778,13 +1814,13 @@
     "level": "Federal",
     "state": "N/A",
     "introduced_date": "2021-03",
-    "status": "In effect",
+    "status": "Expired",
     "bill_number": "NSF 21-559",
     "sponsor": "NSF (lead) with USDA, NIH, DOE",
-    "summary": "Multi-agency funding program for fundamental research in integrative robotics, especially co-robots that interact with humans. Awards $500K–$1.5M typical grant size, with $50M+ annual budget. Open to academic + industry partnerships.",
-    "full_text_url": "https://new.nsf.gov/funding/opportunities/foundational-research-robotics",
-    "robotics_scope": "Robotics R&D — human-robot interaction, integrative systems",
-    "estimated_budget_usd": 50000000,
+    "summary": "NSF announced the sunset of NRI 3.0 in May 2022. Across the initiative’s 12 years, NSF and federal partners invested over $250 million in more than 300 projects. NSF now directs foundational robotics research proposals to its FRR program.",
+    "full_text_url": "https://www.nsf.gov/funding/information/dcl-nri-sunset-announcement/nsf22-081",
+    "robotics_scope": "Historical multi-agency support for collaborative and integrated robotics research; FRR is the current NSF program.",
+    "estimated_budget_usd": null,
     "beneficiaries": [
       "Academic researchers",
       "Industry partners on academic grants"
@@ -1795,21 +1831,24 @@
       "nih",
       "doe"
     ],
-    "startup_eligible": true,
-    "application_url": "https://new.nsf.gov/funding/opportunities/foundational-research-robotics",
+    "startup_eligible": false,
+    "application_url": null,
     "tags": [
       "federal",
-      "in-effect",
+      "expired",
       "rd-grant",
       "nsf",
       "academic"
     ],
     "sources": [
       {
-        "url": "https://new.nsf.gov/funding/opportunities/foundational-research-robotics"
+        "url": "https://www.nsf.gov/funding/information/dcl-nri-sunset-announcement/nsf22-081"
+      },
+      {
+        "url": "https://www.nsf.gov/funding/opportunities/frr-foundational-research-robotics"
       }
     ],
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-10-26",
     "themes": []
   },
   {
@@ -1906,8 +1945,8 @@
     "status": "In effect",
     "bill_number": "NSF FRR Program",
     "sponsor": "NSF CISE & Engineering Directorates",
-    "summary": "A joint program across NSF directorates supporting foundational and academic research in robotics, spanning manipulation, locomotion, sensing, and human-robot interaction.",
-    "full_text_url": "https://www.nsf.gov/funding/opportunities/foundational-research-robotics",
+    "summary": "NSF’s CISE and Engineering directorates support foundational research on robots combining computation and physical complexity. Full proposals are accepted anytime, subject to NSF guidelines; investigators are encouraged to consult a program officer.",
+    "full_text_url": "https://www.nsf.gov/funding/opportunities/frr-foundational-research-robotics",
     "robotics_scope": "Foundational academic robotics research",
     "estimated_budget_usd": null,
     "beneficiaries": [
@@ -1918,7 +1957,7 @@
       "nsf"
     ],
     "startup_eligible": false,
-    "application_url": "https://www.nsf.gov/funding/opportunities/foundational-research-robotics",
+    "application_url": "https://www.nsf.gov/funding/opportunities/frr-foundational-research-robotics",
     "tags": [
       "federal",
       "in-effect",
@@ -1926,10 +1965,10 @@
     ],
     "sources": [
       {
-        "url": "https://www.nsf.gov/funding/opportunities/foundational-research-robotics"
+        "url": "https://www.nsf.gov/funding/opportunities/frr-foundational-research-robotics"
       }
     ],
-    "last_updated": "2026-05-22",
+    "last_updated": "2026-10-26",
     "themes": [
       "policy-momentum"
     ]
@@ -2117,7 +2156,7 @@
     "status": "Active",
     "bill_number": null,
     "sponsor": "Governor's Office of Business and Economic Development (GO-Biz)",
-    "summary": "Competitive tax credit for businesses expanding or relocating in California, assessed on jobs, investment, and other statutory factors. It is sector-neutral. GO-Biz lists FY2026–27 application windows of July 20–August 10, 2026; January 4–25, 2027; and March 1–15, 2027.",
+    "summary": "Competitive, sector-neutral tax credit for businesses expanding or relocating in California. The July–August 2026 application window has closed; GO-Biz lists the next FY2026–27 windows as January 4–25 and March 1–15, 2027.",
     "full_text_url": "https://business.ca.gov/california-competes-tax-credit/",
     "robotics_scope": "Advanced-manufacturing & R&D job/investment tax credits",
     "estimated_budget_usd": null,
@@ -2143,7 +2182,7 @@
         "url": "https://business.ca.gov/california-competes-tax-credit/"
       }
     ],
-    "last_updated": "2026-09-22",
+    "last_updated": "2026-10-26",
     "themes": [
       "policy-momentum",
       "industrial-deployments",
@@ -2203,8 +2242,8 @@
     "status": "In effect",
     "bill_number": "IRC §41",
     "sponsor": "N/A",
-    "summary": "Permanent tax credit on qualified research expenses (QREs) including employee wages, supplies, cloud computing, and contractor fees. Routinely claimed by robotics companies for prototype builds, control-system R&D, and manufacturing process optimization.",
-    "full_text_url": "https://www.irs.gov/newsroom/research-activities-tax-credit",
+    "summary": "The Section 41 credit generally applies to qualified research expenses above a base amount, subject to a four-part test and exclusions. Qualifying small businesses may elect to apply a portion against payroll tax. Robotics R&D is eligible only when the relevant requirements are met.",
+    "full_text_url": "https://www.irs.gov/instructions/i6765",
     "robotics_scope": "Tax credit for qualified research activities",
     "estimated_budget_usd": null,
     "beneficiaries": [
@@ -2225,11 +2264,13 @@
     ],
     "sources": [
       {
-        "url": "https://www.striketax.com/sub-industries/robotics-rd-tax-credits",
-        "archive_url": "https://web.archive.org/web/20260210060238/https://www.striketax.com/sub-industries/robotics-rd-tax-credits"
+        "url": "https://www.irs.gov/instructions/i6765"
+      },
+      {
+        "url": "https://www.irs.gov/credits-deductions/research-credit-against-payroll-tax-for-small-businesses"
       }
     ],
-    "last_updated": "2026-05-22",
+    "last_updated": "2026-10-26",
     "themes": [
       "industrial-deployments"
     ]
@@ -2390,14 +2431,11 @@
     "status": "In effect",
     "bill_number": "Proc. 11055",
     "sponsor": "Executive Office of the President",
-    "summary": "President Trump signed a proclamation on August 13, 2026 imposing Section 232 tariffs on imported unmanned aircraft systems (UAS/drones) and components, following a national-security investigation into import dependence. Tariffs took effect September 3, 2026: 100% on higher-risk UAS (over 25kg or with thermal-imaging capability) and related equipment, 25% on other covered UAS, with reduced rates for qualifying imports from the EU, Japan, South Korea, Switzerland, Taiwan, Liechtenstein and the UK, and a 180-day delayed implementation for certain less-sensitive components. The broader Section 232 investigation into robotics and industrial machinery imports (separate from drones) remains open as of mid-September 2026.",
+    "summary": "Proclamation 11055 imposed additional Section 232 duties on covered unmanned aircraft and components after a separate UAS investigation. Duties of 10%–100%, depending on product and applicable treatment, took effect September 3, 2026; a 25% duty on other covered components begins February 9, 2027. The distinct robotics and industrial-machinery investigation remains listed by Commerce.",
     "full_text_url": "https://www.federalregister.gov/documents/2026/08/19/2026-16979/adjusting-imports-of-unmanned-aircraft-systems-and-unmanned-aircraft-systems-components-into-the",
-    "robotics_scope": "Drones (UAS) are a robotics category tracked by this site; the tariff directly restricts imports of foreign-made drone hardware and components on national-security grounds, and is procedurally linked to the still-open Section 232 robotics/industrial-machinery investigation (fedreg-2025-18749).",
+    "robotics_scope": "Covers specified unmanned aircraft and components. It follows the UAS investigation, not the separate Section 232 robotics and industrial-machinery investigation.",
     "estimated_budget_usd": null,
-    "beneficiaries": [
-      "Domestic drone manufacturers",
-      "US robotics/industrial-machinery import-competing firms"
-    ],
+    "beneficiaries": [],
     "agency_responsible": [
       "doc"
     ],
@@ -2416,13 +2454,13 @@
     ],
     "sources": [
       {
-        "url": "https://www.federalregister.gov/documents/2026/08/19/2026-16979/adjusting-imports-of-unmanned-aircraft-systems-and-unmanned-aircraft-systems-components-into-the"
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-19/pdf/2026-16979.pdf"
       },
       {
-        "url": "https://mohawkglobal.com/word-from-the-white-house/new-section-232-tariffs-on-drones-and-drone-components-take-effect-september-3/"
+        "url": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4281ea7"
       }
     ],
-    "last_updated": "2026-09-17"
+    "last_updated": "2026-10-26"
   },
   {
     "id": "ndaa-fy2026-sec225-munitions-robotics",
@@ -2581,7 +2619,7 @@
   },
   {
     "id": "fcc-et-24-136-china-test-labs-2026",
-    "title": "FCC draft order: end recognition of mainland-China test labs (ET Docket 24-136)",
+    "title": "FCC draft order: test labs in non-reciprocal economies (ET Docket 24-136)",
     "type": "Regulation",
     "level": "Federal",
     "state": "N/A",
@@ -2589,9 +2627,9 @@
     "status": "Draft",
     "bill_number": "ET Docket 24-136",
     "sponsor": "FCC",
-    "summary": "Chairman Brendan Carr announced on Oct 7 and the FCC published on Oct 8 a draft Third Report and Order (ET Docket 24-136) that would end FCC recognition of test labs and certification bodies in economies without reciprocal arrangements, including mainland China, on Dec 1, 2028. Labs in China tested 82% of devices that applied for FCC authorization in 2025 versus under 4% for US labs, and the draft counts 609 recognized labs, 25.1% of them in China. Every robot, drone and connected device sold in the US needs FCC authorization, so the order adds testing-capacity risk on top of the Covered List restrictions on foreign robots; China has filed a WTO TBT enquiry against it.",
-    "full_text_url": "https://dronexl.co/2026/10/10/fcc-vote-chinese-test-labs-82-percent-us-devices/",
-    "robotics_scope": "Every robot, drone and connected device sold in the US needs FCC authorization; most of that testing happens in China today.",
+    "summary": "An FCC draft order scheduled for consideration on October 29, 2026 would end recognition of test labs and certification bodies in economies without reciprocal arrangements, with a transition ending December 1, 2028. It would affect the authorization process for covered radio-frequency equipment, including some connected robots. The draft is not yet an adopted rule.",
+    "full_text_url": "https://docs.fcc.gov/public/attachments/DOC-425721A1.pdf",
+    "robotics_scope": "Potential effects on testing and authorization of covered radio-frequency equipment, including some connected robots; not every robot requires certification.",
     "estimated_budget_usd": null,
     "beneficiaries": [
       "US test labs"
@@ -2612,13 +2650,13 @@
     ],
     "sources": [
       {
-        "url": "https://dronexl.co/2026/10/10/fcc-vote-chinese-test-labs-82-percent-us-devices/"
+        "url": "https://docs.fcc.gov/public/attachments/DOC-425721A1.pdf"
       },
       {
-        "url": "https://www.thestandard.com.hk/finance/article/344931/US-FCC-to-vote-to-ban-all-Chinese-labs-from-testing-US-electronics"
+        "url": "https://docs.fcc.gov/public/attachments/DOC-421311A1.pdf"
       }
     ],
-    "last_updated": "2026-10-10"
+    "last_updated": "2026-10-26"
   },
   {
     "id": "s-3275-humanoid-robot",

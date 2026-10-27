@@ -102,7 +102,7 @@
     <aside class="bluf" aria-label="Bottom line up front">
       <span class="bluf-tag">Bottom line</span>
       <p class="bluf-body">
-        <strong>Federal robotics policy spans procurement, manufacturing, research, and tax.</strong> This tracker follows live agency programs and proposed bills separately. States and cities also govern where many robots operate; see the <a href="states.html">States page</a>.
+        <strong>Federal robotics policy spans procurement, manufacturing, research, and tax.</strong> This tracker distinguishes current and historical agency programs from proposed bills. States and cities also govern where many robots operate; see the <a href="states.html">States page</a>.
       </p>
     </aside>
 
@@ -213,7 +213,7 @@
             <tr>
               <th>Provision</th>
               <th>What it does for robotics</th>
-              <th>Status (September 2026)</th>
+              <th>Status (October 2026)</th>
             </tr>
           </thead>
           <tbody id="tax-policies-tbody">
@@ -491,11 +491,11 @@
         taxTbody.innerHTML = taxPol.map(p => {
           let statusHTML = '';
           if (p.id === 'sec-174-rd-expensing') {
-            statusHTML = `Restored under OBBB (<a href="${RT.escapeHTML(p.sources[0]?.url || '')}" target="_blank" rel="noopener">OBBB §174 update</a>). <a href="${RT.escapeHTML(p.sources[1]?.url || '')}" target="_blank" rel="noopener">Practitioner brief</a>.`;
+            statusHTML = `Domestic expensing under §174A (<a href="${RT.escapeHTML(p.sources[0]?.url || '')}" target="_blank" rel="noopener">IRS guidance</a>). <a href="${RT.escapeHTML(p.sources[1]?.url || '')}" target="_blank" rel="noopener">Practitioner brief</a>.`;
           } else if (p.id === 'rd-tax-credit') {
-            statusHTML = `Permanent. Standard four-part qualification test. <a href="${RT.escapeHTML(p.sources[0]?.url || '')}" target="_blank" rel="noopener">Robotics-specific guidance</a>.`;
+            statusHTML = `Standard four-part qualification test. <a href="${RT.escapeHTML(p.sources[0]?.url || '')}" target="_blank" rel="noopener">IRS instructions</a>.`;
           } else if (p.id === 'obbba-bonus-depreciation') {
-            statusHTML = `<a href="policies.html?focus=obbba-bonus-depreciation">Permanent 100% deduction</a> for qualifying property acquired after January 19, 2025. <a href="${RT.escapeHTML(p.sources[0]?.url || '')}" target="_blank" rel="noopener">IRS guidance</a>.`;
+            statusHTML = `<a href="policies.html?focus=obbba-bonus-depreciation">Permanent 100% deduction</a> for eligible property acquired and placed in service after January 19, 2025. <a href="${RT.escapeHTML(p.sources[0]?.url || '')}" target="_blank" rel="noopener">IRS guidance</a>.`;
           } else {
             const sourcesLinks = (p.sources || []).map((s, idx) => `<a href="${RT.escapeHTML(RT.sourceURL(s))}" target="_blank" rel="noopener">Source [${idx + 1}]</a>`).join(', ');
             statusHTML = `${RT.escapeHTML(p.status)}. ${sourcesLinks}`;

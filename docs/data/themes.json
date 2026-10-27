@@ -2,58 +2,35 @@
   {
     "id": "china-scale",
     "name": "China Manufacturing Scale",
-    "narrative": "China captured over 80% of global humanoid robot installations in 2025 (~16,000 units worldwide). Unitree shipped 5,500+ units and targets 20,000 in 2026; UBTECH became the first company globally to deliver more than 1,000 industrial humanoids and is targeting 5,000 in 2026 and 10,000 in 2027. US firms lead on AI software and capital raised, but commercial deployment volume remains 10–50× behind. The gap is now the central policy question.",
+    "narrative": "IFR reports that factories in China installed about 354,000 industrial robots in 2025, or 59% of global annual installations; the United States installed almost 38,500. These industrial-robot figures cover a broader category than humanoids. IFR reports Chinese suppliers accounted for 55% of China’s domestic industrial-robot installations.",
     "direction": "Accelerating",
     "key_metrics": [
       {
-        "name": "Global humanoid installations 2025",
-        "value": 16000,
+        "name": "China industrial robot installations",
+        "value": 354000,
         "unit": "units",
-        "date": "2025-12",
-        "source_url": "https://roboticsandautomationnews.com/2026/01/30/global-humanoid-robot-installations-reach-16000-units-as-commercial-deployments-accelerate/98422/",
-        "archive_url": "https://web.archive.org/web/20260311182251/https://roboticsandautomationnews.com/2026/01/30/global-humanoid-robot-installations-reach-16000-units-as-commercial-deployments-accelerate/98422/"
+        "date": "2025",
+        "source_url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally"
       },
       {
-        "name": "China share of global humanoid installs",
-        "value": "80%+",
-        "unit": "share",
-        "date": "2025-12",
-        "source_url": "https://roboticsandautomationnews.com/2026/01/30/global-humanoid-robot-installations-reach-16000-units-as-commercial-deployments-accelerate/98422/",
-        "archive_url": "https://web.archive.org/web/20260311182251/https://roboticsandautomationnews.com/2026/01/30/global-humanoid-robot-installations-reach-16000-units-as-commercial-deployments-accelerate/98422/"
+        "name": "China share of global industrial installations",
+        "value": 59,
+        "unit": "%",
+        "date": "2025",
+        "source_url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally"
       },
       {
-        "name": "Unitree 2026 shipment target",
-        "value": 20000,
-        "unit": "units",
-        "date": "2026-01",
-        "source_url": "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/"
-      },
-      {
-        "name": "UBTECH 2026 shipment target",
-        "value": 5000,
-        "unit": "units",
-        "date": "2026-02",
-        "source_url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/"
+        "name": "US industrial robot installations",
+        "value": 38500,
+        "unit": "approx. units",
+        "date": "2025",
+        "source_url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally"
       }
     ],
     "narrative_sources": [
       {
-        "label": "Robotics & Automation News — 16,000 installations 2025, China 80%+",
-        "url": "https://roboticsandautomationnews.com/2026/01/30/global-humanoid-robot-installations-reach-16000-units-as-commercial-deployments-accelerate/98422/",
-        "archive_url": "https://web.archive.org/web/20260311182251/https://roboticsandautomationnews.com/2026/01/30/global-humanoid-robot-installations-reach-16000-units-as-commercial-deployments-accelerate/98422/"
-      },
-      {
-        "label": "eWeek — Unitree 20,000 humanoid robots in 2026",
-        "url": "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/"
-      },
-      {
-        "label": "humanoid.guide — UBTECH financials, 2026 & 2027 targets",
-        "url": "https://humanoid.guide/ubtech-and-unitree-financials-highlight-chinas-humanoid-shift/"
-      },
-      {
-        "label": "Gasgoo — Unitree 5,500+ shipments in 2025",
-        "url": "https://autonews.gasgoo.com/articles/news/xiaozhi-weekly-news-unitree-humanoid-robot-shipments-exceed-5500-units-2015824041443430400",
-        "archive_url": "https://web.archive.org/web/20260305110354/https://autonews.gasgoo.com/articles/news/xiaozhi-weekly-news-unitree-humanoid-robot-shipments-exceed-5500-units-2015824041443430400"
+        "label": "IFR — World Robotics 2026",
+        "url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally"
       }
     ],
     "government_intervention_ready": true,
@@ -63,49 +40,37 @@
       "Supply-chain support for actuators, batteries, lidar where China dominates upstream",
       "Visa pathway expansion for robotics talent"
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-10-26"
   },
   {
     "id": "foundation-models",
     "name": "Robotics Foundation Models",
-    "narrative": "The bet that one large model can drive many robot bodies is now well-funded: Skild AI raised $1.4B at a $14B+ valuation in January 2026; Physical Intelligence open-sourced its π0 weights and by late 2025 had raised ~$1.5B total (a $600M Series B at a $5.6B valuation, with talks of an $11B+ round). The unresolved question is whether the right architecture is closed-source-and-vertically-integrated (Figure, Tesla, Apptronik building model + body) or open-source-and-horizontal (Physical Intelligence). Outcome shapes the next decade of robotics IP.",
+    "narrative": "Robotics foundation-model developers aim to use shared models across tasks and bodies. Skild AI announced a $1.4 billion Series C at a valuation above $14 billion in January 2026 and introduced S1 in August. Physical Intelligence’s π0.5 research describes tests of mobile manipulation in homes outside its training set. Company demonstrations and reported results do not establish performance across all workplaces.",
     "direction": "Accelerating",
     "key_metrics": [
       {
-        "name": "Skild AI valuation",
-        "value": 14000000000,
+        "name": "Skild AI Series C",
+        "value": 1400000000,
         "unit": "USD",
-        "date": "2026-01",
-        "source_url": "https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/",
-        "archive_url": "https://web.archive.org/web/20260321121614/https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/"
+        "date": "2026-01-14",
+        "source_url": "https://www.skild.ai/blogs/series-c"
       },
       {
-        "name": "Physical Intelligence valuation",
-        "value": 5600000000,
+        "name": "Skild AI valuation at Series C",
+        "value": ">14000000000",
         "unit": "USD",
-        "date": "2025-11",
-        "source_url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/",
-        "archive_url": "https://web.archive.org/web/20251212133427/https://www.physicalintelligence.company/blog"
-      },
-      {
-        "name": "Total foundation-model funding tracked",
-        "value": 2170000000,
-        "unit": "USD",
-        "date": "2026-05",
-        "source_url": null,
-        "source_note": "Derived from Skild + Physical Intelligence rounds in companies.json"
+        "date": "2026-01-14",
+        "source_url": "https://www.skild.ai/blogs/series-c"
       }
     ],
     "narrative_sources": [
       {
-        "label": "Crunchbase News — humanoid robot funding (Skild $1.4B / $14B)",
-        "url": "https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/",
-        "archive_url": "https://web.archive.org/web/20260321121614/https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/"
+        "label": "Skild AI — Series C and S1",
+        "url": "https://www.skild.ai/blogs"
       },
       {
-        "label": "Physical Intelligence — π0 release + Series A",
-        "url": "https://www.physicalintelligence.company/blog",
-        "archive_url": "https://web.archive.org/web/20251212133427/https://www.physicalintelligence.company/blog"
+        "label": "Physical Intelligence — π0.5 research",
+        "url": "https://www.physicalintelligence.company/download/pi05.pdf"
       }
     ],
     "government_intervention_ready": false,
@@ -114,110 +79,83 @@
       "Open-source model + dataset support via NSF",
       "Light-touch on foundation-model regulation pending NIST AI RMF maturity"
     ],
-    "last_updated": "2026-06-01"
+    "last_updated": "2026-10-26"
   },
   {
     "id": "cost-trajectory",
     "name": "Humanoid Cost Trajectory",
-    "narrative": "1X opened consumer preorders for NEO at $20,000 in April 2026, aimed at households. China's Unitree priced its G1 at $16,000, putting downward pressure on the research-tier segment. Tesla has publicly targeted sub-$30,000 for Optimus. Industrial humanoids remain materially more expensive: Agility's Digit is reported to cost upwards of $250,000 per unit in commercial deployments. The watch-this-space question: when do US-built industrial humanoids match Chinese unit-economics, and what does the cost curve look like at 10× volume?",
+    "narrative": "1X began taking preorders for its NEO home robot in October 2025 at $20,000 for early-access ownership, with a separate $499 monthly subscription option. Unitree’s G1 was introduced at a $16,000 starting price in 2024. Prices, subscription terms, capabilities and service costs differ, so these offers do not measure total industrial deployment cost.",
     "direction": "Accelerating",
     "key_metrics": [
       {
-        "name": "1X NEO target price (consumer)",
+        "name": "1X NEO early-access ownership price",
         "value": 20000,
         "unit": "USD",
-        "date": "2026-04",
-        "source_url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/",
-        "archive_url": "https://web.archive.org/web/20260529030912/https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
+        "date": "2025-10-28",
+        "source_url": "https://www.1x.tech/ja_jp/discover/neo-home-robot"
       },
       {
-        "name": "Unitree G1 starting price",
+        "name": "1X NEO standard subscription",
+        "value": 499,
+        "unit": "USD/month",
+        "date": "2026-10",
+        "source_url": "https://www.1x.tech/order"
+      },
+      {
+        "name": "Unitree G1 announced starting price",
         "value": 16000,
         "unit": "USD",
         "date": "2024-08",
-        "source_url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
-        "archive_url": "https://web.archive.org/web/20260207025524/https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/"
-      },
-      {
-        "name": "Tesla Optimus reported target",
-        "value": "<30000",
-        "unit": "USD",
-        "date": "2024-06",
-        "source_url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
-        "source_note": "Comparison citation per The Robot Report; founder-stated target.",
-        "archive_url": "https://web.archive.org/web/20260207025524/https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/"
-      },
-      {
-        "name": "Agility Digit reported unit cost (industrial)",
-        "value": "≥250000",
-        "unit": "USD",
-        "date": "2024-06",
-        "source_url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
-        "source_note": "Industry-reported, not company-disclosed.",
-        "archive_url": "https://web.archive.org/web/20260207025524/https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/"
+        "source_url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/"
       }
     ],
     "narrative_sources": [
       {
-        "label": "The Robot Report — 1X NEO preorder launch at $20K",
-        "url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/",
-        "archive_url": "https://web.archive.org/web/20260529030912/https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
+        "label": "1X — NEO launch",
+        "url": "https://www.1x.tech/ja_jp/discover/neo-home-robot"
       },
       {
-        "label": "The Robot Report — Unitree G1 unveiled at $16K (includes Tesla / Agility comparison pricing)",
-        "url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/",
-        "archive_url": "https://web.archive.org/web/20260207025524/https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/"
+        "label": "1X — current order options",
+        "url": "https://www.1x.tech/order"
+      },
+      {
+        "label": "The Robot Report — G1 announcement",
+        "url": "https://www.therobotreport.com/unitree-robotics-unveils-g1-humanoid-for-16k/"
       }
     ],
     "government_intervention_ready": true,
     "recommended_actions": [
-      "Demand-side incentives via bonus depreciation (already advancing in OBBBA)",
+      "Demand-side incentives via enacted bonus depreciation for qualifying equipment",
       "Pilot-risk-sharing fund for first-of-its-kind robot deployments per RFA framework"
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-10-26"
   },
   {
     "id": "defense-procurement",
     "name": "Defense Robotics Procurement",
-    "narrative": "DoD Replicator initiative committed $1B to fielding thousands of attritable autonomous systems within 18–24 months. Anduril ($14B valuation) and Shield AI ($5.3B) are the marquee non-traditional primes; both raised heavily on Replicator tailwinds. HR 8189 (American Security Robotics Act) would further restrict federal procurement of foreign-made humanoids. The defense channel is now the most reliable revenue line for robotics startups outside warehouse automation.",
+    "narrative": "The Department of Defense launched Replicator to accelerate fielding of autonomous systems. In May 2024 it said about $500 million was secured for FY2024 and requested a roughly equal amount for FY2025; the earlier goal of multiple thousands of systems was a fielding target, not a verified count here. Replicator 2 shifted attention to countering small uncrewed aerial systems. H.R. 8189 remains a tracked proposal.",
     "direction": "Accelerating",
     "key_metrics": [
       {
-        "name": "Replicator initial budget",
-        "value": 1000000000,
-        "unit": "USD",
-        "date": "2023-08",
-        "source_url": "https://www.defense.gov/News/Releases/Release/Article/3490150/"
-      },
-      {
-        "name": "Anduril valuation",
-        "value": 14000000000,
-        "unit": "USD",
-        "date": "2024-08",
-        "source_url": "https://techcrunch.com/2024/08/08/anduril/"
-      },
-      {
-        "name": "Shield AI valuation",
-        "value": 5300000000,
-        "unit": "USD",
-        "date": "2024-11",
-        "source_url": "https://shield.ai/news",
-        "archive_url": "https://web.archive.org/web/20260316123457/https://shield.ai/news/"
+        "name": "Replicator FY2024 secured funding",
+        "value": 500000000,
+        "unit": "approx. USD",
+        "date": "2024-05-06",
+        "source_url": "https://www.defense.gov/News/Releases/Release/Article/3765644/deputy-secretary-of-defense-hicks-announces-first-tranche-of-replicator-capabil/"
       }
     ],
     "narrative_sources": [
       {
-        "label": "DoD — Replicator initiative announcement",
-        "url": "https://www.defense.gov/News/Releases/Release/Article/3490150/"
+        "label": "Defense Department — Replicator 1 funding",
+        "url": "https://www.defense.gov/News/Releases/Release/Article/3765644/deputy-secretary-of-defense-hicks-announces-first-tranche-of-replicator-capabil/"
       },
       {
-        "label": "TechCrunch — Anduril Series F at $14B",
-        "url": "https://techcrunch.com/2024/08/08/anduril/"
+        "label": "Defense Department — Replicator 2 memo",
+        "url": "https://media.defense.gov/2024/Sep/30/2003555473/-1/-1/0/REPLICATOR-2-MEMO-SD-SIGNED.PDF"
       },
       {
-        "label": "Shield AI — Series F at $5.3B",
-        "url": "https://shield.ai/news",
-        "archive_url": "https://web.archive.org/web/20260316123457/https://shield.ai/news/"
+        "label": "Congress — H.R. 8189",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8189"
       }
     ],
     "government_intervention_ready": true,
@@ -226,43 +164,30 @@
       "Pass HR 8189 to lock in domestic procurement for sensitive applications",
       "Accelerate ITAR clarifications for dual-use robotics components"
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-10-26"
   },
   {
     "id": "industrial-deployments",
     "name": "Industrial Humanoid Deployment Wave",
-    "narrative": "After years of demos, 2025–2026 saw the first contracted commercial deployments. Figure at BMW Spartanburg (sheet metal). Agility at Amazon, GXO, and Toyota Motor Manufacturing Canada (RaaS). Apptronik at Mercedes-Benz and GXO. Most of these deals have been described as pilots.",
+    "narrative": "Agility and GXO began a warehouse pilot in 2023 and signed a multi-year Robots-as-a-Service agreement in 2024. On October 26, 2026 they announced expansion to North Carolina and Tennessee sites, with deployments expected to begin in early 2027. Toyota Motor Manufacturing Canada signed a commercial agreement after a pilot in February 2026. Planned sites are not yet operating deployments.",
     "direction": "Accelerating",
     "key_metrics": [
       {
-        "name": "Agility deployments at Toyota Canada",
-        "value": 7,
-        "unit": "units",
-        "date": "2026-02",
-        "source_url": "https://blog.robozaps.com/b/agility-robotics-digit-review",
-        "archive_url": "https://web.archive.org/web/20260325193410/https://blog.robozaps.com/b/agility-robotics-digit-review"
-      },
-      {
-        "name": "Figure pilot units at BMW",
-        "value": 3,
-        "unit": "units",
-        "date": "2024-08",
-        "source_url": "https://www.figure.ai/news/bmw-manufacturing"
+        "name": "GXO expansion announced",
+        "value": "2026-10-26",
+        "unit": "date",
+        "date": "2026-10-26",
+        "source_url": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations"
       }
     ],
     "narrative_sources": [
       {
-        "label": "Agility — Toyota Motor Manufacturing Canada RaaS deal",
-        "url": "https://blog.robozaps.com/b/agility-robotics-digit-review",
-        "archive_url": "https://web.archive.org/web/20260325193410/https://blog.robozaps.com/b/agility-robotics-digit-review"
+        "label": "Agility and GXO — expansion",
+        "url": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations"
       },
       {
-        "label": "Figure — BMW Manufacturing pilot",
-        "url": "https://www.figure.ai/news/bmw-manufacturing"
-      },
-      {
-        "label": "Bloomberg — Apptronik Series A extension (GXO + Mercedes-Benz partnerships)",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-11/apptronik-raises-520-million-in-new-funding-to-build-more-humanoids"
+        "label": "Agility — Toyota Canada agreement",
+        "url": "https://www.agilityrobotics.com/content/agility-robotics-announces-commercial-agreement-with-toyota-motor-manufacturing-canada"
       }
     ],
     "government_intervention_ready": true,
@@ -271,47 +196,30 @@
       "Workforce co-investment to fund operator training alongside deployments",
       "Safety standard clarification via NIST/OSHA for human-robot shared workspaces"
     ],
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-10-26"
   },
   {
     "id": "policy-momentum",
     "name": "Federal Policy Momentum",
-    "narrative": "The July 2025 AI Action Plan and August 2026 National Security Science and Technology Strategy give federal AI, manufacturing, research, and security priorities, but neither is a dedicated commercial robotics plan. H.R. 7334 and H.R. 8189 are tracked proposals. Public Law 119-21 enacted permanent 100% first-year depreciation for eligible business equipment acquired after January 19, 2025. The FCC added certain foreign-produced advanced robotic devices to its Covered List in July 2026 and clarified conditional approvals in September. Commerce still lists its robotics and industrial machinery Section 232 matter as an investigation; no robotics tariff is implied by that listing.",
+    "narrative": "Federal policy includes research programs, proposed legislation and equipment restrictions. Treasury’s October 26, 2026 outbound-investment proposal includes embodied AI and laboratory robotics in defined technology categories; it is not a final rule. The FCC’s draft test-lab order is scheduled for consideration on October 29 and would apply to covered equipment authorization if adopted.",
     "direction": "Accelerating",
     "key_metrics": [
       {
-        "name": "Federal robotics bills tracked in 119th Congress",
-        "value": 4,
-        "unit": "bills",
-        "date": "2026-05",
-        "source_url": null,
-        "source_note": "Derived from policies.json — see Policy page."
-      },
-      {
-        "name": "Robots For America launch event",
-        "value": "2026-05-11",
+        "name": "Treasury proposed rule comment deadline",
+        "value": "2026-12-07",
         "unit": "date",
-        "date": "2026-05-11",
-        "source_url": "https://www.design-engineering.com/robots-for-america-launches-national-coalition-to-advance-u-s-robotics-deployment-policy-1004048555/"
+        "date": "2026-10-26",
+        "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-26/pdf/2026-21786.pdf"
       }
     ],
     "narrative_sources": [
       {
-        "label": "Congress.gov — H.R. 7334 National Commission on Robotics Act",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7334/text"
+        "label": "Treasury — proposed outbound investment rule",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-26/pdf/2026-21786.pdf"
       },
       {
-        "label": "Congress.gov — H.R. 8189 American Security Robotics Act",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8189"
-      },
-      {
-        "label": "Standard Bots — OBBBA 100% bonus depreciation analysis",
-        "url": "https://standardbots.com/blog/obbb-robotics",
-        "archive_url": "https://web.archive.org/web/20260115081542/https://standardbots.com/blog/obbb-robotics"
-      },
-      {
-        "label": "Design Engineering — Robots For America launch",
-        "url": "https://www.design-engineering.com/robots-for-america-launches-national-coalition-to-advance-u-s-robotics-deployment-policy-1004048555/"
+        "label": "FCC — draft test-lab order",
+        "url": "https://docs.fcc.gov/public/attachments/DOC-425721A1.pdf"
       }
     ],
     "government_intervention_ready": true,
@@ -320,56 +228,30 @@
       "Track IRS guidance for eligible automation equipment under enacted Public Law 119-21",
       "Track FCC conditional approvals and Commerce Section 232 investigation outcomes"
     ],
-    "last_updated": "2026-09-22"
+    "last_updated": "2026-10-26"
   },
   {
     "id": "physical-ai",
     "name": "Physical AI (\"AI with a body\")",
-    "narrative": "Physical AI — AI systems that perceive, reason about and act on the material world — became the dominant venture framing of 2026. Eclipse Ventures raised a dedicated $1.3B physical-AI fund (Apr 2026), and a16z, Lux, CapitalG, NVIDIA and SoftBank are all backing the category. Two layers are forming: (1) horizontal robot foundation-model labs (Physical Intelligence, Skild, Field AI, Generalist, Dyna) selling a \"brain\" that runs across many bodies, and (2) vertical players embedding embodied AI into specific machines — driving (Wayve), construction (Bedrock), delivery (Serve). Open datasets and tools now include DROID, Open X-Embodiment, LeRobot, and Eidon first-person recordings. The open question is how performance transfers between robot bodies and real workplaces; published dataset size does not establish deployment success.",
+    "narrative": "Physical AI combines AI with sensing and action in physical environments. Skild AI introduced its S1 robotics foundation model in August 2026 and reports commercial customers; Physical Intelligence’s π0.5 research tests a mobile manipulator in previously unseen homes. These are developer-reported results, not independent evidence of general performance across workplaces.",
     "direction": "Accelerating",
     "key_metrics": [
       {
-        "name": "Eclipse Ventures physical-AI fund",
-        "value": 1300000000,
+        "name": "Skild reported annual recurring revenue",
+        "value": ">100000000",
         "unit": "USD",
-        "date": "2026-04",
-        "source_url": "https://techcrunch.com/2026/04/07/vc-eclipse-has-a-new-1-3b-to-back-and-build-physical-ai-startups/"
-      },
-      {
-        "name": "Field AI valuation",
-        "value": 2000000000,
-        "unit": "USD",
-        "date": "2025-08",
-        "source_url": "https://www.therobotreport.com/fieldai-raises-405m-scales-physics-first-foundation-models-robots/"
-      },
-      {
-        "name": "Wayve Series D valuation",
-        "value": 8600000000,
-        "unit": "USD",
-        "date": "2026-02",
-        "source_url": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/"
+        "date": "2026-09-10",
+        "source_url": "https://skild.ai/blogs/skild-crosses-100m-arr"
       }
     ],
     "narrative_sources": [
       {
-        "label": "TechCrunch — Eclipse $1.3B physical-AI fund",
-        "url": "https://techcrunch.com/2026/04/07/vc-eclipse-has-a-new-1-3b-to-back-and-build-physical-ai-startups/"
+        "label": "Skild AI — reported customers and revenue",
+        "url": "https://skild.ai/blogs/skild-crosses-100m-arr"
       },
       {
-        "label": "a16z — AI for the Physical World",
-        "url": "https://a16z.com/ai-for-the-physical-world/"
-      },
-      {
-        "label": "NVIDIA — taking Physical AI to the real world",
-        "url": "https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world"
-      },
-      {
-        "label": "DROID — open manipulation dataset",
-        "url": "https://droid-dataset.github.io/"
-      },
-      {
-        "label": "LeRobot — open robotics data format",
-        "url": "https://huggingface.co/docs/lerobot/main/index"
+        "label": "Physical Intelligence — π0.5 research",
+        "url": "https://www.physicalintelligence.company/download/pi05.pdf"
       }
     ],
     "related_companies": [
@@ -390,47 +272,28 @@
       "Fund shared real-world robot data / sim infrastructure (NSF / NAIRR analogue) so value is not captured only by the best-capitalized labs",
       "Watch foreign capital concentration in physical-AI startups for supply-chain + national-security exposure"
     ],
-    "last_updated": "2026-09-22"
+    "last_updated": "2026-10-26"
   },
   {
     "id": "us-supply-chain",
     "name": "US Robot Component Supply Chain",
-    "narrative": "China dominates the upstream supply chain for robotics hardware: precision cycloidal and harmonic gear reducers, brushless servo motors, force-torque sensors, and lithium battery packs. US and European humanoid makers source most of these critical components from Chinese or Japanese suppliers. NDAA Section 889 restrictions and tariff escalations are forcing the question: can the US build domestic actuator and motor capacity fast enough to matter? Westmag emerged in 2025 as the first VC-backed US startup explicitly targeting NDAA-compliant drone motors and robot actuators. Hebi Robotics has supplied modular actuators to research institutions for a decade. Moog Inc. (NYSE: MOG.A) remains the largest US precision-actuator manufacturer for defense and aerospace. The policy bet: whether Buy-American mandates, Section 232 tariffs on motors, and manufacturing-capex incentives can seed a domestic supply base before humanoid production scales past one million units per year.",
+    "narrative": "Robot manufacturing depends on components including motors, actuators, sensors and electronics. Westmag says its South San Francisco motor and actuator factory is ramping production and testing; this is a company-reported stage, not proof of output at scale. Commerce continues to list its Section 232 robotics and industrial-machinery import inquiry as an investigation, not a final robotics tariff.",
     "direction": "Accelerating",
-    "key_metrics": [
-      {
-        "name": "Westmag seed round",
-        "value": 11000000,
-        "unit": "USD",
-        "date": "2025-08",
-        "source_url": "https://www.businesswire.com/news/home/20260602552448/en/Westmag-Emerges-With-$11-Million-Seed-Led-By-Andreessen-Horowitz-to-Build-Americas-Drone-Motor-and-Robot-Actuator-Industry"
-      },
-      {
-        "name": "Moog Inc. FY2024 revenue",
-        "value": 3340000000,
-        "unit": "USD",
-        "date": "2024-09",
-        "source_url": "https://investors.moog.com"
-      }
-    ],
+    "key_metrics": [],
     "narrative_sources": [
       {
-        "label": "Westmag — US drone motor & robot actuator seed round",
-        "url": "https://www.businesswire.com/news/home/20260602552448/en/Westmag-Emerges-With-$11-Million-Seed-Led-By-Andreessen-Horowitz-to-Build-Americas-Drone-Motor-and-Robot-Actuator-Industry"
+        "label": "Westmag — manufacturing and production status",
+        "url": "https://www.westmag.com/"
       },
       {
-        "label": "a16z — investing in Westmag",
-        "url": "https://a16z.com/announcement/investing-in-westmag/"
-      },
-      {
-        "label": "Moog Inc. investor relations",
-        "url": "https://investors.moog.com"
+        "label": "Commerce BIS — Section 232 investigations",
+        "url": "https://www.bis.gov/about-bis/bis-leadership-and-offices/sies/section-232-investigations"
       }
     ],
     "government_intervention_ready": true,
     "recommended_actions": [
       "Extend NDAA Section 889 restrictions to robot actuators and servo motors sourced from adversary nations",
-      "Section 232 tariff review on precision gear reducers and brushless motors — China supplies >70% of global demand",
+      "Review potential Section 232 measures for precision gear reducers and brushless motors",
       "Manufacturing capex tax credit (IRA-style) for US actuator and motor production",
       "DoD Strategic & Critical Materials program should add servo motors and torque sensors to the monitored list",
       "NIST / DoC supply-chain map of US robotic-component dependencies — public transparency on single points of failure"
@@ -441,6 +304,6 @@
       "moog-inc"
     ],
     "related_policies": [],
-    "last_updated": "2026-06-12"
+    "last_updated": "2026-10-26"
   }
 ]
