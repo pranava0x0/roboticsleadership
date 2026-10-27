@@ -1148,6 +1148,9 @@
     // Wait for web fonts: they reflow the tall tables, and a scroll taken
     // before that lands hundreds of pixels short of the row.
     if (scrollTarget) {
+      // The fragment is gone after writeQuery, so the browser won't reveal a
+      // target inside a closed <details> (R&D areas open only the first one).
+      for (let d = scrollTarget.closest('details'); d; d = d.parentElement && d.parentElement.closest('details')) d.open = true;
       const go = () => scrollTarget.scrollIntoView();
       go();
       if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => requestAnimationFrame(go));
