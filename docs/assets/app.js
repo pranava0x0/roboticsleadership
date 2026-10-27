@@ -660,7 +660,7 @@
     if (els.legend) {
       els.legend.innerHTML = SERIES.map(s => `
         <span><span class="dot" style="background:${s.color}"></span>${escapeHTML(s.label)}</span>
-      `).join('') + `<span><span class="dot" style="background:none;border:1px dashed var(--border-strong);"></span>Dashed = projected</span>`;
+      `).join('') + (firstProjected >= 0 ? `<span><span class="dot" style="background:none;border:1px dashed var(--border-strong);"></span>Dashed = projected</span>` : '');
     }
 
     if (els.source) {
