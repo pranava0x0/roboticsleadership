@@ -212,6 +212,10 @@ test('validateRd reports a null record instead of throwing', () => {
 test('footer date comes from rd.json, not the news scraper', () => {
   assert(page.includes('id="rd-updated"') && !page.includes('class="updated-date'), 'footer still bound to sources.json date');
 });
+test('human_video_hours is only set for human video (Galaxea is robot data)', () => {
+  const g = rd.sections.areas.datasets.find((d) => d.id === 'dataset-galaxea-open-world-dataset');
+  assert(g && g.human_video_hours == null, 'Galaxea robot hours shown as human video');
+});
 
 console.log(`\n${passed} passed, ${failed} failed`);
 process.exit(failed ? 1 : 0);

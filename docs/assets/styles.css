@@ -2113,7 +2113,8 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
 .rd-bench-name { color: var(--text-muted); }
 .rd-caveat { color: var(--text-muted); font-size: 13px; margin: 6px 0 0; }
 .rd-flag { margin: 0 2px 4px 0; }
-.rd-src a { word-break: break-word; }
+/* Source links sit side by side in dense cells; give each a 44px target like .report-cite. */
+.rd-src a { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; box-sizing: border-box; padding: 0 4px; word-break: break-word; }
 .rd-read, .rd-asof { color: var(--text-muted); font-size: 12px; white-space: nowrap; }
 .rd-label { color: var(--text-muted); }
 .rd-bench {
