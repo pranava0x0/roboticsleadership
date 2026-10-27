@@ -1136,12 +1136,15 @@
 
     let start = Math.max(0, ids.indexOf(readQuery()[param]));
     let scrollTarget = null;
+    let fromHash = false;
     if (initialHash) {
       const el = document.getElementById(initialHash);
       const owner = el ? panels.findIndex((p) => p === el || p.contains(el)) : -1;
-      if (owner >= 0) { start = owner; if (el !== panels[owner]) scrollTarget = el; }
+      if (owner >= 0) { start = owner; fromHash = true; if (el !== panels[owner]) scrollTarget = el; }
     }
-    select(start, { write: !!initialHash });
+    // Rewrite the URL only when the hash opened a panel; a hash pointing
+    // outside the tabs (#main, #rd-method-note) is left for the browser.
+    select(start, { write: fromHash });
     // Wait for web fonts: they reflow the tall tables, and a scroll taken
     // before that lands hundreds of pixels short of the row.
     if (scrollTarget) {
@@ -1188,7 +1191,9 @@
   }
   function rdByCountry(list) {
     const groups = {};
-    list.forEach((r) => { (groups[r.country] = groups[r.country] || []).push(r); });
+    // Anything outside the named buckets (a new country, a missing one) goes
+    // under Other rather than silently dropping out of the table.
+    list.forEach((r) => { const c = RD_COUNTRY_ORDER.includes(r.country) ? r.country : 'Other'; (groups[c] = groups[c] || []).push(r); });
     return RD_COUNTRY_ORDER.filter((c) => groups[c]).map((c) => [c, groups[c]]);
   }
   function rdSortDate(list, key) {

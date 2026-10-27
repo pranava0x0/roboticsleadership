@@ -27,7 +27,7 @@
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/rd.json" crossorigin />
   <!--jsonld:start-->
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://pranava0x0.github.io/roboticsleadership/#website","name":"Robotics Leadership Tracker","url":"https://pranava0x0.github.io/roboticsleadership/","inLanguage":"en","creator":{"@type":"Person","name":"Pranava Raparla","url":"https://pranavaraparla.com"}},{"@type":"WebPage","@id":"https://pranava0x0.github.io/roboticsleadership/rd.html#webpage","name":"R&D — Robotics Tracker","description":"Robotics R&D from the US, China and elsewhere: foundation and world models, the benchmarks that score them, research areas, and the components inside a humanoid. Each record links to its source.","url":"https://pranava0x0.github.io/roboticsleadership/rd.html","inLanguage":"en","isPartOf":{"@id":"https://pranava0x0.github.io/roboticsleadership/#website"},"mainEntity":{"@type":"Dataset","name":"Robotics R&D tracker"}},{"@type":"Dataset","name":"Robotics R&D tracker","description":"Robot foundation models, world models, benchmarks and leaderboards, research areas, datasets, compute and the humanoid component stack, each entry with its source and capture date.","url":"https://pranava0x0.github.io/roboticsleadership/rd.html","isAccessibleForFree":true,"creator":{"@type":"Person","name":"Pranava Raparla","url":"https://pranavaraparla.com"},"isPartOf":{"@id":"https://pranava0x0.github.io/roboticsleadership/#website"},"distribution":{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://pranava0x0.github.io/roboticsleadership/data/rd.json"}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://pranava0x0.github.io/roboticsleadership/#website","name":"Robotics Leadership Tracker","url":"https://pranava0x0.github.io/roboticsleadership/","inLanguage":"en","creator":{"@type":"Person","name":"Pranava Raparla","url":"https://pranavaraparla.com"}},{"@type":"WebPage","@id":"https://pranava0x0.github.io/roboticsleadership/rd.html#webpage","name":"R&D — Robotics Tracker","description":"Robotics R&D from the US, China and elsewhere: foundation and world models, the benchmarks that score them, research areas, and the components inside a humanoid. Each record links to its source.","url":"https://pranava0x0.github.io/roboticsleadership/rd.html","inLanguage":"en","isPartOf":{"@id":"https://pranava0x0.github.io/roboticsleadership/#website"},"mainEntity":{"@id":"https://pranava0x0.github.io/roboticsleadership/rd.html#dataset"}},{"@type":"Dataset","@id":"https://pranava0x0.github.io/roboticsleadership/rd.html#dataset","name":"Robotics R&D tracker","description":"Robot foundation models, world models, benchmarks and leaderboards, research areas, datasets, compute and the humanoid component stack, each entry with its source and capture date.","url":"https://pranava0x0.github.io/roboticsleadership/rd.html","isAccessibleForFree":true,"creator":{"@type":"Person","name":"Pranava Raparla","url":"https://pranavaraparla.com"},"isPartOf":{"@id":"https://pranava0x0.github.io/roboticsleadership/#website"},"distribution":{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://pranava0x0.github.io/roboticsleadership/data/rd.json"}}]}</script>
   <!--jsonld:end-->
 </head>
 <body>
@@ -121,7 +121,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>Data updated <span class="updated-date tnum">—</span>.</p>
+    <p>Research captured <span id="rd-updated" class="tnum">—</span>.</p>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 
@@ -147,6 +147,7 @@
     RT.paint(document.getElementById('rd-areas'), RT.renderRdAreas(rd));
     RT.paint(document.getElementById('rd-components'), RT.renderRdComponents(rd));
     RT.paint(document.getElementById('rd-method'), RT.renderRdMethod(rd));
+    document.getElementById('rd-updated').textContent = RT.formatDate(rd.updated);
     tabs();
   });
   </script>

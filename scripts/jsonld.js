@@ -56,6 +56,7 @@ export function buildJsonLd(file, html) {
     const [path, dsName, dsDesc] = ds;
     graph.push({
       '@type': 'Dataset',
+      '@id': `${url}#dataset`,
       name: dsName,
       description: dsDesc,
       url,
@@ -64,7 +65,7 @@ export function buildJsonLd(file, html) {
       isPartOf: { '@id': `${SITE}#website` },
       distribution: { '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: `${SITE}data/${path}` },
     });
-    page.mainEntity = { '@type': 'Dataset', name: dsName };
+    page.mainEntity = { '@id': `${url}#dataset` };
   }
   const json = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g, '\\u003c');
   return `${START}\n  <script type="application/ld+json">${json}</script>\n  ${END}`;

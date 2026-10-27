@@ -195,6 +195,23 @@ test('method note explains vendor-reported and snippet-only', () => {
   assert(rd.method.vendor_reported.length > 40 && rd.method.snippet_only.length > 40, 'method text too thin');
   assert(/Vendor-reported/.test(RT.renderRdMethod(rd)) && /Snippet-only/.test(RT.renderRdMethod(rd)), 'method note lacks both labels');
 });
+test('a model with an unlisted country still renders (under Elsewhere)', () => {
+  const copy = JSON.parse(JSON.stringify(rd));
+  copy.sections.models.push({ ...copy.sections.models[0], id: 'zz-japan-test', name: 'Zz Japan Test', country: 'Japan' });
+  copy.sections.models.push({ ...copy.sections.models[0], id: 'zz-null-test', name: 'Zz Null Test', country: null });
+  const html = RT.renderRdModels(copy);
+  assert(html.includes('id="zz-japan-test"') && html.includes('id="zz-null-test"'), 'record with unlisted country dropped');
+});
+test('validateRd reports a null record instead of throwing', () => {
+  const copy = JSON.parse(JSON.stringify(rd));
+  copy.sections.models.push(null);
+  copy.sections.areas.areas.push(null);
+  const r = validateRd('rd', copy);
+  assert(!r.ok && r.errors.some((e) => /not an object/.test(e)) && r.errors.some((e) => /needs id \+ name/.test(e)), r.errors.slice(-3).join('; '));
+});
+test('footer date comes from rd.json, not the news scraper', () => {
+  assert(page.includes('id="rd-updated"') && !page.includes('class="updated-date'), 'footer still bound to sources.json date');
+});
 
 console.log(`\n${passed} passed, ${failed} failed`);
 process.exit(failed ? 1 : 0);
