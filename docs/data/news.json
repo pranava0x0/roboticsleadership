@@ -1,5 +1,30 @@
 [
   {
+    "id": "rokae-10000th-humanoid-arm-2026-10",
+    "title": "ROKAE delivers its 10,000th humanoid force-controlled arm",
+    "date": "2026-10-26",
+    "source": "ROKAE",
+    "source_type": "Press Release",
+    "source_url": "https://www.prnewswire.co.uk/news-releases/rokae-delivers-its-10-000th-humanoid-force-controlled-arm-302918216.html",
+    "summary": "ROKAE says it has shipped 10,000 humanoid arms (arms, not complete robots) and that more than 80 industrial partners use them. It names five Helios wheeled humanoids with its AR Series arms at Schaeffler's Taicang line; Schaeffler's own earlier account counted six humanoids, and neither side discloses output or intervention rates.",
+    "category": "Supply Chain",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "rokae",
+      "china",
+      "actuators",
+      "schaeffler",
+      "humanoid-arms"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
+  },
+  {
     "id": "bedrock-series-c-2026-10",
     "title": "Bedrock Robotics raises $600M to expand autonomous construction equipment",
     "date": "2026-10-26",
@@ -47,6 +72,79 @@
     ],
     "sentiment": "Neutral",
     "confidence": "High"
+  },
+  {
+    "id": "faraday-future-ffr-robotics-transfer-closes-2026-10",
+    "title": "Faraday Future closes the transfer of its robotics business into Nasdaq-listed FFR",
+    "date": "2026-10-23",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://humanoidsdaily.com/news/faraday-future-robotics-acquisition-completed-ffr",
+    "summary": "The all-stock deal, valued at roughly $200M with no cash investment, closed on October 23. Faraday forecasts more than 300 robots sold or shipped in October and about 2,000 for 2026; these are unit forecasts, not verified customer deliveries.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "faraday-future",
+      "ffr",
+      "humanoid",
+      "reverse-merger"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low"
+  },
+  {
+    "id": "boston-dynamics-ice-spot-petition-2026-10",
+    "title": "Boston Dynamics staff petition against Spot sale to ICE; contract put at $1.3M",
+    "date": "2026-10-23",
+    "source": "WBUR",
+    "source_type": "News",
+    "source_url": "https://www.wbur.org/news/2026/10/23/boston-dynamics-employees-petition-dhs",
+    "summary": "About 300 Boston Dynamics employees signed a petition in early September against selling modified Spot robots to ICE. The procurement document WBUR published puts the purchase at about $1.3M for four Spot-based units from integrator RADeCO, with arms, thermal cameras and training; Boston Dynamics said the sale will go ahead.",
+    "category": "Policy",
+    "companies": [
+      "boston-dynamics"
+    ],
+    "policies": [],
+    "themes": [
+      "defense-procurement"
+    ],
+    "tags": [
+      "ice",
+      "spot",
+      "procurement",
+      "employee-petition"
+    ],
+    "sentiment": "Negative",
+    "confidence": "High"
+  },
+  {
+    "id": "formic-50m-series-b-2026-10",
+    "title": "Formic raises $50M led by Mercato Partners to move into general-purpose factory robots",
+    "date": "2026-10-22",
+    "source": "Manufacturing.net",
+    "source_type": "News",
+    "source_url": "https://www.manufacturing.net/automation/news/22977055/formic-raises-50-million-to-scale-physical-ai-across-us-manufacturing",
+    "summary": "Formic, which rents factory robots for a monthly fee, announced a $50M package: a Series B led by Mercato Partners plus debt from S2G Investments, with the split undisclosed. It says it runs hundreds of robots in more than 100 facilities across 30-plus states; those operating figures are self-reported.",
+    "category": "Funding",
+    "companies": [
+      "formic"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "formic",
+      "raas",
+      "series-b",
+      "manufacturing"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium"
   },
   {
     "id": "warp-sciences-funding-2026-10",
@@ -211,6 +309,29 @@
     ],
     "sentiment": "Neutral",
     "confidence": "High"
+  },
+  {
+    "id": "omron-onlogic-675m-acquisition-2026-10",
+    "title": "OMRON agrees to buy industrial-PC maker OnLogic for $675M",
+    "date": "2026-10-13",
+    "source": "Manufacturing.net",
+    "source_type": "News",
+    "source_url": "https://www.manufacturing.net/operations/news/22976652/omron-buys-industrial-pc-maker-onlogic-for-675-million",
+    "summary": "OMRON signed on October 13 to acquire OnLogic and its parent Interlogic for $675M, with closing expected around January 2027. OnLogic's rugged edge-AI computers sell mostly in the Americas and Europe, and OMRON plans to route its sensing and robotics products through them.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "omron",
+      "onlogic",
+      "acquisition",
+      "edge-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
   },
   {
     "id": "antioch-series-a-2026-09",
