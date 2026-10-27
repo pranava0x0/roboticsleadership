@@ -3,7 +3,7 @@
 > Living UAT plan. Run the **Critical flows** every pass. **Exploration** is open territory — vary it each run. Update `last_tested` per section as you go. New bugs land in `issues.md`.
 
 _Created: 2026-05-18_
-_Last run: 2026-10-14_ (interaction-cost pass: 19 reader tasks × 3 viewports, then redesign of the summit, draft EO, states and energy pages; budgets now gate every PR)
+_Last run: 2026-10-26_ (all 11 tabs at 375/1280 px; 23 interaction tasks × 3 viewports; original historical flow counts below are not current record counts)
 _Updated: 2026-06-07_ (documentation update — agencies/news consolidated into policies.html with collapsible sections)
 
 ---
@@ -177,3 +177,11 @@ Patterns weighed: **sticky in-page index** (used: summit, draft EO; energy had o
 - Converted the action-plan page into an unofficial nine-section executive-order draft. Preserved the URL and prior section anchors; updated navigation, RFI cross-link, metadata, README, and llms.txt.
 - Added presidential authority language, signing-relative deadlines, agency responsibilities, voluntary non-Federal participation, appropriations limits, and standard general provisions. Drafting sources sit outside the operative text.
 - Verified Chrome at 375px and 1280px, local anchors, RFI variant toggles, and page errors. Print: five pages of draft order plus one page of drafting notes. Full tests, validation, static rendering, and diff checks pass.
+
+## 2026-10-26 — All-tab research refresh
+
+- All 11 tabs hydrated at 375px and 1280px, with substantive content, no page errors, no failed local requests, and no horizontal overflow. Inspected front-page mobile and summit desktop screenshots.
+- Confirmed the summit density caveat links directly to IFR and actual-only charts have no forecast legend. New company/news data powers the front page.
+- Interaction gate: all 23 tasks within unchanged budgets at 375/768/1280px (69 paths); includes detail panels, searches, jump links, source evidence and collapsed sections.
+- Full Node suite, strict validation (zero broken references), check-only static bake, Actions lint and internal-link checks pass. No dependency installs.
+- Scope: refreshed evidence and corrected claims; 91 company profiles and the older energy inventory are not fully reverified. See `data/research/refresh-2026-10-26.md`.

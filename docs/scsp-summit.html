@@ -67,7 +67,7 @@
   <main id="main" class="summit-page">
     <h1 class="page-title">SCSP AI+ Robotics Summit.</h1>
     <p class="page-lede">
-      Washington, D.C., Oct 14, 2026. The agenda, the speakers, recent news from their organizations, their recent posts, and the policy context. Compiled from the <a href="https://www.scsp.ai/ai-robotics/" target="_blank" rel="noopener">SCSP agenda</a> and public sources as of <span class="tnum" id="captured">Oct 14, 2026</span>.
+      Washington, D.C., Oct 14, 2026. The agenda, the speakers, recent news from their organizations, their recent posts, and the policy context. Compiled from the <a href="https://www.scsp.ai/ai-robotics/" target="_blank" rel="noopener">SCSP agenda</a> and public sources. Company and report context checked <span class="tnum" id="captured">Oct 26, 2026</span>; agenda, speaker roles and posts retain their summit-date context.
     </p>
 
     <aside class="bluf" aria-label="Bottom line up front">
@@ -372,7 +372,7 @@
     });
     renderReport();
     document.getElementById('report-directions').innerHTML = report.directions.map(x => `<li>${E(x.text)} ${cite(x)}</li>`).join('');
-    document.getElementById('report-caveats').innerHTML = report.caveats.map(x => `<li>${E(x.text)} ${cite(x)}</li>`).join('');
+    document.getElementById('report-caveats').innerHTML = report.caveats.map(x => `<li>${E(x.text)} ${cite(x)}${x.source_url ? ` · ${link(x.source_url, host(x.source_url))}` : ''}</li>`).join('');
 
     } else {
       document.getElementById('report-meta').textContent = 'Could not load the commission report. The summit agenda and speaker profiles are available below.';

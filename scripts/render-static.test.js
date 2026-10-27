@@ -55,6 +55,18 @@ eq(typeof RT.NEWS_PAGE_SIZE, 'number', 'RT.NEWS_PAGE_SIZE crosses the sandbox bo
 eq(RT.srcLinks(['https://www.ifr.org/a/b']).includes('>ifr.org<'), true,
   'URL is present in the sandbox: source chips bake as hostnames, not raw URLs');
 
+// A chart of actuals must not imply that its latest observations are forecasts.
+const trendFixture = [
+  { year: 2024, us_units: 34, china_units: 295, row_units: 213 },
+  { year: 2025, us_units: 38, china_units: 354, row_units: 208 },
+];
+const trendElements = { svg: {}, legend: {}, source: {} };
+RT.renderProductionTrend(trendFixture, trendElements);
+ok(!trendElements.legend.innerHTML.includes('projected'), 'actual-only trend has no projection legend');
+ok(!trendElements.svg.innerHTML.includes('stroke-dasharray'), 'actual-only trend has no dashed forecast');
+RT.renderProductionTrend([...trendFixture, { year: 2026, us_units: 40, china_units: 370, row_units: 220, projected: true }], trendElements);
+ok(trendElements.legend.innerHTML.includes('projected') && trendElements.svg.innerHTML.includes('stroke-dasharray'), 'a real projection retains its dashed line and legend');
+
 // ---------- Escaping survives the trip through Node ----------
 const hostile = {
   id: 'x"><script>alert(1)</script>',

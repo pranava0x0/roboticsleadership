@@ -35,11 +35,11 @@
     "parent": "DOE",
     "url": "https://arpa-e.energy.gov/",
     "show_in_rd_table": true,
-    "rd_focus": "High-risk energy R&D; periodic solicitations for embodied AI / robotics applied to energy systems.",
-    "applications": "Robot-driven grid maintenance, fuel-cycle automation, autonomous wind/solar O&M.",
-    "manufacturing": "Adjacent — manufacturing tooling shows up in some open program-area awards.",
+    "rd_focus": "High-risk energy R&D, including AI and autonomous laboratory research.",
+    "applications": "Autonomous experimentation for catalyst discovery; selected projects include robotic synthesis.",
+    "manufacturing": "Energy and industrial technologies, including catalyst development.",
     "notes": [
-      "FY 2026 request ≈ $478M total; up to 4 new focused solicitations in FY26."
+      "CATALCHEM-E selected projects in 2026; the $34M announced selection is not an open robotics solicitation."
     ]
   },
   {
@@ -68,7 +68,7 @@
     "applications": "Industrial humanoid performance metrics; safety standards for human-robot shared workspaces.",
     "manufacturing": "Manufacturing Extension Partnership (MEP) — small-manufacturer assistance.",
     "notes": [
-      "Standards-setting role; not a direct grant funder."
+      "NIST develops measurement methods and awards cooperative agreements; 2026 MEP awards support manufacturing assistance."
     ]
   },
   {
@@ -82,7 +82,7 @@
     "applications": "Co-robots, human-robot interaction, integrative systems, agricultural + healthcare robotics.",
     "manufacturing": "Through Engineering Directorate and Manufacturing USA partnerships.",
     "notes": [
-      "FY26 House mark proposes NSF cuts; AI + quantum prioritized."
+      "NRI 3.0 ended in 2022; Foundational Research in Robotics accepts proposals under its program guidelines."
     ]
   },
   {
@@ -137,11 +137,11 @@
     "parent": "Federal",
     "url": "https://www.usda.gov/",
     "show_in_rd_table": true,
-    "rd_focus": "Agricultural robotics + autonomous farm systems. Co-funder of NSF NRI 3.0.",
+    "rd_focus": "Agricultural robotics and autonomous farm systems; a former NRI 3.0 partner.",
     "applications": "Harvesting, livestock management, soil/crop sensing, autonomous tractors.",
     "manufacturing": "Specialty-crop equipment; ag-tech regional clusters.",
     "notes": [
-      "AFRI Foundational A1541 (next cycle opens late summer 2026)."
+      "AFRI A1541’s FY2026 deadline was December 18, 2025; FY2027 deadlines await the notices."
     ]
   },
   {

@@ -1,5 +1,287 @@
 [
   {
+    "id": "bedrock-series-c-2026-10",
+    "title": "Bedrock Robotics raises $600M to expand autonomous construction equipment",
+    "date": "2026-10-26",
+    "source": "Bedrock Robotics",
+    "source_url": "https://www.globenewswire.com/news-release/2026/10/26/3388197/0/en/bedrock-robotics-raises-600-million-series-c-to-scale-autonomous-construction-equipment-across-u-s-sites.html",
+    "source_type": "Press Release",
+    "summary": "Bedrock announced a $600M Series C at a $4.1B post-money valuation, co-led by CapitalG and Emergence Capital. It says autonomous excavators began paid work on live commercial job sites in August; the company did not disclose how many machines are operating.",
+    "category": "Funding",
+    "companies": [
+      "bedrock-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "construction",
+      "funding",
+      "autonomy"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
+    "id": "agility-gxo-expansion-2026-10",
+    "title": "GXO and Agility plan Digit deployments at two more U.S. sites",
+    "date": "2026-10-26",
+    "source": "Agility Robotics",
+    "source_url": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations",
+    "source_type": "Press Release",
+    "summary": "The companies expect Digit 4 deployments at GXO facilities in Statesville, North Carolina, and Lebanon, Tennessee, to begin in early 2027, with a move to Digit 5 when available. The agreement expands their existing Georgia operation.",
+    "category": "Deployment",
+    "companies": [
+      "agility-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "gxo",
+      "logistics",
+      "humanoid"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
+    "id": "warp-sciences-funding-2026-10",
+    "title": "Warp Sciences raises $215M to build robotics-assisted chemistry labs",
+    "date": "2026-10-22",
+    "source": "Warp Sciences (Business Wire)",
+    "source_url": "https://www.streetinsider.com/Business%2BWire/Warp%2BSciences%2BEmerges%2BFrom%2BStealth%2BWith%2B%24215%2BMillion%2Bto%2BBuild%2BU.S.%2BChemistry%2BServices%2Bfor%2BDrug%2BResearch/27221957.html",
+    "source_type": "Press Release",
+    "summary": "Warp Sciences emerged from stealth with $215M led by Lightspeed. It plans to combine chemists, AI and robotics in U.S. labs that make and test molecules for drug researchers. The announcement describes plans, not operating robot capacity.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "healthcare",
+      "research",
+      "funding"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
+    "id": "fortescue-kuka-charging-2026-10",
+    "title": "Fortescue shows industrial robots handling heavy-truck charging cables",
+    "date": "2026-10-22",
+    "source": "Electrek",
+    "source_url": "https://electrek.co/2026/10/22/fortescue-is-using-kuka-welding-robots-to-handle-6-mw-charging-cables-video/",
+    "source_type": "News Article",
+    "summary": "A Fortescue video shows modified KUKA industrial robots handling cables for its 6 MW battery-electric mining-truck charger. The report does not establish the number of chargers operating commercially.",
+    "category": "Competitive",
+    "companies": [
+      "kuka"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "energy",
+      "industrial-robots",
+      "mining"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
+    "id": "tesla-optimus-fremont-production-2026-10",
+    "title": "Tesla says Optimus production has begun at Fremont",
+    "date": "2026-10-21",
+    "source": "Tesla",
+    "source_url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
+    "source_type": "Press Release",
+    "summary": "Tesla’s Q3 update says Optimus production began on its Fremont lines and calls the units its first production-quality robots. The update describes an early ramp and does not disclose production volume.",
+    "category": "Deployment",
+    "companies": [
+      "tesla-optimus"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "tesla",
+      "optimus",
+      "humanoid",
+      "fremont"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
+    "id": "nvidia-flora-video-labels-2026-10",
+    "title": "NVIDIA releases Flora models for robot and human video labels",
+    "date": "2026-10-21",
+    "source": "NVIDIA Research",
+    "source_url": "https://research.nvidia.com/labs/gear/flora/",
+    "source_type": "Research",
+    "summary": "Flora produces action captions and reward labels for robot training. NVIDIA says it has labeled 200,000 hours of video per day on 512 GB300 GPUs; that figure is annotation throughput, not newly collected robot data.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "tags": [
+      "nvidia",
+      "gr00t",
+      "training-data"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
+    "id": "origami-s1-skill-capture-glove-2026-10",
+    "title": "Origami Robotics launches S1 glove for robot training data",
+    "date": "2026-10-21",
+    "source": "Humanoids Daily",
+    "source_url": "https://humanoidsdaily.com/news/origami-robotics-s1-skill-capture-glove",
+    "source_type": "News Article",
+    "summary": "S1 records finger joint angles, touch pressure and wrist-camera video in a layout matching Origami’s robot hand. The company says production has started; translating recorded touch into robot execution remains work in progress.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "dexterity",
+      "teleoperation",
+      "training-data"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
+  },
+  {
+    "id": "sereact-teradyne-partnership-2026-10",
+    "title": "Teradyne Robotics and Sereact partner on AI-powered picking",
+    "date": "2026-10-21",
+    "source": "Sereact",
+    "source_url": "https://sereact.ai/posts/teradyne-robotics-partnership",
+    "source_type": "Press Release",
+    "summary": "The partnership combines Sereact’s Cortex platform with Universal Robots arms for retail, logistics and manufacturing tasks such as returns handling and piece-picking.",
+    "category": "Competitive",
+    "companies": [
+      "universal-robots"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "automation",
+      "logistics"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
+    "id": "intuitive-q3-2026-installed-base",
+    "title": "Intuitive reports 12,094 installed da Vinci systems",
+    "date": "2026-10-20",
+    "source": "Intuitive",
+    "source_url": "https://isrg.intuitive.com/node/23381/pdf",
+    "source_type": "Press Release",
+    "summary": "Intuitive placed 546 da Vinci surgical systems in Q3 2026, including 315 da Vinci 5 systems. Its worldwide installed base reached 12,094 at September 30, compared with 10,763 a year earlier.",
+    "category": "Deployment",
+    "companies": [
+      "intuitive-surgical"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "surgical-robotics",
+      "healthcare"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
+    "id": "antioch-series-a-2026-09",
+    "title": "Antioch raises $32M for robot simulation and testing",
+    "date": "2026-09-08",
+    "source": "Antioch",
+    "source_url": "https://www.antioch.com/blog/series-a",
+    "source_type": "Press Release",
+    "summary": "Antioch announced a $32M Series A to develop simulation and evaluation tools for autonomous systems. It reports $40.5M total funding, while prior reporting separately lists a pre-seed round; the totals differ.",
+    "category": "Funding",
+    "companies": [
+      "antioch-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "simulation",
+      "funding"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
+    "id": "locus-series-g-2026-09",
+    "title": "Locus Robotics reports $41.6M raised in ongoing Series G",
+    "date": "2026-09-01",
+    "source": "Axios",
+    "source_url": "https://www.axios.com/pro/enterprise-software-deals/2026/09/01/locus-robotics-series-g",
+    "source_type": "News Article",
+    "summary": "CEO Rick Faulk told Axios that Locus Robotics had raised $41.6M from existing investors as part of a Series G. The round was still in progress at the time of the report.",
+    "category": "Funding",
+    "companies": [
+      "locus-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "warehouse",
+      "funding"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
+  },
+  {
+    "id": "tric-robotics-california-fleet-2026",
+    "title": "TRIC Robotics reports 15 farm robots working in California",
+    "date": "2026-08-31",
+    "source": "AgFunderNews",
+    "source_url": "https://agfundernews.com/%F0%9F%8E%A5-tric-robotics-scales-to-1500-strawberry-acres-with-15-robot-fleet",
+    "source_type": "News Article",
+    "summary": "TRIC Robotics CEO Steve Stager said the company’s fleet of 15 robots was operating nightly on California strawberry fields and had treated more than 1,500 acres in 2026.",
+    "category": "Deployment",
+    "companies": [
+      "tric-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "agriculture",
+      "field-robotics"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
     "companies": [],
     "policies": [],
     "source_type": "Press Release",
@@ -74,14 +356,14 @@
   {
     "companies": [],
     "policies": [],
-    "source_type": "News",
+    "source_type": "Press Release",
     "sentiment": "Neutral",
     "id": "generative-bionics-amd-hub-2026-10",
     "title": "Generative Bionics plans a 5,000 sq m humanoid training hub in Italy with AMD",
     "date": "2026-10-21",
-    "source": "Humanoids Daily",
-    "source_url": "https://www.humanoidsdaily.com/news/generative-bionics-amd-italy-physical-ai-data-factory",
-    "summary": "The first of a proposed three-site Physical AI Data Factory network would run on AMD Helios infrastructure and train GENE.01 humanoids, with operations targeted for Q4 2027. \"Europe's largest\" is the company's own claim.",
+    "source": "Generative Bionics",
+    "source_url": "https://news.gbionics.ai/?article=data-factory&lang=en",
+    "summary": "Generative Bionics plans a three-site Physical AI Data Factory network using AMD Helios infrastructure. The first 5,000-square-metre hub in Italy is targeted for Q4 2027; later sites are planned elsewhere in Europe and for global markets. These are planned facilities, not operating deployments.",
     "category": "Deployment",
     "themes": [
       "physical-ai",
@@ -92,7 +374,7 @@
       "europe",
       "data-center"
     ],
-    "confidence": "Medium"
+    "confidence": "High"
   },
   {
     "companies": [
@@ -997,13 +1279,15 @@
   },
   {
     "id": "symbotic-cellumation-acquisition-2026-10",
-    "title": "Symbotic to acquire Bremen sortation maker cellumation",
+    "title": "Symbotic announces acquisition of Bremen sortation maker cellumation",
     "date": "2026-10-13",
-    "source": "Robotics & Automation News",
-    "source_url": "https://roboticsandautomationnews.com/2026/10/13/symbotic-announces-acquisition-of-cellumation-advancing-next-generation-sortation-technology-for-the-global-supply-chain/105868/",
-    "summary": "cellumation makes the celluveyor, a sortation floor built from hundreds of independently controlled cells. Price and terms were not disclosed.",
+    "source": "Symbotic",
+    "source_url": "https://www.symbotic.com/news/symbotic-announces-acquisition-of-cellumation-advancing-next-generation-sortation-technology-for-the-global-supply-chain/",
+    "summary": "Symbotic announced the acquisition of cellumation, maker of the celluveyor sorting platform. Cellumation will retain its name and Bremen headquarters, with its founders continuing to lead the business. The release does not identify a separate closing event.",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "symbotic"
+    ],
     "themes": [
       "industrial-deployments"
     ],
@@ -1014,9 +1298,9 @@
       "acquisition",
       "sortation"
     ],
-    "confidence": "Medium",
+    "confidence": "High",
     "policies": [],
-    "source_type": "News",
+    "source_type": "Press Release",
     "sentiment": "Neutral"
   },
   {

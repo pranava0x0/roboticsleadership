@@ -1,24 +1,22 @@
 {
   "_meta": {
-    "last_updated": "2026-09-25",
+    "last_updated": "2026-10-26",
     "captured_at": "2026-06-12",
-    "method": "Curated from primary sources (press releases, SEC filings, DoD announcements) and trade press (The Robot Report, IEEE Spectrum, TrendForce, Counterpoint, CSIS, Adamas) via seeded web search plus five parallel research sweeps"
+    "method": "Selected robot counts, reducers, lidar and Marion refinery records checked 2026-10-26 against IFR, manufacturers and company disclosures; other records retain earlier capture dates. Shares are estimates for their stated market and year."
   },
   "overview": {
-    "headline": "U.S. investment is going into magnets and final assembly. Little is going into the precision parts in between.",
-    "bluf": "Capital and federal money now flow into the two ends of the chain: rare-earth magnets (MP Materials, Vulcan, USA Rare Earth — backed by ~$3B+ of DoD equity, loans, and price floors) and final assembly (BotQ, RoboFab, Tesla Fremont, Hyundai's planned 30k/yr Atlas plant). The parts in between (reducers, roller screws, bearings, frameless motors, dexterous hands) are still roughly 90% Japanese and Chinese, with near-zero U.S. merchant capacity. China controls ~70% of humanoid component supply overall, ~90% of magnet production, and ~89% of lidar; building a U.S. humanoid without Chinese parts roughly triples its bill of materials.",
+    "headline": "U.S. investment targets magnets and assembly; precision parts remain a supply constraint.",
+    "bluf": "U.S. investment spans rare-earth magnets and robot assembly, while many precision parts depend on overseas suppliers. Some reducers are made domestically: Cone Drive manufactures harmonic gearing in Michigan. Chinese firms are strong in magnet and automotive lidar supply; market shares do not establish their share of all robot components.",
     "sources": [
-      { "url": "https://www.trendforce.com/presscenter/news/20251209-12825.html", "label": "TrendForce — component shares" },
-      { "url": "https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/", "label": "Adamas — US magnet build-out" },
-      { "url": "https://nextfinancial.substack.com/p/one-million-robots-per-year-the-38", "label": "BOM-without-China estimate" },
-      { "url": "https://www.yolegroup.com/press-release/china-takes-the-lead-in-automotive-lidar-a-market-set-to-quadruple-by-2030/", "label": "Yole — lidar share" }
+      { "url": "https://conedrive.com/harmonic-gearing-ring-series/", "label": "Cone Drive — U.S. manufacturing" },
+      { "url": "https://www.edge-ai-vision.com/2025/06/china-takes-the-lead-in-automotive-lidar-a-market-set-to-quadruple-by-2030/", "label": "Yole — automotive lidar" }
     ],
     "kpis": [
-      { "label": "Humanoids shipped · 2026", "value": ">50K", "sub": "global forecast, +700% vs 2025's ~16K units", "sources": ["https://www.trendforce.com/presscenter/news/20260409-13007.html"] },
-      { "label": "Industrial robots · 2025", "value": "603K", "sub": "global installs — China bought 59% of them", "sources": ["https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally", "https://thenextweb.com/news/industrial-robots-world-robotics-2026-china-59-eu-falls"] },
-      { "label": "China · parts share", "value": "~70%", "sub": "of humanoid components (motors, actuators, sensors)", "sources": ["https://www.trendforce.com/presscenter/news/20251209-12825.html"] },
-      { "label": "US magnet capacity", "value": "≈25K t/yr", "sub": "announced by ~2028 — China makes ~300K t/yr today", "sources": ["https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/"] },
-      { "label": "No-China cost penalty", "value": "≈3×", "sub": "a humanoid built only with non-Chinese parts: $131K vs $46K", "sources": ["https://nextfinancial.substack.com/p/one-million-robots-per-year-the-38"] }
+      { "label": "China humanoid output", "value": "Up to +94%", "sub": "TrendForce 2026 growth forecast, not realized output", "sources": ["https://www.trendforce.com/presscenter/news/20260409-13007.html"] },
+      { "label": "Industrial robots · 2025", "value": "603K", "sub": "global installs — China accounted for 59%", "sources": ["https://ifr.org/ifr-press-releases/news/presidents-report-by-jane-heffner-3-2026", "https://ifr.org/downloads/press_docs/EN-2026-SEP-24-IFR_Press_Release_WR-USA.pdf"] },
+      { "label": "Cobots · 2025", "value": "66K", "sub": "global installations; 11% of industrial robots", "sources": ["https://ifr.org/ifr-press-releases/news/presidents-report-by-jane-heffner-3-2026"] },
+      { "label": "MP magnet project", "value": "7K t/yr", "sub": "10X facility planned capacity at full operation, not current output", "sources": ["https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/"] },
+      { "label": "US rare-earth mining", "value": "≈13%", "sub": "estimated share of global mine output in 2025; not refining", "sources": ["https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths_ver.1.2.pdf"] }
     ]
   },
   "shipments": [
@@ -28,26 +26,26 @@
       "definition": "Fixed robot arms on production lines — welding, assembly, painting, handling. The biggest robot category by far; includes cobots.",
       "units": 603000,
       "year": "2025",
-      "note": "IFR World Robotics 2026: installs rose 11% to a record 603K (IFR says 'more than 600,000') and the operating stock reached 5 million. China installed 354,200 (59%); the US 38,400, now second ahead of Japan; the Americas as a region 57,044. 2024 was 542,076.",
-      "sources": ["https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally", "https://thenextweb.com/news/industrial-robots-world-robotics-2026-china-59-eu-falls"]
+      "note": "IFR reports 603,000 global installations in 2025 and 5.079 million operating robots worldwide. China installed 354,200 (59%); the U.S. installed 38,400. The figures are rounded.",
+      "sources": ["https://ifr.org/ifr-press-releases/news/presidents-report-by-jane-heffner-3-2026", "https://ifr.org/downloads/press_docs/EN-2026-SEP-24-IFR_Press_Release_WR-USA.pdf"]
     },
     {
       "id": "cobots",
       "name": "Collaborative robots (cobots)",
-      "definition": "Robot arms safe to work next to people without cages — a subset of industrial installs. The term for the human-safe niche.",
-      "units": null,
-      "year": "2024",
-      "note": "$1.26B market in 2024, heading to $3.4B by 2030; Asia-Pacific holds ~42% of the market.",
-      "sources": ["https://www.marketsandmarkets.com/Market-Reports/collaborative-robot-market-194541294.html"]
+      "definition": "Industrial robots designed for collaborative operation with people; safety still depends on the application and risk assessment.",
+      "units": 66000,
+      "year": "2025",
+      "note": "IFR reports 66,000 installations in 2025, 11% of industrial installations; this is a subset, not an additional category.",
+      "sources": ["https://ifr.org/ifr-press-releases/news/presidents-report-by-jane-heffner-3-2026"]
     },
     {
       "id": "service",
-      "name": "Professional service robots",
-      "definition": "Everything mobile outside the factory cage: AMRs/AGVs in warehouses (~54% of the category), delivery, cleaning, medical, agriculture, hospitality.",
-      "units": 200000,
-      "year": "2024",
-      "note": "+9% YoY; staff shortages are the main demand driver. AMR = autonomous mobile robot (navigates freely); AGV = automated guided vehicle (follows fixed paths).",
-      "sources": ["https://ifr.org/ifr-press-releases/news/service-robots-see-global-growth-boom"]
+      "name": "Professional service robots (approx.)",
+      "definition": "Robots sold for professional tasks including transport, logistics, cleaning and hospitality; IFR tracks medical robots separately.",
+      "units": 250000,
+      "year": "2025",
+      "note": "Nearly 250,000 units in IFR’s 2025 supplier sample, up 24%; transport and logistics accounted for 117,500 (47%). Sample results are not a full industry census.",
+      "sources": ["https://ifr.org/ifr-press-releases/news/global-sales-of-professional-service-robots-surge-24-percent"]
     },
     {
       "id": "humanoid",
@@ -55,8 +53,8 @@
       "definition": "Bipedal or wheeled-torso general-purpose robots. The smallest category today and the fastest-growing.",
       "units": 16000,
       "year": "2025",
-      "note": ">80% of 2025 installs were in China; 2026 forecast exceeds 50,000 units (+700% YoY). Counterpoint puts H1 2026 shipments above 22,000 (+~300% YoY). The IFR counts fewer for 2025, nearly 7,000 full-size humanoids from 174 makers (over half Chinese), on a narrower definition.",
-      "sources": ["https://counterpointresearch.com/en/insights/Global-Humanoid-Robot-Installations-Reach-16,000-Units-in-2025-as-Mass-Production-Picks-Pace", "https://www.trendforce.com/presscenter/news/20260409-13007.html", "https://thenextweb.com/news/industrial-robots-world-robotics-2026-china-59-eu-falls", "https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026"]
+      "note": "Counterpoint estimates ~16,000 installations in 2025, over 80% in China. IFR reports about 7,000 full-size (>140 cm) humanoids sold for professional use beyond R&D and entertainment; definitions differ.",
+      "sources": ["https://counterpointresearch.com/en/insights/Global-Humanoid-Robot-Installations-Reach-16,000-Units-in-2025-as-Mass-Production-Picks-Pace", "https://ifr.org/ifr-press-releases/news/global-sales-of-professional-service-robots-surge-24-percent"]
     }
   ],
   "production_trend": [
@@ -69,28 +67,27 @@
     { "year": "2021", "us_units": 35000, "china_units": 268000, "row_units": 223000, "projected": false, "note": "Industrial robot installations (IFR World Robotics via Our World in Data).", "sources": ["https://ourworldindata.org/grapher/annual-industrial-robots-installed"] },
     { "year": "2022", "us_units": 40000, "china_units": 290000, "row_units": 223000, "projected": false, "note": "Industrial robot installations (IFR World Robotics via Our World in Data).", "sources": ["https://ourworldindata.org/grapher/annual-industrial-robots-installed"] },
     { "year": "2023", "us_units": 38000, "china_units": 276000, "row_units": 227000, "projected": false, "note": "Industrial robot installations (IFR World Robotics via Our World in Data).", "sources": ["https://ourworldindata.org/grapher/annual-industrial-robots-installed"] },
-    { "year": "2024", "us_units": 34164, "china_units": 295045, "row_units": 212867, "projected": false, "note": "Industrial robot installations, record year (542,076 world total). Humanoids added 16,000 more units globally in 2025 (>80% China) — see the humanoid row in shipments[] above; not folded in here since no country-level historical humanoid series exists.", "sources": ["https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf", "https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years"] },
-    { "year": "2025", "us_units": 38400, "china_units": 354200, "row_units": 210400, "projected": false, "note": "Actual, replacing the 2025 projection made before World Robotics 2026 (US 34,500, China 324,000). IFR: China 354,200 (+20%), US 38,400 (+12%), world 'more than 600,000' (603,000 used here, so rest of world = 210,400 by subtraction).", "sources": ["https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally", "https://thenextweb.com/news/industrial-robots-world-robotics-2026-china-59-eu-falls"] },
-    { "year": "2026", "us_units": 39200, "china_units": 393200, "row_units": 222600, "projected": true, "note": "Projected. IFR forecasts 655,000 world installs in 2026, with Asia +11% and the Americas +2%. Here China is the 2025 actual times 1.11 and the US the 2025 actual times 1.02 (an assumption that the US tracks the Americas); the rest of the world is 655,000 minus those two. IFR does not publish per-country 2026 figures.", "sources": ["https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally", "https://thenextweb.com/news/industrial-robots-world-robotics-2026-china-59-eu-falls"] }
+    { "year": "2024", "us_units": 34164, "china_units": 295045, "row_units": 212867, "projected": false, "note": "Industrial robot installations in 2024: 542,076 worldwide. Cobots are included; counts are industrial installations, not operating stock.", "sources": ["https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf", "https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years"] },
+    { "year": "2025", "us_units": 38400, "china_units": 354200, "row_units": 210400, "projected": false, "note": "IFR reports 603,000 global installations, 354,200 in China and 38,400 in the U.S. Rest of world is the approximate residual of rounded figures (210,400), not a separately reported count.", "sources": ["https://ifr.org/ifr-press-releases/news/presidents-report-by-jane-heffner-3-2026", "https://ifr.org/downloads/press_docs/EN-2026-SEP-24-IFR_Press_Release_WR-USA.pdf"] }
   ],
   "chain_stages": [
     { "id": "materials", "name": "Materials & magnets", "us_position": "weak", "note": "Rare earths, NdFeB magnets, magnesium — China holds ~90% of refining and magnet output; U.S. capacity is being rebuilt with DoD money but operates at a fraction of announced targets.", "sources": ["https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions", "https://www.adamasintel.com/did-the-us-just-nationalize-the-rare-earth-industry/"] },
-    { "id": "components", "name": "Precision components", "us_position": "weak", "note": "Reducers, roller screws, bearings, motors, hands — a Japan–China duopoly with near-zero U.S. merchant capacity. The deepest structural gap in the chain.", "sources": ["https://www.trendforce.com/presscenter/news/20251209-12825.html", "https://www.intelmarketresearch.com/robot-harmonic-drive-reduction-gear-market-43594"] },
-    { "id": "sensing-compute", "name": "Sensing & compute", "us_position": "contested", "note": "U.S. dominates robot-brain design (NVIDIA, Qualcomm) and depth cameras, but lidar is ~89% Chinese and leading-edge chips are fabbed in Taiwan and Korea.", "sources": ["https://www.yolegroup.com/press-release/china-takes-the-lead-in-automotive-lidar-a-market-set-to-quadruple-by-2030/", "https://nvidianews.nvidia.com/news/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics"] },
-    { "id": "power", "name": "Batteries & power", "us_position": "weak", "note": "Cells follow the EV supply base: Chinese firms hold ~70% of installations. U.S. strength is at the pack/BMS level; no U.S. mass-market robot cell source until ~2028.", "sources": ["https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/", "https://www.businesswire.com/news/home/20250117989373/en/EnerSys-Completes-Negotiation-of-U.S.-DOE-Award-Supporting-Development-of-Lithium-ion-Gigafactory"] },
-    { "id": "assembly", "name": "Final assembly", "us_position": "contested", "note": "U.S. nameplate capacity now rivals Chinese plans on paper, but realized 2025 output was >80% Chinese. Japanese and European industrial-robot makers are localizing U.S. plants.", "sources": ["https://counterpointresearch.com/en/insights/Global-Humanoid-Robot-Installations-Reach-16,000-Units-in-2025-as-Mass-Production-Picks-Pace", "https://www.trendforce.com/presscenter/news/20260409-13007.html"] },
-    { "id": "demand", "name": "Deployment & demand", "us_position": "contested", "note": "Amazon, automakers, and contract manufacturers anchor U.S. demand, while China leads installed base and robot density on factory floors.", "sources": ["https://techcrunch.com/2025/07/01/amazon-deploys-its-1-millionth-robot-releases-generative-ai-model/", "https://www.axios.com/2026/01/05/hyundai-humanoid-robots-boston-dynamics"] }
+    {"id": "components", "name": "Precision components", "us_position": "weak", "note": "Reducers, roller screws, bearings, motors and hands rely on a mix of suppliers. U.S. capacity exists, including Cone Drive’s Michigan harmonic gearing plant; Japan and China supply much of the market.", "sources": ["https://conedrive.com/harmonic-gearing-ring-series/", "https://www.thefai.org/posts/the-state-of-industrial-robotics"]},
+    {"id": "sensing-compute", "name": "Sensing & compute", "us_position": "contested", "note": "U.S. firms design robot compute and sensors. Chinese suppliers held 89% of the 2024 automotive lidar market in Yole’s estimate; that is not a robot-lidar share.", "sources": ["https://www.edge-ai-vision.com/2025/06/china-takes-the-lead-in-automotive-lidar-a-market-set-to-quadruple-by-2030/", "https://nvidianews.nvidia.com/news/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics"]},
+    {"id": "power", "name": "Batteries & power", "us_position": "weak", "note": "Chinese firms held about 70% of global EV battery installations in 2025, a proxy for the supply base rather than a measured robot-cell share. EnerSys announced a U.S. facility targeting 2028 production.", "sources": ["https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/", "https://www.businesswire.com/news/home/20250117989373/en/EnerSys-Completes-Negotiation-of-U.S.-DOE-Award-Supporting-Development-of-Lithium-ion-Gigafactory"]},
+    { "id": "assembly", "name": "Final assembly", "us_position": "contested", "note": "U.S. firms are building assembly capacity. Counterpoint estimates that more than 80% of 2025 humanoid installations occurred in China; installation location is not the same as production origin.", "sources": ["https://counterpointresearch.com/en/insights/Global-Humanoid-Robot-Installations-Reach-16,000-Units-in-2025-as-Mass-Production-Picks-Pace", "https://www.figure.ai/news/botq"] },
+    {"id": "demand", "name": "Deployment & demand", "us_position": "contested", "note": "Amazon, automakers and manufacturers anchor U.S. demand. China leads in the absolute stock of industrial robots; the U.S. has higher 2024 robot density under IFR’s updated labor data.", "sources": ["https://techcrunch.com/2025/07/01/amazon-deploys-its-1-millionth-robot-releases-generative-ai-model/", "https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas"]}
   ],
   "categories": [
     {
       "id": "rare-earths",
       "name": "Rare-earth mining, separation & refining",
       "stage": "materials",
-      "summary": "The U.S. can mine — Mountain Pass produced a record ~50,700 t of REO concentrate in 2025 — but separation and refining is the deepest chokepoint: China held ~91% of global capacity in 2024 and ~99% of heavy rare-earth (Dy/Tb) processing. 2025–26 brought real firsts: Energy Fuels produced the first U.S. primary terbium oxide in decades, Lynas broke China's monopoly on commercial heavy separation (in Malaysia), and ReElement's 16,000 t/yr Indiana refinery starts up in Q3 2026.",
-      "us_share_pct": 12,
-      "china_share_pct": 70,
+      "summary": "Separation and refining remain concentrated in China. Energy Fuels reported U.S. primary terbium oxide production in 2026. ReElement reported commissioning a germanium column at Marion, Indiana, in August 2026; its planned four-line capacity exceeds 16,000 t/yr across rare earths and other critical minerals, not operating rare-earth output.",
+      "us_share_pct": 13,
+      "china_share_pct": 69,
       "row_share_pct": 18,
-      "share_note": "Share of global rare-earth mine output; for separation/refining China's share is ~91%",
+      "share_note": "2025 rare-earth mine output, calculated from rounded USGS estimates; not separation or refining",
       "chokepoints": [
         { "text": "Heavy rare-earth (Dy/Tb) separation was ~99% Chinese as of April 2025; Wuxi hosted the world's only commercial Dy refining in 2025", "source": "https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions" },
         { "text": "China's April 2025 export-licensing regime on 7 heavy REEs never lapsed; Dy and Tb exports fell ~50% below pre-restriction levels", "source": "https://www.csis.org/analysis/rare-earth-export-restrictions-one-year-later" },
@@ -98,20 +95,20 @@
         { "text": "Lynas's DoD-backed Seadrift TX heavy-REE plant is now 'unlikely to proceed' per management, shifting capital to Malaysia", "source": "https://northernminer.com/news/lynas-flags-texas-rare-earths-plant-uncertainty/1003882176/" }
       ],
       "sources": [
-        { "url": "https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions", "label": "CSIS — China rare-earth restrictions" },
-        { "url": "https://www.csis.org/analysis/rare-earth-export-restrictions-one-year-later", "label": "CSIS — one year later" },
-        { "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths-heavy.pdf", "label": "USGS MCS 2026" }
+        { "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths_ver.1.2.pdf", "label": "USGS — 2025 mine estimates" },
+        { "url": "https://investors.energyfuels.com/2026-03-25-Energy-Fuels-Announces-First-U-S-Primary-Production-of-Critical-Heavy-Rare-Earth-Material-in-Decades", "label": "Energy Fuels — terbium" },
+        { "url": "https://markets.financialcontent.com/stocks/article/accwirecq-2026-8-7-reelement-technologies-successfully-demonstrates-commercial-scale-refining-platform-at-marion-facility", "label": "ReElement — Marion" }
       ]
     },
     {
       "id": "ndfeb-magnets",
       "name": "NdFeB magnet manufacturing",
       "stage": "materials",
-      "summary": "December 2025 was the inflection point: MP Materials began commercial NdFeB production at Independence (Fort Worth) and e-VAC shipped its first U.S.-made magnets from Sumter, SC. Announced U.S. capacity sums to ~25,000 t/yr by 2028–30 (MP ~10,000, Vulcan 10,000, Noveon 2,000+, USAR 1,200, e-VAC ~1,500) — but mid-2026 operating capacity is only ~3,000–5,000 t/yr against China's ~300,000 t/yr installed base. A humanoid needs ~2–4 kg of NdFeB; one million robots a year would consume more magnet than all current U.S. operating capacity.",
-      "us_share_pct": 1,
-      "china_share_pct": 90,
-      "row_share_pct": 9,
-      "share_note": "Share of global NdFeB magnet production by volume, 2025",
+      "summary": "MP Materials announced commercial NdFeB magnet production at Independence in Fort Worth in December 2025. Its planned 10X facility targets 7,000 tonnes a year at full capacity; planned capacity is not realized output. Adamas estimated China produced over 90% of NdFeB magnets in 2025.",
+      "us_share_pct": null,
+      "china_share_pct": null,
+      "row_share_pct": null,
+      "share_note": "Adamas estimates China produced over 90% of NdFeB magnets in 2025; U.S. share is not established here",
       "chokepoints": [
         { "text": "Sintering and grain-boundary-diffusion know-how is concentrated in China and Japan; China restricts exporting the process technology", "source": "https://www.csis.org/analysis/rare-earth-export-restrictions-one-year-later" },
         { "text": "Dy/Tb inputs for high-temperature magnet grades depend on Chinese-licensed exports", "source": "https://www.csis.org/analysis/rare-earth-export-restrictions-one-year-later" },
@@ -166,27 +163,26 @@
       "id": "precision-reducers",
       "name": "Precision reducers (harmonic & cycloidal)",
       "stage": "components",
-      "summary": "The U.S. has essentially no domestic precision-reducer manufacturing at scale — the category is a Japan–China duopoly. Harmonic Drive Systems (~35% global share) and Nabtesco (~60% of robot cycloidal RV gears) hold the high end; Chinese makers Green Harmonic and Leaderdrive are taking the humanoid volume tier at 30–40% lower prices, with Green Harmonic qualified into Tesla's chain and a 500,000-unit/yr plant entering production in 2026. Harmonic Drive's only U.S. footprint is assembly in Beverly, MA.",
-      "us_share_pct": 2,
-      "china_share_pct": 40,
-      "row_share_pct": 58,
-      "share_note": "Global harmonic/cycloidal reducer revenue share; 'rest of world' is mostly Japan",
+      "summary": "Japan and China are major reducer suppliers. U.S. manufacturing exists: Harmonic Drive produces in Beverly, Massachusetts, and Cone Drive makes harmonic gearing in Traverse City, Michigan. FAI estimates Beverly accounts for 10–20% of Harmonic Drive Systems output; comparable country shares across reducer types are not established here.",
+      "us_share_pct": null,
+      "china_share_pct": null,
+      "row_share_pct": null,
+      "share_note": "Comparable country shares across reducer types are unavailable",
       "chokepoints": [
         { "text": "Strain-wave tooth-grinding know-how sits with HDSI (Japan) and a handful of Suzhou firms", "source": "https://www.intelmarketresearch.com/robot-harmonic-drive-reduction-gear-market-43594" },
         { "text": "Nabtesco is sole-source-class for large-joint cycloidal RV gears", "source": "https://www.businessresearchinsights.com/market-reports/rv-reducer-market-103381" },
-        { "text": "Zero U.S. domestic strain-wave volume capacity — every robot-grade reducer is imported", "source": "https://www.automate.org/news/harmonic-drive-llc-opens-new-us-headquarters-in-beverly-ma" }
+        { "text": "U.S. manufacturing exists, but the domestic capacity available for robotics is not quantified here", "source": "https://conedrive.com/harmonic-gearing-ring-series/" }
       ],
       "sources": [
-        { "url": "https://www.intelmarketresearch.com/robot-harmonic-drive-reduction-gear-market-43594", "label": "Intel Market Research" },
-        { "url": "https://www.trendforce.com/presscenter/news/20251209-12825.html", "label": "TrendForce" },
-        { "url": "https://eu.36kr.com/en/p/3780414717129481", "label": "36Kr — reducers" }
+        { "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics", "label": "FAI — industrial robotics" },
+        { "url": "https://conedrive.com/harmonic-gearing-ring-series/", "label": "Cone Drive — U.S. manufacturing" }
       ]
     },
     {
       "id": "motors",
       "name": "High-density electric motors",
       "stage": "components",
-      "summary": "The U.S. retains design leadership in frameless torque motors (Kollmorgen, Moog) and Switzerland in coreless motors (Maxon), but Chinese makers (Leadshine, Johnson Electric, Haozhi) have closed the torque-density gap and dominate volume pricing. The binding constraint is upstream: every high-density robot motor needs NdFeB magnets that China overwhelmingly processes.",
+      "summary": "The U.S. retains design leadership in frameless torque motors (Kollmorgen, Moog) and Switzerland in coreless motors (Maxon), but Chinese makers (Leadshine, Johnson Electric, Haozhi) have closed the torque-density gap and dominate volume pricing. A potential upstream constraint is NdFeB magnets, which are used in many high-density motors and heavily depend on Chinese processing.",
       "us_share_pct": 20,
       "china_share_pct": 50,
       "row_share_pct": 30,
@@ -244,13 +240,13 @@
       "id": "sensors",
       "name": "Sensors (force/torque, tactile, vision, lidar)",
       "stage": "sensing-compute",
-      "summary": "The U.S. holds genuine strength in six-axis force/torque sensing (ATI, Apex NC), tactile (GelSight), and depth cameras (RealSense — embedded in ~60% of the world's AMRs and humanoids) — but has effectively lost lidar: Chinese suppliers hold ~89% of the global market, RoboSense's robotics-lidar shipments grew 1,459% YoY in Q1 2026, and Luminar filed Chapter 11 in Dec 2025, leaving Ouster as the main U.S. merchant player. China is also scaling six-axis F/T sensor output at 50%+ annual growth.",
+      "summary": "U.S. suppliers include ATI in force/torque sensing, GelSight in tactile sensing, and Ouster in lidar. Yole estimated that four Chinese suppliers held 89% of automotive lidar in 2024; that market includes passenger cars and robotaxis and is not a measured share of robotics lidar.",
       "us_share_pct": null,
-      "china_share_pct": 89,
+      "china_share_pct": null,
       "row_share_pct": null,
-      "share_note": "China share is lidar-specific (Yole Group, 2025); the U.S. leads in F/T, tactile and depth cameras",
+      "share_note": "Yole’s 89% estimate covers automotive lidar in 2024, not all robot sensors",
       "chokepoints": [
-        { "text": "Lidar: four Chinese firms hold ~89% of the global market; Western alternatives are shrinking", "source": "https://www.yolegroup.com/press-release/china-takes-the-lead-in-automotive-lidar-a-market-set-to-quadruple-by-2030/" },
+        { "text": "Four Chinese suppliers held 89% of the 2024 automotive lidar market in Yole’s estimate; this is not a robot-lidar share", "source": "https://www.edge-ai-vision.com/2025/06/china-takes-the-lead-in-automotive-lidar-a-market-set-to-quadruple-by-2030/" },
         { "text": "Six-axis F/T calibration capacity — each unit is individually calibrated; U.S. capacity was sized for industrial robots, not million-unit humanoid volumes", "source": "https://www.qyresearch.com/industry-news/9720/robot-six-axis-force-sensors" },
         { "text": "RealSense alone is in ~60% of AMRs/humanoids — a single-vendor dependency, though a U.S. one", "source": "https://www.cnbc.com/2025/07/11/intel-ai-robotics-realsense.html" },
         { "text": "Tactile/e-skin remains pre-industrial, funded at SBIR scale rather than volume capex", "source": "https://www.gelsight.com/gelsight-air-force-sbir-robotic-tactile-sensors/" }
@@ -287,12 +283,12 @@
       "stage": "power",
       "summary": "Humanoid packs are small (~0.9–2.3 kWh), so cell volume is modest — but supply mirrors the EV market, where Chinese makers held ~70% of 2025 global installations (CATL 39%, BYD 16%). The U.S. is competitive at the pack/BMS level — Figure builds its 2.3 kWh F.03 structural pack in-house at BotQ — and in premium silicon-anode cells (Amprius), but EnerSys's DOE-backed $615M South Carolina gigafactory won't produce until 2028. Korean makers (LGES, Samsung SDI) are positioning as the non-Chinese cell source for Optimus-class robots.",
       "us_share_pct": null,
-      "china_share_pct": 70,
+      "china_share_pct": null,
       "row_share_pct": null,
-      "share_note": "Chinese firms' share of global EV/lithium cell installations in 2025 — the supply base robot cells draw from",
+      "share_note": "EV battery installations are a proxy, not a measured robot-cell share",
       "chokepoints": [
         { "text": "Over 55% of global cells come from two Chinese firms (CATL + BYD)", "source": "https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/" },
-        { "text": "No U.S. mass-market robot-grade cell source until EnerSys Greenville starts in 2028", "source": "https://www.businesswire.com/news/home/20250117989373/en/EnerSys-Completes-Negotiation-of-U.S.-DOE-Award-Supporting-Development-of-Lithium-ion-Gigafactory" },
+        { "text": "EnerSys announced a South Carolina lithium-ion facility with production targeted for 2028; this does not establish the first U.S. robot-cell supply", "source": "https://www.businesswire.com/news/home/20250117989373/en/EnerSys-Completes-Negotiation-of-U.S.-DOE-Award-Supporting-Development-of-Lithium-ion-Gigafactory" },
         { "text": "First-of-kind safety certification (UN38.3 + UL2271) capacity for humanoid batteries is scarce", "source": "https://www.figure.ai/news/f-03-battery-development" },
         { "text": "High-discharge sub-2.5 kWh form factors are a contested Korean niche (4680 cells, future solid-state)", "source": "https://www.kedglobal.com/batteries/newsView/ked202601270008" }
       ],
@@ -306,7 +302,7 @@
       "id": "final-assembly",
       "name": "Robot final assembly & integration",
       "stage": "assembly",
-      "summary": "Final assembly is the most visible U.S. push: BotQ ramped from one robot/day to one per hour in four months, Tesla is converting Fremont's Model S/X lines for ~1M Optimus units/yr while breaking ground on a dedicated Giga Texas Optimus factory targeting up to 10M units/yr (production targeted summer 2027), Agility's RoboFab is designed for 10,000 Digits/yr, and Hyundai plans 30,000 Atlas robots/yr near its Savannah Metaplant by 2028. But realized output is still overwhelmingly Chinese — China took >80% of the ~16,000 humanoid installations in 2025, AgiBot hit its 10,000th cumulative unit in March 2026, and Unitree targets 20,000 units this year. In industrial robots, FANUC, Yaskawa, ABB, and Universal Robots are all localizing U.S. assembly.",
+      "summary": "Final assembly is the most visible U.S. push: BotQ ramped from one robot/day to one per hour in four months, Tesla reported early Optimus production at Fremont in Q3 2026 and has discussed much larger production targets for future capacity, Agility's RoboFab is designed for 10,000 Digits/yr, and Hyundai plans 30,000 Atlas robots/yr near its Savannah Metaplant by 2028. But installations remain concentrated in China — Counterpoint estimates that China accounted for >80% of the ~16,000 humanoid installations worldwide in 2025, AgiBot hit its 10,000th cumulative unit in March 2026, and Unitree targets 20,000 units this year. In industrial robots, FANUC, Yaskawa, ABB, and Universal Robots are all localizing U.S. assembly.",
       "us_share_pct": 15,
       "china_share_pct": 80,
       "row_share_pct": 5,
@@ -451,15 +447,15 @@
       "categories": ["rare-earths"],
       "role": "Chromatographic rare-earth refiner from recycled and primary feedstock; upstream partner to Vulcan Elements",
       "sites": [
-        { "location": "Marion, IN", "detail": "'Supersite' refinery; initial production Q3 2026, full Phase 1 by year-end; 99.999% purity oxides", "capacity": "16,000+ t/yr separated oxides (Phase 1)" }
+        { "location": "Marion, IN", "detail": "Company reported commissioning a germanium column in August 2026; rare-earth lines are part of the planned buildout", "capacity": "16,000+ t/yr planned across critical minerals and rare earths (Phase 1)" }
       ],
       "capacity_note": null,
       "financing": [
-        { "date": "2025-11", "type": "DoD OSC loan", "amount_usd": 80000000, "detail": "$80M Office of Strategic Capital direct loan within the $1.4B Vulcan/ReElement package" }
+        { "date": "2026-07", "type": "DoD investment", "amount_usd": 25000000, "detail": "$25M Industrial Base Fund investment for Marion refining capacity" }
       ],
       "sources": [
-        { "url": "https://vulcanelements.com/vulcan-elements-forges-1-4-billion/" },
-        { "url": "https://www.stocktitan.net/news/AREC/re-element-technologies-provides-update-on-marion-rare-earth-and-dsbaehu7f4px.html" }
+        { "url": "https://markets.financialcontent.com/stocks/article/accwirecq-2026-8-7-reelement-technologies-successfully-demonstrates-commercial-scale-refining-platform-at-marion-facility" },
+        { "url": "https://www.nasdaq.com/press-release/reelement-technologies-announces-25-million-department-war-investment-expand-us" }
       ]
     },
     {
@@ -587,7 +583,7 @@
       "role": "Inventor and global leader in strain-wave (harmonic) gears, ~35% global share",
       "sites": [
         { "location": "Azumino, Nagano, Japan", "detail": "Main production plant", "capacity": null },
-        { "location": "Beverly, MA", "detail": "Harmonic Drive LLC — U.S. HQ and assembly (the only U.S. footprint in the category)", "capacity": null }
+        { "location": "Beverly, MA", "detail": "Harmonic Drive LLC U.S. headquarters and manufacturing plant", "capacity": null }
       ],
       "capacity_note": "Humanoid-related orders ~JPY 2.5B expected for FY ending March 2026",
       "financing": [],
@@ -1002,16 +998,16 @@
       "categories": ["final-assembly", "actuators", "dexterous-hands"],
       "role": "Humanoid OEM converting EV plants to robot assembly; in-house actuator and hand design with Chinese sub-component supply",
       "sites": [
-        { "location": "Fremont, CA", "detail": "Converting former Model S/X lines into the first large-scale Optimus line; mass production targeted late 2026", "capacity": "1M units/yr first-gen design target; 50–100K reported 2026 target" },
+        { "location": "Fremont, CA", "detail": "Tesla reported early production of its first production-quality Optimus robots in Q3 2026; it did not disclose a production count", "capacity": "1M units/yr first-gen design target" },
         { "location": "Giga Texas, Austin TX", "detail": "Dedicated next-gen Optimus factory under construction (est. $5–10B); production from ~2027", "capacity": "10M units/yr long-term target" }
       ],
-      "capacity_note": "Targets are company statements, not realized output — Optimus V3 reveal slipped again in April 2026",
+      "capacity_note": "Fremont began early production in Q3 2026; targets are not realized output",
       "financing": [
         { "date": "2026-01", "type": "Internal capex", "amount_usd": null, "detail": "Giga Texas Optimus buildout estimated $5–10B per permit filings" }
       ],
       "sources": [
         { "url": "https://www.therobotreport.com/from-evs-to-robotics-tesla-targets-10m-optimus-units-with-new-texas-plant/" },
-        { "url": "https://electrek.co/2026/04/22/tesla-optimus-production-fremont-model-sx-line/" }
+        { "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf" }
       ]
     },
     {
@@ -1174,7 +1170,7 @@
       "categories": ["final-assembly"],
       "role": "No. 1 globally in 2025 humanoid installations (~31% share, Counterpoint)",
       "sites": [
-        { "location": "Shanghai, China", "detail": "10,000th cumulative humanoid produced March 30, 2026 — the last 5,000 in three months; 20,000th delivered by September 2026", "capacity": null }
+        { "location": "Shanghai, China", "detail": "AgiBot reported its 10,000th humanoid in March and delivery of its 20,000th production-line robot in September 2026; the cumulative mix is unspecified", "capacity": null }
       ],
       "capacity_note": null,
       "financing": [],
@@ -1229,9 +1225,9 @@
         {
           "name": "White House OSTP / Commerce",
           "type": "agency",
-          "role": "Driving a national robotics strategy and a pending robotics executive order; Commerce Secretary convening robotics CEOs and asking industry to organize",
+          "role": "Officials sought industry input on a national robotics strategy; 2025 reporting described a possible executive order",
           "actions": [
-            { "date": "2025-12", "detail": "Administration weighing a 2026 robotics executive order — industrial/defense priority, procurement streamlining, preemption of conflicting state rules; not signed as of June 2026", "amount_usd": null },
+            { "date": "2025-12", "detail": "December 2025 reporting described a possible robotics executive order and strategy; it did not establish a current draft or final contents", "amount_usd": null },
             { "date": "2026-05", "detail": "OSTP, Commerce, SBA and Senate officials requested a unified industry plan, prompting the Robots for America coalition", "amount_usd": null }
           ],
           "sources": [
@@ -1372,12 +1368,13 @@
         {
           "name": "SoftBank Group",
           "type": "strategic",
-          "role": "'Physical AI' push: acquiring ABB Robotics outright and backing Agility Robotics and Skild AI",
+          "role": "'Physical AI' investments include a proposed acquisition of ABB Robotics and backing Agility Robotics and Skild AI",
           "actions": [
-            { "date": "2025-10", "detail": "$5.375B definitive agreement to acquire ABB's robotics division; pending EU/China/US approvals, expected to close mid-to-late 2026", "amount_usd": 5375000000 }
+            { "date": "2025-10", "detail": "$5.375B definitive agreement to acquire ABB Robotics, announced in October 2025; ABB expected closing in Q4 2026 subject to approvals and other conditions", "amount_usd": 5375000000 }
           ],
           "sources": [
-            { "url": "https://group.softbank/en/news/press/20251008" }
+            { "url": "https://group.softbank/en/news/press/20251008" },
+            { "url": "https://attachment.news.eu.nasdaq.com/a432a6ff77b9f9e09c9fe0318fd0bbdee" }
           ]
         },
         {
@@ -1488,23 +1485,23 @@
   "government_programs": [
     { "name": "OSC direct lending (incl. autonomous mobile robots)", "agency": "DoD Office of Strategic Capital", "amount_usd": 984000000, "detail": "First notice up to $984M (Oct 2024); FY26 allocation <$1.5B against $8.9B in applications; FY27 request >$20B; first loan $150M to MP Materials", "source": "https://defensescoop.com/2026/04/06/pentagon-office-strategic-capital-loan-program-budget-increase/" },
     { "name": "DoD–MP Materials partnership", "agency": "DoD", "amount_usd": 400000000, "detail": "$400M preferred equity (+up to $350M), $150M OSC loan, 10-yr $110/kg NdPr price floor, 100% offtake of 10X's 7,000 t/yr", "source": "https://www.sec.gov/Archives/edgar/data/0001801368/000119312525157310/d43796dex991.htm" },
-    { "name": "Vulcan/ReElement magnet package", "agency": "DoD OSC + Commerce (CHIPS)", "amount_usd": 1400000000, "detail": "$620M OSC loan to Vulcan + $80M to ReElement + $50M CHIPS incentives + ~$650M private capital for a 10,000 t/yr NC magnet plant", "source": "https://vulcanelements.com/vulcan-elements-forges-1-4-billion/" },
+    { "name": "Vulcan/ReElement magnet package", "agency": "DoD OSC + Commerce (CHIPS)", "amount_usd": null, "detail": "2025 announced package for a planned 10,000 t/yr magnet plant; ReElement later received a separate $25M investment and stopped seeking its $80M loan", "source": "https://www.investing.com/news/stock-market-news/pentagon-invests-25-million-into-rare-earths-startup-reelement-technologies-4789037" },
     { "name": "DPA Title III + 48C (e-VAC)", "agency": "DoD / Treasury", "amount_usd": 206000000, "detail": "$94.1M DPA Title III award + $111.9M 48C tax credit for the Sumter SC magnet plant", "source": "https://www.sccommerce.com/news/e-vac-magnetics-build-first-us-facility-sumter-county" },
     { "name": "DOE battery gigafactory award (EnerSys)", "agency": "DOE MESC", "amount_usd": 199000000, "detail": "Award supporting the $615M Greenville SC lithium-ion cell gigafactory (production 2028)", "source": "https://www.businesswire.com/news/home/20250117989373/en/EnerSys-Completes-Negotiation-of-U.S.-DOE-Award-Supporting-Development-of-Lithium-ion-Gigafactory" },
     { "name": "100% bonus depreciation (OBBBA)", "agency": "Treasury / IRS", "amount_usd": null, "detail": "Full same-year expensing of robots and automation equipment through at least 2029 — the largest demand-side adoption incentive", "source": "https://standardbots.com/blog/obbb-robotics" },
-    { "name": "Robotics Executive Order (pending)", "agency": "White House / Commerce", "amount_usd": null, "detail": "In development since Dec 2025; industrial/defense priority, procurement streamlining, state-rule preemption; not signed as of June 2026", "source": "https://www.humanoidsdaily.com/news/white-house-eyes-robotics-executive-order-as-trump-administration-pivots-to-hardware" },
+    { "name": "Possible robotics executive order (2025 reporting)", "agency": "White House / Commerce", "amount_usd": null, "detail": "December 2025 reporting described a possible robotics executive order; the report does not establish current status or final contents", "source": "https://www.humanoidsdaily.com/news/white-house-eyes-robotics-executive-order-as-trump-administration-pivots-to-hardware" },
     { "name": "NRI 3.0 / Foundational Research in Robotics", "agency": "NSF (+NASA, USDA, DOT, NIH)", "amount_usd": null, "detail": "Multi-agency academic robotics research; awards $250K–$1.5M over up to 4 years", "source": "https://www.nsf.gov/focus-areas/robotics" },
     { "name": "ARM Institute funding", "agency": "DoD / AFRL", "amount_usd": 87000000, "detail": "$87M AFRL funding per 2025 Impact Report; Commerce-funded Robotics Manufacturing Hub through Sept 2026", "source": "https://theaiinsider.tech/2026/05/31/arm-institute-2025-impact-report-87m-afrl-funding-key-robotics-projects-practical-manufacturer-support/" }
   ],
   "facts": [
-    { "label": "China component-chain control", "value": "~70% of the global humanoid component supply chain (motors, actuators, sensors, batteries, materials)", "source": "https://www.trendforce.com/presscenter/news/20251209-12825.html" },
-    { "label": "BOM without Chinese suppliers", "value": "Building Optimus Gen 2 without Chinese suppliers raises BOM from ~$46K to ~$131K (~3×)", "source": "https://nextfinancial.substack.com/p/one-million-robots-per-year-the-38" },
-    { "label": "NdFeB per humanoid", "value": "~2–4 kg per robot — roughly 2–3× an EV's magnet content; 1M robots/yr ≈ 3,500 t/yr, more than current U.S. operating magnet capacity", "source": "https://stockhead.com.au/resources/how-the-dawn-of-the-robot-age-could-send-rare-earth-demand-ballistic/" },
+    { "label": "Domestic reducer manufacturing", "value": "Cone Drive manufactures harmonic gearing in Traverse City, Michigan", "source": "https://conedrive.com/harmonic-gearing-ring-series/" },
+    { "label": "Robot-arm cost estimate", "value": "SemiAnalysis estimated in 2025 that a modeled UR5e-class arm would cost about 2.2 times as much to build in the U.S. as in China", "source": "https://newsletter.semianalysis.com/p/america-is-missing-the-new-labor-economy-robotics-part-1" },
+    { "label": "NdFeB per humanoid", "value": "An estimate of 2–4 kg per robot implies 2,000–4,000 tonnes for one million robots; actual demand depends on designs and production", "source": "https://stockhead.com.au/resources/how-the-dawn-of-the-robot-age-could-send-rare-earth-demand-ballistic/" },
     { "label": "China separation/refining share", "value": "~91% of global rare-earth separation capacity (2024); ~99% of heavy-REE processing as of April 2025", "source": "https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions" },
     { "label": "Export-control impact", "value": "Dy and Tb exports fell ~50% below pre-restriction levels; U.S. yttrium imports from China fell from 333 t to 17 t", "source": "https://www.csis.org/analysis/rare-earth-export-restrictions-one-year-later" },
     { "label": "US magnet outlook", "value": "Adamas: U.S. briefly reaches magnet demand parity ~2028, before robotics/AI demand outruns supply again", "source": "https://www.bloomberg.com/news/articles/2025-09-23/initial-us-magnet-supplies-can-t-meet-future-needs-adamas-warns" },
     { "label": "2025 humanoid installations", "value": "~16,000 units globally; China >80%; AgiBot No. 1 at ~31%", "source": "https://counterpointresearch.com/en/insights/Global-Humanoid-Robot-Installations-Reach-16,000-Units-in-2025-as-Mass-Production-Picks-Pace" },
-    { "label": "2026 humanoid forecast", "value": ">50,000 units globally (+700% YoY); China output +94%; Unitree + AgiBot ~80% of China share", "source": "https://www.trendforce.com/presscenter/news/20260409-13007.html" },
+    { "label": "2026 humanoid forecast", "value": "TrendForce forecast Chinese humanoid output growth of up to 94% in 2026; a projection, not realized production", "source": "https://www.trendforce.com/presscenter/news/20260409-13007.html" },
     { "label": "Actuator share of BOM", "value": "Actuators are ~50% of humanoid bill-of-materials value (Schaeffler)", "source": "https://www.schaeffler.com/remotemedien/media/_shared_media_rwd/08_investor_relations/presentations/20251202_humanoids_at_schaeffler.pdf" },
     { "label": "Roller screws per Optimus", "value": "~14 planetary roller screws per robot; lead times hit 26 weeks in 2023", "source": "https://www.kggfa.com/news/another-look-at-the-tesla-robot-the-planetary-roller-screw/" },
     { "label": "2025 robotics VC", "value": "~$14B per Crunchbase (vs $8.2B in 2024); broader trackers report $35–40B including megadeals", "source": "https://news.crunchbase.com/robotics/ai-funding-high-figure-raise-data/" },
