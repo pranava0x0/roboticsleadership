@@ -190,28 +190,6 @@
     "confidence": "High"
   },
   {
-    "id": "generative-bionics-data-factory-2026-10",
-    "title": "Generative Bionics plans a multi-site robotics data factory in Italy",
-    "date": "2026-10-21",
-    "source": "Generative Bionics",
-    "source_url": "https://news.gbionics.ai/?article=data-factory&lang=en",
-    "source_type": "Press Release",
-    "summary": "Generative Bionics announced plans for a multi-site physical AI data factory to collect and validate training data for industrial humanoid robots. The facility is planned, not an operating deployment.",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [
-      "physical-ai"
-    ],
-    "tags": [
-      "europe",
-      "training-data",
-      "humanoid"
-    ],
-    "sentiment": "Neutral",
-    "confidence": "High"
-  },
-  {
     "id": "intuitive-q3-2026-installed-base",
     "title": "Intuitive reports 12,094 installed da Vinci systems",
     "date": "2026-10-20",
@@ -230,51 +208,6 @@
     "tags": [
       "surgical-robotics",
       "healthcare"
-    ],
-    "sentiment": "Neutral",
-    "confidence": "High"
-  },
-  {
-    "id": "laplace-intelligence-simulation-2026-10",
-    "title": "Laplace Intelligence tests autonomous systems in simulation",
-    "date": "2026-10-19",
-    "source": "TechCrunch",
-    "source_url": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
-    "source_type": "News Article",
-    "summary": "The University of Michigan spinout uses AI-generated scenarios to stress-test robots and self-driving systems in simulation. TechCrunch reports that its early work is concentrated in autonomous driving.",
-    "category": "Research",
-    "companies": [],
-    "policies": [],
-    "themes": [
-      "physical-ai"
-    ],
-    "tags": [
-      "simulation",
-      "safety",
-      "autonomy"
-    ],
-    "sentiment": "Neutral",
-    "confidence": "High"
-  },
-  {
-    "id": "symbotic-cellumation-2026-10",
-    "title": "Symbotic acquires German sortation company cellumation",
-    "date": "2026-10-13",
-    "source": "Symbotic",
-    "source_url": "https://www.symbotic.com/news/symbotic-announces-acquisition-of-cellumation-advancing-next-generation-sortation-technology-for-the-global-supply-chain/",
-    "source_type": "Press Release",
-    "summary": "Symbotic acquired Bremen-based cellumation, maker of the celluveyor software-driven sorting platform. Cellumation will continue serving customers under its own name, with its founders leading the business.",
-    "category": "Competitive",
-    "companies": [
-      "symbotic"
-    ],
-    "policies": [],
-    "themes": [
-      "industrial-deployments"
-    ],
-    "tags": [
-      "logistics",
-      "acquisition"
     ],
     "sentiment": "Neutral",
     "confidence": "High"
@@ -423,14 +356,14 @@
   {
     "companies": [],
     "policies": [],
-    "source_type": "News",
+    "source_type": "Press Release",
     "sentiment": "Neutral",
     "id": "generative-bionics-amd-hub-2026-10",
     "title": "Generative Bionics plans a 5,000 sq m humanoid training hub in Italy with AMD",
     "date": "2026-10-21",
-    "source": "Humanoids Daily",
-    "source_url": "https://www.humanoidsdaily.com/news/generative-bionics-amd-italy-physical-ai-data-factory",
-    "summary": "The first of a proposed three-site Physical AI Data Factory network would run on AMD Helios infrastructure and train GENE.01 humanoids, with operations targeted for Q4 2027. \"Europe's largest\" is the company's own claim.",
+    "source": "Generative Bionics",
+    "source_url": "https://news.gbionics.ai/?article=data-factory&lang=en",
+    "summary": "Generative Bionics plans a three-site Physical AI Data Factory network using AMD Helios infrastructure. The first 5,000-square-metre hub in Italy is targeted for Q4 2027; later sites are planned elsewhere in Europe and for global markets. These are planned facilities, not operating deployments.",
     "category": "Deployment",
     "themes": [
       "physical-ai",
@@ -441,7 +374,7 @@
       "europe",
       "data-center"
     ],
-    "confidence": "Medium"
+    "confidence": "High"
   },
   {
     "companies": [
@@ -1346,13 +1279,15 @@
   },
   {
     "id": "symbotic-cellumation-acquisition-2026-10",
-    "title": "Symbotic to acquire Bremen sortation maker cellumation",
+    "title": "Symbotic announces acquisition of Bremen sortation maker cellumation",
     "date": "2026-10-13",
-    "source": "Robotics & Automation News",
-    "source_url": "https://roboticsandautomationnews.com/2026/10/13/symbotic-announces-acquisition-of-cellumation-advancing-next-generation-sortation-technology-for-the-global-supply-chain/105868/",
-    "summary": "cellumation makes the celluveyor, a sortation floor built from hundreds of independently controlled cells. Price and terms were not disclosed.",
+    "source": "Symbotic",
+    "source_url": "https://www.symbotic.com/news/symbotic-announces-acquisition-of-cellumation-advancing-next-generation-sortation-technology-for-the-global-supply-chain/",
+    "summary": "Symbotic announced the acquisition of cellumation, maker of the celluveyor sorting platform. Cellumation will retain its name and Bremen headquarters, with its founders continuing to lead the business. The release does not identify a separate closing event.",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "symbotic"
+    ],
     "themes": [
       "industrial-deployments"
     ],
@@ -1363,9 +1298,9 @@
       "acquisition",
       "sortation"
     ],
-    "confidence": "Medium",
+    "confidence": "High",
     "policies": [],
-    "source_type": "News",
+    "source_type": "Press Release",
     "sentiment": "Neutral"
   },
   {
