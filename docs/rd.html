@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Robotics R&D from the US, China and elsewhere: foundation and world models, the benchmarks that score them, research areas, and the components inside a humanoid. Each record links to its source." />
+  <link rel="canonical" href="https://pranava0x0.github.io/roboticsleadership/rd.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Robotics Leadership Tracker" />
+  <meta property="og:title" content="R&amp;D — Robotics Tracker" />
+  <meta property="og:description" content="Robotics R&D from the US, China and elsewhere: foundation and world models, the benchmarks that score them, research areas, and the components inside a humanoid. Each record links to its source." />
+  <meta property="og:url" content="https://pranava0x0.github.io/roboticsleadership/rd.html" />
+  <meta property="og:image" content="https://pranava0x0.github.io/roboticsleadership/assets/share-card.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Where AI meets the physical world." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>R&amp;D — Robotics Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&family=Inter:wght@400;500;600&family=Oswald:wght@500;600&family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@400;500;600&family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=Spectral:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" />
+  <script>
+    /* Set data-theme before first paint to avoid FOUC. See DESIGN.md § 15. */
+    (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams','foundation'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="preload" as="fetch" href="data/rd.json" crossorigin />
+  <!--jsonld:start-->
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://pranava0x0.github.io/roboticsleadership/#website","name":"Robotics Leadership Tracker","url":"https://pranava0x0.github.io/roboticsleadership/","inLanguage":"en","creator":{"@type":"Person","name":"Pranava Raparla","url":"https://pranavaraparla.com"}},{"@type":"WebPage","@id":"https://pranava0x0.github.io/roboticsleadership/rd.html#webpage","name":"R&D — Robotics Tracker","description":"Robotics R&D from the US, China and elsewhere: foundation and world models, the benchmarks that score them, research areas, and the components inside a humanoid. Each record links to its source.","url":"https://pranava0x0.github.io/roboticsleadership/rd.html","inLanguage":"en","isPartOf":{"@id":"https://pranava0x0.github.io/roboticsleadership/#website"},"mainEntity":{"@type":"Dataset","name":"Robotics R&D tracker"}},{"@type":"Dataset","name":"Robotics R&D tracker","description":"Robot foundation models, world models, benchmarks and leaderboards, research areas, datasets, compute and the humanoid component stack, each entry with its source and capture date.","url":"https://pranava0x0.github.io/roboticsleadership/rd.html","isAccessibleForFree":true,"creator":{"@type":"Person","name":"Pranava Raparla","url":"https://pranavaraparla.com"},"isPartOf":{"@id":"https://pranava0x0.github.io/roboticsleadership/#website"},"distribution":{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://pranava0x0.github.io/roboticsleadership/data/rd.json"}}]}</script>
+  <!--jsonld:end-->
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="site-header-inner">
+      <nav class="primary-nav" aria-label="Primary" id="primary-nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Front page</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="china.html">US vs China</a></li>
+          <li><a href="rd.html" aria-current="page">R&amp;D</a></li>
+          <li><a href="companies.html">Companies</a></li>
+          <li><a href="policies.html">Policy</a></li>
+          <li><a href="physical-ai-action-plan.html">Investment areas</a></li>
+          <li><a href="supply-chain.html">Supply Chain</a></li>
+          <li><a href="energy.html">Energy</a></li>
+          <li><a href="states.html">States</a></li>
+          <li><a href="themes.html">Themes</a></li>
+          <li><a href="scsp-summit.html">SCSP Summit</a></li>
+        </ul>
+        <details class="primary-more" hidden>
+          <summary>Sections</summary>
+          <div class="primary-more-menu"><ul class="nav-overflow"></ul></div>
+        </details>
+      </nav>
+      <details class="theme-picker" id="theme-picker">
+        <summary aria-label="Theme picker">
+          <span class="theme-picker-current">Dawn</span>
+          <svg class="theme-picker-chevron" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="theme-picker-menu" role="radiogroup" aria-label="Choose theme">
+          <label class="theme-option"><input type="radio" name="theme" value="caves"><span class="theme-option-name">Caves of Steel</span><span class="theme-option-tag">Earth</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Subconscious</span></label>
+          <label class="theme-option"><input type="radio" name="theme" value="foundation"><span class="theme-option-name">Foundation</span><span class="theme-option-tag">Trantor</span></label>
+        </div>
+      </details>
+    </div>
+  </header>
+
+
+  <main id="main">
+    <h1 class="page-title">Robotics R&amp;D.</h1>
+    <p class="page-lede">The models, tests, research and parts behind physical AI, from labs in the US, China and elsewhere.</p>
+
+    <section aria-label="Entries by country" class="rd-summary">
+      <div id="rd-summary"><!--static:rd-summary:start--><p class="muted">Loading…</p><!--static:rd-summary:end--></div>
+    </section>
+
+    <nav class="subtab-list" data-subtabs aria-label="R&amp;D sections">
+      <a href="#panel-models" data-subtab="models">Foundation models</a>
+      <a href="#panel-world-models" data-subtab="world-models">World models</a>
+      <a href="#panel-benchmarks" data-subtab="benchmarks">Benchmarks</a>
+      <a href="#panel-areas" data-subtab="areas">R&amp;D areas</a>
+      <a href="#panel-components" data-subtab="components">Component stack</a>
+    </nav>
+
+    <section class="subtab-panel" id="panel-models" aria-label="Foundation models">
+      <h2 class="section-title rule">Foundation models</h2>
+      <p class="muted rd-intro">Vision-language-action and robot foundation models: who built them, whether the weights are open, and what scores they publish. Most scores are the developer's own and are flagged.</p>
+      <div id="rd-models" class="rd-slot"><!--static:rd-models:start--><p class="muted">Loading…</p><!--static:rd-models:end--></div>
+    </section>
+    <section class="subtab-panel" id="panel-world-models" aria-label="World models">
+      <h2 class="section-title rule">World models</h2>
+      <p class="muted rd-intro">Models that learn how the physical world behaves from video. Some simulate worlds to train or test a robot; others drive the robot directly.</p>
+      <div id="rd-world-models" class="rd-slot"><!--static:rd-world-models:start--><p class="muted">Loading…</p><!--static:rd-world-models:end--></div>
+    </section>
+    <section class="subtab-panel" id="panel-benchmarks" aria-label="Benchmarks">
+      <h2 class="section-title rule">Benchmarks</h2>
+      <p class="muted rd-intro">Who runs each test, what it measures, and who is ahead as of the date shown. An audit of LIBERO and SimplerEnv found only about one in five state-of-the-art claims were statistically significant, so read close scores as ties.</p>
+      <div id="rd-benchmarks" class="rd-slot"><!--static:rd-benchmarks:start--><p class="muted">Loading…</p><!--static:rd-benchmarks:end--></div>
+    </section>
+    <section class="subtab-panel" id="panel-areas" aria-label="R&amp;D areas">
+      <h2 class="section-title rule">R&amp;D areas</h2>
+      <p class="muted rd-intro">Research directions with dated evidence, followed by the datasets and compute that feed them.</p>
+      <div id="rd-areas" class="rd-slot"><!--static:rd-areas:start--><p class="muted">Loading…</p><!--static:rd-areas:end--></div>
+    </section>
+    <section class="subtab-panel" id="panel-components" aria-label="Component stack">
+      <h2 class="section-title rule">Component stack</h2>
+      <p class="muted rd-intro">What a humanoid costs to build, how three analyst firms split the bill of materials, and component facts from teardowns and filings.</p>
+      <div id="rd-components" class="rd-slot"><!--static:rd-components:start--><p class="muted">Loading…</p><!--static:rd-components:end--></div>
+    </section>
+
+    <section class="rd-method" id="rd-method-note" aria-labelledby="rd-method-title">
+      <h2 class="section-title rule" id="rd-method-title">How to read this page</h2>
+      <div id="rd-method"><!--static:rd-method:start--><p class="muted">Loading…</p><!--static:rd-method:end--></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Data updated <span class="updated-date tnum">—</span>.</p>
+    <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
+  </footer>
+
+  <script src="assets/app.js" defer></script>
+  <script defer>
+  document.addEventListener('DOMContentLoaded', async () => {
+    // Tabs are set up after the repaint so a #deep-link to a row inside a
+    // panel finds its element. On failure the baked HTML stays and tabs still work.
+    const tabs = () => RT.initSubTabs('[data-subtabs]', { param: 'tab' });
+    let rd;
+    try {
+      rd = await RT.loadData('rd');
+    } catch (e) {
+      console.error('rd.json failed to load', e);
+      document.getElementById('rd-summary').innerHTML = '<p class="muted">Failed to load R&amp;D data.</p>';
+      tabs();
+      return;
+    }
+    RT.paint(document.getElementById('rd-summary'), RT.renderRdSummary(rd));
+    RT.paint(document.getElementById('rd-models'), RT.renderRdModels(rd));
+    RT.paint(document.getElementById('rd-world-models'), RT.renderRdWorldModels(rd));
+    RT.paint(document.getElementById('rd-benchmarks'), RT.renderRdBenchmarks(rd));
+    RT.paint(document.getElementById('rd-areas'), RT.renderRdAreas(rd));
+    RT.paint(document.getElementById('rd-components'), RT.renderRdComponents(rd));
+    RT.paint(document.getElementById('rd-method'), RT.renderRdMethod(rd));
+    tabs();
+  });
+  </script>
+</body>
+</html>

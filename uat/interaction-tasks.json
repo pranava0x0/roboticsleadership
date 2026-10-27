@@ -329,6 +329,82 @@
      "#sec-five-year-plan blockquote"
     ]
    ]
+  },
+  "rd_models_first": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "see",
+     "#rd-models-table tbody tr[id]"
+    ]
+   ]
+  },
+  "rd_world_models": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "tap",
+     "[data-subtab=\"world-models\"]"
+    ],
+    [
+     "see",
+     "#panel-world-models .rd-table tbody tr"
+    ]
+   ]
+  },
+  "rd_benchmark_leaders": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "tap",
+     "[data-subtab=\"benchmarks\"]"
+    ],
+    [
+     "see",
+     "#panel-benchmarks .rd-bench .rd-leaders tbody tr"
+    ]
+   ]
+  },
+  "rd_area_evidence": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "tap",
+     "[data-subtab=\"areas\"]"
+    ],
+    [
+     "see",
+     "#panel-areas .rd-area[open] .rd-items li"
+    ]
+   ]
+  },
+  "rd_bom_shares": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "tap",
+     "[data-subtab=\"components\"]"
+    ],
+    [
+     "see",
+     "#panel-components .rd-bom dl"
+    ]
+   ]
   }
  }
 }
