@@ -11,7 +11,7 @@
     "sponsor": "U.S. Department of the Treasury",
     "summary": "Treasury proposes rules to implement the outbound investment provisions of the COINS Act. The proposal would prohibit certain covered U.S. transactions involving foreign persons in countries of concern engaged in specified technologies and require notification for others. It includes development of super-intelligence systems and laboratory robotics within specified prohibited-technology categories. Comments are due December 7, 2026; the proposed rule is not final.",
     "full_text_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations",
-    "robotics_scope": "The proposed definition of super-intelligence systems includes embodied systems such as robots; another proposed prohibited-technology category covers hardware, robotics or software for automated scientific discovery. Restrictions apply to covered transactions, not all robots or foreign investment.",
+    "robotics_scope": "Proposed 851.232(b) lists industrial, bipedal, humanoid, quadruped and other mobile robots as embodied super-intelligence systems, and 851.226(h) prohibits developing such systems in a country of concern, with no compute threshold. Restrictions apply to covered transactions by U.S. persons, not to all robots or all foreign investment.",
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
@@ -34,7 +34,7 @@
         "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-26/pdf/2026-21786.pdf"
       }
     ],
-    "last_updated": "2026-10-26"
+    "last_updated": "2026-10-28"
   },
   {
     "id": "nist-mep-centers-awards-2026",
@@ -2285,7 +2285,7 @@
     "status": "In effect",
     "bill_number": null,
     "sponsor": "Federal Communications Commission",
-    "summary": "On July 28, the FCC added foreign-produced advanced robotic devices to its Covered List, based on an Executive Branch interagency national-security determination attached to DA 26-786 as Appendix C. Listing restricts new FCC equipment authorizations and federal subsidies; it does not ban existing ownership. Department of War conditional approvals are an exception. This is separate from Commerce’s Section 232 investigation. The September 18 notice records later approvals and exemptions.",
+    "summary": "On July 28, the FCC added foreign-produced advanced robotic devices to its Covered List, based on an Executive Branch interagency national-security determination attached to DA 26-786 as Appendix C. Listing restricts new FCC equipment authorizations and federal subsidies; it does not ban existing ownership. Department of War conditional approvals are an exception. This is separate from Commerce’s Section 232 investigation. The September 18 notice records later approvals and exemptions. On October 22 the FCC granted Intel a one-year waiver for automated guided vehicles in its chip fabs.",
     "full_text_url": "https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf",
     "robotics_scope": "Network-capable foreign-produced advanced robotic devices; DoW conditional approval and FCC equipment-authorization process matter.",
     "estimated_budget_usd": null,
@@ -2315,7 +2315,7 @@
         "url": "https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf"
       }
     ],
-    "last_updated": "2026-10-14"
+    "last_updated": "2026-10-28"
   },
   {
     "id": "guard-act-hr9129",
