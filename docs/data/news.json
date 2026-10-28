@@ -1,5 +1,255 @@
 [
   {
+    "id": "xpeng-iron-battery-small-batch-2026-10",
+    "title": "XPeng says the battery for its IRON humanoid is in small-batch production",
+    "date": "2026-10-28",
+    "source": "Sina Finance",
+    "source_type": "News",
+    "source_url": "https://finance.sina.com.cn/tech/digi/2026-10-28/doc-iniwuefw6589476.shtml",
+    "summary": "XPeng did not say whether the cell is all-solid-state or semi-solid-state, and gave no volumes. The robot itself is described as at the stage just before start of production.",
+    "category": "Supply Chain",
+    "companies": [
+      "xpeng-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ],
+    "tags": [
+      "xpeng",
+      "iron",
+      "battery",
+      "china"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
+  },
+  {
+    "id": "embotech-bmw-one-million-vehicles-2026-10",
+    "title": "Embotech and BMW report 1 million vehicles moved by automated driving inside factories",
+    "date": "2026-10-27",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/embotech-bmw-move-1m-vehicles-automated-driving-technology/",
+    "summary": "About 3,500 moves a day across Dingolfing, Leipzig, Regensburg and MINI Plant Oxford, with availability above 99.5%. The first 500,000 moves took 15 months and the next 500,000 took seven. Rollout to BMW Spartanburg is planned.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "embotech",
+      "bmw",
+      "automotive",
+      "autonomous-driving"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High"
+  },
+  {
+    "id": "physical-intelligence-20b-talks-2026-10",
+    "title": "Physical Intelligence reportedly in talks to raise at least $1B at about a $20B valuation",
+    "date": "2026-10-27",
+    "source": "Bloomberg via PANews",
+    "source_type": "News",
+    "source_url": "https://panews.io/articles/01a17fd9-1987-74f9-a293-fcc144c0526d",
+    "summary": "Bloomberg reports Avenir and Lux Capital are in talks to lead a round that would nearly double the robot-model startup's roughly $11.5B valuation from earlier this year. People familiar say the company has no revenue. The company has not confirmed the talks.",
+    "category": "Funding",
+    "companies": [
+      "physical-intelligence"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models"
+    ],
+    "tags": [
+      "physical-intelligence",
+      "reported",
+      "valuation"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
+  },
+  {
+    "id": "crunchbase-q3-2026-robotics-funding",
+    "title": "Crunchbase counts $9.9B of robotics venture funding in Q3, with China ahead of the U.S. so far this year",
+    "date": "2026-10-27",
+    "source": "Crunchbase News",
+    "source_type": "Analysis",
+    "source_url": "https://news.crunchbase.com/venture/q3-2026-us-china-robotics-startup-funding-jumps-physical-ai-push/",
+    "summary": "Q3 funding was $9.9B against $4.3B a year earlier. For the first nine months Crunchbase puts China at $13.2B, the U.S. at $12.1B and Germany at $1.7B. The count excludes defense-related companies, and the 185% year-over-year figure in the article body covers nine months, not Q3 alone.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "tags": [
+      "crunchbase",
+      "venture",
+      "china-vs-us",
+      "q3-2026"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
+    "id": "boston-dynamics-atlas-korean-suppliers-2026-10",
+    "title": "Boston Dynamics reportedly asks Korean suppliers to prepare for 10,000 Atlas robots",
+    "date": "2026-10-27",
+    "source": "KED Global",
+    "source_type": "News",
+    "source_url": "https://www.kedglobal.com/robotics/newsView/ked202610270008",
+    "summary": "KED Global reports suppliers have been chosen and told to prepare for orders covering 10,000 Atlas humanoids, with Hyundai Mobis supplying all 31 actuators and Samsung SDI and LG Energy Solution on batteries. NVIDIA supplies the processor. Quantities and prices are undecided, and first purchase orders are expected in late 2027 or early 2028.",
+    "category": "Supply Chain",
+    "companies": [
+      "boston-dynamics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ],
+    "tags": [
+      "boston-dynamics",
+      "atlas",
+      "hyundai-mobis",
+      "korea",
+      "actuators",
+      "reported"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low"
+  },
+  {
+    "id": "machenta-40m-seed-instant-learning-2026-10",
+    "title": "Machenta raises $40M seed for robots that learn a task from one demonstration",
+    "date": "2026-10-27",
+    "source": "Business Insider",
+    "source_type": "News",
+    "source_url": "https://www.businessinsider.com/this-11-person-startup-raised-40-million-train-robots-virtual-worlds-2026-10",
+    "summary": "The 11-person London lab, founded by Imperial College researchers, says its model is pretrained in simulation and adapts to a new task from a single real demonstration without fine-tuning. Creandum and Union Square Ventures co-led the seed. It shows six robots and early humanoid-hand tests; no commercial deployment is reported.",
+    "category": "Funding",
+    "companies": [
+      "machenta"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models"
+    ],
+    "tags": [
+      "machenta",
+      "seed",
+      "london",
+      "imitation-learning",
+      "simulation"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium"
+  },
+  {
+    "id": "mosense-angel-plus-tactile-skin-2026-10",
+    "title": "MoSense raises about RMB 100M for full-body robot tactile skin",
+    "date": "2026-10-26",
+    "source": "TechNode",
+    "source_type": "News",
+    "source_url": "https://technode.com/2026/10/27/robot-electronic-skin-startup-mosense-raises-around-rmb-100-million-in-angel-plus-funding/",
+    "summary": "CDH Investments and Oasis Capital led an angel-plus round for the company, founded in May 2026 by a team with Hong Kong University of Science and Technology ties. LimX Dynamics is among the other investors.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "mosense",
+      "tactile",
+      "china",
+      "sensors"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium"
+  },
+  {
+    "id": "casbot-series-a-plusplus-2026-10",
+    "title": "CASBOT closes a several-hundred-million-yuan Series A++, citing shoe-making robot orders above RMB 400M",
+    "date": "2026-10-26",
+    "source": "36Kr",
+    "source_type": "News",
+    "source_url": "https://eu.36kr.com/en/p/4042069199426437",
+    "summary": "Zhilai, Yonghua and Maotian are among the investors; the exact amount is undisclosed. The previous round was nearly RMB 100M, led by Lens Technology in June 2025. The company says orders for its shoe-making robots exceed RMB 400M.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "casbot",
+      "china",
+      "series-a",
+      "footwear"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium"
+  },
+  {
+    "id": "treasury-outbound-rule-robots-2026-10",
+    "title": "Treasury's outbound-investment proposal names humanoid, quadruped and industrial robots as covered AI systems",
+    "date": "2026-10-26",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations",
+    "summary": "Proposed 31 CFR 851.232(b) lists industrial, bipedal, humanoid, quadruped and other mobile robots as embodied systems, and 851.226(h) bars developing such systems in a country of concern with no compute threshold. China, Hong Kong and Macau come first. Treasury's press release does not mention robots. Comments are due December 7; the rule is not final.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "fedreg-2026-21786"
+    ],
+    "themes": [
+      "policy-momentum",
+      "physical-ai"
+    ],
+    "tags": [
+      "treasury",
+      "outbound-investment",
+      "coins-act",
+      "proposed-rule"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
+    "id": "unitree-jpmorgan-overweight-upgrade-2026-10",
+    "title": "JPMorgan upgrades Unitree to Overweight with a CNY 995 target, reversing its earlier Underweight",
+    "date": "2026-10-26",
+    "source": "Investing.com",
+    "source_type": "News",
+    "source_url": "https://ng.investing.com/news/stock-market-news/unitree-robotics-shares-surge-on-jpmorgan-doubleupgrade-2756277",
+    "summary": "The target rose from CNY 300 to CNY 995 on a December 2027 horizon. Shares closed up 7.69% at CNY 672, a market value of about CNY 271.8B. The note cites the Hangzhou World Physical AI Conference and the founder's shorter timeline for a physical-AI breakthrough.",
+    "category": "Funding",
+    "companies": [
+      "unitree"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ],
+    "tags": [
+      "unitree",
+      "jpmorgan",
+      "analyst",
+      "stock"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
+  },
+  {
     "id": "rokae-10000th-humanoid-arm-2026-10",
     "title": "ROKAE delivers its 10,000th humanoid force-controlled arm",
     "date": "2026-10-26",
@@ -74,6 +324,76 @@
     "confidence": "High"
   },
   {
+    "id": "weiyi-hk-ipo-postponed-2026-10",
+    "title": "Weiyi Intelligent Manufacturing postpones its Hong Kong IPO three days before trading",
+    "date": "2026-10-25",
+    "source": "Sina Finance",
+    "source_type": "News",
+    "source_url": "https://finance.sina.com.cn/roll/2026-10-26/doc-iniwqart2177138.shtml",
+    "summary": "The industrial embodied-AI maker had a 32x subscribed public offer and an October 28 listing date. It cited \"multiple factors, including market conditions\" and will refund applicants. Sina, 36Kr and Huxiu report it as the fourth Hong Kong IPO halted after subscription since mid-year.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "weiyi",
+      "hong-kong",
+      "ipo",
+      "china"
+    ],
+    "sentiment": "Negative",
+    "confidence": "High"
+  },
+  {
+    "id": "enact-30m-pre-seed-force-sensing-2026-10",
+    "title": "Enact raises a $30M pre-seed for force-sensing factory robots",
+    "date": "2026-10-23",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/enact-30m-pre-seed-force-sensing-robots",
+    "summary": "Notion Capital and redalpine co-led, with firstminute capital; angels include Yann LeCun and Arthur Mensch. Founder Manuel Yves Galliker previously worked at 1X and Physical Intelligence. The 10-person company's force-measurement target is a goal, not a demonstrated result.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "foundation-models"
+    ],
+    "tags": [
+      "enact",
+      "pre-seed",
+      "force-sensing",
+      "europe"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium"
+  },
+  {
+    "id": "china-robot-startup-distress-heyi-wujing-2026-10",
+    "title": "Two Chinese robot startups fail: Heyi Robotics is in liquidation and Wujing Future Power has stopped paying staff",
+    "date": "2026-10-23",
+    "source": "36Kr",
+    "source_type": "News",
+    "source_url": "https://eu.36kr.com/en/p/4035599191774855",
+    "summary": "Heyi, once valued above $500M with ByteDance and Meituan-linked backers, held its first creditors' meeting after bankruptcy liquidation on October 19. Wujing, a quadruped maker founded in February 2026, owes about 40 staff nearly RMB 8M and stopped pay in August.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "distress",
+      "bankruptcy",
+      "heyi",
+      "wujing"
+    ],
+    "sentiment": "Negative",
+    "confidence": "Medium"
+  },
+  {
     "id": "faraday-future-ffr-robotics-transfer-closes-2026-10",
     "title": "Faraday Future closes the transfer of its robotics business into Nasdaq-listed FFR",
     "date": "2026-10-23",
@@ -120,6 +440,103 @@
     ],
     "sentiment": "Negative",
     "confidence": "High"
+  },
+  {
+    "id": "maxinsights-30m-seed-egocentric-data-2026-10",
+    "title": "Maxinsights raises a $30M seed to sell first-person video of human work as robot training data",
+    "date": "2026-10-22",
+    "source": "The Next Web",
+    "source_type": "News",
+    "source_url": "https://thenextweb.com/news/maxinsights-30m-seed-robot-training-data",
+    "summary": "Peak XV led. More than 5,000 contractors in six countries film everyday work, and the company says its footage supplied all 200,000 hours of first-person video behind Genesis AI's model. That claim comes from the company.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "foundation-models"
+    ],
+    "tags": [
+      "maxinsights",
+      "seed",
+      "training-data",
+      "egocentric"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium"
+  },
+  {
+    "id": "noetix-hk-ipo-filing-2026-10",
+    "title": "Noetix Robotics reportedly files confidentially for a Hong Kong IPO",
+    "date": "2026-10-22",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/noetix-robotics-hong-kong-ipo-filing",
+    "summary": "The filing could raise several hundred million dollars and list as early as 2027, with size and timing subject to change. Noetix raised about RMB 1B in March and sells the Bumi consumer humanoid at RMB 9,998.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ],
+    "tags": [
+      "noetix",
+      "hong-kong",
+      "ipo",
+      "consumer-humanoid"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
+  },
+  {
+    "id": "huixi-series-b-robot-chip-2026-10",
+    "title": "Robot chip maker Huixi closes Pre-B+ and Series B, saying 2026 equity funding tops RMB 2.5B",
+    "date": "2026-10-22",
+    "source": "TechNode",
+    "source_type": "News",
+    "source_url": "https://technode.com/2026/10/23/robot-chipmaker-huixi-completes-series-b-financing-led-by-beijing-ai-fund/",
+    "summary": "The Beijing Artificial Intelligence Industry Investment Fund led, with the Beijing Robotics Industry Development Investment Fund joining. Existing holders Shunwei and Cathay Capital took part. Products include the R1 AI system-on-chip.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "huixi",
+      "china",
+      "chips",
+      "series-b"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium"
+  },
+  {
+    "id": "fcc-intel-foreign-robot-waiver-2026-10",
+    "title": "FCC grants Intel a one-year waiver to keep using foreign-made robots in its chip plants",
+    "date": "2026-10-22",
+    "source": "WMBD",
+    "source_type": "News",
+    "source_url": "https://wmbdradio.com/2026/10/22/fcc-grants-intel-waiver-for-foreign-made-robotic-devices/",
+    "summary": "The waiver covers Intel's automated guided vehicles that move materials in its fabs, in service for more than two decades. It is an exemption from the Covered List listing of foreign-produced advanced robotic devices; the FCC cited avoiding disruption to domestic semiconductor manufacturing.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "fcc-covered-list-robots-inverters-2026"
+    ],
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "fcc",
+      "covered-list",
+      "waiver",
+      "intel"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
   },
   {
     "id": "formic-50m-series-b-2026-10",
@@ -288,6 +705,29 @@
     "confidence": "High"
   },
   {
+    "id": "nbs-sep-2026-robot-output",
+    "title": "China's industrial robot output hit 96,752 sets in September, up 18.9%",
+    "date": "2026-10-20",
+    "source": "National Bureau of Statistics",
+    "source_type": "Government",
+    "source_url": "https://www.stats.gov.cn/english/PressRelease/202610/t20261020_1965665.html",
+    "summary": "January to September output was 794,781 industrial robot sets, up 29.1%. Service robots fell 17.8% in September to 1,658,178 sets but are up 7.9% for the nine months. The figures cover enterprises above designated size.",
+    "category": "Supply Chain",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "nbs",
+      "industrial-robots",
+      "output"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High"
+  },
+  {
     "id": "intuitive-q3-2026-installed-base",
     "title": "Intuitive reports 12,094 installed da Vinci systems",
     "date": "2026-10-20",
@@ -309,6 +749,30 @@
     ],
     "sentiment": "Neutral",
     "confidence": "High"
+  },
+  {
+    "id": "china-six-humanoid-national-standards-2026-10",
+    "title": "China issues its first six national standards for humanoid robots, effective April 1, 2027",
+    "date": "2026-10-15",
+    "source": "Guangming Daily",
+    "source_type": "News",
+    "source_url": "https://m.gmw.cn/2026-10/16/content_1304575877.htm",
+    "summary": "Five standards form a technical-requirements series covering body structure, system architecture, perception and decision functions, and performance indicators. A sixth sets a simulation test platform specification. They follow the August MIIT draft.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "tags": [
+      "china",
+      "standards",
+      "humanoid",
+      "samr"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
   },
   {
     "id": "omron-onlogic-675m-acquisition-2026-10",

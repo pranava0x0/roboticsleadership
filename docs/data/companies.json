@@ -10180,5 +10180,76 @@
       "industrial-deployments"
     ],
     "map_category": "industrial"
+  },
+  {
+    "id": "machenta",
+    "name": "Machenta",
+    "founded": "2025",
+    "hq": {
+      "city": "London",
+      "state": "N/A",
+      "country": "UK"
+    },
+    "website": "https://machenta.com",
+    "funding_rounds": [
+      {
+        "date": "2026-10",
+        "round": "Seed",
+        "amount_usd": 40000000,
+        "valuation_usd": null,
+        "investors": [
+          "Creandum",
+          "Union Square Ventures"
+        ],
+        "url": "https://www.businessinsider.com/this-11-person-startup-raised-40-million-train-robots-virtual-worlds-2026-10",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 40000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "manipulator"
+    ],
+    "primary_use_case": "research",
+    "flagship_product": "Vision-demo-action (VDA) model",
+    "deployments": [],
+    "headcount": 11,
+    "headcount_date": "2026-10",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Edward Johns",
+        "role": "Founder"
+      },
+      {
+        "name": "Vitalis Vosylius",
+        "role": "Founder"
+      }
+    ],
+    "ceo": null,
+    "tags": [
+      "foundation-model",
+      "imitation-learning",
+      "simulation",
+      "uk",
+      "seed"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://machenta.com/blog/instant-robot-learning"
+      },
+      {
+        "url": "https://www.businessinsider.com/this-11-person-startup-raised-40-million-train-robots-virtual-worlds-2026-10"
+      }
+    ],
+    "last_updated": "2026-10-28",
+    "themes": [
+      "foundation-models"
+    ],
+    "map_category": "brains"
   }
 ]
