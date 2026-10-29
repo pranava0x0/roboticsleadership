@@ -1070,6 +1070,315 @@
     box.addEventListener('toggle', onToggle);
   }
 
+  // ---------- In-page sub-tabs (rd.html; reusable) ----------
+  // Markup contract, written so the page works with JS off:
+  //   <nav class="subtab-list" data-subtabs aria-label="…">
+  //     <a href="#panel-x" data-subtab="x">X</a> …
+  //   </nav>
+  //   <section class="subtab-panel" id="panel-x">…</section> …
+  // Without JS the links are an in-page jump list and every panel is visible.
+  // With JS they become an ARIA tablist: one panel shown, roving tabindex,
+  // ←/→/Home/End move between tabs (automatic activation), and the open tab
+  // is written to ?<param>= so it deep-links.
+  //
+  // RT.writeQuery strips the #fragment, so the hash is read ONCE here, before
+  // the first writeQuery. A hash naming a panel opens it; a hash naming an
+  // element inside a panel opens that panel and scrolls the element into view.
+  function initSubTabs(nav, opts = {}) {
+    if (typeof nav === 'string') nav = document.querySelector(nav);
+    if (!nav) return null;
+    const param = opts.param || 'tab';
+    const tabs = [...nav.querySelectorAll('[data-subtab]')];
+    const panels = tabs.map((t) => document.getElementById((t.getAttribute('href') || '').slice(1)));
+    if (!tabs.length || panels.some((p) => !p)) {
+      console.warn('initSubTabs: a tab points at a missing panel');
+      return null;
+    }
+    const ids = tabs.map((t) => t.dataset.subtab);
+    const initialHash = location.hash ? decodeURIComponent(location.hash.slice(1)) : '';
+
+    nav.setAttribute('role', 'tablist');
+    tabs.forEach((t, i) => {
+      if (!t.id) t.id = `tab-${ids[i]}`;
+      t.setAttribute('role', 'tab');
+      t.setAttribute('aria-controls', panels[i].id);
+      panels[i].setAttribute('role', 'tabpanel');
+      panels[i].setAttribute('aria-labelledby', t.id);
+      panels[i].tabIndex = 0;
+    });
+    nav.classList.add('subtabs-ready');
+
+    function select(i, { focus = false, write = true } = {}) {
+      tabs.forEach((t, j) => {
+        const on = j === i;
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.tabIndex = on ? 0 : -1;
+        panels[j].hidden = !on;
+      });
+      // Keep the selected tab in view inside the strip (it scrolls sideways
+      // at 375px) without scrolling the page itself.
+      const dx = tabs[i].getBoundingClientRect().left - nav.getBoundingClientRect().left;
+      if (dx < 0 || dx + tabs[i].offsetWidth > nav.clientWidth) nav.scrollLeft += dx - 8;
+      if (focus) tabs[i].focus();
+      if (write) writeQuery({ [param]: i === 0 ? '' : ids[i] });
+      if (opts.onChange) opts.onChange(ids[i]);
+    }
+
+    tabs.forEach((t, i) => t.addEventListener('click', (e) => { e.preventDefault(); select(i); }));
+    nav.addEventListener('keydown', (e) => {
+      const cur = tabs.indexOf(document.activeElement);
+      if (cur < 0) return;
+      const next = { ArrowRight: cur + 1, ArrowLeft: cur - 1, Home: 0, End: tabs.length - 1 }[e.key];
+      if (next == null) return;
+      e.preventDefault();
+      select((next + tabs.length) % tabs.length, { focus: true });
+    });
+
+    let start = Math.max(0, ids.indexOf(readQuery()[param]));
+    let scrollTarget = null;
+    let fromHash = false;
+    if (initialHash) {
+      const el = document.getElementById(initialHash);
+      const owner = el ? panels.findIndex((p) => p === el || p.contains(el)) : -1;
+      if (owner >= 0) { start = owner; fromHash = true; if (el !== panels[owner]) scrollTarget = el; }
+    }
+    // Rewrite the URL only when the hash opened a panel; a hash pointing
+    // outside the tabs (#main, #rd-method-note) is left for the browser.
+    select(start, { write: fromHash });
+    // Wait for web fonts: they reflow the tall tables, and a scroll taken
+    // before that lands hundreds of pixels short of the row.
+    if (scrollTarget) {
+      // The fragment is gone after writeQuery, so the browser won't reveal a
+      // target inside a closed <details> (R&D areas open only the first one).
+      for (let d = scrollTarget.closest('details'); d; d = d.parentElement && d.parentElement.closest('details')) d.open = true;
+      const go = () => scrollTarget.scrollIntoView();
+      go();
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => requestAnimationFrame(go));
+    }
+    return { select: (id) => { const i = ids.indexOf(id); if (i >= 0) select(i); } };
+  }
+
+  // ---------- R&D page renderers (rd.html) ----------
+  // Pure: rd.json in, HTML string out. Shared with the bake step.
+  const RD_WEIGHTS = { open: 'Open', 'open-licensed': 'Open (restricted license)', 'partly open': 'Partly open', closed: 'Closed', api: 'API only', unknown: 'Unknown' };
+  const RD_EVALUATOR = {
+    'third-party': ['Third-party', 'positive'],
+    'self-submitted': ['Self-submitted entries', 'warning'],
+    'vendor-run': ['Vendor-run', 'negative'],
+    authors: ['Authors\' own runs', ''],
+    organizer: ['Organizer results', ''],
+    none: ['No leaderboard', 'outline'],
+  };
+  const RD_COUNTRY_ORDER = ['US', 'China', 'Other', 'Unverified'];
+  const RD_COUNTRY_HEAD = { US: 'United States', China: 'China', Other: 'Elsewhere', Unverified: 'Country unverified' };
+
+  function rdText(v, fallback = 'Not disclosed') {
+    return v == null || v === '' ? `<span class="muted-cell">${escapeHTML(fallback)}</span>` : escapeHTML(v);
+  }
+  function rdCountry(rec) {
+    if (!rec || !rec.country) return '<span class="muted-cell">—</span>';
+    const cls = { US: 'rd-us', China: 'rd-cn' }[rec.country] || 'outline';
+    return `<span class="pill ${cls}">${escapeHTML(rec.country_label || rec.country)}</span>`;
+  }
+  function rdFlags(rec) {
+    const out = [];
+    if (rec.vendor_reported) out.push('<span class="pill warning rd-flag">Vendor-reported</span>');
+    if (rec.status === 'snippet-only') out.push('<span class="pill outline rd-flag">Snippet-only</span>');
+    return out.join(' ');
+  }
+  function rdSources(rec) {
+    const srcs = rec.sources || [];
+    const dates = [...new Set(srcs.map((s) => s.captured_at).filter(Boolean))];
+    const read = dates.length ? `<span class="rd-read">read ${escapeHTML(dates.map((d) => formatDate(d)).join(', '))}</span>` : '';
+    return `<span class="rd-src">${srcLinks(srcs)}</span> ${read}`;
+  }
+  function rdByCountry(list) {
+    const groups = {};
+    // Anything outside the named buckets (a new country, a missing one) goes
+    // under Other rather than silently dropping out of the table.
+    list.forEach((r) => { const c = RD_COUNTRY_ORDER.includes(r.country) ? r.country : 'Other'; (groups[c] = groups[c] || []).push(r); });
+    return RD_COUNTRY_ORDER.filter((c) => groups[c]).map((c) => [c, groups[c]]);
+  }
+  function rdSortDate(list, key) {
+    return [...list].sort((a, b) => String(b[key] || '').localeCompare(String(a[key] || '')));
+  }
+
+  function rdCounts(list) {
+    const n = { US: 0, China: 0, rest: 0 };
+    list.forEach((r) => { if (r.country === 'US') n.US++; else if (r.country === 'China') n.China++; else n.rest++; });
+    return n;
+  }
+  function renderRdSummary(rd) {
+    const s = rd.sections;
+    const rows = [
+      ['Foundation models', s.models],
+      ['World models', s.world_models],
+      ['Benchmarks (by maintainer)', s.benchmarks],
+      ['Datasets', s.areas.datasets],
+    ].map(([label, list]) => {
+      const n = rdCounts(list);
+      return `<tr><td>${escapeHTML(label)}</td><td class="num">${n.US}</td><td class="num">${n.China}</td><td class="num">${n.rest}</td><td class="num">${list.length}</td></tr>`;
+    }).join('');
+    return `<div class="table-wrap"><table class="data-table rd-table rd-summary-table">
+      <caption class="rd-caption">Entries tracked on this page, by country. A count of what is listed here, not a measure of who leads.</caption>
+      <thead><tr><th scope="col">Section</th><th scope="col" class="num">US</th><th scope="col" class="num">China</th><th scope="col" class="num">Other</th><th scope="col" class="num">Total</th></tr></thead>
+      <tbody>${rows}</tbody></table></div>`;
+  }
+
+  function renderRdModels(rd) {
+    const models = rd.sections.models;
+    const body = rdByCountry(models).map(([c, list]) => {
+      const head = `<tr class="rd-group"><th scope="rowgroup" colspan="6">${escapeHTML(RD_COUNTRY_HEAD[c])} <span class="rd-count">${list.length}</span></th></tr>`;
+      const rows = rdSortDate(list, 'released').map((m) => {
+        const results = (m.results || []).map((r) => `<li><span class="rd-bench-name">${escapeHTML(r.benchmark)}:</span> <strong>${escapeHTML(r.value)}</strong>${r.vendor_reported ? ' <span class="pill warning rd-flag">Vendor-reported</span>' : ''}${r.setting ? `<span class="secondary-line">${escapeHTML(r.setting)}</span>` : ''}</li>`).join('');
+        return `<tr id="${escapeHTML(m.id)}">
+          <td><strong>${escapeHTML(m.name)}</strong><span class="secondary-line">${escapeHTML(m.class)}${m.params ? ` · ${escapeHTML(m.params)}` : ''}</span></td>
+          <td>${escapeHTML(m.developer)}<span class="secondary-line">${rdCountry(m)}</span></td>
+          <td class="tnum">${rdText(m.released)}</td>
+          <td>${escapeHTML(RD_WEIGHTS[m.weights] || 'Unknown')}</td>
+          <td class="rd-claims"><p>${escapeHTML(m.summary)}</p>${results ? `<ul class="rd-results">${results}</ul>` : '<p class="muted-cell">No published scores.</p>'}${m.caveat ? `<p class="rd-caveat">${escapeHTML(m.caveat)}</p>` : ''}</td>
+          <td class="rd-srccell">${rdFlags(m)} ${rdSources(m)}</td>
+        </tr>`;
+      }).join('');
+      return head + rows;
+    }).join('');
+    return `<div class="table-wrap"><table class="data-table rd-table" id="rd-models-table">
+      <thead><tr><th scope="col">Model</th><th scope="col">Developer</th><th scope="col">Released</th><th scope="col">Weights</th><th scope="col">What it claims</th><th scope="col">Source</th></tr></thead>
+      <tbody>${body}</tbody></table></div>`;
+  }
+
+  function renderRdWorldModels(rd) {
+    const wm = rd.sections.world_models;
+    const groups = [
+      ['policy', 'Pretrain or drive the robot', 'The model learns physics from video and is used to train the robot\'s policy or to choose its actions directly.'],
+      ['simulator', 'Simulate and evaluate', 'The model generates worlds, data or test scenarios; the robot\'s policy is trained or scored inside it.'],
+      ['both', 'Both roles', 'Released for synthetic data and evaluation as well as policy pretraining.'],
+    ];
+    return groups.map(([role, title, blurb]) => {
+      const list = rdSortDate(wm.filter((w) => w.role === role), 'released');
+      if (!list.length) return '';
+      const n = rdCounts(list);
+      const rows = list.map((w) => `<tr id="${escapeHTML(w.id)}">
+          <td><strong>${escapeHTML(w.name)}</strong><span class="secondary-line">${escapeHTML(w.type || '')}</span></td>
+          <td>${escapeHTML(w.developer)}<span class="secondary-line">${rdCountry(w)}</span></td>
+          <td class="tnum">${rdText(w.released)}</td>
+          <td>${escapeHTML(RD_WEIGHTS[w.weights] || 'Unknown')}</td>
+          <td class="rd-claims"><p>${escapeHTML(w.summary)}</p>${w.caveat ? `<p class="rd-caveat">${escapeHTML(w.caveat)}</p>` : ''}</td>
+          <td class="rd-srccell">${rdFlags(w)} ${rdSources(w)}</td>
+        </tr>`).join('');
+      return `<section class="rd-group-block" id="wm-${escapeHTML(role)}">
+        <h3 class="rd-h3">${escapeHTML(title)} <span class="rd-count">${list.length}: ${n.US} US · ${n.China} China · ${n.rest} elsewhere</span></h3>
+        <p class="muted rd-blurb">${escapeHTML(blurb)}</p>
+        <div class="table-wrap"><table class="data-table rd-table">
+          <thead><tr><th scope="col">Model</th><th scope="col">Developer</th><th scope="col">Released</th><th scope="col">Weights</th><th scope="col">What it claims</th><th scope="col">Source</th></tr></thead>
+          <tbody>${rows}</tbody></table></div></section>`;
+    }).join('');
+  }
+
+  function renderRdBenchmarks(rd) {
+    return rd.sections.benchmarks.map((b) => {
+      const [evLabel, evCls] = RD_EVALUATOR[b.evaluator] || [b.evaluator, 'outline'];
+      const leaders = (b.leaders || []).length
+        ? `<div class="table-wrap"><table class="data-table rd-table rd-leaders">
+            <thead><tr><th scope="col">Model</th><th scope="col">Developer</th><th scope="col">Country</th><th scope="col">Score</th><th scope="col" class="col-tight">As of</th></tr></thead>
+            <tbody>${b.leaders.map((l) => `<tr><td>${escapeHTML(l.model)}</td><td>${rdText(l.developer)}</td><td>${rdCountry(l)}</td><td><strong>${escapeHTML(l.value)}</strong>${l.vendor_reported ? ' <span class="pill warning rd-flag">Vendor-reported</span>' : ''}</td><td class="tnum col-tight">${escapeHTML(formatDate(l.as_of))}</td></tr>`).join('')}</tbody>
+          </table></div>`
+        : '<p class="muted-cell">No ranked results shown.</p>';
+      return `<article class="rd-bench" id="${escapeHTML(b.id)}">
+        <header class="rd-bench-head">
+          <h3 class="rd-h3">${escapeHTML(b.name)}</h3>
+          <div class="rd-bench-meta"><span class="pill outline">${escapeHTML(b.kind || '')}</span> <span class="pill ${evCls}">${escapeHTML(evLabel)}</span> <span class="rd-asof">as of ${escapeHTML(formatDate(b.as_of))}</span></div>
+          <p class="rd-bench-by">${escapeHTML(b.maintainer)} · ${rdCountry(b)}</p>
+        </header>
+        <p class="rd-bench-measures">${escapeHTML(b.measures)}</p>
+        <p class="rd-bench-metric"><span class="rd-label">Metric:</span> ${escapeHTML(b.metric)}</p>
+        ${leaders}
+        <p class="rd-caveat">${escapeHTML(b.caveat)}</p>
+        <p class="rd-bench-src">${rdFlags(b)} ${rdSources(b)}</p>
+      </article>`;
+    }).join('');
+  }
+
+  function renderRdAreas(rd) {
+    const { areas, datasets, compute } = rd.sections.areas;
+    const areaHTML = areas.map((a, i) => `<details class="rd-area" id="${escapeHTML(a.id)}"${i === 0 ? ' open' : ''}>
+        <summary><span class="rd-area-name">${escapeHTML(a.name)}</span> <span class="rd-count">${a.items.length}</span></summary>
+        <ul class="rd-items">${a.items.map((it) => `<li id="${escapeHTML(it.id)}">
+          <p class="rd-item-head"><strong>${escapeHTML(it.actor)}</strong> ${rdCountry(it)} <span class="rd-asof">${escapeHTML(formatDate(it.date))}</span></p>
+          <p>${escapeHTML(it.evidence)}</p>
+          <p class="rd-item-src">${rdFlags(it)} ${rdSources(it)}</p></li>`).join('')}</ul>
+      </details>`).join('');
+    const dsRows = datasets.map((d) => `<tr id="${escapeHTML(d.id)}">
+        <td><strong>${escapeHTML(d.name)}</strong><span class="secondary-line">${escapeHTML(d.maintainer)}</span></td>
+        <td>${rdCountry(d)}</td>
+        <td class="tnum">${rdText(d.released)}</td>
+        <td>${escapeHTML(d.size)}</td>
+        <td class="num">${d.human_video_hours == null ? '<span class="muted-cell">—</span>' : formatNumber(d.human_video_hours)}</td>
+        <td>${rdText(d.license)}</td>
+        <td class="rd-srccell">${rdFlags(d)} ${rdSources(d)}</td></tr>`).join('');
+    const cpRows = rdSortDate(compute, 'date').map((c) => `<tr id="${escapeHTML(c.id)}">
+        <td><strong>${escapeHTML(c.name)}</strong><span class="secondary-line">${escapeHTML(c.vendor)}</span></td>
+        <td>${rdCountry(c)}</td>
+        <td>${escapeHTML(c.spec)}</td>
+        <td>${rdText(c.used_by, '—')}</td>
+        <td class="tnum">${escapeHTML(formatDate(c.date))}</td>
+        <td class="rd-srccell">${rdFlags(c)} ${rdSources(c)}</td></tr>`).join('');
+    return `<div class="rd-areas">${areaHTML}</div>
+      <h3 class="rd-h3" id="rd-datasets">Datasets</h3>
+      <div class="table-wrap"><table class="data-table rd-table">
+        <thead><tr><th scope="col">Dataset</th><th scope="col">Country</th><th scope="col">Released</th><th scope="col">Size</th><th scope="col" class="num">Human video (h)</th><th scope="col">License</th><th scope="col">Source</th></tr></thead>
+        <tbody>${dsRows}</tbody></table></div>
+      <h3 class="rd-h3" id="rd-compute">Compute</h3>
+      <div class="table-wrap"><table class="data-table rd-table">
+        <thead><tr><th scope="col">Chip or platform</th><th scope="col">Country</th><th scope="col">Spec</th><th scope="col">Used by</th><th scope="col">Date</th><th scope="col">Source</th></tr></thead>
+        <tbody>${cpRows}</tbody></table></div>`;
+  }
+
+  function renderRdComponents(rd) {
+    const { prices, bom_shares: shares, facts } = rd.sections.components;
+    const priceRows = prices.map((p) => `<tr id="${escapeHTML(p.id)}"><td><strong>${escapeHTML(p.source_org)}</strong></td><td>${escapeHTML(p.scope)}</td><td>${escapeHTML(p.value)}</td><td class="tnum">${escapeHTML(formatDate(p.as_of))}</td><td class="rd-srccell">${rdFlags(p)} ${rdSources(p)}</td></tr>`).join('');
+    const bom = shares.map((b) => `<article class="rd-bom" id="${escapeHTML(b.id)}">
+        <h4>${escapeHTML(b.source_org)}</h4>
+        <p class="rd-bom-basis">${escapeHTML(b.basis)} · ${escapeHTML(formatDate(b.as_of))}</p>
+        <dl class="rd-bom-list">${b.shares.map((s) => `<div><dt>${escapeHTML(s.part)}</dt><dd>${escapeHTML(s.value)}</dd></div>`).join('')}</dl>
+        <p class="rd-caveat">${escapeHTML(b.note)}</p>
+        <p class="rd-item-src">${rdFlags(b)} ${rdSources(b)}</p>
+      </article>`).join('');
+    const groups = [];
+    facts.forEach((f) => {
+      const g = groups.find((x) => x[0] === f.group);
+      if (g) g[1].push(f); else groups.push([f.group, [f]]);
+    });
+    const factRows = groups.map(([g, list]) => `<tr class="rd-group"><th scope="rowgroup" colspan="5">${escapeHTML(g)} <span class="rd-count">${list.length}</span></th></tr>` +
+      list.map((f) => `<tr id="${escapeHTML(f.id)}">
+        <td>${escapeHTML(f.claim)}</td>
+        <td><strong>${rdText(f.value)}</strong></td>
+        <td>${rdText(f.scope, '—')}</td>
+        <td>${rdCountry(f)}</td>
+        <td class="rd-srccell">${rdFlags(f)} ${rdSources(f)}</td></tr>`).join('')).join('');
+    return `<h3 class="rd-h3" id="rd-prices">What a humanoid costs to build</h3>
+      <div class="table-wrap"><table class="data-table rd-table">
+        <thead><tr><th scope="col">Estimate by</th><th scope="col">Scope</th><th scope="col">Estimate</th><th scope="col">Date</th><th scope="col">Source</th></tr></thead>
+        <tbody>${priceRows}</tbody></table></div>
+      <h3 class="rd-h3" id="rd-bom">Where the money goes: three estimates side by side</h3>
+      <p class="muted rd-blurb">Each firm splits the bill of materials into different categories and measures a different robot or year, so the shares are shown as published and not combined.</p>
+      <div class="rd-bom-grid">${bom}</div>
+      <h3 class="rd-h3" id="rd-facts">Component facts</h3>
+      <div class="table-wrap"><table class="data-table rd-table" id="rd-facts-table">
+        <thead><tr><th scope="col">Claim</th><th scope="col">Value</th><th scope="col">Robot or scope</th><th scope="col">Country</th><th scope="col">Source</th></tr></thead>
+        <tbody>${factRows}</tbody></table></div>`;
+  }
+
+  function renderRdMethod(rd) {
+    const m = rd.method || {};
+    return `<dl class="rd-method-list">
+        <div><dt><span class="pill warning rd-flag">Vendor-reported</span></dt><dd>${escapeHTML(m.vendor_reported)}</dd></div>
+        <div><dt><span class="pill outline rd-flag">Snippet-only</span></dt><dd>${escapeHTML(m.snippet_only)}</dd></div>
+        <div><dt>As of</dt><dd>${escapeHTML(m.as_of)}</dd></div>
+      </dl>
+      <p class="muted">Entries come from a research sweep read on ${escapeHTML(formatDate(rd.updated))}. Missing values show as "Not disclosed". Country columns describe where a lab or company is based; they are not a score.</p>`;
+  }
+
   // ---------- Boot sequence ----------
   function init() {
     initThemePicker();
@@ -1141,5 +1450,13 @@
     reportCite,
     renderCommissionNote,
     mountCommissionNote,
+    initSubTabs,
+    renderRdSummary,
+    renderRdModels,
+    renderRdWorldModels,
+    renderRdBenchmarks,
+    renderRdAreas,
+    renderRdComponents,
+    renderRdMethod,
   };
 })(window);

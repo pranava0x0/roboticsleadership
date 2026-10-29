@@ -23,7 +23,8 @@ JS, **read the JSON files below instead** — they are the same data the pages
 draw from, and they are the canonical record. Each page is a chapter of one
 argument:
 
-- Companies = America's lead · US vs China = the scoreboard · Supply chain =
+- Companies = America's lead · US vs China = the scoreboard · R&D = the models,
+  benchmarks and parts the robots run on · Supply chain =
   China's lead · Themes = the leading indicators · Policy/States = the swing
   variable.
 
@@ -40,6 +41,7 @@ treat them as a sense of scale, not a live figure. Each dataset's own
 - [data/companies.json](https://pranava0x0.github.io/roboticsleadership/data/companies.json): Array of 111 robotics companies — `funding_rounds[]`, `deployments[]`, valuation, HQ, `map_category` (humanoid / brains / industrial / defense / field / service / enablers), `data_confidence` (high / medium / low), `sources[]`.
 - [data/policies.json](https://pranava0x0.github.io/roboticsleadership/data/policies.json): Array of 70 federal, state, and city policy records — bills, executive orders, regulations, incentive programs, procurement. Each has `type`, `level`, `status`, `introduced_date`, `robotics_scope` (why it matters to robotics), and `sources[]`.
 - [data/news.json](https://pranava0x0.github.io/roboticsleadership/data/news.json): Array of 1274 tracked news records; the News page sorts them newest first. Each has `date`, `source`, `source_url`, `summary`, `category` (Funding / Deployment / Policy / Competitive / Supply Chain / Geopolitics / Research), `sentiment`, `confidence`, and often an `archive_url` (Wayback snapshot).
+- [data/rd.json](https://pranava0x0.github.io/roboticsleadership/data/rd.json): The R&D tracker, captured 2026-10-26: foundation models, world models, benchmarks with their leaders, research areas, datasets, compute, and the humanoid component stack. Every entry carries `sources[]` with a capture date and a `status` (`verified` = quote read on the page; `snippet-only` = seen in a search snippet, page not read). Vendor-reported scores are flagged as such; benchmark leaders change often, so read each benchmark's `as_of`.
 - [data/themes.json](https://pranava0x0.github.io/roboticsleadership/data/themes.json): 8 cross-cutting narratives with `direction` (Accelerating / Stable / Slowing) — the leading indicators.
 - [data/state_policy.json](https://pranava0x0.github.io/roboticsleadership/data/state_policy.json): 5 state-policy themes — what states actually control.
 - [data/agencies.json](https://pranava0x0.github.io/roboticsleadership/data/agencies.json): 25 federal agencies referenced by policy records.
@@ -50,9 +52,10 @@ treat them as a sense of scale, not a live figure. Each dataset's own
 - [Dashboard](https://pranava0x0.github.io/roboticsleadership/): The thesis, the executive brief, headline KPIs, and recent activity.
 - [US vs China](https://pranava0x0.github.io/roboticsleadership/china.html): The scoreboard — every key metric side by side, with an explicit edge call per metric.
 - [Supply Chain](https://pranava0x0.github.io/roboticsleadership/supply-chain.html): Materials, components, compute, assembly — categories, chokepoints, capacity, and the stakeholder map.
+- [R&D](https://pranava0x0.github.io/roboticsleadership/rd.html): Robot foundation models, world models, benchmarks and leaderboards, research areas, and the component stack, as in-page tabs (`?tab=` deep links).
 - [Companies](https://pranava0x0.github.io/roboticsleadership/companies.html): The market map — funding, deployments, valuations.
 - [Policy](https://pranava0x0.github.io/roboticsleadership/policies.html): Federal bills, regulations, incentives, procurement.
-- [Draft Robotics Executive Order](https://pranava0x0.github.io/roboticsleadership/physical-ai-action-plan.html): Unofficial executive-order draft with agency directives, mission demonstrations, deadlines, and source notes.
+- [Proposed Policy Investment Areas](https://pranava0x0.github.io/roboticsleadership/physical-ai-action-plan.html): Our own proposal, written in the form of an unofficial executive order — agency directives, mission demonstrations, deadlines, and source notes. Not a government document.
 - [State Policy](https://pranava0x0.github.io/roboticsleadership/states.html): Sidewalk/delivery robot laws, AV rules, incentives, the AI preemption fight.
 - [Themes](https://pranava0x0.github.io/roboticsleadership/themes.html): Cross-cutting narratives and cost trajectories.
 - [SCSP AI+ Robotics Summit](https://pranava0x0.github.io/roboticsleadership/scsp-summit.html): Event brief for Oct 14, 2026 — agenda, speaker bios, company news, recent posts, themes and policy context.

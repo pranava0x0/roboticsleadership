@@ -2049,3 +2049,126 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
 .commission-figs > div { padding: 10px 12px; border: 1px solid var(--border); border-radius: var(--radius-card); background: var(--surface); }
 .commission-figs dt { font-size: 12px; color: var(--text-muted); margin-bottom: 2px; }
 .commission-figs dd { margin: 0; font-size: 14px; line-height: 1.4; }
+
+/* ---------- In-page sub-tabs (RT.initSubTabs; rd.html) ----------
+   Without JS the strip is a jump list and every panel shows. JS adds
+   .subtabs-ready + role=tab, then hides the unselected panels via [hidden]. */
+.subtab-list {
+  display: flex;
+  gap: 6px;
+  margin: 28px 0 8px;
+  padding: 2px 2px 6px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  border-bottom: 1px solid var(--border);
+}
+.subtab-list a {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  color: var(--text);
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.subtab-list a:hover { border-color: var(--border-strong); background: var(--surface-2); }
+.subtab-list a[aria-selected="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-on);
+}
+.subtab-list a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.subtab-panel { margin-top: 18px; scroll-margin-top: calc(var(--header-h) + 12px); }
+.subtab-panel:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.subtab-panel[hidden] { display: none; }
+
+/* ---------- R&D page ---------- */
+.rd-table tr[id], .rd-bench, .rd-area, .rd-items li[id], .rd-bom, .rd-h3[id] { scroll-margin-top: calc(var(--header-h) + 12px); }
+.rd-intro { max-width: 72ch; margin: 0 0 14px; }
+.rd-blurb { max-width: 72ch; margin: 0 0 10px; font-size: 14px; }
+.rd-h3 { font-size: 18px; margin: 28px 0 8px; }
+.rd-count { color: var(--text-muted); font-weight: 400; font-size: 13px; margin-left: 4px; }
+.rd-caption { caption-side: top; text-align: left; padding: 8px 12px; color: var(--text-muted); font-size: 13px; }
+.rd-summary .table-wrap { max-width: 640px; }
+.rd-table td { vertical-align: top; }
+.rd-table td.rd-claims { min-width: 280px; max-width: 520px; }
+.rd-table td.rd-claims p { margin: 0 0 6px; }
+.rd-table td.rd-srccell { min-width: 140px; }
+.rd-table tr.rd-group th {
+  text-align: left;
+  background: var(--surface-2);
+  color: var(--text);
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 14px;
+}
+.rd-results { margin: 0; padding-left: 18px; }
+.rd-results li { margin: 0 0 4px; }
+.rd-bench-name { color: var(--text-muted); }
+.rd-caveat { color: var(--text-muted); font-size: 13px; margin: 6px 0 0; }
+.rd-flag { margin: 0 2px 4px 0; }
+/* Source links sit side by side in dense cells; give each a 44px target like .report-cite. */
+.rd-src a { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; box-sizing: border-box; padding: 0 4px; word-break: break-word; }
+.rd-read, .rd-asof { color: var(--text-muted); font-size: 12px; white-space: nowrap; }
+.rd-label { color: var(--text-muted); }
+.rd-bench {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  padding: 14px 16px;
+  margin: 0 0 16px;
+  min-width: 0;
+}
+.rd-bench .rd-h3 { margin: 0 0 6px; }
+.rd-bench-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.rd-bench-by { margin: 6px 0 0; color: var(--text-muted); font-size: 13px; }
+.rd-bench-measures, .rd-bench-metric { margin: 10px 0 0; max-width: 80ch; }
+.rd-bench .table-wrap { margin-top: 10px; }
+.rd-bench-src { margin: 8px 0 0; font-size: 13px; }
+.rd-area {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  margin: 0 0 10px;
+}
+.rd-area > summary {
+  cursor: pointer;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  font-weight: 600;
+}
+.rd-area > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.rd-items { list-style: none; margin: 0; padding: 0 14px 6px; }
+.rd-items li { border-top: 1px solid var(--border); padding: 10px 0; }
+.rd-items p { margin: 0 0 4px; max-width: 80ch; }
+.rd-item-head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.rd-item-src { font-size: 13px; }
+.rd-bom-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.rd-bom {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  padding: 12px 14px;
+  min-width: 0;
+}
+.rd-bom h4 { margin: 0; font-size: 16px; }
+.rd-bom-basis { margin: 4px 0 8px; color: var(--text-muted); font-size: 13px; }
+.rd-bom-list { margin: 0; }
+.rd-bom-list div { display: flex; justify-content: space-between; gap: 12px; padding: 4px 0; border-top: 1px solid var(--border); }
+.rd-bom-list dt { color: var(--text); }
+.rd-bom-list dd { margin: 0; font-variant-numeric: tabular-nums; font-weight: 600; text-align: right; }
+.rd-method-list { margin: 0 0 10px; }
+.rd-method-list div { display: grid; grid-template-columns: 140px 1fr; gap: 12px; padding: 8px 0; border-top: 1px solid var(--border); }
+.rd-method-list dd { margin: 0; max-width: 80ch; }
+@media (max-width: 560px) {
+  .rd-method-list div { grid-template-columns: 1fr; gap: 4px; }
+  .rd-bench { padding: 12px; }
+}
