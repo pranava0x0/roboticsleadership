@@ -2064,6 +2064,8 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
 .s232-page .kpi-value { font-size: 18px; }
 .front-focus { margin: 0 0 18px; }
 .s232-page .data-table td { vertical-align: top; }
+.s232-page .data-table tbody tr:hover { background: none; cursor: auto; }
+.s232-page tr[id] { scroll-margin-top: calc(var(--header-h) + 72px); }
 /* Prose tables become one card per row on phones: three text columns in 349px
    cannot fit their longest words, so the table scrolled sideways. */
 @media (max-width: 540px) {
