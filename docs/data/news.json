@@ -1,5 +1,274 @@
 [
   {
+    "id": "agibot-innovation-day-2026-10",
+    "title": "AGIBOT Innovation Day shows the GO-3 Preview model and G2 Max dual-arm robot, and says Link-U OS will be open-sourced by year end",
+    "date": "2026-10-29",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/agibot-innovation-day-2026-worken-ai-models-g2-max",
+    "summary": "G2 Max is described as handling 40 kg with two arms. The page is labelled paid content, so the figures come from AGIBOT itself and are not independently checked.",
+    "category": "Competitive",
+    "companies": [
+      "agibot"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "tags": [
+      "agibot",
+      "go-3",
+      "g2-max",
+      "open-source"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
+  },
+  {
+    "id": "jingshuo-weride-physical-ai-data-prea-2026-10",
+    "title": "WeRide-backed Jingshuo raises a pre-Series A of tens of millions of dollars for physical-AI data",
+    "date": "2026-10-29",
+    "source": "TechNode",
+    "source_type": "News",
+    "source_url": "https://technode.com/2026/10/29/werides-physical-ai-data-subsidiary-raises-tens-of-millions-of-dollars/",
+    "summary": "The data subsidiary of WeRide did not disclose the exact amount. It joins a run of Chinese rounds aimed at training data for embodied AI.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "tags": [
+      "weride",
+      "jingshuo",
+      "china",
+      "training-data"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium"
+  },
+  {
+    "id": "lg-home-humanoid-2030-2026-10",
+    "title": "LG says it targets home humanoids around 2030 and runs a partly operating robot data factory",
+    "date": "2026-10-28",
+    "source": "Humanoids Daily (citing Chosun Biz)",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/lg-home-humanoids-2030-robots-appliances-q3",
+    "summary": "Reported plans rather than a product launch: LG ties the home-robot timeline to its appliance base and to training data from its own data factory.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "lg",
+      "home-robot",
+      "korea",
+      "data-factory"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
+  },
+  {
+    "id": "audi-agile-robots-ingolstadt-poc-2026-10",
+    "title": "Audi tests Agile Robots humanoids for parts sequencing at Ingolstadt",
+    "date": "2026-10-28",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/audi-agile-robots-mobile-humanoids-parts-sequencing",
+    "summary": "A proof of concept puts mobile humanoids on parts sequencing in the plant. No results or rollout date were given.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "audi",
+      "agile-robots",
+      "germany",
+      "proof-of-concept"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
+  },
+  {
+    "id": "avride-wonder-four-cities-2026-10",
+    "title": "Avride and Wonder extend sidewalk delivery to Hoboken, Arlington and Philadelphia",
+    "date": "2026-10-28",
+    "source": "Robotics & Automation News",
+    "source_type": "News",
+    "source_url": "https://roboticsandautomationnews.com/2026/10/28/avride-delivery-robots-expand-to-four-us-cities-through-wonder-partnership/106416/",
+    "summary": "Robot delivery spreads to dozens of Grubhub merchants across four markets including Jersey City. Wonder says nearly 20% of deliveries from its Jersey City location are now completed by robots, a year after the pilot began.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "avride",
+      "wonder",
+      "grubhub",
+      "delivery"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High"
+  },
+  {
+    "id": "neura-tum-robogym-2026-10",
+    "title": "Neura Robotics and TUM open a EUR 17M RoboGym near Munich and unveil the fourth-generation 4NE1 humanoid",
+    "date": "2026-10-28",
+    "source": "Robotics & Automation News",
+    "source_type": "News",
+    "source_url": "https://roboticsandautomationnews.com/2026/10/28/neura-robotics-and-tum-open-e17-million-robogym-and-unveil-new-humanoid/106435/",
+    "summary": "The 2,300 m2 center at LabCampus lets companies from more than ten industries bring real tasks, such as handling cardboard boxes and loading wooden parts, for robots to learn. Neura frames it as a way for German Mittelstand firms to feed their process knowledge into physical AI.",
+    "category": "Deployment",
+    "companies": [
+      "neura-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
+    ],
+    "tags": [
+      "neura",
+      "tum",
+      "germany",
+      "training-center"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High"
+  },
+  {
+    "id": "fort-robotics-20m-tiger-global-2026-10",
+    "title": "Fort Robotics adds about $20M from Tiger Global and Mark Cuban Companies ahead of its SPAC merger",
+    "date": "2026-10-28",
+    "source": "Robotics & Automation News",
+    "source_type": "News",
+    "source_url": "https://roboticsandautomationnews.com/2026/10/28/fort-robotics-secures-approximately-20-million-in-additional-funding/106419/",
+    "summary": "About $10M is a financing led by Tiger Global, with Mark Cuban Companies, and a further $10M goes into the PIPE for the planned merger with Newbury Street II Acquisition Corp. Total committed capital for the deal is now above $50M. Fort says its safety layer runs on more than 19,500 units.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "physical-ai"
+    ],
+    "tags": [
+      "fort-robotics",
+      "spac",
+      "pipe",
+      "safety"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High"
+  },
+  {
+    "id": "unitree-q3-2026-report",
+    "title": "Unitree reports Q3 revenue of RMB 665M, up 70%, in its first earnings since the STAR Market listing",
+    "date": "2026-10-29",
+    "source": "TechNode",
+    "source_type": "News",
+    "source_url": "https://technode.com/2026/10/29/unitrees-first-post-ipo-report-shows-quarterly-revenue-growth-of-nearly-70/",
+    "summary": "Net profit was RMB 113M for the quarter. Nine-month revenue is RMB 1.817B (+55.7%) and R&D spend RMB 263M (+191%, 14.5% of revenue). Reported nine-month profit rose 270%, but that compares against a large share-based payment a year earlier; excluding one-offs it fell 18.8% to RMB 349M.",
+    "category": "Competitive",
+    "companies": [
+      "unitree"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ],
+    "tags": [
+      "unitree",
+      "earnings",
+      "star-market",
+      "q3-2026"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High"
+  },
+  {
+    "id": "bolt-delivery-robot-tallinn-bus-2026-10",
+    "title": "Bolt delivery robot enters a red-light crossing in Tallinn, bus braking injures up to nine passengers",
+    "date": "2026-10-28",
+    "source": "ERR News",
+    "source_type": "News",
+    "source_url": "https://news.err.ee/1610179027/passengers-injured-after-collision-between-bus-and-delivery-robot-in-tallinn",
+    "summary": "Tallinn Transport says the robot entered a pedestrian crossing on red and the bus driver braked hard, so standing passengers fell. The robot left before police arrived, which the transport board says may be an offense; police are investigating.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "tags": [
+      "bolt",
+      "sidewalk-robots",
+      "tallinn",
+      "safety",
+      "estonia"
+    ],
+    "sentiment": "Negative",
+    "confidence": "Medium"
+  },
+  {
+    "id": "gemini-robotics-er-2-preview-2026-10",
+    "title": "Google puts Gemini Robotics Embodied Reasoning 2 in public preview on Google Cloud",
+    "date": "2026-10-27",
+    "source": "Google Cloud Blog",
+    "source_type": "Company",
+    "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud",
+    "summary": "ER 2 acts as a planning layer that checks task progress from video and retries failed steps, reads instruments such as dials and thermometers, and calls other models and navigation APIs as tools. Google reports 91.3% accuracy at finding the key event frame in a video. Named users include Boston Dynamics (Spot inspection), Arm and A*STAR; pricing is not stated.",
+    "category": "Research",
+    "companies": [
+      "boston-dynamics"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "tags": [
+      "google",
+      "gemini-robotics",
+      "embodied-reasoning",
+      "preview"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High"
+  },
+  {
+    "id": "a3-q3-2026-robot-orders",
+    "title": "North American robot orders rise 24.8% in Q3 2026, led by automotive components and electronics",
+    "date": "2026-10-28",
+    "source": "A3 (Business Wire)",
+    "source_type": "Analysis",
+    "source_url": "https://www.automate.org/robotics/news/north-american-robot-orders-increase-24-8-in-third-quarter-of-2026",
+    "summary": "A3 counts 10,989 robots worth $723.5M ordered in Q3, up 24.8% in units and 26.1% in value, the strongest quarter of 2026. Automotive component orders rose 90.4% and semiconductors/electronics 97.6%; automotive OEM orders rose 7.5% after a weak first half and remain 17% below last year for nine months. Year to date: 28,984 robots, $1.89B.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "a3",
+      "orders",
+      "north-america",
+      "q3-2026"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High"
+  },
+  {
     "id": "xpeng-iron-battery-small-batch-2026-10",
     "title": "XPeng says the battery for its IRON humanoid is in small-batch production",
     "date": "2026-10-28",
