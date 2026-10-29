@@ -1,5 +1,33 @@
 [
   {
+    "id": "section-232-robotics-proclamation-2026-10",
+    "title": "Section 232 proclamation on robots and industrial machinery chooses negotiations and imposes no tariff",
+    "date": "2026-10-28",
+    "source": "White House",
+    "source_type": "Government",
+    "source_url": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/",
+    "summary": "The President agreed with Commerce that imports of robots, industrial machinery and their parts threaten to impair national security, and directed Commerce and USTR to negotiate with trading partners. An update is due by April 26, 2027. Tariffs, quotas, fees and an investment-incentive program are named as later options. Humanoid and quadruped robots are named among defense uses.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [
+      "proc-2026-10-28-robotics-232",
+      "fedreg-2025-18749"
+    ],
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "section-232",
+      "tariff",
+      "trade",
+      "commerce",
+      "ustr"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High"
+  },
+  {
     "id": "agibot-innovation-day-2026-10",
     "title": "AGIBOT Innovation Day shows the GO-3 Preview model and G2 Max dual-arm robot, and says Link-U OS will be open-sourced by year end",
     "date": "2026-10-29",
