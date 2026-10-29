@@ -2072,5 +2072,4 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
   .s232-stack td { display: block; padding: 2px 0; border: 0; }
   .s232-stack td:first-child { font-weight: 600; }
   .s232-stack td[data-label]::before { content: attr(data-label) ": "; color: var(--text-muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
-  .s232-stack td.hide-mobile { display: none; }
 }

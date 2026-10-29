@@ -4,6 +4,16 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-10-29 (Section 232 robotics proclamation page)
+
+- [ ] **(high) Add the proclamation number and Federal Register citation to `section-232-robotics.html` and `proc-2026-10-28-robotics-232` once published.** Not on public inspection as of 2026-10-29 ~10:46 ET; other 2026 trade proclamations appeared 5 to 6 days after signing, so check ~2026-11-02/03. Update the KPI card, the timeline estimate row, `bill_number`, `full_text_url` (prefer the FR page), and the open-questions bullet.
+- [ ] **(high) Re-check for reaction to the proclamation from 2026-10-30:** law-firm alerts, A3/AMT/NAM/JARA/VDMA statements, and FANUC (6954), Yaskawa (6506), Harmonic Drive (6324), Nabtesco (6268) price moves. None was indexed on 10-29, so the page prints none.
+- [ ] **(medium) Close the backlog items this supersedes:** the 2026-10-04/10-20 "no Section 232 robotics proclamation found" notes and the 2026-10-21 "Section 232 as pending" note are now answered by the 10-28 proclamation (negotiations, no tariff).
+- [ ] **(medium) `companies.json` marks `fanuc` and `yaskawa` `us_manufactured: false`, but their own docket filings describe U.S. production** (FANUC paint robots built in Michigan; Yaskawa Miamisburg assembly, Franklin WI plant from 2028). Decide what the flag means (final assembly vs. full production) before changing it; the same question applies to ABB (Auburn Hills).
+- [ ] **(medium) Watch the 180-day update (2027-04-26) and the sibling windows that precede it:** aircraft Proc. 11040 (2027-01-05), wind Proc. 11074 (2027-04-20). The critical-minerals update (due 2026-07-13) still has no public outcome; if one appears it is the best read on how negotiate-first 232s end.
+- [ ] **(low) Read the scanned docket filings not yet reviewed:** Doosan Robotics (BIS-2025-0257-0096), Standard Bots (-0162), Okuma (-0163), DMG Mori (-0146), Trumpf (-0145), Korean associations (-0202/-0205/-0206/-0208), CSET (-0085), BSA (-0213).
+- [ ] **(low) `slop_design` flags two site-wide patterns, both pre-existing:** the Google Fonts import in every page head (themes depend on it; DESIGN.md §2 says system stacks by default) and `backdrop-filter: blur` on `.jump-nav`. Decide whether to keep them; not changed in this PR.
+
 ## ▶ Added 2026-10-21 (scheduled full-site refresh: X list, web sweep)
 
 - [ ] **(high) Rare-earth export-control truce expiry is unsettled: most sources say the suspension of China's October 2025 expanded controls ends 2026-11-10; one commentary site says Beijing extended it to 2027-01-10, but no numbered MOFCOM notice amending Announcement No. 70 was found.** Read MOFCOM Nos. 61, 62 and 70 directly before the 11-10 date and put the verified status on china.html and supply-chain.html (magnet exposure per humanoid is quoted as 3.5-4.5 kg, also unverified). The April 2025 licensing regime (No. 18, seven medium and heavy rare earths) was never suspended.

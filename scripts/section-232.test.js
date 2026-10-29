@@ -55,6 +55,21 @@ test('computed timeline dates equal their base date plus the stated days', () =>
   for (const [, date, from, days] of rows) assert.equal(addDays(from, Number(days)), date, `${from} + ${days}`);
 });
 
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const display = (iso) => { const [y, m, d] = iso.split('-').map(Number); return `${MONTHS[m - 1]} ${d}, ${y}`; };
+
+// The reader sees the first cell, not data-date; the two must agree except on
+// the one row whose date is not known yet.
+test('each dated row shows the date in its data-date', () => {
+  const rows = [...html.matchAll(/<tr[^>]*data-date="(\d{4}-\d{2}-\d{2})"[^>]*>\s*<td[^>]*>(.*?)<\/td>/g)];
+  assert(rows.length >= 12, `only ${rows.length} dated rows`);
+  for (const [, iso, cell] of rows) {
+    const text = cell.replace(/<[^>]+>/g, '').trim();
+    if (text === 'Not yet') continue;
+    assert.equal(text, display(iso), `row ${iso} shows "${text}"`);
+  }
+});
+
 test('the 180-day update date is the one stated everywhere', () => {
   const due = addDays('2026-10-28', 180);
   assert.equal(due, '2027-04-26');
@@ -63,6 +78,9 @@ test('the 180-day update date is the one stated everywhere', () => {
   const rec = policies.find((p) => p.id === 'proc-2026-10-28-robotics-232');
   assert(rec, 'policy record missing');
   assert(rec.summary.includes('April 26, 2027'), 'policy summary lacks the update date');
+  const story = JSON.parse(read('data/news.json')).find((n) => n.id === 'section-232-robotics-proclamation-2026-10');
+  assert(story && story.summary.includes('April 26, 2027'), 'news summary lacks the update date');
+  assert(story.policies.includes(rec.id), 'news record does not link the policy record');
 });
 
 test('each timeline table is in date order', () => {

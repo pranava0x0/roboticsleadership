@@ -1149,10 +1149,10 @@
     "level": "Federal",
     "state": "N/A",
     "introduced_date": "2025-09-02",
-    "status": "Active",
+    "status": "Expired",
     "bill_number": "2025-18749",
     "sponsor": "Federal Agency",
-    "summary": "Commerce opened a Section 232 national-security investigation of robotics and industrial-machinery imports and components on September 2, 2025; the September 26 notice drew 256 posted comments by October 17. The investigation ended in an affirmative finding: the October 28, 2026 proclamation chose negotiations with trading partners and imposed no tariff.",
+    "summary": "Commerce opened a Section 232 national-security investigation of robotics and industrial-machinery imports and components on September 2, 2025. The September 26 notice drew 256 posted comments (count as of October 29, 2026); comments closed October 17. The investigation ended with the October 28, 2026 proclamation, which chose negotiations and imposed no tariff.",
     "full_text_url": "https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of",
     "robotics_scope": "Robotics, industrial machinery and their parts and components. Outcome: see the October 28, 2026 proclamation record.",
     "estimated_budget_usd": null,
@@ -2423,12 +2423,12 @@
   },
   {
     "id": "proc-2026-10-28-robotics-232",
-    "title": "Section 232 proclamation on robotics, industrial machinery and their parts: negotiations first, no tariff yet",
+    "title": "Section 232 proclamation on robotics, industrial machinery and their parts: negotiations first, no tariff imposed",
     "type": "Executive Order",
     "level": "Federal",
     "state": "N/A",
     "introduced_date": "2026-10-28",
-    "status": "Signed",
+    "status": "In effect",
     "bill_number": "Proclamation (number pending)",
     "sponsor": "Executive Office of the President",
     "summary": "The President concurred with Commerce that imports of robotics, industrial machinery and their parts threaten to impair national security, and directed Commerce and the U.S. Trade Representative to negotiate agreements with trading partners. No tariff, quota or fee was imposed. An update on the talks is due within 180 days, by April 26, 2027; the text reserves tariffs, duties, quotas, fees and a program to incentivize U.S. production. Not yet published in the Federal Register as of October 29.",
@@ -2476,7 +2476,7 @@
     "status": "In effect",
     "bill_number": "Proc. 11055",
     "sponsor": "Executive Office of the President",
-    "summary": "Proclamation 11055 imposed additional Section 232 duties on covered unmanned aircraft and components after a separate UAS investigation. Duties of 10%–100%, depending on product and applicable treatment, took effect September 3, 2026; a 25% duty on other covered components begins February 9, 2027. The distinct robotics and industrial-machinery investigation remains listed by Commerce.",
+    "summary": "Proclamation 11055 imposed additional Section 232 duties on covered unmanned aircraft and components after a separate UAS investigation. Duties of 10%–100%, depending on product and applicable treatment, took effect September 3, 2026; a 25% duty on other covered components begins February 9, 2027. The separate robotics and industrial-machinery investigation ended with the October 28, 2026 proclamation, which chose negotiations and imposed no tariff.",
     "full_text_url": "https://www.federalregister.gov/documents/2026/08/19/2026-16979/adjusting-imports-of-unmanned-aircraft-systems-and-unmanned-aircraft-systems-components-into-the",
     "robotics_scope": "Covers specified unmanned aircraft and components. It follows the UAS investigation, not the separate Section 232 robotics and industrial-machinery investigation.",
     "estimated_budget_usd": null,
@@ -2505,7 +2505,7 @@
         "url": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4281ea7"
       }
     ],
-    "last_updated": "2026-10-26"
+    "last_updated": "2026-10-29"
   },
   {
     "id": "ndaa-fy2026-sec225-munitions-robotics",
