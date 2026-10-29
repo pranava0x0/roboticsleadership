@@ -329,6 +329,74 @@
      "#sec-five-year-plan blockquote"
     ]
    ]
+  },
+  "front_s232_focus": {
+   "steps": [
+    [
+     "see",
+     ".front-focus a[href='section-232-robotics.html']"
+    ]
+   ]
+  },
+  "s232_update_due": {
+   "steps": [
+    [
+     "nav",
+     "section-232-robotics.html"
+    ],
+    [
+     "see",
+     "#s232-kpis a[href='#s232-due']"
+    ]
+   ]
+  },
+  "s232_officials": {
+   "steps": [
+    [
+     "nav",
+     "section-232-robotics.html"
+    ],
+    [
+     "tap",
+     "#s232-jump a[href='#who']"
+    ],
+    [
+     "see",
+     "#who + p + .table-wrap tbody tr:first-child"
+    ]
+   ]
+  },
+  "s232_exposure": {
+   "steps": [
+    [
+     "nav",
+     "section-232-robotics.html"
+    ],
+    [
+     "tap",
+     "#s232-jump a[href='#exposure']"
+    ],
+    [
+     "see",
+     "#exposure .data-table tbody tr:first-child"
+    ]
+   ]
+  },
+  "s232_update_row": {
+   "steps": [
+    [
+     "nav",
+     "section-232-robotics.html"
+    ],
+    [
+     "tap",
+     "#s232-kpis a[href='#s232-due']"
+    ],
+    [
+     "see",
+     "#s232-due"
+    ]
+   ]
   }
  }
 }

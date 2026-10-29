@@ -2049,3 +2049,28 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
 .commission-figs > div { padding: 10px 12px; border: 1px solid var(--border); border-radius: var(--radius-card); background: var(--surface); }
 .commission-figs dt { font-size: 12px; color: var(--text-muted); margin-bottom: 2px; }
 .commission-figs dd { margin: 0; font-size: 14px; line-height: 1.4; }
+
+/* Section 232 robotics proclamation page (section-232-robotics.html) and its front-page pointer */
+.s232-list { margin: 0 0 12px; padding-left: 1.2rem; max-width: 78ch; }
+.s232-list li { margin: 0 0 9px; font-size: 14.5px; line-height: 1.55; }
+.s232-p { margin: 0 0 12px; font-size: 14.5px; line-height: 1.55; max-width: 78ch; }
+.s232-h3 { margin: 20px 0 8px; font-size: 16px; }
+.s232-note { margin: 0 0 10px; font-size: 13px; max-width: 78ch; }
+.s232-timeline .faint { display: block; margin-top: 3px; font-size: 12px; }
+.s232-timeline td:first-child { white-space: normal; min-width: 5.5em; }
+.s232-timeline tr.s232-next td { background: var(--accent-soft); }
+.s232-sources { margin: 0 0 12px; padding-left: 1.2rem; font-size: 14px; line-height: 1.6; }
+.s232-sources a, .s232-page .data-table a { overflow-wrap: anywhere; }
+.s232-page .kpi-value { font-size: 18px; }
+.front-focus { margin: 0 0 18px; }
+.s232-page .data-table td { vertical-align: top; }
+/* Prose tables become one card per row on phones: three text columns in 349px
+   cannot fit their longest words, so the table scrolled sideways. */
+@media (max-width: 540px) {
+  .s232-stack thead { display: none; }
+  .s232-stack tr { display: block; padding: 8px 12px; border-bottom: 1px solid var(--border); }
+  .s232-stack td { display: block; padding: 2px 0; border: 0; }
+  .s232-stack td:first-child { font-weight: 600; }
+  .s232-stack td[data-label]::before { content: attr(data-label) ": "; color: var(--text-muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .s232-stack td.hide-mobile { display: none; }
+}
