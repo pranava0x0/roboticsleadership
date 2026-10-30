@@ -4,6 +4,14 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-10-30 (scheduled refresh)
+
+- [ ] **(medium) Reframe check: Section 232 outcome is "negotiate first, no tariff" with an April 26, 2027 update.** Policy-tab and china.html copy that treats tariffs as imminent should say "named as later options". Re-read `china.html` and `policies.html` strap lines for forecast wording.
+- [ ] **(low) Sources to add to `sources.json`:** humanoidsdaily.com (supplied 4 of the last run's keepers; no RSS found yet), technode.com/robotics.
+- [ ] **(low) Track from the X list:** Mujin–AEON model-center press conference (Japan, 2026-10-28) and the Japan–Germany public-private physical AI dialogue; no primary page found yet.
+
+---
+
 ## ▶ Added 2026-10-29 (Section 232 robotics proclamation page)
 
 - [ ] **(high) Add the proclamation number and Federal Register citation to `section-232-robotics.html` and `proc-2026-10-28-robotics-232` once published.** Not on public inspection as of 2026-10-29 ~10:46 ET; other 2026 trade proclamations appeared 5 to 6 days after signing, so check ~2026-11-02/03. Update the KPI card, the timeline estimate row, `bill_number`, `full_text_url` (prefer the FR page), and the open-questions bullet.

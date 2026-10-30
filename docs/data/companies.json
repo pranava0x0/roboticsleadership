@@ -10254,5 +10254,131 @@
       "foundation-models"
     ],
     "map_category": "brains"
+  },
+  {
+    "id": "foundry-robotics",
+    "name": "Foundry Robotics",
+    "founded": "N/A",
+    "hq": {
+      "city": "Emeryville",
+      "state": "CA",
+      "country": "US"
+    },
+    "website": "https://www.foundryrobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2026-10",
+        "round": "Series A",
+        "amount_usd": 100000000,
+        "valuation_usd": null,
+        "investors": [
+          "Marlinspike Partners",
+          "Khosla Ventures",
+          "Red Glass Ventures",
+          "SE Ventures",
+          "Wing VC",
+          "Axiom Ventures",
+          "Hanabi",
+          "Zero Shot Fund"
+        ],
+        "url": "https://finance.yahoo.com/technology/ai/articles/foundry-robotics-raises-100-million-150000783.html",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "manipulator"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "AI-powered robotic assembly cells",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "manufacturing",
+      "assembly",
+      "series-a",
+      "us"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/technology/ai/articles/foundry-robotics-raises-100-million-150000783.html"
+      }
+    ],
+    "last_updated": "2026-10-30",
+    "themes": [
+      "us-supply-chain"
+    ],
+    "map_category": "industrial"
+  },
+  {
+    "id": "bleu-robotics",
+    "name": "Bleu Robotics",
+    "founded": "N/A",
+    "hq": {
+      "city": "Paris",
+      "state": "N/A",
+      "country": "FR"
+    },
+    "website": "N/A",
+    "funding_rounds": [
+      {
+        "date": "2026-10",
+        "round": "Pre-seed",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "Contrarian Ventures",
+          "OVNI Capital",
+          "Kvanted",
+          "WEPA",
+          "Motier",
+          "Charlie Songhurst"
+        ],
+        "url": "https://humanoidsdaily.com/news/bleu-robotics-5m-industrial-humanoid-training",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "humanoid"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Robot task-teaching software (in development)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "foundation-model",
+      "imitation-learning",
+      "france",
+      "pre-seed"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      {
+        "url": "https://humanoidsdaily.com/news/bleu-robotics-5m-industrial-humanoid-training"
+      }
+    ],
+    "last_updated": "2026-10-30",
+    "themes": [
+      "foundation-models"
+    ],
+    "map_category": "brains"
   }
 ]
