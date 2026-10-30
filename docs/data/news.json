@@ -1,5 +1,77 @@
 [
   {
+    "id": "foundry-robotics-series-a-2026-10",
+    "title": "Foundry Robotics raises $100M Series A to build an autonomous assembly factory",
+    "date": "2026-10-28",
+    "source": "Business Wire",
+    "source_type": "Press Release",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/foundry-robotics-raises-100-million-150000783.html",
+    "summary": "Marlinspike Partners led the oversubscribed round, with Khosla Ventures, Red Glass, SE Ventures, Wing VC, Axiom, Hanabi and Zero Shot Fund. Foundry builds and operates factories for complex assembly using AI-powered robotic cells, and serves defense and commercial customers. Claims are the company's own.",
+    "category": "Funding",
+    "companies": [
+      "foundry-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "series-a",
+      "manufacturing",
+      "us"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
+  },
+  {
+    "id": "bleu-robotics-pre-seed-2026-10",
+    "title": "Bleu Robotics raises EUR 5M pre-seed for software that teaches humanoids a task in under an hour",
+    "date": "2026-10-29",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://humanoidsdaily.com/news/bleu-robotics-5m-industrial-humanoid-training",
+    "summary": "The Paris startup was led by Contrarian Ventures and OVNI Capital. Its robot-learning software is still in development and has no factory deployments yet; the under-an-hour teaching time is the company's claim.",
+    "category": "Funding",
+    "companies": [
+      "bleu-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models"
+    ],
+    "tags": [
+      "pre-seed",
+      "europe",
+      "france"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
+  },
+  {
+    "id": "robbyant-embodied-ai-challenge-2026-10",
+    "title": "Robbyant sends 15 teams to a Shanghai real-robot final of its embodied AI challenge",
+    "date": "2026-10-28",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://humanoidsdaily.com/news/robbyant-embodied-ai-challenge-15-teams-shanghai-final",
+    "summary": "More than 1,800 teams from 13 countries registered. Finalists adapt models to AgileX Cobot Magic robots in a 48-hour hackathon on Nov 14-16, per the company.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "tags": [
+      "china",
+      "competition",
+      "ant-group"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium"
+  },
+  {
     "id": "section-232-robotics-proclamation-2026-10",
     "title": "Section 232 proclamation on robots and industrial machinery chooses negotiations and imposes no tariff",
     "date": "2026-10-28",
