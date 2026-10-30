@@ -352,7 +352,7 @@
           <button class="detail-close" data-detail-close aria-label="Close">✕</button>
         </div>
         <dl class="kv">
-          <dt>Website</dt><dd>${c.website ? `<a href="${RT.escapeHTML(c.website)}" target="_blank" rel="noopener">${RT.escapeHTML(c.website.replace(/^https?:\/\//, ''))}</a>` : '<span class="muted-cell">Not listed</span>'}</dd>
+          <dt>Website</dt><dd>${/^https?:\/\//.test(c.website || "") ? `<a href="${RT.escapeHTML(c.website)}" target="_blank" rel="noopener">${RT.escapeHTML(c.website.replace(/^https?:\/\//, ''))}</a>` : '<span class="muted-cell">Not listed</span>'}</dd>
           <dt>Flagship</dt><dd>${RT.escapeHTML(c.flagship_product) || '<span class="muted-cell">Not disclosed</span>'}</dd>
           <dt>Robot types</dt><dd>${(c.robot_types || []).map(r => `<span class="pill outline">${RT.escapeHTML(r)}</span>`).join(' ') || '<span class="muted-cell">—</span>'}</dd>
           <dt>CEO</dt><dd>${RT.escapeHTML(c.ceo) || '<span class="muted-cell">Not disclosed</span>'}</dd>
