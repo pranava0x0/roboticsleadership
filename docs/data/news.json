@@ -1,5 +1,398 @@
 [
   {
+    "id": "hn-50298949",
+    "title": "Google eng is sure AI will destroy humanity he's stopped saving for retirement",
+    "date": "2026-10-30",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/former-google-engineer-sure-ai-103000827.html",
+    "summary": "Google eng is sure AI will destroy humanity he's stopped saving for retirement",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50295154",
+    "title": "Robots are coming for your housecleaner's job",
+    "date": "2026-10-29",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/alexkoch_ai/status/2115871971393331663",
+    "summary": "Robots are coming for your housecleaner's job",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50296436",
+    "title": "Show HN: Artificer by Nua: Frontier robotics task evaluation in 4B parameters",
+    "date": "2026-10-29",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://usenua.com/blog/artificer",
+    "summary": "We’re happy to introduce Artificer, our first robotics decision model for evaluating robot task progress and success.\nThe problem\nRobot systems need feedback during training, evaluation, and deploymen",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50297182",
+    "title": "DIY AI Lockpicking Robot: ESP32 and Claude AI Opens Any Lock [video]",
+    "date": "2026-10-29",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=o4AUKGdScNI",
+    "summary": "DIY AI Lockpicking Robot: ESP32 and Claude AI Opens Any Lock [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50298649",
+    "title": "Sterling Anderson doesn't think humanoid robots should be building cars",
+    "date": "2026-10-30",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theverge.com/transportation/1018625/gm-sterling-anderson-interview-robots-ai-autonomous-data-privacy",
+    "summary": "Sterling Anderson doesn't think humanoid robots should be building cars",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50301714",
+    "title": "Big Tech lobbying pushing EU towards data-protection rollback",
+    "date": "2026-10-30",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://euobserver.com/245206/revealed-new-data-shows-big-tech-lobbying-pushing-eu-towards-sweeping-data-protection-rollback/",
+    "summary": "Big Tech lobbying pushing EU towards data-protection rollback",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50301854",
+    "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+    "date": "2026-10-30",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+    "summary": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50301944",
+    "title": "Unreleased Claude model turned a Linux kernel bug into a remote root exploit",
+    "date": "2026-10-30",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://twitter.com/intcyberdigest/status/2116081923902611934",
+    "summary": "Unreleased Claude model turned a Linux kernel bug into a remote root exploit",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50303340",
+    "title": "Rooting a locked-down Hisense VIDAA TV and running Doom",
+    "date": "2026-10-30",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://carteakey.dev/blog/homelab/alvidaa/",
+    "summary": "Rooting a locked-down Hisense VIDAA TV and running Doom",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50304118",
+    "title": "Mr. Robot: Red Wheelbarrow",
+    "date": "2026-10-30",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://archive.org/details/mrrobotredwheelb0000esma",
+    "summary": "Mr. Robot: Red Wheelbarrow",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50304933",
+    "title": "Adjusting Imports of Robotics, Industrial Machinery and Their Parts",
+    "date": "2026-10-30",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/",
+    "summary": "Adjusting Imports of Robotics, Industrial Machinery and Their Parts",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50305076",
+    "title": "UK ministers had time for AI datacenter bosses, but not for environmental groups",
+    "date": "2026-10-30",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theregister.com/on-prem/2026/10/27/uk-ministers-had-plenty-of-time-for-ai-datacenter-bosses-but-none-for-environmental-groups/5305654",
+    "summary": "UK ministers had time for AI datacenter bosses, but not for environmental groups",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50306094",
+    "title": "Cost of living protests to spread to Germany and reignite in France on Halloween",
+    "date": "2026-10-30",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/world/2026/oct/30/cost-of-living-protests-to-spread-to-germany-and-reignite-in-france-on-halloween",
+    "summary": "Cost of living protests to spread to Germany and reignite in France on Halloween",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-2026-robotics-handbook-looks-a-10",
+    "title": "2026 Robotics Handbook looks at humanoids, AI, and design choices",
+    "date": "2026-10-29",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/",
+    "summary": "The 2026 Robotics Handbook examines design choices behind dexterous manipulation, humanoid robots, and construction automation.\nThe post 2026 Robotics Handbook looks at humanoids, AI, and design choic...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-white-house-makes-section-232-124",
+    "title": "White House makes Section 232 determination regarding foreign-made robots",
+    "date": "2026-10-29",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/",
+    "summary": "The U.S. secretary of commerce's Section 232 investigation concluded that dependence on robotics imports poses a national security risk.\nThe post White House makes Section 232 determination regarding ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-robobusiness-2026-recap-806",
+    "title": "RoboBusiness 2026 recap",
+    "date": "2026-10-30",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/robobusiness-2026-recap/",
+    "summary": "The Robot Report editorial team sits down for a recap of noteworthy sessions and networking around the 2026 RoboBusiness event.\nThe post RoboBusiness 2026 recap appeared first on The Robot Report.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-humanoid-developer-agility-now-2",
+    "title": "Humanoid developer Agility now expects to raise $465M in SPAC deal",
+    "date": "2026-10-30",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/humanoid-developer-agility-now-expects-raise-465m-spac-deal/",
+    "summary": "Agility said it expects to raise $465 million in its combination with Churchill Capital Corp XI, $155 million less than it had estimated.\nThe post Humanoid developer Agility now expects to raise $465M...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-skip-the-small-talk-make-game-183",
+    "title": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
+    "date": "2026-10-30",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
+    "summary": "At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-your-robot-s-safety-functions-911",
+    "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
+    "date": "2026-10-27",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+    "summary": "This article is brought to you by VicOne.A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each resp...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-video-friday-spot-plays-to-sho-404",
+    "title": "Video Friday: Spot Plays to Show Its Whole Body Manipulation",
+    "date": "2026-10-30",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-whole-body-manipulation",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-50284089",
     "title": "Richest 0.1% (8M) produce more carbon pollution than 3.5B",
     "date": "2026-10-29",
