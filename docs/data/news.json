@@ -1,5 +1,49 @@
 [
   {
+    "id": "foxconn-industrial-humanoids-texas-2026-10",
+    "title": "Foxconn Industrial Internet says more than 10 humanoids work at its Texas sites",
+    "date": "2026-10-30",
+    "source": "Reuters via Investing.com",
+    "source_type": "News",
+    "source_url": "https://investing.com/news/stock-market-news/foxconn-working-on-a-new-tieup-with-openai-says-there-is-no-ai-bubble-4986121",
+    "summary": "Chairman Brand Cheng told Reuters the robots are for internal use, with plans to expand beyond Texas, and that the unit is building models for them on Nvidia GR00T.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "foxconn",
+      "humanoid",
+      "texas"
+    ]
+  },
+  {
+    "id": "china-physical-ai-investment-sept-2026-10",
+    "title": "China physical-AI investment fell 40.1% in September to 11.6B yuan, a Korean outlet reports",
+    "date": "2026-10-27",
+    "source": "Seoul Economic Daily",
+    "source_type": "News",
+    "source_url": "https://en.sedaily.com/international/2026/10/27/china-robot-funding-falls-40-percent-as-ipo-rules-tighten",
+    "summary": "The article cites NE Times for September investment of 11.6B yuan against 19.4B yuan in August, and attributes the drop to tighter IPO rules. It also relays a Bloomberg report that Noetix Robotics filed confidentially for a Hong Kong IPO. Machine-translated secondary source; the underlying figures were not checked.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "china",
+      "funding",
+      "ipo"
+    ]
+  },
+  {
     "id": "hn-50298649",
     "title": "GM's Sterling Anderson says humanoid robots should not be building cars",
     "date": "2026-10-30",
