@@ -596,17 +596,21 @@
   // sources[] entries are strings or { url, label } objects; renders hostname-labeled links.
   // One chip per label. Three IFR pages used to print "ifr.org ifr.org ifr.org";
   // now the label prints once and each further page is a numbered link after it.
+  // Only hostname-derived labels group: a curated label names its own source
+  // and always prints in full.
   function srcLinks(sources) {
     const groups = new Map();
-    for (const s of sources || []) {
+    (sources || []).forEach((s, i) => {
       const url = typeof s === 'string' ? s : (s && s.url) || '';
-      const label = (typeof s === 'object' && s && s.label) || urlHostname(url);
-      if (!groups.has(label)) groups.set(label, []);
-      groups.get(label).push(url);
-    }
-    const a = (url, text) => `<a href="${escapeHTML(safeURL(url))}" target="_blank" rel="noopener" title="${escapeHTML(url)}">${escapeHTML(text)}</a>`;
-    return [...groups].map(([label, urls]) =>
-      a(urls[0], label) + urls.slice(1).map((u, i) => ' ' + a(u, String(i + 2))).join('')
+      const curated = typeof s === 'object' && s && s.label;
+      const label = curated || urlHostname(url);
+      const key = curated ? `#${i}` : label;
+      if (!groups.has(key)) groups.set(key, { label, urls: [] });
+      groups.get(key).urls.push(url);
+    });
+    const a = (url, text, aria) => `<a href="${escapeHTML(safeURL(url))}" target="_blank" rel="noopener" title="${escapeHTML(url)}"${aria ? ` aria-label="${escapeHTML(aria)}"` : ''}>${escapeHTML(text)}</a>`;
+    return [...groups.values()].map(({ label, urls }) =>
+      a(urls[0], label) + urls.slice(1).map((u, i) => ' ' + a(u, String(i + 2), `${label}, source ${i + 2}`)).join('')
     ).join(', ');
   }
 

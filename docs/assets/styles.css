@@ -631,13 +631,6 @@ h2.section-title.rule {
   flex-wrap: wrap;
   margin-bottom: 10px;
 }
-.lead-flag {
-  font-size: 10.5px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: var(--accent);
-}
 .lead-title {
   font-family: var(--font-serif);
   font-weight: 700;
@@ -857,7 +850,7 @@ details.collapsible-section > summary::before {
   color: var(--text-muted);
   position: absolute;
   left: 0;
-  top: 6px;
+  top: 10px; /* centred on the first line of a 21–25px section head */
   line-height: 1;
   transition: transform var(--transition-base, 120ms), color var(--transition-base, 120ms);
 }
@@ -1436,16 +1429,6 @@ a.kpi-card:hover {
   flex-wrap: wrap;
 }
 .chart-head h3 { margin-bottom: 0; }
-.chart-toggle {
-  display: inline-flex;
-  gap: 4px;
-  flex-shrink: 0;
-}
-.chart-toggle .btn.ghost {
-  padding: 3px 10px;
-  font-size: 11.5px;
-  min-height: 0;
-}
 .chart .chart-sub {
   font-size: 12.5px;
   color: var(--text-muted);
