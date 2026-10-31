@@ -120,8 +120,11 @@ test('no page styles a section head in capitals inline', () => {
   const bad = [];
   for (const p of pages) {
     const html = fs.readFileSync(path.join(DOCS, p), 'utf8');
-    for (const m of html.matchAll(/<h[23][^>]*class="[^"]*section-title[^"]*"[^>]*style="([^"]*)"/g)) {
-      if (/text-transform|letter-spacing/.test(m[1])) bad.push(`${p}: ${m[0].slice(0, 90)}`);
+    // Attribute order varies, and some heads are built in template strings.
+    for (const [tag] of html.matchAll(/<h[23]\b[^>]*>/g)) {
+      if (!/\bsection-title\b/.test(tag)) continue;
+      const style = (tag.match(/style="([^"]*)"/) || [])[1] || '';
+      if (/text-transform|letter-spacing/.test(style)) bad.push(`${p}: ${tag.slice(0, 90)}`);
     }
   }
   if (bad.length) throw new Error(bad.join('\n'));
@@ -142,7 +145,7 @@ test('front page: no exec-brief cards, no "Latest" flag on the lead', () => {
 });
 
 test('.bluf is a keyline and a run-in label, not a tinted box with a capitals tag', () => {
-  const rules = [...css.matchAll(/(^|\n)\s*\.bluf(-tag)?\s*\{([^}]*)\}/g)].map((m) => m[3]).join('\n');
+  const rules = [...css.matchAll(/(^|\n)\s*\.bluf(-tag|-body)?\s*\{([^}]*)\}/g)].map((m) => m[3]).join('\n');
   if (!rules) throw new Error('no .bluf rule found in styles.css');
   if (/background|border-radius|text-transform/.test(rules)) {
     throw new Error('.bluf / .bluf-tag set a background, radius or capitals again');

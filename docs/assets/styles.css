@@ -545,7 +545,7 @@ h1.page-title {
   font-weight: 700;
   color: var(--text);
 }
-.bluf-tag::after { content: ". "; }
+.bluf-tag::after { content: ". " / ""; }
 .bluf-body {
   display: inline;
   margin: 0;
@@ -673,11 +673,13 @@ h2.section-title.rule {
 }
 @media (max-width: 860px) {
   .front-rail { border-left: none; padding-left: 0; }
-  h2.section-title.rail-title { margin-top: 26px; }
 }
 /* The rail head is an ordinary section head (h2.section-title.rule) that
    starts flush with the lead story beside it. */
 h2.section-title.rail-title { margin: 0 0 4px; }
+@media (max-width: 860px) {
+  h2.section-title.rail-title { margin-top: 26px; }
+}
 .brief-list { list-style: none; margin: 0; padding: 0; }
 .brief {
   display: flex;

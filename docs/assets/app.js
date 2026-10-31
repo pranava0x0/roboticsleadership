@@ -594,10 +594,10 @@
     try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url || ''; }
   }
   // sources[] entries are strings or { url, label } objects; renders hostname-labeled links.
-  // One chip per label. Three IFR pages used to print "ifr.org ifr.org ifr.org";
-  // now the label prints once and each further page is a numbered link after it.
-  // Only hostname-derived labels group: a curated label names its own source
-  // and always prints in full.
+  // Three IFR pages used to print "ifr.org ifr.org ifr.org". Repeats of a
+  // hostname-derived label now read "ifr.org", "ifr.org 2", "ifr.org 3": every
+  // link still names its host and stays a usable tap target. A curated label
+  // names its own source and never groups.
   function srcLinks(sources) {
     const groups = new Map();
     (sources || []).forEach((s, i) => {
@@ -608,9 +608,9 @@
       if (!groups.has(key)) groups.set(key, { label, urls: [] });
       groups.get(key).urls.push(url);
     });
-    const a = (url, text, aria) => `<a href="${escapeHTML(safeURL(url))}" target="_blank" rel="noopener" title="${escapeHTML(url)}"${aria ? ` aria-label="${escapeHTML(aria)}"` : ''}>${escapeHTML(text)}</a>`;
-    return [...groups.values()].map(({ label, urls }) =>
-      a(urls[0], label) + urls.slice(1).map((u, i) => ' ' + a(u, String(i + 2), `${label}, source ${i + 2}`)).join('')
+    const a = (url, text) => `<a href="${escapeHTML(safeURL(url))}" target="_blank" rel="noopener" title="${escapeHTML(url)}">${escapeHTML(text)}</a>`;
+    return [...groups.values()].flatMap(({ label, urls }) =>
+      urls.map((u, i) => a(u, i ? `${label} ${i + 1}` : label))
     ).join(', ');
   }
 
@@ -623,12 +623,13 @@
   // renderNewsCard above; rows come from our own committed supply_chain.json,
   // never runtime user input.
   // rows: supply_chain.json → production_trend. els: { svg, legend, source } elements.
-  // Round an axis step up to 1, 2, 2.5 or 5 × 10^n, so the ticks read 100,000 /
-  // 200,000 rather than 88,550 / 177,100.
+  // Round an axis step up to a round number (1, 1.5, 2, 2.5, 3, 4, 5, 6, 8 × 10^n)
+  // so ticks read 100,000 / 200,000 rather than 88,550 / 177,100, without
+  // leaving more than ~25% of the plot empty above the tallest line.
   function niceStep(raw) {
     if (!(raw > 0)) return 1;
     const mag = 10 ** Math.floor(Math.log10(raw));
-    return [1, 2, 2.5, 5, 10].map((m) => m * mag).find((v) => v >= raw);
+    return [1, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10].map((m) => m * mag).find((v) => v >= raw);
   }
 
   function renderProductionTrend(rows, els) {

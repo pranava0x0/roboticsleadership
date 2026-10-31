@@ -555,18 +555,14 @@
     function hostname(url) {
       try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url || ''; }
     }
-    // Render a compact run of source links. Entries may be URL strings or {url, label}.
+    // Shared renderers (RT.srcLinks runs every href through RT.safeURL). Labels
+    // are used only where asked; elsewhere a source shows as its hostname.
     function srcLinks(sources, opts = {}) {
-      return (sources || []).map(s => {
-        const url = typeof s === 'string' ? s : s.url;
-        const label = opts.useLabel && typeof s === 'object' && s.label ? s.label : hostname(url);
-        return `<a href="${RT.escapeHTML(url)}" target="_blank" rel="noopener" title="${RT.escapeHTML(url)}">${RT.escapeHTML(label)}</a>`;
-      }).join(' ');
+      return RT.srcLinks(opts.useLabel ? sources : (sources || []).map(s => (typeof s === 'string' ? s : s && s.url)));
     }
-    function truncate(s, n) {
-      if (!s) return '';
-      return s.length > n ? s.slice(0, n - 1).replace(/[\s.,;:]+$/, '') + '…' : s;
-    }
+    // A declaration, not `const truncate = RT.truncate`: renderers above call it
+    // before this line runs, and only a function declaration is hoisted.
+    function truncate(s, n) { return RT.truncate(s, n); }
   });
   </script>
   <script>
