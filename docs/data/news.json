@@ -1,5 +1,108 @@
 [
   {
+    "id": "hn-50298649",
+    "title": "GM's Sterling Anderson says humanoid robots should not be building cars",
+    "date": "2026-10-30",
+    "source": "The Verge",
+    "source_type": "News",
+    "source_url": "https://www.theverge.com/transportation/1018625/gm-sterling-anderson-interview-robots-ai-autonomous-data-privacy",
+    "summary": "In a Verge interview the GM executive argues for task-specific machines on the line rather than humanoids. His view, not a GM policy statement.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "gm",
+      "humanoid-debate"
+    ]
+  },
+  {
+    "id": "rss-anybotics-begins-delivering-an-922",
+    "title": "ANYbotics starts delivering ANYmal X, a legged inspection robot rated for explosive atmospheres",
+    "date": "2026-10-27",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/anybotics-begins-delivering-anymal-x-legged-robot-explosive-atmospheres/",
+    "summary": "ANYbotics says ANYmal X is designed to meet the safety standards of oil, gas and chemical sites. The Swiss company is already tracked here.",
+    "category": "Deployment",
+    "companies": [
+      "anybotics"
+    ],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "anybotics",
+      "inspection"
+    ]
+  },
+  {
+    "id": "rss-warp-sciences-emerges-from-ste-716",
+    "title": "Warp Sciences leaves stealth to build automated drug-discovery labs in the U.S.",
+    "date": "2026-10-28",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/warp-sciences-emerges-stealth-apply-robotics-drug-research/",
+    "summary": "The company has co-founders from OpenAI and Meta and says it has funding; the amount was not in the text available to us.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "lab-automation",
+      "stealth"
+    ]
+  },
+  {
+    "id": "rss-north-american-robot-orders-cl-960",
+    "title": "North American robot orders rose 24.8% in Q3 2026, A3 reports",
+    "date": "2026-10-28",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/north-american-robot-orders-climb-24-8-q3-2026-says-a3/",
+    "summary": "A3 says orders from automotive component makers nearly doubled in the quarter and other sectors also grew. The figures are A3 member-reported orders, not shipments.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "a3",
+      "orders"
+    ]
+  },
+  {
+    "id": "rss-humanoid-developer-agility-now-68",
+    "title": "Agility now expects $465M from its SPAC deal with Churchill Capital XI, $155M below its earlier estimate",
+    "date": "2026-10-30",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/humanoid-developer-agility-now-expects-raise-465m-spac-deal/",
+    "summary": "Agility Robotics lowered the proceeds it expects from the Churchill Capital Corp XI combination to $465 million, from about $620 million. The Robot Report attributes the cut to the deal terms; the merger has not closed.",
+    "category": "Funding",
+    "companies": [
+      "agility-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "agility",
+      "spac"
+    ]
+  },
+  {
     "id": "foundry-robotics-series-a-2026-10",
     "title": "Foundry Robotics raises $100M Series A to build an autonomous assembly factory",
     "date": "2026-10-28",
