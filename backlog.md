@@ -4,6 +4,14 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-10-31 (design cleanup)
+
+- [ ] **(medium) Load only the active theme's two typefaces.** Every page requests one Google Fonts stylesheet naming all ten families (render-blocking). The boot script already knows the theme before first paint; it could inject a per-theme `<link>` and the picker could add the next one on switch.
+- [ ] **(low) Normalise `primary_use_case` in `companies.json`.** Five records carry slugs (`ai_foundation_model`, `general_purpose`); `RT.prettyUseCase` hides it at render time, and many others are 100+ character sentences that belong in `description`.
+- [ ] **(low) Theme records lack `related_companies` / `related_policies` on six of eight.** The front-page cards now hide zero counts; themes.html still shows them.
+
+---
+
 ## ▶ Added 2026-10-30 (scheduled refresh)
 
 - [ ] **(medium) Reframe check: Section 232 outcome is "negotiate first, no tariff" with an April 26, 2027 update.** Policy-tab and china.html copy that treats tariffs as imminent should say "named as later options". Re-read `china.html` and `policies.html` strap lines for forecast wording.

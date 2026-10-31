@@ -1,12 +1,12 @@
 {
  "mobile": {
   "front_lead": 1,
-  "front_top_company": 11,
+  "front_top_company": 9,
   "summit_last_session": 10,
   "summit_bio_from_agenda": 11,
   "summit_path_news": 38,
   "summit_path_news_jump": 10,
-  "summit_commission_figures": 13,
+  "summit_commission_figures": 12,
   "summit_commission_jump": 7,
   "summit_report_evidence": 7,
   "company_figure_detail": 7,
@@ -31,7 +31,7 @@
  },
  "tablet": {
   "front_lead": 1,
-  "front_top_company": 7,
+  "front_top_company": 6,
   "summit_last_session": 7,
   "summit_bio_from_agenda": 9,
   "summit_path_news": 20,
@@ -61,7 +61,7 @@
  },
  "desktop": {
   "front_lead": 1,
-  "front_top_company": 9,
+  "front_top_company": 5,
   "summit_last_session": 7,
   "summit_bio_from_agenda": 10,
   "summit_path_news": 21,
@@ -71,7 +71,7 @@
   "summit_report_evidence": 7,
   "company_figure_detail": 5,
   "policy_hr7334_detail": 5,
-  "china_last_metric": 7,
+  "china_last_metric": 6,
   "supply_share_rows": 6,
   "supply_commission_note": 10,
   "energy_candidate": 7,

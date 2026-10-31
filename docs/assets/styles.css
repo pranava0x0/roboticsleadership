@@ -515,7 +515,7 @@ main {
 h1.page-title {
   font-family: var(--font-serif);
   font-weight: 700;
-  font-size: 28px;
+  font-size: clamp(30px, 3.6vw, 40px);
   letter-spacing: -0.015em;
   margin: 4px 0 4px;
   line-height: 1.15;
@@ -532,58 +532,52 @@ h1.page-title {
    BLUF — Bottom Line Up Front. One per page, directly under the
    lede. The single most important takeaway, stated first.
    ============================================================ */
+/* A left keyline and a bold run-in label, not a tinted rounded box with a
+   tracked-capitals tag (2026-10-31): the box was the loudest thing on every
+   page it sat on, louder than the heading above it. */
 .bluf {
-  display: flex;
-  gap: 14px;
-  align-items: baseline;
-  background: var(--accent-soft);
-  border: 1px solid var(--border);
   border-left: 3px solid var(--accent);
-  border-radius: 10px;
-  padding: 13px 16px;
+  padding: 2px 0 2px 14px;
   margin: 0 0 22px;
   max-width: 74ch;
 }
 .bluf-tag {
-  flex: none;
-  font-family: var(--font-serif);
-  font-size: 11px;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.11em;
-  color: var(--accent);
-  white-space: nowrap;
+  color: var(--text);
 }
+.bluf-tag::after { content: ". " / ""; }
 .bluf-body {
+  display: inline;
   margin: 0;
-  font-size: 14.5px;
+  font-size: 15px;
   line-height: 1.55;
   color: var(--text);
 }
 .bluf-body strong { font-weight: 600; }
-@media (max-width: 540px) {
-  .bluf { flex-direction: column; gap: 5px; padding: 12px 14px; }
-}
 
+/* Section heads — one style on every page (2026-10-31). The front page used
+   to set its section heads in 15px tracked capitals, a weaker voice than the
+   20px heads on every other page and barely louder than the KPI labels under
+   them. Now a section head is the same size, weight and colour everywhere:
+   full-strength --text, 700, clearly a step above body and card titles. The
+   .rule modifier only adds the keyline; it never changes the type.
+   design-tokens.test.js fails if a section head goes back to capitals. */
 h2.section-title {
   font-family: var(--font-serif);
   font-weight: 700;
-  font-size: 20px;
-  letter-spacing: -0.01em;
-  margin: 20px 0 8px;
+  font-size: clamp(21px, 2.3vw, 25px);
+  line-height: 1.2;
+  letter-spacing: -0.012em;
+  color: var(--text);
+  margin: 36px 0 12px;
 }
-/* Section rule — the horizontal keyline a newspaper puts under a section head.
-   Modifier, not a new class, so every existing .section-title is unaffected. */
 h2.section-title.rule {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-top: 34px;
-  padding-bottom: 6px;
-  border-bottom: 2px solid var(--border-strong);
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--text);
+}
+/* Dark themes: a full-strength rule was the brightest line on screen. */
+:is([data-theme="caves"], [data-theme="robot-dreams"], [data-theme="foundation"]) h2.section-title.rule {
+  border-bottom-color: var(--border-strong);
 }
 
 /* ============================================================
@@ -624,7 +618,7 @@ h2.section-title.rule {
 }
 .front-well { min-width: 0; }
 /* Inside the well the rule sits tighter than a page-level section head. */
-.front-well .section-title.rule { margin-top: 22px; }
+.front-well .section-title.rule { margin-top: 26px; }
 @media (max-width: 860px) {
   .front-top { grid-template-columns: 1fr; gap: 20px; }
 }
@@ -636,13 +630,6 @@ h2.section-title.rule {
   gap: 8px;
   flex-wrap: wrap;
   margin-bottom: 10px;
-}
-.lead-flag {
-  font-size: 10.5px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: var(--accent);
 }
 .lead-title {
   font-family: var(--font-serif);
@@ -685,17 +672,13 @@ h2.section-title.rule {
   padding-left: 20px;
 }
 @media (max-width: 860px) {
-  .front-rail { border-left: none; padding-left: 0; border-top: 2px solid var(--border-strong); padding-top: 14px; }
+  .front-rail { border-left: none; padding-left: 0; }
 }
-.rail-title {
-  font-family: var(--font-serif);
-  font-size: 13px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  margin: 0 0 6px;
-  padding-bottom: 6px;
-  border-bottom: 2px solid var(--border-strong);
+/* The rail head is an ordinary section head (h2.section-title.rule) that
+   starts flush with the lead story beside it. */
+h2.section-title.rail-title { margin: 0 0 4px; }
+@media (max-width: 860px) {
+  h2.section-title.rail-title { margin-top: 26px; }
 }
 .brief-list { list-style: none; margin: 0; padding: 0; }
 .brief {
@@ -806,57 +789,14 @@ h2.section-title.rule {
   .brief-link { min-height: 44px; display: flex; flex-direction: column; justify-content: center; }
 }
 
-/* ============================================================
-   Executive brief — three quotable findings under the BLUF.
-   Memo-style: each bullet stands alone as a staffer's takeaway.
-   ============================================================ */
-.exec-brief {
-  max-width: 74ch;
-  margin: 0 0 22px;
-}
-.exec-brief-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  counter-reset: brief;
-  display: grid;
-  gap: 10px;
-}
-.exec-brief-list li {
-  counter-increment: brief;
-  position: relative;
-  padding: 10px 14px 10px 44px;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  background: var(--surface);
-  font-size: 14px;
-  line-height: 1.5;
-  color: var(--text-muted);
-}
-.exec-brief-list li strong { color: var(--text); font-weight: 600; }
-.exec-brief-list li::before {
-  content: counter(brief);
-  position: absolute;
-  left: 14px;
-  top: 12px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: var(--accent-soft);
-  color: var(--accent);
-  font-family: var(--font-serif);
-  font-size: 12px;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.exec-brief-note {
-  margin: 8px 0 0;
-  font-size: 12px;
-  color: var(--text-faint);
-}
-.exec-brief-note a { color: var(--text-muted); border-bottom: 1px dotted var(--border-strong); }
+/* "How to read this" — plain prose and a short list under the front page's
+   last section head. Replaced a tinted box plus three numbered cards
+   (2026-10-31): the same three sentences, without the furniture. */
+.read-note { max-width: 74ch; font-size: 15px; line-height: 1.55; }
+.read-note p { margin: 0 0 10px; }
+.read-note ul { margin: 0 0 10px; padding-left: 20px; }
+.read-note li { margin: 4px 0; }
+.read-note .muted { font-size: 13px; }
 
 /* ============================================================
    Chart legend — shared dot legend for SVG charts (app.js
@@ -912,7 +852,7 @@ details.collapsible-section > summary::before {
   color: var(--text-muted);
   position: absolute;
   left: 0;
-  top: 6px;
+  top: 10px; /* centred on the first line of a 21–25px section head */
   line-height: 1;
   transition: transform var(--transition-base, 120ms), color var(--transition-base, 120ms);
 }
@@ -1491,22 +1431,29 @@ a.kpi-card:hover {
   flex-wrap: wrap;
 }
 .chart-head h3 { margin-bottom: 0; }
-.chart-toggle {
-  display: inline-flex;
-  gap: 4px;
-  flex-shrink: 0;
-}
-.chart-toggle .btn.ghost {
-  padding: 3px 10px;
-  font-size: 11.5px;
-  min-height: 0;
-}
 .chart .chart-sub {
   font-size: 12.5px;
   color: var(--text-muted);
   margin: 0 0 12px;
 }
 .chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+/* Text beside the plot on wide screens. A 560-wide viewBox stretched to the
+   full 1280px column drew its axis labels at ~26px — bigger than the section
+   head. Capping the plot at two thirds keeps chart text at roughly body size. */
+@media (min-width: 1024px) {
+  .chart.chart-split {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    grid-template-areas: "head plot" "sub plot" "legend plot" "source plot";
+    grid-template-rows: auto auto auto 1fr;
+    column-gap: 28px;
+  }
+  .chart-split > h3 { grid-area: head; }
+  .chart-split > .chart-sub { grid-area: sub; }
+  .chart-split > svg { grid-area: plot; align-self: center; }
+  .chart-split > .chart-legend { grid-area: legend; flex-direction: column; gap: 6px; }
+  .chart-split > .chart-source { grid-area: source; }
+}
 .chart .axis-label { fill: var(--text-muted); font-size: 11.5px; }
 .chart-source {
   margin: 10px 0 0;
@@ -1974,8 +1921,7 @@ table, .kpi-value, .kpi-sub, .chart text { font-variant-numeric: tabular-nums; }
   position: sticky; top: var(--header-h); z-index: 20;
   display: flex; gap: 6px; margin: 18px 0 4px; padding: 8px 0;
   overflow-x: auto; scrollbar-width: none;
-  background: color-mix(in srgb, var(--bg) 90%, transparent);
-  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  background: var(--bg);
   border-bottom: 1px solid var(--border);
 }
 .jump-nav::-webkit-scrollbar { display: none; }

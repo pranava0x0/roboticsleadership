@@ -179,11 +179,11 @@
     </div>
 
     <!-- Production trend: units by country over time -->
-    <div class="chart" id="production-trend-chart">
+    <div class="chart chart-split" id="production-trend-chart">
       <h3>Total industrial robot units — US vs. China vs. Rest of world</h3>
       <p class="chart-sub">Annual industrial installations, 2015–2025. Cobots are included. Rest of world is an approximate residual of rounded IFR figures; IFR does not publish a country breakdown of professional service robots.</p>
       <svg id="production-trend-svg" viewBox="0 0 560 280" role="img" aria-label="Total industrial robot units, US vs China vs rest of world, 2015-2025"></svg>
-      <div class="chain-legend" id="production-trend-legend"></div>
+      <div class="chart-legend" id="production-trend-legend"></div>
       <p class="chart-source" id="production-trend-source"></p>
     </div>
 
@@ -555,18 +555,14 @@
     function hostname(url) {
       try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url || ''; }
     }
-    // Render a compact run of source links. Entries may be URL strings or {url, label}.
+    // Shared renderers (RT.srcLinks runs every href through RT.safeURL). Labels
+    // are used only where asked; elsewhere a source shows as its hostname.
     function srcLinks(sources, opts = {}) {
-      return (sources || []).map(s => {
-        const url = typeof s === 'string' ? s : s.url;
-        const label = opts.useLabel && typeof s === 'object' && s.label ? s.label : hostname(url);
-        return `<a href="${RT.escapeHTML(url)}" target="_blank" rel="noopener" title="${RT.escapeHTML(url)}">${RT.escapeHTML(label)}</a>`;
-      }).join(' ');
+      return RT.srcLinks(opts.useLabel ? sources : (sources || []).map(s => (typeof s === 'string' ? s : s && s.url)));
     }
-    function truncate(s, n) {
-      if (!s) return '';
-      return s.length > n ? s.slice(0, n - 1).replace(/[\s.,;:]+$/, '') + '…' : s;
-    }
+    // A declaration, not `const truncate = RT.truncate`: renderers above call it
+    // before this line runs, and only a function declaration is hoisted.
+    function truncate(s, n) { return RT.truncate(s, n); }
   });
   </script>
   <script>

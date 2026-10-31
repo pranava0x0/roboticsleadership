@@ -42,6 +42,16 @@ jobs:
       - name: Run tests
         run: npm test
 
+      # Vendored from coding-best-practices (tools/vendor_checkers.py --sync).
+      # slop_design flags the default-AI look in docs/ (eyebrows, glass, link
+      # arrows, stray hex); every exemption lives in .designcheck.json with a
+      # reason. slop_writing checks the front page's copy. Stdlib Python only.
+      - name: Design check
+        run: python3 tools/slop_design.py . --fail-on WARN
+
+      - name: Front-page copy check
+        run: python3 tools/slop_writing.py --profile public-copy --no-review docs/index.html
+
   # How many taps, swipes and keystrokes a reader spends to reach each key fact,
   # at 375 / 768 / 1280 px. Fails when a task goes over uat/interaction-budgets.json,
   # a target becomes unreachable, a page throws, or a page overflows sideways.

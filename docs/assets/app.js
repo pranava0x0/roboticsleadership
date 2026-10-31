@@ -120,6 +120,12 @@
     return parts.join(', ') || '—';
   }
 
+  // A few records carry a slug ("ai_foundation_model", "general_purpose") where
+  // the rest carry a phrase. Render the slug as words; the data keeps the raw value.
+  function prettyUseCase(s) {
+    return s ? String(s).replace(/_/g, ' ') : '—';
+  }
+
   function escapeHTML(s) {
     if (s == null) return '';
     return String(s)
@@ -575,7 +581,7 @@
         <div class="footer-row">
           ${companyPills}${policyPills}
           <span class="row-end">
-            <a href="${escapeHTML(safeURL(n.source_url))}" target="_blank" rel="noopener">Read original →</a>
+            <a href="${escapeHTML(safeURL(n.source_url))}" target="_blank" rel="noopener">Read original</a>
             ${archiveLink(n.archive_url)}
           </span>
         </div>
@@ -588,12 +594,24 @@
     try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url || ''; }
   }
   // sources[] entries are strings or { url, label } objects; renders hostname-labeled links.
+  // Three IFR pages used to print "ifr.org ifr.org ifr.org". Repeats of a
+  // hostname-derived label now read "ifr.org", "ifr.org 2", "ifr.org 3": every
+  // link still names its host and stays a usable tap target. A curated label
+  // names its own source and never groups.
   function srcLinks(sources) {
-    return (sources || []).map((s) => {
+    const groups = new Map();
+    (sources || []).forEach((s, i) => {
       const url = typeof s === 'string' ? s : (s && s.url) || '';
-      const label = (typeof s === 'object' && s && s.label) || urlHostname(url);
-      return `<a href="${escapeHTML(safeURL(url))}" target="_blank" rel="noopener" title="${escapeHTML(url)}">${escapeHTML(label)}</a>`;
-    }).join(' ');
+      const curated = typeof s === 'object' && s && s.label;
+      const label = curated || urlHostname(url);
+      const key = curated ? `#${i}` : label;
+      if (!groups.has(key)) groups.set(key, { label, urls: [] });
+      groups.get(key).urls.push(url);
+    });
+    const a = (url, text) => `<a href="${escapeHTML(safeURL(url))}" target="_blank" rel="noopener" title="${escapeHTML(url)}">${escapeHTML(text)}</a>`;
+    return [...groups.values()].flatMap(({ label, urls }) =>
+      urls.map((u, i) => a(u, i ? `${label} ${i + 1}` : label))
+    ).join(', ');
   }
 
   // ---------- Production-trend line chart (the thesis chart) ----------
@@ -605,12 +623,23 @@
   // renderNewsCard above; rows come from our own committed supply_chain.json,
   // never runtime user input.
   // rows: supply_chain.json → production_trend. els: { svg, legend, source } elements.
+  // Round an axis step up to a round number (1, 1.5, 2, 2.5, 3, 4, 5, 6, 8 × 10^n)
+  // so ticks read 100,000 / 200,000 rather than 88,550 / 177,100, without
+  // leaving more than ~25% of the plot empty above the tallest line.
+  function niceStep(raw) {
+    if (!(raw > 0)) return 1;
+    const mag = 10 ** Math.floor(Math.log10(raw));
+    return [1, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10].map((m) => m * mag).find((v) => v >= raw);
+  }
+
   function renderProductionTrend(rows, els) {
     const svg = els.svg;
     if (!svg || rows.length < 2) return;
     const W = 560, H = 280, padL = 50, padR = 14, padT = 14, padB = 28;
     const innerW = W - padL - padR, innerH = H - padT - padB;
-    const maxV = Math.max(...rows.flatMap(r => [r.us_units, r.china_units, r.row_units]));
+    const ticks = 4;
+    const step = niceStep(Math.max(...rows.flatMap(r => [r.us_units, r.china_units, r.row_units])) / ticks);
+    const maxV = step * ticks;
     const x = (i) => padL + (innerW * i) / (rows.length - 1);
     const y = (v) => padT + innerH - (v / maxV) * innerH;
     const firstProjected = rows.findIndex(r => r.projected);
@@ -622,7 +651,6 @@
     ];
 
     let grid = '';
-    const ticks = 4;
     for (let i = 0; i <= ticks; i++) {
       const val = (maxV / ticks) * i;
       const yy = y(val);
@@ -817,7 +845,13 @@
   // ---------- Dashboard (index.html) ----------
   function truncate(s, n) {
     if (!s) return '';
-    return s.length > n ? s.slice(0, n - 1).replace(/[\s.,;:]+$/, '') + '…' : s;
+    if (s.length <= n) return s;
+    // Cut at the last word boundary when there is one nearby, so a card never
+    // ends on "roughly e…".
+    let cut = s.slice(0, n - 1);
+    const sp = cut.lastIndexOf(' ');
+    if (sp > n * 0.7) cut = cut.slice(0, sp);
+    return cut.replace(/[\s.,;:—–-]+$/, '') + '…';
   }
 
   // Every KPI links to the view it was counted from — a staffer who reads
@@ -952,11 +986,11 @@
     ].join('');
     return `
       <article class="lead-story">
-        <div class="lead-kicker">${storyKicker(lead)}<span class="lead-flag">Latest</span></div>
+        <div class="lead-kicker">${storyKicker(lead)}</div>
         <h2 class="lead-title"><a href="news.html#${encodeURIComponent(lead.id)}">${escapeHTML(lead.title)}</a></h2>
         ${deck ? `<p class="lead-deck">${escapeHTML(deck)}</p>` : ''}
         <div class="lead-byline">${storyByline(lead)}</div>
-        <div class="lead-tags">${pills}<a class="lead-original" href="${escapeHTML(safeURL(lead.source_url))}" target="_blank" rel="noopener">Read original →</a></div>
+        <div class="lead-tags">${pills}<a class="lead-original" href="${escapeHTML(safeURL(lead.source_url))}" target="_blank" rel="noopener">Read original</a></div>
       </article>
     `;
   }
@@ -989,36 +1023,37 @@
         <span class="brief-meta tnum">${escapeHTML(formatDate(n.date))}</span>
       </li>
     `).join('');
-    return items + `<li class="brief brief-all"><a href="news.html">All ${formatNumber(total)} stories →</a></li>`;
+    return items + `<li class="brief brief-all"><a href="news.html">All ${formatNumber(total)} stories</a></li>`;
   }
 
+  // Front-page theme cards: name and narrative only. The direction pill read
+  // "Accelerating" on every card and the counts read "0 cos · 0 policies" on
+  // six of eight (2026-10-31) — labels that are the same everywhere say nothing.
+  // themes.html keeps the full card. Counts render only when there are some.
   function renderThemeCards(themes) {
-    return (themes || []).slice(0, 6).map((t) => `
+    return (themes || []).slice(0, 6).map((t) => {
+      const cos = (t.related_companies || []).length;
+      const pols = (t.related_policies || []).length;
+      const counts = [
+        cos ? `${cos} ${cos === 1 ? 'company' : 'companies'}` : '',
+        pols ? `${pols} ${pols === 1 ? 'policy' : 'policies'}` : '',
+      ].filter(Boolean).join(', ');
+      return `
       <a class="card card-hoverable" href="themes.html#${encodeURIComponent(t.id)}" style="color:inherit;border-bottom:none;">
-        <div class="row" style="gap:6px;">
-          <span class="pill dir-${slug(t.direction)}">${escapeHTML(t.direction)}</span>
-          ${t.government_intervention_ready ? '<span class="pill outline">Policy-ready</span>' : ''}
-        </div>
         <h3 class="card-title">${escapeHTML(t.name)}</h3>
         <p class="card-sub">${escapeHTML(truncate(t.narrative, 180))}</p>
-        <div class="card-meta">
-          <span>${(t.related_companies || []).length} cos</span>
-          <span class="sep"></span>
-          <span>${(t.related_policies || []).length} policies</span>
-        </div>
+        ${counts ? `<div class="card-meta">${counts}</div>` : ''}
       </a>
-    `).join('');
+    `;
+    }).join('');
   }
 
   function renderTopCompanies(companies) {
     const top = sortBy(companies || [], (c) => c.latest_valuation_usd || 0, 'desc').slice(0, 6);
     return top.map((c) => `
       <a class="card card-hoverable" href="companies.html?focus=${encodeURIComponent(c.id)}" style="color:inherit;border-bottom:none;">
-        <div class="row" style="gap:6px;">
-          ${(c.tags || []).slice(0, 2).map((t) => `<span class="pill outline">${escapeHTML(t)}</span>`).join('')}
-        </div>
         <h3 class="card-title">${escapeHTML(c.name)}</h3>
-        <div class="card-sub">${escapeHTML(prettyHQ(c.hq))} · ${escapeHTML(c.primary_use_case)}</div>
+        <div class="card-sub">${escapeHTML(prettyHQ(c.hq))} · ${escapeHTML(prettyUseCase(c.primary_use_case))}</div>
         <dl class="kv" style="grid-template-columns:auto 1fr;gap:2px 12px;">
           <dt>Valuation</dt><dd class="tnum">${formatUSD(c.latest_valuation_usd, { fallback: 'Not disclosed' })}</dd>
           <dt>Total raised</dt><dd class="tnum">${formatUSD(c.total_funding_usd, { fallback: '—' })}</dd>
@@ -1049,7 +1084,7 @@
       ${figures.length ? `<dl class="commission-figs">${figures.map((k) => `
         <div><dt>${escapeHTML(k.label)}</dt><dd><span class="tnum">${escapeHTML(k.value)}</span> ${reportCite(report, k)}</dd></div>`).join('')}
       </dl>` : ''}
-      <p style="margin:10px 0 0;font-size:13.5px;"><a href="${more}">All of the report's findings on this →</a></p>`;
+      <p style="margin:10px 0 0;font-size:13.5px;"><a href="${more}">All of the report's findings on this</a></p>`;
   }
 
   // Page glue: the note sits in a collapsed <details>, so the report is fetched
@@ -1094,6 +1129,7 @@
     formatDate,
     relativeDate,
     prettyHQ,
+    prettyUseCase,
     escapeHTML,
     slug,
     safeURL,
