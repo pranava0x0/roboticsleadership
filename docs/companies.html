@@ -170,7 +170,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>Data updated <span class="updated-date tnum">—</span>. <a href="news.html">Recent news →</a></p>
+    <p>Data updated <span class="updated-date tnum">—</span>. <a href="news.html">Recent news</a></p>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 
@@ -293,7 +293,7 @@
                 <span class="secondary-line show-mobile tnum">${RT.formatUSD(c.latest_valuation_usd, { fallback: '—' })}${lastRound ? ` · ${RT.escapeHTML(lastRound.round)}` : ''}</span>
               </td>
               <td class="hide-mobile">${RT.escapeHTML(RT.prettyHQ(c.hq))}</td>
-              <td class="hide-mobile">${RT.escapeHTML(segLabel(c.map_category))}<span class="secondary-line">${RT.escapeHTML(c.primary_use_case || '')}</span></td>
+              <td class="hide-mobile">${RT.escapeHTML(segLabel(c.map_category))}<span class="secondary-line">${RT.escapeHTML(c.primary_use_case ? RT.prettyUseCase(c.primary_use_case) : '')}</span></td>
               <td class="num hide-mobile"><strong>${RT.formatUSD(c.latest_valuation_usd, { fallback: '—' })}</strong>
                 ${lastRound ? `<span class="secondary-line">${RT.escapeHTML(lastRound.round)} · ${RT.escapeHTML(RT.formatDate(lastRound.date))}</span>` : ''}
               </td>
@@ -346,7 +346,7 @@
         <div class="detail-header">
           <div>
             <h2 class="detail-title" id="detail-title">${RT.escapeHTML(c.name)}</h2>
-            <p class="detail-sub">${RT.escapeHTML(RT.prettyHQ(c.hq))} · founded ${RT.escapeHTML(c.founded || '?')} · ${RT.escapeHTML(c.primary_use_case)}</p>
+            <p class="detail-sub">${RT.escapeHTML(RT.prettyHQ(c.hq))} · founded ${RT.escapeHTML(c.founded || '?')} · ${RT.escapeHTML(RT.prettyUseCase(c.primary_use_case))}</p>
             <div class="row" style="gap:6px;margin-top:8px;">${tags} ${conf}</div>
           </div>
           <button class="detail-close" data-detail-close aria-label="Close">✕</button>

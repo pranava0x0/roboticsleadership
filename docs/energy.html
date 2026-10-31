@@ -78,14 +78,15 @@
     .e-section { scroll-margin-top: 76px; margin-top: 36px; }
     .e-section-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
     .e-section-head h2 { margin: 0; }
+    /* A divider between groups of sections, not an eyebrow over the next head
+       (DESIGN.md § 13): sentence case, muted, on a hairline. */
     .e-cluster-label {
-      font-family: var(--font-condensed, var(--font-sans));
-      text-transform: uppercase;
-      letter-spacing: 0.14em;
-      font-size: 11px;
-      font-weight: 700;
-      color: var(--accent);
-      margin: 28px 0 0;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      padding-top: 10px;
+      margin: 40px 0 0;
     }
     .e-cluster[hidden] { display: none; }
     .e-section-sub { color: var(--text-muted); font-size: 13.5px; margin: 2px 0 14px; max-width: 70ch; }

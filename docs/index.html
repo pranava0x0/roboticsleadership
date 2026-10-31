@@ -93,7 +93,7 @@
         <div class="story-grid" id="front-topstories"><!--static:index-topstories:start--><!--static:index-topstories:end--></div>
       </div>
       <aside class="front-rail" aria-labelledby="rail-title">
-        <h2 class="rail-title" id="rail-title">Latest</h2>
+        <h2 class="section-title rule rail-title" id="rail-title">Latest</h2>
         <ol class="brief-list" id="front-briefs"><!--static:index-briefs:start--><!--static:index-briefs:end--></ol>
       </aside>
     </div>
@@ -110,59 +110,37 @@
       </div><!--static:index-kpis:end-->
     </section>
 
-    <!-- The scoreboard: the thesis chart -->
-    <h2 class="section-title rule">Who builds the robots</h2>
-    <div class="chart" id="production-trend-chart">
-      <h3>Industrial robot installations — US vs China vs rest of world</h3>
-      <p class="chart-sub">China now installs more industrial robots each year than the rest of the world combined, while US installations have stayed between 31,000 and 40,000 a year since 2016 (38,400 in 2025). Metric-by-metric comparison on <a href="china.html">US vs China</a>.</p>
+    <!-- The thesis chart. Text beside the plot from 1024px so the plot keeps
+         a readable size instead of stretching to the full 1280px. -->
+    <h2 class="section-title rule">Robot installations</h2>
+    <div class="chart chart-split" id="production-trend-chart">
+      <h3>Industrial robots installed each year in the US, China and the rest of the world</h3>
+      <p class="chart-sub">China now installs more industrial robots each year than the rest of the world combined. US installations have stayed between 31,000 and 40,000 a year since 2016 (38,400 in 2025). Metric-by-metric comparison on <a href="china.html">US vs China</a>.</p>
       <svg id="production-trend-svg" viewBox="0 0 560 280" role="img" aria-label="Industrial robot installations, US vs China vs rest of world, 2015 to 2025"></svg>
       <div class="chart-legend" id="production-trend-legend"></div>
       <p class="chart-source" id="production-trend-source"></p>
-    </div>
-
-    <!-- Charts -->
-    <h2 class="section-title rule">Capital</h2>
-    <div class="chart-grid">
-      <div class="chart" id="chart-top-valuations">
-        <div class="chart-head">
-          <h3>Latest valuations — top 8</h3>
-          <div class="chart-toggle" role="group" aria-label="Valuation scope">
-            <button class="btn ghost" type="button" id="val-scope-pure" aria-pressed="true">Pure-play</button>
-            <button class="btn ghost" type="button" id="val-scope-all" aria-pressed="false">All</button>
-          </div>
-        </div>
-        <p class="chart-sub" id="val-sub">Pure-play robotics only — most recent disclosed post-money or comparable.</p>
-        <svg viewBox="0 0 480 280" role="img" aria-label="Top company valuations"></svg>
-        <p class="chart-source" id="val-source">Diversified primes &amp; industrial incumbents (e.g. Anduril, FANUC, Yaskawa) excluded — their valuations span well beyond robotics. Toggle “All” to include them. Source: <a href="companies.html">Companies</a>.</p>
-      </div>
     </div>
 
     <!-- Themes -->
     <h2 class="section-title rule">Themes to watch</h2>
     <div id="theme-cards" class="card-grid cols-3"><!--static:index-themes:start--><!--static:index-themes:end--></div>
 
-    <!-- Top companies -->
-    <h2 class="section-title rule">Most-watched companies</h2>
+    <!-- Top companies by latest valuation -->
+    <h2 class="section-title rule">Highest-valued companies</h2>
     <div id="top-companies" class="card-grid cols-3"><!--static:index-companies:start--><!--static:index-companies:end--></div>
 
     <!-- How to read this page. Kept below the reporting, where a masthead
          box belongs on a news front page, rather than above it. -->
     <h2 class="section-title rule">How to read this</h2>
-    <aside class="bluf" aria-label="What this is">
-      <span class="bluf-tag">What this is</span>
-      <p class="bluf-body">
-        <strong>On the measures tracked here, the US leads on AI and capital, and China on robot installations and the supply chain.</strong> The site tracks those numbers. It does not predict which lead matters more.
-      </p>
-    </aside>
-
-    <section class="exec-brief" aria-label="Executive brief">
-      <ol class="exec-brief-list">
-        <li><strong>Where America leads</strong>, on the measures tracked here — frontier AI, humanoid startups, and venture capital.</li>
-        <li><strong>Where China leads</strong> — 59% of world robot installations in 2025, more than half of global cobot shipments, and 2 million robots in operation.</li>
-        <li><strong>What&rsquo;s contested</strong> — components, batteries, sensors, and how fast either lead diffuses.</li>
-      </ol>
-      <p class="exec-brief-note">Sources for each number are on the <a href="china.html">US vs China scoreboard</a>. Its &ldquo;edge&rdquo; calls are editorial judgments, not scores.</p>
-    </section>
+    <div class="read-note">
+      <p><strong>On the measures tracked here, the US leads on AI and capital, and China on robot installations and the supply chain.</strong> The site tracks those numbers. It does not predict which lead matters more.</p>
+      <ul>
+        <li><strong>US leads:</strong> frontier AI, humanoid startups and venture capital.</li>
+        <li><strong>China leads:</strong> 59% of world robot installations in 2025, more than half of global cobot shipments, and 2 million robots in operation.</li>
+        <li><strong>Contested:</strong> components, batteries, sensors, and how fast either lead spreads.</li>
+      </ul>
+      <p class="muted">Sources for each number are on the <a href="china.html">US vs China scoreboard</a>. Its &ldquo;edge&rdquo; calls are editorial judgments, not scores.</p>
+    </div>
   </main>
 
   <footer class="site-footer">
@@ -206,18 +184,16 @@
       RT.renderNewsBriefs(front.briefs, recent.total));
 
     // ---------- Charts ----------
-    // Still client-only: renderProductionTrend writes into live SVG nodes and
-    // the valuation chart is a local closure over the scope toggle. Charts carry
-    // no text a crawler can read beyond axis labels, so they were not worth the
-    // refactor in the first bake pass.
+    // Still client-only: renderProductionTrend writes into live SVG nodes. The
+    // chart carries no text a crawler can read beyond axis labels, so it was not
+    // worth the refactor in the first bake pass. (A top-8 valuation chart sat
+    // here until 2026-10-31; it repeated the company cards below it.)
     const trendRows = (sc && sc.production_trend) || [];
     RT.renderProductionTrend(trendRows, {
       svg: document.getElementById('production-trend-svg'),
       legend: document.getElementById('production-trend-legend'),
       source: document.getElementById('production-trend-source'),
     });
-    renderTopValuations(companies, 'pure');
-    wireValuationScope(companies);
 
     // ---------- Themes ----------
     RT.paint(document.getElementById('theme-cards'), RT.renderThemeCards(themes));
@@ -225,76 +201,6 @@
     // ---------- Top companies ----------
     RT.paint(document.getElementById('top-companies'), RT.renderTopCompanies(companies));
   });
-
-  // ---------- helpers ----------
-  // A company's valuation is "pure-play" robotics unless it's a diversified prime
-  // or an industrial incumbent whose market cap spans well beyond robotics.
-  function isPurePlay(c) {
-    const tags = c.tags || [];
-    return !tags.includes('incumbent') && !tags.includes('diversified');
-  }
-
-  function renderTopValuations(companies, scope = 'pure') {
-    const svg = document.querySelector('#chart-top-valuations svg');
-    const pool = companies.filter(c => c.latest_valuation_usd != null)
-      .filter(c => scope === 'all' ? true : isPurePlay(c));
-    const data = RT.sortBy(pool, c => c.latest_valuation_usd, 'desc').slice(0, 8);
-    if (!data.length) return;
-    const W = 480, H = 280, padL = 110, padR = 70, padT = 8, padB = 8;
-    const innerW = W - padL - padR;
-    const rowH = (H - padT - padB) / data.length;
-    const maxV = data[0].latest_valuation_usd;
-    const bars = data.map((c, i) => {
-      const w = Math.max(1, (c.latest_valuation_usd / maxV) * innerW);
-      const y = padT + i * rowH + 4;
-      const h = rowH - 8;
-      return `
-        <text class="axis-label" x="${padL - 6}" y="${y + h / 2 + 3}" text-anchor="end">${escapeXML(c.name)}</text>
-        <rect class="bar alt" x="${padL}" y="${y}" width="${w}" height="${h}" rx="2"></rect>
-        <text class="axis-label" x="${padL + w + 6}" y="${y + h / 2 + 3}">${formatTick(c.latest_valuation_usd)}</text>
-      `;
-    }).join('');
-    svg.innerHTML = bars;
-  }
-
-  function wireValuationScope(companies) {
-    const pureBtn = document.getElementById('val-scope-pure');
-    const allBtn = document.getElementById('val-scope-all');
-    const sub = document.getElementById('val-sub');
-    const source = document.getElementById('val-source');
-    if (!pureBtn || !allBtn) return;
-    const COPY = {
-      pure: {
-        sub: 'Pure-play robotics only — most recent disclosed post-money or comparable.',
-        source: 'Diversified primes &amp; industrial incumbents (e.g. Anduril, FANUC, Yaskawa) excluded — their valuations span well beyond robotics. Toggle “All” to include them. Source: <a href="companies.html">Companies</a>.',
-      },
-      all: {
-        sub: 'All tracked companies — incl. diversified primes &amp; industrial incumbents.',
-        source: 'Incumbent &amp; diversified valuations are whole-company (market cap or post-money), not robotics-only. Source: <a href="companies.html">Companies</a>.',
-      },
-    };
-    const apply = (scope) => {
-      pureBtn.setAttribute('aria-pressed', String(scope === 'pure'));
-      allBtn.setAttribute('aria-pressed', String(scope === 'all'));
-      sub.innerHTML = COPY[scope].sub;
-      source.innerHTML = COPY[scope].source;
-      renderTopValuations(companies, scope);
-    };
-    pureBtn.addEventListener('click', () => apply('pure'));
-    allBtn.addEventListener('click', () => apply('all'));
-  }
-
-  function formatTick(n) {
-    if (!n) return '0';
-    if (n >= 1e9) return `$${(n / 1e9).toFixed(n % 1e9 === 0 ? 0 : 1)}B`;
-    if (n >= 1e6) return `$${(n / 1e6).toFixed(0)}M`;
-    if (n >= 1e3) return `$${(n / 1e3).toFixed(0)}K`;
-    return `$${n}`;
-  }
-  function escapeXML(s) {
-    return String(s == null ? '' : s)
-      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  }
   </script>
 </body>
 </html>
