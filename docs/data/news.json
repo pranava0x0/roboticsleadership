@@ -1,5 +1,112 @@
 [
   {
+    "id": "foxconn-industrial-humanoids-texas-2026-10",
+    "title": "Foxconn Industrial Internet says more than 10 humanoids work at its Texas sites",
+    "date": "2026-10-30",
+    "source": "Reuters via Investing.com",
+    "source_type": "News",
+    "source_url": "https://investing.com/news/stock-market-news/foxconn-working-on-a-new-tieup-with-openai-says-there-is-no-ai-bubble-4986121",
+    "summary": "Chairman Brand Cheng told Reuters the robots are for internal use, with plans to expand beyond Texas, and that the unit is building models for them on Nvidia GR00T.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "foxconn",
+      "humanoid",
+      "texas"
+    ]
+  },
+  {
+    "id": "china-physical-ai-investment-sept-2026-10",
+    "title": "China physical-AI investment fell 40.1% in September to 11.6B yuan, a Korean outlet reports",
+    "date": "2026-10-27",
+    "source": "Seoul Economic Daily",
+    "source_type": "News",
+    "source_url": "https://en.sedaily.com/international/2026/10/27/china-robot-funding-falls-40-percent-as-ipo-rules-tighten",
+    "summary": "The article cites NE Times for September investment of 11.6B yuan against 19.4B yuan in August, and attributes the drop to tighter IPO rules. It also relays a Bloomberg report that Noetix Robotics filed confidentially for a Hong Kong IPO. Machine-translated secondary source; the underlying figures were not checked.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "china",
+      "funding",
+      "ipo"
+    ]
+  },
+  {
+    "id": "hn-50298649",
+    "title": "GM's Sterling Anderson says humanoid robots should not be building cars",
+    "date": "2026-10-30",
+    "source": "The Verge",
+    "source_type": "News",
+    "source_url": "https://www.theverge.com/transportation/1018625/gm-sterling-anderson-interview-robots-ai-autonomous-data-privacy",
+    "summary": "In a Verge interview the GM executive argues for task-specific machines on the line rather than humanoids. His view, not a GM policy statement.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "gm",
+      "humanoid-debate"
+    ]
+  },
+  {
+    "id": "rss-anybotics-begins-delivering-an-922",
+    "title": "ANYbotics starts delivering ANYmal X, a legged inspection robot rated for explosive atmospheres",
+    "date": "2026-10-27",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/anybotics-begins-delivering-anymal-x-legged-robot-explosive-atmospheres/",
+    "summary": "ANYbotics says ANYmal X is designed to meet the safety standards of oil, gas and chemical sites. The Swiss company is already tracked here.",
+    "category": "Deployment",
+    "companies": [
+      "anybotics"
+    ],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "anybotics",
+      "inspection"
+    ]
+  },
+  {
+    "id": "rss-humanoid-developer-agility-now-68",
+    "title": "Agility now expects $465M from its SPAC deal with Churchill Capital XI, $155M below its earlier estimate",
+    "date": "2026-10-30",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/humanoid-developer-agility-now-expects-raise-465m-spac-deal/",
+    "summary": "Agility Robotics lowered the proceeds it expects from the Churchill Capital Corp XI combination to $465 million, from about $620 million. The Robot Report attributes the cut to the deal terms; the merger has not closed.",
+    "category": "Funding",
+    "companies": [
+      "agility-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "agility",
+      "spac"
+    ]
+  },
+  {
     "id": "foundry-robotics-series-a-2026-10",
     "title": "Foundry Robotics raises $100M Series A to build an autonomous assembly factory",
     "date": "2026-10-28",
