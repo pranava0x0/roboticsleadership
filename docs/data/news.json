@@ -1,5 +1,161 @@
 [
   {
+    "id": "symbotic-walmart-6b-2026-10",
+    "title": "Walmart and Symbotic expand their deal with about $6B of initial commitments",
+    "date": "2026-10-30",
+    "source": "Robotics & Automation News",
+    "source_type": "News",
+    "source_url": "https://roboticsandautomationnews.com/2026/10/30/walmart-expands-symbotic-warehouse-automation-deal-with-6-billion-commitment/106538/",
+    "summary": "Symbotic will add automation to 25 US regional distribution centers, with an initial commitment of about $6B in spend over several years.",
+    "category": "Deployment",
+    "companies": [
+      "symbotic"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "symbotic",
+      "walmart",
+      "warehouse"
+    ]
+  },
+  {
+    "id": "aurora-30000-trucks-2030-2026-10",
+    "title": "Aurora targets more than 30,000 driverless trucks by 2030",
+    "date": "2026-10-30",
+    "source": "Robotics & Automation News",
+    "source_type": "News",
+    "source_url": "https://roboticsandautomationnews.com/2026/10/30/aurora-outlines-plan-to-scale-to-30000-driverless-trucks/106529/",
+    "summary": "Aurora said at its investor day in Dallas that it expects to end 2026 with 200 driverless trucks. Hirschbach plans to own and run 500 autonomous trucks, with deliveries from 2027. Targets are company statements.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "aurora",
+      "autonomous-trucks"
+    ]
+  },
+  {
+    "id": "opentrons-series-e-40m-2026-10",
+    "title": "Opentrons raises $40M Series E for lab automation",
+    "date": "2026-10-30",
+    "source": "Robotics & Automation News",
+    "source_type": "News",
+    "source_url": "https://roboticsandautomationnews.com/2026/10/30/opentrons-raises-40-million-to-expand-ai-powered-lab-automation/106542/",
+    "summary": "Avego led, with BroadOak Capital Partners. Proceeds go to robotics, software and data infrastructure. The company says it has more than 11,000 robots in over 80 countries.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "opentrons",
+      "lab-automation",
+      "funding"
+    ]
+  },
+  {
+    "id": "schaeffler-wandelbots-2026-10",
+    "title": "Schaeffler and Wandelbots partner on a robotics platform for all Schaeffler plants",
+    "date": "2026-10-30",
+    "source": "Robotics & Automation News",
+    "source_type": "News",
+    "source_url": "https://roboticsandautomationnews.com/2026/10/30/schaeffler-and-wandelbots-enter-into-technology-partnership/106507/",
+    "summary": "They will develop the Wandelbots NOVA platform for industrial and humanoid robots, for use across Schaeffler plants worldwide. The release claims up to 40% lower automation life-cycle cost.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "schaeffler",
+      "wandelbots",
+      "manufacturing"
+    ]
+  },
+  {
+    "id": "maximo-300k-tasks-2026-10",
+    "title": "Maximo Robotics reports more than 300,000 solar construction tasks completed",
+    "date": "2026-10-30",
+    "source": "Robotics & Automation News",
+    "source_type": "News",
+    "source_url": "https://roboticsandautomationnews.com/2026/10/30/maximo-robotics-completes-300000-tasks-in-utility-scale-solar-projects/106532/",
+    "summary": "Max 4.0 robots work under pay-per-task contracts. The company says crews working with them install at 2.5 times manual rates per person per shift hour; these are company claims.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "maximo",
+      "solar",
+      "construction"
+    ]
+  },
+  {
+    "id": "humanoid-uk-nvidia-edge-2026-10",
+    "title": "Humanoid (UK) builds an onboard runtime for its next robots on Nvidia Jetson Thor",
+    "date": "2026-10-30",
+    "source": "Robotics & Automation News",
+    "source_type": "News",
+    "source_url": "https://roboticsandautomationnews.com/2026/10/30/humanoid-expands-collaboration-with-nvidia-to-power-its-next-generation-of-humanoid-robots/106493/",
+    "summary": "The edge runtime uses Nvidia Jetson Thor, Isaac OS and the Holoscan Sensor Bridge and SDK. No customer or ship date was given.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "humanoid",
+      "nvidia",
+      "jetson-thor"
+    ]
+  },
+  {
+    "id": "uk-humanoid-household-insurance-2026-10",
+    "title": "Tokio Marine HCC and Adrian Flux launch UK household insurance for humanoid robots",
+    "date": "2026-10-31",
+    "source": "Robotics & Automation News",
+    "source_type": "News",
+    "source_url": "https://roboticsandautomationnews.com/2026/10/31/first-insurance-policy-for-domestic-humanoid-robots-in-the-uk/106568/",
+    "summary": "The insurers call it the first UK policy for domestic humanoids, sold with Adrian Flux home cover. The article expects home robots in the UK from 2027 and cites US pre-orders at $20,000.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "cost-trajectory"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "insurance",
+      "humanoid",
+      "uk"
+    ]
+  },
+  {
     "id": "foxconn-industrial-humanoids-texas-2026-10",
     "title": "Foxconn Industrial Internet says more than 10 humanoids work at its Texas sites",
     "date": "2026-10-30",
