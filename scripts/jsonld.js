@@ -30,8 +30,6 @@ const DATASETS = {
   'companies.html': ['companies.json', 'Robotics companies', 'Robotics companies with funding rounds, deployments, valuations, headquarters, market category and cited sources.'],
   'policies.html': ['policies.json', 'Robotics policy records', 'Federal, state and city robotics policy records: bills, executive orders, regulations, incentive programs and procurement, each with status and sources.'],
   'news.html': ['news.json', 'Robotics news records', 'Tracked robotics news on funding, deployments, policy, supply chain and geopolitics, each record with its source URL and often an archive snapshot.'],
-  'states.html': ['state_policy.json', 'State robotics policy themes', 'State-level robotics policy themes: delivery-robot laws, autonomous-vehicle rules, incentives and the AI preemption fight.'],
-  'themes.html': ['themes.json', 'Robotics themes', 'Cross-cutting robotics narratives with a direction (accelerating, stable, slowing) and the evidence behind each.'],
   'rd.html': ['rd.json', 'Robotics R&D tracker', 'Robot foundation models, world models, benchmarks and leaderboards, research areas, datasets, compute and the humanoid component stack, each entry with its source and capture date.'],
 };
 

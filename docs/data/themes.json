@@ -2,7 +2,7 @@
   {
     "id": "china-scale",
     "name": "China Manufacturing Scale",
-    "narrative": "IFR reports that factories in China installed about 354,000 industrial robots in 2025, or 59% of global annual installations; the United States installed almost 38,500. These industrial-robot figures cover a broader category than humanoids. IFR reports Chinese suppliers accounted for 55% of China’s domestic industrial-robot installations.",
+    "narrative": "IFR reports that factories in China installed about 354,000 industrial robots in 2025, or 59% of global annual installations; the United States installed almost 38,500. Chinese suppliers accounted for 55% of China's domestic installations. Capital follows the same pattern: Crunchbase counts $13.2 billion of robotics venture funding in China in the first nine months of 2026 against $12.1 billion in the U.S., excluding defense companies. Unitree, now listed on the STAR Market, reported Q3 revenue of RMB 665 million, up about 70%.",
     "direction": "Accelerating",
     "key_metrics": [
       {
@@ -25,12 +25,34 @@
         "unit": "approx. units",
         "date": "2025",
         "source_url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally"
+      },
+      {
+        "name": "China robotics venture funding, Jan–Sep 2026",
+        "value": 13200000000,
+        "unit": "USD",
+        "date": "2026-09",
+        "source_url": "https://news.crunchbase.com/venture/q3-2026-us-china-robotics-startup-funding-jumps-physical-ai-push/"
+      },
+      {
+        "name": "U.S. robotics venture funding, Jan–Sep 2026",
+        "value": 12100000000,
+        "unit": "USD",
+        "date": "2026-09",
+        "source_url": "https://news.crunchbase.com/venture/q3-2026-us-china-robotics-startup-funding-jumps-physical-ai-push/"
       }
     ],
     "narrative_sources": [
       {
         "label": "IFR — World Robotics 2026",
         "url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally"
+      },
+      {
+        "label": "Crunchbase — Q3 2026 robotics funding",
+        "url": "https://news.crunchbase.com/venture/q3-2026-us-china-robotics-startup-funding-jumps-physical-ai-push/"
+      },
+      {
+        "label": "TechNode — Unitree Q3 2026 results",
+        "url": "https://technode.com/2026/10/29/unitrees-first-post-ipo-report-shows-quarterly-revenue-growth-of-nearly-70/"
       }
     ],
     "government_intervention_ready": true,
@@ -40,12 +62,12 @@
       "Supply-chain support for actuators, batteries, lidar where China dominates upstream",
       "Visa pathway expansion for robotics talent"
     ],
-    "last_updated": "2026-10-26"
+    "last_updated": "2026-11-02"
   },
   {
     "id": "foundation-models",
     "name": "Robotics Foundation Models",
-    "narrative": "Robotics foundation-model developers aim to use shared models across tasks and bodies. Skild AI announced a $1.4 billion Series C at a valuation above $14 billion in January 2026 and introduced S1 in August. Physical Intelligence’s π0.5 research describes tests of mobile manipulation in homes outside its training set. Company demonstrations and reported results do not establish performance across all workplaces.",
+    "narrative": "Robotics foundation-model developers aim to use shared models across tasks and robot bodies. Skild AI raised a $1.4 billion Series C at a valuation above $14 billion in January 2026. Bloomberg reported in October that Physical Intelligence was in talks to raise at about a $20 billion valuation; the company has not confirmed it. Google put Gemini Robotics-ER 2, a planning model that checks task progress from video, into public preview on Google Cloud. Company demonstrations and reported results do not establish performance across all workplaces.",
     "direction": "Accelerating",
     "key_metrics": [
       {
@@ -56,11 +78,18 @@
         "source_url": "https://www.skild.ai/blogs/series-c"
       },
       {
-        "name": "Skild AI valuation at Series C",
-        "value": ">14000000000",
+        "name": "Skild AI valuation at Series C (more than)",
+        "value": 14000000000,
         "unit": "USD",
         "date": "2026-01-14",
         "source_url": "https://www.skild.ai/blogs/series-c"
+      },
+      {
+        "name": "Physical Intelligence reported valuation in talks",
+        "value": 20000000000,
+        "unit": "USD (reported, unconfirmed)",
+        "date": "2026-10-27",
+        "source_url": "https://panews.io/articles/01a17fd9-1987-74f9-a293-fcc144c0526d"
       }
     ],
     "narrative_sources": [
@@ -71,6 +100,14 @@
       {
         "label": "Physical Intelligence — π0.5 research",
         "url": "https://www.physicalintelligence.company/download/pi05.pdf"
+      },
+      {
+        "label": "Google Cloud — Gemini Robotics-ER 2",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud"
+      },
+      {
+        "label": "Bloomberg via PANews — Physical Intelligence talks",
+        "url": "https://panews.io/articles/01a17fd9-1987-74f9-a293-fcc144c0526d"
       }
     ],
     "government_intervention_ready": false,
@@ -79,7 +116,7 @@
       "Open-source model + dataset support via NSF",
       "Light-touch on foundation-model regulation pending NIST AI RMF maturity"
     ],
-    "last_updated": "2026-10-26"
+    "last_updated": "2026-11-02"
   },
   {
     "id": "cost-trajectory",
@@ -139,7 +176,7 @@
       {
         "name": "Replicator FY2024 secured funding",
         "value": 500000000,
-        "unit": "approx. USD",
+        "unit": "USD (approx.)",
         "date": "2024-05-06",
         "source_url": "https://www.defense.gov/News/Releases/Release/Article/3765644/deputy-secretary-of-defense-hicks-announces-first-tranche-of-replicator-capabil/"
       }
@@ -169,15 +206,22 @@
   {
     "id": "industrial-deployments",
     "name": "Industrial Humanoid Deployment Wave",
-    "narrative": "Agility and GXO began a warehouse pilot in 2023 and signed a multi-year Robots-as-a-Service agreement in 2024. On October 26, 2026 they announced expansion to North Carolina and Tennessee sites, with deployments expected to begin in early 2027. Toyota Motor Manufacturing Canada signed a commercial agreement after a pilot in February 2026. Planned sites are not yet operating deployments.",
+    "narrative": "North American robot orders rose 24.8% in Q3 2026 to 10,989 units, A3 reports, led by automotive components and electronics. In humanoids, GXO and Agility plan Digit deployments at two more U.S. sites from early 2027, Foxconn's industrial unit says more than 10 humanoids work at its Texas sites, and Korean outlet KED reports Boston Dynamics asked suppliers to prepare for 10,000 Atlas units. Walmart's expanded Symbotic deal commits about $6 billion to automate 25 U.S. distribution centers. Planned sites and supplier preparations are not operating deployments.",
     "direction": "Accelerating",
     "key_metrics": [
       {
-        "name": "GXO expansion announced",
-        "value": "2026-10-26",
-        "unit": "date",
-        "date": "2026-10-26",
-        "source_url": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations"
+        "name": "North American robot orders, Q3 2026",
+        "value": 10989,
+        "unit": "robots",
+        "date": "2026-Q3",
+        "source_url": "https://www.automate.org/robotics/news/north-american-robot-orders-increase-24-8-in-third-quarter-of-2026"
+      },
+      {
+        "name": "Walmart–Symbotic initial commitment",
+        "value": 6000000000,
+        "unit": "USD",
+        "date": "2026-10-30",
+        "source_url": "https://roboticsandautomationnews.com/2026/10/30/walmart-expands-symbotic-warehouse-automation-deal-with-6-billion-commitment/106538/"
       }
     ],
     "narrative_sources": [
@@ -188,6 +232,18 @@
       {
         "label": "Agility — Toyota Canada agreement",
         "url": "https://www.agilityrobotics.com/content/agility-robotics-announces-commercial-agreement-with-toyota-motor-manufacturing-canada"
+      },
+      {
+        "label": "A3 — Q3 2026 robot orders",
+        "url": "https://www.automate.org/robotics/news/north-american-robot-orders-increase-24-8-in-third-quarter-of-2026"
+      },
+      {
+        "label": "KED Global — Atlas supplier preparations",
+        "url": "https://www.kedglobal.com/robotics/newsView/ked202610270008"
+      },
+      {
+        "label": "Reuters via Investing.com — Foxconn humanoids in Texas",
+        "url": "https://investing.com/news/stock-market-news/foxconn-working-on-a-new-tieup-with-openai-says-there-is-no-ai-bubble-4986121"
       }
     ],
     "government_intervention_ready": true,
@@ -196,30 +252,41 @@
       "Workforce co-investment to fund operator training alongside deployments",
       "Safety standard clarification via NIST/OSHA for human-robot shared workspaces"
     ],
-    "last_updated": "2026-10-26"
+    "last_updated": "2026-11-02"
   },
   {
     "id": "policy-momentum",
     "name": "Federal Policy Momentum",
-    "narrative": "Federal policy includes research programs, proposed legislation and equipment restrictions. Treasury’s October 26, 2026 outbound-investment proposal includes embodied AI and laboratory robotics in defined technology categories; it is not a final rule. The FCC’s draft test-lab order is scheduled for consideration on October 29 and would apply to covered equipment authorization if adopted.",
+    "narrative": "On October 28 the President found that imports of robots and industrial machinery threaten national security but imposed no tariff, directing Commerce and USTR to negotiate with trading partners and report within 180 days (Proclamation 11077). Treasury's October 26 outbound-investment proposal names humanoid, quadruped and industrial robots among covered AI systems; comments close December 7. The FCC's Covered List restriction on foreign robots is in effect, with conditional exemptions granted to robots whose makers commit to U.S. production plans.",
     "direction": "Accelerating",
     "key_metrics": [
+      {
+        "name": "Section 232 negotiation report due",
+        "value": "2027-04-26",
+        "unit": "date",
+        "date": "2026-10-28",
+        "source_url": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/"
+      },
       {
         "name": "Treasury proposed rule comment deadline",
         "value": "2026-12-07",
         "unit": "date",
         "date": "2026-10-26",
-        "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-26/pdf/2026-21786.pdf"
+        "source_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations"
       }
     ],
     "narrative_sources": [
       {
-        "label": "Treasury — proposed outbound investment rule",
-        "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-26/pdf/2026-21786.pdf"
+        "label": "White House — Section 232 proclamation, Oct 28, 2026",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/"
       },
       {
-        "label": "FCC — draft test-lab order",
-        "url": "https://docs.fcc.gov/public/attachments/DOC-425721A1.pdf"
+        "label": "Federal Register — Treasury outbound-investment proposal",
+        "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations"
+      },
+      {
+        "label": "Humanoids Daily — FCC conditional exemptions",
+        "url": "https://www.humanoidsdaily.com/news/lightberry-lumi-fcc-covered-list-conditional-exemption"
       }
     ],
     "government_intervention_ready": true,
@@ -228,20 +295,27 @@
       "Track IRS guidance for eligible automation equipment under enacted Public Law 119-21",
       "Track FCC conditional approvals and the Section 232 robotics negotiations (update due 2027-04-26)"
     ],
-    "last_updated": "2026-10-26"
+    "last_updated": "2026-11-02"
   },
   {
     "id": "physical-ai",
     "name": "Physical AI (\"AI with a body\")",
-    "narrative": "Physical AI combines AI with sensing and action in physical environments. Skild AI introduced its S1 robotics foundation model in August 2026 and reports commercial customers; Physical Intelligence’s π0.5 research tests a mobile manipulator in previously unseen homes. These are developer-reported results, not independent evidence of general performance across workplaces.",
+    "narrative": "Physical AI combines AI with sensing and action in physical environments. Skild AI introduced its S1 model in August 2026 and reports more than $100 million in annual recurring revenue; Google's Gemini Robotics-ER 2 is in public preview with Boston Dynamics among named users. Crunchbase counts $9.9 billion of robotics venture funding in Q3 2026, up from $4.3 billion a year earlier. These are developer-reported results and funding totals, not independent evidence of general performance across workplaces.",
     "direction": "Accelerating",
     "key_metrics": [
       {
-        "name": "Skild reported annual recurring revenue",
-        "value": ">100000000",
+        "name": "Skild reported annual recurring revenue (more than)",
+        "value": 100000000,
         "unit": "USD",
         "date": "2026-09-10",
         "source_url": "https://skild.ai/blogs/skild-crosses-100m-arr"
+      },
+      {
+        "name": "Robotics venture funding, Q3 2026",
+        "value": 9900000000,
+        "unit": "USD",
+        "date": "2026-Q3",
+        "source_url": "https://news.crunchbase.com/venture/q3-2026-us-china-robotics-startup-funding-jumps-physical-ai-push/"
       }
     ],
     "narrative_sources": [
@@ -252,6 +326,10 @@
       {
         "label": "Physical Intelligence — π0.5 research",
         "url": "https://www.physicalintelligence.company/download/pi05.pdf"
+      },
+      {
+        "label": "Crunchbase — Q3 2026 robotics funding",
+        "url": "https://news.crunchbase.com/venture/q3-2026-us-china-robotics-startup-funding-jumps-physical-ai-push/"
       }
     ],
     "related_companies": [
@@ -272,14 +350,29 @@
       "Fund shared real-world robot data / sim infrastructure (NSF / NAIRR analogue) so value is not captured only by the best-capitalized labs",
       "Watch foreign capital concentration in physical-AI startups for supply-chain + national-security exposure"
     ],
-    "last_updated": "2026-10-26"
+    "last_updated": "2026-11-02"
   },
   {
     "id": "us-supply-chain",
     "name": "US Robot Component Supply Chain",
-    "narrative": "Robot manufacturing depends on components including motors, actuators, sensors and electronics. Westmag says its South San Francisco motor and actuator factory is ramping production and testing; this is a company-reported stage, not proof of output at scale. Commerce continues to list its Section 232 robotics and industrial-machinery import inquiry as an investigation, not a final robotics tariff.",
+    "narrative": "Robot manufacturing depends on motors, actuators, sensors, batteries and electronics. Westmag says its South San Francisco motor and actuator factory is ramping; Foundry Robotics raised $100 million to build an AI-driven assembly factory; and Re:Build raised $2.1 billion to expand U.S. hard-tech manufacturing. The Section 232 proclamation covers robot parts and components but sets no tariff yet. KED reports Boston Dynamics' Atlas supplier list is led by Korean firms, with Hyundai Mobis on actuators. Company-reported stages are not proof of output at scale.",
     "direction": "Accelerating",
-    "key_metrics": [],
+    "key_metrics": [
+      {
+        "name": "Re:Build capital raise",
+        "value": 2100000000,
+        "unit": "USD",
+        "date": "2026-10-27",
+        "source_url": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/"
+      },
+      {
+        "name": "Foundry Robotics Series A",
+        "value": 100000000,
+        "unit": "USD",
+        "date": "2026-10-28",
+        "source_url": "https://finance.yahoo.com/technology/ai/articles/foundry-robotics-raises-100-million-150000783.html"
+      }
+    ],
     "narrative_sources": [
       {
         "label": "Westmag — manufacturing and production status",
@@ -288,6 +381,14 @@
       {
         "label": "Commerce BIS — Section 232 investigations",
         "url": "https://www.bis.gov/about-bis/bis-leadership-and-offices/sies/section-232-investigations"
+      },
+      {
+        "label": "White House — Section 232 proclamation",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/"
+      },
+      {
+        "label": "KED Global — Atlas suppliers",
+        "url": "https://www.kedglobal.com/robotics/newsView/ked202610270008"
       }
     ],
     "government_intervention_ready": true,
@@ -304,6 +405,6 @@
       "moog-inc"
     ],
     "related_policies": [],
-    "last_updated": "2026-10-26"
+    "last_updated": "2026-11-02"
   }
 ]

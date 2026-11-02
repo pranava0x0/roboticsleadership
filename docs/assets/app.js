@@ -1026,24 +1026,31 @@
     return items + `<li class="brief brief-all"><a href="news.html">All ${formatNumber(total)} stories</a></li>`;
   }
 
-  // Front-page theme cards: name and narrative only. The direction pill read
-  // "Accelerating" on every card and the counts read "0 cos · 0 policies" on
-  // six of eight (2026-10-31) — labels that are the same everywhere say nothing.
-  // themes.html keeps the full card. Counts render only when there are some.
+  // Front-page themes: the section is the site's only home for themes (the
+  // separate Themes page was folded in, 2026-11-02), so every theme renders with
+  // its narrative, and its figures and sources sit behind one collapsed toggle.
+  // The direction pill is left off: it read "Accelerating" on every card.
   function renderThemeCards(themes) {
-    return (themes || []).slice(0, 6).map((t) => {
-      const cos = (t.related_companies || []).length;
-      const pols = (t.related_policies || []).length;
-      const counts = [
-        cos ? `${cos} ${cos === 1 ? 'company' : 'companies'}` : '',
-        pols ? `${pols} ${pols === 1 ? 'policy' : 'policies'}` : '',
-      ].filter(Boolean).join(', ');
+    return (themes || []).map((t) => {
+      const metrics = (t.key_metrics || []).map((m) => {
+        // Dollar figures read as $13.2B, not "13,200,000,000 USD"; a "date" unit is the value itself.
+        const usd = typeof m.value === 'number' && /^USD\b/.test(m.unit || '');
+        const value = usd ? formatUSD(m.value) : typeof m.value === 'number' ? formatNumber(m.value) : (m.value == null ? '—' : String(m.value));
+        const unit = usd ? (m.unit || '').replace(/^USD\s*/, '') : (m.unit === 'date' ? '' : m.unit || '');
+        const src = m.source_url ? ` <a href="${escapeHTML(safeURL(m.source_url))}" target="_blank" rel="noopener">${escapeHTML(urlHostname(m.source_url))}</a>` : '';
+        return `<li>${escapeHTML(m.name)}: <span class="tnum">${escapeHTML(value)}</span>${unit ? `${unit === '%' ? '' : ' '}${escapeHTML(unit)}` : ''}${m.date && m.unit !== 'date' ? ` (${escapeHTML(m.date)})` : ''}${src}</li>`;
+      }).join('');
+      const sources = (t.narrative_sources || []).map((s) =>
+        `<li><a href="${escapeHTML(safeURL(s.url))}" target="_blank" rel="noopener">${escapeHTML(s.label || urlHostname(s.url))}</a></li>`).join('');
       return `
-      <a class="card card-hoverable" href="themes.html#${encodeURIComponent(t.id)}" style="color:inherit;border-bottom:none;">
+      <article class="card theme-card" id="theme-${escapeHTML(t.id)}">
         <h3 class="card-title">${escapeHTML(t.name)}</h3>
-        <p class="card-sub">${escapeHTML(truncate(t.narrative, 180))}</p>
-        ${counts ? `<div class="card-meta">${counts}</div>` : ''}
-      </a>
+        <p class="card-sub">${escapeHTML(t.narrative)}</p>
+        ${metrics || sources ? `<details class="theme-more"><summary>Figures and sources</summary>
+          ${metrics ? `<ul class="theme-metrics">${metrics}</ul>` : ''}
+          ${sources ? `<ul class="theme-sources">${sources}</ul>` : ''}
+        </details>` : ''}
+      </article>
     `;
     }).join('');
   }
