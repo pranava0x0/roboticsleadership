@@ -2285,7 +2285,7 @@
     "status": "In effect",
     "bill_number": null,
     "sponsor": "Federal Communications Commission",
-    "summary": "On July 28, the FCC added foreign-produced advanced robotic devices to its Covered List, based on an Executive Branch interagency national-security determination attached to DA 26-786 as Appendix C. Listing restricts new FCC equipment authorizations and federal subsidies; it does not ban existing ownership. Department of War conditional approvals are an exception. This is separate from Commerce’s Section 232 investigation. The September 18 notice records later approvals and exemptions. On October 22 the FCC granted Intel a one-year waiver for automated guided vehicles in its chip fabs.",
+    "summary": "On July 28, the FCC added foreign-produced advanced robotic devices to its Covered List, based on an Executive Branch interagency national-security determination attached to DA 26-786 as Appendix C. Listing restricts new FCC equipment authorizations and federal subsidies; it does not ban existing ownership. Department of War conditional approvals are an exception. This is separate from Commerce’s Section 232 investigation. The September 18 notice records later approvals and exemptions. On October 22 the FCC granted Intel a one-year waiver for automated guided vehicles in its chip fabs. In late October the FCC listed conditional approvals for Lightberry’s Unitree-based Lumi, ARAPL, ATI Motors, SunScout, Swap Robotics and OMRON, tied to onshoring plans.",
     "full_text_url": "https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf",
     "robotics_scope": "Network-capable foreign-produced advanced robotic devices; DoW conditional approval and FCC equipment-authorization process matter.",
     "estimated_budget_usd": null,
@@ -2313,9 +2313,13 @@
       },
       {
         "url": "https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf"
+      },
+      {
+        "title": "Humanoids Daily: Lightberry Lumi conditional exemption",
+        "url": "https://www.humanoidsdaily.com/news/lightberry-lumi-fcc-covered-list-conditional-exemption"
       }
     ],
-    "last_updated": "2026-10-28"
+    "last_updated": "2026-11-02"
   },
   {
     "id": "guard-act-hr9129",

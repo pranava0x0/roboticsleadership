@@ -1,5 +1,102 @@
 [
   {
+    "id": "lightberry-fcc-exemption-2026-11",
+    "title": "Lightberry’s Unitree-based Lumi humanoid gets a conditional exemption from the FCC foreign-robot Covered List",
+    "date": "2026-11-02",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/lightberry-lumi-fcc-covered-list-conditional-exemption",
+    "summary": "The exemption depends on an onshoring plan and continued vetting, and can be withdrawn. Lightberry says it replaces Unitree’s sensors, computer and software and will start US manufacturing with the body, head and hands. The same notice covers robots from ARAPL, ATI Motors, SunScout, Swap Robotics and OMRON. Certification is still needed before sales.",
+    "category": "Policy",
+    "companies": [
+      "unitree"
+    ],
+    "policies": [
+      "fcc-covered-list-robots-inverters-2026"
+    ],
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain",
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "fcc",
+      "covered-list",
+      "unitree",
+      "onshoring"
+    ]
+  },
+  {
+    "id": "waymo-toyota-manufacturing-2026-11",
+    "title": "Waymo and Toyota agree a manufacturing partnership for robotaxi vehicles",
+    "date": "2026-11-01",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+    "summary": "TechCrunch reports Toyota will build the vehicles, moving the pair past talks into a manufacturing deal. Volumes were not given in the roundup.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "waymo",
+      "toyota",
+      "robotaxi"
+    ]
+  },
+  {
+    "id": "kodiak-dtl-75-trucks-2026-11",
+    "title": "Kodiak to supply 75 driverless trucks to DTL Transport from 2028",
+    "date": "2026-11-01",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+    "summary": "TechCrunch calls it Kodiak’s first binding commercial deal for driverless big rigs on public highways.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "kodiak",
+      "autonomous-trucks"
+    ]
+  },
+  {
+    "id": "meta-fourier-max-2026-10",
+    "title": "Meta reportedly built a humanoid called Max with Shanghai-based Fourier",
+    "date": "2026-10-31",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/meta-fourier-max-humanoid-prototype",
+    "summary": "Citing The Information: built in about three months, roughly 1.5 m tall and 48 kg, on NVIDIA Jetson Thor, with Max 2 started in September. Meta says it is internal research with no plans to sell.",
+    "category": "Competitive",
+    "companies": [
+      "fourier-intelligence"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "meta",
+      "fourier",
+      "humanoid"
+    ]
+  },
+  {
     "id": "symbotic-walmart-6b-2026-10",
     "title": "Walmart and Symbotic expand their deal with about $6B of initial commitments",
     "date": "2026-10-30",
@@ -175,6 +272,28 @@
       "foxconn",
       "humanoid",
       "texas"
+    ]
+  },
+  {
+    "id": "rebuild-2b-general-catalyst-2026-10",
+    "title": "Re:Build, a Massachusetts manufacturing accelerator, raises $2.1B led by General Catalyst and JPMorganChase",
+    "date": "2026-10-27",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+    "summary": "The money is to expand capacity to manufacture hard-tech products and launch industrial startups. Other investors were not disclosed.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "us-supply-chain"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rebuild",
+      "manufacturing",
+      "general-catalyst"
     ]
   },
   {
