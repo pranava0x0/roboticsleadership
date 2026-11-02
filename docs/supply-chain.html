@@ -161,7 +161,7 @@
     <h2 class="section-title">From mine to finished robot</h2>
     <div class="chart" id="chain-map">
       <h3>Where the U.S. stands at each stage</h3>
-      <p class="chart-sub">Mine to deployed robot. Color = U.S. position at that stage.</p>
+      <p class="chart-sub">Each stage from mine to deployed robot, colored by U.S. position.</p>
       <div class="chain-flow" id="chain-flow" role="list" aria-label="Supply chain stages with US position"></div>
       <div class="chain-legend">
         <span><span class="dot pos-strong"></span>Strong — U.S. leads or is competitive</span>
@@ -174,7 +174,7 @@
     <h2 class="section-title">Who ships what — robot classes</h2>
     <div class="chart" id="shipments-chart">
       <h3>Annual shipments by robot class</h3>
-      <p class="chart-sub">Industrial robots include cobots; IFR’s professional service sample and Counterpoint’s humanoid estimate use different scopes. These rows are not additive.</p>
+      <p class="chart-sub">Units per year by class. Sources use different scopes, so rows do not add up.</p>
       <div id="shipments-bars"></div>
       <div id="shipments-defs" class="shipments-defs"></div>
     </div>
@@ -182,7 +182,7 @@
     <!-- Production trend: units by country over time -->
     <div class="chart chart-split" id="production-trend-chart">
       <h3>Total industrial robot units — US vs. China vs. Rest of world</h3>
-      <p class="chart-sub">Annual industrial installations, 2015–2025. Cobots are included. Rest of world is an approximate residual of rounded IFR figures; IFR does not publish a country breakdown of professional service robots.</p>
+      <p class="chart-sub">Units installed per year, 2015 to 2025, cobots included. Rest of world is an approximate residual of rounded IFR figures.</p>
       <svg id="production-trend-svg" viewBox="0 0 560 280" role="img" aria-label="Total industrial robot units, US vs China vs rest of world, 2015-2025"></svg>
       <div class="chart-legend" id="production-trend-legend"></div>
       <p class="chart-source" id="production-trend-source"></p>
@@ -192,7 +192,7 @@
     <details class="collapsible-section" id="sec-us-sites">
       <summary>
         <h2 class="section-title">U.S. manufacturing sites</h2>
-        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Every U.S. plant, mine, fab, and factory in the records below, grouped by state.</p>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Plants, mines and fabs by state.</p>
       </summary>
       <table class="data-table" id="us-sites-table">
         <thead><tr><th>State</th><th>Site</th><th class="hide-mobile">Company</th><th>What it makes</th><th class="hide-mobile">Capacity</th></tr></thead>
@@ -204,7 +204,7 @@
     <h2 class="section-title">Who makes what</h2>
     <div class="chart" id="share-chart">
       <h3>Production share by category</h3>
-      <p class="chart-sub">Estimated share of global output — U.S. vs China vs rest of world. Hover a row for what's being measured.</p>
+      <p class="chart-sub">Estimated share of global output. Hover a row for what it measures.</p>
       <div id="share-rows"></div>
       <div class="chain-legend">
         <span><span class="dot" style="background:var(--cat-supplychain)"></span>United States</span>
@@ -216,14 +216,14 @@
 
     <!-- By category -->
     <h2 class="section-title">By category</h2>
-    <p class="muted" style="font-size:13px;margin:-6px 0 12px;">Grouped by chain stage. Each category: assessment, chokepoints, and the specific companies, sites, capacity, and financing behind it.</p>
+    <p class="muted" style="font-size:13px;margin:-6px 0 12px;">Grouped by chain stage.</p>
     <div id="category-sections"></div>
 
     <!-- Financing -->
     <details class="collapsible-section" id="sec-financing">
       <summary>
         <h2 class="section-title">Financing the chain</h2>
-        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Federal money and policy levers reaching the robotics supply chain.</p>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Federal funding and policy levers.</p>
       </summary>
       <div class="chart-grid">
         <div class="chart" id="gov-programs">
@@ -238,15 +238,15 @@
     <details class="collapsible-section" id="sec-stakeholders">
       <summary>
         <h2 class="section-title">Full stakeholder map</h2>
-        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Everyone with money, authority, or demand in the U.S. robotics supply chain.</p>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Funders, regulators and buyers.</p>
       </summary>
       <div id="stakeholder-grid" class="stakeholder-grid"></div>
     </details>
 
     <details class="collapsible-section" id="sec-commission">
       <summary>
-        <h2 class="section-title">What the SCSP robotics commission found</h2>
-        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Its findings on magnets, reducers and the suppliers below them.</p>
+        <h2 class="section-title">SCSP robotics commission findings</h2>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">On magnets, reducers and their suppliers.</p>
       </summary>
       <div id="commission-note"><p class="muted-cell">Loading…</p></div>
     </details>
@@ -255,7 +255,7 @@
     <details class="collapsible-section" id="sec-facts">
       <summary>
         <h2 class="section-title">Key figures</h2>
-        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">The numbers behind the assessment.</p>
+        <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Sourced figures.</p>
       </summary>
       <table class="data-table" id="facts-table">
         <thead><tr><th>Figure</th><th>Value</th><th class="hide-mobile">Source</th></tr></thead>
@@ -347,12 +347,6 @@
           <span class="stage-srcs">${srcLinks(s.sources)}</span>
         </div>
       `).join('');
-      // Note line under map: weakest stage
-      const weak = stages.filter(s => s.us_position === 'weak').map(s => s.name);
-      if (weak.length) {
-        const sub = document.querySelector('#chain-map .chart-sub');
-        sub.textContent += ` Weakest links today: ${weak.join(', ')}.`;
-      }
     }
 
     function renderShipments(shipments) {
