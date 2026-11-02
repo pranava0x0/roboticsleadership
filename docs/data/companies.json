@@ -5397,9 +5397,12 @@
       },
       {
         "url": "https://finance.sina.cn/2026-09-19/detail-inisisqh7708274.d.html"
+      },
+      {
+        "url": "https://technode.com/2026/10/29/unitrees-first-post-ipo-report-shows-quarterly-revenue-growth-of-nearly-70/"
       }
     ],
-    "last_updated": "2026-09-25",
+    "last_updated": "2026-10-29",
     "themes": [
       "china-scale",
       "cost-trajectory"
@@ -5407,7 +5410,7 @@
     "financials": {
       "revenue_usd": 235000000,
       "revenue_year": "2025",
-      "details": "IPO prospectus: 2025 revenue CNY 1.71B (~$235M), up from CNY 392M in 2024. Debuted on the Shanghai STAR Market on 2026-08-19; shares hit an intraday high of 1,100 yuan (~$66B market cap, 444.9B yuan) before falling. On 2026-09-18 they closed at 514.98 yuan against a 150.80 yuan issue price, a 208.3B yuan market cap (~$31B, derived at the ~6.7 CNY/USD implied by the debut-day figures) and about 53% below the first-day high. On 2026-06-08 the Pentagon added Unitree to its Section 1260H list of Chinese military companies. China's CSRC gave informal guidance tightening humanoid-robot IPO approvals after the volatile debut."
+      "details": "IPO prospectus: 2025 revenue CNY 1.71B (~$235M), up from CNY 392M in 2024. Debuted on the Shanghai STAR Market on 2026-08-19; shares hit an intraday high of 1,100 yuan (~$66B market cap, 444.9B yuan) before falling. On 2026-09-18 they closed at 514.98 yuan against a 150.80 yuan issue price, a 208.3B yuan market cap (~$31B, derived at the ~6.7 CNY/USD implied by the debut-day figures) and about 53% below the first-day high. On 2026-06-08 the Pentagon added Unitree to its Section 1260H list of Chinese military companies. China's CSRC gave informal guidance tightening humanoid-robot IPO approvals after the volatile debut. First post-IPO report (2026-10-29): Q3 revenue CNY 665M (+69.9%); nine-month revenue CNY 1.817B (+55.7%), reported net profit CNY 387M (+270%) but CNY 349M (-18.8%) excluding one-offs; R&D CNY 263M, 14.5% of revenue."
     },
     "map_category": "humanoid"
   },
@@ -10180,5 +10183,202 @@
       "industrial-deployments"
     ],
     "map_category": "industrial"
+  },
+  {
+    "id": "machenta",
+    "name": "Machenta",
+    "founded": "2025",
+    "hq": {
+      "city": "London",
+      "state": "N/A",
+      "country": "UK"
+    },
+    "website": "https://machenta.com",
+    "funding_rounds": [
+      {
+        "date": "2026-10",
+        "round": "Seed",
+        "amount_usd": 40000000,
+        "valuation_usd": null,
+        "investors": [
+          "Creandum",
+          "Union Square Ventures"
+        ],
+        "url": "https://www.businessinsider.com/this-11-person-startup-raised-40-million-train-robots-virtual-worlds-2026-10",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 40000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "manipulator"
+    ],
+    "primary_use_case": "research",
+    "flagship_product": "Vision-demo-action (VDA) model",
+    "deployments": [],
+    "headcount": 11,
+    "headcount_date": "2026-10",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Edward Johns",
+        "role": "Founder"
+      },
+      {
+        "name": "Vitalis Vosylius",
+        "role": "Founder"
+      }
+    ],
+    "ceo": null,
+    "tags": [
+      "foundation-model",
+      "imitation-learning",
+      "simulation",
+      "uk",
+      "seed"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://machenta.com/blog/instant-robot-learning"
+      },
+      {
+        "url": "https://www.businessinsider.com/this-11-person-startup-raised-40-million-train-robots-virtual-worlds-2026-10"
+      }
+    ],
+    "last_updated": "2026-10-28",
+    "themes": [
+      "foundation-models"
+    ],
+    "map_category": "brains"
+  },
+  {
+    "id": "foundry-robotics",
+    "name": "Foundry Robotics",
+    "founded": "N/A",
+    "hq": {
+      "city": "Emeryville",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://www.foundryrobotics.com",
+    "funding_rounds": [
+      {
+        "date": "2026-10",
+        "round": "Series A",
+        "amount_usd": 100000000,
+        "valuation_usd": null,
+        "investors": [
+          "Marlinspike Partners",
+          "Khosla Ventures",
+          "Red Glass Ventures",
+          "SE Ventures",
+          "Wing VC",
+          "Axiom Ventures",
+          "Hanabi",
+          "Zero Shot Fund"
+        ],
+        "url": "https://finance.yahoo.com/technology/ai/articles/foundry-robotics-raises-100-million-150000783.html",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "manipulator"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "AI-powered robotic assembly cells",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": true,
+    "defense_contracts": false,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "manufacturing",
+      "assembly",
+      "series-a",
+      "us"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/technology/ai/articles/foundry-robotics-raises-100-million-150000783.html"
+      }
+    ],
+    "last_updated": "2026-10-30",
+    "themes": [
+      "us-supply-chain"
+    ],
+    "map_category": "industrial"
+  },
+  {
+    "id": "bleu-robotics",
+    "name": "Bleu Robotics",
+    "founded": "N/A",
+    "hq": {
+      "city": "Paris",
+      "state": "N/A",
+      "country": "FR"
+    },
+    "website": "Not disclosed",
+    "funding_rounds": [
+      {
+        "date": "2026-10",
+        "round": "Pre-seed",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "Contrarian Ventures",
+          "OVNI Capital",
+          "Kvanted",
+          "WEPA",
+          "Motier",
+          "Charlie Songhurst"
+        ],
+        "url": "https://humanoidsdaily.com/news/bleu-robotics-5m-industrial-humanoid-training",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "humanoid"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Robot task-teaching software (in development)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "foundation-model",
+      "imitation-learning",
+      "france",
+      "pre-seed"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      {
+        "url": "https://humanoidsdaily.com/news/bleu-robotics-5m-industrial-humanoid-training"
+      }
+    ],
+    "last_updated": "2026-10-30",
+    "themes": [
+      "foundation-models"
+    ],
+    "map_category": "brains"
   }
 ]

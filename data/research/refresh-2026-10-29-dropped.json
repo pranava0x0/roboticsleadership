@@ -1,0 +1,342 @@
+{
+ "date": "2026-10-29",
+ "note": "Scraper candidates (news 56, policy 4) dropped or already tracked; policy fedreg-2026-21786 duplicated the curated Treasury outbound record.",
+ "dropped": [
+  {
+   "id": "fedreg-news-2026-21939",
+   "title": "Exemptions To Permit Circumvention of Access Controls on Copyrighted Works",
+   "date": "2026-10-28",
+   "source_url": "https://www.federalregister.gov/documents/2026/10/28/2026-21939/exemptions-to-permit-circumvention-of-access-controls-on-copyrighted-works"
+  },
+  {
+   "id": "fedreg-news-2026-21777",
+   "title": "Performance Review Board Membership",
+   "date": "2026-10-26",
+   "source_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21777/performance-review-board-membership"
+  },
+  {
+   "id": "fedreg-news-2026-21826",
+   "title": "Agency Information Collection Activities; Extension of Collection; Comment Request; Standard for the Flammability of Mattresses and Mattress Pads and Standard for the Flammability (Open Flame) of Mattress Sets",
+   "date": "2026-10-27",
+   "source_url": "https://www.federalregister.gov/documents/2026/10/27/2026-21826/agency-information-collection-activities-extension-of-collection-comment-request-standard-for-the"
+  },
+  {
+   "id": "hn-50245113",
+   "title": "Humanity Top 10K: Ranking historical figures through 1.24M comparisons of deeds",
+   "date": "2026-10-26",
+   "source_url": "https://hominidintelligence.org/leaderboard"
+  },
+  {
+   "id": "hn-50246115",
+   "title": "Anthropic files for IPO even as CEO warns of risk to humanity from AI",
+   "date": "2026-10-26",
+   "source_url": "https://apnews.com/article/anthropic-ipo-shares-public-ca2f4c282bef3201a392e59e3df2300c"
+  },
+  {
+   "id": "hn-50248870",
+   "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share",
+   "date": "2026-10-26",
+   "source_url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo"
+  },
+  {
+   "id": "hn-50249662",
+   "title": "Show HN: Websites designed by 10 AI models, ranked by 4,500 human votes",
+   "date": "2026-10-26",
+   "source_url": "https://humansignal.com/taste-index"
+  },
+  {
+   "id": "hn-50255665",
+   "title": "Anthropomorphic Tells Investors Its Product Could End Humanity",
+   "date": "2026-10-27",
+   "source_url": "https://dsrupt.news/articles/anthropomorphic-tells-investors-its-product-could-end-humanity-sends-humanity-no/"
+  },
+  {
+   "id": "hn-50259991",
+   "title": "AI, Intellectual Work, Humanity, and the Future",
+   "date": "2026-10-27",
+   "source_url": "https://ycao.net/posts/llm-after-four-years/en"
+  },
+  {
+   "id": "hn-50261080",
+   "title": "Show HN: SlopIt – A blog your coding agent runs",
+   "date": "2026-10-27",
+   "source_url": "https://slopit.io/"
+  },
+  {
+   "id": "hn-50267446",
+   "title": "3B1B and Steven Strogatz on the Humanity of Math [video]",
+   "date": "2026-10-27",
+   "source_url": "https://www.youtube.com/watch?v=xUSznTR2cwc"
+  },
+  {
+   "id": "hn-50273396",
+   "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+   "date": "2026-10-28",
+   "source_url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/"
+  },
+  {
+   "id": "hn-50273603",
+   "title": "Shifting Left in Your Communication",
+   "date": "2026-10-28",
+   "source_url": "https://humansinsystems.com/blog/shifting-left-in-your-communication"
+  },
+  {
+   "id": "hn-50274346",
+   "title": "Jeanette Winterson on AI and the future of humanity",
+   "date": "2026-10-28",
+   "source_url": "https://www.theguardian.com/books/2026/oct/28/no-inevitable-dystopia-jeanette-winterson-ai-future-of-humanity"
+  },
+  {
+   "id": "hn-50276008",
+   "title": "Humanities Mode Collapse",
+   "date": "2026-10-28",
+   "source_url": "https://dennisy.me/notes/humanities-mode-collapse"
+  },
+  {
+   "id": "hn-50276012",
+   "title": "Is Datadog Down",
+   "date": "2026-10-28",
+   "source_url": "https://status.datadoghq.com/"
+  },
+  {
+   "id": "hn-50281748",
+   "title": "The Brutal Harvard Class That Suddenly Everyone Wants to Take",
+   "date": "2026-10-28",
+   "source_url": "https://www.wsj.com/lifestyle/harvard-class-humanities-32e06366"
+  },
+  {
+   "id": "hn-50284089",
+   "title": "Richest 0.1% (8M) produce more carbon pollution than 3.5B",
+   "date": "2026-10-29",
+   "source_url": "https://www.oxfam.org/en/press-releases/ultra-rich-01-produce-more-carbon-pollution-nearly-half-humanity-while-cashing"
+  },
+  {
+   "id": "hn-50243831",
+   "title": "Show HN: Building the European Company Graph one website at a time",
+   "date": "2026-10-26",
+   "source_url": "https://firmendaten.researchly.at/netzwerk"
+  },
+  {
+   "id": "hn-50247722",
+   "title": "The Robotics Map: robotics companies across the stack",
+   "date": "2026-10-26",
+   "source_url": "https://roboticsmap.org"
+  },
+  {
+   "id": "hn-50253974",
+   "title": "End effector action policy outputs to robot actuation",
+   "date": "2026-10-27",
+   "source_url": "https://lagrangianblog.substack.com/p/end-effector-action-policy-outputs"
+  },
+  {
+   "id": "hn-50254636",
+   "title": "Nvidia's AI showpiece: Jensen-mania, robot ducks and neocloud distress",
+   "date": "2026-10-27",
+   "source_url": "https://www.cnbc.com/2026/10/23/jensen-huang-gtc-robot-ducks-neocloud-distress.html"
+  },
+  {
+   "id": "hn-50255979",
+   "title": "Build. Sign. Ship. No FreeBSD Builder",
+   "date": "2026-10-27",
+   "source_url": "https://jailops.net/pkgops/"
+  },
+  {
+   "id": "hn-50256286",
+   "title": "US voters of all political persuasions loath 'Big Tech' billionaires",
+   "date": "2026-10-27",
+   "source_url": "https://www.thenewdaily.com.au/opinion/2026/10/23/big-tech-billionaires"
+  },
+  {
+   "id": "hn-50256532",
+   "title": "Trump admin cuts to satellites will set back US weather forecasting by a decade",
+   "date": "2026-10-27",
+   "source_url": "https://www.cnn.com/2026/10/19/weather/trump-satellites-extreme-weather-forecast-future-set-back"
+  },
+  {
+   "id": "hn-50260674",
+   "title": "Hmg_nemesis, Root for Gen5W Hyundai/Kia",
+   "date": "2026-10-27",
+   "source_url": "https://github.com/xwtk/hmg_nemesis"
+  },
+  {
+   "id": "hn-50262174",
+   "title": "Discover the World of Robots",
+   "date": "2026-10-27",
+   "source_url": "https://omblet.com/"
+  },
+  {
+   "id": "hn-50262194",
+   "title": "ICE plan to buy robot dogs from Boston Dynamics",
+   "date": "2026-10-27",
+   "source_url": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/"
+  },
+  {
+   "id": "hn-50262462",
+   "title": "Wanted: Robot-Dog Walkers. $20/Hour",
+   "date": "2026-10-27",
+   "source_url": "https://www.nytimes.com/2026/10/27/technology/robot-dog-walkers.html"
+  },
+  {
+   "id": "hn-50263995",
+   "title": "Defund Elon Musk",
+   "date": "2026-10-27",
+   "source_url": "https://www.theguardian.com/commentisfree/2026/oct/27/defund-elon-musk"
+  },
+  {
+   "id": "hn-50264471",
+   "title": "The Ability of Frontier Models to Control Robots Is Rapidly Improving",
+   "date": "2026-10-27",
+   "source_url": "https://www.lesswrong.com/posts/ndS9Xn8Qx5PppHJ3Q/the-ability-of-frontier-models-to-control-robots-is-rapidly"
+  },
+  {
+   "id": "hn-50265680",
+   "title": "The AGI-pill is specialized robots",
+   "date": "2026-10-27",
+   "source_url": "https://www.giacomoran.com/blog/agi-pill-specialized-robots/"
+  },
+  {
+   "id": "hn-50267927",
+   "title": "Ukraine is arming war robots with grenade launchers to hit the Russians",
+   "date": "2026-10-28",
+   "source_url": "https://www.businessinsider.com/ukraine-robots-use-grenade-launchers-to-fire-without-risking-soldiers-2026-10"
+  },
+  {
+   "id": "hn-50268779",
+   "title": "Tailscale Tailworm: SSH socket forwarding ran as root, fixed in 1.104.4",
+   "date": "2026-10-28",
+   "source_url": "https://hol.org/blog/tailscale-tailworm-ssh-root-escalation-ts-2026-014-upgrade-1-104-4"
+  },
+  {
+   "id": "hn-50272126",
+   "title": "Climate change should be declared health emergency due to health risks",
+   "date": "2026-10-28",
+   "source_url": "https://www.euronews.com/2026/10/28/climate-change-should-be-declared-health-emergency-as-health-risks-can-no-longer-be-ignore"
+  },
+  {
+   "id": "hn-50272351",
+   "title": "Doctor in UK directs robot to remove a prostate in Gibraltar",
+   "date": "2026-10-28",
+   "source_url": "https://www.theguardian.com/uk-news/2026/mar/06/sci-fi-surgery-as-doctor-in-uk-directs-robot-to-remove-a-prostate-in-gibraltar"
+  },
+  {
+   "id": "hn-50272832",
+   "title": "AI crawlers in robots.txt: a study of the top 10k sites (2026)",
+   "date": "2026-10-28",
+   "source_url": "https://hitmind.ai/research/ai-crawler-access-2026/"
+  },
+  {
+   "id": "hn-50272951",
+   "title": "Show HN: Kwatch – one Kubernetes alert with the root cause, not fifty",
+   "date": "2026-10-28",
+   "source_url": "https://github.com/abahmed/kwatch"
+  },
+  {
+   "id": "hn-50273039",
+   "title": "Japan experiments with autonomous AI chainsaw-wielding robots",
+   "date": "2026-10-28",
+   "source_url": "https://www.tomshardware.com/tech-industry/robotics/japan-experiments-with-autonomous-ai-chainsaw-wielding-robots-video-shows-rail-truck-mounted-metal-humanoid-cutting-down-tree-branches"
+  },
+  {
+   "id": "hn-50273081",
+   "title": "EU Public Prosecutor's Office will be 'killed softly for doing its job'",
+   "date": "2026-10-28",
+   "source_url": "https://www.politico.eu/article/eppo-european-public-prosecutors-office-laura-codruta-kovesi-interview/"
+  },
+  {
+   "id": "hn-50275337",
+   "title": "Germanys' AfD in Saxony-Anhalt: Porno, Putin, Criminals, Nazi Songs, Corruption",
+   "date": "2026-10-28",
+   "source_url": "https://www.crossbordertalks.eu/2026/10/24/germanys-afd-in-saxony-anhalt-porno-putin-criminals-ai-nazi-songs-corruption-rape-antisemitism/"
+  },
+  {
+   "id": "hn-50275843",
+   "title": "Progressive Determinism for AI Tasks",
+   "date": "2026-10-28",
+   "source_url": "https://robotpaper.ai/pattern-progressive-determinism-for-ai-tasks/"
+  },
+  {
+   "id": "hn-50278187",
+   "title": "Gemini Robotics Embodied Reasoning 2 is now available on Google Cloud",
+   "date": "2026-10-28",
+   "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud"
+  },
+  {
+   "id": "hn-50279304",
+   "title": "Passengers injured after collision between bus and delivery robot in Tallinn",
+   "date": "2026-10-28",
+   "source_url": "https://news.err.ee/1610179027/passengers-injured-after-collision-between-bus-and-delivery-robot-in-tallinn"
+  },
+  {
+   "id": "hn-50282279",
+   "title": "Anatomy of a personal factory of Grok bots",
+   "date": "2026-10-28",
+   "source_url": "https://robotpaper.ai/anatomy-of-a-personal-factory-of-grok-bots/"
+  },
+  {
+   "id": "hn-50282930",
+   "title": "I Fixed a $500 Robot, Now You Can Control It [video]",
+   "date": "2026-10-29",
+   "source_url": "https://www.youtube.com/watch?v=jorcg0Bx3Cw"
+  },
+  {
+   "id": "rss-teradyne-robotics-partners-wit-481",
+   "title": "Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics",
+   "date": "2026-10-25",
+   "source_url": "https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/"
+  },
+  {
+   "id": "rss-agility-and-gxo-logistics-plan-172",
+   "title": "Agility and GXO Logistics plan expanded deployment of Digit humanoid",
+   "date": "2026-10-26",
+   "source_url": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/"
+  },
+  {
+   "id": "rss-omron-to-acquire-onlogic-to-ad-308",
+   "title": "OMRON to acquire OnLogic to address edge AI applications",
+   "date": "2026-10-26",
+   "source_url": "https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/"
+  },
+  {
+   "id": "rss-bedrock-robotics-nears-1b-in-t-969",
+   "title": "Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges",
+   "date": "2026-10-26",
+   "source_url": "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/"
+  },
+  {
+   "id": "rss-xpanner-launches-autonomous-pi-577",
+   "title": "Xpanner launches autonomous pile driver for solar farm contruction",
+   "date": "2026-10-27",
+   "source_url": "https://www.therobotreport.com/xpanner-launches-new-autonomous-pile-driver-solar-farm-contruction/"
+  },
+  {
+   "id": "rss-anybotics-begins-delivering-an-466",
+   "title": "ANYbotics begins delivering ANYmal X legged robot for explosive atmospheres",
+   "date": "2026-10-27",
+   "source_url": "https://www.therobotreport.com/anybotics-begins-delivering-anymal-x-legged-robot-explosive-atmospheres/"
+  },
+  {
+   "id": "rss-worldoracle-tests-whether-worl-75",
+   "title": "WorldOracle Tests Whether World Models Can Reliably Predict Real-World Executions",
+   "date": "2026-10-28",
+   "source_url": "https://www.therobotreport.com/worldoracle-tests-whether-world-models-can-reliably-predict-real-world-executions/"
+  },
+  {
+   "id": "rss-warp-sciences-emerges-from-ste-674",
+   "title": "Warp Sciences emerges from stealth, to apply robotics to drug research",
+   "date": "2026-10-28",
+   "source_url": "https://www.therobotreport.com/warp-sciences-emerges-stealth-apply-robotics-drug-research/"
+  },
+  {
+   "id": "rss-what-symbotic-s-walmart-growth-217",
+   "title": "What Symbotic’s Walmart growth teaches robotics startups about anchor customers",
+   "date": "2026-10-28",
+   "source_url": "https://www.therobotreport.com/what-symbotic-growth-with-walmart-teaches-robotics-startups-about-anchor-customers/"
+  },
+  {
+   "id": "rss-north-american-robot-orders-cl-169",
+   "title": "North American robot orders climb 24.8% in Q3 of 2026, says A3",
+   "date": "2026-10-28",
+   "source_url": "https://www.therobotreport.com/north-american-robot-orders-climb-24-8-q3-2026-says-a3/"
+  }
+ ]
+}

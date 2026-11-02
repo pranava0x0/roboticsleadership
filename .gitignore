@@ -51,3 +51,6 @@ uat/interaction-costs.json
 # only the synthesis in docs/data/scsp-ai-robotics-2026.json is published.
 data/research/talk-*.md
 .sessions/
+
+# Slop-checker reports (local only; findings are summarized in issues.md/backlog.md)
+slop-reports/

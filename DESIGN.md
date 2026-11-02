@@ -276,7 +276,10 @@ Decisions made by *omission*:
 - **No multi-toast queue** (until a project actually needs it).
 - **No infinite zoom / unconstrained pan.** Set `maxBounds`. Most projects have a meaningful viewport (US-only, city-only); enforce it.
 - **No eyebrows or kickers above titles (2026-10-14, owner call).** A small-caps label over a heading ("Deep dive", "Strategic context", "A cited record") repeats the title or says nothing, and it is the most recognisable template tell on the site. If the information matters (a date, a place, a disclaimer), put it in the lede or the body as a sentence. News-card category tags are filters, not eyebrows, and stay.
-- **No self-description of sourcing in copy.** Links on each record are the citation. Lines like "every record is cited; primary sources preferred" were cut sitewide on 2026-10-14.
+- **One section-head style on every page (2026-10-31, owner call: "make it easier to distinguish a heading from something else").** `h2.section-title` is serif 700 at `clamp(21px, 2.3vw, 25px)` in full `--text`; `.rule` adds a 2px keyline and never changes the type. No tracked-capitals heads — the front page's 15px capitals read as labels, not headings. `scripts/design-tokens.test.js` enforces it.
+- **No boxed callouts, no numbered cards, no identical pills.** `.bluf` is a left keyline with a bold run-in label, not a tinted rounded box. A pill that reads the same on every card ("Accelerating" ×6) or a count that reads "0 cos · 0 policies" is cut, not styled. A chart that repeats the cards beside it (the top-8 valuation chart over "Highest-valued companies") goes.
+- **No link arrows ("Read original →").** The link colour is the affordance. `tools/slop_design.py` flags them.
+ Links on each record are the citation. Lines like "every record is cited; primary sources preferred" were cut sitewide on 2026-10-14.
 - **No backend until profit / scale demands one.** Static-first is the default. JSON in `docs/`, GitHub Pages, no runtime. (levels.io: "you don't need a backend.")
 
 ---
@@ -318,8 +321,8 @@ shipped four sub-AA pairs on `--surface-2`, which is a real text background (nav
 cards) and is what the "Sections" caret sits on. Review caught it; a fifth turned up on `--surface` once the
 background set was widened. Do not narrow it again.
 
-Verified, not asserted: checked pair-by-pair with a scripted WCAG calculator over every (token, background)
-combination, including the composited value of Robot Dreams' translucent surfaces. Worst ratio per theme,
+Verified, not asserted: `scripts/design-tokens.test.js` (in `npm test`) checks every text and category token
+against all three backgrounds in every theme, and fails below 4.5:1 (3:1 for `--border-strong`). Worst ratio per theme,
 across all backgrounds:
 
 | Theme           | Body (min) | Muted (min) | Faint (min) | Accent (min) | `--border-strong` (min) |

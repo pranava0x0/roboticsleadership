@@ -16,6 +16,36 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 - [ ] **(low) `scripts/validate.js` has no schema for `sources.json` entries** (CLAUDE.md names this gap); the R&D data added a per-record source-shape check — reuse it there.
 - Research dir for this run: `data/research/rd-2026-10-26/` (breadth + depth jsonl per tab, X leads, three data-bearing diagrams).
 
+---
+
+## ▶ Added 2026-10-31 (design cleanup)
+
+- [ ] **(medium) Load only the active theme's two typefaces.** Every page requests one Google Fonts stylesheet naming all ten families (render-blocking). The boot script already knows the theme before first paint; it could inject a per-theme `<link>` and the picker could add the next one on switch.
+- [ ] **(low) Normalise `primary_use_case` in `companies.json`.** Five records carry slugs (`ai_foundation_model`, `general_purpose`); `RT.prettyUseCase` hides it at render time, and many others are 100+ character sentences that belong in `description`.
+- [ ] **(low) Theme records lack `related_companies` / `related_policies` on six of eight.** The front-page cards now hide zero counts; themes.html still shows them.
+
+---
+
+## ▶ Added 2026-10-30 (scheduled refresh)
+
+- [ ] **(medium) Reframe check: Section 232 outcome is "negotiate first, no tariff" with an April 26, 2027 update.** Policy-tab and china.html copy that treats tariffs as imminent should say "named as later options". Re-read `china.html` and `policies.html` strap lines for forecast wording.
+- [ ] **(low) Sources to add to `sources.json`:** humanoidsdaily.com (supplied 4 of the last run's keepers; no RSS found yet), technode.com/robotics.
+- [ ] **(low) Track from the X list:** Mujin–AEON model-center press conference (Japan, 2026-10-28) and the Japan–Germany public-private physical AI dialogue; no primary page found yet.
+
+---
+
+## ▶ Added 2026-10-29 (Section 232 robotics proclamation page)
+
+- [ ] **(high) Add the proclamation number and Federal Register citation to `section-232-robotics.html` and `proc-2026-10-28-robotics-232` once published.** Not on public inspection as of 2026-10-29 ~10:46 ET; other 2026 trade proclamations appeared 5 to 6 days after signing, so check ~2026-11-02/03. Update the KPI card, the timeline estimate row, `bill_number`, `full_text_url` (prefer the FR page), and the open-questions bullet.
+- [ ] **(high) Re-check for reaction to the proclamation from 2026-10-30:** law-firm alerts, A3/AMT/NAM/JARA/VDMA statements, and FANUC (6954), Yaskawa (6506), Harmonic Drive (6324), Nabtesco (6268) price moves. None was indexed on 10-29, so the page prints none.
+- [ ] **(medium) Close the backlog items this supersedes:** the 2026-10-04/10-20 "no Section 232 robotics proclamation found" notes and the 2026-10-21 "Section 232 as pending" note are now answered by the 10-28 proclamation (negotiations, no tariff).
+- [ ] **(medium) `companies.json` marks `fanuc` and `yaskawa` `us_manufactured: false`, but their own docket filings describe U.S. production** (FANUC paint robots built in Michigan; Yaskawa Miamisburg assembly, Franklin WI plant from 2028). Decide what the flag means (final assembly vs. full production) before changing it; the same question applies to ABB (Auburn Hills).
+- [ ] **(medium) Watch the 180-day update (2027-04-26) and the sibling windows that precede it:** aircraft Proc. 11040 (2027-01-05), wind Proc. 11074 (2027-04-20). The critical-minerals update (due 2026-07-13) still has no public outcome; if one appears it is the best read on how negotiate-first 232s end.
+- [ ] **(medium) Retire the front-page "In focus" aside for the 232 page once the Federal Register citation is added or by 2026-11-30, whichever is first.** It duplicates the news story in the top-story ranking; it is hand-placed markup with no expiry.
+- [ ] **(low) Policy status vocabulary has no "Concluded" value.** The Section 232 investigation record (`fedreg-2025-18749`) uses "Expired", which elsewhere means a lapsed grant. Add a status in `validate.js` and the policies.html filter if more closed investigations accumulate.
+- [ ] **(low) Read the scanned docket filings not yet reviewed:** Doosan Robotics (BIS-2025-0257-0096), Standard Bots (-0162), Okuma (-0163), DMG Mori (-0146), Trumpf (-0145), Korean associations (-0202/-0205/-0206/-0208), CSET (-0085), BSA (-0213).
+- [ ] **(low) `slop_design` flags two site-wide patterns, both pre-existing:** the Google Fonts import in every page head (themes depend on it; DESIGN.md §2 says system stacks by default) and `backdrop-filter: blur` on `.jump-nav`. Decide whether to keep them; not changed in this PR.
+
 ## ▶ Added 2026-10-21 (scheduled full-site refresh: X list, web sweep)
 
 - [ ] **(high) Rare-earth export-control truce expiry is unsettled: most sources say the suspension of China's October 2025 expanded controls ends 2026-11-10; one commentary site says Beijing extended it to 2027-01-10, but no numbered MOFCOM notice amending Announcement No. 70 was found.** Read MOFCOM Nos. 61, 62 and 70 directly before the 11-10 date and put the verified status on china.html and supply-chain.html (magnet exposure per humanoid is quoted as 3.5-4.5 kg, also unverified). The April 2025 licensing regime (No. 18, seven medium and heavy rare earths) was never suspended.
@@ -475,3 +505,16 @@ The report breaks industrial robotics down by *application* — a lens we don't 
 - [ ] **(low) Locate the Ministry of Commerce guidance behind Unitree's 16% jump (2026-10-19).** Only Humanoids Daily describes it; the news record is Low confidence until a primary document is found.
 - [ ] **(low) Dream Labs' investors are unnamed in its launch post; add them to `companies.json` when The Information or a filing names them.**
 - [ ] **(low) Siemens–NVIDIA Erlangen "autonomous factory" announcement (2026-10-19) and Asimov 1 open-source humanoid seen on X; neither verified against a primary this run.**
+
+## ▶ 2026-10-28 — refresh
+
+- [ ] **(medium) Policy reframing: Treasury's outbound-investment NPRM (comments due 2026-12-07) writes humanoid, quadruped and industrial robots into its covered-system definition.** The scraped policy record only said "robots" in passing; consider a standing "what the rule reaches" note on policies.html and a docket-deadline reminder. Treasury's own release does not mention robots, so the text is the source.
+- [ ] **(medium) Add company entries for CASBOT, MoSense, Huixi, Noetix, Enact, Maxinsights and Weiyi.** News records exist with empty `companies`; Weiyi (HK 03275) and Noetix are the IPO-pipeline names worth tracking first.
+- [ ] **(medium) Track the Hong Kong robot-IPO window as a series.** Weiyi's postponement is reported as the fourth halted listing since mid-year; log AgiBot's delayed filing, Noetix's confidential filing and Hai Robotics' second filing together once each has a primary.
+- [ ] **(low) Unverified this run:** STAR 50 down ~40% (Reuters column), "China robot funding falls 40%" (Seoul Economic Daily), "20+ robot companies failed in 19 months" (Sina), Quant Group 2,000-robot framework, NDRC first batch of 136 application-scenario projects, T-Robotics conditional Department of War approval, Samsung Electro-Mechanics humanoid camera supply, Toyota $6.4B spend. Each needs a primary before it becomes a record.
+- [ ] **(low) Sweep items kept out of news:** Agility's Oct 26 release details (three unnamed paid customers, 65,000 hours, early military talks), AgiBot G2 Max at JD Logistics (80 boxes/hour, vendor figures), Agile Robots' 1,000-2,000 research humanoids for 2027, Alibaba Amap lambda-0, Unitree H2-X leg failure at a demo, Hemlock and Shepherd/Odin (YC F26), Luxonis OAK 4 FFC, Xpanner X1 Piling R6, ANYmal X deliveries. All single-source or minor.
+- [ ] **(low) Unverified leads, 2026-11-01:** Meta reportedly partnered with Fourier Intelligence on a "Max" humanoid prototype (The Information, via The Humanoid Hub on X; no search result confirms it); Tesla Optimus reservations reportedly opening around Dec 1-2 (SF Standard, secondhand); Zero Zero Robotics (HOVERAir) at $1B (Leiphone, consumer drone). Add once a primary or two outlets confirm.
+- [ ] **(medium) Section 232 robotics follow-ups:** Proclamation 11077 is in the Federal Register (91 FR 69199, Nov 2). Watch for the Commerce/USTR negotiation notices, any inclusion process for parts, and the Nov 27 statement of reasons to Congress; reframe the 232 page if a tariff annex appears.
+
+- (2026-11-02, medium) Add a "conditional approvals" list to the FCC Covered List policy record: Lightberry Lumi (Unitree-based), ARAPL, ATI Motors, SunScout, Swap Robotics, OMRON, plus Anscer and Intel's waiver, so the exemption pattern (onshoring plan, revocable, no end date) can be read at a glance.
+- (2026-11-02, low) Tesla Optimus reservations "early December" (Humanoids Summit founder via SF Standard) and Meta/Fourier "Max" rest on single reports; promote only with a primary.

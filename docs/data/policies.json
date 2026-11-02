@@ -11,7 +11,7 @@
     "sponsor": "U.S. Department of the Treasury",
     "summary": "Treasury proposes rules to implement the outbound investment provisions of the COINS Act. The proposal would prohibit certain covered U.S. transactions involving foreign persons in countries of concern engaged in specified technologies and require notification for others. It includes development of super-intelligence systems and laboratory robotics within specified prohibited-technology categories. Comments are due December 7, 2026; the proposed rule is not final.",
     "full_text_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations",
-    "robotics_scope": "The proposed definition of super-intelligence systems includes embodied systems such as robots; another proposed prohibited-technology category covers hardware, robotics or software for automated scientific discovery. Restrictions apply to covered transactions, not all robots or foreign investment.",
+    "robotics_scope": "Proposed 851.232(b) lists industrial, bipedal, humanoid, quadruped and other mobile robots as embodied super-intelligence systems, and 851.226(h) prohibits developing such systems in a country of concern, with no compute threshold. Restrictions apply to covered transactions by U.S. persons, not to all robots or all foreign investment.",
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
@@ -34,7 +34,7 @@
         "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-26/pdf/2026-21786.pdf"
       }
     ],
-    "last_updated": "2026-10-26"
+    "last_updated": "2026-10-28"
   },
   {
     "id": "nist-mep-centers-awards-2026",
@@ -1149,12 +1149,12 @@
     "level": "Federal",
     "state": "N/A",
     "introduced_date": "2025-09-02",
-    "status": "In development",
+    "status": "Expired",
     "bill_number": "2025-18749",
     "sponsor": "Federal Agency",
-    "summary": "Commerce initiated a Section 232 national-security investigation into robotics and industrial-machinery imports and components on September 2, 2025; the September 26 notice sought comments. The notice asks about domestic capacity, foreign subsidies, supply-chain risks and possible trade remedies. It does not establish a final tariff or finding, and it is separate from the July 2026 FCC action.",
+    "summary": "Commerce opened a Section 232 national-security investigation of robotics and industrial-machinery imports and components on September 2, 2025. The September 26 notice drew 256 posted comments (count as of October 29, 2026); comments closed October 17. The investigation ended with the October 28, 2026 proclamation, which chose negotiations and imposed no tariff.",
     "full_text_url": "https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of",
-    "robotics_scope": "Potential import-policy exposure for robotics and industrial machinery; product coverage and outcome remain unresolved.",
+    "robotics_scope": "Robotics, industrial machinery and their parts and components. Outcome: see the October 28, 2026 proclamation record.",
     "estimated_budget_usd": null,
     "beneficiaries": [],
     "agency_responsible": [
@@ -1174,7 +1174,7 @@
         "url": "https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of"
       }
     ],
-    "last_updated": "2026-10-14",
+    "last_updated": "2026-10-29",
     "themes": [
       "policy-momentum"
     ],
@@ -2285,7 +2285,7 @@
     "status": "In effect",
     "bill_number": null,
     "sponsor": "Federal Communications Commission",
-    "summary": "On July 28, the FCC added foreign-produced advanced robotic devices to its Covered List, based on an Executive Branch interagency national-security determination attached to DA 26-786 as Appendix C. Listing restricts new FCC equipment authorizations and federal subsidies; it does not ban existing ownership. Department of War conditional approvals are an exception. This is separate from Commerce’s Section 232 investigation. The September 18 notice records later approvals and exemptions.",
+    "summary": "On July 28, the FCC added foreign-produced advanced robotic devices to its Covered List, based on an Executive Branch interagency national-security determination attached to DA 26-786 as Appendix C. Listing restricts new FCC equipment authorizations and federal subsidies; it does not ban existing ownership. Department of War conditional approvals are an exception. This is separate from Commerce’s Section 232 investigation. The September 18 notice records later approvals and exemptions. On October 22 the FCC granted Intel a one-year waiver for automated guided vehicles in its chip fabs. In late October the FCC listed conditional approvals for Lightberry’s Unitree-based Lumi, ARAPL, ATI Motors, SunScout, Swap Robotics and OMRON, tied to onshoring plans.",
     "full_text_url": "https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf",
     "robotics_scope": "Network-capable foreign-produced advanced robotic devices; DoW conditional approval and FCC equipment-authorization process matter.",
     "estimated_budget_usd": null,
@@ -2313,9 +2313,13 @@
       },
       {
         "url": "https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf"
+      },
+      {
+        "title": "Humanoids Daily: Lightberry Lumi conditional exemption",
+        "url": "https://www.humanoidsdaily.com/news/lightberry-lumi-fcc-covered-list-conditional-exemption"
       }
     ],
-    "last_updated": "2026-10-14"
+    "last_updated": "2026-11-02"
   },
   {
     "id": "guard-act-hr9129",
@@ -2422,6 +2426,54 @@
     "last_updated": "2026-09-14"
   },
   {
+    "id": "proc-2026-10-28-robotics-232",
+    "title": "Section 232 proclamation on robotics, industrial machinery and their parts: negotiations first, no tariff imposed",
+    "type": "Executive Order",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-10-28",
+    "status": "In effect",
+    "bill_number": "Proclamation",
+    "sponsor": "Executive Office of the President",
+    "summary": "The President concurred with Commerce that imports of robotics, industrial machinery and their parts threaten to impair national security, and directed Commerce and the U.S. Trade Representative to negotiate agreements with trading partners. No tariff, quota or fee was imposed. An update on the talks is due within 180 days, by April 26, 2027; the text reserves tariffs, duties, quotas, fees and a program to incentivize U.S. production. Not yet published in the Federal Register as of October 29.",
+    "full_text_url": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/",
+    "robotics_scope": "Covers robotics, industrial machinery and their parts and components; names humanoid and quadruped robots and autonomous ground vehicles among defense uses. No tariff codes, countries or entities are listed.",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [
+      "doc"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "section-232",
+      "tariff",
+      "trade",
+      "negotiation",
+      "industrial-machinery",
+      "humanoid"
+    ],
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "sources": [
+      {
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/"
+      },
+      {
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-adjusts-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/"
+      },
+      {
+        "url": "https://www.federalregister.gov/documents/2026/11/02/2026-22385/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united"
+      },
+      {
+        "url": "https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of"
+      }
+    ],
+    "last_updated": "2026-11-01"
+  },
+  {
     "id": "proc-11055-drone-tariffs-2026",
     "title": "Presidential Proclamation adjusts Section 232 tariffs on drone imports — up to 100%, effective Sept. 3, 2026",
     "type": "Executive Order",
@@ -2431,7 +2483,7 @@
     "status": "In effect",
     "bill_number": "Proc. 11055",
     "sponsor": "Executive Office of the President",
-    "summary": "Proclamation 11055 imposed additional Section 232 duties on covered unmanned aircraft and components after a separate UAS investigation. Duties of 10%–100%, depending on product and applicable treatment, took effect September 3, 2026; a 25% duty on other covered components begins February 9, 2027. The distinct robotics and industrial-machinery investigation remains listed by Commerce.",
+    "summary": "Proclamation 11055 imposed additional Section 232 duties on covered unmanned aircraft and components after a separate UAS investigation. Duties of 10%–100%, depending on product and applicable treatment, took effect September 3, 2026; a 25% duty on other covered components begins February 9, 2027. The separate robotics and industrial-machinery investigation ended with the October 28, 2026 proclamation, which chose negotiations and imposed no tariff.",
     "full_text_url": "https://www.federalregister.gov/documents/2026/08/19/2026-16979/adjusting-imports-of-unmanned-aircraft-systems-and-unmanned-aircraft-systems-components-into-the",
     "robotics_scope": "Covers specified unmanned aircraft and components. It follows the UAS investigation, not the separate Section 232 robotics and industrial-machinery investigation.",
     "estimated_budget_usd": null,
@@ -2460,7 +2512,7 @@
         "url": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4281ea7"
       }
     ],
-    "last_updated": "2026-10-26"
+    "last_updated": "2026-10-29"
   },
   {
     "id": "ndaa-fy2026-sec225-munitions-robotics",

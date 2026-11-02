@@ -4,6 +4,10 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 ## Open
 
+### 2026-10-31 — front page — chart sources printed "ifr.org ifr.org ifr.org"; axis ticks at 88,550 / 177,100 — Fixed
+- **Root cause (code bug):** `srcLinks` labelled each URL by hostname with no grouping, and `renderProductionTrend` divided the raw maximum into four ticks.
+- **Fix:** sources group by label (`ifr.org 2 3 4`, each number a link); ticks use a 1/2/2.5/5×10ⁿ step. Same pass: front-page company cards printed raw use-case slugs (`ai foundation model` via `RT.prettyUseCase`), theme cards printed "0 cos · 0 policies". Branch `jam/homepage-design-cleanup-21083a`.
+
 ### 2026-10-26 — production chart — forecast legend shown with actuals only — Fixed
 
 - **Root cause (code bug):** `renderProductionTrend` always rendered “Dashed = projected”, including when no row was projected.

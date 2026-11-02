@@ -1,0 +1,40 @@
+{
+  "exclude": [
+    ".venv",
+    "tools",
+    "scripts",
+    "data",
+    "uat",
+    "tells",
+    ".claude",
+    ".agents",
+    ".sessions",
+    "node_modules"
+  ],
+  "allow": [
+    {
+      "substring": "fonts.googleapis.com",
+      "reason": "DESIGN.md \u00a7 15 overrides the system-font default: each of the five Asimov themes is identified by its typeface pair, and the owner signed off on the fetch"
+    },
+    {
+      "substring": "fonts.gstatic.com",
+      "reason": "preconnect for the theme typefaces above (DESIGN.md \u00a7 15)"
+    },
+    {
+      "substring": "animation: shimmer 1.2s",
+      "reason": "loading-skeleton pulse that loops while data loads, not a transition; prefers-reduced-motion stops it"
+    },
+    {
+      "substring": "body{background:#fff!important;color:#111!important}",
+      "reason": "print stylesheet for the draft EO: paper is white and ink is black whatever theme is on screen"
+    },
+    {
+      "substring": "a{color:#111!important;text-decoration:none}",
+      "reason": "print stylesheet for the draft EO: links print as ink"
+    },
+    {
+      "substring": "US ${us}% \u00b7 China ${cn}% \u00b7 RoW ${row}%",
+      "reason": "a share breakdown of three figures, not a metadata strip"
+    }
+  ]
+}
