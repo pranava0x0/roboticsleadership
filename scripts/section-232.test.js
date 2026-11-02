@@ -105,7 +105,7 @@ test('long sections ship collapsed, jump chips and print open them', () => {
   assert(sections.length >= 5, `expected >= 5 collapsible sections, found ${sections.length}`);
   assert(sections.every((s) => !/\sopen(?=[\s>=])/.test(s.replace(/id="[^"]*"/, ''))), 'a collapsible section is authored open');
   assert(/beforeprint/.test(html) && /afterprint/.test(html), 'print handler gone');
-  assert(/jump-nav/.test(html) && /target\.open = true/.test(html), 'jump chips no longer open their target');
+  assert(/jump-nav/.test(html) && /closest\('details'\)/.test(html) && /d\.open = true/.test(html), 'jump chips no longer open their target');
 });
 
 test('front page points at the page', () => {

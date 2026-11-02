@@ -4,6 +4,10 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-11-02 (Section 232 restructure)
+
+- [ ] **(medium) Drop the "Bottom line" box where a page already has a 1–3 sentence lede.** The `.bluf` aside repeats the page lede on policies, china, energy, scsp-summit and section-232; owner's view is it isn't worth the space. Fold any fact the box has that the lede lacks into the lede, remove the box, remove the `.bluf` CSS if nothing else uses it, and re-run interaction budgets (everything below the box moves up).
+
 ## ▶ Added 2026-10-26 (R&D build, X list sweep, reorg plan)
 
 - [ ] **(high) Execute `improvement-plan-3.md` Phase 1: a `nav.json` single source of truth, a section bar under the masthead, and a six-link primary nav (Front page · News · US vs China · R&D · Build & deploy · Policy).** The nav block is now duplicated in twelve HTML files; the R&D link made it twelve. Re-establish interaction budgets after the move and read the diff — anything over +1 tap for Energy / States / Themes / SCSP Summit is a layout bug.
