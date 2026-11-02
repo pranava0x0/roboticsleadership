@@ -49,7 +49,10 @@ for (const p of pages) {
     else if (!u.startsWith('data:')) local.add(u.split(/[?#]/)[0]);
   }
   // Data fetches: literal data/*.json in the page plus what app.js pulls for every page.
-  for (const m of html.matchAll(/data\/[a-z_]+\.json/g)) local.add(m[0]);
+  // JSON-LD names each page's dataset as a DataDownload contentUrl; that is a
+  // description for crawlers, not a fetch, so it is left out of the scan.
+  const fetchable = html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, '');
+  for (const m of fetchable.matchAll(/data\/[a-z_]+\.json/g)) local.add(m[0]);
   const shared = [...appJs.matchAll(/data\/[a-z_]+\.json/g)].map((m) => m[0]);
   if (/RT\.load|fetchJSON|loadData/.test(html)) shared.forEach((s) => local.add(s));
 

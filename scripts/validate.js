@@ -400,6 +400,63 @@ function validateUSChina(name, data) {
   return { name, ok: errors.length === 0, errors, records };
 }
 
+// rd.json — R&D page: sections of records, each with sources[] {url, quote?, captured_at} + status.
+export const RD_STATUSES = ['verified', 'snippet-only'];
+export function validateRd(name, data) {
+  const errors = [];
+  const add = (m) => errors.push(m);
+  const isURL = (u) => typeof u === 'string' && /^https?:\/\//.test(u);
+  const isDate = (d) => typeof d === 'string' && /^\d{4}(-\d{2}(-\d{2})?)?$/.test(d);
+  const ids = new Set();
+  let records = 0;
+  const check = (rec, label, required) => {
+    records++;
+    if (!rec || typeof rec !== 'object') { add(`${label}: not an object`); return; }
+    required.forEach((f) => { if (rec[f] == null || rec[f] === '') add(`${label} missing "${f}"`); });
+    if (rec.id) {
+      if (ids.has(rec.id)) add(`${label}: duplicate id "${rec.id}"`);
+      ids.add(rec.id);
+    }
+    if (!RD_STATUSES.includes(rec.status)) add(`${label}: status "${rec.status}" not in {${RD_STATUSES.join(', ')}}`);
+    if (!Array.isArray(rec.sources) || rec.sources.length === 0) { add(`${label}: no sources[]`); return; }
+    if (!rec.sources.some((src) => isURL(src && src.url))) add(`${label}: no http(s) source`);
+    rec.sources.forEach((src, i) => {
+      if (!isURL(src && src.url)) add(`${label}: sources[${i}].url is not http(s)`);
+      if (!isDate(src && src.captured_at)) add(`${label}: sources[${i}].captured_at missing or not YYYY[-MM[-DD]]`);
+    });
+  };
+  if (!isDate(data.updated)) add('updated missing');
+  const rid = (r) => (r && r.id) || '?';
+  if (!data.method || !data.method.vendor_reported || !data.method.snippet_only) add('method needs vendor_reported + snippet_only');
+  const s = data.sections || {};
+  const list = (v, label) => {
+    if (!Array.isArray(v) || v.length === 0) { add(`${label} missing or empty`); return []; }
+    return v;
+  };
+  list(s.models, 'sections.models').forEach((r, i) => check(r, `models[${i}] (${rid(r)})`, ['id', 'name', 'developer', 'country', 'weights']));
+  list(s.world_models, 'sections.world_models').forEach((r, i) => {
+    check(r, `world_models[${i}] (${rid(r)})`, ['id', 'name', 'developer', 'country', 'role']);
+    if (!['simulator', 'policy', 'both'].includes(r && r.role)) add(`world_models[${i}]: role "${r.role}" invalid`);
+  });
+  list(s.benchmarks, 'sections.benchmarks').forEach((r, i) => {
+    check(r, `benchmarks[${i}] (${rid(r)})`, ['id', 'name', 'maintainer', 'measures', 'metric', 'evaluator', 'as_of']);
+    if (!Array.isArray(r && r.leaders)) add(`benchmarks[${i}]: leaders must be an array`);
+  });
+  const a = s.areas || {};
+  list(a.areas, 'sections.areas.areas').forEach((area, i) => {
+    if (!area || !area.id || !area.name) { add(`areas[${i}] needs id + name`); return; }
+    if (area.id) { if (ids.has(area.id)) add(`areas[${i}]: duplicate id "${area.id}"`); ids.add(area.id); }
+    list(area.items, `areas[${i}].items`).forEach((r, j) => check(r, `areas[${i}].items[${j}] (${rid(r)})`, ['id', 'actor', 'evidence']));
+  });
+  list(a.datasets, 'sections.areas.datasets').forEach((r, i) => check(r, `datasets[${i}] (${rid(r)})`, ['id', 'name', 'maintainer']));
+  list(a.compute, 'sections.areas.compute').forEach((r, i) => check(r, `compute[${i}] (${rid(r)})`, ['id', 'name', 'vendor']));
+  const c = s.components || {};
+  list(c.prices, 'components.prices').forEach((r, i) => check(r, `prices[${i}] (${rid(r)})`, ['id', 'source_org', 'value']));
+  list(c.bom_shares, 'components.bom_shares').forEach((r, i) => check(r, `bom_shares[${i}] (${rid(r)})`, ['id', 'source_org', 'shares']));
+  list(c.facts, 'components.facts').forEach((r, i) => check(r, `facts[${i}] (${rid(r)})`, ['id', 'group', 'claim']));
+  return { name, ok: errors.length === 0, errors, records };
+}
+
 function validateFile(name, opts = {}) {
   const filename = resolve(DATA_DIR, `${name}.json`);
   if (!existsSync(filename)) {
@@ -444,6 +501,9 @@ function validateContent(name, data) {
   // us_china.json is a structured comparison document
   if (name === 'us_china') {
     return validateUSChina(name, data);
+  }
+  if (name === 'rd') {
+    return validateRd(name, data);
   }
   if (!Array.isArray(data)) {
     return { name, ok: false, errors: ['Top-level JSON should be an array of records'], records: 0 };
@@ -522,7 +582,7 @@ function main() {
   const requested = args.find((a) => !a.startsWith('--'));
   const files = requested
     ? [requested]
-    : ['companies', 'policies', 'news', 'themes', 'sources', 'agencies', 'state_policy', 'supply_chain', 'us_china'];
+    : ['companies', 'policies', 'news', 'themes', 'sources', 'agencies', 'state_policy', 'supply_chain', 'us_china', 'rd'];
 
   if (allowUncurated) {
     console.log('⚠ --allow-uncurated: curation gate OFF (shape checks only). Deploy validation still enforces it.\n');

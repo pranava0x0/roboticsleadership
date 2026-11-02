@@ -1,0 +1,8 @@
+# Append-only logs that nearly every PR edits (daily refresh PRs add a
+# learned-pattern line to REFRESH.md and an item to backlog.md). Two PRs
+# adding different lines in the same spot is not a real conflict: keep both.
+# Applies to local merges (git merge, the app's sync with base); GitHub's
+# web merge ignores it, so merge main into the branch locally when it flags one.
+REFRESH.md merge=union
+backlog.md merge=union
+issues.md merge=union

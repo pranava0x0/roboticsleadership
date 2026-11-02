@@ -37,7 +37,7 @@ import { runInNewContext } from 'node:vm';
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const DOCS = resolve(ROOT, 'docs');
 
-const DATASETS = ['companies', 'policies', 'news', 'themes', 'us_china', 'supply_chain'];
+const DATASETS = ['companies', 'policies', 'news', 'themes', 'us_china', 'supply_chain', 'rd'];
 
 /**
  * Load docs/assets/app.js and hand back its RT export.
@@ -134,10 +134,24 @@ function indexSlots(RT, data) {
   };
 }
 
+function rdSlots(RT, data) {
+  const rd = data.rd;
+  return {
+    'rd-summary': RT.renderRdSummary(rd),
+    'rd-models': RT.renderRdModels(rd),
+    'rd-world-models': RT.renderRdWorldModels(rd),
+    'rd-benchmarks': RT.renderRdBenchmarks(rd),
+    'rd-areas': RT.renderRdAreas(rd),
+    'rd-components': RT.renderRdComponents(rd),
+    'rd-method': RT.renderRdMethod(rd),
+  };
+}
+
 export const PAGES = {
   'china.html': chinaSlots,
   'news.html': newsSlots,
   'index.html': indexSlots,
+  'rd.html': rdSlots,
 };
 
 // ---------- Slot machinery ----------

@@ -52,6 +52,9 @@
     .note-block strong { font-family: var(--font-serif); font-weight: 700; }
   </style>
   <link rel="preload" as="fetch" href="data/policies.json" crossorigin />
+  <!--jsonld:start-->
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://pranava0x0.github.io/roboticsleadership/#website","name":"Robotics Leadership Tracker","url":"https://pranava0x0.github.io/roboticsleadership/","inLanguage":"en","creator":{"@type":"Person","name":"Pranava Raparla","url":"https://pranavaraparla.com"}},{"@type":"WebPage","@id":"https://pranava0x0.github.io/roboticsleadership/policies.html#webpage","name":"Policy · Robotics Tracker","description":"Federal bills, regulations, research programs, and procurement affecting robotics.","url":"https://pranava0x0.github.io/roboticsleadership/policies.html","inLanguage":"en","isPartOf":{"@id":"https://pranava0x0.github.io/roboticsleadership/#website"},"mainEntity":{"@id":"https://pranava0x0.github.io/roboticsleadership/policies.html#dataset"}},{"@type":"Dataset","@id":"https://pranava0x0.github.io/roboticsleadership/policies.html#dataset","name":"Robotics policy records","description":"Federal, state and city robotics policy records: bills, executive orders, regulations, incentive programs and procurement, each with status and sources.","url":"https://pranava0x0.github.io/roboticsleadership/policies.html","isAccessibleForFree":true,"creator":{"@type":"Person","name":"Pranava Raparla","url":"https://pranavaraparla.com"},"isPartOf":{"@id":"https://pranava0x0.github.io/roboticsleadership/#website"},"distribution":{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://pranava0x0.github.io/roboticsleadership/data/policies.json"}}]}</script>
+  <!--jsonld:end-->
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to content</a>
@@ -62,14 +65,12 @@
           <li><a href="index.html">Front page</a></li>
           <li><a href="news.html">News</a></li>
           <li><a href="china.html">US vs China</a></li>
+          <li><a href="rd.html">R&amp;D</a></li>
           <li><a href="companies.html">Companies</a></li>
           <li><a href="policies.html">Policy</a></li>
           <li><a href="section-232-robotics.html">Sec. 232</a></li>
-          <li><a href="physical-ai-action-plan.html">Draft EO</a></li>
           <li><a href="supply-chain.html">Supply Chain</a></li>
           <li><a href="energy.html">Energy</a></li>
-          <li><a href="states.html">States</a></li>
-          <li><a href="themes.html">Themes</a></li>
           <li><a href="scsp-summit.html">SCSP Summit</a></li>
         </ul>
         <details class="primary-more" hidden>
@@ -94,16 +95,23 @@
   </header>
 
   <main id="main">
-    <h1 class="page-title">Federal bills, programs, procurement.</h1>
+    <h1 class="page-title">Robotics policy.</h1>
     <p class="page-lede">
-      Federal robotics-related bills, rules, research programs, and procurement initiatives. State laws and incentives appear on the <a href="states.html">States page</a>. Records are dated at the source.
+      Federal bills, rules and programs; state and local laws; and proposals made in reports, testimony and by officials that no government has adopted yet. Records are dated at the source.
     </p>
+    <nav class="subtab-list" data-subtabs aria-label="Policy sections">
+      <a href="#panel-federal" data-subtab="federal">Federal</a>
+      <a href="#panel-states" data-subtab="states">States &amp; cities</a>
+      <a href="#panel-potential" data-subtab="potential">Potential</a>
+    </nav>
+
+    <section class="subtab-panel" id="panel-federal" aria-label="Federal">
     <nav aria-label="Research sources"><a class="report-cite" id="policy-research-jump" href="#policy-research">Hearings and source archive</a></nav>
 
     <aside class="bluf" aria-label="Bottom line up front">
       <span class="bluf-tag">Bottom line</span>
       <p class="bluf-body">
-        <strong>Federal robotics policy spans procurement, manufacturing, research, and tax.</strong> This tracker distinguishes current and historical agency programs from proposed bills. States and cities also govern where many robots operate; see the <a href="states.html">States page</a>.
+        <strong>Federal robotics policy spans procurement, manufacturing, research, and tax.</strong> This tracker distinguishes current and historical agency programs from proposed bills. States and cities also govern where many robots operate; see <a href="?tab=states">States &amp; cities</a>.
       </p>
     </aside>
 
@@ -225,7 +233,7 @@
     </details>
 
     <aside class="note-block" id="sec-state">
-      <p style="margin:0;">State tax credits, grants and operating rules are on the <a href="states.html">States page</a>.</p>
+      <p style="margin:0;">State tax credits, grants and operating rules are under <a href="policies.html?tab=states">States &amp; cities</a>.</p>
     </aside>
 
     <div id="empty" class="empty-state" hidden>No policies match those filters.</div>
@@ -273,8 +281,193 @@
       <p><a class="report-cite" href="https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf" target="_blank" rel="noopener">FCC notice and determination</a> <a class="report-cite" href="https://www.federalregister.gov/d/2025-18749" target="_blank" rel="noopener">Section 232 notice</a></p>
       <h3>Policy options from this comparison</h3>
       <p>These are our proposals, not recommendations attributed to the sources. Deployment trials for small manufacturers could measure uptime, cost per task and paid worker training; the risk is subsidizing purchases firms would make anyway. A published security approval route could preserve access to trusted equipment, but requires ongoing testing. A commission needs an implementation owner and milestones if its reports are to lead to decisions. Component support tied to customer orders could target shortages; broad subsidies may instead protect weak suppliers.</p>
-      <p><a class="report-cite" href="https://github.com/pranava0x0/roboticsleadership/tree/main/data/research/policy-2026-10-14" target="_blank" rel="noopener">Source archive and metadata</a> <a class="report-cite" href="https://github.com/pranava0x0/roboticsleadership/blob/main/data/research/policy-2026-10-14/synthesis.md" target="_blank" rel="noopener">Synthesis and tradeoffs</a> <a class="report-cite" href="physical-ai-action-plan.html#plan-outlook">Related drafting notes</a></p>
+      <p><a class="report-cite" href="https://github.com/pranava0x0/roboticsleadership/tree/main/data/research/policy-2026-10-14" target="_blank" rel="noopener">Source archive and metadata</a> <a class="report-cite" href="https://github.com/pranava0x0/roboticsleadership/blob/main/data/research/policy-2026-10-14/synthesis.md" target="_blank" rel="noopener">Synthesis and tradeoffs</a> <a class="report-cite" href="?tab=potential">Potential policies</a></p>
     </details>
+    </section>
+
+    <section class="subtab-panel" id="panel-states" aria-label="States and cities">
+      <aside class="bluf" aria-label="Bottom line up front">
+        <span class="bluf-tag">Bottom line</span>
+        <p class="bluf-body">
+          <strong>State and local rules shape robot operation and deployment.</strong> California regulates autonomous-vehicle testing and passenger service through separate permits. Pennsylvania permits qualifying delivery devices; Philadelphia is considering a delivery fee. Broad state tax incentives may also apply to robotics firms.
+        </p>
+      </aside>
+
+      <div class="kpi-strip cols-4" id="sp-kpis" aria-label="State policy indicators">
+        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+        <div class="kpi-card"><span class="kpi-label">Loading…</span><span class="kpi-value skeleton" style="height:22px;"></span></div>
+      </div>
+
+      <h2 class="section-title">State policy themes</h2>
+      <p class="muted" style="font-size:13px;margin:-4px 0 14px;">Five themes in state robotics policy in 2026. Open a card for its key points and sources.</p>
+      <div class="sp-theme-grid" id="sp-themes"></div>
+
+      <details class="collapsible-section" id="sec-onbooks" open>
+        <summary>
+          <h2 class="section-title">What's already on the books</h2>
+          <p class="muted" style="font-size:13px;margin:-4px 0 10px;">State and local policy records this tracker already follows. Open each source for the program details.</p>
+        </summary>
+        <div class="table-wrap">
+          <table class="data-table" id="sp-onbooks-table">
+            <thead>
+              <tr>
+                <th>State</th>
+                <th>Program / law</th>
+                <th class="hide-mobile">Type</th>
+                <th class="hide-mobile">Status</th>
+                <th class="hide-mobile">Startup eligible</th>
+              </tr>
+            </thead>
+            <tbody id="sp-onbooks-tbody">
+              <tr><td colspan="5" class="muted center">Loading state records…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+
+      <div id="sp-empty" class="empty-state" hidden>No state or local records tracked yet.</div>
+      <details class="collapsible-section" id="st-sec-commission">
+        <summary>
+          <h2 class="section-title">What the SCSP robotics commission found</h2>
+          <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Its findings on the manufacturing workforce and small manufacturers.</p>
+        </summary>
+        <div id="st-commission-note"><p class="muted-cell">Loading…</p></div>
+      </details>
+    </section>
+
+    <section class="subtab-panel" id="panel-potential" aria-label="Potential policies">
+      <!--potential:start-->
+      <p>Proposals that reports, think tanks, trade groups, witnesses, members of Congress and officials have made and no government has adopted. Each is quoted from its source; this site adds none of its own. 81 proposals, captured 2026-11-02.</p>
+      <details class="collapsible-section" id="potential-national-strategy" open>
+        <summary><h2 class="section-title">National strategy</h2><p class="muted">6 proposals</p></summary>
+        <ul class="potential-list">
+          <li><strong>Pass the National Commission on Robotics Act as a step toward a national robotics strategy.</strong> <span class="potential-who">Jason Fiorillo, Boston Dynamics, American Global Competitiveness at 250 (House E&amp;C CMT), Boston Dynamics written testimony, 2026-06-30.</span> <q>Pass the National Commission on Robotics Act, as a Step Towards a National Robotics Strategy</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119423" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Senate companion establishing an independent Commission on American Leadership in Robotics within Commerce (up to 18 members).</strong> <span class="potential-who">Sen. Dave McCormick with Sens. Hickenlooper, Young and Heinrich (S. 4686), S. 4686, National Commission on Robotics Act (introduced), 2026-06-04.</span> <q>the Secretary shall establish an independent commission to be known as the Commission on American Leadership in Robotics</q> <a href="https://www.govinfo.gov/content/pkg/BILLS-119s4686is/html/BILLS-119s4686is.htm" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Develop a coordinated national strategy for robotics and physical AI, supporting H.R. 7334.</strong> <span class="potential-who">Michael Robbins, AUVSI, DeepSeek and Unitree Robotics hearing (House Homeland Security), written testimony, 2026-03-17, p. 11.</span> <q>Congress should support the development of a coordinated national strategy for robotics and physical artificial intelligence.</q> <a href="https://docs.house.gov/committee/calendar/ByEvent.aspx?EventID=118982" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Establish an independent 18-member National Commission on Robotics (within Commerce) reviewing competitiveness, workforce, supply chains, manufacturing and national security.</strong> <span class="potential-who">Rep. Jay Obernolte, Rep. Jennifer McClellan, Rep. Latta (H.R. 7334), H.R. 7334, National Commission on Robotics Act (introduced; referred to Science Committee), 2026-02-03.</span> <q>To establish a commission on robotics, and for other purposes.</q> <a href="https://www.govinfo.gov/content/pkg/BILLS-119hr7334ih/html/BILLS-119hr7334ih.htm" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Develop a national robotics strategy to turn US invention into scaled production, connect workers to opportunity and secure industrial supply.</strong> <span class="potential-who">Anoosh Kumar, CSIS Strategic Technologies Program, Why The United States Needs Robots to Rebuild (CSIS blog), 2025-07.</span> <q>what’s missing is the national strategy to turn invention into impact</q> <a href="https://www.csis.org/blogs/strategic-technologies-blog/why-united-states-needs-robots-rebuild" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>White House leads a National Robotics Strategy and implementation plans for manufacturing, autonomous vehicles, agriculture and energy.</strong> <span class="potential-who">Special Competitive Studies Project (SCSP), Memorandum for President Trump on a National Robotics Strategy, 2025-02.</span> <q>The White House should lead the development of a National Robotics Strategy and implementation plans</q> <a href="https://www.scsp.ai/reports/memostothepresident/robotics" target="_blank" rel="noopener">Source</a></li>
+        </ul>
+      </details>
+      <details class="collapsible-section" id="potential-coordination">
+        <summary><h2 class="section-title">Coordination in government</h2><p class="muted">6 proposals</p></summary>
+        <ul class="potential-list">
+          <li><strong>Interim steps while the robotics commission is pending: more hearings, public requests for information, or a special subcommittee to gather insight.</strong> <span class="potential-who">Jedidah Isler, Federation of American Scientists, American Global Competitiveness at 250 (House E&amp;C CMT), written testimony, 2026-06-30.</span> <q>standing up a special subcommittee to begin gathering insight</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119423" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Create a White House Office of Automation and Robotics (or similar central office) alongside a National Robotics Strategy Commission, to lead and update a national strategy.</strong> <span class="potential-who">Jeff Burnstein, Association for Advancing Automation (A3), Robots Made in America (House Science R&amp;T Subcommittee), A3 written statement, 2026-04-21.</span> <q>the establishment of a White House Office of Automation and Robotics or similar central office, in coordination with a multidisciplinary National Robotics Strategy Commission</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Establish a National Robotics Council to guide federal robotics policy.</strong> <span class="potential-who">AUVSI (Partnership for Robotics Competitiveness), Securing U.S. Leadership in Robotics and Physical AI (AUVSI PFRC white paper), 2026-02, p. 19.</span> <q>Congress and the Administration should establish a National Robotics Council to guide federal policy efforts</q> <a href="https://www.auvsi.org/wp-content/uploads/2026/02/AUVSI-PFRC-Whitepaper.pdf" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Establish a centralized Federal Government Robotics Office to create, oversee and steer a national robotics strategy.</strong> <span class="potential-who">Association for Advancing Automation (A3), A3 comment on Commerce Section 232 robotics investigation (BIS-2025-0257-0200), 2025-10-17, p. 3.</span> <q>Establish a Federal Government Robotics Office.</q> <a href="https://www.automate.org/userassets/a3/a3uploads/A3-Section-232-Public-Comment.pdf" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Commerce should set up a federal advisory committee, mostly industry members, to advise on robotics industry needs and policy.</strong> <span class="potential-who">Robert D. Atkinson, Meghan Ostertag, Trelysa Long (ITIF), A Time to Act: Policies to Strengthen the US Robotics Industry, 2025-07-18.</span> <q>The Department of Commerce should establish a federal advisory committee to advise the government on the needs of the robotics industry</q> <a href="https://itif.org/publications/2025/07/18/time-to-act-policies-to-strengthen-us-robotics-industry/" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>OSTP should set up a cross-cutting robotics research working group, similar to the National Nanotechnology Initiative.</strong> <span class="potential-who">Robert D. Atkinson, Meghan Ostertag, Trelysa Long (ITIF), A Time to Act: Policies to Strengthen the US Robotics Industry, 2025-07-18.</span> <q>should establish a cross-cutting robotics research working group to coordinate and align all agency mission-oriented research related to robotics</q> <a href="https://itif.org/publications/2025/07/18/time-to-act-policies-to-strengthen-us-robotics-industry/" target="_blank" rel="noopener">Source</a></li>
+        </ul>
+      </details>
+      <details class="collapsible-section" id="potential-supply-chain-trade">
+        <summary><h2 class="section-title">Supply chain and trade</h2><p class="muted">16 proposals</p></summary>
+        <ul class="potential-list">
+          <li><strong>Stimulate domestic or friend-shored production of robot components (sensors, processors, actuators, ball screws) and identify reliable allied sources.</strong> <span class="potential-who">Jason Fiorillo, Boston Dynamics, American Global Competitiveness at 250 (House E&amp;C CMT), Boston Dynamics written testimony, 2026-06-30.</span> <q>the U.S. government should meaningfully stimulate the domestic or friend-shored production of essential components for advanced mobile robotics</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119423" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>National robotics strategy plus trade tools such as tariffs and anti-dumping measures and ally coordination for trusted supply chains.</strong> <span class="potential-who">Agility Robotics (CEO Peggy Johnson), Safeguarding America&#x27;s Humanoid Future: Six policy pillars (Agility paper), 2026-06-12.</span> <q>Federal policy should include the development of a national robotics strategy, leveraging trade tools such as tariffs and anti-dumping measures</q> <a href="https://www.agilityrobotics.com/research-analysis/safeguarding-americas-humanoid-future" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Use Defense Production Act Title III purchase guarantees for domestically made robotics hardware, and a Buy-American Robotics Preference for federally funded automation projects.</strong> <span class="potential-who">Evan Beard, Standard Bots, Robots Made in America (House Science R&amp;T Subcommittee), written testimony, 2026-04-21.</span> <q>a clear Buy-American Robotics Preference for federally funded automation projects</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Bar executive agencies from procuring or operating unmanned ground vehicle systems made by covered foreign entities.</strong> <span class="potential-who">Rep. Elise Stefanik (H.R. 8189), H.R. 8189, American Security Robotics Act of 2026 (introduced), 2026-04-02.</span> <q>To prohibit executive agencies from procuring or operating certain unmanned ground vehicle systems, and for other purposes.</q> <a href="https://www.govinfo.gov/content/pkg/BILLS-119hr8189ih/html/BILLS-119hr8189ih.htm" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Senate companion barring executive agencies from procuring or operating unmanned ground vehicle systems made by covered foreign entities.</strong> <span class="potential-who">Sen. Tom Cotton with Sen. Chuck Schumer (S. 4235), S. 4235, American Security Robotics Act of 2026 (introduced), 2026-03-26.</span> <q>To prohibit executive agencies from procuring or operating certain unmanned ground vehicle systems, and for other purposes.</q> <a href="https://www.govinfo.gov/content/pkg/BILLS-119s4235is/html/BILLS-119s4235is.htm" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Prohibit federal procurement of uncrewed ground vehicles (including robots) made in countries of concern, as a standalone bill and in the NDAA.</strong> <span class="potential-who">Michael Robbins, AUVSI, DeepSeek and Unitree Robotics hearing (House Homeland Security), written testimony, 2026-03-17, p. 12.</span> <q>we urge Congress to take up this measure again as a standalone bill as well as in this year’s National Defense Authorization Act</q> <a href="https://docs.house.gov/committee/calendar/ByEvent.aspx?EventID=118982" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Expand US robotics manufacturing and use federal procurement and demand signals to support trusted systems and domestic production of sensors, batteries, magnets and electronics.</strong> <span class="potential-who">Michael Robbins, AUVSI, DeepSeek and Unitree Robotics hearing (House Homeland Security), written testimony, 2026-03-17, p. 13.</span> <q>use federal procurement and demand signals to support trusted systems</q> <a href="https://docs.house.gov/committee/calendar/ByEvent.aspx?EventID=118982" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Reform CFIUS to a proactive technology-protection strategy covering the entire AI and robotics stack.</strong> <span class="potential-who">Rush Doshi, Georgetown University / Council on Foreign Relations, DeepSeek and Unitree Robotics hearing (House Homeland Security CIP Subcommittee), written testimony, 2026-03-17.</span> <q>secures the entire AI and robotics stack</q> <a href="https://docs.house.gov/committee/calendar/ByEvent.aspx?EventID=118982" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Prohibit federal agencies and contractors from procuring robotic systems or AI models from companies subject to PRC national security laws.</strong> <span class="potential-who">Rush Doshi, Georgetown University / Council on Foreign Relations, DeepSeek and Unitree Robotics hearing (House Homeland Security CIP Subcommittee), written testimony, 2026-03-17.</span> <q>prohibiting federal agencies and federal contractors from procuring robotic systems or AI models developed by companies subject to PRC national security laws</q> <a href="https://docs.house.gov/committee/calendar/ByEvent.aspx?EventID=118982" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Expand and codify prohibitions on federal procurement and use of PRC-origin or PRC-linked robotics platforms and components.</strong> <span class="potential-who">AUVSI (Partnership for Robotics Competitiveness), Securing U.S. Leadership in Robotics and Physical AI (AUVSI PFRC white paper), 2026-02, p. 20.</span> <q>Congress should expand and codify prohibitions on the procurement and use of PRC-origin or PRC-linked robotics platforms and components</q> <a href="https://www.auvsi.org/wp-content/uploads/2026/02/AUVSI-PFRC-Whitepaper.pdf" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Do not tariff countries whose robots and key components the US industry depends on; instead adopt a comprehensive national robotics strategy.</strong> <span class="potential-who">Association for Advancing Automation (A3), A3 comment on Commerce Section 232 robotics and industrial machinery investigation (BIS-2025-0257-0200), 2025-10-17, p. 1.</span> <q>not to impose tariffs on countries whose robots and key components are crucial to making the American robotics industry stronger</q> <a href="https://www.automate.org/userassets/a3/a3uploads/A3-Section-232-Public-Comment.pdf" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Commerce (through NTIA) convenes industry and government to identify supply chain challenges to American robotics and drone manufacturing.</strong> <span class="potential-who">White House (America&#x27;s AI Action Plan), Winning the Race: America&#x27;s AI Action Plan, 2025-07-23, p. 7.</span> <q>convene industry and government stakeholders to identify supply chain challenges to American robotics and drone manufacturing</q> <a href="https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Significantly limit or ban Chinese robotics imports, for example via a BIS rule restricting imports of China-linked robots and related hardware and software.</strong> <span class="potential-who">Robert D. Atkinson, Meghan Ostertag, Trelysa Long (ITIF), A Time to Act: Policies to Strengthen the US Robotics Industry, 2025-07-18.</span> <q>the Trump administration should work to significantly limit, if not ban, Chinese robotics imports</q> <a href="https://itif.org/publications/2025/07/18/time-to-act-policies-to-strengthen-us-robotics-industry/" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Launch a Made in America Robotics Initiative building robotics production clusters, with tax credits, grants and loans via Commerce and FDI from allies.</strong> <span class="potential-who">Special Competitive Studies Project (SCSP), Memorandum for President Trump on a National Robotics Strategy, 2025-02.</span> <q>The United States should aim to build several clusters of robotics production across the nation</q> <a href="https://www.scsp.ai/reports/memostothepresident/robotics" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Commerce BIS should use ICTS supply-chain authorities to restrict robotics components from China and other countries of concern.</strong> <span class="potential-who">Special Competitive Studies Project (SCSP), Memorandum for President Trump on a National Robotics Strategy, 2025-02.</span> <q>should use its Information and Communication Technology &amp; Services (ICTS) supply chain authorities to restrict robotics components from China</q> <a href="https://www.scsp.ai/reports/memostothepresident/robotics" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Pursue economic security agreements with Japan, the EU and South Korea to reduce trade barriers and jointly block Chinese robotics firms.</strong> <span class="potential-who">Special Competitive Studies Project (SCSP), Memorandum for President Trump on a National Robotics Strategy, 2025-02.</span> <q>pursue targeted economic security agreements with advanced industrial economies with strengths in robotics</q> <a href="https://www.scsp.ai/reports/memostothepresident/robotics" target="_blank" rel="noopener">Source</a></li>
+        </ul>
+      </details>
+      <details class="collapsible-section" id="potential-safety-security">
+        <summary><h2 class="section-title">Security and safety</h2><p class="muted">11 proposals</p></summary>
+        <ul class="potential-list">
+          <li><strong>Require a national-security risk determination on communications equipment from six named Chinese entities, with FCC listing consequences.</strong> <span class="potential-who">Rep. Scott Perry (H.R. 9687), H.R. 9687, Blocking CCP Spy Tech Act of 2026 (introduced), 2026-07-14.</span> <q>To require a review of the national security risk posed by communications equipment and services produced or provided by certain entities</q> <a href="https://www.govinfo.gov/content/pkg/BILLS-119hr9687ih/html/BILLS-119hr9687ih.htm" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Harmonized, risk-based national framework for AI and robotics with targeted federal preemption of state rules on safety standards, testing protocols and deployment.</strong> <span class="potential-who">Jason Fiorillo, Boston Dynamics, American Global Competitiveness at 250 (House E&amp;C CMT), Boston Dynamics written testimony, 2026-06-30.</span> <q>adopt a harmonized, risk-based national framework</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119423" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Bar DoD from procuring, leasing or obtaining humanoid robotic systems made or developed by foreign adversaries or carrying their software, AI, cloud or remote-control services (testing waiver; fixed industrial robots excluded).</strong> <span class="potential-who">Rep. Lance Gooden (FY2027 NDAA, H.R. 8800 Sec. 163; passed House, not enacted), H.R. 8800, FY2027 NDAA, Section 163, 2026-06-04.</span> <q>The Secretary of Defense may not procure, lease, or otherwise obtain a covered humanoid robotic system</q> <a href="https://www.govinfo.gov/content/pkg/BILLS-119hr8800eh/html/BILLS-119hr8800eh.htm" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Require a national-security determination on humanoid and quadruped robotics communications equipment and, if risky, place it on the FCC Covered List.</strong> <span class="potential-who">Rep. John Moolenaar with Reps. Obernolte and McClellan (H.R. 9129), H.R. 9129, GUARD Act of 2026 (introduced; subcommittee-forwarded), 2026-06-03.</span> <q>to be placed on the covered list of the Federal Communications Commission</q> <a href="https://www.govinfo.gov/content/pkg/BILLS-119hr9129ih/html/BILLS-119hr9129ih.htm" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Resource OSHA, NIOSH and NIST to develop standards and guidance for worker-safe robotics implementation; condition adoption funding on health and safety outcomes.</strong> <span class="potential-who">Susan Helper, Case Western Reserve University, Robots Made in America (House Science R&amp;T Subcommittee), written testimony, 2026-04-21.</span> <q>OSHA, NIOSH, and NIST should be resourced to develop standards and guidance for worker -safe robotics implementation</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Restrict adversary-made LiDAR in sensitive infrastructure (Securing Infrastructure from Adversaries Act) and examine similar measures across the robotics stack (SAFE LiDAR Act).</strong> <span class="potential-who">Michael Robbins, AUVSI, DeepSeek and Unitree Robotics hearing (House Homeland Security), written testimony, 2026-03-17, p. 12.</span> <q>we urge Congress to consider similar measures across the robotics technology stack</q> <a href="https://docs.house.gov/committee/calendar/ByEvent.aspx?EventID=118982" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Codify and extend the ICTS executive-order framework to cover PRC-manufactured robotic systems.</strong> <span class="potential-who">Rush Doshi, Georgetown University / Council on Foreign Relations, DeepSeek and Unitree Robotics hearing (House Homeland Security CIP Subcommittee), written testimony, 2026-03-17.</span> <q>Congress should codify and significantly extend the Information and Communications Technology and Services (ICTS) executive order framework to cover PRC -manufactured robotic systems.</q> <a href="https://docs.house.gov/committee/calendar/ByEvent.aspx?EventID=118982" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Direct CISA to require critical-infrastructure operators to inventory and report PRC-made robotic systems and AI platforms, with mandatory security audits.</strong> <span class="potential-who">Rush Doshi, Georgetown University / Council on Foreign Relations, DeepSeek and Unitree Robotics hearing (House Homeland Security CIP Subcommittee), written testimony, 2026-03-17.</span> <q>require operators of critical infrastructure to inventory and report all PRC- manufactured robotic systems and AI platforms currently deployed in their networks</q> <a href="https://docs.house.gov/committee/calendar/ByEvent.aspx?EventID=118982" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Direct DHS/CISA to run a national security evaluation of foreign adversarial robots used in American industry and government.</strong> <span class="potential-who">Matthew Malchano, Boston Dynamics, DeepSeek and Unitree Robotics hearing (House Homeland Security CIP Subcommittee), written testimony, 2026-03-17.</span> <q>expeditiously undertake a national security evaluation of the use of foreign adversarial robots in American industry and governmental operations</q> <a href="https://docs.house.gov/committee/calendar/ByEvent.aspx?EventID=118982" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Bar federal procurement and contractor use of humanoid robots from covered foreign entities, with CFIUS review and threat reporting.</strong> <span class="potential-who">Sen. Bill Cassidy with Sen. Chris Coons (S. 3275), S. 3275, Humanoid ROBOT Act of 2025 (introduced), 2025-11-20.</span> <q>To reduce the risk to the national security of the United States posed by humanoid robots produced in certain countries, and for other purposes.</q> <a href="https://www.govinfo.gov/content/pkg/BILLS-119s3275is/html/BILLS-119s3275is.htm" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Investigate Unitree&#x27;s role in PLA objectives and consider designating it under Section 1260H, adding it to the Entity List and putting it on the FCC Covered List.</strong> <span class="potential-who">House Select Committee on the CCP (letter to Hegseth, Lutnick and FCC Chair Carr), Select Committee on the CCP letter on Unitree Robotics, 2025-05-06, p. 1.</span> <q>adding it to the Entity List, and including it on the Covered List</q> <a href="https://democrats-selectcommitteeontheccp.house.gov/sites/evo-subsites/democrats-selectcommitteeontheccp.house.gov/files/evo-media-document/2025.5.6-unitree.pdf" target="_blank" rel="noopener">Source</a></li>
+        </ul>
+      </details>
+      <details class="collapsible-section" id="potential-tax-financing">
+        <summary><h2 class="section-title">Tax and financing</h2><p class="muted">12 proposals</p></summary>
+        <ul class="potential-list">
+          <li><strong>Tax mechanisms (accelerated depreciation, credits) for US-made robots, including robot-as-a-service installations.</strong> <span class="potential-who">Jason Fiorillo, Boston Dynamics, American Global Competitiveness at 250 (House E&amp;C CMT), Boston Dynamics written testimony, 2026-06-30.</span> <q>Congress should explore tax mechanisms that incentivize the manufacture and adoption of robots made in the United States.</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119423" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Introduce a 25 percent tax credit for adoption of robotics and other automation, expand the R&amp;D credit, and pass the National Commission on Robotics Act.</strong> <span class="potential-who">Information Technology and Innovation Foundation (ITIF), America Needs a National Robotics Strategy (ITIF blog), 2026-06-18.</span> <q>introduce a 25 percent tax credit for adoption of robotics and other automation technologies</q> <a href="https://itif.org/publications/2026/06/18/america-needs-a-national-robotics-strategy/" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Support deployment through early adopter programs and tax incentives for end users, with tailored tools for SMEs.</strong> <span class="potential-who">Agility Robotics (CEO Peggy Johnson), Safeguarding America&#x27;s Humanoid Future: Six policy pillars (Agility paper), 2026-06-12.</span> <q>Federal policy should support deployment through commercially viable early adopter programs, tax incentives for end-users, and other tools.</q> <a href="https://www.agilityrobotics.com/research-analysis/safeguarding-americas-humanoid-future" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Lower the financial risk of robotic trials for manufacturers and modernize how automation is treated under the tax code.</strong> <span class="potential-who">Robots for America (industry coalition: Formic, Standard Bots, Dexterity, Path Robotics and others), Robots for America launches national coalition to advance U.S. robotics deployment policy (policy framework), 2026-05.</span> <q>Lowering the financial risk of robotic trials Modernizing how automation is treated under the tax code</q> <a href="https://www.robotics247.com/article/robots-for-america-launches-national-coalition-to-advance-u.s-robotics-deployment-policy" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Dedicated investment tax credit for automation plus extended and expanded bonus depreciation; make robots-as-a-service depreciable.</strong> <span class="potential-who">Evan Beard, Standard Bots, Robots Made in America (House Science R&amp;T Subcommittee), written testimony, 2026-04-21.</span> <q>Congress should establish a dedicated investment tax credit for automation, alongside extending and expanding the accelerated bonus depreciation in Public Law 119-21</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Refundable investment tax credit for US manufacturing of robotics subsystems.</strong> <span class="potential-who">Evan Beard, Standard Bots, Robots Made in America (House Science R&amp;T Subcommittee), written testimony, 2026-04-21.</span> <q>A refundable investment tax credit for U.S. manufacturing of robotics subsystems</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Tariff-funded grants for robotics adoption aimed at small and mid-sized manufacturers stalled at integration.</strong> <span class="potential-who">Evan Beard, Standard Bots, Robots Made in America (House Science R&amp;T Subcommittee), written testimony, 2026-04-21.</span> <q>Congress should also authorize tariff-funded grants for robotics adoption</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Tax credits and accelerated depreciation for automation that cover integration and training costs, plus an automation technology factory tax credit and Section 174 R&amp;D expensing reform.</strong> <span class="potential-who">Jeff Burnstein, Association for Advancing Automation (A3), Robots Made in America (House Science R&amp;T Subcommittee), A3 written statement, 2026-04-21.</span> <q>policy could be implemented to provide an automation technology factory tax credit</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Extend production and investment tax credits to robotics manufacturing.</strong> <span class="potential-who">AUVSI (Partnership for Robotics Competitiveness), Securing U.S. Leadership in Robotics and Physical AI (AUVSI PFRC white paper), 2026-02, p. 21.</span> <q>Congress should therefore extend proven industrial-policy tools, such as production and investment tax credits, to robotics manufacturing.</q> <a href="https://www.auvsi.org/wp-content/uploads/2026/02/AUVSI-PFRC-Whitepaper.pdf" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Refocus SBA loans and loan guarantees toward US manufacturers financing new production technology including robotics.</strong> <span class="potential-who">Robert D. Atkinson, Meghan Ostertag, Trelysa Long (ITIF), A Time to Act: Policies to Strengthen the US Robotics Industry, 2025-07-18.</span> <q>Refocus Small Business Association (SBA) loans and programs to help more U.S. manufacturers finance new production technologies.</q> <a href="https://itif.org/publications/2025/07/18/time-to-act-policies-to-strengthen-us-robotics-industry/" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Congress would ideally pass a machinery (including robotics) tax credit.</strong> <span class="potential-who">Robert D. Atkinson, Meghan Ostertag, Trelysa Long (ITIF), A Time to Act: Policies to Strengthen the US Robotics Industry, 2025-07-18.</span> <q>Ideally, Congress would pass a machinery (including robotics) tax credit.</q> <a href="https://itif.org/publications/2025/07/18/time-to-act-policies-to-strengthen-us-robotics-industry/" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Expand capital access programs for small and medium manufacturers to adopt robots and match state-level adoption grants.</strong> <span class="potential-who">Special Competitive Studies Project (SCSP), Memorandum for President Trump on a National Robotics Strategy, 2025-02.</span> <q>The United States should expand capital access programs to accelerate the adoption of robotic systems among SMMs</q> <a href="https://www.scsp.ai/reports/memostothepresident/robotics" target="_blank" rel="noopener">Source</a></li>
+        </ul>
+      </details>
+      <details class="collapsible-section" id="potential-demonstrations-procurement">
+        <summary><h2 class="section-title">Federal buying and demonstrations</h2><p class="muted">8 proposals</p></summary>
+        <ul class="potential-list">
+          <li><strong>Direct and fund federal agencies to adopt robots and run robotics challenges like the DOT Bots competition.</strong> <span class="potential-who">Jason Fiorillo, Boston Dynamics, American Global Competitiveness at 250 (House E&amp;C CMT), Boston Dynamics written testimony, 2026-06-30.</span> <q>Congress should, when working on reauthorization legislation and budgets, instruct and fund agencies to adopt robots</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119423" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Explore and quickly define federal procurement pathways for humanoid robotics and dual-use applications.</strong> <span class="potential-who">Agility Robotics (CEO Peggy Johnson), Safeguarding America&#x27;s Humanoid Future: Six policy pillars (Agility paper), 2026-06-12.</span> <q>Federal policy should explore and quickly define procurement pathways for humanoid robotics</q> <a href="https://www.agilityrobotics.com/research-analysis/safeguarding-americas-humanoid-future" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Make federal agencies early adopters of robotics by raising agency budgets for and acquisitions of robotics technologies.</strong> <span class="potential-who">Jeff Burnstein, A3, Robots Made in America (House Science R&amp;T Subcommittee), A3 written statement, 2026-04-21.</span> <q>increasing agency budgets for, and initiating acquisitions of, robotics technologies</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Government procurement including advance market commitments for domestically made robotic systems, with job-quality conditions on federal contracts.</strong> <span class="potential-who">Susan Helper, Case Western Reserve University, Robots Made in America (House Science R&amp;T Subcommittee), written testimony, 2026-04-21.</span> <q>government procurement — including advance market commitments for domestically manufactured robotic systems</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Federal investment in AI-enabled next-generation manufacturing technologies including robotics, using CHIPS Act, DPA Title III and OTA authorities.</strong> <span class="potential-who">White House (America&#x27;s AI Action Plan), Winning the Race: America&#x27;s AI Action Plan, 2025-07-23, p. 7.</span> <q>The Federal government should prioritize investment in these emerging technologies and usher in a new industrial renaissance</q> <a href="https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>NEC should task each major agency to identify where robotics can help its mission and how its procurement could enable adoption, starting with an RFI to industry.</strong> <span class="potential-who">Robert D. Atkinson, Meghan Ostertag, Trelysa Long (ITIF), A Time to Act: Policies to Strengthen the US Robotics Industry, 2025-07-18.</span> <q>The National Economic Council (NEC) should task each major agency with identifying application areas where robotics can assist</q> <a href="https://itif.org/publications/2025/07/18/time-to-act-policies-to-strengthen-us-robotics-industry/" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Fund a NIST robotics best-practices adoption award where small firms get half-funded robot projects and share lessons, possibly about 10 million dollars per year.</strong> <span class="potential-who">Robert D. Atkinson, Meghan Ostertag, Trelysa Long (ITIF), A Time to Act: Policies to Strengthen the US Robotics Industry, 2025-07-18.</span> <q>Appropriate a modest amount of funds to NIST for a robotics best practices adoption award.</q> <a href="https://itif.org/publications/2025/07/18/time-to-act-policies-to-strengthen-us-robotics-industry/" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>DoD creates a network of scalable AI-enabled factories with a national program office to rebuild the defense industrial base.</strong> <span class="potential-who">Special Competitive Studies Project (SCSP), Memorandum for President Trump on a National Robotics Strategy, 2025-02.</span> <q>the U.S. Department of Defense (DoD) should create a network of scalable, AI-enabled factories that can adaptively produce goods</q> <a href="https://www.scsp.ai/reports/memostothepresident/robotics" target="_blank" rel="noopener">Source</a></li>
+        </ul>
+      </details>
+      <details class="collapsible-section" id="potential-research-data">
+        <summary><h2 class="section-title">Research and data</h2><p class="muted">8 proposals</p></summary>
+        <ul class="potential-list">
+          <li><strong>Relaunch National Robotics Initiative-style research funding; create an Industrial Finance Corporation; raise NIST MEP and Manufacturing USA funding for automation.</strong> <span class="potential-who">Jeff Burnstein, A3, Robots Made in America (House Science R&amp;T Subcommittee), A3 written statement, 2026-04-21.</span> <q>The new national strategy should relaunch research funding initiatives resembling the prior National Robotics Initiative (NRI).</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Congress could fund small grants for researchers, engineers and labor representatives to co-design worker-augmenting robots.</strong> <span class="potential-who">Susan Helper, Case Western Reserve University, Robots Made in America (House Science R&amp;T Subcommittee), written testimony, 2026-04-21.</span> <q>Congress could fund small grants that bring together researchers, engineers, and labor representatives to design more of the kinds of robots</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Ask the national security apparatus to study risks of over-reliance on Chinese robotics data; make federal data AI-ready.</strong> <span class="potential-who">Max Fenkell, Scale AI, DeepSeek and Unitree Robotics hearing (House Homeland Security CIP Subcommittee), written testimony, 2026-03-17.</span> <q>Congress should immediately ask the National Security apparatus to study the risks associated with an over-reliance on Chinese robotics data.</q> <a href="https://docs.house.gov/committee/calendar/ByEvent.aspx?EventID=118982" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Invest through NSF, DOE and NIST in automated cloud-enabled labs across scientific fields.</strong> <span class="potential-who">White House (America&#x27;s AI Action Plan), Winning the Race: America&#x27;s AI Action Plan, 2025-07-23, p. 8.</span> <q>invest in automated cloud-enabled labs for a range of scientific fields</q> <a href="https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Speed up Census release of Annual Integrated Economic Survey data, which includes robotics, now nearly two years after collection.</strong> <span class="potential-who">Robert D. Atkinson, Meghan Ostertag, Trelysa Long (ITIF), A Time to Act: Policies to Strengthen the US Robotics Industry, 2025-07-18.</span> <q>The U.S. Census Bureau should accelerate the timeline for releasing data from the Annual Integrated Economic Survey</q> <a href="https://itif.org/publications/2025/07/18/time-to-act-policies-to-strengthen-us-robotics-industry/" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Select robotics as NSF TIP&#x27;s next major technology area and fund new robotics Industry-University Research Partnership and engineering research centers.</strong> <span class="potential-who">Robert D. Atkinson, Meghan Ostertag, Trelysa Long (ITIF), A Time to Act: Policies to Strengthen the US Robotics Industry, 2025-07-18.</span> <q>NSF’s Technology Innovation and Partnerships (TIP) program should select robotics for its next major technology area for support.</q> <a href="https://itif.org/publications/2025/07/18/time-to-act-policies-to-strengthen-us-robotics-industry/" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>NIST should work with industry to identify barriers to robotics data collection and sharing and solutions to them.</strong> <span class="potential-who">Robert D. Atkinson, Meghan Ostertag, Trelysa Long (ITIF), A Time to Act: Policies to Strengthen the US Robotics Industry, 2025-07-18.</span> <q>NIST should work with industry to coordinate data collection and sharing to support AI and robotics.</q> <a href="https://itif.org/publications/2025/07/18/time-to-act-policies-to-strengthen-us-robotics-industry/" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Create a trusted third-party Data Foundry that collates and shares private-sector industrial datasets for training embodied AI, linked to the AI for Resilient Manufacturing Institute.</strong> <span class="potential-who">Special Competitive Studies Project (SCSP), Memorandum for President Trump on a National Robotics Strategy, 2025-02.</span> <q>the United States must create a trusted third-party hub that works to collate and distribute private-sector industrial datasets</q> <a href="https://www.scsp.ai/reports/memostothepresident/robotics" target="_blank" rel="noopener">Source</a></li>
+        </ul>
+      </details>
+      <details class="collapsible-section" id="potential-standards-testing">
+        <summary><h2 class="section-title">Standards and testing</h2><p class="muted">6 proposals</p></summary>
+        <ul class="potential-list">
+          <li><strong>Direct NIST within 90 days to identify barriers to robotics data sharing, coordinate standards for humanoid and AI-enabled robots, promote robotics use via its Office of Advanced Manufacturing, and work with Education and Labor on curricula; Commerce to report annually on robotics adoption.</strong> <span class="potential-who">Sen. Mike Rounds with Sen. John Hickenlooper (S. 5310), S. 5310, Robotics Supply Chain Improvement Act (introduced), 2026-08-06.</span> <q>coordinate with the robotics industry to identify areas for the promulgation of useful standards</q> <a href="https://www.govinfo.gov/content/pkg/BILLS-119s5310is/html/BILLS-119s5310is.htm" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Prioritize voluntary federal and industry standards for humanoids over prescriptive regulation, e.g. human-robot collaboration frameworks and workplace safety guidance.</strong> <span class="potential-who">Agility Robotics (CEO Peggy Johnson), Safeguarding America&#x27;s Humanoid Future: Six policy pillars (Agility paper), 2026-06-12.</span> <q>Federal policy should prioritize voluntary standards development at the federal level and industry bodies, rather than prescriptive regulation.</q> <a href="https://www.agilityrobotics.com/research-analysis/safeguarding-americas-humanoid-future" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Evaluate and encourage new robot standards and best practices for AI-powered robots working near people; government as convener of industry self-governance.</strong> <span class="potential-who">Jeff Burnstein, A3, Robots Made in America (House Science R&amp;T Subcommittee), A3 written statement, 2026-04-21.</span> <q>Government can act as the convener and facilitator of industry self-governance efforts, as it has done in other industries.</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>NIST proposes a Baseline Performance Benchmark for humanoid robots: a low-footprint set of locomotion and manipulation tasks to compare minimum capabilities across manufacturers.</strong> <span class="potential-who">NIST Intelligent Systems Division, Humanoid Robot Baseline Performance Benchmark (NIST), 2026-04.</span> <q>The proposed Baseline Performance Benchmark is a low-footprint set of locomotion and manipulation tasks.</q> <a href="https://www.nist.gov/el/intelligent-systems-division-73500/humanoid-robot-baseline-performance-benchmark" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>NIOSH, with NIST, should modernize workplace robotics standards into performance-based standards that let companies safely experiment.</strong> <span class="potential-who">Robert D. Atkinson, Meghan Ostertag, Trelysa Long (ITIF), A Time to Act: Policies to Strengthen the US Robotics Industry, 2025-07-18.</span> <q>The National Institute for Occupational Safety and Health (NIOSH) should work with researchers, private companies, and government agencies</q> <a href="https://itif.org/publications/2025/07/18/time-to-act-policies-to-strengthen-us-robotics-industry/" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Streamline the regulatory environment and institute a licensing system for trusted robotic systems.</strong> <span class="potential-who">Special Competitive Studies Project (SCSP), Memorandum for President Trump on a National Robotics Strategy, 2025-02.</span> <q>instituting a common-sense licensing system for trusted systems</q> <a href="https://www.scsp.ai/reports/memostothepresident/robotics" target="_blank" rel="noopener">Source</a></li>
+        </ul>
+      </details>
+      <details class="collapsible-section" id="potential-workforce">
+        <summary><h2 class="section-title">Workforce</h2><p class="muted">8 proposals</p></summary>
+        <ul class="potential-list">
+          <li><strong>Reward employers who cut safety incidents through robotics deployment; support technician training and apprenticeships.</strong> <span class="potential-who">Agility Robotics (CEO Peggy Johnson), Safeguarding America&#x27;s Humanoid Future: Six policy pillars (Agility paper), 2026-06-12.</span> <q>Federal policy should properly reward employers who are able to decrease safety incidents through the proper deployment of robotics</q> <a href="https://www.agilityrobotics.com/research-analysis/safeguarding-americas-humanoid-future" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Streamline permitting and regulatory approvals for robot deployment and build the workforce to support it; establish robotics as a recognized pillar of US industrial policy.</strong> <span class="potential-who">Robots for America (industry coalition), Robots for America launches national coalition to advance U.S. robotics deployment policy (policy framework), 2026-05.</span> <q>Streamlining permitting and regulatory approvals Building the workforce needed to support deployment</q> <a href="https://www.robotics247.com/article/robots-for-america-launches-national-coalition-to-advance-u.s-robotics-deployment-policy" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Establish and expand government-funded STEM and robotics education and training programs, coordinating with and funding effective state programs.</strong> <span class="potential-who">Jeff Burnstein, A3, Robots Made in America (House Science R&amp;T Subcommittee), A3 written statement, 2026-04-21.</span> <q>The national strategy should develop and expand government- funded STEM and robotics education and training programs.</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Authorize a Center of Robotics and Manufacturing Excellence in every state offering robotics assessments, integration support and certified training to small and mid-sized manufacturers.</strong> <span class="potential-who">Evan Beard, Standard Bots, Robots Made in America (House Science R&amp;T Subcommittee), written testimony, 2026-04-21.</span> <q>Congress should authorize one Center of Robotics and Manufacturing Excellence in every state</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Resource NIST Manufacturing Extension Partnership centers to give hands-on robotics assessment and implementation support, possibly via competitively chosen national centers of excellence.</strong> <span class="potential-who">Susan Helper, Case Western Reserve University, Robots Made in America (House Science R&amp;T Subcommittee), written testimony, 2026-04-21.</span> <q>MEP should be explicitly resourced to provide hands -on robotics assessment and implementation support</q> <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119190" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Charge NIST MEP with a robotics initiative to help all centers support small manufacturers adopting robots.</strong> <span class="potential-who">Robert D. Atkinson, Meghan Ostertag, Trelysa Long (ITIF), A Time to Act: Policies to Strengthen the US Robotics Industry, 2025-07-18.</span> <q>Charge NIST’s Manufacturing Extension Partnership (MEP) with creating a new robotics initiative</q> <a href="https://itif.org/publications/2025/07/18/time-to-act-policies-to-strengthen-us-robotics-industry/" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>NSF Advanced Technical Education should fund at least one center for robotics technician training.</strong> <span class="potential-who">Robert D. Atkinson, Meghan Ostertag, Trelysa Long (ITIF), A Time to Act: Policies to Strengthen the US Robotics Industry, 2025-07-18.</span> <q>NSF’s Advanced Technical Education (ATE) program should establish a center focused on technical training for robotics.</q> <a href="https://itif.org/publications/2025/07/18/time-to-act-policies-to-strengthen-us-robotics-industry/" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Scale successful workforce programs such as the ARM Institute&#x27;s.</strong> <span class="potential-who">Special Competitive Studies Project (SCSP), Memorandum for President Trump on a National Robotics Strategy, 2025-02.</span> <q>The United States should scale successful workforce programs, such as that established by the Advanced Robotics for Manufacturing (ARM) Institute</q> <a href="https://www.scsp.ai/reports/memostothepresident/robotics" target="_blank" rel="noopener">Source</a></li>
+        </ul>
+      </details>
+      <!--potential:end-->
+    </section>
 
   </main>
 
@@ -317,7 +510,7 @@
     `).join('');
 
     // ---- Build filter options ----
-    // State & city policy lives on states.html now; keep this page's filter federal-only.
+    // State & city policy has its own sub-tab; keep this filter federal-only.
     fillSelect('f-level', unique(policies.map(p => p.level)).filter(l => l !== 'State' && l !== 'City').sort());
     fillSelect('f-status', unique(policies.map(p => p.status)).sort());
     fillSelect('f-type', unique(policies.map(p => p.type)).sort());
@@ -354,7 +547,7 @@
       RT.writeQuery({ search, level, status, type, sort });
 
       let rows = policies.filter(p => {
-        // This page is the federal record; state/city policy lives on states.html.
+        // This panel is the federal record; state/city policy has its own sub-tab.
         // Filter to Federal at the source so the result count, empty state, and
         // both tables stay consistent (a search matching only state rows must
         // read as "no federal matches", not a nonzero count with empty tables).
@@ -624,6 +817,107 @@
     render();
     if (q.focus) setTimeout(() => openPolicy(q.focus), 50);
   });
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => RT.initSubTabs('[data-subtabs]', { param: 'tab' }));
+  </script>
+  <script defer>
+  document.addEventListener('DOMContentLoaded', async () => {
+    const [statePolicy, policies] = await Promise.all([
+      RT.loadData('state_policy'),
+      RT.loadData('policies'),
+    ]);
+
+    const stateRecords = policies.filter(p => p.level === 'State' || p.level === 'City');
+
+    // ---------- KPIs ----------
+    const statesRepresented = new Set(
+      stateRecords.map(p => p.state).filter(s => s && s !== 'N/A')
+    ).size;
+    const startupEligible = stateRecords.filter(p => p.type === 'Incentive Program' && p.startup_eligible).length;
+    const kpis = [
+      { label: 'Policy themes', value: String(statePolicy.length), sub: 'cross-cutting state threads' },
+      { label: 'Tracked records', value: String(stateRecords.length), sub: 'state + local programs/laws' },
+      { label: 'States represented', value: String(statesRepresented), sub: 'with a tracked record' },
+      { label: 'Startup-eligible', value: String(startupEligible), sub: 'incentive programs (subject to thresholds)' },
+    ];
+    document.getElementById('sp-kpis').innerHTML = kpis.map(k => `
+      <div class="kpi-card">
+        <span class="kpi-label">${RT.escapeHTML(k.label)}</span>
+        <span class="kpi-value tnum">${RT.escapeHTML(k.value)}</span>
+        <span class="kpi-sub">${RT.escapeHTML(k.sub)}</span>
+      </div>
+    `).join('');
+
+    // ---------- Theme cards ----------
+    document.getElementById('sp-themes').innerHTML = statePolicy.map(t => {
+      const points = (t.key_points || []).map(p => `<li>${RT.escapeHTML(p)}</li>`).join('');
+      const states = (t.example_states || []).map(s => `<span class="pill outline">${RT.escapeHTML(s)}</span>`).join('');
+      const links = (t.sources || []).map(s => link(s)).join('');
+      return `
+        <article class="card sp-card">
+          <div class="row" style="gap:6px;">
+            <span class="pill dir-${RT.slug(t.direction)}">${RT.escapeHTML(t.direction)}</span>
+          </div>
+          <h3 class="card-title">${RT.escapeHTML(t.title)}</h3>
+          <p class="sp-summary">${RT.escapeHTML(t.summary)}</p>
+          ${states ? `<div class="sp-states">${states}</div>` : ''}
+          ${points || links ? `<details class="sp-more"><summary>Key points${links ? ' &amp; sources' : ''}</summary>
+            ${points ? `<ul class="sp-points">${points}</ul>` : ''}
+            ${links ? `<span class="sp-deeper-label">Go deeper</span><div class="sp-links">${links}</div>` : ''}
+          </details>` : ''}
+        </article>
+      `;
+    }).join('');
+
+    // ---------- "On the books" table ----------
+    const tbody = document.getElementById('sp-onbooks-tbody');
+    if (stateRecords.length) {
+      const sorted = RT.sortBy(stateRecords, p => p.state || '', 'asc');
+      tbody.innerHTML = sorted.map(p => `
+        <tr tabindex="0" role="link"
+            data-href="${RT.escapeHTML(p.full_text_url || RT.sourceURL((p.sources || [])[0]))}">
+          <td><strong class="mono">${RT.escapeHTML(p.state || '—')}</strong></td>
+          <td>${RT.escapeHTML(p.title)}<span class="secondary-line">${RT.escapeHTML(p.robotics_scope || '')}</span></td>
+          <td class="hide-mobile">${RT.escapeHTML(p.type || '—')}</td>
+          <td class="hide-mobile">${statusPill(p.status)}</td>
+          <td class="hide-mobile">${p.type !== 'Incentive Program' ? '—' : (p.startup_eligible ? '<span class="pill positive">Potentially eligible</span>' : '<span class="pill outline">Limited</span>')}</td>
+        </tr>
+      `).join('');
+      tbody.querySelectorAll('tr[data-href]').forEach(tr => {
+        const go = () => { window.location.href = tr.dataset.href; };
+        tr.addEventListener('click', go);
+        tr.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); }
+        });
+      });
+    } else {
+      tbody.innerHTML = '';
+      document.getElementById('sp-empty').hidden = false;
+    }
+
+    // ---------- helpers ----------
+    function link(s) {
+      const url = RT.sourceURL(s);
+      const label = (s && s.label) || url;
+      const external = /^https?:\/\//.test(url);
+      const attrs = external ? ' target="_blank" rel="noopener"' : '';
+      const arrow = external ? ' ↗' : ' →';
+      return `<a href="${RT.escapeHTML(url)}"${attrs}>${RT.escapeHTML(label)}${arrow}</a>`;
+    }
+    function statusPill(s) {
+      if (!s) return '';
+      const map = {
+        'Introduced': 'mixed', 'Committee': 'mixed', 'Passed House': 'positive',
+        'Passed Senate': 'positive', 'Signed': 'positive', 'In effect': 'positive',
+        'Expired': 'outline', 'Active': 'positive', 'In development': 'mixed', 'Draft': 'outline',
+      };
+      return `<span class="pill ${map[s] || 'outline'}">${RT.escapeHTML(s)}</span>`;
+    }
+  });
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => RT.mountCommissionNote('#st-commission-note', {"findings": [5, 7], "figures": ["manufacturing-labor-gap", "apprentices", "smm-share-of-u-s-manufacturers", "robot-presence-by-plant-size"]}));
   </script>
   <script>
   document.addEventListener('DOMContentLoaded', () => RT.mountCommissionNote('#commission-note', {"findings": [3, 10], "figures": ["national-robotics-initiative", "public-concern"], "theme": "federal-coordination"}));

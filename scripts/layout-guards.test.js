@@ -7,7 +7,8 @@
  * Usage: node scripts/layout-guards.test.js
  */
 
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
+import { loadRT } from './render-static.js';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -111,16 +112,30 @@ test('production_trend: one row per year, ascending, projections only after actu
   assert(Math.abs(sum - ship.units) <= 1, `latest actual row sums to ${sum}, shipments.industrial.units is ${ship.units}`);
 });
 
-test('physical-ai-action-plan: later sections ship collapsed, and print opens them', () => {
-  // The page was 15.0 phone screens (budget 15). Sections 4-9 are details so the
-  // page is a few taps rather than a scroll; a closed <details> would drop out of
-  // a printed copy, so the beforeprint handler must reopen them.
-  const html = read('physical-ai-action-plan.html');
-  const closed = html.match(/<details class="collapsible-section plan-sheet" id="sec-[a-z-]+">/g) || [];
-  assert(closed.length >= 6, `expected >= 6 collapsed plan sections, found ${closed.length}`);
-  assert(!/<details class="collapsible-section plan-sheet"[^>]*\bopen\b/.test(html), 'a collapsed plan section is authored open');
-  assert(/beforeprint/.test(html) && /details\.plan-sheet/.test(html), 'beforeprint handler that reopens plan sections is gone');
-  assert(/afterprint/.test(html), 'afterprint no longer restores the pre-print state (the open toggles would otherwise persist to localStorage)');
+test('policy is one page with Federal, States and Potential sub-tabs; removed pages stay removed (2026-11-02)', () => {
+  // states.html, themes.html and the drafted executive order were folded in.
+  // A nav link or href to any of them would now 404.
+  const html = read('policies.html');
+  for (const id of ['panel-federal', 'panel-states', 'panel-potential']) {
+    assert(html.includes(`id="${id}"`), `policies.html lost #${id}`);
+  }
+  assert(/RT\.initSubTabs\('\[data-subtabs\]'/.test(html), 'policies.html no longer wires its sub-tabs');
+  const ids = [...html.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]);
+  const dup = ids.filter((id, i) => ids.indexOf(id) !== i);
+  assert(!dup.length, `duplicate ids after merging the States page: ${dup.join(', ')}`);
+  for (const f of readdirSync(resolve(ROOT, 'docs')).filter((n) => n.endsWith('.html'))) {
+    const page = read(f);
+    const bad = page.match(/href="(states|themes|physical-ai-action-plan)\.html/);
+    assert(!bad, `${f} still links to ${bad && bad[1]}.html`);
+  }
+});
+
+test('front page carries every theme, with figures and sources', () => {
+  const themes = JSON.parse(read('data/themes.json'));
+  const out = loadRT().renderThemeCards(themes);
+  const n = (out.match(/class="card theme-card"/g) || []).length;
+  assert(n === themes.length, `rendered ${n} of ${themes.length} themes`);
+  assert(read('index.html').includes('id="themes"'), 'index.html lost the #themes anchor news.html links to');
 });
 
 test('energy: Project Prime Mover ships collapsed, and print opens it', () => {

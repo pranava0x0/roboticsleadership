@@ -242,7 +242,11 @@
    "steps": [
     [
      "nav",
-     "states.html"
+     "policies.html"
+    ],
+    [
+     "tap",
+     ".subtab-list a[data-subtab=\"states\"]"
     ],
     [
      "see",
@@ -254,43 +258,15 @@
    "steps": [
     [
      "nav",
-     "themes.html"
+     "index.html"
     ],
     [
      "tap",
-     "#themes-grid .theme-card"
+     "#theme-cards .theme-more summary"
     ],
     [
      "see",
-     "#detail-title"
-    ]
-   ]
-  },
-  "eo_workforce": {
-   "steps": [
-    [
-     "nav",
-     "physical-ai-action-plan.html"
-    ],
-    [
-     "see",
-     "#sec-eo-workforce > p"
-    ]
-   ]
-  },
-  "eo_workforce_jump": {
-   "steps": [
-    [
-     "nav",
-     "physical-ai-action-plan.html"
-    ],
-    [
-     "tap",
-     ".jump-nav a[href=\"#eo-workforce\"]"
-    ],
-    [
-     "see",
-     "#sec-eo-workforce > p"
+     "#theme-cards .theme-metrics li"
     ]
    ]
   },
@@ -395,6 +371,82 @@
     [
      "see",
      "#s232-due"
+    ]
+   ]
+  },
+  "rd_models_first": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "see",
+     "#rd-models-table tbody tr[id]"
+    ]
+   ]
+  },
+  "rd_world_models": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "tap",
+     "[data-subtab=\"world-models\"]"
+    ],
+    [
+     "see",
+     "#panel-world-models .rd-table tbody tr"
+    ]
+   ]
+  },
+  "rd_benchmark_leaders": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "tap",
+     "[data-subtab=\"benchmarks\"]"
+    ],
+    [
+     "see",
+     "#panel-benchmarks .rd-bench .rd-leaders tbody tr"
+    ]
+   ]
+  },
+  "rd_area_evidence": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "tap",
+     "[data-subtab=\"areas\"]"
+    ],
+    [
+     "see",
+     "#panel-areas .rd-area[open] .rd-items li"
+    ]
+   ]
+  },
+  "rd_bom_shares": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "tap",
+     "[data-subtab=\"components\"]"
+    ],
+    [
+     "see",
+     "#panel-components .rd-bom dl"
     ]
    ]
   }

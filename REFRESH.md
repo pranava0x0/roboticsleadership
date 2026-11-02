@@ -156,6 +156,18 @@ The best signal is human-curated, not scraped. Pull the owner's **X `PhysicalAI`
   (2026-07-27): United Airlines humanoid/animal-robot cabin ban → Aviation A2Z; Unitree founder TIME
   cover → time.com.
 
+**Windowed keyword search beats the list timeline, and export through the DOM, not through JS return values (2026-10-26).**
+`x.com/search?q=list%3A2061938532722311396%20(VLA OR "world model" OR …)%20-filter%3Areplies%20since%3AYYYY-MM-DD%20until%3AYYYY-MM-DD&f=live`
+runs the list through X's own search with a date window; each window stalls after ~20–40 posts, so
+walk back one week at a time (R&D keywords, component keywords, model/company names as three passes).
+`javascript_tool` truncates results near 1.5 KB and refuses any text containing `=`/`&`/`?` as
+"query-string data", and x.com's CSP blocks `fetch` to localhost — so dump the harvest into the page:
+encode those three characters, write the JSON lines into a prepended `<article id="__dump">`, hide
+`#react-root`, read it with `get_page_text` (which picks the first visible `<article>`), then restore.
+One window per `browser_batch`, and append each window's leads to a file before the next: a dropped
+connection mid-batch loses every window in it. Working script and this run's leads are in
+`data/research/rd-2026-10-26/x-list-leads.md`.
+
 ## Step 4 — Report
 
 Report: per-source counts, new date range, any scraper bug found+fixed, validate result, and a
