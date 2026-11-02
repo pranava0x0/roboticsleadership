@@ -80,7 +80,9 @@
     "source_url": "https://www.humanoidsdaily.com/news/meta-fourier-max-humanoid-prototype",
     "summary": "Citing The Information: built in about three months, roughly 1.5 m tall and 48 kg, on NVIDIA Jetson Thor, with Max 2 started in September. Meta says it is internal research with no plans to sell.",
     "category": "Competitive",
-    "companies": [],
+    "companies": [
+      "fourier-intelligence"
+    ],
     "policies": [],
     "themes": [
       "physical-ai",
