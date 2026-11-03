@@ -9,7 +9,7 @@
 // Budget: no page above 10 screens on desktop or 15 on a phone, except where a page's own
 // backlog entry says otherwise. Append results to data/metrics/uat-scroll.jsonl.
 window.__uat = async (W, H) => {
-  const pages = ['index', 'news', 'companies', 'policies', 'supply-chain', 'china', 'energy'];
+  const pages = ['index', 'news', 'companies', 'policies', 'supply-chain', 'china', 'energy', 'rd', 'scsp-summit', 'section-232-robotics'];
   const out = [];
   for (const p of pages) {
     const f = document.createElement('iframe');

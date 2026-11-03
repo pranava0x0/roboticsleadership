@@ -431,7 +431,7 @@
         ],
         "url": "https://www.businesswire.com/news/home/20260624555633/en/Agility-Robotics-to-Go-Public-Through-$2.5-Billion-Merger-with-Churchill-Capital-Corp-XI",
         "confidence": "reported",
-        "notes": "Announced transaction expects more than $620M in proceeds, subject to closing and redemptions; not completed financing as of October 26, 2026."
+        "notes": "Announced June 2026 with more than $620M in expected proceeds; the estimate fell to about $465M gross (about $164M trust, about $201M Foxconn-led PIPE, $100M already received). Shareholders approved on 2026-11-02; closing expected 2026-11-04 and Nasdaq trading as AGLT 2026-11-05. Not a completed financing until it closes."
       }
     ],
     "total_funding_usd": null,
@@ -546,9 +546,10 @@
       },
       {
         "url": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations"
-      }
+      },
+      "https://www.sec.gov/Archives/edgar/data/0002074973/000121390026115038/ea031051701ex99-1.htm"
     ],
-    "last_updated": "2026-10-26",
+    "last_updated": "2026-11-03",
     "themes": [
       "cost-trajectory",
       "industrial-deployments",
@@ -559,7 +560,7 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Agility remains private pending its announced merger with Churchill Capital Corp XI. Its Form S-4 became effective October 13, 2026; the shareholder vote is scheduled for November 2 and closing is expected in Q4 2026. The announced $2.5B transaction valuation is not a closed public-market valuation. latest_valuation_usd retains the reported $2.12B Series C valuation. The listed $150M Series B and reported $400M Series C sum to $550M, excluding proposed $620M-plus merger proceeds; these records do not establish lifetime funding, so total_funding_usd is unknown. Agility’s October 26 release reports over 65,000 operating hours. GXO’s two additional US sites are planned for early 2027; Digit 5 early access is expected in the first half of 2027 and general availability by year end.\n\nAnalyst & Investor Day (2026-10-06) disclosed Digit 5 unit economics: illustrative $200,000 robot purchase price, $20,000 deployment fee, $36,000/yr software-and-maintenance — roughly $400,000 five-year cost per robot. Digit 4's BOM was ~$125,000 (already disclosed in the SPAC Form S-4); Digit 5 launch BOM is ~$150,000, targeted to fall to ~$75,000 at 1,000 robots/year and ~$30,000 at 10,000/year, with a targeted 70% product margin over five years. Agility’s October 26 release says the $300M-plus order value depends on milestones, product features and specifications; it is not current-period revenue.",
+      "details": "Agility remains private until its merger closes (expected November 4, 2026) with Churchill Capital Corp XI. Its Form S-4 became effective October 13, 2026; shareholders approved the deal on November 2. The announced $2.5B transaction valuation is not a closed public-market valuation. latest_valuation_usd retains the reported $2.12B Series C valuation. The listed $150M Series B and reported $400M Series C sum to $550M, excluding proposed $620M-plus merger proceeds; these records do not establish lifetime funding, so total_funding_usd is unknown. Agility’s October 26 release reports over 65,000 operating hours. GXO’s two additional US sites are planned for early 2027; Digit 5 early access is expected in the first half of 2027 and general availability by year end.\n\nAnalyst & Investor Day (2026-10-06) disclosed Digit 5 unit economics: illustrative $200,000 robot purchase price, $20,000 deployment fee, $36,000/yr software-and-maintenance — roughly $400,000 five-year cost per robot. Digit 4's BOM was ~$125,000 (already disclosed in the SPAC Form S-4); Digit 5 launch BOM is ~$150,000, targeted to fall to ~$75,000 at 1,000 robots/year and ~$30,000 at 10,000/year, with a targeted 70% product margin over five years. Agility’s October 26 release says the $300M-plus order value depends on milestones, product features and specifications; it is not current-period revenue.",
       "sources": [
         {
           "url": "https://www.geekwire.com/2025/agility-robotics-reportedly-raising-400m-for-humanoid-warehouse-robots/"
@@ -10380,5 +10381,55 @@
       "foundation-models"
     ],
     "map_category": "brains"
+  },
+  {
+    "id": "tutor-intelligence",
+    "name": "Tutor Intelligence",
+    "founded": "2021",
+    "hq": {
+      "city": "Watertown",
+      "state": "MA",
+      "country": "United States"
+    },
+    "website": "https://www.tutorintelligence.com",
+    "funding_rounds": [
+      {
+        "date": "2026-11",
+        "round": "Series B",
+        "amount_usd": 75000000,
+        "valuation_usd": null,
+        "investors": [
+          "Andreessen Horowitz (reported lead)"
+        ],
+        "url": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/",
+        "confidence": "reported",
+        "notes": "Amount and lead confirmed by two reads of the Robot Report article and an X post (2026-11-02). Total raised $117M; expects over 1,000 robots under contract by end-2027."
+      }
+    ],
+    "total_funding_usd": 117000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "picking arms"
+    ],
+    "primary_use_case": "Warehouse and factory picking with fleet-shared models",
+    "flagship_product": null,
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "warehouse",
+      "mit-csail"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/"
+    ],
+    "last_updated": "2026-11-03",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "map_category": "industrial"
   }
 ]
