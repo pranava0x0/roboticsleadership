@@ -429,9 +429,9 @@
           "Churchill Capital Corp XI",
           "Foxconn (PIPE)"
         ],
-        "url": "https://www.businesswire.com/news/home/20260624555633/en/Agility-Robotics-to-Go-Public-Through-$2.5-Billion-Merger-with-Churchill-Capital-Corp-XI",
+        "url": "https://www.sec.gov/Archives/edgar/data/0002074973/000121390026115038/ea031051701ex99-1.htm",
         "confidence": "reported",
-        "notes": "Announced transaction expects more than $620M in proceeds, subject to closing and redemptions; not completed financing as of October 26, 2026."
+        "notes": "Announced transaction expects more than $620M in proceeds, subject to closing and redemptions; not completed financing as of October 26, 2026. Shareholders approved on 2026-11-02; closing expected 2026-11-04, Nasdaq trading as AGLT expected 2026-11-05 (about $465M gross capital expected)."
       }
     ],
     "total_funding_usd": null,
@@ -546,9 +546,10 @@
       },
       {
         "url": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations"
-      }
+      },
+      "https://www.sec.gov/Archives/edgar/data/0002074973/000121390026115038/ea031051701ex99-1.htm"
     ],
-    "last_updated": "2026-10-26",
+    "last_updated": "2026-11-03",
     "themes": [
       "cost-trajectory",
       "industrial-deployments",
@@ -10380,5 +10381,55 @@
       "foundation-models"
     ],
     "map_category": "brains"
+  },
+  {
+    "id": "tutor-intelligence",
+    "name": "Tutor Intelligence",
+    "founded": "2021",
+    "hq": {
+      "city": "Watertown",
+      "state": "MA",
+      "country": "United States"
+    },
+    "website": "https://www.tutorintelligence.com",
+    "funding_rounds": [
+      {
+        "date": "2026-11",
+        "round": "Series B",
+        "amount_usd": 75000000,
+        "valuation_usd": null,
+        "investors": [
+          "Andreessen Horowitz (reported lead)"
+        ],
+        "url": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/",
+        "confidence": "reported",
+        "notes": "Amount and lead confirmed by two reads of the Robot Report article and an X post (2026-11-02). Total raised $117M; expects over 1,000 robots under contract by end-2027."
+      }
+    ],
+    "total_funding_usd": 117000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "picking arms"
+    ],
+    "primary_use_case": "Warehouse and factory picking with fleet-shared models",
+    "flagship_product": null,
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "warehouse",
+      "mit-csail"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/"
+    ],
+    "last_updated": "2026-11-03",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "map_category": "industrial"
   }
 ]

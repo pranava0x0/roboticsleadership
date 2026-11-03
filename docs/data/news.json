@@ -1,5 +1,289 @@
 [
   {
+    "id": "genrobot-series-a-plus-2026-11",
+    "title": "GenRobot AI raises $100M Series A+ for robot-training data",
+    "date": "2026-11-02",
+    "source": "TechNode",
+    "source_type": "News",
+    "source_url": "https://technode.com/2026/11/02/robot-training-data-startup-genrobot-ai-raises-100-million-in-series-a-funding/",
+    "summary": "The Beijing company sells hardware and software that record human demonstrations, plus a platform called Matrix that labels the data for robot developers. The round closed in Q3 and was disclosed Nov 2. Investors include SAIC Motor, Baidu, Shoucheng Holdings, GL Ventures and CITIC Goldstone.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "series-a",
+      "data",
+      "beijing"
+    ]
+  },
+  {
+    "id": "armatrix-seed-2026-11",
+    "title": "Armatrix opens a Rs 67 crore seed round led by Crane Venture Partners",
+    "date": "2026-11-03",
+    "source": "Entrackr",
+    "source_type": "News",
+    "source_url": "https://entrackr.com/exclusive/exclusive-armatrix-kicks-off-rs-67-cr-seed-round-at-48x-valuation-premium-12778409",
+    "summary": "The Indian startup makes snake-like robotic arms for inspection and maintenance in tight industrial spaces such as shipbuilding, nuclear and aviation. Entrackr reports Crane put in Rs 40 crore and more tranches may follow. The valuation is Entrackr's estimate, and the company was pre-revenue in FY26.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Low",
+    "tags": [
+      "seed",
+      "india",
+      "inspection"
+    ]
+  },
+  {
+    "id": "amicro-hk-ipo-2026-11",
+    "title": "Amicro, a robot-vacuum navigation chip supplier, sets a Hong Kong IPO for Nov 12",
+    "date": "2026-11-03",
+    "source": "TechNode",
+    "source_type": "News",
+    "source_url": "https://technode.com/2026/11/03/amicro-robot-vacuum-navigation-hong-kong-ipo/",
+    "summary": "The Zhuhai company reports about RMB 407M revenue and a RMB 155M net loss for 2025. About 70% of proceeds will go to hardware, software and robot AI chips. Customers include Xiaomi, iRobot, Ecovacs and Anker.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "ipo",
+      "hong-kong",
+      "chips"
+    ]
+  },
+  {
+    "id": "wybot-hk-ipo-2026-11",
+    "title": "Wybot gets a CSRC filing notice for a Hong Kong IPO of up to 12.69M shares",
+    "date": "2026-11-03",
+    "source": "36Kr",
+    "source_type": "News",
+    "source_url": "https://eu.36kr.com/en/p/4053486690096776",
+    "summary": "The pool-robot maker received its overseas-listing notice on Oct 30. Revenue rose from RMB 378M in 2023 to RMB 812M in 2025. CIC Insights puts its 2024 global pool-robot share at about 9.2%.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "ipo",
+      "hong-kong",
+      "pool-robot"
+    ]
+  },
+  {
+    "id": "china-humanoid-rental-prices-2026-11",
+    "title": "36Kr: humanoid rental prices fall 70-90%, and about 65% of one platform's orders are one-time shows",
+    "date": "2026-11-03",
+    "source": "36Kr",
+    "source_type": "Analysis",
+    "source_url": "https://eu.36kr.com/en/p/4053494364378244",
+    "summary": "Full-package humanoid rental is now RMB 3,000-6,000 a day. The article says China shipped over 40,000 humanoids in H1 2026 against 14,400 in all of 2025, and that most use is promotional. It names vacancy and local subsidies as the main risks for leasing firms.",
+    "category": "Deployment",
+    "companies": [
+      "agibot"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rental",
+      "leasing",
+      "china"
+    ]
+  },
+  {
+    "id": "mount-tai-robot-climb-2026-11",
+    "title": "Robots from 50+ teams race up Mount Tai in China's first mountain climbing contest",
+    "date": "2026-11-03",
+    "source": "TechNode",
+    "source_type": "News",
+    "source_url": "https://technode.com/2026/11/03/robots-climb-mount-tai-in-chinas-first-major-mountain-challenge/",
+    "summary": "The 3.9 km course had over 3,100 steps and about 600 m of climb. A Unitree subsidiary's legged robot won the legged race in 43 min 41 s, and Zhishen Lingyue won the humanoid race in 27 min 26 s on a shortened course.",
+    "category": "Competitive",
+    "companies": [
+      "unitree"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "competition",
+      "legged",
+      "humanoid"
+    ]
+  },
+  {
+    "id": "deep-robotics-hangzhou-marathon-2026-11",
+    "title": "DEEP Robotics humanoids watch traffic at the Hangzhou Marathon",
+    "date": "2026-11-02",
+    "source": "Hangzhou government portal",
+    "source_type": "Government",
+    "source_url": "https://www.ehangzhou.gov.cn/2026-11/02/c_299511.htm",
+    "summary": "The Hangxing No.2 robot, built on the 178 cm DR02 humanoid with local traffic authorities, monitored intersections and warned of violations at a race of 36,000 runners. The reports give no intervention counts or accuracy figures.",
+    "category": "Deployment",
+    "companies": [
+      "deep-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "traffic",
+      "humanoid",
+      "hangzhou"
+    ]
+  },
+  {
+    "id": "tesla-optimus-reservations-report-2026-10",
+    "title": "Report says Tesla will open Optimus reservations in early December; Musk replies 'No'",
+    "date": "2026-10-30",
+    "source": "San Francisco Standard",
+    "source_type": "News",
+    "source_url": "https://sfstandard.com/2026/10/30/tesla-optimus-robot-waitlist/",
+    "summary": "The report cites Humanoids Summit founder Modar Alaoui, who says Tesla told him reservations would open around the Dec 1-2 summit, with most robots going to businesses. Musk answered 'No' on X. Tesla has not confirmed any timing, fee or price.",
+    "category": "Competitive",
+    "companies": [
+      "tesla-optimus"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "optimus",
+      "reservations",
+      "rumor"
+    ]
+  },
+  {
+    "id": "tutor-series-b-2026-11",
+    "title": "Tutor Intelligence raises a $75M Series B led by a16z",
+    "date": "2026-11-02",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/",
+    "summary": "The Watertown, Mass. warehouse-robot company, spun out of MIT in 2021, has raised $117M in total. Customers pay by the hour or the pick, remote operators assist the robots, and the company expects over 1,000 robots under contract by end-2027. Amount and a16z lead are confirmed by two independent reads (a sweep of the Robot Report article and a post on X).",
+    "category": "Funding",
+    "companies": [
+      "tutor-intelligence"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "series-b",
+      "a16z",
+      "warehouse"
+    ]
+  },
+  {
+    "id": "agility-spac-vote-2026-11",
+    "title": "Churchill Capital XI shareholders approve the Agility Robotics merger; closing expected Nov 4",
+    "date": "2026-11-02",
+    "source": "Churchill Capital Corp XI (SEC filing)",
+    "source_type": "Primary",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0002074973/000121390026115038/ea031051701ex99-1.htm",
+    "summary": "More than 84% of votes cast favored the deal at the Nov 2 special meeting. Churchill expects the merger and PIPE to close on Nov 4, with Agility trading on Nasdaq as AGLT from Nov 5. About $465M in gross capital is expected: roughly $164M from the trust, about $201M from a Foxconn-led PIPE and $100M already received.",
+    "category": "Funding",
+    "companies": [
+      "agility-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "spac",
+      "nasdaq",
+      "humanoid",
+      "foxconn"
+    ]
+  },
+  {
+    "id": "gac-pony-t9-robotruck-2026-10",
+    "title": "GAC rolls out its first mass-production T9 robotrucks with Pony.ai's Level 4 system",
+    "date": "2026-10-29",
+    "source": "Asia Tech News",
+    "source_type": "News",
+    "source_url": "https://asia-tech-news.ghost.io/gac-starts-mass-producing-level-4-pony-ai-robotrucks/",
+    "summary": "The first trucks came off the line in Guangzhou on Oct 29. No count or buyer was reported. Road tests are planned for 2027 with hundreds of trucks in use, and sales or leasing may follow in 2028-2029. Pony.ai's first-half robotruck revenue rose 36% to US$23.5M.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "robotruck",
+      "l4",
+      "guangzhou",
+      "pony-ai"
+    ]
+  },
+  {
+    "id": "neodradynamics-neo1-2026-10",
+    "title": "NeodraDynamics shows a 4 m hydraulic humanoid, Neo1, it says carries 500 kg",
+    "date": "2026-10-30",
+    "source": "The Independent",
+    "source_type": "News",
+    "source_url": "https://www.the-independent.com/tech/china-robot-humanoid-neodradynamics-neo1-ai-b3074374.html",
+    "summary": "The Beijing startup unveiled the 1.2-tonne Neo1 at the China International Industry Fair, aimed at heavy assembly, mining and disaster debris. Payload and precision figures are the company's claims; no independent test or customer was reported.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "humanoid",
+      "hydraulic",
+      "beijing"
+    ]
+  },
+  {
     "id": "lightberry-fcc-exemption-2026-11",
     "title": "Lightberry’s Unitree-based Lumi humanoid gets a conditional exemption from the FCC foreign-robot Covered List",
     "date": "2026-11-02",

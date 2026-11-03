@@ -83,9 +83,11 @@
       <a href="#agenda">Agenda</a><a href="#report">Commission report</a><a href="#themes">Themes</a><a href="#speakers">Speakers</a><a href="#org-news">Company news</a><a href="#posts">Recent posts</a><a href="#hill">The Hill</a><a href="#notes">Session notes</a><a href="#context">Policy context</a>
     </nav>
 
-    <h2 class="section-title rule" id="agenda">Agenda</h2>
-    <p class="muted">All times ET. SCSP notes titles and times were subject to change. Tap a name for the bio.</p>
-    <ol class="summit-agenda" id="agenda-list"></ol>
+    <details class="collapsible-section" id="agenda">
+      <summary><h2 class="section-title rule">Agenda</h2></summary>
+      <p class="muted">All times ET. SCSP notes titles and times were subject to change. Tap a name for the bio.</p>
+      <ol class="summit-agenda" id="agenda-list"></ol>
+    </details>
 
     <h2 class="section-title rule" id="report">The commission's preliminary report</h2>
     <p class="muted" id="report-meta">Loading…</p>
@@ -112,7 +114,8 @@
     <p class="muted">Drawn from the agenda and the Commission's preliminary report released the day before.</p>
     <div class="card-grid cols-3" id="theme-grid"></div>
 
-    <h2 class="section-title rule" id="speakers">Speakers &amp; moderators</h2>
+    <details class="collapsible-section" id="speakers">
+      <summary><h2 class="section-title rule">Speakers &amp; moderators</h2></summary>
     <div class="summit-filter">
       <label for="speaker-q" class="muted">Filter</label>
       <input id="speaker-q" type="search" placeholder="Name, org, or topic" autocomplete="off" />
@@ -121,13 +124,18 @@
     </div>
     <div class="card-grid" id="speaker-grid"></div>
 
+    </details>
+
     <h2 class="section-title rule" id="org-news">Recent news from the organizations on stage</h2>
     <p class="muted">Primarily Jul–Oct 2026. "Site record" links open the tracker's own entry.</p>
     <div id="org-list"></div>
 
-    <h2 class="section-title rule" id="posts">Recent posts</h2>
+    <details class="collapsible-section" id="posts">
+      <summary><h2 class="section-title rule">Recent posts</h2></summary>
     <p class="muted">From X and Bluesky. Summaries are paraphrased; follow the link for the original.</p>
     <ul class="summit-posts" id="post-list"></ul>
+
+    </details>
 
     <h2 class="section-title rule" id="hill">The Hill's robotics agenda</h2>
     <p class="muted" id="hill-note"></p>
@@ -138,8 +146,10 @@
     <p class="muted">Paraphrased from live notes, not transcripts, and checked against public sources. Each claim shows what the check found.</p>
     <div id="notes-list"></div>
 
-    <h2 class="section-title rule" id="context">Policy context</h2>
-    <div id="context-body"></div>
+    <details class="collapsible-section" id="context">
+      <summary><h2 class="section-title rule">Policy context</h2></summary>
+      <div id="context-body"></div>
+    </details>
   </main>
 
   <footer class="site-footer">
@@ -390,5 +400,6 @@
     }
   });
   </script>
+  <script>(function(){var was=[];window.addEventListener("beforeprint",function(){was=[];document.querySelectorAll("details.collapsible-section").forEach(function(d){was.push([d,d.open]);d.open=true;});});window.addEventListener("afterprint",function(){was.forEach(function(w){w[0].open=w[1];});was=[];});})();</script>
 </body>
 </html>
