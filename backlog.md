@@ -529,3 +529,4 @@ The report breaks industrial robotics down by *application* — a lens we don't 
 
 - (2026-11-02, medium) Add a "conditional approvals" list to the FCC Covered List policy record: Lightberry Lumi (Unitree-based), ARAPL, ATI Motors, SunScout, Swap Robotics, OMRON, plus Anscer and Intel's waiver, so the exemption pattern (onshoring plan, revocable, no end date) can be read at a glance.
 - (2026-11-02, low) Tesla Optimus reservations "early December" (Humanoids Summit founder via SF Standard) and Meta/Fourier "Max" rest on single reports; promote only with a primary.
+- [ ] **(low) 2026-11-04:** Agility/Churchill XI close (expected Nov 4, AGLT trading Nov 5) is unconfirmed after the vote; update the Agility company record and news once an 8-K confirms. Also confirm ISO 21423:2026 scope from iso.org (Cloudflare-blocked today).

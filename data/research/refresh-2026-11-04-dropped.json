@@ -1,0 +1,249 @@
+{
+ "date": "2026-11-04",
+ "kept": [
+  "iso-21423-mobile-robot-interoperability-2026-11"
+ ],
+ "note": "48 news and 4 new policy candidates. Dropped: off-topic HN noise, duplicates of curated records (Agility vote, GenRobot, Formic, Tutor, Section 232 FR notice), and out-of-scope policy (CPSC flammability, ultra-wideband petition, DMCA exemptions, PRB membership).",
+ "dropped": [
+  {
+   "id": "fedreg-news-2026-22337",
+   "title": "Unleashing the Power of Unlicensed Ultra-Wideband Devices; Petition of Robert Bosch LLC for Amendment of the Part 15 Subpart F Ultra-Wideband Rules; and Petition of Alliance for Automative Innovation et al. To Amend Part 15 of the FCC's Rules To Permit the Operation of Certain Ultra-Wideband Devices",
+   "url": "https://www.federalregister.gov/documents/2026/11/02/2026-22337/unleashing-the-power-of-unlicensed-ultra-wideband-devices-petition-of-robert-bosch-llc-for-amendment"
+  },
+  {
+   "id": "fedreg-news-2026-22385",
+   "title": "Adjusting Imports of Robotics, Industrial Machinery, and Their Parts and Components Into the United States",
+   "url": "https://www.federalregister.gov/documents/2026/11/02/2026-22385/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united"
+  },
+  {
+   "id": "hn-50317261",
+   "title": "Hans Moravec was right about AI. Is he right about the fate of humanity?",
+   "url": "https://www.msn.com/en-us/science/general/hans-moravec-was-right-about-ai-is-he-right-about-the-fate-of-humanity/ar-AA28ALzg"
+  },
+  {
+   "id": "hn-50323576",
+   "title": "The Brutal Harvard Class That Suddenly Everyone Wants to Take",
+   "url": "https://www.wsj.com/lifestyle/harvard-class-humanities-32e06366"
+  },
+  {
+   "id": "hn-50325398",
+   "title": "A 90% Chance of AI Saving Humanity",
+   "url": "https://joshbocanegra.medium.com/a-90-chance-of-ai-saving-humanity-bf12fb7914ee"
+  },
+  {
+   "id": "hn-50326000",
+   "title": "Opt out of AI use at work based on religious freedoms law",
+   "url": "https://fortune.com/2026/10/30/kentucky-administrator-ai-religious-exemption-title-vii-humanism/"
+  },
+  {
+   "id": "hn-50330334",
+   "title": "Manna: Two Views of Humanity's Future by Marshall Brain (2003)",
+   "url": "https://james.darpinian.com/manna"
+  },
+  {
+   "id": "hn-50316103",
+   "title": "Retired professor arrested for blocking delivery robot. Will do it again",
+   "url": "https://www.cnn.com/2026/10/31/us/philadelphia-woman-delivery-robots-cec"
+  },
+  {
+   "id": "hn-50320660",
+   "title": "Show HN: Playground for Designing Buildable Robotics",
+   "url": "https://github.com/JamelHammoud/basecase"
+  },
+  {
+   "id": "hn-50323498",
+   "title": "Show HN: Dolly – A Tribute to \"The Birth and Death of JavaScript\"",
+   "url": "https://slopshare.dev/v0.1.4/"
+  },
+  {
+   "id": "hn-50323694",
+   "title": "Show HN: Geop – Open-source Nurbs CAD with MCP (MicroDuck example)",
+   "url": "https://app.geop-cad.dev/?example=duck"
+  },
+  {
+   "id": "hn-50325982",
+   "title": "Sadiq Khan calls for cap on numbers of robotaxis on London streets",
+   "url": "https://www.theguardian.com/technology/2026/nov/01/sadiq-khan-calls-cap-numbers-robotaxis-london-streets"
+  },
+  {
+   "id": "hn-50326597",
+   "title": "Soft robot helps doctors diagnose and treat disorders of the small intestine",
+   "url": "https://news.mit.edu/2026/soft-robot-could-help-doctors-diagnose-treat-small-intestine-disorders-1028"
+  },
+  {
+   "id": "hn-50326639",
+   "title": "The Law of Leaky Abstractions, 24 Years Later: Robots and Coding Agents",
+   "url": "https://whattotelltherobot.com/p/the-law-of-leaky-abstractions-and"
+  },
+  {
+   "id": "hn-50327831",
+   "title": "DIY AI Lockpicking Robot: ESP32 and Claude AI Opens Any Lock [video]",
+   "url": "https://www.youtube.com/watch?v=o4AUKGdScNI"
+  },
+  {
+   "id": "hn-50329552",
+   "title": "Copper is an operating system for robots",
+   "url": "https://github.com/copper-project/copper-rs"
+  },
+  {
+   "id": "hn-50333010",
+   "title": "Intel trials open robotics architecture with SAP in Chinese demo",
+   "url": "https://www.sdxcentral.com/news/intel-trials-open-robotics-architecture-with-sap-in-chinese-demo/"
+  },
+  {
+   "id": "hn-50334212",
+   "title": "Experience is the prompt: a robot model that learns new tasks in context",
+   "url": "https://www.ccmtrx.com/research/co01/https://www.ccmtrx.com/research/co01/"
+  },
+  {
+   "id": "hn-50335493",
+   "title": "Show HN: Disable ACR on Sony Bravia TV's Without Rooting",
+   "url": "https://github.com/joelio/bravia-guard"
+  },
+  {
+   "id": "hn-50340970",
+   "title": "Linux Kernel TCP Flaw Rated 9.8 Gets a Remote-Root Exploit from an AI Model",
+   "url": "https://securityboulevard.com/2026/11/linux-kernel-tcp-flaw-rated-9-8-gets-a-remote-root-exploit-from-an-ai-model/"
+  },
+  {
+   "id": "hn-50341004",
+   "title": "Google, OpenAI, Microsoft, and Anthropic back a shared robots.txt",
+   "url": "https://coywolf.com/news/seo/google-openai-microsoft-and-anthropic-back-a-shared-robotstxt-ai-training-signal/"
+  },
+  {
+   "id": "hn-50341649",
+   "title": "Show HN: Mago, an open source AI video studio, runs locally with Comfy",
+   "url": "https://github.com/MagoStudio/MagoStudio"
+  },
+  {
+   "id": "hn-50342759",
+   "title": "I made it easy to see how well robotics models acutally work",
+   "url": "https://playground.blupe.io"
+  },
+  {
+   "id": "hn-50345968",
+   "title": "From Words to Waypoints: Teaching a Small LLM to Plan for Robots",
+   "url": "https://www.daweisun.me/blog/stl-planning-rl/"
+  },
+  {
+   "id": "hn-50346687",
+   "title": "Deploying robots into the real world with Tutor (a16z podcast) [video]",
+   "url": "https://www.youtube.com/watch?v=lXkjXSul6yg"
+  },
+  {
+   "id": "hn-50349695",
+   "title": "Hackers claim to have stolen 23TB of data from Russian statistics body",
+   "url": "https://www.tomshardware.com/tech-industry/cyber-security/hackers-claim-to-have-stolen-23tb-of-data-from-russian-statistics-body-including-ukraine-war-casualty-figures-russian-federal-state-statistics-service-admits-its-servers-were-hit-by-coordinated-cyberattacks"
+  },
+  {
+   "id": "hn-50351745",
+   "title": "Moral Crumple Zones: Cautionary Tales in Human-Robot Interaction",
+   "url": "https://estsjournal.org/index.php/ests/article/view/260"
+  },
+  {
+   "id": "hn-50352557",
+   "title": "Rooting an Echo Plus 2 with AI",
+   "url": "https://blog.tripton.dev/rooting-an-echo-plus-2-with-ai/"
+  },
+  {
+   "id": "hn-50352791",
+   "title": "British Library Legal deposit and web archiving",
+   "url": "https://www.bl.uk/services/legal-deposit/web-archiving"
+  },
+  {
+   "id": "hn-50353293",
+   "title": "GIJN Guide to Investigating Foreign Lobbying",
+   "url": "https://gijn.org/resource/guide-investigating-foreign-lobbying/"
+  },
+  {
+   "id": "hn-50354186",
+   "title": "Researchers warn secret \"trigger words\" can make hacked AI robots attack people",
+   "url": "https://www.dexerto.com/entertainment/researchers-warn-secret-trigger-words-can-make-hacked-ai-robots-turn-on-people-and-attack-them-3424454/"
+  },
+  {
+   "id": "hn-50354358",
+   "title": "Stringman, an $800 open-source room scale gripper robot",
+   "url": "https://neufangled.com/"
+  },
+  {
+   "id": "hn-50355217",
+   "title": "Apple HomeView Ultra, drone and laundry-folding robot reportedly in development",
+   "url": "https://www.notebookcheck.net/Apple-HomeView-Ultra-drone-and-laundry-folding-robot-reportedly-in-development.1440401.0.html"
+  },
+  {
+   "id": "hn-50357137",
+   "title": "Show HN: A framework for Raspberry Pi pico projects",
+   "url": "https://github.com/AdrianCX/picohive-firmware"
+  },
+  {
+   "id": "hn-50359263",
+   "title": "Infineon Targets Semiconductor Market for Humanoid Robotic Hands",
+   "url": "https://www.thelec.net/news/articleView.html?idxno=14713"
+  },
+  {
+   "id": "hn-50360540",
+   "title": "Why GPT-6 Astra is suddenly so good at robotics",
+   "url": "https://twitter.com/josefchen/status/2117749992420946241"
+  },
+  {
+   "id": "hn-50360700",
+   "title": "A $300 Robot That Fetches a Ball and Brings It Back, All on Its Own",
+   "url": "https://www.gadgetreview.com/a-300-robot-that-fetches-a-ball-and-brings-it-back-all-on-its-own"
+  },
+  {
+   "id": "rss-unusual-robotic-animals-can-pr-863",
+   "title": "Unusual robotic animals can prove their utility",
+   "url": "https://www.therobotreport.com/unusual-robotic-animals-can-prove-their-utility/"
+  },
+  {
+   "id": "rss-solving-the-interconnect-chall-405",
+   "title": "Solving the Interconnect Challenge in Modern Robotics: How 3M Is Engineering for Motion, Density, and Uptime",
+   "url": "https://www.therobotreport.com/solving-the-interconnect-challenge-in-modern-robotics-how-3m-is-engineering-for-motion-density-and-uptime/"
+  },
+  {
+   "id": "rss-why-physical-ai-is-the-next-lu-40",
+   "title": "Why physical AI is the next lucrative frontier",
+   "url": "https://www.therobotreport.com/why-physical-ai-next-lucrative-frontier/"
+  },
+  {
+   "id": "rss-28-zero-day-findings-in-less-t-525",
+   "title": "28 Zero-Day Findings in Less Than Two Days: What AI-Speed Discovery Means for Robotics",
+   "url": "https://www.therobotreport.com/28-zero-day-findings-in-less-than-two-days-what-ai-speed-discovery-means-for-robotics/"
+  },
+  {
+   "id": "rss-what-agtech-founders-get-wrong-703",
+   "title": "What AgTech founders get wrong about ROI",
+   "url": "https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/"
+  },
+  {
+   "id": "rss-top-10-robotics-developments-o-367",
+   "title": "Top 10 robotics developments of October 2026",
+   "url": "https://www.therobotreport.com/top-10-robotics-developments-october-2026/"
+  },
+  {
+   "id": "rss-gentherm-designs-thermaffyx-to-228",
+   "title": "Gentherm designs ThermAffyx to secure, heat patients during robotic surgeries",
+   "url": "https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/"
+  },
+  {
+   "id": "rss-churchill-capital-xi-sharehold-645",
+   "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
+   "url": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/"
+  },
+  {
+   "id": "rss-new-iso-interoperability-stand-262",
+   "title": "New ISO interoperability standard covers collaboration among mobile robots from multiple vendors",
+   "url": "https://www.therobotreport.com/new-iso-interoperability-standard-covers-collaboration-among-mobile-robots-from-multiple-vendors/"
+  },
+  {
+   "id": "rss-ben-waters-on-the-latest-wirel-488",
+   "title": "Ben Waters on the latest wireless charging strategies",
+   "url": "https://www.therobotreport.com/ben-waters-on-the-latest-wireless-charging-strategies/"
+  },
+  {
+   "id": "rss-2-days-till-techcrunch-founder-709",
+   "title": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big",
+   "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/"
+  }
+ ]
+}
