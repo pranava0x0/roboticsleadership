@@ -130,7 +130,9 @@
     "source_url": "https://www.humanoidsdaily.com/news/robocolosseum-robot-ai-benchmark-unitree-g1",
     "summary": "The benchmark offers 140+ real-world scenes and 10,000 free evaluation hours for academics; its humanoid category uses the Unitree G1. Hugging Face, BitRobot and the Singapore Embodied AI Centre are named participants.",
     "category": "Research",
-    "companies": [],
+    "companies": [
+      "unitree"
+    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",
