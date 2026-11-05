@@ -1,5 +1,320 @@
 [
   {
+    "id": "hn-50371899",
+    "title": "A Tale of Two Humanoid Makers: Agility and Unitree",
+    "date": "2026-11-04",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://read.corematter.com/p/agility-unitree-humanoid-financials-compared",
+    "summary": "A Tale of Two Humanoid Makers: Agility and Unitree",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50380458",
+    "title": "Realbotix Series 1 Humanoids",
+    "date": "2026-11-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.realbotix.com",
+    "summary": "Realbotix Series 1 Humanoids",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50380625",
+    "title": "Fonzi – Job board for problems to move humanity forward",
+    "date": "2026-11-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://talent.fonzi.ai/",
+    "summary": "Fonzi – Job board for problems to move humanity forward",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50371272",
+    "title": "Verne V0.5: U.S. Open-Weight SOTA Robotics Foundation Model",
+    "date": "2026-11-04",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://vernerobotics.com/research/verne-v0-5",
+    "summary": "Verne V0.5: U.S. Open-Weight SOTA Robotics Foundation Model",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50372929",
+    "title": "A thousand fewer paths to root",
+    "date": "2026-11-04",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+    "summary": "A thousand fewer paths to root",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50377870",
+    "title": "Robots with real-tissue muscle actuators achieve jumping, swimming and walking",
+    "date": "2026-11-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/10/one-small-leap-for-a-muscle-one-giant-step-for-robotics.html",
+    "summary": "Robots with real-tissue muscle actuators achieve jumping, swimming and walking",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50378130",
+    "title": "Less thought. More shipped (An overbuilt satire of the shipping economy)",
+    "date": "2026-11-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://shipslop.dev/",
+    "summary": "Less thought. More shipped (An overbuilt satire of the shipping economy)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50378548",
+    "title": "UK to deploy facial recognition in biggest-ever immigration crackdown",
+    "date": "2026-11-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/technology/2026/nov/04/uk-deploy-facial-recognition-biggest-ever-immigration-crackdown",
+    "summary": "UK to deploy facial recognition in biggest-ever immigration crackdown",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50378970",
+    "title": "The Tragedy of the Oxide Root of Trust",
+    "date": "2026-11-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://danielmangum.com/posts/tragedy-oxide-rot/",
+    "summary": "The Tragedy of the Oxide Root of Trust",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50379913",
+    "title": "Humble Robotics raises $51M to build autonomous electric self-driving truck",
+    "date": "2026-11-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.businessinsider.com/humble-robotics-raises-51-million-for-cabless-self-driving-trucks-2026-11",
+    "summary": "Humble Robotics raises $51M to build autonomous electric self-driving truck",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50382253",
+    "title": "Agility's Digit 5 humanoid robot will run on Nvidia as it heads for Nasdaq",
+    "date": "2026-11-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://thenextweb.com/news/agility-robotics-digit-5-nvidia-igx-thor",
+    "summary": "Agility's Digit 5 humanoid robot will run on Nvidia as it heads for Nasdaq",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-agility-robotics-begins-tradin-104",
+    "title": "Agility Robotics begins trading on Nasdaq",
+    "date": "2026-11-05",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/",
+    "summary": "Agility Robotics becomes the first U.S.-based legged humanoid company to be publicly listed.\nThe post Agility Robotics begins trading on Nasdaq appeared first on The Robot Report.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-chinese-regulators-block-softb-914",
+    "title": "Chinese regulators block SoftBank’s $5.4B acquisition of ABB Robotics",
+    "date": "2026-11-05",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/",
+    "summary": "Chinese authorities blocked the deal over concerns about robot data being transferred overseas and used to train AI models.\nThe post Chinese regulators block SoftBank’s $5.4B acquisition of ABB Roboti...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-how-ambi-robotics-helps-its-cu-46",
+    "title": "How Ambi Robotics helps its customers prepare for peak season",
+    "date": "2026-11-05",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-ambi-robotics-helps-customers-prepare-peak-season/",
+    "summary": "Ambi Robotics' co-founder and COO Stephen McKinley says the company is installing eight new systems at customer sites before peak season.\nThe post How Ambi Robotics helps its customers prepare for pea...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-agility-is-the-first-pure-huma-915",
+    "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+    "date": "2026-11-05",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+    "summary": "Agility arrives on the Nasdaq today as the first publicly traded pure-play humanoid robotics company.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-are-drone-ports-the-next-annoy-722",
+    "title": "Are Drone Ports the Next Annoying Tech Neighbor?",
+    "date": "2026-11-04",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/drone-delivery-noise",
+    "summary": "Rick and Marcia LeCompte loved to watch the Cooper’s hawks that frequented a sweet-gum tree in their yard in Baton Rouge, La. But this October, the hawks were gone. Marcia LeCompte is convinced the bi...",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-50357137",
     "title": "Show HN: A framework for Raspberry Pi pico projects",
     "date": "2026-11-03",
