@@ -1,5 +1,147 @@
 [
   {
+    "id": "verne-v0-5-open-weight-2026-11",
+    "title": "Verne Robotics releases V0.5, an open-weight world action model for industrial robots",
+    "date": "2026-11-04",
+    "source": "Verne Robotics",
+    "source_type": "Primary",
+    "source_url": "https://vernerobotics.com/research/verne-v0-5",
+    "summary": "Verne says V0.5 is the leading open-weight model from a US company on the LIBERO and RoboTwin 2.0 benchmarks and that new tasks can be learned from under two hours of demonstrations. Weights and code are on Hugging Face and GitHub. The benchmark and demo-time claims are the company's own.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "open-weight",
+      "foundation-model",
+      "us"
+    ]
+  },
+  {
+    "id": "xiaomi-humanoids-eight-hour-factory-2026-11",
+    "title": "Xiaomi shows two humanoids sorting car parts for eight hours at its factory",
+    "date": "2026-11-03",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/xiaomi-humanoids-eight-hour-auto-factory-sorting",
+    "summary": "Xiaomi released video of two humanoids sorting center-console side covers through an eight-hour task, and says they detect and correct anomalies and coordinate with the line system. No throughput or human-intervention figures were disclosed.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "xiaomi",
+      "humanoid",
+      "automotive",
+      "china"
+    ]
+  },
+  {
+    "id": "schaeffler-job-cuts-humanoid-orders-2026-11",
+    "title": "Schaeffler cuts 3,460 jobs in Europe and cites about EUR 400M of humanoid orders",
+    "date": "2026-11-03",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/schaeffler-job-cuts-europe-humanoid-robotics-growth",
+    "summary": "Schaeffler plans net 3,460 job cuts and five site closures in Europe, with a EUR 480M one-time cost and EUR 300M of annual savings by 2030, and names humanoid robotics and defense as growth areas. Humanoid incoming orders of about EUR 400M are orders, not revenue. The company release was not read.",
+    "category": "Supply Chain",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "schaeffler",
+      "actuators",
+      "europe"
+    ]
+  },
+  {
+    "id": "mabel-open-source-bimanual-nyu-2026-11",
+    "title": "NYU releases MABEL, an open-source mobile bimanual robot with an $8,056 parts list",
+    "date": "2026-11-05",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/mabel-open-source-mobile-bimanual-robot-nyu",
+    "summary": "NYU CREO's MABEL has 56 degrees of freedom and two 17-DOF ORCA hands; hardware is CERN-OHL-S-2.0 and software Apache-2.0. The paper compares its bill of materials with Mobile ALOHA at $32,000 and Galaxea R1 Pro at $70,000. The arXiv paper was not opened.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "open-source",
+      "bimanual",
+      "research"
+    ]
+  },
+  {
+    "id": "kist-kapex-korean-components-2026-11",
+    "title": "Korea's KIST KAPEX humanoid reportedly uses over 90% domestic core components",
+    "date": "2026-11-04",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/kist-kapex-humanoid-domestic-components-lg",
+    "summary": "Humanoids Daily, citing Seoul Economic Daily, says LG Electronics (platform), LG AI Research, LG Energy Solution (solid-state batteries) and Robostar (mass production) have roles in KAPEX, which walks with loads over 20 kg. It is a development effort, not a shipping product.",
+    "category": "Supply Chain",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "korea",
+      "humanoid",
+      "components"
+    ]
+  },
+  {
+    "id": "baidu-apollo-world-model-2026-11",
+    "title": "Baidu unveils Apollo World, a world model for training and testing robotaxis",
+    "date": "2026-11-03",
+    "source": "TechNode",
+    "source_type": "News",
+    "source_url": "https://technode.com/2026/11/04/baidu-launches-apollo-world-model-to-train-robotaxis-in-simulated-environments",
+    "summary": "Baidu says Apollo World simulates interactive road environments, already supports Apollo Go's global robotaxi development, and can generate up to 100,000 km of simulated driving a day. TechNode is relaying Reuters; the figures are Baidu's.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "baidu",
+      "autonomous-vehicles",
+      "world-model",
+      "china"
+    ]
+  },
+  {
+    "id": "robocolosseum-open-benchmark-unitree-2026-11",
+    "title": "RoboColosseum, an open real-world robot benchmark backed by Unitree, launches with 100+ robots",
+    "date": "2026-11-04",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/robocolosseum-robot-ai-benchmark-unitree-g1",
+    "summary": "The benchmark offers 140+ real-world scenes and 10,000 free evaluation hours for academics; its humanoid category uses the Unitree G1. Hugging Face, BitRobot and the Singapore Embodied AI Centre are named participants.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "benchmark",
+      "unitree",
+      "evaluation"
+    ]
+  },
+  {
     "id": "iso-21423-mobile-robot-interoperability-2026-11",
     "title": "ISO 21423:2026 sets an interoperability standard for mobile robots from different vendors",
     "date": "2026-11-03",
