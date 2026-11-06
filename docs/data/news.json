@@ -1,5 +1,130 @@
 [
   {
+    "id": "china-blocks-softbank-abb-robotics-2026-11",
+    "title": "China blocks SoftBank's $5.4B purchase of ABB Robotics, citing robot data leaving the country",
+    "date": "2026-11-05",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/",
+    "summary": "China's foreign-investment security review office prohibited the $5.375B deal, and ABB confirmed the decision to The Robot Report. The Financial Times, which first reported it, says regulators worried that robot data would be sent abroad to train AI models. ABB builds about 90% of the robots it sells in China at its Shanghai plant, and says it and SoftBank are still talking.",
+    "category": "Geopolitics",
+    "companies": [
+      "abb-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "sentiment": "Negative",
+    "confidence": "High",
+    "tags": [
+      "m-and-a",
+      "investment-review",
+      "data",
+      "china",
+      "softbank"
+    ]
+  },
+  {
+    "id": "agility-nasdaq-debut-aglt-2026-11",
+    "title": "Agility Robotics starts trading on Nasdaq as AGLT and closes its first day at $11.49",
+    "date": "2026-11-05",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/",
+    "summary": "The SPAC merger with Churchill Capital Corp XI closed on Nov. 4 with about $465M in gross proceeds: about $164M from the trust after redemptions, a $201M Foxconn-led PIPE and a $100M round. The stock opened at $11.26, against the $10 deal price, and closed at $11.49 on a day the Nasdaq fell 5.5%. Agility says Digit has logged more than 65,000 hours across nine customer sites.",
+    "category": "Funding",
+    "companies": [
+      "agility-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "humanoid",
+      "ipo",
+      "spac",
+      "public-markets"
+    ]
+  },
+  {
+    "id": "zipline-1-5b-21-5b-valuation-2026-11",
+    "title": "Zipline raises $1.5B at a $21.5B valuation as Walmart signs on for 300 more drone sites",
+    "date": "2026-11-05",
+    "source": "Bloomberg",
+    "source_type": "News",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-11-05/zipline-tops-21-billion-valuation-adds-300-walmart-drone-sites",
+    "summary": "Paradigm, WCM Investment Management and Layer Global led the round, which values Zipline at about 2.8 times its $7.6B valuation in January. Walmart signed a multiyear deal for 300 new delivery sites. DroneLife reports the money goes to U.S. manufacturing, hiring and delivery infrastructure.",
+    "category": "Funding",
+    "companies": [
+      "zipline"
+    ],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "drones",
+      "delivery",
+      "walmart",
+      "mega-round"
+    ]
+  },
+  {
+    "id": "toyota-robotics-unit-2027-2026-11",
+    "title": "Toyota will create Toyota Robotics, a company-wide robotics unit, on January 1, 2027",
+    "date": "2026-11-05",
+    "source": "Toyota",
+    "source_type": "Primary",
+    "source_url": "https://global.toyota/en/newsroom/corporate/44970123.html",
+    "summary": "Toyota calls robotics a key pillar of its future business and will put the unit under direct corporate oversight. Chief Production Officer Takefumi Shiga will lead it, pulling together robotics staff from across the company. Earnings-call coverage says robots go into Toyota's own plants first, with sales growth targeted from 2030.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "japan",
+      "automotive",
+      "corporate-strategy"
+    ]
+  },
+  {
+    "id": "serve-physical-ai-services-2026-11",
+    "title": "Serve Robotics starts selling its robot connectivity and data tools to other robot makers",
+    "date": "2026-11-05",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
+    "summary": "Announced with Q3 earnings, Physical AI Services has three products: Serve Link, which connects field robots to models in data centers; a tool that finds edge cases in robot data; and a data catalog from Serve's sidewalk fleet. Bedrock Robotics is a customer, and Serve is working with T-Mobile on edge compute.",
+    "category": "Competitive",
+    "companies": [
+      "serve-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "sidewalk-delivery",
+      "data",
+      "cloud",
+      "public-markets"
+    ]
+  },
+  {
     "id": "verne-v0-5-open-weight-2026-11",
     "title": "Verne Robotics releases V0.5, an open-weight world action model for industrial robots",
     "date": "2026-11-04",

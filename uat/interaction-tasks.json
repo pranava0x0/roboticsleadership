@@ -382,7 +382,7 @@
     ],
     [
      "see",
-     "#rd-models-table tbody tr[id]"
+     "#rd-models .rd-models-group[open] tbody tr[id]"
     ]
    ]
   },

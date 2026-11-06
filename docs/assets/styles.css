@@ -2065,10 +2065,15 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
   border: 1px solid var(--border);
   border-radius: var(--radius-card);
   background: var(--surface);
-  padding: 14px 16px;
-  margin: 0 0 16px;
+  padding: 0 16px;
+  margin: 0 0 10px;
   min-width: 0;
 }
+.rd-bench[open] { padding-bottom: 14px; }
+.rd-bench > summary { cursor: pointer; min-height: 44px; padding: 10px 0; }
+.rd-bench > summary .rd-h3 { display: inline; }
+.rd-bench > summary .rd-bench-meta { margin-top: 6px; }
+.rd-bench > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .rd-bench .rd-h3 { margin: 0 0 6px; }
 .rd-bench-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
 .rd-bench-by { margin: 6px 0 0; color: var(--text-muted); font-size: 13px; }
@@ -2090,6 +2095,7 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
   font-weight: 600;
 }
 .rd-area > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.rd-models-group > .table-wrap { margin: 0 14px 14px; }
 .rd-items { list-style: none; margin: 0; padding: 0 14px 6px; }
 .rd-items li { border-top: 1px solid var(--border); padding: 10px 0; }
 .rd-items p { margin: 0 0 4px; }
@@ -2114,7 +2120,7 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
 .rd-method-list dd { margin: 0; }
 @media (max-width: 560px) {
   .rd-method-list div { grid-template-columns: 1fr; gap: 4px; }
-  .rd-bench { padding: 12px; }
+  .rd-bench { padding: 0 12px; }
 }
 /* Section 232 robotics proclamation page (section-232-robotics.html) and its front-page pointer */
 .s232-list { margin: 0 0 12px; padding-left: 1.2rem; }

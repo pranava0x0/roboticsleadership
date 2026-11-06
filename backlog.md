@@ -6,7 +6,7 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ## ▶ Added 2026-11-03 (scheduled refresh)
 
-- [ ] **(medium) scsp-summit.html is still 17.7 phone screens (budget 15); rd.html is 12.9 desktop / 14.7 phone (budget 10 desktop).** Today's pass collapsed agenda, speakers, posts and policy context (summit 16.1 -> 9.3 desktop, 25 -> 17.7 phone). Next: collapse the commission-report findings list on the summit page, and cap or collapse rd.html's tables like policies.html does.
+- [ ] **(medium) scsp-summit.html is still 17.7 phone screens (budget 15).** An earlier pass collapsed agenda, speakers, posts and policy context (summit 16.1 -> 9.3 desktop, 25 -> 17.7 phone). Next: collapse the commission-report findings list on the summit page. rd.html was fixed 2026-11-06 (models grouped by country, benchmarks collapsed): 12.9 -> 8.6 desktop, 14.7 -> 9.8 phone.
 - [ ] **(medium) Front-page lead picked by date alone put a Low-confidence Entrackr seed-round item first.** `RT.frontPageStories` could prefer Medium/High confidence among same-week items.
 - [ ] **(low) Reframe check for the Agility listing:** when the Nov 4 close is confirmed, update the Agility funding round from "announced" to completed and note the redemption-adjusted proceeds ($465M expected vs $620M first announced).
 - [ ] **(low) China humanoid leasing (36Kr: rental down 70-90%, ~65% of one platform's orders are one-time shows)** is a useful counter-signal to shipment counts on china.html; consider a "demand quality" row.

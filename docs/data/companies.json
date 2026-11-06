@@ -421,21 +421,21 @@
         "archive_url": "https://web.archive.org/web/20260210035550/https://www.geekwire.com/2025/agility-robotics-reportedly-raising-400m-for-humanoid-warehouse-robots/"
       },
       {
-        "date": "2026-06",
-        "round": "SPAC merger (announced)",
-        "amount_usd": null,
+        "date": "2026-11",
+        "round": "SPAC merger (closed)",
+        "amount_usd": 465000000,
         "valuation_usd": 2500000000,
         "investors": [
           "Churchill Capital Corp XI",
           "Foxconn (PIPE)"
         ],
-        "url": "https://www.businesswire.com/news/home/20260624555633/en/Agility-Robotics-to-Go-Public-Through-$2.5-Billion-Merger-with-Churchill-Capital-Corp-XI",
-        "confidence": "reported",
-        "notes": "Announced June 2026 with more than $620M in expected proceeds; the estimate fell to about $465M gross (about $164M trust, about $201M Foxconn-led PIPE, $100M already received). Shareholders approved on 2026-11-02; closing expected 2026-11-04 and Nasdaq trading as AGLT 2026-11-05. Not a completed financing until it closes."
+        "url": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/",
+        "confidence": "confirmed",
+        "notes": "Closed 2026-11-04 with about $465M gross (about $164M trust after redemptions, $201M Foxconn-led PIPE, $100M round). Began trading on Nasdaq as AGLT on 2026-11-05; opened $11.26, closed $11.49. The June announcement expected more than $620M with no redemptions."
       }
     ],
     "total_funding_usd": null,
-    "latest_valuation_usd": 2120000000,
+    "latest_valuation_usd": 2500000000,
     "robot_types": [
       "humanoid",
       "warehouse_robot"
@@ -523,7 +523,8 @@
       "unicorn",
       "us-manufactured",
       "logistics",
-      "amazon-backed"
+      "amazon-backed",
+      "public"
     ],
     "data_confidence": "high",
     "sources": [
@@ -547,9 +548,12 @@
       {
         "url": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations"
       },
-      "https://www.sec.gov/Archives/edgar/data/0002074973/000121390026115038/ea031051701ex99-1.htm"
+      "https://www.sec.gov/Archives/edgar/data/0002074973/000121390026115038/ea031051701ex99-1.htm",
+      {
+        "url": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/"
+      }
     ],
-    "last_updated": "2026-11-03",
+    "last_updated": "2026-11-06",
     "themes": [
       "cost-trajectory",
       "industrial-deployments",
@@ -5743,10 +5747,30 @@
         ],
         "url": "https://techcrunch.com/2026/03/23/zipline-snaps-up-another-200m-to-fuel-its-drone-delivery-expansion/",
         "confidence": "confirmed"
+      },
+      {
+        "date": "2026-11",
+        "round": "Growth round",
+        "amount_usd": 1500000000,
+        "valuation_usd": 21500000000,
+        "investors": [
+          "Paradigm",
+          "WCM Investment Management",
+          "Layer Global",
+          "Valor Equity Partners",
+          "Fidelity Management and Research",
+          "Uber",
+          "Tiger Global",
+          "JPMorgan Chase",
+          "ARK Invest",
+          "Salesforce Ventures"
+        ],
+        "url": "https://www.bloomberg.com/news/articles/2026-11-05/zipline-tops-21-billion-valuation-adds-300-walmart-drone-sites",
+        "confidence": "reported"
       }
     ],
-    "total_funding_usd": 1500000000,
-    "latest_valuation_usd": 7600000000,
+    "total_funding_usd": 3000000000,
+    "latest_valuation_usd": 21500000000,
     "robot_types": [
       "delivery drone",
       "fixed-wing UAV"
@@ -5811,9 +5835,12 @@
       },
       {
         "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Zipline-Partner-to-Bring-Drone-Delivery-to-Millions-of-Americans/default.aspx"
+      },
+      {
+        "url": "https://dronelife.com/2026/11/05/zipline-1-5-billion-funding-drone-delivery/"
       }
     ],
-    "last_updated": "2026-10-26",
+    "last_updated": "2026-11-06",
     "themes": [],
     "financials": {
       "revenue_usd": null,
@@ -6425,7 +6452,8 @@
           "SoftBank Group"
         ],
         "url": "https://www.therobotreport.com/abb-group-sells-abb-robotics-softbank-5-3b/",
-        "confidence": "reported"
+        "confidence": "reported",
+        "notes": "China's foreign-investment security review office prohibited the deal on 2026-11-05 (ABB confirmed to The Robot Report); ABB says it and SoftBank are still in talks. Not completed."
       }
     ],
     "total_funding_usd": null,
@@ -6464,9 +6492,12 @@
       },
       {
         "url": "https://www.abb.com/global/en/news/139480/prsrl-abb-robotics-brings-industrial-grade-physical-ai-to-fashion-logistics"
+      },
+      {
+        "url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/"
       }
     ],
-    "last_updated": "2026-10-26",
+    "last_updated": "2026-11-06",
     "themes": [
       "industrial-deployments"
     ],
