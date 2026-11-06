@@ -1,0 +1,402 @@
+{
+ "date": "2026-11-06",
+ "note": "Scraper candidates not kept as-is. merged_into marks a candidate rewritten as a curated record. Several fedreg-news ids reappear daily because the scraper does not read earlier dropped logs.",
+ "news": [
+  {
+   "id": "fedreg-news-2026-22337",
+   "title": "Unleashing the Power of Unlicensed Ultra-Wideband Devices; Petition of Robert Bosch LLC for Amendment of the Part 15 Subpart F Ultra-Wideband Rules; and Petition of Alliance for Automative Innovation et al. To Amend Part 15 of the FCC's Rules To Permit the Operation of Certain Ultra-Wideband Devices",
+   "date": "2026-11-02",
+   "source": "Federal Register",
+   "source_url": "https://www.federalregister.gov/documents/2026/11/02/2026-22337/unleashing-the-power-of-unlicensed-ultra-wideband-devices-petition-of-robert-bosch-llc-for-amendment"
+  },
+  {
+   "id": "fedreg-news-2026-22385",
+   "title": "Adjusting Imports of Robotics, Industrial Machinery, and Their Parts and Components Into the United States",
+   "date": "2026-11-02",
+   "source": "Federal Register",
+   "source_url": "https://www.federalregister.gov/documents/2026/11/02/2026-22385/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united"
+  },
+  {
+   "id": "hn-50371899",
+   "title": "A Tale of Two Humanoid Makers: Agility and Unitree",
+   "date": "2026-11-04",
+   "source": "Hacker News",
+   "source_url": "https://read.corematter.com/p/agility-unitree-humanoid-financials-compared"
+  },
+  {
+   "id": "hn-50380458",
+   "title": "Realbotix Series 1 Humanoids",
+   "date": "2026-11-05",
+   "source": "Hacker News",
+   "source_url": "https://www.realbotix.com"
+  },
+  {
+   "id": "hn-50380625",
+   "title": "Fonzi – Job board for problems to move humanity forward",
+   "date": "2026-11-05",
+   "source": "Hacker News",
+   "source_url": "https://talent.fonzi.ai/"
+  },
+  {
+   "id": "hn-50385803",
+   "title": "Show HN: Open-world text adventure played through AI agents",
+   "date": "2026-11-05",
+   "source": "Hacker News",
+   "source_url": "https://eremoterra.com/"
+  },
+  {
+   "id": "hn-50333010",
+   "title": "Intel trials open robotics architecture with SAP in Chinese demo",
+   "date": "2026-11-02",
+   "source": "Hacker News",
+   "source_url": "https://www.sdxcentral.com/news/intel-trials-open-robotics-architecture-with-sap-in-chinese-demo/"
+  },
+  {
+   "id": "hn-50342759",
+   "title": "I made it easy to see how well robotics models acutally work",
+   "date": "2026-11-02",
+   "source": "Hacker News",
+   "source_url": "https://playground.blupe.io"
+  },
+  {
+   "id": "hn-50352557",
+   "title": "Rooting an Echo Plus 2 with AI",
+   "date": "2026-11-03",
+   "source": "Hacker News",
+   "source_url": "https://blog.tripton.dev/rooting-an-echo-plus-2-with-ai/"
+  },
+  {
+   "id": "hn-50354186",
+   "title": "Researchers warn secret \"trigger words\" can make hacked AI robots attack people",
+   "date": "2026-11-03",
+   "source": "Hacker News",
+   "source_url": "https://www.dexerto.com/entertainment/researchers-warn-secret-trigger-words-can-make-hacked-ai-robots-turn-on-people-and-attack-them-3424454/"
+  },
+  {
+   "id": "hn-50354358",
+   "title": "Stringman, an $800 open-source room scale gripper robot",
+   "date": "2026-11-03",
+   "source": "Hacker News",
+   "source_url": "https://neufangled.com/"
+  },
+  {
+   "id": "hn-50355217",
+   "title": "Apple HomeView Ultra, drone and laundry-folding robot reportedly in development",
+   "date": "2026-11-03",
+   "source": "Hacker News",
+   "source_url": "https://www.notebookcheck.net/Apple-HomeView-Ultra-drone-and-laundry-folding-robot-reportedly-in-development.1440401.0.html"
+  },
+  {
+   "id": "hn-50357137",
+   "title": "Show HN: A framework for Raspberry Pi pico projects",
+   "date": "2026-11-03",
+   "source": "Hacker News",
+   "source_url": "https://github.com/AdrianCX/picohive-firmware"
+  },
+  {
+   "id": "hn-50359263",
+   "title": "Infineon Targets Semiconductor Market for Humanoid Robotic Hands",
+   "date": "2026-11-03",
+   "source": "Hacker News",
+   "source_url": "https://www.thelec.net/news/articleView.html?idxno=14713"
+  },
+  {
+   "id": "hn-50360540",
+   "title": "Why GPT-6 Astra is suddenly so good at robotics",
+   "date": "2026-11-04",
+   "source": "Hacker News",
+   "source_url": "https://twitter.com/josefchen/status/2117749992420946241"
+  },
+  {
+   "id": "hn-50360700",
+   "title": "A $300 Robot That Fetches a Ball and Brings It Back, All on Its Own",
+   "date": "2026-11-04",
+   "source": "Hacker News",
+   "source_url": "https://www.gadgetreview.com/a-300-robot-that-fetches-a-ball-and-brings-it-back-all-on-its-own"
+  },
+  {
+   "id": "hn-50364310",
+   "title": "Trump declares robot imports a national security threat",
+   "date": "2026-11-04",
+   "source": "Hacker News",
+   "source_url": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/"
+  },
+  {
+   "id": "hn-50366164",
+   "title": "Debian's Apt Affected by MitM Attack for Arbitrary Code Execution as Root",
+   "date": "2026-11-04",
+   "source": "Hacker News",
+   "source_url": "https://www.phoronix.com/news/Debian-APT-MITM-RCE"
+  },
+  {
+   "id": "hn-50366333",
+   "title": "Somo is building iro, a home robot designed to respond to how you feel",
+   "date": "2026-11-04",
+   "source": "Hacker News",
+   "source_url": "https://somo.keivalya.com/"
+  },
+  {
+   "id": "hn-50366789",
+   "title": "Rooting GoPro HERO8–MAX2 through their own web server",
+   "date": "2026-11-04",
+   "source": "Hacker News",
+   "source_url": "https://github.com/ADCDS/gopro-root"
+  },
+  {
+   "id": "hn-50368501",
+   "title": "How Zoox's Robotaxi Safety Testing Will Work",
+   "date": "2026-11-04",
+   "source": "Hacker News",
+   "source_url": "https://insideevs.com/news/804737/zoox-robotaxi-safety-testing-framwork/"
+  },
+  {
+   "id": "hn-50368594",
+   "title": "DeX Linux Workstation – Debian 13 on Galaxy S26 Ultra (No Root, PRoot, X11)",
+   "date": "2026-11-04",
+   "source": "Hacker News",
+   "source_url": "https://github.com/thecbr600/dex-linux-workstation"
+  },
+  {
+   "id": "hn-50369048",
+   "title": "Upcoming change for eMudhra CA certificates included in the Chrome Root Store",
+   "date": "2026-11-04",
+   "source": "Hacker News",
+   "source_url": "https://groups.google.com/a/ccadb.org/g/public/c/DU8p98nyQWc/m/R33zS9UIBgAJ"
+  },
+  {
+   "id": "hn-50372929",
+   "title": "A thousand fewer paths to root",
+   "date": "2026-11-04",
+   "source": "Hacker News",
+   "source_url": "https://openai.com/index/a-thousand-fewer-paths-to-root/"
+  },
+  {
+   "id": "hn-50377870",
+   "title": "Robots with real-tissue muscle actuators achieve jumping, swimming and walking",
+   "date": "2026-11-05",
+   "source": "Hacker News",
+   "source_url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/10/one-small-leap-for-a-muscle-one-giant-step-for-robotics.html"
+  },
+  {
+   "id": "hn-50378130",
+   "title": "Less thought. More shipped (An overbuilt satire of the shipping economy)",
+   "date": "2026-11-05",
+   "source": "Hacker News",
+   "source_url": "https://shipslop.dev/"
+  },
+  {
+   "id": "hn-50378548",
+   "title": "UK to deploy facial recognition in biggest-ever immigration crackdown",
+   "date": "2026-11-05",
+   "source": "Hacker News",
+   "source_url": "https://www.theguardian.com/technology/2026/nov/04/uk-deploy-facial-recognition-biggest-ever-immigration-crackdown"
+  },
+  {
+   "id": "hn-50378970",
+   "title": "The Tragedy of the Oxide Root of Trust",
+   "date": "2026-11-05",
+   "source": "Hacker News",
+   "source_url": "https://danielmangum.com/posts/tragedy-oxide-rot/"
+  },
+  {
+   "id": "hn-50379913",
+   "title": "Humble Robotics raises $51M to build autonomous electric self-driving truck",
+   "date": "2026-11-05",
+   "source": "Hacker News",
+   "source_url": "https://www.businessinsider.com/humble-robotics-raises-51-million-for-cabless-self-driving-trucks-2026-11"
+  },
+  {
+   "id": "hn-50382253",
+   "title": "Agility's Digit 5 humanoid robot will run on Nvidia as it heads for Nasdaq",
+   "date": "2026-11-05",
+   "source": "Hacker News",
+   "source_url": "https://thenextweb.com/news/agility-robotics-digit-5-nvidia-igx-thor"
+  },
+  {
+   "id": "hn-50382868",
+   "title": "China Fielding Robotic Space Weapons That Can Attack Other Satellites",
+   "date": "2026-11-05",
+   "source": "Hacker News",
+   "source_url": "https://www.forbes.com/sites/zitaballingerfletcher/2026/10/31/china-fielding-robotic-space-weapons-that-can-attack-other-satellites/"
+  },
+  {
+   "id": "hn-50384418",
+   "title": "Can you instruct the robot to make a PB&J sandwich?",
+   "date": "2026-11-05",
+   "source": "Hacker News",
+   "source_url": "https://www.sudosandwich.lol/"
+  },
+  {
+   "id": "hn-50385065",
+   "title": "Barracuda ESG pre-auth remote root (CVE-2026-116606)",
+   "date": "2026-11-05",
+   "source": "Hacker News",
+   "source_url": "https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
+  },
+  {
+   "id": "hn-50387284",
+   "title": "Robodinest – Robotics Supply Chain Visualize",
+   "date": "2026-11-06",
+   "source": "Hacker News",
+   "source_url": "https://robodienst.com/supply-chain/bd-atlas"
+  },
+  {
+   "id": "hn-50387698",
+   "title": "The Farm Robotics Challenge",
+   "date": "2026-11-06",
+   "source": "Hacker News",
+   "source_url": "https://www.farmroboticschallenge.ai"
+  },
+  {
+   "id": "hn-50388519",
+   "title": "Show HN: Stitch.ai – New all-in-one workspace with Stitchy the AI assistant",
+   "date": "2026-11-06",
+   "source": "Hacker News",
+   "source_url": "https://app.stitch.ai/auth/signup"
+  },
+  {
+   "id": "hn-50389000",
+   "title": "OpenAI Just Found Nearly 1k Ways to Gain Root Access in Linux",
+   "date": "2026-11-06",
+   "source": "Hacker News",
+   "source_url": "https://hothardware.com/news/openai-just-found-nearly-1000-ways-to-gain-root-access-in-linux"
+  },
+  {
+   "id": "rss-what-agtech-founders-get-wrong-994",
+   "title": "What AgTech founders get wrong about ROI",
+   "date": "2026-11-02",
+   "source": "The Robot Report",
+   "source_url": "https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/"
+  },
+  {
+   "id": "rss-top-10-robotics-developments-o-994",
+   "title": "Top 10 robotics developments of October 2026",
+   "date": "2026-11-02",
+   "source": "The Robot Report",
+   "source_url": "https://www.therobotreport.com/top-10-robotics-developments-october-2026/"
+  },
+  {
+   "id": "rss-gentherm-designs-thermaffyx-to-336",
+   "title": "Gentherm designs ThermAffyx to secure, heat patients during robotic surgeries",
+   "date": "2026-11-02",
+   "source": "The Robot Report",
+   "source_url": "https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/"
+  },
+  {
+   "id": "rss-churchill-capital-xi-sharehold-654",
+   "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
+   "date": "2026-11-03",
+   "source": "The Robot Report",
+   "source_url": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/"
+  },
+  {
+   "id": "rss-ben-waters-on-the-latest-wirel-837",
+   "title": "Ben Waters on the latest wireless charging strategies",
+   "date": "2026-11-03",
+   "source": "The Robot Report",
+   "source_url": "https://www.therobotreport.com/ben-waters-on-the-latest-wireless-charging-strategies/"
+  },
+  {
+   "id": "rss-liberai-unveils-liber-0-a-worl-232",
+   "title": "LiberAI Unveils Liber-0, a World Action Model That Grounds Human Experience in Robot Action",
+   "date": "2026-11-04",
+   "source": "The Robot Report",
+   "source_url": "https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/"
+  },
+  {
+   "id": "rss-how-globallogic-helped-haystac-324",
+   "title": "How GlobalLogic helped Haystack Robotics build a UV disinfection robot",
+   "date": "2026-11-04",
+   "source": "The Robot Report",
+   "source_url": "https://www.therobotreport.com/how-globallogic-helped-haystack-robotics-build-uv-disinfection-robot/"
+  },
+  {
+   "id": "rss-robotics-startup-radar-2026-649",
+   "title": "Robotics Startup Radar 2026",
+   "date": "2026-11-04",
+   "source": "The Robot Report",
+   "source_url": "https://www.therobotreport.com/robotics-startup-radar-2026/"
+  },
+  {
+   "id": "rss-agility-robotics-begins-tradin-662",
+   "title": "Agility Robotics begins trading on Nasdaq",
+   "date": "2026-11-05",
+   "source": "The Robot Report",
+   "source_url": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/",
+   "merged_into": "agility-nasdaq-debut-aglt-2026-11"
+  },
+  {
+   "id": "rss-chinese-regulators-block-softb-301",
+   "title": "Chinese regulators block SoftBank’s $5.4B acquisition of ABB Robotics",
+   "date": "2026-11-05",
+   "source": "The Robot Report",
+   "source_url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/",
+   "merged_into": "china-blocks-softbank-abb-robotics-2026-11"
+  },
+  {
+   "id": "rss-how-ambi-robotics-helps-its-cu-978",
+   "title": "How Ambi Robotics helps its customers prepare for peak season",
+   "date": "2026-11-05",
+   "source": "The Robot Report",
+   "source_url": "https://www.therobotreport.com/how-ambi-robotics-helps-customers-prepare-peak-season/"
+  },
+  {
+   "id": "rss-how-did-agility-robotics-perfo-23",
+   "title": "How did Agility Robotics perform on its first day on the stock market?",
+   "date": "2026-11-05",
+   "source": "The Robot Report",
+   "source_url": "https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/",
+   "merged_into": "agility-nasdaq-debut-aglt-2026-11"
+  },
+  {
+   "id": "rss-2-days-till-techcrunch-founder-822",
+   "title": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big",
+   "date": "2026-11-02",
+   "source": "TechCrunch",
+   "source_url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/"
+  },
+  {
+   "id": "rss-techcrunch-founder-summit-2026-628",
+   "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+   "date": "2026-11-04",
+   "source": "TechCrunch",
+   "source_url": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/"
+  },
+  {
+   "id": "rss-agility-is-the-first-pure-huma-181",
+   "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+   "date": "2026-11-05",
+   "source": "TechCrunch",
+   "source_url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/"
+  },
+  {
+   "id": "rss-serve-robotics-launches-new-bu-188",
+   "title": "Serve Robotics launches new business to become the AWS for robots",
+   "date": "2026-11-05",
+   "source": "TechCrunch",
+   "source_url": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
+   "merged_into": "serve-physical-ai-services-2026-11"
+  },
+  {
+   "id": "rss-are-drone-ports-the-next-annoy-811",
+   "title": "Are Drone Ports the Next Annoying Tech Neighbor?",
+   "date": "2026-11-04",
+   "source": "IEEE Spectrum",
+   "source_url": "https://spectrum.ieee.org/drone-delivery-noise"
+  }
+ ],
+ "policies": [
+  {
+   "id": "fedreg-2026-21826",
+   "title": "mattress flammability information collection"
+  },
+  {
+   "id": "fedreg-2026-22337",
+   "title": "UWB device petition (automotive)"
+  },
+  {
+   "id": "fedreg-2026-21939",
+   "title": "DMCA 1201 exemptions"
+  }
+ ]
+}

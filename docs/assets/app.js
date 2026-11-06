@@ -1267,10 +1267,11 @@
       <tbody>${rows}</tbody></table></div>`;
   }
 
+  // One collapsible table per country, first open: as a single 49-row table
+  // the default tab ran 12.9 desktop screens. A #deep-link opens its group.
   function renderRdModels(rd) {
     const models = rd.sections.models;
-    const body = rdByCountry(models).map(([c, list]) => {
-      const head = `<tr class="rd-group"><th scope="rowgroup" colspan="6">${escapeHTML(RD_COUNTRY_HEAD[c])} <span class="rd-count">${list.length}</span></th></tr>`;
+    return rdByCountry(models).map(([c, list], i) => {
       const rows = rdSortDate(list, 'released').map((m) => {
         const results = (m.results || []).map((r) => `<li><span class="rd-bench-name">${escapeHTML(r.benchmark)}:</span> <strong>${escapeHTML(r.value)}</strong>${r.vendor_reported ? ' <span class="pill warning rd-flag">Vendor-reported</span>' : ''}${r.setting ? `<span class="secondary-line">${escapeHTML(r.setting)}</span>` : ''}</li>`).join('');
         return `<tr id="${escapeHTML(m.id)}">
@@ -1282,11 +1283,13 @@
           <td class="rd-srccell">${rdFlags(m)} ${rdSources(m)}</td>
         </tr>`;
       }).join('');
-      return head + rows;
+      return `<details class="rd-area rd-models-group" id="models-${escapeHTML(c.toLowerCase())}"${i === 0 ? ' open' : ''}>
+        <summary><span class="rd-area-name">${escapeHTML(RD_COUNTRY_HEAD[c])}</span> <span class="rd-count">${list.length}</span></summary>
+        <div class="table-wrap"><table class="data-table rd-table">
+          <thead><tr><th scope="col">Model</th><th scope="col">Developer</th><th scope="col">Released</th><th scope="col">Weights</th><th scope="col">What it claims</th><th scope="col">Source</th></tr></thead>
+          <tbody>${rows}</tbody></table></div>
+      </details>`;
     }).join('');
-    return `<div class="table-wrap"><table class="data-table rd-table" id="rd-models-table">
-      <thead><tr><th scope="col">Model</th><th scope="col">Developer</th><th scope="col">Released</th><th scope="col">Weights</th><th scope="col">What it claims</th><th scope="col">Source</th></tr></thead>
-      <tbody>${body}</tbody></table></div>`;
   }
 
   function renderRdWorldModels(rd) {
@@ -1317,8 +1320,10 @@
     }).join('');
   }
 
+  // Collapsed like the R&D areas (first one open): 24 open cards made the
+  // panel 10.5 desktop screens. A #deep-link opens its card via initSubTabs.
   function renderRdBenchmarks(rd) {
-    return rd.sections.benchmarks.map((b) => {
+    return rd.sections.benchmarks.map((b, i) => {
       const [evLabel, evCls] = RD_EVALUATOR[b.evaluator] || [b.evaluator, 'outline'];
       const leaders = (b.leaders || []).length
         ? `<div class="table-wrap"><table class="data-table rd-table rd-leaders">
@@ -1326,18 +1331,18 @@
             <tbody>${b.leaders.map((l) => `<tr><td>${escapeHTML(l.model)}</td><td>${rdText(l.developer)}</td><td>${rdCountry(l)}</td><td><strong>${escapeHTML(l.value)}</strong>${l.vendor_reported ? ' <span class="pill warning rd-flag">Vendor-reported</span>' : ''}</td><td class="tnum col-tight">${escapeHTML(formatDate(l.as_of))}</td></tr>`).join('')}</tbody>
           </table></div>`
         : '<p class="muted-cell">No ranked results shown.</p>';
-      return `<article class="rd-bench" id="${escapeHTML(b.id)}">
-        <header class="rd-bench-head">
-          <h3 class="rd-h3">${escapeHTML(b.name)}</h3>
+      return `<details class="rd-bench" id="${escapeHTML(b.id)}"${i === 0 ? ' open' : ''}>
+        <summary class="rd-bench-head">
+          <h3 class="rd-h3">${escapeHTML(b.name)} <span class="rd-count">${(b.leaders || []).length}</span></h3>
           <div class="rd-bench-meta"><span class="pill outline">${escapeHTML(b.kind || '')}</span> <span class="pill ${evCls}">${escapeHTML(evLabel)}</span> <span class="rd-asof">as of ${escapeHTML(formatDate(b.as_of))}</span></div>
-          <p class="rd-bench-by">${escapeHTML(b.maintainer)} · ${rdCountry(b)}</p>
-        </header>
+        </summary>
+        <p class="rd-bench-by">${escapeHTML(b.maintainer)} · ${rdCountry(b)}</p>
         <p class="rd-bench-measures">${escapeHTML(b.measures)}</p>
         <p class="rd-bench-metric"><span class="rd-label">Metric:</span> ${escapeHTML(b.metric)}</p>
         ${leaders}
         <p class="rd-caveat">${escapeHTML(b.caveat)}</p>
         <p class="rd-bench-src">${rdFlags(b)} ${rdSources(b)}</p>
-      </article>`;
+      </details>`;
     }).join('');
   }
 

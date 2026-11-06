@@ -1,5 +1,346 @@
 [
   {
+    "id": "korea-physical-ai-budget-2027-2026-11",
+    "title": "Korea proposes 3.1 trillion won for physical AI in 2027, with the state buying about 1,700 robots",
+    "date": "2026-11-06",
+    "source": "Point Daily",
+    "source_type": "News",
+    "source_url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=325072",
+    "summary": "The proposal, up from 900 billion won this year, includes 1.5 trillion won for core R&D and 340 billion won to place about 1,700 AI robots in public institutions; it still needs National Assembly approval. Asia Business Daily reports the ruling party lists a Physical AI Special Act among 11 bills it wants passed by year-end.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "korea",
+      "budget",
+      "public-procurement",
+      "legislation"
+    ]
+  },
+  {
+    "id": "china-blocks-softbank-abb-robotics-2026-11",
+    "title": "China blocks SoftBank's $5.4B purchase of ABB Robotics, citing robot data leaving the country",
+    "date": "2026-11-05",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/",
+    "summary": "China's foreign-investment security review office prohibited the $5.375B deal, and ABB confirmed the decision to The Robot Report. The Financial Times, which first reported it, says regulators worried that robot data would be sent abroad to train AI models. ABB builds about 90% of the robots it sells in China at its Shanghai plant, and says it and SoftBank are still talking.",
+    "category": "Geopolitics",
+    "companies": [
+      "abb-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "sentiment": "Negative",
+    "confidence": "High",
+    "tags": [
+      "m-and-a",
+      "investment-review",
+      "data",
+      "china",
+      "softbank"
+    ]
+  },
+  {
+    "id": "agility-nasdaq-debut-aglt-2026-11",
+    "title": "Agility Robotics starts trading on Nasdaq as AGLT and closes its first day at $11.49",
+    "date": "2026-11-05",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/",
+    "summary": "The SPAC merger with Churchill Capital Corp XI closed on Nov. 4 with about $465M in gross proceeds: about $164M from the trust after redemptions, a $201M Foxconn-led PIPE and a $100M round. The stock opened at $11.26, against the $10 deal price, and closed at $11.49 on a day the Nasdaq fell 5.5%. Agility says Digit has logged more than 65,000 hours across nine customer sites.",
+    "category": "Funding",
+    "companies": [
+      "agility-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "humanoid",
+      "ipo",
+      "spac",
+      "public-markets"
+    ]
+  },
+  {
+    "id": "zipline-1-5b-21-5b-valuation-2026-11",
+    "title": "Zipline raises $1.5B at a $21.5B valuation as Walmart signs on for 300 more drone sites",
+    "date": "2026-11-05",
+    "source": "Bloomberg",
+    "source_type": "News",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-11-05/zipline-tops-21-billion-valuation-adds-300-walmart-drone-sites",
+    "summary": "Paradigm, WCM Investment Management and Layer Global led the round, which values Zipline at about 2.8 times its $7.6B valuation in January. Walmart signed a multiyear deal for 300 new delivery sites. DroneLife reports the money goes to U.S. manufacturing, hiring and delivery infrastructure.",
+    "category": "Funding",
+    "companies": [
+      "zipline"
+    ],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "drones",
+      "delivery",
+      "walmart",
+      "mega-round"
+    ]
+  },
+  {
+    "id": "toyota-robotics-unit-2027-2026-11",
+    "title": "Toyota will create Toyota Robotics, a company-wide robotics unit, on January 1, 2027",
+    "date": "2026-11-05",
+    "source": "Toyota",
+    "source_type": "Primary",
+    "source_url": "https://global.toyota/en/newsroom/corporate/44970123.html",
+    "summary": "Toyota calls robotics a key pillar of its future business and will put the unit under direct corporate oversight. Chief Production Officer Takefumi Shiga will lead it, pulling together robotics staff from across the company. Earnings-call coverage says robots go into Toyota's own plants first, with sales growth targeted from 2030.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "japan",
+      "automotive",
+      "corporate-strategy"
+    ]
+  },
+  {
+    "id": "serve-physical-ai-services-2026-11",
+    "title": "Serve Robotics starts selling its robot connectivity and data tools to other robot makers",
+    "date": "2026-11-05",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
+    "summary": "Announced with Q3 earnings, Physical AI Services has three products: Serve Link, which connects field robots to models in data centers; a tool that finds edge cases in robot data; and a data catalog from Serve's sidewalk fleet. Bedrock Robotics is a customer, and Serve is working with T-Mobile on edge compute.",
+    "category": "Competitive",
+    "companies": [
+      "serve-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "sidewalk-delivery",
+      "data",
+      "cloud",
+      "public-markets"
+    ]
+  },
+  {
+    "id": "bis-affiliates-rule-suspension-extended-2026-11",
+    "title": "Commerce extends the pause on its 50% Affiliates Rule for Entity List subsidiaries to January 10, 2027",
+    "date": "2026-11-05",
+    "source": "Federal Register",
+    "source_type": "Primary",
+    "source_url": "https://www.federalregister.gov/public-inspection/2026-22793/extension-of-the-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed",
+    "summary": "BIS filed a final rule (FR Doc 2026-22793, publishing Nov 9) that keeps suspended the September 2025 rule extending Entity List controls to companies 50% or more owned by listed parties. The pause was due to end Nov 9. Kharon ties the extension to the continuing US-China trade truce; it matters for robot makers whose Chinese suppliers sit under listed parents.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "export-controls",
+      "entity-list",
+      "bis",
+      "trade-truce"
+    ]
+  },
+  {
+    "id": "miit-robot-identification-code-draft-2026-11",
+    "title": "China's MIIT drafts a one-robot-one-code ID rule, with comments open until December 5",
+    "date": "2026-11-05",
+    "source": "Jiemian",
+    "source_type": "News",
+    "source_url": "https://www.jiemian.com/article/15299811.html",
+    "summary": "Every robot would carry a four-part code (maker, product, serial number, other) under standard GB/T 48541-2026, marked in digital, human-readable and machine-readable forms before leaving the factory. A maker's yearly code applications would generally be capped at 300% of the prior year's actual output, and codes must be filed on a national platform within 20 working days.",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "miit",
+      "standards",
+      "traceability",
+      "comment-period",
+      "china"
+    ]
+  },
+  {
+    "id": "robosense-automated-lidar-line-2026-11",
+    "title": "RoboSense starts an automated lidar line in Shenzhen rated at 500,000 units a year; robots took a third of its sales",
+    "date": "2026-11-05",
+    "source": "21st Century Business Herald",
+    "source_type": "News",
+    "source_url": "https://hk.stockstar.com/IG2026110500021523.shtml",
+    "summary": "The line is 99% automated and part of a plan for 4 million units of yearly capacity. RoboSense sold 1.3148 million lidars in January to September, 427,800 of them for robotics. For comparison, U.S. maker Ouster is targeting more than 100,000 units of yearly capacity by the end of 2027.",
+    "category": "Supply Chain",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "lidar",
+      "sensors",
+      "manufacturing",
+      "china"
+    ]
+  },
+  {
+    "id": "axon-skydio-1-2b-investment-2026-11",
+    "title": "Axon puts $1.2B into Skydio at a $5.2B pre-money valuation and becomes its public-safety distributor",
+    "date": "2026-11-05",
+    "source": "PR Newswire",
+    "source_type": "Primary",
+    "source_url": "https://markets.ft.com/data/announce/detail?dockey=600-202611051601PR_NEWS_USPRX____LA90242-1",
+    "summary": "The cash-and-stock deal mixes new capital with purchases of existing shares and raises Axon's fully diluted stake by about 20%. Skydio has more than 1,500 public-safety customers and expects about $1B in bookings this fiscal year. Closing is expected across Q4 2026 and Q1 2027.",
+    "category": "Funding",
+    "companies": [
+      "skydio"
+    ],
+    "policies": [],
+    "themes": [
+      "defense-procurement",
+      "us-supply-chain"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "drones",
+      "public-safety",
+      "strategic-investment"
+    ]
+  },
+  {
+    "id": "cnpc-unitree-joint-venture-filing-2026-11",
+    "title": "China's state oil company CNPC and Unitree file to form an industrial robot joint venture",
+    "date": "2026-11-04",
+    "source": "Beijing Municipal Administration for Market Regulation",
+    "source_type": "Primary",
+    "source_url": "https://scjgj.beijing.gov.cn/ztzl/gpjzyqjc/jyzjzajgs/jyzjzjyajgs/202611/t20261104_4932260.html",
+    "summary": "Beijing's market regulator posted a simplified merger-review notice for a new venture between CNPC's Kunlun Manufacturing, Unitree and others, open for comment until Nov 13. BigGo's summary of the filing puts CNPC's Kunlun units at 60%, Unitree at 20% and Beijing Fanjie at 20%, aimed at industrial embodied-AI robots. Kunlun Capital took a stake of about CNY 136M in Unitree's August IPO.",
+    "category": "Deployment",
+    "companies": [
+      "unitree"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "state-owned",
+      "joint-venture",
+      "energy",
+      "china"
+    ]
+  },
+  {
+    "id": "china-humanoid-shakeout-ggii-2026-11",
+    "title": "GGII expects at least 15% of China's humanoid makers to fail or merge within three years as October deals fell 45%",
+    "date": "2026-11-04",
+    "source": "Seoul Economic Daily",
+    "source_type": "News",
+    "source_url": "https://en.sedaily.com/international/2026/11/04/china-humanoid-robot-makers-face-shakeout-report-says",
+    "summary": "GGII projects China's humanoid shipments above 50,000 units this year against 18,000 last year, with joint-module prices down about 30%. ITjuzi counts 33 embodied-AI funding deals in October against 60 in September, with the amount down 8.4% to CNY 10.1B. The NDRC said it will strengthen early warning for job losses caused by AI.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ],
+    "sentiment": "Negative",
+    "confidence": "Medium",
+    "tags": [
+      "humanoid",
+      "consolidation",
+      "funding",
+      "china"
+    ]
+  },
+  {
+    "id": "kimm-humanoid-data-factory-2026-11",
+    "title": "Korea opens its first humanoid data factory, with 12 teleoperated robots collecting training data",
+    "date": "2026-11-04",
+    "source": "Newswise",
+    "source_type": "News",
+    "source_url": "https://www.newswise.com/articles/korea-opens-its-first-ai-humanoid-data-factory",
+    "summary": "The Korea Institute of Machinery and Materials opened the facility on Nov 3 with ETRI. People teleoperate 12 bipedal humanoids to record task data for models on the K-Humanoid standard platform, and KIMM plans to add robots and tasks.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "korea",
+      "training-data",
+      "teleoperation",
+      "humanoid"
+    ]
+  },
+  {
+    "id": "amazon-nova-scotia-robotics-fc-2026-11",
+    "title": "Amazon breaks ground on a 2.2 million sq ft robotics fulfilment centre in Nova Scotia",
+    "date": "2026-11-04",
+    "source": "Amazon",
+    "source_type": "Primary",
+    "source_url": "https://www.aboutamazon.ca/news/workplace/amazon-breaks-ground-on-first-robotics-fulfilment-centre-in-nova-scotia-creating-more-than-1-000-jobs",
+    "summary": "The Dartmouth site will be a Generation 14 robotics facility, Amazon's first robotics fulfilment centre in the province, with more than 1,000 full-time jobs once open. Amazon gave no opening date, robot count or cost.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "warehouse",
+      "amazon",
+      "canada"
+    ]
+  },
+  {
     "id": "verne-v0-5-open-weight-2026-11",
     "title": "Verne Robotics releases V0.5, an open-weight world action model for industrial robots",
     "date": "2026-11-04",

@@ -168,6 +168,21 @@ test('source links come out as hostnames, not raw URLs (URL global present in sa
   const html = RT.renderRdBenchmarks(rd);
   assert(!/>https?:\/\//.test(html), 'a source chip rendered a full URL');
 });
+test('models and benchmarks ship collapsed, first group open, every record still rendered', () => {
+  // Uncollapsed, the default tab ran 12.9 desktop screens (budget 10).
+  const models = RT.renderRdModels(rd);
+  const bench = RT.renderRdBenchmarks(rd);
+  for (const [name, html, cls, ids] of [
+    ['models', models, 'rd-models-group', S.models.map((m) => m.id)],
+    ['benchmarks', bench, 'rd-bench', S.benchmarks.map((b) => b.id)],
+  ]) {
+    const groups = html.match(new RegExp(`<details class="[^"]*\\b${cls}\\b[^"]*"[^>]*>`, 'g')) || [];
+    assert(groups.length > 1, `${name}: no collapsible groups`);
+    assert(groups.filter((g) => / open>$/.test(g)).length === 1 && / open>$/.test(groups[0]), `${name}: exactly the first group should be open`);
+    const missing = ids.filter((id) => !html.includes(`id="${id}"`));
+    assert(!missing.length, `${name}: missing ${missing.join(', ')}`);
+  }
+});
 test('summary says counts are not a ranking', () => {
   assert(/not a measure of who leads/.test(RT.renderRdSummary(rd)), 'summary disclaimer missing');
 });
