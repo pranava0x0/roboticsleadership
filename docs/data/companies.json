@@ -4634,14 +4634,14 @@
       {
         "date": "2026-11",
         "round": "Strategic investment (Axon)",
-        "amount_usd": 1200000000,
+        "amount_usd": null,
         "valuation_usd": 5200000000,
         "investors": [
           "Axon Enterprise"
         ],
         "url": "https://markets.ft.com/data/announce/detail?dockey=600-202611051601PR_NEWS_USPRX____LA90242-1",
         "confidence": "confirmed",
-        "notes": "Cash and Axon stock; mixes primary capital with purchases of existing shares, so not all of it is new money. Valuation is pre-money. Closing expected Q4 2026 to Q1 2027."
+        "notes": "About $1.2B in Axon cash and stock in total, but part buys existing shares and the primary portion is not disclosed, so amount_usd is null and it is not counted in funding totals. Valuation is pre-money. Closing expected Q4 2026 to Q1 2027."
       }
     ],
     "total_funding_usd": 900000000,
