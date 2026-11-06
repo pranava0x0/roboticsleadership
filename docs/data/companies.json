@@ -4627,10 +4627,22 @@
         ],
         "url": "https://www.tectonicdefense.com/skydio-raises-110m-at-4-4b-valuation/",
         "confidence": "confirmed"
+      },
+      {
+        "date": "2026-11",
+        "round": "Strategic investment (Axon)",
+        "amount_usd": 1200000000,
+        "valuation_usd": 5200000000,
+        "investors": [
+          "Axon Enterprise"
+        ],
+        "url": "https://markets.ft.com/data/announce/detail?dockey=600-202611051601PR_NEWS_USPRX____LA90242-1",
+        "confidence": "confirmed",
+        "notes": "Cash and Axon stock; mixes primary capital with purchases of existing shares, so not all of it is new money. Valuation is pre-money. Closing expected Q4 2026 to Q1 2027."
       }
     ],
     "total_funding_usd": 900000000,
-    "latest_valuation_usd": 4400000000,
+    "latest_valuation_usd": 5200000000,
     "robot_types": [
       "autonomous drone",
       "small UAS"
@@ -4684,9 +4696,12 @@
       },
       {
         "url": "https://en.wikipedia.org/wiki/Skydio"
+      },
+      {
+        "url": "https://markets.ft.com/data/announce/detail?dockey=600-202611051601PR_NEWS_USPRX____LA90242-1"
       }
     ],
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-11-06",
     "themes": [],
     "financials": {
       "revenue_usd": null,
