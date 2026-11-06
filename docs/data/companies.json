@@ -564,7 +564,7 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Agility remains private until its merger closes (expected November 4, 2026) with Churchill Capital Corp XI. Its Form S-4 became effective October 13, 2026; shareholders approved the deal on November 2. The announced $2.5B transaction valuation is not a closed public-market valuation. latest_valuation_usd retains the reported $2.12B Series C valuation. The listed $150M Series B and reported $400M Series C sum to $550M, excluding proposed $620M-plus merger proceeds; these records do not establish lifetime funding, so total_funding_usd is unknown. Agility’s October 26 release reports over 65,000 operating hours. GXO’s two additional US sites are planned for early 2027; Digit 5 early access is expected in the first half of 2027 and general availability by year end.\n\nAnalyst & Investor Day (2026-10-06) disclosed Digit 5 unit economics: illustrative $200,000 robot purchase price, $20,000 deployment fee, $36,000/yr software-and-maintenance — roughly $400,000 five-year cost per robot. Digit 4's BOM was ~$125,000 (already disclosed in the SPAC Form S-4); Digit 5 launch BOM is ~$150,000, targeted to fall to ~$75,000 at 1,000 robots/year and ~$30,000 at 10,000/year, with a targeted 70% product margin over five years. Agility’s October 26 release says the $300M-plus order value depends on milestones, product features and specifications; it is not current-period revenue.",
+      "details": "Agility's merger with Churchill Capital Corp XI closed on November 4, 2026, and its shares began trading on Nasdaq as AGLT on November 5 (opened $11.26, closed $11.49). Shareholders approved the deal on November 2. latest_valuation_usd is the $2.5B deal valuation, not a market capitalization. The listed $150M Series B and reported $400M Series C sum to $550M, excluding about $465M in gross merger proceeds; these records do not establish lifetime funding, so total_funding_usd is unknown. Agility’s October 26 release reports over 65,000 operating hours. GXO’s two additional US sites are planned for early 2027; Digit 5 early access is expected in the first half of 2027 and general availability by year end.\n\nAnalyst & Investor Day (2026-10-06) disclosed Digit 5 unit economics: illustrative $200,000 robot purchase price, $20,000 deployment fee, $36,000/yr software-and-maintenance — roughly $400,000 five-year cost per robot. Digit 4's BOM was ~$125,000 (already disclosed in the SPAC Form S-4); Digit 5 launch BOM is ~$150,000, targeted to fall to ~$75,000 at 1,000 robots/year and ~$30,000 at 10,000/year, with a targeted 70% product margin over five years. Agility’s October 26 release says the $300M-plus order value depends on milestones, product features and specifications; it is not current-period revenue.",
       "sources": [
         {
           "url": "https://www.geekwire.com/2025/agility-robotics-reportedly-raising-400m-for-humanoid-warehouse-robots/"
@@ -583,6 +583,9 @@
         },
         {
           "url": "https://www.agilityrobotics.com/content/agility-robotics-highlights-commercial-momentum-and-growing-enterprise-demand-for-digit-humanoid-robot"
+        },
+        {
+          "url": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/"
         }
       ]
     },
@@ -4708,10 +4711,13 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private. Largest US drone manufacturer; ~$900M raised; $4.4B valuation (Series F, 2026). Designs and assembles in the US (San Mateo HQ, Hayward, CA manufacturing).",
+      "details": "Private. Largest US drone manufacturer; ~$900M raised through its Series F ($4.4B, 2026); Axon's $1.2B cash-and-stock investment in November 2026, partly purchases of existing shares, set a $5.2B pre-money valuation. Designs and assembles in the US (San Mateo HQ, Hayward, CA manufacturing).",
       "sources": [
         {
           "url": "https://www.tectonicdefense.com/skydio-raises-110m-at-4-4b-valuation/"
+        },
+        {
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202611051601PR_NEWS_USPRX____LA90242-1"
         }
       ]
     },
@@ -5862,10 +5868,13 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private. ~$1.5B raised to date; $7.6B valuation (Jan + Mar 2026 rounds). Surpassed 2M commercial autonomous deliveries.",
+      "details": "Private. About $3B raised, including a $1.5B round at $21.5B in November 2026 (up from $7.6B in January). Surpassed 2M commercial autonomous deliveries.",
       "sources": [
         {
           "url": "https://www.therobotreport.com/zipline-raises-over-600m-in-funding-surpasses-2m-commercial-drone-deliveries/"
+        },
+        {
+          "url": "https://dronelife.com/2026/11/05/zipline-1-5-billion-funding-drone-delivery/"
         }
       ]
     },
@@ -6519,7 +6528,7 @@
     "financials": {
       "revenue_usd": 3800000000,
       "revenue_year": "2025",
-      "details": "One of the 'big four' industrial-robot incumbents (FAI 2026). ABB agreed to divest its Robotics division to SoftBank for ~$5.375B (announced Oct 2025; ABB’s October 20, 2026 report expects Q4 2026 closing, subject to regulatory approvals and customary conditions). In October 2026 ABB launched an AI Robot Trainer upgrade for its Fashion Inductor fashion-logistics module.",
+      "details": "One of the 'big four' industrial-robot incumbents (FAI 2026). ABB agreed to divest its Robotics division to SoftBank for ~$5.375B (announced Oct 2025). On November 5, 2026 China's foreign-investment security review prohibited the deal; ABB says it and SoftBank are still in talks. In October 2026 ABB launched an AI Robot Trainer upgrade for its Fashion Inductor fashion-logistics module.",
       "sources": [
         {
           "url": "https://www.therobotreport.com/abb-group-sells-abb-robotics-softbank-5-3b/"
@@ -6529,6 +6538,9 @@
         },
         {
           "url": "https://attachment.news.eu.nasdaq.com/a432a6ff77b9f9e09c9fe0318fd0bbdee"
+        },
+        {
+          "url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/"
         }
       ]
     },
