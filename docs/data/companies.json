@@ -4365,8 +4365,7 @@
         "amount_usd": 1000000000,
         "valuation_usd": 28800000000,
         "investors": [
-          "Blackstone (structured equity, separate B)",
-          "JPMorgan (debt, separate M)"
+          "Not disclosed (Blackstone structured equity and JPMorgan debt were separate from the B)"
         ],
         "url": "https://finance.yahoo.com/technology/articles/shield-ai-hit-28-8-160003152.html",
         "confidence": "reported"
@@ -10514,11 +10513,11 @@
       "state": "CA",
       "country": "USA"
     },
-    "website": "N/A",
+    "website": "Not disclosed",
     "funding_rounds": [
       {
         "date": "2026-11",
-        "round": "Undisclosed",
+        "round": "Not disclosed",
         "amount_usd": 51000000,
         "valuation_usd": null,
         "investors": [
