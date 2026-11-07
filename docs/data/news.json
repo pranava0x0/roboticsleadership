@@ -1,5 +1,314 @@
 [
   {
+    "companies": [],
+    "policies": [
+      "fcc-covered-list-robots-inverters-2026"
+    ],
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "fcc",
+      "covered-list",
+      "onshoring",
+      "humanoid"
+    ],
+    "id": "fcc-robot-conditional-approvals-ati-mecha-2026-11",
+    "title": "FCC notice lists 13 conditional approvals for foreign-made robots, including ATI's Sherpa Mecha humanoid",
+    "date": "2026-11-06",
+    "source": "FCC (DA 26-1181)",
+    "source_type": "Government",
+    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-1181A1.pdf",
+    "summary": "The Department of War cleared ATI Motors' Mecha humanoid and four of its AMR and forklift lines from the Covered List; the FCC's Oct 30 notice now lists 13 advanced-robot approvals, the earliest on Sep 9. Each is conditional on the company's onshoring plan, and unlike the router approvals none carries an end date.",
+    "category": "Policy"
+  },
+  {
+    "companies": [
+      "tesla-optimus"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "tesla",
+      "robotaxi",
+      "manufacturing",
+      "us"
+    ],
+    "id": "tesla-cybertruck-wind-down-cybercab-optimus-2026-11",
+    "title": "Tesla will end Cybertruck production at Giga Texas in mid-2027 to make room for Cybercab",
+    "date": "2026-11-06",
+    "source": "The Guardian",
+    "source_type": "News",
+    "source_url": "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai",
+    "summary": "Musk said on X that the line will wind down around the middle of next year for increased Cybercab robotaxi production; the Texas plant will also build the Optimus humanoid. Tesla delivered 8,300 \"other models\", which include the Cybertruck, in Q3 2026, far below the 200,000-a-year target.",
+    "category": "Competitive"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "us",
+      "supplier",
+      "humanoid"
+    ],
+    "id": "aptiv-tars-shanghai-electric-robots-2026-11",
+    "title": "Aptiv will put hundreds of Chinese-made robots from TARS and Shanghai Electric into its plants and supply their compute",
+    "date": "2026-11-06",
+    "source": "Gasgoo",
+    "source_type": "News",
+    "source_url": "https://autonews.gasgoo.com/articles/news/2118691426677989376",
+    "summary": "Aptiv supplies compute and power-management parts for the robots, with volume production planned by the end of 2026. On its Nov 3 earnings call Aptiv's CEO cited a design win on a Chinese humanoid project.",
+    "category": "Supply Chain"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "foundation-models"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "open-source",
+      "vla",
+      "world-model",
+      "nvidia"
+    ],
+    "id": "lerobot-v0-7-0-world-action-models-2026-11",
+    "title": "Hugging Face LeRobot v0.7.0 adds world action models and Chinese VLAs to the open robot stack",
+    "date": "2026-11-06",
+    "source": "Hugging Face",
+    "source_type": "Primary",
+    "source_url": "https://huggingface.co/blog/lerobot/lerobot-release-v070",
+    "summary": "The release adds four world action models, including NVIDIA Cosmos 3 and Black Forest Labs FLUX 3 Action, and four VLAs, among them LingBot-VLA 2.0 and Wall-OSS-0.5. Policies can now run on a remote GPU server, and the Unitree G1 gets NVIDIA's SONIC whole-body controller.",
+    "category": "Research"
+  },
+  {
+    "companies": [
+      "machina-labs"
+    ],
+    "policies": [],
+    "themes": [
+      "defense-procurement",
+      "us-supply-chain"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "defense",
+      "drones",
+      "robotic-manufacturing",
+      "us"
+    ],
+    "id": "machina-labs-lucas-airframes-edge-factories-2026-11",
+    "title": "Department of War picks Machina Labs to build metal LUCAS-class drone airframes in two pilot \"Edge Factories\"",
+    "date": "2026-11-06",
+    "source": "Machina Labs via Yahoo Finance",
+    "source_type": "Press Release",
+    "source_url": "https://finance.yahoo.com/technology/articles/machina-selected-u-department-war-133000185.html",
+    "summary": "The release gives no dollar figure; Bloomberg Law reports $9M over 18 months. Machina forms sheet metal with industrial robot arms instead of dies.",
+    "category": "Deployment"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum",
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "elder-care",
+      "service-robots"
+    ],
+    "id": "china-six-ministries-elder-care-embodied-ai-2026-11",
+    "title": "Six Chinese ministries name embodied AI and care robots in new elder-care consumption measures",
+    "date": "2026-11-06",
+    "source": "Xinhua",
+    "source_type": "Government",
+    "source_url": "https://www.xinhuanet.com/politics/20261106/d5f604ecae1f4886aa53f166d65c453d/c.html",
+    "summary": "The notice, dated Nov 4, routes embodied AI, large models, brain-computer interfaces and exoskeletons into elder care through national science and technology projects and promotes care robots. It sets no funding figure.",
+    "category": "Policy"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum",
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "robotaxi",
+      "regulation",
+      "shanghai"
+    ],
+    "id": "shanghai-l4-robotaxi-rules-2026-11",
+    "title": "Shanghai sets road-testing rules for L4 robotaxis, with a 15-minute breakdown response",
+    "date": "2026-11-06",
+    "source": "Asia Tech News",
+    "source_type": "News",
+    "source_url": "https://asia-tech-news.ghost.io/shanghai-sets-rules-for-l4-robotaxis-including-quick-breakdown-response/",
+    "summary": "The rules cover testing of self-driving cars and trucks from L2 on expressways to L4 with no one on board. For driverless L4 vehicles, an operator must get staff to a stalled car within 15 minutes.",
+    "category": "Policy"
+  },
+  {
+    "companies": [
+      "boston-dynamics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "logistics",
+      "mobile-manipulator",
+      "us"
+    ],
+    "id": "boston-dynamics-stretch-gen-2-2026-11",
+    "title": "Boston Dynamics unveils Stretch Gen 2 trailer-unloading robot",
+    "date": "2026-11-06",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/",
+    "summary": "The redesign took about two and a half years and focuses on uptime and simpler maintenance, with modular swappable parts. It unloads up to 1,000 cases an hour, runs two shifts per battery and charges to 90% in about 75 minutes; the first generation logged over 100,000 operating hours.",
+    "category": "Deployment"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "data-centers",
+      "pre-seed",
+      "yc",
+      "us"
+    ],
+    "id": "darwin-robotics-3-6m-preseed-2026-11",
+    "title": "Darwin Robotics raises $3.6M pre-seed for robot technicians in data centers",
+    "date": "2026-11-06",
+    "source": "Darwin Robotics on X",
+    "source_type": "Primary",
+    "source_url": "https://x.com/darwin_robotics/status/2118750261774520686",
+    "summary": "Link Ventures led the round, with Y Combinator, Liquid 2 and Rebel Fund participating. The company says it is starting with assembly, installation and maintenance work for data center operators and infrastructure manufacturers.",
+    "category": "Funding"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "foundation-models"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "simulation",
+      "sim-to-real",
+      "seed"
+    ],
+    "id": "physicl-10m-seed-sim-to-real-2026-11",
+    "title": "Physicl raises $10M seed to turn real-world capture into 3D training scenes for robots",
+    "date": "2026-11-06",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+    "summary": "Inovia Capital led the seed round. Founder Alex de Vigan is repurposing the 3D product-rendering pipeline from his previous company, nfinite, to turn images and lidar captures into simulation scenes for world-model and robot training.",
+    "category": "Funding"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "china",
+      "exports",
+      "trade"
+    ],
+    "id": "deloitte-china-industrial-robot-exports-2026-11",
+    "title": "Deloitte: China's industrial-robot exports reached $1.67B in 2025, its first trade surplus in the category",
+    "date": "2026-11-06",
+    "source": "Sina Finance",
+    "source_type": "News",
+    "source_url": "https://finance.sina.com.cn/jjxw/2026-11-06/doc-inixvfew8784696.shtml",
+    "summary": "Exports were $1.01B in the first half of 2026, according to press coverage of the Deloitte report. The same report puts the global embodied-AI market above $21B in 2025.",
+    "category": "Supply Chain"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum",
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "china",
+      "local-policy",
+      "guangzhou"
+    ],
+    "id": "guangzhou-embodied-ai-use-cases-2026-11",
+    "title": "Guangzhou opens industrial and public use cases to embodied robots",
+    "date": "2026-11-06",
+    "source": "Gasgoo",
+    "source_type": "News",
+    "source_url": "https://autonews.gasgoo.com/articles/news/guangzhou-boosts-embodied-ai-with-open-use-cases-40-billion-yuan-industry-fund-2118548588027863040",
+    "summary": "The headline 40 billion yuan is two general 20 billion yuan industry funds, not a robotics fund. The city's July measures already fund 10 demonstration projects a year and up to 16 parks with rewards of up to RMB 50M each.",
+    "category": "Policy"
+  },
+  {
+    "companies": [
+      "boston-dynamics"
+    ],
+    "policies": [],
+    "themes": [
+      "us-supply-chain"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "batteries",
+      "korea",
+      "humanoid"
+    ],
+    "id": "hyundai-atlas-batteries-samsung-sdi-lges-2026-11",
+    "title": "Report: Hyundai picks Samsung SDI and LG Energy Solution to supply Atlas humanoid batteries",
+    "date": "2026-11-06",
+    "source": "The Elec",
+    "source_type": "News",
+    "source_url": "https://www.thelec.kr/news/articleView.html?idxno=65065",
+    "summary": "Each Atlas uses 70 cylindrical 2170 cells of 5,000 mAh, about a 1.3 kWh pack, with Samsung SDI taking most of the first volume. The report is industry-sourced; Hyundai and Boston Dynamics have not confirmed it, and Atlas mass production is planned after 2028.",
+    "category": "Supply Chain"
+  },
+  {
     "id": "korea-physical-ai-budget-2027-2026-11",
     "title": "Korea proposes 3.1 trillion won for physical AI in 2027, with the state buying about 1,700 robots",
     "date": "2026-11-06",
@@ -21,6 +330,79 @@
       "public-procurement",
       "legislation"
     ]
+  },
+  {
+    "companies": [
+      "unitree"
+    ],
+    "policies": [],
+    "themes": [
+      "foundation-models"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "apple",
+      "sim-to-real",
+      "humanoid"
+    ],
+    "id": "apple-halo-unitree-g1-synthetic-data-2026-11",
+    "title": "Apple researchers drive a Unitree G1 with HALO, trained on simulated motion only",
+    "date": "2026-11-05",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/apple-halo-humanoid-synthetic-data-unitree-g1",
+    "summary": "The policy succeeded in 91% of 360 real trials across six unmapped rooms after training on about 300 hours of simulated motion and no teleoperation data.",
+    "category": "Research"
+  },
+  {
+    "companies": [
+      "shield-ai"
+    ],
+    "policies": [],
+    "themes": [
+      "defense-procurement"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "defense",
+      "acquisition",
+      "autonomy",
+      "us"
+    ],
+    "id": "shield-ai-echodyne-2-5b-raise-2026-11",
+    "title": "Shield AI agrees to buy radar maker Echodyne for $5.3B and raises $2.5B at a $28.8B valuation",
+    "date": "2026-11-05",
+    "source": "Bloomberg via Yahoo Finance",
+    "source_type": "News",
+    "source_url": "https://finance.yahoo.com/technology/articles/shield-ai-hit-28-8-160003152.html",
+    "summary": "Bloomberg splits the $2.5B into a $1B Series H, $1B of structured equity from Blackstone and $500M of JPMorgan debt; the valuation was $12.7B in March. Echodyne's price is $4.8B at close plus $500M contingent.",
+    "category": "Funding"
+  },
+  {
+    "companies": [
+      "humble-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "autonomous-trucks",
+      "funding",
+      "us"
+    ],
+    "id": "humble-robotics-51m-cabless-trucks-2026-11",
+    "title": "Humble Robotics raises $51M to build cabless electric self-driving trucks",
+    "date": "2026-11-05",
+    "source": "Business Insider",
+    "source_type": "News",
+    "source_url": "https://www.businessinsider.com/humble-robotics-raises-51-million-for-cabless-self-driving-trucks-2026-11",
+    "summary": "Obvious Ventures led the round, with Eclipse and Energy Impact Partners returning, bringing the San Francisco startup to $75M in total funding. Founder Eyal Cohen (ex-Apple, Uber, Waabi) says customer pilots with conventional trucks start in Q1 2027 before its own Humble Hauler is deployed; it does not yet move freight commercially.",
+    "category": "Funding"
   },
   {
     "id": "china-blocks-softbank-abb-robotics-2026-11",
@@ -244,6 +626,125 @@
       "public-safety",
       "strategic-investment"
     ]
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "us-supply-chain"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rare-earths",
+      "magnets",
+      "korea"
+    ],
+    "id": "ls-cable-gumi-magnet-plant-2026-11",
+    "title": "LS Cable plans a 350 billion won rare-earth magnet plant in Gumi for EVs and robots",
+    "date": "2026-11-04",
+    "source": "Just Auto",
+    "source_type": "News",
+    "source_url": "https://www.just-auto.com/news/ls-cable-to-build-a-rare-earth-magnet-plant-in-south-korea/",
+    "summary": "The plant would make more than 1,000 tonnes a year of NdFeB magnets from late 2028, about 17% of Korea's demand.",
+    "category": "Supply Chain"
+  },
+  {
+    "companies": [
+      "agibot"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Negative",
+    "confidence": "Low",
+    "tags": [
+      "china",
+      "funding",
+      "consolidation",
+      "ipo"
+    ],
+    "id": "china-robot-shakeout-ipo-queue-2026-11",
+    "title": "Chinese robot funding fell to 33 deals in October from 55 in June, as more than 10 firms stopped or liquidated this year",
+    "date": "2026-11-04",
+    "source": "Red Star News via 10jqka",
+    "source_type": "News",
+    "source_url": "https://news.10jqka.com.cn/20261105/c681476952.shtml",
+    "summary": "IT Juzi counts RMB 10.1B raised in October against RMB 30.9B in June; named failures include Longhui Medical, DeepBlue Robotics, Yinghe Robotics and Wujing Power. The report says AgiBot may defer a 2026 IPO for a RMB 1B to 1.5B private round, which AgiBot has not confirmed.",
+    "category": "Funding"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "logistics",
+      "procurement",
+      "data"
+    ],
+    "id": "jd-logistics-3m-robots-five-years-2026-11",
+    "title": "JD Logistics says it plans to buy 3 million robots, 1 million autonomous vehicles and 100,000 drones over five years",
+    "date": "2026-11-04",
+    "source": "Sohu",
+    "source_type": "News",
+    "source_url": "https://www.sohu.com/a/1097533466_121627717",
+    "summary": "The plan also calls for more than 10 million hours of human video and 1 million hours of robot data within two years, and 80 robot industry bases. It is a stated purchase intention, not a signed contract; a JD executive put household robots 8 to 10 years away.",
+    "category": "Deployment"
+  },
+  {
+    "companies": [
+      "agibot"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "humanoid",
+      "retail"
+    ],
+    "id": "agibot-g2-24-hour-convenience-store-2026-11",
+    "title": "Six AgiBot G2 humanoids ran a Shanghai convenience store for 24 hours; four passed",
+    "date": "2026-11-04",
+    "source": "TechSpot",
+    "source_type": "News",
+    "source_url": "https://www.techspot.com/news/114445-six-humanoid-robots-worked-24-hour-shift-convenience.html",
+    "summary": "The livestreamed shift ran November 2 to 3 in a working store in Xuhui district and logged 1,730 tasks, including 683 greetings, 369 item fetches and 147 coffees. The cleaning robot and the shelf-patrol robot failed the assessment.",
+    "category": "Deployment"
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "world-model",
+      "manipulation"
+    ],
+    "id": "liberai-liber-0-world-action-model-2026-11",
+    "title": "Beijing startup LiberAI releases Liber-0, a world action model trained on 2.2 million hours of human video",
+    "date": "2026-11-04",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/",
+    "summary": "The model combines human video with glove-recorded hand motion. On 60 tasks it had never seen robot demonstrations for, LiberAI reports 36.0% success overall: 63.5% on pick-and-place, 34.0% on other manipulation and 10.5% on long-horizon tasks.",
+    "category": "Research"
   },
   {
     "id": "cnpc-unitree-joint-venture-filing-2026-11",

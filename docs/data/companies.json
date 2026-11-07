@@ -4358,10 +4358,22 @@
         ],
         "url": "https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/",
         "confidence": "confirmed"
+      },
+      {
+        "date": "2026-11",
+        "round": "Series H",
+        "amount_usd": 1000000000,
+        "valuation_usd": 28800000000,
+        "investors": [
+          "Blackstone (structured equity, separate B)",
+          "JPMorgan (debt, separate M)"
+        ],
+        "url": "https://finance.yahoo.com/technology/articles/shield-ai-hit-28-8-160003152.html",
+        "confidence": "reported"
       }
     ],
-    "total_funding_usd": 2700000000,
-    "latest_valuation_usd": 12700000000,
+    "total_funding_usd": 3700000000,
+    "latest_valuation_usd": 28800000000,
     "robot_types": [
       "UAV"
     ],
@@ -4410,9 +4422,12 @@
       },
       {
         "url": "https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/"
+      },
+      {
+        "url": "https://finance.yahoo.com/technology/articles/shield-ai-hit-28-8-160003152.html"
       }
     ],
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-11-07",
     "themes": [
       "defense-procurement",
       "policy-momentum"
@@ -10489,5 +10504,68 @@
       "industrial-deployments"
     ],
     "map_category": "industrial"
+  },
+  {
+    "id": "humble-robotics",
+    "name": "Humble Robotics",
+    "founded": "2025",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "N/A",
+    "funding_rounds": [
+      {
+        "date": "2026-11",
+        "round": "Undisclosed",
+        "amount_usd": 51000000,
+        "valuation_usd": null,
+        "investors": [
+          "Obvious Ventures",
+          "Eclipse",
+          "Energy Impact Partners"
+        ],
+        "url": "https://www.businessinsider.com/humble-robotics-raises-51-million-for-cabless-self-driving-trucks-2026-11",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 75000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "autonomous vehicle"
+    ],
+    "primary_use_case": "freight",
+    "flagship_product": "Humble Hauler (cabless electric truck)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": null,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Eyal Cohen",
+        "role": "Founder / CEO"
+      }
+    ],
+    "ceo": "Eyal Cohen",
+    "tags": [
+      "autonomous-trucks",
+      "electric",
+      "us"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      {
+        "url": "https://www.businessinsider.com/humble-robotics-raises-51-million-for-cabless-self-driving-trucks-2026-11"
+      }
+    ],
+    "last_updated": "2026-11-07",
+    "themes": [
+      "physical-ai"
+    ],
+    "map_category": "field"
   }
 ]
