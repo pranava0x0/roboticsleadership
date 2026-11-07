@@ -1,5 +1,281 @@
 [
   {
+    "id": "hn-50385803",
+    "title": "Show HN: Open-world text adventure played through AI agents",
+    "date": "2026-11-05",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://eremoterra.com/",
+    "summary": "Hey HN,I am building Eremoterra, this experiment of trying to make a game out of an MCP (to learn MCP stuff, but also had a lot fun designing the game).You play in your own agent. The server returns a",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50398702",
+    "title": "I watched a humanoid robot clean my apartment. Like a taste of the future",
+    "date": "2026-11-06",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+    "summary": "I watched a humanoid robot clean my apartment. Like a taste of the future",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50400642",
+    "title": "Humanoid Musical Robots as Experimental Interfaces for Music-Evoked Emotion",
+    "date": "2026-11-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2608.20433",
+    "summary": "Humanoid Musical Robots as Experimental Interfaces for Music-Evoked Emotion",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50401357",
+    "title": "Robodienst",
+    "date": "2026-11-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robodienst.com/supply-chain/unitree-g1",
+    "summary": "Robodienst",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50401369",
+    "title": "Magnets and Rare Earths",
+    "date": "2026-11-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robodienst.com/learning-paths/magnets-and-rare-earths",
+    "summary": "Magnets and Rare Earths",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50401820",
+    "title": "Powered by muscle cells, a paper-thin robot swims through watery maze",
+    "date": "2026-11-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929",
+    "summary": "Powered by muscle cells, a paper-thin robot swims through watery maze",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50402413",
+    "title": "Six humanoid robots worked a 24-hour shift at a convenience store",
+    "date": "2026-11-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.techspot.com/news/114445-six-humanoid-robots-worked-24-hour-shift-convenience.html",
+    "summary": "Six humanoid robots worked a 24-hour shift at a convenience store",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50403203",
+    "title": "London Beer Flood",
+    "date": "2026-11-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://en.wikipedia.org/wiki/London_Beer_Flood",
+    "summary": "London Beer Flood",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50404764",
+    "title": "Show HN: Bobr – a rootless content-addressed build system for Linux",
+    "date": "2026-11-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://bobr.build/",
+    "summary": "Hello. This is my vibe-coded pet project.\nIt’s meant to be a build system like Nix or Yocto.\nIt can work rootless, uses its own namespace-based sandbox runtime,\nis content-addressed, and builds a Linu",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50405591",
+    "title": "NHTSA proposes cyan lights for robotaxis, following Mercedes/China",
+    "date": "2026-11-07",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://electrek.co/2026/10/24/nhtsa-proposes-cyan-lights-for-robotaxis-following-mercedes-china/",
+    "summary": "NHTSA proposes cyan lights for robotaxis, following Mercedes/China",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-industry-experts-discuss-china-22",
+    "title": "Industry experts discuss China blocking SoftBank acquisition of ABB Robotics",
+    "date": "2026-11-06",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/",
+    "summary": "China's prohibition of SoftBank's purchase of ABB Robotics reflects wider concerns about data and AI, say experts.\nThe post Industry experts discuss China blocking SoftBank acquisition of ABB Robotics...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-boston-dynamics-built-stretch-502",
+    "title": "Boston Dynamics built Stretch Gen 2 for reliable, consistent performance",
+    "date": "2026-11-06",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/",
+    "summary": "Brian Donnelly, the VP and GM of logistics robotics at Boston Dynamics, said the new version of Stretch has been in the works for two and a half years. \nThe post Boston Dynamics built Stretch Gen 2 fo...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-how-point-one-turned-gps-accur-89",
+    "title": "How Point One turned GPS accuracy into a robotics platform",
+    "date": "2026-11-06",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/",
+    "summary": "Aaron Nathan explains how precise location technology like GPS is enabling robots to navigate, coordinate, and scale across real environments.\nThe post How Point One turned GPS accuracy into a robotic...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-robot-integration-brings-high-363",
+    "title": "Robot integration brings high-precision production to midmarket manufacturers",
+    "date": "2026-11-07",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/robot-integration-brings-high-precision-production-to-midmarket-manufacturers/",
+    "summary": "Properly integrated industrial and collaborative robots can help midmarket manufacturers, according to a columnist.\nThe post Robot integration brings high-precision production to midmarket manufacture...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "fedreg-news-2026-22739",
     "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
     "date": "2026-11-06",
