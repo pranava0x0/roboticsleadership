@@ -4,6 +4,16 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-11-07 (scheduled refresh)
+
+- [ ] **(medium) Reframe the FCC robot approvals as an onshoring-plan licence.** DA 26-1181 lists 13 conditional approvals, each tied to an onshoring plan and none with an end date, unlike the router table. A policies.html row could set this beside the 65% U.S.-component waiver for robot vacuums and China's draft robot ID rule (comments due Dec 5).
+- [ ] **(medium) Labor displacement is now a policy topic in both countries.** China's State Council issued opinions on employment-friendly AI, and NDRC has discussed job-substitution monitoring and sandboxes. Philadelphia's Bill 260526 taxes firms that replace a worker with an automated device. Add that rationale to the Bill 260526 record and consider a paired row.
+- [ ] **(medium) Check the Hill section after the Nov 3 midterms.** The Guardian (Nov 6) reports a Democrat-led Congress. scsp-summit.html's "The Hill's robotics agenda" and the policies.html Congress table name sponsors and committee leads; re-check them when the new committee rosters are set.
+- [ ] **(low) MIIT agent-terminal notice (工信厅信管〔2026〕42号, Oct 24).** It licenses AI agents on phones and wearables, with ID codes and OTA filing. It does not cover robots, but it uses the same machinery as the robot ID draft, so watch for an extension.
+- [ ] **(low) Open model provenance.** LeRobot v0.7.0 ships Chinese VLAs (LingBot-VLA 2.0, Wall-OSS-0.5) beside NVIDIA's models in a U.S. open stack. If a U.S. rule on Chinese model weights appears, this is where it would bite.
+- [ ] **(low) Leads not authored this run:** Musk said Tesla would "probably rent" Optimus (fan-site recap only); the U.S.-China trade truce runs to Jan 10, 2027, with a Trump-Xi meeting at APEC Shenzhen; China's rare-earth suspension may lapse Nov 10 (no primary); Laza Medical $160M (cath-lab imaging, scope call); China embodied-AI market of RMB 915B (definition too broad to compare).
+- Curated this run: 51 news + 3 policy scraper candidates, 8 rewritten as curated records and the rest dropped (data/research/refresh-2026-11-07-dropped.json). The X keyword passes gave Darwin Robotics and LeRobot v0.7.0. The Sonnet sweep (25 minutes, 15 items) gave 11 records and one policy update (data/research/refresh-2026-11-07-sweep.md). Section 232 page: the Federal Register row now reads published. The 11-06 AgiBot convenience-store lead is now sourced (TechSpot).
+
 ## ▶ Added 2026-11-06 (scheduled refresh)
 
 - [ ] **(medium) Reframe "deal review and robot data" as a US-vs-China policy row.** China blocked SoftBank's $5.4B ABB Robotics purchase on Nov 5, citing robot data leaving the country to train AI; MIIT's draft one-robot-one-code ID rule (comments to Dec 5) would make every Chinese robot traceable. The US side has Treasury's outbound-investment NPRM (comments to Dec 7), the BIS Affiliates Rule pause (now to Jan 10, 2027) and Section 232. Consider a `capital-policy` row on us_china.json, or a short section on policies.html, comparing how each side controls robot deals and data. Also a candidate topic for any comment the owner files on the outbound NPRM.
@@ -15,7 +25,7 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ## ▶ Added 2026-11-03 (scheduled refresh)
 
-- [ ] **(medium) scsp-summit.html is still 17.7 phone screens (budget 15).** An earlier pass collapsed agenda, speakers, posts and policy context (summit 16.1 -> 9.3 desktop, 25 -> 17.7 phone). Next: collapse the commission-report findings list on the summit page. rd.html was fixed 2026-11-06 (models grouped by country, benchmarks collapsed): 12.9 -> 8.6 desktop, 14.7 -> 9.8 phone.
+- [x] **(medium) scsp-summit.html is still 17.7 phone screens (budget 15).** Done 2026-11-07: Themes and The Hill now collapse, 17.7 -> 9.7 phone, 9.3 -> 6.4 desktop. An earlier pass collapsed agenda, speakers, posts and policy context (summit 16.1 -> 9.3 desktop, 25 -> 17.7 phone). Next: collapse the commission-report findings list on the summit page. rd.html was fixed 2026-11-06 (models grouped by country, benchmarks collapsed): 12.9 -> 8.6 desktop, 14.7 -> 9.8 phone.
 - [ ] **(medium) Front-page lead picked by date alone put a Low-confidence Entrackr seed-round item first.** `RT.frontPageStories` could prefer Medium/High confidence among same-week items.
 - [ ] **(low) Reframe check for the Agility listing:** when the Nov 4 close is confirmed, update the Agility funding round from "announced" to completed and note the redemption-adjusted proceeds ($465M expected vs $620M first announced).
 - [ ] **(low) China humanoid leasing (36Kr: rental down 70-90%, ~65% of one platform's orders are one-time shows)** is a useful counter-signal to shipment counts on china.html; consider a "demand quality" row.

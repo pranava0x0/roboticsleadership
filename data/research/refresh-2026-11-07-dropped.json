@@ -1,0 +1,337 @@
+{
+ "date": "2026-11-07",
+ "note": "Scraper candidates not kept as-is. merged_into marks a candidate rewritten as a curated record. Agility listing and SoftBank-ABB items were already curated on 11-05/11-06.",
+ "news": [
+  {
+   "id": "fedreg-news-2026-22739",
+   "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
+   "date": "2026-11-06",
+   "source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment"
+  },
+  {
+   "id": "hn-50371899",
+   "title": "A Tale of Two Humanoid Makers: Agility and Unitree",
+   "date": "2026-11-04",
+   "source_url": "https://read.corematter.com/p/agility-unitree-humanoid-financials-compared"
+  },
+  {
+   "id": "hn-50380458",
+   "title": "Realbotix Series 1 Humanoids",
+   "date": "2026-11-05",
+   "source_url": "https://www.realbotix.com"
+  },
+  {
+   "id": "hn-50380625",
+   "title": "Fonzi – Job board for problems to move humanity forward",
+   "date": "2026-11-05",
+   "source_url": "https://talent.fonzi.ai/"
+  },
+  {
+   "id": "hn-50385803",
+   "title": "Show HN: Open-world text adventure played through AI agents",
+   "date": "2026-11-05",
+   "source_url": "https://eremoterra.com/"
+  },
+  {
+   "id": "hn-50346687",
+   "title": "Deploying robots into the real world with Tutor (a16z podcast) [video]",
+   "date": "2026-11-03",
+   "source_url": "https://www.youtube.com/watch?v=lXkjXSul6yg"
+  },
+  {
+   "id": "hn-50354186",
+   "title": "Researchers warn secret \"trigger words\" can make hacked AI robots attack people",
+   "date": "2026-11-03",
+   "source_url": "https://www.dexerto.com/entertainment/researchers-warn-secret-trigger-words-can-make-hacked-ai-robots-turn-on-people-and-attack-them-3424454/"
+  },
+  {
+   "id": "hn-50359263",
+   "title": "Infineon Targets Semiconductor Market for Humanoid Robotic Hands",
+   "date": "2026-11-03",
+   "source_url": "https://www.thelec.net/news/articleView.html?idxno=14713"
+  },
+  {
+   "id": "hn-50360540",
+   "title": "Why GPT-6 Astra is suddenly so good at robotics",
+   "date": "2026-11-04",
+   "source_url": "https://twitter.com/josefchen/status/2117749992420946241"
+  },
+  {
+   "id": "hn-50369048",
+   "title": "Upcoming change for eMudhra CA certificates included in the Chrome Root Store",
+   "date": "2026-11-04",
+   "source_url": "https://groups.google.com/a/ccadb.org/g/public/c/DU8p98nyQWc/m/R33zS9UIBgAJ"
+  },
+  {
+   "id": "hn-50372929",
+   "title": "A thousand fewer paths to root",
+   "date": "2026-11-04",
+   "source_url": "https://openai.com/index/a-thousand-fewer-paths-to-root/"
+  },
+  {
+   "id": "hn-50377870",
+   "title": "Robots with real-tissue muscle actuators achieve jumping, swimming and walking",
+   "date": "2026-11-05",
+   "source_url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/10/one-small-leap-for-a-muscle-one-giant-step-for-robotics.html"
+  },
+  {
+   "id": "hn-50379913",
+   "title": "Humble Robotics raises $51M to build autonomous electric self-driving truck",
+   "date": "2026-11-05",
+   "source_url": "https://www.businessinsider.com/humble-robotics-raises-51-million-for-cabless-self-driving-trucks-2026-11",
+   "merged_into": "humble-robotics-51m-cabless-trucks-2026-11"
+  },
+  {
+   "id": "hn-50382253",
+   "title": "Agility's Digit 5 humanoid robot will run on Nvidia as it heads for Nasdaq",
+   "date": "2026-11-05",
+   "source_url": "https://thenextweb.com/news/agility-robotics-digit-5-nvidia-igx-thor"
+  },
+  {
+   "id": "hn-50382868",
+   "title": "China Fielding Robotic Space Weapons That Can Attack Other Satellites",
+   "date": "2026-11-05",
+   "source_url": "https://www.forbes.com/sites/zitaballingerfletcher/2026/10/31/china-fielding-robotic-space-weapons-that-can-attack-other-satellites/"
+  },
+  {
+   "id": "hn-50384418",
+   "title": "Can you instruct the robot to make a PB&J sandwich?",
+   "date": "2026-11-05",
+   "source_url": "https://www.sudosandwich.lol/"
+  },
+  {
+   "id": "hn-50385065",
+   "title": "Barracuda ESG pre-auth remote root (CVE-2026-116606)",
+   "date": "2026-11-05",
+   "source_url": "https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
+  },
+  {
+   "id": "hn-50387284",
+   "title": "Robodinest – Robotics Supply Chain Visualize",
+   "date": "2026-11-06",
+   "source_url": "https://robodienst.com/supply-chain/bd-atlas"
+  },
+  {
+   "id": "hn-50387698",
+   "title": "The Farm Robotics Challenge",
+   "date": "2026-11-06",
+   "source_url": "https://www.farmroboticschallenge.ai"
+  },
+  {
+   "id": "hn-50388519",
+   "title": "Show HN: Stitch.ai – New all-in-one workspace with Stitchy the AI assistant",
+   "date": "2026-11-06",
+   "source_url": "https://app.stitch.ai/auth/signup"
+  },
+  {
+   "id": "hn-50389000",
+   "title": "OpenAI Just Found Nearly 1k Ways to Gain Root Access in Linux",
+   "date": "2026-11-06",
+   "source_url": "https://hothardware.com/news/openai-just-found-nearly-1000-ways-to-gain-root-access-in-linux"
+  },
+  {
+   "id": "hn-50389978",
+   "title": "Why IFR (7k humanoids sold) and IDC (25,000 shipped) are both right",
+   "date": "2026-11-06",
+   "source_url": "https://bryancharles.org/2026/10/14/the-ifr-counted-7000-humanoid-robots-sold-in-2025-idc-just-counted-25000-shipped-in-half-of-2026-both-are-right/"
+  },
+  {
+   "id": "hn-50390810",
+   "title": "The Docker group is root access, my agent used it to write to /etc.",
+   "date": "2026-11-06",
+   "source_url": "https://jeena.net/notes/1497"
+  },
+  {
+   "id": "hn-50390828",
+   "title": "Tesla to axe Cybertruck as Musk shifts focus to robotics and AI",
+   "date": "2026-11-06",
+   "source_url": "https://www.ft.com/content/8ec923a8-a581-4995-a92c-c08e16bf2e98",
+   "merged_into": "tesla-cybertruck-wind-down-cybercab-optimus-2026-11"
+  },
+  {
+   "id": "hn-50391356",
+   "title": "The Tragedy of the Oxide Root of Trust",
+   "date": "2026-11-06",
+   "source_url": "https://danielmangum.com/posts/tragedy-oxide-rot/"
+  },
+  {
+   "id": "hn-50391890",
+   "title": "Tesla to wind down Cybertruck production as Elon Musk focuses on robotics and AI",
+   "date": "2026-11-06",
+   "source_url": "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai",
+   "merged_into": "tesla-cybertruck-wind-down-cybercab-optimus-2026-11"
+  },
+  {
+   "id": "hn-50393660",
+   "title": "China has barred SoftBank from acquiring ABB Robotics' business in China",
+   "date": "2026-11-06",
+   "source_url": "https://harava.news/en/articles/2026/11/06/china-blocks-abb-robotics-deal-focus"
+  },
+  {
+   "id": "hn-50393683",
+   "title": "Shanghai sets rules for L4 robotaxis, including 15 minute breakdown response",
+   "date": "2026-11-06",
+   "source_url": "https://asia-tech-news.ghost.io/shanghai-sets-rules-for-l4-robotaxis-including-quick-breakdown-response/",
+   "merged_into": "shanghai-l4-robotaxi-rules-2026-11"
+  },
+  {
+   "id": "hn-50395213",
+   "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+   "date": "2026-11-06",
+   "source_url": "https://huggingface.co/blog/allenai/toyblocks"
+  },
+  {
+   "id": "hn-50395808",
+   "title": "Google, OpenAI, and Anthropic back a shared robots.txt AI training signal",
+   "date": "2026-11-06",
+   "source_url": "https://coywolf.com/news/seo/google-openai-microsoft-and-anthropic-back-a-shared-robotstxt-ai-training-signal/"
+  },
+  {
+   "id": "hn-50398702",
+   "title": "I watched a humanoid robot clean my apartment. Like a taste of the future",
+   "date": "2026-11-06",
+   "source_url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/"
+  },
+  {
+   "id": "hn-50400642",
+   "title": "Humanoid Musical Robots as Experimental Interfaces for Music-Evoked Emotion",
+   "date": "2026-11-07",
+   "source_url": "https://arxiv.org/abs/2608.20433"
+  },
+  {
+   "id": "hn-50401357",
+   "title": "Robodienst",
+   "date": "2026-11-07",
+   "source_url": "https://robodienst.com/supply-chain/unitree-g1"
+  },
+  {
+   "id": "hn-50401369",
+   "title": "Magnets and Rare Earths",
+   "date": "2026-11-07",
+   "source_url": "https://robodienst.com/learning-paths/magnets-and-rare-earths"
+  },
+  {
+   "id": "hn-50401820",
+   "title": "Powered by muscle cells, a paper-thin robot swims through watery maze",
+   "date": "2026-11-07",
+   "source_url": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929"
+  },
+  {
+   "id": "hn-50402413",
+   "title": "Six humanoid robots worked a 24-hour shift at a convenience store",
+   "date": "2026-11-07",
+   "source_url": "https://www.techspot.com/news/114445-six-humanoid-robots-worked-24-hour-shift-convenience.html",
+   "merged_into": "agibot-g2-24-hour-convenience-store-2026-11"
+  },
+  {
+   "id": "rss-churchill-capital-xi-sharehold-538",
+   "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
+   "date": "2026-11-03",
+   "source_url": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/"
+  },
+  {
+   "id": "rss-ben-waters-on-the-latest-wirel-367",
+   "title": "Ben Waters on the latest wireless charging strategies",
+   "date": "2026-11-03",
+   "source_url": "https://www.therobotreport.com/ben-waters-on-the-latest-wireless-charging-strategies/"
+  },
+  {
+   "id": "rss-liberai-unveils-liber-0-a-worl-693",
+   "title": "LiberAI Unveils Liber-0, a World Action Model That Grounds Human Experience in Robot Action",
+   "date": "2026-11-04",
+   "source_url": "https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/",
+   "merged_into": "liberai-liber-0-world-action-model-2026-11"
+  },
+  {
+   "id": "rss-how-globallogic-helped-haystac-228",
+   "title": "How GlobalLogic helped Haystack Robotics build a UV disinfection robot",
+   "date": "2026-11-04",
+   "source_url": "https://www.therobotreport.com/how-globallogic-helped-haystack-robotics-build-uv-disinfection-robot/"
+  },
+  {
+   "id": "rss-robotics-startup-radar-2026-48",
+   "title": "Robotics Startup Radar 2026",
+   "date": "2026-11-04",
+   "source_url": "https://www.therobotreport.com/robotics-startup-radar-2026/"
+  },
+  {
+   "id": "rss-how-ambi-robotics-helps-its-cu-889",
+   "title": "How Ambi Robotics helps its customers prepare for peak season",
+   "date": "2026-11-05",
+   "source_url": "https://www.therobotreport.com/how-ambi-robotics-helps-customers-prepare-peak-season/"
+  },
+  {
+   "id": "rss-how-did-agility-robotics-perfo-170",
+   "title": "How did Agility Robotics perform on its first day on the stock market?",
+   "date": "2026-11-05",
+   "source_url": "https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/"
+  },
+  {
+   "id": "rss-industry-experts-discuss-china-639",
+   "title": "Industry experts discuss China blocking SoftBank acquisition of ABB Robotics",
+   "date": "2026-11-06",
+   "source_url": "https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/"
+  },
+  {
+   "id": "rss-boston-dynamics-built-stretch-608",
+   "title": "Boston Dynamics built Stretch Gen 2 for reliable, consistent performance",
+   "date": "2026-11-06",
+   "source_url": "https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/",
+   "merged_into": "boston-dynamics-stretch-gen-2-2026-11"
+  },
+  {
+   "id": "rss-how-point-one-turned-gps-accur-421",
+   "title": "How Point One turned GPS accuracy into a robotics platform",
+   "date": "2026-11-06",
+   "source_url": "https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/"
+  },
+  {
+   "id": "rss-techcrunch-founder-summit-2026-37",
+   "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+   "date": "2026-11-04",
+   "source_url": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/"
+  },
+  {
+   "id": "rss-agility-is-the-first-pure-huma-765",
+   "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+   "date": "2026-11-05",
+   "source_url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/"
+  },
+  {
+   "id": "rss-physicl-raises-10m-to-make-the-389",
+   "title": "Physicl raises $10M to make the digital world real enough for robots",
+   "date": "2026-11-06",
+   "source_url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+   "merged_into": "physicl-10m-seed-sim-to-real-2026-11"
+  },
+  {
+   "id": "rss-are-drone-ports-the-next-annoy-565",
+   "title": "Are Drone Ports the Next Annoying Tech Neighbor?",
+   "date": "2026-11-04",
+   "source_url": "https://spectrum.ieee.org/drone-delivery-noise"
+  },
+  {
+   "id": "rss-video-friday-room-scale-cable-596",
+   "title": "Video Friday: Room-Scale Cable-Driven Home Robot Tidies Up",
+   "date": "2026-11-06",
+   "source_url": "https://spectrum.ieee.org/video-friday-home-cable-robot"
+  }
+ ],
+ "policies": [
+  {
+   "id": "fedreg-2026-22337",
+   "title": "Unleashing the Power of Unlicensed Ultra-Wideband Devices; Petition of Robert Bosch LLC for Amendment of the Part 15 Subpart F Ultra-Wideband Rules; and Petition of Alliance for Automative Innovation et al. To Amend Part 15 of the FCC's Rules To Permit the Operation of Certain Ultra-Wideband Devices",
+   "reason": "Federal Register term match with no robotics content"
+  },
+  {
+   "id": "fedreg-2026-21939",
+   "title": "Exemptions To Permit Circumvention of Access Controls on Copyrighted Works",
+   "reason": "Federal Register term match with no robotics content"
+  },
+  {
+   "id": "fedreg-2026-22739",
+   "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
+   "reason": "Federal Register term match with no robotics content"
+  }
+ ]
+}
