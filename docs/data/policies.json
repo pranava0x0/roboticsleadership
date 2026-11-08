@@ -1,5 +1,43 @@
 [
   {
+    "id": "nhtsa-fmvss-108-ads-lighting-nprm-2026",
+    "title": "NHTSA proposal to update FMVSS No. 108 lighting for driverless vehicles, including cyan marker lamps",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-10-26",
+    "status": "Draft",
+    "bill_number": "91 FR 67243",
+    "sponsor": "National Highway Traffic Safety Administration",
+    "summary": "A proposed rule (docket NHTSA-2026-1519) would let vehicles with automated driving systems carry lamps that show when the system is driving, in cyan, the color Mercedes already uses and China has adopted. Comments are due November 25, 2026.",
+    "full_text_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21794/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped",
+    "robotics_scope": "Robotaxis and other ADS-equipped vehicles; a US signalling rule that follows China and a German carmaker.",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "nhtsa",
+      "autonomous-vehicles",
+      "robotaxi",
+      "comment-period",
+      "standards"
+    ],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21794/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped"
+      },
+      {
+        "url": "https://electrek.co/2026/10/24/nhtsa-proposes-cyan-lights-for-robotaxis-following-mercedes-china/"
+      }
+    ],
+    "last_updated": "2026-11-08"
+  },
+  {
     "id": "fedreg-2026-21786",
     "title": "Treasury proposed outbound investment security regulations",
     "type": "Regulation",
