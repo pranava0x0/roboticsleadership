@@ -4,6 +4,14 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-11-08 (scheduled refresh)
+
+- [ ] **(medium) Reframe: where U.S. rules follow conventions China set first.** NHTSA's FMVSS 108 proposal (docket NHTSA-2026-1519, comments due Nov 25) would allow cyan driving-system lamps, a color China's standard already uses; MIIT's robot ID draft (comments to Dec 5) has no U.S. counterpart, and the FCC Covered List is the nearest U.S. tool for knowing which robots are in the country. A short policies.html or china.html note pairing these would show who is setting robot standards, without calling a winner.
+- [ ] **(medium) Company records not yet added:** Embodied AI (Lausanne, AIR, Faber VC round undisclosed), Wing (Fort Worth plant; drone peer to Zipline) and Tau Robotics (teleoperated home humanoids). Each now has a news record with `companies: []`; add a companies.json entry when there is a dated round or second source.
+- [ ] **(low) SoftBank-ABB carve-out.** Bloomberg (Nov 7) says the parties are weighing a separately owned China unit. If it closes, update `abb-robotics` and the SAMR/NDRC block record rather than adding a new event.
+- [ ] **(low) Leads not authored this run:** Musk "probably rent" Optimus (still fan-site only, as on 11-07); Ouster Q3 revenue $59M (8-K not read); DEEP Robotics X50 and AgiBot Lingxi X2 refresh (one secondary); Yibotu RMB 400M (trucking AV, one source); Grab/WeRide pause in Singapore (AV, not robotics policy).
+- Curated this run: 42 news + 2 policy scraper candidates, 1 merged into a curated record (Tau / MIT TR) and the rest dropped (data/research/refresh-2026-11-08-dropped.json). The X keyword pass gave Embodied AI's AIR; the Sonnet sweep (24 minutes, 15 items) gave 9 of the 10 records, the NHTSA policy record and MIIT's own notice as the robot-ID record's primary.
+
 ## ▶ Added 2026-11-07 (scheduled refresh)
 
 - [ ] **(medium) Reframe the FCC robot approvals as an onshoring-plan licence.** DA 26-1181 lists 13 conditional approvals, each tied to an onshoring plan and none with an end date, unlike the router table. A policies.html row could set this beside the 65% U.S.-component waiver for robot vacuums and China's draft robot ID rule (comments due Dec 5).

@@ -2096,6 +2096,18 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
 }
 .rd-area > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .rd-models-group > .table-wrap { margin: 0 14px 14px; }
+.rd-older { margin: 0 14px 14px; }
+.rd-older > summary {
+  cursor: pointer;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--accent);
+  font-weight: 600;
+}
+.rd-older > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.rd-older > .table-wrap { margin: 0 0 4px; }
 .rd-items { list-style: none; margin: 0; padding: 0 14px 6px; }
 .rd-items li { border-top: 1px solid var(--border); padding: 10px 0; }
 .rd-items p { margin: 0 0 4px; }

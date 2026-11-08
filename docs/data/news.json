@@ -1,5 +1,129 @@
 [
   {
+    "id": "softbank-abb-china-carve-out-talks-2026-11",
+    "title": "SoftBank and ABB weigh carving out ABB Robotics' China unit to save the $5.4B deal",
+    "date": "2026-11-07",
+    "source": "Bloomberg",
+    "source_type": "News",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-11-07/softbank-abb-weigh-china-carve-out-to-salvage-robotics-deal",
+    "summary": "After China blocked the sale, SoftBank is pushing for a separately owned China entity so the rest of the deal can close; talks are preliminary, and ABB is also weighing another buyer or a revived spin-off. China is about 30% of ABB Robotics' business.",
+    "category": "Geopolitics",
+    "companies": [
+      "abb-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "m-and-a",
+      "samr",
+      "softbank",
+      "china"
+    ]
+  },
+  {
+    "id": "shanghai-embodied-brain-consortium-2026-11",
+    "title": "Unitree, UBTech and 40 others form a \"general embodied brain\" group in Shanghai",
+    "date": "2026-11-07",
+    "source": "The Paper",
+    "source_type": "News",
+    "source_url": "https://www.thepaper.cn/newsDetail_forward_34428719",
+    "summary": "The 42 founding members, launched at a CIIE side event, include startup MoreSense, Fudan University and the national-local humanoid innovation center. MoreSense's CEO said a robot has to cost less than 18 months of the wages it replaces before it can scale.",
+    "category": "Policy",
+    "companies": [
+      "unitree",
+      "ubtech"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "consortium",
+      "ciie",
+      "shanghai",
+      "china"
+    ]
+  },
+  {
+    "id": "tau-robotics-teleop-home-cleaning-2026-11",
+    "title": "MIT Technology Review rides along as remote-piloted humanoids clean San Francisco homes",
+    "date": "2026-11-06",
+    "source": "MIT Technology Review",
+    "source_type": "News",
+    "source_url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+    "summary": "Tau Robotics charges $60 to $100 a visit, with a remote operator driving the humanoid through each task. The service collects home-task data while the robots are not yet autonomous.",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "humanoid",
+      "home",
+      "teleoperation",
+      "data-collection"
+    ]
+  },
+  {
+    "id": "wing-fort-worth-drone-factory-2026-11",
+    "title": "Wing will invest up to $125M in a Fort Worth drone factory",
+    "date": "2026-11-06",
+    "source": "Wing",
+    "source_type": "Primary",
+    "source_url": "https://wing.com/news/investing-in-american-innovation-aviation",
+    "summary": "The Alphabet delivery-drone unit is opening a 15,000 sq ft plant in Fort Worth, Texas, with up to 100 manufacturing jobs and up to $125M of spending over two years. Wing says it passed one million home deliveries this year.",
+    "category": "Supply Chain",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "drones",
+      "manufacturing",
+      "texas",
+      "onshoring"
+    ]
+  },
+  {
+    "id": "embodied-ai-air-factory-robot-2026-11",
+    "title": "EPFL spin-off Embodied AI unveils AIR, a wheeled two-armed robot for factory work",
+    "date": "2026-11-06",
+    "source": "Embodied AI (press release)",
+    "source_type": "Primary",
+    "source_url": "https://cdn.prod.website-files.com/696e4d2b681829764d29ce1c/6aed7eac45a2f3ef02919537_2026%20Press%20Release%20-%20Embodied%20AI%20AIR%20Launch_v2%20LOOK%20AI.pdf",
+    "summary": "The 25-person Lausanne company says AIR starts each job under a remote operator and hands over to its own model within about a month, with a 95% average task success rate in paid pilots it does not name. CE marking is planned for 2027; no price or delivery date was given.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "europe",
+      "mobile-manipulator",
+      "teleoperation",
+      "launch"
+    ]
+  },
+  {
     "companies": [],
     "policies": [
       "fcc-covered-list-robots-inverters-2026"
@@ -332,6 +456,101 @@
     ]
   },
   {
+    "id": "china-embodied-funding-cooling-2026-11",
+    "title": "Chinese embodied-AI rounds this week were mid-sized, and investors are slowing",
+    "date": "2026-11-05",
+    "source": "KrASIA",
+    "source_type": "News",
+    "source_url": "https://kr-asia.com/chinas-embodied-intelligence-funding-boom-loses-steam",
+    "summary": "RoboScience and SAIZHI each raised several hundred million yuan and Yicheng closed a RMB 200M Series C, but no humanoid maker announced a large round. KrASIA, citing 36Kr, reports investors asking for revenue before committing.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Negative",
+    "confidence": "Low",
+    "tags": [
+      "venture",
+      "china",
+      "embodied-ai"
+    ]
+  },
+  {
+    "id": "serve-robotics-q3-2026-results",
+    "title": "Serve Robotics raises 2026 revenue guidance to $12M after Q3 revenue of $2.8M",
+    "date": "2026-11-05",
+    "source": "Serve Robotics (SEC 8-K exhibit)",
+    "source_type": "Primary",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001832483/000183248326000048/serv-20260930_ex991earning.htm",
+    "summary": "Q3 revenue rose 313% from a year earlier, recurring revenue was 69% of the total, and the sidewalk-delivery company tripled average daily deliveries. Full-year guidance moved from $9-10M to $12M.",
+    "category": "Deployment",
+    "companies": [
+      "serve-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "earnings",
+      "delivery",
+      "sidewalk-robot"
+    ]
+  },
+  {
+    "id": "neura-eon-enviam-grid-humanoids-2026-11",
+    "title": "NEURA, E.ON and enviaM will train humanoids for grid inspection, with pilots in 2027",
+    "date": "2026-11-05",
+    "source": "NEURA Robotics",
+    "source_type": "Primary",
+    "source_url": "https://neura-robotics.com/physical-ai-energy-infrastructure-eon-enviam/",
+    "summary": "Inspection and monitoring skills will be trained at TUM RoboGym in Munich, with grid operator MITNETZ STROM as pilot partner and first field use expected in 2027. No fleet size or commercial terms were given.",
+    "category": "Deployment",
+    "companies": [
+      "neura-robotics"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "humanoid",
+      "energy",
+      "utilities",
+      "europe"
+    ]
+  },
+  {
+    "id": "autostore-acquires-logiqs-2026-11",
+    "title": "AutoStore agrees to buy roaming-pallet storage maker Logiqs for up to EUR 30M",
+    "date": "2026-11-05",
+    "source": "AutoStore",
+    "source_type": "Primary",
+    "source_url": "https://www.autostoresystem.com/news/autostore-to-acquire-roaming-pallet-as/rs-provider-logiqs",
+    "summary": "The Norwegian cube-storage company is buying the Dutch maker of pallet-handling automated storage, which has about 60 staff and about 30 customer sites, paying in cash. Closing is expected in Q4 2026.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "m-and-a",
+      "warehouse",
+      "as-rs",
+      "europe"
+    ]
+  },
+  {
     "companies": [
       "unitree"
     ],
@@ -557,10 +776,10 @@
     "id": "miit-robot-identification-code-draft-2026-11",
     "title": "China's MIIT drafts a one-robot-one-code ID rule, with comments open until December 5",
     "date": "2026-11-05",
-    "source": "Jiemian",
-    "source_type": "News",
-    "source_url": "https://www.jiemian.com/article/15299811.html",
-    "summary": "Every robot would carry a four-part code (maker, product, serial number, other) under standard GB/T 48541-2026, marked in digital, human-readable and machine-readable forms before leaving the factory. A maker's yearly code applications would generally be capped at 300% of the prior year's actual output, and codes must be filed on a national platform within 20 working days.",
+    "source": "MIIT",
+    "source_type": "Government",
+    "source_url": "https://www.miit.gov.cn/gzcy/yjzj/art/2026/art_ef16149bd27e4d7f95e5537e7dc68fdc.html",
+    "summary": "Every robot would carry a four-part code (maker, product, serial number, other) under standard GB/T 48541-2026, marked in digital, human-readable and machine-readable forms before leaving the factory. A maker's yearly code applications would generally be capped at 300% of the prior year's actual output, and codes must be filed on a national platform within 20 working days. The draft covers industrial, service and special-purpose robots made in China and says the mark is permanent and cannot be erased; robots already shipped file only their serial numbers.",
     "category": "Policy",
     "companies": [],
     "policies": [],
@@ -569,7 +788,7 @@
       "policy-momentum"
     ],
     "sentiment": "Neutral",
-    "confidence": "Medium",
+    "confidence": "High",
     "tags": [
       "miit",
       "standards",
@@ -625,6 +844,32 @@
       "drones",
       "public-safety",
       "strategic-investment"
+    ]
+  },
+  {
+    "id": "unitree-hangzhou-factory-visit-2026-11",
+    "title": "A visit to Unitree's Hangzhou plant finds actuators still mostly built by hand",
+    "date": "2026-11-04",
+    "source": "Josef Chen (blog)",
+    "source_type": "Analysis",
+    "source_url": "https://josef.cn/blog/unitree",
+    "summary": "Josef Chen of KAIKAKU describes an actuator floor run mostly by people at winding machines, with one or two automated lines. Citing Unitree's prospectus, he puts 2025 output near 32,000 robots against about $1.7M of machinery on the books, with labor at 8% of production cost; those figures are his reading, not rechecked here.",
+    "category": "Supply Chain",
+    "companies": [
+      "unitree"
+    ],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "manufacturing",
+      "actuators",
+      "factory-visit",
+      "china"
     ]
   },
   {

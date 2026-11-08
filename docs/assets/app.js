@@ -1268,9 +1268,16 @@
   }
 
   // One collapsible table per country, first open: as a single 49-row table
-  // the default tab ran 12.9 desktop screens. A #deep-link opens its group.
+  // the default tab ran 12.9 desktop screens. Past RD_MODELS_SHOWN rows the
+  // older ones sit in a nested closed <details> (the open US group alone was
+  // 29 rows). A #deep-link opens every <details> around its row.
+  const RD_MODELS_SHOWN = 10;
   function renderRdModels(rd) {
     const models = rd.sections.models;
+    const head = '<thead><tr><th scope="col">Model</th><th scope="col">Developer</th><th scope="col">Released</th><th scope="col">Weights</th><th scope="col">What it claims</th><th scope="col">Source</th></tr></thead>';
+    const table = (rows) => `<div class="table-wrap"><table class="data-table rd-table">
+          ${head}
+          <tbody>${rows.join('')}</tbody></table></div>`;
     return rdByCountry(models).map(([c, list], i) => {
       const rows = rdSortDate(list, 'released').map((m) => {
         const results = (m.results || []).map((r) => `<li><span class="rd-bench-name">${escapeHTML(r.benchmark)}:</span> <strong>${escapeHTML(r.value)}</strong>${r.vendor_reported ? ' <span class="pill warning rd-flag">Vendor-reported</span>' : ''}${r.setting ? `<span class="secondary-line">${escapeHTML(r.setting)}</span>` : ''}</li>`).join('');
@@ -1282,12 +1289,15 @@
           <td class="rd-claims"><p>${escapeHTML(m.summary)}</p>${results ? `<ul class="rd-results">${results}</ul>` : '<p class="muted-cell">No published scores.</p>'}${m.caveat ? `<p class="rd-caveat">${escapeHTML(m.caveat)}</p>` : ''}</td>
           <td class="rd-srccell">${rdFlags(m)} ${rdSources(m)}</td>
         </tr>`;
-      }).join('');
+      });
+      // Split only when it hides at least 3 rows; hiding 1 or 2 costs a tap for nothing.
+      const split = rows.length - RD_MODELS_SHOWN >= 3;
+      const shown = split ? rows.slice(0, RD_MODELS_SHOWN) : rows;
+      const older = split ? `<details class="rd-older"><summary>Older ${escapeHTML(RD_COUNTRY_HEAD[c])} models <span class="rd-count">${rows.length - RD_MODELS_SHOWN}</span></summary>
+          ${table(rows.slice(RD_MODELS_SHOWN))}</details>` : '';
       return `<details class="rd-area rd-models-group" id="models-${escapeHTML(c.toLowerCase())}"${i === 0 ? ' open' : ''}>
         <summary><span class="rd-area-name">${escapeHTML(RD_COUNTRY_HEAD[c])}</span> <span class="rd-count">${list.length}</span></summary>
-        <div class="table-wrap"><table class="data-table rd-table">
-          <thead><tr><th scope="col">Model</th><th scope="col">Developer</th><th scope="col">Released</th><th scope="col">Weights</th><th scope="col">What it claims</th><th scope="col">Source</th></tr></thead>
-          <tbody>${rows}</tbody></table></div>
+        ${table(shown)}${older}
       </details>`;
     }).join('');
   }

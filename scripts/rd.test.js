@@ -183,6 +183,18 @@ test('models and benchmarks ship collapsed, first group open, every record still
     assert(!missing.length, `${name}: missing ${missing.join(', ')}`);
   }
 });
+test('a long model group shows its 10 newest rows and nests the rest closed', () => {
+  // The open US group alone was 29 rows, 8.6 desktop screens on the default tab.
+  const html = RT.renderRdModels(rd);
+  const us = html.slice(html.indexOf('id="models-us"'), html.indexOf('id="models-china"'));
+  const older = us.indexOf('<details class="rd-older">');
+  const nUs = S.models.filter((m) => m.country === 'US').length;
+  assert(nUs > 12 && older > 0, `US group (${nUs}) has no nested older-models details`);
+  assert((us.slice(0, older).match(/<tr id=/g) || []).length === 10, 'US group does not show exactly 10 rows before the fold');
+  assert((us.slice(older).match(/<tr id=/g) || []).length === nUs - 10, 'older-models table lost rows');
+  const small = html.slice(html.indexOf('id="models-other"'));
+  assert(!small.includes('rd-older'), 'a group under the threshold was split');
+});
 test('summary says counts are not a ranking', () => {
   assert(/not a measure of who leads/.test(RT.renderRdSummary(rd)), 'summary disclaimer missing');
 });
