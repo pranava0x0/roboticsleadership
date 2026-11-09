@@ -2,6 +2,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { droppedKeys } from './dropped.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const ROOT = resolve(dirname(__filename), '..');
@@ -85,7 +86,7 @@ function toDateStr(raw) {
 }
 
 // Returns true if dateStr is within the last `days` calendar days.
-function isRecent(dateStr, cutoff) {
+export function isRecent(dateStr, cutoff) {
   return dateStr >= cutoff;
 }
 
@@ -300,7 +301,10 @@ async function main() {
 
   const sourcesData = JSON.parse(readFileSync(sourcesFile, 'utf8'));
   const news = JSON.parse(readFileSync(newsFile, 'utf8'));
-  const existingUrls = new Set(news.map(n => n.source_url));
+  // Rejected candidates count as seen, so a dropped notice is not re-added.
+  const dropped = droppedKeys(resolve(ROOT, 'data/research'));
+  const existingUrls = new Set([...news.map(n => n.source_url), ...dropped]);
+  console.log(`Skipping ${dropped.size} ids/urls from earlier dropped-candidate logs`);
   let addedTotal = 0;
 
   const enabledSources = sourcesData.news.filter(s => s.enabled);

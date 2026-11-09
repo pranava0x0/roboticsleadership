@@ -1,5 +1,173 @@
 [
   {
+    "policies": [],
+    "companies": [],
+    "sentiment": "Neutral",
+    "id": "china-rare-earth-pause-extended-2026-11",
+    "title": "China formally extends its rare-earth export-control pause to January 10 and keeps the 24% tariff on U.S. goods suspended",
+    "date": "2026-11-09",
+    "source": "Reuters",
+    "source_type": "News",
+    "source_url": "https://www.streetinsider.com/Reuters/China+extends+suspension+of+new+rare+earth+controls+until+January/27309954.html",
+    "summary": "The Commerce Ministry extended the pause on its October 2025 export controls, which were due to lapse on Nov 10, by two months. The extra 24% tariff on U.S. imports stays suspended (the 10% rate remains) and port fees on U.S.-linked ships stay waived. Trump is due in Shenzhen for APEC later this month.",
+    "category": "Geopolitics",
+    "themes": [
+      "us-supply-chain",
+      "policy-momentum"
+    ],
+    "confidence": "High",
+    "tags": [
+      "rare-earths",
+      "export-controls",
+      "tariffs",
+      "truce",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://www.globaltimes.cn/page/202611/1373924.shtml",
+        "label": "Global Times (tariff suspension)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "sentiment": "Positive",
+    "id": "nvidia-rlwrld-korea-investment-2026-11",
+    "title": "NVIDIA plans to invest in Korean robot-model startup RLWRLD at AI Day Seoul",
+    "date": "2026-11-09",
+    "source": "NVIDIA",
+    "source_type": "Primary",
+    "source_url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+    "summary": "NVIDIA announced an investment in Point2 and planned investments in Motif Technologies, RLWRLD and Upstage, with no amounts given. RLWRLD builds foundation models for humanoid and industrial robots (part insertion, nut threading, kitting from moving conveyors). A second NVIDIA post says LG ran GR00T-trained manufacturing tasks on its CLOiD robot in a real factory.",
+    "category": "Funding",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "confidence": "High",
+    "tags": [
+      "nvidia",
+      "korea",
+      "investment",
+      "gr00t"
+    ],
+    "sources": [
+      {
+        "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+        "label": "NVIDIA: Korea physical-AI ecosystem (LG CLOiD)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "sentiment": "Positive",
+    "id": "youliqi-pre-a-500m-yuan-2026-11",
+    "title": "Household-robot maker Youliqi closes a 500 million yuan Pre-Series A",
+    "date": "2026-11-09",
+    "source": "36Kr",
+    "source_type": "News",
+    "source_url": "https://eu.36kr.com/en/newsflashes/4062115262419844",
+    "summary": "Existing backers Xienuo and Yonghua followed on, and new investors include Greenland Group and Keli Sensing; the use of funds was not given. A March 36Kr profile put the Shanghai company, founded in 2024 by ex-DeepMind researcher Yang Fengyu, at a 1.8 billion yuan valuation with more than 100 home robots delivered a month.",
+    "category": "Funding",
+    "themes": [
+      "china-scale"
+    ],
+    "confidence": "Medium",
+    "tags": [
+      "funding",
+      "household-robots",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://eu.36kr.com/en/p/3711384836092289",
+        "label": "36Kr profile (March 2026)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "sentiment": "Neutral",
+    "id": "semi-fab-robot-charging-standard-2026-11",
+    "title": "Samsung, SK hynix and Micron open talks with SEMI on a robot charging standard for older chip fabs",
+    "date": "2026-11-09",
+    "source": "Seoul Economic Daily",
+    "source_type": "News",
+    "source_url": "https://en.sedaily.com/finance/2026/11/09/robots-head-into-older-chip-fabs-as-samsung-sk-hynix-push",
+    "summary": "The aim is to bring humanoids, mobile manipulators and AMRs into older fabs that still move wafer carriers on manual carts, then link charging data to manufacturing execution systems. The report gives no timeline, specification or robot suppliers.",
+    "category": "Supply Chain",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "confidence": "Medium",
+    "tags": [
+      "standards",
+      "semiconductors",
+      "amr",
+      "korea"
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "agibot"
+    ],
+    "sentiment": "Neutral",
+    "id": "primebot-10000th-robot-2026-11",
+    "title": "AgiBot-controlled PrimeBOT builds its 10,000th personal robot, 14 days after its 5,000th",
+    "date": "2026-11-08",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://humanoidsdaily.com/news/primebot-10000th-personal-robot-production",
+    "summary": "PrimeBOT says its line now makes 240 units a day, up from just over 200 at the 5,000 mark. It builds the 88 cm Q1 humanoid and the wheel-leg T1, sold at 19,999 yuan since Sep 20, with Lens Technology co-manufacturing. The count is robots built, not sold.",
+    "category": "Deployment",
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ],
+    "confidence": "Medium",
+    "tags": [
+      "manufacturing",
+      "consumer-robots",
+      "humanoid",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://pandaily.com/primebot-personal-robots-monthly-activity-production-ten-thousand",
+        "label": "Pandaily"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "sentiment": "Neutral",
+    "id": "arm-institute-500-members-2026-11",
+    "title": "The ARM Institute, the Pentagon-funded robotics manufacturing institute, passes 500 member organizations",
+    "date": "2026-11-08",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/arm-institute-members-grows-more-than-500-organizations/",
+    "summary": "Members include manufacturers, defense contractors, robotics firms, universities and community colleges. The Pittsburgh institute recently issued a Navy project call on the shipbuilding industrial base and an RFP on defense-industry skills gaps, neither with a dollar figure. Its member meeting runs Nov 17-19.",
+    "category": "Policy",
+    "themes": [
+      "us-supply-chain",
+      "defense-procurement"
+    ],
+    "confidence": "High",
+    "tags": [
+      "manufacturing-usa",
+      "workforce",
+      "shipbuilding",
+      "us"
+    ]
+  },
+  {
     "id": "softbank-abb-china-carve-out-talks-2026-11",
     "title": "SoftBank and ABB weigh carving out ABB Robotics' China unit to save the $5.4B deal",
     "date": "2026-11-07",
@@ -50,6 +218,56 @@
       "ciie",
       "shanghai",
       "china"
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "sentiment": "Neutral",
+    "id": "cainiao-warehouse-robot-training-2026-11",
+    "title": "Alibaba's Cainiao opens its warehouse network to robot and AI firms as a training ground",
+    "date": "2026-11-06",
+    "source": "TechNode Global",
+    "source_type": "Press Release",
+    "source_url": "https://technode.global/?p=997066",
+    "summary": "Cainiao says it has signed initial agreements with unnamed embodied-AI companies and runs dozens of trial scenarios: parcel feeding, sorting, palletizing and depalletizing. Its claim of a 10x to 50x efficiency gain over a decade is a company projection. A new service handles customs, freight and overseas warehousing for consumer-robot makers.",
+    "category": "Deployment",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "confidence": "High",
+    "tags": [
+      "logistics",
+      "training-data",
+      "alibaba",
+      "china"
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "ubtech"
+    ],
+    "sentiment": "Neutral",
+    "id": "china-humanoid-exports-q3-2026-11",
+    "title": "China exported $207 million of humanoids and robot dogs in January-September, customs data show",
+    "date": "2026-11-06",
+    "source": "The Gadgeteer",
+    "source_type": "News",
+    "source_url": "https://the-gadgeteer.com/?p=540725",
+    "summary": "The 16,559 units went to 108 countries and regions; South Korea was the third-largest market at $20 million. The report pairs the figure with UBTech trials on a Korean auto-parts line. The underlying customs table was not read, so treat the totals as reported.",
+    "category": "Supply Chain",
+    "themes": [
+      "china-scale"
+    ],
+    "confidence": "Medium",
+    "tags": [
+      "exports",
+      "customs-data",
+      "humanoid",
+      "china",
+      "korea"
     ]
   },
   {

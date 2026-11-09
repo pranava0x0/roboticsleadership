@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-26",
+    "last_updated": "2026-11-09",
     "captured_at": "2026-06-12",
     "method": "Selected robot counts, reducers, lidar and Marion refinery records checked 2026-10-26 against IFR, manufacturers and company disclosures; other records retain earlier capture dates. Shares are estimates for their stated market and year."
   },
@@ -1507,6 +1507,7 @@
     { "label": "2025 robotics VC", "value": "~$14B per Crunchbase (vs $8.2B in 2024); broader trackers report $35–40B including megadeals", "source": "https://news.crunchbase.com/robotics/ai-funding-high-figure-raise-data/" },
     { "label": "2026 YTD robotics VC", "value": "$23B+ globally by mid-2026, nearly matching all of 2025; Q1 humanoid equity funding $2.37B (+288% YoY)", "source": "https://www.briefs.co/news/robotics-startups-raised-23-billion-in-2026-closing-in-on-all-of-2025/" },
     { "label": "DFARS magnet deadline", "value": "January 2027 deadline for non-China magnet sourcing in defense systems", "source": "https://www.clarkhill.com/news-events/news/china-hits-pause-on-rare-earth-export-controls-and-what-it-means-for-supply-chains/" },
-    { "label": "China rare-earth control suspension", "value": "China's Oct 2025 export-control expansion is suspended; the US-China truce was extended on 2026-09-24 and Al Jazeera reports the rare-earth ban is now delayed until Jan 10 (previously Nov 10, 2026); another outlet reported a longer delay", "source": "https://www.aljazeera.com/economy/2026/9/24/hostile-but-hooked-whats-behind-the-us-china-trade-truce-extension" }
+    { "label": "China humanoid exports, Jan-Sep 2026", "value": "$207M of humanoids and robot dogs, 16,559 units to 108 markets per Chinese customs data as reported (South Korea third, $20M); the customs table itself was not read", "source": "https://the-gadgeteer.com/?p=540725" },
+    { "label": "China rare-earth control suspension", "value": "China's Oct 2025 export-control expansion is suspended until Jan 10, 2027. The Commerce Ministry formalized the two-month extension on 2026-11-09, a day before the pause was due to lapse; the 24% extra tariff on U.S. goods stays suspended to the same date (agreed in principle 2026-09-24)", "source": "https://www.streetinsider.com/Reuters/China+extends+suspension+of+new+rare+earth+controls+until+January/27309954.html" }
   ]
 }

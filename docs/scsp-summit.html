@@ -301,8 +301,8 @@
     // Company news
     document.getElementById('org-list').innerHTML = d.orgs.map((o, i) => `
       <details class="collapsible-section">
-        <summary><h2 class="section-title" style="font-size:17px;">${E(o.org)} <span class="muted tnum" style="font-size:13px;">${o.news.length}</span></h2>${o.one_liner ? `<p class="muted">${E(o.one_liner)}</p>` : ''}</summary>
-        <ul class="summit-recent">${o.news.map(n => `
+        <summary><h2 class="section-title" style="font-size:17px;">${E(o.org)} <span class="muted tnum" style="font-size:13px;">${o.news.length}</span></h2></summary>
+        ${o.one_liner ? `<p class="muted" style="margin:0 0 8px;">${E(o.one_liner)}</p>` : ''}<ul class="summit-recent">${o.news.map(n => `
           <li><span class="tnum muted">${E(date(n.date))}</span> <strong>${E(n.headline)}</strong> — ${E(n.summary || '')}
             ${link(n.url, n.source_name || host(n.url))}${n.source_type && n.source_type !== 'primary' ? ' <span class="muted">(secondary)</span>' : ''}
             ${n.site_record_id ? ` · <a href="news.html#${encodeURIComponent(n.site_record_id)}">Site record</a>` : ''}</li>`).join('')}
