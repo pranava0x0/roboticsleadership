@@ -4,6 +4,13 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-11-09 (scheduled refresh)
+
+- [ ] **(medium) Reframe: South Korea as the contested third market.** In one week NVIDIA announced Korean physical-AI investments (RLWRLD) at AI Day Seoul, Chinese customs data put Korea third for China's humanoid exports ($20M of $207M, Jan-Sep), LX Pantos began trialing Chinese AMR vendors in Incheon, and Hanwha is reported to be negotiating for LionRobotics. A china.html or supply-chain.html row on where third-country buyers source robots would show market share beyond the two home markets.
+- [ ] **(low) Company records not yet added:** Youliqi (Shanghai household robots, 500M yuan Pre-A), RLWRLD (Korean robot foundation models). Both have news records with no `companies.json` entry.
+- [ ] **(low) Recheck Nov 11-13:** CoRL 2026 awards (Austin); Hanwha-LionRobotics if finalized; Simplexity/Hangcha supermarket humanoid line (one X post, no primary).
+- Curated this run: 38 news + 3 policy scraper candidates, 0 kept (data/research/refresh-2026-11-09-dropped.json); 34 were repeats of earlier drops, which the scrapers now skip. 8 records from the Sonnet sweep; the supply-chain rare-earth row now carries the Nov 9 formal extension.
+
 ## ▶ Added 2026-11-08 (scheduled refresh)
 
 - [ ] **(medium) Reframe: where U.S. rules follow conventions China set first.** NHTSA's FMVSS 108 proposal (docket NHTSA-2026-1519, comments due Nov 25) would allow cyan driving-system lamps, a color China's standard already uses; MIIT's robot ID draft (comments to Dec 5) has no U.S. counterpart, and the FCC Covered List is the nearest U.S. tool for knowing which robots are in the country. A short policies.html or china.html note pairing these would show who is setting robot standards, without calling a winner.
@@ -26,7 +33,7 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 - [ ] **(medium) Reframe "deal review and robot data" as a US-vs-China policy row.** China blocked SoftBank's $5.4B ABB Robotics purchase on Nov 5, citing robot data leaving the country to train AI; MIIT's draft one-robot-one-code ID rule (comments to Dec 5) would make every Chinese robot traceable. The US side has Treasury's outbound-investment NPRM (comments to Dec 7), the BIS Affiliates Rule pause (now to Jan 10, 2027) and Section 232. Consider a `capital-policy` row on us_china.json, or a short section on policies.html, comparing how each side controls robot deals and data. Also a candidate topic for any comment the owner files on the outbound NPRM.
 - [ ] **(medium) Track open comment windows in one place.** This run found three with dates: CNPC-Unitree JV merger review (Nov 13), MIIT robot ID code (Dec 5), Treasury outbound NPRM (Dec 7). A dated "open for comment" list on policies.html would save each refresh from re-finding them.
-- [ ] **(low) The news scraper re-adds yesterday's dropped Federal Register items every run** (`fedreg-news-2026-22337` was dropped 11-05 and came back 11-06). Have `scraper-news.js` skip ids listed in `data/research/refresh-*-dropped.json`.
+- [x] **(done 2026-11-09: `scripts/dropped.js`, both scrapers) The news scraper re-adds yesterday's dropped Federal Register items every run** (`fedreg-news-2026-22337` was dropped 11-05 and came back 11-06). Have `scraper-news.js` skip ids listed in `data/research/refresh-*-dropped.json`.
 - [ ] **(low) Leads without a primary this run:** AgiBot G2 24-hour Shanghai convenience-store trial (clankr, 1,730 tasks), Kraken Robotics $102M orders (2026 total $457M; marine, scope call), six-ministry elder-care robot measures (official notice not found), Nemi Nasdaq SPAC, AutoStore buying Logiqs, EABOT and RoboScience rounds, Ouster Q3 (the US lidar counterpart to RoboSense).
 - [ ] **(low) Add Toyota as a company row** once Toyota Robotics (from Jan 1, 2027, led by Takefumi Shiga) publishes scope or headcount.
 - Curated this run: scraper 54 news + 3 policy candidates, kept 0 as-is (4 rewritten as curated records; list in data/research/refresh-2026-11-06-dropped.json). The X keyword pass and primaries gave 5 records; the Sonnet sweep (33 minutes, 31 items) gave 9. UAT: rd.html default tab 12.9 -> 8.6 desktop screens, 14.7 -> 9.8 phone; scsp-summit is now the only page over budget (17.7 phone).

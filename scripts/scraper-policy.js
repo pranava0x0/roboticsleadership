@@ -2,6 +2,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { droppedKeys } from './dropped.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const ROOT = resolve(dirname(__filename), '..');
@@ -29,6 +30,7 @@ async function main() {
   const sourcesData = JSON.parse(readFileSync(sourcesFile, 'utf8'));
   const policies = JSON.parse(readFileSync(policiesFile, 'utf8'));
   const existingUrls = new Set(policies.flatMap(p => (p.sources || []).map(s => typeof s === 'string' ? s : s.url)));
+  const dropped = droppedKeys(resolve(ROOT, 'data/research'));
 
   const targetSource = sourcesData.policies.find(s => s.id === 'federal-register-policy' && s.enabled);
   if (!targetSource) {
@@ -54,7 +56,8 @@ async function main() {
   let added = 0;
 
   for (const doc of data.results || []) {
-    if (existingUrls.has(doc.html_url)) continue;
+    if (existingUrls.has(doc.html_url) || dropped.has(doc.html_url)) continue;
+    if (dropped.has(`fedreg-${doc.document_number}`.toLowerCase())) continue;
 
     const newPolicy = {
       id: `fedreg-${doc.document_number}`.toLowerCase(),
