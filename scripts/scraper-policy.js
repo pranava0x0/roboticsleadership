@@ -56,7 +56,9 @@ async function main() {
   let added = 0;
 
   for (const doc of data.results || []) {
-    if (existingUrls.has(doc.html_url) || dropped.has(doc.html_url)) continue;
+    if (existingUrls.has(doc.html_url)) continue;
+    // Match the policy id only: the same notice dropped as *news* (by URL)
+    // may still be a policy candidate.
     if (dropped.has(`fedreg-${doc.document_number}`.toLowerCase())) continue;
 
     const newPolicy = {
