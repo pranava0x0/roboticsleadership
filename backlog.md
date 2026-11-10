@@ -4,6 +4,13 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-11-10 (scheduled refresh)
+
+- [ ] **(medium) Reframe: counterintelligence risk at the top of the U.S. robot-learning stack.** NVIDIA's board is investigating Jensen Huang's relationship with a woman U.S. officials call a Chinese intelligence asset, and Congress is asking questions (record `nvidia-board-huang-probe-2026-11`). NVIDIA supplies the chips, Isaac Lab and GR00T models that much of U.S. robot learning runs on, and released GR00T 2 the next day. If a committee letter, hearing or export-licence review follows, add a policies.html row and a china.html note on concentration in one U.S. supplier. Do not speculate before then.
+- [ ] **(low) Open tactile and control models from Chinese labs.** Robbyant's LingBot-Touch (Apache 2.0) and Archon's Anchor 1 follow LingBot-VLA into open release. Extends the 11-07 "open model provenance" item: track which Chinese open robot models ship inside U.S. stacks, in one table, if a U.S. rule on model weights appears.
+- [ ] **(low) Leads not authored this run:** AgiBot's Shanghai office lease (36Kr, Oct 22; rent figure is an estimate); Apple HALO humanoid motion research (project page undated); Tutor TI-0.1 technical report; Atlas battery pack uses 70 Samsung SDI cells (adds to the 11-06 record); Simplexity/Hangcha supermarket line and Mavria (X posts only, not found in English or Chinese search).
+- Curated this run: 17 news + 0 policy scraper candidates, 4 kept or folded (data/research/refresh-2026-11-10-dropped.json). The Sonnet sweep (4 minutes) gave LingBot-Touch, Anchor 1 and Zhifeng Chuangyuan; companies.json gains Archon Robotics and Zhifeng Chuangyuan. Front-page theme cards now show one sentence each, with the rest behind the toggle.
+
 ## ▶ Added 2026-11-09 (scheduled refresh)
 
 - [ ] **(medium) Reframe: South Korea as the contested third market.** In one week NVIDIA announced Korean physical-AI investments (RLWRLD) at AI Day Seoul, Chinese customs data put Korea third for China's humanoid exports ($20M of $207M, Jan-Sep), LX Pantos began trialing Chinese AMR vendors in Incheon, and Hanwha is reported to be negotiating for LionRobotics. A china.html or supply-chain.html row on where third-country buyers source robots would show market share beyond the two home markets.

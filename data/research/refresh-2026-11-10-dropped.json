@@ -1,0 +1,84 @@
+{
+ "date": "2026-11-10",
+ "note": "Scraper candidates not kept (17 news, 0 policy). Kept or folded: rss-nvidia-launches-gr00t-2-and-is-806 authored as nvidia-gr00t-2-corl-2026-11; hn-50431504 folded into nvidia-gr00t-2-corl-2026-11; rss-boston-dynamics-adds-wheels-to-823 authored as boston-dynamics-wheeled-atlas-2026-11; hn-50426783 authored as caltech-darpa-in-space-assembly-2026-11. X list leads not authored: AgiBot Shanghai office lease (one X post), Simplexity/Hangcha line (not found again).",
+ "dropped": [
+  {
+   "id": "hn-50425061",
+   "source_url": "https://reright.it/benchmark/",
+   "title": "Humanizer Benchmark – Reright",
+   "reason": "off-topic or how-to/opinion"
+  },
+  {
+   "id": "hn-50426683",
+   "source_url": "https://apple-aiml-research.github.io/ml-halo/",
+   "title": "Perceptive Humanoid Motion from Simulation",
+   "reason": "Apple HALO humanoid motion research; no date on page, backlog lead"
+  },
+  {
+   "id": "hn-50429144",
+   "source_url": "https://github.com/Dodaios/ste80-humanizer",
+   "title": "Show HN: STE80 Humanizer – de-AI text by writing 80% of the way to ASD-STE100",
+   "reason": "off-topic or how-to/opinion"
+  },
+  {
+   "id": "hn-50423170",
+   "source_url": "https://www.phoronix.com/news/OpenIndiana-2026.10",
+   "title": "OpenIndiana 2026.10 Released with Updated Tools and Compilers, New Apps",
+   "reason": "off-topic or how-to/opinion"
+  },
+  {
+   "id": "hn-50423634",
+   "source_url": "https://www.who.int/news/item/04-11-2026-six-climate-and-health-actions-could-save-1.6-million-lives-and-deliver-trillions-in-benefits-each-year",
+   "title": "Six climate and health actions could save 1.6M lives and deliver trillions",
+   "reason": "off-topic or how-to/opinion"
+  },
+  {
+   "id": "hn-50425428",
+   "source_url": "https://profero.io/blog/the-rootkit-built-into-grok-bot",
+   "title": "Grokbot rootkit vulnerability, ignored",
+   "reason": "off-topic or how-to/opinion"
+  },
+  {
+   "id": "hn-50430433",
+   "source_url": "https://news.berkeley.edu/2026/11/09/recent-advances-in-ai-are-creating-a-paradigm-shift-for-robotics/",
+   "title": "Recent advances in AI are creating a 'paradigm shift' for robotics",
+   "reason": "off-topic or how-to/opinion"
+  },
+  {
+   "id": "hn-50431806",
+   "source_url": "https://research.tutorintelligence.com/ti0-1",
+   "title": "TI-0.1: Deployment-time compute scaling for robot learning",
+   "reason": "Tutor TI-0.1 technical report; Tutor tracked, research note only"
+  },
+  {
+   "id": "hn-50432030",
+   "source_url": "https://www.unite.ai/xinhua-unveils-bionic-humanoid-robot-news-anchors-with-ubtech/",
+   "title": "Xinhua Unveils Bionic Humanoid Robot News Anchors with Ubtech – Unite.ai",
+   "reason": "Xinhua/UBTech anchors: novelty, dropped 11-09 too"
+  },
+  {
+   "id": "hn-50432214",
+   "source_url": "https://robotpaper.ai/ambitious-prompting-whats-bigger-than-a-factory/",
+   "title": "Ambitious Prompting – What's Bigger Than a Factory?",
+   "reason": "off-topic or how-to/opinion"
+  },
+  {
+   "id": "hn-50435129",
+   "source_url": "https://bostondynamics.com/news/boston-dynamics-launches-next-generation-stretch-robot/",
+   "title": "Boston Dynamics Launches Next Generation Stretch Robot",
+   "reason": "Stretch Gen 2 already tracked (11-06)"
+  },
+  {
+   "id": "rss-how-to-minimize-wi-fi-roaming-955",
+   "source_url": "https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/",
+   "title": "How to minimize Wi-Fi roaming interruptions for autonomous mobile robots",
+   "reason": "off-topic or how-to/opinion"
+  },
+  {
+   "id": "rss-can-agentic-robotics-solve-rob-31",
+   "source_url": "https://spectrum.ieee.org/agentic-robotics",
+   "title": "Can Agentic Robotics Solve Robotics’ Data Scaling Problem?",
+   "reason": "off-topic or how-to/opinion"
+  }
+ ]
+}

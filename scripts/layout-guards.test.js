@@ -135,6 +135,13 @@ test('front page carries every theme, with figures and sources', () => {
   const out = loadRT().renderThemeCards(themes);
   const n = (out.match(/class="card theme-card"/g) || []).length;
   assert(n === themes.length, `rendered ${n} of ${themes.length} themes`);
+  // Only the first sentence shows; the rest sits in the toggle, and none of it is lost.
+  const text = out.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
+  for (const t of themes) {
+    for (const w of t.narrative.split(/\s+/).slice(-4)) assert(text.includes(w.replace(/&/g, '&amp;')), `${t.id} lost "${w}" from its note`);
+  }
+  const visible = out.replace(/<details[\s\S]*?<\/details>/g, '').replace(/<[^>]+>/g, ' ');
+  assert(visible.length < themes.reduce((s, t) => s + t.narrative.length, 0) * 0.6, 'theme notes render in full above the toggle again');
   assert(read('index.html').includes('id="themes"'), 'index.html lost the #themes anchor news.html links to');
 });
 

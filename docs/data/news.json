@@ -3,6 +3,135 @@
     "policies": [],
     "companies": [],
     "sentiment": "Neutral",
+    "id": "nvidia-gr00t-2-corl-2026-11",
+    "title": "NVIDIA releases GR00T 2, a world action model, and Isaac Lab 3.0 at CoRL; model weights follow in December",
+    "date": "2026-11-09",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
+    "summary": "GR00T 2 is a 2B-parameter model that predicts video frames and actions together. NVIDIA reports 71% average success across 50 tasks from one demonstration each and 95% from five. A Turbo variant runs on a Unitree G1. The training data, SimFoundry and hardware designs are out now. Weights are due in December. Foxconn is testing it for server assembly and Siemens across industrial uses.",
+    "category": "Research",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "confidence": "High",
+    "tags": [
+      "nvidia",
+      "gr00t",
+      "world-action-model",
+      "isaac-lab",
+      "corl-2026",
+      "open-source"
+    ],
+    "sources": [
+      {
+        "url": "https://research.nvidia.com/labs/gear/gr00t-2/assets/gr00t2_whitepaper.pdf",
+        "label": "NVIDIA GR00T 2 white paper"
+      },
+      {
+        "url": "https://www.humanoidsdaily.com/news/nvidia-gr00t-2-world-action-model-corl-2026",
+        "label": "Humanoids Daily"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "sentiment": "Neutral",
+    "id": "robbyant-lingbot-touch-2026-11",
+    "title": "Ant Group's Robbyant open-sources LingBot-Touch, a tactile model that works across sensor types",
+    "date": "2026-11-09",
+    "source": "Robbyant (GitHub)",
+    "source_type": "Primary",
+    "source_url": "https://github.com/Robbyant/lingbot-touch",
+    "summary": "Ant Group's embodied-AI unit published code and two small checkpoints under Apache 2.0. The model learns one representation from magnetic, piezoresistive and camera-based touch sensors, and the team says it transfers to new sensors and robot hands without retraining. Only the inference encoder is released. Robbyant's LingBot-VLA already ships inside Hugging Face's LeRobot.",
+    "category": "Research",
+    "themes": [
+      "foundation-models",
+      "china-scale"
+    ],
+    "confidence": "High",
+    "tags": [
+      "ant-group",
+      "robbyant",
+      "tactile",
+      "open-source",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://huggingface.co/robbyant/lingbot-touch-small",
+        "label": "Hugging Face checkpoint"
+      },
+      {
+        "url": "https://technode.com/2026/11/10/ant-groups-robbyant-open-sources-tactile-ai-model-for-robot-hands/",
+        "label": "TechNode"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "zhifeng-chuangyuan"
+    ],
+    "sentiment": "Neutral",
+    "id": "zhifeng-chuangyuan-angel-2026-11",
+    "title": "Suzhou's Zhifeng Chuangyuan raises a RMB 80M angel round for touch-sensing assembly robots",
+    "date": "2026-11-09",
+    "source": "Pedaily",
+    "source_type": "News",
+    "source_url": "https://news.pedaily.cn/202611/571555.shtml",
+    "summary": "The company was founded in November 2025 and an unnamed Asian private-equity fund led the round. Its Z100 is a wheeled two-arm robot with touch sensors in the gripper, aimed at plugging connectors on optoelectronics, electronics and chip lines. The company says one unit is already working on a production line. One outlet reports it.",
+    "category": "Funding",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "confidence": "Low",
+    "tags": [
+      "funding",
+      "angel",
+      "tactile",
+      "precision-assembly",
+      "china"
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "boston-dynamics"
+    ],
+    "sentiment": "Neutral",
+    "id": "boston-dynamics-wheeled-atlas-2026-11",
+    "title": "Boston Dynamics puts Atlas on wheels to test its motors and whole-body control",
+    "date": "2026-11-09",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/",
+    "summary": "A Boston Dynamics engineer fitted wheels to Atlas's feet and trained rolling, pirouettes and switches between rolling and walking in simulation, then ran them on the robot. The company says a wheeled Atlas is a research testbed, not a product.",
+    "category": "Research",
+    "themes": [
+      "physical-ai"
+    ],
+    "confidence": "High",
+    "tags": [
+      "boston-dynamics",
+      "atlas",
+      "reinforcement-learning",
+      "sim-to-real"
+    ],
+    "sources": [
+      {
+        "url": "https://www.humanoidsdaily.com/news/boston-dynamics-atlas-wheels-rl-actuator-test",
+        "label": "Humanoids Daily"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "sentiment": "Neutral",
     "id": "china-rare-earth-pause-extended-2026-11",
     "title": "China formally extends its rare-earth export-control pause to January 10 and keeps the 24% tariff on U.S. goods suspended",
     "date": "2026-11-09",
@@ -113,6 +242,40 @@
   },
   {
     "policies": [],
+    "companies": [],
+    "sentiment": "Neutral",
+    "id": "nvidia-board-huang-probe-2026-11",
+    "title": "NVIDIA's board opens an investigation into Jensen Huang's relationship with a woman U.S. officials call a Chinese intelligence asset",
+    "date": "2026-11-08",
+    "source": "CNBC",
+    "source_type": "News",
+    "source_url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+    "summary": "Independent directors and outside counsel will run the probe. The board says it has no reason to believe national security or company secrets were compromised. Huang told staff he had an affair and will cooperate. The shares fell 4.3% on Nov 9, and members of Congress have asked questions. NVIDIA's chips and Isaac/GR00T software sit under much of the U.S. robot-learning stack.",
+    "category": "Geopolitics",
+    "themes": [
+      "policy-momentum"
+    ],
+    "confidence": "High",
+    "tags": [
+      "nvidia",
+      "governance",
+      "counterintelligence",
+      "china",
+      "congress"
+    ],
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html",
+        "label": "CNBC (Congress)"
+      }
+    ]
+  },
+  {
+    "policies": [],
     "companies": [
       "agibot"
     ],
@@ -218,6 +381,38 @@
       "ciie",
       "shanghai",
       "china"
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "archon-robotics"
+    ],
+    "sentiment": "Neutral",
+    "id": "archon-anchor-1-2026-11",
+    "title": "Shanghai's Archon Robotics releases Anchor 1, a whole-body controller for humanoid manipulation",
+    "date": "2026-11-06",
+    "source": "Sina Finance",
+    "source_type": "News",
+    "source_url": "https://finance.sina.cn/tech/2026-11-06/detail-inixucth5595454.d.html",
+    "summary": "Anchor 1 turns sparse targets for the pelvis, wrists and ankles into whole-body motion. The company reports 80.2% less wrist-path error than a baseline on a 16 cm circle test. Archon was founded in April 2024 and raised a seed round of several hundred million yuan.",
+    "category": "Research",
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "confidence": "Medium",
+    "tags": [
+      "archon",
+      "humanoid",
+      "whole-body-control",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://autonews.gasgoo.com/articles/icv/seeds-archon-robotics-a-general-whole-body-embodied-intelligence-developer-raises-hundreds-of-millions",
+        "label": "Gasgoo (seed round)"
+      }
     ]
   },
   {
@@ -671,6 +866,31 @@
       "budget",
       "public-procurement",
       "legislation"
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "sentiment": "Neutral",
+    "id": "caltech-darpa-in-space-assembly-2026-11",
+    "title": "A Caltech robot funded by DARPA builds a structure in orbit with no astronauts",
+    "date": "2026-11-05",
+    "source": "Caltech",
+    "source_type": "Primary",
+    "source_url": "https://www.caltech.edu/about/news/caltech-robotic-space-demo-successfully-builds-in-space",
+    "summary": "The ASTRA arm, part of DARPA's NOM4D program, spent six months in orbit assembling struts and joints into truss sections for a 1.4-meter reflector antenna. It ran out of time after the first section. Caltech calls it the first structure built autonomously in space and says the method scales to much larger trusses.",
+    "category": "Research",
+    "themes": [
+      "defense-procurement",
+      "physical-ai"
+    ],
+    "confidence": "High",
+    "tags": [
+      "darpa",
+      "space",
+      "in-space-assembly",
+      "caltech",
+      "jpl"
     ]
   },
   {
