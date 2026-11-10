@@ -245,15 +245,15 @@
     "companies": [],
     "sentiment": "Neutral",
     "id": "nvidia-board-huang-probe-2026-11",
-    "title": "NVIDIA's board opens an investigation into Jensen Huang's relationship with a woman U.S. officials call a Chinese intelligence asset",
+    "title": "NVIDIA's board opens an investigation into Jensen Huang's relationship with a woman U.S. intelligence reportedly identified as a Chinese spy",
     "date": "2026-11-08",
     "source": "CNBC",
     "source_type": "News",
     "source_url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
-    "summary": "Independent directors and outside counsel will run the probe. The board says it has no reason to believe national security or company secrets were compromised. Huang told staff he had an affair and will cooperate. The shares fell 4.3% on Nov 9, and members of Congress have asked questions. NVIDIA's chips and Isaac/GR00T software sit under much of the U.S. robot-learning stack.",
+    "summary": "Independent directors and outside counsel will run the probe. The board says it has no reason to believe national security or company secrets were compromised. In an email to staff, Huang acknowledged an affair and said he will cooperate. The shares fell 4.3% on Nov 9, and members of Congress have asked questions.",
     "category": "Geopolitics",
     "themes": [
-      "policy-momentum"
+      "foundation-models"
     ],
     "confidence": "High",
     "tags": [
@@ -271,6 +271,10 @@
       {
         "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html",
         "label": "CNBC (Congress)"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html",
+        "label": "CNBC (Huang email and board statement)"
       }
     ]
   },

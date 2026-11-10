@@ -1044,8 +1044,9 @@
         `<li><a href="${escapeHTML(safeURL(s.url))}" target="_blank" rel="noopener">${escapeHTML(s.label || urlHostname(s.url))}</a></li>`).join('');
       // First sentence shows; the rest of the note joins the figures behind the toggle.
       // Full notes ran the section to 3.5 phone screens (2026-11-10). The split needs a
-      // lowercase letter, digit, % or ) before the stop, so "U.S. Robot" stays whole.
-      const [lead, ...restParts] = String(t.narrative || '').split(/(?<=[a-z0-9%)][.!?])\s+(?=[A-Z])/);
+      // lowercase letter, digit, % or ) before the stop, so "U.S. Robot" stays whole,
+      // and skips common abbreviations ("vs. China", "Inc. The", "No. 5").
+      const [lead, ...restParts] = String(t.narrative || '').split(/(?<=[a-z0-9%)][.!?])(?<!\b(?:vs|approx|Inc|Corp|Co|Ltd|No|Jr|Sr|St|e\.g|i\.e)\.)\s+(?=[A-Z0-9])/);
       const rest = restParts.join(' ');
       return `
       <article class="card theme-card" id="theme-${escapeHTML(t.id)}">
