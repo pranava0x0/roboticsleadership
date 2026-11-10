@@ -10566,5 +10566,106 @@
       "physical-ai"
     ],
     "map_category": "field"
+  },
+  {
+    "founded": "2024",
+    "hq": {
+      "city": "Shanghai",
+      "state": "",
+      "country": "China"
+    },
+    "website": "https://archon.tech",
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Seed",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://autonews.gasgoo.com/articles/icv/seeds-archon-robotics-a-general-whole-body-embodied-intelligence-developer-raises-hundreds-of-millions",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "humanoid"
+    ],
+    "primary_use_case": "embodied AI foundation models",
+    "flagship_product": "Anchor 1 whole-body controller",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "china",
+      "humanoid",
+      "whole-body-control"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      "https://finance.sina.cn/tech/2026-11-06/detail-inixucth5595454.d.html",
+      "https://autonews.gasgoo.com/articles/icv/seeds-archon-robotics-a-general-whole-body-embodied-intelligence-developer-raises-hundreds-of-millions"
+    ],
+    "last_updated": "2026-11-10",
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "map_category": "brains",
+    "id": "archon-robotics",
+    "name": "Archon Robotics (源策未来)"
+  },
+  {
+    "founded": "2025",
+    "hq": {
+      "city": "Suzhou",
+      "state": "",
+      "country": "China"
+    },
+    "website": "Not disclosed",
+    "funding_rounds": [
+      {
+        "date": "2026-11",
+        "round": "Angel",
+        "amount_usd": 11000000,
+        "valuation_usd": null,
+        "investors": [
+          "Unnamed Asian private-equity fund (lead)"
+        ],
+        "url": "https://news.pedaily.cn/202611/571555.shtml",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "mobile manipulator"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Z100 wheeled dual-arm robot",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "china",
+      "tactile",
+      "precision-assembly"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      "https://news.pedaily.cn/202611/571555.shtml"
+    ],
+    "last_updated": "2026-11-10",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "map_category": "industrial",
+    "id": "zhifeng-chuangyuan",
+    "name": "Zhifeng Chuangyuan (智蜂创元)"
   }
 ]
