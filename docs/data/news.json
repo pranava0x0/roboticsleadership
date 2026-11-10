@@ -1,5 +1,280 @@
 [
   {
+    "id": "hn-50435129",
+    "title": "Boston Dynamics Launches Next Generation Stretch Robot",
+    "date": "2026-11-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://bostondynamics.com/news/boston-dynamics-launches-next-generation-stretch-robot/",
+    "summary": "Boston Dynamics Launches Next Generation Stretch Robot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50437978",
+    "title": "Show HN: Show HN: Sowbot – Open-hardware agricultural robot 8months progress",
+    "date": "2026-11-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/Agroecology-Lab/Sowbot",
+    "summary": "8 Months ago I made this post https://news.ycombinator.com/item?id=47123894Since then we've done stuff, the software is much more mature, we've done some basic field testing o",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50438804",
+    "title": "Music For Robots – 26 unquantized acoustic tracks for multimodal LLM evaluation",
+    "date": "2026-11-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/luchtan-GIT/m4r-data",
+    "summary": "Music For Robots – 26 unquantized acoustic tracks for multimodal LLM evaluation",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50439841",
+    "title": "Rooting Multiple ISPs with Hyperglass",
+    "date": "2026-11-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://hyperpwn.xyz/",
+    "summary": "Rooting Multiple ISPs with Hyperglass",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50439919",
+    "title": "Firecracker on WSL2, without root",
+    "date": "2026-11-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://mko.run/firecracker-wsl2-rootless/",
+    "summary": "Firecracker on WSL2, without root",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50441134",
+    "title": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
+    "date": "2026-11-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html",
+    "summary": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50441849",
+    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+    "date": "2026-11-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+    "summary": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50441878",
+    "title": "Ring announces Ring Robotics, ushering in a new era of security",
+    "date": "2026-11-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.aboutamazon.com/news/devices/ring-drone-cam-rover-cam-security-robot",
+    "summary": "Ring announces Ring Robotics, ushering in a new era of security",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50442093",
+    "title": "Show HN: Git-dupe – plain Git per-project private versioning for agent files",
+    "date": "2026-11-10",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/BrianWeiHaoMa/git-dupe",
+    "summary": "Hi HN!Suppose you have notes, skills, and agent instructions that are part of your personal workflow, so you do not want them committed to the public repo, but at the same time, you want them to be in",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-nvidia-launches-gr00t-2-and-is-482",
+    "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
+    "date": "2026-11-09",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
+    "summary": "NVIDIA also gave a look at how its partners, like Ambi Robotics, FieldAI, Flexion, Skild AI, RLWRLD, and more, are using these technologies. \nThe post NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-axon-invests-1-2b-into-skydio-636",
+    "title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
+    "date": "2026-11-10",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/",
+    "summary": "The partners plan to bring Skydio drones to public safety agencies across the U.S. as Axon expands its Drone as First Responder program.\nThe post Axon invests $1.2B into Skydio and becomes its U.S. pu...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-intel-and-altera-expand-collab-163",
+    "title": "Intel and Altera expand collaboration to simplify sensor integration for physical AI",
+    "date": "2026-11-10",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/",
+    "summary": "Altera and Intel are working to make it easier to connect diverse sensors, turn data into real-time insights, and develop robotics.\nThe post Intel and Altera expand collaboration to simplify sensor in...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-why-predictive-maintenance-mat-93",
+    "title": "Why predictive maintenance matters more as factories add robots",
+    "date": "2026-11-10",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/",
+    "summary": "As robotics scales across industries, companies need a maintenance strategy to collect and use the right data to minimize downtime.\nThe post Why predictive maintenance matters more as factories add ro...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-ring-known-for-its-doorbell-ca-969",
+    "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+    "date": "2026-11-10",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+    "summary": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-50425061",
     "title": "Humanizer Benchmark – Reright",
     "date": "2026-11-09",
