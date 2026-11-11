@@ -159,5 +159,13 @@ test('energy: Project Prime Mover ships collapsed, and print opens it', () => {
   assert(/beforeprint/.test(html) && /afterprint/.test(html), 'energy.html lost its print handler for collapsed sections');
 });
 
+test('section 232: the agencies table ships collapsed, with a jump chip that opens it', () => {
+  // The 11-row agencies table was 1,812px on a phone, the page's longest block (8.4 screens total).
+  const html = read('section-232-robotics.html');
+  assert(/<details class="collapsible-section" id="agencies"(?![^>]*\bopen\b)/.test(html), 'agencies is not a closed details');
+  assert(/<nav[^>]*id="s232-jump"[\s\S]*?href="#agencies"/.test(html), 'jump nav has no chip for #agencies');
+  assert(/beforeprint/.test(html), 'section-232 page lost its print handler for collapsed sections');
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);

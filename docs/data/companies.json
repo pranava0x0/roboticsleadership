@@ -3594,10 +3594,28 @@
         ],
         "url": "https://www.path-robotics.com",
         "confidence": "reported"
+      },
+      {
+        "date": "2026-11",
+        "round": "Series E",
+        "amount_usd": 300000000,
+        "valuation_usd": 2450000000,
+        "investors": [
+          "Georgian",
+          "Addition",
+          "Drive Capital",
+          "IronArc Ventures",
+          "Tiger Global",
+          "Yamaha Motor Ventures",
+          "D. E. Shaw Ventures",
+          "NAVER Ventures"
+        ],
+        "url": "https://www.path-robotics.com/news/path-robotics-announces-300-million-series-e-led-by-georgian",
+        "confidence": "confirmed"
       }
     ],
-    "total_funding_usd": 89000000,
-    "latest_valuation_usd": null,
+    "total_funding_usd": 610000000,
+    "latest_valuation_usd": 2450000000,
     "robot_types": [
       "welding-robot",
       "industrial-arm"
@@ -3641,9 +3659,12 @@
       },
       {
         "url": "https://www.drivenbydata.com"
+      },
+      {
+        "url": "https://www.path-robotics.com/news/path-robotics-announces-300-million-series-e-led-by-georgian"
       }
     ],
-    "last_updated": "2026-09-21",
+    "last_updated": "2026-11-11",
     "themes": [
       "industrial-deployments"
     ],
