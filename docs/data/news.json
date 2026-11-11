@@ -2,6 +2,381 @@
   {
     "policies": [],
     "companies": [],
+    "id": "beijing-embodied-ai-action-plan-2026-11",
+    "title": "Beijing sets 2028 targets for humanoid makers, embodied-AI compute and training data in a new action plan",
+    "date": "2026-11-11",
+    "source": "Beijing Municipal Government",
+    "source_type": "Primary",
+    "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+    "summary": "The plan, issued by Beijing's economy and IT bureau, runs to the end of 2028. It aims for at least 5 internationally leading and 10 domestically leading humanoid makers, more than 50,000 PFlops of new compute dedicated to embodied AI, and over 1 million hours of data from at least 100 real settings. The Beijing-Tianjin-Hebei region is meant to reach 25% of China's whole-robot capacity with over 60% of key parts sourced locally.",
+    "category": "Policy",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "tags": [
+      "china",
+      "beijing",
+      "embodied-ai",
+      "humanoid",
+      "industrial-policy",
+      "action-plan"
+    ],
+    "sources": [
+      {
+        "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+        "label": "Beijing municipal government (Chinese)"
+      }
+    ]
+  },
+  {
+    "id": "path-robotics-series-e-2026-11",
+    "title": "Path Robotics raises a $300M Series E at a $2.45B valuation to take its welding AI to other factory tasks",
+    "date": "2026-11-10",
+    "source": "Path Robotics",
+    "source_type": "Primary",
+    "source_url": "https://www.path-robotics.com/news/path-robotics-announces-300-million-series-e-led-by-georgian",
+    "summary": "Georgian led the round, with Addition, Drive Capital, Tiger Global, Yamaha Motor Ventures, D. E. Shaw Ventures and NAVER Ventures. The Columbus company says annual recurring revenue grew 17-fold in 18 months and that it has raised more than $610M in total. Named customers include HII, Lockheed Martin and Saronic. The money goes to model training, new tasks beyond welding and new form factors such as Rove, its welder on a quadruped.",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "industrial-deployments",
+      "defense-procurement"
+    ],
+    "tags": [
+      "path-robotics",
+      "welding",
+      "series-e",
+      "georgian",
+      "shipbuilding"
+    ],
+    "companies": [
+      "path-robotics"
+    ],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.path-robotics.com/news/path-robotics-announces-300-million-series-e-led-by-georgian",
+        "label": "Path Robotics press release"
+      },
+      {
+        "url": "https://x.com/PathRobotics",
+        "label": "Path Robotics on X"
+      }
+    ]
+  },
+  {
+    "id": "gemini-robotics-2-5-apollo-mercedes-2026-11",
+    "title": "Google DeepMind releases Gemini Robotics 2.5 and reports 96% success on Apptronik humanoids kitting parts at Mercedes-Benz plants",
+    "date": "2026-11-10",
+    "source": "Google DeepMind",
+    "source_type": "Primary",
+    "source_url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+    "summary": "DeepMind says the model beats its previous baseline by 30% to 100% in success rate across 200 tasks and finishes them 20% to 30% faster. In a proof of concept at Mercedes-Benz plants in Kecskemét, Hungary and Sindelfingen, Germany, Apollo 2 robots sorted metal brackets from bulk bins into sequencing trays with a 96% success rate. Access is limited to partners.",
+    "category": "Research",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "tags": [
+      "google-deepmind",
+      "gemini-robotics",
+      "apptronik",
+      "mercedes-benz",
+      "humanoid",
+      "vla"
+    ],
+    "companies": [
+      "apptronik"
+    ],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+        "label": "Google DeepMind blog"
+      },
+      {
+        "url": "https://www.humanoidsdaily.com/news/gemini-robotics-2-5-apollo-2-mercedes-benz-argon",
+        "label": "Humanoids Daily"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "ustr-301-exclusions-extended-2026-11",
+    "title": "USTR extends all 178 Section 301 tariff exclusions on Chinese goods to January 9 and suspends the shipbuilding action",
+    "date": "2026-11-10",
+    "source": "Federal Register",
+    "source_type": "Primary",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22925/notice-of-product-exclusion-extensions-chinas-acts-policies-and-practices-related-to-technology",
+    "summary": "The exclusions now run through 11:59 pm ET on January 9, 2027 (91 FR 72610). A second notice suspends the Section 301 action on China's maritime, logistics and shipbuilding sector to January 10, 2027 (91 FR 72608). Both are the U.S. side of the two-month trade-truce extension, which also covers China's rare-earth export-control pause.",
+    "category": "Policy",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "ustr",
+      "section-301",
+      "tariffs",
+      "china",
+      "trade-truce",
+      "federal-register"
+    ],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22925/notice-of-product-exclusion-extensions-chinas-acts-policies-and-practices-related-to-technology",
+        "label": "Federal Register: exclusion extensions"
+      },
+      {
+        "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22867/notice-of-modification-of-section-301-action-chinas-targeting-of-the-maritime-logistics-and",
+        "label": "Federal Register: maritime action"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "hesai-q3-robot-actuators-2026-11",
+    "title": "Hesai ships 23,405 robot actuation modules in the third quarter, up 97% from the second, and signs on with JD.com's robot fleet",
+    "date": "2026-11-10",
+    "source": "Hesai Group (SEC 6-K)",
+    "source_type": "Primary",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001861737/000110465926125142/tm2629463d1_ex99-1.htm",
+    "summary": "The Chinese lidar maker reported RMB 1,068.3M in quarterly revenue and 729,673 lidar units shipped. Its actuation modules, used in robot hands and now full-body joints, are in mass production. Hesai says it has partnered with JD.com, which plans to deploy more than 4 million robots, on lidar and perception.",
+    "category": "Supply Chain",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "hesai",
+      "actuators",
+      "lidar",
+      "jd-com",
+      "earnings",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001861737/000110465926125142/tm2629463d1_ex99-1.htm",
+        "label": "Hesai Q3 2026 results (SEC 6-K)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "agility-robotics"
+    ],
+    "id": "agility-resale-s1-2026-11",
+    "title": "Agility Robotics files to register about 181M shares for resale after its Nasdaq listing",
+    "date": "2026-11-10",
+    "source": "SEC EDGAR",
+    "source_type": "Primary",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0002074973/000121390026118025/ea0311220-s1_agility.htm",
+    "summary": "One S-1 covers up to 160.9M shares held mostly by pre-merger holders (146.3M) and the SPAC sponsor. The other covers 20,102,500 shares that PIPE investors bought at $10, or $201M. About 242.1M shares are outstanding. Registration lets these holders sell once any lock-up ends.",
+    "category": "Funding",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "agility-robotics",
+      "sec",
+      "s-1",
+      "spac",
+      "nasdaq",
+      "humanoid"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0002074973/000121390026118025/ea0311220-s1_agility.htm",
+        "label": "S-1, 160.9M shares"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0002074973/000121390026118037/ea0311221-s1_agility.htm",
+        "label": "S-1, PIPE shares"
+      }
+    ]
+  },
+  {
+    "id": "ring-robotics-drone-rover-2026-11",
+    "title": "Amazon's Ring launches a $249 indoor security drone and a $999 patrol robot for businesses",
+    "date": "2026-11-10",
+    "source": "Amazon",
+    "source_type": "Primary",
+    "source_url": "https://www.aboutamazon.com/news/devices/ring-drone-cam-rover-cam-security-robot",
+    "summary": "Ring Rover Cam, a robot that patrols a business on its own and streams up to 4K video, ships in the U.S. on December 16, 2026 for $999. Ring Drone Cam, which flies custom routes inside a home, ships on January 27, 2027 for $249. Both run Ring's AI Pilot software, which maps the space and plans routes using on-device sensors and cloud processing.",
+    "category": "Deployment",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "themes": [
+      "cost-trajectory"
+    ],
+    "tags": [
+      "amazon",
+      "ring",
+      "security-robot",
+      "consumer-drone",
+      "pricing"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.aboutamazon.com/news/devices/ring-drone-cam-rover-cam-security-robot",
+        "label": "Amazon announcement"
+      },
+      {
+        "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+        "label": "TechCrunch"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "waymo-nhtsa-recall-query-2026-11",
+    "title": "NHTSA opens a recall query into whether Waymo's school-bus software fix worked",
+    "date": "2026-11-09",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/",
+    "summary": "The Office of Defects Investigation filed the recall query on November 6 to assess whether the remedy was adequate, after most reported school-bus passing incidents came after Waymo finished its software update on November 17, 2025. The Austin school district reported at least five. Waymo says it has received no citations since March 2026 and will respond once it receives the query.",
+    "category": "Policy",
+    "sentiment": "Negative",
+    "confidence": "Medium",
+    "themes": [
+      "policy-momentum"
+    ],
+    "tags": [
+      "waymo",
+      "nhtsa",
+      "robotaxi",
+      "recall",
+      "school-bus",
+      "autonomous-vehicles"
+    ],
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/",
+        "label": "TechCrunch"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "anthropic-fable-5-2-robodojo-2026-11",
+    "title": "Anthropic reports Claude Fable 5.2 at 64.9% on the RoboDojo two-arm robot benchmark in its own runs",
+    "date": "2026-11-09",
+    "source": "Anthropic",
+    "source_type": "Primary",
+    "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "summary": "In Anthropic's runs, OpenAI's GPT-6 Astra scored 29.8%, Google's Gemini 4 Argon 34.2% and Anthropic's earlier Opus 5.5 39.4%. RoboDojo is a simulated benchmark, and these scores come from Anthropic's internal runs. Robotera's VPP2 topped that leaderboard in October.",
+    "category": "Research",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "foundation-models"
+    ],
+    "tags": [
+      "anthropic",
+      "claude",
+      "robodojo",
+      "benchmark",
+      "simulation"
+    ],
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "label": "Anthropic announcement"
+      },
+      {
+        "url": "https://www.humanoidsdaily.com/news/anthropic-claude-fable-5-2-robotics-robodojo",
+        "label": "Humanoids Daily"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "ubtech"
+    ],
+    "id": "ubtech-china-telecom-terminals-2026-11",
+    "title": "UBTech signs a three-year deal with China Telecom's device arm to sell household and humanoid robots through its stores",
+    "date": "2026-11-09",
+    "source": "Unite.AI",
+    "source_type": "News",
+    "source_url": "https://www.unite.ai/?p=508043",
+    "summary": "The agreement with Tianyi Telecom Terminals covers a joint lab, coordinated buying, rentals, bundled AI services and robot trials in China Telecom stores. The stated three-year goals are more than 1 million household companion robots and more than 100,000 humanoid or wheeled humanoid units across the industry. These are targets, not orders.",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "Low",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "ubtech",
+      "china-telecom",
+      "distribution",
+      "humanoid",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://www.unite.ai/?p=508043",
+        "label": "Unite.AI"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "galbot"
+    ],
+    "id": "galbot-et1-ces-2027-award-2026-11",
+    "title": "Galbot's ET1 humanoid is the only Best of Innovation winner among the 21 CES 2027 robotics honorees announced so far",
+    "date": "2026-11-09",
+    "source": "Pandaily",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/galbot-et1-ces-best-of-innovation-robotics-bipedal-humanoid",
+    "summary": "The Consumer Technology Association says nearly 4,000 products were entered and robotics entries rose 74%. ET1 is the only Best of Innovation winner among 21 robotics honorees. More honorees are due to be named when CES opens in Las Vegas in January.",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "galbot",
+      "ces-2027",
+      "humanoid",
+      "award",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://pandaily.com/galbot-et1-ces-best-of-innovation-robotics-bipedal-humanoid",
+        "label": "Pandaily"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
     "sentiment": "Neutral",
     "id": "nvidia-gr00t-2-corl-2026-11",
     "title": "NVIDIA releases GR00T 2, a world action model, and Isaac Lab 3.0 at CoRL; model weights follow in December",
@@ -332,6 +707,39 @@
       "workforce",
       "shipbuilding",
       "us"
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "unitree"
+    ],
+    "id": "unitree-tianjin-subsidiary-2026-11",
+    "title": "Unitree opens a Tianjin subsidiary to build power-inspection and logistics-sorting robots",
+    "date": "2026-11-07",
+    "source": "Pandaily",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/unitree-tianjin-subsidiary-operations-power-inspection-logistics-sorting-robots",
+    "summary": "The four-floor, 4,000 square meter site in the Tianjin Economic-Technological Development Area began operating less than three months after the unit was registered. Its first prototypes are for power-line inspection and logistics sorting, with planned work alongside China's national pipeline operator and the Port of Tianjin.",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "unitree",
+      "tianjin",
+      "expansion",
+      "inspection-robot",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://pandaily.com/unitree-tianjin-subsidiary-operations-power-inspection-logistics-sorting-robots",
+        "label": "Pandaily, citing Tianjin Release"
+      }
     ]
   },
   {

@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-11",
+  "dropped": [
+    {
+      "id": "hn-50431504",
+      "title": "Nvidia GR00T 2: Scaling Robot Foundation Models [pdf]",
+      "source_url": "https://research.nvidia.com/labs/gear/gr00t-2/assets/gr00t2_whitepaper.pdf",
+      "date": "2026-11-09",
+      "reason": "GR00T 2 already tracked (nvidia-gr00t-2-corl-2026-11)"
+    },
+    {
+      "id": "hn-50437978",
+      "title": "Show HN: Show HN: Sowbot – Open-hardware agricultural robot 8months progress",
+      "source_url": "https://github.com/Agroecology-Lab/Sowbot",
+      "date": "2026-11-10",
+      "reason": "off-thesis or low-signal scraper candidate"
+    },
+    {
+      "id": "hn-50438804",
+      "title": "Music For Robots – 26 unquantized acoustic tracks for multimodal LLM evaluation",
+      "source_url": "https://github.com/luchtan-GIT/m4r-data",
+      "date": "2026-11-10",
+      "reason": "off-thesis or low-signal scraper candidate"
+    },
+    {
+      "id": "hn-50439919",
+      "title": "Firecracker on WSL2, without root",
+      "source_url": "https://mko.run/firecracker-wsl2-rootless/",
+      "date": "2026-11-10",
+      "reason": "off-thesis or low-signal scraper candidate"
+    },
+    {
+      "id": "hn-50442093",
+      "title": "Show HN: Git-dupe – plain Git per-project private versioning for agent files",
+      "source_url": "https://github.com/BrianWeiHaoMa/git-dupe",
+      "date": "2026-11-10",
+      "reason": "off-thesis or low-signal scraper candidate"
+    },
+    {
+      "id": "hn-50444582",
+      "title": "Found studies to show my parents: Waymo's robo-cars are safer than human drivers",
+      "source_url": "https://machines-on-machines.anth.us/articles/waymo-driverless-cars-are-safer-than-human-drivers/",
+      "date": "2026-11-10",
+      "reason": "off-thesis or low-signal scraper candidate"
+    },
+    {
+      "id": "hn-50446227",
+      "title": "New Phase 3 Parkinson's drug candidate",
+      "source_url": "https://www.rockefeller.edu/news/40781-new-parkinsons-drug-candidate-has-roots-in-a-rockefeller-lab/",
+      "date": "2026-11-10",
+      "reason": "off-thesis or low-signal scraper candidate"
+    },
+    {
+      "id": "hn-50446740",
+      "title": "Are frontier VLMs trained on robotics specific data?",
+      "source_url": "https://github.com/swannaiden/vlm-robotics-training",
+      "date": "2026-11-10",
+      "reason": "off-thesis or low-signal scraper candidate"
+    },
+    {
+      "id": "hn-50449047",
+      "title": "Rooting Multiple ISPs with Hyperglass",
+      "source_url": "https://hyperpwn.xyz/",
+      "date": "2026-11-11",
+      "reason": "off-thesis or low-signal scraper candidate"
+    },
+    {
+      "id": "hn-50449546",
+      "title": "Ant Group's Robbyant open-sources tactile AI model for robot hands",
+      "source_url": "https://technode.com/2026/11/10/ant-groups-robbyant-open-sources-tactile-ai-model-for-robot-hands/",
+      "date": "2026-11-11",
+      "reason": "Robbyant LingBot-Touch already tracked (robbyant-lingbot-touch-2026-11)"
+    },
+    {
+      "id": "hn-50451205",
+      "title": "Mabel – an open-source $8k bimanual robot torso",
+      "source_url": "https://robotmabel.github.io/website/",
+      "date": "2026-11-11",
+      "reason": "MABEL already tracked 2026-11-05"
+    },
+    {
+      "id": "rss-axon-invests-1-2b-into-skydio-431",
+      "title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
+      "source_url": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/",
+      "date": "2026-11-10",
+      "reason": "Axon/Skydio already tracked (axon-skydio-1-2b-investment-2026-11)"
+    },
+    {
+      "id": "rss-intel-and-altera-expand-collab-908",
+      "title": "Intel and Altera expand collaboration to simplify sensor integration for physical AI",
+      "source_url": "https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/",
+      "date": "2026-11-10",
+      "reason": "vendor partnership, no figures"
+    },
+    {
+      "id": "rss-why-predictive-maintenance-mat-279",
+      "title": "Why predictive maintenance matters more as factories add robots",
+      "source_url": "https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/",
+      "date": "2026-11-10",
+      "reason": "sponsored explainer"
+    },
+    {
+      "id": "rss-dynamic-creatures-partners-wit-360",
+      "title": "Dynamic Creatures partners with Sixth Wall Studio to bring Hasbro characters to life with robots",
+      "source_url": "https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/",
+      "date": "2026-11-10",
+      "reason": "entertainment animatronics, off-thesis"
+    }
+  ]
+}
