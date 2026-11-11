@@ -57,7 +57,10 @@ jobs:
   # a target becomes unreachable, a page throws, or a page overflows sideways.
   # Runner Node and Python only; Playwright goes into a throwaway venv.
   interaction-cost:
-    runs-on: ubuntu-latest
+    # Pinned: ubuntu-latest moved to 26.04 on 2026-11-11, which pinned Playwright 1.58
+    # cannot install Chromium deps for. Unpin when requirements-uat.txt moves to a
+    # Playwright release that supports 26.04.
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
