@@ -167,5 +167,13 @@ test('section 232: the agencies table ships collapsed, with a jump chip that ope
   assert(/beforeprint/.test(html), 'section-232 page lost its print handler for collapsed sections');
 });
 
+test('news cards tighten on a phone without hiding the summary (2026-11-12, 9.5 -> 8.8 screens)', () => {
+  const css = read('assets/styles.css');
+  const block = (css.match(/\/\* Phone feed cards[\s\S]*?@media \(max-width: 540px\) \{([\s\S]*?)\n\}/) || [])[1] || '';
+  assert(/\.feed-card \{ padding: 12px 14px; \}/.test(block), 'phone feed-card padding rule missing');
+  assert(/\.row-end > \.faint \{ display: none; \}/.test(block), 'phone rule no longer drops the duplicate relative date');
+  assert(!/\.summary[^}]*display:\s*none/.test(block), 'phone rule must not hide card summaries');
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);

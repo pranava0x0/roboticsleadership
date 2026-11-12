@@ -1552,6 +1552,16 @@ a.kpi-card:hover {
   color: var(--text-muted);
 }
 
+/* Phone feed cards (2026-11-12): the pill row wrapped to two lines on 20 of 20
+   cards at 375px. The relative date ("· 2d ago") repeats the absolute date
+   beside it, so it goes first; tighter padding and summary leading take the
+   rest. No text is hidden. */
+@media (max-width: 540px) {
+  .feed-card { padding: 12px 14px; }
+  .feed-card .top-row .row-end > .faint { display: none; }
+  .feed-card .summary { line-height: 1.45; margin-bottom: 6px; }
+}
+
 /* Compact density mode */
 .feed[data-density="compact"] .feed-card {
   padding: 6px 12px;

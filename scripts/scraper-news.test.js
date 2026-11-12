@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Regression tests for scraper-news.js helpers.
 // Run: node scripts/scraper-news.test.js
-import { decodeEntities, isRecent } from './scraper-news.js';
+import { decodeEntities, isRecent, matchesKeywords } from './scraper-news.js';
 import { droppedKeys } from './dropped.js';
 import { mkdtempSync, writeFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
@@ -16,6 +16,13 @@ function eq(actual, expected, label) {
     console.log(`✓ ${label}`);
   }
 }
+
+// RSS sources with keywords must filter (2026-11-12: handleRss ignored them).
+const PANDAILY = ['robot', 'humanoid', 'embodied', 'unitree'];
+eq(matchesKeywords('Unrelated smartphone launch', PANDAILY), false, 'keyword filter drops an off-topic feed item');
+eq(matchesKeywords('Loongson ports ROS 2 to its chip on a self-built ROBOT car', PANDAILY), true, 'keyword filter is case-insensitive');
+eq(matchesKeywords('anything at all', []), true, 'empty keyword list keeps everything');
+eq(matchesKeywords('anything at all', undefined), true, 'missing keyword list keeps everything');
 
 // The exact record that triggered the bug.
 eq(

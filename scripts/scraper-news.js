@@ -90,6 +90,16 @@ export function isRecent(dateStr, cutoff) {
   return dateStr >= cutoff;
 }
 
+// An empty or missing keyword list means "keep everything" (the trade feeds).
+// A general-tech feed (Pandaily) relies on this to stay robotics-only; until
+// 2026-11-12 only the Reddit handler applied it, so an RSS source's keywords
+// were silently ignored (Codex review, PR #297).
+export function matchesKeywords(text, keywords) {
+  if (!keywords || keywords.length === 0) return true;
+  const t = String(text || '').toLowerCase();
+  return keywords.some((k) => t.includes(String(k).toLowerCase()));
+}
+
 async function handleRss(source, news, existingUrls, cutoff, today) {
   console.log(`Fetching RSS from ${source.url}...`);
   const res = await fetch(source.url, {
@@ -108,6 +118,7 @@ async function handleRss(source, news, existingUrls, cutoff, today) {
     if (existingUrls.has(item.link)) continue;
     const dateStr = toDateStr(item.pubDate);
     if (!isRecent(dateStr, cutoff)) continue; // skip items older than cutoff
+    if (!matchesKeywords(item.title + ' ' + item.description, source.keywords)) continue;
 
     const summary = item.description.substring(0, 200) + (item.description.length >= 200 ? '...' : '') || item.title;
     const record = {
@@ -201,10 +212,7 @@ async function handleReddit(source, news, existingUrls, cutoff, today) {
     if (post.created_utc < cutoffTs) continue; // older than cutoff
 
     // Keyword filter — only ingest if any keyword appears in title or selftext
-    if (keywords.length > 0) {
-      const txt = (post.title + ' ' + (post.selftext || '')).toLowerCase();
-      if (!keywords.some(k => txt.includes(k.toLowerCase()))) continue;
-    }
+    if (!matchesKeywords(post.title + ' ' + (post.selftext || ''), keywords)) continue;
 
     const postUrl = post.url.startsWith('http') ? post.url : `https://www.reddit.com${post.permalink}`;
     const dateStr = toDateStr(new Date(post.created_utc * 1000).toISOString());
