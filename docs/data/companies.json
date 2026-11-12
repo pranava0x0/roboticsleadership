@@ -10688,5 +10688,103 @@
     "map_category": "industrial",
     "id": "zhifeng-chuangyuan",
     "name": "Zhifeng Chuangyuan (智蜂创元)"
+  },
+  {
+    "id": "agile-robots",
+    "name": "Agile Robots",
+    "founded": "2018",
+    "hq": {
+      "city": "Munich",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "website": "https://www.agile-robots.com",
+    "funding_rounds": [
+      {
+        "date": "2021-09",
+        "round": "Series C",
+        "amount_usd": 220000000,
+        "valuation_usd": null,
+        "investors": [
+          "SoftBank Vision Fund"
+        ],
+        "url": "https://www.trendingtopics.eu/agile-robots-500-million-softbank-nvidia/",
+        "confidence": "reported"
+      },
+      {
+        "date": "2026-11",
+        "round": "Undisclosed",
+        "amount_usd": 500000000,
+        "valuation_usd": 8500000000,
+        "investors": [
+          "SoftBank Group",
+          "Nvidia",
+          "Hitachi",
+          "T.Capital"
+        ],
+        "url": "https://www.trendingtopics.eu/agile-robots-500-million-softbank-nvidia/",
+        "confidence": "reported"
+      }
+    ],
+    "total_funding_usd": 2000000000,
+    "latest_valuation_usd": 8500000000,
+    "robot_types": [
+      "humanoid",
+      "industrial-arm"
+    ],
+    "primary_use_case": "manufacturing",
+    "flagship_product": "Agile ONE humanoid",
+    "deployments": [
+      {
+        "customer": "Audi",
+        "location": "Ingolstadt, Germany",
+        "robot_count": null,
+        "start_date": "2026-10",
+        "status": "pilot"
+      }
+    ],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [],
+    "ceo": "Zhaopeng Chen",
+    "tags": [
+      "humanoid",
+      "industrial",
+      "germany",
+      "softbank-backed",
+      "nvidia-backed"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.trendingtopics.eu/agile-robots-500-million-softbank-nvidia/",
+        "label": "Trending Topics, citing dpa"
+      },
+      {
+        "url": "https://www.humanoidsdaily.com/news/audi-agile-robots-mobile-humanoids-parts-sequencing",
+        "label": "Humanoids Daily (Audi pilot)"
+      }
+    ],
+    "last_updated": "2026-11-12",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "financials": {
+      "revenue_usd": null,
+      "revenue_year": null,
+      "net_income_usd": null,
+      "net_income_year": null,
+      "details": "Private company. Total raised about $2B as of November 2026. Its Fürstenfeldbruck plant, opened in 2026, is built for up to 10,000 humanoids a year; that is capacity, not output.",
+      "sources": [
+        {
+          "url": "https://www.trendingtopics.eu/agile-robots-500-million-softbank-nvidia/"
+        }
+      ]
+    },
+    "map_category": "humanoid"
   }
 ]

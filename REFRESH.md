@@ -68,7 +68,7 @@ agencies:  id, name, full_name, parent, url, show_in_rd_table, notes
 
 - News scraper processes `type === 'rss' && enabled` entries **plus a built-in Hacker News
   (Algolia) pass and a Federal Register news pass** — these are wired into `scraper-news.js`
-  directly, not gated by `sources.json`. Current enabled RSS: `ieee-spectrum-robotics`,
+  directly, not gated by `sources.json`. Current enabled RSS: `pandaily-china-robotics` (keyword-filtered, added 2026-11-12), `ieee-spectrum-robotics`,
   `techcrunch-robotics-tag`, `the-robot-report`.
 - **The Hacker News pass (`hacker-news-robotics`, queries `robot`/`robotics`/`humanoid`) is
   low-precision and summary-less** — expect ~20+ noise records per run and prune the whole
@@ -193,6 +193,8 @@ If nothing new was learned, skip the edit and say so. This is what keeps the ski
 
 ## Learned patterns
 <!-- Auto-maintained by Step 5. Newest first. Keep each entry to 1-2 sentences. -->
+
+- **2026-11-12 (scheduled full-site refresh)** — **A follow-up statement can reverse a headline: the FT quoted Foundation's president on IDF talks, and the syndicated Telegraph copy ended with Foundation saying it is not negotiating, so read a story to the end before writing the title.** Pandaily supplied 4 of 11 records and has an RSS feed whose robot keywords kept 5 of 20 items, all on-thesis, so it is now an enabled source (`pandaily-china-robotics`). Chrome connected first try; the X list was quiet, the Sonnet sweep took 5 minutes. Phone news cards wrapped their pill row on every card; dropping the duplicate relative date and tightening padding took news from 9.5 to 8.8 phone screens.
 
 - **2026-11-11 (scheduled full-site refresh)** — **The scraper ids printed in a truncated listing (`x.id.slice(0,30)`) are not the real ids, so a `_replaces` list built from that listing silently misses (Ring's RSS record was logged as dropped instead of folded); print full ids before referencing them.** Chrome connected first try; the plain X list was quiet, but X's "trending" sidebar on the search page carried the top story (Path Robotics $300M) and the keyword query had the primary link. The Sonnet sweep took 30 minutes and returned 20 verified items; drone and AV policy (FAA, NHTSA, counter-UAS) made up a quarter, so scope for drones is now a backlog call. Snapshot scraper candidates to a scratch file before rewriting `news.json`, so the authoring script can be re-run.
 

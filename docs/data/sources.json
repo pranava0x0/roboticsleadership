@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraper configuration. Each entry is consumed by scripts/scraper-*.js. Set enabled:false to skip. last_run is updated by the scraper on each invocation.",
-    "last_updated": "2026-11-11",
+    "last_updated": "2026-11-12",
     "note": "Manual research refresh completed 2026-10-26; individual last_run fields record scraper executions and were not advanced by the manual review."
   },
   "news": [
@@ -45,6 +45,26 @@
       "last_run": null,
       "publication": "Robotics & Automation News",
       "note": "Feed verified 2026-09-25 (HTTP 200, RSS). Press-release aggregator that carries small rounds other outlets skip (O-ID, for example). Disabled until one trial run shows the noise rate is tolerable."
+    },
+    {
+      "id": "pandaily-china-robotics",
+      "type": "rss",
+      "url": "https://pandaily.com/feed",
+      "frequency": "daily",
+      "keywords": [
+        "robot",
+        "humanoid",
+        "embodied",
+        "unitree",
+        "agibot",
+        "ubtech",
+        "lidar",
+        "actuator"
+      ],
+      "enabled": true,
+      "last_run": null,
+      "publication": "Pandaily",
+      "note": "Added 2026-11-12. English-language China tech wire; supplied 4 of 11 records on 2026-11-12 and several in early November. Keyword filter kept 5 of 20 feed items on the trial read, all on-thesis."
     },
     {
       "id": "reddit-robotics",

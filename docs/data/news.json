@@ -1,6 +1,235 @@
 [
   {
     "policies": [],
+    "companies": [
+      "agile-robots"
+    ],
+    "id": "agile-robots-500m-softbank-2026-11",
+    "title": "Agile Robots raises $500M at an $8.5B valuation, led by SoftBank with Nvidia and Hitachi",
+    "date": "2026-11-12",
+    "source": "Trending Topics, citing dpa and The New York Times",
+    "source_type": "News",
+    "source_url": "https://www.trendingtopics.eu/agile-robots-500-million-softbank-nvidia/",
+    "summary": "The Munich company has now raised about $2B in total; Nvidia, Hitachi and T.Capital joined the round, and SoftBank Vision Fund and Xiaomi are existing investors. Agile Robots says the money goes to entering the U.S. market, new industrial uses and manufacturing in Bavaria, where a plant opened this year is built for up to 10,000 humanoids a year. SoftBank also led its $220M Series C in 2021.",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ],
+    "tags": [
+      "agile-robots",
+      "germany",
+      "softbank",
+      "nvidia",
+      "humanoid",
+      "funding"
+    ],
+    "sources": [
+      {
+        "url": "https://www.trendingtopics.eu/agile-robots-500-million-softbank-nvidia/",
+        "label": "Trending Topics, citing dpa and The New York Times"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "agibot"
+    ],
+    "id": "agibot-life-robobeats-open-source-2026-11",
+    "title": "AgiBot open-sources LIFE, a long-memory framework for robots, with RoboBeats models of 0.8B to 4B parameters",
+    "date": "2026-11-12",
+    "source": "Pandaily, citing IT Home, GitHub and arXiv",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/agibot-life-lifelong-embodied-intelligence-framework-robobeats-open-source",
+    "summary": "The code is Apache-2.0 and the models are built on Qwen3.5 checkpoints. On AgiBot's own tests, RoboBeats-4B raised proactive-answer accuracy on StreamingBench from 21.2% to 64.0% and success on the FindingDory memory task from 37.5% to 65.8%; the 2B model runs at about 75 ms a frame on one RTX 5090. No one has reproduced the results yet.",
+    "category": "Research",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "foundation-models",
+      "china-scale"
+    ],
+    "tags": [
+      "agibot",
+      "open-source",
+      "memory",
+      "qwen",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://pandaily.com/agibot-life-lifelong-embodied-intelligence-framework-robobeats-open-source",
+        "label": "Pandaily, citing IT Home, GitHub and arXiv"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "cainiao-climbing-robot-cemat-2026-11",
+    "title": "Cainiao upgrades its rack-climbing warehouse robot to reach bins from four sides, with orders in Vietnam and Europe",
+    "date": "2026-11-12",
+    "source": "Robotics & Automation News",
+    "source_type": "News",
+    "source_url": "https://roboticsandautomationnews.com/2026/11/12/cainiao-introduces-upgraded-climbing-robot-with-four-side-retrieval-and-denser-storage/107042/",
+    "summary": "Shown at CeMAT Asia, the robot climbs the rack and pulls bins from both faces of an aisle and from the inner row, where most systems reach two sides. Alibaba's logistics arm says that raises storage density 20% and operating efficiency 15%. It also released a planning tool that drafts a warehouse layout and equipment list from dimensions and order volume, a job Cainiao says now takes 10 minutes instead of days.",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "cainiao",
+      "alibaba",
+      "warehouse",
+      "climbing-robot",
+      "china",
+      "export"
+    ],
+    "sources": [
+      {
+        "url": "https://roboticsandautomationnews.com/2026/11/12/cainiao-introduces-upgraded-climbing-robot-with-four-side-retrieval-and-denser-storage/107042/",
+        "label": "Robotics & Automation News"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "foundation-idf-humanoid-talks-2026-11",
+    "title": "Foundation says it held early talks with Israel's military about Phantom humanoids for Gaza tunnels, then says it is not negotiating",
+    "date": "2026-11-11",
+    "source": "The Telegraph via Yahoo News, citing the Financial Times",
+    "source_type": "News",
+    "source_url": "https://www.yahoo.com/news/politics/articles/eric-trump-backed-firm-talks-193621263.html",
+    "summary": "Co-founder Mike LeBlanc told the FT the San Francisco company was \"in direct talks\" with the IDF chief of staff about Phantom MK1 robots to patrol Hamas tunnels. A later Foundation statement said it has no contract with the IDF or Israel's defense ministry, that the conversations were \"early and exploratory\", and that it is not negotiating to supply the IDF. Eric Trump holds an equity stake; his spokesman said he has no role in contracts.",
+    "category": "Geopolitics",
+    "sentiment": "Mixed",
+    "confidence": "Medium",
+    "themes": [
+      "defense-procurement"
+    ],
+    "tags": [
+      "foundation",
+      "humanoid",
+      "defense",
+      "israel",
+      "export"
+    ],
+    "sources": [
+      {
+        "url": "https://www.yahoo.com/news/politics/articles/eric-trump-backed-firm-talks-193621263.html",
+        "label": "The Telegraph (Yahoo News)"
+      },
+      {
+        "url": "https://www.ft.com/content/8117b912-ebc7-46b2-90cd-a1ec32e12c5a",
+        "label": "Financial Times (paywalled)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "unitree"
+    ],
+    "id": "joyson-unitree-brain-backpack-2026-11",
+    "title": "Joyson Electronics delivers its first compute-and-battery \"brain backpack\" to Unitree",
+    "date": "2026-11-11",
+    "source": "Joyson Electronics (PR Newswire)",
+    "source_type": "Primary",
+    "source_url": "https://www.prnewswire.com/apac/news-releases/joyson-electronics-delivered-first-high-performance-robotic-brain-backpack-to-unitree-robotics-302937091.html",
+    "summary": "The backpack, delivered on November 10, pairs an edge-compute board with a power pack and fits Unitree's humanoid, quadruped and wheeled robots; it can also run as a standalone compute module. The two companies, partners since earlier this year, are also developing dexterous hands and solid-state battery management. No volumes or prices were given.",
+    "category": "Supply Chain",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "joyson",
+      "unitree",
+      "compute",
+      "battery",
+      "auto-supplier",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/apac/news-releases/joyson-electronics-delivered-first-high-performance-robotic-brain-backpack-to-unitree-robotics-302937091.html",
+        "label": "Joyson Electronics (PR Newswire)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "berkeley-nvidia-robosimstudio-2026-11",
+    "title": "UC Berkeley and NVIDIA release open-source tools that let teams of coding agents write and test industrial robot programs",
+    "date": "2026-11-11",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/",
+    "summary": "The tools, including RoboSimStudio, have AI agents generate a readable robot program, run it in simulation and revise it, with no robot training data. Ken Goldberg's group pitches it at the weeks to months it takes to program a factory workcell, work that today waits until the cell is physically installed. No accuracy or time-saved figures were published with the release.",
+    "category": "Research",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "foundation-models",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "berkeley",
+      "nvidia",
+      "coding-agents",
+      "simulation",
+      "open-source"
+    ],
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/",
+        "label": "The Robot Report"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "figure-ai"
+    ],
+    "id": "figure-robot-operations-hiring-2026-11",
+    "title": "Figure lists about 30 robot-operations jobs, including a $40-45 an hour night shift minding humanoids",
+    "date": "2026-11-11",
+    "source": "Humanoids Daily, citing Figure's careers page and Business Insider",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/figure-night-shift-robot-babysitter-jobs-operators-customer-sites",
+    "summary": "About 30 of Figure's 101 open roles sit in fleet, commercial and data operations, with site teams hiring in Reno, Los Angeles and Fontana and a 24/7 data-capture team in Sao Paulo. The listings show humans still supervising robots at customer sites. Figure said it built its 1,000th Figure 03 in July and has not given a production total since.",
+    "category": "Deployment",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "figure",
+      "humanoid",
+      "operations",
+      "hiring",
+      "teleoperation"
+    ],
+    "sources": [
+      {
+        "url": "https://www.humanoidsdaily.com/news/figure-night-shift-robot-babysitter-jobs-operators-customer-sites",
+        "label": "Humanoids Daily, citing Figure's careers page and Business Insider"
+      }
+    ]
+  },
+  {
+    "policies": [],
     "companies": [],
     "id": "beijing-embodied-ai-action-plan-2026-11",
     "title": "Beijing sets 2028 targets for humanoid makers, embodied-AI compute and training data in a new action plan",
@@ -28,6 +257,135 @@
       {
         "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
         "label": "Beijing municipal government (Chinese)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "unitree"
+    ],
+    "id": "unitree-a-share-rally-2026-11",
+    "title": "Unitree's shares pass 800 yuan and its market value tops 300 billion yuan as Chinese humanoid stocks rally",
+    "date": "2026-11-10",
+    "source": "Sina Finance",
+    "source_type": "News",
+    "source_url": "https://finance.sina.com.cn/tech/roll/2026-11-10/doc-iniyfqtc2686452.shtml",
+    "summary": "Unitree rose more than 12% intraday on November 10, making it the third-highest-priced A-share, and several suppliers hit their daily limit. The stock has nearly doubled from its October 15 low of 404.03 yuan. Sina tied the move to new robot-control results from frontier AI models and Tesla Optimus news; only about 7% of Unitree's shares trade freely, which inflates its market value.",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "unitree",
+      "stock-market",
+      "star-market",
+      "humanoid",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://finance.sina.com.cn/tech/roll/2026-11-10/doc-iniyfqtc2686452.shtml",
+        "label": "Sina Finance (Chinese)"
+      },
+      {
+        "url": "https://stock.jrj.com.cn/2026/11/10104059076697.shtml",
+        "label": "JRJ (Chinese)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "hd-hyundai-dual-arm-palantir-2026-11",
+    "title": "HD Hyundai Robotics shows its first dual-arm robot on its own foundation model and says Palantir agents cut fix times by 63%",
+    "date": "2026-11-10",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/hd-hyundai-robotics-dual-arm-robot-palantir-skild-ai-korea",
+    "summary": "The robot has two 7 kg-payload arms with five-fingered hands and starts on a wheeled base for kitting, then welding and painting. AI agents Palantir built for the company since August cut average problem-resolution time from 21.5 to 7.9 days, by its own count. Skild AI's CEO was in Seoul the same week looking for Korean motor and actuator partners.",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "hd-hyundai",
+      "korea",
+      "palantir",
+      "skild",
+      "dual-arm"
+    ],
+    "sources": [
+      {
+        "url": "https://www.humanoidsdaily.com/news/hd-hyundai-robotics-dual-arm-robot-palantir-skild-ai-korea",
+        "label": "Humanoids Daily"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "noitom-hiphi-hand-nvidia-egohand-2026-11",
+    "title": "China's Noitom releases the hand-motion dataset NVIDIA used to train its EgoHand model",
+    "date": "2026-11-10",
+    "source": "Pandaily",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/noitom-robotics-hiphi-hand-dataset-hugging-face-nvidia-egohand",
+    "summary": "HiPHI-Hand, posted to Hugging Face on November 9, holds 11 hours of first-person stereo video in 794 clips, with 3D hand joints from motion capture. Noitom says NVIDIA's EgoHand, released at CoRL under a license that allows free commercial use, was trained partly on it. A Chinese data supplier feeding a U.S. model is the kind of link export rules do not yet cover.",
+    "category": "Research",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "foundation-models",
+      "china-scale"
+    ],
+    "tags": [
+      "noitom",
+      "nvidia",
+      "dataset",
+      "hands",
+      "china",
+      "training-data"
+    ],
+    "sources": [
+      {
+        "url": "https://pandaily.com/noitom-robotics-hiphi-hand-dataset-hugging-face-nvidia-egohand",
+        "label": "Pandaily"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "loongson-ros2-2k3000-2026-11",
+    "title": "Loongson runs the full ROS 2 robot software stack on its domestic 2K3000 chip",
+    "date": "2026-11-10",
+    "source": "Pandaily, citing IT Home",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/loongson-2k3000-ros2-jazzy-full-stack-robot-car-mapping-arm-depth-vision",
+    "summary": "The 12 nm chip uses eight of Loongson's own LoongArch cores at up to 2.5 GHz. The demo robot car mapped, localized, controlled an arm and grasped by depth vision. Loongson calls it a reference setup, not a product, but it gives Chinese robot makers a path off x86 and Arm processors.",
+    "category": "Supply Chain",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "loongson",
+      "ros2",
+      "chips",
+      "domestic-compute",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://pandaily.com/loongson-2k3000-ros2-jazzy-full-stack-robot-car-mapping-arm-depth-vision",
+        "label": "Pandaily, citing IT Home"
       }
     ]
   },
