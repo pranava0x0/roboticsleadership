@@ -107,6 +107,13 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 ## Fixed
 
+### 2026-11-12 — scraper-news.js — RSS sources ignored their `keywords` filter
+
+- **Area:** `scripts/scraper-news.js` `handleRss`.
+- **Description:** Only the Reddit handler applied `source.keywords`; every RSS source imported all recent items. Harmless while each enabled feed was robotics-only with `keywords: []`, but enabling the general-tech Pandaily feed would have imported every phone and LLM story.
+- **Root cause:** code bug. The new source was checked against the field's existence, not the handler that reads it. Caught by Codex review on PR #297 before any scrape ran.
+- **Fix:** shared `matchesKeywords()` used by both handlers; four cases in `scraper-news.test.js`. Status: Fixed.
+
 ### 2026-07-13 — news.html — deep-link `news.html#<id>` never opened the target story
 
 - **Area:** news feed pagination + URL state (`docs/news.html`, `docs/assets/app.js`).
