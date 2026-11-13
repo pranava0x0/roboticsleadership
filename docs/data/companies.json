@@ -10853,9 +10853,18 @@
     "us_manufactured": false,
     "defense_contracts": false,
     "founders": [
-      "Ian Glow",
-      "Axel Gneiting",
-      "Michael Hosticka"
+      {
+        "name": "Ian Glow",
+        "role": "CEO; former Tesla Autopilot simulation lead"
+      },
+      {
+        "name": "Axel Gneiting",
+        "role": "former head of Autopilot Simulation, Tesla"
+      },
+      {
+        "name": "Michael Hosticka",
+        "role": "former head of Autopilot Simulation Content, Tesla"
+      }
     ],
     "ceo": "Ian Glow",
     "tags": [

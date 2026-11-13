@@ -41,6 +41,13 @@ const SCHEMAS = {
       if (rec.map_category && !validSegments.includes(rec.map_category)) {
         addError(`map_category "${rec.map_category}" not in canonical set {${validSegments.join(', ')}}`);
       }
+      // companies.html reads f.name / f.role; a bare string renders an empty <li>
+      // and drops the founder from search (Codex, PR #298).
+      (rec.founders || []).forEach((f, i) => {
+        if (!f || typeof f !== 'object' || typeof f.name !== 'string' || !f.name) {
+          addError(`founders[${i}] must be an object with a non-empty name`);
+        }
+      });
       if (!Array.isArray(rec.sources) || rec.sources.length === 0) {
         addError('record has no sources[] — every record must cite at least one primary source');
       }
