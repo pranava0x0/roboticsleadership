@@ -175,5 +175,14 @@ test('news cards tighten on a phone without hiding the summary (2026-11-12, 9.5 
   assert(!/\.summary[^}]*display:\s*none/.test(block), 'phone rule must not hide card summaries');
 });
 
+test('front-page top companies go two-up on a phone (2026-11-13, 7.9 -> 7.3 screens)', () => {
+  const css = read('assets/styles.css');
+  assert(/@media \(max-width: 639px\) \{\s*#top-companies \{ grid-template-columns: repeat\(2, minmax\(0, 1fr\)\);/.test(css), 'phone two-up rule for #top-companies missing');
+  const RT = loadRT();
+  const html = RT.renderTopCompanies([{ id: 'a', name: 'A', hq: { country: 'USA' }, latest_valuation_usd: 1e9 }]);
+  assert(/<dl class="kv kv-compact">/.test(html), 'top-company card lost the kv-compact class');
+  assert(!/<dl[^>]*style=/.test(html), 'an inline grid style on the card would override the phone rule');
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);

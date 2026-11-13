@@ -4,6 +4,13 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-11-13 (scheduled refresh)
+
+- [ ] **(medium) Reframe: one-vendor exposure at the top of the U.S. robot stack, now that NVIDIA's CEO has resigned.** Huang left on Nov 12 (record `nvidia-huang-resigns-2026-11`), four days after the board probe in the 11-10 item. The same week, China funded a domestic robot SoC (Xilect, RMB 500M, record `xilect-angel-rmb500m-2026-11`) and J.P. Morgan named two Chinese parts makers among its U.S. humanoid picks. supply-chain.html's compute row lists NVIDIA as "the de facto humanoid compute standard" with no U.S. alternative at scale. If a committee letter, hearing or export-licence review follows the resignation, add the policies row the 11-10 item describes; separately, consider a compute line on china.html that compares Xilect/Horizon-class SoCs with Jetson Thor once one ships.
+- [ ] **(low) Robotics & Automation News as a tracked source.** It supplied 5 of the Sonnet sweep's 12 items (mostly vendor releases). Check that its feed exists and that RSS `keywords` filtering works for it the way it does for Pandaily, then decide whether the press-release share is worth the curation time.
+- [ ] **(low) Leads not authored this run:** ABB's 1,700 robots for BMW Neue Klasse (Munich and Tiexi; no ABB or BMW release found, and a 2013 ABB-BMW 2,400-robot order shares the plant names); Lincoln Electric XpertLINC welding platform; Serve Robotics with DoorDash on the Gold Coast; ESTUN-RoboDK Europe partnership; FMC3 Doceo worker-data system; HeymanDex underwater hands (TechNode feature); Astribot CoMind and ACE Robotics Mundo (feed summaries only); Walden Robotics LBM 2.0 "Sage" at CoRL (X post only).
+- Curated this run: 16 news + 0 policy scraper candidates, 3 folded into curated records (data/research/refresh-2026-11-13-dropped.json). The X list's trending sidebar surfaced Zeromatter; the Sonnet sweep (3 minutes) supplied GXO-Apptronik, Xilect and J.P. Morgan. New companies: Zeromatter, Xilect (also on supply-chain.html under compute). Front-page top companies are now two-up on phones.
+
 ## ▶ Added 2026-11-12 (scheduled refresh)
 
 - [ ] **(medium) Reframe: U.S. humanoid exports to foreign militaries have no named rule.** Foundation's IDF talks (record `foundation-idf-humanoid-talks-2026-11`), its Ukraine units and its weapons plans put a U.S. humanoid in foreign defense use, and the ITAR/EAR treatment of an armed or tunnel-clearing humanoid is not on policies.html. If a BIS rule, a DDTC ruling or a congressional letter names humanoids, add a policies row and a line on the 232 page; until then, note the gap on china.html's defense row rather than guess the classification.

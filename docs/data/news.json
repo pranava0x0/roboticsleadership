@@ -1,5 +1,161 @@
 [
   {
+    "id": "xilect-angel-rmb500m-2026-11",
+    "date": "2026-11-13",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "Xilect, a robot-chip startup founded by GPU maker MetaX and UBTech, raises RMB 500M in an angel round",
+    "source": "TechNode",
+    "source_type": "News",
+    "source_url": "https://technode.com/2026/11/13/metax-and-ubtech-backed-robotics-chip-startup-xilect-raises-rmb-500-million/",
+    "summary": "Xilect is designing a system-on-chip that runs perception, decisions and motion control on the robot. It plans a development platform for partners in 2027 and its first chip in 2028, the kind of onboard computer U.S. and Chinese humanoids now mostly buy from NVIDIA.",
+    "themes": [
+      "china-scale"
+    ],
+    "companies": [
+      "xilect"
+    ],
+    "policies": [],
+    "tags": [
+      "china",
+      "chips",
+      "humanoid",
+      "ubtech",
+      "metax"
+    ]
+  },
+  {
+    "id": "quantum-dynamics-double11-orders-2026-11",
+    "date": "2026-11-13",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "Low",
+    "title": "Quantum Dynamics, founded by Cainiao's former CTO, says its robots worked Double 11 and it has nearly 5,000 unit orders",
+    "source": "Pandaily",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/quantum-dynamics-li-qiang-embodied-robots-cainiao-double-11-warehouse-orders",
+    "summary": "Founder Li Qiang says the robots ran in Cainiao warehouses during the shopping festival. The order count is the company's own and includes many units not yet delivered.",
+    "themes": [
+      "china-scale"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "china",
+      "logistics",
+      "cainiao",
+      "double-11"
+    ]
+  },
+  {
+    "id": "nvidia-huang-resigns-2026-11",
+    "date": "2026-11-12",
+    "category": "Geopolitics",
+    "sentiment": "Negative",
+    "confidence": "High",
+    "title": "Jensen Huang resigns as NVIDIA CEO; CFO Colette Kress becomes interim CEO",
+    "source": "NVIDIA (SEC 8-K)",
+    "source_type": "Primary",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+    "summary": "Huang left as president, CEO and director with immediate effect, four days after the board opened an investigation into his relationship with a woman reportedly identified by U.S. intelligence as a Chinese spy. Kress stays CFO while the board searches for a permanent CEO, and Harvey C. Jones becomes NVIDIA's first board chair. The Robot Report puts the week's share drop at about 18.5%. NVIDIA's simulation software and Jetson Thor computers sit under many U.S. and Chinese robot programs.",
+    "themes": [
+      "foundation-models"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "nvidia",
+      "governance",
+      "counterintelligence",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/nvidia-replaces-ceo-amid-china-ai-and-robotics-concerns/",
+        "label": "The Robot Report"
+      },
+      {
+        "url": "https://www.humanoidsdaily.com/news/jensen-huang-resigns-nvidia-ceo-colette-kress-interim",
+        "label": "Humanoids Daily"
+      }
+    ]
+  },
+  {
+    "id": "zeromatter-stealth-160m-2026-11",
+    "date": "2026-11-12",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "Zeromatter, a simulation company founded by Tesla Autopilot's simulation leads, launches with $160M raised at a $1.1B valuation",
+    "source": "Zeromatter",
+    "source_type": "Primary",
+    "source_url": "https://zeromatter.com/blog/coming-out-of-stealth",
+    "summary": "CEO Ian Glow and two co-founders ran the simulation platform Tesla used for both Autopilot and Optimus. After four years in stealth the Mountain View company has over 130 staff and builds sensor-level simulation for cars, aircraft, drones and robots; Bedrock led its April 2024 Series A.",
+    "themes": [
+      "physical-ai"
+    ],
+    "companies": [
+      "zeromatter"
+    ],
+    "policies": [],
+    "tags": [
+      "simulation",
+      "physical-ai",
+      "tesla-alumni",
+      "valuation-1b"
+    ]
+  },
+  {
+    "id": "gxo-apptronik-apollo-loi-2026-11",
+    "date": "2026-11-12",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "GXO signs a letter of intent for up to 1,000 Apptronik Apollo humanoids over four years",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/gxo-apptronik-apollo-1000-humanoids-letter-of-intent",
+    "summary": "It is a letter of intent, not a purchase order: expanded Apollo trials start in 2027 under a robots-as-a-service framework, and the 1,000-unit rollout happens only if jointly agreed productivity and safety targets are met. The first North American deployment is planned for late 2027. The release names no sites or prices.",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "companies": [
+      "apptronik"
+    ],
+    "policies": [],
+    "tags": [
+      "apptronik",
+      "gxo",
+      "humanoid",
+      "logistics",
+      "raas"
+    ]
+  },
+  {
+    "id": "jpmorgan-us-humanoid-forecast-2026-11",
+    "date": "2026-11-12",
+    "category": "Supply Chain",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "title": "J.P. Morgan forecasts 300,000 to 400,000 U.S.-made humanoids by 2030 and names hands and actuators as the bottleneck",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/jp-morgan-us-humanoid-production-400000-2030-forecast",
+    "summary": "The bank's note, reported by Reuters, sees about 1.5 million units by 2035 and says most U.S. makers other than Tesla target 10,000 to 30,000 units a year. Its picks are component suppliers, including two Chinese ones (Leader Drive, Orbbec), and it sizes the parts market near $30 billion by 2035. The note is not public and does not say whether the figures are annual or cumulative.",
+    "themes": [
+      "us-supply-chain"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "forecast",
+      "humanoid",
+      "actuators",
+      "supply-chain"
+    ]
+  },
+  {
     "policies": [],
     "companies": [
       "agile-robots"
@@ -96,6 +252,29 @@
         "url": "https://roboticsandautomationnews.com/2026/11/12/cainiao-introduces-upgraded-climbing-robot-with-four-side-retrieval-and-denser-storage/107042/",
         "label": "Robotics & Automation News"
       }
+    ]
+  },
+  {
+    "id": "runway-praxis-1-open-weights-2026-11",
+    "date": "2026-11-11",
+    "category": "Research",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "Runway releases Praxis-1, a 27B-parameter world action model for robots, with open weights under Apache 2.0",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/",
+    "summary": "The model predicts video and robot actions together and ships with weights plus fine-tuning code for commercial use. Launch partners Noble Machines, Standard Bots and Ultra ran it on a humanoid, a six-axis arm and a dual-arm warehouse robot; Runway reports 46.2% success on NVIDIA's RoboLab-120 benchmark.",
+    "themes": [
+      "foundation-models"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "world-model",
+      "open-weights",
+      "vla",
+      "runway"
     ]
   },
   {
