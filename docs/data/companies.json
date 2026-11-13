@@ -10802,6 +10802,17 @@
     "website": "https://zeromatter.com",
     "funding_rounds": [
       {
+        "date": "2023-04",
+        "round": "Seed",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "Two Sigma Ventures"
+        ],
+        "url": "https://zeromatter.com/blog/coming-out-of-stealth",
+        "confidence": "reported"
+      },
+      {
         "date": "2024-04",
         "round": "Series A",
         "amount_usd": null,
@@ -10813,6 +10824,18 @@
         ],
         "url": "https://zeromatter.com/blog/coming-out-of-stealth",
         "confidence": "reported"
+      },
+      {
+        "date": "2025-03",
+        "round": "Series B",
+        "amount_usd": null,
+        "valuation_usd": 1100000000,
+        "investors": [
+          "Spark Capital"
+        ],
+        "url": "https://zeromatter.com/blog/coming-out-of-stealth",
+        "confidence": "reported",
+        "notes": "Company states $160M raised in total and a $1.1B valuation as of Nov 2026, without naming the round."
       }
     ],
     "total_funding_usd": 160000000,
@@ -10856,7 +10879,7 @@
   {
     "id": "xilect",
     "name": "Xilect",
-    "founded": "2026",
+    "founded": "Not disclosed",
     "hq": {
       "city": null,
       "state": null,
