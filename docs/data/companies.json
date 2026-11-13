@@ -880,9 +880,8 @@
         "robot_count": null,
         "start_date": "2024-12",
         "status": "pilot",
-        "use_case": "warehouse handling",
-        "source_url": "https://apptronik.com/news",
-        "archive_url": "https://web.archive.org/web/20191216004238/https://apptronik.com/news/"
+        "use_case": "warehouse handling; Nov 2026 letter of intent for up to 1,000 Apollo over four years, first North American rollout late 2027, subject to trial targets",
+        "source_url": "https://www.humanoidsdaily.com/news/gxo-apptronik-apollo-1000-humanoids-letter-of-intent"
       }
     ],
     "headcount": 300,
@@ -917,9 +916,13 @@
       },
       {
         "url": "https://www.bloomberg.com/news/articles/2026-02-11/apptronik-raises-520-million-in-new-funding-to-build-more-humanoids"
+      },
+      {
+        "url": "https://www.humanoidsdaily.com/news/gxo-apptronik-apollo-1000-humanoids-letter-of-intent",
+        "label": "Humanoids Daily (GXO letter of intent)"
       }
     ],
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-11-13",
     "themes": [
       "china-scale",
       "foundation-models",
@@ -10786,5 +10789,157 @@
       ]
     },
     "map_category": "humanoid"
+  },
+  {
+    "id": "zeromatter",
+    "name": "Zeromatter",
+    "founded": "2022",
+    "hq": {
+      "city": "Mountain View",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://zeromatter.com",
+    "funding_rounds": [
+      {
+        "date": "2023-04",
+        "round": "Seed",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "Two Sigma Ventures"
+        ],
+        "url": "https://zeromatter.com/blog/coming-out-of-stealth",
+        "confidence": "reported"
+      },
+      {
+        "date": "2024-04",
+        "round": "Series A",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [
+          "Bedrock",
+          "AE Industrial Partners",
+          "Pebblebed Ventures"
+        ],
+        "url": "https://zeromatter.com/blog/coming-out-of-stealth",
+        "confidence": "reported"
+      },
+      {
+        "date": "2025-03",
+        "round": "Series B",
+        "amount_usd": null,
+        "valuation_usd": 1100000000,
+        "investors": [
+          "Spark Capital"
+        ],
+        "url": "https://zeromatter.com/blog/coming-out-of-stealth",
+        "confidence": "reported",
+        "notes": "Company states $160M raised in total and a $1.1B valuation as of Nov 2026, without naming the round."
+      }
+    ],
+    "total_funding_usd": 160000000,
+    "latest_valuation_usd": 1100000000,
+    "robot_types": [
+      "simulation software"
+    ],
+    "primary_use_case": "simulation / testing",
+    "flagship_product": "Sensor-level simulation platform",
+    "deployments": [],
+    "headcount": 130,
+    "headcount_date": "2026-11",
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Ian Glow",
+        "role": "CEO; former Tesla Autopilot simulation lead"
+      },
+      {
+        "name": "Axel Gneiting",
+        "role": "former head of Autopilot Simulation, Tesla"
+      },
+      {
+        "name": "Michael Hosticka",
+        "role": "former head of Autopilot Simulation Content, Tesla"
+      }
+    ],
+    "ceo": "Ian Glow",
+    "tags": [
+      "simulation",
+      "physical-ai",
+      "tesla-alumni"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://zeromatter.com/blog/coming-out-of-stealth",
+        "label": "Zeromatter (launch post)"
+      }
+    ],
+    "last_updated": "2026-11-13",
+    "themes": [
+      "physical-ai"
+    ],
+    "map_category": "enablers"
+  },
+  {
+    "id": "xilect",
+    "name": "Xilect",
+    "founded": "Not disclosed",
+    "hq": {
+      "city": null,
+      "state": null,
+      "country": "China"
+    },
+    "website": "https://technode.com/2026/11/13/metax-and-ubtech-backed-robotics-chip-startup-xilect-raises-rmb-500-million/",
+    "funding_rounds": [
+      {
+        "date": "2026-11",
+        "round": "Angel",
+        "amount_usd": null,
+        "valuation_usd": null,
+        "investors": [],
+        "url": "https://technode.com/2026/11/13/metax-and-ubtech-backed-robotics-chip-startup-xilect-raises-rmb-500-million/",
+        "confidence": "reported",
+        "notes": "RMB 500 million"
+      }
+    ],
+    "total_funding_usd": null,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "robot SoC"
+    ],
+    "primary_use_case": "components / supply-chain",
+    "flagship_product": "On-robot SoC (first chip planned 2028)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [],
+    "ceo": null,
+    "tags": [
+      "china",
+      "chips",
+      "ubtech",
+      "metax"
+    ],
+    "data_confidence": "low",
+    "sources": [
+      {
+        "url": "https://technode.com/2026/11/13/metax-and-ubtech-backed-robotics-chip-startup-xilect-raises-rmb-500-million/",
+        "label": "TechNode"
+      }
+    ],
+    "last_updated": "2026-11-13",
+    "themes": [
+      "china-scale"
+    ],
+    "map_category": "enablers"
   }
 ]

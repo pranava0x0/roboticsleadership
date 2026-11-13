@@ -1068,7 +1068,7 @@
       <a class="card card-hoverable" href="companies.html?focus=${encodeURIComponent(c.id)}" style="color:inherit;border-bottom:none;">
         <h3 class="card-title">${escapeHTML(c.name)}</h3>
         <div class="card-sub">${escapeHTML(prettyHQ(c.hq))} · ${escapeHTML(prettyUseCase(c.primary_use_case))}</div>
-        <dl class="kv" style="grid-template-columns:auto 1fr;gap:2px 12px;">
+        <dl class="kv kv-compact">
           <dt>Valuation</dt><dd class="tnum">${formatUSD(c.latest_valuation_usd, { fallback: 'Not disclosed' })}</dd>
           <dt>Total raised</dt><dd class="tnum">${formatUSD(c.total_funding_usd, { fallback: '—' })}</dd>
         </dl>
