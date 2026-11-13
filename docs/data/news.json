@@ -1,5 +1,302 @@
 [
   {
+    "id": "hn-50472560",
+    "title": "Show HN: DRS-VPT. Localize a photo in a 3D point cloud without an initial pose",
+    "date": "2026-11-12",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/ori-drs/drs-vpt",
+    "summary": "Hi HN, I work on multi-modal sensing for robotics.We built DRS-VPT to estimate a camera's 6-DoF pose in a 3D map from a single photo and a 3D point cloud, without an initial guess or known camera",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50474106",
+    "title": "Show HN: Cerulion – ROS 2-compatible robotics runtime with multi-process replay",
+    "date": "2026-11-12",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/cerulion-inc/cerulion",
+    "summary": "Hey HN! I'm Lakshay. Raveen and I have built Cerulion, a ROS2-compatible robotics runtime written in Rust. We've worked hard on lowering IPC transport latencies without making the single pro",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50476425",
+    "title": "Runway releases a 27B open-weight model for controlling real robots",
+    "date": "2026-11-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+    "summary": "Runway releases a 27B open-weight model for controlling real robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50476665",
+    "title": "A new neural network input module improves humanoid locomotion",
+    "date": "2026-11-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://news.engin.umich.edu/2026/11/prism-a-neural-network-component-for-better-robotic-motor-control/",
+    "summary": "A new neural network input module improves humanoid locomotion",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50477699",
+    "title": "Waymo robotaxis kept illegally passing school buses after software fix, feds say",
+    "date": "2026-11-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/",
+    "summary": "Waymo robotaxis kept illegally passing school buses after software fix, feds say",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50479949",
+    "title": "Show HN: AI-drop project – drop traffic fast from misbehaving crawlers (AGPL)",
+    "date": "2026-11-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://rocketgit.com/user/catalinux/ai-drop",
+    "summary": "Hello!All started with 4 million requests / day on rocketgit.com (AGPL git hosting).\nInstead of thousands. Enough is enough!Presentation (8 pages):\nhttps://rocketgit.com/user/",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50485506",
+    "title": "An Agentic Robotics Fable",
+    "date": "2026-11-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://pokeandwiggle.com/blog/agentic-robotics#part-oneagentic-compared-to-end-to-end-policies",
+    "summary": "An Agentic Robotics Fable",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50485956",
+    "title": "California Flood Risk Map",
+    "date": "2026-11-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://floodmap.robennals.org/",
+    "summary": "California Flood Risk Map",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50485967",
+    "title": "Zoox robotaxi is now driving in Atlanta",
+    "date": "2026-11-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://zoox.com/journal/atlanta-expansion-robotaxi",
+    "summary": "Zoox robotaxi is now driving in Atlanta",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50486088",
+    "title": "LangChain Raises $300M to Enable Every Company to Own Its Intelligence",
+    "date": "2026-11-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.langchain.com/blog/series-c",
+    "summary": "LangChain Raises $300M to Enable Every Company to Own Its Intelligence",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50487184",
+    "title": "OpenAI disbands its robotics team as its general models start running robots",
+    "date": "2026-11-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+    "summary": "OpenAI disbands its robotics team as its general models start running robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50487411",
+    "title": "Serve Robotics Opens Its Robot Delivery Network for Anyone to Build On",
+    "date": "2026-11-13",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-opens-its-robot-delivery-network-anyone-build",
+    "summary": "Serve Robotics Opens Its Robot Delivery Network for Anyone to Build On",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-how-rhoda-ai-is-using-video-da-697",
+    "title": "How Rhoda AI is using video data to create generalized AI models for robots",
+    "date": "2026-11-13",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/",
+    "summary": "Rhoda AI offers a direct video action model, which it recently extended with mobile DVA, to enable robots to understand the physical world.\nThe post How Rhoda AI is using video data to create generali...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-six-agibot-g2-robots-complete-117",
+    "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
+    "date": "2026-11-13",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
+    "summary": "Four of the six robots pass a performance assessment as the trial puts customer service, retail operations and embodied AI capabilities to the test in a working store.\nThe post Six AGIBOT G2 Robots Co...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-video-friday-nasa-promises-a-n-464",
+    "title": "Video Friday: NASA PROMISEs a New Moon Rover",
+    "date": "2026-11-13",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/video-friday-moon-rover-promise",
+    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few month...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-50459047",
     "title": "Handing over Humanity",
     "date": "2026-11-11",
