@@ -184,5 +184,22 @@ test('front-page top companies go two-up on a phone (2026-11-13, 7.9 -> 7.3 scre
   assert(!/<dl[^>]*style=/.test(html), 'an inline grid style on the card would override the phone rule');
 });
 
+test('phone filter bars put the result count beside the last button (2026-11-14, news bar 229 -> 198px)', () => {
+  const css = read('assets/styles.css');
+  const phone = css.slice(css.indexOf('Clean responsive 2-column grid for filters'));
+  const rule = phone.match(/\.filter-result-count \{[^}]*grid-column:\s*([^;]+);/g) || [];
+  assert(rule.some((r) => /grid-column:\s*auto/.test(r)), 'phone .filter-result-count must use grid-column: auto, not span a full row');
+  for (const page of ['news', 'companies', 'policies']) {
+    const html = read(`${page}.html`);
+    const form = html.slice(html.indexOf('id="filter-form"'), html.indexOf('</form>'));
+    const last = form.lastIndexOf('<button'), count = form.indexOf('filter-result-count');
+    assert(last > -1 && count > last, `${page}: result count must follow the last filter button`);
+    // Search spans both columns; the count only fills a half-empty row when the
+    // one-column controls (selects + buttons) are odd in number.
+    const singles = (form.match(/<select\b/g) || []).length + (form.match(/<button\b/g) || []).length;
+    assert(singles % 2 === 1, `${page}: ${singles} one-column filter controls; an even count puts the result count on its own row`);
+  }
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);

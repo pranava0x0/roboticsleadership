@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-14",
+  "dropped": [
+    {
+      "id": "hn-50488980",
+      "title": "Commission takes new steps to prepare Europeans for growing crisis risks",
+      "source_url": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/commission-takes-new-steps-prepare-europeans-growing-crisis-risks-2026-11-03_en",
+      "date": "2026-11-13",
+      "reason": "off-thesis or no robotics news (HN keyword match)"
+    },
+    {
+      "id": "hn-50485506",
+      "title": "An Agentic Robotics Fable",
+      "source_url": "https://pokeandwiggle.com/blog/agentic-robotics#part-oneagentic-compared-to-end-to-end-policies",
+      "date": "2026-11-13",
+      "reason": "blog essay, no news event"
+    },
+    {
+      "id": "hn-50485956",
+      "title": "California Flood Risk Map",
+      "source_url": "https://floodmap.robennals.org/",
+      "date": "2026-11-13",
+      "reason": "off-thesis or no robotics news (HN keyword match)"
+    },
+    {
+      "id": "hn-50485967",
+      "title": "Zoox robotaxi is now driving in Atlanta",
+      "source_url": "https://zoox.com/journal/atlanta-expansion-robotaxi",
+      "date": "2026-11-13",
+      "reason": "robotaxi expansion, outside robotics scope"
+    },
+    {
+      "id": "hn-50486088",
+      "title": "LangChain Raises $300M to Enable Every Company to Own Its Intelligence",
+      "source_url": "https://www.langchain.com/blog/series-c",
+      "date": "2026-11-13",
+      "reason": "off-thesis or no robotics news (HN keyword match)"
+    },
+    {
+      "id": "hn-50487184",
+      "title": "OpenAI disbands its robotics team as its general models start running robots",
+      "source_url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+      "date": "2026-11-13",
+      "reason": "folded into curated record"
+    },
+    {
+      "id": "hn-50487411",
+      "title": "Serve Robotics Opens Its Robot Delivery Network for Anyone to Build On",
+      "source_url": "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-opens-its-robot-delivery-network-anyone-build",
+      "date": "2026-11-13",
+      "reason": "folded into curated record"
+    },
+    {
+      "id": "hn-50488940",
+      "title": "Mellonbot An AI agent that finds the root cause of server issues and fixes them",
+      "source_url": "https://www.mellonbot.app",
+      "date": "2026-11-13",
+      "reason": "off-thesis or no robotics news (HN keyword match)"
+    },
+    {
+      "id": "hn-50490745",
+      "title": "Tanker collides with river cruiser near Port of New Orleans",
+      "source_url": "https://www.cnn.com/2026/11/13/us/live-news/new-orleans-cruise-ship-crash",
+      "date": "2026-11-13",
+      "reason": "off-thesis or no robotics news (HN keyword match)"
+    },
+    {
+      "id": "hn-50490835",
+      "title": "Robot Arm Build",
+      "source_url": "https://twitter.com/farevalo27/status/2121364960718750055",
+      "date": "2026-11-13",
+      "reason": "hobby build post"
+    },
+    {
+      "id": "hn-50491685",
+      "title": "Cybercab for Personal Use, for Sale",
+      "source_url": "https://twitter.com/robotaxi/status/2121384435241402737",
+      "date": "2026-11-13",
+      "reason": "robotaxi sale post on X, outside scope"
+    },
+    {
+      "id": "hn-50494232",
+      "title": "I Built a $300 Robot Hand With 18 Motors [video]",
+      "source_url": "https://www.youtube.com/watch?v=Sk0x-xMNQks",
+      "date": "2026-11-14",
+      "reason": "hobby build video"
+    },
+    {
+      "id": "rss-narwal-builds-robot-vacuums-to-568",
+      "title": "Narwal builds robot vacuums to serve regional needs",
+      "source_url": "https://www.therobotreport.com/narwal-builds-robot-vacuums-to-serve-regional-needs/",
+      "date": "2026-11-13",
+      "reason": "interview, no new event (consumer vacuums)"
+    },
+    {
+      "id": "rss-how-rhoda-ai-is-using-video-da-384",
+      "title": "How Rhoda AI is using video data to create generalized AI models for robots",
+      "source_url": "https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/",
+      "date": "2026-11-13",
+      "reason": "interview, no new event (Rhoda Series A already tracked)"
+    },
+    {
+      "id": "rss-six-agibot-g2-robots-complete-848",
+      "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
+      "source_url": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
+      "date": "2026-11-13",
+      "reason": "folded into curated record"
+    },
+    {
+      "id": "rss-video-friday-nasa-promises-a-n-138",
+      "title": "Video Friday: NASA PROMISEs a New Moon Rover",
+      "source_url": "https://spectrum.ieee.org/video-friday-moon-rover-promise",
+      "date": "2026-11-13",
+      "reason": "weekly video roundup, no single event"
+    }
+  ]
+}
