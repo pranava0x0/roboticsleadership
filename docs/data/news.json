@@ -1,5 +1,182 @@
 [
   {
+    "id": "openai-disbands-robotics-team-2026-11",
+    "date": "2026-11-13",
+    "category": "Research",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "title": "OpenAI folds its stand-alone robotics team into its main research and applied groups",
+    "source": "Fortune",
+    "source_type": "News",
+    "source_url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+    "summary": "OpenAI confirmed to Fortune that robotics researchers now report to chief research officer Mark Chen, while the applied robotics and hardware staff moved to Greg Brockman's Applied organization. The company says its general models, including GPT-6 Astra, can run some robot tasks directly, so a separate robot-model team is no longer needed. It says it still plans to show its own humanoid in 2027.",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "openai",
+      "foundation-models",
+      "humanoid",
+      "reorganization"
+    ]
+  },
+  {
+    "id": "asus-gallop-humanoid-2026-11",
+    "date": "2026-11-13",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "ASUS shows Gallop, its first humanoid, packing motherboard parts in a group factory; pilots in 2027",
+    "source": "ASUS",
+    "source_type": "Primary",
+    "source_url": "https://press.asus.com/blog/factory-proven-physical-ai-asus-gallop-humanoid-robot/",
+    "summary": "The two-armed robot is learning a packing station by watching workers, and ASUS says it is built to take newer AI models without new hardware. Customer pilots are planned for 2027 and sales for the second half of 2028. Price and specifications are not published.",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "taiwan",
+      "humanoid",
+      "electronics-manufacturing",
+      "asus"
+    ]
+  },
+  {
+    "id": "agibot-g2-store-trial-2026-11",
+    "date": "2026-11-13",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "Six AgiBot G2 robots run a Shanghai convenience store for 24 hours; four of six pass the assessment",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
+    "summary": "The wheeled humanoids worked a live store in Xuhui District from Nov 2 to Nov 3, splitting checkout, coffee, restocking and cleaning, and logged 1,730 tasks, including 683 customer interactions and 147 coffee orders. The trial was livestreamed to more than two million viewers. Two of the six robots did not pass the final performance review.",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "companies": [
+      "agibot"
+    ],
+    "policies": [],
+    "tags": [
+      "china",
+      "humanoid",
+      "retail",
+      "agibot"
+    ]
+  },
+  {
+    "id": "nvidia-soma-retargeter-chinese-humanoids-2026-11",
+    "date": "2026-11-13",
+    "category": "Research",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "title": "NVIDIA's open motion retargeter ships reference setups for five humanoids, all Chinese-made",
+    "source": "NVIDIA Developer Blog",
+    "source_type": "Primary",
+    "source_url": "https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/",
+    "summary": "SOMA Retargeter v0.2 maps human motion-capture data onto robot bodies for policy training. Its ready-made configurations cover the Unitree G1 and H2, Booster T1, and AgiBot X2 Ultra and A3T3; other robots can be added with a configurator. No U.S. humanoid is among the reference set.",
+    "themes": [
+      "foundation-models",
+      "china-scale"
+    ],
+    "companies": [
+      "unitree",
+      "agibot"
+    ],
+    "policies": [],
+    "tags": [
+      "nvidia",
+      "open-source",
+      "humanoid",
+      "china",
+      "training-data"
+    ]
+  },
+  {
+    "id": "nittoku-humanoid-motor-equipment-north-america-2026-11",
+    "date": "2026-11-13",
+    "category": "Supply Chain",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "Japan's NITTOKU books about ¥18.4B of humanoid-motor production equipment for an unnamed North American buyer",
+    "source": "FabScene",
+    "source_type": "News",
+    "source_url": "https://fabscene.com/new/news/nittoku-humanoid-robot-motor-equipment-order/",
+    "summary": "The coil-winding equipment maker disclosed about ¥8.2B on Nov 12 and a further ¥10.2B on Nov 13 for lines that make small precision motors for humanoid robots. The customer is under NDA, and the number of lines and motor types were not given. Revenue lands in the fiscal year ending March 2028.",
+    "themes": [
+      "us-supply-chain"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "japan",
+      "motors",
+      "humanoid",
+      "manufacturing-equipment",
+      "north-america"
+    ]
+  },
+  {
+    "id": "jd-double11-humanoid-sales-2026-11",
+    "date": "2026-11-13",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "JD.com says its humanoid-robot sales rose 700% year over year during Double 11",
+    "source": "Eastmoney (STCN)",
+    "source_type": "News",
+    "source_url": "https://finance.eastmoney.com/a/202611133930451931.html",
+    "summary": "JD reported dexterous-hand and robot-arm sales up more than tenfold. Noetix ranked first in humanoid units and revenue on the platform from Oct 9 to Nov 11, with Unitree and AgiBot in the top ten. JD gave growth rates only, no unit counts.",
+    "themes": [
+      "china-scale"
+    ],
+    "companies": [
+      "unitree",
+      "agibot"
+    ],
+    "policies": [],
+    "tags": [
+      "china",
+      "humanoid",
+      "consumer",
+      "e-commerce"
+    ]
+  },
+  {
+    "id": "qingtianzu-robot-rental-round-2026-11",
+    "date": "2026-11-13",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "AgiBot-linked robot-rental platform Qingtian Zu closes a strategic round of several hundred million yuan",
+    "source": "36Kr",
+    "source_type": "News",
+    "source_url": "https://eu.36kr.com/en/newsflashes/4067611378291590",
+    "summary": "It is the platform's seventh disclosed round this year; the exact amount was not given. Chinese press says AgiBot co-founded it and that it is moving from renting robots to selling robot work as a service, starting with 54 city service sites.",
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ],
+    "companies": [
+      "agibot"
+    ],
+    "policies": [],
+    "tags": [
+      "china",
+      "robots-as-a-service",
+      "rental",
+      "funding"
+    ]
+  },
+  {
     "id": "xilect-angel-rmb500m-2026-11",
     "date": "2026-11-13",
     "category": "Funding",
@@ -46,6 +223,99 @@
       "logistics",
       "cainiao",
       "double-11"
+    ]
+  },
+  {
+    "id": "ifr-robot-density-2025-2026-11",
+    "date": "2026-11-12",
+    "category": "Geopolitics",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "title": "IFR: U.S. robot density 323 per 10,000 factory workers in 2025 (8th); China 193 (19th)",
+    "source": "International Federation of Robotics",
+    "source_type": "Primary",
+    "source_url": "https://ifr.org/ifr-press-releases/news/robot-density-highest-in-south-korea-singapore-and-germany",
+    "summary": "South Korea leads at 1,066, ahead of Singapore (873), Germany (469) and Japan (452); the global average is a record 152. China's figure uses employment data from its National Economic Census and rose 147% from 2020 to 2025. For 2024 IFR had given 307 for the U.S. and 166 for China.",
+    "themes": [
+      "industrial-deployments",
+      "china-scale"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "ifr",
+      "robot-density",
+      "us",
+      "china",
+      "statistics"
+    ]
+  },
+  {
+    "id": "japan-pm-physical-ai-10m-robots-2026-11",
+    "date": "2026-11-12",
+    "category": "Policy",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "Japan's prime minister restates a target of about 10 million AI robots by 2040 and asks for multi-year budgets",
+    "source": "Prime Minister's Office of Japan",
+    "source_type": "Primary",
+    "source_url": "https://japan.kantei.go.jp/105/actions/202611/12ikenkoukan.html",
+    "summary": "After meeting physical-AI companies, Prime Minister Takaichi repeated the goal of a 20-trillion-yen market and more than 30% of the global one. Industry asked for support from R&D through mass-production plants for domestic robots and parts, a domestic AI foundation, data pooling like GENIAC, and multi-year help to buy robots. She told the minister in charge to put these in the Growth Strategy Implementation Plan with predictable budgets.",
+    "themes": [
+      "policy-momentum"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "japan",
+      "industrial-policy",
+      "physical-ai"
+    ]
+  },
+  {
+    "id": "uforce-700m-series-a-2026-11",
+    "date": "2026-11-12",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "Ukrainian-founded UFORCE raises $700M at a $6B valuation for sea, air and ground drones",
+    "source": "UFORCE (PR Newswire)",
+    "source_type": "Primary",
+    "source_url": "https://www.prnewswire.com/news-releases/uforce-raises-700m-at-6-billion-valuation-from-leading-tech-and-sovereign-wealth-funds-to-scale-combat-proven-defence-systems-for-ukraine-and-allied-nations-302937236.html",
+    "summary": "Valor Equity Partners and the UK's National Wealth Fund co-led, with the U.S.-Ukraine Reconstruction Investment Fund and Menlo Ventures also investing. UFORCE makes the MAGURA sea drone, NEMESIS aircraft and LIUT ground vehicle, and plans production in the U.S., Europe, Asia-Pacific and the Middle East. It raised $50M at about $1B in March.",
+    "themes": [
+      "defense-procurement"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "defense",
+      "ukraine",
+      "unmanned-systems",
+      "funding"
+    ]
+  },
+  {
+    "id": "york-space-acquires-outlook-ugv-2026-11",
+    "date": "2026-11-12",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "York Space Systems agrees to buy ground-robot maker Outlook Industries",
+    "source": "Washington Technology",
+    "source_type": "News",
+    "source_url": "https://www.washingtontechnology.com/companies/2026/11/york-space-systems-enters-unmanned-ground-vehicle-market-acquisition/417178/",
+    "summary": "Outlook's long-endurance Shadow unmanned ground vehicle becomes the first product of a new York Terrestrial Systems unit. Terms were not disclosed and the deal needs regulatory approval.",
+    "themes": [
+      "defense-procurement"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "defense",
+      "ugv",
+      "acquisition",
+      "us"
     ]
   },
   {
@@ -252,6 +522,32 @@
         "url": "https://roboticsandautomationnews.com/2026/11/12/cainiao-introduces-upgraded-climbing-robot-with-four-side-retrieval-and-denser-storage/107042/",
         "label": "Robotics & Automation News"
       }
+    ]
+  },
+  {
+    "id": "serve-robotics-delivery-api-2026-11",
+    "date": "2026-11-11",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "Serve Robotics opens its 2,000-robot sidewalk fleet to outside developers through a public API",
+    "source": "Serve Robotics",
+    "source_type": "Primary",
+    "source_url": "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-opens-its-robot-delivery-network-anyone-build",
+    "summary": "The AV Delivery Developer Portal lets apps, businesses and AI assistants request a pickup and drop-off from Serve robots in more than 150 neighborhoods across 20 U.S. cities, with a sandbox of simulated robots for testing. Live access needs Serve approval. Until now the fleet was reachable only through third-party delivery platforms.",
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
+    ],
+    "companies": [
+      "serve-robotics"
+    ],
+    "policies": [],
+    "tags": [
+      "delivery",
+      "api",
+      "sidewalk-robots",
+      "us"
     ]
   },
   {
