@@ -1,5 +1,105 @@
 [
   {
+    "id": "hn-50499150",
+    "title": "Use LLM for direct robot control",
+    "date": "2026-11-14",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arxiv.org/abs/2610.28259",
+    "summary": "Use LLM for direct robot control",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50502531",
+    "title": "Show HN: WendyOS, Linux for robots with USB-C deployment and rollback updates",
+    "date": "2026-11-15",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://docs.wendy.dev/latest/getting-started/app/",
+    "summary": "Show HN: WendyOS, Linux for robots with USB-C deployment and rollback updates",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50503879",
+    "title": "SuperMimic: Compute is no longer the bottleneck to robotics",
+    "date": "2026-11-15",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://supermimic.github.io/",
+    "summary": "SuperMimic: Compute is no longer the bottleneck to robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50505507",
+    "title": "Periodic-Oriented Programming for First Robotics",
+    "date": "2026-11-15",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://bvisness.me/periodic-oriented-programming/",
+    "summary": "Periodic-Oriented Programming for First Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50507278",
+    "title": "Found 380 eMudhra-Linked Root Certificates on My Laptop",
+    "date": "2026-11-15",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.rixdata.net/blog-emudhra-roots.html",
+    "summary": "Found 380 eMudhra-Linked Root Certificates on My Laptop",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-50488980",
     "title": "Commission takes new steps to prepare Europeans for growing crisis risks",
     "date": "2026-11-13",
