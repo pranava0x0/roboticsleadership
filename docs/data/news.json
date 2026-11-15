@@ -1,5 +1,233 @@
 [
   {
+    "sentiment": "Negative",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "foundation-misses-payroll-2026-11",
+    "date": "2026-11-14",
+    "category": "Funding",
+    "confidence": "Medium",
+    "title": "Humanoid startup Foundation has reportedly missed payroll since Oct 30; its CEO borrowed $4.6 million from the company last year",
+    "source": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+    "summary": "CNBC reports, citing people familiar with the matter, that workers at the San Francisco company had not been paid since the Oct 30 payroll. CEO Sankaet Pathak, the sole board member, borrowed $4.6 million from Foundation in 2025 to buy a home, the people said. Pathak told staff in a memo this week that he was working to cover back wages; he is seeking new money at a reported $3 billion valuation.",
+    "themes": [
+      "defense-procurement",
+      "physical-ai"
+    ],
+    "tags": [
+      "foundation",
+      "humanoid",
+      "governance",
+      "payroll",
+      "defense"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "senate-banking-nvidia-lutnick-hearings-2026-11",
+    "date": "2026-11-14",
+    "category": "Geopolitics",
+    "confidence": "Medium",
+    "title": "Senate Banking asks former Nvidia CEO Jensen Huang to testify Dec 3 and Commerce Secretary Lutnick Dec 10 on chip exports to China",
+    "source": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
+    "summary": "Chairman Tim Scott asked both after reporting on whether Nvidia chips reached Chinese firms; NBC reports Lutnick agreed to appear voluntarily. Lawmakers are examining how the Commerce Department oversees Nvidia chip exports and enforces export controls.",
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "nvidia",
+      "export-controls",
+      "senate",
+      "commerce",
+      "chips"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [
+      "ubtech"
+    ],
+    "policies": [],
+    "id": "ubtech-yongda-400-u1-pro-2026-11",
+    "date": "2026-11-13",
+    "category": "Deployment",
+    "confidence": "Medium",
+    "title": "UBTech and car dealer Yongda Auto sign a strategic agreement covering a first batch of 400 humanoid robots",
+    "source": "21st Century Business Herald",
+    "source_url": "https://www.21jingji.com/article/20261113/herald/434564008ddce2c6e62e2b8a32b200e9.html",
+    "summary": "Yongda, a Hong Kong-listed luxury-car dealer group, signed on Nov 11 for 400 U1 Pro robots at a list price of RMB 169,800 each, for product demonstrations, sales promotion and customer service, with delivery planned this year. The two also plan an experience centre in Shanghai. UBTech reported 16,123 humanoids sold in the first half, up 268%.",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "ubtech",
+      "yongda",
+      "humanoid",
+      "orders",
+      "china"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "genki-robotics-humanoid-takaichi-2026-11",
+    "date": "2026-11-13",
+    "category": "Competitive",
+    "confidence": "Medium",
+    "title": "Andy Rubin's Genki Robotics shows its first humanoid at Japan's prime-minister meeting on physical AI",
+    "source": "Humanoids Daily",
+    "source_url": "https://www.humanoidsdaily.com/news/genki-robotics-humanoid-debut-takaichi-kantei",
+    "summary": "Genki, founded in 2025 by the creator of Android, showed the robot at Prime Minister Sanae Takaichi's Nov 12 meeting with robot and component makers; it first walked three days earlier. The company plans an open, Android-style platform on Japanese hardware, and the government is targeting a 30% global share of the physical-AI market by 2040.",
+    "themes": [
+      "physical-ai",
+      "policy-momentum"
+    ],
+    "tags": [
+      "genki",
+      "japan",
+      "humanoid",
+      "andy-rubin"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "jl-mag-humanoid-magnets-daiwa-2026-11",
+    "date": "2026-11-13",
+    "category": "Supply Chain",
+    "confidence": "Medium",
+    "title": "Daiwa estimates JL Mag's humanoid magnet sales at about RMB 20 million this year and RMB 120 million in 2027 in its base case",
+    "source": "Guandian",
+    "source_url": "https://www.guandian.cn/m/show/627462",
+    "summary": "The broker cut its target price on the rare-earth magnet maker by 25% to HK$18 while sizing its humanoid business, with an optimistic 2027 case near RMB 220 million. It puts nine-month humanoid revenue near RMB 8 million against RMB 760 million of nine-month net profit. These are sell-side estimates, and they put humanoid magnets at a small share of the company's business.",
+    "themes": [
+      "us-supply-chain",
+      "china-scale"
+    ],
+    "tags": [
+      "rare-earths",
+      "magnets",
+      "jl-mag",
+      "humanoid",
+      "china"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [
+      "agibot",
+      "ubtech"
+    ],
+    "policies": [],
+    "id": "niushidate-reducer-ipo-review-2026-11",
+    "date": "2026-11-13",
+    "category": "Supply Chain",
+    "confidence": "Medium",
+    "title": "Planetary-reducer maker Niushidate passes its ChiNext IPO review with humanoid makers as customers",
+    "source": "Sina Finance",
+    "source_url": "https://k.sina.com.cn/article_5953466437_162dab0450670bhtcu.html",
+    "summary": "It plans to raise RMB 823 million for a plant making 1.5 million planetary reducers a year. Robot-segment revenue was RMB 96.6 million in 2025 and RMB 59.4 million in the first half of 2026, and Sina's report names AgiBot, UBTech, EngineAI and Fourier as customers.",
+    "themes": [
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "reducers",
+      "ipo",
+      "chinext",
+      "actuators",
+      "china"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "d-robotics-infinigence-toolchain-2026-11",
+    "date": "2026-11-13",
+    "category": "Supply Chain",
+    "confidence": "Medium",
+    "title": "D-Robotics and Infinigence AI link four open-source robot tools to D-Robotics' Sunrise chips and RoboGo platform",
+    "source": "Pandaily",
+    "source_url": "https://pandaily.com/d-robotics-infinigence-ai-rlinf-rlark-rpent-apxinf-sunrise-robogo-embodied-toolchain",
+    "summary": "RLark is adapted to four Sunrise chip platforms and APXInf to the S600, where it can run a Pi0.5 model on the robot itself; the RLinf reinforcement-learning framework is listed on RoboGo. RPent's developers claim a sevenfold task speedup, and neither company has published figures for the combined workflow.",
+    "themes": [
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "d-robotics",
+      "infinigence",
+      "robot-chips",
+      "open-source",
+      "china"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "india-meity-physical-ai-video-data-2026-11",
+    "date": "2026-11-13",
+    "category": "Policy",
+    "confidence": "Medium",
+    "title": "India's IT ministry asks home-services apps how they collect in-home video for physical-AI training",
+    "source": "Entrackr",
+    "source_url": "https://entrackr.com/news/meity-examines-data-collection-by-home-services-platforms-for-physical-ai-training-12806000",
+    "summary": "Officials met Pronto, Snabbit, Urban Company and robotics firms after Pronto began recording first-person video from gig workers in customers' homes. The ministry asked whether the footage is sold or sent to AI developers outside India and sought data-sharing agreements, vendor contracts and retention policies. Snabbit and Urban Company say they are not recording.",
+    "themes": [
+      "policy-momentum",
+      "foundation-models"
+    ],
+    "tags": [
+      "india",
+      "training-data",
+      "privacy",
+      "data-collection"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "korea-2027-robot-components-budget-2026-11",
+    "date": "2026-11-13",
+    "category": "Policy",
+    "confidence": "Medium",
+    "title": "South Korea proposes 2027 funding for robot components, humanoid batteries and on-sensor AI chips",
+    "source": "The AI Insider",
+    "source_url": "https://theaiinsider.tech/2026/11/13/south-korea-proposes-new-funding-for-ai-sensors-robot-actuators-and-humanoid-batteries/",
+    "summary": "The 2027 budget proposal sets aside 30 billion won (about $22.4 million) for core robot components, 13.3 billion won for humanoid batteries and 9 billion won for on-sensor AI chips. The government's 2030 targets include five times the actuator force of current parts and 80% domestic sourcing of core components.",
+    "themes": [
+      "policy-momentum",
+      "physical-ai"
+    ],
+    "tags": [
+      "south-korea",
+      "budget",
+      "actuators",
+      "batteries",
+      "components"
+    ]
+  },
+  {
     "id": "openai-disbands-robotics-team-2026-11",
     "date": "2026-11-13",
     "category": "Research",
@@ -223,6 +451,30 @@
       "logistics",
       "cainiao",
       "double-11"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "kexing-shikong-overseas-data-order-2026-11",
+    "date": "2026-11-12",
+    "category": "Funding",
+    "confidence": "Low",
+    "title": "Shanghai robot-data startup Kexing Shikong reports a data order above RMB 200 million from an overseas buyer",
+    "source": "MarsBit",
+    "source_url": "https://m.marsbit.co/newsdetail/20261112172013490109.html",
+    "summary": "The company says an unnamed overseas buyer contracted about 300,000 hours of robot training data, not all delivered yet, under the Lingang cross-border data pilot. It reports that the first 1,000-plus hours passed acceptance. The figures are the company's own and the buyer is not named.",
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "tags": [
+      "training-data",
+      "data-export",
+      "china",
+      "lingang"
     ]
   },
   {
@@ -522,6 +774,31 @@
         "url": "https://roboticsandautomationnews.com/2026/11/12/cainiao-introduces-upgraded-climbing-robot-with-four-side-retrieval-and-denser-storage/107042/",
         "label": "Robotics & Automation News"
       }
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "Primary",
+    "companies": [],
+    "policies": [],
+    "id": "mimic-bmw-flux-mimic-2026-11",
+    "date": "2026-11-11",
+    "category": "Research",
+    "confidence": "High",
+    "title": "mimic robotics and BMW Group researchers publish FLUX-mimic results on automotive production parts",
+    "source": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.15974",
+    "summary": "Zurich-based mimic pretrained its video-action model on 55,217 episodes covering 31 tasks, about 296 hours, and tested it on assembly, insertion, kitting and cable routing with real production parts. Co-authors include researchers from BMW Group. With 2 hours of action-labelled demonstrations, soft-part kitting succeeded 77.5% of the time, and 95% with 8 hours.",
+    "themes": [
+      "foundation-models",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "mimic",
+      "bmw",
+      "video-action-model",
+      "automotive",
+      "europe"
     ]
   },
   {

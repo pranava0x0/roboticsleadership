@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-15",
+  "dropped": [
+    {
+      "id": "hn-50496652",
+      "title": "Tesla Cybercab orders open at $29,990 and $299/mo, only in Robotaxi zones",
+      "source_url": "https://electrek.co/2026/11/13/tesla-cybercab-personal-use-orders-299-subscription-geofence/",
+      "date": "2026-11-14",
+      "reason": "robotaxi consumer pricing; AV scope is an open backlog question, not authored"
+    },
+    {
+      "id": "hn-50498135",
+      "title": "Robot startup cant pay staff after founder takes $4.6M from company to buy home",
+      "source_url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+      "date": "2026-11-14",
+      "reason": "folded into curated record foundation-misses-payroll-2026-11"
+    },
+    {
+      "id": "hn-50499150",
+      "title": "Use LLM for direct robot control",
+      "source_url": "https://arxiv.org/abs/2610.28259",
+      "date": "2026-11-14",
+      "reason": "arXiv paper, no news event"
+    },
+    {
+      "id": "hn-50502531",
+      "title": "Show HN: WendyOS, Linux for robots with USB-C deployment and rollback updates",
+      "source_url": "https://docs.wendy.dev/latest/getting-started/app/",
+      "date": "2026-11-15",
+      "reason": "Show HN developer tool, no news event"
+    },
+    {
+      "id": "hn-50503879",
+      "title": "SuperMimic: Compute is no longer the bottleneck to robotics",
+      "source_url": "https://supermimic.github.io/",
+      "date": "2026-11-15",
+      "reason": "research blog post, no news event"
+    },
+    {
+      "id": "rss-d-robotics-and-infinigence-ai-653",
+      "title": "D-Robotics and Infinigence AI Bring RLinf and Three Other Open-Source Robot Tools to Sunrise Chips",
+      "source_url": "https://pandaily.com/d-robotics-infinigence-ai-rlinf-rlark-rpent-apxinf-sunrise-robogo-embodied-toolchain",
+      "date": "2026-11-15",
+      "reason": "folded into curated record d-robotics-infinigence-toolchain-2026-11"
+    }
+  ]
+}

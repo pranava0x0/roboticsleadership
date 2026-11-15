@@ -201,5 +201,16 @@ test('phone filter bars put the result count beside the last button (2026-11-14,
   }
 });
 
+test('scsp-summit report directions and caveats ship collapsed (2026-11-15, ~1,450px of phone scroll)', () => {
+  const html = read('scsp-summit.html');
+  for (const [wrap, list] of [['report-headed', 'report-directions'], ['report-disagree', 'report-caveats']]) {
+    const open = html.match(new RegExp(`<details class="collapsible-section" id="${wrap}"([^>]*)>`));
+    assert(open, `${wrap} must be a details.collapsible-section`);
+    assert(!/\bopen\b/.test(open[1]), `${wrap} must not be authored open`);
+    const body = html.slice(open.index, html.indexOf('</details>', open.index));
+    assert(body.includes(`id="${list}"`), `#${list} must sit inside #${wrap}`);
+  }
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);
