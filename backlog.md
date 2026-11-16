@@ -7,6 +7,10 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 ## ▶ Added 2026-11-15 (UAT fixes)
 
 - [ ] **(medium) Bake companies, policies, supply-chain, energy and scsp-summit.** With JavaScript off they show only the shell and a `<noscript>` note pointing to their data files. Move each page's renderers into app.js (DOM-free), add slots to `scripts/render-static.js`, and drop the note once a page is baked.
+- [ ] **(low) rd sub-tabs use `replaceState` (UAT C8).** Back leaves the site rather than returning to the previous tab. This follows the ARIA tabs pattern and keeps the URL shareable; switching to `pushState` needs a `popstate` handler in `initSubTabs` (shared with policies). Owner call.
+- [ ] **(low) Touch targets under 44px (UAT C6).** Primary-nav links are inline and 32px tall at 375 (34px at 1280); making them 44px means changing their display, which the priority+ nav's `aria-current` truncation rule depends on, so it needs its own pass with the header sweep. Summit agenda `summary` rows are 24px.
+- [ ] **(low) Source links in table rows are 14-19px tall.** Supply-chain source chips, china's `.vs-srcs` links and energy's `a.e-src` sit in table cells and card footers, so WCAG 2.5.8's inline-text exemption does not cover them. Pad them to a 24px minimum target (44px where they stand alone), and check the rows do not grow past the interaction budgets. The 14px filter checkboxes on companies and rd need the same pass (also UAT C6).
+- [ ] **(low) Long-table leaves still cost 10-27 interactions on a phone.** `policies.html` executive "Show all" (18 at 375), the agencies table (11) and companies "Show all" (23 at 375, 31-32 wider) are long because every row is shown once opened. Each table's search already reaches a single record in a few interactions; a per-table filter or a lower cap would cut the scroll-to-last cost, but both add or hide controls, so they were left for a decision.
 
 ## ▶ Added 2026-11-15 (objectivity audit)
 

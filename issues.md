@@ -9,28 +9,33 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 - **Root cause (code bug):** only pages with a sticky jump nav, the R&D tables and the 232 rows set `scroll-margin-top`; every other target used the default 0. The news deep link also scrolled once, in the next frame, before web fonts reflowed the cards above it.
 - **Fix:** `[id] { scroll-margin-top: calc(var(--header-h) + 12px) }` in styles.css (the header is `--header-h` plus a 1px border at every width; the more specific jump-nav rules still win), and news.html scrolls through `RT.revealHashTarget()`, which scrolls again after `document.fonts.ready`. Every listed target now lands at top 68 with the header bottom at 57, at all three widths.
 - **Regression coverage:** `scripts/layout-guards.test.js` (rule present and tied to `--header-h`).
+- **Commit:** `28bcacf`.
 
 ### 2026-11-15 — china, index, supply-chain — hash links to rendered or collapsed targets did nothing — Fixed
 - **Symptom:** `china.html#sec-supply-chain`, `#series-guangdong-robot`, `#plan-beijing-embodied-ai-2026-2028`, `index.html#theme-china-scale` and `supply-chain.html#cat-final-assembly` left the page at scrollY 0, and a target inside a closed `<details>` stayed closed.
 - **Root cause (code bug):** the browser resolves a fragment once, at load, before these pages fetch their data and paint the target; nothing retried after the paint. supply-chain also never re-applied collapsible state (next entry).
 - **Fix:** `RT.revealHashTarget()` in app.js captures the hash when app.js runs (before any `writeQuery`), and the first call that finds the target opens every closed `<details>` around it, scrolls to it, scrolls again after fonts load, and consumes the hash. china (after both its main and plans paints), index, supply-chain and news call it. A delegated click handler opens closed `<details>` around a same-page `#target` before the browser scrolls, which also covers a link to the hash already in the URL. All five targets now land at top 68 with no closed ancestor at 375/768/1280.
 - **Regression coverage:** `scripts/layout-guards.test.js`; interaction task `front_edge_to_china_section` follows a hash link from the front page.
+- **Commit:** `28bcacf`.
 
 ### 2026-11-15 — supply-chain.html — collapsible sections forgot their state — Fixed
 - **Root cause (code bug):** the stage sections are painted after `RT.initCollapsibleSections()` runs, and the page never called `RT.applyCollapsibleState()` afterwards (a comment said it was unnecessary), so a saved open/closed state and a hash into a stage were ignored.
 - **Fix:** the page calls `RT.applyCollapsibleState()` and then `RT.revealHashTarget()` after painting. A stage opened by the reader is open again after a reload.
 - **Regression coverage:** `scripts/layout-guards.test.js` checks the call order.
+- **Commit:** `28bcacf`.
 
 ### 2026-11-15 — news.html — Reset left the old filters in the URL — Fixed
 - **Root cause (code bug):** `renderNewsFeed` deleted cleared keys from the object it passed to `RT.writeQuery`, but `writeQuery` only removes a key that is passed as `''`; a key left out keeps its old value. Clearing any filter, or Reset, left `?search=` / `?sort=` behind, so a reload brought them back.
 - **Fix:** every filter key is passed, with `''` for cleared ones. `news.html?search=agility&sort=date-asc` → Reset now leaves an empty query string at 375/768/1280.
 - **Regression coverage:** `scripts/layout-guards.test.js`.
+- **Commit:** `28bcacf`.
 
 ### 2026-11-15 — companies.html, policies.html — first paint waited on the whole news archive — Fixed
 - **Symptom:** both pages showed no rows until `data/news.json` (~220 KB gzip, four times the next-largest data file) had downloaded. First load was 344 KB gzip (companies) and 321 KB (policies), the two heaviest pages; on throttled Fast 3G content was ready at about 3.2 s against 0.7-1.5 s elsewhere. `scripts/site-metrics.js` reported 137 / 113 KB for the same pages, so the baseline never showed it.
 - **Root cause (code bug):** serial `await RT.loadData('news')` at the top of each page script, used only for the related-news list inside a detail sheet. companies.html also awaited `themes.json`, which it never used. site-metrics only counted literal `data/*.json` strings, so a fetch by name (`RT.loadData('news')`) was invisible, while app.js comments mentioning `china_plans.json` were counted on every page.
 - **Fix:** both pages paint from their own data (policies loads policies + agencies in parallel); news.json is fetched when a detail sheet opens and fills its news list in place. First load is now 120 KB (companies) and 102 KB (policies). site-metrics resolves `RT.loadData('<name>')`, `RT.loadAll()`, `RT.loadNewsRecent()` and the header's sources.json, and reports calls marked `/* on demand */` in their own column.
 - **Regression coverage:** `scripts/layout-guards.test.js` fails if either page awaits or preloads news.json before first paint, or stops fetching it on detail open.
+- **Commit:** `9f6c602`.
 
 ### 2026-11-15 — news.json — 267 off-topic Hacker News records on the News page — Fixed
 - **Symptom:** 267 of 581 `hn-*` records had nothing to do with robotics: an /etc/hosts switcher, Terraform root modules, a Let's Encrypt root-certificate T-shirt, rootkits, "humanize AI text" tools, a robots.txt story. Most are from June 2026 (202), then July (58), August (6) and September (1).
