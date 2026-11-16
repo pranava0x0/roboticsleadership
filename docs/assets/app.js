@@ -407,6 +407,10 @@
 
   // ---------- Detail panel (shared bottom-sheet / side-panel) ----------
   let detailOpener = null;
+  // Everything behind an open detail sheet. The back-to-top button is appended
+  // to <body>, so it is listed on its own or Tab escapes the dialog onto it.
+  const MODAL_INERT = 'body > header, body > main, body > footer, body > .to-top';
+
   function openDetail(html) {
     let panel = document.getElementById('detail-panel');
     let backdrop = document.getElementById('detail-backdrop');
@@ -433,7 +437,7 @@
     // Remember the opener so focus returns there, and make the page behind
     // the sheet inert so Tab stays inside it (aria-modal alone doesn't).
     if (!panel.classList.contains('open')) detailOpener = document.activeElement;
-    document.querySelectorAll('body > header, body > main, body > footer')
+    document.querySelectorAll(MODAL_INERT)
       .forEach((el) => { el.inert = true; });
     panel.innerHTML = html;
     panel.classList.add('open');
@@ -450,7 +454,7 @@
     if (!panel || !panel.classList.contains('open')) return;
     panel.classList.remove('open');
     if (backdrop) backdrop.classList.remove('open');
-    document.querySelectorAll('body > header, body > main, body > footer')
+    document.querySelectorAll(MODAL_INERT)
       .forEach((el) => { el.inert = false; });
     if (detailOpener && detailOpener.isConnected) detailOpener.focus();
     detailOpener = null;

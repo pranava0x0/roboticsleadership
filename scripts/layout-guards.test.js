@@ -212,5 +212,12 @@ test('scsp-summit report directions and caveats ship collapsed (2026-11-15, ~1,4
   }
 });
 
+test('an open detail sheet makes the back-to-top button inert too (Codex review, PR #301)', () => {
+  const app = read('assets/app.js');
+  const sel = (app.match(/const MODAL_INERT = '([^']+)'/) || [])[1] || '';
+  assert(/body > \.to-top/.test(sel), 'MODAL_INERT does not cover the body-level .to-top button');
+  assert((app.match(/querySelectorAll\(MODAL_INERT\)/g) || []).length === 2, 'open and close no longer share MODAL_INERT');
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);
