@@ -28,6 +28,8 @@ const kb = (n) => (n / 1024).toFixed(1);
 const pages = fs.readdirSync(DOCS).filter((f) => f.endsWith('.html')).sort();
 const appJs = fs.existsSync(path.join(DOCS, 'assets/app.js')) ? read(path.join(DOCS, 'assets/app.js')).toString() : '';
 
+const appJsCode = appJs.split('\n').filter((l) => !/^\s*\/\//.test(l)).join('\n');
+
 const rows = [];
 const broken = [];
 
@@ -52,8 +54,10 @@ for (const p of pages) {
   // JSON-LD names each page's dataset as a DataDownload contentUrl; that is a
   // description for crawlers, not a fetch, so it is left out of the scan.
   const fetchable = html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, '');
-  for (const m of fetchable.matchAll(/data\/[a-z_]+\.json/g)) local.add(m[0]);
-  const shared = [...appJs.matchAll(/data\/[a-z_]+\.json/g)].map((m) => m[0]);
+  for (const m of fetchable.matchAll(/data\/[a-z_-]+\.json/g)) local.add(m[0]);
+  // Comments in app.js name files it does not fetch (china_plans.json is loaded only
+  // by china.html), so scan code lines only.
+  const shared = [...appJsCode.matchAll(/data\/[a-z_-]+\.json/g)].map((m) => m[0]);
   if (/RT\.load|fetchJSON|loadData/.test(html)) shared.forEach((s) => local.add(s));
 
   let raw = read(path.join(DOCS, p)).length;

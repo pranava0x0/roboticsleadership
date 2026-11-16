@@ -229,6 +229,44 @@
       densityBtn.textContent = isCompact ? 'Expanded' : 'Compact';
     });
 
+    // Phones clamp each summary to three lines (styles.css). Only a summary the
+    // clamp actually cut becomes a control: focusable, aria-expanded, and opened
+    // by tap, Enter or Space. Delegated, so it survives every re-render.
+    function markClampedSummaries() {
+      feedEl.querySelectorAll('.summary').forEach((s) => {
+        const cut = !s.classList.contains('is-open') && s.scrollHeight > s.clientHeight + 1;
+        const ctl = cut || s.classList.contains('is-open');
+        if (ctl) {
+          s.setAttribute('role', 'button');
+          s.tabIndex = 0;
+          s.setAttribute('aria-expanded', String(s.classList.contains('is-open')));
+        } else {
+          s.removeAttribute('role');
+          s.removeAttribute('tabindex');
+          s.removeAttribute('aria-expanded');
+        }
+      });
+    }
+    function toggleSummary(s) {
+      const open = s.classList.toggle('is-open');
+      s.setAttribute('aria-expanded', String(open));
+    }
+    feedEl.addEventListener('click', (e) => {
+      const s = e.target.closest('.summary[role="button"]');
+      if (s && feedEl.contains(s)) toggleSummary(s);
+    });
+    feedEl.addEventListener('keydown', (e) => {
+      const s = e.target.closest('.summary[role="button"]');
+      if (!s || (e.key !== 'Enter' && e.key !== ' ')) return;
+      e.preventDefault();
+      toggleSummary(s);
+    });
+    let clampTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(clampTimer);
+      clampTimer = setTimeout(markClampedSummaries, 150);
+    });
+
     // Only one render may be in flight without an await (synchronous: reads the
     // controls and paints immediately), but a render that needs the archive
     // awaits a network fetch — and a second, faster render can finish and paint
@@ -310,9 +348,12 @@
 
       if (pendingHash) {
         const el = document.getElementById(pendingHash);
+        // A reader who followed a link to one story gets its whole summary.
+        if (el) el.querySelector('.summary')?.classList.add('is-open');
         if (el) requestAnimationFrame(() => el.scrollIntoView({ block: 'start', behavior: 'smooth' }));
         pendingHash = null; // consume: later renders (Prev/Next, filters) must not re-jump
       }
+      markClampedSummaries();
     }
 
     function renderPagination(page, total) {

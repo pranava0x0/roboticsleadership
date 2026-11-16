@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-09",
+    "last_updated": "2026-11-16",
     "captured_at": "2026-06-12",
     "method": "Selected robot counts, reducers, lidar and Marion refinery records checked 2026-10-26 against IFR, manufacturers and company disclosures; other records retain earlier capture dates. Shares are estimates for their stated market and year."
   },
@@ -229,11 +229,13 @@
       "chokepoints": [
         { "text": "Linkerbot is the only mass producer above 1,000 high-DoF hands/month — single-company concentration", "source": "https://www.prnewswire.com/news-releases/10-000-dexterous-hands-shipped-150-million-raised-linkerbot-leads-the-market-302645409.html" },
         { "text": "Micro coreless motors and micro screws for fingers come largely from Swiss and Chinese micro-motor makers", "source": "https://mikekalil.com/blog/the-rise-of-linkerbot/" },
-        { "text": "Hands are the engineering bottleneck for entire humanoids — Musk says over half of Optimus engineering effort", "source": "https://www.basenor.com/blogs/news/tesla-optimus-gen-3-hands-revealed-50-actuator-precision-leap" }
+        { "text": "Hands are the engineering bottleneck for entire humanoids — Musk says over half of Optimus engineering effort", "source": "https://www.basenor.com/blogs/news/tesla-optimus-gen-3-hands-revealed-50-actuator-precision-leap" },
+        { "text": "Chinese hand and gripper suppliers are heading to public markets: Shenzhen's DH-Robotics filed for IPO tutoring with the CSRC Shenzhen bureau (disclosed 2026-11-13), and works with UBTech, AgiBot and Galbot", "source": "https://cj.sina.cn/articles/view/7651844612/1c815e204020022l64" }
       ],
       "sources": [
         { "url": "https://www.prnewswire.com/news-releases/10-000-dexterous-hands-shipped-150-million-raised-linkerbot-leads-the-market-302645409.html", "label": "Linkerbot" },
-        { "url": "https://www.basenor.com/blogs/news/tesla-optimus-gen-3-hands-revealed-50-actuator-precision-leap", "label": "Optimus Gen-3 hands" }
+        { "url": "https://www.basenor.com/blogs/news/tesla-optimus-gen-3-hands-revealed-50-actuator-precision-leap", "label": "Optimus Gen-3 hands" },
+        { "url": "https://cj.sina.cn/articles/view/7651844612/1c815e204020022l64", "label": "DH-Robotics IPO filing (Sina)" }
       ]
     },
     {
