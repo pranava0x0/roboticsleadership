@@ -182,7 +182,7 @@
       "id": "motors",
       "name": "High-density electric motors",
       "stage": "components",
-      "summary": "The U.S. retains design leadership in frameless torque motors (Kollmorgen, Moog) and Switzerland in coreless motors (Maxon), but Chinese makers (Leadshine, Johnson Electric, Haozhi) have closed the torque-density gap and dominate volume pricing. A potential upstream constraint is NdFeB magnets, which are used in many high-density motors and heavily depend on Chinese processing.",
+      "summary": "U.S. makers (Kollmorgen, Moog) supply frameless torque motors and Switzerland's Maxon supplies coreless motors. Chinese makers (Leadshine, Johnson Electric, Haozhi) sell at lower volume prices, and one frameless-motor supplier says Chinese frameless motors now match Western torque density. A potential upstream constraint is NdFeB magnets, which are used in many high-density motors and heavily depend on Chinese processing.",
       "us_share_pct": 20,
       "china_share_pct": 50,
       "row_share_pct": 30,
@@ -261,11 +261,11 @@
       "id": "compute",
       "name": "Compute & semiconductors",
       "stage": "sensing-compute",
-      "summary": "The U.S. dominates robot-brain design: NVIDIA's Jetson Thor (Blackwell, 2,070 FP4 TFLOPS, 128 GB) is the de facto humanoid compute standard — adopted by Agility, Boston Dynamics, Figure, Amazon, and Meta — with Qualcomm's 700-TOPS Dragonwing IQ10 and Ambarella as U.S.-designed alternatives. The structural weakness is manufacturing: every leading robot SoC is fabbed at TSMC (Taiwan) or Samsung (Korea), though TSMC Arizona produced its first U.S.-made Blackwell wafer in Oct 2025.",
+      "summary": "U.S. firms design most of the robot compute named here. NVIDIA's Jetson Thor (Blackwell, 2,070 FP4 TFLOPS, 128 GB) is used by Agility, Boston Dynamics, Figure, Amazon, and Meta, and Qualcomm's 700-TOPS Dragonwing IQ10 and Ambarella are U.S.-designed alternatives. Fabrication happens outside the U.S.: every leading robot SoC is fabbed at TSMC (Taiwan) or Samsung (Korea), though TSMC Arizona produced its first U.S.-made Blackwell wafer in Oct 2025.",
       "us_share_pct": null,
       "china_share_pct": null,
       "row_share_pct": null,
-      "share_note": "No published share series; U.S. firms dominate design, Taiwan/Korea dominate fabrication",
+      "share_note": "No published share series; design is mostly U.S., fabrication mostly Taiwan and Korea",
       "chokepoints": [
         { "text": "Jetson Thor's silicon is built on TSMC's custom 4N/4NP process — U.S.-designed, Taiwan-fabbed", "source": "https://www.jonpeddie.com/news/first-made-in-usa-blackwell-rolls-out/" },
         { "text": "128 GB LPDDR5X memory per Thor module comes from Korean memory makers", "source": "https://videocardz.com/newz/nvidia-jetson-thor-with-blackwell-gpu-architecture-launched-costs-3499" },
@@ -852,7 +852,7 @@
       "country": "USA",
       "hq": "Santa Clara, CA",
       "categories": ["compute"],
-      "role": "Jetson AGX Thor (Blackwell, 2,070 FP4 TFLOPS, 128 GB) — the de facto humanoid compute standard; Isaac GR00T robot foundation models",
+      "role": "Jetson AGX Thor (Blackwell, 2,070 FP4 TFLOPS, 128 GB), used by Agility, Boston Dynamics and Figure; Isaac GR00T robot foundation models",
       "sites": [
         { "location": "Taiwan (TSMC 4N/4NP)", "detail": "Thor silicon fabrication (fabless)", "capacity": null },
         { "location": "Phoenix, AZ (TSMC Fab 21)", "detail": "First U.S.-made Blackwell wafer, Oct 2025", "capacity": null }
@@ -1521,7 +1521,7 @@
     { "label": "2025 robotics VC", "value": "~$14B per Crunchbase (vs $8.2B in 2024); broader trackers report $35–40B including megadeals", "source": "https://news.crunchbase.com/robotics/ai-funding-high-figure-raise-data/" },
     { "label": "2026 YTD robotics VC", "value": "$23B+ globally by mid-2026, nearly matching all of 2025; Q1 humanoid equity funding $2.37B (+288% YoY)", "source": "https://www.briefs.co/news/robotics-startups-raised-23-billion-in-2026-closing-in-on-all-of-2025/" },
     { "label": "DFARS magnet deadline", "value": "January 2027 deadline for non-China magnet sourcing in defense systems", "source": "https://www.clarkhill.com/news-events/news/china-hits-pause-on-rare-earth-export-controls-and-what-it-means-for-supply-chains/" },
-    { "label": "China humanoid exports, Jan-Sep 2026", "value": "$207M of humanoids and robot dogs, 16,559 units to 108 markets per Chinese customs data as reported (South Korea third, $20M); the customs table itself was not read", "source": "https://the-gadgeteer.com/?p=540725" },
+    { "label": "China humanoid exports, Jan-Sep 2026", "value": "$207M of humanoids and robot dogs, 16,559 units to 108 markets, per Chinese customs data as reported by The Gadgeteer (South Korea third, $20M)", "source": "https://the-gadgeteer.com/?p=540725" },
     { "label": "China rare-earth control suspension", "value": "China's Oct 2025 export-control expansion is suspended until Jan 10, 2027. The Commerce Ministry formalized the two-month extension on 2026-11-09, a day before the pause was due to lapse; the 24% extra tariff on U.S. goods stays suspended to the same date (agreed in principle 2026-09-24)", "source": "https://www.streetinsider.com/Reuters/China+extends+suspension+of+new+rare+earth+controls+until+January/27309954.html" }
   ]
 }

@@ -757,7 +757,7 @@
 
   function renderChinaScoreline(uc) {
     const t = chinaTally(uc);
-    return `<span>Across <strong>${t.total} metrics</strong>:</span>` +
+    return `<span>Editorial edge calls across <strong>${t.total} metrics</strong>:</span>` +
       `<span><strong>${t.china}</strong> favor China</span>` +
       `<span><strong>${t.us}</strong> favor the US</span>` +
       `<span><strong>${t.even}</strong> contested</span>`;
@@ -1611,7 +1611,7 @@
         <div><dt><span class="pill outline rd-flag">Snippet-only</span></dt><dd>${escapeHTML(m.snippet_only)}</dd></div>
         <div><dt>As of</dt><dd>${escapeHTML(m.as_of)}</dd></div>
       </dl>
-      <p class="muted">Entries come from a research sweep read on ${escapeHTML(formatDate(rd.updated))}. Missing values show as "Not disclosed". Country columns describe where a lab or company is based; they are not a score.</p>`;
+      <p class="muted">Entries were captured on ${escapeHTML(formatDate(rd.updated))}. Missing values show as "Not disclosed". Country columns describe where a lab or company is based; they are not a score.</p>`;
   }
 
   // ---------- Boot sequence ----------

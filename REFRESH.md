@@ -24,7 +24,7 @@ Each run:
 ## Key facts (stable reference)
 
 ```
-Project root:   /Users/pranava/Projects/Robotics Leadership/
+Project root:   <repo root>/
                 (work happens in the active git worktree under .claude/worktrees/<name>/)
 Repo:           roboticsleadership   |   Stack: vanilla JS, no build, no runtime deps
 Data dir:       docs/data/

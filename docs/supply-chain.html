@@ -4,12 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="color-scheme" content="light dark" />
-  <meta name="description" content="Comprehensive review of the robotics supply chain — materials, components, compute, assembly. Categories, sites, capacity, financing, and the full stakeholder map." />
+  <meta name="description" content="The robotics supply chain from materials and components to compute and assembly, with categories, sites, capacity, financing and stakeholders." />
   <link rel="canonical" href="https://pranava0x0.github.io/roboticsleadership/supply-chain.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Robotics Leadership Tracker" />
   <meta property="og:title" content="Supply Chain — Robotics Tracker" />
-  <meta property="og:description" content="Comprehensive review of the robotics supply chain — materials, components, compute, assembly. Categories, sites, capacity, financing, and the full stakeholder map." />
+  <meta property="og:description" content="The robotics supply chain from materials and components to compute and assembly, with categories, sites, capacity, financing and stakeholders." />
   <meta property="og:url" content="https://pranava0x0.github.io/roboticsleadership/supply-chain.html" />
   <meta property="og:image" content="https://pranava0x0.github.io/roboticsleadership/assets/share-card.png" />
   <meta property="og:image:width" content="1200" />
@@ -70,7 +70,7 @@
     .share-bar { display: flex; height: 18px; border-radius: 4px; overflow: hidden; background: var(--surface-2); }
     .share-bar .seg { height: 100%; min-width: 0; }
     .seg.us { background: var(--cat-supplychain); }
-    .seg.cn { background: var(--status-negative); opacity: 0.75; }
+    .seg.cn { background: var(--status-negative); }
     .seg.row { background: var(--status-neutral); opacity: 0.5; }
     .share-pct { font-size: 11px; color: var(--text-faint); margin-top: 2px; }
     @media (max-width: 640px) { .share-row { grid-template-columns: 1fr; gap: 3px; } }
@@ -95,7 +95,7 @@
     .site-line { display: block; }
   </style>
   <!--jsonld:start-->
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://pranava0x0.github.io/roboticsleadership/#website","name":"Robotics Leadership Tracker","url":"https://pranava0x0.github.io/roboticsleadership/","inLanguage":"en","creator":{"@type":"Person","name":"Pranava Raparla","url":"https://pranavaraparla.com"}},{"@type":"WebPage","@id":"https://pranava0x0.github.io/roboticsleadership/supply-chain.html#webpage","name":"Supply Chain — Robotics Tracker","description":"Comprehensive review of the robotics supply chain — materials, components, compute, assembly. Categories, sites, capacity, financing, and the full stakeholder map.","url":"https://pranava0x0.github.io/roboticsleadership/supply-chain.html","inLanguage":"en","isPartOf":{"@id":"https://pranava0x0.github.io/roboticsleadership/#website"},"mainEntity":{"@id":"https://pranava0x0.github.io/roboticsleadership/supply-chain.html#dataset"}},{"@type":"Dataset","@id":"https://pranava0x0.github.io/roboticsleadership/supply-chain.html#dataset","name":"Robotics supply chain","description":"Robotics supply-chain categories with US, China and rest-of-world shares, chokepoints, companies, stakeholders and annual industrial-robot installations through 2025.","url":"https://pranava0x0.github.io/roboticsleadership/supply-chain.html","isAccessibleForFree":true,"creator":{"@type":"Person","name":"Pranava Raparla","url":"https://pranavaraparla.com"},"isPartOf":{"@id":"https://pranava0x0.github.io/roboticsleadership/#website"},"distribution":{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://pranava0x0.github.io/roboticsleadership/data/supply_chain.json"}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://pranava0x0.github.io/roboticsleadership/#website","name":"Robotics Leadership Tracker","url":"https://pranava0x0.github.io/roboticsleadership/","inLanguage":"en","creator":{"@type":"Person","name":"Pranava Raparla","url":"https://pranavaraparla.com"}},{"@type":"WebPage","@id":"https://pranava0x0.github.io/roboticsleadership/supply-chain.html#webpage","name":"Supply Chain — Robotics Tracker","description":"The robotics supply chain from materials and components to compute and assembly, with categories, sites, capacity, financing and stakeholders.","url":"https://pranava0x0.github.io/roboticsleadership/supply-chain.html","inLanguage":"en","isPartOf":{"@id":"https://pranava0x0.github.io/roboticsleadership/#website"},"mainEntity":{"@id":"https://pranava0x0.github.io/roboticsleadership/supply-chain.html#dataset"}},{"@type":"Dataset","@id":"https://pranava0x0.github.io/roboticsleadership/supply-chain.html#dataset","name":"Robotics supply chain","description":"Robotics supply-chain categories with US, China and rest-of-world shares, chokepoints, companies, stakeholders and annual industrial-robot installations through 2025.","url":"https://pranava0x0.github.io/roboticsleadership/supply-chain.html","isAccessibleForFree":true,"creator":{"@type":"Person","name":"Pranava Raparla","url":"https://pranavaraparla.com"},"isPartOf":{"@id":"https://pranava0x0.github.io/roboticsleadership/#website"},"distribution":{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://pranava0x0.github.io/roboticsleadership/data/supply_chain.json"}}]}</script>
   <!--jsonld:end-->
 </head>
 <body>
@@ -147,11 +147,11 @@
     <h2 class="section-title">From mine to finished robot</h2>
     <div class="chart" id="chain-map">
       <h3>Where the U.S. stands at each stage</h3>
-      <p class="chart-sub">Each stage from mine to deployed robot, colored by U.S. position.</p>
+      <p class="chart-sub">Each stage from mine to deployed robot. Colors are this site's editorial reading of the U.S. position in the cited sources.</p>
       <div class="chain-flow" id="chain-flow" role="list" aria-label="Supply chain stages with US position"></div>
       <div class="chain-legend">
         <span><span class="dot pos-strong"></span>Strong — U.S. leads or is competitive</span>
-        <span><span class="dot pos-contested"></span>Contested — capacity building, gap closing</span>
+        <span><span class="dot pos-contested"></span>Contested — capacity building</span>
         <span><span class="dot pos-weak"></span>Weak — dependent on imports</span>
       </div>
     </div>
@@ -194,7 +194,7 @@
       <div id="share-rows"></div>
       <div class="chain-legend">
         <span><span class="dot" style="background:var(--cat-supplychain)"></span>United States</span>
-        <span><span class="dot" style="background:var(--status-negative);opacity:.75"></span>China</span>
+        <span><span class="dot" style="background:var(--status-negative)"></span>China</span>
         <span><span class="dot" style="background:var(--status-neutral);opacity:.5"></span>Rest of world</span>
       </div>
       <p class="chart-source">Shares are best-available estimates; each category below cites its sources.</p>
@@ -223,7 +223,7 @@
     <!-- Stakeholder map -->
     <details class="collapsible-section" id="sec-stakeholders">
       <summary>
-        <h2 class="section-title">Full stakeholder map</h2>
+        <h2 class="section-title">Stakeholders</h2>
         <p class="muted" style="font-size:13px;margin:-4px 0 10px;">Funders, regulators and buyers.</p>
       </summary>
       <div id="stakeholder-grid" class="stakeholder-grid"></div>
@@ -434,7 +434,7 @@
 
     function categoryBlock(c, companies) {
       const cos = companies.filter(co => (co.categories || []).includes(c.id));
-      const usFirst = [...cos].sort((a, b) => (a.country === 'USA' ? -1 : 1) - (b.country === 'USA' ? -1 : 1));
+      const byName = [...cos].sort((a, b) => a.name.localeCompare(b.name));
       return `
       <div class="cat-block" id="cat-${RT.slug(c.id)}">
         <h3 style="margin:18px 0 0;font-size:17px;">${RT.escapeHTML(c.name)}</h3>
@@ -450,7 +450,7 @@
             <th>Company</th><th>Role</th><th class="hide-mobile">Sites</th><th class="hide-mobile">Capacity</th><th>Financing</th>
           </tr></thead>
           <tbody>
-            ${usFirst.map(co => companyRow(co)).join('')}
+            ${byName.map(co => companyRow(co)).join('')}
           </tbody>
         </table></div>` : ''}
         <p class="cat-src">Sources: ${(c.sources || []).map((s, i) => {
@@ -475,7 +475,7 @@
         const url = typeof s === 'string' ? s : s.url;
         return `<a href="${RT.escapeHTML(url)}" target="_blank" rel="noopener" title="${RT.escapeHTML(hostname(url))}">↗</a>`;
       }).join(' ');
-      const flag = co.country === 'USA' ? '<span class="pill outline">US</span>' : `<span class="pill outline" style="opacity:.7">${RT.escapeHTML(co.country)}</span>`;
+      const flag = `<span class="pill outline">${co.country === 'USA' ? 'US' : RT.escapeHTML(co.country)}</span>`;
       return `<tr>
         <td><strong>${RT.escapeHTML(co.name)}</strong> ${flag}<span class="secondary-line">${RT.escapeHTML(co.hq || '')} ${srcs}</span></td>
         <td style="font-size:13px;">${RT.escapeHTML(co.role)}</td>

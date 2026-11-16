@@ -25,7 +25,7 @@ const CREATOR = { '@type': 'Person', name: 'Pranava Raparla', url: 'https://pran
 
 // page → dataset it renders. Descriptions follow llms.txt; keep them in step.
 const DATASETS = {
-  'china.html': ['us_china.json', 'US vs China robotics scoreboard', 'Metric-by-metric comparison of US and Chinese robotics (deployment, humanoids, supply chain, capital), each metric with an editorial edge call and cited sources.'],
+  'china.html': ['us_china.json', 'US vs China robotics comparison', 'Metric-by-metric comparison of US and Chinese robotics (deployment, humanoids, supply chain, capital), each metric with an editorial edge call and cited sources.'],
   'supply-chain.html': ['supply_chain.json', 'Robotics supply chain', 'Robotics supply-chain categories with US, China and rest-of-world shares, chokepoints, companies, stakeholders and annual industrial-robot installations through 2025.'],
   'companies.html': ['companies.json', 'Robotics companies', 'Robotics companies with funding rounds, deployments, valuations, headquarters, market category and cited sources.'],
   'policies.html': ['policies.json', 'Robotics policy records', 'Federal, state and city robotics policy records: bills, executive orders, regulations, incentive programs and procurement, each with status and sources.'],

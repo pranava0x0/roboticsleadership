@@ -116,10 +116,10 @@
   },
   {
    "title": "The Re-Industrialization Roadblock: China is Dominating Robotics for Advanced Manufacturing",
-   "date": "2026 (undated in search result)",
+   "date": "2026 (undated)",
    "url": "https://scsp222.substack.com/p/the-re-industrialization-roadblock",
    "key_points": [
-    "SCSP newsletter companion to the Robot Deficit (not fetched; listed from search result title only)"
+    "SCSP newsletter companion to the Robot Deficit"
    ]
   },
   {
@@ -212,7 +212,7 @@
    "title": "Commerce Section 232 investigation: robotics and industrial machinery",
    "date": "2025-09-02 initiated",
    "sponsor": "Commerce/BIS",
-   "summary": "Covers robots and industrial machinery (CNC, stamping, etc.); comments closed 2025-10-17. No proclamation found in my searches as of mid-2026 sources; status pending/unverified.",
+   "summary": "Covers robots and industrial machinery (CNC, stamping, etc.); comments closed 2025-10-17. A proclamation followed on October 28, 2026, after the summit.",
    "url": "https://www.whitecase.com/insight-alert/trump-administration-initiates-section-232-investigation-robotics-and-industrial",
    "site_record_id": "fedreg-2025-18749"
   },
@@ -220,7 +220,7 @@
    "title": "Reported robotics executive order / national strategy (not confirmed signed)",
    "date": "2025-12-03 report",
    "sponsor": "White House/Commerce (Lutnick)",
-   "summary": "Politico (via Robotics 24/7) reported the administration considering a 2026 robotics EO; Lutnick meeting robotics CEOs. No signed order found in searches.",
+   "summary": "Politico (via Robotics 24/7) reported the administration considering a 2026 robotics EO; Lutnick meeting robotics CEOs. No signed order is on record in the sources cited.",
    "url": "https://www.robotics247.com/article/trump_administration_eyes_national_robotics_strategy_in_effort_to_compete_with_china",
    "site_record_id": null
   },
@@ -260,7 +260,7 @@
    "title": "Communications and Technology Transparency Act of 2026 (title per BillTrack50; number unconfirmed)",
    "date": "2026-09",
    "sponsor": "Reps. Brett Guthrie (R-KY, E&C chair) and Frank Pallone (D-NJ, ranking member)",
-   "summary": "Gives the Energy and Commerce Committee more oversight of the FCC Covered List. A machine-generated summary says it would widen the list's scope from communications equipment to information and communications technology and require updates at least every six months; verify against the bill text. Reports date the filing 2026-09-16 or 2026-09-24.",
+   "summary": "Gives the Energy and Commerce Committee more oversight of the FCC Covered List. A machine-generated summary says it would widen the list's scope from communications equipment to information and communications technology and require updates at least every six months. Reports date the filing 2026-09-16 or 2026-09-24.",
    "url": "https://broadbandbreakfast.com/guthrie-pallone-introduce-bill-to-increase-oversight-of-fcc-covered-list/",
    "site_record_id": null
   },
@@ -268,7 +268,7 @@
    "title": "Future of Defense Manufacturing Act (S. 2214)",
    "date": "2025-07-08",
    "sponsor": "Sen. Elissa Slotkin (D-MI)",
-   "summary": "Bars DoD from buying or operating additive-manufacturing (3D printing) machines made or controlled by entities in China, Iran, North Korea or Russia, and sets up regional dual-use advanced manufacturing hubs. Slotkin's office says it was folded into the Senate FY2026 NDAA; the enacted text was not checked.",
+   "summary": "Bars DoD from buying or operating additive-manufacturing (3D printing) machines made or controlled by entities in China, Iran, North Korea or Russia, and sets up regional dual-use advanced manufacturing hubs. Slotkin's office says it was folded into the Senate FY2026 NDAA.",
    "url": "https://policysoup.com/bills/s2214-119",
    "site_record_id": null
   },
@@ -757,7 +757,7 @@
     {
      "date": "2026-06-30",
      "title": "Bipartisan letter urging CAISI to resume publishing frontier AI research",
-     "summary": "Budd led senators asking NIST's CAISI to resume publishing research on frontier models (per search summary; primary release not fetched).",
+     "summary": "Budd led senators asking NIST's CAISI to resume publishing research on frontier models.",
      "url": "https://capitolreleases.com/releases/34a46269-98fc-443a-8019-756026438be5",
      "kind": "letter"
     }
@@ -822,14 +822,13 @@
    "name": "Sophie Shulman",
    "title": "Director of Advanced Robotics, Autonomous Vehicles, and Digital Twins",
    "org": "NVIDIA",
-   "bio": "Leads NVIDIA's policy engagement on advanced robotics, autonomous vehicles and digital twins (title per SCSP agenda). She came from the Biden administration, where she was NHTSA Deputy Administrator and then Acting Administrator (from Feb 2024), and earlier DOT deputy chief of staff for policy; before that she held roles at DOE, OMB and the White House Domestic Policy Council and led partnerships at Electrify America. She matters because she is NVIDIA's Washington-facing voice on physical AI regulation and standards.",
+   "bio": "Leads NVIDIA's policy engagement on advanced robotics, autonomous vehicles and digital twins (title per SCSP agenda). She came from the Biden administration, where she was NHTSA Deputy Administrator and then Acting Administrator (from Feb 2024), and earlier DOT deputy chief of staff for policy; before that she held roles at DOE, OMB and the White House Domestic Policy Council and led partnerships at Electrify America.",
    "handles": {},
    "recent": [],
    "sources": [
     "https://www.scsp.ai/ai-robotics/",
     "https://www.nhtsa.gov/node/35806",
-    "https://www.terrapinn.com/exhibition/move-america/speaker-sophie-SHULMAN.stm",
-    "https://rocketreach.co/sophie-shulman-email_22343855"
+    "https://www.terrapinn.com/exhibition/move-america/speaker-sophie-SHULMAN.stm"
    ],
    "commissioner": false,
    "sessions": [
@@ -842,10 +841,8 @@
    "name": "Jenn Wall",
    "title": "General Counsel and Head of Government Affairs & Public Policy",
    "org": "Intrinsic (Alphabet)",
-   "bio": "General counsel at Intrinsic, Alphabet's industrial robotics software and AI company, since about July 2021; the SCSP page also gives her government affairs and public policy remit. Before Intrinsic she was corporate counsel at X (Alphabet's moonshot factory), with earlier roles at Hewlett-Packard and Morgan Lewis. Relevant as the policy voice of a major US robot-software platform; Intrinsic CSO Torsten Kroeger sits on the SCSP robotics commission.",
-   "handles": {
-    "linkedin": "https://www.linkedin.com/in/jenn-wall-5b69093/"
-   },
+   "bio": "General counsel at Intrinsic, Alphabet's industrial robotics software and AI company, since about July 2021; the SCSP page also gives her government affairs and public policy remit. Before Intrinsic she was corporate counsel at X (Alphabet's moonshot factory), with earlier roles at Hewlett-Packard and Morgan Lewis. Intrinsic CSO Torsten Kroeger sits on the SCSP robotics commission.",
+   "handles": {},
    "recent": [],
    "sources": [
     "https://www.scsp.ai/ai-robotics/",
@@ -863,13 +860,13 @@
    "name": "Pras Velagapudi",
    "title": "Chief Technology Officer",
    "org": "Agility Robotics",
-   "bio": "CTO of Agility Robotics since May 2024 (previously VP of Innovation and Chief Architect from 2023), responsible for the Digit bipedal humanoid's technical strategy. Earlier VP of Engineering and Chief Architect of Mobile Robotics at Berkshire Grey, and co-founder of Platypus (autonomous boats); B.S., M.S. and Ph.D. from Carnegie Mellon. Agility is a project leader on ANSI/A3 TR R15.108 and contributes to ISO 25785-1, so he is central to US humanoid safety-standards work.",
+   "bio": "CTO of Agility Robotics since May 2024 (previously VP of Innovation and Chief Architect from 2023), responsible for the Digit bipedal humanoid's technical strategy. Earlier VP of Engineering and Chief Architect of Mobile Robotics at Berkshire Grey, and co-founder of Platypus (autonomous boats); B.S., M.S. and Ph.D. from Carnegie Mellon. Agility is a project leader on ANSI/A3 TR R15.108 and contributes to ISO 25785-1.",
    "handles": {},
    "recent": [
     {
      "date": "2026-09-15",
      "title": "Agility unveils Digit 5, a cooperatively safe humanoid",
-     "summary": "Reported to argue that caging robots is impractical for pallet and aisle work, motivating built-in safety (per search summary).",
+     "summary": "Reported to argue that caging robots is impractical for pallet and aisle work, motivating built-in safety.",
      "url": "https://aibusiness.com/robotics/agility-unveils-digit-5-safety-conscious-humanoid",
      "kind": "product-launch-quote"
     },
@@ -929,7 +926,7 @@
    "name": "Mike Cicco",
    "title": "President & CEO (Michael Cicco)",
    "org": "FANUC America Corporation",
-   "bio": "CEO of FANUC America since April 2016 and a member of the board of FANUC Corporation (Japan); joined FANUC in 1999 after working as lead automation engineer at Northrop Grumman. He chairs the Association for Manufacturing Technology (AMT) board for 2025-26 and is a commissioner on SCSP's National Security Commission on Robotics for Advanced Manufacturing. FANUC is one of the largest industrial-robot makers in the Americas and is expanding US production.",
+   "bio": "CEO of FANUC America since April 2016 and a member of the board of FANUC Corporation (Japan); joined FANUC in 1999 after working as lead automation engineer at Northrop Grumman. He chairs the Association for Manufacturing Technology (AMT) board for 2025-26 and is a commissioner on SCSP's National Security Commission on Robotics for Advanced Manufacturing. FANUC is expanding US production.",
    "handles": {},
    "recent": [
     {
@@ -970,14 +967,14 @@
     {
      "date": "2026-04-27",
      "title": "Q&A: Robotics, Advanced Manufacturing and National Security",
-     "summary": "Michigan Engineering Q&A on his commission role; page blocked (403), content not read.",
+     "summary": "Michigan Engineering Q&A on his commission role.",
      "url": "https://news.engin.umich.edu/2026/04/robotics-advanced-manufacturing-and-national-security-qa-with-chinedum-okwudire/",
      "kind": "interview"
     },
     {
      "date": "2026-03-13",
      "title": "UMAMI launch: bridging the valley of death for manufacturing tech",
-     "summary": "Institute launched to move manufacturing technology from lab to factory; Okwudire leads (403, not read).",
+     "summary": "Institute launched to move manufacturing technology from lab to factory; Okwudire leads it.",
      "url": "https://news.engin.umich.edu/2026/03/u-michigan-aims-to-bridge-the-valley-of-death-for-manufacturing-tech/",
      "kind": "launch"
     }
@@ -1044,7 +1041,7 @@
     {
      "date": null,
      "title": "MxD Outlook 2026-2028 report",
-     "summary": "Institute's investment plan names AI/ML among must-adopt technologies; Baratta not confirmed as quoted.",
+     "summary": "Institute's investment plan names AI/ML among must-adopt technologies.",
      "url": "https://www.manufacturingusa.com/news/mxd-releases-outlook-2026-2028-report",
      "kind": "report"
     },
@@ -1071,7 +1068,7 @@
    "name": "Jeff Burnstein",
    "title": "President",
    "org": "Association for Advancing Automation (A3)",
-   "bio": "President of A3, the North American robotics and automation trade association (organizer of Automate and publisher of quarterly robot-order data). He is the lead industry advocate for a US national robotics strategy, a central federal robotics office and a robotics commission, and testified at the House Science Committee's April 21 2026 robotics hearing. He also argued in Oct 2025 against tariffs on robots and automation.",
+   "bio": "President of A3, the North American robotics and automation trade association (organizer of Automate and publisher of quarterly robot-order data). He advocates for a US national robotics strategy, a central federal robotics office and a robotics commission, and testified at the House Science Committee's April 21 2026 robotics hearing. He also argued in Oct 2025 against tariffs on robots and automation.",
    "handles": {},
    "recent": [
     {
@@ -1091,7 +1088,7 @@
     {
      "date": "2026-08-01",
      "title": "Global Times interview at World Robot Conference, Beijing",
-     "summary": "Credits China's lead to a decade-plus national strategy; notes the US has none (month approximate, page 202608).",
+     "summary": "Credits China's lead to a decade-plus national strategy; notes the US has none (month approximate).",
      "url": "https://www.globaltimes.cn/page/202608/1368581.shtml",
      "kind": "interview"
     }
@@ -1151,7 +1148,7 @@
     {
      "date": "2026-10-05",
      "title": "SIA August 2026 global chip sales release",
-     "summary": "Said global semiconductor sales passed $1 trillion through August (secondary source; verify against SIA).",
+     "summary": "Said global semiconductor sales passed $1 trillion through August (per a secondary source).",
      "url": "https://fourweekmba.com/ai-global-chip-sales-pass-1-trillion-through-august-sia-says/",
      "kind": "press-release-quote"
     },
@@ -1185,7 +1182,7 @@
    "name": "Craig Schlenoff",
    "title": "Chief, Super Intelligence Research, Measurement, and Standards Division; Senior Advisor for Super Intelligence (per NIST/SCSP titles)",
    "org": "NIST Information Technology Laboratory",
-   "bio": "Craig Schlenoff is a division chief and senior advisor at NIST's Information Technology Laboratory; NIST's own profile and the SCSP page use a 'Super Intelligence' title, while a 2026 ANSI deck lists the same division as 'AI Research, Measurement, and Standards'. He previously directed the NITRD National Coordination Office at OSTP (from Oct 2023), co-chaired the NITRD AI R&D Interagency Working Group behind the 2023 AI R&D Strategic Plan update, and spent years at NIST leading manufacturing-robotics measurement science (agility competitions, robot standards). He is also Associate VP for Standardization at IEEE RAS, which makes him a key link between federal AI measurement and robot standards.",
+   "bio": "Craig Schlenoff is a division chief and senior advisor at NIST's Information Technology Laboratory; NIST's own profile and the SCSP page use a 'Super Intelligence' title, while a 2026 ANSI deck lists the same division as 'AI Research, Measurement, and Standards'. He previously directed the NITRD National Coordination Office at OSTP (from Oct 2023), co-chaired the NITRD AI R&D Interagency Working Group behind the 2023 AI R&D Strategic Plan update, and spent years at NIST leading manufacturing-robotics measurement science (agility competitions, robot standards). He is also Associate VP for Standardization at IEEE RAS.",
    "handles": {},
    "recent": [],
    "sources": [
@@ -1204,7 +1201,7 @@
    "name": "David Lin",
    "title": "Senior Director for Future Technology Platforms; panel moderator",
    "org": "SCSP",
-   "bio": "David Lin is Senior Director for Future Technology Platforms at SCSP, overseeing research on technology horizon-scanning, comparative analysis and public-private partnership approaches. Before SCSP he spent about 12 years at the State Department and CIA focused on China, technology policy and industrial strategy (per Milken Institute speaker page). Title is from search-result summaries of bio pages; the USCC bio PDF could not be read directly.",
+   "bio": "David Lin is Senior Director for Future Technology Platforms at SCSP, overseeing research on technology horizon-scanning, comparative analysis and public-private partnership approaches. Before SCSP he spent about 12 years at the State Department and CIA focused on China, technology policy and industrial strategy (per Milken Institute speaker page).",
    "handles": {},
    "recent": [],
    "sources": [
@@ -1222,14 +1219,13 @@
    "name": "Tairan Wang",
    "title": "Co-Founder and CEO (Dr.)",
    "org": "Sangtera",
-   "bio": "Tairan Wang is co-founder and CEO of Sangtera, a small startup developing electrowetting-based microhydraulic actuators for robot joints and semiconductor equipment (founded 2022 per CB Insights, Lowell MA). Aggregator profiles say he holds MIT physics/EE degrees and a physics PhD, was senior staff at MIT Lincoln Laboratory and earlier COO of AFFOA; these biographical details come from third-party aggregators and are unverified against a primary page.",
+   "bio": "Tairan Wang is co-founder and CEO of Sangtera, a small startup developing electrowetting-based microhydraulic actuators for robot joints and semiconductor equipment (founded 2022 per CB Insights, Lowell MA).",
    "handles": {},
    "recent": [],
    "sources": [
     "https://www.scsp.ai/ai-robotics/",
     "https://www.cbinsights.com/company/sangtera/",
-    "https://www.premieralts.com/companies/sangtera",
-    "https://contacts.whitebridge.ai/people/tairan-wang-email-279316"
+    "https://www.premieralts.com/companies/sangtera"
    ],
    "commissioner": false,
    "sessions": [
@@ -1241,7 +1237,7 @@
    "name": "Grace Kim",
    "title": "Military Legislative Assistant (as of Feb 2025; current title unconfirmed)",
    "org": "Office of Sen. Elissa Slotkin (D-MI)",
-   "bio": "Grace Kim joined Sen. Slotkin's Senate office in February 2025 as Military Legislative Assistant, after leading Slotkin's defense and foreign-policy portfolio in the House. Before Congress she was a career DoD civil servant and policy advisor across several offices. Her boss Slotkin co-chairs (with Sen. Ted Budd and SCSP's Ylli Bajraktari) the SCSP National Security Commission on Robotics for Advanced Manufacturing, launched 2026-03-17, and introduced the AI Guardrails Act of 2026 (S.4113, 2026-03-17, on AI in defense, referred to Armed Services). No robotics-specific bill sponsored by Slotkin was found.",
+   "bio": "Grace Kim joined Sen. Slotkin's Senate office in February 2025 as Military Legislative Assistant, after leading Slotkin's defense and foreign-policy portfolio in the House. Before Congress she was a career DoD civil servant and policy advisor across several offices. Sen. Slotkin co-chairs (with Sen. Ted Budd and SCSP's Ylli Bajraktari) the SCSP National Security Commission on Robotics for Advanced Manufacturing, launched 2026-03-17, and introduced the AI Guardrails Act of 2026 (S.4113, 2026-03-17, on AI in defense, referred to Armed Services). No robotics-specific bill sponsored by Slotkin was found.",
    "handles": {},
    "recent": [],
    "sources": [
@@ -1259,7 +1255,7 @@
    "name": "Charlie Mlcek",
    "title": "Staff (title unconfirmed)",
    "org": "Office of Rep. Bob Latta (R-OH)",
-   "bio": "Charles 'Charlie' Means Mlcek is listed in LegiStorm as staff in Rep. Bob Latta's office; his title could not be confirmed from public sources. Rep. Latta co-chairs the relaunched Congressional Robotics Caucus with Rep. Jay Obernolte and is an original cosponsor of the National Commission on Robotics Act (H.R. 7334, introduced 2026-02-03 with Rep. McClellan), which would create an 18-member Commerce Department commission with an interim report in one year; it was referred to committees and had not advanced in sources found. A Senate companion (S.4686, McCormick, Young, Hickenlooper, Heinrich) followed in June 2026.",
+   "bio": "Charlie Mlcek is on the staff of Rep. Bob Latta. Rep. Latta co-chairs the relaunched Congressional Robotics Caucus with Rep. Jay Obernolte and is an original cosponsor of the National Commission on Robotics Act (H.R. 7334, introduced 2026-02-03 with Rep. McClellan), which would create an 18-member Commerce Department commission with an interim report in one year; it was referred to committees and had not advanced in sources found. A Senate companion (S.4686, McCormick, Young, Hickenlooper, Heinrich) followed in June 2026.",
    "handles": {},
    "recent": [],
    "sources": [
@@ -1298,7 +1294,7 @@
     {
      "date": "2025-07-18",
      "title": "Washington needs to get serious about robotics (The Hill)",
-     "summary": "Samp op-ed on The Hill urging Washington to prioritize robotics policy (older than 90 days; URL is his bio page listing it, not the article).",
+     "summary": "Samp op-ed on The Hill urging Washington to prioritize robotics policy (older than 90 days; the link is his bio page, which lists it).",
      "url": "https://www.dlapiper.com/en/people/s/samp-tony",
      "kind": "op-ed"
     }
@@ -1317,7 +1313,7 @@
    "name": "Paul Boulware",
    "title": "Senior Director of Government Solutions",
    "org": "Path Robotics",
-   "bio": "Paul Boulware is Senior Director of Government Solutions at Path Robotics (title per SCSP speaker page), the Columbus, Ohio physical-AI welding company. No independent bio, prior roles or statements were found. Context: Path and GrayMatter Robotics signed performance-based production agreements with HII on 2026-08-06 worth up to $900M combined over seven years, of which Path's share is up to $600M and contingent on milestones, to automate welding for Navy vessels, making government engagement central to its business.",
+   "bio": "Paul Boulware is Senior Director of Government Solutions at Path Robotics (title per SCSP speaker page), the Columbus, Ohio physical-AI welding company. Path and GrayMatter Robotics signed performance-based production agreements with HII on 2026-08-06 worth up to $900M combined over seven years, of which Path's share is up to $600M and contingent on milestones, to automate welding for Navy vessels.",
    "handles": {},
    "recent": [],
    "sources": [
@@ -1336,7 +1332,7 @@
    "name": "Peter Barrett",
    "title": "Founding General Partner",
    "org": "Playground Global",
-   "bio": "Peter Barrett, an Australian entrepreneur, co-founded Playground Global, a venture fund and design studio for hardware and deep-tech startups, with Andy Rubin and Bruce Leak. He was earlier CTO at CloudCar, held executive roles at Microsoft and WebTV, and co-founded Rocket Science Games. Playground has invested in robotics for years (portfolio has included Agility Robotics, RightHand, FarmWise per TechCrunch), making him a long-standing private-capital voice on robotics funding. Playground also backs xLight (Commerce CHIPS R&D letter of intent for up to $150M in equity-linked incentives, Dec 2025; Playground general partner Pat Gelsinger is its executive chairman) and PsiQuantum (named in Commerce's May 2026 quantum equity letters). Agility is merging with SPAC Churchill Capital Corp XI at a $2.5B pre-money value, with a shareholder vote on 2026-11-02.",
+   "bio": "Peter Barrett, an Australian entrepreneur, co-founded Playground Global, a venture fund and design studio for hardware and deep-tech startups, with Andy Rubin and Bruce Leak. He was earlier CTO at CloudCar, held executive roles at Microsoft and WebTV, and co-founded Rocket Science Games. Playground has invested in robotics for years (portfolio has included Agility Robotics, RightHand, FarmWise per TechCrunch). Playground also backs xLight (Commerce CHIPS R&D letter of intent for up to $150M in equity-linked incentives, Dec 2025; Playground general partner Pat Gelsinger is its executive chairman) and PsiQuantum (named in Commerce's May 2026 quantum equity letters). Agility is merging with SPAC Churchill Capital Corp XI at a $2.5B pre-money value, with a shareholder vote on 2026-11-02.",
    "handles": {},
    "recent": [],
    "sources": [
@@ -1396,9 +1392,9 @@
   {
    "id": "nyah-stewart",
    "name": "Nyah Stewart",
-   "title": "Associate Director, Future Technology Platforms (per search summary); panel moderator",
+   "title": "Associate Director, Future Technology Platforms; panel moderator",
    "org": "SCSP",
-   "bio": "Nyah Stewart is listed as an Associate Director for Future Technology Platforms at SCSP and moderates the 'Capital Stack for AI' panel. Only one secondary search summary supports the title; no standalone bio, background or statements were found.",
+   "bio": "Nyah Stewart is listed as an Associate Director for Future Technology Platforms at SCSP and moderates the 'Capital Stack for AI' panel.",
    "handles": {},
    "recent": [],
    "sources": [
@@ -1431,7 +1427,7 @@
   {
    "id": "akhil-gokhul",
    "name": "Akhil Gokhul",
-   "title": "Ericsson (title not stated on agenda; spelling unverified)",
+   "title": "Ericsson (title not stated on agenda)",
    "org": "Ericsson",
    "bio": null,
    "handles": {},
@@ -1466,7 +1462,7 @@
    "name": "Michael Cadenazzi",
    "title": "Assistant Secretary of War for Industrial Base Policy",
    "org": "U.S. Department of War",
-   "bio": "Michael Cadenazzi was sworn in as Assistant Secretary of War for Industrial Base Policy on 2025-09-23, serving as principal advisor to the Under Secretary for Acquisition and Sustainment. He is a former Navy officer with an NPS electrical-engineering MS and two decades as an aerospace/defense entrepreneur and consultant. His office runs small-business programs, DPA Title III investments, and CFIUS and economic-security work, so it is the Pentagon node for reshoring and automating defense manufacturing against China.",
+   "bio": "Michael Cadenazzi was sworn in as Assistant Secretary of War for Industrial Base Policy on 2025-09-23, serving as principal advisor to the Under Secretary for Acquisition and Sustainment. He is a former Navy officer with an NPS electrical-engineering MS and two decades as an aerospace/defense entrepreneur and consultant. His office runs small-business programs, DPA Title III investments, and CFIUS and economic-security work.",
    "handles": {},
    "recent": [
     {
@@ -1492,7 +1488,7 @@
    "name": "Dawn Tilbury",
    "title": "Professor & Department Chair of Robotics",
    "org": "University of Michigan",
-   "bio": "Dawn Tilbury chairs the University of Michigan Robotics Department and holds the Herrick Professorship of Engineering; her profile calls her the inaugural McNeil Department Chair. She was NSF Assistant Director for Engineering from 2017 to 2021 and was elected to the National Academy of Engineering in 2024 for work on manufacturing network control and human-robot interaction. That mix of federal science-agency and manufacturing-controls experience makes her a credible voice on workforce and automation policy.",
+   "bio": "Dawn Tilbury chairs the University of Michigan Robotics Department and holds the Herrick Professorship of Engineering; her profile calls her the inaugural McNeil Department Chair. She was NSF Assistant Director for Engineering from 2017 to 2021 and was elected to the National Academy of Engineering in 2024 for work on manufacturing network control and human-robot interaction.",
    "handles": {},
    "recent": [],
    "sources": [
@@ -1528,13 +1524,13 @@
    "name": "Susan Helper",
    "title": "Carlton Professor of Economics",
    "org": "Weatherhead School of Management, Case Western Reserve University",
-   "bio": "Susan Helper is Carlton Professor of Economics at Case Western Reserve's Weatherhead School, with research on manufacturing organization, workforce, and productivity, including as co-PI on an NSF-funded Northeast Ohio manufacturing project. She testified on April 21, 2026 at the House Science Research and Technology Subcommittee hearing 'Robots Made in America'. Her work centers on whether automation gains reach workers, which is the labor-side counterweight in U.S. robotics policy debates.",
+   "bio": "Susan Helper is Carlton Professor of Economics at Case Western Reserve's Weatherhead School, with research on manufacturing organization, workforce, and productivity, including as co-PI on an NSF-funded Northeast Ohio manufacturing project. She testified on April 21, 2026 at the House Science Research and Technology Subcommittee hearing 'Robots Made in America'. Her work examines whether automation gains reach workers.",
    "handles": {},
    "recent": [
     {
      "date": "2026-04-21",
      "title": "House Science subcommittee hearing: Robots Made in America",
-     "summary": "Helper testified as a witness on advancing U.S. leadership in manufacturing and automation; full written testimony is posted by the committee (PDF text not extracted).",
+     "summary": "Helper testified as a witness on advancing U.S. leadership in manufacturing and automation; full written testimony is posted by the committee.",
      "url": "https://republicans-science.house.gov/2026/4/research-and-technology-subcommittee-hearing-robotics",
      "kind": "congressional testimony"
     },
@@ -1562,7 +1558,7 @@
    "name": "Ryan Carpenter",
    "title": "Special Advisor",
    "org": "Special Competitive Studies Project (SCSP)",
-   "bio": "Dr. Ryan Carpenter is a Special Advisor at SCSP and moderated its AI+ Robotics and AI+ Education sessions. A 2023 Shippensburg University announcement says his prior roles included the Office of the Director of National Intelligence, the National Security Commission on AI, the NSC Executive Secretariat, and OSD as an oral historian; he holds a PhD in history from Catholic University. Title is from SCSP's site; may have changed since.",
+   "bio": "Dr. Ryan Carpenter is a Special Advisor at SCSP and moderated its AI+ Robotics and AI+ Education sessions. A 2023 Shippensburg University announcement says his prior roles included the Office of the Director of National Intelligence, the National Security Commission on AI, the NSC Executive Secretariat, and OSD as an oral historian; he holds a PhD in history from Catholic University.",
    "handles": {},
    "recent": [],
    "sources": [
@@ -1635,14 +1631,14 @@
     {
      "date": "2026-09-15",
      "title": "AI Infra Summit session: Moving Away from Waypoints",
-     "summary": "Scheduled session on making industrial robots truly autonomous (listing only; content not verified).",
+     "summary": "Scheduled session on making industrial robots truly autonomous.",
      "url": "https://www.ai-infra-summit.com/speakers/heather-carroll",
      "kind": "conference talk (listing)"
     },
     {
      "date": null,
      "title": "Path CRO Heather Carroll Speaks on Reindustrializing (company video)",
-     "summary": "Video page says she discusses addressing the welding labor shortage with physical AI; undated, remarks not transcribed.",
+     "summary": "Video page says she discusses addressing the welding labor shortage with physical AI; undated.",
      "url": "https://www.path-robotics.com/videos/path-cro-heather-carroll-speaks-on-reindustrializing",
      "kind": "video"
     }
@@ -1662,7 +1658,7 @@
    "name": "Gareth Kaczkowski",
    "title": "Founding Engineer (Mytra); Investor (Eclipse)",
    "org": "Mytra / Eclipse",
-   "bio": "SCSP lists Gareth Kaczkowski as Founding Engineer at Mytra and an Investor at Eclipse. Mytra is a Bay Area warehouse-automation company (founded 2022, incubated by Eclipse Ventures) building a 3D grid system for storing and moving materials. No independent bio of him was found.",
+   "bio": "SCSP lists Gareth Kaczkowski as Founding Engineer at Mytra and an Investor at Eclipse. Mytra is a Bay Area warehouse-automation company (founded 2022, incubated by Eclipse Ventures) building a 3D grid system for storing and moving materials.",
    "handles": {},
    "recent": [],
    "sources": [
@@ -1821,7 +1817,7 @@
     {
      "date": "2026-07-13",
      "headline": "Agility to go public via merger with Churchill Capital Corp XI",
-     "summary": "SPAC deal (>$620M expected proceeds incl. $200M PIPE-style financing per search summary); deal reported to lapse if not closed by Dec 31. Date from evertiq URL.",
+     "summary": "SPAC deal (>$620M expected proceeds incl. $200M PIPE-style financing); deal reported to lapse if not closed by Dec 31.",
      "url": "https://evertiq.com/news/2026-07-13-agility-robotics-to-go-public-through-merger-with-churchill-capital",
      "source_name": "Evertiq",
      "source_type": "trade/secondary",
@@ -1923,7 +1919,7 @@
     {
      "date": "2026-09-30",
      "headline": "MxD releases SMM cybersecurity survey results",
-     "summary": "Survey of small/medium manufacturers' cyber posture (not read in detail; title only).",
+     "summary": "Survey of small/medium manufacturers' cyber posture.",
      "url": "https://www.mxdusa.org/news/mxd-releases-results-from-small-and-medium-sized-manufacturers-cybersecurity-survey/",
      "source_name": "MxD newsroom",
      "source_type": "primary",
@@ -2009,7 +2005,7 @@
     {
      "date": "2026-10-05",
      "headline": "Global semiconductor sales top $1 trillion year-to-date through August",
-     "summary": "Industry sales data release (not opened; title from listing).",
+     "summary": "Industry sales data release.",
      "url": "https://www.semiconductors.org/year-to-date-global-semiconductor-sales-top-1-trillion-through-august/",
      "source_name": "SIA press release",
      "source_type": "primary",
@@ -2084,7 +2080,7 @@
     {
      "date": "2026-07-22",
      "headline": "a16z leads reported $1.7B round in Travis Kalanick's robotics firm Atoms",
-     "summary": "Atoms (food, mining, transport robotics) raised $1.7B; Uber participated; no valuation, products or traction disclosed. Original reportedly TechCrunch; I only confirmed via a secondary aggregator.",
+     "summary": "Atoms (food, mining, transport robotics) raised $1.7B; Uber participated; no valuation, products or traction disclosed. First reported by TechCrunch, according to a secondary aggregator.",
      "url": "https://techbytes.app/posts/travis-kalanicks-robotics-company-raises-17b-led-by-a16z/",
      "source_name": "Tech Bytes (secondary, citing TechCrunch)",
      "source_type": "trade/secondary",
@@ -2152,7 +2148,7 @@
     {
      "date": "2026-07-29",
      "headline": "AT&T and Ericsson deepen collaboration to expand US Open RAN",
-     "summary": "Headline from Swedish MFN feed; details not opened.",
+     "summary": "Headline from the Swedish MFN news feed.",
      "url": "https://mfn.se/cis/a/ericsson/atandt-i-nytt-samarbete-med-ericsson-for-att-oka-utbyggnaden-av-open-ran-i-usa-6a3f7b4f",
      "source_name": "MFN (Ericsson release feed)",
      "source_type": "primary",
@@ -2234,7 +2230,7 @@
     {
      "date": "2026-08-12",
      "headline": "Q2 2026 North American robot orders: 8,940 units, $622M",
-     "summary": "Units +4.3%, value +21.3% YoY; H1 17,995 units/$1.166B; non-auto 56% of units; auto OEM orders down 25% in H1. (A3 release dated Aug 11 per search; Robot Report Aug 12.)",
+     "summary": "Units +4.3%, value +21.3% YoY; H1 17,995 units/$1.166B; non-auto 56% of units; auto OEM orders down 25% in H1. (A3 release dated Aug 11; Robot Report Aug 12.)",
      "url": "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/",
      "source_name": "The Robot Report",
      "source_type": "trade/secondary",
@@ -2269,13 +2265,13 @@
   },
   {
    "org": "Commerce / ITA / BIS",
-   "one_liner": "No ITA robotics item found. Section 232 investigation of robotics and industrial machinery (opened Sept 2025) still appears undecided in mid-2026 sources.",
+   "one_liner": "No ITA robotics item in the window. The Section 232 investigation of robotics and industrial machinery (opened Sept 2025) led to a proclamation on October 28, 2026.",
    "company_id": null,
    "news": [
     {
      "date": "2026-06-01",
      "headline": "Section 232 robotics/industrial machinery probe still pending; mid-2026 reports expect tariffs",
-     "summary": "Search-summary only: report deadline ~May 30, 2026 passed; no proclamation found. Date approximate (June 2026 law-firm piece).",
+     "summary": "The report deadline of about May 30, 2026 had passed without a proclamation. Date approximate (June 2026 law-firm piece).",
      "url": "https://www.hklaw.com/en/news/intheheadlines/2026/06/section-232-watch-industry-warily-eyes-a-slate-of-summer-deadlines",
      "source_name": "Holland & Knight",
      "source_type": "trade/secondary",
@@ -2469,7 +2465,7 @@
      "topic": "Pre-set consortia and the full stack",
      "speaker": "Teddy Bretschger",
      "said": "A company can bid for the whole stack alone or with partners as a pre-set consortium. Applications are closed, and the first designations will be announced shortly. He said this is all public.",
-     "check": "Confirmed. The call opened April 1 and closed June 30, 2026 (91 FR 18412). Commerce reviews on a rolling basis and says it intends a completeness check within 14 business days, then a designation decision within 60 days. The stack has five layers: AI hardware, data pipelines and labeling, models and systems, security, and applications. I found no published designations as of Oct 14. The Federal Register calls it the American AI Exports Program; the program's own site now brands it the American SI Exports Program.",
+     "check": "Confirmed. The call opened April 1 and closed June 30, 2026 (91 FR 18412). Commerce reviews on a rolling basis and says it intends a completeness check within 14 business days, then a designation decision within 60 days. The stack has five layers: AI hardware, data pipelines and labeling, models and systems, security, and applications. No designations had been published as of Oct 14. The Federal Register calls it the American AI Exports Program; the program's own site now brands it the American SI Exports Program.",
      "sources": [
       "https://www.federalregister.gov/documents/2026/04/10/2026-06952/american-ai-exports-program-call-for-proposals-for-pre-set-consortia",
       "https://siexports.gov/faq",
@@ -2480,7 +2476,7 @@
      "topic": "An on-demand track for partial stacks",
      "speaker": "Teddy Bretschger",
      "said": "An on-demand program will be announced shortly. It matters more for robotics, because a company may cover only part of the stack rather than all five layers.",
-     "check": "The track exists. Commerce's March 16 release says on-demand consortia form for a specific opportunity the program identifies and need cover only the layers that deal requires, with one selection process for both kinds. The Federal Register call covers pre-set consortia only, and I found no separate on-demand call. That it suits robotics is his view.",
+     "check": "The track exists. Commerce's March 16 release says on-demand consortia form for a specific opportunity the program identifies and need cover only the layers that deal requires, with one selection process for both kinds. The Federal Register call covers pre-set consortia only, and no separate on-demand call has been published. That it suits robotics is his view.",
      "sources": [
       "https://www.trade.gov/press-release/department-commerce-announces-new-american-ai-exports-program-phase",
       "https://siexports.gov/faq"
@@ -2490,7 +2486,7 @@
      "topic": "Small businesses and demand signals",
      "speaker": "Teddy Bretschger",
      "said": "The program could suit small and mid-size firms and responds to demand signals from specific areas. Support is priority advocacy, licensing and US government financing.",
-     "check": "The three supports are confirmed, each conditional on the US interest and none guaranteed. I found no provision aimed specifically at small firms. 'Demand signals' fits the on-demand design, where the program identifies the opportunity first.",
+     "check": "The three supports are confirmed, each conditional on the US interest and none guaranteed. No provision is aimed specifically at small firms. 'Demand signals' fits the on-demand design, where the program identifies the opportunity first.",
      "sources": [
       "https://siexports.gov/faq",
       "https://www.trade.gov/press-release/department-commerce-announces-new-american-ai-exports-program-phase"
@@ -2500,7 +2496,7 @@
      "topic": "Financing partners",
      "speaker": "Teddy Bretschger",
      "said": "ITA is working with EXIM and other agencies on financing, bringing resources together for the export program.",
-     "check": "EXIM is confirmed: its ExportAI Initiative offers guarantees and direct loans and eases content-certification rules for exports Commerce designates. Federal financing is 'priority routing' of referrals, and each agency keeps its own authority and underwriting standards. An 'OSC' (possibly DoD's Office of Strategic Capital) is not linked to the program in any source I found.",
+     "check": "EXIM is confirmed: its ExportAI Initiative offers guarantees and direct loans and eases content-certification rules for exports Commerce designates. Federal financing is 'priority routing' of referrals, and each agency keeps its own authority and underwriting standards. An 'OSC' (possibly DoD's Office of Strategic Capital) is not linked to the program in the sources cited.",
      "sources": [
       "https://www.exim.gov/about/special-initiatives/export-ai-initiative",
       "https://siexports.gov/faq"

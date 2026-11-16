@@ -56,10 +56,10 @@
       }
     ],
     "government_intervention_ready": true,
-    "recommended_actions": [
+    "policy_options": [
       "Manufacturing capex incentives stacking with bonus depreciation",
       "Federal procurement preference for US-made systems (HR 8189)",
-      "Supply-chain support for actuators, batteries, lidar where China dominates upstream",
+      "Supply-chain support for actuators, batteries and lidar, where China supplies most upstream inputs",
       "Visa pathway expansion for robotics talent"
     ],
     "last_updated": "2026-11-02"
@@ -111,10 +111,10 @@
       }
     ],
     "government_intervention_ready": false,
-    "recommended_actions": [
-      "Compute access programs for academic + small-firm robotics ML (analogue of NAIRR)",
-      "Open-source model + dataset support via NSF",
-      "Light-touch on foundation-model regulation pending NIST AI RMF maturity"
+    "policy_options": [
+      "Compute access programs for academic and small-firm robotics ML (analogue of NAIRR)",
+      "Open-source model and dataset support via NSF",
+      "Deferring foundation-model regulation until the NIST AI RMF matures"
     ],
     "last_updated": "2026-11-02"
   },
@@ -161,9 +161,9 @@
       }
     ],
     "government_intervention_ready": true,
-    "recommended_actions": [
+    "policy_options": [
       "Demand-side incentives via enacted bonus depreciation for qualifying equipment",
-      "Pilot-risk-sharing fund for first-of-its-kind robot deployments per RFA framework"
+      "Pilot risk-sharing fund for first-of-its-kind robot deployments, per the RFA framework"
     ],
     "last_updated": "2026-10-26"
   },
@@ -196,10 +196,10 @@
       }
     ],
     "government_intervention_ready": true,
-    "recommended_actions": [
-      "Sustain DIU + Replicator funding through next defense authorization",
-      "Pass HR 8189 to lock in domestic procurement for sensitive applications",
-      "Accelerate ITAR clarifications for dual-use robotics components"
+    "policy_options": [
+      "Continued DIU and Replicator funding in the next defense authorization",
+      "HR 8189 domestic procurement requirement for sensitive applications",
+      "ITAR clarifications for dual-use robotics components"
     ],
     "last_updated": "2026-10-26"
   },
@@ -247,10 +247,10 @@
       }
     ],
     "government_intervention_ready": true,
-    "recommended_actions": [
-      "Pilot-risk-sharing fund — defray cost of first-of-its-kind deployments",
+    "policy_options": [
+      "Pilot risk-sharing fund to defray the cost of first-of-its-kind deployments",
       "Workforce co-investment to fund operator training alongside deployments",
-      "Safety standard clarification via NIST/OSHA for human-robot shared workspaces"
+      "NIST/OSHA safety standard clarification for human-robot shared workspaces"
     ],
     "last_updated": "2026-11-02"
   },
@@ -290,10 +290,10 @@
       }
     ],
     "government_intervention_ready": true,
-    "recommended_actions": [
-      "Track HR 7334 markup schedule — likely a leading indicator of broader federal alignment",
-      "Track IRS guidance for eligible automation equipment under enacted Public Law 119-21",
-      "Track FCC conditional approvals and the Section 232 robotics negotiations (update due 2027-04-26)"
+    "policy_options": [
+      "HR 7334 markup",
+      "IRS guidance on eligible automation equipment under Public Law 119-21",
+      "FCC conditional approvals and the Section 232 robotics negotiations (update due 2027-04-26)"
     ],
     "last_updated": "2026-11-02"
   },
@@ -345,10 +345,10 @@
     ],
     "related_policies": [],
     "government_intervention_ready": false,
-    "recommended_actions": [
-      "Treat robot foundation models as dual-use; track compute + data access alongside the AI Action Plan",
-      "Fund shared real-world robot data / sim infrastructure (NSF / NAIRR analogue) so value is not captured only by the best-capitalized labs",
-      "Watch foreign capital concentration in physical-AI startups for supply-chain + national-security exposure"
+    "policy_options": [
+      "Treating robot foundation models as dual-use, alongside the AI Action Plan",
+      "Shared real-world robot data and simulation infrastructure (NSF / NAIRR analogue)",
+      "Screening foreign capital in physical-AI startups for supply-chain and national-security exposure"
     ],
     "last_updated": "2026-11-02"
   },
@@ -392,12 +392,12 @@
       }
     ],
     "government_intervention_ready": true,
-    "recommended_actions": [
-      "Extend NDAA Section 889 restrictions to robot actuators and servo motors sourced from adversary nations",
-      "Review potential Section 232 measures for precision gear reducers and brushless motors",
+    "policy_options": [
+      "Extending NDAA Section 889 restrictions to robot actuators and servo motors from covered foreign-adversary countries",
+      "Section 232 measures for precision gear reducers and brushless motors",
       "Manufacturing capex tax credit (IRA-style) for US actuator and motor production",
-      "DoD Strategic & Critical Materials program should add servo motors and torque sensors to the monitored list",
-      "NIST / DoC supply-chain map of US robotic-component dependencies — public transparency on single points of failure"
+      "Adding servo motors and torque sensors to the DoD Strategic & Critical Materials monitored list",
+      "A public NIST / DoC map of US robotic-component dependencies"
     ],
     "related_companies": [
       "westmag",

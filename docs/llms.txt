@@ -1,10 +1,10 @@
 # Robotics Tracker
 
-> Robotics is where America's AI lead meets China's manufacturing lead. America leads on AI and capital; China leads on installation and supply chain. Neither side holds both today, and whether either advantage decides the decade is an open question — this site tracks what's measurable, shows its sources, and marks its own judgment calls as judgments.
+> This site tracks US and Chinese robotics. On the measures tracked here, the US leads on AI and capital and China on installations and the supply chain; whether either lead matters more is an open question. The site tracks what can be measured, shows its sources, and labels its own judgment calls.
 
 Short form: **Where AI meets the physical world.**
 
-A curated, continuously updated tracker of the US-China robotics race and the US
+A curated, continuously updated tracker of US and Chinese robotics and the US
 policy that shapes it. **Every record carries at least one cited source URL, and
 primary sources are preferred — but not every citation is primary.** Policy
 records generally cite the Federal Register or the bill itself; company funding
@@ -20,13 +20,18 @@ Source: https://github.com/pranava0x0/roboticsleadership
 
 The pages render their data client-side with JavaScript. If you do not execute
 JS, **read the JSON files below instead** — they are the same data the pages
-draw from, and they are the canonical record. Each page is a chapter of one
-argument:
+draw from, and they are the canonical record. What each page contains:
 
-- Companies = America's lead · US vs China = the scoreboard · R&D = the models,
-  benchmarks and parts the robots run on · Supply chain =
-  China's lead · Themes (on the front page) = the leading indicators ·
-  Policy (federal, states, potential) = the swing variable.
+- Companies: funding, deployments and valuations of tracked robotics companies.
+- US vs China: a metric-by-metric comparison with an editorial edge call per metric.
+- R&D: robot foundation models, world models, benchmarks, research areas and the
+  component stack.
+- Supply chain: categories, production shares, chokepoints, companies and
+  stakeholders.
+- Themes (on the front page): cross-cutting trends, each marked accelerating,
+  stable or slowing.
+- Policy: federal, state and city records, plus proposals no government has
+  adopted.
 
 ## Data (canonical — read these)
 
@@ -36,21 +41,21 @@ Record counts below are **as of 2026-10-26** and grow as the trackers run —
 treat them as a sense of scale, not a live figure. Each dataset's own
 `last_updated` / `_meta.last_updated` is authoritative.
 
-- [data/us_china.json](https://pranava0x0.github.io/roboticsleadership/data/us_china.json): The scoreboard. A structured document, not an array: `bluf` (headline + body), `sections[]` each holding `metrics[]`, and a `unitree_case` study. Every metric has `{id, metric, us, china, edge, sources[]}` where `edge` is one of `us` / `china` / `even` — the head-to-head verdict on that metric. 35 metrics. Start here.
-- [data/supply_chain.json](https://pranava0x0.github.io/roboticsleadership/data/supply_chain.json): Where robots are actually built. Structured document: `overview.bluf`, `chain_stages[]` (each with `us_position`: strong / contested / weak), `categories[]` with US/China/RoW share percentages and `chokepoints[]`, `companies[]`, `stakeholders[]`, and `production_trend[]` (annual US/China/RoW industrial-robot installations, historical observations through 2025; no country forecasts). 81 records.
+- [data/us_china.json](https://pranava0x0.github.io/roboticsleadership/data/us_china.json): The US and China comparison. A structured document, not an array: `bluf` (headline + body), `sections[]` each holding `metrics[]`, and a `unitree_case` study. Every metric has `{id, metric, us, china, edge, sources[]}` where `edge` is one of `us` / `china` / `even` — the site's editorial edge call on that metric. 35 metrics. Start here.
+- [data/supply_chain.json](https://pranava0x0.github.io/roboticsleadership/data/supply_chain.json): Where robots and their parts are made. Structured document: `overview.bluf`, `chain_stages[]` (each with `us_position`: strong / contested / weak), `categories[]` with US/China/RoW share percentages and `chokepoints[]`, `companies[]`, `stakeholders[]`, and `production_trend[]` (annual US/China/RoW industrial-robot installations, historical observations through 2025; no country forecasts). 81 records.
 - [data/companies.json](https://pranava0x0.github.io/roboticsleadership/data/companies.json): Array of 111 robotics companies — `funding_rounds[]`, `deployments[]`, valuation, HQ, `map_category` (humanoid / brains / industrial / defense / field / service / enablers), `data_confidence` (high / medium / low), `sources[]`.
 - [data/policies.json](https://pranava0x0.github.io/roboticsleadership/data/policies.json): Array of 70 federal, state, and city policy records — bills, executive orders, regulations, incentive programs, procurement. Each has `type`, `level`, `status`, `introduced_date`, `robotics_scope` (why it matters to robotics), and `sources[]`.
 - [data/news.json](https://pranava0x0.github.io/roboticsleadership/data/news.json): Array of 1274 tracked news records; the News page sorts them newest first. Each has `date`, `source`, `source_url`, `summary`, `category` (Funding / Deployment / Policy / Competitive / Supply Chain / Geopolitics / Research), `sentiment`, `confidence`, and often an `archive_url` (Wayback snapshot).
 - [data/rd.json](https://pranava0x0.github.io/roboticsleadership/data/rd.json): The R&D tracker, captured 2026-10-26: foundation models, world models, benchmarks with their leaders, research areas, datasets, compute, and the humanoid component stack. Every entry carries `sources[]` with a capture date and a `status` (`verified` = quote read on the page; `snippet-only` = seen in a search snippet, page not read). Vendor-reported scores are flagged as such; benchmark leaders change often, so read each benchmark's `as_of`.
-- [data/themes.json](https://pranava0x0.github.io/roboticsleadership/data/themes.json): 8 cross-cutting narratives with `direction` (Accelerating / Stable / Slowing) — the leading indicators.
-- [data/state_policy.json](https://pranava0x0.github.io/roboticsleadership/data/state_policy.json): 5 state-policy themes — what states actually control.
+- [data/themes.json](https://pranava0x0.github.io/roboticsleadership/data/themes.json): 8 cross-cutting narratives with `direction` (Accelerating / Stable / Slowing).
+- [data/state_policy.json](https://pranava0x0.github.io/roboticsleadership/data/state_policy.json): 5 state-policy themes covering what states control.
 - [data/agencies.json](https://pranava0x0.github.io/roboticsleadership/data/agencies.json): 25 federal agencies referenced by policy records.
 - [data/sources.json](https://pranava0x0.github.io/roboticsleadership/data/sources.json): Scraper configuration — which feeds are ingested.
 
 ## Pages
 
-- [Dashboard](https://pranava0x0.github.io/roboticsleadership/): The thesis, the executive brief, headline KPIs, and recent activity.
-- [US vs China](https://pranava0x0.github.io/roboticsleadership/china.html): The scoreboard — every key metric side by side, with an explicit edge call per metric.
+- [Dashboard](https://pranava0x0.github.io/roboticsleadership/): Lead news stories, robot installations, US and China edge calls, headline KPIs, themes and the highest-valued companies.
+- [US vs China](https://pranava0x0.github.io/roboticsleadership/china.html): Metrics compared side by side, with an editorial edge call per metric.
 - [Supply Chain](https://pranava0x0.github.io/roboticsleadership/supply-chain.html): Materials, components, compute, assembly — categories, chokepoints, capacity, and the stakeholder map.
 - [R&D](https://pranava0x0.github.io/roboticsleadership/rd.html): Robot foundation models, world models, benchmarks and leaderboards, research areas, and the component stack, as in-page tabs (`?tab=` deep links).
 - [Companies](https://pranava0x0.github.io/roboticsleadership/companies.html): The market map — funding, deployments, valuations.
