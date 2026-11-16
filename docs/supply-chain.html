@@ -329,8 +329,10 @@
     document.getElementById('method-note').textContent =
       `Method: ${meta.method || 'curated from primary sources'}. Captured as of ${RT.formatDate(meta.captured_at || meta.last_updated)}. External estimates vary; shares are directional, not audited.`;
 
-    // RT.initCollapsibleSections ran before these sections existed; re-run is unnecessary
-    // because category <details> are static-open by default and persist via native toggle.
+    // The stage sections did not exist when RT.initCollapsibleSections ran, so restore
+    // their saved state now, then land a #cat-/#stage- deep link inside them.
+    RT.applyCollapsibleState();
+    RT.revealHashTarget();
 
     function renderChainMap(stages) {
       document.getElementById('chain-flow').innerHTML = stages.map(s => `

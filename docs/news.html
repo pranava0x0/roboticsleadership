@@ -256,12 +256,9 @@
       }
       if (myGen !== renderGen) return; // a newer render already won; don't paint stale filters
 
-      const newQ = { ...RT.readQuery(), search, category, company, sort };
-      if (!search) delete newQ.search;
-      if (!category) delete newQ.category;
-      if (!company) delete newQ.company;
-      if (sort === 'date-desc') delete newQ.sort;
-      RT.writeQuery(newQ);
+      // writeQuery drops a key only when it is passed as ''. A key left out keeps
+      // its old value, so Reset used to leave ?search=… in the URL.
+      RT.writeQuery({ search, category, company, sort: sort === 'date-desc' ? '' : sort });
 
       let rows = news.filter(n => {
         if (category && n.category !== category) return false;
@@ -309,8 +306,9 @@
       renderPagination(newsPage, totalPages);
 
       if (pendingHash) {
-        const el = document.getElementById(pendingHash);
-        if (el) requestAnimationFrame(() => el.scrollIntoView({ block: 'start', behavior: 'smooth' }));
+        // Shared with the other pages: scrolls again once web fonts have reflowed
+        // the cards above, which otherwise left the story under the header.
+        RT.revealHashTarget();
         pendingHash = null; // consume: later renders (Prev/Next, filters) must not re-jump
       }
     }

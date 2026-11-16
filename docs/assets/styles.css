@@ -365,6 +365,11 @@ input, select, textarea {
   border-bottom: 1px solid var(--border);
 }
 
+/* Anchor and scrollIntoView targets stop below the sticky header, which is
+   --header-h tall plus its 1px border at every width. Pages with a sticky jump
+   nav add its height in their own, more specific rule. */
+[id] { scroll-margin-top: calc(var(--header-h) + 12px); }
+
 .site-header-inner {
   max-width: var(--max-w);
   margin: 0 auto;

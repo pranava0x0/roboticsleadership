@@ -168,7 +168,7 @@
     }
     // The plans section is baked; the client only refreshes it, and a failed
     // fetch leaves the baked copy in place.
-    RT.loadData('china_plans').then((cp) => {
+    const plansPainted = RT.loadData('china_plans').then((cp) => {
       RT.paint(document.getElementById('china-plans'), RT.renderChinaPlans(cp));
       RT.applyCollapsibleState();
     }).catch((e) => console.warn('china_plans did not load; keeping the baked copy', e));
@@ -195,6 +195,8 @@
     RT.paint(document.querySelector('#unitree-table tbody'), RT.renderUnitreeRows(uc));
 
     document.getElementById('method-note').textContent = RT.chinaMethodNote(uc);
+    // A #sec-, #series- or #plan- link lands only once both paints are done.
+    plansPainted.then(() => RT.revealHashTarget());
   });
   </script>
   <script>

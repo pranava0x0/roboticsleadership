@@ -234,5 +234,40 @@ test('an open detail sheet makes the back-to-top button inert too (Codex review,
   assert((app.match(/querySelectorAll\(MODAL_INERT\)/g) || []).length === 2, 'open and close no longer share MODAL_INERT');
 });
 
+test('anchor targets clear the sticky header at every width (2026-11-15, C1: landings at top 0 under a 57px header)', () => {
+  const css = read('assets/styles.css');
+  assert(/\n\[id\] \{ scroll-margin-top: calc\(var\(--header-h\) \+ \d+px\); \}/.test(css), 'generic [id] scroll-margin-top rule derived from --header-h is missing');
+  assert(/\.site-header-inner \{[^}]*height: var\(--header-h\)/.test(css), 'the header height no longer comes from --header-h, so the scroll margin can drift from it');
+});
+
+test('hash links to rendered or collapsed targets open and land (2026-11-15, C2)', () => {
+  const app = read('assets/app.js');
+  // Captured when app.js runs, before any page script can call writeQuery (which strips it).
+  const capture = app.indexOf("const loadHash = typeof location !== 'undefined' && location.hash");
+  assert(capture > 0 && capture < app.indexOf('function revealHashTarget'), 'app.js no longer captures the load hash once, up front');
+  assert(/loadHashPending = false;\s*openAround\(el\)/.test(app), 'revealHashTarget no longer consumes the hash before opening and scrolling');
+  assert(/document\.addEventListener\('click', onHashLinkClick\)/.test(app), 'same-page hash clicks no longer open a closed <details> around the target');
+  assert(/\n    revealHashTarget,\n/.test(app), 'RT.revealHashTarget is not exported');
+  for (const page of ['china', 'index', 'supply-chain', 'news']) {
+    assert(/RT\.revealHashTarget\(\)/.test(read(`${page}.html`)), `${page}.html no longer reveals its hash target after painting`);
+  }
+  // china's plans paint asynchronously; revealing before they land would scroll to nodes the re-paint replaces.
+  assert(/plansPainted\.then\(\(\) => RT\.revealHashTarget\(\)\)/.test(read('china.html')), 'china.html reveals before its plans paint');
+});
+
+test('supply-chain restores collapsible state after painting its stage sections, then reveals the hash (2026-11-15, C4)', () => {
+  const at = (s) => supply.indexOf(s);
+  assert(at('renderCategories(sc);') > 0, 'renderCategories call not found');
+  assert(at('RT.applyCollapsibleState();') > at('renderCategories(sc);'), 'applyCollapsibleState must run after the stage sections are painted');
+  assert(at('RT.revealHashTarget();') > at('RT.applyCollapsibleState();'), 'revealHashTarget must run after applyCollapsibleState, or a restore can close what it opened');
+});
+
+test('news Reset and cleared filters drop their keys from the URL (2026-11-15, C3)', () => {
+  // RT.writeQuery removes a key only when it is passed as ''; leaving a key out keeps its old value.
+  const news = read('news.html');
+  assert(!/delete newQ\./.test(news), 'news.html omits cleared keys from writeQuery again, which leaves them in the URL');
+  assert(/RT\.writeQuery\(\{ search, category, company, sort: [^}]*\}\)/.test(news), 'news.html no longer passes every filter key to writeQuery');
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);

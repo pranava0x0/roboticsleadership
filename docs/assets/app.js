@@ -514,6 +514,43 @@
     });
   }
 
+  // ---------- Hash targets that JS renders or a closed <details> hides ----------
+  // The browser resolves a #fragment once, at load, before a page's fetch-and-render
+  // has created the target, so china/index/supply-chain deep links landed at the top.
+  // The hash is captured here, when app.js runs and before any page script can call
+  // writeQuery (which strips it). A page calls RT.revealHashTarget() after the paint
+  // that creates its targets (and after applyCollapsibleState); the first call that
+  // finds the target opens every closed <details> around it, scrolls to it, and
+  // consumes the hash so later re-renders never jump the reader back.
+  // (The deploy bake loads this file in a sandbox with no `location`.)
+  const loadHash = typeof location !== 'undefined' && location.hash.length > 1 ? decodeURIComponent(location.hash.slice(1)) : '';
+  let loadHashPending = Boolean(loadHash);
+  function openAround(el) {
+    for (let d = el.closest('details'); d; d = d.parentElement && d.parentElement.closest('details')) d.open = true;
+  }
+  function revealHashTarget() {
+    if (!loadHashPending) return false;
+    const el = document.getElementById(loadHash);
+    if (!el) return false; // a later paint may still create it
+    loadHashPending = false;
+    openAround(el);
+    const go = () => el.scrollIntoView();
+    go();
+    // Web fonts reflow tall pages; a scroll taken before they load can land short.
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => requestAnimationFrame(go));
+    return true;
+  }
+  // Same-page links to a target inside a closed <details> open it first, so the
+  // browser's own fragment scroll finds a visible element. Clicking a link to the
+  // hash already in the URL fires no hashchange, so this runs on click, not on hashchange.
+  function onHashLinkClick(e) {
+    const a = e.target.closest && e.target.closest('a[href*="#"]');
+    if (!a || a.origin !== location.origin || a.pathname !== location.pathname) return;
+    const id = decodeURIComponent(a.hash.slice(1));
+    const el = id && document.getElementById(id);
+    if (el) openAround(el);
+  }
+
   let collapsibleBound = false;
   function initCollapsibleSections() {
     if (!collapsibleBound) {
@@ -527,6 +564,7 @@
         }
       }, true);
       window.addEventListener('hashchange', applyCollapsibleState);
+      document.addEventListener('click', onHashLinkClick);
     }
     applyCollapsibleState();
   }
@@ -1659,6 +1697,7 @@
     paint,
     initCollapsibleSections,
     applyCollapsibleState,
+    revealHashTarget,
     // Pure page renderers — shared by the inline page scripts and the
     // deploy-time bake step (scripts/render-static.js). Keep them DOM-free.
     NEWS_PAGE_SIZE,
