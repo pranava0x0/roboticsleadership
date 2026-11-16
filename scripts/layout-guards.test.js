@@ -226,7 +226,11 @@ test('phone news summaries clamp to three lines and open on tap (2026-11-16, sum
   const block = phone.slice(0, phone.indexOf('\n}\n'));
   assert(/\.feed\[data-density="card"\] \.feed-card \.summary:not\(\.is-open\)/.test(block), 'clamp rule missing from the phone feed-card block');
   assert(/-webkit-line-clamp:\s*3/.test(block), 'clamp is no longer three lines');
-  assert(/feedEl\.addEventListener\('click'[\s\S]{0,160}classList\.toggle\('is-open'\)/.test(news), 'news.html no longer toggles .is-open on tap');
+  assert(/classList\.toggle\('is-open'\)/.test(news), 'news.html no longer toggles .is-open on tap');
+  // Codex review (PR #302): a clamped summary must be reachable by keyboard and expose its state.
+  assert(/setAttribute\('role', 'button'\)/.test(news) && /aria-expanded/.test(news), 'clamped summaries are not exposed as a control');
+  assert(/addEventListener\('keydown'[\s\S]{0,200}'Enter'[\s\S]{0,40}' '/.test(news), 'Enter/Space no longer open a summary');
+  assert(/pendingHash[\s\S]{0,200}\.summary'\)\?\.classList\.add\('is-open'\)/.test(news), 'a deep-linked story no longer opens its summary');
 });
 
 console.log(`\n${passed} passed, ${failed} failed`);
