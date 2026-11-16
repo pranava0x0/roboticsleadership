@@ -127,6 +127,22 @@ ok(china.includes(data.us_china.sections[0].metrics[0].metric), 'china.html ship
 ok(!china.includes('<!--static:china-sections:start--><!--static:china-sections:end-->'),
   'china.html sections slot is not left empty');
 
+// China's plans (2026-11-11): every plan, every target with its original Chinese,
+// and a translation line on each plan, because nearly all the English is ours.
+const cp = data.china_plans;
+for (const p of cp.plans) {
+  ok(china.includes(`id="plan-${p.id}"`), `china.html ships plan ${p.id}`);
+  ok(cp.series.some((s) => s.id === p.series), `${p.id} belongs to a declared series`);
+}
+const planBlock = china.slice(china.indexOf('id="sec-china-plans"'));
+eq((planBlock.match(/class="plan-src"/g) || []).length, cp.plans.length, 'each plan carries a source and translation line');
+const targetRows = cp.plans.reduce((n, p) => n + p.targets.length, 0);
+eq((planBlock.match(/<tr><td>/g) || []).length, targetRows, 'every target row is baked');
+for (const p of cp.plans) for (const t of p.targets) {
+  if (t.quote_zh) ok(china.includes(RT.escapeHTML(t.quote_zh)), `${p.id}: original wording missing for "${t.text_en.slice(0, 40)}"`);
+}
+ok(!/<details class="collapsible-section" id="sec-china-plans"[^>]*\bopen\b/.test(china), 'plans section ships collapsed');
+
 const news = bake(readFileSync(resolve(DOCS, 'news.html'), 'utf8'), PAGES['news.html'](RT, data));
 const cardCount = (news.match(/class="feed-card"/g) || []).length;
 eq(cardCount, RT.NEWS_PAGE_SIZE, 'news.html bakes exactly one client page of cards');
@@ -134,10 +150,28 @@ const newest = RT.latestNews(data.news, 1)[0];
 ok(news.includes(RT.escapeHTML(newest.title)), 'news.html ships the newest story title in HTML');
 
 const index = bake(readFileSync(resolve(DOCS, 'index.html'), 'utf8'), PAGES['index.html'](RT, data));
-const kpis = RT.computeKPIs(data.companies, data.policies, data.supply_chain);
+const kpis = RT.computeKPIs(data.companies, data.policies);
 eq((index.match(/class="kpi-card"/g) || []).length, kpis.length, 'index.html bakes every KPI card');
-ok(index.includes('id="kpi-strip" class="kpi-strip cols-6"'),
-  'index.html bakes the cols-6 modifier, so a no-JS 6-card strip is not laid out for 5');
+ok(index.includes(`id="kpi-strip" class="${RT.kpiStripClass(kpis)}"`),
+  'index.html bakes the strip class that matches its card count');
+// The install gap is the front page's lead figure: the baked number must be the
+// latest reported year's China/US ratio, and the dot chart must carry one dot
+// per 1,000 installs (each row is a dashed line; count dots from its length).
+{
+  const hist = data.supply_chain.production_trend.filter((r) => !r.projected && r.us_units && r.china_units);
+  const last = hist[hist.length - 1];
+  ok(index.includes(`<p class="gap-figure tnum">${Math.round(last.china_units / last.us_units)}×</p>`),
+    'index.html bakes the install-gap figure from the latest reported year');
+  const dots = (cls) => [...index.matchAll(new RegExp(`<line class="${cls}" x1="([\\d.]+)"[^>]*x2="([\\d.]+)"`, 'g'))]
+    .reduce((n, m) => n + Math.round((parseFloat(m[2]) - parseFloat(m[1])) / 14) + 1, 0);
+  eq(dots('cn'), Math.round(last.china_units / 1000), 'install-gap waffle draws one China dot per 1,000 installs');
+  eq(dots('us'), Math.round(last.us_units / 1000), 'install-gap waffle draws one US dot per 1,000 installs');
+}
+{
+  const metrics = data.us_china.sections.flatMap((s) => s.metrics).filter((m) => ['us', 'china', 'even'].includes(m.edge));
+  eq((index.match(/class="edge-mark edge-/g) || []).length, metrics.length, 'edge board bakes one square per measure with an edge call');
+  ok(!/edge-board[\s\S]{0,4000}\btotal\b/i.test(index), 'edge board does not total the edge calls');
+}
 // Front page: one lead, three secondary stories, and a rail of briefs plus its
 // "all stories" row. The counts come from RT.frontPageStories so the assertion
 // tracks the renderer instead of restating its numbers.

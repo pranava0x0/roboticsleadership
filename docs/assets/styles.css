@@ -376,7 +376,7 @@ input, select, textarea {
 }
 
 /* Priority+ nav. Every section link ships once, in .nav-list; app.js moves the
-   trailing ones into .nav-overflow (inside the "Sections" disclosure) until the
+   trailing ones into .nav-overflow (inside the "More" disclosure) until the
    strip fits, and moves them back as the window widens. Two consequences the
    CSS has to hold up:
      - the nav must be the flex item that absorbs the leftover width, so
@@ -395,7 +395,7 @@ nav.primary-nav {
      link is inline came back 317px — and then settled at 289px once the links
      moved out and the siblings relaxed back to their natural widths. The
      layout was fitting to a width that no longer existed by the time it
-     finished, which is what printed "US vs China" underneath "Sections".
+     finished, which is what printed "US vs China" underneath "More".
      A zero basis makes the nav's width a pure function of the siblings, so
      one measurement holds for the whole pass. */
   flex: 1 1 0;
@@ -419,7 +419,7 @@ nav.primary-nav.nav-managed { overflow: visible; }
 .nav-list > li { flex: 0 0 auto; }
 /* The current page's link is never moved to the overflow, so on a very narrow
    screen it is the one item that can run out of room ("SCSP Summit" at 320px
-   printed under "Sections"). Once it is the only link left inline, let it
+   printed under "More"). Once it is the only link left inline, let it
    shrink and truncate. Only then: a shrinkable link with siblings still inline
    lets the fit check pass with "F…" squeezed next to "News". */
 .nav-managed .nav-list > li:only-child { flex: 0 1 auto; min-width: 0; }
@@ -455,7 +455,7 @@ nav.primary-nav a[aria-current="page"],
      — i.e. while the flex row is over-full. With the default `flex: 0 1 auto`
      the browser had already squeezed this button down, so the reserve came
      back ~60px instead of ~83px and the layout stopped one link too early,
-     leaving "US vs China" printed underneath "Sections" at 420px. */
+     leaving "US vs China" printed underneath "More" at 420px. */
   flex: 0 0 auto;
 }
 .primary-more > summary {
@@ -465,15 +465,21 @@ nav.primary-nav a[aria-current="page"],
 .primary-more > summary::-webkit-details-marker {
   display: none;
 }
+/* A drawn chevron, not the letter "v". */
 .primary-more > summary::after {
-  content: "v";
+  content: "";
   display: inline-block;
-  margin-left: 6px;
-  color: var(--text-faint);
-  font-size: 12px;
+  width: 6px;
+  height: 6px;
+  margin: 0 2px 3px 8px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
+  vertical-align: middle;
 }
 .primary-more[open] > summary::after {
-  transform: rotate(180deg);
+  transform: rotate(-135deg);
+  margin-bottom: -1px;
 }
 .primary-more-menu {
   position: absolute;
@@ -535,19 +541,12 @@ h1.page-title {
    tracked-capitals tag (2026-10-31): the box was the loudest thing on every
    page it sat on, louder than the heading above it. */
 .bluf {
-  border-left: 3px solid var(--accent);
-  padding: 2px 0 2px 14px;
   margin: 0 0 22px;
+  max-width: 72ch;
 }
-.bluf-tag {
-  font-weight: 700;
-  color: var(--text);
-}
-.bluf-tag::after { content: ". " / ""; }
 .bluf-body {
-  display: inline;
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.55;
   color: var(--text);
 }
@@ -888,6 +887,29 @@ footer.site-footer {
 footer.site-footer .footer-credit {
   margin-top: 8px;
 }
+
+/* Back to top: appears past the second screen (app.js initBackToTop). */
+.to-top {
+  position: fixed;
+  right: 16px;
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  z-index: 40;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px solid var(--border-strong);
+  border-radius: 22px;
+  background: var(--surface);
+  color: var(--text);
+  font: 500 13px/1 var(--font-sans);
+  box-shadow: var(--shadow-elevated);
+  cursor: pointer;
+}
+.to-top:hover { background: var(--surface-2); }
+.to-top:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.to-top[hidden] { display: none; }
+/* Room under the footer so the fixed button never covers its last line. */
+body:has(.to-top) footer.site-footer { padding-bottom: 76px; }
+@media print { .to-top { display: none; } }
 
 /* ============================================================
    KPI / stats strip
@@ -1453,6 +1475,71 @@ a.kpi-card:hover {
   .chart-split > .chart-source { grid-area: source; }
 }
 .chart .axis-label { fill: var(--text-muted); font-size: 11.5px; }
+
+/* ---------- Install gap (index.html) ----------
+   The front page's lead figure. Unboxed: the number and the dots carry it.
+   China and US take the same tokens as renderProductionTrend's lines, so the
+   two charts agree in every theme. */
+.gap-hero { display: grid; gap: 28px; margin: 0 0 8px; }
+.gap-hero .gap-figure {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: clamp(88px, 14vw, 168px);
+  line-height: 0.9;
+  letter-spacing: -0.03em;
+  /* Lining figures: Dawn's Cormorant and Naked Sun's display faces default to
+     old-style numerals, whose "9" drops into the line below. */
+  font-variant-numeric: lining-nums tabular-nums;
+  color: var(--status-negative);
+  margin: 0;
+}
+.gap-hero .gap-claim {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.18;
+  margin: 22px 0 12px;
+  max-width: 18ch;
+}
+.gap-hero .gap-claim .us { color: var(--cat-supplychain); }
+.gap-hero .gap-body { color: var(--text-muted); margin: 0 0 8px; max-width: 46ch; }
+.gap-figs { margin: 0; align-self: end; }
+.gap-figs svg { display: block; width: 100%; height: auto; overflow: visible; }
+.gap-waffle line { stroke-width: 10; stroke-linecap: round; stroke-dasharray: 0 14; }
+.gap-waffle .cn { stroke: var(--status-negative); }
+.gap-waffle .us { stroke: var(--cat-supplychain); }
+.gap-figs .chart-legend { margin-bottom: 22px; }
+.gap-figs .dot.gap-cn { background: var(--status-negative); }
+.gap-figs .dot.gap-us { background: var(--cat-supplychain); }
+.gap-trend .parity { stroke: var(--border-strong); stroke-dasharray: 3 4; }
+.gap-trend .ratio { fill: none; stroke: var(--text); stroke-width: 2; }
+.gap-trend .start { fill: var(--text); }
+.gap-trend .end { fill: var(--status-negative); }
+.gap-trend .axis-label { fill: var(--text-muted); font-size: 12px; }
+.gap-trend .gap-end { fill: var(--status-negative); font-size: 13px; font-weight: 700; }
+.gap-figs figcaption { font-size: 12.5px; color: var(--text-faint); margin-top: 6px; }
+@media (min-width: 1024px) {
+  .gap-hero { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 56px; }
+}
+
+/* ---------- Edge board (index.html) ----------
+   One square per US-vs-China measure. Filled = that side judged ahead; an
+   outline = neither, or not comparable. */
+.edge-board { display: grid; }
+.edge-row { display: grid; gap: 8px; padding: 12px 0; border-bottom: 1px solid var(--border); }
+.edge-row h3 { font-size: 15px; font-weight: 600; margin: 0; }
+.edge-row h3 a { color: var(--text); text-decoration: none; }
+.edge-row h3 a:hover { text-decoration: underline; }
+.edge-marks { display: flex; flex-wrap: wrap; gap: 4px; list-style: none; margin: 0; padding: 0; }
+.edge-mark { width: 22px; height: 22px; border-radius: 2px; }
+.edge-us { background: var(--cat-supplychain); }
+.edge-china { background: var(--status-negative); }
+.edge-even { border: 2px solid var(--border-strong); }
+.edge-tally { font-size: 13px; color: var(--text-faint); margin: 0; }
+.edge-note { font-size: 13px; color: var(--text-faint); margin: 12px 0 0; max-width: 70ch; }
+@media (min-width: 720px) {
+  .edge-row { grid-template-columns: 240px 1fr auto; align-items: center; }
+}
 .chart-source {
   margin: 10px 0 0;
   font-size: 11.5px;
@@ -1648,7 +1735,7 @@ button, [role="button"], a.btn {
 @media (max-width: 540px) {
   .site-header-inner { gap: 8px; padding: 8px 12px; }
   /* Overflow is the priority+ layout's job now, not a display:none here — at
-     this width it usually collapses the whole strip into "Sections" and keeps
+     this width it usually collapses the whole strip into "More" and keeps
      only the current page's link inline. */
   nav.primary-nav { gap: 0; }
   .nav-list { gap: 0; }
@@ -1657,105 +1744,49 @@ button, [role="button"], a.btn {
   .primary-more { position: static; }
   .primary-more-menu {
     top: calc(100% - 6px);
-    right: 48px;
+    right: 12px;
   }
-  /* Drop the picker's text label below 540px; the chevron is enough */
-  .theme-picker > summary { padding: 0 8px; gap: 4px; }
-  .theme-picker-current { display: none; }
   h1.page-title { font-size: 24px; }
   main { padding: 16px 12px 40px; }
 }
 
 /* ============================================================
    Theme picker (DESIGN.md § 15.4)
-   Native <details> for disclosure, radios for selection.
+   A preference, set once: it lives in the footer as a plain row of radios,
+   not as a second caret beside the nav's "More" (moved 2026-11-11).
    ============================================================ */
 
 .theme-picker {
-  position: relative;
-  flex: 0 0 auto;   /* fixed sibling — see the flex-basis note on .primary-nav */
+  border: 0;
+  margin: 12px auto 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0 4px;
   font-family: var(--font-sans);
 }
-.theme-picker > summary {
-  list-style: none;
+.theme-picker legend {
+  float: left;          /* a floated legend sits in the row instead of above it */
+  margin-right: 6px;
+  padding: 0;
+  font-size: 12.5px;
+  color: var(--text-muted);
+}
+.theme-option {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  height: 36px;
-  padding: 0 10px 0 12px;
-  border-radius: 8px;
-  background: transparent;
-  color: var(--text-muted);
-  border: 1px solid var(--border);
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  user-select: none;
-  transition: background var(--transition-base, 120ms), color var(--transition-base, 120ms), border-color var(--transition-base, 120ms);
-}
-.theme-picker > summary::-webkit-details-marker { display: none; }
-.theme-picker > summary::marker { content: ""; }
-.theme-picker > summary:hover {
-  background: var(--surface-2);
-  color: var(--text);
-  border-color: var(--border-strong);
-}
-.theme-picker > summary:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-}
-.theme-picker-current {
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-}
-.theme-picker-chevron {
-  width: 10px;
-  height: 10px;
-  display: inline-block;
-  flex: 0 0 10px;
-  transition: transform var(--transition-base, 120ms);
-}
-.theme-picker[open] .theme-picker-chevron { transform: rotate(180deg); }
-
-.theme-picker-menu {
-  /* Hidden by default. position:absolute alone doesn't hide the menu —
-     the native <details> rendering only suppresses non-absolute children
-     of a closed <details>. So we must explicitly display:none here and
-     re-enable display:flex on [open]. */
-  display: none;
-  position: absolute;
-  top: calc(100% + 6px);
-  right: 0;
-  z-index: 60;
-  background: var(--surface);
-  -webkit-backdrop-filter: var(--surface-backdrop, none);
-  backdrop-filter: var(--surface-backdrop, none);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-card);
-  box-shadow: var(--shadow-elevated);
-  margin: 0;
-  padding: 6px;
-  min-width: 240px;
-  flex-direction: column;
-  gap: 2px;
-}
-.theme-picker[open] > .theme-picker-menu {
-  display: flex;
-}
-.theme-option {
-  display: grid;
-  grid-template-columns: 18px 1fr auto;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 10px;
+  min-height: 44px;
+  padding: 0 8px;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 13px;
-  color: var(--text);
-  min-height: 44px;
-  transition: background var(--transition-fast, 90ms);
+  font-size: 12.5px;
+  color: var(--text-muted);
 }
-.theme-option:hover { background: var(--surface-2); }
+.theme-option:hover { color: var(--text); background: var(--surface-2); }
+.theme-option:has(input:checked) { color: var(--text); }
 .theme-option input[type="radio"] {
   appearance: none;
   -webkit-appearance: none;
@@ -1766,13 +1797,10 @@ button, [role="button"], a.btn {
   background: transparent;
   margin: 0;
   cursor: pointer;
-  transition: border-color var(--transition-fast, 90ms);
   display: inline-grid;
   place-items: center;
 }
-.theme-option input[type="radio"]:checked {
-  border-color: var(--accent);
-}
+.theme-option input[type="radio"]:checked { border-color: var(--accent); }
 .theme-option input[type="radio"]:checked::after {
   content: "";
   width: 7px;
@@ -1783,15 +1811,6 @@ button, [role="button"], a.btn {
 .theme-option input[type="radio"]:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
-}
-.theme-option-name { font-weight: 500; }
-.theme-option-tag {
-  font-size: 10.5px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-faint);
-  white-space: nowrap;
 }
 
 /* Numbers line up in columns where they are compared; body copy keeps
@@ -1810,8 +1829,7 @@ table, .kpi-value, .kpi-sub, .chart text { font-variant-numeric: tabular-nums; }
   }
   .skeleton { animation: none; background: var(--surface-2); }
   .detail-panel,
-  .detail-backdrop,
-  .theme-picker-chevron { transition: none !important; }
+  .detail-backdrop { transition: none !important; }
 }
 
 /* Utility */
@@ -2146,7 +2164,7 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
 .s232-sources { margin: 0 0 12px; padding-left: 1.2rem; font-size: 14px; line-height: 1.6; }
 .s232-sources a, .s232-page .data-table a { overflow-wrap: anywhere; }
 .s232-page .kpi-value { font-size: 18px; }
-.front-focus { margin: 0 0 18px; }
+.front-focus { margin: 4px 0 22px; max-width: 72ch; font-size: 15px; line-height: 1.55; color: var(--text-muted); }
 .s232-page .data-table td { vertical-align: top; }
 .s232-page .data-table tbody tr:hover { background: none; cursor: auto; }
 .s232-page tr[id] { scroll-margin-top: calc(var(--header-h) + 72px); }
@@ -2160,14 +2178,64 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
   .s232-stack td[data-label]::before { content: attr(data-label) ": "; color: var(--text-muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
 }
 
-/* Front-page themes (index.html #themes) */
-.theme-card .card-sub { margin-bottom: 8px; }
-.theme-more summary { cursor: pointer; font-size: 13px; color: var(--text-muted); min-height: 44px; display: flex; align-items: center; }
-.theme-more summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* Front-page themes (index.html #themes): one closed disclosure row each,
+   separated by keylines, two columns from 900px. */
+.theme-list { margin: 0 0 8px; }
+@media (min-width: 900px) {
+  .theme-list { columns: 2; column-gap: 32px; }
+  .theme-row { break-inside: avoid; }
+}
+.theme-row { border-bottom: 1px solid var(--border); }
+.theme-row > summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 48px;
+  cursor: pointer;
+}
+.theme-row > summary::-webkit-details-marker { display: none; }
+.theme-row > summary::after {
+  content: "";
+  flex: 0 0 auto;
+  width: 7px;
+  height: 7px;
+  margin: 0 4px 4px 0;
+  border-right: 1.5px solid var(--text-muted);
+  border-bottom: 1.5px solid var(--text-muted);
+  transform: rotate(45deg);
+}
+.theme-row[open] > summary::after { transform: rotate(-135deg); margin-bottom: -2px; }
+.theme-row > summary:hover .theme-name { color: var(--accent); }
+.theme-row > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.theme-name { margin: 0; font-size: 16px; font-weight: 600; line-height: 1.3; color: var(--text); }
+.theme-body { padding: 0 0 14px; }
+.theme-body p { margin: 0 0 10px; font-size: 14.5px; line-height: 1.55; color: var(--text-muted); }
 .theme-metrics, .theme-sources { margin: 0 0 8px; padding-left: 18px; font-size: 13px; line-height: 1.5; }
 /* Inline padding grows the tap area to ~44px without changing the line height. */
 .theme-metrics a, .theme-sources a { padding: 12px 2px; }
 .theme-metrics li, .theme-sources li { margin-bottom: 4px; }
+
+/* Front-page companies: a ranked list, one row each. */
+.rank-list { list-style: none; margin: 0; padding: 0; max-width: 760px; }
+.rank-list li { border-bottom: 1px solid var(--border); }
+.rank-list a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "name value" "meta value";
+  column-gap: 16px;
+  align-items: center;
+  min-height: 52px;
+  padding: 8px 0;
+  color: inherit;
+  border-bottom: none;
+}
+.rank-name { grid-area: name; font-weight: 600; }
+.rank-meta { grid-area: meta; font-size: 13px; color: var(--text-muted); }
+.rank-value { grid-area: value; font-weight: 600; }
+.rank-list a:hover .rank-name { color: var(--accent); }
+.rank-more { margin: 10px 0 0; font-size: 14px; }
 
 /* policies.html Potential tab (generated by scripts/build-potential.py) */
 .potential-list { margin: 0 0 12px; padding-left: 1.2rem; font-size: 14px; line-height: 1.55; }
@@ -2175,3 +2243,17 @@ body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(
 .potential-who { color: var(--text-muted); }
 .potential-list q { font-style: italic; }
 .potential-list a { padding: 12px 2px; }
+
+/* China's robotics plans (china.html #sec-china-plans, RT.renderChinaPlans). */
+.plans-h { font-size: 17px; font-weight: 600; margin: 22px 0 6px; }
+.plans-sub, .plans-strap { font-size: 13.5px; max-width: 760px; }
+.plan-versions { list-style: none; margin: 0; padding: 0; max-width: 820px; }
+.plan-version { border-top: 1px solid var(--border); padding: 12px 0; }
+.plan-title { margin: 0; }
+.plan-title [lang="zh"], .plan-targets [lang="zh"] { color: var(--text-muted); font-size: 13px; }
+.plan-meta { margin: 2px 0 6px; font-size: 13px; color: var(--text-muted); }
+.plan-changes { margin: 6px 0; padding-left: 18px; font-size: 14px; }
+.plan-changes li { margin: 2px 0; }
+.plan-targets > summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-size: 14px; font-weight: 600; }
+.plan-src { margin: 6px 0 0; font-size: 13px; }
+.plans-caveats { font-size: 13px; color: var(--text-muted); max-width: 760px; }

@@ -254,12 +254,17 @@
         "url": "https://www.sec.gov/Archives/edgar/data/0001368622/000155837025011962/avav-20250909xex99d1.htm"
       }
     ],
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-11-11",
     "themes": [],
     "financials": {
       "revenue_usd": 820600000,
       "revenue_year": "FY2025",
-      "details": "Publicly traded (Nasdaq: AVAV); founded 1971, IPO 2007. FY2025 revenue $820.6M (+14% YoY). Closed the BlueHalo acquisition May 1, 2025 (~$1.7B+ pro forma FY2025 revenue, +40% YoY). Two segments: Autonomous Systems (AxS) and Space, Cyber & Directed Energy (SCDE). CEO Wahid Nawabi."
+      "details": "Publicly traded (Nasdaq: AVAV); founded 1971, IPO 2007. FY2025 revenue $820.6M (+14% YoY). Closed the BlueHalo acquisition May 1, 2025 (~$1.7B+ pro forma FY2025 revenue, +40% YoY). Two segments: Autonomous Systems (AxS) and Space, Cyber & Directed Energy (SCDE). CEO Wahid Nawabi. Update 2026-11-11 (Q1 FY2027): reported revenue $480.5M, net income -$5.1M. Not applicable (uncrewed systems; not broken out as robotics). Guidance (reaffirmed): FY2027 (ends Apr 2027): revenue $2.125B-$2.225B; adjusted EBITDA $305M-$325M; GAAP EPS $0.21-$0.53; non-GAAP EPS $3.02-$3.34. The company said it continues to expect FY2027 revenue of $2.125B-$2.225B.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106304/avav-20260909xex99d1.htm"
+        }
+      ]
     },
     "map_category": "defense"
   },
@@ -1275,7 +1280,7 @@
         "url": "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/"
       }
     ],
-    "last_updated": "2026-10-08",
+    "last_updated": "2026-11-11",
     "themes": [
       "industrial-deployments",
       "us-supply-chain"
@@ -1285,7 +1290,7 @@
       "revenue_year": "2025",
       "net_income_usd": -394000000,
       "net_income_year": "2025",
-      "details": "Reported annual revenue of 150.1 billion KRW (~$112M USD) and a net loss of 528.4 billion KRW (~$394M USD) for 2025. Supported by parent company Hyundai Motor Group. Hyundai took full control 2026-06 by buying SoftBank’s remaining 9.65% stake for $325M, implying a ~$3.37B valuation. Press reporting (Seoul Economic Daily, 2026-03) cites an implied ~$21B figure ahead of a planned early-2027 Nasdaq IPO (secondary source, not a primary filing). Electric Atlas shown at CES 2026. CEO change 2026-10: Rohit Prasad (ex-Amazon SVP/head scientist for Alexa and AGI, 12 years at Amazon) appointed CEO effective 2026-10-07, succeeding interim CEO/CFO Amanda McMaster (who had covered since Robert Playter's February 2026 departure). Boston Dynamics said the move \"accelerates its physical AI strategy.\"",
+      "details": "Reported annual revenue of 150.1 billion KRW (~$112M USD) and a net loss of 528.4 billion KRW (~$394M USD) for 2025. Supported by parent company Hyundai Motor Group. Hyundai took full control 2026-06 by buying SoftBank’s remaining 9.65% stake for $325M, implying a ~$3.37B valuation. Press reporting (Seoul Economic Daily, 2026-03) cites an implied ~$21B figure ahead of a planned early-2027 Nasdaq IPO (secondary source, not a primary filing). Electric Atlas shown at CES 2026. CEO change 2026-10: Rohit Prasad (ex-Amazon SVP/head scientist for Alexa and AGI, 12 years at Amazon) appointed CEO effective 2026-10-07, succeeding interim CEO/CFO Amanda McMaster (who had covered since Robert Playter's February 2026 departure). Boston Dynamics said the move \"accelerates its physical AI strategy.\" Update 2026-11-11 (Q3 2026 (parent)): figures are the parent's, not the robotics unit's. Parent does not break out Boston Dynamics. BD's own FY2025 figures in the record (KRW150.1B revenue, KRW528.4B net loss) are from a Korean filing; no 2026 BD figure found. Hyundai Mobis said it would begin prototype Atlas actuator production in November (secondary). Guidance (lowered (margin, volume); revenue growth unchanged): 2026: consolidated revenue growth 1.0-2.0% (unchanged); operating margin 5.5-6.5% (from 6.3-7.3%); wholesale target 4.0M units (from 4.16M). The company called the revision a realistic update for volume disruptions and raw-material cost increases. Converted at USD/KRW 1355.4 on 2026-09-30 (ECB via frankfurter.dev). Net profit includes non-controlling interests (-24.2% YoY). Operating profit KRW2.68T (+5.5%).",
       "sources": [
         {
           "url": "https://www.sedaily.com/"
@@ -1301,6 +1306,9 @@
         },
         {
           "url": "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/"
+        },
+        {
+          "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001298"
         }
       ]
     },
@@ -3335,7 +3343,7 @@
         "url": "https://investors.moog.com"
       }
     ],
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-11-11",
     "themes": [
       "defense-procurement",
       "us-supply-chain"
@@ -3343,11 +3351,13 @@
     "financials": {
       "revenue_usd": 3340000000,
       "revenue_year": 2024,
-      "net_income_usd": null,
-      "details": "Public company NYSE: MOG.A / MOG.B. FY2024 net sales ~$3.34B. Three segments: Space & Defense (largest), Industrial, Medical. Major US manufacturer of precision servo actuators, electric drives, and motion-control systems supplied to aerospace, defense, and industrial robotics OEMs. NDAA-compliant US manufacturer — increasingly relevant as robot actuator supply-chain security becomes a national-security concern.",
+      "details": "Public company NYSE: MOG.A / MOG.B. FY2024 net sales ~$3.34B. Three segments: Space & Defense (largest), Industrial, Medical. Major US manufacturer of precision servo actuators, electric drives, and motion-control systems supplied to aerospace, defense, and industrial robotics OEMs. NDAA-compliant US manufacturer — increasingly relevant as robot actuator supply-chain security becomes a national-security concern. Update 2026-11-11 (Q3 FY2026): reported revenue $1.12B, net income $152.0M. Not reported; Industrial segment sales $282M (+18%) include motion control for robotics and other uses. Guidance (raised): FY2026: net sales ~$4.4B (prior $4.3B); adjusted operating margin 14.1% (prior 13.4%); adjusted EPS $11.65 +/-$0.10 (prior $10.60). The CFO said the company is increasing its 2026 guidance for all key financial metrics.",
       "sources": [
         {
           "url": "https://investors.moog.com"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026051250/ex991-73126.htm"
         }
       ]
     },
@@ -3551,12 +3561,17 @@
         "url": "https://en.wikipedia.org/wiki/Ouster_(company)"
       }
     ],
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-11-11",
     "themes": [],
     "financials": {
       "revenue_usd": 169000000,
       "revenue_year": "FY2025",
-      "details": "Publicly traded (OUST); founded 2015, went public 2021 via SPAC. FY2025 revenue ~$169M (up from ~$11M in 2019). ~500 customers across robotics, industrial automation, smart infrastructure and automotive. Rev8 lidar qualified for NVIDIA DRIVE Hyperion (L4). Long-standing supply agreement with Serve Robotics. CEO Angus Pacala."
+      "details": "Publicly traded (OUST); founded 2015, went public 2021 via SPAC. FY2025 revenue ~$169M (up from ~$11M in 2019). ~500 customers across robotics, industrial automation, smart infrastructure and automotive. Rev8 lidar qualified for NVIDIA DRIVE Hyperion (L4). Long-standing supply agreement with Serve Robotics. CEO Angus Pacala. Update 2026-11-11 (Q3 2026): reported revenue $59.3M, net income -$14.2M. Not broken out; lidar sold to robotics, industrial, smart-infrastructure and automotive. Guidance: Q4 2026 total revenue $61M-$64M (includes ~$3M royalty revenue per secondary coverage). The company said customer demand has been robust while it ramps initial Rev8 production.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1816581/000162828026069487/exhibit991-9302026.htm"
+        }
+      ]
     },
     "map_category": "enablers"
   },
@@ -3945,12 +3960,17 @@
         "url": "https://finance.yahoo.com/quote/RR/"
       }
     ],
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-11-11",
     "themes": [],
     "financials": {
       "revenue_usd": 5050000,
       "revenue_year": "FY2025",
-      "details": "Publicly traded (Nasdaq: RR); headquartered in Las Vegas. FY2025 revenue $5.05M (+19% YoY). Products: Matradee restaurant servers, ADAM/Scorpion dual-arm beverage robots, Titan AMRs, DUST-E cleaning robots, and Dex industrial humanoid. 2026 partnerships with SoundHound (voice AI) and Microsoft Azure Marketplace. CEO Wayne Huang."
+      "details": "Publicly traded (Nasdaq: RR); headquartered in Las Vegas. FY2025 revenue $5.05M (+19% YoY). Products: Matradee restaurant servers, ADAM/Scorpion dual-arm beverage robots, Titan AMRs, DUST-E cleaning robots, and Dex industrial humanoid. 2026 partnerships with SoundHound (voice AI) and Microsoft Azure Marketplace. CEO Wayne Huang. Update 2026-11-11 (Q3 FY2026 (Apr-Jun 2026)): reported revenue $1.4M, net income -$10.0M. The 10-Q gives no outlook; revenue is small and the quarter's loss includes a $9.468M impairment of long-lived assets.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1963685/000121390026091798/ea0302286-10q_richtech.htm"
+        }
+      ]
     },
     "map_category": "service"
   },
@@ -4329,15 +4349,18 @@
         "url": "https://serverobotics.gcs-web.com/news-releases/news-release-details/serve-launches-robot-delivery-wonder-adding-grubhub-its-growing"
       }
     ],
-    "last_updated": "2026-10-26",
+    "last_updated": "2026-11-11",
     "themes": [],
     "financials": {
       "revenue_usd": 3238000,
       "revenue_year": "Q2 2026",
-      "details": "Publicly traded (Nasdaq: SERV); spun out of Uber/Postmates in 2021. Q2 2026 revenue was $3.238M. Serve revised FY2026 revenue guidance to $9M–$10M, citing lower expected Uber Eats delivery volume. It reported an average 792 daily active robots in Q2 across indoor and outdoor fleets. It acquired Diligent Robotics in January 2026.",
+      "details": "Publicly traded (Nasdaq: SERV); spun out of Uber/Postmates in 2021. Q2 2026 revenue was $3.238M. Serve revised FY2026 revenue guidance to $9M–$10M, citing lower expected Uber Eats delivery volume. It reported an average 792 daily active robots in Q2 across indoor and outdoor fleets. It acquired Diligent Robotics in January 2026. Update 2026-11-11 (Q3 2026): reported revenue $2.8M, net income -$59.2M. Guidance (raised): FY2026 revenue $12M (prior $9M-$10M). Secondary press: non-GAAP opex guide cut to $150M from $160-170M; Q4 implied ~$3M. The company said it raised full-year revenue guidance, citing strong robot demand and a broader set of revenue streams.",
       "sources": [
         {
           "url": "https://ir.serverobotics.com/news-releases/news-release-details/serve-robotics-announces-second-quarter-2026-results"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000048/serv-20260930_ex991earning.htm"
         }
       ]
     },
@@ -5028,14 +5051,14 @@
         "url": "https://www.symbotic.com/news/symbotic-announces-acquisition-of-cellumation-advancing-next-generation-sortation-technology-for-the-global-supply-chain/"
       }
     ],
-    "last_updated": "2026-10-26",
+    "last_updated": "2026-11-11",
     "themes": [],
     "financials": {
       "revenue_usd": 720838000,
       "revenue_year": "Q3 FY2026",
-      "net_income_usd": 55000000,
+      "net_income_usd": 11700000,
       "net_income_year": "Q3 FY2026",
-      "details": "Public company (Nasdaq: SYM). Q3 fiscal 2026 revenue was $720.8M and net income $55M. The company reported 77 systems in deployment, which is not a count of completed or operating systems. In October 2026 Symbotic acquired German sortation company cellumation; its founders remain in place and it continues under its own name.",
+      "details": "Public company (Nasdaq: SYM). Q3 fiscal 2026 revenue was $720.8M and net income $55M. The company reported 77 systems in deployment, which is not a count of completed or operating systems. In October 2026 Symbotic acquired German sortation company cellumation; its founders remain in place and it continues under its own name. Correction 2026-11-11: Q3 FY2026 net income attributable to common stockholders was $11.7M; the $55M figure is consolidated net income, which includes noncontrolling interests. Update 2026-11-11 (Q3 FY2026): reported revenue $720.8M, net income $55.0M. Warehouse-automation robotics is the whole business. Guidance: Q4 FY2026 (quarter ending Sept 2026): revenue $760M-$780M; adjusted EBITDA $100M-$105M. The company guided the September quarter to $760M-$780M revenue, above the June quarter.",
       "sources": [
         {
           "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000042/q3268-k_ex991.htm"
@@ -5109,7 +5132,7 @@
         "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf"
       }
     ],
-    "last_updated": "2026-10-26",
+    "last_updated": "2026-11-11",
     "themes": [
       "cost-trajectory",
       "industrial-deployments"
@@ -5119,7 +5142,7 @@
       "revenue_year": "2025",
       "net_income_usd": 3794000000,
       "net_income_year": "2025",
-      "details": "Optimus program is funded internally through Tesla's cash flow. Tesla reported FY2025 company-wide revenue of $94.827B, net income attributable to common stockholders of $3.794B, and R&D expenses of $6.411B. These are Tesla totals, not Optimus revenue or program spending. Per The Information as summarized by Ars Technica (2026-09-25), Optimus V3 output reached hundreds of units a week at Fremont, targeting more than 1,000 a week by end-2026; most units are used internally, and the hand assembly and sensors remain production bottlenecks. In its Q3 2026 update, Tesla said early production had begun at Fremont and described the units as its first production-quality Optimus robots; it did not disclose the number produced.",
+      "details": "Optimus program is funded internally through Tesla's cash flow. Tesla reported FY2025 company-wide revenue of $94.827B, net income attributable to common stockholders of $3.794B, and R&D expenses of $6.411B. These are Tesla totals, not Optimus revenue or program spending. Per The Information as summarized by Ars Technica (2026-09-25), Optimus V3 output reached hundreds of units a week at Fremont, targeting more than 1,000 a week by end-2026; most units are used internally, and the hand assembly and sensors remain production bottlenecks. In its Q3 2026 update, Tesla said early production had begun at Fremont and described the units as its first production-quality Optimus robots; it did not disclose the number produced. Update 2026-11-11 (Q3 2026): figures are the parent's, not the robotics unit's. Tesla does not report Optimus revenue or cost separately; company totals only. Guidance: No numeric revenue or earnings guidance in the Q3 deck; outlook section is qualitative (volume, cash, profit, product). The company said Optimus production began in Fremont and the bots are its first production-quality units; it gave no unit count.",
       "sources": [
         {
           "url": "https://www.tesla.com/AI"
@@ -5310,7 +5333,7 @@
         "url": "https://www.globaltimes.cn/page/202609/1370528.shtml"
       }
     ],
-    "last_updated": "2026-09-29",
+    "last_updated": "2026-11-11",
     "themes": [
       "china-scale"
     ],
@@ -5319,7 +5342,7 @@
       "revenue_year": "2025",
       "net_income_usd": -109000000,
       "net_income_year": "2025",
-      "details": "Publicly traded in HK (9880.HK). Reported FY2025 revenue of RMB 2.001B (~$276M USD, up 53.3% YoY) and net loss of RMB 789.8M (~$109M USD). Humanoid segment grew to RMB 820.6M. Market cap ~$6.73B (HK$52.77B on 9880.HK) as of 2026-06-22. FY2025 (announced 2026-03-31): revenue RMB 2.001B (+53.3% YoY), net loss narrowed to RMB 789.8M; full-size humanoids became the largest revenue line (41.1%). Update 2026-09-25: household deliveries of the UWORLD U1 humanoid began on 2026-09-16 (13,361 orders at launch), and a first plant outside China is under way in Almaty with Nero Group. The market-cap figure above predates both. Of the 13,361 U1 pre-orders at launch, UBTECH says it will only fulfill 1,500-2,000 units in 2026 — a real order-vs-delivery gap in China's consumer-humanoid push, not full-volume shipment.",
+      "details": "Publicly traded in HK (9880.HK). Reported FY2025 revenue of RMB 2.001B (~$276M USD, up 53.3% YoY) and net loss of RMB 789.8M (~$109M USD). Humanoid segment grew to RMB 820.6M. Market cap ~$6.73B (HK$52.77B on 9880.HK) as of 2026-06-22. FY2025 (announced 2026-03-31): revenue RMB 2.001B (+53.3% YoY), net loss narrowed to RMB 789.8M; full-size humanoids became the largest revenue line (41.1%). Update 2026-09-25: household deliveries of the UWORLD U1 humanoid began on 2026-09-16 (13,361 orders at launch), and a first plant outside China is under way in Almaty with Nero Group. The market-cap figure above predates both. Of the 13,361 U1 pre-orders at launch, UBTECH says it will only fulfill 1,500-2,000 units in 2026 — a real order-vs-delivery gap in China's consumer-humanoid push, not full-volume shipment. Update 2026-11-11 (H1 2026): reported revenue $187.0M, net income -$49.9M. Full-size humanoid products and services RMB590.3M (+1,445%, 46.5% of revenue) per secondary press; the filing says the new segment structure is still being assessed and will be disclosed in the FY2026 annual report. Guidance: No financial guidance. Operational target: annual production target of 10,000 full-size humanoid units in 2026 (company); 2026 R&D spend about RMB700M per secondary press. The company said it is focusing on embodied-intelligence humanoid robots and that manufacturing progress supports its 10,000-unit annual production target. Converted at USD/CNY 6.7855 on 2026-06-30 (ECB via frankfurter.dev). Net income = loss for the period; loss attributable to ordinary shareholders RMB311.5M.",
       "sources": [
         {
           "url": "https://www.hkexnews.hk/"
@@ -5332,6 +5355,9 @@
         },
         {
           "url": "https://finance.biggo.com/news/2a817f52-5771-4c3a-ad15-529eb4914c00"
+        },
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf"
         }
       ]
     },
@@ -5463,7 +5489,7 @@
         "url": "https://technode.com/2026/10/29/unitrees-first-post-ipo-report-shows-quarterly-revenue-growth-of-nearly-70/"
       }
     ],
-    "last_updated": "2026-10-29",
+    "last_updated": "2026-11-11",
     "themes": [
       "china-scale",
       "cost-trajectory"
@@ -5471,7 +5497,12 @@
     "financials": {
       "revenue_usd": 235000000,
       "revenue_year": "2025",
-      "details": "IPO prospectus: 2025 revenue CNY 1.71B (~$235M), up from CNY 392M in 2024. Debuted on the Shanghai STAR Market on 2026-08-19; shares hit an intraday high of 1,100 yuan (~$66B market cap, 444.9B yuan) before falling. On 2026-09-18 they closed at 514.98 yuan against a 150.80 yuan issue price, a 208.3B yuan market cap (~$31B, derived at the ~6.7 CNY/USD implied by the debut-day figures) and about 53% below the first-day high. On 2026-06-08 the Pentagon added Unitree to its Section 1260H list of Chinese military companies. China's CSRC gave informal guidance tightening humanoid-robot IPO approvals after the volatile debut. First post-IPO report (2026-10-29): Q3 revenue CNY 665M (+69.9%); nine-month revenue CNY 1.817B (+55.7%), reported net profit CNY 387M (+270%) but CNY 349M (-18.8%) excluding one-offs; R&D CNY 263M, 14.5% of revenue."
+      "details": "IPO prospectus: 2025 revenue CNY 1.71B (~$235M), up from CNY 392M in 2024. Debuted on the Shanghai STAR Market on 2026-08-19; shares hit an intraday high of 1,100 yuan (~$66B market cap, 444.9B yuan) before falling. On 2026-09-18 they closed at 514.98 yuan against a 150.80 yuan issue price, a 208.3B yuan market cap (~$31B, derived at the ~6.7 CNY/USD implied by the debut-day figures) and about 53% below the first-day high. On 2026-06-08 the Pentagon added Unitree to its Section 1260H list of Chinese military companies. China's CSRC gave informal guidance tightening humanoid-robot IPO approvals after the volatile debut. First post-IPO report (2026-10-29): Q3 revenue CNY 665M (+69.9%); nine-month revenue CNY 1.817B (+55.7%), reported net profit CNY 387M (+270%) but CNY 349M (-18.8%) excluding one-offs; R&D CNY 263M, 14.5% of revenue. Update 2026-11-11 (Q3 2026): Press reports say revenue $99.2M, net income $16.9M. Reports say Q3 attributable profit fell about 17% year on year while R&D spending rose about 250%; the company gave no forward guidance. Converted at USD/CNY 6.7045 on 2026-09-30 (ECB via frankfurter.dev). Net income = attributable to shareholders, Q3 alone. 9M 2026: revenue RMB1.817B (+55.71%), attributable NI RMB387M (+270.54%), NI excl. non-recurring RMB349M (-18.78%). H1 2026: revenue ~RMB1.15B, NI RMB274M.",
+      "sources": [
+        {
+          "url": "https://technode.com/2026/10/29/unitrees-first-post-ipo-report-shows-quarterly-revenue-growth-of-nearly-70/"
+        }
+      ]
     },
     "map_category": "humanoid"
   },
@@ -6413,17 +6444,20 @@
         "url": "https://www.fanuc.co.jp"
       }
     ],
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-11-11",
     "themes": [
       "industrial-deployments"
     ],
     "financials": {
       "revenue_usd": 7200000000,
       "revenue_year": "2025",
-      "details": "One of the 'big four' industrial-robot makers; FANUC, Yaskawa, ABB and KUKA together hold roughly half of global industrial-robot revenue (FAI 2026). ~$38.9B market cap (May 2026); revenue figure is robotics-relevant but FANUC also sells CNC and factory-automation systems.",
+      "details": "One of the 'big four' industrial-robot makers; FANUC, Yaskawa, ABB and KUKA together hold roughly half of global industrial-robot revenue (FAI 2026). ~$38.9B market cap (May 2026); revenue figure is robotics-relevant but FANUC also sells CNC and factory-automation systems. Update 2026-11-11 (H1 FY2026 (Apr-Sep 2026)): reported revenue $3.02B, net income $717.0M. ROBOT Division net sales JPY194.324B (+12.6%), ~USD1.24B; Americas strong in automotive and general industry, China general industry strong while automotive stagnated. Guidance (raised): FY ending Mar 2027: net sales JPY1,013.7B (prev 948.1B, +6.9%); operating income JPY240.7B (prev 218.0B); net income JPY228.3B (prev 198.0B). Assumes 150 JPY/USD from Oct 2026. The company said results ran stronger than expected when it last published a forecast, and it raised the full-year numbers. Converted at USD/JPY 157.00 on 2026-09-30 (ECB via frankfurter.dev). Japan GAAP; net income attributable to owners of parent (+41.0%). Operating income JPY116.662B.",
       "sources": [
         {
           "url": "https://robotomated.com/learn/market/top-robotics-companies-by-revenue"
+        },
+        {
+          "url": "https://www.fanuc.co.jp/en/ir/announce/pdf/2026/financialresult202609_e.pdf"
         }
       ]
     },
@@ -6475,17 +6509,20 @@
         "url": "https://www.yaskawa-global.com"
       }
     ],
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-11-11",
     "themes": [
       "industrial-deployments"
     ],
     "financials": {
       "revenue_usd": 3500000000,
       "revenue_year": "2025",
-      "details": "One of the 'big four' industrial-robot incumbents (FAI 2026). ~$8.49B market cap (May 2026).",
+      "details": "One of the 'big four' industrial-robot incumbents (FAI 2026). ~$8.49B market cap (May 2026). Update 2026-11-11 (H1 FY2026 (Mar-Aug 2026)): reported revenue $1.79B, net income $118.9M. Robotics segment revenue JPY118.404B (-0.7% YoY), ~USD741M; operating profit JPY5.974B (-43.3%), cited as lower revenue plus one-off structural costs and ERP rollout in Japan. Guidance (mixed: revenue raised, operating profit lowered, net profit raised slightly): FY ending Feb 2027: revenue JPY600.0B (prev 580.0B); operating profit JPY57.5B (prev 60.0B); profit attributable JPY47.5B (prev 47.0B). The company said the revision reflects a weaker yen lifting revenue, while the new ERP system affected first-half production and shipments. Converted at USD/JPY 159.73 on 2026-08-31 (ECB via frankfurter.dev). IFRS; net income = profit attributable to owners of parent (+4.1%). Operating profit JPY22.058B (-5.5%).",
       "sources": [
         {
           "url": "https://robotomated.com/learn/market/top-robotics-companies-by-revenue"
+        },
+        {
+          "url": "https://www.yaskawa-global.com/wp-content/uploads/2026/10/20261009_en.pdf"
         }
       ]
     },
@@ -6556,14 +6593,14 @@
         "url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/"
       }
     ],
-    "last_updated": "2026-11-06",
+    "last_updated": "2026-11-11",
     "themes": [
       "industrial-deployments"
     ],
     "financials": {
       "revenue_usd": 3800000000,
       "revenue_year": "2025",
-      "details": "One of the 'big four' industrial-robot incumbents (FAI 2026). ABB agreed to divest its Robotics division to SoftBank for ~$5.375B (announced Oct 2025). On November 5, 2026 China's foreign-investment security review prohibited the deal; ABB says it and SoftBank are still in talks. In October 2026 ABB launched an AI Robot Trainer upgrade for its Fashion Inductor fashion-logistics module.",
+      "details": "One of the 'big four' industrial-robot incumbents (FAI 2026). ABB agreed to divest its Robotics division to SoftBank for ~$5.375B (announced Oct 2025). On November 5, 2026 China's foreign-investment security review prohibited the deal; ABB says it and SoftBank are still in talks. In October 2026 ABB launched an AI Robot Trainer upgrade for its Fashion Inductor fashion-logistics module. Update 2026-11-11 (Q3 2026 (Group, Robotics in discontinued ops)): figures are the parent's, not the robotics unit's. Robotics revenue not given in the Q3 release; the business is reported as discontinued operations. Q3 stranded costs of $76M and a tax charge linked to the divestment are disclosed. Expected $2.4B divestment gain excluded from guidance. Guidance: Q4 2026: comparable revenue growth broadly similar to Q3, operational EBITA margin softer sequentially. FY2026: positive book-to-bill, comparable revenue growth in the low-teens range, operational EBITA margin up at least 270 bp YoY. The company said it expects the Robotics divestment to close in the fourth quarter of 2026; that was written before China's Nov 5 review blocked the deal, which the release does not reflect.",
       "sources": [
         {
           "url": "https://www.therobotreport.com/abb-group-sells-abb-robotics-softbank-5-3b/"
@@ -6576,6 +6613,9 @@
         },
         {
           "url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/"
+        },
+        {
+          "url": "https://www.abb.com/global/en/news/139696/q3-2026-results"
         }
       ]
     },
@@ -6639,7 +6679,7 @@
         "url": "https://www.kuka.com"
       }
     ],
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-11-11",
     "themes": [
       "industrial-deployments",
       "china-scale"
@@ -6647,10 +6687,13 @@
     "financials": {
       "revenue_usd": 3200000000,
       "revenue_year": "2025",
-      "details": "One of the 'big four' industrial-robot incumbents (FAI 2026). German maker now owned by China's Midea Group, which valued KUKA at ~EUR4.6B (~$5.06B) in its 2016 takeover; fully acquired and delisted by 2022.",
+      "details": "One of the 'big four' industrial-robot incumbents (FAI 2026). German maker now owned by China's Midea Group, which valued KUKA at ~EUR4.6B (~$5.06B) in its 2016 takeover; fully acquired and delisted by 2022. Update 2026-11-11 (Q3 2026 (Midea Group)): figures are the parent's, not the robotics unit's. Midea 'Robotics and Automation' 9M revenue RMB24.9B (+10%), of which KUKA is the main part but the split is not confirmed; KUKA does not report separately in the sources found. No guidance found; adjusted 9M profit fell 22.49% because of FX-loss and derivative-gain classification. Converted at USD/CNY 6.7045 on 2026-09-30 (ECB via frankfurter.dev). Net income attributable to shareholders (+25.93%); parent figures, not KUKA.",
       "sources": [
         {
           "url": "https://www.scmp.com/business/companies/article/1946774/chinas-midea-group-bids-greater-ownership-robot-maker-kuka-german"
+        },
+        {
+          "url": "https://quartr.com/events/midea-group-000333-q3-2026_F9HRW0m4"
         }
       ]
     },
@@ -6716,18 +6759,21 @@
         "url": "https://sereact.ai/posts/teradyne-robotics-partnership"
       }
     ],
-    "last_updated": "2026-10-26",
+    "last_updated": "2026-11-11",
     "themes": [
       "industrial-deployments"
     ],
     "financials": {
-      "details": "The world's largest cobot maker (~30% market share), a subsidiary of US-listed Teradyne (acquired 2015 for ~$285M; reported separately within Teradyne's Robotics segment). FAI 2026 notes UR revenue has declined in recent years amid Chinese competition; it opened its first overseas plant in China in late 2024. In October 2026 Teradyne Robotics and Sereact announced a partnership combining Universal Robots arms with Sereact Cortex software for retail and logistics tasks.",
+      "details": "The world's largest cobot maker (~30% market share), a subsidiary of US-listed Teradyne (acquired 2015 for ~$285M; reported separately within Teradyne's Robotics segment). FAI 2026 notes UR revenue has declined in recent years amid Chinese competition; it opened its first overseas plant in China in late 2024. In October 2026 Teradyne Robotics and Sereact announced a partnership combining Universal Robots arms with Sereact Cortex software for retail and logistics tasks. Update 2026-11-11 (Q3 2026): figures are the parent's, not the robotics unit's. Robotics segment (Universal Robots + MiR) revenue $96M, its best third quarter; the release says it reached profitability. UR is not split from MiR. Guidance: Q4 2026: revenue $1,250M-$1,350M; GAAP EPS $1.88-$2.18; non-GAAP EPS $1.95-$2.25. No Robotics-specific guide. The company guided Q4 revenue to a range that brackets the Q3 result; the growth driver is semiconductor test demand, not robots.",
       "sources": [
         {
           "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
         },
         {
           "url": "https://sereact.ai/posts/teradyne-robotics-partnership"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000097210/000119312526434981/ter-ex99_1.htm"
         }
       ]
     },
@@ -6791,18 +6837,23 @@
         "url": "https://www.siasun.com"
       }
     ],
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-11-11",
     "themes": [
       "china-scale",
       "industrial-deployments"
     ],
     "financials": {
-      "details": "One of China's largest domestic industrial-robot makers (~6.2% of the home market). Per FAI 2026, Chinese industrial-robot firms are barely profitable — median margin under 1% vs over 4% industry-wide — and Siasun has posted losses despite heavy subsidies. ~RMB23B (~$3.2B) market cap, 300024.SZ.",
+      "details": "One of China's largest domestic industrial-robot makers (~6.2% of the home market). Per FAI 2026, Chinese industrial-robot firms are barely profitable — median margin under 1% vs over 4% industry-wide — and Siasun has posted losses despite heavy subsidies. ~RMB23B (~$3.2B) market cap, 300024.SZ. Update 2026-11-11 (9M 2026 (Jan-Sep)): Press reports say revenue $363.5M. A press article (not the company) says fundamentals could recover as heavy R&D and capability-building investment turns into orders; the company gave no guidance. Converted at USD/CNY 6.7045 on 2026-09-30 (ECB via frankfurter.dev). 9M, not a single quarter.",
       "sources": [
         {
           "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+        },
+        {
+          "url": "https://stock.10jqka.com.cn/20261029/c681221366.shtml"
         }
-      ]
+      ],
+      "revenue_usd": 363487210,
+      "revenue_year": "9M 2026 (Jan-Sep)"
     },
     "map_category": "industrial"
   },
@@ -6861,18 +6912,25 @@
         "url": "https://www.efort.com.cn"
       }
     ],
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-11-11",
     "themes": [
       "china-scale",
       "industrial-deployments"
     ],
     "financials": {
-      "details": "Fourth-largest domestic Chinese industrial-robot supplier (~5.4% share). FAI 2026 lists EFORT among publicly traded Chinese robot firms that are entirely unprofitable despite significant state subsidies. ~RMB12.6B (~$1.75B) market cap, 688165.SS.",
+      "details": "Fourth-largest domestic Chinese industrial-robot supplier (~5.4% share). FAI 2026 lists EFORT among publicly traded Chinese robot firms that are entirely unprofitable despite significant state subsidies. ~RMB12.6B (~$1.75B) market cap, 688165.SS. Update 2026-11-11 (H1 2026): Press reports say revenue $96.7M, net income -$8.4M. No outlook found; FY2025 flash results showed revenue RMB932M and net loss RMB497M. Converted at USD/CNY 6.7855 on 2026-06-30 (ECB via frankfurter.dev). Net income = attributable to parent; excl. non-recurring items the loss was RMB110M.",
       "sources": [
         {
           "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+        },
+        {
+          "url": "https://wap.eastmoney.com/a/202608263854822543.html"
         }
-      ]
+      ],
+      "revenue_usd": 96676737,
+      "revenue_year": "H1 2026",
+      "net_income_usd": -8389330,
+      "net_income_year": "H1 2026"
     },
     "map_category": "industrial"
   },
@@ -6933,18 +6991,25 @@
         "url": "https://www.dobot-robots.com"
       }
     ],
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-11-11",
     "themes": [
       "china-scale",
       "industrial-deployments"
     ],
     "financials": {
-      "details": "Chinese cobot maker; listed in Hong Kong (2432.HK) in December 2024. FAI 2026 lists Dobot among publicly traded Chinese robot firms that are entirely unprofitable despite subsidies. ~HKD13.7B (~$1.75B) market cap.",
+      "details": "Chinese cobot maker; listed in Hong Kong (2432.HK) in December 2024. FAI 2026 lists Dobot among publicly traded Chinese robot firms that are entirely unprofitable despite subsidies. ~HKD13.7B (~$1.75B) market cap. Update 2026-11-11 (H1 2026): reported revenue $46.6M, net income -$15.9M. The company said it will keep R&D investment high in embodied-AI models, force control and perception. Converted at USD/CNY 6.7855 on 2026-06-30 (ECB via frankfurter.dev). Loss for the period RMB107.9M; attributable to owners RMB105.7M; adjusted net loss RMB64.0M.",
       "sources": [
         {
           "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
+        },
+        {
+          "url": "https://pdf.dfcfw.com/pdf/H2_AN202609301830046314_1.pdf"
         }
-      ]
+      ],
+      "revenue_usd": 46617493,
+      "revenue_year": "H1 2026",
+      "net_income_usd": -15907008,
+      "net_income_year": "H1 2026"
     },
     "map_category": "industrial"
   },
@@ -8195,22 +8260,21 @@
         "url": "https://www.prnewswire.com/news-releases/xpeng-holds-its-first-robotics-supply-chain-partner-conference-302887834.html"
       }
     ],
-    "last_updated": "2026-09-27",
+    "last_updated": "2026-11-11",
     "themes": [
       "china-scale"
     ],
     "financials": {
-      "revenue_usd": null,
-      "revenue_year": null,
-      "net_income_usd": null,
-      "net_income_year": null,
-      "details": "XPeng carved out its humanoid-robot unit (registered as Dogotix, branded XPENG Robotics) and raised over $900M at a post-money valuation above $6.3B in August 2026, with XPeng Motors retaining roughly 68.4% control. Held its first Robotics Supply Chain Partner Conference in Guangzhou (2026-09-22/23) to organize suppliers of joint modules, actuators, and precision structural parts ahead of confirmed mass production by end of 2026.",
+      "details": "XPeng carved out its humanoid-robot unit (registered as Dogotix, branded XPENG Robotics) and raised over $900M at a post-money valuation above $6.3B in August 2026, with XPeng Motors retaining roughly 68.4% control. Held its first Robotics Supply Chain Partner Conference in Guangzhou (2026-09-22/23) to organize suppliers of joint modules, actuators, and precision structural parts ahead of confirmed mass production by end of 2026. Update 2026-11-11 (Q2 2026): figures are the parent's, not the robotics unit's. Robotics unit not reported separately; it was carved out in Aug 2026 and XPeng retains a controlling stake (record: ~68.4%). Guidance: Q3 2026: deliveries 115,000-121,000; revenue RMB21.7B-23.4B (issued 2026-08-24). The company projected third-quarter revenue of RMB21.7B to RMB23.4B; Q3 results are scheduled for 2026-11-16, so they are not yet out. Converted at USD/CNY 6.7855 on 2026-06-30 (ECB via frankfurter.dev). Net loss attributable to ordinary shareholders (non-GAAP -RMB1.24B); gross margin 20.7%.",
       "sources": [
         {
           "url": "https://www.xpeng.com/pressroom/news/01a03797fccda01e0de68a02a256006a"
         },
         {
           "url": "https://www.prnewswire.com/news-releases/xpeng-holds-its-first-robotics-supply-chain-partner-conference-302887834.html"
+        },
+        {
+          "url": "https://autonews.gasgoo.com/articles/news/xpeng-group-q2-revenue-hits-1974-billion-yuan-gross-margin-at-207-2092519493162262529"
         }
       ]
     },

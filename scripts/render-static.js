@@ -37,7 +37,7 @@ import { runInNewContext } from 'node:vm';
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const DOCS = resolve(ROOT, 'docs');
 
-const DATASETS = ['companies', 'policies', 'news', 'themes', 'us_china', 'supply_chain', 'rd'];
+const DATASETS = ['companies', 'policies', 'news', 'themes', 'us_china', 'supply_chain', 'rd', 'china_plans'];
 
 /**
  * Load docs/assets/app.js and hand back its RT export.
@@ -91,6 +91,7 @@ function chinaSlots(RT, data) {
     'china-scoreline': RT.renderChinaScoreline(uc),
     'china-scorebar': RT.renderChinaScoreBar(uc),
     'china-sections': RT.renderChinaSections(uc),
+    'china-plans': RT.renderChinaPlans(data.china_plans),
     'china-unitree-title': RT.escapeHTML(uc.unitree_case.title),
     'china-unitree-intro': RT.escapeHTML(uc.unitree_case.intro),
     'china-unitree-rows': RT.renderUnitreeRows(uc),
@@ -114,8 +115,8 @@ function newsSlots(RT, data) {
 }
 
 function indexSlots(RT, data) {
-  const { companies, policies, news, themes, supply_chain: sc } = data;
-  const kpis = RT.computeKPIs(companies, policies, sc);
+  const { companies, policies, news, themes, supply_chain: sc, us_china: uc } = data;
+  const kpis = RT.computeKPIs(companies, policies);
   // Same single split the client uses, so lead / top stories / briefs bake in
   // the same three positions the browser then re-renders into.
   const recent = RT.newsRecentPayload(news);
@@ -128,6 +129,8 @@ function indexSlots(RT, data) {
     'index-lead': RT.renderLeadStory(front.lead, companies, policies),
     'index-topstories': RT.renderTopStories(front.top, companies),
     'index-briefs': RT.renderNewsBriefs(front.briefs, recent.total),
+    'index-installgap': RT.renderInstallGap(sc.production_trend),
+    'index-edgeboard': RT.renderEdgeBoard(uc),
     'index-kpis': RT.renderKPIStrip(kpis),
     'index-themes': RT.renderThemeCards(themes),
     'index-companies': RT.renderTopCompanies(companies),

@@ -195,39 +195,43 @@
     localStorage.setItem('theme', id);
   }
 
+  // The picker is a row of radios in the footer (moved out of the header
+  // 2026-11-11): a preference set once does not need a second caret beside
+  // the nav's "More".
   function initThemePicker() {
     const initial = resolveInitialTheme();
     document.documentElement.setAttribute('data-theme', initial);
-
-    const root = document.getElementById('theme-picker');
-    if (!root) return;
-    const current = root.querySelector('.theme-picker-current');
-    const radios = root.querySelectorAll('input[type="radio"][name="theme"]');
-
-    function refresh(id) {
-      const t = THEMES.find((x) => x.id === id);
-      if (current && t) current.textContent = t.name;
-      radios.forEach((r) => { r.checked = r.value === id; });
-    }
-    refresh(initial);
-
+    const radios = document.querySelectorAll('#theme-picker input[type="radio"][name="theme"]');
     radios.forEach((r) => {
-      r.addEventListener('change', () => {
-        if (!r.checked) return;
-        applyTheme(r.value);
-        refresh(r.value);
-        // Close the disclosure after selection
-        root.open = false;
-      });
+      r.checked = r.value === initial;
+      r.addEventListener('change', () => { if (r.checked) applyTheme(r.value); });
     });
+  }
 
-    // Close on Escape or outside click while open
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && root.open) { root.open = false; root.querySelector('summary').focus(); }
-    });
-    document.addEventListener('click', (e) => {
-      if (!root.open) return;
-      if (!root.contains(e.target)) root.open = false;
+  // ---------- Back to top ----------
+  // Long pages (the front page runs several phone screens) get a "Back to top"
+  // button once the reader is past the first two screens. It returns focus to
+  // <main> so keyboard and screen-reader users land where sighted ones do.
+  function initBackToTop() {
+    const main = document.getElementById('main');
+    if (!main) return;
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'to-top';
+    btn.textContent = 'Back to top';
+    btn.hidden = true;
+    document.body.appendChild(btn);
+    let queued = false;
+    const update = () => { queued = false; btn.hidden = window.scrollY < window.innerHeight * 2; };
+    window.addEventListener('scroll', () => {
+      if (!queued) { queued = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    update();
+    btn.addEventListener('click', () => {
+      const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: still ? 'auto' : 'smooth' });
+      if (!main.hasAttribute('tabindex')) main.setAttribute('tabindex', '-1');
+      main.focus({ preventScroll: true });
     });
   }
 
@@ -251,7 +255,7 @@
   // Every section link ships once, inline, in .nav-list — no duplicate DOM tree
   // and no fixed "these three live under More" split. This measures the strip
   // against the width the header actually leaves it and *moves* the trailing
-  // <li>s into the "Sections" dropdown until it fits, moving them back out as
+  // <li>s into the "More" dropdown until it fits, moving them back out as
   // the window widens. Node moves, not clones: aria-current, listeners and
   // focus order all survive, and there is exactly one <a> per section on the
   // page for a crawler to find.
@@ -792,6 +796,83 @@
     `).join('');
   }
 
+  // China's robotics plans (docs/data/china_plans.json): one closed section with
+  // each plan series newest first, every version saying what it changed, then
+  // the US comparison (linked from the top). Chinese originals stay in lang="zh"; the
+  // translation line says whose English it is, because often it is ours.
+  function translationLabel(t) {
+    if (t === 'official') return 'Official English version';
+    if (t && t.startsWith('third-party:')) return `English from ${t.slice(12)}`;
+    return 'Our translation from the Chinese';
+  }
+
+  function renderChinaPlans(cp) {
+    if (!cp || !(cp.plans || []).length) return '';
+    const plans = cp.plans;
+    const byId = new Map(plans.map((p) => [p.id, p]));
+    const years = plans.map((p) => String(p.issued || '').slice(0, 4)).filter(Boolean).sort();
+    const link = (url, label) => (url ? `<a class="report-cite" href="${escapeHTML(safeURL(url))}" target="_blank" rel="noopener">${escapeHTML(label)}</a>` : '');
+    const planRef = (id) => { const p = byId.get(id); return p ? `<a href="#plan-${escapeHTML(p.id)}">${escapeHTML(p.short_en || p.title_en)}</a>` : escapeHTML(id); };
+
+    const compare = (cp.us_comparison || []).length ? `
+      <h3 class="plans-h" id="plans-vs-us">Against the US</h3>
+      <div class="table-wrap">
+        <table class="vs-table plans-compare">
+          <thead><tr><th>Measure</th><th>China’s targets</th><th>Closest US counterpart</th></tr></thead>
+          <tbody>${cp.us_comparison.map((r) => `
+            <tr>
+              <td class="vs-metric">${escapeHTML(r.category)}${r.note ? `<div class="vs-note">${escapeHTML(r.note)}</div>` : ''}</td>
+              <td class="vs-cell cn-cell">${escapeHTML(r.china)}<div class="vs-srcs">${(r.china_plan_ids || []).map(planRef).join(' · ')}</div></td>
+              <td class="vs-cell us-cell">${escapeHTML(r.us)}${r.us_source_url ? `<div class="vs-srcs">${srcLinks([r.us_source_url])}</div>` : ''}</td>
+            </tr>`).join('')}
+          </tbody>
+        </table>
+      </div>` : '';
+
+    const series = (cp.series || []).map((s) => {
+      // Newest first: the current plan leads, and each version's notes say what it changed from the one below.
+      const versions = plans.filter((p) => p.series === s.id).sort((a, b) => (a.issued < b.issued ? 1 : -1));
+      if (!versions.length) return '';
+      return `
+      <section class="plan-series" id="series-${escapeHTML(s.id)}">
+        <h3 class="plans-h">${escapeHTML(s.title)}</h3>
+        ${s.summary ? `<p class="plans-sub">${escapeHTML(s.summary)}</p>` : ''}
+        <ol class="plan-versions">${versions.map((p) => `
+          <li class="plan-version" id="plan-${escapeHTML(p.id)}">
+            <p class="plan-title"><strong>${escapeHTML(p.title_en)}</strong> <span lang="zh">${escapeHTML(p.title_zh || '')}</span></p>
+            <p class="plan-meta">${escapeHTML([p.issuer_en, p.issued, p.period ? `covers ${p.period}` : '', p.status].filter(Boolean).join(' · '))}</p>
+            ${(p.changes || []).length ? `<ul class="plan-changes">${p.changes.map((c) => `<li>${escapeHTML(c)}</li>`).join('')}</ul>` : ''}
+            ${(p.targets || []).length ? `
+            <details class="plan-targets">
+              <summary>${p.targets.length} target${p.targets.length === 1 ? '' : 's'} and commitments</summary>
+              <div class="table-wrap"><table class="data-table">
+                <thead><tr><th>Target</th><th>By</th><th>Original</th></tr></thead>
+                <tbody>${p.targets.map((t) => `
+                  <tr><td>${escapeHTML(t.text_en)}${t.secondary ? ' <span class="muted">(press report)</span>' : ''}</td><td class="tnum">${escapeHTML(t.deadline || '—')}</td>
+                  <td>${t.quote_zh ? `<span lang="zh">${escapeHTML(t.quote_zh)}</span>` : '—'}${t.section ? ` <span class="muted">${escapeHTML(t.section)}</span>` : ''}</td></tr>`).join('')}
+                </tbody>
+              </table></div>
+            </details>` : ''}
+            <p class="plan-src">${link(p.url_zh, 'Original (Chinese)')} ${link(p.url_en, 'English')} <span class="muted">${escapeHTML(translationLabel(p.translation))}.</span></p>
+          </li>`).join('')}
+        </ol>
+      </section>`;
+    }).join('');
+
+    return `
+      <details class="collapsible-section" id="sec-china-plans">
+        <summary>
+          <h2 class="section-title">China’s robotics plans, ${escapeHTML(years[0])}–${escapeHTML(years[years.length - 1])}</h2>
+          <p class="muted plans-strap">${plans.length} plans in ${(cp.series || []).length} series: what each version changed, and the closest US counterpart.</p>
+        </summary>
+        ${cp.note ? `<p class="plans-sub">${escapeHTML(cp.note)}</p>` : ''}
+        ${compare ? '<p class="plans-sub"><a href="#plans-vs-us">How the US compares</a></p>' : ''}
+        ${series}
+        ${compare}
+        ${(cp.caveats || []).length ? `<ul class="plans-caveats">${cp.caveats.map((c) => `<li>${escapeHTML(c)}</li>`).join('')}</ul>` : ''}
+      </details>`;
+  }
+
   function renderUnitreeRows(uc) {
     const rows = (uc.unitree_case && uc.unitree_case.rows) || [];
     return rows.map((r) => `
@@ -862,13 +943,13 @@
   // larger. Exact-ness per card, measured against the current data:
   //   Tracked funding    -> companies sorted by funding (no count implied)
   //   Unicorns        35 -> top 35 by valuation ARE the unicorns: exact
-  //   Install gap        -> the scoreboard itself
   //   Active deployments -> companies.html; no deployment filter exists, so
   //                         this is a plain "go see the companies" link
   //   Congress         3 -> 5 federal bills (3 of them pre-enactment)
   //   Executive       24 -> 23 "In effect"; misses 1 lone "Signed" record
-  // sc (supply_chain) may be null — the install-gap card is dropped, not faked.
-  function computeKPIs(companies, policies, sc) {
+  // The China install gap used to be a sixth card here; it is now the front
+  // page's lead figure (renderInstallGap), and a card repeating it was cut.
+  function computeKPIs(companies, policies) {
     const thisYear = new Date().getFullYear();
     const ytdFunding = companies.reduce((sum, c) => sum + (c.funding_rounds || [])
       .filter((r) => r.date && r.date.startsWith(String(thisYear)) && r.amount_usd)
@@ -893,14 +974,6 @@
       { label: 'Executive · in effect', value: String(executiveInEffect), sub: 'agency rules, programs', href: `policies.html?level=Federal&status=${encodeURIComponent('In effect')}` },
     ];
 
-    // The China-gap KPI — the strip should reflect the thesis, not just the
-    // US supply side. Ratio from the latest historical production-trend row.
-    const trendRows = (sc && sc.production_trend) || [];
-    const lastActual = [...trendRows].reverse().find((r) => !r.projected && r.china_units && r.us_units);
-    if (lastActual) {
-      const ratio = Math.round(lastActual.china_units / lastActual.us_units);
-      kpis.splice(2, 0, { label: 'Install gap', value: `${ratio}×`, sub: `China vs US robot installs · ${lastActual.year}`, href: 'china.html' });
-    }
     return kpis;
   }
 
@@ -924,6 +997,109 @@
 
   function renderKPIStrip(kpis) {
     return `<div id="kpi-strip" class="${kpiStripClass(kpis)}">${renderKPICards(kpis)}</div>`;
+  }
+
+  /* ---------- Install gap (index.html) ----------
+     The front page's one number: China's industrial-robot installs as a
+     multiple of America's in the latest reported year, a dot chart of the two
+     totals, and the multiple over time. The three-series line chart it replaced
+     still lives on china.html and supply-chain.html.
+
+     Dots are drawn as one dashed, round-capped <line> per row (a zero-length
+     dash every STEP px), not one <circle> per dot: ~390 dots cost ~15 lines of
+     markup in the bake instead of ~20KB. */
+  const NUMBER_WORDS = ['', 'as', 'twice', 'three times', 'four times', 'five times', 'six times',
+    'seven times', 'eight times', 'nine times', 'ten times', 'eleven times', 'twelve times'];
+
+  function dotRows(n, cols, step, y0, cls) {
+    let out = '';
+    for (let row = 0; row * cols < n; row++) {
+      const inRow = Math.min(cols, n - row * cols);
+      const y = y0 + row * step;
+      // +0.01 so the last zero-length dash lands inside the line and is drawn.
+      out += `<line class="${cls}" x1="${step / 2}" y1="${y}" x2="${step / 2 + (inRow - 1) * step + 0.01}" y2="${y}"></line>`;
+    }
+    return out;
+  }
+
+  function renderInstallGap(rows) {
+    const hist = (rows || []).filter((r) => !r.projected && r.us_units && r.china_units);
+    if (hist.length < 2) return '';
+    const last = hist[hist.length - 1];
+    const first = hist[0];
+    const ratio = Math.round(last.china_units / last.us_units);
+    const words = NUMBER_WORDS[ratio] || `${ratio} times`;
+
+    // Waffle: one dot per 1,000 installs.
+    const COLS = 30, STEP = 14;
+    const cn = Math.round(last.china_units / 1000);
+    const us = Math.round(last.us_units / 1000);
+    const cnRows = Math.ceil(cn / COLS);
+    const usY = (cnRows + 1) * STEP + STEP / 2;
+    const wH = usY + Math.ceil(us / COLS) * STEP - STEP / 2;
+    const waffle = `<svg class="gap-waffle" viewBox="0 0 ${COLS * STEP} ${wH}" role="img" ` +
+      `aria-label="${escapeHTML(`${formatNumber(last.china_units)} robots installed in China and ${formatNumber(last.us_units)} in the United States in ${last.year}, one dot per 1,000`)}">` +
+      dotRows(cn, COLS, STEP, STEP / 2, 'cn') + dotRows(us, COLS, STEP, usY, 'us') + '</svg>';
+
+    // The multiple over time, with parity marked so "9×" has a floor to read from.
+    const W = 560, H = 120, padL = 8, padR = 48, padT = 26, padB = 24;
+    const pts = hist.map((r) => ({ year: r.year, v: r.china_units / r.us_units }));
+    const max = Math.ceil(Math.max(...pts.map((p) => p.v)));
+    const x = (i) => padL + (i * (W - padL - padR)) / (pts.length - 1);
+    const y = (v) => H - padB - (v / max) * (H - padT - padB);
+    const p0 = pts[0], pN = pts[pts.length - 1];
+    const trend = `<svg class="gap-trend" viewBox="0 0 ${W} ${H}" role="img" ` +
+      `aria-label="${escapeHTML(`China's installs as a multiple of America's: ${p0.v.toFixed(1)} in ${p0.year}, ${pN.v.toFixed(1)} in ${pN.year}`)}">` +
+      `<line class="parity" x1="${padL}" x2="${W - padR}" y1="${y(1)}" y2="${y(1)}"></line>` +
+      `<text class="axis-label" x="${W - padR + 6}" y="${y(1) + 4}">parity</text>` +
+      `<polyline class="ratio" points="${pts.map((p, i) => `${x(i).toFixed(1)},${y(p.v).toFixed(1)}`).join(' ')}"></polyline>` +
+      `<circle class="start" cx="${x(0)}" cy="${y(p0.v)}" r="4"></circle>` +
+      `<circle class="end" cx="${x(pts.length - 1)}" cy="${y(pN.v)}" r="4"></circle>` +
+      `<text class="axis-label" x="${x(0)}" y="${y(p0.v) + 20}">${p0.v.toFixed(1)}× in ${escapeHTML(p0.year)}</text>` +
+      `<text class="gap-end" x="${x(pts.length - 1)}" y="${y(pN.v) - 12}" text-anchor="end">${pN.v.toFixed(1)}× in ${escapeHTML(pN.year)}</text>` +
+      '</svg>';
+
+    const sources = [...new Set(hist.flatMap((r) => r.sources || []))];
+    return `<div class="gap-copy">
+        <p class="gap-figure tnum">${ratio}×</p>
+        <p class="gap-claim">China installed ${escapeHTML(words)} as many industrial robots as the <span class="us">United States</span> in ${escapeHTML(last.year)}.</p>
+        <p class="gap-body">${formatNumber(last.china_units)} went into Chinese factories and ${formatNumber(last.us_units)} into American ones. The rest of the world installed ${formatNumber(last.row_units)}. The year-by-year series is on <a href="supply-chain.html">Supply chain</a>.</p>
+        <p class="chart-source">Sources: ${srcLinks(sources)}</p>
+      </div>
+      <figure class="gap-figs">
+        ${waffle}
+        <div class="chart-legend">
+          <span><span class="dot gap-cn"></span>China <strong class="tnum">${formatNumber(last.china_units)}</strong></span>
+          <span><span class="dot gap-us"></span>United States <strong class="tnum">${formatNumber(last.us_units)}</strong></span>
+          <span>One dot is 1,000 robots</span>
+        </div>
+        ${trend}
+        <figcaption>China's installations as a multiple of America's, ${escapeHTML(first.year)} to ${escapeHTML(last.year)}.</figcaption>
+      </figure>`;
+  }
+
+  /* ---------- Edge board (index.html) ----------
+     One square per US-vs-China measure, coloured by that measure's editorial
+     edge call, grouped by china.html section. Deliberately no total: the site
+     describes, it does not score (see CLAUDE.md, "The site describes"). */
+  const EDGE_ORDER = { us: 0, even: 1, china: 2 };
+  const EDGE_LABEL = { us: 'US ahead', china: 'China ahead', even: 'neither ahead, or not comparable' };
+
+  function renderEdgeBoard(uc) {
+    const sections = (uc && uc.sections) || [];
+    return sections.map((s) => {
+      const ms = (s.metrics || []).filter((m) => EDGE_ORDER[m.edge] !== undefined)
+        .sort((a, b) => EDGE_ORDER[a.edge] - EDGE_ORDER[b.edge]);
+      if (!ms.length) return '';
+      const n = (e) => ms.filter((m) => m.edge === e).length;
+      const marks = ms.map((m) =>
+        `<li class="edge-mark edge-${m.edge}" title="${escapeHTML(m.metric)}"><span class="sr-only">${escapeHTML(m.metric)}: ${EDGE_LABEL[m.edge]}</span></li>`).join('');
+      return `<div class="edge-row">
+          <h3><a href="china.html#sec-${encodeURIComponent(s.id)}">${escapeHTML(s.title.split(' — ')[0])}</a></h3>
+          <ul class="edge-marks">${marks}</ul>
+          <p class="edge-tally tnum">US ${n('us')}, China ${n('china')}, neither ${n('even')}</p>
+        </div>`;
+    }).join('');
   }
 
   /* ---------- Front page furniture (index.html) ----------
@@ -1028,8 +1204,9 @@
 
   // Front-page themes: the section is the site's only home for themes (the
   // separate Themes page was folded in, 2026-11-02), so every theme renders with
-  // its narrative, and its figures and sources sit behind one collapsed toggle.
-  // The direction pill is left off: it read "Accelerating" on every card.
+  // its whole note, figures and sources. Each is one disclosure row, closed:
+  // eight cards with a lead sentence each ran two phone screens (2026-11-11),
+  // and a list of names is what a reader scans to pick one.
   function renderThemeCards(themes) {
     return (themes || []).map((t) => {
       const metrics = (t.key_metrics || []).map((m) => {
@@ -1042,38 +1219,28 @@
       }).join('');
       const sources = (t.narrative_sources || []).map((s) =>
         `<li><a href="${escapeHTML(safeURL(s.url))}" target="_blank" rel="noopener">${escapeHTML(s.label || urlHostname(s.url))}</a></li>`).join('');
-      // First sentence shows; the rest of the note joins the figures behind the toggle.
-      // Full notes ran the section to 3.5 phone screens (2026-11-10). The split needs a
-      // lowercase letter, digit, % or ) before the stop, so "U.S. Robot" stays whole,
-      // and skips common abbreviations ("vs. China", "Inc. The", "No. 5").
-      const [lead, ...restParts] = String(t.narrative || '').split(/(?<=[a-z0-9%)][.!?])(?<!\b(?:vs|approx|Inc|Corp|Co|Ltd|No|Jr|Sr|St|e\.g|i\.e)\.)\s+(?=[A-Z0-9])/);
-      const rest = restParts.join(' ');
       return `
-      <article class="card theme-card" id="theme-${escapeHTML(t.id)}">
-        <h3 class="card-title">${escapeHTML(t.name)}</h3>
-        <p class="card-sub">${escapeHTML(lead)}</p>
-        ${rest || metrics || sources ? `<details class="theme-more"><summary>${rest ? 'More, with figures and sources' : 'Figures and sources'}</summary>
-          ${rest ? `<p class="card-sub">${escapeHTML(rest)}</p>` : ''}
+      <details class="theme-row" id="theme-${escapeHTML(t.id)}">
+        <summary><h3 class="theme-name">${escapeHTML(t.name)}</h3></summary>
+        <div class="theme-body">
+          ${t.narrative ? `<p>${escapeHTML(t.narrative)}</p>` : ''}
           ${metrics ? `<ul class="theme-metrics">${metrics}</ul>` : ''}
           ${sources ? `<ul class="theme-sources">${sources}</ul>` : ''}
-        </details>` : ''}
-      </article>
-    `;
+        </div>
+      </details>`;
     }).join('');
   }
 
+  // One row per company, ranked by valuation: name, where and what, value.
+  // Six cards with a two-line table each ran 1.3 phone screens (2026-11-11).
   function renderTopCompanies(companies) {
     const top = sortBy(companies || [], (c) => c.latest_valuation_usd || 0, 'desc').slice(0, 6);
     return top.map((c) => `
-      <a class="card card-hoverable" href="companies.html?focus=${encodeURIComponent(c.id)}" style="color:inherit;border-bottom:none;">
-        <h3 class="card-title">${escapeHTML(c.name)}</h3>
-        <div class="card-sub">${escapeHTML(prettyHQ(c.hq))} · ${escapeHTML(prettyUseCase(c.primary_use_case))}</div>
-        <dl class="kv" style="grid-template-columns:auto 1fr;gap:2px 12px;">
-          <dt>Valuation</dt><dd class="tnum">${formatUSD(c.latest_valuation_usd, { fallback: 'Not disclosed' })}</dd>
-          <dt>Total raised</dt><dd class="tnum">${formatUSD(c.total_funding_usd, { fallback: '—' })}</dd>
-        </dl>
-      </a>
-    `).join('');
+      <li><a href="companies.html?focus=${encodeURIComponent(c.id)}">
+        <span class="rank-name">${escapeHTML(c.name)}</span>
+        <span class="rank-meta">${escapeHTML(prettyHQ(c.hq))} · ${escapeHTML(prettyUseCase(c.primary_use_case))}</span>
+        <span class="rank-value tnum">${formatUSD(c.latest_valuation_usd, { fallback: 'Not disclosed' })}</span>
+      </a></li>`).join('');
   }
 
   // ---------- SCSP robotics commission report (data/scsp-robotics-commission-2026.json) ----------
@@ -1446,6 +1613,7 @@
   // ---------- Boot sequence ----------
   function init() {
     initThemePicker();
+    initBackToTop();
     highlightActiveNav();   // must precede initResponsiveNav — it marks the
     initResponsiveNav();    // link the overflow layout is required to keep inline
     loadHeaderUpdated();
@@ -1500,12 +1668,15 @@
     renderChinaScoreline,
     renderChinaScoreBar,
     renderChinaSections,
+    renderChinaPlans,
     renderUnitreeRows,
     chinaMethodNote,
     computeKPIs,
     kpiStripClass,
     renderKPICards,
     renderKPIStrip,
+    renderInstallGap,
+    renderEdgeBoard,
     frontPageStories,
     renderLeadStory,
     renderTopStories,

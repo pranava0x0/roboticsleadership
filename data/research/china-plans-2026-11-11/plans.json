@@ -1,0 +1,2160 @@
+{
+ "captured_at": "2026-11-11",
+ "plans": [
+  {
+   "id": "beijing-embodied-ai-2026-2028",
+   "series": "beijing-robotics",
+   "title_en": "Beijing Embodied-AI Robot Industry High-Quality Development Action Plan (2026-2028)",
+   "title_zh": "北京市具身智能机器人产业高质量发展行动方案（2026—2028年）",
+   "issuer_en": "Beijing Municipal Bureau of Economy and Information Technology",
+   "issuer_zh": "北京市经济和信息化局",
+   "level": "municipal",
+   "issued": "2026-11-11",
+   "period": "2026-2028",
+   "doc_number": "京经信发〔2026〕54号",
+   "url_zh": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+   "url_en": null,
+   "translation": "ours",
+   "status": "in force",
+   "targets": [
+    {
+     "category": "firms",
+     "text_en": "At least 5 internationally first-class and 10 domestically leading humanoid whole-robot firms cultivated by 2028 (overall goal)",
+     "quote_zh": "培育不少于5家国际一流、10家国内领先的人形机器人整机企业",
+     "section": "Preamble (总体目标)",
+     "value": 5,
+     "unit": "internationally first-class firms (plus 10 domestic-leading)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "firms",
+     "text_en": "Domestic-leading humanoid whole-robot firms (same sentence)",
+     "quote_zh": "10家国内领先的人形机器人整机企业",
+     "section": "Preamble (总体目标)",
+     "value": 10,
+     "unit": "domestic-leading firms",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "production",
+     "text_en": "Beijing-Tianjin-Hebei whole-robot capacity at 25% of national total",
+     "quote_zh": "京津冀区域整机产能占全国25%",
+     "section": "Preamble (总体目标)",
+     "value": 25,
+     "unit": "% of national whole-robot capacity",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "parts-localization",
+     "text_en": "Key-component supporting rate above 60% (preamble: Beijing-Tianjin-Hebei region)",
+     "quote_zh": "关键零部件配套率超过60%",
+     "section": "Preamble (总体目标)",
+     "value": 60,
+     "unit": "% supporting rate (floor)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "data",
+     "text_en": "Build national embodied-AI data infrastructure: >1 million hours of high-quality data collected in >=100 real scenarios",
+     "quote_zh": "在不少于100个真实场景中采集超过100万小时的高质量数据",
+     "section": "Art. 2 (一、实施具身智能跃升工程)",
+     "value": 1000000,
+     "unit": "hours of data",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "data",
+     "text_en": "Number of real scenarios for data collection",
+     "quote_zh": "在不少于100个真实场景中采集",
+     "section": "Art. 2",
+     "value": 100,
+     "unit": "real scenarios (floor)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "compute",
+     "text_en": "Newly built dedicated embodied-AI compute clusters totalling >50,000 PFlops",
+     "quote_zh": "新增建设总规模超过50000PFlops的具身智能专用算力集群",
+     "section": "Art. 3",
+     "value": 50000,
+     "unit": "PFlops (precision unspecified in text)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "standards",
+     "text_en": "Build world's first embodied-AI model test field based on real application scenarios; neutral evaluation/certification platform",
+     "quote_zh": "构建全球首个基于真实应用场景、提供多样化本体的具身智能模型测试场",
+     "section": "Art. 4",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "Ontology platform: rated payload >=40% of own weight",
+     "quote_zh": "力争整机额定负载达到自重的40%以上",
+     "section": "Art. 5 (二、京津冀产业链协进工程)",
+     "value": 40,
+     "unit": "% of self-weight",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "MTBF > 2,000 hours",
+     "quote_zh": "平均无故障工作时间超过2000小时",
+     "section": "Art. 5",
+     "value": 2000,
+     "unit": "hours MTBF",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "Annual failure rate of core moving parts and end effectors <10%",
+     "quote_zh": "核心运动部件和末端执行器年故障率低于10%",
+     "section": "Art. 5",
+     "value": 10,
+     "unit": "% annual failure rate (ceiling)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "Design service life >5 years",
+     "quote_zh": "整机设计使用寿命超过5年",
+     "section": "Art. 5",
+     "value": 5,
+     "unit": "years",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "Battery endurance >=4 hours under continuous operation",
+     "quote_zh": "连续作业工况下电池续航4小时以上",
+     "section": "Art. 5",
+     "value": 4,
+     "unit": "hours",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "3-5 international-first-class whole-robot platforms (serialised, modular, software-defined)",
+     "quote_zh": "打造3—5种满足多样化场景规模部署要求，系列化、模块化、可通过软件定义产品的国际一流整机平台",
+     "section": "Art. 5",
+     "value": 5,
+     "unit": "platforms (range 3-5)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "parts-localization",
+     "text_en": "Motor torque density 60 N·m/kg",
+     "quote_zh": "扭矩密度60牛米/千克的高效率、高可靠电机",
+     "section": "Art. 6",
+     "value": 60,
+     "unit": "N·m/kg",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "parts-localization",
+     "text_en": "Precision reducer rated life >15,000 hours",
+     "quote_zh": "额定寿命1.5万小时以上的高精度减速器",
+     "section": "Art. 6",
+     "value": 15000,
+     "unit": "hours",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "parts-localization",
+     "text_en": "Integrated joint module: torque density 100 N·m/kg, transmission efficiency >=85%",
+     "quote_zh": "扭矩密度100牛米/千克、传动效率85%以上的高能效一体化关节模组",
+     "section": "Art. 6",
+     "value": 100,
+     "unit": "N·m/kg (efficiency >=85%)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "parts-localization",
+     "text_en": "Six-axis force sensor: full-scale linearity error <=0.1%, dynamic response better than 5 kHz",
+     "quote_zh": "满量程线性误差不高于0.1%、动态响应优于5kHz的六维力传感器",
+     "section": "Art. 6",
+     "value": 0.1,
+     "unit": "% linearity error (5 kHz response)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "parts-localization",
+     "text_en": "Tactile sensor: force resolution <=0.01 N, spatial resolution <=1 mm",
+     "quote_zh": "力分辨率≤0.01牛、空间分辨率≤1毫米的触觉传感器",
+     "section": "Art. 6",
+     "value": 0.01,
+     "unit": "N force resolution",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "parts-localization",
+     "text_en": "Dexterous hand: 1 million-cycle rated load life, 0.1 N fingertip force-control resolution, unit cost within 10,000 yuan",
+     "quote_zh": "额定负载寿命100万次、指尖力控分辨率0.1牛、单只成本万元以内的高可靠、高自由度灵巧手",
+     "section": "Art. 6",
+     "value": 10000,
+     "unit": "CNY per hand (ceiling; 'within 1 wan yuan')",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "parts-localization",
+     "text_en": "Battery energy density 350 Wh/kg, cycle life 1,500",
+     "quote_zh": "能量密度350瓦时/千克、循环寿命1500次的高安全性电池",
+     "section": "Art. 6",
+     "value": 350,
+     "unit": "Wh/kg (1,500 cycles)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "parts-localization",
+     "text_en": "Biomimetic face: response latency <50 ms, >200 expressions reproducible",
+     "quote_zh": "交互响应延迟低于50毫秒、可复现200种以上表情的高拟人度仿生脸",
+     "section": "Art. 6",
+     "value": 50,
+     "unit": "ms latency (ceiling; >200 expressions)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "production",
+     "text_en": "Whole-robot production capacity of 200,000 units/year in Beijing",
+     "quote_zh": "在京形成20万台/年的整机生产能力",
+     "section": "Art. 7",
+     "value": 200000,
+     "unit": "units/year (Beijing; humanoid vs all embodied robots not specified)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "At least 5 embodied-AI robot manufacturing-service platforms (pilot verification)",
+     "quote_zh": "建设不少于5个具身智能机器人制造服务平台",
+     "section": "Art. 7",
+     "value": 5,
+     "unit": "platforms (floor)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "parts-localization",
+     "text_en": "Beijing-Tianjin-Hebei supporting rate above 60% (Art. 7)",
+     "quote_zh": "京津冀配套率超过60%",
+     "section": "Art. 7",
+     "value": 60,
+     "unit": "% supporting rate (floor)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "At least 10 shared processing platforms in Beijing-Tianjin-Hebei; sample delivery after design change cut to 1-2 days",
+     "quote_zh": "建设不少于10个具备结构件加工、表面处理及热处理、SMT贴片、线束制造等环节快速响应服务能力的共享加工平台",
+     "section": "Art. 7",
+     "value": 10,
+     "unit": "platforms (floor)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "At least 20 benchmark industrial application scenarios",
+     "quote_zh": "形成不少于20个工业领域标杆应用场景",
+     "section": "Art. 11 (四、实施规模应用推广工程)",
+     "value": 20,
+     "unit": "scenarios (floor)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "At least 20 benchmark service-sector scenarios",
+     "quote_zh": "形成不少于20个服务领域标杆应用场景",
+     "section": "Art. 11",
+     "value": 20,
+     "unit": "scenarios (floor)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "At least 10 benchmark special-sector scenarios",
+     "quote_zh": "形成不少于10个特种领域的标杆应用场景",
+     "section": "Art. 11",
+     "value": 10,
+     "unit": "scenarios (floor)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "At least 15 scalable solutions",
+     "quote_zh": "凝练形成不少于15个可规模推广的解决方案",
+     "section": "Art. 12",
+     "value": 15,
+     "unit": "solutions (floor)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "firms",
+     "text_en": "Cultivate at least 200 tech/innovative SMEs, high-tech, specialised-new, little-giant, single-champion firms",
+     "quote_zh": "培育不少于200家科技和创新型中小企业",
+     "section": "Art. 14 (五、实施产业生态引领工程)",
+     "value": 200,
+     "unit": "firms (floor)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "talent",
+     "text_en": "Establish 100 robot research teams at Beijing universities and institutes",
+     "quote_zh": "推动在在京高校和科研院所建立100个机器人研究团队",
+     "section": "Art. 15",
+     "value": 100,
+     "unit": "research teams",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "standards",
+     "text_en": "Encourage Beijing entities to lead/participate in >=8 international standards",
+     "quote_zh": "不少于8项国际标准",
+     "section": "Art. 16",
+     "value": 8,
+     "unit": "international standards (floor)",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "standards",
+     "text_en": "...>=30 national standards",
+     "quote_zh": "30项国家标准",
+     "section": "Art. 16",
+     "value": 30,
+     "unit": "national standards",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "standards",
+     "text_en": "...>=70 industry and group standards; national-standard drafting participation rate >=90%",
+     "quote_zh": "70项行业标准和团体标准，国家标准参编率90%以上",
+     "section": "Art. 16",
+     "value": 70,
+     "unit": "industry/group standards",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "Third-party testing and certification centres; 'one machine, one code' lifecycle identity system",
+     "quote_zh": "构建具身智能机器人“一机一码”全过程管理体系",
+     "section": "Art. 19 (六、实施安全治理先行工程)",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2028",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    }
+   ],
+   "funds": [
+    {
+     "category": "funding",
+     "text_en": "Dedicated support policies to raise funding for key-tech breakthroughs, product R&D, pilot capacity and flagship scenarios; no amount stated",
+     "quote_zh": "制定专项支持政策，加大对关键技术攻关、创新产品研发、中试能力建设和典型场景应用等方面的资金支持力度",
+     "section": "Art. 七 (保障措施)",
+     "value": null,
+     "unit": "no amount disclosed",
+     "deadline": "2028",
+     "kind": "fund",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "funding",
+     "text_en": "Government guidance funds to lead and draw in market-based capital; no amount stated",
+     "quote_zh": "进一步发挥政府引导基金引领和带动作用，引导市场化资金支持产业发展",
+     "section": "Art. 七",
+     "value": null,
+     "unit": "no amount disclosed",
+     "deadline": "2028",
+     "kind": "fund",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "funding",
+     "text_en": "Financial leasing and application insurance tools for deployment",
+     "quote_zh": "创新利用融资租赁、应用保险等金融保险工具",
+     "section": "Art. 12",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2028",
+     "kind": "fund",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    },
+    {
+     "category": "funding",
+     "text_en": "'One-to-one' listing service mechanism for embodied-AI robot firms",
+     "quote_zh": "建立具身智能机器人企业上市“一对一”服务机制",
+     "section": "Art. 14",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2028",
+     "kind": "fund",
+     "source_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
+     "secondary": false
+    }
+   ],
+   "changes_from_previous": [
+    {
+     "previous_id": "beijing-embodied-ai-2025-2027",
+     "what_changed": "Firm target tightens from >=50 core chain firms to a named tier: >=5 internationally first-class + 10 domestic-leading humanoid makers plus >=200 SME/high-tech firms. Output goes from '>10,000 units total scale (2027)' to '200,000 units/yr capacity in Beijing (2028)' (capacity vs production, not like-for-like). Data goal changes unit from a ten-million-item dataset to >1,000,000 hours from >=100 real scenarios. New in 2026: >50,000 PFlops compute, BTH 25% of national whole-robot capacity, >60% key-part supporting rate, component specs (e.g. motor 60 N·m/kg, reducer 15,000 h, dexterous hand under RMB 10,000), 8/30/70 standards, 100 university teams, safety-governance programme ('one machine, one code'). Dropped: the 'RMB 100bn-class cluster' wording and the 'at least 100 scaled applications' count (replaced by 50 benchmark scenarios + 15 solutions)."
+    },
+    {
+     "previous_id": "beijing-robotics-2023-2025",
+     "what_changed": "From a revenue target (core robot industry >RMB 30bn by 2025, 100 products, 100 scenarios) to hardware, compute, data and parts-localization targets; no revenue target in 2026."
+    }
+   ],
+   "notes": "Official page metadata: 实施日期 2026-11-11, 废止日期 2028-12-31, doc no. 京经信发〔2026〕54号; plan states validity to 2028-12-31 (本方案自印发之日起实施，有效期至2028年12月31日). Seven engineering programmes (跃升, 京津冀产业链协进, 技术创新策源, 规模应用推广, 产业生态引领, 安全治理先行) + 保障措施; 19 numbered articles. The 'Beijing-Tianjin-Hebei 25% of national whole-robot capacity' and '>60% key-component supporting rate' are stated in the preamble goal; Art. 7 repeats >60% for BTH. 200,000 units/yr is Beijing-only whole-robot capacity, and the plan text does not say humanoid-only. PFlops precision (FP16/FP8/etc.) not specified. No fund amount (yuan) stated anywhere. Companion page '一图读懂' exists but not fetched."
+  },
+  {
+   "id": "beijing-robotics-2023-2025",
+   "series": "beijing-robotics",
+   "title_en": "Beijing Robotics Industry Innovation and Development Action Plan (2023-2025)",
+   "title_zh": "北京市机器人产业创新发展行动方案（2023—2025年）",
+   "issuer_en": "General Office of Beijing Municipal People's Government (drafted by Beijing Municipal Bureau of Economy and Information Technology)",
+   "issuer_zh": "北京市人民政府办公厅（北京市经济和信息化局起草）",
+   "level": "municipal",
+   "issued": "2023-06-28",
+   "period": "2023-2025",
+   "url_zh": "https://www.beijing.gov.cn/hudong/gfxwjzj/zjxx/202304/P020230421551196037459.docx",
+   "url_en": null,
+   "translation": "ours",
+   "status": "expired",
+   "targets": [
+    {
+     "category": "production",
+     "text_en": "Core robot industry revenue above RMB 30 billion by 2025",
+     "quote_zh": "到2025年北京市机器人核心产业收入达到300亿元以上",
+     "section": "Main goal (final text per Xinhua); draft 一(二)",
+     "value": 30000000000,
+     "unit": "CNY revenue",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://cs.com.cn/xwzx/hg/202306/t20230629_6352980.html",
+     "secondary": true,
+     "note": "Xinhua report of final plan. Draft wording: 全市机器人核心产业收入达到300亿元以上 (draft source URL below)"
+    },
+    {
+     "category": "production",
+     "text_en": "Draft text: core robot industry revenue >RMB 30bn",
+     "quote_zh": "全市机器人核心产业收入达到300亿元以上",
+     "section": "一、总体要求 (二)主要目标 [DRAFT 征求意见稿]",
+     "value": 30000000000,
+     "unit": "CNY",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/hudong/gfxwjzj/zjxx/202304/P020230421551196037459.docx",
+     "draft": true,
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "Cultivate 100 high-tech high-value robot products and 100 application scenarios with national replication value",
+     "quote_zh": "培育100种高技术高附加值机器人产品、100种具有全国推广价值的应用场景",
+     "section": "Main goal (final per Xinhua)",
+     "value": 100,
+     "unit": "products and 100 scenarios",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://cs.com.cn/xwzx/hg/202306/t20230629_6352980.html",
+     "secondary": true
+    },
+    {
+     "category": "other",
+     "text_en": "Robot density (robots per 10,000 workers) to reach world-leading level -- final version only; no numeric value; not in draft",
+     "quote_zh": "万人机器人拥有量达到世界领先水平",
+     "section": "Main goal (final per Xinhua)",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://cs.com.cn/xwzx/hg/202306/t20230629_6352980.html",
+     "secondary": true
+    },
+    {
+     "category": "firms",
+     "text_en": "Draft: cultivate 100 specialised-new 'little giant' firms",
+     "quote_zh": "100家专精特新“小巨人”企业",
+     "section": "一(二) [DRAFT only; not confirmed in final]",
+     "value": 100,
+     "unit": "firms",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/hudong/gfxwjzj/zjxx/202304/P020230421551196037459.docx",
+     "draft": true,
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "Draft: build 5 national robot industry public-service platforms",
+     "quote_zh": "建成5个国家级机器人产业公共服务平台",
+     "section": "一(二) [DRAFT only]",
+     "value": 5,
+     "unit": "platforms",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/hudong/gfxwjzj/zjxx/202304/P020230421551196037459.docx",
+     "draft": true,
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "Draft: set up Beijing Humanoid Robot Industry Innovation Center; bid for national manufacturing innovation centre",
+     "quote_zh": "组建北京市人形机器人产业创新中心，争创国家级制造业创新中心",
+     "section": "二(一) 加紧布局人形机器人 [DRAFT]",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/hudong/gfxwjzj/zjxx/202304/P020230421551196037459.docx",
+     "draft": true,
+     "secondary": false
+    }
+   ],
+   "funds": [
+    {
+     "category": "funding",
+     "text_en": "Draft: use high-end industry special funds and first-set (首台套) policy via sales subsidies and government purchase; no amount",
+     "quote_zh": "利用高精尖产业及相关专项资金、首台（套）等政策，研究通过销售补贴、政府购买服务等方式",
+     "section": "七、保障措施 [DRAFT]",
+     "value": null,
+     "unit": "no amount disclosed",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://www.beijing.gov.cn/hudong/gfxwjzj/zjxx/202304/P020230421551196037459.docx",
+     "draft": true,
+     "secondary": false
+    }
+   ],
+   "changes_from_previous": [],
+   "notes": "The official final text page on beijing.gov.cn was NOT found/fetched; the only primary-source full text is the 2023-04 consultation draft (征求意见稿). Final-version headline targets are from Xinhua (via China Securities Journal) quoting the issued plan, which adds a robot-density goal absent from the draft; draft's '100 little-giant firms' and '5 national platforms' are not mentioned in Xinhua's summary (not confirmed in final). Issue date 2023-06-28 per secondary news reports (Xinhua report is dated 06-29 'recently issued'); doc number not verified. First Beijing plan to name humanoid as the 'lead' of a '1+4' product system."
+  },
+  {
+   "id": "beijing-embodied-ai-2025-2027",
+   "series": "beijing-robotics",
+   "title_en": "Beijing Embodied-AI Science & Technology Innovation and Industry Cultivation Action Plan (2025-2027)",
+   "title_zh": "北京具身智能科技创新与产业培育行动计划（2025-2027年）",
+   "issuer_en": "Beijing Municipal Commission of Science and Technology and Zhongguancun Science Park Administrative Committee (with Municipal Economy & IT Bureau; Haidian; Beijing E-Town)",
+   "issuer_zh": "北京市科学技术委员会、中关村科技园区管理委员会（联合北京市经济和信息化局等）",
+   "level": "municipal",
+   "issued": "2025-02-28",
+   "period": "2025-2027",
+   "url_zh": "https://kw.beijing.gov.cn/zmhd/dczj/202501/P020250311510437168216.docx",
+   "url_en": null,
+   "translation": "ours",
+   "status": "in force (runs to 2027; overlaps the 2026-2028 plan)",
+   "targets": [
+    {
+     "category": "firms",
+     "text_en": "At least 50 core upstream/downstream industry-chain firms",
+     "quote_zh": "培育产业链上下游核心企业不少于50家",
+     "section": "二、发展目标",
+     "value": 50,
+     "unit": "firms (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://kw.beijing.gov.cn/zmhd/dczj/202501/P020250311510437168216.docx",
+     "secondary": false
+    },
+    {
+     "category": "production",
+     "text_en": "At least 50 mass-produced products",
+     "quote_zh": "形成量产产品不少于50款",
+     "section": "二、发展目标",
+     "value": 50,
+     "unit": "products (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://kw.beijing.gov.cn/zmhd/dczj/202501/P020250311510437168216.docx",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "At least 100 scaled industry applications",
+     "quote_zh": "实现规模化行业应用不少于100项",
+     "section": "二、发展目标",
+     "value": 100,
+     "unit": "applications (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://kw.beijing.gov.cn/zmhd/dczj/202501/P020250311510437168216.docx",
+     "secondary": false
+    },
+    {
+     "category": "production",
+     "text_en": "Mass-production scale to be first in country to exceed 10,000 units (cumulative vs annual not specified)",
+     "quote_zh": "量产总规模率先突破万台",
+     "section": "二、发展目标",
+     "value": 10000,
+     "unit": "units (ambiguous: 总规模 = total scale)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://kw.beijing.gov.cn/zmhd/dczj/202501/P020250311510437168216.docx",
+     "secondary": false
+    },
+    {
+     "category": "data",
+     "text_en": "Build a 'ten-million-item' scale high-quality multimodal embodied dataset",
+     "quote_zh": "构建千万条规模的高质量、多模态具身数据集",
+     "section": "二、发展目标",
+     "value": 10000000,
+     "unit": "data items/trajectories (unit ambiguous: 条)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://kw.beijing.gov.cn/zmhd/dczj/202501/P020250311510437168216.docx",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "2-3 embodied-AI industrial clusters; 1 industry-education integration base",
+     "quote_zh": "建设2-3个具身智能特色产业集群，打造1个具身智能领域产教融合基地",
+     "section": "二、发展目标",
+     "value": 3,
+     "unit": "clusters (range 2-3; press conference says >=2 clusters)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://kw.beijing.gov.cn/zmhd/dczj/202501/P020250311510437168216.docx",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "Cultivate a RMB 100-billion-class embodied-AI cluster (press-conference wording)",
+     "quote_zh": "培育千亿级具身智能产业集群",
+     "section": "三、重点任务 (产业培育)",
+     "value": 100000000000,
+     "unit": "CNY (cluster output; 千亿 = 100 bn)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://kw.beijing.gov.cn/zmhd/dczj/202501/P020250311510437168216.docx",
+     "secondary": false
+    }
+   ],
+   "funds": [
+    {
+     "category": "funding",
+     "text_en": "Link national, municipal and district funds; municipal AI industry investment fund and robot industry development investment fund as guides; no amount in plan",
+     "quote_zh": "发挥市级人工智能产业投资基金、机器人产业发展投资基金的引导作用",
+     "section": "三、重点任务",
+     "value": null,
+     "unit": "no amount in plan",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://kw.beijing.gov.cn/zmhd/dczj/202501/P020250311510437168216.docx",
+     "secondary": false
+    },
+    {
+     "category": "funding",
+     "text_en": "Beijing Development & Reform Commission: investment support for embodied-AI projects up to RMB 100 million per project (stated at press conference as measures being drafted)",
+     "quote_zh": "单个项目支持项目金额最高可达到1亿元",
+     "section": "Press conference remarks, NDRC-Beijing official Xia Yi",
+     "value": 100000000,
+     "unit": "CNY per project (ceiling)",
+     "deadline": "2027",
+     "kind": "fund",
+     "source_url": "https://www.ncsti.gov.cn/kcfw/hkt/fbh/202504/t20250411_201360.html",
+     "secondary": false
+    }
+   ],
+   "changes_from_previous": [
+    {
+     "previous_id": "beijing-robotics-2023-2025",
+     "what_changed": "Subject narrows from all robots ('1+4' product system, revenue-based) to embodied AI only; metric shifts from sector revenue (RMB 300bn robots) to counts (50 firms, 50 products, 100 applications, 10,000 units) and a data set (ten-million items). First numeric volume target for units."
+    }
+   ],
+   "notes": "Text file hosted on kw.beijing.gov.cn consultation (调查征集) path but uploaded 2025-03-11 after the 2025-02-28 launch; its numeric goals match the official press conference (>=50 core firms, 10,000-unit scale, >=2 clusters, ~100 key technologies, >=10 world-leading products). Not confirmed whether file is the final issued text; issuer list from press conference: 市科委、中关村管委会, 市经信局, 海淀区, 北京经开区. Press conference also stated: break through 100+ key technologies and >=10 world-leading hardware/software products by end-2027 (quote: 预期到2027年底突破百余项关键技术，产出不少于10项世界领先的软硬件产品, ncsti transcript)."
+  },
+  {
+   "id": "national-mic2025",
+   "series": "national-robot-industry",
+   "title_en": "Made in China 2025",
+   "title_zh": "中国制造2025",
+   "issuer_en": "State Council",
+   "issuer_zh": "国务院",
+   "level": "national",
+   "issued": "2015-05-19",
+   "period": "2015-2025",
+   "doc_number": "国发〔2015〕28号",
+   "url_zh": "https://www.gov.cn/zhengce/content/2015-05/19/content_9784.htm",
+   "url_en": null,
+   "translation": "ours",
+   "status": "expired",
+   "targets": [
+    {
+     "category": "other",
+     "text_en": "Ten key sectors include 'high-end CNC machine tools and robots'; robotics target is qualitative: break through ontology, reducers, servo motors, controllers, sensors and drives",
+     "quote_zh": "突破机器人本体、减速器、伺服电机、控制器、传感器与驱动器等关键零部件及系统集成设计制造等技术瓶颈",
+     "section": "三(二)2. 高档数控机床和机器人",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://www.gov.cn/zhengce/content/2015-05/19/content_9784.htm",
+     "secondary": false
+    },
+    {
+     "category": "parts-localization",
+     "text_en": "General (not robot-specific) target: 40% of core basic parts and key basic materials self-sufficient by 2020",
+     "quote_zh": "40%的核心基础零部件、关键基础材料实现自主保障",
+     "section": "三(四) 强化工业基础能力",
+     "value": 40,
+     "unit": "% (all core basic components, not robot-specific)",
+     "deadline": "2020",
+     "kind": "target",
+     "source_url": "https://www.gov.cn/zhengce/content/2015-05/19/content_9784.htm",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "High-end equipment sectors (incl. robots) autonomously developed and applied by 2020; market share 'greatly raised' by 2025 (no number)",
+     "quote_zh": "到2020年，上述领域实现自主研制及应用。到2025年，自主知识产权高端装备市场占有率大幅提升",
+     "section": "三(二) 大力推动重点领域突破发展 (equipment sectors)",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://www.gov.cn/zhengce/content/2015-05/19/content_9784.htm",
+     "secondary": false
+    }
+   ],
+   "funds": [],
+   "changes_from_previous": [],
+   "notes": "No robot-specific numeric target in the main text. The companion Key-Sector Technology Roadmap (Oct 2015) carried robot numbers (e.g. domestic-brand share) but it was NOT fetched/verified here."
+  },
+  {
+   "id": "national-robot-2016-2020",
+   "series": "national-robot-industry",
+   "title_en": "Robot Industry Development Plan (2016-2020)",
+   "title_zh": "机器人产业发展规划（2016－2020年）",
+   "issuer_en": "MIIT, NDRC, Ministry of Finance",
+   "issuer_zh": "工业和信息化部、国家发展改革委、财政部",
+   "level": "national",
+   "issued": "2016-03-21",
+   "period": "2016-2020",
+   "doc_number": "工信部联规〔2016〕109号",
+   "url_zh": "https://fgw.zibo.gov.cn/art/2021/5/14/art_954_2117541.html",
+   "url_en": null,
+   "translation": "ours",
+   "status": "expired",
+   "targets": [
+    {
+     "category": "production",
+     "text_en": "Domestic-brand industrial robot output of 100,000 units/yr by 2020",
+     "quote_zh": "自主品牌工业机器人年产量达到10万台",
+     "section": "二(二) 发展目标 - 产业规模持续增长",
+     "value": 100000,
+     "unit": "units/year, domestic brands",
+     "deadline": "2020",
+     "kind": "target",
+     "source_url": "https://fgw.zibo.gov.cn/art/2021/5/14/art_954_2117541.html",
+     "secondary": false
+    },
+    {
+     "category": "production",
+     "text_en": "Six-axis-and-above industrial robots >50,000 units/yr",
+     "quote_zh": "六轴及以上工业机器人年产量达到5万台以上",
+     "section": "二(二)",
+     "value": 50000,
+     "unit": "units/year (floor)",
+     "deadline": "2020",
+     "kind": "target",
+     "source_url": "https://fgw.zibo.gov.cn/art/2021/5/14/art_954_2117541.html",
+     "secondary": false
+    },
+    {
+     "category": "production",
+     "text_en": "Service robot annual sales revenue >RMB 30bn",
+     "quote_zh": "服务机器人年销售收入超过300亿元",
+     "section": "二(二)",
+     "value": 30000000000,
+     "unit": "CNY/year (floor)",
+     "deadline": "2020",
+     "kind": "target",
+     "source_url": "https://fgw.zibo.gov.cn/art/2021/5/14/art_954_2117541.html",
+     "secondary": false
+    },
+    {
+     "category": "firms",
+     "text_en": "Cultivate >=3 internationally competitive leading firms; >=5 supporting clusters",
+     "quote_zh": "培育3家以上具有国际竞争力的龙头企业，打造5个以上机器人配套产业集群",
+     "section": "二(二)",
+     "value": 3,
+     "unit": "leading firms (floor); 5 clusters",
+     "deadline": "2020",
+     "kind": "target",
+     "source_url": "https://fgw.zibo.gov.cn/art/2021/5/14/art_954_2117541.html",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "MTBF of industrial robots reaching 80,000 hours",
+     "quote_zh": "平均无故障时间（MTBF）达到8万小时",
+     "section": "二(二) - 技术水平显著提升",
+     "value": 80000,
+     "unit": "hours MTBF",
+     "deadline": "2020",
+     "kind": "target",
+     "source_url": "https://fgw.zibo.gov.cn/art/2021/5/14/art_954_2117541.html",
+     "secondary": false
+    },
+    {
+     "category": "parts-localization",
+     "text_en": "Domestic precision reducers, servo motors/drives, controllers reach foreign-equivalent level; >=50% market share in 6-axis+ robots",
+     "quote_zh": "市场占有率达到50%以上",
+     "section": "二(二) - 关键零部件取得重大突破",
+     "value": 50,
+     "unit": "% domestic share of key components in six-axis+ robots (floor)",
+     "deadline": "2020",
+     "kind": "target",
+     "source_url": "https://fgw.zibo.gov.cn/art/2021/5/14/art_954_2117541.html",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "Complete >=30 typical-sector robot integrated application solutions; robot density reaching 150+",
+     "quote_zh": "完成30个以上典型领域机器人综合应用解决方案",
+     "section": "二(二) - 集成应用取得显著成效",
+     "value": 30,
+     "unit": "solutions (floor); density target 150+ (unit: robots per 10,000 workers presumed, unit not stated in sentence)",
+     "deadline": "2020",
+     "kind": "target",
+     "source_url": "https://fgw.zibo.gov.cn/art/2021/5/14/art_954_2117541.html",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "Robot density reaching 150 or above",
+     "quote_zh": "机器人密度达到150以上",
+     "section": "二(二) - 集成应用取得显著成效",
+     "value": 150,
+     "unit": "density (unit not stated in sentence)",
+     "deadline": "2020",
+     "kind": "target",
+     "source_url": "https://fgw.zibo.gov.cn/art/2021/5/14/art_954_2117541.html",
+     "secondary": false
+    }
+   ],
+   "funds": [
+    {
+     "category": "funding",
+     "text_en": "Use existing channels (industrial upgrade funds, central capital budget investment, central S&T programmes, first-set insurance); no amount stated",
+     "quote_zh": "通过工业转型升级、中央基建投资等现有资金渠道支持机器人及其关键零部件产业化和推广应用",
+     "section": "保障措施 - 财税支持",
+     "value": null,
+     "unit": "no amount disclosed",
+     "deadline": "2020",
+     "kind": "fund",
+     "source_url": "https://fgw.zibo.gov.cn/art/2021/5/14/art_954_2117541.html",
+     "secondary": false
+    }
+   ],
+   "changes_from_previous": [
+    {
+     "previous_id": "national-mic2025",
+     "what_changed": "First numeric robot targets: 100k domestic industrial robots/yr, 50% key-component share, >RMB 30bn service robots; MIC2025 was qualitative."
+    }
+   ],
+   "notes": "Full text read from a municipal NDRC reprint (Zibo), not miit.gov.cn; document number 工信部联规〔2016〕109号 appears in the reprint. Signing date 2016-03-21 per reprint search summary (not re-verified on page)."
+  },
+  {
+   "id": "national-robot-14fyp",
+   "series": "national-robot-industry",
+   "title_en": "14th Five-Year Robot Industry Development Plan",
+   "title_zh": "“十四五”机器人产业发展规划",
+   "issuer_en": "MIIT and 14 other departments (15 in total)",
+   "issuer_zh": "工业和信息化部等十五部门",
+   "level": "national",
+   "issued": "2021-12-21",
+   "period": "2021-2025",
+   "doc_number": "工信部联规〔2021〕206号",
+   "url_zh": "https://www.gov.cn/zhengce/zhengceku/2021-12/28/5664988/files/7cee5d915efa463ab9e7be82228759fb.pdf",
+   "url_en": null,
+   "translation": "ours",
+   "status": "expired",
+   "targets": [
+    {
+     "category": "production",
+     "text_en": "Robot industry revenue annual growth >20% through 2025",
+     "quote_zh": "机器人产业营业收入年均增速超过20%",
+     "section": "二(二) 发展目标 (PDF p.3)",
+     "value": 20,
+     "unit": "% CAGR (floor)",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://www.gov.cn/zhengce/zhengceku/2021-12/28/5664988/files/7cee5d915efa463ab9e7be82228759fb.pdf",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "Manufacturing robot density to double by 2025 (2020 baseline: 246 per 10,000 workers per plan text)",
+     "quote_zh": "制造业机器人密度实现翻番",
+     "section": "二(二)",
+     "value": 2,
+     "unit": "x vs 2020 (doubling)",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://www.gov.cn/zhengce/zhengceku/2021-12/28/5664988/files/7cee5d915efa463ab9e7be82228759fb.pdf",
+     "secondary": false
+    },
+    {
+     "category": "firms",
+     "text_en": "3-5 internationally influential industrial clusters; a group of internationally competitive leaders and 'little giants'",
+     "quote_zh": "建成3～5个有国际影响力的产业集群",
+     "section": "二(二)",
+     "value": 5,
+     "unit": "clusters (range 3-5)",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://www.gov.cn/zhengce/zhengceku/2021-12/28/5664988/files/7cee5d915efa463ab9e7be82228759fb.pdf",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "By 2035 China's robot industry at internationally leading level",
+     "quote_zh": "到2035年，我国机器人产业综合实力达到国际领先水平",
+     "section": "二(二)",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2035",
+     "kind": "target",
+     "source_url": "https://www.gov.cn/zhengce/zhengceku/2021-12/28/5664988/files/7cee5d915efa463ab9e7be82228759fb.pdf",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "Baseline stated: 2020 manufacturing robot density 246 per 10,000 workers, ~2x global average; 2020 industry revenue >RMB 100bn; industrial robot output 212,000 units (descriptive, not a target)",
+     "quote_zh": "2020年制造业机器人密度达到246台/万人",
+     "section": "一、现状与形势 (descriptive)",
+     "value": 246,
+     "unit": "robots per 10,000 workers (2020 baseline)",
+     "deadline": "2020",
+     "kind": "descriptive",
+     "source_url": "https://www.gov.cn/zhengce/zhengceku/2021-12/28/5664988/files/7cee5d915efa463ab9e7be82228759fb.pdf",
+     "secondary": false
+    }
+   ],
+   "funds": [],
+   "changes_from_previous": [
+    {
+     "previous_id": "national-robot-2016-2020",
+     "what_changed": "Output-in-units targets (100k units) replaced by revenue growth (>20%/yr) and robot density (double). Adds 2035 horizon. Key-part market-share number (50%) dropped; 2016 plan's 'density 150' superseded by 'double from 246'."
+    }
+   ],
+   "notes": "PDF from gov.cn; text extraction splits digits with spaces, quotes here are space-stripped. Fiscal-support section (加大财税金融支持) names tax policies and industry funds but no amounts."
+  },
+  {
+   "id": "national-robot-plus-2023",
+   "series": "national-robot-industry",
+   "title_en": "'Robot+' Application Action Implementation Plan",
+   "title_zh": "“机器人+”应用行动实施方案",
+   "issuer_en": "MIIT and 16 other departments (17 in total)",
+   "issuer_zh": "工业和信息化部等十七部门",
+   "level": "national",
+   "issued": "2023-01-18",
+   "period": "2023-2025",
+   "doc_number": "工信部联通装〔2022〕187号",
+   "url_zh": "https://www.miit.gov.cn/threestrategy/zcgh/zlgh/art/2023/art_4c323e0c6861441c91b266a11c97ff2d.html",
+   "url_en": null,
+   "translation": "ours",
+   "status": "expired",
+   "targets": [
+    {
+     "category": "deployment",
+     "text_en": "Manufacturing robot density to double vs 2020 by 2025",
+     "quote_zh": "到2025年，制造业机器人密度较2020年实现翻番",
+     "section": "一(二) 主要目标",
+     "value": 2,
+     "unit": "x vs 2020",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://www.miit.gov.cn/threestrategy/zcgh/zlgh/art/2023/art_4c323e0c6861441c91b266a11c97ff2d.html",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "Focus on 10 key application sectors; break through >=100 innovative application technologies/solutions",
+     "quote_zh": "突破100种以上机器人创新应用技术及解决方案",
+     "section": "一(二)",
+     "value": 100,
+     "unit": "technologies/solutions (floor)",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://www.miit.gov.cn/threestrategy/zcgh/zlgh/art/2023/art_4c323e0c6861441c91b266a11c97ff2d.html",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "Promote >=200 typical application scenarios",
+     "quote_zh": "推广200个以上具有较高技术水平、创新应用模式和显著应用成效的机器人典型应用场景",
+     "section": "一(二)",
+     "value": 200,
+     "unit": "scenarios (floor)",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://www.miit.gov.cn/threestrategy/zcgh/zlgh/art/2023/art_4c323e0c6861441c91b266a11c97ff2d.html",
+     "secondary": false
+    }
+   ],
+   "funds": [],
+   "changes_from_previous": [
+    {
+     "previous_id": "national-robot-14fyp",
+     "what_changed": "Re-states the density-doubling goal and shifts emphasis to application: 100 solutions, 200 scenarios, 10 sectors. No new money."
+    }
+   ],
+   "notes": "Official MIIT mirror used (gov.cn page carries only the cover notice). Page dated 2023-02-06 on MIIT mirror; gov.cn notice 成文日期 2023-01-18, published 2023-01-19."
+  },
+  {
+   "id": "national-humanoid-2023",
+   "series": "national-humanoid",
+   "title_en": "Guiding Opinions on the Innovation and Development of Humanoid Robots",
+   "title_zh": "人形机器人创新发展指导意见",
+   "issuer_en": "Ministry of Industry and Information Technology",
+   "issuer_zh": "工业和信息化部",
+   "level": "national",
+   "issued": "2023-10-20",
+   "period": "2023-2027",
+   "doc_number": "工信部科〔2023〕193号",
+   "url_zh": "https://gxj.lanzhou.gov.cn/art/2023/11/3/art_2700_1294857.html",
+   "url_en": null,
+   "translation": "ours",
+   "status": "in force",
+   "targets": [
+    {
+     "category": "production",
+     "text_en": "By 2025 humanoid whole-robot products at international advanced level and in batch production",
+     "quote_zh": "整机产品达到国际先进水平，并实现批量生产",
+     "section": "一(二) 发展目标",
+     "value": null,
+     "unit": "qualitative; no unit count",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://gxj.lanzhou.gov.cn/art/2023/11/3/art_2700_1294857.html",
+     "secondary": false
+    },
+    {
+     "category": "firms",
+     "text_en": "Cultivate 2-3 globally influential ecosystem-type firms",
+     "quote_zh": "培育2-3家有全球影响力的生态型企业",
+     "section": "一(二) 发展目标",
+     "value": 3,
+     "unit": "firms (range 2-3)",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://gxj.lanzhou.gov.cn/art/2023/11/3/art_2700_1294857.html",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "Create 2-3 industrial clusters",
+     "quote_zh": "打造2-3个产业发展集聚区",
+     "section": "一(二) 发展目标",
+     "value": 3,
+     "unit": "clusters (range 2-3)",
+     "deadline": "2025",
+     "kind": "target",
+     "source_url": "https://gxj.lanzhou.gov.cn/art/2023/11/3/art_2700_1294857.html",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "By 2027: overall strength at world-advanced level, scaled development",
+     "quote_zh": "综合实力达到世界先进水平",
+     "section": "一(二) 发展目标",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://gxj.lanzhou.gov.cn/art/2023/11/3/art_2700_1294857.html",
+     "secondary": false
+    }
+   ],
+   "funds": [
+    {
+     "category": "funding",
+     "text_en": "Implement a humanoid innovation project; use manufacturing transformation-upgrade fund; no amount stated",
+     "quote_zh": "发挥制造业转型升级基金等带动作用",
+     "section": "七(二) 完善产业政策",
+     "value": null,
+     "unit": "no amount disclosed",
+     "deadline": "2027",
+     "kind": "fund",
+     "source_url": "https://gxj.lanzhou.gov.cn/art/2023/11/3/art_2700_1294857.html",
+     "secondary": false
+    }
+   ],
+   "changes_from_previous": [
+    {
+     "previous_id": "national-robot-plus-2023",
+     "what_changed": "Humanoid gets its own national guidance with timeline 2025/2027; still no unit-volume or revenue number."
+    }
+   ],
+   "notes": "Chinese text from Lanzhou municipal MIIT reprint of the notice (also at miit.gov.cn/jgsj/kjs/wjfb/art/2023/art_50316f76a9b1454b898c7bb2a5846b79.html, JS-rendered, text not retrievable). Dated 2023-10-20; publicised 2023-11-02. Reported by Xinhua/Science & Technology Daily (https://www.news.cn/tech/20231103/f76096318e964b13a8c31011de8cda2a/c.html)."
+  },
+  {
+   "id": "national-15fyp-outline",
+   "series": "national-humanoid",
+   "title_en": "Outline of the 15th Five-Year Plan for National Economic and Social Development (2026-2030)",
+   "title_zh": "中华人民共和国国民经济和社会发展第十五个五年规划纲要",
+   "issuer_en": "CPC Central Committee/State Council; approved by NPC 2026-03-12, published by Xinhua 2026-03-13",
+   "issuer_zh": "全国人民代表大会批准；新华社受权播发",
+   "level": "national",
+   "issued": "2026-03-12",
+   "period": "2026-2030",
+   "url_zh": "https://www.ndrc.gov.cn/fggz/fzzlgh/gjfzgh/202603/U020260317369114704096.pdf",
+   "url_en": null,
+   "translation": "ours",
+   "status": "in force",
+   "targets": [
+    {
+     "category": "other",
+     "text_en": "Name embodied intelligence among future industries to become new growth points",
+     "quote_zh": "推动量子科技、生物制造、氢能和核聚变能、脑机接口、具身智能、第六代移动通信等成为新的经济增长点",
+     "section": "第五章第二节 前瞻布局未来产业 (PDF p.19)",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2030",
+     "kind": "target",
+     "source_url": "https://www.ndrc.gov.cn/fggz/fzzlgh/gjfzgh/202603/U020260317369114704096.pdf",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "Robots named a strategic emerging industry to accelerate",
+     "quote_zh": "机器人、生物医药、高端装备、航空航天等战略性新兴产业发展",
+     "section": "第五章第一节 发展壮大新兴产业",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2030",
+     "kind": "target",
+     "source_url": "https://www.ndrc.gov.cn/fggz/fzzlgh/gjfzgh/202603/U020260317369114704096.pdf",
+     "secondary": false
+    },
+    {
+     "category": "data",
+     "text_en": "Embodied-intelligence column: coordinate embodied-AI training grounds; develop integrated brain-cerebellum models; tackle bodies and core components; speed humanoid product upgrades and deployment",
+     "quote_zh": "统筹布局具身智能实训场，推进虚实融合的协同训练与进化，深入研究物理人工智能，研发大小脑一体化的具身模型与算法，攻关本体及核心零部件等关键技术，加速人形机器人等各类形态产品升级和应用落地",
+     "section": "专栏3 新产业新赛道培育发展 · 02 具身智能 (PDF p.20)",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2030",
+     "kind": "target",
+     "source_url": "https://www.ndrc.gov.cn/fggz/fzzlgh/gjfzgh/202603/U020260317369114704096.pdf",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "Apply embodied intelligence to labour-short and high-hazard jobs",
+     "quote_zh": "推动具身智能在劳动力紧缺、环境高危等岗位应用",
+     "section": "专栏 '人工智能+' 民生福祉",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2030",
+     "kind": "target",
+     "source_url": "https://www.ndrc.gov.cn/fggz/fzzlgh/gjfzgh/202603/U020260317369114704096.pdf",
+     "secondary": false
+    }
+   ],
+   "funds": [
+    {
+     "category": "funding",
+     "text_en": "Mechanism for growth of future-industry investment and risk sharing; no amount",
+     "quote_zh": "建立未来产业投入增长和风险分担机制",
+     "section": "第五章第二节",
+     "value": null,
+     "unit": "no amount disclosed",
+     "deadline": "2030",
+     "kind": "fund",
+     "source_url": "https://www.ndrc.gov.cn/fggz/fzzlgh/gjfzgh/202603/U020260317369114704096.pdf",
+     "secondary": false
+    }
+   ],
+   "changes_from_previous": [
+    {
+     "previous_id": "national-humanoid-2023",
+     "what_changed": "Embodied intelligence elevated to the five-year plan's future-industry list and a named column, with training grounds and integrated brain/cerebellum models; still no numeric target."
+    }
+   ],
+   "notes": "Text read from the NDRC-hosted outline PDF (PDF page 19-20, printed page 14-15). No robot unit, revenue or density number found in any text hit for 具身/人形/机器人 (searched all hits)."
+  },
+  {
+   "id": "national-real-world-training-2026",
+   "series": "national-humanoid",
+   "title_en": "2026 Humanoid Robot and Embodied-AI Real-World Training Special Action (notice)",
+   "title_zh": "2026年度人形机器人与具身智能实景实训专项行动",
+   "issuer_en": "MIIT General Office and SASAC General Office",
+   "issuer_zh": "工业和信息化部办公厅、国务院国资委办公厅",
+   "level": "national",
+   "issued": "2026-06-09",
+   "period": "2026",
+   "doc_number": "工信厅联科函〔2026〕256号 (per secondary search summary, not verified on page)",
+   "url_zh": "https://www.news.cn/tech/20260612/a069b3a9948b4e0aaaa94cf3d618e545/c.html",
+   "url_en": "https://www.stdaily.com/web/English/2026-06/22/content_535393.html",
+   "translation": "third-party:Science and Technology Daily (English summary)",
+   "status": "in force",
+   "targets": [
+    {
+     "category": "deployment",
+     "text_en": "By end-2026, key embodied-AI products complete application verification and routine deployment in representative scenarios",
+     "quote_zh": "到2026年底，人形机器人等具身智能重点产品在一批代表性场景中率先完成应用验证和常态部署",
+     "section": "Xinhua/People's Posts & Telecom report of notice",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2026",
+     "kind": "target",
+     "source_url": "https://www.news.cn/tech/20260612/a069b3a9948b4e0aaaa94cf3d618e545/c.html",
+     "secondary": true
+    },
+    {
+     "category": "deployment",
+     "text_en": "Form >100 high-value application scenarios",
+     "quote_zh": "凝练形成百个以上高价值应用场景",
+     "section": "same",
+     "value": 100,
+     "unit": "scenarios (floor, '百个以上')",
+     "deadline": "2026",
+     "kind": "target",
+     "source_url": "https://www.news.cn/tech/20260612/a069b3a9948b4e0aaaa94cf3d618e545/c.html",
+     "secondary": true
+    },
+    {
+     "category": "production",
+     "text_en": "Drive formation of 'ten-thousand-unit-class' scale deployment capability (English-language report renders as '10,000 humanoid robots'; Chinese is 万台级 = order of 10,000, ambiguous)",
+     "quote_zh": "带动形成万台级规模落地能力",
+     "section": "same",
+     "value": 10000,
+     "unit": "units, order of magnitude only (万台级); unit ambiguous",
+     "deadline": "2026",
+     "kind": "target",
+     "source_url": "https://www.news.cn/tech/20260612/a069b3a9948b4e0aaaa94cf3d618e545/c.html",
+     "secondary": true
+    }
+   ],
+   "funds": [
+    {
+     "category": "funding",
+     "text_en": "Provincial MIIT departments and central SOEs to support via special funds and government awards; no amounts",
+     "quote_zh": "各省级工信主管部门、有关央企将通过专项资金、政府奖励支持场景开放、技术攻关、应用推广与标准研制",
+     "section": "same",
+     "value": null,
+     "unit": "no amount disclosed",
+     "deadline": "2026",
+     "kind": "fund",
+     "source_url": "https://www.news.cn/tech/20260612/a069b3a9948b4e0aaaa94cf3d618e545/c.html",
+     "secondary": true
+    }
+   ],
+   "changes_from_previous": [
+    {
+     "previous_id": "national-15fyp-outline",
+     "what_changed": "First national deployment-count targets for embodied AI (100+ scenarios, ~10,000-unit capability), but one-year horizon and ten pilot provinces/municipalities (Beijing, Tianjin, Shanghai, Jiangsu, Zhejiang and others)."
+    }
+   ],
+   "notes": "Original notice text not fetched; figures are from the Xinhua report (which cites People's Posts & Telecommunications News) and a Science & Technology Daily English item. Treat as secondary. Ten provinces/cities named include 北京、天津、上海、江苏、浙江 (Xinhua)."
+  },
+  {
+   "id": "shanghai-embodied-ai-2025",
+   "series": "shanghai-embodied",
+   "title_en": "Shanghai Embodied-AI Industry Development Implementation Plan",
+   "title_zh": "上海市具身智能产业发展实施方案",
+   "issuer_en": "General Office of Shanghai Municipal People's Government",
+   "issuer_zh": "上海市人民政府办公厅",
+   "level": "municipal",
+   "issued": "2025-07-28",
+   "period": "2025-2027 (valid to 2028-07-27)",
+   "doc_number": "沪府办规〔2025〕6号",
+   "url_zh": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+   "url_en": null,
+   "translation": "ours",
+   "status": "in force",
+   "targets": [
+    {
+     "category": "other",
+     "text_en": "Core algorithm/technology breakthroughs (embodied models, corpora) >=20 by 2027",
+     "quote_zh": "核心算法与技术突破不少于20项",
+     "section": "一、主要目标",
+     "value": 20,
+     "unit": "breakthroughs (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "At least 4 high-quality embodied-AI incubators",
+     "quote_zh": "建设不少于4个具身智能高质量孵化器",
+     "section": "一、主要目标",
+     "value": 4,
+     "unit": "incubators (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+     "secondary": false
+    },
+    {
+     "category": "firms",
+     "text_en": "Gather 100 backbone industry firms",
+     "quote_zh": "百家行业骨干企业集聚",
+     "section": "一、主要目标",
+     "value": 100,
+     "unit": "firms",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "100 major innovative application scenarios; 100 internationally leading products",
+     "quote_zh": "百大创新应用场景落地与百件国际领先产品推广",
+     "section": "一、主要目标",
+     "value": 100,
+     "unit": "scenarios and 100 products",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+     "secondary": false
+    },
+    {
+     "category": "production",
+     "text_en": "Core embodied-AI industry scale to break through RMB 50 billion",
+     "quote_zh": "我市具身智能核心产业规模突破500亿元",
+     "section": "一、主要目标",
+     "value": 50000000000,
+     "unit": "CNY output scale",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+     "secondary": false
+    },
+    {
+     "category": "data",
+     "text_en": "Build city-level corpus platform and digital-twin training ground (no numeric volume)",
+     "quote_zh": "建设数字孪生实训场，实现“仿真训练—真实验证—迭代学习”的数字孪生实训闭环",
+     "section": "三(七) 数字孪生实训场",
+     "value": null,
+     "unit": "qualitative",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+     "secondary": false
+    },
+    {
+     "category": "compute",
+     "text_en": "Compute vouchers up to RMB 40 million/yr per firm renting at scale (subsidy cap, not a capacity target)",
+     "quote_zh": "对达到一定算力租用规模的具身智能企业给予最高4000万元/年的算力券支持",
+     "section": "三(六) 算力平台",
+     "value": 40000000,
+     "unit": "CNY/yr cap per firm",
+     "deadline": "2027",
+     "kind": "fund",
+     "source_url": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+     "secondary": false
+    },
+    {
+     "category": "standards",
+     "text_en": "Up to RMB 1 million for firms leading standard drafting",
+     "quote_zh": "对于主导标准制修订项目的企业，给予最高100万元的支持",
+     "section": "六(二十一) 完善标准体系",
+     "value": 1000000,
+     "unit": "CNY cap per project",
+     "deadline": "2027",
+     "kind": "fund",
+     "source_url": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+     "secondary": false
+    }
+   ],
+   "funds": [
+    {
+     "category": "funding",
+     "text_en": "Key-technology R&D support: up to 30% of verified project investment, cap RMB 50 million",
+     "quote_zh": "按照核定项目总投资，给予最高30%且不超过5000万元支持",
+     "section": "二、模型创新驱动",
+     "value": 50000000,
+     "unit": "CNY cap per project",
+     "deadline": "2027",
+     "kind": "fund",
+     "source_url": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+     "secondary": false
+    },
+    {
+     "category": "funding",
+     "text_en": "Corpus vouchers up to RMB 5 million/yr per buyer",
+     "quote_zh": "对购买语料服务产品的企业给予最高500万元/年的语料券支持",
+     "section": "二(四) 具身语料技术",
+     "value": 5000000,
+     "unit": "CNY/yr cap",
+     "deadline": "2027",
+     "kind": "fund",
+     "source_url": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+     "secondary": false
+    },
+    {
+     "category": "funding",
+     "text_en": "Public platform projects: up to 50% of investment, cap RMB 20 million",
+     "quote_zh": "给予最高50%且不超过2000万元支持",
+     "section": "三、打造公共平台",
+     "value": 20000000,
+     "unit": "CNY cap per project",
+     "deadline": "2027",
+     "kind": "fund",
+     "source_url": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+     "secondary": false
+    },
+    {
+     "category": "funding",
+     "text_en": "Demonstration application projects: up to 20%, cap RMB 10 million",
+     "quote_zh": "给予最高20%且不超过1000万元支持",
+     "section": "四、应用示范标杆",
+     "value": 10000000,
+     "unit": "CNY cap per project",
+     "deadline": "2027",
+     "kind": "fund",
+     "source_url": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+     "secondary": false
+    },
+    {
+     "category": "funding",
+     "text_en": "Sales/lease rewards: up to 5% of contract value, cap RMB 5 million",
+     "quote_zh": "根据合同额按规定给予最高5%且不超过500万元的奖励",
+     "section": "五(十八) 做优做强优质企业",
+     "value": 5000000,
+     "unit": "CNY cap per firm",
+     "deadline": "2027",
+     "kind": "fund",
+     "source_url": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+     "secondary": false
+    },
+    {
+     "category": "funding",
+     "text_en": "Open-source community/product rewards up to RMB 5 million",
+     "quote_zh": "对开源社区、开源产品，按规定给予最高500万元的奖励",
+     "section": "六(二十) 强化开源创新",
+     "value": 5000000,
+     "unit": "CNY cap",
+     "deadline": "2027",
+     "kind": "fund",
+     "source_url": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+     "secondary": false
+    },
+    {
+     "category": "funding",
+     "text_en": "Municipal AI pioneer-industry mother fund as strategic anchor; CVC and ecosystem funds; no total",
+     "quote_zh": "强化市级人工智能先导产业母基金战略牵引作用",
+     "section": "三(九) 投资平台",
+     "value": null,
+     "unit": "no total amount disclosed",
+     "deadline": "2027",
+     "kind": "fund",
+     "source_url": "https://www.shanghai.gov.cn/nw12344/20250806/f9cb53544505426d807055ca20bd69fc.html",
+     "secondary": false
+    }
+   ],
+   "changes_from_previous": [],
+   "notes": "Issued 2025-07-28, published 2025-08-06; effective 2025-07-28 to 2028-07-27. Official Shanghai gov.cn text read in full. Reports that cite 1,000亿 by 2030 are forecasts, not in this text (not verified). A district-level Minhang policy (闵经委规发〔2026〕1号) exists and sets a district 2030 target (RMB 25bn per search summary), not parsed. Earlier Shanghai humanoid-specific guidance (2024) was not located."
+  },
+  {
+   "id": "shenzhen-embodied-ai-2025",
+   "series": "shenzhen-embodied",
+   "title_en": "Shenzhen Embodied-AI Robot Technology Innovation and Industry Development Action Plan (2025-2027)",
+   "title_zh": "深圳市具身智能机器人技术创新与产业发展行动计划（2025-2027年）",
+   "issuer_en": "Shenzhen Science and Technology Innovation Bureau",
+   "issuer_zh": "深圳市科技创新局",
+   "level": "municipal",
+   "issued": "2025-03-03",
+   "period": "2025-2027",
+   "url_zh": "https://stic.sz.gov.cn/xxgk/tzgg/content/post_12052515.html",
+   "url_en": null,
+   "translation": "ours",
+   "status": "superseded",
+   "targets": [
+    {
+     "category": "firms",
+     "text_en": "Cultivate 10+ new firms valued above RMB 10bn",
+     "quote_zh": "新增培育估值过百亿企业10家以上",
+     "section": "一、发展目标",
+     "value": 10,
+     "unit": "firms valued >RMB 10bn (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://web.archive.org/web/2025/https://stic.sz.gov.cn/xxgk/tzgg/content/post_12052515.html",
+     "secondary": false
+    },
+    {
+     "category": "firms",
+     "text_en": "20+ firms with revenue above RMB 1bn",
+     "quote_zh": "营收超十亿企业20家以上",
+     "section": "一、发展目标",
+     "value": 20,
+     "unit": "firms (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://web.archive.org/web/2025/https://stic.sz.gov.cn/xxgk/tzgg/content/post_12052515.html",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "50+ billion-yuan-scale application scenarios",
+     "quote_zh": "实现十亿级应用场景落地50个以上",
+     "section": "一、发展目标",
+     "value": 50,
+     "unit": "scenarios (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://web.archive.org/web/2025/https://stic.sz.gov.cn/xxgk/tzgg/content/post_12052515.html",
+     "secondary": false
+    },
+    {
+     "category": "production",
+     "text_en": "Associated industry scale >= RMB 100 billion",
+     "quote_zh": "关联产业规模达到1000亿元以上",
+     "section": "一、发展目标",
+     "value": 100000000000,
+     "unit": "CNY (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://web.archive.org/web/2025/https://stic.sz.gov.cn/xxgk/tzgg/content/post_12052515.html",
+     "secondary": false
+    },
+    {
+     "category": "firms",
+     "text_en": "More than 1,200 firms in the embodied-AI cluster",
+     "quote_zh": "具身智能机器人产业集群相关企业超过1200家",
+     "section": "一、发展目标",
+     "value": 1200,
+     "unit": "firms",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://web.archive.org/web/2025/https://stic.sz.gov.cn/xxgk/tzgg/content/post_12052515.html",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "Open at least 50 application scenarios on a rolling basis",
+     "quote_zh": "滚动开放不少于50个应用场景",
+     "section": "二(三)14. 加快开放应用场景",
+     "value": 50,
+     "unit": "scenarios (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://web.archive.org/web/2025/https://stic.sz.gov.cn/xxgk/tzgg/content/post_12052515.html",
+     "secondary": false
+    }
+   ],
+   "funds": [
+    {
+     "category": "compute",
+     "text_en": "Training-compute vouchers (训力券) for firms, universities, institutes; no amount stated",
+     "quote_zh": "通过“训力券”加大力度支持企业、高校和科研机构租用市内外智能算力开展具身智能模型训练和应用",
+     "section": "二(二)10",
+     "value": null,
+     "unit": "no amount disclosed",
+     "deadline": "2027",
+     "kind": "fund",
+     "source_url": "https://web.archive.org/web/2025/https://stic.sz.gov.cn/xxgk/tzgg/content/post_12052515.html",
+     "secondary": false
+    }
+   ],
+   "changes_from_previous": [],
+   "notes": "stic.sz.gov.cn returns 403 to automated clients; text taken from a Wayback Machine copy of the official page (issued 2025-03-03). Shenzhen is a city of Guangdong; Guangdong also hosts Dongguan/Foshan plans (not parsed)."
+  },
+  {
+   "id": "shenzhen-embodied-ai-2025-revised",
+   "series": "shenzhen-embodied",
+   "title_en": "Shenzhen Embodied-AI Robot Action Plan (2025-2027), Revised Edition",
+   "title_zh": "深圳市具身智能机器人技术创新与产业发展行动计划（2025-2027年）（修订版）",
+   "issuer_en": "Shenzhen Science and Technology Innovation Bureau",
+   "issuer_zh": "深圳市科技创新局",
+   "level": "municipal",
+   "issued": "2026-06-18",
+   "period": "2025-2027",
+   "url_zh": "https://stic.sz.gov.cn/xxgk/tzgg/content/post_12851036.html",
+   "url_en": null,
+   "translation": "ours",
+   "status": "in force",
+   "targets": [
+    {
+     "category": "firms",
+     "text_en": "Same as original: 10+ firms valued above RMB 10bn",
+     "quote_zh": "新增培育估值过百亿企业10家以上",
+     "section": "一、发展目标",
+     "value": 10,
+     "unit": "firms (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://finance.sina.cn/tech/2026-06-26/detail-inietnfr7237816.d.html",
+     "secondary": true
+    },
+    {
+     "category": "firms",
+     "text_en": "Same: 20+ firms with revenue above RMB 1bn",
+     "quote_zh": "营收超十亿企业20家以上",
+     "section": "一、发展目标",
+     "value": 20,
+     "unit": "firms (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://finance.sina.cn/tech/2026-06-26/detail-inietnfr7237816.d.html",
+     "secondary": true
+    },
+    {
+     "category": "deployment",
+     "text_en": "Same: 50+ billion-yuan scenarios",
+     "quote_zh": "实现十亿级应用场景落地50个以上",
+     "section": "一、发展目标",
+     "value": 50,
+     "unit": "scenarios (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://finance.sina.cn/tech/2026-06-26/detail-inietnfr7237816.d.html",
+     "secondary": true
+    },
+    {
+     "category": "production",
+     "text_en": "Same: associated industry >= RMB 100bn",
+     "quote_zh": "关联产业规模达到1000亿元以上",
+     "section": "一、发展目标",
+     "value": 100000000000,
+     "unit": "CNY (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://finance.sina.cn/tech/2026-06-26/detail-inietnfr7237816.d.html",
+     "secondary": true
+    },
+    {
+     "category": "firms",
+     "text_en": "Same: >1,200 cluster firms",
+     "quote_zh": "具身智能机器人产业集群相关企业超过1200家",
+     "section": "一、发展目标",
+     "value": 1200,
+     "unit": "firms",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://finance.sina.cn/tech/2026-06-26/detail-inietnfr7237816.d.html",
+     "secondary": true
+    }
+   ],
+   "funds": [],
+   "changes_from_previous": [
+    {
+     "previous_id": "shenzhen-embodied-ai-2025",
+     "what_changed": "Sentence-level diff of the two texts: all numeric targets in 一、发展目标 are unchanged. Only task 15 (industry alliance now stresses integrated R&D and ecosystem) and task 16 (from 'precisely serve chain-leader firms' to 'cultivate a wild-goose-formation tier of firms': unicorns, gazelles, tech SMEs) were reworded; the old task-15 sentence on downstream firms trialling alliance products was dropped."
+    }
+   ],
+   "notes": "Official page stic.sz.gov.cn/.../post_12851036.html was 403 and not in the Wayback copy; full text taken from a Sina reprint of the pedaily.cn report (secondary). Issue date 2026-06-18 from search summary of the official page (not directly read)."
+  },
+  {
+   "id": "hangzhou-embodied-ai-2026-2027",
+   "series": "zhejiang-hangzhou-embodied",
+   "title_en": "Hangzhou Embodied-AI Robot 'Strengthen and Fill the Chain' Action Plan (2026-2027)",
+   "title_zh": "杭州市具身智能机器人“强链补链”行动方案（2026—2027年）",
+   "issuer_en": "Hangzhou Municipal Bureau of Economy and Information Technology and Hangzhou Finance Bureau",
+   "issuer_zh": "杭州市经济和信息化局（杭州市数字经济局）、杭州市财政局",
+   "level": "municipal",
+   "issued": "2025-12-26",
+   "period": "2026-2027 (effective 2026-02-01 to 2027-12-31)",
+   "doc_number": "杭经信联装备〔2025〕134号",
+   "url_zh": "https://zfgb.hangzhou.gov.cn/11/101220263/t104220263014/530113.shtml",
+   "url_en": null,
+   "translation": "ours",
+   "status": "in force",
+   "targets": [
+    {
+     "category": "production",
+     "text_en": "Embodied-AI robot whole-machine firms' industrial output >RMB 20bn in 2027",
+     "quote_zh": "各类具身智能机器人整机企业工业总产值超200亿元",
+     "section": "一(四)4. 规上工业产值",
+     "value": 20000000000,
+     "unit": "CNY (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://zfgb.hangzhou.gov.cn/11/101220263/t104220263014/530113.shtml",
+     "secondary": false
+    },
+    {
+     "category": "production",
+     "text_en": "Industry-chain industrial output >RMB 50bn in 2027",
+     "quote_zh": "产业链工业总产值超500亿元",
+     "section": "一(四)4.",
+     "value": 50000000000,
+     "unit": "CNY (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://zfgb.hangzhou.gov.cn/11/101220263/t104220263014/530113.shtml",
+     "secondary": false
+    },
+    {
+     "category": "production",
+     "text_en": "3+ mass-produced humanoid products and 5+ mass-produced biomimetic robot products by end-2027",
+     "quote_zh": "至2027年底打造3个以上量产人形机器人产品、5个以上量产仿生机器人产品",
+     "section": "一(一) 产品矩阵",
+     "value": 3,
+     "unit": "humanoid products (floor); plus 5 biomimetic",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://zfgb.hangzhou.gov.cn/11/101220263/t104220263014/530113.shtml",
+     "secondary": false
+    },
+    {
+     "category": "firms",
+     "text_en": "100+ new firms, total >300; 3-4 whole-machine firms",
+     "quote_zh": "新增具身智能机器人整机及零部件、软件企业（以下简称企业）主体100家以上，总量超300家，其中引育整机企业3—4家",
+     "section": "一(四)1.",
+     "value": 300,
+     "unit": "firms total (floor); 100 new",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://zfgb.hangzhou.gov.cn/11/101220263/t104220263014/530113.shtml",
+     "secondary": false
+    },
+    {
+     "category": "other",
+     "text_en": "15+ major science and technology projects",
+     "quote_zh": "力争实施具身智能机器人领域重大科技攻关15项以上",
+     "section": "一(四)2.",
+     "value": 15,
+     "unit": "projects (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://zfgb.hangzhou.gov.cn/11/101220263/t104220263014/530113.shtml",
+     "secondary": false
+    },
+    {
+     "category": "standards",
+     "text_en": "Lead/participate in 2-3 international and national standards",
+     "quote_zh": "主导和参与制定国际、国家标准2—3项",
+     "section": "一(四)2.",
+     "value": 3,
+     "unit": "standards (range 2-3)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://zfgb.hangzhou.gov.cn/11/101220263/t104220263014/530113.shtml",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "30+ industry application demonstration scenarios; 15+ selected at provincial level or above",
+     "quote_zh": "打造具身智能机器人行业应用示范场景30个以上，入选省级及以上应用示范场景15个以上",
+     "section": "一(四)3.",
+     "value": 30,
+     "unit": "scenarios (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://zfgb.hangzhou.gov.cn/11/101220263/t104220263014/530113.shtml",
+     "secondary": false
+    },
+    {
+     "category": "deployment",
+     "text_en": "Build 100+ embodied-robot application scenarios by 2027 (task text)",
+     "quote_zh": "至2027年建成具身智能机器人应用场景100个以上",
+     "section": "二(三)1.",
+     "value": 100,
+     "unit": "scenarios (floor)",
+     "deadline": "2027",
+     "kind": "target",
+     "source_url": "https://zfgb.hangzhou.gov.cn/11/101220263/t104220263014/530113.shtml",
+     "secondary": false
+    }
+   ],
+   "funds": [
+    {
+     "category": "funding",
+     "text_en": "Data purchase subsidy: up to 30% of annual purchase, cap RMB 300,000 for purchases of >=RMB 50,000",
+     "quote_zh": "按照不超过年度采购金额30%、最高30万元给予补助",
+     "section": "二(一)3. 强化高质量数据供给支撑",
+     "value": 300000,
+     "unit": "CNY cap per firm per year",
+     "deadline": "2027",
+     "kind": "fund",
+     "source_url": "https://zfgb.hangzhou.gov.cn/11/101220263/t104220263014/530113.shtml",
+     "secondary": false
+    },
+    {
+     "category": "funding",
+     "text_en": "Annual special support funds (amount not stated); costs shared by city and districts",
+     "quote_zh": "每年统筹安排专项扶持资金支持具身智能机器人产业发展",
+     "section": "三、保障措施",
+     "value": null,
+     "unit": "no amount disclosed",
+     "deadline": "2027",
+     "kind": "fund",
+     "source_url": "https://zfgb.hangzhou.gov.cn/11/101220263/t104220263014/530113.shtml",
+     "secondary": false
+    }
+   ],
+   "changes_from_previous": [],
+   "notes": "Official Hangzhou gazette text read in full. Media reported an earlier consultation draft (2025-2027, '1134' goals) with industry-chain output target >RMB 30bn; final text says >RMB 50bn. The draft was not fetched (secondary only), so the 30bn->50bn change is unverified. Per search summary, scenario-demonstration reward up to RMB 1 million each (not verified in text excerpt above)."
+  },
+  {
+   "id": "guangdong-ai-robot-measures-2025",
+   "series": "guangdong-robot",
+   "title_en": "Guangdong Several Policy Measures to Promote Innovative Development of the AI and Robotics Industry",
+   "title_zh": "广东省推动人工智能与机器人产业创新发展若干政策措施",
+   "issuer_en": "General Office of Guangdong Provincial People's Government",
+   "issuer_zh": "广东省人民政府办公厅",
+   "level": "provincial",
+   "issued": "2025-03-09",
+   "period": "2025 onward",
+   "url_zh": "http://www.gd.gov.cn/zwgk/gongbao/2025/7/content/post_4678950.html",
+   "url_en": null,
+   "translation": "ours",
+   "status": "in force",
+   "targets": [
+    {
+     "category": "other",
+     "text_en": "Provincial matching above RMB 100 million per national major-S&T-project may be decided case by case",
+     "quote_zh": "单个项目省级配套金额超1亿元（含）的，按“一事一议”方式研究给予支持",
+     "section": "一、支持关键核心技术攻关",
+     "value": 100000000,
+     "unit": "CNY (threshold for case-by-case support)",
+     "deadline": "2025",
+     "kind": "fund",
+     "source_url": "http://www.gd.gov.cn/zwgk/gongbao/2025/7/content/post_4678950.html",
+     "secondary": false
+    }
+   ],
+   "funds": [
+    {
+     "category": "funding",
+     "text_en": "National / provincial manufacturing innovation centres in AI and robotics: up to RMB 50m / 10m provincial funding",
+     "quote_zh": "国家级、省级制造业创新中心，省财政按规定分别给予最高5000万元、1000万元的资金支持",
+     "section": "一、支持关键核心技术攻关",
+     "value": 50000000,
+     "unit": "CNY cap (national-level centre)",
+     "deadline": "2025",
+     "kind": "fund",
+     "source_url": "http://www.gd.gov.cn/zwgk/gongbao/2025/7/content/post_4678950.html",
+     "secondary": false
+    },
+    {
+     "category": "funding",
+     "text_en": "National single-champion firms up to RMB 3m total; national little-giants up to RMB 2m",
+     "quote_zh": "对国家级单项冠军企业奖励总额度最高300万元，对国家级专精特新“小巨人”企业奖励总额度最高200万元",
+     "section": "二、培育优质企业",
+     "value": 3000000,
+     "unit": "CNY cap per firm",
+     "deadline": "2025",
+     "kind": "fund",
+     "source_url": "http://www.gd.gov.cn/zwgk/gongbao/2025/7/content/post_4678950.html",
+     "secondary": false
+    },
+    {
+     "category": "funding",
+     "text_en": "Establish AI and robotics fund within provincial industry investment fund cluster; no total",
+     "quote_zh": "在省产业发展投资基金集群中设立人工智能与机器人产业基金",
+     "section": "九、加强产业投融资",
+     "value": null,
+     "unit": "no amount disclosed",
+     "deadline": "2025",
+     "kind": "fund",
+     "source_url": "http://www.gd.gov.cn/zwgk/gongbao/2025/7/content/post_4678950.html",
+     "secondary": false
+    }
+   ],
+   "changes_from_previous": [],
+   "notes": "No numeric output/firm-count targets. Guangdong's embodied-AI robot specifics (provincial innovation centre, 3-5 unicorns/leaders) come from the 2025 provincial modern-industrial-system action plan and a 2026 AI application plan seen only in search summaries (not fetched/verified). City plans: Dongguan (>RMB 100bn cluster revenue, 1,000+ firms by 2027) and Foshan (robot machine output >RMB 20bn by 2027) are secondary-only, not parsed."
+  },
+  {
+   "id": "national-humanoid-standards-2026",
+   "series": "national-humanoid",
+   "title_en": "Humanoid Robot and Embodied Intelligence Standards System (2026 Edition)",
+   "title_zh": "人形机器人与具身智能标准体系（2026版）",
+   "issuer_en": "MIIT Humanoid Robot and Embodied Intelligence Standardization Technical Committee (MIIT/TC8)",
+   "issuer_zh": "工业和信息化部人形机器人与具身智能标准化技术委员会",
+   "level": "national",
+   "issued": "2026-02-28",
+   "period": "2026",
+   "url_zh": "https://www.news.cn/tech/20260302/3d0ff411d1d94995b4f0277d29e58e19/c.html",
+   "url_en": null,
+   "translation": "ours",
+   "status": "in force",
+   "targets": [
+    {
+     "category": "standards",
+     "text_en": "First top-level standards design covering whole humanoid/embodied-AI industry chain; six parts (no count of standards)",
+     "quote_zh": "这是我国首个覆盖人形机器人与具身智能全产业链、全生命周期的标准顶层设计",
+     "section": "Xinhua/Economic Reference news report",
+     "value": 6,
+     "unit": "parts (basic, brain & compute, limbs & parts, whole machine, application, safety & ethics)",
+     "deadline": "2026",
+     "kind": "target",
+     "source_url": "https://www.news.cn/tech/20260302/3d0ff411d1d94995b4f0277d29e58e19/c.html",
+     "secondary": true
+    },
+    {
+     "category": "firms",
+     "text_en": "Descriptive: domestic humanoid whole-machine firms exceeded 140 and released 330+ humanoid products in 2025 (per MIIT data)",
+     "quote_zh": "2025年国内人形机器人整机企业数量超140家，发布人形机器人产品超330款",
+     "section": "same",
+     "value": 140,
+     "unit": "firms (2025, descriptive)",
+     "deadline": "2025",
+     "kind": "descriptive",
+     "source_url": "https://www.news.cn/tech/20260302/3d0ff411d1d94995b4f0277d29e58e19/c.html",
+     "secondary": true
+    }
+   ],
+   "funds": [],
+   "changes_from_previous": [],
+   "notes": "Reported via Xinhua; the standards system document itself was not fetched. Committee established December 2025; held first annual meeting 2026-02-28 in Beijing. 2026 national government work report: 'cultivate future industries including embodied intelligence' (news.cn 2026-03-09 report), second consecutive year after 2025 (news.cn 2025-03-11). No numerical standards-count target found."
+  }
+ ],
+ "us_comparison": [
+  {
+   "category": "production",
+   "china_summary": "Output targets: Beijing 200,000 whole robots/yr capacity by 2028 (BTH 25% of national capacity); Beijing >10,000-unit scale by 2027; Shanghai core industry >RMB 50bn by 2027; Hangzhou whole-robot firms >RMB 20bn by 2027; Shenzhen associated industry >RMB 100bn; national 2016 plan 100,000 domestic industrial robots/yr (2020).",
+   "china_plan_ids": [
+    "beijing-embodied-ai-2026-2028",
+    "beijing-embodied-ai-2025-2027",
+    "shanghai-embodied-ai-2025",
+    "hangzhou-embodied-ai-2026-2027",
+    "shenzhen-embodied-ai-2025",
+    "national-robot-2016-2020"
+   ],
+   "us_counterpart": "No federal output, capacity or revenue target for robots or humanoids found. Closest: H.R. 7334 (introduced 2026-02-03), which would only create a study commission.",
+   "us_value": null,
+   "us_source_url": "https://www.govinfo.gov/content/pkg/BILLS-119hr7334ih/html/BILLS-119hr7334ih.htm",
+   "us_quote": "The Commission shall examine robotics as such pertains to interstate and foreign commerce, economic competitiveness, and national security, and make recommendations to the appropriate congressional committees relating thereto.",
+   "gap_note": "No federal target. The bill sets no number and contains no appropriation (text searched for appropriation authority; none beyond 'appropriate congressional committees'). Status of the bill after introduction not verified."
+  },
+  {
+   "category": "firms",
+   "china_summary": "Beijing: >=5 internationally leading + 10 domestic-leading humanoid makers by 2028 (earlier: >=50 core chain firms, 2027); national humanoid guidance 2-3 globally influential firms by 2025; Shenzhen 10 firms >RMB 10bn valuation.",
+   "china_plan_ids": [
+    "beijing-embodied-ai-2026-2028",
+    "beijing-embodied-ai-2025-2027",
+    "national-humanoid-2023",
+    "shenzhen-embodied-ai-2025"
+   ],
+   "us_counterpart": "No federal target for number of leading robot firms.",
+   "us_value": null,
+   "us_source_url": "https://www.govinfo.gov/content/pkg/BILLS-119hr7334ih/html/BILLS-119hr7334ih.htm",
+   "us_quote": "The Commission shall examine robotics as such pertains to interstate and foreign commerce, economic competitiveness, and national security, and make recommendations to the appropriate congressional committees relating thereto.",
+   "gap_note": "No federal target (the commission bill is the only federal robotics-specific vehicle located)."
+  },
+  {
+   "category": "compute",
+   "china_summary": "Beijing: >50,000 PFlops new embodied-AI dedicated compute clusters (precision unspecified) plus compute pairing; Shanghai compute vouchers up to RMB 40m/yr per firm; Shenzhen training-compute vouchers.",
+   "china_plan_ids": [
+    "beijing-embodied-ai-2026-2028",
+    "shanghai-embodied-ai-2025",
+    "shenzhen-embodied-ai-2025"
+   ],
+   "us_counterpart": "No robotics-specific federal compute target. DOE Genesis Mission consortium has a working group on 'high-performance computing and cloud infrastructure' and one on 'robotics and automation', but sets no compute number for robots.",
+   "us_value": null,
+   "us_source_url": "https://www.energy.gov/articles/energy-department-launches-genesis-mission-consortium-accelerate-ai-driven-scientific",
+   "us_quote": "working groups focused on AI model development and validation, data integration and standards, high-performance computing and cloud infrastructure, and robotics and automation",
+   "gap_note": "Not comparable: Genesis is an AI-for-science platform; the quote only shows overlapping working-group topics. No federal compute target for embodied AI."
+  },
+  {
+   "category": "data",
+   "china_summary": "Beijing: national embodied-AI data infrastructure, >1,000,000 hours of data from >=100 real scenarios by 2028 (2025 plan: ten-million-item dataset); Shanghai corpus platform and corpus vouchers up to RMB 5m/yr; Hangzhou data-purchase subsidy up to RMB 300k.",
+   "china_plan_ids": [
+    "beijing-embodied-ai-2026-2028",
+    "beijing-embodied-ai-2025-2027",
+    "shanghai-embodied-ai-2025",
+    "hangzhou-embodied-ai-2026-2027"
+   ],
+   "us_counterpart": "No federal embodied-AI training-data target found. Genesis consortium working group on 'data integration and standards' is the closest topical overlap (science data, not robot demonstration data).",
+   "us_value": null,
+   "us_source_url": "https://www.energy.gov/articles/energy-department-launches-genesis-mission-consortium-accelerate-ai-driven-scientific",
+   "us_quote": "working groups focused on AI model development and validation, data integration and standards, high-performance computing and cloud infrastructure, and robotics and automation",
+   "gap_note": "No federal target; do not equate. Units differ anyway (hours vs items)."
+  },
+  {
+   "category": "funding",
+   "china_summary": "Mostly caps, not totals: Shanghai up to 30%/RMB 50m R&D, RMB 20m platforms, RMB 10m demos; Guangdong up to RMB 50m national manufacturing-innovation centre; Beijing up to RMB 100m per project (press conference, measures in preparation); Beijing 2026 plan gives no amount but cites government guidance funds; no plan states a total budget.",
+   "china_plan_ids": [
+    "shanghai-embodied-ai-2025",
+    "guangdong-ai-robot-measures-2025",
+    "beijing-embodied-ai-2025-2027",
+    "beijing-embodied-ai-2026-2028"
+   ],
+   "us_counterpart": "NSF National Robotics Initiative (sunset 2022; succeeded by FRR which publishes no total): over $250 million in 12 years across multi-agency partners. ARM Institute (Manufacturing USA, DoD): $80 million federal at founding in 2017, with $173 million non-federal.",
+   "us_value": "$250M+ over ~12 years (NRI); $80M federal (ARM 2017 founding)",
+   "us_source_url": "https://www.nsf.gov/funding/information/dcl-nri-sunset-announcement/nsf22-081",
+   "us_quote": "NSF and its federal NRI partners have invested over $250 million in over 300 pioneering research projects",
+   "gap_note": "Different instruments and scales: Chinese plans cap per-project support, US figures are programme totals over a decade. A like-for-like annual comparison cannot be made from these sources; later ARM/DoD awards (reported ~$87-90M AFRL) were not verified to a primary source.",
+   "extra": [
+    {
+     "source_url": "https://robohub.org/250-million-awarded-to-new-advanced-robotics-manufacturing-innovation-hub",
+     "quote": "Combined they have contributed $173 million that will be fused with $80 million in federal funding.",
+     "note": "ARM 2017 founding"
+    }
+   ]
+  },
+  {
+   "category": "parts-localization",
+   "china_summary": "Beijing: Beijing-Tianjin-Hebei key-component supporting rate >60% by 2028; spec targets for motors, reducers, sensors, hands; Shenzhen/Guangdong support domestic chips; 2016 plan 50% domestic share of key components.",
+   "china_plan_ids": [
+    "beijing-embodied-ai-2026-2028",
+    "national-robot-2016-2020"
+   ],
+   "us_counterpart": "No federal localisation target. Trade measure only: Section 232 proclamation of 2026-10-28 directs negotiations on robotics, industrial machinery and components imports; no tariff set in the proclamation text read.",
+   "us_value": null,
+   "us_source_url": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/",
+   "us_quote": "I determine that it is necessary and appropriate to enter into negotiations with trading partners to adjust imports of robotics, industrial machinery, and their components",
+   "gap_note": "A trade action, not a domestic-content or localisation target; the proclamation text defers to negotiations and a 180-day update."
+  },
+  {
+   "category": "deployment",
+   "china_summary": "Beijing: 20 industrial + 20 service + 10 special benchmark scenarios, 15 scalable solutions; Hangzhou 30 demo scenarios (100 scenarios built); Shanghai 100 scenarios; MIIT/SASAC 2026: 100+ high-value scenarios, ~10,000-unit-class deployment capability; Robot+ 2023: 200 scenarios.",
+   "china_plan_ids": [
+    "beijing-embodied-ai-2026-2028",
+    "hangzhou-embodied-ai-2026-2027",
+    "shanghai-embodied-ai-2025",
+    "national-real-world-training-2026",
+    "national-robot-plus-2023"
+   ],
+   "us_counterpart": "No federal deployment or scenario-count target for robots.",
+   "us_value": null,
+   "us_source_url": "https://www.govinfo.gov/content/pkg/BILLS-119hr7334ih/html/BILLS-119hr7334ih.htm",
+   "us_quote": "The Commission shall examine robotics as such pertains to interstate and foreign commerce, economic competitiveness, and national security, and make recommendations to the appropriate congressional committees relating thereto.",
+   "gap_note": "No federal target. FY2026 NDAA Section 225 (Army robotic automation in munitions manufacturing) exists in the site's policy corpus but was not re-verified here, so it is not used as a counterpart."
+  },
+  {
+   "category": "standards",
+   "china_summary": "Beijing: lead/participate in 8 international, 30 national, 70 industry/group standards; MIIT/TC8 first humanoid and embodied-AI standards system (2026 edition, 6 parts).",
+   "china_plan_ids": [
+    "beijing-embodied-ai-2026-2028",
+    "national-humanoid-standards-2026"
+   ],
+   "us_counterpart": "No federal standards-count target found. Not exhaustively searched: NIST robot test methods and ANSI/A3 standards were not examined.",
+   "us_value": null,
+   "us_source_url": "https://www.govinfo.gov/content/pkg/BILLS-119hr7334ih/html/BILLS-119hr7334ih.htm",
+   "us_quote": "The Commission shall examine robotics as such pertains to interstate and foreign commerce, economic competitiveness, and national security, and make recommendations to the appropriate congressional committees relating thereto.",
+   "gap_note": "Unverified negative; only the bill text was checked."
+  },
+  {
+   "category": "other",
+   "china_summary": "Executive-level action: China has MIIT guidance (2023), a 15th Five-Year Plan named column for embodied intelligence (2026) and MIIT/SASAC deployment action (2026-06).",
+   "china_plan_ids": [
+    "national-humanoid-2023",
+    "national-15fyp-outline",
+    "national-real-world-training-2026"
+   ],
+   "us_counterpart": "No signed national robotics strategy or robotics-specific executive order found. A robotics executive order was reported as under consideration for 2026 (Politico via secondary sites, not fetchable here: HTTP 403). The signed action located is a Section 232 trade proclamation (2026-10-28).",
+   "us_value": null,
+   "us_source_url": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/",
+   "us_quote": "I determine that it is necessary and appropriate to enter into negotiations with trading partners to adjust imports of robotics, industrial machinery, and their components",
+   "gap_note": "The 'under consideration' report is secondary and unverified here; absence of an order is based on search only, not an exhaustive review of the Federal Register."
+  }
+ ],
+ "caveats": [
+  "Quotes marked secondary are from news reports of a document; the document text itself was not read.",
+  "PDF/web-extracted Chinese quotes have whitespace removed (extraction inserted spaces inside numbers); characters otherwise verbatim and machine-verified as substrings of the saved source files in this directory.",
+  "English text_en fields and all translations are ours unless a plan's 'translation' says otherwise; no official English version was found for any plan except where noted (none).",
+  "Beijing 2023 robotics plan: official final text page not found; primary text is the April 2023 consultation draft; final headline figures come from Xinhua. Beijing 2025 embodied-AI plan text is the file on the Beijing Science & Technology Commission consultation path; its figures match the 2025-02-28 press conference but it may not be the issued text.",
+  "Units ambiguous: Beijing 2025-2027 '量产总规模率先突破万台' (cumulative vs annual); Beijing 2026 '20万台/年整机生产能力' (capacity, not sales; humanoid-only not stated); '50000PFlops' (numeric precision unspecified); '千万条' data items vs '100万小时'; MIIT/SASAC '万台级' (order of 10,000, English report says 10,000).",
+  "No plan examined states a total budget in yuan. Every money figure found is a per-project or per-firm cap, a subsidy rate, or a fund named without size.",
+  "Not found or not fetched: Beijing humanoid innovation center plans; Beijing 2026 plan '一图读懂' explainer; Jiangsu, Nanjing, Dongguan, Foshan, Tianjin, Zhejiang provincial plans (search-summary only); national venture guidance fund primary text; Tianjin; 2015 MIC2025 robotics technology roadmap; Shenzhen revised-edition official page (403).",
+  "Search-engine summaries were used only to find documents; no figure in plans.json relies on a summary alone.",
+  "Document numbers or dates taken from search summaries and not re-read on a primary page: Shenzhen revised edition issue date 2026-06-18; MIIT/SASAC notice number; 2016 plan signing date; Beijing 2023 issue date 2023-06-28."
+ ]
+}

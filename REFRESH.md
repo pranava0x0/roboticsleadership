@@ -126,24 +126,34 @@ The best signal is human-curated, not scraped. Pull the owner's **X `PhysicalAI`
 - List: `x.com/i/lists/2061938532722311396` (owner @pranava0, 103 members, **public as of 2026-07-27** —
   no login required to view, though harvesting still goes through the owner's logged-in
   claude-in-chrome browser since bookmarks stay private). Bookmarks: `x.com/i/bookmarks`.
-- Use the **claude-in-chrome** browser. Harvest with `javascript_tool`:
-  `document.querySelectorAll('article')` → `{url, datetime, innerText}` into a `window.__collected`
-  `Map` keyed by status URL, re-run after each scroll to accumulate.
-  **Programmatic scroll does not reliably load more posts and can freeze the tab.** `window.scrollTo`/
-  `scrollBy` do move `window.scrollY` (confirmed via direct check), but the feed's infinite-scroll
-  fetch did not fire even at true bottom-of-page across repeated checks — and a tight loop of
-  `scrollTo`/dispatched `WheelEvent`s once caused a 45s `Runtime.evaluate` timeout with the tab left
-  blank (had to reload). **Use the `computer` tool's real `scroll` action instead**
-  (`{action:"scroll", coordinate:[~700,400], scroll_direction:"down", scroll_amount:15}` via
-  `browser_batch`, ~1.2s wait between steps) — this reliably loads new posts. Harvest with
-  `javascript_tool` between scroll batches. Bookmarks are ordered by *save time*, not tweet date, so
-  expect occasional old outliers (e.g. a 2025 tweet) mixed into a recent run — that's normal, not a
-  sign to stop early.
-- Once collected, filter the map in-page with a robotics/physical-AI keyword regex before pulling
-  results out to the agent — the raw collected set is dominated by adjacent AI/energy/finance content
-  the owner also bookmarks, and pulling untriaged text wastes context. Pull matches in small batches
-  (~3 items, text truncated to ~250 chars) — the tool result silently truncates long JSON strings,
-  so ask for less per call rather than debugging a truncated payload.
+- **Procedure (2026-11-11): text and DOM first, media last, no screenshots while reading.**
+  Use the **claude-in-chrome** browser.
+  1. Open the search, not the raw list: `x.com/search?q=list%3A2061938532722311396%20-filter%3Areplies%20since%3A<2 days ago>&f=live`,
+     then the keyword pass (`(raises OR funding OR Series OR IPO OR revenue OR guidance OR orders OR tariff OR humanoid OR factory) …`).
+  2. Paste `scripts/x-harvest.browser.js` into `javascript_tool` once per page (re-pasting keeps
+     what was collected). It reads each `<article>` from the DOM: text, quoted text, link card,
+     image media ids + alt text, video presence, and the action bar's engagement counts.
+  3. Loop in one `browser_batch`: `computer` `key` `Page_Down` with `repeat: 3`, `wait` 1.2 s,
+     `javascript_tool` `__xh.collect()` (returns one line of counts). **Do not use `computer`
+     `scroll`: it returns a full screenshot every call** (~6 screenshots for 17 posts in the
+     2026-11-11 test); a key press returns none. Do not use `End` either: X keeps only ~10 posts
+     (~6.7 screens) in the DOM, and `End` jumps past posts before they render. Stop when
+     `seen` stops growing for two loops or `oldest` passes the window.
+  4. `__xh.dump(0)`, then `__xh.dump(<NEXT>)` until `END`: one line per kept post, newest first,
+     ~900 chars per call (the tool truncates near 1,000), with `=`/`&`/`?` encoded and image URLs
+     reduced to media ids. Append each dump to `data/research/refresh-<date>-x.md` as you go.
+  5. Pick candidates from the text alone. Then `__xh.plan([<indices>])` lists what still needs
+     eyes for just those: images whose alt text is X's default "Image", and videos.
+  6. Images: open each in a **second tab** (navigating the harvest tab loses `__xh`) at
+     `https://pbs.twimg.com/media/<id>.jpg` and take one `screenshot` at `scale` 0.4; read charts
+     and slides there. Videos are skipped unless engagement is very high (`VIDEO_BAR`: 100k views,
+     1,000 likes or 200 reposts); for those, read the linked article first and look at the post
+     only if the claim still depends on the footage. Skipping the media never drops the post:
+     its text, quoted text, link card and every non-default alt (image alt, video poster alt or
+     player label) are in the `dump` line regardless, and count toward `keep`.
+  Bookmarks (`x.com/i/bookmarks`) work the same way; they are ordered by save time, so an old
+  post mixed in is normal. Programmatic `window.scrollTo` does not trigger X's next-page fetch and
+  once froze the tab for 45 s; keys and real input do.
 - For each item worth adding: **verify with a web search to get the PRIMARY source**, then hand-author a
   news record with real fields (don't ship a bare tweet as the record). **Cross-check against
   news.json by keyword first** — the automated scrapers (RSS/HN/Federal Register) often already
