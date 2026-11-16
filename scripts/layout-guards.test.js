@@ -82,6 +82,21 @@ test('front page loads the trimmed news payload, never the whole archive', () =>
   assert(!/href="data\/news\.json"/.test(index), 'index.html still preloads data/news.json');
 });
 
+test('companies and policies paint without the news archive; news.json loads only when a detail sheet opens (2026-11-15, B1)', () => {
+  // Both pages awaited news.json (~220 KB gzip) before painting any row, only
+  // to show a detail sheet's related-news list. First load was 344 / 321 KB gzip.
+  for (const page of ['companies', 'policies']) {
+    const html = read(`${page}.html`);
+    assert(!/RT\.loadAll\(\)/.test(html), `${page}.html loads everything via loadAll()`);
+    assert(!/await RT\.loadData\(['"]news['"]\)/.test(html), `${page}.html awaits news.json before first paint`);
+    assert(!/Promise\.all\(\[[^\]]*loadData\(['"]news['"]\)/.test(html), `${page}.html puts news.json in its first-paint Promise.all`);
+    assert(!/href="data\/news\.json"/.test(html), `${page}.html preloads data/news.json`);
+    const lazy = html.indexOf("RT.loadData('news').then");
+    assert(lazy > html.indexOf('RT.openDetail('), `${page}.html no longer fetches news after opening the detail sheet`);
+    assert(/id="detail-news"/.test(html), `${page}.html detail sheet lost its news slot`);
+  }
+});
+
 test('news page first-paints from the trimmed payload and only fetches the full archive on demand (2026-10-02, was 259/260 KB gzip)', () => {
   const news = read('news.html');
   assert(!/href="data\/news\.json"/.test(news), 'news.html still preloads the full archive instead of data/news-recent.json');

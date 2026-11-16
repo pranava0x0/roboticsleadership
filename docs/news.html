@@ -115,7 +115,7 @@
     let fullNewsPromise = null;
     function ensureFullNews() {
       if (!fullNewsPromise) {
-        fullNewsPromise = RT.loadData('news').then((full) => {
+        fullNewsPromise = /* on demand */ RT.loadData('news').then((full) => {
           news = full;
           fullLoaded = true;
           refreshSelectOptions();

@@ -16,10 +16,15 @@ import fs from 'node:fs';
 import path from 'node:path';
 import zlib from 'node:zlib';
 import { fileURLToPath } from 'node:url';
+import { loadRT } from './render-static.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DOCS = path.join(ROOT, 'docs');
 const BUDGET_GZ_KB = 260;
+
+// RT helpers in app.js that fetch datasets by name, so no data/*.json literal shows in the page.
+// mountCommissionNote is left out: it fetches only when the reader opens the section.
+const HELPER_FETCHES = { loadAll: ['companies', 'policies', 'news', 'themes'], loadNewsRecent: ['news-recent'] };
 
 const gz = (buf) => zlib.gzipSync(buf, { level: 9 }).length;
 const read = (p) => fs.readFileSync(p);
@@ -48,19 +53,34 @@ for (const p of pages) {
     if (/^https?:\/\//.test(u)) external.add(u);
     else if (!u.startsWith('data:')) local.add(u.split(/[?#]/)[0]);
   }
-  // Data fetches: literal data/*.json in the page plus what app.js pulls for every page.
+  // Data fetches on first load: literal data/*.json in the page (preloads), every
+  // RT.loadData('<name>') call, and the RT helpers that fetch by name. A call written
+  // as `/* on demand */ RT.loadData('<name>')` runs only after a reader acts (opens a
+  // detail sheet, filters the archive), so it is reported apart from first load.
   // JSON-LD names each page's dataset as a DataDownload contentUrl; that is a
   // description for crawlers, not a fetch, so it is left out of the scan.
   const fetchable = html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, '');
-  for (const m of fetchable.matchAll(/data\/[a-z_]+\.json/g)) local.add(m[0]);
-  const shared = [...appJs.matchAll(/data\/[a-z_]+\.json/g)].map((m) => m[0]);
-  if (/RT\.load|fetchJSON|loadData/.test(html)) shared.forEach((s) => local.add(s));
+  const onDemand = new Set();
+  for (const m of fetchable.matchAll(/data\/[a-z0-9_-]+\.json/g)) local.add(m[0]);
+  for (const m of fetchable.matchAll(/(\/\* on demand \*\/\s*)?RT\.loadData\(['"]([a-z0-9_-]+)['"]\)/g)) {
+    (m[1] ? onDemand : local).add(`data/${m[2]}.json`);
+  }
+  for (const [helper, names] of Object.entries(HELPER_FETCHES)) {
+    if (fetchable.includes(`RT.${helper}(`)) names.forEach((n) => local.add(`data/${n}.json`));
+  }
+  if (/src="assets\/app\.js"/.test(html) && /class="updated-date/.test(html)) local.add('data/sources.json'); // loadHeaderUpdated()
+  for (const f of local) onDemand.delete(f);
 
   let raw = read(path.join(DOCS, p)).length;
   let zipped = gz(read(path.join(DOCS, p)));
   const parts = { html: raw, css: 0, js: 0, data: 0, img: 0 };
   for (const rel of local) {
     const f = path.join(DOCS, rel);
+    if (rel === 'data/news-recent.json' && !fs.existsSync(f)) {
+      const buf = Buffer.from(JSON.stringify(loadRT().newsRecentPayload(JSON.parse(read(path.join(DOCS, 'data/news.json'))))));
+      raw += buf.length; zipped += gz(buf); parts.data += buf.length;
+      continue;
+    }
     if (!fs.existsSync(f) || fs.statSync(f).isDirectory()) {
       broken.push(`${p}: missing asset ${rel}`);
       continue;
@@ -70,6 +90,12 @@ for (const p of pages) {
     zipped += /\.(png|jpe?g|webp|avif|woff2?)$/i.test(rel) ? buf.length : gz(buf);
     const kind = rel.endsWith('.css') ? 'css' : rel.endsWith('.js') ? 'js' : rel.endsWith('.json') ? 'data' : 'img';
     parts[kind] += buf.length;
+  }
+
+  let lazyGz = 0;
+  for (const rel of onDemand) {
+    const f = path.join(DOCS, rel);
+    if (fs.existsSync(f)) lazyGz += gz(read(f));
   }
 
   // Internal links: page.html, page.html?q, page.html#id, #id.
@@ -95,14 +121,15 @@ for (const p of pages) {
     gz_kb: +kb(zipped),
     data_kb: +kb(parts.data),
     js_kb: +kb(parts.js),
+    lazy_gz_kb: +kb(lazyGz),
   });
 }
 
 const pad = (s, n) => String(s).padEnd(n);
-console.log(pad('page', 28) + pad('reqs', 6) + pad('ext', 5) + pad('raw KB', 10) + pad('gzip KB', 10) + pad('data KB', 10) + 'js KB');
+console.log(pad('page', 28) + pad('reqs', 6) + pad('ext', 5) + pad('raw KB', 10) + pad('gzip KB', 10) + pad('data KB', 10) + pad('js KB', 8) + 'on demand gzip KB');
 for (const r of rows.sort((a, b) => b.gz_kb - a.gz_kb)) {
   const flag = r.gz_kb > BUDGET_GZ_KB ? '  OVER BUDGET' : '';
-  console.log(pad(r.page, 28) + pad(r.requests, 6) + pad(r.external, 5) + pad(r.raw_kb, 10) + pad(r.gz_kb, 10) + pad(r.data_kb, 10) + r.js_kb + flag);
+  console.log(pad(r.page, 28) + pad(r.requests, 6) + pad(r.external, 5) + pad(r.raw_kb, 10) + pad(r.gz_kb, 10) + pad(r.data_kb, 10) + pad(r.js_kb, 8) + (r.lazy_gz_kb || '') + flag);
 }
 const total = rows.reduce((s, r) => s + r.gz_kb, 0);
 console.log(`\n${rows.length} pages · worst ${rows[0].page} ${rows[0].gz_kb} KB gzip (budget ${BUDGET_GZ_KB}) · sum ${total.toFixed(1)} KB`);
