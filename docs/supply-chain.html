@@ -129,6 +129,10 @@
     <p class="page-lede">From rare-earth mines to finished robots: who makes what, where, how much, and who pays for it.</p>
     <noscript><p class="note-block noscript-note">This page needs JavaScript to build its charts and tables. The records it shows are in <a href="data/supply_chain.json">supply_chain.json</a>. These pages work without it: <a href="index.html">Front page</a>, <a href="news.html">News</a>, <a href="china.html">US vs China</a>, <a href="rd.html">R&amp;D</a> and <a href="section-232-robotics.html">Sec. 232</a>.</p></noscript>
 
+    <nav class="chip-nav chip-nav-scroll" id="supply-jump" aria-label="On this page">
+      <a href="#sec-chain">Chain</a><a href="#sec-classes">Robot classes</a><a href="#sec-us-sites">US sites</a><a href="#sec-shares">Shares</a><a href="#sec-categories">Categories</a><a href="#sec-financing">Financing</a><a href="#sec-stakeholders">Stakeholders</a><a href="#sec-commission">Commission</a><a href="#sec-facts">Key figures</a>
+    </nav>
+
     <aside class="bluf" aria-label="Summary">
       <p class="bluf-body" id="bluf-body"><span class="skeleton" style="display:inline-block;height:16px;width:90%;"></span></p>
     </aside>
@@ -145,7 +149,7 @@
     </section>
 
     <!-- Chain map -->
-    <h2 class="section-title">From mine to finished robot</h2>
+    <h2 class="section-title" id="sec-chain">From mine to finished robot</h2>
     <div class="chart" id="chain-map">
       <h3>Where the U.S. stands at each stage</h3>
       <p class="chart-sub">Each stage from mine to deployed robot. Colors are this site's editorial reading of the U.S. position in the cited sources.</p>
@@ -158,7 +162,7 @@
     </div>
 
     <!-- Robot classes / shipments -->
-    <h2 class="section-title">Who ships what — robot classes</h2>
+    <h2 class="section-title" id="sec-classes">Who ships what — robot classes</h2>
     <div class="chart" id="shipments-chart">
       <h3>Annual shipments by robot class</h3>
       <p class="chart-sub">Units per year by class. Sources use different scopes, so rows do not add up.</p>
@@ -188,7 +192,7 @@
     </details>
 
     <!-- Share by category -->
-    <h2 class="section-title">Who makes what</h2>
+    <h2 class="section-title" id="sec-shares">Who makes what</h2>
     <div class="chart" id="share-chart">
       <h3>Production share by category</h3>
       <p class="chart-sub">Estimated share of global output. Hover a row for what it measures.</p>
@@ -202,7 +206,7 @@
     </div>
 
     <!-- By category -->
-    <h2 class="section-title">By category</h2>
+    <h2 class="section-title" id="sec-categories">By category</h2>
     <p class="muted" style="font-size:13px;margin:-6px 0 12px;">Grouped by chain stage.</p>
     <div id="category-sections"></div>
 

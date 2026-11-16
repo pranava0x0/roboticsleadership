@@ -1702,6 +1702,9 @@ a.kpi-card:hover {
   gap: 12px;
   padding: 16px 0 4px;
 }
+.feed-pagination-top { padding: 0 0 12px; }
+.feed-pagination:empty { padding: 0; }
+.pag-btn { min-height: 44px; }
 .pag-info {
   font-size: 13px;
   color: var(--text-muted);
@@ -1977,12 +1980,20 @@ table, .kpi-value, .kpi-sub, .chart text { font-variant-numeric: tabular-nums; }
 .jump-nav::-webkit-scrollbar { display: none; }
 .jump-nav a { flex: 0 0 auto; }
 body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(--header-h) + 72px); }
-.jump-nav a {
+/* The same chips in the page flow, for an index that scrolls away with the page
+   (R&D models, China plans, policies, supply chain). Not sticky: a pinned bar
+   takes ~60px off every phone screen on pages read mostly by scrolling.
+   The scroll variant keeps a long index on one row. */
+.chip-nav { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 14px; }
+.chip-nav-scroll { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+.chip-nav-scroll::-webkit-scrollbar { display: none; }
+.chip-nav-scroll a { flex: 0 0 auto; }
+.jump-nav a, .chip-nav a {
   display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px;
   border: 1px solid var(--border); border-radius: var(--radius-pill); font-size: 13px;
   color: var(--text); text-decoration: none; background: var(--surface);
 }
-.jump-nav a:hover { border-color: var(--border-strong); color: var(--accent); }
+.jump-nav a:hover, .chip-nav a:hover { border-color: var(--border-strong); color: var(--accent); }
 .summit-agenda { list-style: none; margin: 0; padding: 0; }
 .summit-session {
   display: grid; grid-template-columns: 52px 1fr; gap: 12px;

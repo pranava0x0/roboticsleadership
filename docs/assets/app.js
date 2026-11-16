@@ -908,7 +908,7 @@
           <p class="muted plans-strap">${plans.length} plans in ${(cp.series || []).length} series: what each version changed, and the closest US counterpart.</p>
         </summary>
         ${cp.note ? `<p class="plans-sub">${escapeHTML(cp.note)}</p>` : ''}
-        ${compare ? '<p class="plans-sub"><a href="#plans-vs-us">How the US compares</a></p>' : ''}
+        <nav class="chip-nav" aria-label="Plan series">${(cp.series || []).filter((s) => plans.some((p) => p.series === s.id)).map((s) => `<a href="#series-${escapeHTML(s.id)}">${escapeHTML(s.title)}</a>`).join('')}${compare ? '<a href="#plans-vs-us">How the US compares</a>' : ''}</nav>
         ${series}
         ${compare}
         ${(cp.caveats || []).length ? `<ul class="plans-caveats">${cp.caveats.map((c) => `<li>${escapeHTML(c)}</li>`).join('')}</ul>` : ''}
@@ -1494,7 +1494,10 @@
     const table = (rows) => `<div class="table-wrap"><table class="data-table rd-table">
           ${head}
           <tbody>${rows.join('')}</tbody></table></div>`;
-    return rdByCountry(models).map(([c, list], i) => {
+    const groups = rdByCountry(models);
+    // One tap to each country's table; the click handler opens a closed group.
+    const index = `<nav class="chip-nav" aria-label="Models by country">${groups.map(([c]) => `<a href="#models-${escapeHTML(c.toLowerCase())}">${escapeHTML(RD_COUNTRY_HEAD[c])}</a>`).join('')}</nav>`;
+    return index + groups.map(([c, list], i) => {
       const rows = rdSortDate(list, 'released').map((m) => {
         const results = (m.results || []).map((r) => `<li><span class="rd-bench-name">${escapeHTML(r.benchmark)}:</span> <strong>${escapeHTML(r.value)}</strong>${r.vendor_reported ? ' <span class="pill warning rd-flag">Vendor-reported</span>' : ''}${r.setting ? `<span class="secondary-line">${escapeHTML(r.setting)}</span>` : ''}</li>`).join('');
         return `<tr id="${escapeHTML(m.id)}">

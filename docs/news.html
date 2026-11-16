@@ -78,6 +78,7 @@
       </fieldset>
     </form>
 
+    <div class="feed-pagination feed-pagination-top" aria-label="Feed pages, top"></div>
     <section id="feed" class="feed" data-density="card" aria-live="polite"><!--static:news-feed:start--><!--static:news-feed:end--></section>
     <div id="empty" class="empty-state" hidden>No stories match those filters.</div>
     <div id="feed-pagination" class="feed-pagination" aria-label="Feed pages"></div>
@@ -313,14 +314,18 @@
       }
     }
 
+    // Drawn above the feed too, so page 2 is one tap from the top instead of a
+    // scroll past 20 cards. The ids stay on the bottom pager only.
     function renderPagination(page, total) {
-      const wrap = document.getElementById('feed-pagination');
-      if (!wrap) return;
-      wrap.replaceChildren();
-      if (total <= 1) return;
+      document.querySelectorAll('.feed-pagination').forEach((wrap) => {
+        wrap.replaceChildren();
+        if (total > 1) wrap.append(...pagerButtons(page, total, wrap.id === 'feed-pagination'));
+      });
+    }
 
+    function pagerButtons(page, total, withIds) {
       const prev = document.createElement('button');
-      prev.className = 'btn ghost pag-btn'; prev.id = 'pag-prev'; prev.textContent = '← Prev';
+      prev.className = 'btn ghost pag-btn'; if (withIds) prev.id = 'pag-prev'; prev.textContent = '← Prev';
       prev.disabled = page <= 1;
       prev.addEventListener('click', () => {
         if (newsPage > 1) { newsPage--; renderNewsFeed(); scrollToFeed(); }
@@ -330,13 +335,13 @@
       info.className = 'pag-info'; info.textContent = `Page ${page} of ${total}`;
 
       const next = document.createElement('button');
-      next.className = 'btn ghost pag-btn'; next.id = 'pag-next'; next.textContent = 'Next →';
+      next.className = 'btn ghost pag-btn'; if (withIds) next.id = 'pag-next'; next.textContent = 'Next →';
       next.disabled = page >= total;
       next.addEventListener('click', () => {
         if (newsPage < total) { newsPage++; renderNewsFeed(); scrollToFeed(); }
       });
 
-      wrap.append(prev, info, next);
+      return [prev, info, next];
     }
 
     function scrollToFeed() {
