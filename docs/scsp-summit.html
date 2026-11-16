@@ -47,23 +47,10 @@
           <li><a href="scsp-summit.html">SCSP Summit</a></li>
         </ul>
         <details class="primary-more" hidden>
-          <summary>Sections</summary>
+          <summary>More</summary>
           <div class="primary-more-menu"><ul class="nav-overflow"></ul></div>
         </details>
       </nav>
-      <details class="theme-picker" id="theme-picker">
-        <summary aria-label="Theme picker">
-          <span class="theme-picker-current">Dawn</span>
-          <svg class="theme-picker-chevron" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </summary>
-        <div class="theme-picker-menu" role="radiogroup" aria-label="Choose theme">
-          <label class="theme-option"><input type="radio" name="theme" value="caves"><span class="theme-option-name">Caves of Steel</span><span class="theme-option-tag">Earth</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Subconscious</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="foundation"><span class="theme-option-name">Foundation</span><span class="theme-option-tag">Trantor</span></label>
-        </div>
-      </details>
     </div>
   </header>
   <main id="main" class="summit-page">
@@ -72,8 +59,7 @@
       Washington, D.C., Oct 14, 2026. The agenda, the speakers, recent news from their organizations, their recent posts, and the policy context. Compiled from the <a href="https://www.scsp.ai/ai-robotics/" target="_blank" rel="noopener">SCSP agenda</a> and public sources. Company and report context checked <span class="tnum" id="captured">Oct 26, 2026</span>; agenda, speaker roles and posts retain their summit-date context.
     </p>
 
-    <aside class="bluf" aria-label="Bottom line up front">
-      <span class="bluf-tag">Bottom line</span>
+    <aside class="bluf" aria-label="Summary">
       <p class="bluf-body" id="bluf">Loading…</p>
     </aside>
 
@@ -162,6 +148,14 @@
 
   <footer class="site-footer">
     <p>Bios and summaries are paraphrased from the linked sources.</p>
+    <fieldset class="theme-picker" id="theme-picker">
+      <legend>Theme</legend>
+      <label class="theme-option"><input type="radio" name="theme" value="caves"><span>Caves of Steel</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span>The Naked Sun</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="dawn"><span>Robots of Dawn</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span>Robot Dreams</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="foundation"><span>Foundation</span></label>
+    </fieldset>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 

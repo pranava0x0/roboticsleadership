@@ -74,23 +74,10 @@
           <li><a href="scsp-summit.html">SCSP Summit</a></li>
         </ul>
         <details class="primary-more" hidden>
-          <summary>Sections</summary>
+          <summary>More</summary>
           <div class="primary-more-menu"><ul class="nav-overflow"></ul></div>
         </details>
       </nav>
-      <details class="theme-picker" id="theme-picker">
-        <summary aria-label="Theme picker">
-          <span class="theme-picker-current">Dawn</span>
-          <svg class="theme-picker-chevron" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </summary>
-        <div class="theme-picker-menu" role="radiogroup" aria-label="Choose theme">
-          <label class="theme-option"><input type="radio" name="theme" value="caves"><span class="theme-option-name">Caves of Steel</span><span class="theme-option-tag">Earth</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Subconscious</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="foundation"><span class="theme-option-name">Foundation</span><span class="theme-option-tag">Trantor</span></label>
-        </div>
-      </details>
     </div>
   </header>
 
@@ -108,8 +95,7 @@
     <section class="subtab-panel" id="panel-federal" aria-label="Federal">
     <nav aria-label="Research sources"><a class="report-cite" id="policy-research-jump" href="#policy-research">Hearings and source archive</a></nav>
 
-    <aside class="bluf" aria-label="Bottom line up front">
-      <span class="bluf-tag">Bottom line</span>
+    <aside class="bluf" aria-label="Summary">
       <p class="bluf-body">
         <strong>Federal robotics policy spans procurement, manufacturing, research, and tax.</strong> This tracker distinguishes current and historical agency programs from proposed bills. States and cities also govern where many robots operate; see <a href="?tab=states">States &amp; cities</a>.
       </p>
@@ -286,8 +272,7 @@
     </section>
 
     <section class="subtab-panel" id="panel-states" aria-label="States and cities">
-      <aside class="bluf" aria-label="Bottom line up front">
-        <span class="bluf-tag">Bottom line</span>
+      <aside class="bluf" aria-label="Summary">
         <p class="bluf-body">
           <strong>State and local rules shape robot operation and deployment.</strong> California regulates autonomous-vehicle testing and passenger service through separate permits. Pennsylvania permits qualifying delivery devices; Philadelphia is considering a delivery fee. Broad state tax incentives may also apply to robotics firms.
         </p>
@@ -472,6 +457,14 @@
 
   <footer class="site-footer">
     <p>Data updated <span class="updated-date tnum">—</span>.</p>
+    <fieldset class="theme-picker" id="theme-picker">
+      <legend>Theme</legend>
+      <label class="theme-option"><input type="radio" name="theme" value="caves"><span>Caves of Steel</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span>The Naked Sun</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="dawn"><span>Robots of Dawn</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span>Robot Dreams</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="foundation"><span>Foundation</span></label>
+    </fieldset>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 

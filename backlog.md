@@ -4,6 +4,18 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-11-11 (financials run: new sources)
+
+The 2026-11-11 run updated 19 company `financials` from `data/research/financials-2026-11-11/` (full list there in `sources.md`). Sources worth wiring in:
+
+- [ ] **(high) SEC EDGAR XBRL `companyfacts` + `submissions` APIs** for every US filer (Tesla, ISRG, Teradyne, Symbotic, Moog, AeroVironment, Ouster, Serve, Arbe, Richtech, Agility). Free JSON keyed by CIK; tagged revenue/net income per period with accession numbers, and 8-K item 2.02 dates tell you when results land. Replaces hand-reading press releases, and makes "is this record stale?" a script.
+- [ ] **(high) Frankfurter (ECB rates) for dated FX.** `api.frankfurter.dev/v1/<date>?base=USD`. Store the rate and date with every converted figure; UBTech's record used ~7.25 CNY/USD with no date.
+- [ ] **(medium) FANUC and Yaskawa IR PDFs** (predictable URL patterns, robot-division tables in English). Gives robotics segment revenue rather than whole-company revenue.
+- [ ] **(medium) HKEXnews + pdf.dfcfw.com mirror** for UBTech, Dobot and other HK filers; **SSE/cninfo** for Unitree (688836), Siasun (300024), EFORT (688165), Midea (000333). Six China rows are press-sourced this run because the exchanges were unreachable.
+- [ ] **(medium) Separate the latest-quarter figure from the annual figure in `financials`.** The record holds one `revenue_usd` with a mixed period ("2025", "Q3 2026", "H1 2026"); quarterly updates went into `details` this run so annual numbers stay comparable. A `latest: {period, revenue_usd, net_income_usd, guidance, source}` object would let companies.html show both.
+- [ ] **(medium) Demand context next to company results:** A3 North American robot orders (quarterly), JARA Japanese orders/shipments, China NBS monthly industrial-robot output (data.stats.gov.cn, machine-readable). None queried yet.
+- [ ] **(low) Earnings-event summaries (Quartr) and ABB's library PDFs** as fallbacks when IR pages time out. Skip ir.xiaopeng.com, geekwire.com and thebambooworks.com (403 to scripts).
+- [ ] **(low) Still unreported as of Nov 11:** XPeng Q3 (Nov 16), Symbotic and Moog September quarters, Arbe Q3. Agility's H1 figures rest on one summary of its S-4/A and were not applied.
 ## ▶ Added 2026-11-14 (scheduled refresh)
 
 - [ ] **(medium) Reframe: robot control may be moving into frontier general models, which changes what U.S. AI rules cover.** OpenAI folded its robotics team into main research and says GPT-6 Astra runs some robot tasks directly (record `openai-disbands-robotics-team-2026-11`). If that holds, controls written for frontier model weights and compute also reach robot "brains", and a separate robot-model category on policies.html may not be the right frame. Watch for a BIS or OSTP RFI that mentions embodied use before restructuring.

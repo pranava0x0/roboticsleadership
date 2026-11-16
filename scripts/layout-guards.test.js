@@ -133,22 +133,20 @@ test('policy is one page with Federal, States and Potential sub-tabs; removed pa
 test('front page carries every theme, with figures and sources', () => {
   const themes = JSON.parse(read('data/themes.json'));
   const out = loadRT().renderThemeCards(themes);
-  const n = (out.match(/class="card theme-card"/g) || []).length;
+  // One closed disclosure row per theme (2026-11-11): the name shows; the whole
+  // note, figures and sources sit inside, and none of it is lost.
+  const n = (out.match(/<details class="theme-row"/g) || []).length;
   assert(n === themes.length, `rendered ${n} of ${themes.length} themes`);
-  // Only the first sentence shows; the rest sits in the toggle, and none of it is lost.
+  assert(!/<details class="theme-row"[^>]*\bopen\b/.test(out), 'a theme row ships open');
   const RT = loadRT();
   const norm = (s) => s.replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/\s+/g, ' ').trim();
   for (const t of themes) {
-    const card = RT.renderThemeCards([t]);
-    const lead = norm((card.match(/<h3[^>]*>[\s\S]*?<\/h3>\s*<p class="card-sub">([\s\S]*?)<\/p>/) || [])[1] || '');
-    const rest = norm((card.match(/<\/summary>\s*<p class="card-sub">([\s\S]*?)<\/p>/) || [])[1] || '');
-    assert(norm(`${lead} ${rest}`) === norm(t.narrative), `${t.id}: lead + toggle text no longer equals the note`);
-    assert(/[.!?]$/.test(lead), `${t.id}: lead is cut mid-sentence: "${lead.slice(-40)}"`);
+    const row = RT.renderThemeCards([t]);
+    const body = norm((row.match(/<div class="theme-body">\s*<p>([\s\S]*?)<\/p>/) || [])[1] || '');
+    assert(body === norm(t.narrative), `${t.id}: the row no longer carries the whole note`);
+    const metrics = (row.match(/<ul class="theme-metrics">[\s\S]*?<\/ul>/) || [''])[0];
+    assert((metrics.match(/<li>/g) || []).length === (t.key_metrics || []).length, `${t.id}: figures dropped`);
   }
-  const abbrev = RT.renderThemeCards([{ id: 'x', name: 'x', narrative: 'Output in the U.S. rose vs. China in Q3. Then it fell.' }]);
-  assert(/card-sub">Output in the U\.S\. rose vs\. China in Q3\.<\/p>/.test(abbrev), 'abbreviation split the lead');
-  const visible = out.replace(/<details[\s\S]*?<\/details>/g, '').replace(/<[^>]+>/g, ' ');
-  assert(visible.length < themes.reduce((s, t) => s + t.narrative.length, 0) * 0.6, 'theme notes render in full above the toggle again');
   assert(read('index.html').includes('id="themes"'), 'index.html lost the #themes anchor news.html links to');
 });
 
@@ -175,13 +173,15 @@ test('news cards tighten on a phone without hiding the summary (2026-11-12, 9.5 
   assert(!/\.summary[^}]*display:\s*none/.test(block), 'phone rule must not hide card summaries');
 });
 
-test('front-page top companies go two-up on a phone (2026-11-13, 7.9 -> 7.3 screens)', () => {
-  const css = read('assets/styles.css');
-  assert(/@media \(max-width: 639px\) \{\s*#top-companies \{ grid-template-columns: repeat\(2, minmax\(0, 1fr\)\);/.test(css), 'phone two-up rule for #top-companies missing');
+test('front-page top companies are a ranked list of six rows (2026-11-15, replaced the 2026-11-13 two-up cards)', () => {
+  // Six stacked cards ran 1,027px on a phone; two-up cards cut that, and a
+  // one-line-per-company ranked list cuts it further with every row still a 44px+ target.
   const RT = loadRT();
   const html = RT.renderTopCompanies([{ id: 'a', name: 'A', hq: { country: 'USA' }, latest_valuation_usd: 1e9 }]);
-  assert(/<dl class="kv kv-compact">/.test(html), 'top-company card lost the kv-compact class');
-  assert(!/<dl[^>]*style=/.test(html), 'an inline grid style on the card would override the phone rule');
+  assert(/<li><a href="companies\.html\?focus=a">/.test(html), 'row does not link to the company');
+  assert(/class="rank-value tnum"/.test(html), 'row lost its valuation');
+  assert(/<ol id="top-companies" class="rank-list">/.test(read('index.html')), 'index.html #top-companies is no longer an ordered rank list');
+  assert(/\.rank-list a \{[^}]*min-height: 52px/.test(read('assets/styles.css')), 'rank rows lost their touch-target height');
 });
 
 test('phone filter bars put the result count beside the last button (2026-11-14, news bar 229 -> 198px)', () => {
@@ -210,6 +210,13 @@ test('scsp-summit report directions and caveats ship collapsed (2026-11-15, ~1,4
     const body = html.slice(open.index, html.indexOf('</details>', open.index));
     assert(body.includes(`id="${list}"`), `#${list} must sit inside #${wrap}`);
   }
+});
+
+test('an open detail sheet makes the back-to-top button inert too (Codex review, PR #301)', () => {
+  const app = read('assets/app.js');
+  const sel = (app.match(/const MODAL_INERT = '([^']+)'/) || [])[1] || '';
+  assert(/body > \.to-top/.test(sel), 'MODAL_INERT does not cover the body-level .to-top button');
+  assert((app.match(/querySelectorAll\(MODAL_INERT\)/g) || []).length === 2, 'open and close no longer share MODAL_INERT');
 });
 
 console.log(`\n${passed} passed, ${failed} failed`);

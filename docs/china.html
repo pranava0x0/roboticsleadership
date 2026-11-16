@@ -76,33 +76,19 @@
           <li><a href="scsp-summit.html">SCSP Summit</a></li>
         </ul>
         <details class="primary-more" hidden>
-          <summary>Sections</summary>
+          <summary>More</summary>
           <div class="primary-more-menu"><ul class="nav-overflow"></ul></div>
         </details>
       </nav>
-      <details class="theme-picker" id="theme-picker">
-        <summary aria-label="Theme picker">
-          <span class="theme-picker-current">Dawn</span>
-          <svg class="theme-picker-chevron" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </summary>
-        <div class="theme-picker-menu" role="radiogroup" aria-label="Choose theme">
-          <label class="theme-option"><input type="radio" name="theme" value="caves"><span class="theme-option-name">Caves of Steel</span><span class="theme-option-tag">Earth</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Subconscious</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="foundation"><span class="theme-option-name">Foundation</span><span class="theme-option-tag">Trantor</span></label>
-        </div>
-      </details>
     </div>
   </header>
 
   <main id="main">
     <h1 class="page-title">US vs China.</h1>
     <p class="page-lede">Deployment, humanoids, supply chain and capital, compared metric by metric, plus the SemiAnalysis Unitree comparison.</p>
-    <nav aria-label="Research sources"><a class="report-cite" id="five-year-plan-jump" href="#sec-five-year-plan">15th Five-Year Plan</a></nav>
+    <nav aria-label="Research sources"><a class="report-cite" id="plans-jump" href="#sec-china-plans">China’s robotics plans</a> <a class="report-cite" id="five-year-plan-jump" href="#sec-five-year-plan">15th Five-Year Plan</a></nav>
 
-    <aside class="bluf" aria-label="Bottom line up front">
-      <span class="bluf-tag">Bottom line</span>
+    <aside class="bluf" aria-label="Summary">
       <p class="bluf-body" id="bluf-body"><!--static:china-bluf:start--><span class="skeleton" style="display:inline-block;height:16px;width:90%;"></span><!--static:china-bluf:end--></p>
     </aside>
 
@@ -137,6 +123,8 @@
       <div id="commission-note"><p class="muted-cell">Loading…</p></div>
     </details>
 
+    <div id="china-plans"><!--static:china-plans:start--><!--static:china-plans:end--></div>
+
     <details class="collapsible-section" id="sec-five-year-plan">
       <summary><h2 class="section-title">China’s 15th Five-Year Plan, 2026–2030</h2></summary>
       <p>The National People’s Congress approved the plan on March 12, 2026. Chapter 5 lists robotics among strategic emerging industries and embodied intelligence among future industries. The plan calls for application demonstrations, industrial clusters and AI adoption. The relevant lists are open-ended; they do not establish “10 industry tracks” or a robotics-specific appropriation.</p>
@@ -153,6 +141,14 @@
 
   <footer class="site-footer">
     <p>Data updated <span class="updated-date tnum">—</span>.</p>
+    <fieldset class="theme-picker" id="theme-picker">
+      <legend>Theme</legend>
+      <label class="theme-option"><input type="radio" name="theme" value="caves"><span>Caves of Steel</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span>The Naked Sun</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="dawn"><span>Robots of Dawn</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span>Robot Dreams</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="foundation"><span>Foundation</span></label>
+    </fieldset>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 
@@ -170,6 +166,12 @@
       document.getElementById('bluf-body').textContent = 'Failed to load comparison data.';
       return;
     }
+    // The plans section is baked; the client only refreshes it, and a failed
+    // fetch leaves the baked copy in place.
+    RT.loadData('china_plans').then((cp) => {
+      RT.paint(document.getElementById('china-plans'), RT.renderChinaPlans(cp));
+      RT.applyCollapsibleState();
+    }).catch((e) => console.warn('china_plans did not load; keeping the baked copy', e));
 
     RT.renderProductionTrend((sc && sc.production_trend) || [], {
       svg: document.getElementById('production-trend-svg'),

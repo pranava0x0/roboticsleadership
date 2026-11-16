@@ -193,7 +193,7 @@ def reveal(page: Any, selector: str, cost: Dict[str, Any]) -> str:
 
 # Header items that sit on top of each other. The current page's nav link is
 # pinned inline, so a long label ("SCSP Summit") at 320px once printed under
-# the "Sections" button; the document never overflowed, so nothing else saw it.
+# the "More" button; the document never overflowed, so nothing else saw it.
 OVERLAP = r"""
 () => {
   const vis = (e) => e && e.offsetParent !== null && !e.closest('[hidden]');
@@ -237,7 +237,7 @@ def run_task(page: Any, base: str, task: Dict[str, Any]) -> Dict[str, Any]:
     cost["load_ms"] = round((time.monotonic() - t0) * 1000)
     for step in task["steps"]:
         action, selector = step[0], step[1]
-        if action == "nav":  # a primary-nav link; it may sit in the "Sections" overflow
+        if action == "nav":  # a primary-nav link; it may sit in the "More" overflow
             selector = '.primary-nav a[href="%s"]' % selector
             action = "tap"
         sel = reveal(page, selector, cost)

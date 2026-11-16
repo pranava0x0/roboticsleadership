@@ -51,23 +51,10 @@
           <li><a href="scsp-summit.html">SCSP Summit</a></li>
         </ul>
         <details class="primary-more" hidden>
-          <summary>Sections</summary>
+          <summary>More</summary>
           <div class="primary-more-menu"><ul class="nav-overflow"></ul></div>
         </details>
       </nav>
-      <details class="theme-picker" id="theme-picker">
-        <summary aria-label="Theme picker">
-          <span class="theme-picker-current">Dawn</span>
-          <svg class="theme-picker-chevron" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </summary>
-        <div class="theme-picker-menu" role="radiogroup" aria-label="Choose theme">
-          <label class="theme-option"><input type="radio" name="theme" value="caves"><span class="theme-option-name">Caves of Steel</span><span class="theme-option-tag">Earth</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span class="theme-option-name">The Naked Sun</span><span class="theme-option-tag">Solaria</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="dawn"><span class="theme-option-name">Robots of Dawn</span><span class="theme-option-tag">Aurora</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span class="theme-option-name">Robot Dreams</span><span class="theme-option-tag">Subconscious</span></label>
-          <label class="theme-option"><input type="radio" name="theme" value="foundation"><span class="theme-option-name">Foundation</span><span class="theme-option-tag">Trantor</span></label>
-        </div>
-      </details>
     </div>
   </header>
 
@@ -75,13 +62,10 @@
     <!-- Masthead: title and one line, then straight into the lead. -->
     <div class="masthead">
       <h1 class="masthead-title">Robotics — How the U.S. can Lead</h1>
-      <p class="masthead-strap">Where AI meets the physical world. Updated <span class="updated-date tnum">—</span>.</p>
+      <p class="masthead-strap">Updated <span class="updated-date tnum">—</span>.</p>
     </div>
 
-    <aside class="bluf front-focus" aria-label="In focus">
-      <span class="bluf-tag">In focus</span>
-      <p class="bluf-body"><a href="section-232-robotics.html">Section 232 proclamation on robots and industrial machinery</a>, signed Oct 28. It imposes no tariff; Commerce and USTR must report on trade talks by Apr 26, 2027.</p>
-    </aside>
+    <p class="front-focus">The <a href="section-232-robotics.html">Section 232 proclamation on robots and industrial machinery</a>, signed Oct 28, imposes no tariff. Commerce and USTR must report on trade talks by Apr 26, 2027.</p>
 
     <!-- Above the fold: the well (lead + secondaries) beside the rail of
          briefs. Secondaries live inside the well, not below the grid, so the
@@ -99,6 +83,19 @@
       </aside>
     </div>
 
+    <!-- The front page's one number: China's installs as a multiple of
+         America's, with a dot chart and the multiple over time. The
+         three-series line chart is on china.html and supply-chain.html. -->
+    <h2 class="section-title rule">Robot installations</h2>
+    <section class="gap-hero" id="install-gap" aria-label="China and US robot installations"><!--static:index-installgap:start--><!--static:index-installgap:end--></section>
+
+    <!-- One square per US-vs-China measure, coloured by its edge call. -->
+    <h2 class="section-title rule">US and China on each tracked measure</h2>
+    <section aria-label="US vs China measures by section">
+      <div class="edge-board" id="edge-board"><!--static:index-edgeboard:start--><!--static:index-edgeboard:end--></div>
+      <p class="edge-note">Each square is one measure on the <a href="china.html">US vs China</a> page, coloured by the side that page judges ahead; an outline means neither. These are editorial calls, not scores.</p>
+    </section>
+
     <!-- KPI strip -->
     <h2 class="section-title rule">The numbers</h2>
     <section aria-label="Key indicators">
@@ -111,24 +108,14 @@
       </div><!--static:index-kpis:end-->
     </section>
 
-    <!-- The thesis chart. Text beside the plot from 1024px so the plot keeps
-         a readable size instead of stretching to the full 1280px. -->
-    <h2 class="section-title rule">Robot installations</h2>
-    <div class="chart chart-split" id="production-trend-chart">
-      <h3>Industrial robots installed each year in the US, China and the rest of the world</h3>
-      <p class="chart-sub">Units installed per year, 2015 to 2025, cobots included. Country-by-country figures are on <a href="china.html">US vs China</a>.</p>
-      <svg id="production-trend-svg" viewBox="0 0 560 280" role="img" aria-label="Industrial robot installations, US vs China vs rest of world, 2015 to 2025"></svg>
-      <div class="chart-legend" id="production-trend-legend"></div>
-      <p class="chart-source" id="production-trend-source"></p>
-    </div>
-
     <!-- Themes -->
     <h2 class="section-title rule" id="themes">Themes to watch</h2>
-    <div id="theme-cards" class="card-grid cols-3"><!--static:index-themes:start--><!--static:index-themes:end--></div>
+    <div id="theme-cards" class="theme-list"><!--static:index-themes:start--><!--static:index-themes:end--></div>
 
     <!-- Top companies by latest valuation -->
     <h2 class="section-title rule">Highest-valued companies</h2>
-    <div id="top-companies" class="card-grid cols-3"><!--static:index-companies:start--><!--static:index-companies:end--></div>
+    <ol id="top-companies" class="rank-list"><!--static:index-companies:start--><!--static:index-companies:end--></ol>
+    <p class="rank-more"><a href="companies.html">All companies</a></p>
 
     <!-- How to read this page. Kept below the reporting, where a masthead
          box belongs on a news front page, rather than above it. -->
@@ -146,29 +133,39 @@
 
   <footer class="site-footer">
     <p>See <a href="news.html">all news</a>.</p>
+    <fieldset class="theme-picker" id="theme-picker">
+      <legend>Theme</legend>
+      <label class="theme-option"><input type="radio" name="theme" value="caves"><span>Caves of Steel</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="naked-sun"><span>The Naked Sun</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="dawn"><span>Robots of Dawn</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="robot-dreams"><span>Robot Dreams</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="foundation"><span>Foundation</span></label>
+    </fieldset>
     <p class="footer-credit"><a href="https://pranavaraparla.com">pranavaraparla.com</a> · <a href="https://github.com/pranava0x0/roboticsleadership" aria-label="Source repository">GitHub</a></p>
   </footer>
 
   <script src="assets/app.js" defer></script>
   <script defer>
   document.addEventListener('DOMContentLoaded', async () => {
-    // supply_chain feeds the thesis chart + install-gap KPI; if it fails,
-    // degrade to the 5-KPI strip and skip the chart (loadData already logs).
+    // supply_chain feeds the install-gap figure and us_china the edge board;
+    // if either fails, that block stays empty and the rest renders (loadData
+    // already logs).
     // The front page renders ten stories and a total, so it loads the derived
     // news-recent.json (latest 60 + count), not the whole archive.
-    const [companies, policies, themes, recent, sc] = await Promise.all([
+    const [companies, policies, themes, recent, sc, uc] = await Promise.all([
       RT.loadData('companies'),
       RT.loadData('policies'),
       RT.loadData('themes'),
       RT.loadNewsRecent(),
       RT.loadData('supply_chain').catch(() => null),
+      RT.loadData('us_china').catch(() => null),
     ]);
 
     // Every block below is also rendered at deploy time by scripts/render-static.js
     // from these same RT.* functions, so this re-render reproduces what already
     // shipped in the HTML. Page markup belongs in app.js, not inline here —
     // anything defined in this script is invisible to the bake step.
-    const kpis = RT.computeKPIs(companies, policies, sc);
+    const kpis = RT.computeKPIs(companies, policies);
     const strip = document.getElementById('kpi-strip');
     strip.className = RT.kpiStripClass(kpis);
     RT.paint(strip, RT.renderKPICards(kpis));
@@ -184,17 +181,9 @@
     RT.paint(document.getElementById('front-briefs'),
       RT.renderNewsBriefs(front.briefs, recent.total));
 
-    // ---------- Charts ----------
-    // Still client-only: renderProductionTrend writes into live SVG nodes. The
-    // chart carries no text a crawler can read beyond axis labels, so it was not
-    // worth the refactor in the first bake pass. (A top-8 valuation chart sat
-    // here until 2026-10-31; it repeated the company cards below it.)
-    const trendRows = (sc && sc.production_trend) || [];
-    RT.renderProductionTrend(trendRows, {
-      svg: document.getElementById('production-trend-svg'),
-      legend: document.getElementById('production-trend-legend'),
-      source: document.getElementById('production-trend-source'),
-    });
+    // ---------- Install gap and edge board ----------
+    if (sc) RT.paint(document.getElementById('install-gap'), RT.renderInstallGap(sc.production_trend));
+    if (uc) RT.paint(document.getElementById('edge-board'), RT.renderEdgeBoard(uc));
 
     // ---------- Themes ----------
     RT.paint(document.getElementById('theme-cards'), RT.renderThemeCards(themes));

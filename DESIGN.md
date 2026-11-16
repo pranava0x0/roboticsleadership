@@ -277,7 +277,7 @@ Decisions made by *omission*:
 - **No infinite zoom / unconstrained pan.** Set `maxBounds`. Most projects have a meaningful viewport (US-only, city-only); enforce it.
 - **No eyebrows or kickers above titles (2026-10-14, owner call).** A small-caps label over a heading ("Deep dive", "Strategic context", "A cited record") repeats the title or says nothing, and it is the most recognisable template tell on the site. If the information matters (a date, a place, a disclaimer), put it in the lede or the body as a sentence. News-card category tags are filters, not eyebrows, and stay.
 - **One section-head style on every page (2026-10-31, owner call: "make it easier to distinguish a heading from something else").** `h2.section-title` is serif 700 at `clamp(21px, 2.3vw, 25px)` in full `--text`; `.rule` adds a 2px keyline and never changes the type. No tracked-capitals heads — the front page's 15px capitals read as labels, not headings. `scripts/design-tokens.test.js` enforces it.
-- **No boxed callouts, no numbered cards, no identical pills.** `.bluf` is a left keyline with a bold run-in label, not a tinted rounded box. A pill that reads the same on every card ("Accelerating" ×6) or a count that reads "0 cos · 0 policies" is cut, not styled. A chart that repeats the cards beside it (the top-8 valuation chart over "Highest-valued companies") goes.
+- **No boxed callouts, no numbered cards, no identical pills.** `.bluf` is a plain opening paragraph: no "Bottom line" or "In focus" label, no accent keyline, no tinted box (label and bar cut 2026-11-11, owner call: the same tell as an eyebrow). A pill that reads the same on every card ("Accelerating" ×6) or a count that reads "0 cos · 0 policies" is cut, not styled. A chart that repeats the cards beside it (the top-8 valuation chart over "Highest-valued companies") goes.
 - **No link arrows ("Read original →").** The link colour is the affordance. `tools/slop_design.py` flags them.
  Links on each record are the citation. Lines like "every record is cited; primary sources preferred" were cut sitewide on 2026-10-14.
 - **No backend until profit / scale demands one.** Static-first is the default. JSON in `docs/`, GitHub Pages, no runtime. (levels.io: "you don't need a backend.")
@@ -428,12 +428,10 @@ Other accessibility requirements every theme respects:
 
 ### 15.4 Toggle UI
 
-A single disclosure element in the header. Native `<details>` for show/hide (zero JS for the open/close primitive), a `<fieldset>` with five `<input type="radio">` for selection. Keyboard accessible by HTML default; semantic; no ARIA roles needed beyond the labeled fieldset.
+A row of five `<input type="radio">` in a labelled `<fieldset>` in every page's footer (moved out of the header 2026-11-11, owner call). A theme is a preference set once; in the header it was a second caret beside the nav's "More", and on a phone the two chevrons sat side by side with no label to tell them apart. Keyboard accessible by HTML default; no ARIA roles; no JS for the control itself (`initThemePicker` only applies and stores the choice).
 
-Why not a `<select>`: native select chrome can't be styled across browsers without invasive overrides, and it doesn't accommodate per-option preview/description chips.
-Why not a popover menu with `role="menu"`: more JS for the same UX as a `<details>` + radios.
-
-The disclosure is sticky-in-header on every page so a user reading on one page can switch themes without losing position.
+Why not a `<select>`: native select chrome can't be styled across browsers without invasive overrides.
+Why not a header dropdown: one caret per header. The overflow menu owns it.
 
 ### 15.5 When to add another theme
 

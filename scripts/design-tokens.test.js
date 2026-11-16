@@ -144,11 +144,18 @@ test('front page: no exec-brief cards, no "Latest" flag on the lead', () => {
   if (/lead-flag/.test(appJs)) throw new Error('renderLeadStory prints a .lead-flag again — the rail head already says "Latest"');
 });
 
-test('.bluf is a keyline and a run-in label, not a tinted box with a capitals tag', () => {
-  const rules = [...css.matchAll(/(^|\n)\s*\.bluf(-tag|-body)?\s*\{([^}]*)\}/g)].map((m) => m[3]).join('\n');
+// 2026-11-11, owner call: the "Bottom line" / "In focus" run-in label and its
+// accent keyline were the same template tell as an eyebrow. A summary is now a
+// plain opening paragraph: no label, no bar, no box.
+test('.bluf is a plain paragraph: no label, keyline, box or capitals', () => {
+  const rules = [...css.matchAll(/(^|\n)\s*\.(bluf|bluf-body|front-focus)\s*\{([^}]*)\}/g)].map((m) => m[3]).join('\n');
   if (!rules) throw new Error('no .bluf rule found in styles.css');
-  if (/background|border-radius|text-transform/.test(rules)) {
-    throw new Error('.bluf / .bluf-tag set a background, radius or capitals again');
+  if (/border|background|border-radius|text-transform/.test(rules)) {
+    throw new Error('.bluf / .front-focus set a border, background, radius or capitals again');
+  }
+  for (const page of pages) {
+    const html = fs.readFileSync(path.join(DOCS, page), 'utf8');
+    if (/bluf-tag|>\s*(Bottom line|In focus)\s*</.test(html)) throw new Error(`${page} prints a "Bottom line" / "In focus" label again`);
   }
 });
 
