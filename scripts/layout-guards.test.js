@@ -165,5 +165,52 @@ test('section 232: the agencies table ships collapsed, with a jump chip that ope
   assert(/beforeprint/.test(html), 'section-232 page lost its print handler for collapsed sections');
 });
 
+test('news cards tighten on a phone without hiding the summary (2026-11-12, 9.5 -> 8.8 screens)', () => {
+  const css = read('assets/styles.css');
+  const block = (css.match(/\/\* Phone feed cards[\s\S]*?@media \(max-width: 540px\) \{([\s\S]*?)\n\}/) || [])[1] || '';
+  assert(/\.feed-card \{ padding: 12px 14px; \}/.test(block), 'phone feed-card padding rule missing');
+  assert(/\.row-end > \.faint \{ display: none; \}/.test(block), 'phone rule no longer drops the duplicate relative date');
+  assert(!/\.summary[^}]*display:\s*none/.test(block), 'phone rule must not hide card summaries');
+});
+
+test('front-page top companies are a ranked list of six rows (2026-11-15, replaced the 2026-11-13 two-up cards)', () => {
+  // Six stacked cards ran 1,027px on a phone; two-up cards cut that, and a
+  // one-line-per-company ranked list cuts it further with every row still a 44px+ target.
+  const RT = loadRT();
+  const html = RT.renderTopCompanies([{ id: 'a', name: 'A', hq: { country: 'USA' }, latest_valuation_usd: 1e9 }]);
+  assert(/<li><a href="companies\.html\?focus=a">/.test(html), 'row does not link to the company');
+  assert(/class="rank-value tnum"/.test(html), 'row lost its valuation');
+  assert(/<ol id="top-companies" class="rank-list">/.test(read('index.html')), 'index.html #top-companies is no longer an ordered rank list');
+  assert(/\.rank-list a \{[^}]*min-height: 52px/.test(read('assets/styles.css')), 'rank rows lost their touch-target height');
+});
+
+test('phone filter bars put the result count beside the last button (2026-11-14, news bar 229 -> 198px)', () => {
+  const css = read('assets/styles.css');
+  const phone = css.slice(css.indexOf('Clean responsive 2-column grid for filters'));
+  const rule = phone.match(/\.filter-result-count \{[^}]*grid-column:\s*([^;]+);/g) || [];
+  assert(rule.some((r) => /grid-column:\s*auto/.test(r)), 'phone .filter-result-count must use grid-column: auto, not span a full row');
+  for (const page of ['news', 'companies', 'policies']) {
+    const html = read(`${page}.html`);
+    const form = html.slice(html.indexOf('id="filter-form"'), html.indexOf('</form>'));
+    const last = form.lastIndexOf('<button'), count = form.indexOf('filter-result-count');
+    assert(last > -1 && count > last, `${page}: result count must follow the last filter button`);
+    // Search spans both columns; the count only fills a half-empty row when the
+    // one-column controls (selects + buttons) are odd in number.
+    const singles = (form.match(/<select\b/g) || []).length + (form.match(/<button\b/g) || []).length;
+    assert(singles % 2 === 1, `${page}: ${singles} one-column filter controls; an even count puts the result count on its own row`);
+  }
+});
+
+test('scsp-summit report directions and caveats ship collapsed (2026-11-15, ~1,450px of phone scroll)', () => {
+  const html = read('scsp-summit.html');
+  for (const [wrap, list] of [['report-headed', 'report-directions'], ['report-disagree', 'report-caveats']]) {
+    const open = html.match(new RegExp(`<details class="collapsible-section" id="${wrap}"([^>]*)>`));
+    assert(open, `${wrap} must be a details.collapsible-section`);
+    assert(!/\bopen\b/.test(open[1]), `${wrap} must not be authored open`);
+    const body = html.slice(open.index, html.indexOf('</details>', open.index));
+    assert(body.includes(`id="${list}"`), `#${list} must sit inside #${wrap}`);
+  }
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);

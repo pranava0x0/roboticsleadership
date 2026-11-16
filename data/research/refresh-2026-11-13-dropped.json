@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-13",
+  "dropped": [
+    {
+      "id": "hn-50466161",
+      "title": "Microsoft Removes Remaining eMudhra Root Certificates from Trusted Root Program",
+      "source_url": "https://github.com/TrustedRootProgram/Program-Requirements/blob/main/Announcements.md",
+      "date": "2026-11-12",
+      "reason": "off-thesis or no robotics news (HN keyword match)"
+    },
+    {
+      "id": "hn-50467222",
+      "title": "Show HN: Upstar, GitHub projects ranked by velocity in each topics",
+      "source_url": "https://upstar.dev/",
+      "date": "2026-11-12",
+      "reason": "off-thesis or no robotics news (HN keyword match)"
+    },
+    {
+      "id": "hn-50468266",
+      "title": "Kwatch v1.2.0: Kubernetes failure root cause, now with a read-only dashboard",
+      "source_url": "https://blog.kwatch.dev/kwatch-v1-2-0",
+      "date": "2026-11-12",
+      "reason": "off-thesis or no robotics news (HN keyword match)"
+    },
+    {
+      "id": "hn-50469591",
+      "title": "Amazon's Ring debuts security robots, including a drone",
+      "source_url": "https://www.nbcnews.com/tech/tech-news/amazons-ring-debuts-security-robots-drone-rcna608538",
+      "date": "2026-11-12",
+      "reason": "Ring drone and patrol robot already tracked (2026-11-10)"
+    },
+    {
+      "id": "hn-50469976",
+      "title": "From Rent to Root: Introducing NvRoot (CVE-2026-47591)",
+      "source_url": "https://stealthium.io/blog/nvroot",
+      "date": "2026-11-12",
+      "reason": "off-thesis or no robotics news (HN keyword match)"
+    },
+    {
+      "id": "hn-50472560",
+      "title": "Show HN: DRS-VPT. Localize a photo in a 3D point cloud without an initial pose",
+      "source_url": "https://github.com/ori-drs/drs-vpt",
+      "date": "2026-11-12",
+      "reason": "off-thesis or no robotics news (HN keyword match)"
+    },
+    {
+      "id": "hn-50474106",
+      "title": "Show HN: Cerulion – ROS 2-compatible robotics runtime with multi-process replay",
+      "source_url": "https://github.com/cerulion-inc/cerulion",
+      "date": "2026-11-12",
+      "reason": "off-thesis or no robotics news (HN keyword match)"
+    },
+    {
+      "id": "hn-50476425",
+      "title": "Runway releases a 27B open-weight model for controlling real robots",
+      "source_url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+      "date": "2026-11-13",
+      "reason": "folded into runway-praxis-1-open-weights-2026-11"
+    },
+    {
+      "id": "hn-50476665",
+      "title": "A new neural network input module improves humanoid locomotion",
+      "source_url": "https://news.engin.umich.edu/2026/11/prism-a-neural-network-component-for-better-robotic-motor-control/",
+      "date": "2026-11-13",
+      "reason": "university locomotion research, minor"
+    },
+    {
+      "id": "hn-50479949",
+      "title": "Show HN: AI-drop project – drop traffic fast from misbehaving crawlers (AGPL)",
+      "source_url": "https://rocketgit.com/user/catalinux/ai-drop",
+      "date": "2026-11-13",
+      "reason": "off-thesis or no robotics news (HN keyword match)"
+    },
+    {
+      "id": "rss-ace-robotics-pairs-mundo-world-492",
+      "title": "ACE Robotics Pairs Mundo World Model With Self-Improving Skills to Run a Hotel Laundry Workflow",
+      "source_url": "https://pandaily.com/ace-robotics-mundo-world-model-dual-brain-rsi-hotel-laundry-robot",
+      "date": "2026-11-13",
+      "reason": "company workflow demo, feed summary only"
+    },
+    {
+      "id": "rss-former-cainiao-cto-s-robot-sta-624",
+      "title": "Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearly 5,000 Unit Orders",
+      "source_url": "https://pandaily.com/quantum-dynamics-li-qiang-embodied-robots-cainiao-double-11-warehouse-orders",
+      "date": "2026-11-13",
+      "reason": "folded into quantum-dynamics-double11-orders-2026-11"
+    },
+    {
+      "id": "rss-astribot-s-comind-lets-robots-8",
+      "title": "Astribot's CoMind Lets Robots Lend Each Other Their Eyes, Cutting Shared Data by About 80%",
+      "source_url": "https://pandaily.com/astribot-comind-be-my-eye-multi-robot-collaboration-active-context-sharing",
+      "date": "2026-11-13",
+      "reason": "research demo, feed summary only; minor"
+    },
+    {
+      "id": "rss-runway-s-praxis-1-world-action-108",
+      "title": "Runway’s Praxis-1 world action model for robotics is now available",
+      "source_url": "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/",
+      "date": "2026-11-12",
+      "reason": "folded into runway-praxis-1-open-weights-2026-11"
+    },
+    {
+      "id": "rss-viam-launchpad-aims-to-acceler-436",
+      "title": "Viam Launchpad aims to accelerate robotics deployments",
+      "source_url": "https://www.therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments/",
+      "date": "2026-11-12",
+      "reason": "opinion piece by the program's advising director; no news event"
+    },
+    {
+      "id": "rss-nvidia-replaces-ceo-amid-china-395",
+      "title": "NVIDIA replaces CEO amid China AI and robotics concerns",
+      "source_url": "https://www.therobotreport.com/nvidia-replaces-ceo-amid-china-ai-and-robotics-concerns/",
+      "date": "2026-11-12",
+      "reason": "folded into nvidia-huang-resigns-2026-11"
+    }
+  ]
+}

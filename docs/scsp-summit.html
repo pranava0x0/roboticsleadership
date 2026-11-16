@@ -91,10 +91,14 @@
       <span id="report-figs-status" class="muted" aria-live="polite"></span>
       <button class="btn ghost" type="button" id="report-figs-all">Show all</button>
     </div>
-    <h3 style="margin:24px 0 8px;">Where the final report (March 2027) is headed</h3>
-    <ul class="summit-recent" id="report-directions"></ul>
-    <h3 style="margin:24px 0 8px;">Where the report's numbers disagree</h3>
-    <ul class="summit-recent" id="report-caveats"></ul>
+    <details class="collapsible-section" id="report-headed">
+      <summary><h3>Where the final report (March 2027) is headed</h3></summary>
+      <ul class="summit-recent" id="report-directions"></ul>
+    </details>
+    <details class="collapsible-section" id="report-disagree">
+      <summary><h3>Where the report's numbers disagree</h3></summary>
+      <ul class="summit-recent" id="report-caveats"></ul>
+    </details>
 
     <details class="collapsible-section" id="themes">
       <summary><h2 class="section-title rule">Themes emerging</h2></summary>
@@ -387,6 +391,8 @@
     } else {
       document.getElementById('report-meta').textContent = 'Could not load the commission report. The summit agenda and speaker profiles are available below.';
       document.getElementById('report-figs-more').hidden = true;
+      document.getElementById('report-headed').hidden = true;
+      document.getElementById('report-disagree').hidden = true;
     }
 
     RT.applyCollapsibleState();

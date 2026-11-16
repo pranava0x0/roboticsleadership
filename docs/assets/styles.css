@@ -865,6 +865,22 @@ details.collapsible-section > summary > h2.section-title {
   transition: color var(--transition-base, 120ms);
 }
 
+/* A sub-section folded under a section head (scsp-summit report lists). */
+details.collapsible-section > summary > h3 {
+  display: inline-block;
+  margin: 0 0 4px;
+  transition: color var(--transition-base, 120ms);
+}
+details.collapsible-section > summary:has(> h3) {
+  padding-block: 7px; /* 26px h3 line + 14px + 4px margin = 44px touch target */
+}
+details.collapsible-section > summary:has(> h3)::before {
+  top: 15px;
+}
+details.collapsible-section > summary:hover > h3 {
+  color: var(--accent);
+}
+
 details.collapsible-section > summary > p.muted {
   margin-top: 0;
   margin-bottom: 14px;
@@ -1639,6 +1655,16 @@ a.kpi-card:hover {
   color: var(--text-muted);
 }
 
+/* Phone feed cards (2026-11-12): the pill row wrapped to two lines on 20 of 20
+   cards at 375px. The relative date ("· 2d ago") repeats the absolute date
+   beside it, so it goes first; tighter padding and summary leading take the
+   rest. No text is hidden. */
+@media (max-width: 540px) {
+  .feed-card { padding: 12px 14px; }
+  .feed-card .top-row .row-end > .faint { display: none; }
+  .feed-card .summary { line-height: 1.45; margin-bottom: 6px; }
+}
+
 /* Compact density mode */
 .feed[data-density="compact"] .feed-card {
   padding: 6px 12px;
@@ -1906,10 +1932,13 @@ table, .kpi-value, .kpi-sub, .chart text { font-variant-numeric: tabular-nums; }
     grid-column: span 1;
     width: 100%;
   }
+  /* Every phone filter bar ends on a lone button (news: Compact; companies and
+     policies: Reset), so the count takes the empty cell beside it, not a row. */
   .filter-result-count {
-    grid-column: span 2;
+    grid-column: auto;
+    align-self: center;
     text-align: right;
-    margin: 4px 0 0 0;
+    margin: 0;
   }
 
   /* Tables: tighten padding, allow num cells to wrap */

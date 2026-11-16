@@ -1,5 +1,986 @@
 [
   {
+    "sentiment": "Negative",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "foundation-misses-payroll-2026-11",
+    "date": "2026-11-14",
+    "category": "Funding",
+    "confidence": "Medium",
+    "title": "Humanoid startup Foundation has reportedly missed payroll since Oct 30; its CEO borrowed $4.6 million from the company last year",
+    "source": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+    "summary": "CNBC reports, citing people familiar with the matter, that workers at the San Francisco company had not been paid since the Oct 30 payroll. CEO Sankaet Pathak, the sole board member, borrowed $4.6 million from Foundation in 2025 to buy a home, the people said. Pathak told staff in a memo this week that he was working to cover back wages; he is seeking new money at a reported $3 billion valuation.",
+    "themes": [
+      "defense-procurement",
+      "physical-ai"
+    ],
+    "tags": [
+      "foundation",
+      "humanoid",
+      "governance",
+      "payroll",
+      "defense"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "senate-banking-nvidia-lutnick-hearings-2026-11",
+    "date": "2026-11-14",
+    "category": "Geopolitics",
+    "confidence": "Medium",
+    "title": "Senate Banking asks former Nvidia CEO Jensen Huang to testify Dec 3 and Commerce Secretary Lutnick Dec 10 on chip exports to China",
+    "source": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
+    "summary": "Chairman Tim Scott asked both after reporting on whether Nvidia chips reached Chinese firms; NBC reports Lutnick agreed to appear voluntarily. Lawmakers are examining how the Commerce Department oversees Nvidia chip exports and enforces export controls.",
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "nvidia",
+      "export-controls",
+      "senate",
+      "commerce",
+      "chips"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [
+      "ubtech"
+    ],
+    "policies": [],
+    "id": "ubtech-yongda-400-u1-pro-2026-11",
+    "date": "2026-11-13",
+    "category": "Deployment",
+    "confidence": "Medium",
+    "title": "UBTech and car dealer Yongda Auto sign a strategic agreement covering a first batch of 400 humanoid robots",
+    "source": "21st Century Business Herald",
+    "source_url": "https://www.21jingji.com/article/20261113/herald/434564008ddce2c6e62e2b8a32b200e9.html",
+    "summary": "Yongda, a Hong Kong-listed luxury-car dealer group, signed on Nov 11 for 400 U1 Pro robots at a list price of RMB 169,800 each, for product demonstrations, sales promotion and customer service, with delivery planned this year. The two also plan an experience centre in Shanghai. UBTech reported 16,123 humanoids sold in the first half, up 268%.",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "ubtech",
+      "yongda",
+      "humanoid",
+      "orders",
+      "china"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "genki-robotics-humanoid-takaichi-2026-11",
+    "date": "2026-11-13",
+    "category": "Competitive",
+    "confidence": "Medium",
+    "title": "Andy Rubin's Genki Robotics shows its first humanoid at Japan's prime-minister meeting on physical AI",
+    "source": "Humanoids Daily",
+    "source_url": "https://www.humanoidsdaily.com/news/genki-robotics-humanoid-debut-takaichi-kantei",
+    "summary": "Genki, founded in 2025 by the creator of Android, showed the robot at Prime Minister Sanae Takaichi's Nov 12 meeting with robot and component makers; it first walked three days earlier. The company plans an open, Android-style platform on Japanese hardware, and the government is targeting a 30% global share of the physical-AI market by 2040.",
+    "themes": [
+      "physical-ai",
+      "policy-momentum"
+    ],
+    "tags": [
+      "genki",
+      "japan",
+      "humanoid",
+      "andy-rubin"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "jl-mag-humanoid-magnets-daiwa-2026-11",
+    "date": "2026-11-13",
+    "category": "Supply Chain",
+    "confidence": "Medium",
+    "title": "Daiwa estimates JL Mag's humanoid magnet sales at about RMB 20 million this year and RMB 120 million in 2027 in its base case",
+    "source": "Guandian",
+    "source_url": "https://www.guandian.cn/m/show/627462",
+    "summary": "The broker cut its target price on the rare-earth magnet maker by 25% to HK$18 while sizing its humanoid business, with an optimistic 2027 case near RMB 220 million. It puts nine-month humanoid revenue near RMB 8 million against RMB 760 million of nine-month net profit. These are sell-side estimates, and they put humanoid magnets at a small share of the company's business.",
+    "themes": [
+      "us-supply-chain",
+      "china-scale"
+    ],
+    "tags": [
+      "rare-earths",
+      "magnets",
+      "jl-mag",
+      "humanoid",
+      "china"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [
+      "agibot",
+      "ubtech"
+    ],
+    "policies": [],
+    "id": "niushidate-reducer-ipo-review-2026-11",
+    "date": "2026-11-13",
+    "category": "Supply Chain",
+    "confidence": "Medium",
+    "title": "Planetary-reducer maker Niushidate passes its ChiNext IPO review with humanoid makers as customers",
+    "source": "Sina Finance",
+    "source_url": "https://k.sina.com.cn/article_5953466437_162dab0450670bhtcu.html",
+    "summary": "It plans to raise RMB 823 million for a plant making 1.5 million planetary reducers a year. Robot-segment revenue was RMB 96.6 million in 2025 and RMB 59.4 million in the first half of 2026, and Sina's report names AgiBot, UBTech, EngineAI and Fourier as customers.",
+    "themes": [
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "reducers",
+      "ipo",
+      "chinext",
+      "actuators",
+      "china"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "d-robotics-infinigence-toolchain-2026-11",
+    "date": "2026-11-13",
+    "category": "Supply Chain",
+    "confidence": "Medium",
+    "title": "D-Robotics and Infinigence AI link four open-source robot tools to D-Robotics' Sunrise chips and RoboGo platform",
+    "source": "Pandaily",
+    "source_url": "https://pandaily.com/d-robotics-infinigence-ai-rlinf-rlark-rpent-apxinf-sunrise-robogo-embodied-toolchain",
+    "summary": "RLark is adapted to four Sunrise chip platforms and APXInf to the S600, where it can run a Pi0.5 model on the robot itself; the RLinf reinforcement-learning framework is listed on RoboGo. RPent's developers claim a sevenfold task speedup, and neither company has published figures for the combined workflow.",
+    "themes": [
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "d-robotics",
+      "infinigence",
+      "robot-chips",
+      "open-source",
+      "china"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "india-meity-physical-ai-video-data-2026-11",
+    "date": "2026-11-13",
+    "category": "Policy",
+    "confidence": "Medium",
+    "title": "India's IT ministry asks home-services apps how they collect in-home video for physical-AI training",
+    "source": "Entrackr",
+    "source_url": "https://entrackr.com/news/meity-examines-data-collection-by-home-services-platforms-for-physical-ai-training-12806000",
+    "summary": "Officials met Pronto, Snabbit, Urban Company and robotics firms after Pronto began recording first-person video from gig workers in customers' homes. The ministry asked whether the footage is sold or sent to AI developers outside India and sought data-sharing agreements, vendor contracts and retention policies. Snabbit and Urban Company say they are not recording.",
+    "themes": [
+      "policy-momentum",
+      "foundation-models"
+    ],
+    "tags": [
+      "india",
+      "training-data",
+      "privacy",
+      "data-collection"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "korea-2027-robot-components-budget-2026-11",
+    "date": "2026-11-13",
+    "category": "Policy",
+    "confidence": "Medium",
+    "title": "South Korea proposes 2027 funding for robot components, humanoid batteries and on-sensor AI chips",
+    "source": "The AI Insider",
+    "source_url": "https://theaiinsider.tech/2026/11/13/south-korea-proposes-new-funding-for-ai-sensors-robot-actuators-and-humanoid-batteries/",
+    "summary": "The 2027 budget proposal sets aside 30 billion won (about $22.4 million) for core robot components, 13.3 billion won for humanoid batteries and 9 billion won for on-sensor AI chips. The government's 2030 targets include five times the actuator force of current parts and 80% domestic sourcing of core components.",
+    "themes": [
+      "policy-momentum",
+      "physical-ai"
+    ],
+    "tags": [
+      "south-korea",
+      "budget",
+      "actuators",
+      "batteries",
+      "components"
+    ]
+  },
+  {
+    "id": "openai-disbands-robotics-team-2026-11",
+    "date": "2026-11-13",
+    "category": "Research",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "title": "OpenAI folds its stand-alone robotics team into its main research and applied groups",
+    "source": "Fortune",
+    "source_type": "News",
+    "source_url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+    "summary": "OpenAI confirmed to Fortune that robotics researchers now report to chief research officer Mark Chen, while the applied robotics and hardware staff moved to Greg Brockman's Applied organization. The company says its general models, including GPT-6 Astra, can run some robot tasks directly, so a separate robot-model team is no longer needed. OpenAI calls the move a reassignment, not a retreat, and Fortune reports that Sam Altman is targeting a first public demonstration of an OpenAI humanoid in 2027.",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "openai",
+      "foundation-models",
+      "humanoid",
+      "reorganization"
+    ]
+  },
+  {
+    "id": "asus-gallop-humanoid-2026-11",
+    "date": "2026-11-13",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "ASUS shows Gallop, a humanoid robot packing motherboard parts in a group factory; pilots in 2027",
+    "source": "ASUS",
+    "source_type": "Primary",
+    "source_url": "https://press.asus.com/blog/factory-proven-physical-ai-asus-gallop-humanoid-robot/",
+    "summary": "The two-armed robot is learning a packing station by watching workers, and ASUS says it is built to take newer AI models without new hardware. Customer pilots are planned for 2027 and sales for the second half of 2028. Price and specifications are not published.",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "taiwan",
+      "humanoid",
+      "electronics-manufacturing",
+      "asus"
+    ]
+  },
+  {
+    "id": "agibot-g2-store-trial-2026-11",
+    "date": "2026-11-13",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "Six AgiBot G2 robots run a Shanghai convenience store for 24 hours; four of six pass the assessment",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
+    "summary": "The wheeled humanoids worked a live store in Xuhui District from Nov 2 to Nov 3, splitting checkout, coffee, restocking and cleaning, and logged 1,730 tasks, including 683 customer interactions and 147 coffee orders. The trial was livestreamed to more than two million viewers. Two of the six robots did not pass the final performance review.",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "companies": [
+      "agibot"
+    ],
+    "policies": [],
+    "tags": [
+      "china",
+      "humanoid",
+      "retail",
+      "agibot"
+    ]
+  },
+  {
+    "id": "nvidia-soma-retargeter-chinese-humanoids-2026-11",
+    "date": "2026-11-13",
+    "category": "Research",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "title": "NVIDIA's open motion retargeter ships reference setups for five humanoids, all Chinese-made",
+    "source": "NVIDIA Developer Blog",
+    "source_type": "Primary",
+    "source_url": "https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/",
+    "summary": "SOMA Retargeter v0.2 maps human motion-capture data onto robot bodies for policy training. Its ready-made configurations cover the Unitree G1 and H2, Booster T1, and AgiBot X2 Ultra and A3T3; other robots can be added with a configurator. No U.S. humanoid is among the reference set.",
+    "themes": [
+      "foundation-models",
+      "china-scale"
+    ],
+    "companies": [
+      "unitree",
+      "agibot"
+    ],
+    "policies": [],
+    "tags": [
+      "nvidia",
+      "open-source",
+      "humanoid",
+      "china",
+      "training-data"
+    ]
+  },
+  {
+    "id": "nittoku-humanoid-motor-equipment-north-america-2026-11",
+    "date": "2026-11-13",
+    "category": "Supply Chain",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "Japan's NITTOKU books two orders totaling about ¥18.4B for humanoid-motor production lines bound for North America",
+    "source": "FabScene",
+    "source_type": "News",
+    "source_url": "https://fabscene.com/new/news/nittoku-humanoid-robot-motor-equipment-order/",
+    "summary": "The coil-winding equipment maker disclosed about ¥8.2B on Nov 12 and a further ¥10.2B on Nov 13 for lines that make small precision motors for humanoid robots. The customer is under NDA, and the number of lines and motor types were not given. Revenue lands in the fiscal year ending March 2028.",
+    "themes": [
+      "us-supply-chain"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "japan",
+      "motors",
+      "humanoid",
+      "manufacturing-equipment",
+      "north-america"
+    ]
+  },
+  {
+    "id": "jd-double11-humanoid-sales-2026-11",
+    "date": "2026-11-13",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "JD.com says its humanoid-robot sales rose 700% year over year during Double 11",
+    "source": "Eastmoney (STCN)",
+    "source_type": "News",
+    "source_url": "https://finance.eastmoney.com/a/202611133930451931.html",
+    "summary": "JD reported dexterous-hand and robot-arm sales up more than tenfold. Noetix ranked first in humanoid units and revenue on the platform from Oct 9 to Nov 11, with Unitree and AgiBot in the top ten. JD gave growth rates only, no unit counts.",
+    "themes": [
+      "china-scale"
+    ],
+    "companies": [
+      "unitree",
+      "agibot"
+    ],
+    "policies": [],
+    "tags": [
+      "china",
+      "humanoid",
+      "consumer",
+      "e-commerce"
+    ]
+  },
+  {
+    "id": "qingtianzu-robot-rental-round-2026-11",
+    "date": "2026-11-13",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "AgiBot-linked robot-rental platform Qingtian Zu closes a strategic round of several hundred million yuan",
+    "source": "36Kr",
+    "source_type": "News",
+    "source_url": "https://eu.36kr.com/en/newsflashes/4067611378291590",
+    "summary": "It is the platform's seventh disclosed round this year; the exact amount was not given. Chinese press says AgiBot co-founded it and that it is moving from renting robots to selling robot work as a service, starting with 54 city service sites.",
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ],
+    "companies": [
+      "agibot"
+    ],
+    "policies": [],
+    "tags": [
+      "china",
+      "robots-as-a-service",
+      "rental",
+      "funding"
+    ]
+  },
+  {
+    "id": "xilect-angel-rmb500m-2026-11",
+    "date": "2026-11-13",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "Xilect, a robot-chip startup founded by GPU maker MetaX and UBTech, raises RMB 500M in an angel round",
+    "source": "TechNode",
+    "source_type": "News",
+    "source_url": "https://technode.com/2026/11/13/metax-and-ubtech-backed-robotics-chip-startup-xilect-raises-rmb-500-million/",
+    "summary": "Xilect is designing a system-on-chip that runs perception, decisions and motion control on the robot. It plans a development platform for partners in 2027 and its first chip in 2028.",
+    "themes": [
+      "china-scale"
+    ],
+    "companies": [
+      "xilect"
+    ],
+    "policies": [],
+    "tags": [
+      "china",
+      "chips",
+      "humanoid",
+      "ubtech",
+      "metax"
+    ]
+  },
+  {
+    "id": "quantum-dynamics-double11-orders-2026-11",
+    "date": "2026-11-13",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "Low",
+    "title": "Quantum Dynamics, founded by Cainiao's former CTO, says its robots worked Double 11 and it has nearly 5,000 unit orders",
+    "source": "Pandaily",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/quantum-dynamics-li-qiang-embodied-robots-cainiao-double-11-warehouse-orders",
+    "summary": "Founder Li Qiang says the robots ran in Cainiao warehouses during the shopping festival. The order count is the company's own and includes many units not yet delivered.",
+    "themes": [
+      "china-scale"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "china",
+      "logistics",
+      "cainiao",
+      "double-11"
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "companies": [],
+    "policies": [],
+    "id": "kexing-shikong-overseas-data-order-2026-11",
+    "date": "2026-11-12",
+    "category": "Funding",
+    "confidence": "Low",
+    "title": "Shanghai robot-data startup Kexing Shikong reports a data order above RMB 200 million from an overseas buyer",
+    "source": "MarsBit",
+    "source_url": "https://m.marsbit.co/newsdetail/20261112172013490109.html",
+    "summary": "The company says an unnamed overseas buyer contracted about 300,000 hours of robot training data, not all delivered yet, under the Lingang cross-border data pilot. It reports that the first 1,000-plus hours passed acceptance. The figures are the company's own and the buyer is not named.",
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "tags": [
+      "training-data",
+      "data-export",
+      "china",
+      "lingang"
+    ]
+  },
+  {
+    "id": "ifr-robot-density-2025-2026-11",
+    "date": "2026-11-12",
+    "category": "Geopolitics",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "title": "IFR: U.S. robot density 323 per 10,000 factory workers in 2025 (8th); China 193 (19th)",
+    "source": "International Federation of Robotics",
+    "source_type": "Primary",
+    "source_url": "https://ifr.org/ifr-press-releases/news/robot-density-highest-in-south-korea-singapore-and-germany",
+    "summary": "South Korea leads at 1,066, ahead of Singapore (873), Germany (469) and Japan (452); the global average is a record 152. China's figure uses employment data from its National Economic Census and rose 147% from 2020 to 2025. For 2024 IFR had given 307 for the U.S. and 166 for China.",
+    "themes": [
+      "industrial-deployments",
+      "china-scale"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "ifr",
+      "robot-density",
+      "us",
+      "china",
+      "statistics"
+    ]
+  },
+  {
+    "id": "japan-pm-physical-ai-10m-robots-2026-11",
+    "date": "2026-11-12",
+    "category": "Policy",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "Japan's prime minister restates a target of about 10 million AI robots by 2040 and asks for multi-year budgets",
+    "source": "Prime Minister's Office of Japan",
+    "source_type": "Primary",
+    "source_url": "https://japan.kantei.go.jp/105/actions/202611/12ikenkoukan.html",
+    "summary": "After meeting physical-AI companies, Prime Minister Takaichi repeated the goal of a 20-trillion-yen market and more than 30% of the global one. Industry asked for support from R&D through mass-production plants for domestic robots and parts, a domestic AI foundation, data pooling like GENIAC, and multi-year help to buy robots. She told the minister in charge to put these in the Growth Strategy Implementation Plan with predictable budgets.",
+    "themes": [
+      "policy-momentum"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "japan",
+      "industrial-policy",
+      "physical-ai"
+    ]
+  },
+  {
+    "id": "uforce-700m-series-a-2026-11",
+    "date": "2026-11-12",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "Ukrainian-founded UFORCE raises $700M at a $6B valuation for sea, air and ground drones",
+    "source": "UFORCE (PR Newswire)",
+    "source_type": "Primary",
+    "source_url": "https://www.prnewswire.com/news-releases/uforce-raises-700m-at-6-billion-valuation-from-leading-tech-and-sovereign-wealth-funds-to-scale-combat-proven-defence-systems-for-ukraine-and-allied-nations-302937236.html",
+    "summary": "Valor Equity Partners and the UK's National Wealth Fund co-led, with the U.S.-Ukraine Reconstruction Investment Fund and Menlo Ventures also investing. UFORCE makes the MAGURA sea drone, NEMESIS aircraft and LIUT ground vehicle, and plans production in the U.S., Europe, Asia-Pacific and the Middle East.",
+    "themes": [
+      "defense-procurement"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "defense",
+      "ukraine",
+      "unmanned-systems",
+      "funding"
+    ]
+  },
+  {
+    "id": "york-space-acquires-outlook-ugv-2026-11",
+    "date": "2026-11-12",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "York Space Systems agrees to buy ground-robot maker Outlook Industries",
+    "source": "Washington Technology",
+    "source_type": "News",
+    "source_url": "https://www.washingtontechnology.com/companies/2026/11/york-space-systems-enters-unmanned-ground-vehicle-market-acquisition/417178/",
+    "summary": "Outlook's long-endurance Shadow unmanned ground vehicle becomes the first product of a new York Terrestrial Systems unit. Terms were not disclosed and the deal needs regulatory approval.",
+    "themes": [
+      "defense-procurement"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "defense",
+      "ugv",
+      "acquisition",
+      "us"
+    ]
+  },
+  {
+    "id": "nvidia-huang-resigns-2026-11",
+    "date": "2026-11-12",
+    "category": "Geopolitics",
+    "sentiment": "Negative",
+    "confidence": "High",
+    "title": "Jensen Huang resigns as NVIDIA CEO; CFO Colette Kress becomes interim CEO",
+    "source": "NVIDIA (SEC 8-K)",
+    "source_type": "Primary",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+    "summary": "Huang left as president, CEO and director with immediate effect, four days after the board opened an investigation into his relationship with a woman reportedly identified by U.S. intelligence as a Chinese spy. Kress stays CFO while the board searches for a permanent CEO, and Harvey C. Jones becomes NVIDIA's first board chair. The Robot Report puts the week's share drop at about 18.5%. NVIDIA's simulation software and Jetson Thor computers sit under many U.S. and Chinese robot programs.",
+    "themes": [
+      "foundation-models"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "nvidia",
+      "governance",
+      "counterintelligence",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/nvidia-replaces-ceo-amid-china-ai-and-robotics-concerns/",
+        "label": "The Robot Report"
+      },
+      {
+        "url": "https://www.humanoidsdaily.com/news/jensen-huang-resigns-nvidia-ceo-colette-kress-interim",
+        "label": "Humanoids Daily"
+      }
+    ]
+  },
+  {
+    "id": "zeromatter-stealth-160m-2026-11",
+    "date": "2026-11-12",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "Zeromatter, a simulation company founded by Tesla Autopilot's simulation leads, launches with $160M raised at a $1.1B valuation",
+    "source": "Zeromatter",
+    "source_type": "Primary",
+    "source_url": "https://zeromatter.com/blog/coming-out-of-stealth",
+    "summary": "CEO Ian Glow and two co-founders ran the simulation platform Tesla used for both Autopilot and Optimus. After four years in stealth the Mountain View company has over 130 staff and builds sensor-level simulation for cars, aircraft, drones and robots; Bedrock led its April 2024 Series A.",
+    "themes": [
+      "physical-ai"
+    ],
+    "companies": [
+      "zeromatter"
+    ],
+    "policies": [],
+    "tags": [
+      "simulation",
+      "physical-ai",
+      "tesla-alumni",
+      "valuation-1b"
+    ]
+  },
+  {
+    "id": "gxo-apptronik-apollo-loi-2026-11",
+    "date": "2026-11-12",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "GXO signs a letter of intent for up to 1,000 Apptronik Apollo humanoids over four years",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/gxo-apptronik-apollo-1000-humanoids-letter-of-intent",
+    "summary": "It is a letter of intent, not a purchase order: expanded Apollo trials start in 2027 under a robots-as-a-service framework, and the 1,000-unit rollout happens only if jointly agreed productivity and safety targets are met. The first North American deployment is planned for late 2027. The release names no sites or prices.",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "companies": [
+      "apptronik"
+    ],
+    "policies": [],
+    "tags": [
+      "apptronik",
+      "gxo",
+      "humanoid",
+      "logistics",
+      "raas"
+    ]
+  },
+  {
+    "id": "jpmorgan-us-humanoid-forecast-2026-11",
+    "date": "2026-11-12",
+    "category": "Supply Chain",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "title": "J.P. Morgan forecasts 300,000 to 400,000 U.S.-made humanoids by 2030 and names hands and actuators as the bottleneck",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/jp-morgan-us-humanoid-production-400000-2030-forecast",
+    "summary": "The bank's note, reported by Reuters, sees about 1.5 million units by 2035 and says most U.S. makers other than Tesla target 10,000 to 30,000 units a year. Its picks are component suppliers, including two Chinese ones (Leader Drive, Orbbec), and it sizes the parts market near $30 billion by 2035. The note is not public and does not say whether the figures are annual or cumulative.",
+    "themes": [
+      "us-supply-chain"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "forecast",
+      "humanoid",
+      "actuators",
+      "supply-chain"
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "agile-robots"
+    ],
+    "id": "agile-robots-500m-softbank-2026-11",
+    "title": "Agile Robots raises $500M at an $8.5B valuation, led by SoftBank with Nvidia and Hitachi",
+    "date": "2026-11-12",
+    "source": "Trending Topics, citing dpa and The New York Times",
+    "source_type": "News",
+    "source_url": "https://www.trendingtopics.eu/agile-robots-500-million-softbank-nvidia/",
+    "summary": "The Munich company has now raised about $2B in total; Nvidia, Hitachi and T.Capital joined the round, and SoftBank Vision Fund and Xiaomi are existing investors. Agile Robots says the money goes to entering the U.S. market, new industrial uses and manufacturing in Bavaria, where a plant opened this year is built for up to 10,000 humanoids a year. SoftBank also led its $220M Series C in 2021.",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "industrial-deployments",
+      "cost-trajectory"
+    ],
+    "tags": [
+      "agile-robots",
+      "germany",
+      "softbank",
+      "nvidia",
+      "humanoid",
+      "funding"
+    ],
+    "sources": [
+      {
+        "url": "https://www.trendingtopics.eu/agile-robots-500-million-softbank-nvidia/",
+        "label": "Trending Topics, citing dpa and The New York Times"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "agibot"
+    ],
+    "id": "agibot-life-robobeats-open-source-2026-11",
+    "title": "AgiBot open-sources LIFE, a long-memory framework for robots, with RoboBeats models of 0.8B to 4B parameters",
+    "date": "2026-11-12",
+    "source": "Pandaily, citing IT Home, GitHub and arXiv",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/agibot-life-lifelong-embodied-intelligence-framework-robobeats-open-source",
+    "summary": "The code is Apache-2.0 and the models are built on Qwen3.5 checkpoints. On AgiBot's own tests, RoboBeats-4B raised proactive-answer accuracy on StreamingBench from 21.2% to 64.0% and success on the FindingDory memory task from 37.5% to 65.8%; the 2B model runs at about 75 ms a frame on one RTX 5090. No one has reproduced the results yet.",
+    "category": "Research",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "foundation-models",
+      "china-scale"
+    ],
+    "tags": [
+      "agibot",
+      "open-source",
+      "memory",
+      "qwen",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://pandaily.com/agibot-life-lifelong-embodied-intelligence-framework-robobeats-open-source",
+        "label": "Pandaily, citing IT Home, GitHub and arXiv"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "cainiao-climbing-robot-cemat-2026-11",
+    "title": "Cainiao upgrades its rack-climbing warehouse robot to reach bins from four sides, with orders in Vietnam and Europe",
+    "date": "2026-11-12",
+    "source": "Robotics & Automation News",
+    "source_type": "News",
+    "source_url": "https://roboticsandautomationnews.com/2026/11/12/cainiao-introduces-upgraded-climbing-robot-with-four-side-retrieval-and-denser-storage/107042/",
+    "summary": "Shown at CeMAT Asia, the robot climbs the rack and pulls bins from both faces of an aisle and from the inner row, where most systems reach two sides. Alibaba's logistics arm says that raises storage density 20% and operating efficiency 15%. It also released a planning tool that drafts a warehouse layout and equipment list from dimensions and order volume, a job Cainiao says now takes 10 minutes instead of days.",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "cainiao",
+      "alibaba",
+      "warehouse",
+      "climbing-robot",
+      "china",
+      "export"
+    ],
+    "sources": [
+      {
+        "url": "https://roboticsandautomationnews.com/2026/11/12/cainiao-introduces-upgraded-climbing-robot-with-four-side-retrieval-and-denser-storage/107042/",
+        "label": "Robotics & Automation News"
+      }
+    ]
+  },
+  {
+    "sentiment": "Neutral",
+    "source_type": "Primary",
+    "companies": [],
+    "policies": [],
+    "id": "mimic-bmw-flux-mimic-2026-11",
+    "date": "2026-11-11",
+    "category": "Research",
+    "confidence": "High",
+    "title": "mimic robotics and BMW Group researchers publish FLUX-mimic results on automotive production parts",
+    "source": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.15974",
+    "summary": "Zurich-based mimic pretrained its video-action model on 55,217 episodes covering 31 tasks, about 296 hours, and tested it on assembly, insertion, kitting and cable routing with real production parts. Co-authors include researchers from BMW Group. With 2 hours of action-labelled demonstrations, soft-part kitting succeeded 77.5% of the time, and 95% with 8 hours.",
+    "themes": [
+      "foundation-models",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "mimic",
+      "bmw",
+      "video-action-model",
+      "automotive",
+      "europe"
+    ]
+  },
+  {
+    "id": "serve-robotics-delivery-api-2026-11",
+    "date": "2026-11-11",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "Serve Robotics opens its 2,000-robot sidewalk fleet to outside developers through a public API",
+    "source": "Serve Robotics",
+    "source_type": "Primary",
+    "source_url": "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-opens-its-robot-delivery-network-anyone-build",
+    "summary": "The AV Delivery Developer Portal lets apps, businesses and AI assistants request a pickup and drop-off from Serve robots in more than 150 neighborhoods across 20 U.S. cities, with a sandbox of simulated robots for testing. Live access needs Serve approval. Until now the fleet was reachable only through third-party delivery platforms.",
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
+    ],
+    "companies": [
+      "serve-robotics"
+    ],
+    "policies": [],
+    "tags": [
+      "delivery",
+      "api",
+      "sidewalk-robots",
+      "us"
+    ]
+  },
+  {
+    "id": "runway-praxis-1-open-weights-2026-11",
+    "date": "2026-11-11",
+    "category": "Research",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "Runway releases Praxis-1, a 27B-parameter world action model for robots, with open weights under Apache 2.0",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/",
+    "summary": "The model predicts video and robot actions together and ships with weights plus fine-tuning code for commercial use. Launch partners Noble Machines, Standard Bots and Ultra ran it on a humanoid, a six-axis arm and a dual-arm warehouse robot; Runway reports 46.2% success on NVIDIA's RoboLab-120 benchmark.",
+    "themes": [
+      "foundation-models"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "world-model",
+      "open-weights",
+      "vla",
+      "runway"
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "foundation-idf-humanoid-talks-2026-11",
+    "title": "Foundation says it held early talks with Israel's military about Phantom humanoids for Gaza tunnels, then says it is not negotiating",
+    "date": "2026-11-11",
+    "source": "The Telegraph via Yahoo News, citing the Financial Times",
+    "source_type": "News",
+    "source_url": "https://www.yahoo.com/news/politics/articles/eric-trump-backed-firm-talks-193621263.html",
+    "summary": "Co-founder Mike LeBlanc told the FT the San Francisco company was \"in direct talks\" with the IDF chief of staff about Phantom MK1 robots to patrol Hamas tunnels. A later Foundation statement said it has no contract with the IDF or Israel's defense ministry, that the conversations were \"early and exploratory\", and that it is not negotiating to supply the IDF. Eric Trump holds an equity stake; his spokesman said he has no role in contracts.",
+    "category": "Geopolitics",
+    "sentiment": "Mixed",
+    "confidence": "Medium",
+    "themes": [
+      "defense-procurement"
+    ],
+    "tags": [
+      "foundation",
+      "humanoid",
+      "defense",
+      "israel",
+      "export"
+    ],
+    "sources": [
+      {
+        "url": "https://www.yahoo.com/news/politics/articles/eric-trump-backed-firm-talks-193621263.html",
+        "label": "The Telegraph (Yahoo News)"
+      },
+      {
+        "url": "https://www.ft.com/content/8117b912-ebc7-46b2-90cd-a1ec32e12c5a",
+        "label": "Financial Times (paywalled)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "unitree"
+    ],
+    "id": "joyson-unitree-brain-backpack-2026-11",
+    "title": "Joyson Electronics delivers its first compute-and-battery \"brain backpack\" to Unitree",
+    "date": "2026-11-11",
+    "source": "Joyson Electronics (PR Newswire)",
+    "source_type": "Primary",
+    "source_url": "https://www.prnewswire.com/apac/news-releases/joyson-electronics-delivered-first-high-performance-robotic-brain-backpack-to-unitree-robotics-302937091.html",
+    "summary": "The backpack, delivered on November 10, pairs an edge-compute board with a power pack and fits Unitree's humanoid, quadruped and wheeled robots; it can also run as a standalone compute module. The two companies, partners since earlier this year, are also developing dexterous hands and solid-state battery management. No volumes or prices were given.",
+    "category": "Supply Chain",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "joyson",
+      "unitree",
+      "compute",
+      "battery",
+      "auto-supplier",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/apac/news-releases/joyson-electronics-delivered-first-high-performance-robotic-brain-backpack-to-unitree-robotics-302937091.html",
+        "label": "Joyson Electronics (PR Newswire)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "berkeley-nvidia-robosimstudio-2026-11",
+    "title": "UC Berkeley and NVIDIA release open-source tools that let teams of coding agents write and test industrial robot programs",
+    "date": "2026-11-11",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/",
+    "summary": "The tools, including RoboSimStudio, have AI agents generate a readable robot program, run it in simulation and revise it, with no robot training data. Ken Goldberg's group pitches it at the weeks to months it takes to program a factory workcell, work that today waits until the cell is physically installed. No accuracy or time-saved figures were published with the release.",
+    "category": "Research",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "foundation-models",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "berkeley",
+      "nvidia",
+      "coding-agents",
+      "simulation",
+      "open-source"
+    ],
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/",
+        "label": "The Robot Report"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "figure-ai"
+    ],
+    "id": "figure-robot-operations-hiring-2026-11",
+    "title": "Figure lists about 30 robot-operations jobs, including a $40-45 an hour night shift minding humanoids",
+    "date": "2026-11-11",
+    "source": "Humanoids Daily, citing Figure's careers page and Business Insider",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/figure-night-shift-robot-babysitter-jobs-operators-customer-sites",
+    "summary": "About 30 of Figure's 101 open roles sit in fleet, commercial and data operations, with site teams hiring in Reno, Los Angeles and Fontana and a 24/7 data-capture team in Sao Paulo. The listings show humans still supervising robots at customer sites. Figure said it built its 1,000th Figure 03 in July and has not given a production total since.",
+    "category": "Deployment",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "figure",
+      "humanoid",
+      "operations",
+      "hiring",
+      "teleoperation"
+    ],
+    "sources": [
+      {
+        "url": "https://www.humanoidsdaily.com/news/figure-night-shift-robot-babysitter-jobs-operators-customer-sites",
+        "label": "Humanoids Daily, citing Figure's careers page and Business Insider"
+      }
+    ]
+  },
+  {
     "policies": [],
     "companies": [],
     "id": "beijing-embodied-ai-action-plan-2026-11",
@@ -28,6 +1009,135 @@
       {
         "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
         "label": "Beijing municipal government (Chinese)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "unitree"
+    ],
+    "id": "unitree-a-share-rally-2026-11",
+    "title": "Unitree's shares pass 800 yuan and its market value tops 300 billion yuan as Chinese humanoid stocks rally",
+    "date": "2026-11-10",
+    "source": "Sina Finance",
+    "source_type": "News",
+    "source_url": "https://finance.sina.com.cn/tech/roll/2026-11-10/doc-iniyfqtc2686452.shtml",
+    "summary": "Unitree rose more than 12% intraday on November 10, making it the third-highest-priced A-share, and several suppliers hit their daily limit. The stock has nearly doubled from its October 15 low of 404.03 yuan. Sina tied the move to new robot-control results from frontier AI models and Tesla Optimus news; only about 7% of Unitree's shares trade freely, which inflates its market value.",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "unitree",
+      "stock-market",
+      "star-market",
+      "humanoid",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://finance.sina.com.cn/tech/roll/2026-11-10/doc-iniyfqtc2686452.shtml",
+        "label": "Sina Finance (Chinese)"
+      },
+      {
+        "url": "https://stock.jrj.com.cn/2026/11/10104059076697.shtml",
+        "label": "JRJ (Chinese)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "hd-hyundai-dual-arm-palantir-2026-11",
+    "title": "HD Hyundai Robotics shows its first dual-arm robot on its own foundation model and says Palantir agents cut fix times by 63%",
+    "date": "2026-11-10",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/hd-hyundai-robotics-dual-arm-robot-palantir-skild-ai-korea",
+    "summary": "The robot has two 7 kg-payload arms with five-fingered hands and starts on a wheeled base for kitting, then welding and painting. AI agents Palantir built for the company since August cut average problem-resolution time from 21.5 to 7.9 days, by its own count. Skild AI's CEO was in Seoul the same week looking for Korean motor and actuator partners.",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "hd-hyundai",
+      "korea",
+      "palantir",
+      "skild",
+      "dual-arm"
+    ],
+    "sources": [
+      {
+        "url": "https://www.humanoidsdaily.com/news/hd-hyundai-robotics-dual-arm-robot-palantir-skild-ai-korea",
+        "label": "Humanoids Daily"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "noitom-hiphi-hand-nvidia-egohand-2026-11",
+    "title": "China's Noitom releases the hand-motion dataset NVIDIA used to train its EgoHand model",
+    "date": "2026-11-10",
+    "source": "Pandaily",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/noitom-robotics-hiphi-hand-dataset-hugging-face-nvidia-egohand",
+    "summary": "HiPHI-Hand, posted to Hugging Face on November 9, holds 11 hours of first-person stereo video in 794 clips, with 3D hand joints from motion capture. Noitom says NVIDIA's EgoHand, released at CoRL under a license that allows free commercial use, was trained partly on it. A Chinese data supplier feeding a U.S. model is the kind of link export rules do not yet cover.",
+    "category": "Research",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "foundation-models",
+      "china-scale"
+    ],
+    "tags": [
+      "noitom",
+      "nvidia",
+      "dataset",
+      "hands",
+      "china",
+      "training-data"
+    ],
+    "sources": [
+      {
+        "url": "https://pandaily.com/noitom-robotics-hiphi-hand-dataset-hugging-face-nvidia-egohand",
+        "label": "Pandaily"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "loongson-ros2-2k3000-2026-11",
+    "title": "Loongson runs the full ROS 2 robot software stack on its domestic 2K3000 chip",
+    "date": "2026-11-10",
+    "source": "Pandaily, citing IT Home",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/loongson-2k3000-ros2-jazzy-full-stack-robot-car-mapping-arm-depth-vision",
+    "summary": "The 12 nm chip uses eight of Loongson's own LoongArch cores at up to 2.5 GHz. The demo robot car mapped, localized, controlled an arm and grasped by depth vision. Loongson calls it a reference setup, not a product, but it gives Chinese robot makers a path off x86 and Arm processors.",
+    "category": "Supply Chain",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "loongson",
+      "ros2",
+      "chips",
+      "domestic-compute",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://pandaily.com/loongson-2k3000-ros2-jazzy-full-stack-robot-car-mapping-arm-depth-vision",
+        "label": "Pandaily, citing IT Home"
       }
     ]
   },

@@ -89,6 +89,14 @@ eq(validateData('news', [{ ...freshlyScraped, category: 'NotACategory' }], { all
 eq(validateData('news', [{ ...validNews, category: 'NotACategory' }], { allowUncurated: true }).ok, false,
   'two-mode: allowUncurated does not suppress schema errors on unflagged records either');
 
+// founders render through f.name in companies.html; bare strings print empty items (PR #298).
+const validCompany = { id: 'z', name: 'Z', founded: '2022', hq: { country: 'USA' }, website: 'https://z.example', funding_rounds: [],
+  tags: [], data_confidence: 'low', sources: [{ url: 'https://z.example' }], last_updated: '2026-11-13', themes: [], map_category: 'enablers' };
+eq(validateData('companies', [{ ...validCompany, founders: [{ name: 'Ian Glow', role: 'CEO' }] }]).ok, true,
+  'founders: objects with a name pass');
+eq(validateData('companies', [{ ...validCompany, founders: ['Ian Glow'] }]).ok, false,
+  'founders: a bare string fails');
+
 if (failures) {
   console.error(`\n${failures} test(s) failed.`);
   process.exit(1);

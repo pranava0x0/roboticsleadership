@@ -865,6 +865,20 @@
       ]
     },
     {
+      "id": "xilect",
+      "name": "Xilect",
+      "country": "China",
+      "hq": "China (city not disclosed)",
+      "categories": ["compute"],
+      "role": "Robot system-on-chip that runs perception, decisions and motion control on the robot; founded by Chinese GPU maker MetaX and humanoid maker UBTech",
+      "sites": [],
+      "capacity_note": "Raised RMB 500 million in an angel round (Nov 2026). Partner development platform planned for 2027, first chip for 2028; no production yet",
+      "financing": [],
+      "sources": [
+        { "url": "https://technode.com/2026/11/13/metax-and-ubtech-backed-robotics-chip-startup-xilect-raises-rmb-500-million/" }
+      ]
+    },
+    {
       "id": "qualcomm",
       "name": "Qualcomm",
       "country": "USA",
