@@ -293,5 +293,19 @@ test('supply-chain sends every data href through RT.safeURL before escaping it (
   for (const h of hrefs) assert(/^href="\$\{RT\.escapeHTML\(RT\.safeURL\(/.test(h), `unsafe data href in supply-chain.html: ${h}`);
 });
 
+test('phone news summaries clamp to three lines and open on tap (2026-11-16, summaries were 48% of the feed)', () => {
+  const css = read('assets/styles.css');
+  const news = read('news.html');
+  const phone = css.slice(css.indexOf('@media (max-width: 540px)', css.indexOf('Phone feed cards')));
+  const block = phone.slice(0, phone.indexOf('\n}\n'));
+  assert(/\.feed\[data-density="card"\] \.feed-card \.summary:not\(\.is-open\)/.test(block), 'clamp rule missing from the phone feed-card block');
+  assert(/-webkit-line-clamp:\s*3/.test(block), 'clamp is no longer three lines');
+  assert(/classList\.toggle\('is-open'\)/.test(news), 'news.html no longer toggles .is-open on tap');
+  // Codex review (PR #302): a clamped summary must be reachable by keyboard and expose its state.
+  assert(/setAttribute\('role', 'button'\)/.test(news) && /aria-expanded/.test(news), 'clamped summaries are not exposed as a control');
+  assert(/addEventListener\('keydown'[\s\S]{0,200}'Enter'[\s\S]{0,40}' '/.test(news), 'Enter/Space no longer open a summary');
+  assert(/pendingHash[\s\S]{0,200}\.summary'\)\?\.classList\.add\('is-open'\)/.test(news), 'a deep-linked story no longer opens its summary');
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);

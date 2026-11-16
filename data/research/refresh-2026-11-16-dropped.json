@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-16",
+  "dropped": [
+    {
+      "id": "hn-50505507",
+      "title": "Periodic-Oriented Programming for First Robotics",
+      "source_url": "https://bvisness.me/periodic-oriented-programming/",
+      "date": "2026-11-15",
+      "reason": "FIRST Robotics programming essay; hobbyist"
+    },
+    {
+      "id": "hn-50507278",
+      "title": "Found 380 eMudhra-Linked Root Certificates on My Laptop",
+      "source_url": "https://www.rixdata.net/blog-emudhra-roots.html",
+      "date": "2026-11-15",
+      "reason": "certificate security, not robotics"
+    },
+    {
+      "id": "hn-50509133",
+      "title": "\"Robots can't press call buttons\": Hyundai tests API for robots using elevators",
+      "source_url": "https://asia-tech-news.ghost.io/hyundai-elevator-testing-api-to-help-robots-use-elevators/",
+      "date": "2026-11-15",
+      "reason": "Hyundai Elevator robot API pilot (Korea); minor, secondary blog only"
+    },
+    {
+      "id": "hn-50511609",
+      "title": "Improve perception in robots by building around the optics instead",
+      "source_url": "https://opdo.ai/insights/how-to-design-camera-data-center-robot",
+      "date": "2026-11-15",
+      "reason": "vendor blog on camera design"
+    },
+    {
+      "id": "hn-50514337",
+      "title": "Can robotics models control a 4200lb excavator?",
+      "source_url": "https://www.dreamscalelabs.com/blog/excavate/",
+      "date": "2026-11-16",
+      "reason": "startup blog demo (excavator control); no event"
+    },
+    {
+      "id": "hn-50514590",
+      "title": "Rooting the Eight Sleep Pod 3",
+      "source_url": "https://rb.ax/blog/rooting-the-eight-sleep-pod-3/",
+      "date": "2026-11-16",
+      "reason": "smart-bed rooting, not robotics"
+    },
+    {
+      "id": "rss-why-skydio-built-a-lopsided-dr-731",
+      "title": "Why Skydio Built a Lopsided Drone",
+      "source_url": "https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone",
+      "date": "2026-11-15",
+      "reason": "drone product feature; drone scope is an open backlog call"
+    },
+    {
+      "id": "rss-ace-robotics-ace-cap-0-has-ai-832",
+      "title": "ACE Robotics' ACE-CaP-0 Has AI Agents Write Reusable Robot Code, Reporting 92.1% Success",
+      "source_url": "https://pandaily.com/ace-robotics-ace-cap-0-code-as-policies-reusable-robot-skills",
+      "date": "2026-11-16",
+      "reason": "authors-only benchmark result; kept Huawei CloudRobo as the day's China model item"
+    }
+  ]
+}
