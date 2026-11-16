@@ -4,6 +4,10 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-11-15 (UAT fixes)
+
+- [ ] **(medium) Bake companies, policies, supply-chain, energy and scsp-summit.** With JavaScript off they show only the shell and a `<noscript>` note pointing to their data files. Move each page's renderers into app.js (DOM-free), add slots to `scripts/render-static.js`, and drop the note once a page is baked.
+
 ## ▶ Added 2026-11-15 (objectivity audit)
 
 - [ ] **(high) Filter Hacker News hits before they become records.** `handleHackerNews` should run `matchesKeywords()` with word boundaries on each hit's title (as the RSS and Reddit handlers do), and pass `typoTolerance=false` to Algolia so "robot" stops matching "root" and "robots.txt". If precision is still poor after a month, disable the `hacker-news-robotics` source: 267 of 581 HN records were off-topic (issues.md 2026-11-15).

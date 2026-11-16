@@ -269,5 +269,22 @@ test('news Reset and cleared filters drop their keys from the URL (2026-11-15, C
   assert(/RT\.writeQuery\(\{ search, category, company, sort: [^}]*\}\)/.test(news), 'news.html no longer passes every filter key to writeQuery');
 });
 
+test('KPI labels wrap instead of clipping at 375px (2026-11-15, C7)', () => {
+  const rule = (read('assets/styles.css').match(/\.kpi-label \{[^}]*\}/) || [''])[0];
+  assert(rule && !/nowrap|text-overflow/.test(rule), '.kpi-label clips its text again');
+});
+
+test('pages that are not baked tell no-JS readers where the data is (2026-11-15, C5)', () => {
+  const data = { companies: ['companies'], policies: ['policies', 'state_policy', 'agencies'], 'supply-chain': ['supply_chain'], energy: [], 'scsp-summit': ['scsp-ai-robotics-2026', 'scsp-robotics-commission-2026'] };
+  for (const [page, files] of Object.entries(data)) {
+    const html = read(`${page}.html`);
+    const main = html.slice(html.indexOf('<main'), html.indexOf('</main>'));
+    const note = (main.match(/<noscript>([\s\S]*?)<\/noscript>/) || [])[1];
+    assert(note, `${page}.html has no <noscript> note inside <main>`);
+    for (const f of files) assert(note.includes(`href="data/${f}.json"`), `${page}.html noscript note does not link data/${f}.json`);
+    for (const baked of ['index.html', 'news.html', 'china.html', 'rd.html']) assert(note.includes(`href="${baked}"`), `${page}.html noscript note does not link ${baked}`);
+  }
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);

@@ -992,9 +992,9 @@ a.kpi-card:hover {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--text-muted);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  /* Wraps at spaces: at 375px two-up cards are ~134px wide and labels such as
+     "Programs and initiatives" were cut off with an ellipsis. */
+  white-space: normal;
 }
 .kpi-value {
   font-family: var(--font-serif);

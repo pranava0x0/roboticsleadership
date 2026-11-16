@@ -59,7 +59,8 @@ for (const p of pages) {
   // detail sheet, filters the archive), so it is reported apart from first load.
   // JSON-LD names each page's dataset as a DataDownload contentUrl; that is a
   // description for crawlers, not a fetch, so it is left out of the scan.
-  const fetchable = html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, '');
+  // <noscript> links to data files are for readers, not fetches, so they are left out too.
+  const fetchable = html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, '').replace(/<noscript>[\s\S]*?<\/noscript>/g, '');
   const onDemand = new Set();
   for (const m of fetchable.matchAll(/data\/[a-z0-9_-]+\.json/g)) local.add(m[0]);
   for (const m of fetchable.matchAll(/(\/\* on demand \*\/\s*)?RT\.loadData\(['"]([a-z0-9_-]+)['"]\)/g)) {
