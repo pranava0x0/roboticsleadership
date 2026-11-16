@@ -4,6 +4,12 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 ## Open
 
+### 2026-11-15 — news.json — 267 off-topic Hacker News records on the News page — Fixed
+- **Symptom:** 267 of 581 `hn-*` records had nothing to do with robotics: an /etc/hosts switcher, Terraform root modules, a Let's Encrypt root-certificate T-shirt, rootkits, "humanize AI text" tools, a robots.txt story. Most are from June 2026 (202), then July (58), August (6) and September (1).
+- **Root cause (code bug):** `handleHackerNews` in `scripts/scraper-news.js` sends the first three keywords of the `hacker-news-robotics` source (robot, robotics, humanoid) to Algolia's `search_by_date`, whose typo and prefix tolerance matches "root", "robots.txt", "humanity" and "humanities". Unlike the RSS and Reddit handlers it never calls `matchesKeywords()` on the hit, so nothing filtered them. Most rows were ingested before the curation handshake was restored on 2026-07-16; the rest had the flag cleared in refreshes that reviewed batches rather than titles. The 2026-10-13 dropped log lists 996 HN ids under one blanket reason, kept records included, so it never said which rows were rejected.
+- **Fix:** each `hn-*` title was read and classified; the 267 off-topic rows were removed and logged with id and source_url in `data/research/refresh-2026-11-15-audit-dropped.json` (picked up by `scripts/dropped.js`, so a re-scrape will not bring them back). 15 kept summaries written in the first person were rewritten in the third person. The durable scraper fix is in backlog.md.
+- **Regression coverage:** `scripts/objectivity-guards.test.js` covers the working-note and process-chatter part of the same audit. Off-topic relevance is still a judgment call; nothing tests it.
+
 ### 2026-10-31 — front page — chart sources printed "ifr.org ifr.org ifr.org"; axis ticks at 88,550 / 177,100 — Fixed
 - **Root cause (code bug):** `srcLinks` labelled each URL by hostname with no grouping, and `renderProductionTrend` divided the raw maximum into four ticks.
 - **Fix:** sources group by label (`ifr.org 2 3 4`, each number a link); ticks use a 1/2/2.5/5×10ⁿ step. Same pass: front-page company cards printed raw use-case slugs (`ai foundation model` via `RT.prettyUseCase`), theme cards printed "0 cos · 0 policies". Branch `jam/homepage-design-cleanup-21083a`.
