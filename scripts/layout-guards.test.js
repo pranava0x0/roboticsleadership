@@ -286,5 +286,12 @@ test('pages that are not baked tell no-JS readers where the data is (2026-11-15,
   }
 });
 
+test('supply-chain sends every data href through RT.safeURL before escaping it (2026-11-15 objectivity audit)', () => {
+  // escapeHTML stops attribute breakout but lets a javascript: or data: URL through.
+  const hrefs = supply.match(/href="\$\{[^"]*\}"/g) || [];
+  assert(hrefs.length >= 6, `expected the six data-driven hrefs, found ${hrefs.length}`);
+  for (const h of hrefs) assert(/^href="\$\{RT\.escapeHTML\(RT\.safeURL\(/.test(h), `unsafe data href in supply-chain.html: ${h}`);
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);

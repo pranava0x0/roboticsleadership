@@ -449,7 +449,7 @@
         ${(c.chokepoints || []).length ? `
           <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-faint);">Chokepoints</div>
           <ul style="margin:6px 0 12px;padding-left:18px;font-size:13.5px;color:var(--text-muted);">
-            ${c.chokepoints.map(x => `<li style="margin:3px 0;">${RT.escapeHTML(x.text)} <span class="choke-src"><a href="${RT.escapeHTML(x.source)}" target="_blank" rel="noopener" title="${RT.escapeHTML(hostname(x.source))}">[${RT.escapeHTML(hostname(x.source))}]</a></span></li>`).join('')}
+            ${c.chokepoints.map(x => `<li style="margin:3px 0;">${RT.escapeHTML(x.text)} <span class="choke-src"><a href="${RT.escapeHTML(RT.safeURL(x.source))}" target="_blank" rel="noopener" title="${RT.escapeHTML(hostname(x.source))}">[${RT.escapeHTML(hostname(x.source))}]</a></span></li>`).join('')}
           </ul>` : ''}
         ${cos.length ? `
         <div class="table-wrap"><table class="data-table">
@@ -463,7 +463,7 @@
         <p class="cat-src">Sources: ${(c.sources || []).map((s, i) => {
           const url = typeof s === 'string' ? s : s.url;
           const label = (typeof s === 'object' && s.label) || hostname(url);
-          return `<a href="${RT.escapeHTML(url)}" target="_blank" rel="noopener">${RT.escapeHTML(label)}</a>`;
+          return `<a href="${RT.escapeHTML(RT.safeURL(url))}" target="_blank" rel="noopener">${RT.escapeHTML(label)}</a>`;
         }).join(' ')}</p>
       </div>`;
     }
@@ -480,7 +480,7 @@
       }).join('') || '<span class="muted">Not disclosed</span>';
       const srcs = (co.sources || []).slice(0, 3).map(s => {
         const url = typeof s === 'string' ? s : s.url;
-        return `<a href="${RT.escapeHTML(url)}" target="_blank" rel="noopener" title="${RT.escapeHTML(hostname(url))}">↗</a>`;
+        return `<a href="${RT.escapeHTML(RT.safeURL(url))}" target="_blank" rel="noopener" title="${RT.escapeHTML(hostname(url))}">↗</a>`;
       }).join(' ');
       const flag = `<span class="pill outline">${co.country === 'USA' ? 'US' : RT.escapeHTML(co.country)}</span>`;
       return `<tr>
@@ -499,7 +499,7 @@
           <tbody>
           ${programs.map(p => `
             <tr>
-              <td><a href="${RT.escapeHTML(p.source)}" target="_blank" rel="noopener">${RT.escapeHTML(p.name)}</a><span class="secondary-line">${RT.escapeHTML(truncate(p.detail || '', 120))}</span></td>
+              <td><a href="${RT.escapeHTML(RT.safeURL(p.source))}" target="_blank" rel="noopener">${RT.escapeHTML(p.name)}</a><span class="secondary-line">${RT.escapeHTML(truncate(p.detail || '', 120))}</span></td>
               <td style="font-size:13px;">${RT.escapeHTML(p.agency)}</td>
               <td class="num tnum">${p.amount_usd != null ? RT.formatUSD(p.amount_usd) : '—'}</td>
             </tr>`).join('')}
@@ -531,7 +531,7 @@
               ).join('')}</ul>` : ''}
               <div class="entity-srcs">${(e.sources || []).slice(0, 3).map(s => {
                 const url = typeof s === 'string' ? s : s.url;
-                return `<a href="${RT.escapeHTML(url)}" target="_blank" rel="noopener">${RT.escapeHTML(hostname(url))}</a>`;
+                return `<a href="${RT.escapeHTML(RT.safeURL(url))}" target="_blank" rel="noopener">${RT.escapeHTML(hostname(url))}</a>`;
               }).join('')}</div>
             </div>
           `).join('')}
@@ -544,7 +544,7 @@
         <tr>
           <td style="font-size:13px;">${RT.escapeHTML(f.label)}</td>
           <td style="font-size:13px;">${RT.escapeHTML(f.value)}</td>
-          <td class="hide-mobile" style="font-size:12px;"><a href="${RT.escapeHTML(f.source)}" target="_blank" rel="noopener">${RT.escapeHTML(hostname(f.source))}</a></td>
+          <td class="hide-mobile" style="font-size:12px;"><a href="${RT.escapeHTML(RT.safeURL(f.source))}" target="_blank" rel="noopener">${RT.escapeHTML(hostname(f.source))}</a></td>
         </tr>`).join('');
     }
 
