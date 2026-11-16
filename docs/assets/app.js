@@ -495,7 +495,7 @@
   function applyCollapsibleState() {
     const all = Array.from(document.querySelectorAll('details.collapsible-section[id]'));
     const hashId = (location.hash && location.hash.length > 1)
-      ? decodeURIComponent(location.hash.slice(1)) : null;
+      ? safeDecode(location.hash.slice(1)) : null;
     all.forEach((details) => {
       const saved = localStorage.getItem(pageDetailsKey(details.id));
       if (saved !== null) {
@@ -514,6 +514,51 @@
     });
   }
 
+  // ---------- Hash targets that JS renders or a closed <details> hides ----------
+  // The browser resolves a #fragment once, at load, before a page's fetch-and-render
+  // has created the target, so china/index/supply-chain deep links landed at the top.
+  // The hash is captured here, when app.js runs and before any page script can call
+  // writeQuery (which strips it). A page calls RT.revealHashTarget() after the paint
+  // that creates its targets (and after applyCollapsibleState); the first call that
+  // finds the target opens every closed <details> around it, scrolls to it, and
+  // consumes the hash so later re-renders never jump the reader back.
+  // (The deploy bake loads this file in a sandbox with no `location`.)
+  // A fragment such as `#50%` is not valid percent-encoding. decodeURIComponent throws on
+  // it, and here that would stop this file before window.RT exists, on every page.
+  function safeDecode(s) {
+    try { return decodeURIComponent(s); } catch (e) { return s; }
+  }
+  const loadHash = typeof location !== 'undefined' && location.hash.length > 1 ? safeDecode(location.hash.slice(1)) : '';
+  let loadHashPending = Boolean(loadHash);
+  function openAround(el) {
+    for (let d = el.closest('details'); d; d = d.parentElement && d.parentElement.closest('details')) d.open = true;
+  }
+  function revealHashTarget() {
+    if (!loadHashPending) return false;
+    const el = document.getElementById(loadHash);
+    if (!el) return false; // a later paint may still create it
+    loadHashPending = false;
+    openAround(el);
+    const go = () => el.scrollIntoView();
+    go();
+    // Web fonts reflow tall pages; a scroll taken before they load can land short.
+    // A reader who has already moved on is left where they are.
+    let moved = false;
+    ['wheel', 'touchstart', 'keydown'].forEach((t) => window.addEventListener(t, () => { moved = true; }, { once: true, passive: true }));
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => requestAnimationFrame(() => { if (!moved) go(); }));
+    return true;
+  }
+  // Same-page links to a target inside a closed <details> open it first, so the
+  // browser's own fragment scroll finds a visible element. Clicking a link to the
+  // hash already in the URL fires no hashchange, so this runs on click, not on hashchange.
+  function onHashLinkClick(e) {
+    const a = e.target.closest && e.target.closest('a[href*="#"]');
+    if (!a || a.origin !== location.origin || a.pathname !== location.pathname) return;
+    const id = safeDecode(a.hash.slice(1));
+    const el = id && document.getElementById(id);
+    if (el) openAround(el);
+  }
+
   let collapsibleBound = false;
   function initCollapsibleSections() {
     if (!collapsibleBound) {
@@ -527,6 +572,7 @@
         }
       }, true);
       window.addEventListener('hashchange', applyCollapsibleState);
+      document.addEventListener('click', onHashLinkClick);
     }
     applyCollapsibleState();
   }
@@ -653,8 +699,8 @@
     const firstProjected = rows.findIndex(r => r.projected);
 
     const SERIES = [
-      { key: 'china_units', color: 'var(--status-negative)', label: 'China' },
-      { key: 'us_units', color: 'var(--cat-supplychain)', label: 'United States' },
+      { key: 'china_units', color: 'var(--country-cn)', label: 'China' },
+      { key: 'us_units', color: 'var(--country-us)', label: 'United States' },
       { key: 'row_units', color: 'var(--status-neutral)', label: 'Rest of world' },
     ];
 
@@ -757,7 +803,7 @@
 
   function renderChinaScoreline(uc) {
     const t = chinaTally(uc);
-    return `<span>Across <strong>${t.total} metrics</strong>:</span>` +
+    return `<span>Editorial edge calls across <strong>${t.total} metrics</strong>:</span>` +
       `<span><strong>${t.china}</strong> favor China</span>` +
       `<span><strong>${t.us}</strong> favor the US</span>` +
       `<span><strong>${t.even}</strong> contested</span>`;
@@ -870,7 +916,7 @@
           <p class="muted plans-strap">${plans.length} plans in ${(cp.series || []).length} series: what each version changed, and the closest US counterpart.</p>
         </summary>
         ${cp.note ? `<p class="plans-sub">${escapeHTML(cp.note)}</p>` : ''}
-        ${compare ? '<p class="plans-sub"><a href="#plans-vs-us">How the US compares</a></p>' : ''}
+        <nav class="chip-nav" aria-label="Plan series">${(cp.series || []).filter((s) => plans.some((p) => p.series === s.id)).map((s) => `<a href="#series-${escapeHTML(s.id)}">${escapeHTML(s.title)}</a>`).join('')}${compare ? '<a href="#plans-vs-us">How the US compares</a>' : ''}</nav>
         ${series}
         ${compare}
         ${(cp.caveats || []).length ? `<ul class="plans-caveats">${cp.caveats.map((c) => `<li>${escapeHTML(c)}</li>`).join('')}</ul>` : ''}
@@ -1315,7 +1361,7 @@
       return null;
     }
     const ids = tabs.map((t) => t.dataset.subtab);
-    const initialHash = location.hash ? decodeURIComponent(location.hash.slice(1)) : '';
+    const initialHash = location.hash ? safeDecode(location.hash.slice(1)) : '';
 
     nav.setAttribute('role', 'tablist');
     tabs.forEach((t, i) => {
@@ -1456,7 +1502,10 @@
     const table = (rows) => `<div class="table-wrap"><table class="data-table rd-table">
           ${head}
           <tbody>${rows.join('')}</tbody></table></div>`;
-    return rdByCountry(models).map(([c, list], i) => {
+    const groups = rdByCountry(models);
+    // One tap to each country's table; the click handler opens a closed group.
+    const index = `<nav class="chip-nav" aria-label="Models by country">${groups.map(([c]) => `<a href="#models-${escapeHTML(c.toLowerCase())}">${escapeHTML(RD_COUNTRY_HEAD[c])}</a>`).join('')}</nav>`;
+    return index + groups.map(([c, list], i) => {
       const rows = rdSortDate(list, 'released').map((m) => {
         const results = (m.results || []).map((r) => `<li><span class="rd-bench-name">${escapeHTML(r.benchmark)}:</span> <strong>${escapeHTML(r.value)}</strong>${r.vendor_reported ? ' <span class="pill warning rd-flag">Vendor-reported</span>' : ''}${r.setting ? `<span class="secondary-line">${escapeHTML(r.setting)}</span>` : ''}</li>`).join('');
         return `<tr id="${escapeHTML(m.id)}">
@@ -1611,7 +1660,7 @@
         <div><dt><span class="pill outline rd-flag">Snippet-only</span></dt><dd>${escapeHTML(m.snippet_only)}</dd></div>
         <div><dt>As of</dt><dd>${escapeHTML(m.as_of)}</dd></div>
       </dl>
-      <p class="muted">Entries come from a research sweep read on ${escapeHTML(formatDate(rd.updated))}. Missing values show as "Not disclosed". Country columns describe where a lab or company is based; they are not a score.</p>`;
+      <p class="muted">Entries were captured on ${escapeHTML(formatDate(rd.updated))}. Missing values show as "Not disclosed". Country columns describe where a lab or company is based; they are not a score.</p>`;
   }
 
   // ---------- Boot sequence ----------
@@ -1659,6 +1708,8 @@
     paint,
     initCollapsibleSections,
     applyCollapsibleState,
+    revealHashTarget,
+    safeDecode,
     // Pure page renderers — shared by the inline page scripts and the
     // deploy-time bake step (scripts/render-static.js). Keep them DOM-free.
     NEWS_PAGE_SIZE,

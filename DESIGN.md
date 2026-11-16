@@ -71,6 +71,8 @@ When a project uses color to encode meaning (status, stance, category), keep *me
 
 Never conflate them. Coloring "category" with the same palette as "status" tells the user "category A is bad," which is rarely what you mean.
 
+Countries are categories too. Charts on this site draw the US in `--country-us` and China in `--country-cn`, defined in each theme block and held to the same 4.5:1 text contrast as the other tokens; China used to be drawn in `--status-negative`, which read as a verdict.
+
 ### 3.2 Brand-adjacent colors are not brand colors
 
 When showing third-party brands (companies, products, services), use **brand-adjacent but neutral** tones — desaturated versions that distinguish without implying endorsement. Using a company's actual brand color implies affiliation and invites legal questions.

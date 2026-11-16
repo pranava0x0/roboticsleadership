@@ -124,7 +124,7 @@
       "url": "https://www.ycombinator.com/companies?industry=Robotics",
       "frequency": "weekly",
       "enabled": false,
-      "notes": "Defer until we have a confirmed-curator workflow.",
+      "notes": "Disabled: scraped company records need curator review before they can be added.",
       "last_run": null
     },
     {

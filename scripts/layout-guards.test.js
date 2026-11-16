@@ -82,6 +82,21 @@ test('front page loads the trimmed news payload, never the whole archive', () =>
   assert(!/href="data\/news\.json"/.test(index), 'index.html still preloads data/news.json');
 });
 
+test('companies and policies paint without the news archive; news.json loads only when a detail sheet opens (2026-11-15, B1)', () => {
+  // Both pages awaited news.json (~220 KB gzip) before painting any row, only
+  // to show a detail sheet's related-news list. First load was 344 / 321 KB gzip.
+  for (const page of ['companies', 'policies']) {
+    const html = read(`${page}.html`);
+    assert(!/RT\.loadAll\(\)/.test(html), `${page}.html loads everything via loadAll()`);
+    assert(!/await RT\.loadData\(['"]news['"]\)/.test(html), `${page}.html awaits news.json before first paint`);
+    assert(!/Promise\.all\(\[[^\]]*loadData\(['"]news['"]\)/.test(html), `${page}.html puts news.json in its first-paint Promise.all`);
+    assert(!/href="data\/news\.json"/.test(html), `${page}.html preloads data/news.json`);
+    const lazy = html.indexOf("RT.loadData('news').then");
+    assert(lazy > html.indexOf('RT.openDetail('), `${page}.html no longer fetches news after opening the detail sheet`);
+    assert(/id="detail-news"/.test(html), `${page}.html detail sheet lost its news slot`);
+  }
+});
+
 test('news page first-paints from the trimmed payload and only fetches the full archive on demand (2026-10-02, was 259/260 KB gzip)', () => {
   const news = read('news.html');
   assert(!/href="data\/news\.json"/.test(news), 'news.html still preloads the full archive instead of data/news-recent.json');
@@ -217,6 +232,73 @@ test('an open detail sheet makes the back-to-top button inert too (Codex review,
   const sel = (app.match(/const MODAL_INERT = '([^']+)'/) || [])[1] || '';
   assert(/body > \.to-top/.test(sel), 'MODAL_INERT does not cover the body-level .to-top button');
   assert((app.match(/querySelectorAll\(MODAL_INERT\)/g) || []).length === 2, 'open and close no longer share MODAL_INERT');
+});
+
+test('anchor targets clear the sticky header at every width (2026-11-15, C1: landings at top 0 under a 57px header)', () => {
+  const css = read('assets/styles.css');
+  assert(/\n\[id\] \{ scroll-margin-top: calc\(var\(--header-h\) \+ \d+px\); \}/.test(css), 'generic [id] scroll-margin-top rule derived from --header-h is missing');
+  assert(/\.site-header-inner \{[^}]*height: var\(--header-h\)/.test(css), 'the header height no longer comes from --header-h, so the scroll margin can drift from it');
+});
+
+test('hash links to rendered or collapsed targets open and land (2026-11-15, C2)', () => {
+  const app = read('assets/app.js');
+  // Captured when app.js runs, before any page script can call writeQuery (which strips it).
+  const capture = app.indexOf("const loadHash = typeof location !== 'undefined' && location.hash");
+  assert(capture > 0 && capture < app.indexOf('function revealHashTarget'), 'app.js no longer captures the load hash once, up front');
+  assert(/loadHashPending = false;\s*openAround\(el\)/.test(app), 'revealHashTarget no longer consumes the hash before opening and scrolling');
+  assert(/document\.addEventListener\('click', onHashLinkClick\)/.test(app), 'same-page hash clicks no longer open a closed <details> around the target');
+  assert(/\n    revealHashTarget,\n/.test(app), 'RT.revealHashTarget is not exported');
+  for (const page of ['china', 'index', 'supply-chain', 'news']) {
+    assert(/RT\.revealHashTarget\(\)/.test(read(`${page}.html`)), `${page}.html no longer reveals its hash target after painting`);
+  }
+  // china's plans paint asynchronously; revealing before they land would scroll to nodes the re-paint replaces.
+  assert(/plansPainted\.then\(\(\) => RT\.revealHashTarget\(\)\)/.test(read('china.html')), 'china.html reveals before its plans paint');
+});
+
+test('a malformed #fragment cannot stop app.js (2026-11-16 review: index.html#50% left window.RT undefined on every page)', () => {
+  const app = read('assets/app.js');
+  assert(/function safeDecode\(s\) \{\s*try \{ return decodeURIComponent\(s\); \} catch \(e\) \{ return s; \}/.test(app), 'safeDecode is missing or no longer catches');
+  assert((app.match(/decodeURIComponent\(/g) || []).length === 1, 'app.js decodes a fragment outside safeDecode');
+  assert(!/decodeURIComponent\(location\.hash/.test(read('news.html')), 'news.html decodes the fragment without a guard');
+  assert(/:is\(h2, h3, section, details\)\[id\]/.test(read('assets/styles.css')), 'h3 targets no longer clear the sticky jump nav (section-232 #open)');
+});
+
+test('supply-chain restores collapsible state after painting its stage sections, then reveals the hash (2026-11-15, C4)', () => {
+  const at = (s) => supply.indexOf(s);
+  assert(at('renderCategories(sc);') > 0, 'renderCategories call not found');
+  assert(at('RT.applyCollapsibleState();') > at('renderCategories(sc);'), 'applyCollapsibleState must run after the stage sections are painted');
+  assert(at('RT.revealHashTarget();') > at('RT.applyCollapsibleState();'), 'revealHashTarget must run after applyCollapsibleState, or a restore can close what it opened');
+});
+
+test('news Reset and cleared filters drop their keys from the URL (2026-11-15, C3)', () => {
+  // RT.writeQuery removes a key only when it is passed as ''; leaving a key out keeps its old value.
+  const news = read('news.html');
+  assert(!/delete newQ\./.test(news), 'news.html omits cleared keys from writeQuery again, which leaves them in the URL');
+  assert(/RT\.writeQuery\(\{ search, category, company, sort: [^}]*\}\)/.test(news), 'news.html no longer passes every filter key to writeQuery');
+});
+
+test('KPI labels wrap instead of clipping at 375px (2026-11-15, C7)', () => {
+  const rule = (read('assets/styles.css').match(/\.kpi-label \{[^}]*\}/) || [''])[0];
+  assert(rule && !/nowrap|text-overflow/.test(rule), '.kpi-label clips its text again');
+});
+
+test('pages that are not baked tell no-JS readers where the data is (2026-11-15, C5)', () => {
+  const data = { companies: ['companies'], policies: ['policies', 'state_policy', 'agencies'], 'supply-chain': ['supply_chain'], energy: [], 'scsp-summit': ['scsp-ai-robotics-2026', 'scsp-robotics-commission-2026'] };
+  for (const [page, files] of Object.entries(data)) {
+    const html = read(`${page}.html`);
+    const main = html.slice(html.indexOf('<main'), html.indexOf('</main>'));
+    const note = (main.match(/<noscript>([\s\S]*?)<\/noscript>/) || [])[1];
+    assert(note, `${page}.html has no <noscript> note inside <main>`);
+    for (const f of files) assert(note.includes(`href="data/${f}.json"`), `${page}.html noscript note does not link data/${f}.json`);
+    for (const baked of ['index.html', 'news.html', 'china.html', 'rd.html']) assert(note.includes(`href="${baked}"`), `${page}.html noscript note does not link ${baked}`);
+  }
+});
+
+test('supply-chain sends every data href through RT.safeURL before escaping it (2026-11-15 objectivity audit)', () => {
+  // escapeHTML stops attribute breakout but lets a javascript: or data: URL through.
+  const hrefs = supply.match(/href="\$\{[^"]*\}"/g) || [];
+  assert(hrefs.length >= 6, `expected the six data-driven hrefs, found ${hrefs.length}`);
+  for (const h of hrefs) assert(/^href="\$\{RT\.escapeHTML\(RT\.safeURL\(/.test(h), `unsafe data href in supply-chain.html: ${h}`);
 });
 
 test('phone news summaries clamp to three lines and open on tap (2026-11-16, summaries were 48% of the feed)', () => {

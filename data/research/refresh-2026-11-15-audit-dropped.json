@@ -1,0 +1,1875 @@
+{
+  "date": "2026-11-15",
+  "note": "Off-topic Hacker News records removed from docs/data/news.json in the 2026-11-15 objectivity audit. Each title was read; records about robotics, physical AI, automation hardware, their supply chain, or US/China industrial and trade policy were kept.",
+  "dropped": [
+    {
+      "id": "hn-49802984",
+      "title": "Graphlin – Jev-Enabled Live Architecture Visualizer",
+      "source_url": "https://robotpaper.ai/graphlin-jev-enabled-live-architecture-visualizer/",
+      "date": "2026-09-22",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-49444699",
+      "title": "Someone just published open knowledge base",
+      "source_url": "https://github.com/mo-root/open-kb",
+      "date": "2026-08-26",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-49444897",
+      "title": "Show HN: Hostflip – a macOS /etc/hosts switcher that detects external edits",
+      "source_url": "https://github.com/heronapp/hostflip",
+      "date": "2026-08-26",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-49440730",
+      "title": "How Big Should a Terraform Root Module Be?",
+      "source_url": "https://newsletter.masterpoint.io/p/how-big-should-a-terraform-root-module-be",
+      "date": "2026-08-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-49441771",
+      "title": "Mars500 Study Overview",
+      "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Mars500/Mars500_study_overview",
+      "date": "2026-08-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-49290296",
+      "title": "Why space is a terrible place to cool a data center",
+      "source_url": "https://thenewstack.io/spacex-and-nvidias-orbital-ai-datacenter-fantasy/",
+      "date": "2026-08-13",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-49145829",
+      "title": "Chatto Is Robots",
+      "source_url": "https://www.hmans.dev/blog/chatto-is-robots",
+      "date": "2026-08-02",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48998321",
+      "title": "Show HN: RootBadger – a modern Usenet-style discussion platfor",
+      "source_url": "https://rootbadger.com",
+      "date": "2026-07-21",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48999323",
+      "title": "Furtex: Post-exploitation, rootkit and evasion research toolkit for Linux",
+      "source_url": "https://github.com/MatheuZSecurity/Furtex",
+      "date": "2026-07-21",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48914648",
+      "title": "Beyond Nerva Nuclear Propulsion for Humanity's Expanse into the Cosmos",
+      "source_url": "https://beyondnerva.wordpress.com/",
+      "date": "2026-07-15",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48915004",
+      "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
+      "source_url": "https://tailscale.com/security-bulletins",
+      "date": "2026-07-15",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48903714",
+      "title": "Odysee: The new YouTube for the far-right (2017)",
+      "source_url": "https://gnet-research.org/2021/02/17/odysee-the-new-youtube-for-the-far-right/",
+      "date": "2026-07-14",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48903765",
+      "title": "Big Tech Is Turning A.I.'S Dystopia into Reality",
+      "source_url": "https://tribunemag.co.uk/2026/06/big-tech-is-turning-a-i-s-dystopia-into-reality",
+      "date": "2026-07-14",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48903937",
+      "title": "Meritocracy in Perspective. The Rise of the Meritocracy 60 Years on (2020)",
+      "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/1467-923X.12839",
+      "date": "2026-07-14",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48904957",
+      "title": "Most UK media reports on June heatwave failed to mention climate crisis",
+      "source_url": "https://www.theguardian.com/environment/2026/jul/14/most-coverage-june-heatwave-did-not-mention-climate-crisis",
+      "date": "2026-07-14",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48905290",
+      "title": "Germany set to restrict its Freedom of Information Act",
+      "source_url": "https://www.dw.com/en/germany-freedom-of-information-act/a-77939695",
+      "date": "2026-07-14",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48906279",
+      "title": "Lets Encrypt ISRG Root X1 Cert T-Shirt",
+      "source_url": "https://letsencrypt.org/donate/",
+      "date": "2026-07-14",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48906875",
+      "title": "Show HN: Run SAM only when your tracker is uncertain – #1 on SportsMOT",
+      "source_url": "https://www.holma.io/blog/posts/selective-mask-propagation",
+      "date": "2026-07-14",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48908460",
+      "title": "Designing Math Ft. Grant Sanderson (3Blue1Brown) I Config 2026",
+      "source_url": "https://www.youtube.com/watch?v=bLSLN96Gn-w",
+      "date": "2026-07-14",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48908918",
+      "title": "The Ramanujan Challenge for AI",
+      "source_url": "https://arxiv.org/abs/2607.09721",
+      "date": "2026-07-14",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48909299",
+      "title": "Everybody Should Welcome Nationalizing AI",
+      "source_url": "https://jacobin.com/2026/07/ai-nationalization-sanders-libertarians-property",
+      "date": "2026-07-14",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48889175",
+      "title": "AI Is a Product of Humanity. Humanity Should Own AI",
+      "source_url": "https://jacobin.com/2026/07/ai-big-tech-global-ownership-control",
+      "date": "2026-07-13",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48887175",
+      "title": "Show HN: Web App Uses RTL-SDR to Align HDTV Antenna",
+      "source_url": "https://tunerscope.com/",
+      "date": "2026-07-13",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48889567",
+      "title": "Obstacle avoidance for robots of multiple sizes and forms Horizon Zero Dawn [pdf]",
+      "source_url": "http://www.gameaipro.com/GameAIProOnlineEdition2021/GameAIProOnlineEdition2021_Chapter09_Obstacle_avoidance_for_robots_of_multiple_sizes_and_forms_in_Horizon_Zero_Dawn.pdf",
+      "date": "2026-07-13",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48894466",
+      "title": "Silvia – AI CFO built for serious investors",
+      "source_url": "https://www.cfosilvia.com/",
+      "date": "2026-07-13",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48897268",
+      "title": "U.S. replaced textbooks with laptops, resulting in a generation less capable",
+      "source_url": "https://fortune.com/article/how-did-us-spending-30-billion-dollars-on-laptops-result-in-first-generation-less-cognitively-capable-than-parents/",
+      "date": "2026-07-13",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48898989",
+      "title": "We gave open models root on broken servers and graded them on the machine",
+      "source_url": "https://glassmkr.com/blog/open-model-ladder-blind-remediation",
+      "date": "2026-07-13",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48900465",
+      "title": "Show HN: FixBugs – Reproduce production bugs and verify fixes",
+      "source_url": "https://fixbugs.ai",
+      "date": "2026-07-13",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48826642",
+      "title": "Is wanting is the last thing for humanity to do",
+      "source_url": "https://harshalgajjar.com/blog/deciding-is-the-diamond",
+      "date": "2026-07-08",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48827283",
+      "title": "Show HN: 0day Rubbish – AI Vulnerability Discovery Platform (0day-Rubbish.com)",
+      "source_url": "https://0day-rubbish.com/",
+      "date": "2026-07-08",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48820564",
+      "title": "Show HN: Humanize – Best static AI text humanizer, based on 50 research papers",
+      "source_url": "https://github.com/harshaneel/humanize",
+      "date": "2026-07-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48821373",
+      "title": "The MFA Rollout Disaster",
+      "source_url": "https://stuartdotson.substack.com/p/the-wetness-humaning-multiplier",
+      "date": "2026-07-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48814065",
+      "title": "I'm Building a Secure USB Drive That Hides Itself",
+      "source_url": "https://rootkitlabs.com/2026/06/22/I%27m-Building-a-Secure-USB-Drive/",
+      "date": "2026-07-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48814810",
+      "title": "Romania's \"Palantir\": the entrepreneur selling \"sovereign AI\" to secret services",
+      "source_url": "https://eualive.net/romanias-palantir-the-entrepreneur-selling-sovereign-ai-to-the-countrys-intelligence-services/",
+      "date": "2026-07-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48815345",
+      "title": "Show HN: FaultFixer – For websites and apps to self-heal themselves",
+      "source_url": "https://faultfixer.com/",
+      "date": "2026-07-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48818416",
+      "title": "Show HN: hnsubstacks – Browse only Substacks submitted to HN",
+      "source_url": "https://hnsubstacks.com/",
+      "date": "2026-07-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48819284",
+      "title": "Rootless Docker and Its Hidden Security Trade-Offs",
+      "source_url": "https://www.kenmuse.com/blog/rootless-docker-and-its-hidden-security-trade-offs/",
+      "date": "2026-07-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48819517",
+      "title": "Sites that block AI training crawlers mostly ignore the answer time bots",
+      "source_url": "https://sitedex.dev/insights/robots-txt-2023-war-memorial",
+      "date": "2026-07-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48821627",
+      "title": "Ukraine has won the war against Russia, Finnish president tells CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/07/ukraine-won-war-russia-nato-alexander-stubb-finnish-president.html",
+      "date": "2026-07-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48822035",
+      "title": "Microsoft Replaces OpenAI, Anthropic with Own AI in Some Apps",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-07-07/microsoft-replaces-openai-anthropic-with-own-ai-in-some-apps",
+      "date": "2026-07-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48822079",
+      "title": "Searching for Extraterrestrial Intelligence with the SKA",
+      "source_url": "https://arxiv.org/abs/2606.27565",
+      "date": "2026-07-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48822082",
+      "title": "Show HN: My Approach to HTML Obfuscation",
+      "source_url": "https://github.com/hirasso/html-obfuscator",
+      "date": "2026-07-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48823909",
+      "title": "The Opportunity Atlas: Mapping the Childhood Roots of Social Mobility [pdf]",
+      "source_url": "https://opportunityinsights.org/wp-content/uploads/2018/10/atlas_paper.pdf",
+      "date": "2026-07-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48810021",
+      "title": "5 frontier LLMs have the same favorite joke",
+      "source_url": "https://rkique.github.io/humanitys-first-exam/joke",
+      "date": "2026-07-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48810616",
+      "title": "The Fourth Root Complexity of Data Movement",
+      "source_url": "https://arxiv.org/abs/2606.30948",
+      "date": "2026-07-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48801154",
+      "title": "ByteDance and Alibaba to disable humanlike AI custom agents as new rules loom",
+      "source_url": "https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom",
+      "date": "2026-07-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48801815",
+      "title": "Trump's 'narco‑terrorism' war in Latin America evokes Reagan",
+      "source_url": "https://theconversation.com/trumps-narco-terrorism-war-in-latin-america-evokes-reagan-then-as-now-its-more-about-fighting-leftists-than-drug-runners-284287",
+      "date": "2026-07-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48802741",
+      "title": "Show HN: PAI, a Linux-y personal-assistant for Mac",
+      "source_url": "https://www.whitematterlabs.ai/",
+      "date": "2026-07-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48804086",
+      "title": "Show HN: Python running on the Super Nintendo (in-browser demo)",
+      "source_url": "https://fabian-kuebler.com/posts/fable-python-snes/",
+      "date": "2026-07-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48804610",
+      "title": "Blatant nepotism among various groups of Indians in Amazon",
+      "source_url": "https://old.reddit.com/r/amazonemployees/comments/1uoj25w/blatant_nepotism_among_various_groups_of_indians/",
+      "date": "2026-07-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48804626",
+      "title": "UEFA slams FIFA's 'unprecedented, unjustifiable' Balogun decision",
+      "source_url": "https://www.reuters.com/sports/soccer/uefa-slams-fifas-unprecedented-incomprehensible-unjustifiable-balogun-decision-2026-07-06/",
+      "date": "2026-07-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48804762",
+      "title": "Microsoft joins AI-driven tech layoff wave with 4,800 job cuts",
+      "source_url": "https://www.reuters.com/business/world-at-work/microsoft-joins-ai-driven-tech-layoff-wave-with-4800-job-cuts-2026-07-06/",
+      "date": "2026-07-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48804797",
+      "title": "Show HN: Orchestrate parallel Claude Code and Codex agents on a live map",
+      "source_url": "https://github.com/Latand/live-log-viewer-next",
+      "date": "2026-07-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48805329",
+      "title": "Vibe-Cadding in Codex",
+      "source_url": "https://generalrobots.substack.com/p/vibe-cadding",
+      "date": "2026-07-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48806140",
+      "title": "Walmart Faces Illinois Biometric Suit over Recorded Call Voiceprints",
+      "source_url": "https://idtechwire.com/walmart-faces-illinois-biometric-suit-over-recorded-call-voiceprints/",
+      "date": "2026-07-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48809322",
+      "title": "Bad Epoll Flaw Gives Attackers Root Access on Linux and Android",
+      "source_url": "https://securityaffairs.com/194795/hacking/bad-epoll-flaw-gives-attackers-root-access-on-linux-and-android.html",
+      "date": "2026-07-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48792650",
+      "title": "\"Gauging your humanity This may take some seconds\"",
+      "source_url": "https://github.com/unt-libraries/django-altcha-middleware",
+      "date": "2026-07-05",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48790560",
+      "title": "Show HN: Inches to MM converter for manufacturing and hardware checks",
+      "source_url": "https://inches-to-mm.com",
+      "date": "2026-07-05",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48792094",
+      "title": "code-on-incus: Give each AI agent its own isolated machine with root",
+      "source_url": "https://github.com/mensfeld/code-on-incus",
+      "date": "2026-07-05",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48792823",
+      "title": "Show HN: ChartsPrintables – printable conversion charts and reference tables",
+      "source_url": "https://chartsprintables.com",
+      "date": "2026-07-05",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48794720",
+      "title": "33434 Scottmanley (1999 FU)",
+      "source_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=33434",
+      "date": "2026-07-05",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48788214",
+      "title": "AI-writing-pattern linter that kept flagging my own README",
+      "source_url": "https://github.com/Shirhussain/humanize",
+      "date": "2026-07-04",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48784303",
+      "title": "Show HN: AI Video Detector – check whether a video may be AI-generated",
+      "source_url": "https://aivideodetector.video",
+      "date": "2026-07-04",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48789404",
+      "title": "Edeward Neumeier talks about 'RoboCop'",
+      "source_url": "http://www.money-into-light.com/2013/07/edward-neumeier-talks-about-robocop.html",
+      "date": "2026-07-04",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48742449",
+      "title": "We pay engineers to cut our infra bill",
+      "source_url": "https://rootly.com/blog/we-pay-engineers-to-cut-our-infra-bill",
+      "date": "2026-07-01",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48730608",
+      "title": "The US ambassador had Belgian police stop our reporting",
+      "source_url": "https://europeancorrespondent.com/en/r/the-us-ambassador-had-belgian-police-stop-our-reporting",
+      "date": "2026-06-30",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48732489",
+      "title": "Api.weather.gov's robots.txt disallows all bots",
+      "source_url": "https://api.weather.gov/robots.txt",
+      "date": "2026-06-30",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48732917",
+      "title": "Show HN: Scorifya Controls, a self-hosted SoC 2 tool with RFC 3161 timestamps",
+      "source_url": "https://www.scorifya.com/controls",
+      "date": "2026-06-30",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48733971",
+      "title": "Popping Root on Unifi OS: Unauthenticated RCE Chain Detection and Analysis",
+      "source_url": "https://bishopfox.com/blog/popping-root-on-unifi-os-server-unauthenticated-rce-chain-detection-analysis",
+      "date": "2026-06-30",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48734627",
+      "title": "Improving Transparency and Assurance in the Web PKI",
+      "source_url": "https://blog.mozilla.org/security/2026/06/29/improving-transparency-and-assurance-in-the-web-pki-mozilla-root-store-policy-v3-1/",
+      "date": "2026-06-30",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48727753",
+      "title": "'Humanity has chosen to become idiots': Brown professor discovers mass cheating",
+      "source_url": "https://fortune.com/2026/06/29/roberto-serrano-brown-university-massacre-ai-cheating/",
+      "date": "2026-06-30",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48728596",
+      "title": "Show HN: CI/Lock – signed evidence of what your CI ran",
+      "source_url": "https://cilock.dev/",
+      "date": "2026-06-30",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48720635",
+      "title": "Open Source Software Is the Pastime of the Rich",
+      "source_url": "https://humancode.us/2024/09/18/open-source-pastime-for-rich",
+      "date": "2026-06-29",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48719100",
+      "title": "CaseHero – their call is recorded, yours isn't",
+      "source_url": "https://apps.apple.com/us/app/casehero/id6757936177",
+      "date": "2026-06-29",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48718404",
+      "title": "Farming is Why Humanity is Fucked",
+      "source_url": "https://brennan.day/farming-is-why-humanity-is-fucked/",
+      "date": "2026-06-29",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48716631",
+      "title": "Life After Oligarchy",
+      "source_url": "https://www.commonweal.scot/articles/magazine-zrell",
+      "date": "2026-06-29",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48707731",
+      "title": "Report on the State of Scholarship in the Humanities [pdf]",
+      "source_url": "https://cdn.vanderbilt.edu/vu-wpfsx/wp-content/uploads/sites/51/2026/06/State-of-Scholarship-Report-final.pdf",
+      "date": "2026-06-28",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48707179",
+      "title": "Autoregressive Boltzmann Generators",
+      "source_url": "https://arxiv.org/abs/2606.27361",
+      "date": "2026-06-28",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48707146",
+      "title": "Austria Lobbies EU to Host Anthropic After US Access Curbs",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
+      "date": "2026-06-28",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48707103",
+      "title": "Google limits Meta's use of its Gemini AI models",
+      "source_url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+      "date": "2026-06-28",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48706502",
+      "title": "Show HN: Warren – run isolated instances of any CLI tool (no containers,no root)",
+      "source_url": "https://github.com/swadhinbiswas/warren",
+      "date": "2026-06-28",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48701512",
+      "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
+      "source_url": "https://github.com/kageroumado/adrafinil",
+      "date": "2026-06-27",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48700895",
+      "title": "Can a robot be a modern artist? I gave Claude Code creative freedom",
+      "source_url": "https://museum.nal.digital",
+      "date": "2026-06-27",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48696251",
+      "title": "Show HN: PhoneCode: Local-First ADE Running Natively on Android",
+      "source_url": "https://github.com/dttdrv/phonecode",
+      "date": "2026-06-27",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48694760",
+      "title": "Love Conquers Fear: Humanity, AI, and the Age of Abundance for All",
+      "source_url": "https://www.amazon.com/Love-Conquers-Fear-Humanity-Abundance-ebook/dp/B0GX32NPX5",
+      "date": "2026-06-27",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48677002",
+      "title": "Older tech workers are tapping out early",
+      "source_url": "https://www.seattletimes.com/business/local-business/older-tech-workers-are-tapping-out-early-heres-what-that-looks-like/",
+      "date": "2026-06-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48676916",
+      "title": "Autodata: An agentic data scientist to create high quality synthetic data",
+      "source_url": "https://arxiv.org/abs/2606.25996",
+      "date": "2026-06-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48676901",
+      "title": "HRM-Text: Efficient Pretraining Beyond Scaling",
+      "source_url": "https://huggingface.co/papers/2605.20613",
+      "date": "2026-06-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48675651",
+      "title": "Show HN: An open source app for navigating CS conferences",
+      "source_url": "https://github.com/CuriousG102/conference-planner",
+      "date": "2026-06-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48674194",
+      "title": "Atlas of Humanity",
+      "source_url": "https://www.atlasofhumanity.org",
+      "date": "2026-06-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48672293",
+      "title": "A new report on the dangers of politicizing humanities in academia",
+      "source_url": "https://whyevolutionistrue.com/2026/06/08/a-new-report-on-the-dangers-of-politicizing-humanities-in-academia/",
+      "date": "2026-06-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48672290",
+      "title": "France experiences its hottest day since measurements began in 1947",
+      "source_url": "https://www.france24.com/en/france-experiences-its-hottest-day-since-measurements-began-in-1947",
+      "date": "2026-06-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48672285",
+      "title": "Show HN: Portal – Taking Online Connections Back to Their Roots",
+      "source_url": "https://www.portal-beta.com/",
+      "date": "2026-06-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48672037",
+      "title": "Software engineers are facing an 'identity crisis bordering on depression'",
+      "source_url": "https://www.businessinsider.com/software-engineers-face-an-ai-identity-crisis-vc-partner-says-2026-6",
+      "date": "2026-06-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48671939",
+      "title": "No one is self-made",
+      "source_url": "https://aeon.co/essays/zhuangzi-and-the-case-against-meritocracy",
+      "date": "2026-06-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48670836",
+      "title": "AWS Lambda Introduces MicroVMs",
+      "source_url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
+      "date": "2026-06-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48670815",
+      "title": "Young Cornish people are turning to campervans to have a roof over their heads",
+      "source_url": "https://www.theguardian.com/environment/2026/jun/25/reality-life-cornwall-young-van-dwellers-priced-out-of-the-housing-market",
+      "date": "2026-06-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48670692",
+      "title": "Bill Gates says Epstein sought to blackmail him over extramarital affairs",
+      "source_url": "https://www.theguardian.com/us-news/2026/jun/24/bill-gates-epstein-transcript",
+      "date": "2026-06-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48670610",
+      "title": "The weirdest things a leak revealed about Peter Thiel's club",
+      "source_url": "https://www.theguardian.com/commentisfree/2026/jun/24/peter-thiel-secret-club-leak",
+      "date": "2026-06-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48669395",
+      "title": "Nakba Exhibition in Canadian Museum of Human Rights",
+      "source_url": "https://humanrights.ca/exhibition/palestine-uprooted-nakba-past-and-present",
+      "date": "2026-06-25",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48661479",
+      "title": "Show HN: Pitchly Hire – human-reviewed job listings with forced expiry",
+      "source_url": "https://pitchlyhire.com/",
+      "date": "2026-06-24",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48661083",
+      "title": "Show HN: eBook to audiobook narration with realistic AI voices",
+      "source_url": "https://ebookaloud.com",
+      "date": "2026-06-24",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48660631",
+      "title": "Mental health is not an individual matter, but a political one (2023)",
+      "source_url": "https://psyche.co/ideas/mental-health-is-not-an-individual-matter-but-a-political-one",
+      "date": "2026-06-24",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48659515",
+      "title": "I built a local AI deck music assistant on a Mac mini",
+      "source_url": "https://github.com/wkswede/robot-deck-audio",
+      "date": "2026-06-24",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48655025",
+      "title": "Axiomatic CSS and Lobotomized Owls",
+      "source_url": "https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/",
+      "date": "2026-06-24",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48653897",
+      "title": "Chinese universities are cutting language majors to make way for AI",
+      "source_url": "https://restofworld.org/2026/chinese-universities-drop-humanities-ai/",
+      "date": "2026-06-24",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48652941",
+      "title": "Real Men Run as Root",
+      "source_url": "https://www.garyshood.com/root/",
+      "date": "2026-06-23",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48649105",
+      "title": "Show HN: We Help Voice AI Handle Group Conversations",
+      "source_url": "https://github.com/attenlabs/saa-sdk",
+      "date": "2026-06-23",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48644131",
+      "title": "How to burst the AI bubble: Strike at its roots",
+      "source_url": "https://arstechnica.com/gadgets/2026/06/how-to-burst-the-ai-bubble-strike-at-its-roots/",
+      "date": "2026-06-23",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48639165",
+      "title": "An Introduction to YOLO26",
+      "source_url": "https://blog.roboflow.com/yolo26/",
+      "date": "2026-06-23",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48636675",
+      "title": "Magnifica Humanitas as Glossed Manuscript",
+      "source_url": "https://magnifica.unlatent.ai/",
+      "date": "2026-06-22",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48635982",
+      "title": "Show HN: Tree, truth, druid, dryad, tar and dendrite share the same PIE root",
+      "source_url": "https://p.migdal.pl/tree-of-tree/",
+      "date": "2026-06-22",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48634931",
+      "title": "SpaceX Drops 14% in One Day, Price Now Below IPO Launch",
+      "source_url": "https://finance.yahoo.com/quote/SPCX/",
+      "date": "2026-06-22",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48634300",
+      "title": "The chances of you living 50 years are very small",
+      "source_url": "https://www.livescience.com/space/cosmology/the-chances-of-you-living-50-years-are-very-small-theoretical-physicist-explains-why-humanity-likely-wont-survive-to-see-all-the-forces-unified",
+      "date": "2026-06-22",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48630573",
+      "title": "Sam Altman's Orb startup investigated financial misconduct allegations",
+      "source_url": "https://www.businessinsider.com/sam-altman-tools-for-humanity-orb-investigations-bribery-financial-irregularities",
+      "date": "2026-06-22",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48629489",
+      "title": "Skillsoft Selling Global Knowledge Business to Enduring Ventures",
+      "source_url": "https://www.businesswire.com/news/home/20260520936193/en/Skillsoft-Announces-Sale-of-Global-Knowledge-Business-to-Enduring-Ventures",
+      "date": "2026-06-22",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48623965",
+      "title": "Show HN: Wirewright, an experimental symbolic physics environment",
+      "source_url": "https://github.com/wirewright/wirewright",
+      "date": "2026-06-22",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48615427",
+      "title": "I guess I should have become a Plumber",
+      "source_url": "https://www.robot-future.com/preview/6a3758e002c7a770662f8346",
+      "date": "2026-06-21",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48612098",
+      "title": "AMD will reinstate memory encryption on Ryzen 9000 CPUs via BIOS update in July",
+      "source_url": "https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback",
+      "date": "2026-06-20",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48610549",
+      "title": "Eliya – a compliance-focused OpenJDK 25 distribution (Phase 1 of a JVM platform)",
+      "source_url": "https://root.asymm.systems/product/eliya",
+      "date": "2026-06-20",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48600768",
+      "title": "AI will create more jobs for humans, not replace them, Amazon founder Bezos says",
+      "source_url": "https://www.bbc.com/news/articles/ceqdrw2yy3vo",
+      "date": "2026-06-19",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48599998",
+      "title": "Munich 1991: The Roots of the Current AI Boom",
+      "source_url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+      "date": "2026-06-19",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48599766",
+      "title": "The AI slop refactor wave is coming",
+      "source_url": "https://old.reddit.com/r/SaaS/comments/1u6f84g/the_ai_slop_refactor_wave_is_coming_and_i_havent/",
+      "date": "2026-06-19",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48598499",
+      "title": "Sashiko: AI code review system for the Linux kernel",
+      "source_url": "https://www.theregister.com/software/2026/03/20/linux-kernel-engineer-introduces-sashiko-code-review-system/5223725",
+      "date": "2026-06-19",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48598216",
+      "title": "AWS Blocks, an open-source framework for composing application back ends on AWS",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-blocks-preview/",
+      "date": "2026-06-19",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48598086",
+      "title": "Linux Maintainer Greg Kroah-Hartman Says AI Tools Now Useful, Finding Real Bugs",
+      "source_url": "https://www.theregister.com/software/2026/03/26/linux-kernel-czar-says-ai-bug-reports-arent-slop-anymore/5226256",
+      "date": "2026-06-19",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48597767",
+      "title": "AWS Continuum",
+      "source_url": "https://aws.amazon.com/continuum/",
+      "date": "2026-06-19",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48597346",
+      "title": "Please Stop Talking About AGI (2025)",
+      "source_url": "https://blog.jxmo.io/p/we-should-stop-talking-about-agi",
+      "date": "2026-06-19",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48597302",
+      "title": "Indian IT stocks slump up to 7% as Accenture cuts revenue outlook",
+      "source_url": "https://www.cnbc.com/2026/06/19/india-it-stocks-fall-accenture-cuts-revenue-forecast.html",
+      "date": "2026-06-19",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48596331",
+      "title": "Show HN: NetSentinel – a local network security scanner and connectivity monitor",
+      "source_url": "https://github.com/ossianericson/netsentinel",
+      "date": "2026-06-19",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48591546",
+      "title": "Accenture shares fall to lowest since 2017 as AI threat mounts",
+      "source_url": "https://www.ft.com/content/9f063b07-da39-4feb-92ab-ee0f91385c62",
+      "date": "2026-06-18",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48586506",
+      "title": "Protecting Against eBPF Rootkits",
+      "source_url": "https://substack.bomfather.dev/p/protecting-against-ebpf-rootkits",
+      "date": "2026-06-18",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48586499",
+      "title": "Show HN: Multiplayer – open-source local debugging agent, unsampled runtime data",
+      "source_url": "https://github.com/multiplayer-app/multiplayer",
+      "date": "2026-06-18",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48583434",
+      "title": "The crises are not stopping: why we urgently need an income floor system",
+      "source_url": "https://autonomy.work/portfolio/the-crises-are-not-stopping-why-we-urgently-need-a-robust-cash-transfer-system/",
+      "date": "2026-06-18",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48583278",
+      "title": "Chimera: Turn a rooted Android into a hardware exploit platform",
+      "source_url": "https://github.com/cipher-attack/Chimera",
+      "date": "2026-06-18",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48574777",
+      "title": "Show HN: Tamper evident audit logs for LangGraph/CrewAI agents",
+      "source_url": "https://github.com/Providex-AI/rootsign",
+      "date": "2026-06-17",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48571828",
+      "title": "UChicago freezes PhD admissions to most humanities programs",
+      "source_url": "https://www.hpherald.com/evening_digest/u-of-c-freezes-ph-d-admissions-to-most-humanities-programs/article_100ee5ec-62e5-44ab-8eca-d00cc2b02d41.html",
+      "date": "2026-06-17",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48570602",
+      "title": "Status of Jerusalem holiest site threatened as Israeli nationalists flout rules",
+      "source_url": "https://www.bbc.com/news/articles/cwy0nlv90jno",
+      "date": "2026-06-17",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48570238",
+      "title": "Show HN: Alpenglow, a Linux distribution that boots to login in 0.6s",
+      "source_url": "https://github.com/tschk/alpenglow",
+      "date": "2026-06-17",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48569992",
+      "title": "Not having an opinion on SpaceX is going to cost you",
+      "source_url": "https://www.ft.com/content/d4069188-30ca-4838-a3d3-f3c8ffe4a13b",
+      "date": "2026-06-17",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48569965",
+      "title": "HRM-Text: Efficient Pretraining Beyond Scaling",
+      "source_url": "https://arxiv.org/abs/2605.20613",
+      "date": "2026-06-17",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48568753",
+      "title": "A universal basic income could rebuild social cohesion (AU)",
+      "source_url": "https://independentaustralia.net/politics/politics-display/a-universal-basic-income-could-rebuild-social-cohesion,21178",
+      "date": "2026-06-17",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48562144",
+      "title": "An Interview with Eugene Jarvis of Robotron, Defender and Stargate Fame",
+      "source_url": "https://www.gamedeveloper.com/production/eugeneology-an-interview-with-eugene-jarvis",
+      "date": "2026-06-16",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48559188",
+      "title": "GPT‑NL: a sovereign language model for the Netherlands",
+      "source_url": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
+      "date": "2026-06-16",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48558325",
+      "title": "Show HN: Kintsugi – a local-first safety net for AI agents and humans",
+      "source_url": "https://github.com/arrowassassin/kintsugi",
+      "date": "2026-06-16",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48557858",
+      "title": "Fake Viral Guitarists Strike Again",
+      "source_url": "https://www.youtube.com/watch?v=-Eik8uBvdxY",
+      "date": "2026-06-16",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48557680",
+      "title": "The Faithfulness of LLMs as Solvers and Autoformalizers in Legal Reasoning",
+      "source_url": "https://arxiv.org/abs/2606.16118",
+      "date": "2026-06-16",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48556815",
+      "title": "Get your fine, handcrafted artisanal essays right here",
+      "source_url": "https://blog.rootsofprogress.org/get-your-fine-handcrafted-artisanal-essays-right-here",
+      "date": "2026-06-16",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48555610",
+      "title": "Thoughts on the Commodore 8020 smart flip phone?",
+      "source_url": "https://www.wired.com/story/commodore-callback-8020-is-a-digital-detox-phone-that-isnt-dumb/",
+      "date": "2026-06-16",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48550386",
+      "title": "The Fable 5 Export Controls root of takedown request",
+      "source_url": "https://www.lutasecurity.com/post/the-fable-5-export-controls-harm-us-cyber-defense",
+      "date": "2026-06-16",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48549628",
+      "title": "Humanity isn't ready for the coming intelligence explosion",
+      "source_url": "https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion",
+      "date": "2026-06-16",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48546338",
+      "title": "For centuries, math has been a human endeavor. Does AI mean it's over?",
+      "source_url": "https://www.washingtonpost.com/science/2026/06/14/math-has-helped-define-what-it-means-be-human-centuries-cue-robots/",
+      "date": "2026-06-15",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48545720",
+      "title": "Humanity Protocol Hacked for $36M",
+      "source_url": "https://twitter.com/WuBlockchain/status/2064651937484796155",
+      "date": "2026-06-15",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48545168",
+      "title": "Show HN: Spotlight shows what your Claude Code/Codex are doing",
+      "source_url": "https://www.backplanes.com:443/",
+      "date": "2026-06-15",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48541990",
+      "title": "Why a Former Nestlé Food Scientist Chose Local Roots",
+      "source_url": "https://www.thefoodcorridor.com/blog/why-a-former-nestle-food-scientist-chose-local-roots/",
+      "date": "2026-06-15",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48539374",
+      "title": "Five Papers That Show Where AI Research Is Heading",
+      "source_url": "https://www.youtube.com/watch?v=3rWSvrFahIY",
+      "date": "2026-06-15",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48538796",
+      "title": "Coversubstack-Zagreus=Whiterabbit.flexe",
+      "source_url": "https://substack.com/@rootedinthought/note/c-276218913",
+      "date": "2026-06-15",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48538712",
+      "title": "Searching for Guy Debord (2003)",
+      "source_url": "https://brooklynrail.org/2003/10/express/searching-for-guy-debord/",
+      "date": "2026-06-15",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48538540",
+      "title": "Four-Day Week Could Transform Employment Access for Disabled Workers",
+      "source_url": "https://www.disabilityrightsuk.org/news/four-day-week-could-transform-employment-access-and-inclusion-disabled-workers",
+      "date": "2026-06-15",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48534908",
+      "title": "Show HN: Isitslop.xyz, a free AI-writing detector built on latest research",
+      "source_url": "https://isitslop.xyz",
+      "date": "2026-06-15",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48533685",
+      "title": "Carney Says Anthropic Ban Shows Risk of Relying on Big AI Models",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-14/carney-says-anthropic-ban-shows-risk-of-relying-on-big-ai-models",
+      "date": "2026-06-14",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48527329",
+      "title": "How SpaceX Humiliated Wall Street",
+      "source_url": "https://www.youtube.com/watch?v=wKXgeNwNRJ4",
+      "date": "2026-06-14",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48524805",
+      "title": "HumanizeHub: A confidential marketplace for humanizing AI content",
+      "source_url": "https://humanizehub.me",
+      "date": "2026-06-14",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48518268",
+      "title": "PhantomBench: Benchmarking the Non-Existential Threat of Language Models",
+      "source_url": "https://arxiv.org/abs/2606.11105",
+      "date": "2026-06-13",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48518001",
+      "title": "HalluHard: A Hard Multi-Turn Hallucination Benchmark",
+      "source_url": "https://arxiv.org/abs/2602.01031",
+      "date": "2026-06-13",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48517354",
+      "title": "A leader's guide to advanced team structures in an agentic world",
+      "source_url": "https://www.youtube.com/watch?v=O7u6myBRsns",
+      "date": "2026-06-13",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48515983",
+      "title": "Attackers Hijack Trusted AUR Packages to Deliver Rootkit Malware",
+      "source_url": "https://www.sonatype.com/blog/atomic-arch-npm-campaign-adds-malicious-dependency",
+      "date": "2026-06-13",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48515771",
+      "title": "Perpetual Motion Machine Raises $12M from Investors",
+      "source_url": "https://www.youtube.com/watch?v=sEteCJUMVn4",
+      "date": "2026-06-13",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48512136",
+      "title": "Show HN: Lead Qualifier – Get leads qualified in minutes",
+      "source_url": "https://lead.robowrite.ai",
+      "date": "2026-06-13",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48510097",
+      "title": "FISA Authority Expires Amid Intelligence Nominee Fight",
+      "source_url": "https://legis1.com/news/fisa-section-702-expires-authority-amid",
+      "date": "2026-06-12",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48509669",
+      "title": "Loopers, Robovacs and the Death of the /Prompt",
+      "source_url": "https://medium.com/@vektormemory/loopers-robovacs-and-the-death-of-the-prompt-404946da77f8",
+      "date": "2026-06-12",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48509281",
+      "title": "Paramount-WBD merger wins approval from DOJ",
+      "source_url": "https://www.cnbc.com/2026/06/12/paramount-wbd-merger-approval-doj.html",
+      "date": "2026-06-12",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48507656",
+      "title": "Over 900 Arch Linux Packages Infected with infostealers and rootkits",
+      "source_url": "https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/FGXPCB3ZVCJIV7FX323SBAX2JHYB7ZS4/#5FDTMKA54RMWNRHJFUAKXEBAFV5WPDUL",
+      "date": "2026-06-12",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48507034",
+      "title": "Over 400 Arch Linux packages compromised to push rootkit, infostealer",
+      "source_url": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
+      "date": "2026-06-12",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48506541",
+      "title": "Sandboxes Are Not Security",
+      "source_url": "https://jlmr.dev/posts/sandboxes-are-not-security/",
+      "date": "2026-06-12",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48506102",
+      "title": "Show HN: Crowfly.golf – Zero-backend GPS round tracking (localStorage)",
+      "source_url": "https://crowfly.golf",
+      "date": "2026-06-12",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48505364",
+      "title": "Show HN: StackScope – I crawled over 40k indie launches to see what they ship",
+      "source_url": "https://stackscope.dev/",
+      "date": "2026-06-12",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48502314",
+      "title": "The world's burning. Who's betting on it?",
+      "source_url": "https://shado-mag.com/articles/opinion/the-worlds-burning-whos-betting-on-it/",
+      "date": "2026-06-12",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48502202",
+      "title": "Petition: Reverse NHS England's decision to closed-source its code repositories",
+      "source_url": "https://petition.parliament.uk/petitions/769638",
+      "date": "2026-06-12",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48501845",
+      "title": "We economists have done the maths: 'growth' is a doomed strategy",
+      "source_url": "https://www.theguardian.com/commentisfree/2026/jun/10/economists-maths-growth-doomed-strategy-un-agencies-political-leaders",
+      "date": "2026-06-12",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48500561",
+      "title": "Show HN: MicroECS – entity component system library in Python/NumPy",
+      "source_url": "https://github.com/Meehai/microecs",
+      "date": "2026-06-12",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48500447",
+      "title": "AUR Packages Compromised with Infostealer and Rootkit",
+      "source_url": "https://discourse.ifin.network/t/400-aur-packages-compromised-with-infostealer-and-rootkit/577",
+      "date": "2026-06-12",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48499288",
+      "title": "LLM podcast addressing AI genocide of humanity",
+      "source_url": "https://MachineDeposition.com",
+      "date": "2026-06-12",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48497189",
+      "title": "Sam Altman's eye-scanning startup [Worldcoin parent] is laying off employees",
+      "source_url": "https://www.businessinsider.com/sam-altman-orb-worldcoin-tools-for-humanity-layoffs-2026-6",
+      "date": "2026-06-11",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48492301",
+      "title": "Fable on Humanity",
+      "source_url": "https://twitter.com/MathiasChu/status/2064493902271262809",
+      "date": "2026-06-11",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48491031",
+      "title": "An evolutionary biologist and a science fiction writer walk into a bar (2024)",
+      "source_url": "https://thereader.mitpress.mit.edu/the-collapse-is-coming-will-humanity-adapt/",
+      "date": "2026-06-11",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48490831",
+      "title": "Show HN: JustRebootIt, WAN latency monitor with LLM root cause analysis",
+      "source_url": "https://github.com/adamf/JustRebootIt",
+      "date": "2026-06-11",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48489453",
+      "title": "Show HN: Captcha: The Game – prove you are not a robot, physically",
+      "source_url": "https://human.foliyo.kr/",
+      "date": "2026-06-11",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48488961",
+      "title": "The U.S. Is Terrorizing Cuba to Make Rich Men Richer",
+      "source_url": "https://www.currentaffairs.org/news/the-u.s.-is-terrorizing-cuba-to-make-rich-men-richer",
+      "date": "2026-06-11",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48488958",
+      "title": "Sitemaps and robots.txt – Practical guide for SEOs and developers",
+      "source_url": "https://mysevenstars.com/articles/SEO-SiteMaps-Robots-Google.html",
+      "date": "2026-06-11",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48488689",
+      "title": "Why isn't Quarkus 2x faster than Spring on my machine?",
+      "source_url": "https://quarkus.io/blog/hidden-cost-rootless-container-networking/",
+      "date": "2026-06-11",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48486844",
+      "title": "Show HN: AI Coloring Page Generator – printable worksheets from prompts",
+      "source_url": "https://aicoloringpagegenerator.org/",
+      "date": "2026-06-11",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48484235",
+      "title": "The Cosmological Hart-Tipler Conjecture",
+      "source_url": "https://arxiv.org/abs/2606.04044",
+      "date": "2026-06-10",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48483463",
+      "title": "Oracle beats on earnings, but stock drops on plans to raise another $20B",
+      "source_url": "https://www.cnbc.com/2026/06/10/oracle-orcl-q4-earnings-report-2026.html",
+      "date": "2026-06-10",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48483445",
+      "title": "US President says 'I love the inflation'",
+      "source_url": "https://www.cnbc.com/2026/06/10/trump-inflation-cpi-iran-oil.html",
+      "date": "2026-06-10",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48482678",
+      "title": "Gesture-based proof of humanity – W3C DID, on-chain, no biometrics",
+      "source_url": "https://homosapience.org/en",
+      "date": "2026-06-10",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48481937",
+      "title": "Every breaking change in the July MCP spec, and how to migrate",
+      "source_url": "https://mcpmigrate.dev/blog/mcp-spec-2026-07-28-migration-guide",
+      "date": "2026-06-10",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48474497",
+      "title": "High-severity vulnerability in Linux caused by a single faulty character",
+      "source_url": "https://arstechnica.com/security/2026/06/a-single-errant-character-in-the-linux-kernel-allows-attacker-to-gain-root/",
+      "date": "2026-06-10",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48469499",
+      "title": "The Dialectic of Essay Writing and Truth",
+      "source_url": "https://systemsthinkingcollection.substack.com/p/roots-in-the-sky",
+      "date": "2026-06-10",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48469039",
+      "title": "Show HN: Nucleus – A security-hardened, Nix-native container runtime",
+      "source_url": "https://github.com/sig-id/nucleus",
+      "date": "2026-06-09",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48468394",
+      "title": "FCC Attempts to Solve Robocall Problem with Potentially Bigger Privacy Problem",
+      "source_url": "https://gizmodo.com/fcc-attempts-to-solve-robocall-problem-by-potentially-creating-even-bigger-privacy-problem-2000756762",
+      "date": "2026-06-09",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48467403",
+      "title": "Smart Glasses Would Legally Require a Recording Light Under Proposed Law",
+      "source_url": "https://gizmodo.com/smart-glasses-would-legally-require-a-recording-light-under-proposed-law-2000768694",
+      "date": "2026-06-09",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48467391",
+      "title": "Company is losing their minds over AI costs",
+      "source_url": "https://old.reddit.com/r/cscareerquestions/comments/1tyjbhy/company_is_losing_their_minds_over_ai_costs/",
+      "date": "2026-06-09",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48467311",
+      "title": "NASA announces astronauts for its Artemis III mission",
+      "source_url": "https://www.nbcnews.com/science/space/nasa-artemis-iii-astronauts-announced-mission-rcna347223",
+      "date": "2026-06-09",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48463696",
+      "title": "Show HN: RoboCo- A 20 agent software company w role-gated lifecycle. Self hosted",
+      "source_url": "https://github.com/rennf93/roboco",
+      "date": "2026-06-09",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48459413",
+      "title": "AI Billionaires Brace for Pitchforks",
+      "source_url": "https://www.axios.com/2026/05/29/ai-billionaires-tech-taxes-wealth",
+      "date": "2026-06-09",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48458353",
+      "title": "Palantir is turning the NHS into a tool for mass surveillance",
+      "source_url": "https://www.opendemocracy.net/palantir-is-turning-the-nhs-into-a-tool-for-mass-surveillance/",
+      "date": "2026-06-09",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48455685",
+      "title": "Show HN: Lead Qualifier – research agent turning a LinkedIn URL into a dossier",
+      "source_url": "https://lead.robowrite.ai/",
+      "date": "2026-06-09",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48453192",
+      "title": "Airline profits set to halve this year as fuel costs jump by $100B: IATA",
+      "source_url": "https://www.cnbc.com/2026/06/08/iata-airline-profitability-halve-jet-fuel-costs-jump-100b.html",
+      "date": "2026-06-08",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48453179",
+      "title": "Sam Bankman-Fried seeks Trump pardon",
+      "source_url": "https://www.ft.com/content/7b976fd2-d93d-4af6-b030-0d1aceec3a30",
+      "date": "2026-06-08",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48453049",
+      "title": "$100,000 fee on H-1B visas for highly skilled workers struck down in court",
+      "source_url": "https://www.washingtonpost.com/business/2026/06/08/court-strike-down-trumps-h-1b-100000-fee/",
+      "date": "2026-06-08",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48451287",
+      "title": "JMB585 (SATA Chip) Silent Data Corruption – Root Cause Analysis and Kernel Patch",
+      "source_url": "https://github.com/artmoty-dev/n5pro-jmb585-fix",
+      "date": "2026-06-08",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48448966",
+      "title": "Humanity is the bootloader, not Homo Deus",
+      "source_url": "https://moai.studio/blog/posts/stop-reading-homo-deus.html",
+      "date": "2026-06-08",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48446117",
+      "title": "Congress legislation to embed Israel within US Military-industrial complex",
+      "source_url": "https://www.theguardian.com/commentisfree/2026/jun/05/congress-us-israel-legislation",
+      "date": "2026-06-08",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48445562",
+      "title": "Facebook is paying people overseas promoting Alberta separatism",
+      "source_url": "https://www.cbc.ca/news/canada/facebook-overseas-alberta-separtism-9.7223966",
+      "date": "2026-06-08",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48445042",
+      "title": "'Big Short' investor Steve Eisman: I'm 'not a fan' of the upcoming SpaceX IPO",
+      "source_url": "https://www.youtube.com/watch?v=sL9hq7Qj1qc",
+      "date": "2026-06-08",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48443989",
+      "title": "China expands its spy networks across the European Union and beyond",
+      "source_url": "https://english.elpais.com/international/2026-06-07/china-expands-its-spy-networks-across-the-european-union-and-beyond.html",
+      "date": "2026-06-08",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48442865",
+      "title": "Argentina's 'Madman': Inside the World of Javier Milei",
+      "source_url": "https://www.aljazeera.com/features/longform/2026/6/6/argentinas-madman-inside-the-world-of-javier-milei",
+      "date": "2026-06-08",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48442371",
+      "title": "Age verification tech could put children at greater risk, says think tank",
+      "source_url": "https://www.computerweekly.com/news/366643835/Age-verification-tech-could-put-children-at-greater-risk-says-think-tank",
+      "date": "2026-06-08",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48439072",
+      "title": "Yann LeCun Says LLMs Have 2 Years Left",
+      "source_url": "https://www.youtube.com/watch?v=85M0cTnNKCI",
+      "date": "2026-06-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48438180",
+      "title": "Show HN: Nightwatch, The open-source, read-only AI SRE",
+      "source_url": "https://github.com/ninoxAI/nightwatch",
+      "date": "2026-06-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48437814",
+      "title": "Iran says staff blocked from entering US after players given World Cup visas",
+      "source_url": "https://www.bbc.com/news/articles/cy8286nqz87o",
+      "date": "2026-06-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48435221",
+      "title": "Price Evolution, Production Frontiers, and Market Competition in LLM Inference",
+      "source_url": "https://arxiv.org/abs/2603.28576",
+      "date": "2026-06-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48435195",
+      "title": "Mitigating the LLM Rerun Crisis for Minimized-Inference-Cost Web Automation",
+      "source_url": "https://arxiv.org/abs/2604.09718",
+      "date": "2026-06-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48435182",
+      "title": "The Price Reversal Phenomenon: When Cheaper Reasoning Models Cost More",
+      "source_url": "https://arxiv.org/abs/2603.23971",
+      "date": "2026-06-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48434357",
+      "title": "Pockets of Humanity",
+      "source_url": "https://herman.bearblog.dev/pockets-of-humanity/",
+      "date": "2026-06-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48434313",
+      "title": "ASML invites Elon Musk to internal tech event, prompting employee backlash",
+      "source_url": "https://nltimes.nl/2026/06/07/asml-invites-elon-musk-internal-tech-event-prompting-employee-backlash",
+      "date": "2026-06-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48433947",
+      "title": "Show HN: We built a tool to dub any video in the original voice in 40 languages",
+      "source_url": "https://vaani.media",
+      "date": "2026-06-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48433705",
+      "title": "Your 401K Is Their Exit Strategy",
+      "source_url": "https://www.youtube.com/watch?v=yhRjvX_t4hc",
+      "date": "2026-06-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48432951",
+      "title": "A Modern Proxmox Docker Architecture with Disposable VMs, VirtIO-FS, and ZFS",
+      "source_url": "https://du.nkel.dev/blog/2026-05-16_rootless_docker_virtiofs_proxmox/",
+      "date": "2026-06-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48432679",
+      "title": "Help Nearby – humanitarian map with UN data integration",
+      "source_url": "https://help-nearby.org",
+      "date": "2026-06-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48430447",
+      "title": "AI is the greatest money-wasting scheme humanity has ever invented",
+      "source_url": "https://www.telegraph.co.uk/news/2026/06/04/ai-is-the-greatest-money-wasting-scheme-humanity-has-ever-i/",
+      "date": "2026-06-07",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48429070",
+      "title": "Refining Humanity",
+      "source_url": "https://pluralistic.net/2026/06/05/defining-humanity/",
+      "date": "2026-06-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48428803",
+      "title": "The Honest Case for the Humanities",
+      "source_url": "https://substack.com/@napinillos/p-199545151",
+      "date": "2026-06-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48427499",
+      "title": "Can you guess slop or not slop",
+      "source_url": "https://humaniser-broken-butterfly-213.fly.dev/login?returnTo=%2F",
+      "date": "2026-06-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48425247",
+      "title": "Benchmarks in Leipzig",
+      "source_url": "https://arxiv.org/abs/2606.05818",
+      "date": "2026-06-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48425015",
+      "title": "SETI Panel Revises Recommendations for Dealing with 'Disclosure Day'",
+      "source_url": "https://www.universetoday.com/articles/seti-panel-revises-recommendations-for-dealing-with-disclosure-day",
+      "date": "2026-06-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48421328",
+      "title": "Show HN: What does YC Paxel do with your source code?",
+      "source_url": "https://github.com/codesoda/paxel/tree/main/rootfs/rails",
+      "date": "2026-06-06",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48417989",
+      "title": "Donald Trump says US may take equity stakes in AI companies",
+      "source_url": "https://www.ft.com/content/b1ab6106-77e6-4218-9eb4-e44bd56ca400",
+      "date": "2026-06-05",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48417140",
+      "title": "Against shallow anti-rational humanism",
+      "source_url": "https://statmodeling.stat.columbia.edu/2026/06/04/against-shallow-humanism/",
+      "date": "2026-06-05",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48416421",
+      "title": "Assessing the Effect of a Deep-Rooted Grass on Belowground Carbon Storage",
+      "source_url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025EF007102",
+      "date": "2026-06-05",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48414862",
+      "title": "The company I work for is losing all of its humanity, I don't know where to go",
+      "source_url": "https://superlemon.bearblog.dev/the-company-i-work-for-is-losing-all-of-its-humanity-but-i-dont-know-where-else-to-go/",
+      "date": "2026-06-05",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48414468",
+      "title": "Alien hunters update guidance on sharing news of possible intelligent life",
+      "source_url": "https://www.theguardian.com/science/2026/jun/05/alien-hunters-seti-guidance-signals-intelligent-life",
+      "date": "2026-06-05",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48414314",
+      "title": "Here's why I created a travel website for robots",
+      "source_url": "https://alexpanetta.substack.com/p/heres-why-i-created-a-travel-website",
+      "date": "2026-06-05",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48412083",
+      "title": "An equal and habitable world is possible: academics set out vision for survival",
+      "source_url": "https://www.theguardian.com/environment/2026/jun/04/world-inequality-lab-equality-academics-planetary-survival",
+      "date": "2026-06-05",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48410303",
+      "title": "Oracle files foreign-worker requests amid layoff bloodbath",
+      "source_url": "https://nypost.com/2026/04/02/us-news/outrage-over-oracles-thousands-of-h-1b-requests-amid-layoffs/",
+      "date": "2026-06-05",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48404964",
+      "title": "The Next Generation of Heroku Postgres (Postgres Advanced)",
+      "source_url": "https://www.heroku.com/blog/introducing-the-next-generation-of-heroku-postgres/",
+      "date": "2026-06-04",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48403492",
+      "title": "Enterprises start questioning the return on AI investments",
+      "source_url": "https://www.youtube.com/watch?v=Rn_UpO68WVU",
+      "date": "2026-06-04",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48401807",
+      "title": "Your 401(k) is about to become Elon Musk's exit liquidity",
+      "source_url": "https://twitter.com/ThierryBorgeat/status/2060820406840271145",
+      "date": "2026-06-04",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48399094",
+      "title": "Some Comments on \"Magnifica Humanitas\"",
+      "source_url": "https://bastian.rieck.me/blog/2026/magnifica_humanitas/",
+      "date": "2026-06-04",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48398109",
+      "title": "Show HN: Hydron – Hardware-aware coding agent",
+      "source_url": "https://www.hydron.sh/",
+      "date": "2026-06-04",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48396168",
+      "title": "Root access for Harmony Hubs and local web mangagement",
+      "source_url": "https://github.com/Ripthulhu/harmony-hub-root",
+      "date": "2026-06-04",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48395905",
+      "title": "Companies Are Using Reddit to Manipulate ChatGPT and Google AI Search",
+      "source_url": "https://www.404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search/",
+      "date": "2026-06-04",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48392653",
+      "title": "Rooting Home Assistant through MeshCore: XSS attacks with a LoRa node name",
+      "source_url": "https://mxsasha.eu/posts/meshcore-xss-home-assistant/",
+      "date": "2026-06-04",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48391827",
+      "title": "Last.fm's robots.txt include's Asimov's three laws of robotics as URIs",
+      "source_url": "https://www.last.fm/robots.txt",
+      "date": "2026-06-03",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48390029",
+      "title": "rootshell: macOS terminal emulator built with libghostty with powerful features",
+      "source_url": "https://www.rootshell.com",
+      "date": "2026-06-03",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48389370",
+      "title": "Git and S3 as the memory layer for agents",
+      "source_url": "https://twitter.com/VijitDhingra1/status/2062265896039833935",
+      "date": "2026-06-03",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48388253",
+      "title": "Rootshell: A new E2EE email service hosted in Iceland",
+      "source_url": "https://rootshell.is",
+      "date": "2026-06-03",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48386183",
+      "title": "Show HN: Erebus, A VPN client that runs rootless in user space",
+      "source_url": "https://margaine.com/erebus/",
+      "date": "2026-06-03",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48384197",
+      "title": "Europe unveils tech sovereignty package amid concerns over reliance on U.S. tech",
+      "source_url": "https://www.cnbc.com/2026/06/03/europe-tech-sovereignty-us-tech-reliance.html",
+      "date": "2026-06-03",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48383790",
+      "title": "Unusual Whales",
+      "source_url": "https://unusualwhales.com/politics",
+      "date": "2026-06-03",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48383707",
+      "title": "Private payrolls grew by 122,000 in May, stronger than expected",
+      "source_url": "https://www.cnbc.com/2026/06/03/adp-jobs-report-may-2026-payrolls-increase-by-122000.html",
+      "date": "2026-06-03",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48383625",
+      "title": "Dell inks $9.7B Pentagon contract after Trump acquires stock",
+      "source_url": "https://www.washingtonpost.com/politics/2026/05/28/dell-inks-97-billion-pentagon-contract-after-trump-acquires-stock-praises-company/",
+      "date": "2026-06-03",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48382213",
+      "title": "Why GPTHuman AI Is the Best AI Humanizer?",
+      "source_url": "https://gpthuman.ai/",
+      "date": "2026-06-03",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48370776",
+      "title": "Show HN: Modeloop – A modern model-based design tool",
+      "source_url": "https://www.modeloop.app/",
+      "date": "2026-06-02",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48353832",
+      "title": "A 1B humanizer that matches human writing on an AI detector",
+      "source_url": "https://mlx-optiq.com/blog/humanizer-stacked-lora",
+      "date": "2026-06-01",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    },
+    {
+      "id": "hn-48353292",
+      "title": "AI is devoid of meaning and humanity. Its vapid voice suits the political moment",
+      "source_url": "https://www.theguardian.com/commentisfree/2026/jun/01/ai-meaning-humanity-political-moment-trust-humans-over-machines",
+      "date": "2026-06-01",
+      "reason": "off-topic Hacker News search hit (not robotics)"
+    }
+  ]
+}

@@ -39,13 +39,13 @@
     .seg-track { width: 100%; }
     .seg-bar { display: flex; height: 22px; border-radius: 6px; overflow: hidden; background: var(--surface-2); border: 1px solid var(--border); }
     .seg-seg { height: 100%; min-width: 0; }
-    .seg-seg.us  { background: color-mix(in srgb, var(--cat-supplychain) 80%, var(--surface)); }
-    .seg-seg.cn  { background: color-mix(in srgb, var(--status-negative) 72%, var(--surface)); }
+    .seg-seg.us  { background: color-mix(in srgb, var(--country-us) 80%, var(--surface)); }
+    .seg-seg.cn  { background: color-mix(in srgb, var(--country-cn) 72%, var(--surface)); }
     .seg-seg.row { background: color-mix(in srgb, var(--status-neutral) 46%, var(--surface)); }
     .seg-legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 16px; font-size: 12px; color: var(--text-muted); align-items: center; }
     .seg-legend .sw { display: inline-block; width: 11px; height: 11px; border-radius: 3px; vertical-align: -1px; margin-right: 5px; }
-    .seg-legend .sw.us  { background: color-mix(in srgb, var(--cat-supplychain) 80%, var(--surface)); }
-    .seg-legend .sw.cn  { background: color-mix(in srgb, var(--status-negative) 72%, var(--surface)); }
+    .seg-legend .sw.us  { background: color-mix(in srgb, var(--country-us) 80%, var(--surface)); }
+    .seg-legend .sw.cn  { background: color-mix(in srgb, var(--country-cn) 72%, var(--surface)); }
     .seg-legend .sw.row { background: color-mix(in srgb, var(--status-neutral) 46%, var(--surface)); }
     .seg-legend-note { color: var(--text-faint); margin-left: auto; }
   </style>
@@ -83,10 +83,11 @@
     <p class="page-lede">
       Robotics startups and incumbents: funding, deployments, founders and headcount. Tap a row for details.
     </p>
+    <noscript><p class="note-block noscript-note">This page needs JavaScript to build the company directory. The records it shows are in <a href="data/companies.json">companies.json</a>. These pages work without it: <a href="index.html">Front page</a>, <a href="news.html">News</a>, <a href="china.html">US vs China</a>, <a href="rd.html">R&amp;D</a> and <a href="section-232-robotics.html">Sec. 232</a>.</p></noscript>
 
     <aside class="bluf" aria-label="Summary">
       <p class="bluf-body">
-        <strong>Most of the capital is going to a few humanoid companies</strong> (Figure, Tesla Optimus, Apptronik, 1X). Most of the robots actually deployed are narrower systems: delivery, warehouse logistics and defense.
+        <strong>Among the companies tracked here, most of the capital is going to a few humanoid companies</strong> (Figure, Tesla Optimus, Apptronik, 1X). Most of the robots deployed are narrower systems: delivery, warehouse logistics and defense.
       </p>
     </aside>
 
@@ -172,9 +173,10 @@
   <script src="assets/app.js" defer></script>
   <script defer>
   document.addEventListener('DOMContentLoaded', async () => {
+    // The directory paints from companies.json alone. news.json (~220 KB gzip) is
+    // only needed for a detail sheet's "Recent news", so it is fetched when a sheet
+    // opens and filled in when it arrives (layout-guards.test.js holds this).
     const companies = await RT.loadData('companies');
-    const news = await RT.loadData('news');
-    const themes = await RT.loadData('themes');
 
     // ---- Market-map segments ----
     // Display metadata only. The canonical id list lives in scripts/validate.js;
@@ -323,13 +325,38 @@
       // Push focus into URL for shareability
       RT.writeQuery({ focus: id });
       RT.openDetail(detailHTML(c));
+      /* on demand */ RT.loadData('news').then((news) => {
+        const box = document.getElementById('detail-news');
+        if (box && box.dataset.company === c.id) box.innerHTML = relatedNewsHTML(c, news);
+      }).catch(() => {
+        const box = document.getElementById('detail-news');
+        if (box && box.dataset.company === c.id) box.innerHTML = '<p class="muted">News could not be loaded.</p>';
+      });
+    }
+
+    function relatedNewsHTML(c, news) {
+      const related = news
+        .filter(n => (n.companies || []).includes(c.id))
+        .sort((a, b) => (a.date < b.date ? 1 : -1));
+      return related.length ? `
+            <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
+              ${related.slice(0, 5).map(n => `
+                <li>
+                  <a href="news.html#${encodeURIComponent(n.id)}" style="color:inherit;border-bottom:none;">
+                    <div class="card-meta" style="font-size:11.5px;">
+                      <span class="pill cat-${RT.slug(n.category)}">${RT.escapeHTML(n.category)}</span>
+                      <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
+                    </div>
+                    <div class="serif" style="font-size:14px;margin-top:2px;">${RT.escapeHTML(n.title)}</div>
+                  </a>
+                </li>
+              `).join('')}
+            </ul>
+          ` : '<p class="muted">No news tracked yet.</p>';
     }
 
     function detailHTML(c) {
       const rounds = [...(c.funding_rounds || [])].sort((a, b) => (a.date < b.date ? 1 : -1));
-      const related = news
-        .filter(n => (n.companies || []).includes(c.id))
-        .sort((a, b) => (a.date < b.date ? 1 : -1));
       const founderHTML = (c.founders || []).map(f => `
         <li>${RT.escapeHTML(f.name)}${f.role ? ` <span class="dd-note">${RT.escapeHTML(f.role)}</span>` : ''}</li>
       `).join('') || '<li class="muted-cell">Not disclosed</li>';
@@ -420,21 +447,7 @@
 
         <div class="detail-section">
           <h3>Recent news</h3>
-          ${related.length ? `
-            <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
-              ${related.slice(0, 5).map(n => `
-                <li>
-                  <a href="news.html#${encodeURIComponent(n.id)}" style="color:inherit;border-bottom:none;">
-                    <div class="card-meta" style="font-size:11.5px;">
-                      <span class="pill cat-${RT.slug(n.category)}">${RT.escapeHTML(n.category)}</span>
-                      <span class="tnum">${RT.escapeHTML(RT.formatDate(n.date))}</span>
-                    </div>
-                    <div class="serif" style="font-size:14px;margin-top:2px;">${RT.escapeHTML(n.title)}</div>
-                  </a>
-                </li>
-              `).join('')}
-            </ul>
-          ` : '<p class="muted">No news tracked yet.</p>'}
+          <div id="detail-news" data-company="${RT.escapeHTML(c.id)}" aria-live="polite"><p class="muted">Loading news.</p></div>
         </div>
 
         <div class="detail-section">

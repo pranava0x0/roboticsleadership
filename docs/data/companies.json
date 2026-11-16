@@ -3411,7 +3411,7 @@
     "data_confidence": "low",
     "last_updated": "2026-06-14",
     "source_url": "https://github.com/norma-core",
-    "notes": "EU-based open-source robotics platform. ElRobot is a 3D-printable 7-DOF arm with zero custom hardware. Alex Batsuev (@batsuev_es) associated with Norma Core Dev.",
+    "notes": "EU-based open-source robotics platform. ElRobot is a 3D-printable 7-DOF arm with zero custom hardware.",
     "sources": [
       {
         "url": "https://github.com/norma-core"
@@ -3486,7 +3486,7 @@
     "data_confidence": "medium",
     "last_updated": "2026-06-14",
     "source_url": "https://www.crunchbase.com/organization/nox-metals",
-    "notes": "Founded 2023. Focus on digital material processing for aluminum. Mission: Reindustrialize America. Adrian Mag is Finance Lead.",
+    "notes": "Founded 2023. Digital material processing for aluminum. The company states its mission as reindustrializing America.",
     "sources": [
       {
         "url": "https://www.crunchbase.com/organization/nox-metals"
@@ -6438,7 +6438,7 @@
       "cnc"
     ],
     "primary_use_case": "manufacturing",
-    "flagship_product": "M-2000iA/2300 — the world's highest-payload industrial robot (2,300 kg). Six-axis arms for welding, handling, painting, assembly.",
+    "flagship_product": "M-2000iA/2300, an industrial robot with a 2,300 kg payload. Six-axis arms for welding, handling, painting, assembly.",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -6750,7 +6750,7 @@
       "cobot"
     ],
     "primary_use_case": "manufacturing",
-    "flagship_product": "UR-series collaborative robot arms (UR3/5/10/20) — the category-defining cobot line; ~30% of the global cobot market.",
+    "flagship_product": "UR-series collaborative robot arms (UR3/5/10/20); ~30% of the global cobot market.",
     "deployments": [],
     "headcount": null,
     "headcount_date": null,
@@ -6786,7 +6786,7 @@
       "industrial-deployments"
     ],
     "financials": {
-      "details": "The world's largest cobot maker (~30% market share), a subsidiary of US-listed Teradyne (acquired 2015 for ~$285M; reported separately within Teradyne's Robotics segment). FAI 2026 notes UR revenue has declined in recent years amid Chinese competition; it opened its first overseas plant in China in late 2024. In October 2026 Teradyne Robotics and Sereact announced a partnership combining Universal Robots arms with Sereact Cortex software for retail and logistics tasks. Update 2026-11-11 (Q3 2026): figures are the parent's, not the robotics unit's. Robotics segment (Universal Robots + MiR) revenue $96M, its best third quarter; the release says it reached profitability. UR is not split from MiR. Guidance: Q4 2026: revenue $1,250M-$1,350M; GAAP EPS $1.88-$2.18; non-GAAP EPS $1.95-$2.25. No Robotics-specific guide. The company guided Q4 revenue to a range that brackets the Q3 result; the growth driver is semiconductor test demand, not robots.",
+      "details": "Cobot maker with ~30% market share, a subsidiary of US-listed Teradyne (acquired 2015 for ~$285M; reported separately within Teradyne's Robotics segment). FAI 2026 notes UR revenue has declined in recent years amid Chinese competition; it opened its first overseas plant in China in late 2024. In October 2026 Teradyne Robotics and Sereact announced a partnership combining Universal Robots arms with Sereact Cortex software for retail and logistics tasks. Update 2026-11-11 (Q3 2026): figures are the parent's, not the robotics unit's. Robotics segment (Universal Robots + MiR) revenue $96M, its best third quarter; the release says it reached profitability. UR is not split from MiR. Guidance: Q4 2026: revenue $1,250M-$1,350M; GAAP EPS $1.88-$2.18; non-GAAP EPS $1.95-$2.25. No Robotics-specific guide. The company guided Q4 revenue to a range that brackets the Q3 result; the growth driver is semiconductor test demand, not robots.",
       "sources": [
         {
           "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"

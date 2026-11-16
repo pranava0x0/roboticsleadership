@@ -225,6 +225,22 @@
     ]
    ]
   },
+  "supply_share_rows_jump": {
+   "steps": [
+    [
+     "nav",
+     "supply-chain.html"
+    ],
+    [
+     "tap",
+     "#supply-jump a[href=\"#sec-shares\"]"
+    ],
+    [
+     "see",
+     "#share-rows .share-row"
+    ]
+   ]
+  },
   "supply_commission_note": {
    "steps": [
     [
@@ -515,6 +531,382 @@
     [
      "see",
      "#plan-beijing-embodied-ai-2026-2028 .plan-targets td"
+    ]
+   ]
+  },
+  "front_edge_to_china_section": {
+   "steps": [
+    [
+     "tap",
+     "#edge-board a[href='china.html#sec-supply-chain']"
+    ],
+    [
+     "see",
+     "#sec-supply-chain .vs-table td.vs-metric"
+    ]
+   ]
+  },
+  "news_page2_first": {
+   "steps": [
+    [
+     "nav",
+     "news.html"
+    ],
+    [
+     "tap",
+     ".feed-pagination-top button:has-text('Next →')"
+    ],
+    [
+     "see",
+     "#feed .feed-card:first-child"
+    ]
+   ]
+  },
+  "news_story_20th": {
+   "steps": [
+    [
+     "nav",
+     "news.html"
+    ],
+    [
+     "see",
+     "#feed .feed-card:nth-child(20)"
+    ]
+   ]
+  },
+  "company_last_row_showall": {
+   "steps": [
+    [
+     "nav",
+     "companies.html"
+    ],
+    [
+     "tap",
+     "#all-btn"
+    ],
+    [
+     "see",
+     "#companies-tbody tr:last-child"
+    ]
+   ]
+  },
+  "policy_exec_last_showall": {
+   "steps": [
+    [
+     "nav",
+     "policies.html"
+    ],
+    [
+     "tap",
+     "#policy-jump a[href='#sec-executive']"
+    ],
+    [
+     "tap",
+     "#exec-all-btn"
+    ],
+    [
+     "see",
+     "#executive-tbody tr:last-child"
+    ]
+   ]
+  },
+  "policy_agencies_last_row": {
+   "steps": [
+    [
+     "nav",
+     "policies.html"
+    ],
+    [
+     "tap",
+     "#policy-jump a[href='#sec-agencies']"
+    ],
+    [
+     "see",
+     "#rd-agencies-tbody tr:last-child"
+    ]
+   ]
+  },
+  "policy_tax_last_row": {
+   "steps": [
+    [
+     "nav",
+     "policies.html"
+    ],
+    [
+     "tap",
+     "#policy-jump a[href='#sec-tax']"
+    ],
+    [
+     "see",
+     "#tax-policies-tbody tr:last-child"
+    ]
+   ]
+  },
+  "supply_cat_final_assembly": {
+   "steps": [
+    [
+     "nav",
+     "supply-chain.html"
+    ],
+    [
+     "tap",
+     "#supply-jump a[href='#sec-categories']"
+    ],
+    [
+     "see",
+     "#cat-final-assembly h3"
+    ]
+   ]
+  },
+  "supply_us_sites_last_row": {
+   "steps": [
+    [
+     "nav",
+     "supply-chain.html"
+    ],
+    [
+     "tap",
+     "#supply-jump a[href='#sec-us-sites']"
+    ],
+    [
+     "see",
+     "#us-sites-table tbody tr:last-child"
+    ]
+   ]
+  },
+  "supply_financing_gov_program": {
+   "steps": [
+    [
+     "nav",
+     "supply-chain.html"
+    ],
+    [
+     "tap",
+     "#supply-jump a[href='#sec-financing']"
+    ],
+    [
+     "see",
+     "#gov-programs-list tbody tr:first-child"
+    ]
+   ]
+  },
+  "supply_stakeholders_full": {
+   "steps": [
+    [
+     "nav",
+     "supply-chain.html"
+    ],
+    [
+     "tap",
+     "#supply-jump a[href='#sec-stakeholders']"
+    ],
+    [
+     "see",
+     "#stakeholder-grid > :last-child"
+    ]
+   ]
+  },
+  "supply_key_figures_last_row": {
+   "steps": [
+    [
+     "nav",
+     "supply-chain.html"
+    ],
+    [
+     "tap",
+     "#supply-jump a[href='#sec-facts']"
+    ],
+    [
+     "see",
+     "#facts-table tbody tr:last-child"
+    ]
+   ]
+  },
+  "energy_area_labs": {
+   "steps": [
+    [
+     "nav",
+     "energy.html"
+    ],
+    [
+     "tap",
+     "#jumpnav a[href='#labs']"
+    ],
+    [
+     "see",
+     "#labs .e-card:last-child .card-title"
+    ]
+   ]
+  },
+  "summit_session_notes_last": {
+   "steps": [
+    [
+     "nav",
+     "scsp-summit.html"
+    ],
+    [
+     "tap",
+     ".jump-nav a[href='#notes']"
+    ],
+    [
+     "tap",
+     "#notes-list > details:last-child > summary"
+    ],
+    [
+     "see",
+     "#notes-list > details:last-child .card:last-child p"
+    ]
+   ]
+  },
+  "s232_options_last": {
+   "steps": [
+    [
+     "nav",
+     "section-232-robotics.html"
+    ],
+    [
+     "tap",
+     "#s232-jump a[href='#options']"
+    ],
+    [
+     "see",
+     "#options .s232-list li:last-child"
+    ]
+   ]
+  },
+  "china_plan_guangdong_targets": {
+   "steps": [
+    [
+     "nav",
+     "china.html"
+    ],
+    [
+     "tap",
+     "#plans-jump"
+    ],
+    [
+     "tap",
+     "a[href='#series-guangdong-robot']"
+    ],
+    [
+     "see",
+     "#series-guangdong-robot .plan-targets td"
+    ]
+   ]
+  },
+  "china_plan_national_humanoid_last": {
+   "steps": [
+    [
+     "nav",
+     "china.html"
+    ],
+    [
+     "tap",
+     "#plans-jump"
+    ],
+    [
+     "tap",
+     "a[href='#series-national-humanoid']"
+    ],
+    [
+     "see",
+     "#series-national-humanoid li.plan-version:last-child .plan-targets td"
+    ]
+   ]
+  },
+  "rd_model_china_gr3": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "tap",
+     "a[href='#models-china']"
+    ],
+    [
+     "see",
+     "#gr-3"
+    ]
+   ]
+  },
+  "rd_model_other_rldx1": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "tap",
+     "a[href='#models-other']"
+    ],
+    [
+     "see",
+     "#rldx-1"
+    ]
+   ]
+  },
+  "rd_world_models_last_row": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "tap",
+     "[data-subtab='world-models']"
+    ],
+    [
+     "see",
+     "#panel-world-models .rd-group-block:last-of-type tbody tr:last-child"
+    ]
+   ]
+  },
+  "rd_benchmarks_last": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "tap",
+     "[data-subtab='benchmarks']"
+    ],
+    [
+     "see",
+     "#panel-benchmarks .rd-bench:last-of-type > :last-child"
+    ]
+   ]
+  },
+  "rd_areas_last": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "tap",
+     "[data-subtab='areas']"
+    ],
+    [
+     "see",
+     "#panel-areas .rd-area:last-of-type .rd-items li"
+    ]
+   ]
+  },
+  "rd_components_last": {
+   "steps": [
+    [
+     "nav",
+     "rd.html"
+    ],
+    [
+     "tap",
+     "[data-subtab='components']"
+    ],
+    [
+     "see",
+     "#panel-components .rd-bom:last-of-type dl"
     ]
    ]
   }
