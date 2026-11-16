@@ -219,5 +219,15 @@ test('an open detail sheet makes the back-to-top button inert too (Codex review,
   assert((app.match(/querySelectorAll\(MODAL_INERT\)/g) || []).length === 2, 'open and close no longer share MODAL_INERT');
 });
 
+test('phone news summaries clamp to three lines and open on tap (2026-11-16, summaries were 48% of the feed)', () => {
+  const css = read('assets/styles.css');
+  const news = read('news.html');
+  const phone = css.slice(css.indexOf('@media (max-width: 540px)', css.indexOf('Phone feed cards')));
+  const block = phone.slice(0, phone.indexOf('\n}\n'));
+  assert(/\.feed\[data-density="card"\] \.feed-card \.summary:not\(\.is-open\)/.test(block), 'clamp rule missing from the phone feed-card block');
+  assert(/-webkit-line-clamp:\s*3/.test(block), 'clamp is no longer three lines');
+  assert(/feedEl\.addEventListener\('click'[\s\S]{0,160}classList\.toggle\('is-open'\)/.test(news), 'news.html no longer toggles .is-open on tap');
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);

@@ -1,5 +1,129 @@
 [
   {
+    "companies": [
+      "boston-dynamics"
+    ],
+    "policies": [],
+    "sentiment": "Negative",
+    "source_type": "News",
+    "id": "boston-dynamics-9m-loss-glovis-2026-11",
+    "date": "2026-11-16",
+    "category": "Funding",
+    "confidence": "Medium",
+    "title": "Boston Dynamics lost KRW 626.6 billion in the first nine months of 2026 on KRW 136 billion in sales, per Hyundai Glovis's quarterly filing",
+    "source": "Bloter",
+    "source_url": "https://www.bloter.net/news/articleView.html?idxno=678782",
+    "summary": "Hyundai Glovis's Q3 report, as read by Bloter, puts Boston Dynamics' nine-month net loss at KRW 626.6 billion (about $430M), up from KRW 354.1 billion a year earlier, while sales rose 29% to KRW 136.0 billion. Glovis added KRW 46.5 billion in the quarter and now holds 12.47%, up from 11.25% at the end of 2025; a Glovis official tied the increase to the exercise of SoftBank's put option. Hyundai plans to mass-produce the Atlas humanoid.",
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
+    ],
+    "tags": [
+      "boston-dynamics",
+      "hyundai",
+      "financials",
+      "atlas",
+      "korea"
+    ]
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "id": "ccw-autonomous-weapons-review-2026-11",
+    "date": "2026-11-16",
+    "category": "Policy",
+    "confidence": "High",
+    "title": "UN weapons conference opens in Geneva to decide on talks over lethal autonomous weapons; the US backs a non-binding track",
+    "source": "AP",
+    "source_url": "https://www.semissourian.com/business/un-backed-talks-consider-possible-rules-on-lethal-autonomous-weapons-593ca850",
+    "summary": "The Convention on Certain Conventional Weapons review conference began Nov 16 and is due to decide by about Nov 20 whether to open negotiations on weapons that select and engage targets without human intervention. The US proposes a five-year mandate toward a non-binding text; the chair proposes two years toward a binding protocol. Last month 163 states backed a UN General Assembly resolution calling for negotiations; the US and Russia voted against.",
+    "themes": [
+      "defense-procurement",
+      "policy-momentum"
+    ],
+    "tags": [
+      "autonomous-weapons",
+      "un",
+      "ccw",
+      "us-policy"
+    ]
+  },
+  {
+    "id": "huawei-cloudrobo-wm12-2026-11",
+    "title": "Huawei Cloud Releases CloudRobo-WM1.2 Embodied World Action Model, Says It Will Be Open Source",
+    "date": "2026-11-16",
+    "source": "Pandaily",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/huawei-cloud-cloudrobo-wm1-2-embodied-world-action-model-open-source-dualact",
+    "summary": "Huawei Cloud says its CloudRobo-WM1.2 world action model will be open source, though no weights were listed at launch. It claims first place on RoboTwin 2.0 and LIBERO-Pro 2.0.",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "huawei",
+      "world-model",
+      "open-source",
+      "china"
+    ]
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "id": "lg-kiria-humanoid-certification-2026-11",
+    "date": "2026-11-16",
+    "category": "Policy",
+    "confidence": "High",
+    "title": "LG Electronics and Korea's robot-industry agency agree to build humanoid safety certification tests, with a pilot certification for LG's CLOiD",
+    "source": "Yonhap",
+    "source_url": "https://www.yna.co.kr/amp/view/AKR20261116023400003",
+    "summary": "LG Electronics and the state-backed Korea Institute for Robot Industry Advancement (KIRIA) signed an MOU on Nov 13. LG will help build the evaluation system at KIRIA's humanoid safety certification centre, help draft national and international humanoid standards, and seek a domestic pilot safety certification for humanoids including CLOiD. China's first national humanoid standards take effect in April 2027; the US has no comparable certification scheme.",
+    "themes": [
+      "policy-momentum",
+      "physical-ai"
+    ],
+    "tags": [
+      "lg",
+      "korea",
+      "standards",
+      "certification",
+      "humanoid"
+    ]
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "id": "china-embodied-ai-funding-october-2026-11",
+    "date": "2026-11-15",
+    "category": "Funding",
+    "confidence": "Medium",
+    "title": "China logged 33 embodied-AI financings worth RMB 10.1 billion in October, down from 60 deals in September",
+    "source": "Cailian (STAR Market Daily)",
+    "source_url": "https://www.cls.cn/detail/2534602",
+    "summary": "Citing unnamed third-party data, STAR Market Daily counts 33 embodied-AI rounds worth RMB 10.1 billion (about $1.4 billion) in October against 60 worth RMB 11.0 billion in September: deal count down 45%, amount down about 8%. The report says investors are shifting toward chips and commercial space. Separately, 36Kr reported departures of the CTO, COO and product head at Anker-backed Amio Robotics and listed several Chinese robot firms whose bankruptcy applications courts accepted this year.",
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ],
+    "tags": [
+      "china",
+      "funding",
+      "embodied-ai",
+      "market"
+    ]
+  },
+  {
     "sentiment": "Negative",
     "source_type": "News",
     "companies": [],
@@ -11,7 +135,7 @@
     "title": "Humanoid startup Foundation has reportedly missed payroll since Oct 30; its CEO borrowed $4.6 million from the company last year",
     "source": "CNBC",
     "source_url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-    "summary": "CNBC reports, citing people familiar with the matter, that workers at the San Francisco company had not been paid since the Oct 30 payroll. CEO Sankaet Pathak, the sole board member, borrowed $4.6 million from Foundation in 2025 to buy a home, the people said. Pathak told staff in a memo this week that he was working to cover back wages; he is seeking new money at a reported $3 billion valuation.",
+    "summary": "CNBC reports, citing people familiar with the matter, that workers at the San Francisco company had not been paid since the Oct 30 payroll. CEO Sankaet Pathak, the sole board member, borrowed $4.6 million from Foundation in 2025 to buy a home, the people said. Pathak told staff in a memo this week that he was working to cover back wages; he is seeking new money at a reported $3 billion valuation. CNBC also reports that Foundation's often-cited $24 million in Pentagon contracts came with its 2024 purchase of Boardwalk Robotics, whose Alex robot Phantom was built on.",
     "themes": [
       "defense-procurement",
       "physical-ai"
@@ -47,6 +171,57 @@
       "senate",
       "commerce",
       "chips"
+    ]
+  },
+  {
+    "companies": [
+      "agility-robotics"
+    ],
+    "policies": [],
+    "sentiment": "Negative",
+    "source_type": "Primary",
+    "id": "agility-first-financials-8k-2026-11",
+    "date": "2026-11-13",
+    "category": "Funding",
+    "confidence": "High",
+    "title": "Agility Robotics files its first public financials: $361,000 in nine-month sales and a $458.7 million net loss",
+    "source": "SEC (Form 8-K/A)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026119809/ea031195901ex99-4.htm",
+    "summary": "Agility's amended 8-K covers the nine months to Sep 30, before its Nov 4 SPAC close. Sales fell 79% to $361,000; the net loss rose to $458.7 million from $97.7 million, much of the increase stock-based compensation. Cash was $64.9 million. The merger and related financing raised about $465.1 million gross and $334.1 million net, which Agility says funds the Digit rollout.",
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
+    ],
+    "tags": [
+      "agility",
+      "sec",
+      "financials",
+      "digit",
+      "humanoid"
+    ]
+  },
+  {
+    "companies": [],
+    "policies": [],
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "id": "dh-robotics-ipo-tutoring-2026-11",
+    "date": "2026-11-13",
+    "category": "Supply Chain",
+    "confidence": "Medium",
+    "title": "Shenzhen gripper and dexterous-hand maker DH-Robotics registers for an A-share IPO",
+    "source": "Sina Finance",
+    "source_url": "https://cj.sina.cn/articles/view/7651844612/1c815e204020022l64",
+    "summary": "DH-Robotics (大寰机器人), founded in 2016, registered IPO tutoring with the CSRC's Shenzhen bureau, with Guotai Haitong Securities as sponsor. It makes electric grippers, dexterous hands and voice-coil actuators, and lists FAW-Volkswagen, Toyota and Samsung among customers and UBTech, AgiBot and Galbot among humanoid partners.",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "components",
+      "grippers",
+      "dexterous-hands",
+      "ipo"
     ]
   },
   {
@@ -451,6 +626,32 @@
       "logistics",
       "cainiao",
       "double-11"
+    ]
+  },
+  {
+    "companies": [
+      "robotera"
+    ],
+    "policies": [],
+    "sentiment": "Neutral",
+    "source_type": "News",
+    "id": "robotera-sorting-china-post-sf-2026-11",
+    "date": "2026-11-12",
+    "category": "Deployment",
+    "confidence": "Medium",
+    "title": "RobotEra says its sorting robots worked the Singles Day peak at more than ten China Post and SF Express centres, peaking at 1,500 parcels an hour",
+    "source": "Jiemian (via Sina)",
+    "source_url": "https://wap.cj.sina.cn/pc/7x24/5209824",
+    "summary": "RobotEra told Jiemian that throughput fell from 1,200 parcels an hour in the lab to 800-900 on live lines until it retrained on demonstrations from experienced sorters, after which it peaked at 1,500 on mixed parcels. The figures are the company's; neither China Post nor SF Express has commented. A co-founder said the company is weighing billing by task volume.",
+    "themes": [
+      "industrial-deployments",
+      "china-scale"
+    ],
+    "tags": [
+      "robotera",
+      "logistics",
+      "sorting",
+      "china"
     ]
   },
   {

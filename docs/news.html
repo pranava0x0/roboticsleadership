@@ -229,6 +229,13 @@
       densityBtn.textContent = isCompact ? 'Expanded' : 'Compact';
     });
 
+    // Phones clamp each summary to three lines (styles.css); a tap opens or
+    // closes it. Delegated, so it survives every re-render of the feed.
+    feedEl.addEventListener('click', (e) => {
+      const s = e.target.closest('.summary');
+      if (s && feedEl.contains(s)) s.classList.toggle('is-open');
+    });
+
     // Only one render may be in flight without an await (synchronous: reads the
     // controls and paints immediately), but a render that needs the archive
     // awaits a network fetch — and a second, faster render can finish and paint

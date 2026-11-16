@@ -558,7 +558,7 @@
         "url": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/"
       }
     ],
-    "last_updated": "2026-11-06",
+    "last_updated": "2026-11-16",
     "themes": [
       "cost-trajectory",
       "industrial-deployments",
@@ -569,7 +569,7 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Agility's merger with Churchill Capital Corp XI closed on November 4, 2026, and its shares began trading on Nasdaq as AGLT on November 5 (opened $11.26, closed $11.49). Shareholders approved the deal on November 2. latest_valuation_usd is the $2.5B deal valuation, not a market capitalization. The listed $150M Series B and reported $400M Series C sum to $550M, excluding about $465M in gross merger proceeds; these records do not establish lifetime funding, so total_funding_usd is unknown. Agility’s October 26 release reports over 65,000 operating hours. GXO’s two additional US sites are planned for early 2027; Digit 5 early access is expected in the first half of 2027 and general availability by year end.\n\nAnalyst & Investor Day (2026-10-06) disclosed Digit 5 unit economics: illustrative $200,000 robot purchase price, $20,000 deployment fee, $36,000/yr software-and-maintenance — roughly $400,000 five-year cost per robot. Digit 4's BOM was ~$125,000 (already disclosed in the SPAC Form S-4); Digit 5 launch BOM is ~$150,000, targeted to fall to ~$75,000 at 1,000 robots/year and ~$30,000 at 10,000/year, with a targeted 70% product margin over five years. Agility’s October 26 release says the $300M-plus order value depends on milestones, product features and specifications; it is not current-period revenue.",
+      "details": "Agility's merger with Churchill Capital Corp XI closed on November 4, 2026, and its shares began trading on Nasdaq as AGLT on November 5 (opened $11.26, closed $11.49). Shareholders approved the deal on November 2. latest_valuation_usd is the $2.5B deal valuation, not a market capitalization. The listed $150M Series B and reported $400M Series C sum to $550M, excluding about $465M in gross merger proceeds; these records do not establish lifetime funding, so total_funding_usd is unknown. Agility’s October 26 release reports over 65,000 operating hours. GXO’s two additional US sites are planned for early 2027; Digit 5 early access is expected in the first half of 2027 and general availability by year end.\n\nAnalyst & Investor Day (2026-10-06) disclosed Digit 5 unit economics: illustrative $200,000 robot purchase price, $20,000 deployment fee, $36,000/yr software-and-maintenance — roughly $400,000 five-year cost per robot. Digit 4's BOM was ~$125,000 (already disclosed in the SPAC Form S-4); Digit 5 launch BOM is ~$150,000, targeted to fall to ~$75,000 at 1,000 robots/year and ~$30,000 at 10,000/year, with a targeted 70% product margin over five years. Agility’s October 26 release says the $300M-plus order value depends on milestones, product features and specifications; it is not current-period revenue.\n\nFirst public financials (8-K/A, filed 2026-11-13, nine months to Sep 30, 2026, before the merger closed): net sales $361,000 (down 79% from $1.74M), net loss $458.7M (from $97.7M), cash $64.9M, accumulated deficit $771.8M. Gross merger and financing proceeds about $465.1M, $334.1M net.",
       "sources": [
         {
           "url": "https://www.geekwire.com/2025/agility-robotics-reportedly-raising-400m-for-humanoid-warehouse-robots/"
@@ -591,6 +591,9 @@
         },
         {
           "url": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026119809/ea031195901ex99-4.htm"
         }
       ]
     },
@@ -1283,7 +1286,7 @@
         "url": "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/"
       }
     ],
-    "last_updated": "2026-11-11",
+    "last_updated": "2026-11-16",
     "themes": [
       "industrial-deployments",
       "us-supply-chain"
@@ -1293,7 +1296,7 @@
       "revenue_year": "2025",
       "net_income_usd": -394000000,
       "net_income_year": "2025",
-      "details": "Reported annual revenue of 150.1 billion KRW (~$112M USD) and a net loss of 528.4 billion KRW (~$394M USD) for 2025. Supported by parent company Hyundai Motor Group. Hyundai took full control 2026-06 by buying SoftBank’s remaining 9.65% stake for $325M, implying a ~$3.37B valuation. Press reporting (Seoul Economic Daily, 2026-03) cites an implied ~$21B figure ahead of a planned early-2027 Nasdaq IPO (secondary source, not a primary filing). Electric Atlas shown at CES 2026. CEO change 2026-10: Rohit Prasad (ex-Amazon SVP/head scientist for Alexa and AGI, 12 years at Amazon) appointed CEO effective 2026-10-07, succeeding interim CEO/CFO Amanda McMaster (who had covered since Robert Playter's February 2026 departure). Boston Dynamics said the move \"accelerates its physical AI strategy.\" Update 2026-11-11 (Q3 2026 (parent)): figures are the parent's, not the robotics unit's. Parent does not break out Boston Dynamics. BD's own FY2025 figures in the record (KRW150.1B revenue, KRW528.4B net loss) are from a Korean filing; no 2026 BD figure found. Hyundai Mobis said it would begin prototype Atlas actuator production in November (secondary). Guidance (lowered (margin, volume); revenue growth unchanged): 2026: consolidated revenue growth 1.0-2.0% (unchanged); operating margin 5.5-6.5% (from 6.3-7.3%); wholesale target 4.0M units (from 4.16M). The company called the revision a realistic update for volume disruptions and raw-material cost increases. Converted at USD/KRW 1355.4 on 2026-09-30 (ECB via frankfurter.dev). Net profit includes non-controlling interests (-24.2% YoY). Operating profit KRW2.68T (+5.5%).",
+      "details": "Reported annual revenue of 150.1 billion KRW (~$112M USD) and a net loss of 528.4 billion KRW (~$394M USD) for 2025. Supported by parent company Hyundai Motor Group. Hyundai took full control 2026-06 by buying SoftBank’s remaining 9.65% stake for $325M, implying a ~$3.37B valuation. Press reporting (Seoul Economic Daily, 2026-03) cites an implied ~$21B figure ahead of a planned early-2027 Nasdaq IPO (secondary source, not a primary filing). Electric Atlas shown at CES 2026. CEO change 2026-10: Rohit Prasad (ex-Amazon SVP/head scientist for Alexa and AGI, 12 years at Amazon) appointed CEO effective 2026-10-07, succeeding interim CEO/CFO Amanda McMaster (who had covered since Robert Playter's February 2026 departure). Boston Dynamics said the move \"accelerates its physical AI strategy.\" Update 2026-11-11 (Q3 2026 (parent)): figures are the parent's, not the robotics unit's. Parent does not break out Boston Dynamics. BD's own FY2025 figures in the record (KRW150.1B revenue, KRW528.4B net loss) are from a Korean filing; no 2026 BD figure found. Hyundai Mobis said it would begin prototype Atlas actuator production in November (secondary). Guidance (lowered (margin, volume); revenue growth unchanged): 2026: consolidated revenue growth 1.0-2.0% (unchanged); operating margin 5.5-6.5% (from 6.3-7.3%); wholesale target 4.0M units (from 4.16M). The company called the revision a realistic update for volume disruptions and raw-material cost increases. Converted at USD/KRW 1355.4 on 2026-09-30 (ECB via frankfurter.dev). Net profit includes non-controlling interests (-24.2% YoY). Operating profit KRW2.68T (+5.5%). Hyundai Glovis Q3 2026 report (as read by Bloter, 2026-11-16): nine-month sales KRW 136.0B (+29%), net loss KRW 626.6B (from KRW 354.1B); Glovis stake 12.47% after the SoftBank put option.",
       "sources": [
         {
           "url": "https://www.sedaily.com/"
@@ -1312,6 +1315,9 @@
         },
         {
           "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001298"
+        },
+        {
+          "url": "https://www.bloter.net/news/articleView.html?idxno=678782"
         }
       ]
     },
@@ -4048,7 +4054,17 @@
     ],
     "primary_use_case": "logistics",
     "flagship_product": "Star1",
-    "deployments": [],
+    "deployments": [
+      {
+        "customer": "China Post and SF Express",
+        "location": "10+ logistics centres, China",
+        "robot_count": null,
+        "start_date": "2026-11",
+        "status": "active",
+        "use_case": "Parcel sorting during the Singles Day peak; company-reported peak of 1,500 parcels an hour",
+        "source_url": "https://wap.cj.sina.cn/pc/7x24/5209824"
+      }
+    ],
     "headcount": null,
     "headcount_date": null,
     "target_price_usd": null,
@@ -4075,9 +4091,12 @@
       },
       {
         "url": "https://www.humanoidsdaily.com/news/robotera-secures-280-million-strategic-round-as-logistics-deployment-scales"
+      },
+      {
+        "url": "https://wap.cj.sina.cn/pc/7x24/5209824"
       }
     ],
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-11-16",
     "themes": [
       "china-scale"
     ],
