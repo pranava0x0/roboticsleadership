@@ -70,6 +70,9 @@
   --cat-supplychain: #8fc0ff;
   --cat-geopolitics: #ffad85;
   --cat-research: #a8dc8e;
+  /* Country series in charts. Neutral on purpose: not a status colour. */
+  --country-us: #8fc0ff;
+  --country-cn: #f28cb1;
 
   --dir-accelerating: #7fd4a0;
   --dir-stable: #a9bbcd;
@@ -118,6 +121,9 @@
   --cat-supplychain: #21457a;
   --cat-geopolitics: #64271a;
   --cat-research: #315a1c;
+  /* Country series in charts. Neutral on purpose: not a status colour. */
+  --country-us: #21457a;
+  --country-cn: #8c1d55;
 
   --dir-accelerating: #265a22;
   --dir-stable: #4a4220;
@@ -168,6 +174,9 @@
   --cat-supplychain: #2b4f85;
   --cat-geopolitics: #6b2d22;
   --cat-research: #386236;
+  /* Country series in charts. Neutral on purpose: not a status colour. */
+  --country-us: #2b4f85;
+  --country-cn: #8a2468;
 
   --dir-accelerating: #2c6a3a;
   --dir-stable: #3f5a5c;
@@ -215,6 +224,9 @@
   --cat-supplychain: #b0c7f7;
   --cat-geopolitics: #f7b896;
   --cat-research: #bfe0a8;
+  /* Country series in charts. Neutral on purpose: not a status colour. */
+  --country-us: #b0c7f7;
+  --country-cn: #e597f2;
 
   --dir-accelerating: #9fdcc8;
   --dir-stable: #d0c5d4;
@@ -262,6 +274,9 @@
   --cat-supplychain: #9ab8f2;
   --cat-geopolitics: #f5a77e;
   --cat-research: #b8d98a;
+  /* Country series in charts. Neutral on purpose: not a status colour. */
+  --country-us: #9ab8f2;
+  --country-cn: #ff9466;
 
   --dir-accelerating: #9fd79a;
   --dir-stable: #c7bea8;
@@ -821,9 +836,9 @@ h2.section-title.rail-title { margin: 0 0 4px; }
   background: var(--surface-2);
 }
 .score-bar .seg { height: 100%; }
-.score-bar .seg.cn { background: var(--status-negative); opacity: 0.85; }
+.score-bar .seg.cn { background: var(--country-cn); opacity: 0.85; }
 .score-bar .seg.even { background: var(--status-neutral); opacity: 0.45; }
-.score-bar .seg.us { background: var(--cat-supplychain); }
+.score-bar .seg.us { background: var(--country-us); }
 
 /* ============================================================
    Collapsible Sections
@@ -1511,7 +1526,7 @@ a.kpi-card:hover {
   /* Lining figures: Dawn's Cormorant and Naked Sun's display faces default to
      old-style numerals, whose "9" drops into the line below. */
   font-variant-numeric: lining-nums tabular-nums;
-  color: var(--status-negative);
+  color: var(--country-cn);
   margin: 0;
 }
 .gap-hero .gap-claim {
@@ -1522,22 +1537,22 @@ a.kpi-card:hover {
   margin: 22px 0 12px;
   max-width: 18ch;
 }
-.gap-hero .gap-claim .us { color: var(--cat-supplychain); }
+.gap-hero .gap-claim .us { color: var(--country-us); }
 .gap-hero .gap-body { color: var(--text-muted); margin: 0 0 8px; max-width: 46ch; }
 .gap-figs { margin: 0; align-self: end; }
 .gap-figs svg { display: block; width: 100%; height: auto; overflow: visible; }
 .gap-waffle line { stroke-width: 10; stroke-linecap: round; stroke-dasharray: 0 14; }
-.gap-waffle .cn { stroke: var(--status-negative); }
-.gap-waffle .us { stroke: var(--cat-supplychain); }
+.gap-waffle .cn { stroke: var(--country-cn); }
+.gap-waffle .us { stroke: var(--country-us); }
 .gap-figs .chart-legend { margin-bottom: 22px; }
-.gap-figs .dot.gap-cn { background: var(--status-negative); }
-.gap-figs .dot.gap-us { background: var(--cat-supplychain); }
+.gap-figs .dot.gap-cn { background: var(--country-cn); }
+.gap-figs .dot.gap-us { background: var(--country-us); }
 .gap-trend .parity { stroke: var(--border-strong); stroke-dasharray: 3 4; }
 .gap-trend .ratio { fill: none; stroke: var(--text); stroke-width: 2; }
 .gap-trend .start { fill: var(--text); }
-.gap-trend .end { fill: var(--status-negative); }
+.gap-trend .end { fill: var(--country-cn); }
 .gap-trend .axis-label { fill: var(--text-muted); font-size: 12px; }
-.gap-trend .gap-end { fill: var(--status-negative); font-size: 13px; font-weight: 700; }
+.gap-trend .gap-end { fill: var(--country-cn); font-size: 13px; font-weight: 700; }
 .gap-figs figcaption { font-size: 12.5px; color: var(--text-faint); margin-top: 6px; }
 @media (min-width: 1024px) {
   .gap-hero { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 56px; }
@@ -1553,8 +1568,8 @@ a.kpi-card:hover {
 .edge-row h3 a:hover { text-decoration: underline; }
 .edge-marks { display: flex; flex-wrap: wrap; gap: 4px; list-style: none; margin: 0; padding: 0; }
 .edge-mark { width: 22px; height: 22px; border-radius: 2px; }
-.edge-us { background: var(--cat-supplychain); }
-.edge-china { background: var(--status-negative); }
+.edge-us { background: var(--country-us); }
+.edge-china { background: var(--country-cn); }
 .edge-even { border: 2px solid var(--border-strong); }
 .edge-tally { font-size: 13px; color: var(--text-faint); margin: 0; }
 .edge-note { font-size: 13px; color: var(--text-faint); margin: 12px 0 0; max-width: 70ch; }

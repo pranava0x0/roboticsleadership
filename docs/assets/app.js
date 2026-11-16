@@ -691,8 +691,8 @@
     const firstProjected = rows.findIndex(r => r.projected);
 
     const SERIES = [
-      { key: 'china_units', color: 'var(--status-negative)', label: 'China' },
-      { key: 'us_units', color: 'var(--cat-supplychain)', label: 'United States' },
+      { key: 'china_units', color: 'var(--country-cn)', label: 'China' },
+      { key: 'us_units', color: 'var(--country-us)', label: 'United States' },
       { key: 'row_units', color: 'var(--status-neutral)', label: 'Rest of world' },
     ];
 

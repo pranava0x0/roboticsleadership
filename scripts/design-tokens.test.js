@@ -46,6 +46,9 @@ const TEXT_TOKENS = ['--text', '--text-muted', '--text-faint', '--accent', '--li
 // them bare on the page and on cards.
 const CAT_TOKENS = ['--cat-funding', '--cat-deployment', '--cat-policy', '--cat-competitive',
   '--cat-supplychain', '--cat-geopolitics', '--cat-research'];
+// Country colours label the US and China series in charts and the energy region
+// pills, so they are held to text contrast as well.
+const COUNTRY_TOKENS = ['--country-us', '--country-cn'];
 const BACKGROUNDS = ['--bg', '--surface', '--surface-2'];
 
 function themeTokens(theme) {
@@ -76,11 +79,24 @@ test('the contrast calculator can fail (known pairs)', () => {
   if (ratio('#777777', '#ffffff') >= 4.5) throw new Error('#777 on white should miss AA');
 });
 
+test('the US and China are drawn in --country-* tokens, never a status colour (2026-11-15)', () => {
+  // China in --status-negative read as "China = bad" in every chart that used it.
+  const sources = { 'assets/styles.css': css, 'assets/app.js': appJs };
+  for (const page of ['china', 'companies', 'supply-chain', 'energy', 'index']) sources[`${page}.html`] = fs.readFileSync(path.join(DOCS, `${page}.html`), 'utf8');
+  const bad = [];
+  for (const [file, text] of Object.entries(sources)) {
+    for (const line of text.split('\n')) {
+      if (/(\.(us|cn|china)\b|gap-(us|cn)|edge-(us|china)|(us|cn)-cell|(china|us)_units|gap-trend \.(end|gap-end))/.test(line) && /--status-|--cat-supplychain/.test(line)) bad.push(`${file}: ${line.trim()}`);
+    }
+  }
+  if (bad.length) throw new Error(bad.join('\n'));
+});
+
 for (const theme of THEMES) {
   test(`${theme}: every text token ≥ 4.5:1 on --bg, --surface and --surface-2`, () => {
     const t = themeTokens(theme);
     const bad = [];
-    for (const fg of [...TEXT_TOKENS, ...CAT_TOKENS]) {
+    for (const fg of [...TEXT_TOKENS, ...CAT_TOKENS, ...COUNTRY_TOKENS]) {
       for (const bg of BACKGROUNDS) {
         if (!t[fg] || !t[bg]) throw new Error(`${theme} is missing ${t[fg] ? bg : fg}`);
         const r = ratio(t[fg], t[bg]);

@@ -69,8 +69,8 @@
     .share-row .share-name a { color: inherit; border-bottom: 1px dotted var(--border-strong); }
     .share-bar { display: flex; height: 18px; border-radius: 4px; overflow: hidden; background: var(--surface-2); }
     .share-bar .seg { height: 100%; min-width: 0; }
-    .seg.us { background: var(--cat-supplychain); }
-    .seg.cn { background: var(--status-negative); }
+    .seg.us { background: var(--country-us); }
+    .seg.cn { background: var(--country-cn); }
     .seg.row { background: var(--status-neutral); opacity: 0.5; }
     .share-pct { font-size: 11px; color: var(--text-faint); margin-top: 2px; }
     @media (max-width: 640px) { .share-row { grid-template-columns: 1fr; gap: 3px; } }
@@ -198,8 +198,8 @@
       <p class="chart-sub">Estimated share of global output. Hover a row for what it measures.</p>
       <div id="share-rows"></div>
       <div class="chain-legend">
-        <span><span class="dot" style="background:var(--cat-supplychain)"></span>United States</span>
-        <span><span class="dot" style="background:var(--status-negative)"></span>China</span>
+        <span><span class="dot" style="background:var(--country-us)"></span>United States</span>
+        <span><span class="dot" style="background:var(--country-cn)"></span>China</span>
         <span><span class="dot" style="background:var(--status-neutral);opacity:.5"></span>Rest of world</span>
       </div>
       <p class="chart-source">Shares are best-available estimates; each category below cites its sources.</p>

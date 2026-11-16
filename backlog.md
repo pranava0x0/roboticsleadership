@@ -12,7 +12,7 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 - [ ] **(high) Filter Hacker News hits before they become records.** `handleHackerNews` should run `matchesKeywords()` with word boundaries on each hit's title (as the RSS and Reddit handlers do), and pass `typoTolerance=false` to Algolia so "robot" stops matching "root" and "robots.txt". If precision is still poor after a month, disable the `hacker-news-robotics` source: 267 of 581 HN records were off-topic (issues.md 2026-11-15).
 - [x] **(low) supply-chain.html builds hrefs from data with `RT.escapeHTML` only.** Chokepoint, category and company source links skip `RT.safeURL`, unlike the rule in CLAUDE.md. The URLs are curated, so the risk is low, but the pattern should match the rest of the site. Done 2026-11-15: all six data hrefs go through `RT.safeURL` first, and `layout-guards.test.js` asserts it.
-- [ ] **(low) China is drawn in `--status-negative` on several charts** (supply-chain shares, companies capital split, energy region pills, the home production chart). It reads as a flag-colour convention, but the token's name says "bad". An owner call on whether to add neutral `--country-us` / `--country-cn` tokens.
+- [x] **(low) China is drawn in `--status-negative` on several charts** (supply-chain shares, companies capital split, energy region pills, the home production chart). It reads as a flag-colour convention, but the token's name says "bad". An owner call on whether to add neutral `--country-us` / `--country-cn` tokens. Done 2026-11-15: both tokens added to every theme and used by every US/China chart; `design-tokens.test.js` checks contrast and forbids status colours for countries.
 
 ## ▶ Added 2026-11-11 (financials run: new sources)
 
@@ -186,7 +186,7 @@ The 2026-11-11 run updated 19 company `financials` from `data/research/financial
 
 ## ▶ Added 2026-10-14 (theme pass)
 
-- [ ] **(medium) `--country-us` / `--country-cn` chart tokens.** Charts colour China with `--status-negative` and the US with `--cat-supplychain`, which mixes country with status and editorially reads "China = negative".
+- [x] **(medium) `--country-us` / `--country-cn` chart tokens.** Done 2026-11-15 (see the objectivity audit item). Charts colour China with `--status-negative` and the US with `--cat-supplychain`, which mixes country with status and editorially reads "China = negative".
 
 ## ▶ Added 2026-10-14 (interaction-cost pass)
 
