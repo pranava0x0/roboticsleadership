@@ -225,6 +225,22 @@
     ]
    ]
   },
+  "supply_share_rows_jump": {
+   "steps": [
+    [
+     "nav",
+     "supply-chain.html"
+    ],
+    [
+     "tap",
+     "#supply-jump a[href=\"#sec-shares\"]"
+    ],
+    [
+     "see",
+     "#share-rows .share-row"
+    ]
+   ]
+  },
   "supply_commission_note": {
    "steps": [
     [
