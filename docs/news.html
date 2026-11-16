@@ -139,7 +139,7 @@
     // fragment), and consume it only on the initial render — otherwise every
     // Prev/Next or filter change would yank the view back to the anchored page.
     let pendingHash = location.hash && location.hash.length > 1
-      ? decodeURIComponent(location.hash.slice(1)) : null;
+      ? RT.safeDecode(location.hash.slice(1)) : null;
 
     function fillSelect(id, values) {
       const sel = document.getElementById(id);

@@ -495,7 +495,7 @@
   function applyCollapsibleState() {
     const all = Array.from(document.querySelectorAll('details.collapsible-section[id]'));
     const hashId = (location.hash && location.hash.length > 1)
-      ? decodeURIComponent(location.hash.slice(1)) : null;
+      ? safeDecode(location.hash.slice(1)) : null;
     all.forEach((details) => {
       const saved = localStorage.getItem(pageDetailsKey(details.id));
       if (saved !== null) {
@@ -523,7 +523,12 @@
   // finds the target opens every closed <details> around it, scrolls to it, and
   // consumes the hash so later re-renders never jump the reader back.
   // (The deploy bake loads this file in a sandbox with no `location`.)
-  const loadHash = typeof location !== 'undefined' && location.hash.length > 1 ? decodeURIComponent(location.hash.slice(1)) : '';
+  // A fragment such as `#50%` is not valid percent-encoding. decodeURIComponent throws on
+  // it, and here that would stop this file before window.RT exists, on every page.
+  function safeDecode(s) {
+    try { return decodeURIComponent(s); } catch (e) { return s; }
+  }
+  const loadHash = typeof location !== 'undefined' && location.hash.length > 1 ? safeDecode(location.hash.slice(1)) : '';
   let loadHashPending = Boolean(loadHash);
   function openAround(el) {
     for (let d = el.closest('details'); d; d = d.parentElement && d.parentElement.closest('details')) d.open = true;
@@ -537,7 +542,10 @@
     const go = () => el.scrollIntoView();
     go();
     // Web fonts reflow tall pages; a scroll taken before they load can land short.
-    if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => requestAnimationFrame(go));
+    // A reader who has already moved on is left where they are.
+    let moved = false;
+    ['wheel', 'touchstart', 'keydown'].forEach((t) => window.addEventListener(t, () => { moved = true; }, { once: true, passive: true }));
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => requestAnimationFrame(() => { if (!moved) go(); }));
     return true;
   }
   // Same-page links to a target inside a closed <details> open it first, so the
@@ -546,7 +554,7 @@
   function onHashLinkClick(e) {
     const a = e.target.closest && e.target.closest('a[href*="#"]');
     if (!a || a.origin !== location.origin || a.pathname !== location.pathname) return;
-    const id = decodeURIComponent(a.hash.slice(1));
+    const id = safeDecode(a.hash.slice(1));
     const el = id && document.getElementById(id);
     if (el) openAround(el);
   }
@@ -1353,7 +1361,7 @@
       return null;
     }
     const ids = tabs.map((t) => t.dataset.subtab);
-    const initialHash = location.hash ? decodeURIComponent(location.hash.slice(1)) : '';
+    const initialHash = location.hash ? safeDecode(location.hash.slice(1)) : '';
 
     nav.setAttribute('role', 'tablist');
     tabs.forEach((t, i) => {
@@ -1701,6 +1709,7 @@
     initCollapsibleSections,
     applyCollapsibleState,
     revealHashTarget,
+    safeDecode,
     // Pure page renderers — shared by the inline page scripts and the
     // deploy-time bake step (scripts/render-static.js). Keep them DOM-free.
     NEWS_PAGE_SIZE,

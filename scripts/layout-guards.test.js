@@ -255,6 +255,14 @@ test('hash links to rendered or collapsed targets open and land (2026-11-15, C2)
   assert(/plansPainted\.then\(\(\) => RT\.revealHashTarget\(\)\)/.test(read('china.html')), 'china.html reveals before its plans paint');
 });
 
+test('a malformed #fragment cannot stop app.js (2026-11-16 review: index.html#50% left window.RT undefined on every page)', () => {
+  const app = read('assets/app.js');
+  assert(/function safeDecode\(s\) \{\s*try \{ return decodeURIComponent\(s\); \} catch \(e\) \{ return s; \}/.test(app), 'safeDecode is missing or no longer catches');
+  assert((app.match(/decodeURIComponent\(/g) || []).length === 1, 'app.js decodes a fragment outside safeDecode');
+  assert(!/decodeURIComponent\(location\.hash/.test(read('news.html')), 'news.html decodes the fragment without a guard');
+  assert(/:is\(h2, h3, section, details\)\[id\]/.test(read('assets/styles.css')), 'h3 targets no longer clear the sticky jump nav (section-232 #open)');
+});
+
 test('supply-chain restores collapsible state after painting its stage sections, then reveals the hash (2026-11-15, C4)', () => {
   const at = (s) => supply.indexOf(s);
   assert(at('renderCategories(sc);') > 0, 'renderCategories call not found');

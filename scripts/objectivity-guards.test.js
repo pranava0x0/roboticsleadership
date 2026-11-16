@@ -44,6 +44,9 @@ const AI_CREDIT = new RegExp([
   String.raw`\b(?:Claude|Codex)\b[^.<\n]{0,60}\b(?:agents?|wrote|written|edited|gathered|checked|drafted)\b`,
   String.raw`\b(?:written|edited|gathered|checked|drafted|generated)\b (?:with|by) (?:Claude|Codex|ChatGPT|Gemini|Copilot)\b`,
   String.raw`\b(?:Haiku|Sonnet|Opus) agents?\b`,
+  String.raw`\b(?:done|made|built|researched|produced|created|compiled) (?:with|by|using) (?:Claude|Codex|ChatGPT|Gemini|Copilot)\b`,
+  String.raw`\bClaude Code\b`,
+  String.raw`\bwith AI assistance\b`,
   String.raw`Generated with`,
   String.raw`Co-Authored-By`,
 ].join('|'), 'i');

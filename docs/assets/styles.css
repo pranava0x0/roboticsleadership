@@ -2006,7 +2006,7 @@ table, .kpi-value, .kpi-sub, .chart text { font-variant-numeric: tabular-nums; }
 }
 .jump-nav::-webkit-scrollbar { display: none; }
 .jump-nav a { flex: 0 0 auto; }
-body:has(.jump-nav) :is(h2, section, details)[id] { scroll-margin-top: calc(var(--header-h) + 72px); }
+body:has(.jump-nav) :is(h2, h3, section, details)[id] { scroll-margin-top: calc(var(--header-h) + 72px); }
 /* The same chips in the page flow, for an index that scrolls away with the page
    (R&D models, China plans, policies, supply chain). Not sticky: a pinned bar
    takes ~60px off every phone screen on pages read mostly by scrolling.

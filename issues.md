@@ -4,6 +4,13 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 ## Open
 
+### 2026-11-16 — all pages — a malformed #fragment stopped app.js — Fixed
+- **Area:** `docs/assets/app.js` (load-hash capture, same-page hash clicks), `docs/news.html`.
+- **Description:** Opening `index.html#50%` or any fragment that is not valid percent-encoding left `window.RT` undefined, so the page painted no data. Found in review of PR #303 before merge; on main only `news.html` decoded the fragment.
+- **Root cause:** code bug. `decodeURIComponent(location.hash.slice(1))` ran at script load with no guard and throws "URI malformed".
+- **Fix:** `RT.safeDecode()` returns the raw string when decoding throws; every fragment decode uses it. Same commit: `h3[id]` targets clear the sticky jump nav (Section 232 `#open`), and the font-ready re-scroll is skipped once the reader has scrolled.
+- **Regression test:** `layout-guards.test.js` "a malformed #fragment cannot stop app.js".
+
 ### 2026-11-15 — all pages — anchor landings hid under the sticky header — Fixed
 - **Symptom:** a deep link or jump landed with its target at the very top of the window, under the 57px sticky header (policies `#sec-tax`, `#hearing-2026-03-17`, `#potential-workforce`, energy `#cand-grid`: target top 0 at 375/768/1280; a news story deep link at top -43 on a phone).
 - **Root cause (code bug):** only pages with a sticky jump nav, the R&D tables and the 232 rows set `scroll-margin-top`; every other target used the default 0. The news deep link also scrolled once, in the next frame, before web fonts reflowed the cards above it.
