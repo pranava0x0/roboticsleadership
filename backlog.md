@@ -4,6 +4,14 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-11-17 (scheduled refresh)
+
+- [ ] **(medium) Policy reframing: CCW Seventh Review Conference closes Nov 20.** Newsweek and NPR report the U.S. is expected to oppose opening treaty negotiations on lethal autonomous weapons. When the outcome is published, update `ccw-autonomous-weapons-review-2026-11` and consider a policies.html row for the U.S. position, since it is the first multilateral rule-setting forum where U.S. and Chinese positions on autonomous systems are on the record side by side.
+- [ ] **(medium) Policy reframing: BIS rule on remote access to controlled AI chips (announced Nov 16).** Not robot-specific, but it covers how Chinese firms reach training compute through overseas data centers, which is the route a robot-model lab would use. Read the Federal Register text for scope and effective date, then decide whether china.html's compute row needs a note.
+- [ ] **(low) Sub-national robotics policies outside the U.S. and China as a comparator.** Andhra Pradesh approved a Robotics and Physical AI Policy 2026-36 (G.O. Ms. No. 86, reported by The Hindu Nov 16). The order itself was not found online; if two more states or provinces outside China publish plans, a short comparator table on the Potential policy tab could show what incentives others offer.
+- [ ] **(low) Add `companies.json` rows for Bluepoint Touch (force sensors, China) and FORT Robotics (safety controls, US, SPAC pending).** Both have news records as of 11-17; FORT's S-4 on EDGAR would give audited figures.
+- [ ] **(low) Leads not authored 2026-11-17:** Hyundai's full Boston Dynamics ownership (same Glovis filing as 11-16; the June buyout is already in the company record); Mosaico EUR 7.5M seed (Italy); Hub's 10,000-hour first-person work-video dataset (X post only); Weijian Technology RMB 100M+ Series B (one brief); Zacua Ventures $135M Fund II; Taisei JPY 24B fund (no primary); Nauticus Q3; Alibaba trimming its XPeng stake while backing the robot unit (headline only); Unitree shares down 11% intraday (one headline); Melexis fingertip sensor modules.
+
 ## ▶ Added 2026-11-15 (UAT fixes)
 
 - [ ] **(medium) Bake companies, policies, supply-chain, energy and scsp-summit.** With JavaScript off they show only the shell and a `<noscript>` note pointing to their data files. Move each page's renderers into app.js (DOM-free), add slots to `scripts/render-static.js`, and drop the note once a page is baked.
