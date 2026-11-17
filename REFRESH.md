@@ -139,6 +139,9 @@ The best signal is human-curated, not scraped. Pull the owner's **X `PhysicalAI`
      2026-11-11 test); a key press returns none. Do not use `End` either: X keeps only ~10 posts
      (~6.7 screens) in the DOM, and `End` jumps past posts before they render. Stop when
      `seen` stops growing for two loops or `oldest` passes the window.
+     **If `scrollY` stays 0 after the first Page_Down loop, switch to `javascript_tool`
+     `window.scrollBy(0, 3000)` + wait 1.5 s + collect** (2026-11-17: the key press never
+     reached an unfocused tab; scrollBy loaded ~5 new posts per step, 114 posts in 18 steps).
   4. `__xh.dump(0)`, then `__xh.dump(<NEXT>)` until `END`: one line per kept post, newest first,
      ~900 chars per call (the tool truncates near 1,000), with `=`/`&`/`?` encoded and image URLs
      reduced to media ids. Append each dump to `data/research/refresh-<date>-x.md` as you go.
@@ -203,6 +206,8 @@ If nothing new was learned, skip the edit and say so. This is what keeps the ski
 
 ## Learned patterns
 <!-- Auto-maintained by Step 5. Newest first. Keep each entry to 1-2 sentences. -->
+
+- **2026-11-17 (scheduled full-site refresh)** — **`computer` `key` Page_Down never reached the X tab (scrollY stayed 0 for six loops), so the harvest read 6 posts and looked like a quiet day; `window.scrollBy(0, 3000)` from `javascript_tool` then loaded 114 posts in 18 steps. Check `scrollY` after the first loop before trusting a small count.** The Sonnet sweep (11 minutes, 16 items) found Bing News RSS (`bing.com/news/search?q=<query>&format=rss`) better than Google News: direct publisher URLs, Chinese-language results, and no redirect throttling after ~20 lookups. A sweep's top item can repeat a tracked one from a new angle (Hyundai's 100% Boston Dynamics ownership was the same Glovis filing as 11-16, and the June buyout was already in the company row); grep `companies.json`, not just `news.json`. Phone policies was the worst page at 7.8 screens because bill scope lines ran to 500 characters; a two-line clamp took it to 5.8.
 
 - **2026-11-16 (scheduled full-site refresh)** — **`site-metrics.js` had been adding `china_plans.json` (74 KB) to every page because the `data/*.json` scan of `app.js` matched a comment, so the 11-16 table showed index jumping from 150 to 176 KB gzip with no real change; it now scans code lines only, and a jump in every page at once is a measurement change until proven otherwise.** Korean filings reach English readers late: Boston Dynamics' nine-month loss came from Bloter's read of Hyundai Glovis's quarterly report the same day, so search Korean outlets (Bloter, Yonhap) for BD and Doosan numbers. The Sonnet sweep (22 minutes, 18 items) noted that Google News `when:3d` returns many older events re-dated by aggregators; check each against `news.json` by company before reading the primary. Chrome connected first try; the keyword X query again beat the plain list (RobotEra's Singles Day numbers).
 

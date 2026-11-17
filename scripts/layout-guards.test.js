@@ -67,6 +67,12 @@ test('policies executive table is capped, offers Show more / Show all, and filte
   assert(/addEventListener\(ev, \(\) => render\(\)\)/.test(policies), 'filter listener passes its event to render()');
 });
 
+test('policies scope lines clamp to two lines on phones and the detail sheet still prints the full scope', () => {
+  const css = read('assets/styles.css');
+  assert(/#congress-table td \.secondary-line,\s*#executive-table td \.secondary-line \{[^}]*-webkit-line-clamp: 2/.test(css), 'policies scope-line clamp missing');
+  assert(/<dt>Scope<\/dt><dd>\$\{RT\.escapeHTML\(p\.robotics_scope\)\}/.test(read('policies.html')), 'detail sheet no longer prints the full scope the clamp hides');
+});
+
 test('energy application areas are collapsible <details>, only the first ships open, and the filter restores their state', () => {
   const energy = read('energy.html');
   assert(/<details class="collapsible-section e-section" id="\$\{id\}" \$\{firstSection \? 'open' : ''\}>/.test(energy), 'sections are not details with a first-only open flag');

@@ -1290,6 +1290,21 @@ a.kpi-card:hover {
   .data-table td .show-mobile { display: block; }
 }
 
+/* policies.html on a phone: the scope line under each bill/program title ran to
+   500 characters, so ten bills took 2,105px (2026-11-17). Clamp it to two lines;
+   the row opens the detail sheet with the full text. Visual only: screen readers
+   still get every word. */
+@media (max-width: 540px) {
+  #congress-table td .secondary-line,
+  #executive-table td .secondary-line {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+  }
+}
+
 /* ============================================================
    Detail panel — bottom sheet on mobile, side panel on desktop
    ============================================================ */

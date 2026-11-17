@@ -1,5 +1,267 @@
 [
   {
+    "policies": [],
+    "companies": [
+      "robotera"
+    ],
+    "id": "robotera-china-post-guangdong-2026-11",
+    "title": "RobotEra humanoids now work 11 China Post hubs across eight Guangdong cities",
+    "date": "2026-11-17",
+    "source": "RobotEra (PR Newswire)",
+    "source_type": "Press Release",
+    "source_url": "https://www.prnewswire.com/news-releases/robotera-expands-humanoid-robot-deployment-across-china-posts-guangdong-network-reaching-eight-cities-province-wide-302941865.html",
+    "summary": "The hubs are in Guangzhou, Shenzhen, Dongguan, Jiangmen, Shantou, Shanwei, Jieyang and Heyuan; the pilot began at the Guangzhou Postal District Center in March 2026. RobotEra says the robots average over 1,500 parcels an hour, which it says matches experienced workers. This extends the Singles Day deployment it reported on Nov 12, so the hub counts overlap.",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "robotera",
+      "china",
+      "humanoid",
+      "logistics",
+      "china-post"
+    ],
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/robotera-expands-humanoid-robot-deployment-across-china-posts-guangdong-network-reaching-eight-cities-province-wide-302941865.html",
+        "label": "RobotEra (PR Newswire)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "bluepoint-touch-d3-2026-11",
+    "title": "Force-sensor maker Bluepoint Touch closes a D3 round worth several hundred million yuan",
+    "date": "2026-11-17",
+    "source": "Shanghai Securities News",
+    "source_type": "News",
+    "source_url": "https://finance.eastmoney.com/a/202611173932808083.html",
+    "summary": "Fourteen investors joined, including Hongtai Fund, Zhongguancun Science City, Hony Capital and machine-vision maker OPT; the company says it has raised more than RMB 1 billion in about six months. Bluepoint Touch claims more than 80% of China's market for six-axis force sensors in humanoids. That share is the company's own figure.",
+    "category": "Supply Chain",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "bluepoint-touch",
+      "china",
+      "force-sensor",
+      "components",
+      "funding"
+    ],
+    "sources": [
+      {
+        "url": "https://finance.eastmoney.com/a/202611173932808083.html",
+        "label": "Shanghai Securities News"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "unitree"
+    ],
+    "id": "unitree-wang-apec-scale-2026-11",
+    "title": "Unitree's Wang Xingxing at APEC: generalization is the hard problem, and if models improve sharply, production and reliability become the constraint",
+    "date": "2026-11-17",
+    "source": "Pandaily, citing IT Home and iFeng",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/unitree-wang-xingxing-apec-robot-generalization-manufacturing-compute",
+    "summary": "Speaking at the APEC CEO Summit in Shenzhen, Wang put Unitree's current output at tens of thousands of robots a year. He said that if robot models improve sharply next year, production, reliability, after-sales service, compute and safety would become the constraints. He gave no product date and no shipment figures.",
+    "category": "Competitive",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "tags": [
+      "unitree",
+      "china",
+      "apec",
+      "manufacturing",
+      "humanoid"
+    ],
+    "sources": [
+      {
+        "url": "https://pandaily.com/unitree-wang-xingxing-apec-robot-generalization-manufacturing-compute",
+        "label": "Pandaily"
+      },
+      {
+        "url": "https://www.caixinglobal.com/2026-11-17/nearing-ai-robotics-breakthrough-would-strain-production-unitree-founder-says-102505751.html",
+        "label": "Caixin Global"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "xpeng-robotics"
+    ],
+    "id": "xpeng-iron-store-trials-q1-2027-2026-11",
+    "title": "XPeng says its first mass-produced IRON humanoids go into some of its stores for trials in Q1 2027",
+    "date": "2026-11-16",
+    "source": "XPeng Q3 2026 results (GlobeNewswire)",
+    "source_type": "Press Release",
+    "source_url": "https://markets.businessinsider.com/news/stocks/xpeng-reports-q3-2026-results-both-deliveries-and-revenue-reach-record-highs-overseas-market-2026-full-year-sales-target-exceeds-100-000-units-1036771300",
+    "summary": "The Q3 release (revenue RMB 24.28 billion, 118,390 vehicles delivered) says the latest IRON debuts at XPeng AI Day and the Guangzhou Motor Show. In October XPeng had given mass production by end-2026 and deliveries in H1 2027; store trials in Q1 2027 fit that schedule. The release gives no unit numbers.",
+    "category": "Deployment",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "xpeng",
+      "iron",
+      "china",
+      "humanoid",
+      "earnings"
+    ],
+    "sources": [
+      {
+        "url": "https://markets.businessinsider.com/news/stocks/xpeng-reports-q3-2026-results-both-deliveries-and-revenue-reach-record-highs-overseas-market-2026-full-year-sales-target-exceeds-100-000-units-1036771300",
+        "label": "XPeng Q3 2026 results (GlobeNewswire)"
+      },
+      {
+        "url": "https://technode.com/2026/10/13/xpeng-plans-humanoid-robot-deliveries-in-2027-and-european-rollout-later-that-year/",
+        "label": "TechNode (Oct 2026 timetable)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "world-labs"
+    ],
+    "id": "amd-world-labs-close-2026-11",
+    "title": "AMD completes its acquisition of World Labs; Fei-Fei Li joins AMD",
+    "date": "2026-11-16",
+    "source": "AMD (GlobeNewswire)",
+    "source_type": "Press Release",
+    "source_url": "https://markets.businessinsider.com/news/stocks/amd-completes-acquisition-of-world-labs-1036768971",
+    "summary": "AMD agreed in September to buy World Labs, which builds models that generate and simulate 3D environments, for a reported $8.2 billion. AMD says the team will keep working on models and help shape its hardware and software. The world-model team now sits inside a U.S. chipmaker rather than a startup.",
+    "category": "Funding",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "tags": [
+      "amd",
+      "world-labs",
+      "acquisition",
+      "world-models",
+      "simulation"
+    ],
+    "sources": [
+      {
+        "url": "https://markets.businessinsider.com/news/stocks/amd-completes-acquisition-of-world-labs-1036768971",
+        "label": "AMD (GlobeNewswire)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "fort-robotics-s4-2026-11",
+    "title": "FORT Robotics files its SPAC registration and reports $12.5M nine-month revenue, up 52.5%",
+    "date": "2026-11-16",
+    "source": "FORT Robotics (GlobeNewswire)",
+    "source_type": "Press Release",
+    "source_url": "https://markets.businessinsider.com/news/stocks/fort-robotics-reports-strong-2026-momentum-as-company-progresses-towards-a-public-listing-in-partnership-with-newbury-street-ii-acquisition-corp-1036768688",
+    "summary": "The Philadelphia safety-controls maker is merging with Newbury Street II Acquisition Corp to list on Nasdaq. FORT says its safety layer runs on more than 23,000 machines at over 680 customers, including Agility Robotics, DoorDash, Zoox and Google DeepMind. Gross margin was 67.6% for the nine months.",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "us-supply-chain",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "fort-robotics",
+      "spac",
+      "safety",
+      "earnings",
+      "us"
+    ],
+    "sources": [
+      {
+        "url": "https://markets.businessinsider.com/news/stocks/fort-robotics-reports-strong-2026-momentum-as-company-progresses-towards-a-public-listing-in-partnership-with-newbury-street-ii-acquisition-corp-1036768688",
+        "label": "FORT Robotics (GlobeNewswire)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "remedy-robotics-62m-2026-11",
+    "title": "Remedy Robotics raises $62M Series B for a remote stroke-treatment robot",
+    "date": "2026-11-16",
+    "source": "Remedy Robotics (PR Newswire)",
+    "source_type": "Press Release",
+    "source_url": "https://www.prnewswire.com/news-releases/remedy-robotics-raises-62-million-series-b-to-bring-life-saving-cardiovascular-intervention-to-patients-everywhere-302939871.html",
+    "summary": "DCVC led the round for the San Francisco company. The money funds a pivotal trial with the University of California, work toward FDA approval for neurovascular procedures, and prototype N1 systems at partner hospitals, including through the Australian Stroke Alliance.",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "remedy-robotics",
+      "surgical",
+      "medical",
+      "funding",
+      "us"
+    ],
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/remedy-robotics-raises-62-million-series-b-to-bring-life-saving-cardiovascular-intervention-to-patients-everywhere-302939871.html",
+        "label": "Remedy Robotics (PR Newswire)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "autolife-pre-a-plus-2026-11",
+    "title": "Guangzhou service-robot maker AutoLife closes a RMB 100M-plus Pre-A+ round and starts a new production line",
+    "date": "2026-11-16",
+    "source": "Pedaily",
+    "source_type": "News",
+    "source_url": "https://news.pedaily.cn/202611/571955.shtml",
+    "summary": "The China-US Green Fund led, with Nanxi Venture co-leading and Haizhu Urban Development following on. AutoLife was founded in Singapore in late 2023 and has moved its headquarters to Guangzhou, where a 6,000 sq m production site is being built. It plans deployments in exhibitions, hotels, tourism and retail.",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "autolife",
+      "china",
+      "service-robot",
+      "funding",
+      "guangzhou"
+    ],
+    "sources": [
+      {
+        "url": "https://news.pedaily.cn/202611/571955.shtml",
+        "label": "Pedaily"
+      }
+    ]
+  },
+  {
     "companies": [
       "boston-dynamics"
     ],

@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-17",
+  "dropped": [
+    {
+      "id": "hn-50518293",
+      "title": "The world's fires changed while humanity hit pause",
+      "source_url": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/",
+      "date": "2026-11-16",
+      "reason": "wildfire data, not robotics"
+    },
+    {
+      "id": "hn-50515968",
+      "title": "Show HN: Simplex – Self-hosting AArch64 ELF compiler built on a GrapheneOS phone",
+      "source_url": "https://github.com/gaidardzhiev/simplex",
+      "date": "2026-11-16",
+      "reason": "compiler project, not robotics"
+    },
+    {
+      "id": "hn-50517672",
+      "title": "Slam on Microduck with an 8×8 depth sensor",
+      "source_url": "https://pollen-robotics.com/microduck/blog/microduck-slam/",
+      "date": "2026-11-16",
+      "reason": "hobbyist SLAM build"
+    },
+    {
+      "id": "hn-50517840",
+      "title": "Show HN: Nobody blocks a keyboard – Rooted Android as a physical USB Deck",
+      "source_url": "https://github.com/mr-anjaneyam/Emittr",
+      "date": "2026-11-16",
+      "reason": "Android hack, not robotics"
+    },
+    {
+      "id": "hn-50519186",
+      "title": "[Free] ShizuCallRecorder – FOSS No-Root Call Recorder – XDA Forums",
+      "source_url": "https://xdaforums.com/t/app-11-free-shizucallrecorder-foss-no-root-call-recorder.4808920/",
+      "date": "2026-11-16",
+      "reason": "call recorder app, not robotics"
+    },
+    {
+      "id": "hn-50519770",
+      "title": "The hardest part of a robot is the hand",
+      "source_url": "https://stormy.ai/hands",
+      "date": "2026-11-16",
+      "reason": "essay, no news event"
+    },
+    {
+      "id": "hn-50519896",
+      "title": "The EV Boom Is Happening Without Car Buyers",
+      "source_url": "https://www.theatlantic.com/technology/2026/11/electric-cars-delivery-vans-robotaxis/689423/",
+      "date": "2026-11-16",
+      "reason": "EV market, not robotics"
+    },
+    {
+      "id": "hn-50520245",
+      "title": "Adding Support for Cargo Dependencies to the Open Robotics Build Farm",
+      "source_url": "https://osralliance.org/2026/11/adding-support-for-cargo-dependencies-to-the-build-farm/",
+      "date": "2026-11-16",
+      "reason": "ROS build-farm tooling note"
+    },
+    {
+      "id": "hn-50520966",
+      "title": "The race to build autonomous war robots faces a problem",
+      "source_url": "https://www.businessinsider.com/making-autonomous-war-robots-challenges-self-driving-cars-dont-ukraine-2026-11",
+      "date": "2026-11-16",
+      "reason": "feature on military robots, no event"
+    },
+    {
+      "id": "hn-50521752",
+      "title": "U.N. talks seek to rein in 'killer robots' as fears over AI weapons grow",
+      "source_url": "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones",
+      "date": "2026-11-16",
+      "reason": "CCW talks already tracked (ccw-autonomous-weapons-review-2026-11)"
+    },
+    {
+      "id": "hn-50521880",
+      "title": "Microsoft EVP on the root cause of the recent outage",
+      "source_url": "https://twitter.com/clamanna/status/2122209697226948729",
+      "date": "2026-11-16",
+      "reason": "cloud outage, not robotics"
+    },
+    {
+      "id": "hn-50523377",
+      "title": "Show HN: Open-source, real-time object tracking for live video feeds",
+      "source_url": "https://github.com/aryamandarda/tamserve",
+      "date": "2026-11-16",
+      "reason": "video tracking tool, not robotics"
+    },
+    {
+      "id": "hn-50523448",
+      "title": "A Robot Just Built a Structure in Space All on Its Own – For the First Time",
+      "source_url": "https://www.sciencealert.com/a-robot-just-built-a-structure-in-space-all-on-its-own-for-the-first-time-ever",
+      "date": "2026-11-16",
+      "reason": "Caltech ASTRA already tracked (caltech-darpa-in-space-assembly-2026-11)"
+    },
+    {
+      "id": "hn-50523786",
+      "title": "Ramudroid – Open-Source Autonomous Outdoor Garbage-Picking Robot",
+      "source_url": "http://altanai.github.io/Ramudroid/",
+      "date": "2026-11-16",
+      "reason": "hobbyist open-source project"
+    },
+    {
+      "id": "hn-50524728",
+      "title": "US will say \"no\" to global ban on killer robots",
+      "source_url": "https://www.newsweek.com/us-expected-to-block-killer-robot-treaty-talks-12722369",
+      "date": "2026-11-16",
+      "reason": "CCW talks already tracked (ccw-autonomous-weapons-review-2026-11)"
+    },
+    {
+      "id": "hn-50525011",
+      "title": "The Robotaxi Blame Game: Who Goes to Jail When the Autonomous Car Crashes?",
+      "source_url": "https://2tinteractive.com/watch/episodes/5641/",
+      "date": "2026-11-16",
+      "reason": "robotaxi liability feature; AV scope"
+    },
+    {
+      "id": "hn-50525200",
+      "title": "Uber Adds Zoox's Robotaxis to Its App. Everything to Know",
+      "source_url": "https://www.cnet.com/roadshow/automobiles/uber-adds-zoox-robotaxis-to-app/",
+      "date": "2026-11-16",
+      "reason": "Uber-Zoox consumer explainer; AV scope"
+    },
+    {
+      "id": "hn-50525866",
+      "title": "Show HN: Hotline Computer – Rootless Linux desktop container with Nix for agents",
+      "source_url": "https://computer.hotline.dev/",
+      "date": "2026-11-17",
+      "reason": "Linux container tool, not robotics"
+    },
+    {
+      "id": "hn-50527842",
+      "title": "Robot Learning",
+      "source_url": "https://robotlearningbook.com/",
+      "date": "2026-11-17",
+      "reason": "course/notes link, no event"
+    },
+    {
+      "id": "hn-50528785",
+      "title": "Run your FreeBSD services from one console",
+      "source_url": "https://jailops.net/",
+      "date": "2026-11-17",
+      "reason": "FreeBSD tool, not robotics"
+    },
+    {
+      "id": "rss-robbyant-s-lingbot-vla-2-0-cha-791",
+      "title": "Robbyant's LingBot-VLA 2.0 Challenge Ends With a 48-Hour Real-Robot Final",
+      "source_url": "https://pandaily.com/robbyant-lingbot-vla-2-0-challenge-final-real-robot-tars",
+      "date": "2026-11-17",
+      "reason": "hackathon result, no deployment or funding"
+    },
+    {
+      "id": "rss-food-robotics-2-0-why-this-tim-572",
+      "title": "Food robotics 2.0: why this time could be different",
+      "source_url": "https://www.therobotreport.com/food-robotics-2-0-why-this-time-could-be-different/",
+      "date": "2026-11-14",
+      "reason": "opinion feature"
+    },
+    {
+      "id": "rss-agile-robots-raises-500m-to-in-283",
+      "title": "Agile Robots raises $500M to increase production capacity",
+      "source_url": "https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/",
+      "date": "2026-11-16",
+      "reason": "already tracked (agile-robots-500m-softbank-2026-11)"
+    },
+    {
+      "id": "rss-the-hidden-reason-most-robots-610",
+      "title": "The hidden reason most robots fail on the factory floor",
+      "source_url": "https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/",
+      "date": "2026-11-16",
+      "reason": "opinion feature"
+    },
+    {
+      "id": "rss-28-zero-day-findings-in-under-550",
+      "title": "28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?",
+      "source_url": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
+      "date": "2026-11-16",
+      "reason": "vendor-sponsored article (VicOne)"
+    },
+    {
+      "id": "rss-can-robots-bring-stroke-surger-160",
+      "title": "Can Robots Bring Stroke Surgery to Remote Hospitals?",
+      "source_url": "https://spectrum.ieee.org/telesurgery-stroke",
+      "date": "2026-11-16",
+      "reason": "feature, no event"
+    },
+    {
+      "id": "rss-food-robotics-2-0-why-this-tim-607",
+      "title": "Food robotics 2.0: why this time could be different",
+      "source_url": "https://www.therobotreport.com/food-robotics-2-0-why-this-time-could-be-different/",
+      "date": "2026-11-14",
+      "reason": "opinion feature (auto PR copy)"
+    },
+    {
+      "id": "rss-agile-robots-raises-500m-to-in-420",
+      "title": "Agile Robots raises $500M to increase production capacity",
+      "source_url": "https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/",
+      "date": "2026-11-16",
+      "reason": "already tracked (auto PR copy)"
+    },
+    {
+      "id": "rss-28-zero-day-findings-in-under-423",
+      "title": "28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?",
+      "source_url": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
+      "date": "2026-11-16",
+      "reason": "vendor-sponsored article (auto PR copy)"
+    },
+    {
+      "id": "rss-can-robots-bring-stroke-surger-480",
+      "title": "Can Robots Bring Stroke Surgery to Remote Hospitals?",
+      "source_url": "https://spectrum.ieee.org/telesurgery-stroke",
+      "date": "2026-11-16",
+      "reason": "feature, no event (auto PR copy)"
+    }
+  ]
+}

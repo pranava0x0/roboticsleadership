@@ -4063,6 +4063,15 @@
         "status": "active",
         "use_case": "Parcel sorting, reported during the Nov 2026 Singles Day peak; company-reported peak of 1,500 parcels an hour",
         "source_url": "https://wap.cj.sina.cn/pc/7x24/5209824"
+      },
+      {
+        "customer": "China Post Group Guangdong Branch",
+        "location": "11 postal hubs in 8 Guangdong cities",
+        "robot_count": null,
+        "start_date": "2026-03",
+        "status": "active",
+        "use_case": "Parcel sorting; pilot at the Guangzhou Postal District Center from March 2026; company-reported average above 1,500 parcels an hour",
+        "source_url": "https://www.prnewswire.com/news-releases/robotera-expands-humanoid-robot-deployment-across-china-posts-guangdong-network-reaching-eight-cities-province-wide-302941865.html"
       }
     ],
     "headcount": null,
@@ -4096,7 +4105,7 @@
         "url": "https://wap.cj.sina.cn/pc/7x24/5209824"
       }
     ],
-    "last_updated": "2026-11-16",
+    "last_updated": "2026-11-17",
     "themes": [
       "china-scale"
     ],
@@ -8250,8 +8259,8 @@
         "robot_count": null,
         "start_date": "2026-09",
         "status": "planned",
-        "use_case": "internal stores/campus deployment ahead of a planned 2027 commercial launch (China and overseas); mass production confirmed by end of 2026",
-        "source_url": "https://www.prnewswire.com/news-releases/xpeng-holds-its-first-robotics-supply-chain-partner-conference-302887834.html"
+        "use_case": "Trial deployment in some XPeng stores from Q1 2027 with the first mass-produced IRON units (Q3 2026 results, Nov 16); mass production was given as end of 2026",
+        "source_url": "https://markets.businessinsider.com/news/stocks/xpeng-reports-q3-2026-results-both-deliveries-and-revenue-reach-record-highs-overseas-market-2026-full-year-sales-target-exceeds-100-000-units-1036771300"
       }
     ],
     "headcount": null,
@@ -8282,7 +8291,7 @@
         "url": "https://www.prnewswire.com/news-releases/xpeng-holds-its-first-robotics-supply-chain-partner-conference-302887834.html"
       }
     ],
-    "last_updated": "2026-11-11",
+    "last_updated": "2026-11-17",
     "themes": [
       "china-scale"
     ],
@@ -8506,7 +8515,7 @@
     "funding_rounds": [
       {
         "date": "2026-09",
-        "round": "Acquisition agreement (AMD, all-stock, pending close)",
+        "round": "Acquisition by AMD (all-stock; announced Sep 28, closed Nov 16, 2026)",
         "amount_usd": null,
         "valuation_usd": 8200000000,
         "investors": [
@@ -8551,9 +8560,12 @@
       },
       {
         "url": "https://www.bloomberg.com/news/articles/2026-09-28/amd-to-buy-fei-fei-li-s-world-labs-ai-startup-for-8-2-billion"
+      },
+      {
+        "url": "https://markets.businessinsider.com/news/stocks/amd-completes-acquisition-of-world-labs-1036768971"
       }
     ],
-    "last_updated": "2026-09-30",
+    "last_updated": "2026-11-17",
     "themes": [
       "foundation-models",
       "physical-ai"
@@ -8561,7 +8573,7 @@
     "financials": {
       "revenue_usd": null,
       "revenue_year": null,
-      "details": "Pre-revenue per reporting at announcement. Founded 2024 by Fei-Fei Li; builds spatial-intelligence models that generate, reconstruct and simulate interactive 3D environments from text/image/video, plus robotic-learning and simulation technology. AMD agreed to acquire World Labs in an all-stock deal valuing the company at ~$8.2B (announced 2026-09-28, AMD's second-largest acquisition ever); Li will join AMD as EVP & chief scientist once the deal closes, expected by end of 2026. Prior funding raised by World Labs is not disclosed in this record."
+      "details": "Pre-revenue per reporting at announcement. Founded 2024 by Fei-Fei Li; builds spatial-intelligence models that generate, reconstruct and simulate interactive 3D environments from text/image/video, plus robotic-learning and simulation technology. AMD agreed to acquire World Labs in an all-stock deal valuing the company at ~$8.2B (announced 2026-09-28, AMD's second-largest acquisition ever); the deal closed on 2026-11-16 and Li joined AMD (secondary reports give her title as EVP and chief scientist). Prior funding raised by World Labs is not disclosed in this record."
     },
     "map_category": "brains"
   },
