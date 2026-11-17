@@ -1,5 +1,540 @@
 [
   {
+    "id": "hn-50523377",
+    "title": "Show HN: Open-source, real-time object tracking for live video feeds",
+    "date": "2026-11-16",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/aryamandarda/tamserve",
+    "summary": "I type \"forklift\" on a live warehouse camera, and tamserve finds and tracks both forklifts, including the one driving in. Then I add \"person\" without stopping it.tamserve runs Meta",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50523448",
+    "title": "A Robot Just Built a Structure in Space All on Its Own – For the First Time",
+    "date": "2026-11-16",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.sciencealert.com/a-robot-just-built-a-structure-in-space-all-on-its-own-for-the-first-time-ever",
+    "summary": "A Robot Just Built a Structure in Space All on Its Own – For the First Time",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50523786",
+    "title": "Ramudroid – Open-Source Autonomous Outdoor Garbage-Picking Robot",
+    "date": "2026-11-16",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "http://altanai.github.io/Ramudroid/",
+    "summary": "Ramudroid – Open-Source Autonomous Outdoor Garbage-Picking Robot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50524728",
+    "title": "US will say \"no\" to global ban on killer robots",
+    "date": "2026-11-16",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.newsweek.com/us-expected-to-block-killer-robot-treaty-talks-12722369",
+    "summary": "US will say \"no\" to global ban on killer robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50525011",
+    "title": "The Robotaxi Blame Game: Who Goes to Jail When the Autonomous Car Crashes?",
+    "date": "2026-11-16",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://2tinteractive.com/watch/episodes/5641/",
+    "summary": "The Robotaxi Blame Game: Who Goes to Jail When the Autonomous Car Crashes?",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50525200",
+    "title": "Uber Adds Zoox's Robotaxis to Its App. Everything to Know",
+    "date": "2026-11-16",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.cnet.com/roadshow/automobiles/uber-adds-zoox-robotaxis-to-app/",
+    "summary": "Uber Adds Zoox's Robotaxis to Its App. Everything to Know",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50525866",
+    "title": "Show HN: Hotline Computer – Rootless Linux desktop container with Nix for agents",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://computer.hotline.dev/",
+    "summary": "Show HN: Hotline Computer – Rootless Linux desktop container with Nix for agents",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50527842",
+    "title": "Robot Learning",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://robotlearningbook.com/",
+    "summary": "Robot Learning",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50528785",
+    "title": "Run your FreeBSD services from one console",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://jailops.net/",
+    "summary": "Run your FreeBSD services from one console",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50529319",
+    "title": "Aftermath of the Great Reset: The Era of Extensible Robotics",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://breadcrumb.vc/aftermath-of-the-great-reset-the-era-of-extensible-robotics-537646d51cdb",
+    "summary": "Aftermath of the Great Reset: The Era of Extensible Robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50531728",
+    "title": "Show HN: Darkroomfinder.org – A Directory of Photography Darkrooms",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://darkroomfinder.org/",
+    "summary": "I built darkroomfinder.org, a directory of photography darkrooms,\nas a React single page app (SPA), because I wanted to\nunderstand how SPAs work and I wanted to scale to hundreds or thousands of\ncitie",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50531806",
+    "title": "French robot maker Genesis raises $500M at $3.5B valuation",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.channelnewsasia.com/business/french-robot-maker-genesis-raises-500-million-35-billion-valuation-6559521",
+    "summary": "French robot maker Genesis raises $500M at $3.5B valuation",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50531958",
+    "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+    "summary": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50532006",
+    "title": "Mino – Hackable ROS 2 robot with on-device stereo vision and a local LLM",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://mino.bot",
+    "summary": "Mino – Hackable ROS 2 robot with on-device stereo vision and a local LLM",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50533407",
+    "title": "Show HN: Peppy, a simplified robotics framework for regular devs",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://docs.peppy.bot/quickstart/",
+    "summary": "Show HN: Peppy, a simplified robotics framework for regular devs",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50534042",
+    "title": "I created a livestream where you control a $4k Robot [video]",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.youtube.com/watch?v=k_0LsB3UOSk",
+    "summary": "I created a livestream where you control a $4k Robot [video]",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50534330",
+    "title": "Show HN: Skjalf TV, Steam Deck native, controller-first IPTV player",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://github.com/bikemazzell/skjalf-tv",
+    "summary": "I wanted to watch my IPTV subscription on the Steam Deck, both handheld and docked to a TV. But any existing option was either a desktop app or a Kodi setup (or worse, an Android emulator setup) that ",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50534542",
+    "title": "Show HN: Solarian – Open-source Python framework for AI robots",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://solarian.dev",
+    "summary": "Show HN: Solarian – Open-source Python framework for AI robots",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50535060",
+    "title": "Training a bimanual robot policy by streaming versioned datasets into PyTorch",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://foxglove.dev/blog/training-a-bimanual-policy-on-foxglove-datasets",
+    "summary": "Training a bimanual robot policy by streaming versioned datasets into PyTorch",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50535487",
+    "title": "Gemini 4 Hydrogen: a faster model for general purpose robotics",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://developers.googleblog.com/gemini-hydrogen-for-robotics/",
+    "summary": "Gemini 4 Hydrogen: a faster model for general purpose robotics",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50535609",
+    "title": "I had an LLM edit a robot policy's weights directly, no fine-tuning",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.abdulrahimmirani.com/research/vla-weight-editing",
+    "summary": "I had an LLM edit a robot policy's weights directly, no fine-tuning",
+    "category": "Policy",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50536219",
+    "title": "GM plans 20% boost in robotics as factory costs rise",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.reuters.com/business/autos-transportation/gm-plans-20-boost-robotics-factory-costs-rise-2026-11-17/",
+    "summary": "GM plans 20% boost in robotics as factory costs rise",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-robbyant-s-lingbot-vla-2-0-cha-14",
+    "title": "Robbyant's LingBot-VLA 2.0 Challenge Ends With a 48-Hour Real-Robot Final",
+    "date": "2026-11-17",
+    "source": "Pandaily",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/robbyant-lingbot-vla-2-0-challenge-final-real-robot-tars",
+    "summary": "Fifteen teams adapted LingBot-VLA 2.0 on real robots in 48 hours. Robbyant's Shanghai final exposed challenges in data, perception and execution.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-unitree-s-wang-xingxing-says-r-747",
+    "title": "Unitree's Wang Xingxing Says Robot Generalization and Manufacturing Scale Remain Challenges",
+    "date": "2026-11-17",
+    "source": "Pandaily",
+    "source_type": "News",
+    "source_url": "https://pandaily.com/unitree-wang-xingxing-apec-robot-generalization-manufacturing-compute",
+    "summary": "At APEC, Wang Xingxing said robot-model generalization remains difficult and warned that manufacturing, reliability, service and compute must scale too.",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-the-hidden-reason-most-robots-206",
+    "title": "The hidden reason most robots fail on the factory floor",
+    "date": "2026-11-16",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/",
+    "summary": "Evan Beard explains how AI-native robotics could make automation easier to program and help American manufacturing compete globally.\nThe post The hidden reason most robots fail on the factory floor ap...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-boston-dynamics-atlas-humanoid-844",
+    "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
+    "date": "2026-11-17",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/",
+    "summary": "Boston Dynamics’ Atlas humanoid robot will undergo its first trials outside the automotive industry at a major semiconductor manufacturer in early 2027.\nThe post Boston Dynamics’ Atlas humanoid lands ...",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-genesis-ai-raises-500m-to-depl-719",
+    "title": "Genesis AI raises $500M to deploy glove-wearing robots",
+    "date": "2026-11-17",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
+    "summary": "Genesis AI's novel approach to training dexterous robots earned it $500 million in Series A funding.",
+    "category": "Funding",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-50518293",
     "title": "The world's fires changed while humanity hit pause",
     "date": "2026-11-16",
