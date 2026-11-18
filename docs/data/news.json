@@ -208,6 +208,101 @@
   {
     "policies": [],
     "companies": [
+      "zipline"
+    ],
+    "id": "zipline-uber-eats-houston-2026-11",
+    "title": "Uber Eats starts Zipline drone delivery near Houston, with Dallas next",
+    "date": "2026-11-17",
+    "source": "The Verge",
+    "source_type": "News",
+    "source_url": "https://www.theverge.com/transportation/1034794/uber-eats-zipline-drone-delivery-launch-texas-houston-dallas",
+    "summary": "Customers in Spring, Texas can now choose drone delivery; the aircraft lower orders on a tether from about 330 feet, carry up to 8 pounds and cover 10 miles. Zipline says it has completed 1 million deliveries in the Dallas area alone. The two companies set a joint goal in August of 1 million deliveries a day by 2029, a target rather than current volume.",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "zipline",
+      "uber",
+      "drone-delivery",
+      "texas"
+    ],
+    "sources": [
+      {
+        "url": "https://www.theverge.com/transportation/1034794/uber-eats-zipline-drone-delivery-launch-texas-houston-dallas",
+        "label": "The Verge"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "promise-robotics"
+    ],
+    "id": "promise-robotics-series-b-2026-11",
+    "title": "Promise Robotics raises a C$40M Series B and plans its first US home-framing plant in Phoenix in 2027",
+    "date": "2026-11-17",
+    "source": "Promise Robotics (PR Newswire via Yahoo Finance)",
+    "source_type": "Press Release",
+    "source_url": "https://finance.yahoo.com/real-estate/articles/promise-robotics-raises-40-million-140500681.html",
+    "summary": "White Star Capital led the round, with Horizons Ventures, Radical Ventures and PSP Investments. The company builds wall and floor panels robotically in Calgary and Nisku, Alberta, and says it has more than 2,500 housing units under contract across three markets. The round follows its October deal to build more than 1,250 D.R. Horton homes.",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "industrial-deployments",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "promise-robotics",
+      "funding",
+      "series-b",
+      "construction",
+      "housing"
+    ],
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/real-estate/articles/promise-robotics-raises-40-million-140500681.html",
+        "label": "Promise Robotics (PR Newswire via Yahoo Finance)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "valkryn-seed-2026-11",
+    "title": "Valkryn leaves stealth with $17M from a16z and others to test military robots and autonomous systems before fielding",
+    "date": "2026-11-17",
+    "source": "Valkryn (GlobeNewswire via Markets Insider)",
+    "source_type": "Press Release",
+    "source_url": "https://markets.businessinsider.com/news/stocks/valkryn-emerges-from-stealth-to-build-the-battle-lab-for-robotic-and-autonomous-warfare-1036773412",
+    "summary": "The total includes a $15M seed led by Andreessen Horowitz's American Dynamism fund. The Washington, D.C. company builds instrumented test ranges that score robotic and autonomous systems against government criteria; it does not build the systems it tests. It says it has won several funded contracts with Department of War test organizations within a year.",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "defense-procurement"
+    ],
+    "tags": [
+      "valkryn",
+      "funding",
+      "seed",
+      "defense",
+      "test-and-evaluation",
+      "a16z"
+    ],
+    "sources": [
+      {
+        "url": "https://markets.businessinsider.com/news/stocks/valkryn-emerges-from-stealth-to-build-the-battle-lab-for-robotic-and-autonomous-warfare-1036773412",
+        "label": "Valkryn (GlobeNewswire via Markets Insider)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
       "robotera"
     ],
     "id": "robotera-china-post-guangdong-2026-11",
@@ -303,6 +398,103 @@
       {
         "url": "https://www.caixinglobal.com/2026-11-17/nearing-ai-robotics-breakthrough-would-strain-production-unitree-founder-says-102505751.html",
         "label": "Caixin Global"
+      }
+    ]
+  },
+  {
+    "policies": [
+      "fedreg-2026-23529"
+    ],
+    "companies": [],
+    "id": "bis-remote-access-chips-rule-2026-11",
+    "title": "Commerce files a rule requiring licenses for chips sent to overseas data centers that serve Chinese companies",
+    "date": "2026-11-16",
+    "source": "Federal Register (public inspection)",
+    "source_type": "Primary",
+    "source_url": "https://www.federalregister.gov/public-inspection/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+    "summary": "The interim final rule, filed November 16 for publication on November 19, requires a license to ship advanced chips to a data center that gives companies headquartered in China or other D:5 countries more than 12 million TPP of aggregate compute. It adds license requirements for Indonesia, Malaysia, Singapore, Thailand and Brazil and rescinds the 2025 AI Diffusion Rule. The text does not mention robots; its reach is the training compute that robot foundation models need.",
+    "category": "Policy",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "themes": [
+      "policy-momentum"
+    ],
+    "tags": [
+      "export-controls",
+      "bis",
+      "commerce",
+      "semiconductors",
+      "china",
+      "compute"
+    ],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/public-inspection/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+        "label": "Federal Register (public inspection)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "miit-five-humanoid-industry-standards-2026-11",
+    "title": "China's MIIT issues five humanoid-robot industry standards, including an L0 to L5 intelligence grading",
+    "date": "2026-11-16",
+    "source": "The Paper",
+    "source_type": "News",
+    "source_url": "https://www.thepaper.cn/newsDetail_forward_34492647",
+    "summary": "MIIT Announcement No. 30 of 2026 released five standards from its humanoid and embodied-AI standards committee, in force on release. They cover intelligence grading (L0 to L5 across perception, decision, execution and collaboration), integrated joint drives, dexterous hands, training-ground construction and training-data management. They are industry standards, separate from the six national standards that take effect in April 2027.",
+    "category": "Policy",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "tags": [
+      "china",
+      "miit",
+      "standards",
+      "humanoid",
+      "training-data"
+    ],
+    "sources": [
+      {
+        "url": "https://www.thepaper.cn/newsDetail_forward_34492647",
+        "label": "The Paper"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "figure-ai"
+    ],
+    "id": "figure-adcock-moonshots-capacity-2026-11",
+    "title": "Figure's CEO says it has well over a thousand robots, BotQ can build about 40,000 a year, and China is its closest competitor",
+    "date": "2026-11-16",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/brett-adcock-moonshots-helix-3-homes-six-months",
+    "summary": "Brett Adcock made the claims on the Moonshots podcast. The 40,000 figure is stated full-rate capacity across four lines, not current output, and the robot count is not a count of units with customers. He said Figure tests in 20 to 100 California homes at a time and will sell for homes only after safety and reliability are shown.",
+    "category": "Competitive",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "industrial-deployments",
+      "china-scale"
+    ],
+    "tags": [
+      "figure-ai",
+      "humanoid",
+      "botq",
+      "manufacturing-capacity",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://www.humanoidsdaily.com/news/brett-adcock-moonshots-helix-3-homes-six-months",
+        "label": "Humanoids Daily"
       }
     ]
   },

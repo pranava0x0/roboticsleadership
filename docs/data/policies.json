@@ -1,5 +1,43 @@
 [
   {
+    "id": "fedreg-2026-23529",
+    "title": "Commerce interim final rule: Addressing Remote Access to Advanced Semiconductors",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-11-16",
+    "status": "Introduced",
+    "bill_number": "2026-23529",
+    "sponsor": "U.S. Department of Commerce, Bureau of Industry and Security",
+    "summary": "Interim final rule filed for public inspection on November 16, 2026 and scheduled for Federal Register publication on November 19, when it takes effect; comments are due 60 days later. It requires a license to export advanced chips and servers to a data center that gives companies headquartered in China or other Country Group D:5 destinations access to more than 12 million TPP of aggregate compute, adds license requirements for Indonesia, Malaysia, Singapore, Thailand and Brazil, and rescinds the 2025 AI Diffusion Rule.",
+    "full_text_url": "https://public-inspection.federalregister.gov/2026-23529.pdf",
+    "robotics_scope": "No robotics provision; the rule text does not mention robots. It governs remote access to the data-center compute used to train robot foundation models, not edge chips such as Jetson modules.",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [
+      "doc"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal-register",
+      "federal",
+      "export-controls",
+      "semiconductors",
+      "china",
+      "interim-final-rule"
+    ],
+    "themes": [
+      "policy-momentum"
+    ],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/public-inspection/2026-23529/addressing-remote-access-to-advanced-semiconductors"
+      }
+    ],
+    "last_updated": "2026-11-18"
+  },
+  {
     "id": "nhtsa-fmvss-108-ads-lighting-nprm-2026",
     "title": "NHTSA proposal to update FMVSS No. 108 lighting for driverless vehicles, including cyan marker lamps",
     "type": "Regulation",
