@@ -1251,6 +1251,15 @@
         "status": "planned",
         "use_case": "electric Atlas deployment across Hyundai/Kia global plants; opened a Robotics Metaplant Application Center (RMAC) at the Georgia site 2026-09-21 to train Atlas for manufacturing tasks ahead of a 2028 Georgia / 2029 Kia Georgia start; US production line targeted at 30,000 robots/year with a companion actuator plant for 350,000 actuators/year from 2028",
         "source_url": "https://bostondynamics.com/news/boston-dynamics-opens-robotics-metaplant-application-center-to-train-humanoid-robots-for-manufacturing-tasks"
+      },
+      {
+        "customer": "GlobalFoundries",
+        "location": "GlobalFoundries fabs (Spot fleet incl. Singapore; Atlas sites not disclosed)",
+        "robot_count": null,
+        "start_date": "2027",
+        "status": "planned",
+        "use_case": "Atlas trial in semiconductor manufacturing from early 2027, the first outside the car industry; Spot fleet expanded after two Singapore units ran 90,000+ sub-fab inspections since April 2026",
+        "source_url": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/"
       }
     ],
     "headcount": 500,
@@ -1284,9 +1293,12 @@
       },
       {
         "url": "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/"
+      },
+      {
+        "url": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/"
       }
     ],
-    "last_updated": "2026-11-16",
+    "last_updated": "2026-11-18",
     "themes": [
       "industrial-deployments",
       "us-supply-chain"
@@ -6003,15 +6015,28 @@
         ],
         "url": "https://www.therobotreport.com/genesis-ai-raises-105m-building-universal-robotics-foundation-model/",
         "confidence": "confirmed"
+      },
+      {
+        "date": "2026-11",
+        "round": "Series A",
+        "amount_usd": 500000000,
+        "valuation_usd": 3500000000,
+        "investors": [
+          "Khosla Ventures",
+          "Premji Invest",
+          "Eclipse Ventures"
+        ],
+        "url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
+        "confidence": "confirmed"
       }
     ],
-    "total_funding_usd": 105000000,
-    "latest_valuation_usd": null,
+    "total_funding_usd": 605000000,
+    "latest_valuation_usd": 3500000000,
     "robot_types": [
       "foundation_model"
     ],
     "primary_use_case": "general-purpose robot foundation models",
-    "flagship_product": "GENE-26.5 (robotics foundation model)",
+    "flagship_product": "Eno (wheeled two-armed robot) and GENE-26.5 (robotics foundation model)",
     "deployments": [
       {
         "customer": "LG CNS",
@@ -6021,6 +6046,15 @@
         "status": "pilot",
         "start_date": "2026-06",
         "source_url": "https://theaiinsider.tech/2026/06/16/genesis-ai-and-lg-cns-enter-strategic-partnership-to-scale-general-purpose-robotics-across-enterprise-operations/"
+      },
+      {
+        "customer": "Undisclosed customers",
+        "location": "USA",
+        "robot_count": null,
+        "use_case": "Eno pilots; 30 to 40 Enos built as of Nov 2026, US contract manufacturer chosen for mass production from 2027",
+        "status": "pilot",
+        "start_date": "2026-11",
+        "source_url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/"
       }
     ],
     "headcount": null,
@@ -6058,9 +6092,12 @@
       },
       {
         "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/"
+      },
+      {
+        "url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/"
       }
     ],
-    "last_updated": "2026-06-16",
+    "last_updated": "2026-11-18",
     "themes": [
       "foundation-models",
       "physical-ai"
@@ -6070,7 +6107,7 @@
       "revenue_year": null,
       "net_income_usd": null,
       "net_income_year": null,
-      "details": "Private robotics-foundation-model startup (dual HQ Palo Alto and Paris). Pre-revenue. Emerged from stealth July 2025 with a $105M seed co-led by Eclipse Ventures and Khosla Ventures; unveiled its first model, GENE-26.5, in May 2026.",
+      "details": "Private robotics-foundation-model startup (dual HQ Palo Alto and Paris). Pre-revenue. Emerged from stealth July 2025 with a $105M seed co-led by Eclipse Ventures and Khosla Ventures; unveiled its first model, GENE-26.5, in May 2026. Raised a $500M Series A at a $3.5B post-money valuation in November 2026 (about $605M in total).",
       "sources": [
         {
           "url": "https://www.prnewswire.com/news-releases/genesis-ai-emerges-from-stealth-with-105m-to-build-universal-robotics-foundation-model-and-horizontal-platform-for-general-purpose-physical-ai-302495016.html"

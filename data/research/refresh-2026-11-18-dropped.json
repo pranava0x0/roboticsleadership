@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-18",
+  "dropped": [
+    {
+      "id": "hn-50537523",
+      "title": "Java Valhalla: Use of == on value types",
+      "source_url": "https://humanoid-readable.claude-martin.ch/2026/11/17/value-types/",
+      "date": "2026-11-17",
+      "reason": "Java language post, not robotics"
+    },
+    {
+      "id": "hn-50529319",
+      "title": "Aftermath of the Great Reset: The Era of Extensible Robotics",
+      "source_url": "https://breadcrumb.vc/aftermath-of-the-great-reset-the-era-of-extensible-robotics-537646d51cdb",
+      "date": "2026-11-17",
+      "reason": "opinion essay, no news"
+    },
+    {
+      "id": "hn-50531728",
+      "title": "Show HN: Darkroomfinder.org – A Directory of Photography Darkrooms",
+      "source_url": "https://darkroomfinder.org/",
+      "date": "2026-11-17",
+      "reason": "photography directory, not robotics"
+    },
+    {
+      "id": "hn-50531806",
+      "title": "French robot maker Genesis raises $500M at $3.5B valuation",
+      "source_url": "https://www.channelnewsasia.com/business/french-robot-maker-genesis-raises-500-million-35-billion-valuation-6559521",
+      "date": "2026-11-17",
+      "reason": "folded into genesis-ai-series-a-2026-11"
+    },
+    {
+      "id": "hn-50531958",
+      "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+      "source_url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+      "date": "2026-11-17",
+      "reason": "Foundation missed payroll already tracked (2026-11-15)"
+    },
+    {
+      "id": "hn-50532006",
+      "title": "Mino – Hackable ROS 2 robot with on-device stereo vision and a local LLM",
+      "source_url": "https://mino.bot",
+      "date": "2026-11-17",
+      "reason": "hobby robot project"
+    },
+    {
+      "id": "hn-50533407",
+      "title": "Show HN: Peppy, a simplified robotics framework for regular devs",
+      "source_url": "https://docs.peppy.bot/quickstart/",
+      "date": "2026-11-17",
+      "reason": "Show HN framework, no adoption figures"
+    },
+    {
+      "id": "hn-50534042",
+      "title": "I created a livestream where you control a $4k Robot [video]",
+      "source_url": "https://www.youtube.com/watch?v=k_0LsB3UOSk",
+      "date": "2026-11-17",
+      "reason": "livestream video"
+    },
+    {
+      "id": "hn-50534330",
+      "title": "Show HN: Skjalf TV, Steam Deck native, controller-first IPTV player",
+      "source_url": "https://github.com/bikemazzell/skjalf-tv",
+      "date": "2026-11-17",
+      "reason": "IPTV player, not robotics"
+    },
+    {
+      "id": "hn-50534542",
+      "title": "Show HN: Solarian – Open-source Python framework for AI robots",
+      "source_url": "https://solarian.dev",
+      "date": "2026-11-17",
+      "reason": "Show HN framework, no adoption figures"
+    },
+    {
+      "id": "hn-50535060",
+      "title": "Training a bimanual robot policy by streaming versioned datasets into PyTorch",
+      "source_url": "https://foxglove.dev/blog/training-a-bimanual-policy-on-foxglove-datasets",
+      "date": "2026-11-17",
+      "reason": "tutorial"
+    },
+    {
+      "id": "hn-50535487",
+      "title": "Gemini 4 Hydrogen: a faster model for general purpose robotics",
+      "source_url": "https://developers.googleblog.com/gemini-hydrogen-for-robotics/",
+      "date": "2026-11-17",
+      "reason": "folded into gemini-4-hydrogen-robotics-2026-11"
+    },
+    {
+      "id": "hn-50535609",
+      "title": "I had an LLM edit a robot policy's weights directly, no fine-tuning",
+      "source_url": "https://www.abdulrahimmirani.com/research/vla-weight-editing",
+      "date": "2026-11-17",
+      "reason": "blog experiment"
+    },
+    {
+      "id": "hn-50536219",
+      "title": "GM plans 20% boost in robotics as factory costs rise",
+      "source_url": "https://www.reuters.com/business/autos-transportation/gm-plans-20-boost-robotics-factory-costs-rise-2026-11-17/",
+      "date": "2026-11-17",
+      "reason": "folded into gm-automation-20pct-2028-2026-11"
+    },
+    {
+      "id": "hn-50538812",
+      "title": "Alloy physics engine for robot learning",
+      "source_url": "https://alloy.argonrobotics.ai/",
+      "date": "2026-11-17",
+      "reason": "physics engine release, no adoption figures"
+    },
+    {
+      "id": "hn-50540056",
+      "title": "U.N. Starts Uncertain Effort to Regulate Lethal Autonomous Weapons",
+      "source_url": "https://www.nytimes.com/2026/11/16/world/europe/un-killer-robots-autonomous-weapons.html",
+      "date": "2026-11-18",
+      "reason": "UN autonomous-weapons talks already tracked (2026-11-16)"
+    },
+    {
+      "id": "hn-50540106",
+      "title": "Build-a-Pal – Offline robot kids teach by voice and gesture",
+      "source_url": "https://www.indiegogo.com/en/projects/ghassen/build-a-pal",
+      "date": "2026-11-18",
+      "reason": "toy product"
+    },
+    {
+      "id": "hn-50543428",
+      "title": "Show HN:openRocode–let multimodal models drive robots the way they use computers",
+      "source_url": "https://github.com/wrencanfly/openRocode/tree/main",
+      "date": "2026-11-18",
+      "reason": "Show HN project"
+    },
+    {
+      "id": "rss-lightwheel-details-robofinals-614",
+      "title": "Lightwheel Details RoboFinals RL Environments for Long-Horizon Robot Training",
+      "source_url": "https://pandaily.com/lightwheel-robofinals-rl-environments-long-horizon-robot-training",
+      "date": "2026-11-18",
+      "reason": "simulation product detail, no figures"
+    },
+    {
+      "id": "rss-boston-dynamics-atlas-humanoid-605",
+      "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
+      "source_url": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/",
+      "date": "2026-11-17",
+      "reason": "folded into boston-dynamics-globalfoundries-atlas-2026-11"
+    },
+    {
+      "id": "rss-learn-how-ai-is-changing-suppl-893",
+      "title": "Learn how AI is changing supply chain robotics",
+      "source_url": "https://www.therobotreport.com/learn-how-ai-is-changing-supply-chain-robotics/",
+      "date": "2026-11-17",
+      "reason": "webinar promotion"
+    },
+    {
+      "id": "rss-california-dmv-bars-waymo-avs-636",
+      "title": "California DMV bars Waymo AVs from operating on the state’s freeways",
+      "source_url": "https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/",
+      "date": "2026-11-17",
+      "reason": "folded into waymo-california-dmv-freeway-ban-2026-11"
+    },
+    {
+      "id": "rss-genesis-ai-raises-500m-to-depl-693",
+      "title": "Genesis AI raises $500M to deploy glove-wearing robots",
+      "source_url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
+      "date": "2026-11-17",
+      "reason": "folded into genesis-ai-series-a-2026-11"
+    }
+  ]
+}
