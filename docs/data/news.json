@@ -2,6 +2,307 @@
   {
     "policies": [],
     "companies": [
+      "genesis-ai"
+    ],
+    "id": "genesis-ai-series-a-2026-11",
+    "title": "Genesis AI raises a $500M Series A at a $3.5B valuation and picks a US contract manufacturer for its Eno robot",
+    "date": "2026-11-17",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
+    "summary": "Khosla Ventures, Premji Invest and Eclipse led the round, which brings Genesis to about $605M raised since its $105M seed in July 2025. The company trains on force data from sensor gloves worn by more than 100 workers and says it has built 30 to 40 Eno robots, now in pilots with a few undisclosed customers. It says a contract manufacturer will start mass production in the US next year but gave no volume.",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "tags": [
+      "genesis-ai",
+      "funding",
+      "series-a",
+      "dexterity",
+      "humanoid",
+      "us-manufacturing"
+    ],
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.forbes.com/sites/johnkoetsier/2026/11/17/genesis-ai-raised-500-million-to-create-human-level-robot-hands/",
+        "label": "Forbes"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "boston-dynamics"
+    ],
+    "id": "boston-dynamics-globalfoundries-atlas-2026-11",
+    "title": "GlobalFoundries will test Atlas in its chip fabs from early 2027, the humanoid's first customer outside the car industry",
+    "date": "2026-11-17",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/",
+    "summary": "GlobalFoundries also expands its Spot fleet across its fabs; two Spots in Singapore have run more than 90,000 sub-fab inspections since April 2026 with a 99% mission success rate. The companies did not say how many Atlas units, which fabs, or which tasks the trial covers. Until now Atlas trials ran inside Hyundai Motor Group plants.",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "boston-dynamics",
+      "atlas",
+      "spot",
+      "globalfoundries",
+      "semiconductors",
+      "humanoid"
+    ],
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/",
+        "label": "The Robot Report"
+      },
+      {
+        "url": "https://www.bizjournals.com/albany/news/2026/11/17/globalfoundries-boston-dynamics-robots.html",
+        "label": "Albany Business Review"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "nvidia-q3-fy27-export-committee-2026-11",
+    "title": "NVIDIA reports $115.8B quarterly revenue, assumes no China data-center sales next quarter, and creates a board export-control committee",
+    "date": "2026-11-17",
+    "source": "NVIDIA",
+    "source_type": "Press Release",
+    "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+    "summary": "Revenue rose 103% from a year earlier and the fourth-quarter outlook is $130B plus or minus 3%, with no Data Center compute revenue from China assumed. The same day the board set up a standing National Security and Export Control Oversight Committee, chaired by Suzanne Nora Johnson, to which the company's trade-compliance team now reports. The release lists Isaac, Jetson Thor and Cosmos updates but gives no separate robotics revenue figure.",
+    "category": "Policy",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "themes": [
+      "policy-momentum",
+      "physical-ai"
+    ],
+    "tags": [
+      "nvidia",
+      "earnings",
+      "export-controls",
+      "china",
+      "jetson-thor"
+    ],
+    "sources": [
+      {
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+        "label": "NVIDIA"
+      },
+      {
+        "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+        "label": "NVIDIA"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "gm-automation-20pct-2028-2026-11",
+    "title": "GM aims to raise robot and automation use 20% in its North American plants by 2028, Reuters reports",
+    "date": "2026-11-17",
+    "source": "Reuters",
+    "source_type": "News",
+    "source_url": "https://www.reuters.com/business/autos-transportation/gm-plans-20-boost-robotics-factory-costs-rise-2026-11-17/",
+    "summary": "Two people familiar with the plan told Reuters that GM will build its own mobile robots at its Kokomo, Indiana plant and is weighing how much automation its suppliers use when it picks them. The reported reason is higher factory costs. GM has not announced the target itself.",
+    "category": "Deployment",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "industrial-deployments",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "general-motors",
+      "automotive",
+      "automation",
+      "mobile-robots",
+      "indiana"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reuters.com/business/autos-transportation/gm-plans-20-boost-robotics-factory-costs-rise-2026-11-17/",
+        "label": "Reuters"
+      },
+      {
+        "url": "https://ijr.com/discover/gm-plans-20-factory-automation-increase-by-2028-94cf08ad",
+        "label": "IJR"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "gemini-4-hydrogen-robotics-2026-11",
+    "title": "Google ships Gemini 4 Hydrogen, a faster robot-control model, with a robotics plugin for its Antigravity coding tool",
+    "date": "2026-11-17",
+    "source": "Google Developers Blog",
+    "source_type": "Primary",
+    "source_url": "https://developers.googleblog.com/gemini-hydrogen-for-robotics/",
+    "summary": "Hydrogen is the smaller, faster sibling of Gemini 4 Argon and Carbon and keeps their ability to drive a robot arm from camera images given a plain-language goal. The Antigravity plugin bundles skills for hardware onboarding, simulation and robot control. Google pitches it as taking a developer from a robot in a box to a working application in an afternoon.",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "foundation-models"
+    ],
+    "tags": [
+      "google",
+      "deepmind",
+      "gemini",
+      "robot-foundation-model",
+      "developer-tools"
+    ],
+    "sources": [
+      {
+        "url": "https://developers.googleblog.com/gemini-hydrogen-for-robotics/",
+        "label": "Google Developers Blog"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "waymo-california-dmv-freeway-ban-2026-11",
+    "title": "California DMV bars Waymo from its freeways; Waymo pauses freeway driving in every market",
+    "date": "2026-11-17",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/",
+    "summary": "The DMV issued the order on November 11 after three Waymo vehicles entered an active construction closure on US 101 near Burlingame and another passed a Highway Patrol traffic stop on Highway 280, finding an \"imminent hazard\". The ban covers operating and testing on all California freeways until Waymo shows it can handle construction zones and emergency vehicles. City-street service, which Waymo puts at over half a million trips a week, continues.",
+    "category": "Policy",
+    "sentiment": "Negative",
+    "confidence": "High",
+    "themes": [
+      "policy-momentum"
+    ],
+    "tags": [
+      "waymo",
+      "california",
+      "dmv",
+      "robotaxi",
+      "autonomous-vehicles",
+      "regulation"
+    ],
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/",
+        "label": "The Robot Report"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "zipline"
+    ],
+    "id": "zipline-uber-eats-houston-2026-11",
+    "title": "Uber Eats starts Zipline drone delivery near Houston, with Dallas next",
+    "date": "2026-11-17",
+    "source": "The Verge",
+    "source_type": "News",
+    "source_url": "https://www.theverge.com/transportation/1034794/uber-eats-zipline-drone-delivery-launch-texas-houston-dallas",
+    "summary": "Customers in Spring, Texas can now choose drone delivery; the aircraft lower orders on a tether from about 330 feet, carry up to 8 pounds and cover 10 miles. Zipline says it has completed 1 million deliveries in the Dallas area alone. The two companies set a joint goal in August of 1 million deliveries a day by 2029, a target rather than current volume.",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "zipline",
+      "uber",
+      "drone-delivery",
+      "texas"
+    ],
+    "sources": [
+      {
+        "url": "https://www.theverge.com/transportation/1034794/uber-eats-zipline-drone-delivery-launch-texas-houston-dallas",
+        "label": "The Verge"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "promise-robotics"
+    ],
+    "id": "promise-robotics-series-b-2026-11",
+    "title": "Promise Robotics raises a C$40M Series B and plans its first US home-framing plant in Phoenix in 2027",
+    "date": "2026-11-17",
+    "source": "Promise Robotics (PR Newswire via Yahoo Finance)",
+    "source_type": "Press Release",
+    "source_url": "https://finance.yahoo.com/real-estate/articles/promise-robotics-raises-40-million-140500681.html",
+    "summary": "White Star Capital led the round, with Horizons Ventures, Radical Ventures and PSP Investments. The company builds wall and floor panels robotically in Calgary and Nisku, Alberta, and says it has more than 2,500 housing units under contract across three markets. The round follows its October deal to build more than 1,250 D.R. Horton homes.",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "industrial-deployments",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "promise-robotics",
+      "funding",
+      "series-b",
+      "construction",
+      "housing"
+    ],
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/real-estate/articles/promise-robotics-raises-40-million-140500681.html",
+        "label": "Promise Robotics (PR Newswire via Yahoo Finance)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "valkryn-seed-2026-11",
+    "title": "Valkryn leaves stealth with $17M from a16z and others to test military robots and autonomous systems before fielding",
+    "date": "2026-11-17",
+    "source": "Valkryn (GlobeNewswire via Markets Insider)",
+    "source_type": "Press Release",
+    "source_url": "https://markets.businessinsider.com/news/stocks/valkryn-emerges-from-stealth-to-build-the-battle-lab-for-robotic-and-autonomous-warfare-1036773412",
+    "summary": "The total includes a $15M seed led by Andreessen Horowitz's American Dynamism fund. The Washington, D.C. company builds instrumented test ranges that score robotic and autonomous systems against government criteria; it does not build the systems it tests. It says it has won several funded contracts with Department of War test organizations within a year.",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "defense-procurement"
+    ],
+    "tags": [
+      "valkryn",
+      "funding",
+      "seed",
+      "defense",
+      "test-and-evaluation",
+      "a16z"
+    ],
+    "sources": [
+      {
+        "url": "https://markets.businessinsider.com/news/stocks/valkryn-emerges-from-stealth-to-build-the-battle-lab-for-robotic-and-autonomous-warfare-1036773412",
+        "label": "Valkryn (GlobeNewswire via Markets Insider)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
       "robotera"
     ],
     "id": "robotera-china-post-guangdong-2026-11",
@@ -97,6 +398,103 @@
       {
         "url": "https://www.caixinglobal.com/2026-11-17/nearing-ai-robotics-breakthrough-would-strain-production-unitree-founder-says-102505751.html",
         "label": "Caixin Global"
+      }
+    ]
+  },
+  {
+    "policies": [
+      "fedreg-2026-23529"
+    ],
+    "companies": [],
+    "id": "bis-remote-access-chips-rule-2026-11",
+    "title": "Commerce files a rule requiring licenses for chips sent to overseas data centers that serve Chinese companies",
+    "date": "2026-11-16",
+    "source": "Federal Register (public inspection)",
+    "source_type": "Primary",
+    "source_url": "https://www.federalregister.gov/public-inspection/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+    "summary": "The interim final rule, filed November 16 for publication on November 19, requires a license to ship advanced chips to a data center that gives companies headquartered in China or other D:5 countries more than 12 million TPP of aggregate compute. It adds license requirements for Indonesia, Malaysia, Singapore, Thailand and Brazil and rescinds the 2025 AI Diffusion Rule. The text does not mention robots; its reach is the training compute that robot foundation models need.",
+    "category": "Policy",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "themes": [
+      "policy-momentum"
+    ],
+    "tags": [
+      "export-controls",
+      "bis",
+      "commerce",
+      "semiconductors",
+      "china",
+      "compute"
+    ],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/public-inspection/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+        "label": "Federal Register (public inspection)"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [],
+    "id": "miit-five-humanoid-industry-standards-2026-11",
+    "title": "China's MIIT issues five humanoid-robot industry standards, including an L0 to L5 intelligence grading",
+    "date": "2026-11-16",
+    "source": "The Paper",
+    "source_type": "News",
+    "source_url": "https://www.thepaper.cn/newsDetail_forward_34492647",
+    "summary": "MIIT Announcement No. 30 of 2026 released five standards from its humanoid and embodied-AI standards committee, in force on release. They cover intelligence grading (L0 to L5 across perception, decision, execution and collaboration), integrated joint drives, dexterous hands, training-ground construction and training-data management. They are industry standards, separate from the six national standards that take effect in April 2027.",
+    "category": "Policy",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "tags": [
+      "china",
+      "miit",
+      "standards",
+      "humanoid",
+      "training-data"
+    ],
+    "sources": [
+      {
+        "url": "https://www.thepaper.cn/newsDetail_forward_34492647",
+        "label": "The Paper"
+      }
+    ]
+  },
+  {
+    "policies": [],
+    "companies": [
+      "figure-ai"
+    ],
+    "id": "figure-adcock-moonshots-capacity-2026-11",
+    "title": "Figure's CEO says it has well over a thousand robots, BotQ can build about 40,000 a year, and China is its closest competitor",
+    "date": "2026-11-16",
+    "source": "Humanoids Daily",
+    "source_type": "News",
+    "source_url": "https://www.humanoidsdaily.com/news/brett-adcock-moonshots-helix-3-homes-six-months",
+    "summary": "Brett Adcock made the claims on the Moonshots podcast. The 40,000 figure is stated full-rate capacity across four lines, not current output, and the robot count is not a count of units with customers. He said Figure tests in 20 to 100 California homes at a time and will sell for homes only after safety and reliability are shown.",
+    "category": "Competitive",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "industrial-deployments",
+      "china-scale"
+    ],
+    "tags": [
+      "figure-ai",
+      "humanoid",
+      "botq",
+      "manufacturing-capacity",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://www.humanoidsdaily.com/news/brett-adcock-moonshots-helix-3-homes-six-months",
+        "label": "Humanoids Daily"
       }
     ]
   },

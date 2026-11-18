@@ -22,7 +22,7 @@ const rootArg = process.argv.indexOf('--root');
 const DOCS = rootArg > -1 ? resolve(process.argv[rootArg + 1]) : resolve(REPO, 'docs');
 
 // Derived and gitignored (render-static.js writes it); not source.
-const SKIP = new Set(['data/news-recent.json']);
+const SKIP = new Set(['data/news-recent.json', 'data/install-trend.json']);
 const EXTS = new Set(['.html', '.js', '.css', '.json', '.txt', '.xml']);
 
 function walk(dir) {

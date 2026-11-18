@@ -27,7 +27,7 @@
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preload" as="fetch" href="data/companies.json" crossorigin />
   <link rel="preload" as="fetch" href="data/news-recent.json" crossorigin />
-  <link rel="preload" as="fetch" href="data/supply_chain.json" crossorigin />
+  <link rel="preload" as="fetch" href="data/install-trend.json" crossorigin />
   <!--jsonld:start-->
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://pranava0x0.github.io/roboticsleadership/#website","name":"Robotics Leadership Tracker","url":"https://pranava0x0.github.io/roboticsleadership/","inLanguage":"en","creator":{"@type":"Person","name":"Pranava Raparla","url":"https://pranavaraparla.com"}},{"@type":"WebPage","@id":"https://pranava0x0.github.io/roboticsleadership/#webpage","name":"Robotics — How the U.S. can Lead","description":"Funding, deployments, supply chain and policy in US and Chinese robotics.","url":"https://pranava0x0.github.io/roboticsleadership/","inLanguage":"en","isPartOf":{"@id":"https://pranava0x0.github.io/roboticsleadership/#website"}}]}</script>
   <!--jsonld:end-->
@@ -147,17 +147,18 @@
   <script src="assets/app.js" defer></script>
   <script defer>
   document.addEventListener('DOMContentLoaded', async () => {
-    // supply_chain feeds the install-gap figure and us_china the edge board;
+    // install-trend (supply_chain's production_trend, derived at bake) feeds the
+    // install-gap figure and us_china the edge board;
     // if either fails, that block stays empty and the rest renders (loadData
     // already logs).
     // The front page renders ten stories and a total, so it loads the derived
     // news-recent.json (latest 60 + count), not the whole archive.
-    const [companies, policies, themes, recent, sc, uc] = await Promise.all([
+    const [companies, policies, themes, recent, trend, uc] = await Promise.all([
       RT.loadData('companies'),
       RT.loadData('policies'),
       RT.loadData('themes'),
       RT.loadNewsRecent(),
-      RT.loadData('supply_chain').catch(() => null),
+      RT.loadInstallTrend().catch(() => null),
       RT.loadData('us_china').catch(() => null),
     ]);
 
@@ -182,7 +183,7 @@
       RT.renderNewsBriefs(front.briefs, recent.total));
 
     // ---------- Install gap and edge board ----------
-    if (sc) RT.paint(document.getElementById('install-gap'), RT.renderInstallGap(sc.production_trend));
+    if (trend) RT.paint(document.getElementById('install-gap'), RT.renderInstallGap(trend));
     if (uc) RT.paint(document.getElementById('edge-board'), RT.renderEdgeBoard(uc));
 
     // ---------- Themes ----------

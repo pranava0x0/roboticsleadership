@@ -208,6 +208,10 @@ ok(index.includes('href="companies.html?sort=funding-desc"'), 'baked KPI cards k
     'front page from the trimmed payload matches the front page from the whole archive');
   const onDisk = JSON.parse(readFileSync(resolve(DOCS, 'data/news-recent.json'), 'utf8'));
   eq(onDisk.total, news.length, 'bake wrote docs/data/news-recent.json for the current news.json');
+  const sc = JSON.parse(readFileSync(resolve(DOCS, 'data/supply_chain.json'), 'utf8'));
+  const trend = JSON.parse(readFileSync(resolve(DOCS, 'data/install-trend.json'), 'utf8'));
+  eq(JSON.stringify(trend.production_trend), JSON.stringify(sc.production_trend), 'bake wrote docs/data/install-trend.json matching supply_chain.production_trend');
+  eq(RT2.renderInstallGap(trend.production_trend), RT2.renderInstallGap(sc.production_trend), 'install-gap chart is identical from the trimmed payload');
 }
 
 // ---------- Committed pages must stay un-baked ----------

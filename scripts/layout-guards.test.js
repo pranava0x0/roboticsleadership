@@ -86,6 +86,9 @@ test('front page loads the trimmed news payload, never the whole archive', () =>
   assert(!/RT\.loadAll\(\)/.test(index), 'index.html loads everything via loadAll()');
   assert(/RT\.loadNewsRecent\(\)/.test(index), 'index.html does not use loadNewsRecent()');
   assert(!/href="data\/news\.json"/.test(index), 'index.html still preloads data/news.json');
+  // 2026-11-18: the install-gap chart needs production_trend only (~3 KB of ~30 KB gzip).
+  assert(!/loadData\('supply_chain'\)|href="data\/supply_chain\.json"/.test(index), 'index.html fetches all of supply_chain.json for one chart');
+  assert(/RT\.loadInstallTrend\(\)/.test(index), 'index.html does not use loadInstallTrend()');
 });
 
 test('companies and policies paint without the news archive; news.json loads only when a detail sheet opens (2026-11-15, B1)', () => {
