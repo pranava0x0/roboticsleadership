@@ -966,6 +966,20 @@
     }
   }
 
+  // The install-gap chart needs supply_chain.production_trend (~3 KB), not the whole
+  // supply_chain.json (~30 KB gzip). The bake derives data/install-trend.json
+  // (gitignored) with this function; loadInstallTrend() falls back to the full file.
+  function installTrendPayload(sc) {
+    return { production_trend: (sc && sc.production_trend) || [] };
+  }
+  async function loadInstallTrend() {
+    try {
+      return (await loadData('install-trend')).production_trend;
+    } catch (err) {
+      return installTrendPayload(await loadData('supply_chain')).production_trend;
+    }
+  }
+
   function newsResultCount(total, page, size) {
     if (total <= size) return `${total} ${total === 1 ? 'story' : 'stories'}`;
     const start = Math.min((page - 1) * size + 1, total);
@@ -1717,6 +1731,8 @@
     latestNews,
     newsRecentPayload,
     loadNewsRecent,
+    installTrendPayload,
+    loadInstallTrend,
     newsResultCount,
     chinaTally,
     renderChinaBluf,

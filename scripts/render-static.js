@@ -197,6 +197,7 @@ export function bakeAll({ write = false } = {}) {
   // Derived artifact the front page fetches instead of the whole archive. Written in
   // both modes: it is gitignored, so a check-only run leaves nothing to commit.
   writeFileSync(resolve(DOCS, 'data/news-recent.json'), JSON.stringify(RT.newsRecentPayload(data.news)) + '\n');
+  writeFileSync(resolve(DOCS, 'data/install-trend.json'), JSON.stringify(RT.installTrendPayload(data.supply_chain)) + '\n');
   for (const [page, slotsFor] of Object.entries(PAGES)) {
     const file = resolve(DOCS, page);
     const slots = slotsFor(RT, data);
