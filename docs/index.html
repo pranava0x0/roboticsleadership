@@ -25,7 +25,7 @@
     (function(){var s=localStorage.getItem('theme'),l={light:'naked-sun',dark:'caves'},v=['caves','naked-sun','dawn','robot-dreams','foundation'],t;if(s&&v.indexOf(s)>=0)t=s;else if(s&&l[s]){t=l[s];try{localStorage.setItem('theme',t)}catch(e){}}else t=window.matchMedia('(prefers-color-scheme: dark)').matches?'caves':'dawn';document.documentElement.setAttribute('data-theme',t);})();
   </script>
   <link rel="stylesheet" href="assets/styles.css" />
-  <link rel="preload" as="fetch" href="data/companies.json" crossorigin />
+  <link rel="preload" as="fetch" href="data/front-summary.json" crossorigin />
   <link rel="preload" as="fetch" href="data/news-recent.json" crossorigin />
   <link rel="preload" as="fetch" href="data/install-trend.json" crossorigin />
   <!--jsonld:start-->
@@ -153,9 +153,10 @@
     // already logs).
     // The front page renders ten stories and a total, so it loads the derived
     // news-recent.json (latest 60 + count), not the whole archive.
-    const [companies, policies, themes, recent, trend, uc] = await Promise.all([
-      RT.loadData('companies'),
-      RT.loadData('policies'),
+    // KPIs, the ranked companies and the pill names come from the derived
+    // front-summary.json, not the whole companies and policies files.
+    const [summary, themes, recent, trend, uc] = await Promise.all([
+      RT.loadFrontSummary(),
       RT.loadData('themes'),
       RT.loadNewsRecent(),
       RT.loadInstallTrend().catch(() => null),
@@ -166,7 +167,7 @@
     // from these same RT.* functions, so this re-render reproduces what already
     // shipped in the HTML. Page markup belongs in app.js, not inline here —
     // anything defined in this script is invisible to the bake step.
-    const kpis = RT.computeKPIs(companies, policies);
+    const { kpis, companies, policies } = summary;
     const strip = document.getElementById('kpi-strip');
     strip.className = RT.kpiStripClass(kpis);
     RT.paint(strip, RT.renderKPICards(kpis));

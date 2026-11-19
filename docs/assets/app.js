@@ -980,6 +980,29 @@
     }
   }
 
+  // The front page used companies.json (~67 KB gzip) and policies.json (~28 KB) for
+  // five KPI figures, six ranked rows and the names on story pills. The bake derives
+  // data/front-summary.json (gitignored) with this function: the KPIs computed from
+  // the full files, plus only the fields the front page reads. loadFrontSummary()
+  // falls back to building the same payload from the full files.
+  function frontSummaryPayload(companies, policies) {
+    return {
+      kpis: computeKPIs(companies || [], policies || []),
+      companies: (companies || []).map((c) => ({
+        id: c.id, name: c.name, hq: c.hq, primary_use_case: c.primary_use_case, latest_valuation_usd: c.latest_valuation_usd,
+      })),
+      policies: (policies || []).map((x) => ({ id: x.id, title: x.title, bill_number: x.bill_number })),
+    };
+  }
+  async function loadFrontSummary() {
+    try {
+      return await loadData('front-summary');
+    } catch (err) {
+      const [companies, policies] = await Promise.all([loadData('companies'), loadData('policies')]);
+      return frontSummaryPayload(companies, policies);
+    }
+  }
+
   function newsResultCount(total, page, size) {
     if (total <= size) return `${total} ${total === 1 ? 'story' : 'stories'}`;
     const start = Math.min((page - 1) * size + 1, total);
@@ -1733,6 +1756,8 @@
     loadNewsRecent,
     installTrendPayload,
     loadInstallTrend,
+    frontSummaryPayload,
+    loadFrontSummary,
     newsResultCount,
     chinaTally,
     renderChinaBluf,

@@ -198,6 +198,7 @@ export function bakeAll({ write = false } = {}) {
   // both modes: it is gitignored, so a check-only run leaves nothing to commit.
   writeFileSync(resolve(DOCS, 'data/news-recent.json'), JSON.stringify(RT.newsRecentPayload(data.news)) + '\n');
   writeFileSync(resolve(DOCS, 'data/install-trend.json'), JSON.stringify(RT.installTrendPayload(data.supply_chain)) + '\n');
+  writeFileSync(resolve(DOCS, 'data/front-summary.json'), JSON.stringify(RT.frontSummaryPayload(data.companies, data.policies)) + '\n');
   for (const [page, slotsFor] of Object.entries(PAGES)) {
     const file = resolve(DOCS, page);
     const slots = slotsFor(RT, data);

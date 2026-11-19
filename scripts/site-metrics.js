@@ -24,7 +24,7 @@ const BUDGET_GZ_KB = 260;
 
 // RT helpers in app.js that fetch datasets by name, so no data/*.json literal shows in the page.
 // mountCommissionNote is left out: it fetches only when the reader opens the section.
-const HELPER_FETCHES = { loadAll: ['companies', 'policies', 'news', 'themes'], loadNewsRecent: ['news-recent'], loadInstallTrend: ['install-trend'] };
+const HELPER_FETCHES = { loadAll: ['companies', 'policies', 'news', 'themes'], loadNewsRecent: ['news-recent'], loadInstallTrend: ['install-trend'], loadFrontSummary: ['front-summary'] };
 
 const gz = (buf) => zlib.gzipSync(buf, { level: 9 }).length;
 const read = (p) => fs.readFileSync(p);
@@ -84,6 +84,11 @@ for (const p of pages) {
     }
     if (rel === 'data/install-trend.json' && !fs.existsSync(f)) {
       const buf = Buffer.from(JSON.stringify(loadRT().installTrendPayload(JSON.parse(read(path.join(DOCS, 'data/supply_chain.json'))))));
+      raw += buf.length; zipped += gz(buf); parts.data += buf.length;
+      continue;
+    }
+    if (rel === 'data/front-summary.json' && !fs.existsSync(f)) {
+      const buf = Buffer.from(JSON.stringify(loadRT().frontSummaryPayload(JSON.parse(read(path.join(DOCS, 'data/companies.json'))), JSON.parse(read(path.join(DOCS, 'data/policies.json'))))));
       raw += buf.length; zipped += gz(buf); parts.data += buf.length;
       continue;
     }
