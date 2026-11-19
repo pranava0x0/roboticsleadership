@@ -329,3 +329,10 @@ test('phone news summaries clamp to three lines and open on tap (2026-11-16, sum
 
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);
+
+test('supply-chain shipment definitions ship closed behind one summary (2026-11-19)', () => {
+  const sc = read('supply-chain.html');
+  assert(/<details class="shipments-notes">\s*<summary>[^<]+<\/summary>\s*<div id="shipments-defs"/.test(sc), 'shipment definitions are not inside a closed details.shipments-notes');
+  assert(!/<details class="shipments-notes" open/.test(sc), 'shipment definitions ship open');
+});
+
