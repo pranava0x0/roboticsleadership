@@ -212,6 +212,19 @@ ok(index.includes('href="companies.html?sort=funding-desc"'), 'baked KPI cards k
   const trend = JSON.parse(readFileSync(resolve(DOCS, 'data/install-trend.json'), 'utf8'));
   eq(JSON.stringify(trend.production_trend), JSON.stringify(sc.production_trend), 'bake wrote docs/data/install-trend.json matching supply_chain.production_trend');
   eq(RT2.renderInstallGap(trend.production_trend), RT2.renderInstallGap(sc.production_trend), 'install-gap chart is identical from the trimmed payload');
+  // 2026-11-19: KPIs, ranked companies and story pills render the same from front-summary.json.
+  const cos = JSON.parse(readFileSync(resolve(DOCS, 'data/companies.json'), 'utf8'));
+  const pols = JSON.parse(readFileSync(resolve(DOCS, 'data/policies.json'), 'utf8'));
+  const fs2 = JSON.parse(readFileSync(resolve(DOCS, 'data/front-summary.json'), 'utf8'));
+  const front = RT2.frontPageStories(news);
+  eq(RT2.renderKPICards(fs2.kpis), RT2.renderKPICards(RT2.computeKPIs(cos, pols)), 'KPI cards are identical from front-summary.json');
+  eq(RT2.renderTopCompanies(fs2.companies), RT2.renderTopCompanies(cos), 'top companies are identical from front-summary.json');
+  eq(RT2.renderKPICards(RT2.frontKPIs(fs2)), RT2.renderKPICards(RT2.computeKPIs(cos, pols)), 'client-side KPIs (year recomputed) match computeKPIs');
+  const k = RT2.frontKPIs(fs2, 2099)[0];
+  eq(k.label, 'Tracked funding · 2099', 'funding KPI label follows the reader\'s year, not the bake year');
+  eq(k.value, RT2.formatUSD(0), 'a year with no rounds shows zero, not the bake year\'s sum');
+  eq(RT2.renderLeadStory(front.lead, fs2.companies, fs2.policies), RT2.renderLeadStory(front.lead, cos, pols), 'lead story is identical from front-summary.json');
+  eq(RT2.renderTopStories(front.top, fs2.companies), RT2.renderTopStories(front.top, cos), 'top stories are identical from front-summary.json');
 }
 
 // ---------- Committed pages must stay un-baked ----------

@@ -1,0 +1,180 @@
+{
+  "date": "2026-11-19",
+  "dropped": [
+    {
+      "id": "hn-50545059",
+      "title": "US data centers are burning through as much electricity as entire states",
+      "source_url": "https://newatlas.com/technology/data-centers-using-electricity-entire-states/",
+      "date": "2026-11-18",
+      "reason": "data-center electricity story, no robotics"
+    },
+    {
+      "id": "hn-50545581",
+      "title": "Show HN: RoboFYI – Compare robot foundation models, datasets and hardware",
+      "source_url": "https://robofyi.com",
+      "date": "2026-11-18",
+      "reason": "Show HN directory site, no news"
+    },
+    {
+      "id": "hn-50547381",
+      "title": "Show HN: Windshift – the Jira alternative for people who liked Jira",
+      "source_url": "https://github.com/Windshiftapp/core",
+      "date": "2026-11-18",
+      "reason": "Jira alternative, not robotics"
+    },
+    {
+      "id": "hn-50547423",
+      "title": "NGINX2Root by Xint – From Nginx visitor to root of the server host",
+      "source_url": "https://nginx2root.com/",
+      "date": "2026-11-18",
+      "reason": "server security exploit, not robotics"
+    },
+    {
+      "id": "hn-50547430",
+      "title": "Show HN: Micro:brawl – two micro:bit robots play cat and mouse, Pi as referee",
+      "source_url": "https://blok.storagebits.workers.dev/blog/microbrawl/",
+      "date": "2026-11-18",
+      "reason": "hobby micro:bit project"
+    },
+    {
+      "id": "hn-50547628",
+      "title": "Show HN: Break a robot arm and watch a meta-RL agent keep writing",
+      "source_url": "https://randman444.github.io/meta-rl-draw/web/",
+      "date": "2026-11-18",
+      "reason": "hobby demo, no news"
+    },
+    {
+      "id": "hn-50547847",
+      "title": "FIRST and Qualcomm Launch Next Generation of K-8 Robotics Education",
+      "source_url": "https://www.firstinspires.org/about/press-room/first-and-qualcomm-technologies-inc.-launch-next-generation-of-k-8-robotics-education",
+      "date": "2026-11-18",
+      "reason": "K-8 education program, off-thesis"
+    },
+    {
+      "id": "hn-50548808",
+      "title": "We taught robots to carve marble sculptures",
+      "source_url": "https://eleanorwiesler.com/blog/robotic-stone-carving/",
+      "date": "2026-11-18",
+      "reason": "marble-carving demo post, no new event"
+    },
+    {
+      "id": "hn-50548948",
+      "title": "Jensen Huang's Daughter Was Nvidia's Hot-Headed Nepo Baby Who Insulted Staff",
+      "source_url": "https://www.ibtimes.sg/madison-huang-jensen-huangs-daughter-was-nvidias-hot-headed-nepo-baby-who-insulted-staff-that-96332",
+      "date": "2026-11-18",
+      "reason": "NVIDIA gossip, not robotics"
+    },
+    {
+      "id": "hn-50552140",
+      "title": "Show HN: Robotics needs better CAD, so I wrote a B-rep kernel and 3,487 tests",
+      "source_url": "https://springcraft-ai.github.io/springrep/",
+      "date": "2026-11-18",
+      "reason": "Show HN CAD kernel, hobby project"
+    },
+    {
+      "id": "hn-50552976",
+      "title": "Waymo has stopped its robotaxis from driving on the freeway",
+      "source_url": "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint/",
+      "date": "2026-11-18",
+      "reason": "Waymo freeway pause already tracked 2026-11-17"
+    },
+    {
+      "id": "hn-50553219",
+      "title": "X/Twitter Banned Roboclawbot?",
+      "source_url": "https://x.com/roboclawbot",
+      "date": "2026-11-18",
+      "reason": "social media account ban, not news"
+    },
+    {
+      "id": "hn-50553913",
+      "title": "Show HN: Try Vibe Robotics! (IRL or MuJoCo SIM)",
+      "source_url": "https://github.com/google-deepmind/robotics-antigravity-plugin",
+      "date": "2026-11-18",
+      "reason": "Show HN demo, no news"
+    },
+    {
+      "id": "hn-50554542",
+      "title": "Robotic Wood Mill, useful robots on the cheap",
+      "source_url": "https://last10pct.substack.com/p/making-a-robotic-wood-mill-completion",
+      "date": "2026-11-19",
+      "reason": "hobby wood-mill post"
+    },
+    {
+      "id": "hn-50556066",
+      "title": "Featherweight, flying robot carries its own sensors and computers",
+      "source_url": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
+      "date": "2026-11-19",
+      "reason": "lab research blurb without a release to cite; low thesis relevance"
+    },
+    {
+      "id": "hn-50556485",
+      "title": "ORA: Open Robot-Use Agents",
+      "source_url": "https://fastrua.ai/blog/2026-11-code-mode/",
+      "date": "2026-11-19",
+      "reason": "open-source agent repo, no news"
+    },
+    {
+      "id": "rss-horizon-robotics-announces-lof-556",
+      "title": "Horizon Robotics Announces LoFT Video Geometry Model With Resources Still Pending",
+      "source_url": "https://pandaily.com/horizon-robotics-loft-video-geometry-model-camera-depth",
+      "date": "2026-11-19",
+      "reason": "research model with paper, code and weights pending; results team-reported"
+    },
+    {
+      "id": "rss-rockwell-automation-acquiring-6",
+      "title": "Rockwell Automation acquiring mobile robot maker AGILOX",
+      "source_url": "https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/",
+      "date": "2026-11-18",
+      "reason": "folded into curated record rockwell-agilox-acquisition-2026-11"
+    },
+    {
+      "id": "rss-from-commercial-scale-to-embod-315",
+      "title": "From Commercial Scale to Embodied Intelligence: The Next Challenge for Robotics",
+      "source_url": "https://www.therobotreport.com/from-commercial-scale-to-embodied-intelligence-the-next-challenge-for-robotics/",
+      "date": "2026-11-18",
+      "reason": "sponsored opinion piece, no news"
+    },
+    {
+      "id": "rss-humyn-labs-raises-47m-to-colle-667",
+      "title": "Humyn Labs raises $47M to collect real-world data for robotics",
+      "source_url": "https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics/",
+      "date": "2026-11-18",
+      "reason": "folded into curated record humyn-labs-series-a-2026-11"
+    },
+    {
+      "id": "rss-india-s-humyn-labs-raises-47m-296",
+      "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+      "source_url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "date": "2026-11-18",
+      "reason": "folded into curated record humyn-labs-series-a-2026-11"
+    },
+    {
+      "id": "rss-how-toyota-is-betting-on-a-fut-485",
+      "title": "How Toyota is betting on a future beyond cars",
+      "source_url": "https://techcrunch.com/podcast/how-toyota-is-betting-on-a-future-beyond-cars/",
+      "date": "2026-11-18",
+      "reason": "podcast episode, no new event"
+    },
+    {
+      "id": "rss-rockwell-automation-acquiring-612",
+      "title": "Rockwell Automation acquiring mobile robot maker AGILOX",
+      "source_url": "https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/",
+      "date": "2026-11-18",
+      "reason": "folded into curated record rockwell-agilox-acquisition-2026-11 (auto PR #307)"
+    },
+    {
+      "id": "rss-from-commercial-scale-to-embod-802",
+      "title": "From Commercial Scale to Embodied Intelligence: The Next Challenge for Robotics",
+      "source_url": "https://www.therobotreport.com/from-commercial-scale-to-embodied-intelligence-the-next-challenge-for-robotics/",
+      "date": "2026-11-18",
+      "reason": "sponsored opinion piece, no news (auto PR #307)"
+    },
+    {
+      "id": "rss-india-s-humyn-labs-raises-47m-961",
+      "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+      "source_url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "date": "2026-11-18",
+      "reason": "folded into curated record humyn-labs-series-a-2026-11 (auto PR #307)"
+    }
+  ]
+}

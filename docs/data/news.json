@@ -1,5 +1,337 @@
 [
   {
+    "id": "miit-moa-agri-robot-scenarios-2026-11",
+    "title": "China's industry and agriculture ministries publish 55 farm-robot scenarios for provinces to back",
+    "date": "2026-11-19",
+    "source": "MIIT and MARA notice (via Tencent News)",
+    "source_type": "Government",
+    "source_url": "https://news.qq.com/rain/a/20261119A06LEE00",
+    "summary": "The general offices of MIIT and the Ministry of Agriculture and Rural Affairs picked the 55 scenarios from company applications after expert review and a public notice period. Provincial industry and agriculture departments are told to give the listed uses policy support and to widen robot use on farms. The crops, machines and companies are named in an attachment to the notice.",
+    "category": "Policy",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "tags": [
+      "china",
+      "miit",
+      "agriculture",
+      "scenarios",
+      "policy"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://news.qq.com/rain/a/20261119A06LEE00",
+        "label": "Tencent News (notice text)"
+      },
+      {
+        "url": "https://www.guandian.cn/article/20261119/629904.html",
+        "label": "Guandian"
+      }
+    ]
+  },
+  {
+    "id": "nikkei-visa-denials-chinese-humanoid-ces-2026-11",
+    "title": "Nikkei: US visa denials hit engineers at Xpeng, EngineAI and other Chinese humanoid makers ahead of CES",
+    "date": "2026-11-19",
+    "source": "Nikkei Asia",
+    "source_type": "News",
+    "source_url": "https://asia.nikkei.com/business/technology/us-visa-denials-hit-xpeng-other-chinese-robot-makers-ahead-of-ces",
+    "summary": "Nikkei Asia reports that researchers and engineers at several Chinese humanoid makers, including Xpeng and EngineAI, were refused US visas before the Consumer Electronics Show in Las Vegas in January. The article is paywalled; the readable part gives no count of denials and names no other companies.",
+    "category": "Geopolitics",
+    "sentiment": "Negative",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "tags": [
+      "china",
+      "visas",
+      "ces",
+      "humanoid",
+      "xpeng",
+      "engineai"
+    ],
+    "companies": [
+      "xpeng-robotics",
+      "engineai"
+    ],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://asia.nikkei.com/business/technology/us-visa-denials-hit-xpeng-other-chinese-robot-makers-ahead-of-ces",
+        "label": "Nikkei Asia"
+      }
+    ]
+  },
+  {
+    "id": "rockwell-agilox-acquisition-2026-11",
+    "title": "Rockwell Automation agrees to buy Austrian mobile-robot maker AGILOX, which it says will more than double its AMR business",
+    "date": "2026-11-18",
+    "source": "Business Wire",
+    "source_type": "Press Release",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/rockwell-automation-signs-definitive-agreement-120000209.html",
+    "summary": "Rockwell signed a definitive agreement for AGILOX, which makes autonomous forklift robots, and will pair it with the OTTO flatbed robots it bought in 2023. Rockwell did not disclose a price and expects the deal to close in the second quarter of its fiscal 2027, after which AGILOX reports to its Intelligent Devices segment. Rockwell says OTTO brings North American customers and AGILOX a European footprint.",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "rockwell-automation",
+      "agilox",
+      "acquisition",
+      "amr",
+      "logistics"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/technology/ai/articles/rockwell-automation-signs-definitive-agreement-120000209.html",
+        "label": "Business Wire (via Yahoo Finance)"
+      },
+      {
+        "url": "https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/",
+        "label": "The Robot Report"
+      }
+    ]
+  },
+  {
+    "id": "pony-ai-q3-2026",
+    "title": "Pony.ai's third-quarter revenue rises 75% to $44.6M with 2,768 robotaxis on the road",
+    "date": "2026-11-18",
+    "source": "GlobeNewswire",
+    "source_type": "Press Release",
+    "source_url": "https://markets.businessinsider.com/news/stocks/pony-ai-inc-reports-third-quarter-2026-financial-results-total-revenues-up-75-2-yoy-to-us-44-6-million-with-robotaxi-services-revenues-growing-by-165-4-yoy-1036778094",
+    "summary": "Robotaxi service revenue rose 165% to $17.8M and robotruck revenue 76% to $18.0M. The fleet stood at 2,768 robotaxis on September 30 against a year-end target of 3,500 across 20 cities. Net loss was $136.3M, mostly fair-value losses on securities, and the operating loss was $68.7M.",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "pony-ai",
+      "robotaxi",
+      "earnings",
+      "china",
+      "autonomous-vehicles"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://markets.businessinsider.com/news/stocks/pony-ai-inc-reports-third-quarter-2026-financial-results-total-revenues-up-75-2-yoy-to-us-44-6-million-with-robotaxi-services-revenues-growing-by-165-4-yoy-1036778094",
+        "label": "GlobeNewswire (via Business Insider)"
+      }
+    ]
+  },
+  {
+    "id": "humyn-labs-series-a-2026-11",
+    "title": "India's Humyn Labs raises $47M to sell real-world training footage to US robotics and AI labs",
+    "date": "2026-11-18",
+    "source": "TechCrunch",
+    "source_type": "News",
+    "source_url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+    "summary": "The round is $26M of equity led by Accel and $21M of venture debt led by Lighthouse Canton. Founded in February, the Bengaluru company records people doing everyday tasks with its own two-camera rig in more than 20 countries, with Brazil, India and South Korea as hubs. It told TechCrunch it booked $10M of revenue from April to October, has $20M more under contract, and gets about 90% of revenue from US customers.",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "tags": [
+      "humyn-labs",
+      "funding",
+      "series-a",
+      "training-data",
+      "india"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+        "label": "TechCrunch"
+      },
+      {
+        "url": "https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics/",
+        "label": "The Robot Report"
+      }
+    ]
+  },
+  {
+    "id": "megarobo-round-oman-2026-11",
+    "title": "Suzhou lab-robot maker MegaRobo raises nearly $200M with Oman's sovereign fund",
+    "date": "2026-11-18",
+    "source": "PR Newswire",
+    "source_type": "Press Release",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/megarobo-raises-nearly-us-200-013900026.html",
+    "summary": "Oman Investment Authority joined existing backers Asia Investment Capital, Granite Asia and Sinovation Ventures, with CMB International new. MegaRobo sells lab-automation robots and AI-for-science software and says more than 500 customers have its products. Chinese reports note its June 2025 Hong Kong listing filing lapsed in December.",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "megarobo",
+      "funding",
+      "china",
+      "lab-automation",
+      "gulf-capital"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/technology/ai/articles/megarobo-raises-nearly-us-200-013900026.html",
+        "label": "PR Newswire (via Yahoo Finance)"
+      },
+      {
+        "url": "https://finance.sina.com.cn/stock/bxjj/2026-11-19/doc-inizfqei4362370.shtml",
+        "label": "Sina Finance"
+      }
+    ]
+  },
+  {
+    "id": "uber-momenta-munich-pilot-2026-11",
+    "title": "Uber puts China's Momenta robotaxis into a supervised pilot in Munich, its first in Germany",
+    "date": "2026-11-18",
+    "source": "CnEVPost",
+    "source_type": "News",
+    "source_url": "https://cnevpost.com/2026/11/18/momenta-uber-launch-robotaxi-pilot-germany/",
+    "summary": "The free pilot runs in northern Munich with a safety operator in every car and opens in phases to pre-selected Uber riders. It uses test permits Germany's KBA gave Momenta in July, which CnEVPost says made it the first Chinese company cleared to test Level 4 driving on German city roads without city-by-city applications.",
+    "category": "Deployment",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "momenta",
+      "uber",
+      "robotaxi",
+      "germany",
+      "china"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://cnevpost.com/2026/11/18/momenta-uber-launch-robotaxi-pilot-germany/",
+        "label": "CnEVPost"
+      },
+      {
+        "url": "https://www.marketwatch.com/story/uber-momenta-start-free-trials-for-robotaxi-services-in-munich-881b97eb",
+        "label": "MarketWatch"
+      }
+    ]
+  },
+  {
+    "id": "agility-leadership-2026-11",
+    "title": "Agility Robotics names Daniel Diez president two weeks after its Nasdaq listing",
+    "date": "2026-11-18",
+    "source": "GlobeNewswire",
+    "source_type": "Press Release",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/agility-robotics-evolves-executive-leadership-120000806.html",
+    "summary": "Diez moves up from chief business officer. Christopher Sullivan, who joined in May to run customer success, becomes chief product officer, and Ana Lang, the chief legal and people officer, becomes chief administrative officer. The company tied the changes to running as a public company after its November 4 SPAC close.",
+    "category": "Competitive",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "agility-robotics",
+      "leadership",
+      "humanoid"
+    ],
+    "companies": [
+      "agility-robotics"
+    ],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/technology/ai/articles/agility-robotics-evolves-executive-leadership-120000806.html",
+        "label": "GlobeNewswire (via Yahoo Finance)"
+      }
+    ]
+  },
+  {
+    "id": "waymo-sf-flood-pause-2026-11",
+    "title": "Waymo pauses San Francisco service after robotaxis stall on flooded streets",
+    "date": "2026-11-18",
+    "source": "Engadget",
+    "source_type": "News",
+    "source_url": "https://www.engadget.com/2321312/waymo-pauses-service-in-san-francisco-after-robotaxis-get-stuck-on-flooded-streets/",
+    "summary": "Service stopped around 11 a.m. after several cars halted in flooded intersections during a storm, according to a city supervisor's post and a notice in the Waymo app. It came a day after California's DMV barred Waymo from state freeways. Engadget lists earlier flood pauses in San Antonio and Atlanta.",
+    "category": "Deployment",
+    "sentiment": "Negative",
+    "confidence": "High",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "waymo",
+      "robotaxi",
+      "weather",
+      "san-francisco"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.engadget.com/2321312/waymo-pauses-service-in-san-francisco-after-robotaxis-get-stuck-on-flooded-streets/",
+        "label": "Engadget"
+      }
+    ]
+  },
+  {
+    "id": "medtronic-hugo-general-surgery-2026-11",
+    "title": "FDA clears Medtronic's Hugo surgical robot for general surgery",
+    "date": "2026-11-17",
+    "source": "PR Newswire",
+    "source_type": "Press Release",
+    "source_url": "https://finance.yahoo.com/healthcare/articles/medtronic-announces-fda-clearance-general-110000749.html",
+    "summary": "The clearance covers upper-abdominal general surgery, including gallbladder removal, gastric bypass and hernia repair, plus appendectomy. Medtronic puts those at about 3.5 million US operations a year and says Hugo will pass 50,000 procedures by the end of its fiscal year. It is the second soft-tissue system cleared for this range after Intuitive's da Vinci.",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "medtronic",
+      "surgical-robots",
+      "fda",
+      "hugo"
+    ],
+    "companies": [
+      "intuitive-surgical"
+    ],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/healthcare/articles/medtronic-announces-fda-clearance-general-110000749.html",
+        "label": "PR Newswire (via Yahoo Finance)"
+      },
+      {
+        "url": "https://www.massdevice.com/medtronic-hugo-robot-fda-general-surgery-clearance/",
+        "label": "MassDevice"
+      }
+    ]
+  },
+  {
     "policies": [],
     "companies": [
       "genesis-ai"
@@ -398,6 +730,69 @@
       {
         "url": "https://www.caixinglobal.com/2026-11-17/nearing-ai-robotics-breakthrough-would-strain-production-unitree-founder-says-102505751.html",
         "label": "Caixin Global"
+      }
+    ]
+  },
+  {
+    "id": "nbs-oct-2026-robot-output",
+    "title": "China's industrial robot output hit 82,846 sets in October, up 26.0%",
+    "date": "2026-11-16",
+    "source": "National Bureau of Statistics",
+    "source_type": "Government",
+    "source_url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965842.html",
+    "summary": "January to October output was 874,141 industrial robot sets, up 32.3%. Service robots fell 4.9% in October to 1,582,483 sets but are up 7.1% for the ten months. The figures cover enterprises above designated size.",
+    "category": "Supply Chain",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "nbs",
+      "industrial-robots",
+      "output"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965842.html",
+        "label": "National Bureau of Statistics (Chinese release)"
+      }
+    ]
+  },
+  {
+    "id": "zoox-uber-las-vegas-2026-11",
+    "title": "Uber starts matching Las Vegas riders with Amazon's Zoox robotaxis, with Los Angeles next in 2027",
+    "date": "2026-11-16",
+    "source": "Los Angeles Times",
+    "source_type": "News",
+    "source_url": "https://www.latimes.com/business/story/2026-11-16/uber-adds-amazons-zoox-robotaxis-to-its-app-in-las-vegas-stepping-up-competition-with-waymo",
+    "summary": "Riders on several UberX ride types can be matched with a driverless Zoox at no extra cost, Zoox's first booking channel outside its own app. Zoox plans Los Angeles rides in its own app before year-end, with Uber there in 2027. Uber says it will commit more than $10B to robotaxi partners.",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "zoox",
+      "uber",
+      "amazon",
+      "robotaxi",
+      "las-vegas"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.latimes.com/business/story/2026-11-16/uber-adds-amazons-zoox-robotaxis-to-its-app-in-las-vegas-stepping-up-competition-with-waymo",
+        "label": "Los Angeles Times (Bloomberg)"
+      },
+      {
+        "url": "https://www.pcmag.com/news/zoox-robotaxis-are-now-available-via-uber-in-las-vegas",
+        "label": "PCMag"
       }
     ]
   },
@@ -1870,6 +2265,41 @@
       {
         "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
         "label": "Beijing municipal government (Chinese)"
+      }
+    ]
+  },
+  {
+    "id": "gritt-mastec-solar-2026-11",
+    "title": "Gritt signs MasTec to put its robot attachments on utility-scale solar construction sites",
+    "date": "2026-11-10",
+    "source": "Business Wire",
+    "source_type": "Press Release",
+    "source_url": "https://finance.yahoo.com/energy/articles/gritt-mastec-partner-bring-physical-140000622.html",
+    "summary": "MasTec, one of the largest US infrastructure contractors, will deploy Gritt's systems across MasTec Renewables projects and look at other infrastructure work. Gritt fits robotic attachments to common construction equipment for picking, placing, assembly and moving material, with crews guiding the work. Neither company gave a number of sites or machines.",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
+    ],
+    "tags": [
+      "gritt",
+      "mastec",
+      "construction",
+      "solar",
+      "deployment"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/energy/articles/gritt-mastec-partner-bring-physical-140000622.html",
+        "label": "Business Wire (via Yahoo Finance)"
+      },
+      {
+        "url": "https://thenextweb.com/news/gritt-mastec-solar-construction-robots-partnership",
+        "label": "The Next Web"
       }
     ]
   },

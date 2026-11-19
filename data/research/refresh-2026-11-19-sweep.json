@@ -1,0 +1,484 @@
+[
+  {
+    "date": "2026-11-19",
+    "title": "Nikkei: U.S. visa denials hit engineers at Xpeng, EngineAI and other Chinese humanoid makers heading to CES 2027",
+    "summary": "Nikkei Asia reports that researchers and engineers at several Chinese humanoid-robot makers, including Xpeng and EngineAI, have been denied U.S. visas ahead of the Consumer Electronics Show in Las Vegas in January. Nikkei frames it as technical staff facing travel hurdles as technology controls widen. Only the lede and subhead were readable (paywall); no visa counts or other company names were visible.",
+    "primary_url": "https://asia.nikkei.com/business/technology/us-visa-denials-hit-xpeng-other-chinese-robot-makers-ahead-of-ces",
+    "secondary_urls": [],
+    "publication": "Nikkei Asia",
+    "companies": [
+      "XPeng Robotics",
+      "EngineAI"
+    ],
+    "category": "policy",
+    "country": "China",
+    "why_it_matters": "Chinese humanoid makers are the main exhibitors the U.S. show circuit is built around, so visa denials limit how directly U.S. buyers and engineers can compare Chinese hardware with American hardware.",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "China's industrial-robot output rose 26.0% in October to 82,846 sets; service-robot output fell 4.9%",
+    "summary": "The National Bureau of Statistics reports October industrial-robot production of 82,846 sets, up 26.0% from a year earlier, and 874,141 sets for January to October, up 32.3%. Service-robot output was 1,582,483 sets in October, down 4.9%, and 17,266,156 sets for ten months, up 7.1%. An NBS official also said industrial-robot exports rose 17.8% in the first ten months.",
+    "primary_url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965842.html",
+    "secondary_urls": [
+      "https://finance.sina.com.cn/wm/2026-11-16/doc-iniyxpxf2776259.shtml"
+    ],
+    "publication": "National Bureau of Statistics of China",
+    "companies": [],
+    "category": "china",
+    "country": "China",
+    "why_it_matters": "These are official monthly production counts for the world's largest industrial-robot market; the export growth figure is separate and comes from the NBS press conference rather than the release table.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Pony.ai's third-quarter revenue rises 75% to $44.6M as its robotaxi fleet reaches 2,768 vehicles",
+    "summary": "Pony.ai reports Q3 revenue of $44.6 million, up 75.2%, with robotaxi services revenue up 165.4% to $17.8 million and robotruck services revenue up 76.3% to $18.0 million. Its fleet was 2,768 robotaxis on September 30 against a year-end target of 3,500 in 20 cities, and its Guangzhou and Nansha zones now form one area of more than 1,000 square kilometers. Net loss was $136.3 million, which the company attributes mainly to fair-value losses on trading securities; GAAP operating loss was $68.7 million.",
+    "primary_url": "https://markets.businessinsider.com/news/stocks/pony-ai-inc-reports-third-quarter-2026-financial-results-total-revenues-up-75-2-yoy-to-us-44-6-million-with-robotaxi-services-revenues-growing-by-165-4-yoy-1036778094",
+    "secondary_urls": [
+      "https://www.manilatimes.net/2026/11/18/tmt-newswire/globenewswire/pony-ai-inc-reports-third-quarter-2026-financial-results-total-revenues-up-752-yoy-to-us446-million-with-robotaxi-services-revenues-growing-by-1654-yoy/2472860"
+    ],
+    "publication": "Pony.ai (GlobeNewswire release)",
+    "companies": [
+      "Pony.ai",
+      "Sinotrans",
+      "GAC Commercial Vehicle",
+      "NVIDIA"
+    ],
+    "category": "deployment",
+    "country": "China",
+    "why_it_matters": "A listed Chinese operator gives dated fleet, revenue and expansion numbers (Guangzhou, Zagreb, London, Manchester) at the same time U.S. robotaxi operators are dealing with California's freeway ban on Waymo.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Baidu says Apollo Go is in 30 cities, with 34 million autonomous kilometers in Q3 and Shenzhen driverless rides up 170% on the quarter",
+    "summary": "Baidu's Q3 release says Apollo Go's footprint reached 30 cities as of October, its fleets logged about 34 million autonomous kilometers in the quarter and more than 390 million cumulatively by October 31. Fully driverless operational rides in Shenzhen rose about 170% quarter over quarter, and in Dubai the fleet doubled with a wider driverless area; London testing continues with Uber and Lyft. The release gives no Q3 ride total in the text read.",
+    "primary_url": "https://www.manilatimes.net/2026/11/16/tmt-newswire/pr-newswire/baidu-announces-third-quarter-2026-results/2470623",
+    "secondary_urls": [],
+    "publication": "Baidu (PR Newswire release)",
+    "companies": [
+      "Baidu",
+      "Apollo Go",
+      "Uber",
+      "Lyft"
+    ],
+    "category": "deployment",
+    "country": "China",
+    "why_it_matters": "Gives a second Chinese robotaxi operator's own scale figures (cities, cumulative autonomous kilometers) for comparison with Waymo and Pony.ai, including driverless growth in the Gulf and a London test.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Tesla plans a EUR 3 billion Giga Berlin expansion to build Cybercabs from 2029, with room for 1 million a year",
+    "summary": "A Tesla senior director of manufacturing for the Berlin site wrote on LinkedIn on November 16 that Tesla will spend EUR 3 billion (about .3 billion) on a new building at Grünheide to build the two-seat Cybercab, starting in 2029 and sized for up to 1 million vehicles a year. Construction is expected to start in the first half of 2027. TechCrunch notes federal regulators are investigating Tesla's self-certification of the Cybercab, which has no steering wheel or pedals and launched publicly in September.",
+    "primary_url": "https://techcrunch.com/2026/11/16/tesla-goes-all-in-on-the-cybercab-with-upcoming-e3b-berlin-gigafactory-expansion/",
+    "secondary_urls": [
+      "https://www.usatoday.com/story/cars/news/2026/11/17/tesla-cybercab-robotaxi-expansion/92831500007/",
+      "https://www.teslarati.com/tesla-makes-e3-billion-cybercab-bet-giga-berlin/"
+    ],
+    "publication": "TechCrunch",
+    "companies": [
+      "Tesla"
+    ],
+    "category": "manufacturing",
+    "country": "US",
+    "why_it_matters": "A U.S. robotaxi maker is putting its first non-U.S. Cybercab line in Germany, with a 2029 start, while Chinese operators such as Pony.ai and Baidu already run fleets in the thousands.",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Uber adds Amazon's Zoox robotaxis to its Las Vegas app; Los Angeles is next in 2027",
+    "summary": "Riders requesting several UberX-family ride types in Las Vegas can now be matched with a driverless Zoox vehicle at no extra cost. It is Zoox's first third-party booking channel and the first market under the March Uber-Zoox deal; Zoox will also offer rides in Los Angeles through its own app before the end of the year, with Uber there in 2027. Uber says it will commit more than $10 billion to robotaxi partners, and its exclusive Waymo ties in Austin and Atlanta end in January 2028.",
+    "primary_url": "https://www.latimes.com/business/story/2026-11-16/uber-adds-amazons-zoox-robotaxis-to-its-app-in-las-vegas-stepping-up-competition-with-waymo",
+    "secondary_urls": [
+      "https://www.pcmag.com/news/zoox-robotaxis-are-now-available-via-uber-in-las-vegas"
+    ],
+    "publication": "Los Angeles Times (Bloomberg)",
+    "companies": [
+      "Zoox",
+      "Uber",
+      "Waymo",
+      "Motional",
+      "MGM Resorts"
+    ],
+    "category": "deployment",
+    "country": "US",
+    "why_it_matters": "U.S. robotaxi supply is splitting across ride-hail platforms (Waymo, Zoox, Motional), while Uber also lists Baidu's Apollo Go among its London test partners.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Xiaomi's Lei Jun tells APEC its humanoid recharged itself twice in an 8-hour factory shift and that home trials have begun",
+    "summary": "Speaking at the APEC CEO summit in Shenzhen on November 17, Xiaomi CEO Lei Jun said the company's embodied-AI robot recently worked a full 8-hour shift in a Xiaomi factory and recharged itself twice, and that embodied AI could become a bigger industry than cars. The 8-hour sorting validation itself was disclosed on November 3 (already tracked); what is new here is the self-charging detail, Lei's statement that robots on Xiaomi's Xiaomi-Robotics-1 base model are on trial in staff apartments doing cleaning and tidying, and Chinese reporters' note that factory results are still limited to specific work stations.",
+    "primary_url": "https://finance.sina.com.cn/wm/2026-11-18/doc-inizehkv0960969.shtml",
+    "secondary_urls": [
+      "https://finance.sina.com.cn/roll/2026-11-19/doc-inizfunc0466090.shtml",
+      "https://finance.sina.com.cn/jjxw/2026-11-17/doc-iniyzhhm7736743.shtml"
+    ],
+    "publication": "Sina Finance",
+    "companies": [
+      "Xiaomi",
+      "Unitree Robotics",
+      "UBTECH Robotics",
+      "Gree"
+    ],
+    "category": "deployment",
+    "country": "China",
+    "why_it_matters": "A Chinese consumer-electronics and EV maker is reporting shift-length humanoid trials in its own factory plus a home pilot, the same factory use case Hyundai (Atlas) and Mercedes-Benz (Apptronik) are testing with U.S.-built humanoids.",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Waymo pauses San Francisco robotaxi service after cars stall on flooded streets, a day after California's freeway ban",
+    "summary": "Waymo paused its Bay Area robotaxi service around 11 a.m. on November 18 after several cars stopped in flooded intersections during a storm, according to an X post from a San Francisco supervisor and a message in the Waymo app. Engadget notes earlier flood-related pauses in San Antonio (a recall of nearly 4,000 vehicles in May) and Atlanta, and a December 2025 San Francisco pause during a power outage. The pause came one day after the California DMV barred Waymo from state freeways, which led Waymo to pull freeway service in all markets.",
+    "primary_url": "https://www.engadget.com/2321312/waymo-pauses-service-in-san-francisco-after-robotaxis-get-stuck-on-flooded-streets/",
+    "secondary_urls": [],
+    "publication": "Engadget",
+    "companies": [
+      "Waymo"
+    ],
+    "category": "deployment",
+    "country": "US",
+    "why_it_matters": "It adds a weather failure to the regulatory pause already tracked for Waymo, the U.S. robotaxi operator most often compared with Baidu and Pony.ai.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Pony.ai and Toyota start fully driverless commercial robotaxi service in Guangzhou's Nansha district, with about 1,000 bZ4X cars planned",
+    "summary": "Pony.ai and Toyota launched fully driverless commercial service with their jointly developed Gen-7 bZ4X robotaxi in Guangzhou, announced on November 15 U.S. time (November 16 in China). Riders in Nansha can hail it around the clock through the PonyPilot app or WeChat and Alipay mini-programs. The partners plan about 1,000 of the cars across major Chinese cities but did not say how many entered service; the first mass-produced bZ4X came off the line in February 2026.",
+    "primary_url": "https://www.streetinsider.com/PRNewswire/Pony.ai+and+Toyota+Launch+Fully+Driverless+Commercial+Services+with+Gen-7+bZ4X+Robotaxi/27346424.html",
+    "secondary_urls": [
+      "https://electriccarsreport.com/2026/11/pony-ai-and-toyota-launch-fully-driverless-bz4x-robotaxi-service-in-china/",
+      "https://www.securities.io/pony-ai-and-toyota-begin-driverless-bz4x-service-in-guangzhou/"
+    ],
+    "publication": "Pony.ai and Toyota (PR Newswire release)",
+    "companies": [
+      "Pony.ai",
+      "Toyota"
+    ],
+    "category": "deployment",
+    "country": "China",
+    "why_it_matters": "A Japanese automaker's purpose-built robotaxi is entering commercial driverless service in China, where Pony.ai says its fleet was 2,768 vehicles on September 30.",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Taiwan's Navy opens a NT$36 billion tender for 280 vertical-takeoff surveillance drones",
+    "summary": "Taiwan's defense ministry procurement office issued an open tender on Monday, November 16, for 280 intelligent VTOL drones, 140 control systems and 82 transport vehicles over four years, with a budget of NT$35.97 billion (about US$1.09 billion). Bids open on December 15, at least three qualified bidders are required, and the tender names no model, though Shield AI's V-BAT had earlier been mentioned as a candidate. The stated aim is surveillance and reconnaissance in the Taiwan Strait that can keep working under PLA attack and electronic jamming.",
+    "primary_url": "https://www.taiwannews.com.tw/en/news/6477261",
+    "secondary_urls": [],
+    "publication": "Taiwan News (citing Liberty Times)",
+    "companies": [
+      "Shield AI"
+    ],
+    "category": "policy",
+    "country": "other",
+    "why_it_matters": "A roughly $1.1 billion open tender for uncrewed aircraft near China shows demand for non-Chinese drones, with a U.S. maker named as a possible bidder.",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "AgiBot says nearly 500 of its robots now work at Chimelong's embodied-AI theme park and on factory lines",
+    "summary": "At the APEC finance night in Shenzhen on November 17, AgiBot partner and senior vice president Wang Chuang said nearly 500 AgiBot robots take part in daily operations at the newly opened Chimelong embodied-AI theme park, up from the roughly 300 reported when it opened in September, and that robots also work on factory production lines. He described a 21-degree-of-freedom dexterous hand with omnidirectional tactile sensing and a multimodal model covering more than 100 languages and 29 dialects. These are company statements reported by Sina Finance; no independent count was published.",
+    "primary_url": "https://finance.sina.com.cn/roll/2026-11-18/doc-inizcvvf6996604.shtml",
+    "secondary_urls": [],
+    "publication": "Sina Finance",
+    "companies": [
+      "AgiBot (智元机器人)",
+      "Chimelong"
+    ],
+    "category": "deployment",
+    "country": "China",
+    "why_it_matters": "A single Chinese humanoid maker reports a three-digit fleet in one public-facing site, a larger working count than most U.S. humanoid deployments have disclosed.",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "FDA clears Medtronic's Hugo surgical robot for general surgery procedures",
+    "summary": "Medtronic says the FDA cleared Hugo for all upper-abdominal general surgery procedures, including cholecystectomy, Roux-en-Y gastric bypass, ventral hernia and small bowel resection, plus inguinal hernia and appendectomy. Medtronic puts those procedures at about 3.5 million U.S. surgeries a year, more than half of soft-tissue procedures, and says Hugo is on track to pass 50,000 procedures by the end of its fiscal year. A trade report notes only hernia repair has a disclosed U.S. trial.",
+    "primary_url": "https://finance.yahoo.com/healthcare/articles/medtronic-announces-fda-clearance-general-110000749.html",
+    "secondary_urls": [
+      "https://www.mddionline.com/robotics/medtronic-secures-fda-clearance-to-expand-hugo-robotic-system-into-general-surgery",
+      "https://www.massdevice.com/medtronic-hugo-robot-fda-general-surgery-clearance/"
+    ],
+    "publication": "Medtronic (PR Newswire release)",
+    "companies": [
+      "Medtronic",
+      "Intuitive Surgical"
+    ],
+    "category": "product",
+    "country": "US",
+    "why_it_matters": "A second large U.S. device maker can now sell a soft-tissue surgical robot for general surgery; Intuitive Surgical, which this site tracks, is the established U.S. supplier.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Nvidia calls robotics startups it backs to say support continues; its stakes in private companies are now valued at $65.5 billion",
+    "summary": "Business Insider reports that Nvidia and its venture arm have contacted at least three robotics startups since Jensen Huang's resignation to reassure them that investing continues as usual. Separately, Nvidia disclosed on November 17 that its equity stakes are worth $65.5 billion, up from $22 billion in January, after $16 billion of equity purchases in the latest quarter and $58 billion over nine months. TechCrunch reports investors expect interim CEO Colette Kress to be more selective and write smaller checks, so VCs are bracing for a pullback.",
+    "primary_url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+    "secondary_urls": [
+      "https://www.businessinsider.com/nvidia-reassures-robotics-startups-it-backs-after-jensen-huangs-exit-2026-11"
+    ],
+    "publication": "TechCrunch",
+    "companies": [
+      "NVIDIA",
+      "NVentures"
+    ],
+    "category": "funding",
+    "country": "US",
+    "why_it_matters": "Nvidia is a named investor in recent large robotics rounds such as Genesis AI and Agile Robots, so a slower deal pace under new leadership would affect robotics funding.",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Suzhou lab-robotics maker MegaRobo raises nearly $200M with Oman's sovereign wealth fund",
+    "summary": "MegaRobo, a Suzhou company that sells lab-automation robots and an AI-for-science software stack, announced a new round of nearly $200 million joined by Oman Investment Authority. Existing investors Asia Investment Capital, Granite Asia and Sinovation Ventures continued, with CMB International new. The company says it has delivered products to more than 500 customers; Chinese reports add that it filed for a Hong Kong listing in June 2025 and that the filing lapsed in December.",
+    "primary_url": "https://finance.yahoo.com/technology/ai/articles/megarobo-raises-nearly-us-200-013900026.html",
+    "secondary_urls": [
+      "https://finance.sina.com.cn/stock/bxjj/2026-11-19/doc-inizfqei4362370.shtml",
+      "https://www.sohu.com/a/1103618707_121948396"
+    ],
+    "publication": "MegaRobo (PR Newswire release)",
+    "companies": [
+      "MegaRobo (镁伽科技)",
+      "Oman Investment Authority",
+      "Sinovation Ventures"
+    ],
+    "category": "funding",
+    "country": "China",
+    "why_it_matters": "A Chinese robotics company is drawing a Gulf sovereign fund into a near-$200 million round for physical-world AI, a funding channel that bypasses U.S. investors.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Korean outlets report Samsung will show a humanoid at CES 2027, with five direct-drive fingers and Rainbow Robotics actuators",
+    "summary": "Newsworks and Money Today, citing industry sources, report that Samsung Electronics is preparing to unveil a humanoid prototype at CES in Las Vegas in January. Newsworks says each of the five fingers carries its own motor in a direct-drive design, with actuators from Samsung's Rainbow Robotics subsidiary and an in-house body. Money Today adds that Chairman Lee Jae-yong checked backflip and precision-manipulation demos in October and that LG, which signed a humanoid safety-certification agreement on November 13, is also eyeing CES 2027 for its first public showing.",
+    "primary_url": "https://www.mt.co.kr/industry/2026/11/16/2026111614573982715",
+    "secondary_urls": [
+      "https://www.newsworks.co.kr/news/articleView.html?idxno=903155"
+    ],
+    "publication": "Money Today",
+    "companies": [
+      "Samsung Electronics",
+      "Rainbow Robotics",
+      "LG Electronics"
+    ],
+    "category": "product",
+    "country": "other",
+    "why_it_matters": "Korea's two largest electronics groups are lining up humanoid reveals for the same January show where Chinese humanoid makers are exhibiting, even as some of those makers' engineers face U.S. visa denials.",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Jilin province's 15th Five-Year AI+ plan backs embodied-AI robots for companionship, household help and elder care",
+    "summary": "The Jilin government general office issued its 'AI+' development plan for 2026-2030 on November 19, targeting more than 90% adoption of new-generation intelligent terminals and agents by 2030. It says the province will support embodied-AI robot products with multimodal perception, demonstrate them in emotional companionship, household assistance and elder-care settings, and put nursing and rehabilitation robots into elder-care institutions. It also calls for nurturing specialized small and mid-size robot and intelligent-equipment firms and drawing leading AI companies to set up regional headquarters in Jilin.",
+    "primary_url": "https://finance.sina.com.cn/wm/2026-11-19/doc-inizhfam1048816.shtml",
+    "secondary_urls": [],
+    "publication": "Sina Finance",
+    "companies": [],
+    "category": "china",
+    "country": "China",
+    "why_it_matters": "Another provincial 15th Five-Year plan now names embodied-AI robots, with an adoption target for AI terminals but no robot output or unit targets.",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "India's Andhra Pradesh approves a 2026-36 Robotics and Physical AI Policy, citing 6 robots per 10,000 workers versus a world average of 132",
+    "summary": "The state government approved the policy on November 16 in G.O. Ms. No. 86, framing it as manufacturing-led and covering components, robot platforms, system integration, R&D, talent and adoption. The order says India installed a record 9,123 industrial robots in 2024, sixth globally, but has a density of 6 robots per 10,000 manufacturing workers against a world average of 132, and remains a net importer of the robots it installs. It notes a national advisory group proposed a framework for a future National Robotics Mission in February 2026 and flagged supply-chain gaps in actuators, sensors, chipsets and precision gears.",
+    "primary_url": "https://www.thehindu.com/news/national/andhra-pradesh/ap-govt-approves-robotics-and-physical-ai-policy-202636-aimed-at-total-ecosystem-for-state/article71708466.ece",
+    "secondary_urls": [
+      "https://www.thehansindia.com/news/cities/amaravati/ap-takes-aim-at-global-race-for-chips-robots-ai-1143082"
+    ],
+    "publication": "The Hindu",
+    "companies": [],
+    "category": "policy",
+    "country": "other",
+    "why_it_matters": "Another government is writing a dedicated robotics industrial policy, and the order names the same components (actuators, precision gears, chips) that U.S. and Chinese makers compete over.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Chinese precision-parts maker Aifenda says its robot unit won a first order from a North American humanoid maker",
+    "summary": "Shenzhen-listed Aifenda (301575.SZ) said its controlled subsidiary Zhejiang Yunxin Robotics signed a precision structural-parts supply agreement with an unnamed leading North American robot maker, and that the first order has been scheduled into production. The parts are load-bearing components at several joints for the customer's next-generation humanoid project. No order value, volume or customer name was given in the report read.",
+    "primary_url": "https://finance.sina.com.cn/jjxw/2026-11-18/doc-inizcvvf6917542.shtml",
+    "secondary_urls": [],
+    "publication": "Sina Finance (Caiwen)",
+    "companies": [
+      "Aifenda (艾芬达)"
+    ],
+    "category": "supply-chain",
+    "country": "China",
+    "why_it_matters": "It is a data point on North American humanoid makers buying structural parts from Chinese suppliers while the U.S. Section 232 robotics action of October 28 leaves tariff negotiations open.",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "LimX Dynamics says cumulative orders are in the thousands, more than half from overseas, as its Shenzhen HQ becomes an APEC visit stop",
+    "summary": "Chinese reports of company-supplied figures say Shenzhen's LimX Dynamics has taken orders for thousands of robots since launch, with more than 50% from overseas customers across the Middle East, Japan and Korea, and North America. Its Luna interactive humanoid, released in May, was delivered to domestic and foreign customers within a month. LimX's headquarters experience center is an official APEC visit site for business delegates from 21 economies, where it is showing the Oli, Luna and TRON 2 robots.",
+    "primary_url": "https://www.sohu.com/a/1103286693_122014422",
+    "secondary_urls": [
+      "https://stock.10jqka.com.cn/20261116/c681877889.shtml"
+    ],
+    "publication": "Sohu (company-supplied account)",
+    "companies": [
+      "LimX Dynamics (逐际动力)"
+    ],
+    "category": "china",
+    "country": "China",
+    "why_it_matters": "A claimed overseas share above half for a Chinese humanoid and multi-form robot maker, if accurate, points to export demand rather than only domestic orders; the figures are the company's own and unaudited.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "DJI asks the Ninth Circuit to force the FCC to rule on its Covered List petition; the FCC and DOJ say that sinks DJI's lawsuit",
+    "summary": "DroneXL reports DJI filed a mandamus petition (signed November 2, case 26-7367) asking the court to order the FCC to decide a reconsideration petition DJI filed on January 21 against its December 22, 2025 Covered List listing. On November 9 the FCC and the Justice Department replied in DJI's separate February lawsuit (case 26-1029) that the petition concedes no final Commission order exists, and asked for dismissal for lack of jurisdiction. DJI says in the filings that it still cannot market or import new products in the U.S.; in April it told the court 25 unreleased products and $1.56 billion in 2026 sales were caught behind the listing.",
+    "primary_url": "https://dronexl.co/2026/11/16/dji-mandamus-petition-fcc-ninth-circuit-reply-dismiss/",
+    "secondary_urls": [
+      "https://dronedj.com/2026/11/16/lawsuit-fcc-dji-drone-ban/"
+    ],
+    "publication": "DroneXL",
+    "companies": [
+      "DJI"
+    ],
+    "category": "policy",
+    "country": "China",
+    "why_it_matters": "Whether the world's largest drone maker can sell new products in the U.S. now turns on a procedural fight over FCC staff versus full-Commission action, with no ruling due on a set date.",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "TARSBOT to put hundreds of industrial robots into a Changzhou wire-harness maker's lines, starting from a thousand-unit production plan",
+    "summary": "At the 2026 Changzhou Industrial Embodied Intelligence Conference on November 16, TARSBOT founder Li Zhenyu said the company's Changzhou production plan starts at the thousand-unit level with ten-thousand-unit scale as a future aim. TARSBOT signed a strategic agreement with local wire-harness maker Aibo under which hundreds of industrial robots will enter its production lines in batches to work with staff on harness assembly. These are company statements; no delivery dates, unit price or contract value were given.",
+    "primary_url": "https://news.10jqka.com.cn/20261117/c681891852.shtml",
+    "secondary_urls": [
+      "https://www.sohu.com/a/1102370180_122066678"
+    ],
+    "publication": "10jqka (Tonghuashun)",
+    "companies": [
+      "TARSBOT (它石智航)"
+    ],
+    "category": "deployment",
+    "country": "China",
+    "why_it_matters": "A Chinese embodied-AI startup is pairing a local factory-floor customer with a stated mass-production plan, the kind of volume claim that is checked against what is delivered.",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "YC-backed Axonnic launches a 64-channel forearm EMG sleeve to record skilled hand work as robot training data",
+    "summary": "Oxford-founded Axonnic (Y Combinator F26) posted a Launch HN describing a sleeve that decodes finger movements and fingertip force from forearm muscle signals without gloves or cameras. It reports a 6.9-degree error across 20 joint angles against Apple Vision Pro hand tracking on a 215-second recording made four days after training, with published benchmarks. The founders say a European manufacturer has signed a letter of intent after sewing and manual-task recordings, and a demo drives a Proception robotic hand; all figures are the company's own.",
+    "primary_url": "https://news.ycombinator.com/item?id=50522776",
+    "secondary_urls": [
+      "https://axonnic.com"
+    ],
+    "publication": "Hacker News (Launch HN)",
+    "companies": [
+      "Axonnic",
+      "Proception"
+    ],
+    "category": "product",
+    "country": "other",
+    "why_it_matters": "Another company is selling human-skill capture as a training-data input for dexterous robots, adding to the data-supplier field (Humyn Labs, Mecka AI, XDOF) where U.S., Indian and Chinese firms compete.",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Uber and China's Momenta start a supervised robotaxi pilot in Munich, the first on Uber in Germany",
+    "summary": "Momenta (HKEX: 6880) and Uber began a free, non-commercial supervised pilot in northern Munich, with one trained safety operator in every car and access granted in phases to pre-selected riders who request UberX, Electric or Comfort trips. It runs under test permits Germany's KBA gave Momenta in July, which CnEVPost describes as making Momenta the first Chinese company approved to test Level 4 driving on German urban roads without city-by-city applications. Momenta says its driver-assistance systems are in over 1.4 million customer vehicles.",
+    "primary_url": "https://cnevpost.com/2026/11/18/momenta-uber-launch-robotaxi-pilot-germany/",
+    "secondary_urls": [
+      "https://www.marketwatch.com/story/uber-momenta-start-free-trials-for-robotaxi-services-in-munich-881b97eb"
+    ],
+    "publication": "CnEVPost",
+    "companies": [
+      "Momenta",
+      "Uber"
+    ],
+    "category": "deployment",
+    "country": "China",
+    "why_it_matters": "A U.S. ride-hail platform is putting a Chinese autonomous-driving stack on European roads, showing Chinese AV software being exported through a U.S. marketplace rather than blocked at the border.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "FAA still gives no date for its Part 108 drone rule, due by December 7; it says 2.2 million flights have used traffic-management deconfliction this year",
+    "summary": "At AUVSI's Drone and AAM Policy Symposium, an FAA official said 2.2 million flights have gone through strategic deconfliction in UAS traffic-management services since January, but the agency gave no publication date for Part 108, the beyond-visual-line-of-sight rule. UAV Coach reports the final rule has been at the White House's OIRA since July 10, 2026, and that the statutory deadline falls on December 7, 2026, 16 months after the August 7, 2025 proposal. Until it takes effect, operators still need Part 107 waivers or exemptions.",
+    "primary_url": "https://uavcoach.com/faa-utm-flights-part-108-update/",
+    "secondary_urls": [],
+    "publication": "UAV Coach",
+    "companies": [],
+    "category": "policy",
+    "country": "US",
+    "why_it_matters": "The U.S. rule that would allow routine beyond-line-of-sight drone operations has no publication date and a statutory deadline about three weeks away, which sets the pace for U.S. drone delivery and inspection businesses.",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Law360: FCC adds more exemptions to its Covered List bans on foreign-made drones, routers and robots",
+    "summary": "Law360 reported late on November 18 that the FCC has added exemptions to its Covered List restrictions on foreign-produced drones, routers and advanced robotic devices; the article is paywalled, so no company names, counts or notice number were readable. For context, SunScout said on November 16 that its robotic mowers were exempted under FCC Public Safety and Homeland Security Bureau notice DA 26-1181 (released October 30) after Department of War conditional approvals, joining Husqvarna among the first mower makers cleared. Check the FCC's Covered List page for the new notice.",
+    "primary_url": "https://www.law360.com/articles/2551773/fcc-adds-exemptions-to-drone-router-robotics-bans",
+    "secondary_urls": [
+      "https://markets.businessinsider.com/news/stocks/sunscout-secures-major-u-s-market-access-breakthrough-as-fcc-exempts-robotic-mower-platforms-and-solar-shelter-from-covered-list-1036768687"
+    ],
+    "publication": "Law360",
+    "companies": [
+      "SunScout",
+      "Husqvarna"
+    ],
+    "category": "policy",
+    "country": "US",
+    "why_it_matters": "The FCC's July 28 listing of foreign-made advanced robots is being worked through exemption by exemption, which decides which non-U.S. robots can get new models authorized for the U.S. market.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "MIIT and the agriculture ministry publish a list of 55 typical application scenarios for agricultural robots",
+    "summary": "The general offices of China's Ministry of Industry and Information Technology and Ministry of Agriculture and Rural Affairs published 55 selected agricultural-robot application scenarios, chosen after company applications, recommendations, expert review and a public notice period under the selection notice numbered Gongxin Ting Liantong Zhuang Han [2026] 269. Provincial industry and agriculture departments are told to strengthen policy support for and promotion of the listed scenarios and to widen robot use in farming. The attachment listing the scenarios was not read, so the crops, machines and companies are not itemised here.",
+    "primary_url": "https://news.qq.com/rain/a/20261119A06LEE00",
+    "secondary_urls": [
+      "https://www.guandian.cn/article/20261119/629904.html"
+    ],
+    "publication": "Tencent News (reprint of the MIIT and MARA notice)",
+    "companies": [],
+    "category": "china",
+    "country": "China",
+    "why_it_matters": "It is a ministry-level scenario list that provincial officials are told to support, a concrete channel for Chinese policy to steer where field and farm robots get deployed first.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Musk, on video from Shenzhen, says a non-staged Optimus demo could come in a month or two and household chores in 12 to 18 months",
+    "summary": "In a closing conversation at the TomorrowX summit in Austin, joined by video from Shenzhen where he was attending APEC-week events, Elon Musk said Tesla will do an Optimus demo only when it is authentic rather than pre-programmed, possibly 'in a month or two', and that Optimus should be able to take out trash and wash and put away dirty dishes in about 12 to 18 months. He said the hands and forearms, where the primary actuators sit, are harder than the rest of the robot. Chinese reports add that he also planned to visit the Tesla Shanghai factory. These are Musk's own forecasts, taken from a third-party transcript.",
+    "primary_url": "https://singjupost.com/transcript-elon-musk-on-why-the-future-should-make-you-glad-to-be-alive-tomorrowx-summit/",
+    "secondary_urls": [
+      "https://cj.sina.cn/articles/view/1733360754/6750fc7202001llqe",
+      "https://finance.biggo.com/news/9313e32a-54a3-4668-910e-031ffa8a5c45"
+    ],
+    "publication": "The Singju Post (transcript)",
+    "companies": [
+      "Tesla (Optimus)"
+    ],
+    "category": "product",
+    "country": "US",
+    "why_it_matters": "It sets dated, checkable markers (a demo within about two months, chores within 12 to 18 months) for the leading U.S. humanoid program while its maker is in China for APEC week.",
+    "confidence": "medium"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Red Cat withdraws its 2026 revenue target after Pentagon Drone Dominance Gauntlet II removes an expected revenue source; Q3 revenue $11.8M",
+    "summary": "Red Cat reported Q3 revenue of $11.8 million, up 22% from a year earlier, $47.4 million for nine months and $242.7 million in cash, and said it no longer expects to meet its full-year 2026 revenue target and is withdrawing it. The release says contract awards and funding have come more slowly and that the outcome of the Drone Dominance program's Gauntlet II removed an anticipated near-term contributor. 24/7 Wall St. reports Q3 revenue was about 71% below the $40.7 million consensus, with gross profit of $65,000; the withdrawn target is put at $150-180 million by DroneXL (a figure not stated in the release text read).",
+    "primary_url": "https://markets.businessinsider.com/news/stocks/red-cat-reports-q3-2026-revenue-growth-of-22-y-y-ytd-q3-2026-revenue-growth-of-227-y-y-announced-public-purchase-to-acquire-steyr-motors-ag-and-advancement-to-dow-swarm-forge-crucible-4-1036770915",
+    "secondary_urls": [
+      "https://247wallst.com/cards/red-cat-holdings-q3-2026-earnings-rcat-01m7k4wzgrh0cjdvb3x228gy9e"
+    ],
+    "publication": "Red Cat Holdings (GlobeNewswire release)",
+    "companies": [
+      "Red Cat Holdings",
+      "Anduril Industries"
+    ],
+    "category": "other",
+    "country": "US",
+    "why_it_matters": "A listed U.S. small-drone supplier's revenue now hinges on the timing of Pentagon awards, showing how uneven the U.S. drone supply build-out is while DJI's challenge to its FCC Covered List status sits in court.",
+    "confidence": "high"
+  }
+]

@@ -89,6 +89,9 @@ test('front page loads the trimmed news payload, never the whole archive', () =>
   // 2026-11-18: the install-gap chart needs production_trend only (~3 KB of ~30 KB gzip).
   assert(!/loadData\('supply_chain'\)|href="data\/supply_chain\.json"/.test(index), 'index.html fetches all of supply_chain.json for one chart');
   assert(/RT\.loadInstallTrend\(\)/.test(index), 'index.html does not use loadInstallTrend()');
+  // 2026-11-19: KPIs, six ranked companies and pill names need ~10 KB, not companies + policies (~95 KB gzip).
+  assert(!/loadData\('(companies|policies)'\)|href="data\/(companies|policies)\.json"/.test(index), 'index.html fetches all of companies.json or policies.json');
+  assert(/RT\.loadFrontSummary\(\)/.test(index), 'index.html does not use loadFrontSummary()');
 });
 
 test('companies and policies paint without the news archive; news.json loads only when a detail sheet opens (2026-11-15, B1)', () => {
@@ -322,6 +325,12 @@ test('phone news summaries clamp to three lines and open on tap (2026-11-16, sum
   assert(/setAttribute\('role', 'button'\)/.test(news) && /aria-expanded/.test(news), 'clamped summaries are not exposed as a control');
   assert(/addEventListener\('keydown'[\s\S]{0,200}'Enter'[\s\S]{0,40}' '/.test(news), 'Enter/Space no longer open a summary');
   assert(/pendingHash[\s\S]{0,200}\.summary'\)\?\.classList\.add\('is-open'\)/.test(news), 'a deep-linked story no longer opens its summary');
+});
+
+test('supply-chain shipment definitions ship closed behind one summary (2026-11-19)', () => {
+  const sc = read('supply-chain.html');
+  assert(/<details class="shipments-notes">\s*<summary>[^<]+<\/summary>\s*<div id="shipments-defs"/.test(sc), 'shipment definitions are not inside a closed details.shipments-notes');
+  assert(!/<details class="shipments-notes" open/.test(sc), 'shipment definitions ship open');
 });
 
 console.log(`\n${passed} passed, ${failed} failed`);
