@@ -167,7 +167,8 @@
     // from these same RT.* functions, so this re-render reproduces what already
     // shipped in the HTML. Page markup belongs in app.js, not inline here —
     // anything defined in this script is invisible to the bake step.
-    const { kpis, companies, policies } = summary;
+    const { companies, policies } = summary;
+    const kpis = RT.frontKPIs(summary);
     const strip = document.getElementById('kpi-strip');
     strip.className = RT.kpiStripClass(kpis);
     RT.paint(strip, RT.renderKPICards(kpis));

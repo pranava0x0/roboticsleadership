@@ -986,13 +986,27 @@
   // the full files, plus only the fields the front page reads. loadFrontSummary()
   // falls back to building the same payload from the full files.
   function frontSummaryPayload(companies, policies) {
+    // Year-to-date funding is summed per year so the browser can pick its own
+    // year: a page baked on Dec 31 must not label Jan 1 with last year's total.
+    const fundingByYear = {};
+    (companies || []).forEach((c) => (c.funding_rounds || []).forEach((r) => {
+      if (r.date && r.amount_usd) fundingByYear[r.date.slice(0, 4)] = (fundingByYear[r.date.slice(0, 4)] || 0) + r.amount_usd;
+    }));
     return {
       kpis: computeKPIs(companies || [], policies || []),
+      funding_by_year: fundingByYear,
       companies: (companies || []).map((c) => ({
         id: c.id, name: c.name, hq: c.hq, primary_use_case: c.primary_use_case, latest_valuation_usd: c.latest_valuation_usd,
       })),
       policies: (policies || []).map((x) => ({ id: x.id, title: x.title, bill_number: x.bill_number })),
     };
+  }
+  // The baked KPIs with the funding card recomputed for the reader's current year.
+  function frontKPIs(summary, nowYear) {
+    const year = String(nowYear || new Date().getFullYear());
+    return (summary.kpis || []).map((k, i) => (i === 0 && summary.funding_by_year
+      ? { ...k, label: `Tracked funding · ${year}`, value: formatUSD(summary.funding_by_year[year] || 0) }
+      : k));
   }
   async function loadFrontSummary() {
     try {
@@ -1757,6 +1771,7 @@
     installTrendPayload,
     loadInstallTrend,
     frontSummaryPayload,
+    frontKPIs,
     loadFrontSummary,
     newsResultCount,
     chinaTally,

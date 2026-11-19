@@ -219,6 +219,10 @@ ok(index.includes('href="companies.html?sort=funding-desc"'), 'baked KPI cards k
   const front = RT2.frontPageStories(news);
   eq(RT2.renderKPICards(fs2.kpis), RT2.renderKPICards(RT2.computeKPIs(cos, pols)), 'KPI cards are identical from front-summary.json');
   eq(RT2.renderTopCompanies(fs2.companies), RT2.renderTopCompanies(cos), 'top companies are identical from front-summary.json');
+  eq(RT2.renderKPICards(RT2.frontKPIs(fs2)), RT2.renderKPICards(RT2.computeKPIs(cos, pols)), 'client-side KPIs (year recomputed) match computeKPIs');
+  const k = RT2.frontKPIs(fs2, 2099)[0];
+  eq(k.label, 'Tracked funding · 2099', 'funding KPI label follows the reader\'s year, not the bake year');
+  eq(k.value, RT2.formatUSD(0), 'a year with no rounds shows zero, not the bake year\'s sum');
   eq(RT2.renderLeadStory(front.lead, fs2.companies, fs2.policies), RT2.renderLeadStory(front.lead, cos, pols), 'lead story is identical from front-summary.json');
   eq(RT2.renderTopStories(front.top, fs2.companies), RT2.renderTopStories(front.top, cos), 'top stories are identical from front-summary.json');
 }
