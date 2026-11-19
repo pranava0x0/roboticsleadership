@@ -1,5 +1,164 @@
 [
   {
+    "id": "fedreg-news-2026-23528",
+    "title": "Self-Regulatory Organizations; NYSE American LLC; Order Approving a Proposed Rule Change To Amend Sections 1003 and 1009 of the NYSE American Company Guide",
+    "date": "2026-11-19",
+    "source": "Federal Register",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/19/2026-23528/self-regulatory-organizations-nyse-american-llc-order-approving-a-proposed-rule-change-to-amend",
+    "summary": "Self-Regulatory Organizations; NYSE American LLC; Order Approving a Proposed Rule Change To Amend Sections 1003 and 1009 of the NYSE American Company Guide",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "federal-register",
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50558964",
+    "title": "Humanity",
+    "date": "2026-11-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://vldmir.com/posts/humanity/",
+    "summary": "Humanity",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50559010",
+    "title": "Datacentres to create 70% more carbon emissions by 2030, IEA report warns",
+    "date": "2026-11-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns",
+    "summary": "Datacentres to create 70% more carbon emissions by 2030, IEA report warns",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50560955",
+    "title": "Cooling buildings is overtaking heating them as an energy need, IEA says",
+    "date": "2026-11-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://maccus.fr/en/cooling-overtaking-heating/",
+    "summary": "Cooling buildings is overtaking heating them as an energy need, IEA says",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50561246",
+    "title": "My Job Turned Me into an Inflexible Robot",
+    "date": "2026-11-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://nomagicpill.site/thoughts/iamrobot.html",
+    "summary": "My Job Turned Me into an Inflexible Robot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50561628",
+    "title": "The Hackers Choice: Segfault (Disposable Root Servers)",
+    "date": "2026-11-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.thc.org/segfault/",
+    "summary": "The Hackers Choice: Segfault (Disposable Root Servers)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50562784",
+    "title": "Open Is How Robotics Wins",
+    "date": "2026-11-19",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.eliothorowitz.com/blog/2026/11/18/open-is-how-robotics-wins/",
+    "summary": "Open Is How Robotics Wins",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-what-industrial-drone-deployme-277",
+    "title": "What industrial drone deployments reveal about real-world autonomy challenges",
+    "date": "2026-11-19",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/what-industrial-drone-deployments-reveal-about-real-world-autonomy-challenges/",
+    "summary": "The engineering challenges of industrial drone autonomy include GNSS reliability, SLAM, sensor fusion, obstacle avoidance, and UAV validation. \nThe post What industrial drone deployments reveal about ...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "miit-moa-agri-robot-scenarios-2026-11",
     "title": "China's industry and agriculture ministries publish 55 farm-robot scenarios for provinces to back",
     "date": "2026-11-19",
