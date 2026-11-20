@@ -114,6 +114,9 @@ test('news page first-paints from the trimmed payload and only fetches the full 
   assert(!/href="data\/news\.json"/.test(news), 'news.html still preloads the full archive instead of data/news-recent.json');
   assert(/href="data\/news-recent\.json"/.test(news), 'news.html does not preload data/news-recent.json');
   assert(/RT\.loadNewsRecent\(\)/.test(news), 'news.html does not call RT.loadNewsRecent() for first paint');
+  // 2026-11-20: pill names and the company filter come from front-summary.json, not the full files (~95 KB gzip).
+  assert(!/loadData\('(companies|policies)'\)|href="data\/(companies|policies)\.json"/.test(news), 'news.html fetches all of companies.json or policies.json');
+  assert(/RT\.loadFrontSummary\(\)/.test(news), 'news.html does not use loadFrontSummary()');
   assert(/function ensureFullNews/.test(news), 'news.html has no lazy full-archive loader');
   assert(/await ensureFullNews\(\)/.test(news), 'renderNewsFeed never awaits the lazy full-archive loader');
 
@@ -331,6 +334,12 @@ test('supply-chain shipment definitions ship closed behind one summary (2026-11-
   const sc = read('supply-chain.html');
   assert(/<details class="shipments-notes">\s*<summary>[^<]+<\/summary>\s*<div id="shipments-defs"/.test(sc), 'shipment definitions are not inside a closed details.shipments-notes');
   assert(!/<details class="shipments-notes" open/.test(sc), 'shipment definitions ship open');
+});
+
+test('phone front page shows four briefs, then the all-stories link (2026-11-20)', () => {
+  const css = read('assets/styles.css');
+  assert(/@media \(max-width: 600px\) \{\s*\.brief:not\(\.brief-all\):nth-child\(n\+5\) \{ display: none; \}/.test(css), 'phone brief cap removed');
+  assert(/brief-all/.test(read('assets/app.js')), 'renderNewsBriefs lost its all-stories row');
 });
 
 console.log(`\n${passed} passed, ${failed} failed`);

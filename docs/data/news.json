@@ -1,5 +1,262 @@
 [
   {
+    "id": "census-aies-robotics-questions-2026-11",
+    "title": "Census will now ask manufacturers its standard robotics questions in the Annual Integrated Economic Survey",
+    "date": "2026-11-20",
+    "source": "Federal Register (Census Bureau)",
+    "source_type": "Government",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/20/2026-23717/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+    "summary": "The Census Bureau's request to OMB for the next Annual Integrated Economic Survey says manufacturing companies will receive the standard robotics questions that until now went only to non-manufacturing companies. Total capital spending on structures and equipment is also being added back to the survey. The change would give the US an official yearly measure of robot use in factories.",
+    "category": "Policy",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "themes": [
+      "policy-momentum"
+    ],
+    "tags": [
+      "census",
+      "data",
+      "manufacturing",
+      "survey"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23717/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+        "label": "Federal Register 2026-23717"
+      }
+    ]
+  },
+  {
+    "id": "nestle-deep-tech-center-boston-dynamics-2026-11",
+    "title": "Nestlé opens a deep-tech centre in Orbe, Switzerland, with Microsoft and Boston Dynamics as named partners",
+    "date": "2026-11-20",
+    "source": "bluewin (Keystone-SDA)",
+    "source_type": "News",
+    "source_url": "https://www.bluewin.ch/en/news/nestle-opens-center-for-food-and-factories-of-the-future-li.3680493",
+    "summary": "Nestlé opened a centre in Orbe, Vaud, with about 60 staff to test AI, sensors and robots in products and factory processes, and named Microsoft and Boston Dynamics as collaborators. Nestlé's technology chief told Bloomberg the work is meant to be rolled out across its plants. No contract value, robot count or deployment date was given.",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "nestle",
+      "boston-dynamics",
+      "food",
+      "factory"
+    ],
+    "companies": [
+      "boston-dynamics"
+    ],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.bluewin.ch/en/news/nestle-opens-center-for-food-and-factories-of-the-future-li.3680493",
+        "label": "bluewin"
+      },
+      {
+        "url": "https://www.bloomberght.com/nestle-microsoft-ve-boston-dynamics-ile-isbirligi-yapacak-3795288",
+        "label": "Bloomberg HT"
+      }
+    ]
+  },
+  {
+    "id": "house-fac-china-chip-licence-data-2026-11",
+    "title": "House Foreign Affairs chair publishes Commerce licence data: more than 879,000 Nvidia and AMD AI chips approved for China",
+    "date": "2026-11-19",
+    "source": "House Foreign Affairs Committee",
+    "source_type": "Government",
+    "source_url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
+    "summary": "Chairman Brian Mast used his Export Control Reform Act authority to release licence records showing Chinese buyers asked for 3.4 million Nvidia and AMD AI chips and Commerce approved more than 879,000 of them. Press tallies of the documents count 21 licences from December 2025 to May 2026, including 150,000 chips for Tencent, 75,000 for Alibaba, 43,000 for Baidu and 4,000 for BYD. The same week Commerce's remote-access rule took effect.",
+    "category": "Geopolitics",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "themes": [
+      "policy-momentum",
+      "china-scale"
+    ],
+    "tags": [
+      "export-controls",
+      "chips",
+      "nvidia",
+      "congress",
+      "china"
+    ],
+    "companies": [],
+    "policies": [
+      "fedreg-2026-23529"
+    ],
+    "sources": [
+      {
+        "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
+        "label": "House Foreign Affairs release"
+      },
+      {
+        "url": "https://www.unite.ai/mast-releases-nvidia-and-amd-ai-chip-license-records-for-china/",
+        "label": "Unite.AI (company counts)"
+      }
+    ]
+  },
+  {
+    "id": "foundation-base-group-150m-2026-11",
+    "title": "Korea's Base Group is preparing a $150M investment in Foundation, the humanoid maker that stopped paying staff",
+    "date": "2026-11-19",
+    "source": "Reuters",
+    "source_type": "News",
+    "source_url": "https://www.reuters.com/world/south-korean-firm-plans-150-million-lifeline-eric-trump-backed-robot-maker-2026-11-19/",
+    "summary": "Reuters, citing internal emails, reports that Seoul-based Base Group plans to put $150 million into Foundation Future Industries, which makes the Phantom military humanoid and has Eric Trump as chief strategy adviser. CEO Sankaet Pathak told staff on Nov 8 that the missed payroll was \"a timing issue, not an existential one\". A Base spokesperson confirmed the company was considering an investment; Democratic senators had already asked Base in August about its payments to the Trump Organization.",
+    "category": "Funding",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "defense-procurement"
+    ],
+    "tags": [
+      "foundation",
+      "humanoid",
+      "defense",
+      "korea",
+      "funding"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.reuters.com/world/south-korean-firm-plans-150-million-lifeline-eric-trump-backed-robot-maker-2026-11-19/",
+        "label": "Reuters"
+      }
+    ]
+  },
+  {
+    "id": "deere-acquires-orchard-ai-2026-11",
+    "title": "John Deere buys Orchard Robotics, a San Francisco startup whose cameras count the fruit on each tree",
+    "date": "2026-11-19",
+    "source": "John Deere",
+    "source_type": "Primary",
+    "source_url": "https://www.deere.com/en-us/john-deere-news/john-deere-acquires-orchard-ai",
+    "summary": "Deere announced the acquisition of Orchard Robotics, which trades as Orchard AI. Its cameras ride on vehicles that already pass through orchards and vineyards, and its FruitScope software turns hundreds of images per tree into fruit counts, size and colour data, canopy measurements and yield estimates. Deere did not disclose the price.",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "tags": [
+      "deere",
+      "agriculture",
+      "acquisition",
+      "computer-vision"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.deere.com/en-us/john-deere-news/john-deere-acquires-orchard-ai",
+        "label": "John Deere release"
+      }
+    ]
+  },
+  {
+    "id": "fcc-drone-spectrum-order-2026-11",
+    "title": "FCC opens the 450 MHz band to drone data links and lets ground radar track drones at 24 GHz",
+    "date": "2026-11-19",
+    "source": "Aviation International News",
+    "source_type": "News",
+    "source_url": "https://www.ainonline.com/aviation-news/futureflight/2026-11-19/fcc-opens-450-mhz-band-drone-and-evtol-data-links",
+    "summary": "At its November 19 meeting the FCC adopted a Report and Order (GN Docket 26-74) that opens the 450 MHz band to flight-safety data links for drones and air taxis under a nationwide licence. It also lets ground radars use 24.45-24.65 GHz to detect drones near airports, borders, prisons and stadiums. The FCC had not posted the final text by November 20, and the FAA's beyond-visual-line-of-sight rule, due by statute on December 7, still has no date.",
+    "category": "Policy",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "policy-momentum"
+    ],
+    "tags": [
+      "fcc",
+      "drones",
+      "spectrum",
+      "counter-uas"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.ainonline.com/aviation-news/futureflight/2026-11-19/fcc-opens-450-mhz-band-drone-and-evtol-data-links",
+        "label": "AIN"
+      },
+      {
+        "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23467/sunshine-act-open-commission-meeting-thursday-november-19-2026",
+        "label": "FCC meeting notice (Federal Register)"
+      },
+      {
+        "url": "https://dronelife.com/2026/11/19/fcc-drone-spectrum-rules-communications-radar/",
+        "label": "DroneLife"
+      }
+    ]
+  },
+  {
+    "id": "keli-sensing-zhixing-stake-2026-11",
+    "title": "Force-sensor maker Keli Sensing takes its fifth embodied-AI stake since August, in hand maker Zhixing Robotics",
+    "date": "2026-11-19",
+    "source": "BigGo Finance",
+    "source_type": "News",
+    "source_url": "https://finance.biggo.com/news/12717c91-eb56-45bb-a82c-f456a987c0f1",
+    "summary": "Ningbo-listed Keli Sensing announced a strategic investment in Taicang's Zhixing Robotics, which makes robot end-effectors and dexterous hands; it now holds minority stakes in more than 15 robotics companies. Keli's interim report says it sold more than 2,000 robot force sensors in the first half of 2026, more than in all of 2025, with monthly orders above 1,000 since April.",
+    "category": "Supply Chain",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "china",
+      "sensors",
+      "components",
+      "investment"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://finance.biggo.com/news/12717c91-eb56-45bb-a82c-f456a987c0f1",
+        "label": "BigGo Finance"
+      }
+    ]
+  },
+  {
+    "id": "fushi-spad-chip-c4-2026-11",
+    "title": "Shenzhen chipmaker Fushi Technology raises more than RMB 400M for lidar and depth-sensing chips it pitches at robots",
+    "date": "2026-11-19",
+    "source": "Gasgoo",
+    "source_type": "News",
+    "source_url": "https://www.gasgoo.com/apps/e060bad9eca91db7f01403fc7120041f/robot/news/70478511-seeds-%E9%98%9C%E6%97%B6%E7%A7%91%E6%8A%80%E5%AE%8C%E6%88%90%E8%B6%854%E4%BA%BF%E5%85%83c4%E8%BD%AE%E8%9E%8D%E8%B5%84/",
+    "summary": "Fushi Technology (阜时科技) closed a C4 round of more than RMB 400 million (about $56 million) from listed companies' investment arms and funds. Its SPAD chips for solid-state lidar are in factory-fitted production at major automakers, with more than 1 million shipped. A single-chip colour-and-depth sensor for cars and robots is planned for 2027.",
+    "category": "Supply Chain",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "china-scale",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "china",
+      "chips",
+      "lidar",
+      "sensors",
+      "funding"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.gasgoo.com/apps/e060bad9eca91db7f01403fc7120041f/robot/news/70478511-seeds-%E9%98%9C%E6%97%B6%E7%A7%91%E6%8A%80%E5%AE%8C%E6%88%90%E8%B6%854%E4%BA%BF%E5%85%83c4%E8%BD%AE%E8%9E%8D%E8%B5%84/",
+        "label": "Gasgoo"
+      }
+    ]
+  },
+  {
     "id": "miit-moa-agri-robot-scenarios-2026-11",
     "title": "China's industry and agriculture ministries publish 55 farm-robot scenarios for provinces to back",
     "date": "2026-11-19",
@@ -66,6 +323,72 @@
       {
         "url": "https://asia.nikkei.com/business/technology/us-visa-denials-hit-xpeng-other-chinese-robot-makers-ahead-of-ces",
         "label": "Nikkei Asia"
+      }
+    ]
+  },
+  {
+    "id": "foundation-phantom-mkii-2026-11",
+    "title": "Foundation shows Phantom MKII, claiming a 200 lb walking payload, and its CEO says the company is not against weaponization",
+    "date": "2026-11-18",
+    "source": "Tech Times",
+    "source_type": "News",
+    "source_url": "https://www.techtimes.com/articles/331061/20261119/humanoid-robot-debut-phantom-mkii-claims-200-pound-walking-payload-no-independent-test.htm",
+    "summary": "Foundation claims the second Phantom walks carrying about 200 lb and runs about six hours per charge in rain, snow and dust; no test method or battery capacity was given. CEO Sankaet Pathak told Fast Company \"We're not anti-weaponization and warfare\" during the UN weapons conference in Geneva. The launch came the week the company was reported to have missed payroll.",
+    "category": "Competitive",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "defense-procurement"
+    ],
+    "tags": [
+      "foundation",
+      "humanoid",
+      "defense",
+      "product"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.techtimes.com/articles/331061/20261119/humanoid-robot-debut-phantom-mkii-claims-200-pound-walking-payload-no-independent-test.htm",
+        "label": "Tech Times"
+      },
+      {
+        "url": "https://www.fastcompany.com/91643258/foundation-future-industries-humanoid-robot-war",
+        "label": "Fast Company"
+      }
+    ]
+  },
+  {
+    "id": "brightai-97m-2026-11",
+    "title": "BrightAI raises $97M, with GE Vernova joining, for sensors and models that watch pipes, poles and power lines",
+    "date": "2026-11-18",
+    "source": "BrightAI (Business Wire via Yahoo Finance)",
+    "source_type": "Primary",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/brightai-announces-97-million-investment-150000194.html",
+    "summary": "Palo Alto's BrightAI raised $97 million led by Smith Point Capital; GE Vernova, already a customer, joined, and Khosla, Inspired Capital and Upfront invested again. Total raised is $184 million. The company sells sensing and analytics for utilities and heavy industry rather than robots that move.",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "funding",
+      "infrastructure",
+      "sensors",
+      "utilities"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/technology/ai/articles/brightai-announces-97-million-investment-150000194.html",
+        "label": "Business Wire release"
+      },
+      {
+        "url": "https://siliconangle.com/2026/11/19/industrial-monitoring-startup-brightai-closes-97m-investment/",
+        "label": "SiliconANGLE"
       }
     ]
   },
@@ -293,6 +616,39 @@
       {
         "url": "https://www.engadget.com/2321312/waymo-pauses-service-in-san-francisco-after-robotaxis-get-stuck-on-flooded-streets/",
         "label": "Engadget"
+      }
+    ]
+  },
+  {
+    "id": "nvidia-physical-ai-25b-fy-2026-11",
+    "title": "NVIDIA's CFO says physical-AI revenue nearly tripled last quarter and should pass $25B this fiscal year",
+    "date": "2026-11-17",
+    "source": "Yahoo Finance (earnings call highlights)",
+    "source_type": "News",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-q3-earnings-call-highlights-011255071.html",
+    "summary": "Colette Kress gave the figures on the third-quarter call; they are not in NVIDIA's release. \"Physical AI\" is NVIDIA's own bucket and covers more than robots, including cars and edge computing. The Robot Report puts $25B at about 6% of NVIDIA's projected annual revenue.",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "physical-ai",
+      "foundation-models"
+    ],
+    "tags": [
+      "nvidia",
+      "earnings",
+      "physical-ai"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-q3-earnings-call-highlights-011255071.html",
+        "label": "Yahoo Finance call highlights"
+      },
+      {
+        "url": "https://www.therobotreport.com/robotics-enters-its-post-jensen-huang-era/",
+        "label": "The Robot Report"
       }
     ]
   },
@@ -1155,6 +1511,36 @@
     ]
   },
   {
+    "id": "pony-toyota-bz4x-driverless-guangzhou-2026-11",
+    "title": "Pony.ai and Toyota put the Gen-7 bZ4X robotaxi into fully driverless paid service in Guangzhou",
+    "date": "2026-11-15",
+    "source": "Pony.ai (PR Newswire)",
+    "source_type": "Primary",
+    "source_url": "https://www.prnewswire.com/news-releases/ponyai-and-toyota-launch-fully-driverless-commercial-services-with-gen-7-bz4x-robotaxi-302939910.html",
+    "summary": "The jointly developed car joined Pony.ai's driverless fleet in Guangzhou and can be booked around the clock through PonyPilot, WeChat and Alipay. The partners plan about 1,000 bZ4X robotaxis across Chinese cities; the first came off the line in February. Pony.ai, Toyota Motor China and GAC Toyota formed their joint venture in 2023 with more than RMB 1 billion.",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "themes": [
+      "china-scale"
+    ],
+    "tags": [
+      "robotaxi",
+      "pony-ai",
+      "toyota",
+      "china",
+      "autonomous-vehicles"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/ponyai-and-toyota-launch-fully-driverless-commercial-services-with-gen-7-bz4x-robotaxi-302939910.html",
+        "label": "Pony.ai release"
+      }
+    ]
+  },
+  {
     "companies": [],
     "policies": [],
     "sentiment": "Neutral",
@@ -1226,6 +1612,39 @@
       "senate",
       "commerce",
       "chips"
+    ]
+  },
+  {
+    "id": "tesla-cybercab-orders-2026-11",
+    "title": "Tesla opens Cybercab orders to invited buyers at $29,990 plus a $299-a-month autonomy subscription",
+    "date": "2026-11-13",
+    "source": "AutoGuide",
+    "source_type": "News",
+    "source_url": "https://www.autoguide.com/auto/tesla-opens-cybercab-orders-at-29-990-plus-299-a-month-44642266",
+    "summary": "Tesla's Robotaxi account invited selected customers to order the two-seat car with a $1,000 non-refundable deposit and estimated delivery in Austin in December. It runs only with the subscription and only inside Tesla's robotaxi areas in Texas and Florida. Electrek counts eight Cybercab crashes in NHTSA reports, four of them in driverless service and none above 5 mph.",
+    "category": "Deployment",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "themes": [
+      "physical-ai"
+    ],
+    "tags": [
+      "tesla",
+      "robotaxi",
+      "cybercab",
+      "autonomous-vehicles"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.autoguide.com/auto/tesla-opens-cybercab-orders-at-29-990-plus-299-a-month-44642266",
+        "label": "AutoGuide"
+      },
+      {
+        "url": "https://electrek.co/2026/11/16/tesla-cybercab-crashes-speed-problem/",
+        "label": "Electrek (crash reports)"
+      }
     ]
   },
   {
@@ -2265,6 +2684,36 @@
       {
         "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202611/t20261111_4942067.html",
         "label": "Beijing municipal government (Chinese)"
+      }
+    ]
+  },
+  {
+    "id": "nidus-30m-defense-wire-harness-2026-11",
+    "title": "Nidus raises $30M to train AI for existing factory robots on defense wire-harness work",
+    "date": "2026-11-10",
+    "source": "VC Post",
+    "source_type": "News",
+    "source_url": "https://www.vcpost.com/articles/130984/20261118/nidus-raises-30-million-kleiner-perkins-costanoa-teach-factory-robots-defense-wire-harness-work.htm",
+    "summary": "New York's Nidus, founded in March by former Vannevar hardware staff, raised a Costanoa-led pre-seed and a Kleiner Perkins-led seed totalling $30 million. Remote operators record wire-harness work, and the company tunes models that run beside a factory's current robots. Kitting, early assembly and circuit boards are the next tasks it names.",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "defense-procurement",
+      "us-supply-chain"
+    ],
+    "tags": [
+      "funding",
+      "defense",
+      "manufacturing",
+      "startup"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.vcpost.com/articles/130984/20261118/nidus-raises-30-million-kleiner-perkins-costanoa-teach-factory-robots-defense-wire-harness-work.htm",
+        "label": "VC Post (citing Upstarts Media)"
       }
     ]
   },

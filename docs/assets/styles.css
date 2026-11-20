@@ -728,6 +728,11 @@ h2.section-title.rail-title { margin: 0 0 4px; }
 .brief-title { font-size: 13.5px; line-height: 1.35; font-weight: 500; }
 .brief-meta { font-size: 11px; color: var(--text-faint); }
 .brief-all { border-bottom: none; padding-top: 12px; font-size: 13px; font-weight: 600; }
+/* On a phone the rail stacks under the well, so seven briefs ran ~760px after
+   four stories. Four, then "All N stories" (2026-11-20). */
+@media (max-width: 600px) {
+  .brief:not(.brief-all):nth-child(n+5) { display: none; }
+}
 
 /* Secondary stories — 3 across, collapsing to 1 with no duplicate markup. */
 .story-grid {

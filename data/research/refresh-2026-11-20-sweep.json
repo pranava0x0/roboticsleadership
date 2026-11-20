@@ -1,0 +1,381 @@
+[
+ {
+  "title": "NVIDIA says physical-AI revenue nearly tripled in its third quarter and is on track to exceed $25B for the fiscal year",
+  "date": "2026-11-17",
+  "company": "NVIDIA",
+  "category": "supply-chain",
+  "summary": "On its Nov 17 earnings call NVIDIA's interim CEO and CFO Colette Kress said physical-AI revenue nearly tripled from a year earlier in the quarter and is on track to exceed $25B for the full year. The Robot Report notes that is about 6% of NVIDIA's projected annual revenue of more than $400B and that 'physical AI' covers more than robotics.",
+  "key_figures": "physical-AI revenue nearly 3x year over year in Q3 FY27; on track to exceed $25B for the fiscal year; edge-computing revenue up 42% year over year to $8.2B; about 6% of projected revenue above $400B (Robot Report calculation)",
+  "primary_url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-q3-earnings-call-highlights-011255071.html",
+  "other_urls": [
+   "https://www.therobotreport.com/robotics-enters-its-post-jensen-huang-era/",
+   "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+   "https://www.digitaltoday.co.kr/en/view/127216/nvidia-contacts-robotics-startups-after-jensen-huang-resignation-to-keep-support"
+  ],
+  "confidence": "Medium",
+  "already_tracked_check": "tracked record nvidia-q3-fy27-export-committee-2026-11 (11-17) says the release gives 'no separate robotics revenue figure'; grep for 'physical AI revenue' / '$25 billion' found nothing",
+  "note": "The figure is from the call (Kress), not the press release; I read it in Yahoo Finance's call highlights, not in a transcript (Seeking Alpha and MarketScreener pages were blocked). 'Physical AI' is NVIDIA's own bucket and includes more than robots (Robot Report says so), so do not label it robotics revenue. Business Insider also reports robotics VP Deepu Talla saying robotics product revenue was $11B in the first half of 2026, 30% more than full-year 2025 (read via DigitalToday's summary, not the paywalled BI text)."
+ },
+ {
+  "title": "South Korea's Base Group prepares a $150M investment in Foundation, the humanoid maker that has stopped paying staff",
+  "date": "2026-11-19",
+  "company": "Foundation Future Industries (Foundation Robotics)",
+  "category": "deal",
+  "summary": "Reuters reports, from internal emails, that Seoul-based Base Group is preparing to invest $150M in Foundation, the Eric Trump-advised maker of military humanoid robots, which stopped paying employees in recent weeks. A Base Group spokesperson confirmed it is considering an investment; Pitchbook shows Foundation has raised $11M from outside investors to date.",
+  "key_figures": "$150M planned Base Group investment (not yet signed); $11M raised to date per Pitchbook (Tribe Capital, Defined, Gaingels); Pathak email: 'a timing issue, not an existential one'; joint venture to supply aluminium and lithium for the robots; Democratic senators' August letter cites a $2M Base payment to the Trump Organisation in 2025",
+  "primary_url": "https://www.reuters.com/world/south-korean-firm-plans-150-million-lifeline-eric-trump-backed-robot-maker-2026-11-19/",
+  "other_urls": [
+   "https://www.businessday.co.za/world/international-companies/2026-11-19-trump-family-linked-robot-maker-banks-on-150m-south-korean-lifeline/"
+  ],
+  "confidence": "High",
+  "already_tracked_check": "tracked_check Foundation: foundation-misses-payroll-2026-11 (11-14) and foundation-idf-humanoid-talks-2026-11 (11-11) exist; the Base Group $150M rescue is not in news.json",
+  "note": "New development on a tracked story (payroll miss). Reuters page returned HTTP 401 to curl; text read via BusinessDay syndication of the same Reuters piece (byline David Jeans, 2026-11-19 18:35 UTC). Base is not committed: 'considering' / 'preparing'. Frame as plan, not closed deal."
+ },
+ {
+  "title": "House Foreign Affairs chair releases licence data: Commerce approved more than 879,000 Nvidia and AMD AI chips for China",
+  "date": "2026-11-19",
+  "company": "NVIDIA / AMD / US Commerce (BIS)",
+  "category": "policy",
+  "summary": "Chairman Brian Mast used Export Control Reform Act authority to publish licence-application records showing Chinese buyers asked to import 3.4 million Nvidia and AMD AI chips and Commerce approved more than 879,000 of them. Press reports of the documents put 21 licences, Dec 2025 to May 2026, with 75,000 chips for Alibaba, 150,000 for Tencent, 43,000 for Baidu and 4,000 for BYD; Nvidia says it has since stopped shipping H200s to China.",
+  "key_figures": "3.4 million chips requested; more than 879,000 approved by BIS (879,868 in press tallies); 21 licence applications as of May 11; Alibaba 75,000, Tencent 150,000, Baidu 43,000, BYD 4,000; approvals run Dec 2025 to May 2026",
+  "primary_url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
+  "other_urls": [
+   "https://www.ibtimes.sg/trump-approved-879868-nvidia-amd-ai-chips-china-alibaba-tencent-baidu-byd-among-buyers-96433",
+   "https://www.unite.ai/mast-releases-nvidia-and-amd-ai-chip-license-records-for-china/"
+  ],
+  "confidence": "High",
+  "already_tracked_check": "tracked_check 'chips to China|H200|H20' returned no hits in news.json or policies.json; tracked has NVIDIA Q3 'no China data-center sales next quarter' (11-17) and Senate Banking hearing ask (11-14) but not this disclosure",
+  "note": "Committee release confirms 3.4M requested and 'more than 879,000' approved; the company-level numbers (21 licences, 75k/150k/43k/4k) come from IBTimes citing The Hill/Reuters and were not on the press-release text I could read. The disclosed documents are linked from the release. Compute-export angle rather than robotics hardware; relevance is the physical-AI compute stack."
+ },
+ {
+  "title": "FCC adopts rules opening the 450 MHz band to drone data links and allowing ground radar to track drones at 24.45-24.65 GHz",
+  "date": "2026-11-19",
+  "company": "FCC / Aura Network Systems",
+  "category": "policy",
+  "summary": "At its Nov 19 open meeting the FCC adopted a Report and Order under 'Unleashing American Drone Dominance' that opens the 450 MHz band to flight-safety data links for drones and advanced air mobility and moves it to a nationwide licence. It also lets ground-based radars use 24.45-24.65 GHz to detect and track drones near airports, borders, prisons and stadiums, and updates the 800 MHz air-ground broadband rules.",
+  "key_figures": "Aura Network Systems holds all 54 ground-station licences and says it has invested more than $100M since 2021; build-out options: 5,000 ft coverage over 50% of the area by year 4 and 90% by year 8, or 400 ft coverage over 35% by year 4 and 70% by year 8 (from the October draft order; final text not yet released); GN Docket 26-74 and WT Docket 24-629",
+  "primary_url": "https://www.federalregister.gov/documents/2026/11/18/2026-23467/sunshine-act-open-commission-meeting-thursday-november-19-2026",
+  "other_urls": [
+   "https://www.ainonline.com/aviation-news/futureflight/2026-11-19/fcc-opens-450-mhz-band-drone-and-evtol-data-links",
+   "https://www.pipelinepub.com/news/fcc-drone-spectrum-advanced-air-mobility-press-release",
+   "https://dronelife.com/2026/11/19/fcc-drone-spectrum-rules-communications-radar/"
+  ],
+  "confidence": "High",
+  "already_tracked_check": "tracked_check '450 MHz|drone dominance' no hits; FCC robot Covered List, conditional-approval and test-lab items exist; the only drone policy record is the Section 232 drone proclamation (08-13)",
+  "note": "The Federal Register Sunshine notice (item 2 on the agenda) proves the meeting and docket numbers; the adoption and details come from the FCC release as reprinted by Pipeline and from Aviation International News. fcc.gov returned HTTP 403 to curl. AIN says the final order text had not been released as of Thursday and the build-out numbers come from the October draft. Drone-policy item, not humanoid."
+ },
+ {
+  "title": "Foundation unveils Phantom MKII with a claimed 200 lb walking payload and says it is not 'anti-weaponization'",
+  "date": "2026-11-18",
+  "company": "Foundation Future Industries (Foundation Robotics)",
+  "category": "product",
+  "summary": "Foundation showed its Phantom MKII humanoid on Nov 18, claiming it walks carrying about 200 lb, handles rain, snow and dust, and runs about six hours per charge, with no test method, ingress rating or battery capacity given. CEO Sankaet Pathak told Fast Company 'We're not anti-weaponization and warfare' as the UN's weapons conference met in Geneva.",
+  "key_figures": "about 200 lb claimed walking payload (MK-1: 50-60 lb per Fast Company, 44 lb max per Assembly in Dec 2025); about 6 hours runtime claimed; MKII price not announced; SF Standard reports MK-1 leases at $100,000 a year with a 100-unit minimum and MK-2 expected at $75,000 per unit; Foundation has no listed federal contracts under its own name (subsidiary Boardwalk Robotics has four worth $3.2M)",
+  "primary_url": "https://www.techtimes.com/articles/331061/20261119/humanoid-robot-debut-phantom-mkii-claims-200-pound-walking-payload-no-independent-test.htm",
+  "other_urls": [
+   "https://www.fastcompany.com/91643258/foundation-future-industries-humanoid-robot-war"
+  ],
+  "confidence": "Medium",
+  "already_tracked_check": "tracked_check Phantom: foundation-misses-payroll-2026-11 and foundation-idf-humanoid-talks-2026-11 only; no MKII item",
+  "note": "Specs are the company's claims relayed by Fast Company (HTTP 403 to curl) and Tech Times, which says no independent test exists. Lease prices are SF Standard's reporting, relayed second-hand. Pair with the Base Group $150M item; both are on the same company in the same week."
+ },
+ {
+  "title": "Nestle opens a Deep Tech Center in Switzerland and names Microsoft and Boston Dynamics as partners",
+  "date": "2026-11-20",
+  "company": "Nestle / Boston Dynamics / Microsoft",
+  "category": "deal",
+  "summary": "Nestle opened a Deep Tech Center in Orbe, Vaud, on Nov 20 to test AI, smart sensors and robots in food products and factory processes, with Microsoft and Boston Dynamics as named collaborators. Its chief technology officer told Bloomberg the work is meant to be rolled out across Nestle's plants worldwide; Microsoft and Boston Dynamics confirmed the collaboration.",
+  "key_figures": "about 60 staff at opening, more expected; Nestle calls it the first deep-tech centre of its kind in the food industry; no contract value, robot count or Atlas/Spot deployment date disclosed",
+  "primary_url": "https://www.laregione.ch/svizzera/svizzera/1964044/nestle-apre-a-orbe-un-centro-di-ricerca-con-ia-e-robot-per-sviluppare-nuovi-prodotti",
+  "other_urls": [
+   "https://www.bluewin.ch/en/news/nestle-opens-center-for-food-and-factories-of-the-future-li.3680493",
+   "https://www.bloomberght.com/nestle-microsoft-ve-boston-dynamics-ile-isbirligi-yapacak-3795288",
+   "https://www.msn.com/en-us/technology/artificial-intelligence/nestle-teams-up-with-microsoft-boston-dynamics-on-ai-in-factories-and-products/ar-AA2hPTRU"
+  ],
+  "confidence": "Medium",
+  "already_tracked_check": "tracked_check Boston Dynamics hits: GlobalFoundries Atlas (11-17), Hyundai full ownership (06-19), Atlas electric (2024); no Nestle item",
+  "note": "WSJ exclusive (headline 'Nestle Teams Up With Microsoft, Boston Dynamics on AI in Factories and Products') is paywalled; Bloomberg report relayed by BloombergHT. Nestle's own press release was not found. Thin on figures: the useful fact is a second non-auto Boston Dynamics industrial customer in the same week as GlobalFoundries. Do not say Atlas or Spot is deployed in Nestle plants; no source says that."
+ },
+ {
+  "title": "Tesla invites select buyers to order a Cybercab for $29,990 plus a $299-a-month autonomy subscription",
+  "date": "2026-11-13",
+  "company": "Tesla (Cybercab)",
+  "category": "product",
+  "summary": "Tesla's Robotaxi account began inviting select customers to order a two-seat Cybercab for personal use at $29,990, with a $1,000 non-refundable deposit and estimated delivery in December 2026 in Austin. The car works only with a $299 monthly Autonomy Subscription and only inside Tesla's existing robotaxi service areas in Texas and Florida; Musk replied that the fee is too high and should be nearer $115.",
+  "key_figures": "$29,990 price; $299/month subscription (first month included); $1,000 non-refundable deposit; delivery estimate December 2026; 8 supported cities (5 Texas, 3 Florida); Musk reply 2026-11-14 01:38 ET: 'the monthly fee is too high... more like ~$115/month'; NHTSA SGO data lists 8 Cybercab crashes (4 driverless all under 5 mph; 4 with a test driver, one at 53 mph in Philadelphia)",
+  "primary_url": "https://x.com/robotaxi/status/2121384435241402737",
+  "other_urls": [
+   "https://www.autoguide.com/auto/tesla-opens-cybercab-orders-at-29-990-plus-299-a-month-44642266",
+   "https://autos.yahoo.com/ev-and-future-tech/articles/tesla-opens-orders-29-990-142400392.html",
+   "https://electrek.co/2026/11/16/tesla-cybercab-crashes-speed-problem/"
+  ],
+  "confidence": "High",
+  "already_tracked_check": "tracked_check Cybercab: only tesla-cybertruck-wind-down-cybercab-optimus-2026-11 (11-06); no private-order item",
+  "note": "Event date is Nov 13 (Friday), four days before the sweep window; coverage ran Nov 16-19, so it is untracked. The X post itself was not fetchable; the Nov 13 date and the post URL come from a Yahoo Autos write-up dated 2026-11-19, and AutoGuide (2026-11-16) says the invitations were shared 'on Friday'. Policy hook: AutoGuide reports NHTSA directed Tesla to show under oath that a vehicle with no brake pedal meets federal rules; Tesla answered Oct 30 and asked for confidentiality, NHTSA has not ruled. Treat the brake-pedal sentence as single-sourced."
+ },
+ {
+  "title": "NVIDIA calls the robotics startups it backs to say support continues after Huang's exit; PitchBook counts 35+ robotics and physical-AI investments",
+  "date": "2026-11-17",
+  "company": "NVIDIA / NVentures",
+  "category": "deal",
+  "summary": "Business Insider reports that NVIDIA and its venture arm NVentures have contacted at least three robotics startups they back since Jensen Huang resigned on Nov 12, telling them support continues as normal. PitchBook data cited by BI counts more than 35 NVIDIA investments in robotics and physical-AI companies, 29 of which have disclosed rounds totaling nearly $11B.",
+  "key_figures": "at least 3 startups contacted, starting Thursday Nov 12; 35+ robotics and physical-AI investments; 29 with disclosed rounds totaling nearly $11B; portfolio includes Figure AI, Neura Robotics, Skild AI, Wayve, Waabi; $48B of stakes in 229 private companies at end of July; interim CEO Kress not expected to pursue deals as fast as Huang",
+  "primary_url": "https://www.businessinsider.com/nvidia-reassures-robotics-startups-it-backs-after-jensen-huangs-exit-2026-11",
+  "other_urls": [
+   "https://www.digitaltoday.co.kr/en/view/127216/nvidia-contacts-robotics-startups-after-jensen-huang-resignation-to-keep-support",
+   "https://www.therobotreport.com/robotics-enters-its-post-jensen-huang-era/"
+  ],
+  "confidence": "Medium",
+  "already_tracked_check": "tracked: nvidia-huang-resigns-2026-11 (11-12) and nvidia-q3-fy27-export-committee-2026-11 (11-17); no item on the startup outreach or the PitchBook count",
+  "note": "BI is paywalled after the first paragraphs; the PitchBook counts and the $48B stake figure are from the visible BI text and DigitalToday's summary. BI says the outreach 'began last Thursday', so the event dates to Nov 12-16; BI published Nov 17. Unnamed startups; do not assume which three."
+ },
+ {
+  "title": "Artificial Analysis updates its AA-Robotics leaderboard: GPT-6.2 Astra scores 79 controlling a real robot arm, about 30 minutes per task",
+  "date": "2026-11-17",
+  "company": "Artificial Analysis / OpenAI / Anthropic / Google",
+  "category": "research",
+  "summary": "Artificial Analysis's AA-Robotics v0.1 gives frontier language models control of a six-axis Hiwonder NexArm through a coding-agent harness on eight tabletop tasks. The Nov 17 snapshot has OpenAI's GPT-6.2 Astra first at 79 (six of eight tasks completed), GPT-6.2 Sol at 78 and Claude Fable 5.2 at 75; models still take about half an hour per task against about 20 seconds for a person.",
+  "key_figures": "GPT-6.2 Astra 79; GPT-6.2 Sol 78; Claude Fable 5.2 75; October launch snapshot: GPT-6 Astra 69, GPT-6.1 Sol 65, Gemini 4 Argon 55.3; about 30 min per task vs 20 s human baseline; per-task cost $1.93 (Sol) to $16.36 (Astra); no open-weight models listed",
+  "primary_url": "https://artificialanalysis.ai/articles/aa-robotics",
+  "other_urls": [
+   "https://cryptobriefing.com/gpt-6-2-astra-tops-aa-robotics-benchmark/",
+   "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/"
+  ],
+  "confidence": "Medium",
+  "already_tracked_check": "tracked_check 'AA-Robotics|Artificial Analysis' no hits; tracked has anthropic-fable-5-2-robodojo-2026-11 (Anthropic's own RoboDojo runs, 11-09) and openai-disbands-robotics-team-2026-11 (11-13)",
+  "note": "Artificial Analysis's article I could read is the Oct 14 launch note (GPT-6 Astra 69); the Nov 17 leaderboard numbers (79/78/75, six of eight tasks, $1.93-$16.36) come from Crypto Briefing and are not on the launch page, so confirm on the live leaderboard before quoting. This is an independent test, unlike the vendor-run RoboDojo numbers already tracked. Language-model-as-robot-controller research, not a deployment."
+ },
+ {
+  "title": "Hyundai completes the Boston Dynamics buyout and sells its RAI Institute stake to SoftBank",
+  "date": "2026-11-18",
+  "company": "Hyundai Motor Group / Boston Dynamics / SoftBank / RAI Institute",
+  "category": "deal",
+  "summary": "Businesskorea reports, citing the auto industry, that Hyundai chairman Euisun Chung, HMG Global and Hyundai Glovis have closed the purchase of SoftBank's remaining 9.65% of Boston Dynamics, giving the Hyundai group 100%. The group has also sold its stake in the Robotics and AI Institute, led by founder Marc Raibert, to SoftBank.",
+  "key_figures": "SoftBank's remaining 9.65% of Boston Dynamics now held by Chung, HMG Global and Hyundai Glovis (June agreement was $325M, implying about $3.37B); RAI Institute stake sold to SoftBank; Atlas described as set for mass production in 2028",
+  "primary_url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=281635",
+  "other_urls": [],
+  "confidence": "Medium",
+  "already_tracked_check": "tracked boston-dynamics-hyundai-full-ownership-2026-06 (agreement, $325M) and softbank-acquires-rai-2026-09 (SoftBank agrees to buy RAI, 'faces CFIUS review'); this is the reported closing of both",
+  "note": "Single Korean trade-press report citing industry sources; the completion date is 'recently', so it is dated by the Nov 18 article. No CFIUS clearance is mentioned, so do not say the review ended. Update to two tracked records rather than a new deal; the $325M figure is from the tracked June record, not this article."
+ },
+ {
+  "title": "BrightAI raises $97M, led by Smith Point Capital with GE Vernova, to put physical-AI sensing on pipes, poles and power lines",
+  "date": "2026-11-18",
+  "company": "BrightAI",
+  "category": "funding",
+  "summary": "BrightAI, a Palo Alto physical-AI company that sells sensor-to-action monitoring for energy, water and heavy industry, announced a $97M round led by Smith Point Capital. GE Vernova, already a customer, joined along with Cobalt Capital, Marlinspike Partners and Zero Infinity Partners, and Khosla, Inspired Capital and Upfront returned.",
+  "key_figures": "$97M round; total raised $184M; GE Vernova participates and is a customer; BrightAI's own estimate of $2.5 trillion a year lost to infrastructure failure and 12,158 operators across 16 industries surveyed",
+  "primary_url": "https://finance.yahoo.com/technology/ai/articles/brightai-announces-97-million-investment-150000194.html",
+  "other_urls": [
+   "https://pulse2.com/brightai-raises-97-million-to-scale-physical-ai-for-essential-infrastructure/",
+   "https://thenextweb.com/news/brightai-97m-physical-ai-infrastructure-ge-vernova",
+   "https://siliconangle.com/2026/11/19/industrial-monitoring-startup-brightai-closes-97m-investment/"
+  ],
+  "confidence": "High",
+  "already_tracked_check": "tracked_check BrightAI: no hits in news.json titles/summaries/companies",
+  "note": "Business Wire release dated 2026-11-18 (copy on Yahoo Finance). Mostly sensing and analytics rather than moving robots; the Next Web headline mentions robots but the release text I read centres on the Stateful sensor platform, so label it physical AI, not a robot maker. The $2.5T and $7.5T figures are the company's own."
+ },
+ {
+  "title": "Pony.ai and Toyota start fully driverless commercial service with the Gen-7 bZ4X robotaxi in Guangzhou",
+  "date": "2026-11-15",
+  "company": "Pony.ai / Toyota",
+  "category": "china",
+  "summary": "Pony.ai and Toyota said on Nov 15 the jointly developed Gen-7 bZ4X Robotaxi has joined Pony.ai's fully driverless commercial fleet in Guangzhou, bookable 24 hours a day through PonyPilot, WeChat and Alipay. The partners plan about 1,000 bZ4X robotaxis across major Chinese cities.",
+  "key_figures": "about 1,000 bZ4X robotaxis planned across major Chinese cities; first mass-produced vehicle off the line in February 2026; Pony.ai, Toyota Motor China and GAC Toyota set up a joint venture in 2023 with more than RMB 1 billion invested",
+  "primary_url": "https://www.prnewswire.com/news-releases/ponyai-and-toyota-launch-fully-driverless-commercial-services-with-gen-7-bz4x-robotaxi-302939910.html",
+  "other_urls": [
+   "https://electriccarsreport.com/2026/11/pony-ai-and-toyota-launch-fully-driverless-bz4x-robotaxi-service-in-china/"
+  ],
+  "confidence": "High",
+  "already_tracked_check": "tracked pony-ai-q3-2026 (11-18) and gac-pony-t9-robotruck-2026-10 exist; no item on the Toyota bZ4X commercial launch",
+  "note": "Press release dated Nov 15, three days before the sweep window and two days before Pony's tracked Q3 item, which may mention the fleet but not this launch. Company claim; deployment count is a plan, not a delivered number."
+ },
+ {
+  "title": "HD Hyundai and Anduril launch the 600-ton ASV Alpha, a crewless warship built in about 12 months for the US Navy",
+  "date": "2026-11-15",
+  "company": "HD Hyundai Heavy Industries / Anduril Industries",
+  "category": "manufacturing",
+  "summary": "HD HHI announced on Nov 15 that it and Anduril held a launching ceremony on Nov 12 in Ulsan for ASV Alpha, a 600-ton autonomous surface vessel meant to compete for US Navy uncrewed-ship requirements. It runs HD's VAone shipboard autonomy with Anduril's Lattice mission software, and will do sea trials off Ulsan before going to the US in early 2027.",
+  "key_figures": "600-ton class; built about 12 months after contract signing; launch ceremony Nov 12, announcement Nov 15; US Navy announced in September 2026 plans to buy 30 medium autonomous surface vessels; October sea trial of the software on a 368-ton former Navy test vessel off Long Beach; US deployment early 2027",
+  "primary_url": "https://www.navalnews.com/naval-news/2026/11/hd-hhi-anduril-launch-600-ton-asv-alpha/",
+  "other_urls": [
+   "https://www.upi.com/Top_News/World-News/2026/11/15/hd-hyundai-anduril-industries-unmanned-surface-vessel/4031794789178/",
+   "https://www.sofx.com/hd-hyundai-and-anduril-launch-self-funded-600-ton-drone-ship-for-u-s-navy-market/"
+  ],
+  "confidence": "Medium",
+  "already_tracked_check": "tracked_check 'HD Hyundai' and 'Anduril': only HD Hyundai Robotics dual-arm (11-10) and Anduril Arsenal-2 shipyard (10-06); no ASV Alpha item",
+  "note": "Event is before the sweep window (ceremony Nov 12, announced Nov 15) but untracked, and re-reported Nov 17-19 (Washington Times, SOFX). HD HHI's own announcement was not opened; Naval News cites it. A Korean shipyard building a vessel for a US requirement raises procurement-law questions the sources do not address."
+ },
+ {
+  "title": "China's Keli Sensing takes a fifth embodied-AI stake, in Zhixing Robotics, and says robot force-sensor sales in H1 already beat all of 2025",
+  "date": "2026-11-19",
+  "company": "Keli Sensing (603662.SS) / Zhixing Robotics",
+  "category": "supply-chain",
+  "summary": "Ningbo Keli Sensing announced a strategic investment in Taicang dexterous-hand maker Zhixing Robotics, its fifth embodied-AI stake since Aug 27 and part of stakes in more than 15 robotics companies. Its 2026 interim report showed robot force sensors sold more than 2,000 units in the first half, already above full-year 2025, with monthly orders above 1,000 since April.",
+  "key_figures": "5th embodied-AI investment since Aug 27 (earlier UniX AI, Zhuoyu, Shenpu Intelligence, Luming Robotics); stakes in 15+ robotics firms, all minority and unconsolidated; robot force sensors: 2,000+ units sold in H1 2026, above full-year 2025; monthly orders above 1,000 units since April; samples sent to 90+ robot makers; 2025 force sensors and instruments revenue CNY 620M (about $93M), 39.77% of main business revenue; Zhixing Robotics founded 2018, 40+ end-effector products, 500+ industrial customers",
+  "primary_url": "https://finance.biggo.com/news/12717c91-eb56-45bb-a82c-f456a987c0f1",
+  "other_urls": [
+   "https://theaiinsider.tech/2026/11/17/china-physical-ai-roundup-unix-ai-raises-75m-pre-a-plus-tensorworld-ubtech-order-and-huawei-cloudrobo/"
+  ],
+  "confidence": "Medium",
+  "already_tracked_check": "tracked_check 'Keli|柯力' no direct hit; UniX AI is tracked as Youliqi Pre-A (11-09), which Keli joined as an investor",
+  "note": "BigGo Finance summary of Keli's Nov 19 announcement and its 2026 interim report; neither filing was opened. The 2,000-unit shipment comparison comes from the interim report (H1), not a new Nov 19 disclosure. Supply-chain angle: a listed sensor maker buying into its customers; robotics still adds limited profit."
+ },
+ {
+  "title": "Hangzhou state capital funds embodied-AI brain maker INFIFORCE, its fourth round in three months",
+  "date": "2026-11-18",
+  "company": "INFIFORCE (原力无限)",
+  "category": "funding",
+  "summary": "INFIFORCE closed a Pre-B round of tens of millions of yuan, funded solely by Hangzhou Capital, a city-owned investment platform, to build its AtomBrain robot-brain model and data tools. 36Kr's headline for the same round says the company has raised four times in three months and is valued at nearly RMB 10 billion.",
+  "key_figures": "Pre-B round 'tens of millions of RMB', exclusive investor Hangzhou Capital; 4th round in 3 months; 36Kr headline valuation near RMB 10B (not verified); operations in 30+ cities and nearly 100 application scenarios; Chongqing training-centre plan announced in September",
+  "primary_url": "https://www.gasgoo.com/robot/news/70478508-seeds-%E5%8E%9F%E5%8A%9B%E6%97%A0%E9%99%90%E5%AE%8C%E6%88%90%E6%95%B0%E5%8D%83%E4%B8%87%E5%85%83pre-b%E8%BD%AE%E8%9E%8D%E8%B5%84/",
+  "other_urls": [
+   "https://wallstreetcn.com/articles/3786294"
+  ],
+  "confidence": "Medium",
+  "already_tracked_check": "tracked_check 'INFIFORCE|原力无限' no hits",
+  "note": "Gasgoo (2026-11-19) carries the round; the valuation and 'four rounds in three months' come from 36Kr and Wallstreetcn headlines whose bodies I could not open, so treat the valuation as unverified. Fits the tracked pattern of small, rapid, state-backed China rounds."
+ },
+ {
+  "title": "Shenzhen's Fushi Technology closes a RMB 400M+ C4 round for 'physical AI' spatial-sensing chips; lidar SPAD chips past 1 million shipped",
+  "date": "2026-11-19",
+  "company": "Fushi Technology (阜时科技)",
+  "category": "supply-chain",
+  "summary": "Fushi Technology completed a C4 round of more than RMB 400M from listed-company industrial investors and funds to speed its SPAD sensing chips. Its solid-state lidar SPAD chips are in factory-fitted mass production at mainstream automakers with more than 1 million shipped, and a single-chip colour-plus-depth (RGBD) part is planned for industrialization in 2027 for cars, embodied AI and industrial uses.",
+  "key_figures": "RMB 400M+ C4; investors as printed by Gasgoo: 信通电子, 精测电子, 华睿投资, 汇宁投资, 兴银资产, 青稞资本 and 中欧新能源汽车基金; cumulative SPAD chip shipments above 1 million; RGBD single chip targeted for 2027 industrialization",
+  "primary_url": "https://www.gasgoo.com/apps/e060bad9eca91db7f01403fc7120041f/robot/news/70478511-seeds-%E9%98%9C%E6%97%B6%E7%A7%91%E6%8A%80%E5%AE%8C%E6%88%90%E8%B6%854%E4%BA%BF%E5%85%83c4%E8%BD%AE%E8%9E%8D%E8%B5%84/",
+  "other_urls": [],
+  "confidence": "Medium",
+  "already_tracked_check": "tracked_check 'Fushi|阜时' no hits",
+  "note": "Gasgoo Seeds column (2026-11-19 16:38 CST); an Autohome repost carries the same text. Automotive lidar is the proven business; the embodied-AI use is a 2027 plan. 'Fushi Technology' is my transliteration of 阜时科技, so confirm the company's English name before publishing."
+ },
+ {
+  "title": "Suzhou 3D-printing materials maker Boli Technology (PollyPolymer) raises more than RMB 500M across two rounds and aims at robot parts",
+  "date": "2026-11-19",
+  "company": "Boli Technology (PollyPolymer, 博理科技)",
+  "category": "supply-chain",
+  "summary": "Suzhou-based PollyPolymer closed back-to-back B2 and B+ rounds totaling more than RMB 500M, led by Cornerstone Capital with Jinsha River United Capital and by Matrix Partners China, with precision-parts maker Changying Precision (长盈精密) joining as an industry investor. Its ultra-fast 3D-printed elastomer parts started in footwear and it now sells a robot-parts delivery product (RoboFab) and a large-format printer for long structural parts.",
+  "key_figures": "RMB 500M+ over B2 and B+ (3DPrint.com headline puts it at $70M); 400+ customers in 30+ countries; four rounds since A in 2020; products RoboFab and TAPS6080 launched in 2026; funds go to materials R&D, capacity, a headquarters base, embodied-AI applications and a global delivery network",
+  "primary_url": "https://news.pedaily.cn/202611/572083.shtml",
+  "other_urls": [
+   "https://www.jushenhome.com/news/2489"
+  ],
+  "confidence": "Medium",
+  "already_tracked_check": "tracked_check 'Boli|博理' no hits; 3DPrint.com ran an English item on 11-18 headlined 'Investors Bet $70M on PollyPolymer to Capitalize on AM for Robotics'",
+  "note": "Pedaily (投资界) article dated 2026-11-19; the 3DPrint.com English headline (11-18) appears to describe the same close but I did not open it. Embodied AI is a stated growth line, not today's main revenue (footwear is)."
+ },
+ {
+  "title": "John Deere buys Orchard Robotics, whose cameras scan every tree in an orchard",
+  "date": "2026-11-19",
+  "company": "John Deere / Orchard Robotics (Orchard AI)",
+  "category": "deal",
+  "summary": "Deere said on Nov 19 it has acquired San Francisco's Orchard Robotics (Orchard AI), founded in 2022, whose farm-vehicle-mounted cameras capture hundreds of images per tree to estimate yield, fruit size and canopy. Financial terms were not disclosed; Deere says it wants to connect the crop data to equipment that does the fieldwork.",
+  "key_figures": "terms undisclosed; founded 2022; 'hundreds of images per tree' per pass; cameras run at 1-12 mph on existing tractors and ATVs; sold as a per-acre annual subscription; farms from 100 to 10,000+ acres",
+  "primary_url": "https://www.unite.ai/john-deere-buys-orchard-ai-to-pair-crop-scans-with-farm-equipment/",
+  "other_urls": [
+   "https://www.securities.io/orchard-ai-purchase-brings-plant-level-crop-data-to-deere/"
+  ],
+  "confidence": "Medium",
+  "already_tracked_check": "tracked_check 'Orchard' and 'Deere': only rss-farmers-are-facing-more-pressu (CNH, 09-25); no Deere item",
+  "note": "Deere's own release was not opened; both sources report it as 'John Deere announced on November 19, 2026' and say terms were not disclosed. Orchard is perception and data more than a moving robot, so frame as agricultural AI/robotics, not a robot maker. Dated by the announcement."
+ },
+ {
+  "title": "Commerce's remote-access chip rule appears in the Federal Register: effective Nov 19, comments due Jan 19, 2027",
+  "date": "2026-11-19",
+  "company": "US Commerce (BIS)",
+  "category": "policy",
+  "summary": "The interim final rule 'Addressing Remote Access to Advanced Semiconductors' was published at 91 FR 74970 on Nov 19 and took effect that day, with comments open until Jan 19, 2027. It restricts exports of advanced chips to overseas data centers that supply large compute to companies headquartered in China or other D:5 countries.",
+  "key_figures": "effective November 19, 2026; comments close January 19, 2027; docket 261116-0005; 91 FR 74970; 30-page document",
+  "primary_url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+  "other_urls": [
+   "https://www.govinfo.gov/content/pkg/FR-2026-11-19/pdf/2026-23529.pdf"
+  ],
+  "confidence": "High",
+  "already_tracked_check": "policies.json record fedreg-2026-23529 (introduced 2026-11-16) and news bis-remote-access-chips-rule-2026-11 exist; the policy summary only says 'comments are due 60 days later' and links the public-inspection copy",
+  "note": "Update to a tracked record, not a new policy: it supplies the exact comment date (Jan 19, 2027) and the final Federal Register citation. The tracked news record already notes the text does not mention robots."
+ },
+ {
+  "title": "NHTSA extends the comment deadline on its driverless-vehicle lighting proposal to Dec 10",
+  "date": "2026-11-16",
+  "company": "NHTSA",
+  "category": "policy",
+  "summary": "NHTSA gave the public 15 more days to comment on its Oct 26 proposal to amend FMVSS No. 108 for vehicles with automated driving systems, after requests from the Alliance for Automotive Innovation, SAE International and Gatik. The notice in the Federal Register of Nov 16 moves the deadline to Dec 10, 2026.",
+  "key_figures": "comment period extended to December 10, 2026 (91 FR 73504, docket NHTSA-2026-1519); original proposal at 91 FR 67243 published October 26, 2026; 15-day extension",
+  "primary_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23239/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped",
+  "other_urls": [
+   "https://www.federalregister.gov/documents/2026/10/26/2026-21794/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped"
+  ],
+  "confidence": "High",
+  "already_tracked_check": "policies.json record nhtsa-fmvss-108-ads-lighting-nprm-2026 exists and says 'Comments are due November 25, 2026'",
+  "note": "This corrects the tracked record: the deadline is now December 10, not November 25. Federal Register API fields read: type Proposed Rule, publication 2026-11-16, comments_close_on 2026-12-10. Publication date is two days before the sweep window, but the correction matters because it falls inside the next 60 days."
+ },
+ {
+  "title": "Census Bureau adds the standard robotics questions for manufacturers to its Annual Integrated Economic Survey",
+  "date": "2026-11-20",
+  "company": "US Census Bureau",
+  "category": "policy",
+  "summary": "A Federal Register notice filed Nov 19 asks OMB to approve revisions to the Annual Integrated Economic Survey, which replaced seven annual business surveys. For survey year 2026, manufacturers will receive the robotics questions that only non-manufacturers got before, so the survey will cover robot adoption across the whole economy.",
+  "key_figures": "'Manufacturing companies will now receive the standard robotics questions that were historically only provided to the non-manufacturing companies in the AIES'; OMB control number 0607-1024; comments due within 30 days of Nov 20 publication; AIES has run annually since survey year 2023",
+  "primary_url": "https://www.federalregister.gov/documents/2026/11/20/2026-23717/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+  "other_urls": [
+   "https://www.federalregister.gov/documents/full_text/text/2026/11/20/2026-23717.txt"
+  ],
+  "confidence": "High",
+  "already_tracked_check": "tracked_check 'Census|Annual Integrated|AIES' hits only ifr-robot-density-2025-2026-11 (IFR density, unrelated); policies.json titles have no Census item",
+  "note": "Found by searching the Federal Register for 'robot'. A statistics change, not a robotics rule: it matters because the site's US-side adoption numbers come from industry groups (A3, IFR), not government surveys. The notice does not say what the robotics questions ask; read the OMB package on reginfo.gov before characterizing them."
+ },
+ {
+  "title": "FAA still gives no date for the drone beyond-visual-line-of-sight rule; its statutory deadline is Dec 7",
+  "date": "2026-11-17",
+  "company": "FAA (Part 108)",
+  "category": "policy",
+  "summary": "At AUVSI's drone policy symposium an FAA official said 2.2 million flights have used strategic deconfliction through UAS traffic management since January, but FAA gave no publication date for Part 108. UAV Coach reports the final rule has been at the White House regulatory office since July 10 and that Congress's 16-month deadline falls on Dec 7, 2026.",
+  "key_figures": "2.2 million UTM-deconflicted flights since January; Part 108 final rule received by OIRA July 10, 2026; proposal published Aug 7, 2025; statutory deadline Dec 7, 2026 (UAV Coach calculation); until then BVLOS needs Part 107 waivers or other approvals",
+  "primary_url": "https://uavcoach.com/faa-utm-flights-part-108-update/",
+  "other_urls": [
+   "https://www.pipelinepub.com/news/fcc-drone-spectrum-advanced-air-mobility-press-release"
+  ],
+  "confidence": "Medium",
+  "already_tracked_check": "tracked_check 'Part 108|BVLOS|beyond visual' no hits in news.json or policies.json",
+  "note": "Single trade-press source for the OIRA date and the Dec 7 deadline (the reginfo.gov listing was not opened). The 16-month calculation is UAV Coach's reading of the statute. Pairs with the FCC drone spectrum order the same week."
+ },
+ {
+  "title": "Nidus raises $30M to teach existing factory robots defense wire-harness work",
+  "date": "2026-11-10",
+  "company": "Nidus",
+  "category": "funding",
+  "summary": "New York startup Nidus, founded in March 2026 by Vannevar hardware alumni, raised $30M across a Costanoa-led pre-seed and a Kleiner Perkins-led seed to bring robot AI to US defense factories. It starts with wire harnesses, using remote operators to record the work and tuning AI models that run beside a factory's existing robots.",
+  "key_figures": "$30M across two rounds (split and valuation not disclosed); founded March 2026; investors Costanoa, Kleiner Perkins, Ludlow Ventures, Absolute Partners; next tasks kitting, early assembly, circuit boards",
+  "primary_url": "https://www.vcpost.com/articles/130984/20261118/nidus-raises-30-million-kleiner-perkins-costanoa-teach-factory-robots-defense-wire-harness-work.htm",
+  "other_urls": [],
+  "confidence": "Medium",
+  "already_tracked_check": "tracked_check Nidus: no hits",
+  "note": "Announcement date is Nov 10 per VC Post citing Upstarts Media (first report), so it falls before the sweep window; re-reported Nov 17-18 (AI Insider, VC Post). The original Upstarts piece and a company release were not opened. Good thesis fit: defense-manufacturing robot AI."
+ },
+ {
+  "title": "Hanwha's proposed 70 billion won investment in Korean quadruped maker Raion Robotics collapses over exclusive defense rights",
+  "date": "2026-11-20",
+  "company": "Hanwha Group / Raion Robotics",
+  "category": "deal",
+  "summary": "KED Global reports Hanwha Group's proposed 70 billion won ($52.3M) strategic investment in Raion Robotics has fallen through. Hanwha wanted exclusive defense-sector rights to the Raibo 2 quadruped, which the startup refused to protect its commercial independence.",
+  "key_figures": "70 billion won ($52.3M) proposed investment, collapsed; Hanwha sought exclusive defense-sector rights to Raibo 2",
+  "primary_url": "https://www.kedglobal.com/robotics/newsView/ked202611200006",
+  "other_urls": [],
+  "confidence": "Medium",
+  "already_tracked_check": "tracked_check 'Raion|Hanwha' no robotics hits",
+  "note": "Only the headline, standfirst and og:description were readable (article body did not load); the rest of the story, including who ended talks and when, is unverified. Korea defense-robot angle; the same KED page lists a Samsung/Hyundai RB-01K robot-dog deployment to the Korean Army by end-2026 and LIG Nex1's $240M purchase of 60% of Philadelphia's Ghost Robotics, both undated in what I could read, so check dates before using."
+ },
+ {
+  "title": "Caixin: Chinese automakers pull humanoids from assembly lines over cost and performance, moving them to simpler jobs",
+  "date": "2026-11-18",
+  "company": "Chinese automakers (unnamed in the readable text)",
+  "category": "china",
+  "summary": "Caixin's CX Daily says Chinese automakers are pulling humanoid robots off assembly lines because of high costs and poor performance and redeploying them to simpler tasks. The article is paywalled, so only its standfirst is readable and it names no companies.",
+  "key_figures": "no figures readable; standfirst: 'Manufacturers are pulling humanoids from assembly lines due to high costs and poor performance, redeploying them for simpler tasks'",
+  "primary_url": "https://www.caixinglobal.com/2026-11-18/cx-daily-chinas-automakers-scale-back-humanoid-robot-ambitions-as-reality-bites-102505943.html",
+  "other_urls": [],
+  "confidence": "Low",
+  "already_tracked_check": "tracked_check 'automaker' found only BYD humanoid design patent (10-09); tracked ubtech/xpeng records point the other way (expansion)",
+  "note": "Lead only. Needs the full Caixin text (subscription) or a second source before it can be cited; no Chinese-language original turned up in Google News or Bing. A counter-narrative to the tracked XPeng, UBTech and Xiaomi factory-trial items, so worth chasing."
+ }
+]
