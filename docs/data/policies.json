@@ -9,7 +9,7 @@
     "status": "Introduced",
     "bill_number": "2026-23529",
     "sponsor": "U.S. Department of Commerce, Bureau of Industry and Security",
-    "summary": "Interim final rule filed for public inspection on November 16, 2026 and scheduled for Federal Register publication on November 19, when it takes effect; comments are due 60 days later. It requires a license to export advanced chips and servers to a data center that gives companies headquartered in China or other Country Group D:5 destinations access to more than 12 million TPP of aggregate compute, adds license requirements for Indonesia, Malaysia, Singapore, Thailand and Brazil, and rescinds the 2025 AI Diffusion Rule.",
+    "summary": "Interim final rule published in the Federal Register on November 19, 2026 (91 FR 74970) and effective that day; comments close January 19, 2027. It requires a license to export advanced chips and servers to a data center that gives companies headquartered in China or other Country Group D:5 destinations access to more than 12 million TPP of aggregate compute, adds license requirements for Indonesia, Malaysia, Singapore, Thailand and Brazil, and rescinds the 2025 AI Diffusion Rule.",
     "full_text_url": "https://public-inspection.federalregister.gov/2026-23529.pdf",
     "robotics_scope": "No robotics provision; the rule text does not mention robots. It governs remote access to the data-center compute used to train robot foundation models, not edge chips such as Jetson modules.",
     "estimated_budget_usd": null,
@@ -32,10 +32,10 @@
     ],
     "sources": [
       {
-        "url": "https://www.federalregister.gov/public-inspection/2026-23529/addressing-remote-access-to-advanced-semiconductors"
+        "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors"
       }
     ],
-    "last_updated": "2026-11-18"
+    "last_updated": "2026-11-20"
   },
   {
     "id": "nhtsa-fmvss-108-ads-lighting-nprm-2026",
@@ -47,7 +47,7 @@
     "status": "Draft",
     "bill_number": "91 FR 67243",
     "sponsor": "National Highway Traffic Safety Administration",
-    "summary": "A proposed rule (docket NHTSA-2026-1519) would let vehicles with automated driving systems carry lamps that show when the system is driving, in cyan, the color Mercedes already uses and China has adopted. Comments are due November 25, 2026.",
+    "summary": "A proposed rule (docket NHTSA-2026-1519) would let vehicles with automated driving systems carry lamps that show when the system is driving, in cyan, the color Mercedes already uses and China has adopted. Comments were due November 25, 2026; a November 16 notice (91 FR 73504) extended the period to December 10, 2026 at the request of the Alliance for Automotive Innovation, SAE International and Gatik.",
     "full_text_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21794/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped",
     "robotics_scope": "Robotaxis and other ADS-equipped vehicles; a US signalling rule that follows China and a German carmaker.",
     "estimated_budget_usd": null,
@@ -71,9 +71,12 @@
       },
       {
         "url": "https://electrek.co/2026/10/24/nhtsa-proposes-cyan-lights-for-robotaxis-following-mercedes-china/"
+      },
+      {
+        "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23239/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped"
       }
     ],
-    "last_updated": "2026-11-08"
+    "last_updated": "2026-11-20"
   },
   {
     "id": "fedreg-2026-21786",
@@ -2515,7 +2518,7 @@
     "status": "In effect",
     "bill_number": "Proclamation",
     "sponsor": "Executive Office of the President",
-    "summary": "The President concurred with Commerce that imports of robotics, industrial machinery and their parts threaten to impair national security, and directed Commerce and the U.S. Trade Representative to negotiate agreements with trading partners. No tariff, quota or fee was imposed. An update on the talks is due within 180 days, by April 26, 2027; the text reserves tariffs, duties, quotas, fees and a program to incentivize U.S. production. Not yet published in the Federal Register as of October 29.",
+    "summary": "The President concurred with Commerce that imports of robotics, industrial machinery and their parts threaten to impair national security, and directed Commerce and the U.S. Trade Representative to negotiate agreements with trading partners. No tariff, quota or fee was imposed. An update on the talks is due within 180 days, by April 26, 2027; the text reserves tariffs, duties, quotas, fees and a program to incentivize U.S. production. Published in the Federal Register on November 2, 2026 as Proclamation 11077 (91 FR 69199).",
     "full_text_url": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/",
     "robotics_scope": "Covers robotics, industrial machinery and their parts and components; names humanoid and quadruped robots and autonomous ground vehicles among defense uses. No tariff codes, countries or entities are listed.",
     "estimated_budget_usd": null,
@@ -2551,7 +2554,7 @@
         "url": "https://www.federalregister.gov/documents/2025/09/26/2025-18749/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-imports-of"
       }
     ],
-    "last_updated": "2026-11-01"
+    "last_updated": "2026-11-20"
   },
   {
     "id": "proc-11055-drone-tariffs-2026",

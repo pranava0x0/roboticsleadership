@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-20",
+  "dropped": [
+    {
+      "id": "fedreg-news-2026-23528",
+      "title": "Self-Regulatory Organizations; NYSE American LLC; Order Approving a Proposed Rule Change To Amend Sections 1003 and 1009 of the NYSE American Company Guide",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/19/2026-23528/self-regulatory-organizations-nyse-american-llc-order-approving-a-proposed-rule-change-to-amend",
+      "date": "2026-11-19",
+      "reason": "SRO exchange rule order, no robotics"
+    },
+    {
+      "id": "fedreg-news-2026-23717",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Annual Integrated Economic Survey",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/20/2026-23717/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "date": "2026-11-20",
+      "reason": "folded into curated census-aies-robotics-questions-2026-11"
+    },
+    {
+      "id": "hn-50558964",
+      "title": "Humanity",
+      "source_url": "https://vldmir.com/posts/humanity/",
+      "date": "2026-11-19",
+      "reason": "essay, not robotics"
+    },
+    {
+      "id": "hn-50570598",
+      "title": "Humans.md: tell your AI agents how to work with you",
+      "source_url": "https://humansmd.dev/",
+      "date": "2026-11-20",
+      "reason": "AI agent tooling, not robotics"
+    },
+    {
+      "id": "hn-50559010",
+      "title": "Datacentres to create 70% more carbon emissions by 2030, IEA report warns",
+      "source_url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns",
+      "date": "2026-11-19",
+      "reason": "data-center emissions, no robotics"
+    },
+    {
+      "id": "hn-50560955",
+      "title": "Cooling buildings is overtaking heating them as an energy need, IEA says",
+      "source_url": "https://maccus.fr/en/cooling-overtaking-heating/",
+      "date": "2026-11-19",
+      "reason": "building cooling energy, no robotics"
+    },
+    {
+      "id": "hn-50561246",
+      "title": "My Job Turned Me into an Inflexible Robot",
+      "source_url": "https://nomagicpill.site/thoughts/iamrobot.html",
+      "date": "2026-11-19",
+      "reason": "personal essay, robot as metaphor"
+    },
+    {
+      "id": "hn-50561628",
+      "title": "The Hackers Choice: Segfault (Disposable Root Servers)",
+      "source_url": "https://www.thc.org/segfault/",
+      "date": "2026-11-19",
+      "reason": "server hosting, not robotics"
+    },
+    {
+      "id": "hn-50562784",
+      "title": "Open Is How Robotics Wins",
+      "source_url": "https://www.eliothorowitz.com/blog/2026/11/18/open-is-how-robotics-wins/",
+      "date": "2026-11-19",
+      "reason": "Viam CEO opinion essay; discourse only, no news event"
+    },
+    {
+      "id": "hn-50566218",
+      "title": "At Apple, the robots are coming",
+      "source_url": "https://www.computerworld.com/article/4250765/at-apple-the-robots-are-coming.html",
+      "date": "2026-11-19",
+      "reason": "Computerworld opinion column on Apple; no Apple robotics announcement"
+    },
+    {
+      "id": "hn-50568169",
+      "title": "Show HN: erXos – a microkernel OS in Erlang based on Genera/Plan 9/QNX ideas",
+      "source_url": "https://stass.github.io/erXos/",
+      "date": "2026-11-19",
+      "reason": "Erlang OS, not robotics"
+    },
+    {
+      "id": "hn-50569442",
+      "title": "Terrorist Hiring?",
+      "source_url": "https://roboticstechno.com/about",
+      "date": "2026-11-20",
+      "reason": "spam-like site, no story"
+    },
+    {
+      "id": "hn-50569850",
+      "title": "Decision model for robot status 90% less time and money",
+      "source_url": "https://www.rightnowai.co/rightnow",
+      "date": "2026-11-20",
+      "reason": "AI chip benchmark tool, not robotics"
+    },
+    {
+      "id": "hn-50569905",
+      "title": "South Korean firm plans $150M lifeline for Eric Trump-backed robot maker",
+      "source_url": "https://www.reuters.com/world/south-korean-firm-plans-150-million-lifeline-eric-trump-backed-robot-maker-2026-11-19/",
+      "date": "2026-11-20",
+      "reason": "folded into curated foundation-base-group-150m-2026-11 (Reuters)"
+    },
+    {
+      "id": "rss-what-industrial-drone-deployme-628",
+      "title": "What industrial drone deployments reveal about real-world autonomy challenges",
+      "source_url": "https://www.therobotreport.com/what-industrial-drone-deployments-reveal-about-real-world-autonomy-challenges/",
+      "date": "2026-11-19",
+      "reason": "sponsored-style explainer, no event"
+    },
+    {
+      "id": "rss-robotics-enters-its-post-jense-10",
+      "title": "Robotics enters its post-Jensen Huang era",
+      "source_url": "https://www.therobotreport.com/robotics-enters-its-post-jensen-huang-era/",
+      "date": "2026-11-20",
+      "reason": "commentary on the NVIDIA CEO change already tracked"
+    },
+    {
+      "id": "rss-what-industrial-drone-deployme-277",
+      "title": "What industrial drone deployments reveal about real-world autonomy challenges",
+      "source_url": "https://www.therobotreport.com/what-industrial-drone-deployments-reveal-about-real-world-autonomy-challenges/",
+      "date": "2026-11-19",
+      "reason": "duplicate of the auto PR #309 candidate, explainer with no event"
+    },
+    {
+      "id": "fedreg-2026-23717",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Annual Integrated Ec",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/20/2026-23717/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "date": "2026-11-20",
+      "reason": "policy scraper copy; kept as news record census-aies-robotics-questions-2026-11 (survey notice, not a robotics policy)"
+    },
+    {
+      "id": "fedreg-2026-23528",
+      "title": "Self-Regulatory Organizations; NYSE American LLC; Order Approving a Proposed Rule Change To Amend Sections 1003 and 1009 of the NYSE American Company Guide",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/19/2026-23528/self-regulatory-organizations-nyse-american-llc-order-approving-a-proposed-rule-change-to-amend",
+      "date": "2026-11-19",
+      "reason": "SRO exchange rule order, no robotics"
+    }
+  ]
+}
