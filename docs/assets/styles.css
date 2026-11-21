@@ -2353,6 +2353,7 @@ body:has(.jump-nav) :is(h2, h3, section, details)[id] { scroll-margin-top: calc(
 /* policies.html: open federal comment windows, soonest first (RT.renderOpenComments) */
 #open-comments:empty { display: none; }
 .open-comments { margin: 8px 0 20px; padding-left: 1.4em; display: grid; gap: 6px; }
-.open-comments li { min-height: 44px; }
-.open-comments a { font-weight: 600; display: inline-block; padding: 4px 0; }
+/* the whole row (title + deadline) is the link, so the hit area is at least 44px tall */
+.open-comments a { display: block; min-height: 44px; padding: 4px 0; text-decoration: none; }
+.open-comments .oc-title { font-weight: 600; text-decoration: underline; }
 .open-comments .muted { font-size: 0.9em; white-space: nowrap; }
