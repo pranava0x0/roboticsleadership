@@ -4,6 +4,12 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-11-21 (Section 232 deal opportunities)
+
+- [ ] **(medium) Confirm the low-confidence deal leads on company sites before promoting them:** maxon's Taunton plant, LS Cable's Chesapeake magnet share and timeline, Korean cell makers' robot-cell supply, Iluka's Eneabba refinery status, Nabtesco's share of industrial robots (`data/research/s232-deal-opportunities-2026-11-21.json`, `quote_basis: search-result excerpt`).
+- [ ] **(low) Pax Silica membership:** sources disagree (Australia lists 8 governments for the Nov 15 San Francisco Declaration; Bloomberg Government says the US and nine). Read the state.gov text and add a row to the deals section if it names advanced manufacturing or robotics.
+- [ ] **(low) Interaction task for `#deals`** in `uat/interaction-tasks.json` so CI budgets the taps to the section.
+
 ## ▶ Added 2026-11-20 (scheduled refresh)
 
 - [ ] **(medium) Reframe: measurement is policy.** Census is extending its standard robotics questions to manufacturers in the Annual Integrated Economic Survey (`census-aies-robotics-questions-2026-11`; OMB comments about Dec 21, control no. 0607-1024). The site's US adoption figures come from IFR and A3; once Census publishes, consider a US-official series beside IFR on china.html, and check whether China's NBS publishes a comparable count.

@@ -1,0 +1,923 @@
+{
+ "gaps": [
+  {
+   "gap": "Rare-earth separation and NdFeB magnets",
+   "partners": [
+    {
+     "country": "Australia",
+     "companies": [
+      "Lynas",
+      "Iluka",
+      "Arafura"
+     ],
+     "capacity_fact": "Lynas Sept-2026 quarter: 2,082 t NdPr and 23 t Dy+Tb; samarium oxide first produced March 2026; expanded heavy-RE separation circuit under construction in Malaysia. Floor-price agreements cover over 50% of Lynas production. Iluka's Eneabba refinery is nearly 60% built, commissioning 2027, A$1.65B Australian government loan (secondary). Arafura Nolans: Australia took a US$100M equity stake; 'will produce 5 per cent of global rare earths' once operating.",
+     "capacity_source": "https://announcements.asx.com.au/asxpdf/20261029/pdf/075xzndxqk7000.pdf",
+     "confidence": "High (Lynas); Medium (Iluka)",
+     "quote": "Production of 2,082 tonnes of NdPr and 23 tonnes of Dy and Tb was achieved during the quarter",
+     "quote_basis": "page text read"
+    },
+    {
+     "country": "Malaysia",
+     "companies": [
+      "Lynas Malaysia (Kuantan plant)",
+      "JS Link (Korean magnet maker, planned Kuantan factory)"
+     ],
+     "capacity_fact": "JS Link to build a 3,000 t/yr sintered NdFeB magnet factory in Kuantan; Lynas holds ~A$50M of JS Link equity and supplies exclusively to JS Link until Jan 2038.",
+     "capacity_source": "https://announcements.asx.com.au/asxpdf/20261029/pdf/075xzndxqk7000.pdf",
+     "confidence": "High",
+     "quote": "JS Link will establish a magnet factory in Kuantan, Malaysia, with an operating capacity of 3, 000 tonnes per annum of NdFeB permanent sintered magnets",
+     "quote_basis": "page text read"
+    },
+    {
+     "country": "Germany / Finland / Slovakia (VAC Group)",
+     "companies": [
+      "VACUUMSCHMELZE (VAC)"
+     ],
+     "capacity_fact": "VAC operates magnet plants in Hanau (DE), Ulvila (FI), Horna Streda (SK) and Sumter (SC); 'among the few magnet producers compliant with the Defense Federal Acquisition Regulation Supplement'.",
+     "capacity_source": "https://vacuumschmelze.com/Newsroom/evac-magnetics-holds-opening-ceremony-for-sumter-south-carolina-rare-earth-magnet-manufacturing-facility-n2902",
+     "confidence": "High",
+     "quote": "VAC operates magnet plants in Hanau, Germany; Ulvila, Finland; Horná Streda, Slovakia; and Sumter, South Carolina.",
+     "quote_basis": "page text read"
+    },
+    {
+     "country": "Estonia (EU)",
+     "companies": [
+      "Neo Performance Materials (Narva magnets, Sillamae separation)"
+     ],
+     "capacity_fact": "Narva opened 19 Sept 2025 at about 2,000 t/yr NdFeB, planned to reach 5,000 t/yr; contracts with Schaeffler and Bosch; oxides from Neo's Sillamae separation plant, which is adding heavy-RE separation. Not read on Neo's own site (blocked).",
+     "capacity_source": "https://projectblue.com/blue/news-analysis/1321/neo-performance-materials-opens-narva-ndfeb-magnet-production-facility",
+     "confidence": "Medium",
+     "quote": "Initial capacity is 2.0ktpy NdFeB magnets, though subsequent expansions will increase this to 5.0ktpy",
+     "quote_basis": "search-result excerpt only (page not retrieved)"
+    },
+    {
+     "country": "South Korea / Vietnam",
+     "companies": [
+      "LS Eco Energy and LS Cable & System",
+      "JS Link"
+     ],
+     "capacity_fact": "LS Eco Energy (LS Cable & System subsidiary) will start trial production of samarium metal in December 2026 at its Ho Chi Minh City plant, 240 t/yr; plans Dy, Tb and NdPr metal; framework with Lynas for a Vietnam metal-making facility (Mar 2026).",
+     "capacity_source": "https://www.koreatimes.co.kr/business/companies/20261110/ls-eco-energy-makes-push-for-worlds-1st-mass-production-of-samarium",
+     "confidence": "Medium-High",
+     "quote": "LS Eco Energy ... said Tuesday it will begin trial production of samarium metal in December, with the goal of becoming the world's first company to mass-produce the key material for permanent magnets using non-Chinese raw materials.",
+     "quote_basis": "page text read"
+    },
+    {
+     "country": "Japan",
+     "companies": [
+      "Shin-Etsu Chemical",
+      "Proterial",
+      "TDK"
+     ],
+     "capacity_fact": "Japan is itself short of heavy rare earths: reports say Chinese Dy/Tb exports to Japan fell to zero in the first half of 2026 and the three magnet makers 'cannot sustain output indefinitely without verified non-Chinese oxides' (Rare Earth Exchanges paraphrase). Japan competes for the same non-China oxide as the US. No tonnage for Japanese magnet capacity was sourced.",
+     "capacity_source": "https://rareearthexchanges.com/news/japan-rare-earth-china-restrictions/",
+     "confidence": "Low-Medium",
+     "quote": null,
+     "quote_basis": "search-result excerpt only (page not retrieved)"
+    },
+    {
+     "country": "Saudi Arabia",
+     "companies": [
+      "Maaden (with MP Materials and U.S. Department of War)"
+     ],
+     "capacity_fact": "Planned refinery JV; no 2026 construction or financing update found.",
+     "capacity_source": "https://www.businesswire.com/news/home/20251118096805/en",
+     "confidence": "Medium",
+     "quote": null,
+     "quote_basis": "search-result excerpt only (page not retrieved)"
+    }
+   ],
+   "deal_vehicles": [
+    {
+     "name": "U.S.-Australia critical minerals framework",
+     "country": "Australia",
+     "date": "2025-10-20",
+     "status": "Active; 6-month $8.5B pipeline window has passed",
+     "what_it_covers": "Mining, separation, processing of critical minerals and rare earths; Alcoa-Sojitz gallium (up to 10% of world supply) and Arafura Nolans",
+     "quote": "This will see an accelerated pipeline of priority projects delivered by and for the two nations.",
+     "url": "https://www.pm.gov.au/media/historic-critical-minerals-framework-signed-president-trump-and-prime-minister-albanese",
+     "confidence": "High",
+     "quote_basis": "page text read"
+    },
+    {
+     "name": "Department of War - Lynas binding letter of intent",
+     "country": "Australia / Malaysia",
+     "date": "2026-03",
+     "status": "Signed LOI; Lynas Texas heavy-RE plant 'will no longer proceed'",
+     "what_it_covers": "About US$96M of light and heavy rare earth oxides over 4 years for the U.S. industrial base, NdPr floor price US$110/kg; funding reallocated from the cancelled Texas facility",
+     "quote": "Funding for the supply agreement has been reallocated from funds previously intended for the construction of a HRE facility in Texas which will no longer proceed.",
+     "url": "https://announcements.asx.com.au/asxpdf/20260826/pdf/0737nx07s3tnf7.pdf",
+     "confidence": "High",
+     "quote_basis": "page text read"
+    },
+    {
+     "name": "U.S.-Malaysia Agreement on Reciprocal Trade",
+     "country": "Malaysia",
+     "date": "2025-10-26",
+     "status": "Signed",
+     "what_it_covers": "No export bans or quotas on critical minerals/rare earths to US; no restrictions on rare-earth magnet sales to US companies",
+     "quote": "Malaysia has committed to ensure no restrictions are imposed on the sale of rare earth magnets to U.S. companies.",
+     "url": "https://www.whitehouse.gov/briefings-statements/2025/10/joint-statement-on-united-states-malaysia-agreement-on-reciprocal-trade/",
+     "confidence": "High",
+     "quote_basis": "page text read"
+    },
+    {
+     "name": "U.S.-Japan critical minerals agreement (signed with Oct 28, 2025 Tokyo package)",
+     "country": "Japan",
+     "date": "2025-10-28",
+     "status": "Signed; text not retrieved",
+     "what_it_covers": "Critical minerals diversification; fact sheet gives no tonnages",
+     "quote": "President Trump and Prime Minister Takaichi signed a historic critical minerals agreement to further diversify our critical minerals supply chain.",
+     "url": "https://whitehouse.gov/fact-sheets/2025/10/28195",
+     "confidence": "High (existence); Low (content, text not read)",
+     "quote_basis": "page text read"
+    },
+    {
+     "name": "Korea Zinc / Tennessee smelter joint venture with U.S. Department of War",
+     "country": "South Korea",
+     "date": "2025-12-15",
+     "status": "Announced; construction start reported as 2026 or 2027 depending on source; phased operations from 2029",
+     "what_it_covers": "~$7.4B smelter (Nyrstar Clarksville site); DoW 40% stake; outputs zinc, copper, lead plus strategic minerals (antimony, germanium, gallium) and 'rare earth minerals'",
+     "quote": "The new integrated smelter would produce 540,000 tonnes per year of major nonferrous metals, including 300,000 tonnes of zinc, 35,000 tonnes of copper, 200,000 tonnes of lead and 5,100 tonnes of rare earth minerals annually",
+     "url": "https://www.aljazeera.com/economy/2025/12/15/korea-zinc-plans-7-4bn-us-minerals-refinery-with-washingtons-backing",
+     "confidence": "Medium (2026 status not found)",
+     "quote_basis": "page text read"
+    },
+    {
+     "name": "MP Materials - Maaden - DoW refinery JV",
+     "country": "Saudi Arabia",
+     "date": "2025-11-18",
+     "status": "Announced; no 2026 update found",
+     "what_it_covers": "Separated light and heavy RE oxides refinery in Saudi Arabia; MP exploring magnet collaboration",
+     "quote": "(see frameworks entry)",
+     "url": "https://www.businesswire.com/news/home/20251118096805/en",
+     "confidence": "Medium",
+     "quote_basis": "search-result excerpt only (page not retrieved)"
+    },
+    {
+     "name": "Project Vault / Strategic Critical Minerals Reserve (EXIM)",
+     "country": "United States (domestic)",
+     "date": "2026-02-02",
+     "status": "EXIM board approved loan",
+     "what_it_covers": "Civilian-manufacturer stockpile of critical minerals; no robot maker named",
+     "quote": "Earlier today, the EXIM Board of Directors approved a Direct Loan of up to $10 billion to Project Vault",
+     "url": "https://www.exim.gov/news/project-vault",
+     "confidence": "High",
+     "quote_basis": "page text read"
+    }
+   ],
+   "company_moves": [
+    {
+     "company": "eVAC Magnetics / VAC Group",
+     "country": "Germany (plant in South Carolina)",
+     "move": "Opening ceremony for Sumter, SC NdFeB plant; DLA agreement for magnet blocks",
+     "date": "2026-07-15",
+     "figure": "Nameplate about 2,000 t/yr; 130 jobs growing to 300; $94.1M DPA Title III + $111.9M 48C credit (already on site, see supply_chain.json)",
+     "url": "https://vacuumschmelze.com/Newsroom/evac-magnetics-holds-opening-ceremony-for-sumter-south-carolina-rare-earth-magnet-manufacturing-facility-n2902",
+     "confidence": "High",
+     "quote": "The facility has a nameplate capacity of about 2,000 metric tons per year, with room to scale in the coming years.",
+     "quote_basis": "page text read"
+    },
+    {
+     "company": "Energy Fuels (acquirer) / VAC Group",
+     "country": "United States buying German company",
+     "move": "Definitive agreement to acquire VAC (owner of eVAC) for about $1.9B equity value; close expected early 2027 (per Metal Tech News, secondary). Changes eVAC's ownership from Ara Partners (PE) to a U.S. miner.",
+     "date": "2026-06-23",
+     "figure": "$1.9B equity value; cash portion $718M plus 65.9M shares (Bloomberg Law, via search)",
+     "url": "https://www.energyfuels.com/vac-acquisition/",
+     "confidence": "Medium-High",
+     "quote": "VAC is the dominant manufacturer of rare earth magnets in the western world with over 100 years of production expertise",
+     "quote_basis": "page text read"
+    },
+    {
+     "company": "Lynas",
+     "country": "Australia",
+     "move": "Cancelled Seadrift/Texas heavy rare earth plant; supplies U.S. via Malaysia and a $96M LOI instead",
+     "date": "2026-03 (LOI); FY26 annual report 2026-08-26",
+     "figure": "US$96M LOI over 4 years; NdPr floor US$110/kg",
+     "url": "https://announcements.asx.com.au/asxpdf/20260826/pdf/0737nx07s3tnf7.pdf",
+     "confidence": "High",
+     "quote": "a HRE facility in Texas which will no longer proceed",
+     "quote_basis": "page text read"
+    },
+    {
+     "company": "Lynas + Noveon Magnetics",
+     "country": "Australia / United States",
+     "move": "MoU to support a scalable domestic U.S. rare earth permanent magnet supply chain",
+     "date": "2025-10",
+     "figure": "no figure in annual report",
+     "url": "https://announcements.asx.com.au/asxpdf/20260826/pdf/0737nx07s3tnf7.pdf",
+     "confidence": "High",
+     "quote": "MoU signed with Noveon Magnetics in October 2025 to help support a scalable domestic U.S. supply chain for rare earth permanent magnets",
+     "quote_basis": "page text read"
+    },
+    {
+     "company": "LS Cable & System",
+     "country": "South Korea",
+     "move": "Chesapeake, Virginia: $689M across three projects, one a rare-earth magnet plant; magnet plant share, capacity and timeline not stated in the article read",
+     "date": "2026-01-10",
+     "figure": "$689M total (three projects)",
+     "url": "https://wirenet.org/industry-news/ls-cable-system-to-diversify-in-the-u-s-via-a-rare-earth-magnet-plant-in-virginia/",
+     "confidence": "Medium",
+     "quote": "will invest $689 million in three advanced manufacturing projects in Chesapeake, Virginia.",
+     "quote_basis": "page text read"
+    },
+    {
+     "company": "Neo Performance Materials",
+     "country": "Canada (plant in Estonia)",
+     "move": "Narva NdFeB plant opened; contracts with Schaeffler and Bosch (non-U.S. customers)",
+     "date": "2025-09-19",
+     "figure": "2,000 t/yr initial, 5,000 t/yr planned; ~$75M",
+     "url": "https://projectblue.com/blue/news-analysis/1321/neo-performance-materials-opens-narva-ndfeb-magnet-production-facility",
+     "confidence": "Medium",
+     "quote": null,
+     "quote_basis": "search-result excerpt only (page not retrieved)"
+    }
+   ],
+   "open_question": "Heavy rare earths (Dy, Tb) remain the binding constraint: Lynas produced 23 t in the Sept 2026 quarter, Japan is also losing Chinese supply, and the one announced U.S. separation plant (Lynas Texas) was cancelled. No robot maker is a named party to any of the deals above; the page should say these vehicles fill the magnet gap in general, not robots specifically."
+  },
+  {
+   "gap": "Precision reducers (harmonic / strain wave, cycloidal / RV)",
+   "partners": [
+    {
+     "country": "Japan",
+     "companies": [
+      "Nabtesco (RV)",
+      "Harmonic Drive Systems (strain wave)",
+      "Sumitomo Heavy (RV, named only by market-research firms)"
+     ],
+     "capacity_fact": "Nabtesco's own European site says its gears are used 'in more than 60 % of all industrial robots around the globe' (search-result excerpt); independent estimates range from ~35% to 40%+, so quote the range, not one number. Harmonic Drive Systems raised FY3/27 operating-profit guidance to JPY10.2B on 2026-11-11 on strong orders (search summary of filing).",
+     "capacity_source": "https://fr.nabtesco.de/en/applications/robotics",
+     "confidence": "Medium",
+     "quote": null,
+     "quote_basis": "search-result excerpt only (page not retrieved)"
+    },
+    {
+     "country": "Germany",
+     "companies": [
+      "Schaeffler (formed strain wave gearboxes)",
+      "Harmonic Drive SE (name unverified)"
+     ],
+     "capacity_fact": "Schaeffler supplied 'more than 2 million formed strain wave gearboxes over the past 10 years' (automotive); humanoid gearbox mass production to start at scale in 2027, Germany first.",
+     "capacity_source": "https://www.therobotreport.com/schaeffler-plans-to-mass-manufacture-gearboxes-for-humanoids-in-2027/",
+     "confidence": "High (WebFetch read of article)",
+     "quote": "Schaeffler plans to start production in Germany and later roll it out to other regions.",
+     "quote_basis": "page text read"
+    },
+    {
+     "country": "Japan + Germany (analyst view)",
+     "companies": [
+      "Schaeffler",
+      "Harmonic Drive Systems"
+     ],
+     "capacity_fact": "Smart Analytics Global's Linda Sui: Schaeffler and HDS 'provide important non-China alternatives, but their current humanoid volumes remain relatively small.'",
+     "capacity_source": "https://www.techtarget.com/ai/news/366651924/Humanoid-bottlenecks-emerge-amid-US-China-tensions",
+     "confidence": "High",
+     "quote": "Germany's Schaeffler and Japan's Harmonic Drive Systems provide important non-China alternatives, but their current humanoid volumes remain relatively small.",
+     "quote_basis": "page text read"
+    }
+   ],
+   "deal_vehicles": [
+    {
+     "name": "U.S.-Japan $550B vehicle",
+     "country": "Japan",
+     "date": "2025-09-04 MOU; rounds Feb and Mar 2026",
+     "status": "Active; two rounds, none involve reducers or robots",
+     "what_it_covers": "Sector list: semiconductors, pharmaceuticals, metals, critical minerals, shipbuilding, energy, AI/quantum",
+     "quote": "The investments will fund projects in sectors across the United States to advance U.S. national and economic security, including semiconductors, pharmaceuticals, metals, critical minerals, shipbuilding, energy (including pipelines) and artificial intelligence/quantum computing.",
+     "url": "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-implements-a-historic-u-s-japan-framework-agreement/",
+     "confidence": "High",
+     "quote_basis": "page text read"
+    }
+   ],
+   "company_moves": [
+    {
+     "company": "Harmonic Drive LLC (subsidiary of Harmonic Drive Systems)",
+     "country": "Japan (plant in Massachusetts)",
+     "move": "Existing U.S. footprint: 97,000 sq ft HQ and plant in Beverly, MA, opened January 2020, about two-thirds manufacturing. Not a 2026 move; no 2026 U.S. expansion was found in company or press sources.",
+     "date": "2020-01",
+     "figure": "97,000 sq ft",
+     "url": "https://www.automate.org/news/harmonic-drive-llc-opens-new-us-headquarters-in-beverly-ma/anc",
+     "confidence": "Medium",
+     "quote": null,
+     "quote_basis": "search-result excerpt only (page not retrieved)"
+    },
+    {
+     "company": "Schaeffler",
+     "country": "Germany",
+     "move": "Humanoid actuator partnership with Humanoid (UK); preferred supplier of actuators for wheeled systems; no U.S. production site announced (Fort Mill, SC is its U.S. headquarters only)",
+     "date": "2026-01 (CES)",
+     "figure": "'several hundred humanoids' in its own plants over five years",
+     "url": "https://schaeffler-tomorrow.de/en/article/schaeffler-and-humanoid-enter-strategic-technology-partnership",
+     "confidence": "High",
+     "quote": "Schaeffler is becoming the preferred supplier of actuators for wheeled systems.",
+     "quote_basis": "page text read"
+    }
+   ],
+   "open_question": "No announced U.S. reducer plant by Nabtesco, Harmonic Drive Systems or Schaeffler was found, and no deal vehicle names reducers. Novanta's Robert Little (via The Robot Report, 2026-10-29) put the domestic gaps in 'sensors, actuators, precision gears, encoders and more'. The honest line for the page: the supplying countries are identified, the deal vehicle is not."
+  },
+  {
+   "gap": "Roller screws, ball screws, precision bearings",
+   "partners": [
+    {
+     "country": "Switzerland",
+     "companies": [
+      "GSA / Rollvis (planetary roller screws)"
+     ],
+     "capacity_fact": "One supplier tracker lists GSA/Rollvis as a Swiss planetary roller screw maker with Tesla Optimus as initial customer; another source describes GSA as the largest foreign supplier inside China. Conflicting and unverified; no capacity figure.",
+     "capacity_source": "https://humanoid.guide/humanoid-actuator-supplier-landscape/",
+     "confidence": "Low",
+     "quote": null,
+     "quote_basis": "search-result excerpt only (page not retrieved)"
+    },
+    {
+     "country": "Germany / Sweden / Japan / Taiwan",
+     "companies": [
+      "Schaeffler",
+      "SKF",
+      "THK",
+      "NSK",
+      "HIWIN"
+     ],
+     "capacity_fact": "Names supplied by the requester; no capacity figure or humanoid-specific sourcing was found for any of them in this research. Only Schaeffler appears (with HDS) in an analyst note as a non-China alternative with small humanoid volumes.",
+     "capacity_source": "https://www.techtarget.com/ai/news/366651924/Humanoid-bottlenecks-emerge-amid-US-China-tensions",
+     "confidence": "Low",
+     "quote": null,
+     "quote_basis": "page text read"
+    }
+   ],
+   "deal_vehicles": [
+    {
+     "name": "U.S.-Switzerland-Liechtenstein trade framework",
+     "country": "Switzerland",
+     "date": "2025-11-14",
+     "status": "Framework; final agreement targeted Q1 2026, completion not confirmed",
+     "what_it_covers": "The only framework read that names machinery among target investment sectors",
+     "quote": "thousands of well-paying American jobs across all 50 states in a number of sectors, such as pharmaceuticals, machinery, medical devices, aerospace, construction, advanced manufacturing, gold manufacturing, and energy infrastructure.",
+     "url": "https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-the-united-states-switzerland-and-liechtenstein-reach-a-historic-trade-deal/",
+     "confidence": "High",
+     "quote_basis": "page text read"
+    },
+    {
+     "name": "U.S.-Taiwan MOU (AIT-TECRO) on industrial parks and clusters",
+     "country": "Taiwan",
+     "date": "2026-01-15",
+     "status": "Signed; agreement pending Taiwan legislature",
+     "what_it_covers": "Taiwan firms to build industry clusters in the U.S.; sectors named are semiconductors, electronics manufacturing services, energy 'and other sectors'",
+     "quote": "the Taiwan side promises to work with the United States to establish industrial parks and industry clusters that will help the United States substantially increase its domestic production capacity in key high-tech sectors",
+     "url": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/february/fact-sheet-us-taiwan-agreement-reciprocal-trade",
+     "confidence": "High",
+     "quote_basis": "page text read"
+    }
+   ],
+   "company_moves": [],
+   "open_question": "No 2026 U.S. plant by a foreign screw or bearing maker was found. The Swiss framework is the only one naming machinery and Taiwan's cluster MOU is open-ended ('other sectors'); neither names a screw or bearing firm. Needs company-by-company checks (THK, NSK, SKF, HIWIN, GSA) before the page names any."
+  },
+  {
+   "gap": "Servo and frameless motors",
+   "partners": [
+    {
+     "country": "South Korea",
+     "companies": [
+      "Hyundai Mobis (actuators for Boston Dynamics Atlas)"
+     ],
+     "capacity_fact": "Hyundai Motor Group said it will run a U.S. actuator plant with 350,000 units/yr capacity from 2028, operated by Hyundai Mobis; other outlets say 300,000. Location not named in sources found.",
+     "capacity_source": "https://www.asiae.co.kr/en/article/2026052008082402975",
+     "confidence": "Medium-High",
+     "quote": "Hyundai Motor Group announced that it will operate an actuator production facility in the United States with an annual capacity of 350,000 units starting in 2028.",
+     "quote_basis": "page text read"
+    },
+    {
+     "country": "Switzerland",
+     "companies": [
+      "maxon"
+     ],
+     "capacity_fact": "maxon opened a 59,000 sq ft design and production facility in Taunton, MA in 2019 (existing U.S. footprint; no 2026 expansion found).",
+     "capacity_source": "https://www.therobotreport.com/maxon-precision-motors-hq-manufacturing/",
+     "confidence": "Low-Medium",
+     "quote": null,
+     "quote_basis": "search-result excerpt only (page not retrieved)"
+    },
+    {
+     "country": "Japan",
+     "companies": [
+      "Yaskawa",
+      "Nidec"
+     ],
+     "capacity_fact": "Yaskawa: $180M, 800,000 sq ft robot plant in Franklin, Wisconsin (already on the site's page; not repeated). Nidec: no source found.",
+     "capacity_source": "https://control.com/news/yaskawa-fanuc-invest-in-u.s-facilities-for-robot-production/",
+     "confidence": "Medium",
+     "quote": null,
+     "quote_basis": "search-result excerpt only (page not retrieved)"
+    }
+   ],
+   "deal_vehicles": [
+    {
+     "name": "U.S.-Korea Strategic Trade and Investment Deal and MOU",
+     "country": "South Korea",
+     "date": "2025-11-13",
+     "status": "Slow: first project (Texas gas power) picked 2026-10-01",
+     "what_it_covers": "$200B MOU + $150B shipbuilding; sector list does not include robotics or machinery",
+     "quote": "including but not limited to shipbuilding, energy, semiconductors, pharmaceuticals, critical minerals, and artificial intelligence/quantum computing.",
+     "url": "https://www.whitehouse.gov/fact-sheets/2025/11/joint-fact-sheet-on-president-donald-j-trumps-meeting-with-president-lee-jae-myung",
+     "confidence": "High",
+     "quote_basis": "page text read"
+    }
+   ],
+   "company_moves": [
+    {
+     "company": "Hyundai Motor Group / Hyundai Mobis",
+     "country": "South Korea",
+     "move": "U.S. actuator plant (2028 start) plus robot production up to 30,000 units/yr; Atlas deployment at Georgia Metaplant from 2028. Robotics sits inside Hyundai's earlier $26B U.S. investment pledge (Aug 2025, headline 'vehicle production, robotics, steel plant').",
+     "date": "2026-05-20 (reported); 2025-08-26 (pledge)",
+     "figure": "350,000 actuators/yr; 30,000 robots/yr initial",
+     "url": "https://www.asiae.co.kr/en/article/2026052008082402975",
+     "confidence": "Medium-High",
+     "quote": "It will serve as a mass production platform capable of flexibly manufacturing various types of robots, with an initial annual production capacity of 30,000 units.",
+     "quote_basis": "page text read"
+    }
+   ],
+   "open_question": "The Hyundai plant is the only announced foreign servo/actuator move tied to a deal-country (Korea) found; the Korea MOU does not list robotics, so the link is political, not textual. Nidec, Yaskawa motor lines and German servo makers were not verified."
+  },
+  {
+   "gap": "Sensors (force/torque, vision, lidar)",
+   "partners": [
+    {
+     "country": "Canada / Switzerland / Denmark / Japan / Germany",
+     "companies": [
+      "Robotiq (CA)",
+      "Bota Systems (CH)",
+      "OnRobot (DK)",
+      "SICK (DE)",
+      "Hokuyo (JP)"
+     ],
+     "capacity_fact": "Only Robotiq was confirmed (6-DOF F/T sensor in a Jan 2026 product sheet). Others were requester-supplied names with no capacity or location facts found. U.S. makers appeared instead (VPG, FUTEK, Micro-Measurements).",
+     "capacity_source": "https://robotiq.com/hubfs/Physical%20AI/Physical-AI_Product_Sheet_Lettre_01.2026_EN_WEB.pdf",
+     "confidence": "Low",
+     "quote": null,
+     "quote_basis": "search-result excerpt only (page not retrieved)"
+    }
+   ],
+   "deal_vehicles": [
+    {
+     "name": "U.S.-Japan Oct 28, 2025 company-commitment list (adjacent only)",
+     "country": "Japan",
+     "date": "2025-10-28",
+     "status": "Announced intentions",
+     "what_it_covers": "TDK 'up to $25 billion' for advanced electronic components and power modules; Murata up to $15B electronic components. TDK and Murata make sensors, but the fact sheet does not say sensors or robots (inference, Low).",
+     "quote": "Up to $15 billion to produce advanced electronic components, including multilayer ceramic capacitors, inductors, and electromagnetic interference suppression filters, in partnership with Murata Manufacturing.",
+     "url": "https://whitehouse.gov/fact-sheets/2025/10/28195",
+     "confidence": "Low (link to robot sensors is inference)",
+     "quote_basis": "page text read"
+    }
+   ],
+   "company_moves": [],
+   "open_question": "Not researchable to a sourceable level in this pass: no non-China capacity figures for force/torque, vision or lidar makers. Needs per-company primaries (SICK, Keyence, Hokuyo, Sony Semiconductor, Bota, OnRobot)."
+  },
+  {
+   "gap": "Compute and chips",
+   "partners": [
+    {
+     "country": "Taiwan",
+     "companies": [
+      "TSMC"
+     ],
+     "capacity_fact": "TSMC announced another $100B on 2026-07-27, raising planned Arizona spending to $265B; plan covers 10 fabs and 2 advanced-packaging plants plus R&D (counts differ by outlet); first Arizona fab running 4 nm since 2024 (secondary).",
+     "capacity_source": "https://www.azfamily.com/2026/07/27/tsmc-adds-100b-arizona-plans-leaders-call-it-chipmaking-gold-rush/",
+     "confidence": "High (investment total)",
+     "quote": "announcing an additional $100 billion investment that brings its total planned spending in the Valley to $265 billion",
+     "quote_basis": "page text read"
+    },
+    {
+     "country": "South Korea",
+     "companies": [
+      "Samsung",
+      "SK hynix"
+     ],
+     "capacity_fact": "Not researched in this pass.",
+     "capacity_source": null,
+     "confidence": "n/a",
+     "quote": null,
+     "quote_basis": "page text read"
+    }
+   ],
+   "deal_vehicles": [
+    {
+     "name": "U.S.-Taiwan Agreement on Reciprocal Trade and MOU",
+     "country": "Taiwan",
+     "date": "2026-01-15 / 2026-02",
+     "status": "Signed; Taiwan legislative step pending",
+     "what_it_covers": "$250B direct investment plus $250B credit guarantees (Commerce, secondary quote); MOU names the semiconductors supply chain first",
+     "quote": "The MOU contemplates that Taiwan companies will significantly increase their investments in the semiconductors supply chain, electronics manufacturing services (including AI applications), energy, and other sectors in the United States",
+     "url": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/february/fact-sheet-us-taiwan-agreement-reciprocal-trade",
+     "confidence": "High",
+     "quote_basis": "page text read"
+    },
+    {
+     "name": "U.S.-Japan $550B vehicle",
+     "country": "Japan",
+     "date": "2026-09-04",
+     "status": "Third round undisclosed",
+     "what_it_covers": "Minister Akazawa: AI and chip discussions 'will carry very significant weight'",
+     "quote": "He said that discussions on artificial intelligence and chips will carry \"very significant weight.\"",
+     "url": "https://www.japantimes.co.jp/business/2026/09/05/japan-progress-us-investment-pact/",
+     "confidence": "High",
+     "quote_basis": "page text read"
+    }
+   ],
+   "company_moves": [
+    {
+     "company": "TSMC",
+     "country": "Taiwan (U.S. fabs in Arizona)",
+     "move": "Additional $100B Arizona investment, four more 2 nm-class fabs",
+     "date": "2026-07-27",
+     "figure": "$265B total planned Arizona spending",
+     "url": "https://www.azfamily.com/2026/07/27/tsmc-adds-100b-arizona-plans-leaders-call-it-chipmaking-gold-rush/",
+     "confidence": "High",
+     "quote": "brings its total planned spending in the Valley to $265 billion",
+     "quote_basis": "page text read"
+    }
+   ],
+   "open_question": "Robot compute is a chip-design plus foundry question; nothing found ties any deal vehicle to robot-specific compute. Treat chips as the best-covered gap on the Taiwan/Japan side but say that robots are not named."
+  },
+  {
+   "gap": "Batteries",
+   "partners": [
+    {
+     "country": "Japan",
+     "companies": [
+      "Panasonic"
+     ],
+     "capacity_fact": "Oct 2025 company list: Panasonic 'up to $15 billion' for energy storage systems and devices/components (intent, not approved project); separate $350M lithium-iron-phosphate facility.",
+     "capacity_source": "https://whitehouse.gov/fact-sheets/2025/10/28195",
+     "confidence": "High (intent)",
+     "quote": "Up to $15 billion to supply energy storage systems and electronic devices and components in collaboration with Panasonic.",
+     "quote_basis": "page text read"
+    },
+    {
+     "country": "South Korea",
+     "companies": [
+      "LG Energy Solution",
+      "Samsung SDI"
+     ],
+     "capacity_fact": "Search reports: LGES supplies cylindrical cells to Optimus Gen 2 and to Hyundai's Spot; Samsung SDI is a candidate for Atlas and plans 'Solid Stack' all-solid-state cells for robots in 2027. Supplier assignments for Atlas unconfirmed; no U.S. robot-cell plant found.",
+     "capacity_source": "https://www.koreatimes.co.kr/business/tech-science/20260202/samsung-sdi-eyes-robotics-market-with-all-solid-state-batteries",
+     "confidence": "Low-Medium",
+     "quote": null,
+     "quote_basis": "search-result excerpt only (page not retrieved)"
+    }
+   ],
+   "deal_vehicles": [
+    {
+     "name": "U.S.-Japan Oct 28, 2025 list",
+     "country": "Japan",
+     "date": "2025-10-28",
+     "status": "Announced intentions",
+     "what_it_covers": "Panasonic energy storage; LFP facility",
+     "quote": "Up to $15 billion to supply energy storage systems and electronic devices and components in collaboration with Panasonic.",
+     "url": "https://whitehouse.gov/fact-sheets/2025/10/28195",
+     "confidence": "Medium",
+     "quote_basis": "page text read"
+    }
+   ],
+   "company_moves": [],
+   "open_question": "Batteries for robots are not separately tracked in any deal vehicle; the Japan list is energy-storage oriented. The site already carries the DOE-backed EnerSys award. Confirm whether the Panasonic line has become an approved project."
+  },
+  {
+   "gap": "Machine tools",
+   "partners": [
+    {
+     "country": "Japan / Germany",
+     "companies": [
+      "Okuma (Charlotte, NC)",
+      "DMG Mori",
+      "Trumpf",
+      "Mazak",
+      "Makino"
+     ],
+     "capacity_fact": "Only Trumpf and DMG Mori had dated 2026 U.S. moves; Okuma 2026 news was product launches only; none found for Mazak, Makino, GF Machining.",
+     "capacity_source": "https://newequipment.com/plant-operations/news/55299831/new-us-manufacturing-facilities-from-trumpf",
+     "confidence": "Medium",
+     "quote": null,
+     "quote_basis": "page text read"
+    }
+   ],
+   "deal_vehicles": [
+    {
+     "name": "U.S.-Switzerland-Liechtenstein trade framework",
+     "country": "Switzerland",
+     "date": "2025-11-14",
+     "status": "Framework",
+     "what_it_covers": "Names machinery as a target sector for Swiss/Liechtenstein investment",
+     "quote": "pharmaceuticals, machinery, medical devices, aerospace, construction, advanced manufacturing",
+     "url": "https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-the-united-states-switzerland-and-liechtenstein-reach-a-historic-trade-deal/",
+     "confidence": "High",
+     "quote_basis": "page text read"
+    },
+    {
+     "name": "U.S.-EU framework",
+     "country": "European Union",
+     "date": "2025-08-21",
+     "status": "Framework; non-binding intentions",
+     "what_it_covers": "'$600 billion across strategic sectors'; machinery not named",
+     "quote": "European companies are expected to invest an additional $600 billion across strategic sectors in the United States through 2028.",
+     "url": "https://www.whitehouse.gov/briefings-statements/2025/08/joint-statement-on-a-united-states-european-union-framework-on-an-agreement-on-reciprocal-fair-and-balanced-trade/",
+     "confidence": "High",
+     "quote_basis": "page text read"
+    }
+   ],
+   "company_moves": [
+    {
+     "company": "DMG Mori Federal Services",
+     "country": "Japan / Germany",
+     "move": "New advanced manufacturing and R&D facility, Chicagoland, 74 jobs",
+     "date": "2026-02-24 (announced; reported 2026-04-14)",
+     "figure": "More than $40.5M",
+     "url": "https://gearsolutions.com/news/dmg-mori-announces-40-5-million-expansion-in-illinois/",
+     "confidence": "High",
+     "quote": "will invest more than $40.5 million to expand the company's footprint in Illinois",
+     "quote_basis": "page text read"
+    },
+    {
+     "company": "TRUMPF",
+     "country": "Germany",
+     "move": "$40M Smart Factory at Farmington, CT producing laser cutting and bending machines for North America; press-brake line planned by summer 2026",
+     "date": "2026 (opening date not stated in text read)",
+     "figure": "$40M, 55,800 sq ft",
+     "url": "https://newequipment.com/plant-operations/news/55299831/new-us-manufacturing-facilities-from-trumpf",
+     "confidence": "Medium-High",
+     "quote": "TRUMPF has officially opened a new $40 million Smart Factory at its North American headquarters in Farmington, Connecticut.",
+     "quote_basis": "page text read"
+    }
+   ],
+   "open_question": "Site already lists Haas and foreign builders in Exposure/Options; these two are the only dated 2026 foreign machine-tool moves found. Swiss framework is the only deal text naming machinery."
+  },
+  {
+   "gap": "Dexterous hands and actuators",
+   "partners": [
+    {
+     "country": "South Korea",
+     "companies": [
+      "Tesollo (DG-5F-S, launched Jan 2026)",
+      "Wonik Robotics (Allegro Hand)",
+      "Hyundai Mobis (actuators)"
+     ],
+     "capacity_fact": "Market data: Chinese firms were 96% of shipments of dexterous hands with six or more active DOF in H1 2026; Western share 4%, about quadrupled since 2025 (Smart Analytics Global via TechTarget). Tesollo and Wonik identified by search only.",
+     "capacity_source": "https://www.techtarget.com/ai/news/366651232/China-leads-dexterous-hand-supply-for-humanoids",
+     "confidence": "High (share); Medium (named firms)",
+     "quote": "Chinese companies accounted for 96% of shipments of dexterous hands with six or more active degrees of freedom (DOF) in the first half of 2026.",
+     "quote_basis": "page text read"
+    },
+    {
+     "country": "United Kingdom",
+     "companies": [
+      "Shadow Robot"
+     ],
+     "capacity_fact": "Long-standing maker; capacity not found; UK is not covered by the frameworks researched here.",
+     "capacity_source": "https://shadowrobot.com/",
+     "confidence": "Low",
+     "quote": null,
+     "quote_basis": "search-result excerpt only (page not retrieved)"
+    },
+    {
+     "country": "Germany",
+     "companies": [
+      "Schaeffler (humanoid actuators)"
+     ],
+     "capacity_fact": "See reducers gap: actuator partnership with Humanoid, volumes small.",
+     "capacity_source": "https://schaeffler-tomorrow.de/en/article/schaeffler-and-humanoid-enter-strategic-technology-partnership",
+     "confidence": "High",
+     "quote": null,
+     "quote_basis": "page text read"
+    }
+   ],
+   "deal_vehicles": [
+    {
+     "name": "U.S.-Korea MOU on Strategic Investments",
+     "country": "South Korea",
+     "date": "2025-11-13",
+     "status": "Slow",
+     "what_it_covers": "Sector list omits robotics",
+     "quote": "including but not limited to shipbuilding, energy, semiconductors, pharmaceuticals, critical minerals, and artificial intelligence/quantum computing.",
+     "url": "https://www.whitehouse.gov/fact-sheets/2025/11/joint-fact-sheet-on-president-donald-j-trumps-meeting-with-president-lee-jae-myung",
+     "confidence": "High",
+     "quote_basis": "page text read"
+    }
+   ],
+   "company_moves": [
+    {
+     "company": "Hyundai Mobis",
+     "country": "South Korea",
+     "move": "U.S. actuator plant from 2028 (350,000 units/yr)",
+     "date": "2026-05-20 (reported)",
+     "figure": "350,000 units/yr",
+     "url": "https://www.asiae.co.kr/en/article/2026052008082402975",
+     "confidence": "Medium-High",
+     "quote": "Actuators, which function as the joints of robots, account for 60% of the total manufacturing cost of humanoids.",
+     "quote_basis": "page text read"
+    }
+   ],
+   "open_question": "Hands: China has 96% of high-DOF shipments, so the 'partner' list is thin and mostly startups. No government vehicle covers it. Check the UK-US Technology Prosperity Deal for Shadow Robot-type moves (not researched)."
+  }
+ ],
+ "frameworks": [
+  {
+   "name": "U.S.-Japan Strategic Trade and Investment Agreement / $550B investment vehicle (MOU signed Sept 4, 2025; project rounds 2026)",
+   "countries": [
+    "Japan"
+   ],
+   "date": "2025-07-22 (agreement); 2025-09-04 (MOU); round 1 2026-02-18; round 2 2026-03-19",
+   "status": "Active. Two project rounds announced (about $36B and $73B). Trade minister Akazawa on 2026-09-04 declined detail on a third round and said AI and chips will carry 'very significant weight'. No round touches robots, machinery or magnets.",
+   "investment_figure": "$550B (Japan-side financing via JBIC/NEXI equity, loans and guarantees; Akazawa said only 1-2% of the vehicle would be cash). Round 1: $33B Ohio gas plant, $2.1B Texas crude export terminal, ~$0.6B Georgia synthetic diamond (Element Six); round 2: up to $40B GE Vernova Hitachi SMRs (TN, AL) plus up to $33B gas power (PA, TX).",
+   "robotics_or_machinery_mentioned": {
+    "value": false,
+    "quote": "The investments will fund projects in sectors across the United States ... including semiconductors, pharmaceuticals, metals, critical minerals, shipbuilding, energy (including pipelines) and artificial intelligence/quantum computing."
+   },
+   "url": "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-implements-a-historic-u-s-japan-framework-agreement/",
+   "extra_urls": [
+    "https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-president-donald-j-trump-secures-unprecedented-u-s-japan-strategic-trade-and-investment-agreement",
+    "https://www.japantimes.co.jp/business/2026/03/20/us-japan-trade-pact/",
+    "https://www.japantimes.co.jp/business/2026/09/05/japan-progress-us-investment-pact/"
+   ],
+   "confidence": "High (sector list, rounds); Medium (cash share, from Bloomberg-reported Akazawa remark relayed by secondary press)"
+  },
+  {
+   "name": "U.S.-Japan Oct 28, 2025 company-commitment list ('Fact Sheet: President Donald J. Trump Drives Forward Billions in Investments from Japan') + Critical Minerals Framework",
+   "countries": [
+    "Japan"
+   ],
+   "date": "2025-10-28",
+   "status": "Announced intentions ('Japan and various Japanese companies have outlined their commitments to pursuing the following investments'); not binding project approvals. Critical minerals agreement signed same day.",
+   "investment_figure": "Illustrative company lines: Panasonic up to $15B 'energy storage systems and electronic devices and components'; Murata up to $15B electronic components; TDK up to $25B 'advanced electronic components and power modules'; $350M lithium-iron-phosphate facility; $500M 'high-pressure, high-temperature diamond grit manufacturing facility'; $2B copper smelter (western US).",
+   "robotics_or_machinery_mentioned": {
+    "value": false,
+    "quote": "No robot, machine-tool, reducer, bearing or magnet maker appears in the list. Closest matches: 'Up to $15 billion to supply energy storage systems and electronic devices and components in collaboration with Panasonic.'"
+   },
+   "url": "https://whitehouse.gov/fact-sheets/2025/10/28195",
+   "confidence": "High"
+  },
+  {
+   "name": "U.S.-Australia Framework for Securing of Supply in the Mining and Processing of Critical Minerals and Rare Earths",
+   "countries": [
+    "Australia",
+    "Japan (trilateral Alcoa-Sojitz gallium)"
+   ],
+   "date": "2025-10-20 signed at White House (Australian release dated 2025-10-21)",
+   "status": "Active; 6-month pipeline window ended April 2026. Later totals vary by source (one Australian govt release says more than $5B backing Australian projects); not re-verified against a primary here.",
+   "investment_figure": "Each government 'at least USD$1 billion' toward a USD$8.5B pipeline; up to USD$200M Australian concessional equity for Alcoa-Sojitz gallium; USD$100M equity in Arafura Nolans.",
+   "robotics_or_machinery_mentioned": {
+    "value": false,
+    "quote": "Framework covers 'mining, separation, and processing' of critical minerals and rare earths 'required for defence and other advanced technologies'; no mention of robots or machinery."
+   },
+   "url": "https://www.pm.gov.au/media/historic-critical-minerals-framework-signed-president-trump-and-prime-minister-albanese",
+   "confidence": "High"
+  },
+  {
+   "name": "U.S.-Malaysia Agreement on Reciprocal Trade + Critical Minerals MOU",
+   "countries": [
+    "Malaysia"
+   ],
+   "date": "2025-10-26",
+   "status": "Signed. Malaysia's trade minister said the deal grants no exclusive rare-earth rights (SCMP, secondary). The separate MOU is reported not to create enforceable obligations (one analysis; Low).",
+   "investment_figure": "Not an investment vehicle. Malaysia commitment text: no export bans/quotas on critical minerals or rare earths to the US; extended operating licences; no restrictions on rare earth magnet sales to US companies.",
+   "robotics_or_machinery_mentioned": {
+    "value": false,
+    "quote": "Malaysia has committed to ensure no restrictions are imposed on the sale of rare earth magnets to U.S. companies."
+   },
+   "url": "https://www.whitehouse.gov/briefings-statements/2025/10/joint-statement-on-united-states-malaysia-agreement-on-reciprocal-trade/",
+   "extra_urls": [
+    "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2025/october/fact-sheet-united-states-and-malaysia-reach-agreement-reciprocal-trade"
+   ],
+   "confidence": "High"
+  },
+  {
+   "name": "U.S.-Korea Strategic Trade and Investment Deal (Joint Fact Sheet) + MOU on Strategic Investments",
+   "countries": [
+    "South Korea"
+   ],
+   "date": "2025-11-13/14 (fact sheet); first project selected 2026-10-01",
+   "status": "Active but slow: Korea Times 2026-09-07 reported the first project stalled over unclear terms; 2026-10-01 Seoul and Washington selected a Texas gas-power plant (reported $2.4B first capital injection) as first project. Trump cited a $200B project plan including $54B Alaska LNG that Seoul said it had not agreed to (secondary press).",
+   "investment_figure": "$350B total: $150B approved shipbuilding investment + $200B under MOU on Strategic Investments (cash installments reported capped at $20B/yr by Reuters).",
+   "robotics_or_machinery_mentioned": {
+    "value": false,
+    "quote": "Korean investments in various sectors ... 'including but not limited to shipbuilding, energy, semiconductors, pharmaceuticals, critical minerals, and artificial intelligence/quantum computing.'"
+   },
+   "url": "https://www.whitehouse.gov/fact-sheets/2025/11/joint-fact-sheet-on-president-donald-j-trumps-meeting-with-president-lee-jae-myung",
+   "extra_urls": [
+    "https://www.koreatimes.co.kr/world/20261001/trump-says-s-koreas-us-investment-plans-include-texas-power-generation-facility-8-nuclear-reactors"
+   ],
+   "confidence": "High (fact sheet); Medium (2026 project status, secondary press)"
+  },
+  {
+   "name": "U.S.-EU Framework on an Agreement on Reciprocal, Fair, and Balanced Trade (Joint Statement)",
+   "countries": [
+    "European Union (incl. Germany, Sweden, Italy etc.)"
+   ],
+   "date": "2025-08-21",
+   "status": "Framework only; not a binding investment vehicle. Sept 2026 analysis (TNW, secondary) contrasts it with Japan's pact: no mechanism directing investment. Implementation status of the EU tariff legislation was not confirmed in this research.",
+   "investment_figure": "'European companies are expected to invest an additional $600 billion across strategic sectors in the United States through 2028'; EU 'intends to purchase' $40B US AI chips; $750B energy purchases.",
+   "robotics_or_machinery_mentioned": {
+    "value": false,
+    "quote": "'strengthen economic security alignment to enhance supply chain resilience and innovation by taking complementary actions to address non-market policies of third parties' (no robots, machinery or magnets named)."
+   },
+   "url": "https://www.whitehouse.gov/briefings-statements/2025/08/joint-statement-on-a-united-states-european-union-framework-on-an-agreement-on-reciprocal-fair-and-balanced-trade/",
+   "confidence": "High (text); Low (status)"
+  },
+  {
+   "name": "U.S.-Switzerland-Liechtenstein trade framework (Joint Statement + White House fact sheet)",
+   "countries": [
+    "Switzerland",
+    "Liechtenstein"
+   ],
+   "date": "2025-11-14",
+   "status": "Framework; the parties aimed to conclude a final agreement by Q1 2026 (secondary press); no confirmation of conclusion found in this research.",
+   "investment_figure": "'at least $200 billion' over five years; 'at least $67 billion' in 2026 (fact sheet). Press notes it includes earlier pledges (Roche $50B, Novartis $23B).",
+   "robotics_or_machinery_mentioned": {
+    "value": true,
+    "quote": "'thousands of well-paying American jobs across all 50 states in a number of sectors, such as pharmaceuticals, machinery, medical devices, aerospace, construction, advanced manufacturing, gold manufacturing, and energy infrastructure.' (Only framework in this set that names machinery.)"
+   },
+   "url": "https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-the-united-states-switzerland-and-liechtenstein-reach-a-historic-trade-deal/",
+   "confidence": "High (text); Low (2026 status)"
+  },
+  {
+   "name": "U.S.-Taiwan Agreement on Reciprocal Trade + AIT-TECRO MOU (Jan 15, 2026)",
+   "countries": [
+    "Taiwan"
+   ],
+   "date": "2026-01-15 (MOU); 2026-02 (USTR fact sheet)",
+   "status": "Signed as agreement/MOU; Taiwan side to submit to its legislature before entry into force (USTR fact sheet; later legislative outcome not checked).",
+   "investment_figure": "Commerce: at least $250B direct investment by Taiwanese chip/tech firms plus at least $250B Taiwan credit guarantees (secondary-report quote of the Commerce fact sheet; Commerce page itself did not load).",
+   "robotics_or_machinery_mentioned": {
+    "value": false,
+    "quote": "MOU: Taiwan 'promises to work with the United States to establish industrial parks and industry clusters that will help the United States substantially increase its domestic production capacity in key high-tech sectors' - listed sectors are 'semiconductors supply chain, electronics manufacturing services (including AI applications), energy, and other sectors'. 'Other sectors' is open-ended; machinery is not named. The MOU also promises preferential treatment 'in certain other Section 232 investigations' (tariff-treatment term, not researched further)."
+   },
+   "url": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/february/fact-sheet-us-taiwan-agreement-reciprocal-trade",
+   "confidence": "High (USTR text); Medium ($250B figures)"
+  },
+  {
+   "name": "Project Vault / U.S. Strategic Critical Minerals Reserve (EXIM)",
+   "countries": [
+    "United States (domestic stockpile; suppliers incl. Hartree, Mercuria, Traxys)"
+   ],
+   "date": "2026-02-02",
+   "status": "EXIM board approved loan; later CSIS note says Glencore and Mercuria committed $1B in VaultCo (secondary).",
+   "investment_figure": "EXIM Direct Loan 'up to $10 billion' (15-year); ~$12B total with private capital (Bloomberg).",
+   "robotics_or_machinery_mentioned": {
+    "value": false,
+    "quote": "'Initial indications of participation from original equipment manufacturers include Clarios, GE Vernova, Western Digital, Boeing, and many more.' No robot maker named."
+   },
+   "url": "https://www.exim.gov/news/project-vault",
+   "confidence": "High"
+  },
+  {
+   "name": "Pax Silica Declaration (Dec 12, 2025) and San Francisco Declaration (Nov 15, 2026)",
+   "countries": [
+    "Dec 2025 founding: US, Japan, South Korea, UK, Singapore, Australia, Israel. 26 signatories by Nov 2026 per ITIF (incl. EU Commission signing 2026-06-25, Italy 25th on 2026-07-31). San Francisco Declaration signers per Australian govt list: US, Australia, India, Israel, Japan, Republic of Korea, Qatar, Singapore (8 governments); press says 'US and nine partners' (Bloomberg Government headline); FT-based reports said eight with four more expected."
+   ],
+   "date": "2025-12-12; 2026-11-15",
+   "status": "Active; counts disagree by source. Text of the Nov 15 declaration not retrieved (state.gov blocked automated fetch; industry.gov.au timed out).",
+   "investment_figure": "None (political declaration; no dollar commitment found).",
+   "robotics_or_machinery_mentioned": {
+    "value": false,
+    "quote": "ITIF: initiative covers 'critical minerals, energy, semiconductors, advanced manufacturing, and AI infrastructure'. Robots are not named in any retrieved description; the Nov 15 text itself was not read, so absence is unverified for that document."
+   },
+   "url": "https://itif.org/publications/2026/11/16/pax-silica-timeline/",
+   "extra_urls": [
+    "https://digital-strategy.ec.europa.eu/en/news/commission-signs-pax-silica-declaration",
+    "https://news.bgov.com/artificial-intelligence/us-nine-nations-sign-san-francisco-ai-declaration"
+   ],
+   "confidence": "Medium (founding membership); Low-Medium (Nov 2026 count and signer list)"
+  },
+  {
+   "name": "MP Materials - Maaden - U.S. Department of War refinery JV (Saudi Arabia)",
+   "countries": [
+    "Saudi Arabia"
+   ],
+   "date": "2025-11-18/19",
+   "status": "Announced. No 2026 construction or financing update found.",
+   "investment_figure": "JV targeted 49% MP + DoW, 51% Maaden; DoW to finance U.S. share (secondary press).",
+   "robotics_or_machinery_mentioned": {
+    "value": false,
+    "quote": "'MP also is exploring opportunities to support or collaborate on magnet manufacturing in Saudi Arabia' (secondary summary; magnets, not robots)."
+   },
+   "url": "https://www.businesswire.com/news/home/20251118096805/en",
+   "confidence": "Medium"
+  }
+ ],
+ "_meta": {
+  "written": "2026-11-21",
+  "note": "Research notes; confidence per item. Sources blocked to automated fetch: state.gov, industry.gov.au (timeouts), commerce.gov nodes, virginiabusiness.com, engineeringnews.co.za.",
+  "section_232_context": {
+   "note": "The Robot Report (2026-10-29) read via fetch: the proclamation directs officials to 'enter into negotiations with trading partners to adjust imports of robotics'; Boston Dynamics' Schulman expects 'Negotiations over the next six months' (his expectation, not proclamation text). The article does not mention an investment-incentive program.",
+   "url": "https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/"
+  },
+  "not_found_or_unverified": [
+   "Minerals Security Partnership / FORGE: nothing sourced in this pass.",
+   "Pax Silica text (Dec 2025 and Nov 15, 2026): state.gov and industry.gov.au could not be fetched; counts (25-26 signatories; 8-10 at San Francisco) disagree by source.",
+   "No evidence that any $550B Japan round, the Korea MOU, EU or Swiss frameworks names robots, reducers, bearings or motors.",
+   "Names supplied in the brief that returned no sourced facts: Nidec, SKF, THK, NSK, HIWIN, SICK, Hokuyo, Bota, OnRobot, Rollvis (beyond one low-quality tracker), Samsung/SK hynix chips, Thailand and Saudi minerals MOUs beyond Maaden.",
+   "Lynas Texas: the site should not list it as a plan; Lynas FY26 annual report says it will no longer proceed.",
+   "eVAC ownership: German VAC Group, owned by Ara Partners, being acquired by Energy Fuels (US), close expected early 2027."
+  ]
+ }
+}
