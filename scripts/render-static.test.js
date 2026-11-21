@@ -262,6 +262,7 @@ for (const page of Object.keys(PAGES)) {
   eq(RT.renderOpenComments(pol.slice(2, 4), '2026-11-21'), '', 'open comments: nothing open renders nothing');
   const live = loadData().policies.filter((p) => p.comment_deadline);
   ok(live.every((p) => /^\d{4}-\d{2}-\d{2}$/.test(p.comment_deadline)), 'policies.json: every comment_deadline is YYYY-MM-DD');
+  ok(live.every((p) => p.comment_deadline >= p.introduced_date), 'policies.json: no comment_deadline before its introduced_date');
 }
 
 if (failures) {
