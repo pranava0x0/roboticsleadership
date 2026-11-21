@@ -1,5 +1,99 @@
 [
   {
+    "source_type": "Secondary",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "un",
+      "ccw",
+      "autonomous-weapons",
+      "international"
+    ],
+    "id": "un-ccw-autonomous-weapons-2028-2026-11",
+    "date": "2026-11-21",
+    "source": "AFP (via CNA)",
+    "source_url": "https://www.channelnewsasia.com/world/united-nations-regulate-killer-robots-weapons-6571256",
+    "title": "UN weapons-convention states agree to \"elaborate\" a possible accord on lethal autonomous weapons by 2028, without committing to binding rules",
+    "summary": "The review conference of the Convention on Certain Conventional Weapons ended in Geneva on Nov 21 by extending talks for two more years. Delegates agreed to elaborate a possible accord by 2028 but not to the binding rules the UN Secretary-General had sought by 2026. Campaigners said Russia and the United States blocked stronger language.",
+    "category": "Policy",
+    "themes": [
+      "defense-procurement",
+      "policy-momentum"
+    ],
+    "sources": [
+      {
+        "url": "https://www.channelnewsasia.com/world/united-nations-regulate-killer-robots-weapons-6571256",
+        "label": "AFP (via CNA)"
+      }
+    ]
+  },
+  {
+    "source_type": "Secondary",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "companies": [
+      "agibot"
+    ],
+    "policies": [],
+    "tags": [
+      "agibot",
+      "lens-technology",
+      "electronics",
+      "humanoid"
+    ],
+    "id": "agibot-g2-lens-technology-test-line-2026-11",
+    "date": "2026-11-21",
+    "source": "IT Times (IT时代网)",
+    "source_url": "https://www.itsdw.cn/news/50877.html",
+    "title": "AgiBot puts dozens of Genie G2 humanoids on a Lens Technology phone-testing line",
+    "summary": "AgiBot and phone-glass maker Lens Technology signed a cooperation agreement, and dozens of G2 robots now load and unload phone test stations covering interface, antenna and camera tests. AgiBot says the G2 runs on an NVIDIA Jetson Thor chip with 19-degree-of-freedom hands. It reported a 99.99% success rate on an earlier tablet-inspection line at Longcheer in Nanchang; neither figure was independently checked.",
+    "category": "Deployment",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sources": [
+      {
+        "url": "https://www.itsdw.cn/news/50877.html",
+        "label": "IT Times (IT时代网)"
+      }
+    ]
+  },
+  {
+    "source_type": "Secondary",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "companies": [
+      "abb-robotics"
+    ],
+    "policies": [],
+    "tags": [
+      "abb",
+      "softbank",
+      "china",
+      "m-and-a"
+    ],
+    "id": "abb-weighs-robotics-listing-2026-11",
+    "date": "2026-11-20",
+    "source": "Reuters (via Yahoo Finance)",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/exclusive-abb-considers-robotics-listing-162853291.html",
+    "title": "Reuters: ABB weighs listing its robotics unit if the $5.4B SoftBank sale cannot be saved after China blocked it",
+    "summary": "Two people told Reuters that ABB is considering a listing of the robotics unit if the deal cannot be restructured. The companies have discussed carving out the China business, about 30% of the unit, and selling or listing it separately; failing that, ABB could spin off the whole unit or sell to someone else. SoftBank may owe a break fee.",
+    "category": "Competitive",
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/technology/ai/articles/exclusive-abb-considers-robotics-listing-162853291.html",
+        "label": "Reuters (via Yahoo Finance)"
+      }
+    ]
+  },
+  {
     "id": "niosh-humanoid-rfi-2026-11",
     "title": "NIOSH asks for public input on the safety of humanoid robots at work; comments are due Feb 22, 2027",
     "date": "2026-11-20",
@@ -34,6 +128,156 @@
       {
         "url": "https://public-inspection.federalregister.gov/2026-23799.pdf",
         "label": "Public inspection copy"
+      }
+    ]
+  },
+  {
+    "source_type": "Secondary",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "companies": [
+      "yaskawa"
+    ],
+    "policies": [],
+    "tags": [
+      "yaskawa",
+      "humanoid",
+      "japan"
+    ],
+    "id": "yaskawa-humanoid-by-2030-2026-11",
+    "date": "2026-11-20",
+    "source": "Kyodo News (Yahoo! Japan)",
+    "source_url": "https://news.yahoo.co.jp/articles/4602ea765e1b8e73c1b6362f5329ebf49632ef48",
+    "title": "Yaskawa says it will launch an AI humanoid by 2030, starting with farm work, and says its robots' self-learning is not yet mature",
+    "summary": "The head of Yaskawa's AI robotics division told Kyodo the company will bring out a humanoid with AI by 2030, earlier if customers ask. It builds on Tokyo Robotics, bought in 2025, and first targets agriculture and other tight spaces. She said robots that learn on their own are still immature and that Yaskawa is working with Fujitsu and NVIDIA to catch up with US and Chinese leaders.",
+    "category": "Competitive",
+    "themes": [
+      "physical-ai"
+    ],
+    "sources": [
+      {
+        "url": "https://news.yahoo.co.jp/articles/4602ea765e1b8e73c1b6362f5329ebf49632ef48",
+        "label": "Kyodo News (Yahoo! Japan)"
+      }
+    ]
+  },
+  {
+    "source_type": "Secondary",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "companies": [
+      "ubtech"
+    ],
+    "policies": [],
+    "tags": [
+      "ubtech",
+      "hesai",
+      "hong-kong",
+      "markets"
+    ],
+    "id": "hang-seng-tech-adds-ubtech-hesai-2026-11",
+    "date": "2026-11-20",
+    "source": "The Standard (Hong Kong)",
+    "source_url": "https://www.thestandard.com.hk/finance/article/349152/Hang-Seng-Tech-Index-expands-to-50-stocks-adding-CATL-and-Luxshare-HSI-unchanged",
+    "title": "Hang Seng Tech Index grows to 50 stocks and adds UBTech and lidar maker Hesai, on a day UBTech fell 13%",
+    "summary": "Hang Seng Indexes said after the Nov 20 close that the tech index will expand from 30 to 50 constituents, adding UBTech, Hesai, CATL and Luxshare among others, after an October rule change that counts robotics and advanced hardware as themes. UBTech closed down 13.3% at HK$57.9 that day in a wider sell-off of Hong Kong robotics stocks.",
+    "category": "Competitive",
+    "themes": [
+      "china-scale"
+    ],
+    "sources": [
+      {
+        "url": "https://www.thestandard.com.hk/finance/article/349152/Hang-Seng-Tech-Index-expands-to-50-stocks-adding-CATL-and-Luxshare-HSI-unchanged",
+        "label": "The Standard (Hong Kong)"
+      }
+    ]
+  },
+  {
+    "source_type": "Secondary",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "rokae",
+      "ipo",
+      "china",
+      "cobots"
+    ],
+    "id": "rokae-shenzhen-a-share-plan-2026-11",
+    "date": "2026-11-20",
+    "source": "Phoenix Finance (ifeng.com)",
+    "source_url": "https://finance.ifeng.com/c/8yETbtthcLY",
+    "title": "ROKAE, listed in Hong Kong since July, plans a second listing in Shenzhen after first-half revenue rose 136% to RMB 415M",
+    "summary": "The collaborative-arm maker's board approved work toward an A-share listing on the Shenzhen exchange. ROKAE raised HK$875M in its July Hong Kong listing. In the first half of 2026 it sold more than 13,000 robots, and arms for embodied-AI work brought in RMB 139M, 34% of revenue.",
+    "category": "Funding",
+    "themes": [
+      "china-scale"
+    ],
+    "sources": [
+      {
+        "url": "https://finance.ifeng.com/c/8yETbtthcLY",
+        "label": "Phoenix Finance (ifeng.com)"
+      }
+    ]
+  },
+  {
+    "source_type": "Secondary",
+    "sentiment": "Negative",
+    "confidence": "Medium",
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "hanwha",
+      "raion",
+      "quadruped",
+      "korea",
+      "defense"
+    ],
+    "id": "hanwha-raion-investment-collapses-2026-11",
+    "date": "2026-11-20",
+    "source": "KED Global",
+    "source_url": "https://www.kedglobal.com/robotics/newsView/ked202611200006",
+    "title": "Hanwha's ₩70B investment in quadruped maker Raion Robotics collapses after Hanwha asked for exclusive defense rights",
+    "summary": "KED Global, citing investment-banking sources, reports that Hanwha Group's proposed ₩70B ($52.3M) stake in Raion Robotics has fallen through. Hanwha wanted exclusive defense rights to the Raibo 2 quadruped, and Raion refused so it could keep selling to commercial customers.",
+    "category": "Funding",
+    "themes": [
+      "defense-procurement"
+    ],
+    "sources": [
+      {
+        "url": "https://www.kedglobal.com/robotics/newsView/ked202611200006",
+        "label": "KED Global"
+      }
+    ]
+  },
+  {
+    "source_type": "Primary",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "weride",
+      "robotaxi",
+      "earnings",
+      "china"
+    ],
+    "id": "weride-q3-2026-robotaxi-revenue-2026-11",
+    "date": "2026-11-20",
+    "source": "WeRide (GlobeNewswire)",
+    "source_url": "https://ca.finance.yahoo.com/news/overseas-revenue-171-5-yoy-115500909.html",
+    "title": "WeRide's third-quarter robotaxi revenue passes RMB 100M for the first time, up 204%, with about 4,100 driverless vehicles",
+    "summary": "WeRide reported third-quarter revenue of RMB 321.5M ($48.0M), up 88%, at a 43% gross margin. Markets outside China supplied more than 90% of robotaxi revenue, and the company said its Guangzhou robotaxi service now covers its unit costs. Its fleet was about 4,100 Level 4 vehicles on Oct 31, more than 2,300 of them robotaxis.",
+    "category": "Competitive",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "sources": [
+      {
+        "url": "https://ca.finance.yahoo.com/news/overseas-revenue-171-5-yoy-115500909.html",
+        "label": "WeRide (GlobeNewswire)"
       }
     ]
   },
@@ -98,6 +342,66 @@
       {
         "url": "https://www.bloomberght.com/nestle-microsoft-ve-boston-dynamics-ile-isbirligi-yapacak-3795288",
         "label": "Bloomberg HT"
+      }
+    ]
+  },
+  {
+    "source_type": "Secondary",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "vitai",
+      "tactile",
+      "sensors",
+      "china",
+      "funding"
+    ],
+    "id": "vitai-tactile-series-a-crrc-2026-11",
+    "date": "2026-11-19",
+    "source": "Embodied Home (具身之家)",
+    "source_url": "https://www.jushenhome.com/news/2473",
+    "title": "Shanghai tactile-sensor maker ViTai Robotics raises a Series A of several hundred million yuan, co-led by CRRC Capital",
+    "summary": "ViTai makes visuo-tactile sensors for robot hands. The round was co-led by state rail-equipment maker CRRC's investment arm and 永鑫方舟, and Xiaomi's strategic fund remains its largest outside shareholder. It is the company's fifth round in under three years. ViTai says its sensors are used in Xiaomi phone assembly and has released a visuo-tactile dataset of more than 60,000 minutes.",
+    "category": "Funding",
+    "themes": [
+      "china-scale"
+    ],
+    "sources": [
+      {
+        "url": "https://www.jushenhome.com/news/2473",
+        "label": "Embodied Home (具身之家)"
+      }
+    ]
+  },
+  {
+    "source_type": "Primary",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "telexistence",
+      "familymart",
+      "retail",
+      "japan",
+      "teleoperation"
+    ],
+    "id": "telexistence-familymart-nationwide-2026-11",
+    "date": "2026-11-19",
+    "source": "Telexistence (PR TIMES)",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000045.000027631.html",
+    "title": "FamilyMart will roll Telexistence's drink-restocking robot out to its Japanese stores from January 2027",
+    "summary": "Telexistence said FamilyMart will start a phased nationwide introduction of TX GHOST, which restocks drinks inside refrigerated cases, alongside digital shelf inventory, after trials that began in 2020. FamilyMart reports about 70% less of that work per store per day at the first stores. Remote operators handle cases the robot cannot, and that data trains Telexistence's own model. Neither company gave store or robot counts.",
+    "category": "Deployment",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sources": [
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000045.000027631.html",
+        "label": "Telexistence (PR TIMES)"
       }
     ]
   },
@@ -391,6 +695,68 @@
       {
         "url": "https://asia.nikkei.com/business/technology/us-visa-denials-hit-xpeng-other-chinese-robot-makers-ahead-of-ces",
         "label": "Nikkei Asia"
+      }
+    ]
+  },
+  {
+    "source_type": "Primary",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "companies": [],
+    "policies": [
+      "ndaa-fy2027-sec917-rascom"
+    ],
+    "tags": [
+      "ndaa",
+      "dod",
+      "autonomy",
+      "crs"
+    ],
+    "id": "crs-autonomous-warfare-command-rascom-2026-11",
+    "date": "2026-11-18",
+    "source": "Congressional Research Service",
+    "source_url": "https://www.congress.gov/crs-product/IN12757",
+    "title": "CRS: the Pentagon wants a four-star Autonomous Warfare Command by Oct 2027, while the Senate NDAA would create a different robotics command",
+    "summary": "A CRS Insight lays out three approaches. A Sept 30 Defense Secretary memo tasks Project Agincourt with a path to a four-star Autonomous Warfare Command by Oct 1, 2027. Section 917 of the Senate's FY2027 NDAA (S. 4784) would let the President set up a Robotic and Autonomous Systems Command with contracts capped at $20M. The House-passed bill has neither, so the final NDAA has to settle it.",
+    "category": "Policy",
+    "themes": [
+      "defense-procurement",
+      "policy-momentum"
+    ],
+    "sources": [
+      {
+        "url": "https://www.congress.gov/crs-product/IN12757",
+        "label": "Congressional Research Service"
+      }
+    ]
+  },
+  {
+    "source_type": "Secondary",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "korea",
+      "humanoid",
+      "research",
+      "dependence"
+    ],
+    "id": "korea-university-humanoids-chinese-hardware-2026-11",
+    "date": "2026-11-18",
+    "source": "Financial News (Korea)",
+    "source_url": "https://en.fnnews.com/news/202611181405437966",
+    "title": "Korean survey: Chinese hardware makes up 92.3% of humanoids at Korean universities, and US software runs 84.6% of them",
+    "summary": "A trade ministry survey of 24 Korean universities and research labs, cited by the National Assembly budget committee, found Chinese-made hardware in 92.3% of the humanoids owned by the 13 universities that have any, and US-made software in 84.6% of their control code. Korea shipped 171 humanoids last year, 1.2% of the world total. The government plans ₩2.3 trillion for the humanoid sector by 2030 and ₩30 billion next year to place 200 Korean-made humanoids.",
+    "category": "Competitive",
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "sources": [
+      {
+        "url": "https://en.fnnews.com/news/202611181405437966",
+        "label": "Financial News (Korea)"
       }
     ]
   },
@@ -1154,6 +1520,35 @@
       {
         "url": "https://www.caixinglobal.com/2026-11-17/nearing-ai-robotics-breakthrough-would-strain-production-unitree-founder-says-102505751.html",
         "label": "Caixin Global"
+      }
+    ]
+  },
+  {
+    "source_type": "Secondary",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "japan",
+      "industrial-policy",
+      "physical-ai"
+    ],
+    "id": "japan-physical-ai-10t-yen-2040-2026-11",
+    "date": "2026-11-16",
+    "source": "Nikkan Jidosha Shimbun",
+    "source_url": "https://www.netdenjd.com/archives/676348",
+    "title": "Japan plans ¥370 trillion of public and private investment in 17 strategic fields through fiscal 2040, with ¥10.5 trillion for physical AI",
+    "summary": "Nikkan Jidosha Shimbun reports that the government assumes more than ¥370 trillion of cumulative public and private investment by fiscal 2040 across 62 products and technologies. The plan lists ¥68 trillion for AI semiconductors, ¥10.5 trillion for physical AI, meaning AI combined with robots, and ¥8.2 trillion for autonomous driving. The figures come from the trade paper; the government document itself was not located.",
+    "category": "Policy",
+    "themes": [
+      "policy-momentum",
+      "physical-ai"
+    ],
+    "sources": [
+      {
+        "url": "https://www.netdenjd.com/archives/676348",
+        "label": "Nikkan Jidosha Shimbun"
       }
     ]
   },
@@ -2516,6 +2911,36 @@
       {
         "url": "https://roboticsandautomationnews.com/2026/11/12/cainiao-introduces-upgraded-climbing-robot-with-four-side-retrieval-and-denser-storage/107042/",
         "label": "Robotics & Automation News"
+      }
+    ]
+  },
+  {
+    "source_type": "Secondary",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "harmonic-drive",
+      "reducers",
+      "japan",
+      "humanoid"
+    ],
+    "id": "harmonic-drive-h1-orders-record-2026-11",
+    "date": "2026-11-11",
+    "source": "BigGo Finance (results summary)",
+    "source_url": "https://finance.biggo.com/news/JP_6324.T_2026-11-11",
+    "title": "Harmonic Drive Systems books a record ¥50.4B of first-half orders, up 71%, and expects humanoid mass production from fiscal 2028",
+    "summary": "The Japanese strain-wave gear maker reported April-September orders of ¥50.4B, up 70.7%, and revenue of ¥36.1B, up 29.8%, led by chip equipment and a recovery in industrial robots. It raised its full-year operating-profit forecast to ¥10.2B. Its president said demand from humanoid production could arrive from fiscal 2028, and flagged the risk that advance orders are cancelled and weakness in China.",
+    "category": "Supply Chain",
+    "themes": [
+      "us-supply-chain",
+      "cost-trajectory"
+    ],
+    "sources": [
+      {
+        "url": "https://finance.biggo.com/news/JP_6324.T_2026-11-11",
+        "label": "BigGo Finance (results summary)"
       }
     ]
   },

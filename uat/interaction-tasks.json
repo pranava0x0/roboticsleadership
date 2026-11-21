@@ -909,6 +909,18 @@
      "#panel-components .rd-bom:last-of-type dl"
     ]
    ]
+  },
+  "policy_open_comment_first": {
+   "steps": [
+    [
+     "nav",
+     "policies.html"
+    ],
+    [
+     "see",
+     "#open-comments .open-comments li:first-child a"
+    ]
+   ]
   }
  }
 }
