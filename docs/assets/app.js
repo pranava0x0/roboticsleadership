@@ -859,7 +859,7 @@
       const left = Math.round((day(p.comment_deadline) - day(today)) / 864e5);
       const when = left === 0 ? 'closes today' : `${left} day${left === 1 ? '' : 's'} left`;
       const href = safeURL(p.full_text_url || (p.sources && p.sources[0] && p.sources[0].url) || '');
-      return `<li><a href="${escapeHTML(href)}" rel="noopener">${escapeHTML(p.title)}</a> <span class="muted">Due ${escapeHTML(formatDate(p.comment_deadline))} · ${when}</span></li>`;
+      return `<li><a href="${escapeHTML(href)}" rel="noopener" title="${escapeHTML(p.title)}">${escapeHTML(truncate(p.title, 64))}</a> <span class="muted">due ${escapeHTML(formatDate(p.comment_deadline))}, ${when}</span></li>`;
     }).join('');
     return `<h2 class="section-title">Open for comment</h2><ol class="open-comments">${rows}</ol>`;
   }

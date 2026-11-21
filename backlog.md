@@ -4,6 +4,13 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-11-21 (scheduled refresh)
+
+- [ ] **(medium) Reframe: worker safety is the first federal humanoid question, not trade.** NIOSH's RFI (`fedreg-2026-23799`, comments to Feb 22, 2027) asks about humanoid uses, human-robot interaction, testing and injury prevention. A short "who sets humanoid safety rules" note on policies.html could line up NIOSH, OSHA, the ISO and A3 standards work, and China's six humanoid standards; check each body's current status before writing it.
+- [ ] **(medium) Fill `comment_deadline` from the scraper.** The Federal Register API returns `comments_close_on`; `scraper-policy.js` could copy it so new notices land in the policies page's "Open for comment" list without a curator typing the date. Five records carry it by hand as of 2026-11-21.
+- [ ] **(low) Front-page pointer to open comment windows** once there are two or more closing within 30 days; today the list lives only on policies.html.
+- [ ] **(low) Leads not authored 2026-11-21:** US-made NdFeB magnets "for the first time in 20 years" (X post, no named producer); Kawasaki CORLEO lab near Haneda (Nikkei via X, concept vehicle); AgiBot partnership with Robo Inc. (one post); MassRobotics Boston Fish Pier marine test facility (opens 2028).
+
 ## ▶ Added 2026-11-21 (Section 232 deal opportunities)
 
 - [ ] **(medium) Confirm the low-confidence deal leads on company sites before promoting them:** maxon's Taunton plant, LS Cable's Chesapeake magnet share and timeline, Korean cell makers' robot-cell supply, Iluka's Eneabba refinery status, Nabtesco's share of industrial robots (`data/research/s232-deal-opportunities-2026-11-21.json`, `quote_basis: search-result excerpt`).
