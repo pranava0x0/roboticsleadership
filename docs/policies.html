@@ -106,6 +106,7 @@
 
     <!-- Top KPIs -->
     <div class="kpi-strip cols-4" id="policy-kpis"></div>
+    <section id="open-comments" aria-label="Open comment periods"></section>
 
     <!-- Filter bar -->
     <form class="filter-bar" id="filter-form" onsubmit="return false;" aria-label="Filter policies">
@@ -492,6 +493,7 @@
     const executiveCount = policies.filter(p => p.level === 'Federal' && p.type !== 'Bill').length;
     const stateCount = policies.filter(p => p.level === 'State' || p.level === 'City').length;
 
+    document.getElementById('open-comments').innerHTML = RT.renderOpenComments(policies, new Date().toLocaleDateString('en-CA'));
     document.getElementById('policy-kpis').innerHTML = [
       { label: 'Bills and drafts', value: congressCount, sub: '119th Congress proposals' },
       { label: 'Programs and initiatives', value: executiveCount, sub: 'federal + stakeholder context' },

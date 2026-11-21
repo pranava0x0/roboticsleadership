@@ -846,6 +846,24 @@
     `).join('');
   }
 
+  // Open comment windows: policies with a structured `comment_deadline` on or after
+  // `today` (YYYY-MM-DD, passed in so the function stays pure), soonest first.
+  // Returns '' when none are open, so the page shows nothing rather than an empty box.
+  function renderOpenComments(policies, today) {
+    const open = (policies || [])
+      .filter((p) => p.comment_deadline && p.comment_deadline >= today)
+      .sort((a, b) => a.comment_deadline.localeCompare(b.comment_deadline));
+    if (!open.length) return '';
+    const day = (s) => Date.UTC(+s.slice(0, 4), +s.slice(5, 7) - 1, +s.slice(8, 10));
+    const rows = open.map((p) => {
+      const left = Math.round((day(p.comment_deadline) - day(today)) / 864e5);
+      const when = left === 0 ? 'closes today' : `${left} day${left === 1 ? '' : 's'} left`;
+      const href = safeURL(p.full_text_url || (p.sources && p.sources[0] && p.sources[0].url) || '');
+      return `<li><a href="${escapeHTML(href)}" rel="noopener">${escapeHTML(p.title)}</a> <span class="muted">Due ${escapeHTML(formatDate(p.comment_deadline))} · ${when}</span></li>`;
+    }).join('');
+    return `<h2 class="section-title">Open for comment</h2><ol class="open-comments">${rows}</ol>`;
+  }
+
   // China's robotics plans (docs/data/china_plans.json): one closed section with
   // each plan series newest first, every version saying what it changed, then
   // the US comparison (linked from the top). Chinese originals stay in lang="zh"; the
@@ -1780,6 +1798,7 @@
     renderChinaScoreBar,
     renderChinaSections,
     renderChinaPlans,
+    renderOpenComments,
     renderUnitreeRows,
     chinaMethodNote,
     computeKPIs,

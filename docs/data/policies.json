@@ -35,7 +35,8 @@
         "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors"
       }
     ],
-    "last_updated": "2026-11-20"
+    "last_updated": "2026-11-21",
+    "comment_deadline": "2027-01-19"
   },
   {
     "id": "nhtsa-fmvss-108-ads-lighting-nprm-2026",
@@ -76,7 +77,8 @@
         "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23239/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped"
       }
     ],
-    "last_updated": "2026-11-20"
+    "last_updated": "2026-11-21",
+    "comment_deadline": "2026-12-10"
   },
   {
     "id": "fedreg-2026-21786",
@@ -113,7 +115,8 @@
         "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-26/pdf/2026-21786.pdf"
       }
     ],
-    "last_updated": "2026-10-28"
+    "last_updated": "2026-11-21",
+    "comment_deadline": "2026-12-07"
   },
   {
     "id": "nist-mep-centers-awards-2026",
@@ -2720,7 +2723,8 @@
         "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/robotically-assisted-surgical-devices-premarket-submissions"
       }
     ],
-    "last_updated": "2026-09-25"
+    "last_updated": "2026-11-21",
+    "comment_deadline": "2026-11-24"
   },
   {
     "id": "fedreg-2026-20734",
@@ -2903,5 +2907,48 @@
       }
     ],
     "last_updated": "2026-10-14"
+  },
+  {
+    "id": "fedreg-2026-23799",
+    "title": "NIOSH asks for input on humanoid robots in workplaces: uses, human-robot interaction, testing and injury prevention",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-11-23",
+    "status": "Introduced",
+    "bill_number": "2026-23799",
+    "sponsor": "CDC / NIOSH (HHS)",
+    "summary": "NIOSH, the federal workplace-safety research institute, asks for public input on research priorities for humanoid robots at work. Its Center for Occupational Robotics Research wants information on where humanoids are being used, how workers interact with them, how their performance should be measured and validated, and how to prevent injuries through design, deployment and use. The notice proposes no rules. Comments are due February 22, 2027 under docket CDC-2026-1882.",
+    "full_text_url": "https://www.federalregister.gov/documents/2026/11/23/2026-23799/national-institute-for-occupational-safety-and-health-niosh-center-for-occupational-robotics",
+    "robotics_scope": "Humanoid robots in workplaces: safety research priorities",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal-register",
+      "federal",
+      "rfi",
+      "humanoid",
+      "worker-safety",
+      "niosh"
+    ],
+    "themes": [
+      "policy-momentum",
+      "industrial-deployments"
+    ],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23799/national-institute-for-occupational-safety-and-health-niosh-center-for-occupational-robotics",
+        "label": "Federal Register notice"
+      },
+      {
+        "url": "https://public-inspection.federalregister.gov/2026-23799.pdf",
+        "label": "Public inspection copy (filed Nov 20)"
+      }
+    ],
+    "last_updated": "2026-11-21",
+    "comment_deadline": "2027-02-22"
   }
 ]

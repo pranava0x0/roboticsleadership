@@ -1,5 +1,43 @@
 [
   {
+    "id": "niosh-humanoid-rfi-2026-11",
+    "title": "NIOSH asks for public input on the safety of humanoid robots at work; comments are due Feb 22, 2027",
+    "date": "2026-11-20",
+    "source": "Federal Register",
+    "source_type": "Primary",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/23/2026-23799/national-institute-for-occupational-safety-and-health-niosh-center-for-occupational-robotics",
+    "summary": "The CDC's National Institute for Occupational Safety and Health filed a request for information on humanoid robots in workplaces on Nov 20; it publishes in the Federal Register on Nov 23. Its robotics research center asks where humanoids are being used, how workers interact with them, how their performance should be measured and validated, and how to prevent injuries in design, deployment and use. The notice proposes no rules. Comments go to docket CDC-2026-1882.",
+    "category": "Policy",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "themes": [
+      "policy-momentum",
+      "industrial-deployments"
+    ],
+    "tags": [
+      "niosh",
+      "cdc",
+      "rfi",
+      "humanoid",
+      "worker-safety",
+      "federal-register"
+    ],
+    "companies": [],
+    "policies": [
+      "fedreg-2026-23799"
+    ],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23799/national-institute-for-occupational-safety-and-health-niosh-center-for-occupational-robotics",
+        "label": "Federal Register notice"
+      },
+      {
+        "url": "https://public-inspection.federalregister.gov/2026-23799.pdf",
+        "label": "Public inspection copy"
+      }
+    ]
+  },
+  {
     "id": "census-aies-robotics-questions-2026-11",
     "title": "Census will now ask manufacturers its standard robotics questions in the Annual Integrated Economic Survey",
     "date": "2026-11-20",
@@ -60,6 +98,36 @@
       {
         "url": "https://www.bloomberght.com/nestle-microsoft-ve-boston-dynamics-ile-isbirligi-yapacak-3795288",
         "label": "Bloomberg HT"
+      }
+    ]
+  },
+  {
+    "id": "haas-henderson-machine-tool-plant-2026-11",
+    "title": "Haas Automation opens a 2.4 million sq ft machine-tool plant in Henderson, Nevada, and plans 1,000 workers there by mid-2027",
+    "date": "2026-11-19",
+    "source": "KTNV (Las Vegas)",
+    "source_type": "Secondary",
+    "source_url": "https://www.ktnv.com/neighborhoods/henderson/haas-automation-opens-massive-henderson-factory-promising-more-than-650-local-jobs-and-future-growth",
+    "summary": "Haas, a CNC machine-tool maker based in Oxnard, California, opened its Henderson factory to the public on Nov 19. The general manager said the building lets the company double in size and could produce $2.5B to $3B of output a year. Haas plans 1,000 employees on site by summer 2027, more than 650 of them hired locally. Machine tools are one of the product groups in the Section 232 robotics proclamation.",
+    "category": "Supply Chain",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "themes": [
+      "us-supply-chain"
+    ],
+    "tags": [
+      "haas",
+      "machine-tools",
+      "nevada",
+      "factory",
+      "reshoring"
+    ],
+    "companies": [],
+    "policies": [],
+    "sources": [
+      {
+        "url": "https://www.ktnv.com/neighborhoods/henderson/haas-automation-opens-massive-henderson-factory-promising-more-than-650-local-jobs-and-future-growth",
+        "label": "KTNV"
       }
     ]
   },
