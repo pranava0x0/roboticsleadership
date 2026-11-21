@@ -245,6 +245,26 @@ for (const page of Object.keys(PAGES)) {
   }
 }
 
+// --- policies.html "Open for comment": structured deadlines, soonest first, past ones hidden ---
+{
+  const pol = [
+    { id: 'a', title: 'Later <rule>', comment_deadline: '2027-02-22', full_text_url: 'https://www.federalregister.gov/a' },
+    { id: 'b', title: 'Sooner', comment_deadline: '2026-11-22', sources: [{ url: 'https://example.gov/b' }] },
+    { id: 'c', title: 'Closed', comment_deadline: '2026-11-20', full_text_url: 'https://x.gov/c' },
+    { id: 'd', title: 'No deadline' },
+    { id: 'e', title: 'Bad link', comment_deadline: '2026-11-21', full_text_url: 'javascript:alert(1)' },
+  ];
+  const out = RT.renderOpenComments(pol, '2026-11-21');
+  ok(out.indexOf('Bad link') < out.indexOf('Sooner') && out.indexOf('Sooner') < out.indexOf('Later'), 'open comments: soonest deadline first');
+  ok(!out.includes('Closed') && !out.includes('No deadline'), 'open comments: past and undated records hidden');
+  ok(out.includes('closes today') && out.includes('1 day left') && out.includes('93 days left'), 'open comments: days-left arithmetic');
+  ok(out.includes('Later &lt;rule&gt;') && !out.includes('javascript:'), 'open comments: title escaped, unsafe href rejected');
+  eq(RT.renderOpenComments(pol.slice(2, 4), '2026-11-21'), '', 'open comments: nothing open renders nothing');
+  const live = loadData().policies.filter((p) => p.comment_deadline);
+  ok(live.every((p) => /^\d{4}-\d{2}-\d{2}$/.test(p.comment_deadline)), 'policies.json: every comment_deadline is YYYY-MM-DD');
+  ok(live.every((p) => p.comment_deadline >= p.introduced_date), 'policies.json: no comment_deadline before its introduced_date');
+}
+
 if (failures) {
   console.error(`\n${failures} render-static test(s) failed.`);
   process.exit(1);

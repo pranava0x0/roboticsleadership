@@ -98,14 +98,9 @@
       <a id="policy-research-jump" href="#policy-research">Hearings and source archive</a><a href="#sec-congress">Congress</a><a href="#sec-executive">Programs</a><a href="#sec-agencies">Agencies</a><a href="#sec-tax">Tax incentives</a><a href="#sec-commission">Commission</a>
     </nav>
 
-    <aside class="bluf" aria-label="Summary">
-      <p class="bluf-body">
-        <strong>Federal robotics policy spans procurement, manufacturing, research, and tax.</strong> This tracker distinguishes current and historical agency programs from proposed bills. States and cities also govern where many robots operate; see <a href="?tab=states">States &amp; cities</a>.
-      </p>
-    </aside>
-
     <!-- Top KPIs -->
     <div class="kpi-strip cols-4" id="policy-kpis"></div>
+    <section id="open-comments" aria-label="Open comment periods"></section>
 
     <!-- Filter bar -->
     <form class="filter-bar" id="filter-form" onsubmit="return false;" aria-label="Filter policies">
@@ -492,6 +487,7 @@
     const executiveCount = policies.filter(p => p.level === 'Federal' && p.type !== 'Bill').length;
     const stateCount = policies.filter(p => p.level === 'State' || p.level === 'City').length;
 
+    document.getElementById('open-comments').innerHTML = RT.renderOpenComments(policies, new Date().toLocaleDateString('en-CA'));
     document.getElementById('policy-kpis').innerHTML = [
       { label: 'Bills and drafts', value: congressCount, sub: '119th Congress proposals' },
       { label: 'Programs and initiatives', value: executiveCount, sub: 'federal + stakeholder context' },

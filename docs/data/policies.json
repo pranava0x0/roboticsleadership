@@ -35,7 +35,8 @@
         "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors"
       }
     ],
-    "last_updated": "2026-11-20"
+    "last_updated": "2026-11-21",
+    "comment_deadline": "2027-01-19"
   },
   {
     "id": "nhtsa-fmvss-108-ads-lighting-nprm-2026",
@@ -76,7 +77,8 @@
         "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23239/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped"
       }
     ],
-    "last_updated": "2026-11-20"
+    "last_updated": "2026-11-21",
+    "comment_deadline": "2026-12-10"
   },
   {
     "id": "fedreg-2026-21786",
@@ -113,7 +115,8 @@
         "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-26/pdf/2026-21786.pdf"
       }
     ],
-    "last_updated": "2026-10-28"
+    "last_updated": "2026-11-21",
+    "comment_deadline": "2026-12-07"
   },
   {
     "id": "nist-mep-centers-awards-2026",
@@ -2720,7 +2723,8 @@
         "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/robotically-assisted-surgical-devices-premarket-submissions"
       }
     ],
-    "last_updated": "2026-09-25"
+    "last_updated": "2026-11-21",
+    "comment_deadline": "2026-11-24"
   },
   {
     "id": "fedreg-2026-20734",
@@ -2903,5 +2907,90 @@
       }
     ],
     "last_updated": "2026-10-14"
+  },
+  {
+    "id": "ndaa-fy2027-sec917-rascom",
+    "title": "FY2027 NDAA (Senate) Section 917: a Robotic and Autonomous Systems Command",
+    "type": "Bill",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-06-15",
+    "status": "Committee",
+    "bill_number": "S. 4784 §917; S. Rept. 119-127",
+    "sponsor": "Senate Armed Services Committee (bill sponsor Sen. Roger Wicker)",
+    "summary": "The Senate Armed Services Committee's FY2027 NDAA would let the President, through the Secretary of Defense, set up a unified combatant command for robotic and autonomous systems (RASCOM), with contracting authority capped at $20 million per contract. A Sept 30 Defense Secretary memo instead tasks Project Agincourt with a path to a 4-star Autonomous Warfare Command by Oct 1, 2027, and the House-passed H.R. 8800 has no comparable section. A CRS Insight of Nov 18 lays out the three approaches Congress has to reconcile. S. 4784 was reported by committee and has not passed the Senate.",
+    "robotics_scope": "Military command structure and acquisition authority for robotic and autonomous systems; excludes space, autonomous cyber, nuclear command and control, and missile-defense sensing.",
+    "full_text_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4784",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [
+      "dod"
+    ],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal",
+      "national-security",
+      "ndaa",
+      "autonomy"
+    ],
+    "themes": [
+      "policy-momentum",
+      "defense-procurement"
+    ],
+    "sources": [
+      {
+        "url": "https://www.congress.gov/crs-product/IN12757",
+        "label": "CRS Insight IN12757 (Nov 18, 2026)"
+      },
+      {
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4784/all-actions",
+        "label": "Congress.gov actions"
+      }
+    ],
+    "last_updated": "2026-11-21"
+  },
+  {
+    "id": "fedreg-2026-23799",
+    "title": "NIOSH asks for input on humanoid robots in workplaces: uses, human-robot interaction, testing and injury prevention",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-11-20",
+    "status": "Introduced",
+    "bill_number": "2026-23799",
+    "sponsor": "CDC / NIOSH (HHS)",
+    "summary": "NIOSH, the federal workplace-safety research institute, asks for public input on research priorities for humanoid robots at work. Its Center for Occupational Robotics Research wants information on where humanoids are being used, how workers interact with them, how their performance should be measured and validated, and how to prevent injuries through design, deployment and use. The notice proposes no rules. Filed for public inspection on Nov 20 and published Nov 23. Comments are due February 22, 2027 under docket CDC-2026-1882.",
+    "full_text_url": "https://www.federalregister.gov/documents/2026/11/23/2026-23799/national-institute-for-occupational-safety-and-health-niosh-center-for-occupational-robotics",
+    "robotics_scope": "Humanoid robots in workplaces: safety research priorities",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "tags": [
+      "federal-register",
+      "federal",
+      "rfi",
+      "humanoid",
+      "worker-safety",
+      "niosh"
+    ],
+    "themes": [
+      "policy-momentum",
+      "industrial-deployments"
+    ],
+    "sources": [
+      {
+        "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23799/national-institute-for-occupational-safety-and-health-niosh-center-for-occupational-robotics",
+        "label": "Federal Register notice"
+      },
+      {
+        "url": "https://public-inspection.federalregister.gov/2026-23799.pdf",
+        "label": "Public inspection copy (filed Nov 20)"
+      }
+    ],
+    "last_updated": "2026-11-21",
+    "comment_deadline": "2027-02-22"
   }
 ]

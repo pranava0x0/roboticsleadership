@@ -6617,7 +6617,7 @@
         ],
         "url": "https://www.therobotreport.com/abb-group-sells-abb-robotics-softbank-5-3b/",
         "confidence": "reported",
-        "notes": "China's foreign-investment security review office prohibited the deal on 2026-11-05 (ABB confirmed to The Robot Report); ABB says it and SoftBank are still in talks. Not completed."
+        "notes": "China's foreign-investment security review office prohibited the deal on 2026-11-05 (ABB confirmed to The Robot Report); ABB says it and SoftBank are still in talks. Reuters (2026-11-20) reports ABB is weighing a listing or spin-off of the unit if the sale cannot be restructured, possibly carving out the China business (about 30% of the unit). Not completed."
       }
     ],
     "total_funding_usd": null,
@@ -6645,6 +6645,7 @@
     ],
     "data_confidence": "medium",
     "sources": [
+      { "url": "https://finance.yahoo.com/technology/ai/articles/exclusive-abb-considers-robotics-listing-162853291.html", "label": "Reuters: ABB weighs robotics listing (2026-11-20)" },
       {
         "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics"
       },
@@ -6661,7 +6662,7 @@
         "url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/"
       }
     ],
-    "last_updated": "2026-11-11",
+    "last_updated": "2026-11-21",
     "themes": [
       "industrial-deployments"
     ],

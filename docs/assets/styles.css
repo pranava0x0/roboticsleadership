@@ -2349,3 +2349,11 @@ body:has(.jump-nav) :is(h2, h3, section, details)[id] { scroll-margin-top: calc(
 .plan-targets > summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-size: 14px; font-weight: 600; }
 .plan-src { margin: 6px 0 0; font-size: 13px; }
 .plans-caveats { font-size: 13px; color: var(--text-muted); max-width: 760px; }
+
+/* policies.html: open federal comment windows, soonest first (RT.renderOpenComments) */
+#open-comments:empty { display: none; }
+.open-comments { margin: 8px 0 20px; padding-left: 1.4em; display: grid; gap: 6px; }
+/* the whole row (title + deadline) is the link, so the hit area is at least 44px tall */
+.open-comments a { display: block; min-height: 44px; padding: 4px 0; text-decoration: none; }
+.open-comments .oc-title { font-weight: 600; text-decoration: underline; }
+.open-comments .muted { font-size: 0.9em; white-space: nowrap; }

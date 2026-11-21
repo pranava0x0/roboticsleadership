@@ -4,6 +4,19 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-11-21 (scheduled refresh)
+
+- [ ] **(medium) Reframe: worker safety is the first federal humanoid question, not trade.** NIOSH's RFI (`fedreg-2026-23799`, comments to Feb 22, 2027) asks about humanoid uses, human-robot interaction, testing and injury prevention. A short "who sets humanoid safety rules" note on policies.html could line up NIOSH, OSHA, the ISO and A3 standards work, and China's six humanoid standards; check each body's current status before writing it.
+- [ ] **(medium) Fill `comment_deadline` from the scraper.** The Federal Register API returns `comments_close_on`; `scraper-policy.js` could copy it so new notices land in the policies page's "Open for comment" list without a curator typing the date. Five records carry it by hand as of 2026-11-21.
+- [ ] **(low) Front-page pointer to open comment windows** once there are two or more closing within 30 days; today the list lives only on policies.html.
+- [ ] **(medium) Backfill: China's June 22 counter-listing.** MOFCOM reportedly put ten US entities (MP Materials, USA Rare Earth, AeroVironment, Red Cat, Teal Drones among them) on its export-control list and barred government buying from 46 US firms, after the Pentagon's 1260H additions. Only a Chosun summary was read; verify the MOFCOM text and counts (10/46/56) first. Details in `data/research/refresh-2026-11-21-policy-ideas.md`.
+- [ ] **(medium) Reframe: dependence runs both ways.** Korea's survey (`korea-university-humanoids-chinese-hardware-2026-11`) found Chinese hardware in 92.3% of university humanoids and US software in 84.6%. A china.html row on "whose parts and whose code" across allies would show the split the edge board can't.
+- [ ] **(low) Pending federal items with no row:** FAA Part 108 BVLOS final rule (at White House review since July); DJI's Ninth Circuit mandamus petition against the FCC (filed Nov 2); the CSRC's re-domicile requirement for post-2023 red-chip listings (not robotics-specific).
+- [ ] **(low) Supply-chain rows from this run:** Harmonic Drive's record orders (strain-wave gears) and ViTai's tactile sensors could each update `supply_chain.json` components once a primary (Harmonic's IR deck) is read.
+- [ ] **(low) Sweep items not authored 2026-11-21:** Army Manufacturing Rodeo for 400 US-built drones (drone scope still open); Tesla Cybercab rides in Dallas, Bolt/Stellantis Paris, inDrive/Pony Kazakhstan, Wayve/Stellantis France (AV scope); J&J Ottava first US install; Rheinmetall humanoids (outlets disagree on timeline); Musk on Optimus chores; RoboWild and AA-Robotics benchmark scores (aggregator write-ups); Siemens–AgiBot gripper design agent; AgiBot Australia cloud node; Botsync $11M; Boli Technology; Tactilia hand; Dongwoon 48V drivers (no specs); Red Cat guidance cut; HD Hyundai/Anduril ASV.
+- [ ] **(low) Fix `house-fac-china-chip-licence-data-2026-11` (11-19 record):** the "21 licences" tally is not on the House Foreign Affairs release, and Alibaba's 75,000 is the approved count; say "approved" and source or drop the 21 (review, PR #313).
+- [ ] **(low) Leads not authored 2026-11-21:** US-made NdFeB magnets "for the first time in 20 years" (X post, no named producer); Kawasaki CORLEO lab near Haneda (Nikkei via X, concept vehicle); AgiBot partnership with Robo Inc. (one post); MassRobotics Boston Fish Pier marine test facility (opens 2028).
+
 ## ▶ Added 2026-11-21 (Section 232 deal opportunities)
 
 - [ ] **(medium) Confirm the low-confidence deal leads on company sites before promoting them:** maxon's Taunton plant, LS Cable's Chesapeake magnet share and timeline, Korean cell makers' robot-cell supply, Iluka's Eneabba refinery status, Nabtesco's share of industrial robots (`data/research/s232-deal-opportunities-2026-11-21.json`, `quote_basis: search-result excerpt`).

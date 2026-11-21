@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-21",
+  "dropped": [
+    {
+      "id": "fedreg-news-2026-23799",
+      "title": "National Institute for Occupational Safety and Health (NIOSH) Center for Occupational Robotics Research (CORR); Request for Information",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/23/2026-23799/national-institute-for-occupational-safety-and-health-niosh-center-for-occupational-robotics",
+      "date": "2026-11-23",
+      "reason": "NIOSH RFI curated as policy fedreg-2026-23799 and news niosh-humanoid-rfi-2026-11"
+    },
+    {
+      "id": "hn-50583025",
+      "title": "You are not ensuring that AGI is deployed safely and benefits all of humanity",
+      "source_url": "https://mercuriusdream.com/you-are-not/",
+      "date": "2026-11-20",
+      "reason": "essay on AGI safety, not robotics"
+    },
+    {
+      "id": "hn-50584410",
+      "title": "A push for a treaty to not allow AI total control over nukes",
+      "source_url": "https://theelders.org/news/humanity-threshold-declaration-artificial-intelligence-and-nuclear-weapons",
+      "date": "2026-11-21",
+      "reason": "AI and nuclear weapons treaty, not robotics"
+    },
+    {
+      "id": "hn-50572347",
+      "title": "AI incidents of 2026: Rogue agents, stolen keys, and other familiar stories",
+      "source_url": "https://www.aikido.dev/blog/ai-incidents-root-causes-patterns",
+      "date": "2026-11-20",
+      "reason": "software security incidents, not robotics"
+    },
+    {
+      "id": "hn-50572464",
+      "title": "China blocks SoftBank's $5.4B takeover of ABB's robotics division",
+      "source_url": "https://www.reuters.com/business/media-telecom/china-blocks-softbanks-54-billion-takeover-abbs-robotics-division-ft-reports-2026-11-05/",
+      "date": "2026-11-20",
+      "reason": "China blocking SoftBank-ABB already tracked (2026-11-05 FT/Reuters)"
+    },
+    {
+      "id": "hn-50576471",
+      "title": "Robots Are Ruining My Inbox",
+      "source_url": "https://onefoottsunami.com/2026/11/20/robots-are-ruining-my-inbox/",
+      "date": "2026-11-20",
+      "reason": "email spam essay, \"robots\" metaphor"
+    },
+    {
+      "id": "hn-50576613",
+      "title": "Even robots shouldn't do these jobs",
+      "source_url": "https://www.bloomberg.com/view/articles/2015-06-07/even-a-robot-would-be-wasted-in-these-useless-jobs-",
+      "date": "2026-11-20",
+      "reason": "2015 Bloomberg opinion column"
+    },
+    {
+      "id": "hn-50576643",
+      "title": "Controlling Applications with a DJ Controller",
+      "source_url": "https://ls-root.de/posts/controling-applications-with-dj-controller/",
+      "date": "2026-11-20",
+      "reason": "DJ controller software hack"
+    },
+    {
+      "id": "hn-50580498",
+      "title": "US will soon announce root cause behind FAA nationwide ground stop",
+      "source_url": "https://arstechnica.com/gadgets/2026/11/how-faa-can-modernize-us-national-airspace-system-without-emergency-ground-stops/",
+      "date": "2026-11-20",
+      "reason": "FAA ground stop, aviation IT"
+    },
+    {
+      "id": "hn-50580994",
+      "title": "Show HN: ArkViz – AI generated software architecture diagrams",
+      "source_url": "https://arkviz.io",
+      "date": "2026-11-20",
+      "reason": "software diagram tool"
+    },
+    {
+      "id": "hn-50585222",
+      "title": "Show HN: Lightweight FUSE-based encrypted, compressed filesystem for Linux",
+      "source_url": "https://github.com/tgaloppo/obfusecate",
+      "date": "2026-11-21",
+      "reason": "Linux filesystem"
+    },
+    {
+      "id": "hn-50585532",
+      "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+      "source_url": "https://mit-han-lab.github.io/pear-blog/",
+      "date": "2026-11-21",
+      "reason": "MIT HAN lab research blog (PEAR), research demo without deployment or policy angle"
+    },
+    {
+      "id": "hn-50585975",
+      "title": "NPM package installed Hermes Agent as root and tasked it over Telegram",
+      "source_url": "https://safedep.io/blog/malicious-npm-leadstack-crm-connect-hermes-agent-backdoor",
+      "date": "2026-11-21",
+      "reason": "npm malware"
+    },
+    {
+      "id": "rss-lz-space-robotic-system-comple-67",
+      "title": "LZ-Space Robotic System Completes Ground Tests Before Flight Validation",
+      "source_url": "https://pandaily.com/lz-space-robotic-hand-ground-tests-spacecraft-installation",
+      "date": "2026-11-21",
+      "reason": "space robotic hand ground test, minor component news"
+    },
+    {
+      "id": "rss-massrobotics-launching-marine-874",
+      "title": "MassRobotics launching marine robotics facility on Boston Harbor",
+      "source_url": "https://www.therobotreport.com/massrobotics-launching-marine-robotics-facility-on-boston-harbor/",
+      "date": "2026-11-20",
+      "reason": "MassRobotics Boston Harbor marine test facility, opens 2028; local incubator news"
+    },
+    {
+      "id": "rss-medtronic-s-hugo-surgical-robo-89",
+      "title": "Medtronic’s Hugo surgical robot ready for bigger operation",
+      "source_url": "https://www.therobotreport.com/medtronics-hugo-surgical-robot-ready-for-bigger-operation/",
+      "date": "2026-11-21",
+      "reason": "Hugo FDA general-surgery clearance already tracked 2026-11-17"
+    },
+    {
+      "id": "rss-video-friday-drone-squeezes-it-618",
+      "title": "Video Friday: Drone Squeezes Itself to Fit Through Tight Spaces",
+      "source_url": "https://spectrum.ieee.org/video-friday-morphing-robots-quadrotor",
+      "date": "2026-11-20",
+      "reason": "IEEE Video Friday roundup"
+    }
+  ]
+}
