@@ -117,5 +117,19 @@ test('sitemap and llms.txt list the page', () => {
   assert(read('llms.txt').includes(`/${PAGE})`));
 });
 
+test('deal opportunities: one row per gap, four cells each, every row cites a source (2026-11-21)', () => {
+  const sec = html.slice(html.indexOf('<details class="collapsible-section" id="deals">'), html.indexOf('<details class="collapsible-section" id="reaction">'));
+  assert(sec.length > 1000, 'deals section missing or not before reaction');
+  assert(html.includes('<a href="#deals">Deals</a>'), 'no jump chip for deals');
+  const rows = sec.split('<tbody')[1].split('</tbody>')[0].split('<tr role="row">').slice(1);
+  const gaps = rows.map((r) => (r.match(/<strong>([^<]+)<\/strong>/) || [])[1]);
+  for (const g of ['Rare earths and magnets', 'Precision reducers', 'Servo motors and actuators', 'Machine tools']) assert(gaps.includes(g), `missing gap ${g}`);
+  for (const r of rows) {
+    assert.equal((r.match(/<td role="cell"/g) || []).length, 4, `row ${r.slice(0, 80)} lacks four cells`);
+    assert(/href="https:\/\//.test(r) || /listed above|under Exposure|above/.test(r), `row ${r.slice(0, 80)} cites nothing`);
+  }
+  assert(/data\/research\/s232-deal-opportunities-2026-11-21\.json/.test(sec), 'research notes pointer gone');
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);
