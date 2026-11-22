@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-22",
+  "dropped": [
+    {
+      "id": "hn-50588262",
+      "title": "Humanity's oldest art is being erased by climate change",
+      "source_url": "https://www.cnn.com/science/indonesia-rock-art-climate-change-spc",
+      "date": "2026-11-21",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50594036",
+      "title": "Projecting humanity 1000 years into the future",
+      "source_url": "https://arxiv.org/abs/2409.00067",
+      "date": "2026-11-21",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50588036",
+      "title": "'The doom of humanity': will the quest to make robotic hands render us obsolete?",
+      "source_url": "https://www.theguardian.com/technology/2026/nov/21/robot-hands-future-of-humanity-ai",
+      "date": "2026-11-21",
+      "reason": "feature essay on robot hands, no new event"
+    },
+    {
+      "id": "hn-50590023",
+      "title": "Show HN: Hackerllion – A daily trivia game where rare answers get you root",
+      "source_url": "https://hackerllion.com/",
+      "date": "2026-11-21",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50591010",
+      "title": "Jailbreaking a Unitree Go2 Robot Dog with a Raspberry Pi Pico",
+      "source_url": "https://www.praetorian.com/blog/breaking-free-a-new-jailbreak-for-the-unitree-go2/",
+      "date": "2026-11-21",
+      "reason": "curated as praetorian-unitree-go2-jailbreak-2026-11 from the Praetorian post"
+    },
+    {
+      "id": "hn-50592134",
+      "title": "Countries open path towards 'killer robots' pact",
+      "source_url": "https://www.afp.com/en/countries-open-path-towards-killer-robots-pact",
+      "date": "2026-11-21",
+      "reason": "already curated as un-ccw-autonomous-weapons-2028-2026-11"
+    },
+    {
+      "id": "hn-50592878",
+      "title": "Fastest Soft Robot Ever Built Doesn't Need Electronics to Function [video]",
+      "source_url": "https://www.youtube.com/watch?v=uNPwgYMA0Js",
+      "date": "2026-11-21",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50594311",
+      "title": "Show HN: AGI: Robots Awake – a browser maze shooter",
+      "source_url": "https://marcvscouto.itch.io/agi-robots-awake",
+      "date": "2026-11-21",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50594822",
+      "title": "Getting Robot-Use Agents to Run in Real Time",
+      "source_url": "https://fastrua.ai/blog/2026-11-realtime-rua/",
+      "date": "2026-11-21",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50596067",
+      "title": "On the probability of robots becoming more creative than humans",
+      "source_url": "https://www.thetedkarchive.com/library/ted-kaczynski-on-the-probability-of-robots-becoming-more-creative-than-humans",
+      "date": "2026-11-22",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "rss-zoellent-ai-lab-releases-gr-sa-798",
+      "title": "Zoellent AI Lab Releases GR-SAC to Refine Frozen Robot Policies With a Small Controller",
+      "source_url": "https://pandaily.com/zoellent-gr-sac-gated-residual-controller-frozen-vla",
+      "date": "2026-11-22",
+      "reason": "research method release with no deployment or funding"
+    },
+    {
+      "id": "rss-agibot-deploys-g2-robots-on-le-952",
+      "title": "AgiBot Deploys G2 Robots on Lens Technology’s Smartphone Test Lines",
+      "source_url": "https://pandaily.com/agibot-g2-lens-technology-smartphone-testing-lines",
+      "date": "2026-11-22",
+      "reason": "already curated as agibot-g2-lens-technology-test-line-2026-11"
+    },
+    {
+      "id": "rss-openatom-forms-working-committ-490",
+      "title": "OpenAtom Forms Working Committee for Humanoid Robot Open-Source Community",
+      "source_url": "https://pandaily.com/openatom-humanoid-robot-open-source-working-committee",
+      "date": "2026-11-22",
+      "reason": "feed summary only; committee formation with no members, budget or code named"
+    },
+    {
+      "id": "rss-unitree-robot-wins-xiongan-box-5",
+      "title": "Unitree Robot Wins Xiongan Boxing Belt in Bout Against EngineAI",
+      "source_url": "https://pandaily.com/unitree-engineai-xiongan-robot-boxing-belt",
+      "date": "2026-11-22",
+      "reason": "robot boxing exhibition, spectacle"
+    },
+    {
+      "id": "rss-the-manufacturing-data-gap-hol-728",
+      "title": "The manufacturing data gap holding back physical AI",
+      "source_url": "https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/",
+      "date": "2026-11-21",
+      "reason": "opinion/sponsored column"
+    }
+  ]
+}

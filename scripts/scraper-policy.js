@@ -8,6 +8,12 @@ const __filename = fileURLToPath(import.meta.url);
 const ROOT = resolve(dirname(__filename), '..');
 const DATA_DIR = resolve(ROOT, 'docs/data');
 
+// The Federal Register returns a default field set unless fields[] is given, and the
+// default omits comments_close_on, so name every field the record below reads.
+export const FR_FIELDS = ['document_number', 'html_url', 'title', 'type', 'abstract',
+  'publication_date', 'agency_names', 'comments_close_on'];
+export const frFieldsQuery = () => FR_FIELDS.map(f => `&fields%5B%5D=${f}`).join('');
+
 const policiesFile = resolve(DATA_DIR, 'policies.json');
 const sourcesFile = resolve(DATA_DIR, 'sources.json');
 
@@ -19,6 +25,41 @@ function parseDays() {
     if (!isNaN(n) && n > 0) return n;
   }
   return 7;
+}
+
+// One Federal Register document -> one uncurated policy record (pure; tested).
+// comment_deadline feeds the policies page's "Open for comment" list.
+export function toPolicy(doc, today) {
+  const policy = {
+    id: `fedreg-${doc.document_number}`.toLowerCase(),
+    title: doc.title,
+    type: "Regulation",
+    level: "Federal",
+    state: "N/A",
+    introduced_date: doc.publication_date || today,
+    status: doc.type === 'Rule' ? 'In effect' : 'Introduced',
+    bill_number: doc.document_number,
+    sponsor: doc.agency_names ? doc.agency_names.join(', ') : 'Federal Agency',
+    summary: doc.abstract || doc.title,
+    full_text_url: doc.html_url,
+    robotics_scope: "Federal Register publication",
+    estimated_budget_usd: null,
+    beneficiaries: [],
+    agency_responsible: doc.agency_names || [],
+    startup_eligible: false,
+    application_url: null,
+    tags: ["federal-register", "federal"],
+    themes: [],
+    sources: [{ url: doc.html_url }],
+    last_updated: today,
+    // Unread by a human. The Federal Register query matches on keywords, so
+    // this is as likely to be a drug-scheduling notice as a robotics rule —
+    // 78 such records were swept in 2026-07. validate.js rejects this flag at
+    // deploy time, so curating (clearing it) is mandatory, not optional.
+    _requires_curator_review: true,
+  };
+  if (/^\d{4}-\d{2}-\d{2}$/.test(doc.comments_close_on || '')) policy.comment_deadline = doc.comments_close_on;
+  return policy;
 }
 
 async function main() {
@@ -38,7 +79,7 @@ async function main() {
     return;
   }
 
-  const urlWithDate = `${targetSource.url}&conditions%5Bpublication_date%5D%5Bgte%5D=${cutoff}&per_page=20`;
+  const urlWithDate = `${targetSource.url}&conditions%5Bpublication_date%5D%5Bgte%5D=${cutoff}&per_page=20${frFieldsQuery()}`;
   console.log(`Fetching from ${urlWithDate}...`);
   let res;
   try {
@@ -61,34 +102,7 @@ async function main() {
     // may still be a policy candidate.
     if (dropped.has(`fedreg-${doc.document_number}`.toLowerCase())) continue;
 
-    const newPolicy = {
-      id: `fedreg-${doc.document_number}`.toLowerCase(),
-      title: doc.title,
-      type: "Regulation",
-      level: "Federal",
-      state: "N/A",
-      introduced_date: doc.publication_date || today,
-      status: doc.type === 'Rule' ? 'In effect' : 'Introduced',
-      bill_number: doc.document_number,
-      sponsor: doc.agency_names ? doc.agency_names.join(', ') : 'Federal Agency',
-      summary: doc.abstract || doc.title,
-      full_text_url: doc.html_url,
-      robotics_scope: "Federal Register publication",
-      estimated_budget_usd: null,
-      beneficiaries: [],
-      agency_responsible: doc.agency_names || [],
-      startup_eligible: false,
-      application_url: null,
-      tags: ["federal-register", "federal"],
-      themes: [],
-      sources: [{ url: doc.html_url }],
-      last_updated: today,
-      // Unread by a human. The Federal Register query matches on keywords, so
-      // this is as likely to be a drug-scheduling notice as a robotics rule —
-      // 78 such records were swept in 2026-07. validate.js rejects this flag at
-      // deploy time, so curating (clearing it) is mandatory, not optional.
-      _requires_curator_review: true,
-    };
+    const newPolicy = toPolicy(doc, today);
 
     policies.push(newPolicy);
     existingUrls.add(doc.html_url);
@@ -108,7 +122,9 @@ async function main() {
   writeFileSync(sourcesFile, JSON.stringify(sourcesData, null, 2) + '\n');
 }
 
-main().catch(err => {
-  console.error(`Scraper failed: ${err.message}`);
-  process.exit(1);
-});
+if (process.argv[1] && resolve(process.argv[1]) === __filename) {
+  main().catch(err => {
+    console.error(`Scraper failed: ${err.message}`);
+    process.exit(1);
+  });
+}
