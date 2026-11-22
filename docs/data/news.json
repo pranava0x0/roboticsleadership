@@ -2,8 +2,8 @@
   {
     "id": "robotis-magnet-shortage-q3-2026-11",
     "date": "2026-11-22",
-    "title": "China's magnet permits leave Korea's ROBOTIS with a Q3 loss and about 1 million actuators on backorder",
-    "summary": "ROBOTIS reported third-quarter revenue of ₩13.5B, up 45% from a year earlier, and an operating loss of ₩2.6B. Chosun Biz ties the loss to China's export permits for seven medium and heavy rare earths and the magnets made from them, which keep the company from shifting its roughly 1-million-actuator backlog, about 90% low-cost units, toward its pricier Dynamixel-Y line. Korean robot makers build their own motors, so a late magnet shipment stops production.",
+    "title": "China's magnet permits hold back Korea's ROBOTIS, which posts a Q3 loss on rising actuator orders",
+    "summary": "ROBOTIS reported third-quarter revenue of ₩13.5B, up 45% from a year earlier, and an operating loss of ₩2.6B. Chosun Biz says China's export permits for seven medium and heavy rare earths and the magnets made from them have hampered its shift toward the pricier Dynamixel-Y line; its backlog of about 1 million actuators is about 90% low-cost units. Korean robot makers build their own motors, so a magnet shortfall disrupts production.",
     "category": "Supply Chain",
     "source": "Chosun Biz",
     "source_type": "Secondary",
@@ -109,7 +109,7 @@
       "industrial-deployments",
       "policy-momentum"
     ],
-    "sentiment": "Positive",
+    "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
       "zipline",
@@ -253,6 +253,10 @@
       {
         "url": "https://www.thestandard.com.hk/finance/article/349152/Hang-Seng-Tech-Index-expands-to-50-stocks-adding-CATL-and-Luxshare-HSI-unchanged",
         "label": "The Standard (Hong Kong)"
+      },
+      {
+        "url": "https://m.sohu.com/a/1104249585_522913",
+        "label": "Sohu (UBTech close)"
       }
     ]
   },
@@ -412,8 +416,8 @@
   {
     "id": "dongfang-jingong-humanoid-orders-2026-11",
     "date": "2026-11-19",
-    "title": "Dongfang Jingong's humanoid unit has RMB 83M of signed orders and RMB 26.7M of revenue",
-    "summary": "Answering investors on Nov 19, Shenzhen-listed Dongfang Jingong said its subsidiary Dongfang Yuanqi had signed about RMB 83M of robot orders, delivered humanoids in batches and recognised RMB 26.66M of revenue, figures from its first-half report. It also said the humanoid's key core components are still in design and validation.",
+    "title": "Dongfang Jinggong's humanoid unit has RMB 83M of signed orders and RMB 26.7M of revenue",
+    "summary": "Answering investors on Nov 19, Shenzhen-listed Dongfang Jinggong said its subsidiary Dongfang Yuanqi had signed about RMB 83M of robot orders, delivered humanoids in batches and recognised RMB 26.66M of revenue, figures from its first-half report. It also said the humanoid's key core components are still in design and validation.",
     "category": "Deployment",
     "source": "Guandian via ifeng (观点网)",
     "source_type": "Secondary",
@@ -426,7 +430,7 @@
     "sentiment": "Neutral",
     "confidence": "Medium",
     "tags": [
-      "dongfang-jingong",
+      "dongfang-jinggong",
       "china",
       "humanoid",
       "orders"
@@ -441,7 +445,7 @@
   {
     "id": "infiforce-pre-b-hangzhou-capital-2026-11",
     "date": "2026-11-19",
-    "title": "Hangzhou's state fund leads Infiforce's fourth round in three months, at a reported RMB 10B valuation",
+    "title": "Hangzhou's state fund alone backs Infiforce's fourth round in three months, at a reported RMB 10B valuation",
     "summary": "Infiforce (原力无限), which builds the AtomBrain robot model, closed a Pre-B round of tens of millions of yuan from Hangzhou Capital alone. It raised nearly RMB 1B across A and A+ rounds in August and close to RMB 100M from Zhejiang's provincial venture fund in October. Wallstreetcn notes the near-RMB 10B valuation is unspecified as pre- or post-money and that no revenue or customer counts were given.",
     "category": "Funding",
     "source": "Wallstreetcn (华尔街见闻)",
@@ -472,8 +476,8 @@
   {
     "id": "praetorian-unitree-go2-jailbreak-2026-11",
     "date": "2026-11-19",
-    "title": "Praetorian roots Unitree's Go2 robot dog before login and finds an LTE modem and satellite positioning",
-    "summary": "Praetorian's researchers rooted a Go2 on firmware 1.1.15 through its USB port with a Raspberry Pi Pico, chaining kernel bugs that were fixed upstream more than two years ago but never patched on the robot. They found an LTE module, satellite positioning, Bluetooth, Wi-Fi and a LoRa-style remote radio, and say the robot's MQTT service appeared able to send its location to Unitree. The post cites the FCC's July 2026 notice (DA 26-786) halting new equipment authorizations for such robots; the exploit code is public.",
+    "title": "Praetorian roots Unitree's Go2 through its USB port without the account key and finds an LTE modem on board",
+    "summary": "Praetorian's researchers rooted a Go2 on firmware 1.1.15 through its USB port with a Raspberry Pi Pico, chaining kernel bugs that were fixed upstream more than two years ago but never patched on the robot. They found an LTE module (no SIM was configured on their unit), satellite positioning, Bluetooth, Wi-Fi and a LoRa-style remote radio, and say the robot's MQTT service appeared able to send its location to Unitree. The post cites the FCC's July 2026 notice (DA 26-786) halting new equipment authorizations for such robots; the exploit code is public.",
     "category": "Geopolitics",
     "source": "Praetorian",
     "source_type": "Primary",
@@ -891,7 +895,7 @@
     "id": "fcc-covered-list-conditional-approvals-71-2026-11",
     "date": "2026-11-18",
     "title": "FCC Covered List exemptions reach 17 robot makers and 71 companies, each tied to US onshoring",
-    "summary": "The FCC's Nov 18 notice (DA 26-1243) adds Syncrobotic's quadrupeds and Bluepath Robotics' O1000 and OM1500 mobile robots to the robot approvals list, which now runs to 17 companies including ABB, OMRON, Matic and Husqvarna. The FCC's release says 71 companies in all are cleared to sell otherwise-barred equipment, together pledging $4.4B of investment and 4,700 jobs, and that reviews now average 24 days, down from 40. Foreign-made robots have been on the Covered List since July 28.",
+    "summary": "The FCC's Nov 18 notice (DA 26-1243) adds Syncrobotic's quadrupeds and Bluepath Robotics' O1000 and OM1500 mobile robots to the robot approvals list, which now runs to 17 companies including ABB, OMRON, Matic and Husqvarna. The FCC's release says 71 companies in all are now cleared to sell otherwise-barred equipment, that the approvals bring an additional $4.4B of investment and 4,700 jobs, and that reviews now average 24 days, down from 40. Foreign-made robots have been on the Covered List since July 28.",
     "category": "Policy",
     "source": "Federal Communications Commission",
     "source_type": "Government",
@@ -906,9 +910,7 @@
         "label": "FCC release, as republished by Pipeline"
       }
     ],
-    "companies": [
-      "abb-robotics"
-    ],
+    "companies": [],
     "policies": [
       "fcc-covered-list-robots-inverters-2026"
     ],
