@@ -1,5 +1,36 @@
 [
   {
+    "id": "robotis-magnet-shortage-q3-2026-11",
+    "date": "2026-11-22",
+    "title": "China's magnet permits leave Korea's ROBOTIS with a Q3 loss and about 1 million actuators on backorder",
+    "summary": "ROBOTIS reported third-quarter revenue of ₩13.5B, up 45% from a year earlier, and an operating loss of ₩2.6B. Chosun Biz ties the loss to China's export permits for seven medium and heavy rare earths and the magnets made from them, which keep the company from shifting its roughly 1-million-actuator backlog, about 90% low-cost units, toward its pricier Dynamixel-Y line. Korean robot makers build their own motors, so a late magnet shipment stops production.",
+    "category": "Supply Chain",
+    "source": "Chosun Biz",
+    "source_type": "Secondary",
+    "source_url": "https://biz.chosun.com/en/en-industry/2026/11/22/WXYKGNGKJRCPROT57VDQTSYAJI/",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "china-scale"
+    ],
+    "sentiment": "Negative",
+    "confidence": "Medium",
+    "tags": [
+      "robotis",
+      "korea",
+      "rare-earths",
+      "magnets",
+      "actuators"
+    ],
+    "sources": [
+      {
+        "url": "https://biz.chosun.com/en/en-industry/2026/11/22/WXYKGNGKJRCPROT57VDQTSYAJI/",
+        "label": "Chosun Biz"
+      }
+    ]
+  },
+  {
     "source_type": "Secondary",
     "sentiment": "Neutral",
     "confidence": "Medium",
@@ -58,6 +89,39 @@
       {
         "url": "https://www.itsdw.cn/news/50877.html",
         "label": "IT Times (IT时代网)"
+      }
+    ]
+  },
+  {
+    "id": "zipline-faa-arizona-draft-ea-2026-11",
+    "date": "2026-11-20",
+    "title": "FAA takes comment on letting Zipline fly up to 130,000 drone deliveries a day over Phoenix and Tucson",
+    "summary": "An FAA draft environmental assessment would let Zipline run up to 65,000 deliveries a day in each of the Phoenix and Tucson areas, around the clock. Zipline does not fly in Arizona yet and told local TV it hopes to start in early 2027. The notice in the document sets the comment deadline at 5 p.m. Central on December 7, while the FAA's web page says December 9.",
+    "category": "Policy",
+    "source": "DroneXL",
+    "source_type": "Secondary",
+    "source_url": "https://dronexl.co/2026/11/20/zipline-faa-arizona-draft-ea-130000-deliveries-phoenix-tucson/",
+    "companies": [
+      "zipline"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "policy-momentum"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "zipline",
+      "faa",
+      "drones",
+      "delivery",
+      "arizona"
+    ],
+    "sources": [
+      {
+        "url": "https://dronexl.co/2026/11/20/zipline-faa-arizona-draft-ea-130000-deliveries-phoenix-tucson/",
+        "label": "DroneXL"
       }
     ]
   },
@@ -346,6 +410,100 @@
     ]
   },
   {
+    "id": "dongfang-jingong-humanoid-orders-2026-11",
+    "date": "2026-11-19",
+    "title": "Dongfang Jingong's humanoid unit has RMB 83M of signed orders and RMB 26.7M of revenue",
+    "summary": "Answering investors on Nov 19, Shenzhen-listed Dongfang Jingong said its subsidiary Dongfang Yuanqi had signed about RMB 83M of robot orders, delivered humanoids in batches and recognised RMB 26.66M of revenue, figures from its first-half report. It also said the humanoid's key core components are still in design and validation.",
+    "category": "Deployment",
+    "source": "Guandian via ifeng (观点网)",
+    "source_type": "Secondary",
+    "source_url": "https://feng.ifeng.com/c/8yBpO2pQI9y",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "dongfang-jingong",
+      "china",
+      "humanoid",
+      "orders"
+    ],
+    "sources": [
+      {
+        "url": "https://feng.ifeng.com/c/8yBpO2pQI9y",
+        "label": "Guandian via ifeng (观点网)"
+      }
+    ]
+  },
+  {
+    "id": "infiforce-pre-b-hangzhou-capital-2026-11",
+    "date": "2026-11-19",
+    "title": "Hangzhou's state fund leads Infiforce's fourth round in three months, at a reported RMB 10B valuation",
+    "summary": "Infiforce (原力无限), which builds the AtomBrain robot model, closed a Pre-B round of tens of millions of yuan from Hangzhou Capital alone. It raised nearly RMB 1B across A and A+ rounds in August and close to RMB 100M from Zhejiang's provincial venture fund in October. Wallstreetcn notes the near-RMB 10B valuation is unspecified as pre- or post-money and that no revenue or customer counts were given.",
+    "category": "Funding",
+    "source": "Wallstreetcn (华尔街见闻)",
+    "source_type": "Secondary",
+    "source_url": "https://wallstreetcn.com/articles/3786294",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "foundation-models"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "infiforce",
+      "china",
+      "state-capital",
+      "hangzhou",
+      "embodied-ai"
+    ],
+    "sources": [
+      {
+        "url": "https://wallstreetcn.com/articles/3786294",
+        "label": "Wallstreetcn (华尔街见闻)"
+      }
+    ]
+  },
+  {
+    "id": "praetorian-unitree-go2-jailbreak-2026-11",
+    "date": "2026-11-19",
+    "title": "Praetorian roots Unitree's Go2 robot dog before login and finds an LTE modem and satellite positioning",
+    "summary": "Praetorian's researchers rooted a Go2 on firmware 1.1.15 through its USB port with a Raspberry Pi Pico, chaining kernel bugs that were fixed upstream more than two years ago but never patched on the robot. They found an LTE module, satellite positioning, Bluetooth, Wi-Fi and a LoRa-style remote radio, and say the robot's MQTT service appeared able to send its location to Unitree. The post cites the FCC's July 2026 notice (DA 26-786) halting new equipment authorizations for such robots; the exploit code is public.",
+    "category": "Geopolitics",
+    "source": "Praetorian",
+    "source_type": "Primary",
+    "source_url": "https://www.praetorian.com/blog/breaking-free-a-new-jailbreak-for-the-unitree-go2/",
+    "sources": [
+      {
+        "url": "https://www.praetorian.com/blog/breaking-free-a-new-jailbreak-for-the-unitree-go2/",
+        "label": "Praetorian"
+      }
+    ],
+    "companies": [
+      "unitree"
+    ],
+    "policies": [
+      "fcc-covered-list-robots-inverters-2026"
+    ],
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "sentiment": "Negative",
+    "confidence": "High",
+    "tags": [
+      "unitree",
+      "security",
+      "fcc",
+      "quadruped"
+    ]
+  },
+  {
     "source_type": "Secondary",
     "sentiment": "Positive",
     "confidence": "Medium",
@@ -442,7 +600,7 @@
     "source": "House Foreign Affairs Committee",
     "source_type": "Government",
     "source_url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
-    "summary": "Chairman Brian Mast used his Export Control Reform Act authority to release licence records showing Chinese buyers asked for 3.4 million Nvidia and AMD AI chips and Commerce approved more than 879,000 of them. Press tallies of the documents count 21 licences from December 2025 to May 2026, including 150,000 chips for Tencent, 75,000 for Alibaba, 43,000 for Baidu and 4,000 for BYD. The same week Commerce's remote-access rule took effect.",
+    "summary": "Chairman Brian Mast used his Export Control Reform Act authority to release licence records showing Chinese buyers asked for 3.4 million Nvidia and AMD AI chips and Commerce approved more than 879,000 of them. Unite.AI's read of the summary table counts 21 applications as of May 11, 2026, with every approved chip still unshipped; approved buyers include ByteDance, JD, Li Auto and Tesla's Shanghai operation, and one AMD request (75,000 chips for UCloud) was rejected. The same week Commerce's remote-access rule took effect.",
     "category": "Geopolitics",
     "sentiment": "Neutral",
     "confidence": "High",
@@ -696,6 +854,75 @@
         "url": "https://asia.nikkei.com/business/technology/us-visa-denials-hit-xpeng-other-chinese-robot-makers-ahead-of-ces",
         "label": "Nikkei Asia"
       }
+    ]
+  },
+  {
+    "id": "china-drone-component-export-controls-49-2026-11",
+    "date": "2026-11-18",
+    "title": "China's export controls on drone engines, radio modules and high-power motors take effect",
+    "summary": "From Nov 18 China requires licences to export drone jet engines of 400 newtons thrust or more, other drone engines above 16 kW, radio modules of at least 30 dBm or able to control more than 10 drones, high-power brushless motors and speed controllers. Ukraine's sanctions commissioner said several Chinese parts found in Russian drones, including anti-jamming antennas and navigation modules, are not covered.",
+    "category": "Geopolitics",
+    "source": "UNITED24 Media",
+    "source_type": "Secondary",
+    "source_url": "https://united24media.com/world/china-restricts-drone-component-exports-but-key-parts-in-russian-uavs-remain-unaffected-24511",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "us-supply-chain",
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "export-controls",
+      "drones",
+      "motors",
+      "mofcom"
+    ],
+    "sources": [
+      {
+        "url": "https://united24media.com/world/china-restricts-drone-component-exports-but-key-parts-in-russian-uavs-remain-unaffected-24511",
+        "label": "UNITED24 Media"
+      }
+    ]
+  },
+  {
+    "id": "fcc-covered-list-conditional-approvals-71-2026-11",
+    "date": "2026-11-18",
+    "title": "FCC Covered List exemptions reach 17 robot makers and 71 companies, each tied to US onshoring",
+    "summary": "The FCC's Nov 18 notice (DA 26-1243) adds Syncrobotic's quadrupeds and Bluepath Robotics' O1000 and OM1500 mobile robots to the robot approvals list, which now runs to 17 companies including ABB, OMRON, Matic and Husqvarna. The FCC's release says 71 companies in all are cleared to sell otherwise-barred equipment, together pledging $4.4B of investment and 4,700 jobs, and that reviews now average 24 days, down from 40. Foreign-made robots have been on the Covered List since July 28.",
+    "category": "Policy",
+    "source": "Federal Communications Commission",
+    "source_type": "Government",
+    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-1243A1.pdf",
+    "sources": [
+      {
+        "url": "https://docs.fcc.gov/public/attachments/DA-26-1243A1.pdf",
+        "label": "FCC DA 26-1243"
+      },
+      {
+        "url": "https://www.pipelinepub.com/news/federal-communications-commission-conditional-approvals-press-release",
+        "label": "FCC release, as republished by Pipeline"
+      }
+    ],
+    "companies": [
+      "abb-robotics"
+    ],
+    "policies": [
+      "fcc-covered-list-robots-inverters-2026"
+    ],
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "fcc",
+      "covered-list",
+      "onshoring",
+      "conditional-approval"
     ]
   },
   {
@@ -2075,6 +2302,35 @@
       "senate",
       "commerce",
       "chips"
+    ]
+  },
+  {
+    "id": "andromeda-robotics-30m-sec-filing-2026-11",
+    "date": "2026-11-13",
+    "title": "Andromeda Robotics files for about $30M of a planned $75M raise for Abi, its aged-care companion robot",
+    "summary": "A Nov 13 SEC filing shows Andromeda Robotics, founded in Melbourne and now run from San Francisco, has about US$30M from 17 investors toward a US$75M equity offering. Abi robots work in all 22 of Australian provider mecwacare's homes, serving more than 1,500 residents, with a dementia pilot in California. Its last round was about US$16M in September 2025, led by Forerunner Ventures.",
+    "category": "Funding",
+    "source": "Inside Ageing",
+    "source_type": "Secondary",
+    "source_url": "https://insideageing.com.au/andromeda-robotics-raises-30-million-to-accelerate-expansion-of-abi-companion-robot/",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "industrial-deployments"
+    ],
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "tags": [
+      "andromeda",
+      "funding",
+      "eldercare",
+      "humanoid"
+    ],
+    "sources": [
+      {
+        "url": "https://insideageing.com.au/andromeda-robotics-raises-30-million-to-accelerate-expansion-of-abi-companion-robot/",
+        "label": "Inside Ageing"
+      }
     ]
   },
   {

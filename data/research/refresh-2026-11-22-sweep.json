@@ -1,0 +1,195 @@
+[
+ {
+  "title": "FCC clears 17 robotics makers, 23 drone makers and 71 firms in all to sell on its Covered List if they onshore; five new approvals this week",
+  "date": "2026-11-20",
+  "summary": "The FCC said 71 companies are now cleared to sell equipment its Covered List would otherwise bar, including 17 robotics companies and 23 drone makers; every approval rests on a plan to move production to the US. The firms together promise $4.4B of investment and 4,700 jobs, and the average case now takes 24 days, down from 40 three months ago. The Nov 18 notice (DA 26-1243) added robots from Syncrobotic (quadrupeds) and Bluepath Robotics (O1000 mobile robot); the robot category was added to the list on July 28, 2026.",
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-1243A1.pdf",
+  "secondary_urls": [
+   "https://www.pipelinepub.com/news/federal-communications-commission-conditional-approvals-press-release",
+   "https://dronexl.co/2026/11/21/fcc-conditional-approvals-23-drone-makers-71-companies-onshoring/",
+   "https://www.fcc.gov/supplychain/covered"
+  ],
+  "companies": [
+   "Syncrobotic",
+   "Bluepath Robotics",
+   "ABB Robotics",
+   "OMRON",
+   "FlyingBasket"
+  ],
+  "country": "US",
+  "category": "Policy",
+  "verified_on_primary": true,
+  "notes": "Primary is the FCC bureau notice PDF (released Nov 18, 2026); the $4.4B / 4,700 jobs / 24-day figures come from the FCC release as republished by Pipeline and DroneXL. DJI and Autel have no approvals. Dockets WC 18-89, ET 21-232, EA 21-233. Check whether the July 28 robot Covered List addition is already tracked."
+ },
+ {
+  "title": "FAA takes comment on a Zipline plan for up to 130,000 drone deliveries a day over Phoenix and Tucson",
+  "date": "2026-11-20",
+  "summary": "The FAA released a draft environmental assessment that would amend Zipline's Part 135 operations specifications for two Arizona areas, each with up to 65 Platform 2 'Chargers', 1,300 pickup kiosks and 65,000 deliveries a day. Zipline does not fly in Arizona yet and hopes to serve customers in early 2027. Comments are due December 7 at 5 p.m. Central per the notice (the FAA web page says December 9).",
+  "source_url": "https://dronexl.co/2026/11/20/zipline-faa-arizona-draft-ea-130000-deliveries-phoenix-tucson/",
+  "secondary_urls": [],
+  "companies": [
+   "Zipline"
+  ],
+  "country": "US",
+  "category": "Policy",
+  "verified_on_primary": false,
+  "notes": "Read DroneXL's account only; the FAA draft EA itself was not fetched. Zipline is already a tracked company. The December 7 vs 9 discrepancy is reported by DroneXL. Compare with the five-metro Texas draft EA from September."
+ },
+ {
+  "title": "China's rare-earth magnet permits leave Korean actuator makers short: Robotis posts a Q3 operating loss on a backlog of about 1 million actuators",
+  "date": "2026-11-22",
+  "summary": "Chosun Biz reports Korean robot makers cannot get enough permanent magnets because China requires export permits for seven medium and heavy rare earths and magnet materials. ROBOTIS had Q3 revenue of KRW 13.5B, up 45%, but an operating loss of KRW 2.6B, with a backlog of about 1 million actuators of which about 90% are low-cost models. Neuromeka reportedly waited 8 months for one magnet shipment against an official 45-day permit time.",
+  "source_url": "https://biz.chosun.com/en/en-industry/2026/11/22/WXYKGNGKJRCPROT57VDQTSYAJI/",
+  "secondary_urls": [],
+  "companies": [
+   "ROBOTIS",
+   "Neuromeka"
+  ],
+  "country": "South Korea",
+  "category": "Supply Chain",
+  "verified_on_primary": true,
+  "notes": "Single-outlet report citing 'the robotics industry'; the company figures are Chosun's, not from a Robotis filing. Useful as a Korea/Japan view of China's magnet leverage."
+ },
+ {
+  "title": "Hangzhou state capital backs embodied-brain startup Infiforce in its fourth round in three months, at a valuation near RMB 10B",
+  "date": "2026-11-19",
+  "summary": "Infiforce (原力无限), which builds the AtomBrain embodied model, closed a Pre-B round of tens of millions of yuan, led solely by Hangzhou Capital. It raised about RMB 1B across A and A+ rounds in August and nearly RMB 100M from Zhejiang's state venture group in October. The company puts its valuation near RMB 10B without saying whether that is pre- or post-money.",
+  "source_url": "https://wallstreetcn.com/articles/3786294",
+  "secondary_urls": [
+   "http://www.36kr.com/p/4075109837149321",
+   "https://www.forbeschina.com/business/72413"
+  ],
+  "companies": [
+   "Infiforce (原力无限)"
+  ],
+  "country": "China",
+  "category": "Funding",
+  "verified_on_primary": false,
+  "notes": "Read two Chinese outlets (Wallstreetcn, 36Kr); no company release found. Round size is 'several tens of millions' RMB, not precise. New company, not in tracked list. Hangzhou Capital also backs Unitree, BrainCo and DEEP Robotics per 36Kr."
+ },
+ {
+  "title": "Dongfang Jingong says its humanoid unit has signed about RMB 83M of robot orders and booked RMB 26.7M of revenue",
+  "date": "2026-11-19",
+  "summary": "Replying to investors on Nov 19, Shenzhen-listed Dongfang Jingong (formerly a corrugated-packaging equipment maker) said its subsidiary Dongfang Yuanqi has signed about RMB 83M of orders and delivered humanoids in batches. First-half revenue recognised was RMB 26.66M. It said the key core components of its humanoid are still in design and validation.",
+  "source_url": "https://feng.ifeng.com/c/8yBpO2pQI9y",
+  "secondary_urls": [
+   "https://m.sohu.com/a/1104252866_116237"
+  ],
+  "companies": [
+   "Dongfang Jingong (东方精工)",
+   "Dongfang Yuanqi (东方元启)"
+  ],
+  "country": "China",
+  "category": "Competitive",
+  "verified_on_primary": false,
+  "notes": "Secondary report of an exchange investor-platform reply; the figures were first disclosed in the 2026 half-year report. Date is the reply date. Shows an A-share industrial firm pivoting into humanoids."
+ },
+ {
+  "title": "Black Sesame sets up an embodied-AI headquarters in Shenzhen's Qianhai to sell compute platforms to robot makers",
+  "date": "2026-11-19",
+  "summary": "The Hong Kong-listed automotive-chip maker Black Sesame Technologies set up an embodied-AI headquarters in Shenzhen using the Qianhai-Hong Kong dual-headquarters model. It will develop embodied-AI computing platforms and industrial-ecosystem partnerships, aiming to be a key partner for robot commercialization. No investment size or product specs were given.",
+  "source_url": "https://autonews.gasgoo.com/articles/market-industry/black-sesame-technologies-establishes-embodied-ai-headquarters-in-shenzhen-to-accelerate-robot-commercialization-2123387552186421248",
+  "secondary_urls": [],
+  "companies": [
+   "Black Sesame Technologies"
+  ],
+  "country": "China",
+  "category": "Supply Chain",
+  "verified_on_primary": false,
+  "notes": "Thin Gasgoo item; no specs. Optional. Check for a company release with chip names before using."
+ },
+ {
+  "title": "Andromeda Robotics files to raise about $30M toward $75M for its Abi aged-care companion robot",
+  "date": "2026-11-13",
+  "summary": "A Nov 13 SEC filing shows Australian-founded Andromeda Robotics has taken about US$30M of a planned US$75M equity offering from 17 investors, the first dated Oct 29. Its Abi robot is in all 22 mecwacare aged-care homes in Victoria (over 1,500 residents), with a dementia pilot in California. The last round was about $16M in Sept 2025 (Forerunner).",
+  "source_url": "https://insideageing.com.au/andromeda-robotics-raises-30-million-to-accelerate-expansion-of-abi-companion-robot/",
+  "secondary_urls": [],
+  "companies": [
+   "Andromeda Robotics"
+  ],
+  "country": "Australia",
+  "category": "Funding",
+  "verified_on_primary": false,
+  "notes": "Inside Ageing, citing Captables reading the SEC Form D; the filing itself was not fetched. Investors not named. Date is the filing date; reported Nov 21-22."
+ },
+ {
+  "title": "MassRobotics begins a marine robotics test facility at Boston Fish Pier, opening in early 2028",
+  "date": "2026-11-19",
+  "summary": "MassRobotics and Massport are building a marine robotics facility at the Boston Fish Pier, with programming starting through 2027 and the building due to open in early 2028. It is part of Massport's Blue Edge blue-economy initiative and gives startups harbor water access to test underwater vehicles and ocean sensors. Construction is under way.",
+  "source_url": "https://oceannews.com/news/milestones/massrobotics-opens-marine-robotics-facility-at-boston-fish-pier/",
+  "secondary_urls": [
+   "https://www.therobotreport.com/massrobotics-launching-marine-robotics-facility-on-boston-harbor/"
+  ],
+  "companies": [
+   "MassRobotics",
+   "Massport"
+  ],
+  "country": "US",
+  "category": "Research",
+  "verified_on_primary": false,
+  "notes": "Oceannews text read; Robot Report page blocked by Cloudflare. No dollar figure found. Low priority."
+ },
+ {
+  "title": "China's new export controls on drone engines, radio modules and motors take effect Nov 18 (Notice No. 49)",
+  "date": "2026-11-18",
+  "summary": "China restricted exports of drone jet engines of 400 newtons thrust or more, other drone engines above 16 kW, radio modules of at least 30 dBm or able to control more than 10 drones, high-power brushless motors and speed controllers. Ukraine's sanctions commissioner says it leaves out several Chinese parts found in Russian Shahed and Geran-4 drones, such as CRPA antennas, navigation modules and servo drives.",
+  "source_url": "https://united24media.com/world/china-restricts-drone-component-exports-but-key-parts-in-russian-uavs-remain-unaffected-24511",
+  "secondary_urls": [
+   "https://www.msn.com/en-us/news/other/china-tightens-export-controls-on-drone-parts-used-by-russia/ar-AA2hNdAp"
+  ],
+  "companies": [],
+  "country": "China",
+  "category": "Trade",
+  "verified_on_primary": false,
+  "notes": "The MOFCOM notice itself was not found. Event date Nov 18 is one day before the window; coverage is Nov 18-19. Relevant to China's component leverage alongside rare-earth and magnet permits."
+ },
+ {
+  "title": "Siemens and AgiBot show an AI agent that designs a 3D-printed humanoid gripper from a text prompt",
+  "date": "2026-11-16",
+  "summary": "At Formnext 2026, Siemens showed an agentic workflow in which a user describes the object and task, and an AI agent picks a gripper type, adapts the geometry in Designcenter, simulates it and prepares it for additive manufacturing. AgiBot's humanoid gripper was the demonstration case, and a planned adaptive production cell would take it to the factory floor. No performance numbers were given.",
+  "source_url": "https://3dprintingindustry.com/news/siemens-and-agibot-show-ai-agent-that-designs-3d-printed-humanoid-robot-grippers-from-a-text-prompt-256961/",
+  "secondary_urls": [
+   "https://3dprinting.com/news/siemens-demonstrates-agentic-ai-workflow-for-prompt-based-engineering-of-3d-printed-robotic-grippers/"
+  ],
+  "companies": [
+   "Siemens",
+   "AgiBot (智元机器人)"
+  ],
+  "country": "Germany",
+  "category": "Research",
+  "verified_on_primary": false,
+  "notes": "Demonstration, not a deployment. Date is the earliest coverage (Nov 16); trade press ran it Nov 19-20. Low priority."
+ },
+ {
+  "title": "151 humanoids set a Guinness record for synchronized dance in Shenzhen, from EngineAI, Unitree and AgiBot",
+  "date": "2026-11-17",
+  "summary": "Organized by Shenzhen's Longgang AI (Robotics) Bureau with EngineAI before the APEC leaders' meeting, 151 humanoids danced in sync within one hour against a 110-robot target. The models were the EngineAI T800, Unitree G1 and AgiBot X2.",
+  "source_url": "https://www.heise.de/en/news/Guinness-record-151-humanoid-robots-dance-in-sync-at-once-11532336.html",
+  "secondary_urls": [
+   "https://www.msn.com/en-us/technology/robotics/151-humanoid-robots-set-guinness-world-record-with-synchronized-dance-performance/ar-AA2hLxzP"
+  ],
+  "companies": [
+   "EngineAI",
+   "Unitree Robotics",
+   "AgiBot (智元机器人)"
+  ],
+  "country": "China",
+  "category": "Competitive",
+  "verified_on_primary": false,
+  "notes": "A showcase, not a deployment; the date is Tuesday Nov 17 per heise. Probably skip or tag low; included for the local-government role."
+ },
+ {
+  "title": "Munich's Vetaion raises EUR 5.7M to automate control-cabinet manufacturing with AI and robotics",
+  "date": "2026-11-19",
+  "summary": "Vetaion, a Munich startup, raised EUR 5.7M to automate the building of electrical control cabinets with AI and robotics, according to EU-Startups' headline. Investors and deployment numbers could not be read.",
+  "source_url": "https://www.eu-startups.com/2026/11/munich-based-vetaion-raises-e5-7-million-to-automate-control-cabinet-manufacturing-with-ai-and-robotics/",
+  "secondary_urls": [],
+  "companies": [
+   "Vetaion"
+  ],
+  "country": "Germany",
+  "category": "Funding",
+  "verified_on_primary": false,
+  "notes": "Page blocked (Cloudflare); only the headline and search snippet seen. Do not publish until investors are confirmed."
+ }
+]
