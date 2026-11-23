@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-23",
+  "dropped": [
+    {
+      "id": "hn-50601654",
+      "title": "Inside an AI prophet's secretive visions for humanity's future",
+      "source_url": "https://www.washingtonpost.com/technology/2026/11/22/inside-an-ai-prophets-secretive-plans-humanitys-future/",
+      "date": "2026-11-22",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50598848",
+      "title": "Show HN: A free website check that starts from what your buyers search",
+      "source_url": "https://meetadmiral.com/website-seo-checker",
+      "date": "2026-11-22",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50600156",
+      "title": "Microbes co-migrated with humans out of Africa; industrialization wiped them out",
+      "source_url": "https://www.rorotoko.com/micro-interviews/20261120-olm-prehistoric-global-migration-of-vanishing-gut-microbes-with-humans-in-a-nutshell",
+      "date": "2026-11-22",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50600549",
+      "title": "Run a Gitea DinD Runner with Rootless Podman",
+      "source_url": "https://www.nite07.com/en/posts/gitea-runner-rootless-podman/",
+      "date": "2026-11-22",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50602132",
+      "title": "License to Gill (James Pond 2 Recomp)",
+      "source_url": "https://joelio.github.io/robocod-recomp/",
+      "date": "2026-11-22",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50607442",
+      "title": "The robot that wants to take control of your life",
+      "source_url": "https://www.youtube.com/watch?v=Xw5AwB05u5M",
+      "date": "2026-11-23",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50607473",
+      "title": "Show HN: CubePod – E2B-compatible sandboxes with persistent rootfs on K8s",
+      "source_url": "https://github.com/cubeplexai/cubepod",
+      "date": "2026-11-23",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "rss-cepri-reports-robot-that-check-871",
+      "title": "CEPRI Reports Robot That Checks 35 Insulators in Six Minutes",
+      "source_url": "https://pandaily.com/cepri-live-line-insulator-diagnostic-robot",
+      "date": "2026-11-23",
+      "reason": "lab result from one state-media report (CEPRI insulator robot, integrated testing finished in October); no deployment or order"
+    },
+    {
+      "id": "rss-peacebird-tests-aitu-sewing-ro-826",
+      "title": "Peacebird Tests Aitu Sewing Robots on Factory Cuff-Handling Tasks",
+      "source_url": "https://pandaily.com/peacebird-aitu-sewing-robots-factory-cuff-validation",
+      "date": "2026-11-23",
+      "reason": "Aitu sewing robots already tracked (aitu-sewing-robot-plant-2026-10); this is a small-batch validation at one Peacebird station with vendor-reported pick rates"
+    }
+  ]
+}
