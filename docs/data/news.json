@@ -1,5 +1,202 @@
 [
   {
+    "id": "simplexity-ant-100m-2026-11",
+    "date": "2026-11-23",
+    "title": "Ant Group leads a $100M round in Hangzhou's Simplexity Robotics at a $1.6B valuation as it shows the wheeled iX",
+    "summary": "Simplexity Robotics, founded in Hangzhou in July 2025 by three former Li Auto executives, raised $100 million in a pre-Series A round led by Ant Group, chairman Wang Kai told Bloomberg. Existing investors Alibaba, Tencent, HongShan and Lanchi Ventures joined. The company also showed iX, a wheeled humanoid demonstrated making and delivering drinks, fetching objects and guiding visitors. Simplexity said in March it had raised RMB 2B across five rounds.",
+    "category": "Funding",
+    "source": "TechNode",
+    "source_type": "Secondary",
+    "source_url": "https://technode.com/2026/11/23/ant-group-leads-100-million-round-in-humanoid-startup-simplexity-robotics/",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "china-scale",
+      "physical-ai"
+    ],
+    "sentiment": "Positive",
+    "confidence": "High",
+    "tags": [
+      "simplexity",
+      "ant-group",
+      "humanoid",
+      "funding",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://technode.com/2026/11/23/ant-group-leads-100-million-round-in-humanoid-startup-simplexity-robotics/",
+        "label": "TechNode"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-11-22/ant-group-bets-on-simplexity-to-thrive-in-china-s-humanoid-race",
+        "label": "Bloomberg"
+      }
+    ]
+  },
+  {
+    "id": "x-square-wall-oss-1-0-2026-11",
+    "date": "2026-11-23",
+    "title": "X Square Robot releases WALL-OSS-1.0 and opens a paid API, reporting 55% zero-shot success on 312 real-world tasks",
+    "summary": "X Square Robot released WALL-OSS-1.0, a vision-language-action model, with an XR Harness layer that plans long tasks and hands single steps to the model, and opened access through WALL-API-1.0. The company reports a 55.1% zero-shot success rate on 312 tasks chosen by evaluators and 1,101 of 1,500 on its ManipArena robot test; both are its own figures under different protocols. Public Lite checkpoints have a narrower evaluation scope.",
+    "category": "Research",
+    "source": "Pandaily",
+    "source_type": "Secondary",
+    "source_url": "https://pandaily.com/x-square-robot-wall-oss-1-0-xr-harness-api",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "foundation-models",
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "x-square-robot",
+      "vla",
+      "open-weights",
+      "foundation-model",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://pandaily.com/x-square-robot-wall-oss-1-0-xr-harness-api",
+        "label": "Pandaily"
+      },
+      {
+        "url": "https://x.com/XSquareRobot",
+        "label": "X Square Robot on X"
+      }
+    ]
+  },
+  {
+    "id": "china-yilao-yixiao-plan-service-robots-2026-11",
+    "date": "2026-11-23",
+    "title": "China's State Council-approved elder and child care plan tells care homes to adopt service robots and exoskeletons",
+    "summary": "The NDRC, Ministry of Civil Affairs, National Health Commission and Ministry of Education published the \"One Old, One Young\" care-system plan on Nov 23 with State Council approval. Its technology clause encourages AI agents, service robots, smart wearables and exoskeletons built for elder care, and supports trial use or demonstration areas in care homes and communities. It sets no robot target or budget. It follows the six-ministry elder-care consumption notice of Nov 4.",
+    "category": "Policy",
+    "source": "China Education Online (plan text)",
+    "source_type": "Primary",
+    "source_url": "https://www.eol.cn/news/yaowen/202611/t20261123_2797593.shtml",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum",
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "tags": [
+      "china",
+      "ndrc",
+      "elder-care",
+      "service-robots",
+      "exoskeletons"
+    ],
+    "sources": [
+      {
+        "url": "https://www.eol.cn/news/yaowen/202611/t20261123_2797593.shtml",
+        "label": "Plan text (China Education Online)"
+      },
+      {
+        "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-inizsuwh2304180.shtml",
+        "label": "Sina Finance"
+      }
+    ]
+  },
+  {
+    "id": "fprime-state-of-robotics-2026-11",
+    "date": "2026-11-22",
+    "title": "F-Prime projects a record $60.7B of robotics funding in 2026, with 84% of it in rounds of $250M or more",
+    "summary": "F-Prime Capital's State of Robotics report counts about $50.7 billion raised through September 2026, against $22.1 billion in all of 2025. Rounds of $250 million or more, plus Waymo's $16 billion and Anduril's $5 billion, made up about $42.6 billion, or 84%. It projects $9.9 billion for general-purpose robotics such as humanoids and robot models, up from $6.2 billion in 2025, and $25.2 billion for vertical robotics. About 80% of the money went to companies in the Americas.",
+    "category": "Funding",
+    "source": "Robotics & Automation News",
+    "source_type": "Secondary",
+    "source_url": "https://roboticsandautomationnews.com/2026/11/22/robotics-investment-set-to-reach-60-7-billion-in-2026-but-funding-boom-raises-concerns/107478/",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "funding",
+      "venture-capital",
+      "f-prime",
+      "market-data"
+    ],
+    "sources": [
+      {
+        "url": "https://roboticsandautomationnews.com/2026/11/22/robotics-investment-set-to-reach-60-7-billion-in-2026-but-funding-boom-raises-concerns/107478/",
+        "label": "Robotics & Automation News"
+      }
+    ]
+  },
+  {
+    "id": "china-embodied-ai-data-standard-2026-11",
+    "date": "2026-11-22",
+    "title": "China starts drafting a national standard for embodied-AI training data, with more than 20 related standards planned by 2030",
+    "summary": "CCTV, citing the National Data Administration, reported that work has begun on a national standard for embodied-intelligence data, and that more than 20 specialized national standards will follow during the 2026-2030 plan period, with pilot testing, for humanoids, special-purpose robots and industrial cobots. The same report cites Commerce Ministry data showing embodied-AI robot sales on major platforms up 25.2% from a year earlier.",
+    "category": "Policy",
+    "source": "Tencent News (CCTV report)",
+    "source_type": "Secondary",
+    "source_url": "https://news.qq.com/rain/a/20261123A05ANN00",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "policy-momentum",
+      "china-scale"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "china",
+      "standards",
+      "training-data",
+      "embodied-ai"
+    ],
+    "sources": [
+      {
+        "url": "https://news.qq.com/rain/a/20261123A05ANN00",
+        "label": "Tencent News"
+      },
+      {
+        "url": "https://finance.eastmoney.com/a/202611233937098348.html",
+        "label": "Eastmoney"
+      }
+    ]
+  },
+  {
+    "id": "foundation-benefits-terminated-2026-11",
+    "date": "2026-11-22",
+    "title": "Foundation's staff health benefits end retroactive to October after the humanoid maker misses payroll",
+    "summary": "CNBC obtained a memo telling Foundation Future Industries staff that benefits administrator Rippling had ended their coverage retroactive to October, the last month a pay run went through. Foundation offered COBRA for November and promised to reimburse premiums. Rippling said clients that cannot meet payroll and benefits obligations for multiple months are terminated. Employees were last paid on Oct 15, and the company is seeking a bridge loan while Base Group's proposed $150M investment is pending.",
+    "category": "Funding",
+    "source": "CNBC",
+    "source_type": "Secondary",
+    "source_url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+    "companies": [],
+    "policies": [],
+    "themes": [
+      "defense-procurement"
+    ],
+    "sentiment": "Negative",
+    "confidence": "High",
+    "tags": [
+      "foundation",
+      "humanoid",
+      "defense",
+      "payroll"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+        "label": "CNBC"
+      }
+    ]
+  },
+  {
     "id": "robotis-magnet-shortage-q3-2026-11",
     "date": "2026-11-22",
     "title": "China's magnet permits hold back Korea's ROBOTIS, which posts a Q3 loss on rising actuator orders",
@@ -857,6 +1054,38 @@
       {
         "url": "https://asia.nikkei.com/business/technology/us-visa-denials-hit-xpeng-other-chinese-robot-makers-ahead-of-ces",
         "label": "Nikkei Asia"
+      }
+    ]
+  },
+  {
+    "id": "musk-optimus-chores-12-18-months-2026-11",
+    "date": "2026-11-18",
+    "title": "Musk says Optimus will do household chores in 12 to 18 months but starts in mining and refining",
+    "summary": "Asked at TomorrowX on Nov 18 about taking out the trash and putting away dishes, Elon Musk said Optimus would be capable of those tasks in about 12 to 18 months. He said the best early economics are in industrial work such as mining and refining. Tesla still expects first deliveries to outside companies around the end of 2027, and said on its Oct 21 call that reaching 20,000 robots a week would take at least a year.",
+    "category": "Competitive",
+    "source": "Yahoo Finance",
+    "source_type": "Secondary",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/musk-says-optimus-dishes-within-223752612.html",
+    "companies": [
+      "tesla-optimus"
+    ],
+    "policies": [],
+    "themes": [
+      "industrial-deployments",
+      "physical-ai"
+    ],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "tesla",
+      "optimus",
+      "humanoid",
+      "timeline"
+    ],
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/technology/ai/articles/musk-says-optimus-dishes-within-223752612.html",
+        "label": "Yahoo Finance"
       }
     ]
   },

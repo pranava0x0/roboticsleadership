@@ -1167,17 +1167,17 @@
       },
       {
         "id": "wall-oss-wall-oss-0-5",
-        "name": "WALL-OSS / WALL-OSS-0.5",
+        "name": "WALL-OSS / WALL-OSS-0.5 / WALL-OSS-1.0",
         "developer": "X Square Robot",
         "country": "China",
         "country_label": "China",
-        "released": "2025-09-15 (0.5: 2026-05)",
+        "released": "2025-09-15 (0.5: 2026-05; 1.0: 2026-11-23)",
         "class": "VLA",
         "params": null,
         "weights": "open",
         "embodiments": "real-robot manipulation (unspecified)",
         "training_data": "large-scale multimodal pretraining; Gradient-Bridged Pretraining for 0.5",
-        "summary": "Open VLA family; 0.5 positioned as deployment-ready; Apache-2.0 per repo.",
+        "summary": "Open VLA family; 0.5 positioned as deployment-ready; Apache-2.0 per repo. 1.0 (Nov 2026) adds the XR Harness planning layer and a paid WALL-API; the company reports 55.1% zero-shot success on 312 evaluator-chosen real-world tasks (vendor-reported). Public Lite checkpoints have a narrower evaluation scope.",
         "results": [],
         "caveat": "A press figure versus pi0.5 is not shown because it could not be traced to a primary page.",
         "status": "verified",
@@ -1186,6 +1186,11 @@
             "url": "https://github.com/X-Square-Robot/wall-x",
             "captured_at": "2026-10-26",
             "quote": "[May 2026] We introduce Wall-OSS-0.5: A Deployment-Ready VLA with Gradient-Bridged Pretraining."
+          },
+          {
+            "url": "https://pandaily.com/x-square-robot-wall-oss-1-0-xr-harness-api",
+            "captured_at": "2026-11-23",
+            "quote": "the company reported a 55.1% zero-shot success rate"
           }
         ]
       },
