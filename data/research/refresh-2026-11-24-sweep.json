@@ -1,0 +1,261 @@
+[
+  {
+    "title": "NVIDIA board reinstates Jensen Huang as CEO 11 days after his resignation",
+    "date": "2026-11-23",
+    "summary": "AP reports NVIDIA's board restored Jensen Huang as president and CEO on Monday, shortly after it had rejected his offer to return. The Robot Report says the board reversed course after talks with Huang and senior U.S. government officials, amid pressure from the White House, investors and technology executives. Interim CEO Colette Kress had led the company since Nov 12.",
+    "category": "discourse",
+    "companies": [
+      "NVIDIA"
+    ],
+    "country": "US",
+    "source_url": "https://apnews.com/article/nvidia-jensen-huang-39d4b34ffaa867b4e669893b5fd5028f",
+    "secondary_urls": [
+      "https://www.therobotreport.com/nvidia-reinstates-jensen-huang-after-11-day-absence/",
+      "https://www.cnn.com/2026/11/23/politics/trump-administration-jensen-huang-reinstated",
+      "https://www.usnews.com/news/national-news/articles/2026-11-23/nvidia-reinstates-jensen-huang-as-ceo-days-after-resignation"
+    ],
+    "primary": false,
+    "confidence": "high",
+    "notes": "Follow-up to the tracked 2026-11-12 resignation and 11-08 board probe. AP/CNN pages are Cloudflare-blocked to curl; only RSS snippets read. Robot Report headline and snippet confirm. Keep the Alice Huang spy-allegation detail out unless AP text is read. Also: Nvidia told portfolio companies robotics investing continues (BigGo, 11-22), unverified."
+  },
+  {
+    "title": "Unitree hits its 20% daily limit, closing at 708 yuan and a 286 billion yuan market value, as humanoid stocks rally",
+    "date": "2026-11-23",
+    "summary": "Global Times reports Unitree shares rose the 20% daily limit on Monday to close at 708 yuan, giving a market capitalization of 286.36 billion yuan; Shangwei New Materials and Hanwei Electronics also hit limits. It ties the rally to a four-department elder- and child-care plan (including the NDRC) that encourages service robots and exoskeletons, and to a day-earlier CSRC package to stabilise A-shares. The Nov 10 tracked figure was above 800 yuan and 300 billion yuan, so the shares remain below that peak.",
+    "category": "china",
+    "companies": [
+      "Unitree Robotics"
+    ],
+    "country": "CN",
+    "source_url": "https://www.globaltimes.cn/page/202611/1374872.shtml",
+    "secondary_urls": [
+      "https://news.ifeng.com/c/8yHpoW2HbsI"
+    ],
+    "primary": false,
+    "confidence": "high",
+    "notes": "Global Times is state media but figures are exchange data. BigGo claims 'buy orders top 900 million yuan' and 'over 50 humanoid stocks limit-up'; not verified. Care plan itself is already tracked (11-23)."
+  },
+  {
+    "title": "Samsung to show its first in-house humanoid at CES 2027, with 20 motors per hand",
+    "date": "2026-11-24",
+    "summary": "Chosun Biz reports Samsung Electronics will unveil its first internally developed humanoid at CES in January, with 20 motors in each hand (40 total) using direct drive, built by a new 'Hand Lab'. It says Samsung is developing two types, a standard 'HR' and a high-performance 'HE', and that Samsung Electronics and Samsung SDS plan 19 trillion won in Gumi for humanoid mass production, a robot data factory and an AI data centre due 2028. The report is press-sourced and Samsung has not confirmed the details.",
+    "category": "product",
+    "companies": [
+      "Samsung Electronics",
+      "Samsung SDS",
+      "Samsung Display"
+    ],
+    "country": "other",
+    "source_url": "https://biz.chosun.com/en/en-it/2026/11/24/K5Y3J6CFYFBGHC4X6L4VJ7BNK4/",
+    "secondary_urls": [
+      "https://www.mt.co.kr/en/industry/2026/11/16/2026111614573982715",
+      "https://www.koreatimes.co.kr/business/tech-science/20261119/korean-tech-giants-take-different-paths-in-humanoid-robot-race"
+    ],
+    "primary": false,
+    "confidence": "medium",
+    "notes": "Not in titles30 or news.json by 'Hand Lab' / '19 trillion' / Gumi. LG-vs-Samsung CES framing was Nov 16 (mt.co.kr) but that item is not in the tracked list either by title. Article is AI-translated; Korean original better for numbers."
+  },
+  {
+    "title": "OYMotion closes a Series D of hundreds of millions of yuan for dexterous hands, its second round this year",
+    "date": "2026-11-23",
+    "summary": "Gasgoo reports OYMotion closed a D round of several hundred million yuan on Nov 23, jointly led by CBIC Shunjing, Yangtze River Capital and Wuhan Optics Valley Industrial Investment; in March it raised RMB 150M in a C1. The company says its dexterous-hand orders exceeded 10,000 units in the first half of 2026 against a target of tens of thousands for the year, and it runs a Zhuhai plant rated at 10,000 units a year. Reports say it is preparing an IPO.",
+    "category": "funding",
+    "companies": [
+      "OYMotion Technologies"
+    ],
+    "country": "CN",
+    "source_url": "https://autonews.gasgoo.com/articles/market-industry/seeds-oymotion-closes-d-round-funding-2125123166606974977",
+    "secondary_urls": [],
+    "primary": false,
+    "confidence": "high",
+    "notes": "Order and capacity figures are company statements via Gasgoo. Not in news.json or companies.json under OYMotion."
+  },
+  {
+    "title": "SynapX raises another several hundred million yuan, with Midea and Xindongneng joining",
+    "date": "2026-11-24",
+    "summary": "TechNode, citing Blue Whale News, reports the Beijing dexterous-hand and robot-model startup SynapX secured several hundred million yuan, with Midea among the new investors, after a $50M round in June. A Chinese report says it is the company's fourth round since its January 2026 founding, totalling nearly RMB 1B, with funds going to a dexterous-hand production line and its embodied model. It also gives 93.5B yuan as embodied-AI funding in the first half of 2026.",
+    "category": "funding",
+    "companies": [
+      "SynapX",
+      "Midea",
+      "Xiaomi",
+      "Xindongneng Investment"
+    ],
+    "country": "CN",
+    "source_url": "https://technode.com/2026/11/24/robotics-startup-synapx-reportedly-raises-hundreds-of-millions-of-yuan-with-mi",
+    "secondary_urls": [
+      "https://news.qq.com/rain/a/20261124A06PA100"
+    ],
+    "primary": false,
+    "confidence": "medium",
+    "notes": "TechNode URL is truncated in the feed listing; re-fetch from technode.com feed. 'Reportedly': investors and amount not confirmed by company in TechNode, though the qq piece says the company disclosed it. The 93.5B yuan H1 figure comes from the qq article and needs its own source. Existing news.json has 2 'SynapX/Octopus' hits, check for earlier rounds before authoring."
+  },
+  {
+    "title": "Japan's ATOM signs 4.5 billion yen of borrowing limits for a GPU cluster and humanoid production",
+    "date": "2026-11-24",
+    "summary": "ATOM, a Tokyo humanoid and robot-model startup founded in November 2025, announced borrowing limits of 4.5B yen: Sumitomo Mitsui 2B, Mizuho 1.5B and MUFG 1B. The limits are not drawn loans, and Mizuho's replaces an equal August 2026 facility, so new capacity is smaller than the headline. ATOM says funds go to an on-premises GPU cluster and production prep, with delivery targets of 200 humanoids in 2027 and 10,000 in 2030.",
+    "category": "funding",
+    "companies": [
+      "ATOM",
+      "Mizuho Bank",
+      "Sumitomo Mitsui Banking Corp",
+      "MUFG Bank"
+    ],
+    "country": "other",
+    "source_url": "https://www.unite.ai/atom-signs-4-5b-in-loan-facilities-for-gpu-cluster-humanoid-output/",
+    "secondary_urls": [],
+    "primary": false,
+    "confidence": "medium",
+    "notes": "Unite.AI byline is an AI research agent; find ATOM's own release (likely PR Times / atom-robotics site) before authoring. AI Insider headline says $28.3M in bank credit. Prior: 3B yen seed May 2026, Toyosu Physical AI Foundry opened Aug 2026 (1,700 sq m, goal 200 robots, 300,000 data hours by end-2027)."
+  },
+  {
+    "title": "Turkey opens a humanoid-robot grant call covering 50% of project budgets, applications due Dec 31",
+    "date": "2026-11-23",
+    "summary": "Industry and Technology Minister Mehmet Fatih Kacir announced the 'Humanoid Robot Development for Industrial Applications' call, with grants of 50% of project budgets and an application deadline of Dec 31, 2026. Unite.AI says the ministry's 2030 strategy targets about 200,000 installed manufacturing robots and prioritises domestic reducers, motors and drivers. It also cites 2,800 robot installations in 2022 and 4,400 in 2023.",
+    "category": "policy",
+    "companies": [],
+    "country": "other",
+    "source_url": "https://www.unite.ai/turkiye-opens-humanoid-robot-call-covering-50-of-project-budgets/",
+    "secondary_urls": [
+      "Daily Sabah, 2026-11-23, 'Turkiye launches call for domestic humanoid robot development'"
+    ],
+    "primary": false,
+    "confidence": "medium",
+    "notes": "Need the ministry (sanayi.gov.tr) or Daily Sabah page for a primary. Unite.AI byline is an AI agent; the 200,000 target and 2022/2023 installs are its reading of the strategy and should be checked."
+  },
+  {
+    "title": "Musk: Tesla's AI5 chip will go to Optimus while cars stay on AI4",
+    "date": "2026-11-22",
+    "summary": "Crypto Briefing and Electrek-derived reports say Elon Musk wrote that AI5 will power the Optimus robot while Tesla vehicles stay on AI4, with Optimus integration targeted around April 2027. The reports also quote him saying AI4's computer costs about twice as much because of memory prices. Tesla has begun sending FSD v15 to early testers.",
+    "category": "product",
+    "companies": [
+      "Tesla"
+    ],
+    "country": "US",
+    "source_url": "https://cryptobriefing.com/tesla-ai5-chip-optimus-robot-ai4-cars/",
+    "secondary_urls": [
+      "https://ua.news/en/dovkolo-svitu/mask-zaiaviv-shcho-tesla-ne-vstanovliuvatime-chip-ai5-v-avtomobili-electrek",
+      "https://www.msn.com/en-us/news/other/elon-musk-says-tesla-ai4-computer-costs-twice-as-much-on-memory-prices-ai5-chip-goes-to-optimus/ar-AA2i0Guf"
+    ],
+    "primary": false,
+    "confidence": "medium",
+    "notes": "Primary is a Musk post on X, not retrieved; only RSS snippets read (Cloudflare blocks). Attribute as Musk's statement. 'AI5' grep in news.json: 0."
+  },
+  {
+    "title": "AgiBot's Genie G2 humanoids start trial runs on a JCET chip-test line in Shanghai",
+    "date": "2026-11-23",
+    "summary": "Agibot's first Genie G2 robots were integrated at JCET's automotive-electronics plant in Lingang, Shanghai, and began trial runs in the chip test workshop, loading and unloading trays, per a Metal.com translation and BigGo. This is separate from the Lens Technology phone-testing line already tracked (11-21).",
+    "category": "deployment",
+    "companies": [
+      "AgiBot",
+      "JCET"
+    ],
+    "country": "CN",
+    "source_url": "https://news.metal.com/newscontent/3IAIQNMZPDAED6OWK4RZTK2R6IN3BJUEY4BDWNQ-agibots-genie-g2-enters-jcet-chip-test-line-f",
+    "secondary_urls": [
+      "BigGo Finance 2026-11-23 'AGIBOT's Genie G2 Robots Enter JCET's Lingang Plant'",
+      "https://pandaily.com/agibot-g2-lens-technology"
+    ],
+    "primary": false,
+    "confidence": "medium",
+    "notes": "Only snippet read; unit count not seen. 'JCET' grep in news.json: 0. Chinese-language source (AgiBot WeChat / JCET) would be the primary."
+  },
+  {
+    "title": "Lenovo's Lecoo lists a 1.8 kg walking-assist exoskeleton at RMB 6,999, on sale Nov 28",
+    "date": "2026-11-24",
+    "summary": "TechNode reports Lenovo's Lecoo brand listed the Xingzhe ONE wearable exoskeleton in China at an introductory RMB 6,999, with sales from Nov 28. It weighs 1.8 kg and has powered hip joints with up to 38 Nm of peak hip torque. Pandaily notes the specifications are advertised, not medically validated.",
+    "category": "product",
+    "companies": [
+      "Lenovo",
+      "Lecoo"
+    ],
+    "country": "CN",
+    "source_url": "https://technode.com/2026/11/24/lenovos-lecoo-launches-walking-assist-exoskeleton-from-rmb-6999/",
+    "secondary_urls": [
+      "https://pandaily.com/lecoo-consumer-walking-assist-exoskeleton-china-sale"
+    ],
+    "primary": false,
+    "confidence": "high",
+    "notes": "Relevant to the 11-23 care-robot plan that names exoskeletons. Consumer price point for China exoskeletons, a data point on the price curve."
+  },
+  {
+    "title": "Peacebird's factory trial puts Aitu sewing robots at 50-70% of skilled-worker throughput",
+    "date": "2026-11-23",
+    "summary": "Pandaily reports that Peacebird's factory validation of Aitu robots on cuff-handling tasks reached 50%-70% of skilled-worker throughput, with fabric-handling limits stated openly. The figures are project-reported.",
+    "category": "deployment",
+    "companies": [
+      "Peacebird",
+      "Aitu"
+    ],
+    "country": "CN",
+    "source_url": "https://pandaily.com/peacebird-aitu-sewing-robots-factory-cuff-validation",
+    "secondary_urls": [],
+    "primary": false,
+    "confidence": "medium",
+    "notes": "Only the Pandaily teaser read, so check the article body for conditions and date. Useful because it gives a throughput ratio against human workers, rare in deployment news."
+  },
+  {
+    "title": "Figure AI patent application describes a wearable arm-motion capture system for training or remotely driving humanoids",
+    "date": "2026-11-19",
+    "summary": "Robotics & Automation News, citing Patentlyze, reports Figure AI's application US 2026/0364774 A1, published Nov 19, 2026, describes a wearable system that captures human arm movements to train humanoid robots or control them remotely in real time. A patent application describes a design, not a product.",
+    "category": "research",
+    "companies": [
+      "Figure AI"
+    ],
+    "country": "US",
+    "source_url": "https://roboticsandautomationnews.com/2026/11/23/figure-ai-patents-wearable-system-for-teaching-humanoid-robot",
+    "secondary_urls": [],
+    "primary": false,
+    "confidence": "medium",
+    "notes": "Weak: event is publication of an application. Fits the human-data-collection theme (Figure's Project Go-Big, Humyn Labs, Embo). Verify on patents.google.com / USPTO before use."
+  },
+  {
+    "title": "Apricity raises a $16.1M Series A for a robotic ultrasound assistant",
+    "date": "2026-11-23",
+    "summary": "Apricity Robotics announced a $16.1M Series A to develop and seek regulatory clearance for its Robotic Ultrasound Assistant, an AI-guided arm meant to reduce repetitive-motion injuries among sonographers. MobiHealth News reported the round exclusively; Business Wire carried the release.",
+    "category": "funding",
+    "companies": [
+      "Apricity Robotics"
+    ],
+    "country": "US",
+    "source_url": "https://venturebeat.com/business/apricity-announces-161-million-series-a-funding-to-bring-robotic-assistance-to-diagnostic-ultrasound",
+    "secondary_urls": [
+      "https://www.mobihealthnews.com/news/exclusive-apricity-raises-161m-ultrasound-robotics"
+    ],
+    "primary": true,
+    "confidence": "medium",
+    "notes": "Company press release via Business Wire (primary). Page body blocked, so lead investors not read. Location: Business Journals says 'Dublin' (likely Dublin, Ohio) - confirm. Medical robotics, only marginal to the US-China thesis."
+  },
+  {
+    "title": "India's Cosine Robots raises Rs 22.36 crore from Avaana Capital to build robotic actuators",
+    "date": "2026-11-23",
+    "summary": "Bengaluru-based Cosine Robots raised Rs 22.36 crore (about $2.4M) led by Avaana Capital, with WEH participating, to build robotic actuators. It is an Indian actuator-supply entrant, a part of the stack where China dominates.",
+    "category": "supply-chain",
+    "companies": [
+      "Cosine Robots",
+      "Avaana Capital"
+    ],
+    "country": "other",
+    "source_url": "https://www.ciol.com/tech/cosine-robots-raises-22-crore-avaana-capital-robotic-actuators-12837022",
+    "secondary_urls": [
+      "https://economictimes.indiatimes.com/tech/funding/cosine-robots-raises-rs-22-crore-from-avaana-weh-to-build-robotic-actuators-articleshow/136110586.cms",
+      "https://www.newsbytesapp.com/news/business/cosine-robots-raises-rs2236cr-from-avaana-capital-for-bengaluru-actuators/tldr"
+    ],
+    "primary": false,
+    "confidence": "medium",
+    "notes": "Small; include only if the site wants actuator-supplier coverage. Body not read (ET returned 404)."
+  },
+  {
+    "title": "MIIT: embodied-AI robot sales up 22.6% in the first three quarters",
+    "date": "2026-11-24",
+    "summary": "BigGo Finance reports MIIT data showing smart-glasses sales doubled in the first three quarters while embodied-AI robot sales rose 22.6%. The base period and definition of 'embodied AI robot' are not given in the headline.",
+    "category": "china",
+    "companies": [],
+    "country": "CN",
+    "source_url": null,
+    "secondary_urls": [],
+    "primary": false,
+    "confidence": "low",
+    "notes": "Headline only; do NOT author until the MIIT release (miit.gov.cn, probably the Q1-Q3 electronics/consumer-goods operation briefing) is found. Compare with tracked NBS industrial-robot output (+26.0% Oct) and MIIT's 40,000+ H1 humanoid output."
+  }
+]

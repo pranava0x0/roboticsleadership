@@ -1,5 +1,145 @@
 [
   {
+    "id": "samsung-humanoid-ces-2027-2026-11",
+    "date": "2026-11-24",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "Samsung will show its first in-house humanoid at CES 2027, with 20 motors in each hand, Chosun Biz reports",
+    "source": "Chosun Biz",
+    "source_type": "Secondary",
+    "source_url": "https://biz.chosun.com/en/en-it/2026/11/24/K5Y3J6CFYFBGHC4X6L4VJ7BNK4/",
+    "summary": "Chosun Biz reports the robot uses direct-drive hands from a new internal \"Hand Lab\", aimed at tasks as fine as smartphone assembly, and comes in a standard \"HR\" and a high-performance \"HE\" version. Samsung Electronics and Samsung SDS plan 19 trillion won in Gumi for humanoid mass production, a robot data factory and an AI data center due in 2028, the paper says. Samsung has not announced the robot itself.",
+    "themes": [
+      "physical-ai",
+      "industrial-deployments"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "samsung",
+      "korea",
+      "humanoid",
+      "ces-2027",
+      "dexterous-hands"
+    ],
+    "sources": [
+      {
+        "url": "https://biz.chosun.com/en/en-it/2026/11/24/K5Y3J6CFYFBGHC4X6L4VJ7BNK4/",
+        "label": "Chosun Biz"
+      },
+      {
+        "url": "https://www.koreatimes.co.kr/business/tech-science/20261119/korean-tech-giants-take-different-paths-in-humanoid-robot-race",
+        "label": "Korea Times"
+      }
+    ]
+  },
+  {
+    "id": "synapx-midea-round-2026-11",
+    "date": "2026-11-24",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "Beijing dexterous-hand startup SynapX reportedly raises several hundred million yuan, with Midea joining",
+    "source": "TechNode",
+    "source_type": "Secondary",
+    "source_url": "https://technode.com/2026/11/24/robotics-startup-synapx-reportedly-raises-hundreds-of-millions-of-yuan-with-midea-among-investors/",
+    "summary": "TechNode, citing Blue Whale News and unnamed sources, says the round follows a $50 million raise in June; the amount and full investor list were not disclosed. SynapX was founded in January 2026 by Du Dalong, an early Horizon Robotics employee, and builds dexterous hands, embodied-AI models and data infrastructure rather than whole robots.",
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "synapx",
+      "midea",
+      "dexterous-hands",
+      "funding",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://technode.com/2026/11/24/robotics-startup-synapx-reportedly-raises-hundreds-of-millions-of-yuan-with-midea-among-investors/",
+        "label": "TechNode"
+      },
+      {
+        "url": "https://news.qq.com/rain/a/20261124A06PA100",
+        "label": "Tencent News"
+      }
+    ]
+  },
+  {
+    "id": "nvidia-huang-reinstated-2026-11",
+    "date": "2026-11-23",
+    "category": "Geopolitics",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "title": "NVIDIA's board reinstates Jensen Huang as CEO 11 days after his resignation",
+    "source": "NVIDIA (SEC 8-K)",
+    "source_type": "Primary",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+    "summary": "The board voted on November 22 to restore Huang as president, CEO and director, effective immediately; Colette Kress returns to the CFO role she held while interim CEO. The Robot Report says NVIDIA consulted senior U.S. government officials before concluding his return poses no national security risk, and that an independent board committee is still reviewing the matters behind his November 12 exit. Six days earlier, on the Q3 earnings call, the board chair had ruled out bringing him back.",
+    "themes": [
+      "foundation-models"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "nvidia",
+      "governance",
+      "counterintelligence",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+        "label": "NVIDIA 8-K"
+      },
+      {
+        "url": "https://www.therobotreport.com/nvidia-reinstates-jensen-huang-after-11-day-absence/",
+        "label": "The Robot Report"
+      }
+    ]
+  },
+  {
+    "id": "embo-110m-seed-2026-11",
+    "date": "2026-11-23",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "Embo, founded by Dreamer author Danijar Hafner, launches with a $110M a16z-led seed to build a world-model robot brain",
+    "source": "Embo",
+    "source_type": "Primary",
+    "source_url": "https://embo.com/introducing-embo",
+    "summary": "Embo says it will pretrain one model on internet video, fine-tune it on data from its own humanoid fleet and post-train it with reinforcement learning in imagined scenarios. Andreessen Horowitz led the seed; Khosla Ventures, DST Global and NVIDIA joined. CEO Hafner led DeepMind's Dreamer world-model work and CTO Wilson Yan created VideoGPT; the company is hiring in San Francisco.",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "companies": [
+      "embo"
+    ],
+    "policies": [],
+    "tags": [
+      "embo",
+      "world-models",
+      "funding",
+      "seed",
+      "a16z"
+    ],
+    "sources": [
+      {
+        "url": "https://embo.com/introducing-embo",
+        "label": "Embo"
+      },
+      {
+        "url": "https://www.unite.ai/robot-ai-startup-embo-secures-110m-seed-investment-led-by-a16z/",
+        "label": "Unite.AI"
+      }
+    ]
+  },
+  {
     "id": "simplexity-ant-100m-2026-11",
     "date": "2026-11-23",
     "title": "Ant Group leads a $100M round in Hangzhou's Simplexity Robotics at a $1.6B valuation as it shows the wheeled iX",
@@ -101,6 +241,36 @@
       {
         "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-inizsuwh2304180.shtml",
         "label": "Sina Finance"
+      }
+    ]
+  },
+  {
+    "id": "oymotion-series-d-2026-11",
+    "date": "2026-11-23",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "Dexterous-hand maker OYMotion closes a Series D of several hundred million yuan, its second round this year",
+    "source": "Gasgoo",
+    "source_type": "Secondary",
+    "source_url": "https://autonews.gasgoo.com/articles/market-industry/seeds-oymotion-closes-d-round-funding-2125123166606974977",
+    "summary": "CBIC Shunjing, Yangtze River Capital and Wuhan Optics Valley Industrial Investment led the round, after a RMB 150 million C1 in March. A company vice president said earlier that dexterous-hand orders passed 10,000 units in the first half of 2026; its own plant in Zhuhai is rated at 10,000 units a year.",
+    "themes": [
+      "china-scale",
+      "cost-trajectory"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "oymotion",
+      "dexterous-hands",
+      "funding",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://autonews.gasgoo.com/articles/market-industry/seeds-oymotion-closes-d-round-funding-2125123166606974977",
+        "label": "Gasgoo"
       }
     ]
   },
@@ -12802,24 +12972,6 @@
     ]
   },
   {
-    "id": "rss-isaac-ros-5-0-brings-ai-agents-990",
-    "title": "Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA",
-    "date": "2026-09-22",
-    "source": "The Robot Report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/",
-    "summary": "The release brings new agentic workflows and platform support to NVIDIA Isaac ROS to help developers deploy robotics applications faster. \nThe post Isaac ROS 5.0 brings AI agents to robotics developme...",
-    "category": "Deployment",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
     "id": "rss-why-outdoor-robots-fail-and-ho-234",
     "title": "Why outdoor robots fail (and how to build systems that survive)",
     "date": "2026-09-22",
@@ -12931,26 +13083,6 @@
     "tags": [
       "hacker-news",
       "community"
-    ]
-  },
-  {
-    "id": "rss-intrinsic-open-sources-key-par-577",
-    "title": "Intrinsic open sources key parts of its platform for easier development",
-    "date": "2026-09-22",
-    "source": "The Robot Report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/",
-    "summary": "With Intrinsic Core, the company is making key parts of its manipulation platform available to robotics developers. \nThe post Intrinsic open sources key parts of its platform for easier development ap...",
-    "category": "Competitive",
-    "companies": [
-      "intrinsic"
-    ],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
     ]
   },
   {
@@ -13308,24 +13440,6 @@
     ]
   },
   {
-    "id": "rss-what-do-you-do-with-a-humanoid-867",
-    "title": "What do you do with a humanoid robot when it breaks down?",
-    "date": "2026-09-20",
-    "source": "The Robot Report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
-    "summary": "Decommissioning a humanoid robot is not a matter of traditional scrapping. It's a highly technical, high-stakes surgical endeavor.\nThe post What do you do with a humanoid robot when it breaks down? ap...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
     "id": "egocentric-data-gig-workers-2026-09",
     "title": "Gig workers' first-person video is becoming the raw material for humanoid robot training data",
     "date": "2026-09-20",
@@ -13442,24 +13556,6 @@
     "tags": [
       "hacker-news",
       "community"
-    ]
-  },
-  {
-    "id": "rss-hirebotics-adds-line-tracking-455",
-    "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
-    "date": "2026-09-19",
-    "source": "The Robot Report",
-    "source_type": "News",
-    "source_url": "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
-    "summary": "Hirebotics said these new capabilities extend the working range of the cobots, giving manufacturers greater flexibility.\nThe post Hirebotics adds line tracking and linear rail capabilities to its cobo...",
-    "category": "Competitive",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
     ]
   },
   {
@@ -13967,30 +14063,6 @@
     ],
     "sentiment": "Positive",
     "confidence": "Medium",
-    "tags": [
-      "hacker-news",
-      "community"
-    ]
-  },
-  {
-    "id": "hn-49719258",
-    "title": "'Robots building robots': a 10k unit industrial humanoid robot smart factory",
-    "date": "2026-09-15",
-    "source": "Hacker News",
-    "source_type": "Community",
-    "source_url": "https://www.globaltimes.cn/page/202609/1370528.shtml",
-    "summary": "UBTECH Robotics began production at what it calls the world's first 10,000-unit-capacity humanoid robot smart factory, in Liuzhou, China — built with Siemens Digital Industries Software, producing one Walker S/Cruzr-series industrial humanoid every 10 minutes.",
-    "category": "Competitive",
-    "companies": [
-      "ubtech"
-    ],
-    "policies": [],
-    "themes": [
-      "china-scale",
-      "industrial-deployments"
-    ],
-    "sentiment": "Positive",
-    "confidence": "High",
     "tags": [
       "hacker-news",
       "community"
@@ -20291,26 +20363,6 @@
     ]
   },
   {
-    "id": "rss-robot-hand-company-settles-tes-931",
-    "title": "Robot hand company settles Tesla trade secret suit and announces $11M raise",
-    "date": "2026-06-29",
-    "source": "TechCrunch",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
-    "summary": "The startup, Proception, is taking a unique approach to collecting training data to tackle one of the hardest problems in robotics: hands.",
-    "category": "Competitive",
-    "companies": [
-      "tesla-optimus"
-    ],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
     "id": "hn-48718608",
     "title": "Are Humanoid Robots Ready to Be Deployed?",
     "date": "2026-06-29",
@@ -20803,24 +20855,6 @@
     ]
   },
   {
-    "id": "rss-general-intuition-s-2-3b-bet-t-115",
-    "title": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
-    "date": "2026-06-25",
-    "source": "TechCrunch",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
-    "summary": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.",
-    "category": "Funding",
-    "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
     "id": "rss-arm-institute-expands-robotics-351",
     "title": "ARM Institute expands RoboticsCareer.org into physical AI",
     "date": "2026-06-25",
@@ -21067,26 +21101,6 @@
     "summary": "ARM’s Drew Henry discusses the future of physical AI, robotics, and autonomous systems built for real-world constraints.\nThe post Deep dive into ARM’s physical AI and robotics strategies with Drew Hen...",
     "category": "Competitive",
     "companies": [],
-    "policies": [],
-    "themes": [],
-    "sentiment": "Neutral",
-    "confidence": "Medium",
-    "tags": [
-      "rss-import"
-    ]
-  },
-  {
-    "id": "rss-agility-robotics-plans-to-go-p-292",
-    "title": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
-    "date": "2026-06-24",
-    "source": "TechCrunch",
-    "source_type": "News",
-    "source_url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
-    "summary": "Agility Robotics, the humanoid robotics startup that spun out of Oregon State University in 2015, expects to generate $620 million in proceeds.",
-    "category": "Competitive",
-    "companies": [
-      "agility-robotics"
-    ],
     "policies": [],
     "themes": [],
     "sentiment": "Neutral",

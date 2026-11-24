@@ -71,10 +71,15 @@ function categorize(text) {
   return 'Competitive';
 }
 
-function makeId(title) {
+// The suffix is a hash of the link, not a random number: two branches that scrape the same
+// article must produce the same id, or a merge keeps both (2026-11-24: 5 RSS stories were
+// stored twice, e.g. rss-hirebotics-adds-line-tracking-715 and -455).
+export function makeId(title, link = '') {
   let slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
   if (slug.length > 30) slug = slug.substring(0, 30).replace(/-$/, '');
-  return `rss-${slug}-${Math.floor(Math.random() * 1000)}`;
+  let h = 2166136261;
+  for (const ch of String(link || title)) { h ^= ch.charCodeAt(0); h = Math.imul(h, 16777619) >>> 0; }
+  return `rss-${slug}-${h % 1000}`;
 }
 
 function toDateStr(raw) {
@@ -122,7 +127,7 @@ async function handleRss(source, news, existingUrls, cutoff, today) {
 
     const summary = item.description.substring(0, 200) + (item.description.length >= 200 ? '...' : '') || item.title;
     const record = {
-      id: makeId(item.title),
+      id: makeId(item.title, item.link),
       title: item.title,
       date: dateStr,
       source: source.publication || source.id,

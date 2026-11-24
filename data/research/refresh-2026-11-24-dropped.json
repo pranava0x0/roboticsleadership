@@ -1,0 +1,366 @@
+{
+  "date": "2026-11-24",
+  "dropped": [
+    {
+      "id": "hn-50610880",
+      "title": "An AI prophet's secretive visions for humanity's future",
+      "source_url": "https://www.msn.com/en-us/news/other/inside-an-ai-prophets-secretive-visions-for-humanitys-future/ar-AA2hXZDr",
+      "date": "2026-11-23",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50613858",
+      "title": "42% of business leaders less likely to promote someone sending AI-generated work [pdf]",
+      "source_url": "https://www.bsigroup.com/siteassets/pdf/en/insights-and-media/insights/white-papers/gl-grp-cross-thght-nss-hsw-mpd-mp-humanbydesignthrivingintheaiworkforce-0026.pdf",
+      "date": "2026-11-23",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50619718",
+      "title": "Humanizer and AI-text detection tools",
+      "source_url": "https://vektormemory.com/research",
+      "date": "2026-11-23",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50624376",
+      "title": "Humanity's Last System: Coding agents building inference systems from scratch",
+      "source_url": "https://hlsbench.com/blog/introducing-hls/",
+      "date": "2026-11-24",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50609807",
+      "title": "Coprod raises $6M from Founderful and PROTOTYPE in Switzerland",
+      "source_url": "https://www.startupticker.ch/en/news/6-million-to-make-robot-hardware-as-easy-to-build-as-software",
+      "date": "2026-11-23",
+      "reason": "Swiss pre-seed (coprod, $6M); outside the US-China frame and small"
+    },
+    {
+      "id": "hn-50609870",
+      "title": "French activists demand a tear gas suspension over reported menstrual changes",
+      "source_url": "https://www.pbs.org/newshour/health/french-activists-demand-a-tear-gas-suspension-over-reported-menstrual-changes",
+      "date": "2026-11-23",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50610292",
+      "title": "Show HN: Iskillz – Turn API docs into API-usage skills for your project",
+      "source_url": "https://github.com/anteloc/iskillz",
+      "date": "2026-11-23",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50615735",
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "source_url": "https://huggingface.co/blog/allenai/robotrack",
+      "date": "2026-11-23",
+      "reason": "Ai2 RoboTrack point-tracking research release; research detail, no US-China angle"
+    },
+    {
+      "id": "hn-50616834",
+      "title": "A reply to every student who emailed me about joining my lab",
+      "source_url": "https://whattotelltherobot.com/p/go-find-your-robot",
+      "date": "2026-11-23",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50617125",
+      "title": "Embo raises $110M seed to build general robotics with world models",
+      "source_url": "https://embo.com/introducing-embo",
+      "date": "2026-11-23",
+      "reason": "folded into curated embo-110m-seed-2026-11 (primary: embo.com)"
+    },
+    {
+      "id": "hn-50618581",
+      "title": "Show HN: Narayanastra – agentless Linux rootkit scanner (eBPF, io_uring) in Rust",
+      "source_url": "https://github.com/Tekush1/narayanastra",
+      "date": "2026-11-23",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50619225",
+      "title": "Show HN: Klink – I built a sudoku game where every puzzle helps rebuild a robot",
+      "source_url": "https://apps.apple.com/us/app/klink-sudoku-no-ads/id6830862513",
+      "date": "2026-11-23",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50619800",
+      "title": "Waymo Recalls Robotaxis After They Drove into Closed Freeway Lanes",
+      "source_url": "https://www.engadget.com/2324099/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes/",
+      "date": "2026-11-23",
+      "reason": "Waymo robotaxi recall; AV scope, not tracked"
+    },
+    {
+      "id": "hn-50619844",
+      "title": "Machine-Gun-Armed Robot Dogs Appear in El Salvador's Haiti Offensive",
+      "source_url": "https://www.newsweek.com/machine-gun-dog-robots-haiti-el-salvador-12712398",
+      "date": "2026-11-23",
+      "reason": "El Salvador armed robot dogs in Haiti; manufacturer undisclosed, no US-China angle"
+    },
+    {
+      "id": "rss-nvidia-reinstates-jensen-huang-539",
+      "title": "NVIDIA reinstates Jensen Huang after 11-day absence",
+      "source_url": "https://www.therobotreport.com/nvidia-reinstates-jensen-huang-after-11-day-absence/",
+      "date": "2026-11-23",
+      "reason": "folded into curated nvidia-huang-reinstated-2026-11 (primary: SEC 8-K)"
+    },
+    {
+      "id": "rss-special-report-engineering-foc-533",
+      "title": "Special Report: Engineering Focus on Motion Control",
+      "source_url": "https://www.therobotreport.com/special-report-engineering-focus-on-motion-control/",
+      "date": "2026-11-23",
+      "reason": "Robot Report gated report promotion, not news"
+    },
+    {
+      "id": "rss-how-does-orchard-ai-fit-into-j-146",
+      "title": "How does Orchard AI fit into John Deere’s technology portfolio?",
+      "source_url": "https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/",
+      "date": "2026-11-23",
+      "reason": "analysis of Deere-Orchard, already tracked 2026-11-20"
+    },
+    {
+      "id": "hn-50618188",
+      "title": "Humanity's Last System: Coding agents building inference systems from scratch",
+      "source_url": "https://hlsbench.com/blog/introducing-hls/",
+      "date": "2026-11-23",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments) (auto PR #318)"
+    },
+    {
+      "id": "rss-nvidia-reinstates-jensen-huang-948",
+      "title": "NVIDIA reinstates Jensen Huang after 11-day absence",
+      "source_url": "https://www.therobotreport.com/nvidia-reinstates-jensen-huang-after-11-day-absence/",
+      "date": "2026-11-23",
+      "reason": "folded into curated nvidia-huang-reinstated-2026-11 (auto PR #318 copy)"
+    },
+    {
+      "id": "rss-special-report-engineering-foc-968",
+      "title": "Special Report: Engineering Focus on Motion Control",
+      "source_url": "https://www.therobotreport.com/special-report-engineering-focus-on-motion-control/",
+      "date": "2026-11-23",
+      "reason": "Robot Report gated report promotion (auto PR #318 copy)"
+    },
+    {
+      "id": "rss-how-does-orchard-ai-fit-into-j-157",
+      "title": "How does Orchard AI fit into John Deere’s technology portfolio?",
+      "source_url": "https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/",
+      "date": "2026-11-23",
+      "reason": "analysis of Deere-Orchard, already tracked (auto PR #318 copy)"
+    }
+  ],
+  "deduplicated": [
+    {
+      "id": "rss-isaac-ros-5-0-brings-ai-agents-990",
+      "title": "Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA",
+      "source_url": "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/",
+      "date": "2026-09-22",
+      "reason": "duplicate of rss-isaac-ros-5-0-brings-ai-agents-100 (same source_url); removed so the story is stored once",
+      "record": {
+        "id": "rss-isaac-ros-5-0-brings-ai-agents-990",
+        "title": "Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA",
+        "date": "2026-09-22",
+        "source": "The Robot Report",
+        "source_type": "News",
+        "source_url": "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/",
+        "summary": "The release brings new agentic workflows and platform support to NVIDIA Isaac ROS to help developers deploy robotics applications faster. \nThe post Isaac ROS 5.0 brings AI agents to robotics developme...",
+        "category": "Deployment",
+        "companies": [],
+        "policies": [],
+        "themes": [],
+        "sentiment": "Neutral",
+        "confidence": "Medium",
+        "tags": [
+          "rss-import"
+        ]
+      }
+    },
+    {
+      "id": "rss-intrinsic-open-sources-key-par-577",
+      "title": "Intrinsic open sources key parts of its platform for easier development",
+      "source_url": "https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/",
+      "date": "2026-09-22",
+      "reason": "duplicate of rss-intrinsic-open-sources-key-par-754 (same source_url); removed so the story is stored once",
+      "record": {
+        "id": "rss-intrinsic-open-sources-key-par-577",
+        "title": "Intrinsic open sources key parts of its platform for easier development",
+        "date": "2026-09-22",
+        "source": "The Robot Report",
+        "source_type": "News",
+        "source_url": "https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/",
+        "summary": "With Intrinsic Core, the company is making key parts of its manipulation platform available to robotics developers. \nThe post Intrinsic open sources key parts of its platform for easier development ap...",
+        "category": "Competitive",
+        "companies": [
+          "intrinsic"
+        ],
+        "policies": [],
+        "themes": [],
+        "sentiment": "Neutral",
+        "confidence": "Medium",
+        "tags": [
+          "rss-import"
+        ]
+      }
+    },
+    {
+      "id": "rss-what-do-you-do-with-a-humanoid-867",
+      "title": "What do you do with a humanoid robot when it breaks down?",
+      "source_url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
+      "date": "2026-09-20",
+      "reason": "duplicate of rss-what-do-you-do-with-a-humanoid-641 (same source_url); removed so the story is stored once",
+      "record": {
+        "id": "rss-what-do-you-do-with-a-humanoid-867",
+        "title": "What do you do with a humanoid robot when it breaks down?",
+        "date": "2026-09-20",
+        "source": "The Robot Report",
+        "source_type": "News",
+        "source_url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
+        "summary": "Decommissioning a humanoid robot is not a matter of traditional scrapping. It's a highly technical, high-stakes surgical endeavor.\nThe post What do you do with a humanoid robot when it breaks down? ap...",
+        "category": "Competitive",
+        "companies": [],
+        "policies": [],
+        "themes": [],
+        "sentiment": "Neutral",
+        "confidence": "Medium",
+        "tags": [
+          "rss-import"
+        ]
+      }
+    },
+    {
+      "id": "rss-hirebotics-adds-line-tracking-455",
+      "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
+      "source_url": "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
+      "date": "2026-09-19",
+      "reason": "duplicate of rss-hirebotics-adds-line-tracking-715 (same source_url); removed so the story is stored once",
+      "record": {
+        "id": "rss-hirebotics-adds-line-tracking-455",
+        "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
+        "date": "2026-09-19",
+        "source": "The Robot Report",
+        "source_type": "News",
+        "source_url": "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
+        "summary": "Hirebotics said these new capabilities extend the working range of the cobots, giving manufacturers greater flexibility.\nThe post Hirebotics adds line tracking and linear rail capabilities to its cobo...",
+        "category": "Competitive",
+        "companies": [],
+        "policies": [],
+        "themes": [],
+        "sentiment": "Neutral",
+        "confidence": "Medium",
+        "tags": [
+          "rss-import"
+        ]
+      }
+    },
+    {
+      "id": "hn-49719258",
+      "title": "'Robots building robots': a 10k unit industrial humanoid robot smart factory",
+      "source_url": "https://www.globaltimes.cn/page/202609/1370528.shtml",
+      "date": "2026-09-15",
+      "reason": "duplicate of ubtech-liuzhou-humanoid-factory-2026-09 (same source_url); removed so the story is stored once",
+      "record": {
+        "id": "hn-49719258",
+        "title": "'Robots building robots': a 10k unit industrial humanoid robot smart factory",
+        "date": "2026-09-15",
+        "source": "Hacker News",
+        "source_type": "Community",
+        "source_url": "https://www.globaltimes.cn/page/202609/1370528.shtml",
+        "summary": "UBTECH Robotics began production at what it calls the world's first 10,000-unit-capacity humanoid robot smart factory, in Liuzhou, China — built with Siemens Digital Industries Software, producing one Walker S/Cruzr-series industrial humanoid every 10 minutes.",
+        "category": "Competitive",
+        "companies": [
+          "ubtech"
+        ],
+        "policies": [],
+        "themes": [
+          "china-scale",
+          "industrial-deployments"
+        ],
+        "sentiment": "Positive",
+        "confidence": "High",
+        "tags": [
+          "hacker-news",
+          "community"
+        ]
+      }
+    },
+    {
+      "id": "rss-robot-hand-company-settles-tes-931",
+      "title": "Robot hand company settles Tesla trade secret suit and announces $11M raise",
+      "source_url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+      "date": "2026-06-29",
+      "reason": "duplicate of proception-seed-tesla-settlement-2026-06 (same source_url); removed so the story is stored once",
+      "record": {
+        "id": "rss-robot-hand-company-settles-tes-931",
+        "title": "Robot hand company settles Tesla trade secret suit and announces $11M raise",
+        "date": "2026-06-29",
+        "source": "TechCrunch",
+        "source_type": "News",
+        "source_url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+        "summary": "The startup, Proception, is taking a unique approach to collecting training data to tackle one of the hardest problems in robotics: hands.",
+        "category": "Competitive",
+        "companies": [
+          "tesla-optimus"
+        ],
+        "policies": [],
+        "themes": [],
+        "sentiment": "Neutral",
+        "confidence": "Medium",
+        "tags": [
+          "rss-import"
+        ]
+      }
+    },
+    {
+      "id": "rss-general-intuition-s-2-3b-bet-t-115",
+      "title": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
+      "source_url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "date": "2026-06-25",
+      "reason": "duplicate of general-intuition-series-a-2026-06 (same source_url); removed so the story is stored once",
+      "record": {
+        "id": "rss-general-intuition-s-2-3b-bet-t-115",
+        "title": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
+        "date": "2026-06-25",
+        "source": "TechCrunch",
+        "source_type": "News",
+        "source_url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+        "summary": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.",
+        "category": "Funding",
+        "companies": [],
+        "policies": [],
+        "themes": [],
+        "sentiment": "Neutral",
+        "confidence": "Medium",
+        "tags": [
+          "rss-import"
+        ]
+      }
+    },
+    {
+      "id": "rss-agility-robotics-plans-to-go-p-292",
+      "title": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
+      "source_url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+      "date": "2026-06-24",
+      "reason": "duplicate of agility-robotics-spac-2026-06 (same source_url); removed so the story is stored once",
+      "record": {
+        "id": "rss-agility-robotics-plans-to-go-p-292",
+        "title": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
+        "date": "2026-06-24",
+        "source": "TechCrunch",
+        "source_type": "News",
+        "source_url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+        "summary": "Agility Robotics, the humanoid robotics startup that spun out of Oregon State University in 2015, expects to generate $620 million in proceeds.",
+        "category": "Competitive",
+        "companies": [
+          "agility-robotics"
+        ],
+        "policies": [],
+        "themes": [],
+        "sentiment": "Neutral",
+        "confidence": "Medium",
+        "tags": [
+          "rss-import"
+        ]
+      }
+    }
+  ]
+}

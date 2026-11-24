@@ -532,7 +532,28 @@ function validateContent(name, data) {
     const recErrors = checkRecord(rec, schema, i);
     recErrors.forEach((e) => errors.push(`#${i} (${rec.id || '?'}): ${e}`));
   });
+  if (name === 'news') duplicateScrapedUrls(data).forEach((e) => errors.push(e));
   return { name, ok: errors.length === 0, errors, records: data.length };
+}
+
+// A scraped record (rss-/hn-/fedreg-/reddit- id) that shares its source_url with any other record
+// is the same story stored twice. Curated records may share a URL (several stories citing one
+// newsletter roundup), so only a scraped record in the pair is an error (2026-11-24: 8 pairs).
+export function duplicateScrapedUrls(news) {
+  const SCRAPED = /^(rss|hn|fedreg|reddit)-/;
+  const byUrl = new Map();
+  for (const r of news) {
+    if (!r || !r.source_url) continue;
+    if (!byUrl.has(r.source_url)) byUrl.set(r.source_url, []);
+    byUrl.get(r.source_url).push(r.id);
+  }
+  const out = [];
+  for (const [url, ids] of byUrl) {
+    if (ids.length > 1 && ids.some((id) => SCRAPED.test(String(id)))) {
+      out.push(`duplicate source_url shared by ${ids.join(', ')} (${url}): keep one record`);
+    }
+  }
+  return out;
 }
 
 function checkCrossRefs() {
