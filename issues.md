@@ -4,6 +4,13 @@ Living bug log. Each entry: date, area, description, root cause, status. On reso
 
 ## Open
 
+### 2026-11-24 — news data — eight stories were stored twice under different ids — Fixed
+- **Area:** `scripts/scraper-news.js` (`makeId`), `docs/data/news.json`, `scripts/validate.js`.
+- **Description:** Eight `source_url`s each had two news records: five Robot Report RSS items with ids differing only in the trailing number (`rss-hirebotics-adds-line-tracking-715` / `-455`), and three scraped records next to the curated record for the same story (`hn-49719258` beside `ubtech-liuzhou-humanoid-factory-2026-09`). Each showed twice in the news feed and its counts.
+- **Root cause:** code bug. RSS ids ended in `Math.random()`, so the same article scraped on two branches (an `auto/news-*` PR and a local refresh) got two ids, and a merge kept both. The scraper's URL check only sees the file it is writing.
+- **Fix:** `makeId` hashes the link, so both branches produce one id. `validate.js` now fails when a scraped record shares a `source_url` with any other record (curated records citing one roundup still pass). The eight extra records are removed from `news.json`; each is kept in full in `data/research/refresh-2026-11-24-dropped.json` under `deduplicated`.
+- **Regression tests:** `scraper-news.test.js` (makeId is deterministic), `validate.test.js` (`duplicateScrapedUrls`).
+
 ### 2026-11-16 — all pages — a malformed #fragment stopped app.js — Fixed
 - **Area:** `docs/assets/app.js` (load-hash capture, same-page hash clicks), `docs/news.html`.
 - **Description:** Opening `index.html#50%` or any fragment that is not valid percent-encoding left `window.RT` undefined, so the page painted no data. Found in review of PR #303 before merge; on main only `news.html` decoded the fragment.

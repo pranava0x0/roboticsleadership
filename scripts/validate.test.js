@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Regression tests for the curation gate in validate.js.
 // Run: node scripts/validate.test.js
-import { checkInternalFlags, validateData } from './validate.js';
+import { checkInternalFlags, validateData, duplicateScrapedUrls } from './validate.js';
 
 let failures = 0;
 function eq(actual, expected, label) {
@@ -96,6 +96,17 @@ eq(validateData('companies', [{ ...validCompany, founders: [{ name: 'Ian Glow', 
   'founders: objects with a name pass');
 eq(validateData('companies', [{ ...validCompany, founders: ['Ian Glow'] }]).ok, false,
   'founders: a bare string fails');
+
+// The same RSS story stored twice under two random ids (2026-11-24: 8 pairs on the live site).
+const U = 'https://example.com/a';
+eq(duplicateScrapedUrls([{ id: 'rss-x-715', source_url: U }, { id: 'rss-x-455', source_url: U }]).length, 1,
+  'two scraped records with one source_url fail');
+eq(duplicateScrapedUrls([{ id: 'hn-1', source_url: U }, { id: 'curated-2026-09', source_url: U }]).length, 1,
+  'a scraped record duplicating a curated one fails');
+eq(duplicateScrapedUrls([{ id: 'waymo-2026-11', source_url: U }, { id: 'kodiak-2026-11', source_url: U }]).length, 0,
+  'curated records citing one roundup pass');
+eq(duplicateScrapedUrls([{ id: 'rss-a-1', source_url: U }, { id: 'rss-b-2', source_url: 'https://example.com/b' }]).length, 0,
+  'different URLs pass');
 
 if (failures) {
   console.error(`\n${failures} test(s) failed.`);

@@ -4,6 +4,14 @@ Prioritized list of features, enhancements, and known gaps. Review weekly; demot
 
 ---
 
+## ▶ Added 2026-11-24 (scheduled refresh)
+
+- [ ] **(medium) Reframe: strain-wave gears may cap U.S. humanoid volume before chips or AI do.** A RoboStrategy field report (Scott Walter, X, Nov 23) puts Optimus at 20,000 a week at about 14M harmonic drives a year against about 2.45M made worldwide in 2025. Harmonic Drive Systems' record ¥50.4B first-half orders (news, 11-11) point the same way. If a primary for the 2025 world output turns up, supply-chain.html's gearing row could show demand at announced humanoid targets against current capacity, by country.
+- [ ] **(medium) Discourse: Chinese carmakers pulling humanoids off lines.** Caixin (Nov 13, paywalled) reports pilots at Geely, Xiaomi, Changan and GAC removed over cost, speed and wear; only the opening paragraphs are readable, so nothing was authored. If an unpaywalled copy or a carmaker statement appears, it belongs beside the deployment records it contradicts.
+- [ ] **(low) Other countries' humanoid programs as a benchmark row.** Turkey opened a humanoid grant call covering 50% of project budgets (due Dec 31) and Korea reportedly plans 53.5B won over five years for "national humanoid champions" (BigGo, unverified). A small "other governments" block on china.html or policies.html would give the U.S.-China comparison a reference point; scope call.
+- [ ] **(low) Leads not authored this run:** Musk says AI5 goes to Optimus while cars stay on AI4 (snippets only); MIIT says embodied-AI robot sales rose 22.6% in Q1-Q3 (headline only); AgiBot Genie G2 on JCET's chip-test line (translation only); Lecoo's RMB 6,999 exoskeleton; Apricity $16.1M ultrasound robot; Cosine Robots Rs 22 crore actuators; Unitree's 20% limit-up on Nov 23 (daily price move); "GPT-6.2 Astra" retiring RoboDojo-RC Tier 1 at 97% (one X account); coprod $6M pre-seed (Swiss).
+- Curated this run: 17 news + 0 policy scraper candidates, 2 rewritten as curated records (Embo, NVIDIA) and the rest dropped (data/research/refresh-2026-11-24-dropped.json). 8 duplicate stories removed (kept in that file under `deduplicated`). The X list gave Embo; the Sonnet sweep (5 minutes, 15 items) gave Samsung, SynapX and OYMotion.
+
 ## ▶ Added 2026-11-23 (scheduled refresh)
 
 - [ ] **(medium) Reframe: China is writing rules for robot data and identity while the US writes rules for robot safety research.** In three weeks China opened a national embodied-AI data standard (20+ standards planned by 2030, `china-embodied-ai-data-standard-2026-11`), the one-robot-one-code ID draft (`miit-robot-identification-code-draft-2026-11`) and a care plan that names service robots (`china-yilao-yixiao-plan-service-robots-2026-11`); the US side this month is NIOSH's humanoid-safety RFI (91 FR 75513, comments to Feb 22, 2027). A china.html or policies.html row pairing "what each government is standardizing" would describe the difference without scoring it.

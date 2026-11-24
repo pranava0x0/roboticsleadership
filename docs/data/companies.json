@@ -11074,5 +11074,78 @@
       "china-scale"
     ],
     "map_category": "enablers"
+  },
+  {
+    "id": "embo",
+    "name": "Embo",
+    "founded": "2026",
+    "hq": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "website": "https://embo.com",
+    "funding_rounds": [
+      {
+        "date": "2026-11",
+        "round": "Seed",
+        "amount_usd": 110000000,
+        "valuation_usd": null,
+        "investors": [
+          "Andreessen Horowitz",
+          "Khosla Ventures",
+          "DST Global",
+          "NVIDIA"
+        ],
+        "url": "https://embo.com/introducing-embo",
+        "confidence": "confirmed"
+      }
+    ],
+    "total_funding_usd": 110000000,
+    "latest_valuation_usd": null,
+    "robot_types": [
+      "robot foundation model"
+    ],
+    "primary_use_case": "general robot brain pretrained on internet video, practised in a learned world model",
+    "flagship_product": "Unified world-model robot policy (unnamed)",
+    "deployments": [],
+    "headcount": null,
+    "headcount_date": null,
+    "target_price_usd": null,
+    "open_source": false,
+    "us_manufactured": false,
+    "defense_contracts": false,
+    "founders": [
+      {
+        "name": "Danijar Hafner",
+        "role": "CEO"
+      },
+      {
+        "name": "Wilson Yan",
+        "role": "CTO"
+      }
+    ],
+    "ceo": "Danijar Hafner",
+    "tags": [
+      "world-models",
+      "foundation-models",
+      "a16z"
+    ],
+    "data_confidence": "medium",
+    "sources": [
+      {
+        "url": "https://embo.com/introducing-embo",
+        "label": "Embo"
+      },
+      {
+        "url": "https://embo.com/company",
+        "label": "Embo team page"
+      }
+    ],
+    "last_updated": "2026-11-24",
+    "themes": [
+      "foundation-models"
+    ],
+    "map_category": "brains"
   }
 ]

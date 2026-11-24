@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Regression tests for scraper-news.js helpers.
 // Run: node scripts/scraper-news.test.js
-import { decodeEntities, isRecent, matchesKeywords } from './scraper-news.js';
+import { decodeEntities, isRecent, matchesKeywords, makeId } from './scraper-news.js';
 import { droppedKeys } from './dropped.js';
 import { mkdtempSync, writeFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
@@ -70,6 +70,12 @@ eq(keys.has('fedreg-2026-22743'), true, 'droppedKeys: policy id with no url');
 eq(keys.has('not-a-drop-log'), false, 'droppedKeys: ignores files that are not drop logs');
 eq(droppedKeys(join(dir, 'missing')).size, 0, 'droppedKeys: missing dir is empty, not a crash');
 rmSync(dir, { recursive: true });
+
+// RSS ids must not depend on chance: two branches scraping one article must agree (2026-11-24).
+const L = 'https://www.therobotreport.com/hirebotics-adds-line-tracking/';
+eq(makeId('Hirebotics adds line tracking', L), makeId('Hirebotics adds line tracking', L), 'makeId is deterministic for one link');
+eq(makeId('Same title', L) === makeId('Same title', L + 'x'), false, 'makeId differs for different links');
+eq(/^rss-hirebotics-adds-line-tracking-\d{1,3}$/.test(makeId('Hirebotics adds line tracking', L)), true, 'makeId keeps the rss-<slug>-<n> shape');
 
 if (failures > 0) {
   console.error(`\n${failures} test(s) failed.`);
