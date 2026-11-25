@@ -1,5 +1,182 @@
 [
   {
+    "id": "hn-50640241",
+    "title": "Humanity's First Exam (HFE)",
+    "date": "2026-11-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.kaggle.com/benchmarks/deepmind/hfe",
+    "summary": "Humanity's First Exam (HFE)",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50641596",
+    "title": "Notes from the Belly of the Whale: AI's Need for Humanism",
+    "date": "2026-11-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://browsercompany.substack.com/p/notes-from-the-belly-of-the-whale",
+    "summary": "Notes from the Belly of the Whale: AI's Need for Humanism",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50641921",
+    "title": "Show HN: Rethink Phone: experiments with an agent running on a rooted Android",
+    "date": "2026-11-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://rethinkphone.tech/",
+    "summary": "I've been experimenting with putting Claude on a phone and letting it control the phone, to see how much of what I do on it could just be done for me.Code (MIT) Built with (Claude and ChatGPT): h",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50644661",
+    "title": "The Islamic Roots of Science Fiction",
+    "date": "2026-11-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://gizmodo.com/the-islamic-roots-of-science-fiction-1632693067",
+    "summary": "The Islamic Roots of Science Fiction",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50645002",
+    "title": "Omnibot Reborn: Giving a 1984 Robot Butler the Brain It Was Promised",
+    "date": "2026-11-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://makezine.com/article/technology/robotics/omnibot-reborn-giving-a-1984-robot-butler-the-brain-it-was-promised/",
+    "summary": "Omnibot Reborn: Giving a 1984 Robot Butler the Brain It Was Promised",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50646034",
+    "title": "Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch",
+    "date": "2026-11-25",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/",
+    "summary": "Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-fcc-should-focus-on-robot-secu-380",
+    "title": "FCC should focus on robot security, not country of origin",
+    "date": "2026-11-25",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/fcc-should-focus-on-robot-security-not-country-of-origin/",
+    "summary": "Where a robot was assembled tells you little about who controls it once it's deployed, writes Brain Corp CEO David Pinn.\nThe post FCC should focus on robot security, not country of origin appeared fir...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-how-vention-is-cutting-factory-241",
+    "title": "How Vention is cutting factory programming from weeks to minutes",
+    "date": "2026-11-25",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/how-vention-is-cutting-factory-programming-from-weeks-to-minutes/",
+    "summary": "Etienne Lacroix explains why AI deployment—not just better models—will define the future of industrial automation.\nThe post How Vention is cutting factory programming from weeks to minutes appeared fi...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-how-darpa-challenged-teams-to-202",
+    "title": "How DARPA Challenged Teams to Bring Robots Into Disaster Triage",
+    "date": "2026-11-25",
+    "source": "IEEE Spectrum",
+    "source_type": "News",
+    "source_url": "https://spectrum.ieee.org/darpa-triage-challenge-final-robots",
+    "summary": "On 5 November, 10 teams descended upon a 52-acre mock town in College Station, Texas called Disaster City. They were there for a nine-day competition to see how well teams of robots and humans could n...",
+    "category": "Research",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "xpeng-iron-production-jan-2027-2026-11",
     "date": "2026-11-25",
     "category": "Competitive",
