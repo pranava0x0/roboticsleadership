@@ -9,7 +9,7 @@
     "source": "Securities Times (via Sina Finance)",
     "source_type": "Secondary",
     "source_url": "https://finance.sina.com.cn/jjxw/2026-11-25/doc-inizxtsc9542565.shtml",
-    "summary": "He Xiaopeng told XPeng's Nov 25 tech day in Guangzhou that IRON moves to hardware mass production in January 2027 and is due for formal release to outside customers in the second quarter, with later revenue from token subscriptions and services. XPeng says the line is fully automated, with more than 600 AI quality checks and over 1,000 automotive-grade whole-robot tests. Kuai Keji's report from the same event gives 76 degrees of freedom, three in-house Turing chips at 2,250 TOPS, and hands with 21 degrees of freedom and 375 tactile sensors each. It also repeats the earlier plan for store trials in Q1 2027.",
+    "summary": "He Xiaopeng told XPeng's Nov 25 tech day, as Securities Times reports it, that IRON moves to hardware mass production in January 2027 and is due for formal release to outside customers in the second quarter, with later revenue from token subscriptions and services. XPeng says the line is fully automated, with more than 600 AI quality checks and over 1,000 automotive-grade whole-robot tests. Kuai Keji's report from the same event gives 76 degrees of freedom, three in-house Turing chips at 2,250 TOPS, and hands with 21 degrees of freedom and 375 tactile sensors each. Kuai Keji's account instead says mass production starts by the end of this year, the date XPeng gave in October, with store trials in Q1 2027.",
     "themes": [
       "china-scale",
       "industrial-deployments"
@@ -46,7 +46,7 @@
     "source": "IT Juzi (via Sohu)",
     "source_type": "Secondary",
     "source_url": "https://www.sohu.com/a/1106233007_355020",
-    "summary": "An IT Juzi analyst pulled 1,407 Chinese embodied-AI and robotics investments from January 2022 to Nov 17, 2026 and found 33 by 12 large foreign companies, into 20 firms, about 90% of them since 2025. Samsung, LG, Mirae Asset and Hyundai account for much of it; Japan's Mitsubishi Electric and Hitachi, Thailand's CP Group and Germany's Bosch also appear. The count shows no deals by Nvidia, Qualcomm, Microsoft, Google, Amazon or Intel; Nvidia's stake in Agile Robots, a German-headquartered company, is outside it. Only three leading humanoid makers took foreign corporate money: AgiBot, RobotEra and EngineAI. Unitree has none.",
+    "summary": "An IT Juzi analyst pulled 1,407 Chinese embodied-AI and robotics investments from January 2022 to Nov 17, 2026 and found 33 by 12 large foreign companies, into 20 firms, about 90% of them since 2025. Korean firms made about 10 of them (Samsung 5, Mirae Asset 3, LG and Hyundai 1 each); Japan's Mitsubishi Electric and Hitachi, Thailand's CP Group and Germany's Bosch also appear. The newest deal counted is Agile Robots' November round, which Nvidia joined, but the article treats that as money into a German-headquartered company and says Nvidia, Qualcomm, Microsoft, Google, Amazon and Intel have made no investments in Chinese robotics firms since 2022. Only three leading humanoid makers took foreign corporate money: AgiBot, RobotEra and EngineAI. Unitree has none.",
     "themes": [
       "china-scale",
       "policy-momentum"
@@ -79,7 +79,7 @@
     "source": "Kuai Keji (MyDrivers)",
     "source_type": "Secondary",
     "source_url": "https://news.mydrivers.com/1/1168/1168421.htm",
-    "summary": "Qiyuan, the robotics unit of Shanghai-listed Shangwei New Materials, says its Q1 and T1 passed China Robot Certification, EU CE testing by TÜV Rheinland (mechanical and functional safety, cybersecurity and data privacy) and UL certification under ANSI/CAN/UL 3300, the North American safety standard for consumer and service robots. A UL Solutions vice president attended the handover. Other Chinese reports call it the first humanoid to hold UL 3300; that claim is the company's, and UL's own listing was not found.",
+    "summary": "Qiyuan, the robotics unit of Shanghai-listed Shangwei New Materials, says its Q1 and T1 passed China Robot Certification, EU CE testing by TÜV Rheinland (mechanical and functional safety, cybersecurity and data privacy) and UL certification under ANSI/CAN/UL 3300, the North American safety standard for service, communication, information, education and entertainment robots. A UL Solutions vice president attended the handover. Other Chinese reports call it the first humanoid to hold UL 3300; that claim is the company's, and UL's own listing was not found.",
     "themes": [
       "china-scale"
     ],
@@ -113,14 +113,12 @@
     "source": "The Robot Report",
     "source_type": "Secondary",
     "source_url": "https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/",
-    "summary": "The Robot Report says the deal for Marc Raibert's Cambridge, Massachusetts lab has closed; terms were not disclosed and SoftBank declined to comment. Hyundai funded the institute with more than $400 million in 2022. The deal was agreed in September, and the institute has 24 open roles in Cambridge and Zurich. SoftBank's $5.4B purchase of ABB Robotics remains stalled after China blocked the part of the deal covering ABB's China business.",
+    "summary": "The Robot Report says the deal for Marc Raibert's Cambridge, Massachusetts lab has closed; terms were not disclosed and SoftBank declined to comment. Hyundai funded the institute with more than $400 million in 2022. The deal was agreed in September, and the institute has 24 open roles in Cambridge and Zurich. The magazine says SoftBank's $5.4B purchase of ABB Robotics faces an uncertain future after China blocked the part covering ABB's China business.",
     "themes": [
       "physical-ai",
       "policy-momentum"
     ],
-    "companies": [
-      "boston-dynamics"
-    ],
+    "companies": [],
     "policies": [],
     "tags": [
       "softbank",
@@ -145,7 +143,7 @@
     "source": "Digital Today",
     "source_type": "Secondary",
     "source_url": "https://www.digitaltoday.co.kr/en/view/129889/msit-to-foster-national-team-caliber-humanoid-robots-2027-challenge-planned",
-    "summary": "The Ministry of Science and ICT briefed industry in Seoul on Nov 24 on the \"Next-X Humanoid Challenge\", run with the National Research Foundation of Korea and the Robotics Society of Korea. Teams compete in stages from 2027; the ministry plans to choose a final platform by the end of 2028 and concentrate follow-on support on it, with a path to market. The report gives no budget.",
+    "summary": "The Ministry of Science and ICT briefed industry in Seoul on Nov 24 on the \"Next-X Humanoid Challenge\", run with the National Research Council of Science and Technology, the National Research Foundation of Korea and the Robotics Society of Korea. Teams compete in stages from 2027; the ministry plans to choose a final platform by the end of 2028 and concentrate follow-on support on it, with a path to market. The report gives no budget.",
     "themes": [
       "policy-momentum",
       "physical-ai"
@@ -272,7 +270,7 @@
     "source": "36Kr",
     "source_type": "Secondary",
     "source_url": "https://36kr.com/newsflashes/4083175473681285",
-    "summary": "The ministry gave the figure alongside 110% growth for AI glasses over January to September. The reports do not say which sales platforms are covered or whether the growth is in units or value, and the ministry's own release has not been found.",
+    "summary": "The ministry disclosed the figure, growth in sales value on \"key platforms\", alongside 110% growth for AI glasses over January to September. The reports do not name the platforms, and the ministry's own release has not been found.",
     "themes": [
       "china-scale"
     ],
@@ -831,7 +829,7 @@
     "source": "Humanoids Daily",
     "source_type": "Secondary",
     "source_url": "https://humanoidsdaily.com/news/robostore-agibot-us-distribution-x2-a3-g2-prices",
-    "summary": "RoboStore lists the X2 Neo from $29,999, the A3 at $72,999 and the wheeled two-arm G2 at $159,999, with quadrupeds and hands. It did not say how the line fits the FCC's July rule, which blocks new authorizations for foreign-made robots but leaves models already authorized on sale. On Nov 24 the UK retailer AO World said it has an agreement in principle to sell AgiBot products.",
+    "summary": "RoboStore lists the X2 Neo from $29,999, the A3 at $72,999 and the wheeled two-arm G2 at $159,999, with quadrupeds and hands. It did not say how the line fits the FCC's July rule, which blocks new authorizations for foreign-made robots but leaves models already authorized on sale.",
     "themes": [
       "china-scale",
       "policy-momentum"
