@@ -1,5 +1,330 @@
 [
   {
+    "id": "xpeng-iron-production-jan-2027-2026-11",
+    "date": "2026-11-25",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "XPeng says IRON enters hardware mass production in January 2027, with a launch to outside customers in Q2",
+    "source": "Securities Times (via Sina Finance)",
+    "source_type": "Secondary",
+    "source_url": "https://finance.sina.com.cn/jjxw/2026-11-25/doc-inizxtsc9542565.shtml",
+    "summary": "He Xiaopeng told XPeng's Nov 25 tech day in Guangzhou that IRON moves to hardware mass production in January 2027 and is due for formal release to outside customers in the second quarter, with later revenue from token subscriptions and services. XPeng says the line is fully automated, with more than 600 AI quality checks and over 1,000 automotive-grade whole-robot tests. Kuai Keji's report from the same event gives 76 degrees of freedom, three in-house Turing chips at 2,250 TOPS, and hands with 21 degrees of freedom and 375 tactile sensors each. It also repeats the earlier plan for store trials in Q1 2027.",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "companies": [
+      "xpeng-robotics"
+    ],
+    "policies": [],
+    "tags": [
+      "xpeng",
+      "iron",
+      "humanoid",
+      "mass-production",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://finance.sina.com.cn/jjxw/2026-11-25/doc-inizxtsc9542565.shtml",
+        "label": "Securities Times via Sina Finance"
+      },
+      {
+        "url": "https://finance.sina.com.cn/tech/discovery/2026-11-25/doc-inizxtsm4303634.shtml",
+        "label": "Kuai Keji via Sina Tech"
+      }
+    ]
+  },
+  {
+    "id": "it-juzi-foreign-capital-china-robotics-2026-11",
+    "date": "2026-11-25",
+    "category": "Geopolitics",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "title": "IT Juzi count: 33 deals by foreign corporates in Chinese robotics since 2022, led by Korean firms, none from U.S. big tech",
+    "source": "IT Juzi (via Sohu)",
+    "source_type": "Secondary",
+    "source_url": "https://www.sohu.com/a/1106233007_355020",
+    "summary": "An IT Juzi analyst pulled 1,407 Chinese embodied-AI and robotics investments from January 2022 to Nov 17, 2026 and found 33 by 12 large foreign companies, into 20 firms, about 90% of them since 2025. Samsung, LG, Mirae Asset and Hyundai account for much of it; Japan's Mitsubishi Electric and Hitachi, Thailand's CP Group and Germany's Bosch also appear. The count shows no deals by Nvidia, Qualcomm, Microsoft, Google, Amazon or Intel; Nvidia's stake in Agile Robots, a German-headquartered company, is outside it. Only three leading humanoid makers took foreign corporate money: AgiBot, RobotEra and EngineAI. Unitree has none.",
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "companies": [
+      "agibot",
+      "unitree"
+    ],
+    "policies": [],
+    "tags": [
+      "investment",
+      "korea",
+      "foreign-capital",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sohu.com/a/1106233007_355020",
+        "label": "IT Juzi via Sohu"
+      }
+    ]
+  },
+  {
+    "id": "qiyuan-ul-3300-ce-cr-2026-11",
+    "date": "2026-11-25",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "Qiyuan Robotics says two of its robots passed UL 3300, CE and China CR safety certification",
+    "source": "Kuai Keji (MyDrivers)",
+    "source_type": "Secondary",
+    "source_url": "https://news.mydrivers.com/1/1168/1168421.htm",
+    "summary": "Qiyuan, the robotics unit of Shanghai-listed Shangwei New Materials, says its Q1 and T1 passed China Robot Certification, EU CE testing by TÜV Rheinland (mechanical and functional safety, cybersecurity and data privacy) and UL certification under ANSI/CAN/UL 3300, the North American safety standard for consumer and service robots. A UL Solutions vice president attended the handover. Other Chinese reports call it the first humanoid to hold UL 3300; that claim is the company's, and UL's own listing was not found.",
+    "themes": [
+      "china-scale"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "qiyuan",
+      "certification",
+      "ul-3300",
+      "standards",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://news.mydrivers.com/1/1168/1168421.htm",
+        "label": "Kuai Keji (MyDrivers)"
+      },
+      {
+        "url": "https://www.yzwb.net/news/ch/202611/t20261125_415719.html",
+        "label": "Yangtse Evening Post"
+      }
+    ]
+  },
+  {
+    "id": "softbank-closes-rai-institute-2026-11",
+    "date": "2026-11-24",
+    "category": "Funding",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "title": "SoftBank completes its purchase of the Robotics and AI Institute from Hyundai",
+    "source": "The Robot Report",
+    "source_type": "Secondary",
+    "source_url": "https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/",
+    "summary": "The Robot Report says the deal for Marc Raibert's Cambridge, Massachusetts lab has closed; terms were not disclosed and SoftBank declined to comment. Hyundai funded the institute with more than $400 million in 2022. The deal was agreed in September, and the institute has 24 open roles in Cambridge and Zurich. SoftBank's $5.4B purchase of ABB Robotics remains stalled after China blocked the part of the deal covering ABB's China business.",
+    "themes": [
+      "physical-ai",
+      "policy-momentum"
+    ],
+    "companies": [
+      "boston-dynamics"
+    ],
+    "policies": [],
+    "tags": [
+      "softbank",
+      "rai-institute",
+      "hyundai",
+      "acquisition"
+    ],
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/",
+        "label": "The Robot Report"
+      }
+    ]
+  },
+  {
+    "id": "korea-next-x-humanoid-challenge-2026-11",
+    "date": "2026-11-24",
+    "category": "Policy",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "Korea's science ministry plans staged contests from 2027 to pick one national humanoid platform by the end of 2028",
+    "source": "Digital Today",
+    "source_type": "Secondary",
+    "source_url": "https://www.digitaltoday.co.kr/en/view/129889/msit-to-foster-national-team-caliber-humanoid-robots-2027-challenge-planned",
+    "summary": "The Ministry of Science and ICT briefed industry in Seoul on Nov 24 on the \"Next-X Humanoid Challenge\", run with the National Research Foundation of Korea and the Robotics Society of Korea. Teams compete in stages from 2027; the ministry plans to choose a final platform by the end of 2028 and concentrate follow-on support on it, with a path to market. The report gives no budget.",
+    "themes": [
+      "policy-momentum",
+      "physical-ai"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "korea",
+      "humanoid",
+      "government-program",
+      "msit"
+    ],
+    "sources": [
+      {
+        "url": "https://www.digitaltoday.co.kr/en/view/129889/msit-to-foster-national-team-caliber-humanoid-robots-2027-challenge-planned",
+        "label": "Digital Today"
+      },
+      {
+        "url": "https://biz.heraldcorp.com/article/10946932",
+        "label": "Herald Corp"
+      }
+    ]
+  },
+  {
+    "id": "baai-real-benchmark-humancoin-2026-11",
+    "date": "2026-11-24",
+    "category": "Competitive",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "title": "BAAI launches REAL, a physical-AI benchmark with public leaderboards, and plans a 12,500-hour human-task dataset",
+    "source": "Pandaily",
+    "source_type": "Secondary",
+    "source_url": "https://pandaily.com/baai-real-physical-ai-assessment-humancoin-data-plan",
+    "summary": "The Beijing Academy of Artificial Intelligence says REAL spans five capability domains and 158 indicators, with leaderboards for world models, embodied reasoning, simulated manipulation and real-robot manipulation. It also showed Physis-V1-Preview, a world model of about 2 billion parameters trained on 1.2 million hours of data, and Innata-0, an agent built on a world-action model. HumanCOIN, released in stages, is to total 12,500 hours of people doing tasks, with gaze data on 10,000 hours, muscle signals on 2,000 and brain signals on 500.",
+    "themes": [
+      "foundation-models",
+      "china-scale"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "baai",
+      "benchmark",
+      "datasets",
+      "world-models",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://pandaily.com/baai-real-physical-ai-assessment-humancoin-data-plan",
+        "label": "Pandaily"
+      }
+    ]
+  },
+  {
+    "id": "waymo-closed-lane-recall-2026-11",
+    "date": "2026-11-24",
+    "category": "Policy",
+    "sentiment": "Negative",
+    "confidence": "High",
+    "title": "Waymo recalls about 4,500 robotaxis after 11 entries into closed freeway lanes since October",
+    "source": "CNBC (Reuters)",
+    "source_type": "Secondary",
+    "source_url": "https://www.cnbc.com/2026/11/24/waymo-recall-prompted-by-robotaxis-entering-closed-freeway-lanes.html",
+    "summary": "Waymo's NHTSA filing, released Nov 24, counts 11 incidents since Oct 1, including three cars that entered coned-off lanes on Nov 9, three days after the company narrowed its operating scope. No collisions or injuries were reported and the fix is still in progress. A second recall covers responses to police hand signals after a May 8 collision. California has barred Waymo from its freeways and the company has paused freeway driving everywhere.",
+    "themes": [
+      "policy-momentum"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "waymo",
+      "nhtsa",
+      "recall",
+      "autonomous-vehicles"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/11/24/waymo-recall-prompted-by-robotaxis-entering-closed-freeway-lanes.html",
+        "label": "CNBC (Reuters)"
+      }
+    ]
+  },
+  {
+    "id": "jpmorgan-unitree-ubtech-targets-2026-11",
+    "date": "2026-11-24",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "J.P. Morgan raises its Unitree target to RMB 1,060 and upgrades UBTech to Overweight",
+    "source": "Gelonghui (via Sina Finance)",
+    "source_type": "Secondary",
+    "source_url": "https://finance.sina.com.cn/stock/bxjj/2026-11-24/doc-inizvkmk9043683.shtml",
+    "summary": "The note, as reported, says humanoids are moving from demos to real deployments, where data pipelines, deployment and customer return decide the winners, and expects two to three years of consolidation. It lifts Unitree's target from RMB 995 to RMB 1,060 and moves UBTech from Neutral to Overweight with a HK$77 target. Its supply-chain picks are Orbbec and Leaderdrive for Chinese makers and Hengli Hydraulic and Sanhua for Tesla's robot.",
+    "themes": [
+      "china-scale"
+    ],
+    "companies": [
+      "unitree",
+      "ubtech"
+    ],
+    "policies": [],
+    "tags": [
+      "jpmorgan",
+      "analyst",
+      "unitree",
+      "ubtech",
+      "leaderdrive"
+    ],
+    "sources": [
+      {
+        "url": "https://finance.sina.com.cn/stock/bxjj/2026-11-24/doc-inizvkmk9043683.shtml",
+        "label": "Gelonghui via Sina Finance"
+      }
+    ]
+  },
+  {
+    "id": "miit-embodied-sales-q1-q3-2026-11",
+    "date": "2026-11-24",
+    "category": "Competitive",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "MIIT says embodied-AI robot sales on the platforms it monitors rose 22.6% in the first three quarters",
+    "source": "36Kr",
+    "source_type": "Secondary",
+    "source_url": "https://36kr.com/newsflashes/4083175473681285",
+    "summary": "The ministry gave the figure alongside 110% growth for AI glasses over January to September. The reports do not say which sales platforms are covered or whether the growth is in units or value, and the ministry's own release has not been found.",
+    "themes": [
+      "china-scale"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "miit",
+      "china",
+      "sales",
+      "embodied-ai"
+    ],
+    "sources": [
+      {
+        "url": "https://36kr.com/newsflashes/4083175473681285",
+        "label": "36Kr"
+      },
+      {
+        "url": "https://www.guandian.cn/m/show/632106",
+        "label": "Guandian"
+      }
+    ]
+  },
+  {
+    "id": "atom-japan-credit-lines-2026-11",
+    "date": "2026-11-24",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "Tokyo humanoid maker ATOM signs ¥4.5B of bank credit lines for a GPU cluster and production",
+    "source": "Unite.AI",
+    "source_type": "Secondary",
+    "source_url": "https://www.unite.ai/atom-signs-4-5b-in-loan-facilities-for-gpu-cluster-humanoid-output/",
+    "summary": "The limits are with SMBC (¥2B), Mizuho (¥1.5B) and MUFG (¥1B); they are ceilings rather than drawn loans, and the Mizuho line replaces an August loan of the same size. ATOM says the money goes to an on-site GPU cluster for training models and to preparing volume production. Its targets are 200 humanoids delivered in 2027 and 10,000 in 2030.",
+    "themes": [
+      "physical-ai"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "atom",
+      "japan",
+      "humanoid",
+      "debt"
+    ],
+    "sources": [
+      {
+        "url": "https://www.unite.ai/atom-signs-4-5b-in-loan-facilities-for-gpu-cluster-humanoid-output/",
+        "label": "Unite.AI"
+      }
+    ]
+  },
+  {
     "id": "samsung-humanoid-ces-2027-2026-11",
     "date": "2026-11-24",
     "category": "Competitive",
@@ -65,6 +390,43 @@
       },
       {
         "url": "https://news.qq.com/rain/a/20261124A06PA100",
+        "label": "Tencent News"
+      }
+    ]
+  },
+  {
+    "id": "agibot-g2-jcet-chip-test-line-2026-11",
+    "date": "2026-11-23",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "AgiBot's Genie G2 runs a trial on a live chip-test line at JCET's Lingang plant",
+    "source": "Kuai Keji (via Sina Tech)",
+    "source_type": "Secondary",
+    "source_url": "https://finance.sina.com.cn/tech/roll/2026-11-24/doc-inizvech7791686.shtml",
+    "summary": "The first G2 units at JCET's Shanghai automotive-electronics plant load and unload test trays and sort good parts from rejects without a person stepping in, and connect to the plant's existing MES and EAP systems. The plant changes products often, and one robot can serve several lines. The two companies plan more trials across packaging and test steps. It follows the G2 placement on Lens Technology's phone-test line tracked on Nov 21.",
+    "themes": [
+      "industrial-deployments",
+      "china-scale"
+    ],
+    "companies": [
+      "agibot"
+    ],
+    "policies": [],
+    "tags": [
+      "agibot",
+      "jcet",
+      "semiconductors",
+      "deployment",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://finance.sina.com.cn/tech/roll/2026-11-24/doc-inizvech7791686.shtml",
+        "label": "Kuai Keji via Sina Tech"
+      },
+      {
+        "url": "https://news.qq.com/rain/a/20261124A082DM00",
         "label": "Tencent News"
       }
     ]
@@ -460,6 +822,39 @@
     ]
   },
   {
+    "id": "robostore-agibot-us-prices-2026-11",
+    "date": "2026-11-20",
+    "category": "Competitive",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "title": "RoboStore, a U.S. Unitree distributor, adds AgiBot humanoids priced from $29,999 to $159,999",
+    "source": "Humanoids Daily",
+    "source_type": "Secondary",
+    "source_url": "https://humanoidsdaily.com/news/robostore-agibot-us-distribution-x2-a3-g2-prices",
+    "summary": "RoboStore lists the X2 Neo from $29,999, the A3 at $72,999 and the wheeled two-arm G2 at $159,999, with quadrupeds and hands. It did not say how the line fits the FCC's July rule, which blocks new authorizations for foreign-made robots but leaves models already authorized on sale. On Nov 24 the UK retailer AO World said it has an agreement in principle to sell AgiBot products.",
+    "themes": [
+      "china-scale",
+      "policy-momentum"
+    ],
+    "companies": [
+      "agibot"
+    ],
+    "policies": [],
+    "tags": [
+      "agibot",
+      "robostore",
+      "pricing",
+      "us-market",
+      "fcc"
+    ],
+    "sources": [
+      {
+        "url": "https://humanoidsdaily.com/news/robostore-agibot-us-distribution-x2-a3-g2-prices",
+        "label": "Humanoids Daily"
+      }
+    ]
+  },
+  {
     "id": "zipline-faa-arizona-draft-ea-2026-11",
     "date": "2026-11-20",
     "title": "FAA takes comment on letting Zipline fly up to 130,000 drone deliveries a day over Phoenix and Tucson",
@@ -777,6 +1172,37 @@
       {
         "url": "https://www.bloomberght.com/nestle-microsoft-ve-boston-dynamics-ile-isbirligi-yapacak-3795288",
         "label": "Bloomberg HT"
+      }
+    ]
+  },
+  {
+    "id": "nsf-frr-27-501-solicitation-2026-11",
+    "date": "2026-11-19",
+    "category": "Policy",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "NSF posts a $20M Foundational Research in Robotics solicitation that names reindustrialization and security",
+    "source": "NSF",
+    "source_type": "Primary",
+    "source_url": "https://www.nsf.gov/funding/opportunities/frr-foundational-research-robotics/nsf27-501/solicitation",
+    "summary": "Solicitation NSF 27-501 replaces the program description and expects 20 to 30 awards totaling $20 million, subject to available funds, with proposals accepted at any time. Its synopsis says robotics advances \"directly contribute to the nation's long-term reindustrialization, competitiveness and security\", and it is run by the engineering and computer science directorates.",
+    "themes": [
+      "policy-momentum",
+      "us-supply-chain"
+    ],
+    "companies": [],
+    "policies": [
+      "nsf-foundational-research-robotics"
+    ],
+    "tags": [
+      "nsf",
+      "research-funding",
+      "federal"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nsf.gov/funding/opportunities/frr-foundational-research-robotics/nsf27-501/solicitation",
+        "label": "NSF 27-501"
       }
     ]
   },
