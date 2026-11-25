@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-25",
+  "dropped": [
+    {
+      "id": "hn-50629754",
+      "title": "Living computers forge a 'hive mind' and work together to outsmart AI",
+      "source_url": "https://newatlas.com/ai-humanoids/living-computers-forge-a-hive-mind-and-work-together-to-outsmart-ai/",
+      "date": "2026-11-24",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50632206",
+      "title": "Can agents write inference engines from scratch in 12 hours and beat vLLM?",
+      "source_url": "https://github.com/humanityslastsystem/hls",
+      "date": "2026-11-24",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50632419",
+      "title": "An ethical AI does not exist",
+      "source_url": "https://humancode.us/2026/11/22/an-ethical-ai-does-not-exist",
+      "date": "2026-11-24",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50633316",
+      "title": "Humanity's First Exam: Testing LLM Reliability",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+      "date": "2026-11-24",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50635903",
+      "title": "Using AI Without Losing Your Humanity",
+      "source_url": "https://www.dbreunig.com/2026/11/24/using-ai-without-losing-your-humanity.html",
+      "date": "2026-11-24",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50626945",
+      "title": "Jmap-webmail: Modern JMAP webmail client built for Stalwart Mail Server",
+      "source_url": "https://github.com/root-fr/jmap-webmail",
+      "date": "2026-11-24",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50627199",
+      "title": "MRCF, an open-source robot control framework that runs on a laptop",
+      "source_url": "https://github.com/mitos-robotics/MRCF",
+      "date": "2026-11-24",
+      "reason": "open-source repo announcement on Hacker News, no adoption or company news"
+    },
+    {
+      "id": "hn-50628286",
+      "title": "Show HN: status: an emoji and your status, built with SvelteKit and Claude",
+      "source_url": "https://status.me/",
+      "date": "2026-11-24",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50629729",
+      "title": "Using Hermes Agent on a VPS to Control an Old Rooted Android Phone",
+      "source_url": "https://nimitbhardwaj.github.io/posts/hermes-agent-rooted-android-vps/",
+      "date": "2026-11-24",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50630727",
+      "title": "Leah Rowe on GNU RBoot (Membership Proposed)",
+      "source_url": "https://techrights.org/n/2026/11/24/Leah_Rowe_on_GNU_RBoot_Membership_Proposed_UEFI_was_invented_by.shtml",
+      "date": "2026-11-24",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50635055",
+      "title": "Show HN: Cerulion – Harness for Robotics, Gemini 3.8 Flash Matches GPT-6 Astra",
+      "source_url": "https://github.com/cerulion-inc/cerulion#harness-results",
+      "date": "2026-11-24",
+      "reason": "open-source repo announcement on Hacker News, no adoption or company news"
+    },
+    {
+      "id": "hn-50635119",
+      "title": "The Dumbest Bet in Robotics Is Still Building the Body",
+      "source_url": "https://twitter.com/kokowaters_/status/2046168229198897396",
+      "date": "2026-11-24",
+      "reason": "opinion post on X linked from Hacker News, no new facts"
+    },
+    {
+      "id": "hn-50638283",
+      "title": "Inky. Inkling 2 Mini inference on Apple Silicon",
+      "source_url": "https://github.com/robotgamedevelopers/inky",
+      "date": "2026-11-25",
+      "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+    },
+    {
+      "id": "hn-50638426",
+      "title": "The last time robots came for our jobs [video]",
+      "source_url": "https://www.youtube.com/watch?v=yXlsaaFshYk",
+      "date": "2026-11-25",
+      "reason": "video essay on automation history, no new facts"
+    },
+    {
+      "id": "rss-fiveages-reports-ce-assessment-689",
+      "title": "FiveAges Reports CE Assessments for Its Jiling Wheeled Robot",
+      "source_url": "https://pandaily.com/fiveages-jiling-robot-ce-sgs-safety-assessments",
+      "date": "2026-11-25",
+      "reason": "minor: a CE assessment package for one wheeled robot, no certification issued"
+    },
+    {
+      "id": "rss-robotics-summit-2027-opens-cal-324",
+      "title": "Robotics Summit 2027 opens call for speakers",
+      "source_url": "https://www.therobotreport.com/robotics-summit-2027-opens-call-for-speakers/",
+      "date": "2026-11-24",
+      "reason": "event announcement (call for speakers), not news"
+    }
+  ],
+  "rewritten_as_curated": [
+    "rss-softbank-acquires-marc-raibert-955",
+    "rss-baai-unveils-real-physical-ai-128",
+    "hn-50636336"
+  ]
+}
