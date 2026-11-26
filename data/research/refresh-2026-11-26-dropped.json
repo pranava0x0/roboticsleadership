@@ -1,0 +1,133 @@
+{
+ "date": "2026-11-26",
+ "dropped": [
+  {
+   "id": "hn-50640241",
+   "title": "Humanity's First Exam (HFE)",
+   "source_url": "https://www.kaggle.com/benchmarks/deepmind/hfe",
+   "date": "2026-11-25",
+   "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+  },
+  {
+   "id": "hn-50641596",
+   "title": "Notes from the Belly of the Whale: AI's Need for Humanism",
+   "source_url": "https://browsercompany.substack.com/p/notes-from-the-belly-of-the-whale",
+   "date": "2026-11-25",
+   "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+  },
+  {
+   "id": "hn-50647815",
+   "title": "The Urge to Retrace Human Technological History",
+   "source_url": "https://bcli.substack.com/p/the-urge-to-retrace-humanitys-technological",
+   "date": "2026-11-25",
+   "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+  },
+  {
+   "id": "hn-50648678",
+   "title": "Corporate 'orbital data centre' proposals are dangerous for humanity",
+   "source_url": "https://theconversation.com/corporate-orbital-data-centre-proposals-are-dangerous-for-humanity-293085",
+   "date": "2026-11-25",
+   "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+  },
+  {
+   "id": "hn-50641921",
+   "title": "Show HN: Rethink Phone: experiments with an agent running on a rooted Android",
+   "source_url": "https://rethinkphone.tech/",
+   "date": "2026-11-25",
+   "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+  },
+  {
+   "id": "hn-50644661",
+   "title": "The Islamic Roots of Science Fiction",
+   "source_url": "https://gizmodo.com/the-islamic-roots-of-science-fiction-1632693067",
+   "date": "2026-11-25",
+   "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+  },
+  {
+   "id": "hn-50645002",
+   "title": "Omnibot Reborn: Giving a 1984 Robot Butler the Brain It Was Promised",
+   "source_url": "https://makezine.com/article/technology/robotics/omnibot-reborn-giving-a-1984-robot-butler-the-brain-it-was-promised/",
+   "date": "2026-11-25",
+   "reason": "hobby project"
+  },
+  {
+   "id": "hn-50646034",
+   "title": "Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch",
+   "source_url": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/",
+   "date": "2026-11-25",
+   "reason": "autonomous-vehicle testing; AV scope still an open backlog call"
+  },
+  {
+   "id": "hn-50647098",
+   "title": "Breaking the Square-Root Barrier for the Log-Rank Conjecture [pdf]",
+   "source_url": "https://github.com/google-research/google-research/blob/master/cogentic_research_papers/logrank_conjecture/paper.pdf",
+   "date": "2026-11-25",
+   "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+  },
+  {
+   "id": "hn-50647161",
+   "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+   "source_url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+   "date": "2026-11-25",
+   "reason": "off-topic Hacker News keyword match (not about robotics industry, policy or deployments)"
+  },
+  {
+   "id": "hn-50652321",
+   "title": "Fortescue's 6MW Robotic EV Charger and Electric Haul Trucks [video]",
+   "source_url": "https://www.youtube.com/watch?v=pJ07iuMuXq4",
+   "date": "2026-11-26",
+   "reason": "video of Fortescue charger already tracked (fortescue-kuka-charging-2026-10)"
+  },
+  {
+   "id": "rss-zhejiang-humanoid-robot-innova-261",
+   "title": "Zhejiang Humanoid Robot Innovation Center Rolls Out SPIRE 2.0 and Navi-Dataset",
+   "source_url": "https://pandaily.com/zhejiang-humanoid-spire-2-naviai-dataset",
+   "date": "2026-11-26",
+   "reason": "system iteration and dataset count only; no new robot or deployment"
+  },
+  {
+   "id": "rss-datacanvas-launches-physical-a-891",
+   "title": "DataCanvas Launches Physical AI Factory and Opens Infra and Dev APIs",
+   "source_url": "https://pandaily.com/datacanvas-physical-ai-factory-infra-dev-apis",
+   "date": "2026-11-26",
+   "reason": "product-marketing launch of a developer platform; no customers or figures"
+  },
+  {
+   "id": "rss-engineai-releases-awaken-based-382",
+   "title": "EngineAI Releases Awaken-Based Smart Fire-Facility Inspection Solution",
+   "source_url": "https://pandaily.com/engineai-awaken-fire-facility-inspection-solution",
+   "date": "2026-11-26",
+   "reason": "vendor solution announcement; no deployment named"
+  },
+  {
+   "id": "rss-fcc-should-focus-on-robot-secu-380",
+   "title": "FCC should focus on robot security, not country of origin",
+   "source_url": "https://www.therobotreport.com/fcc-should-focus-on-robot-security-not-country-of-origin/",
+   "date": "2026-11-25",
+   "reason": "opinion column; FCC Covered List already tracked (noted in backlog as discourse)"
+  },
+  {
+   "id": "rss-how-vention-is-cutting-factory-241",
+   "title": "How Vention is cutting factory programming from weeks to minutes",
+   "source_url": "https://www.therobotreport.com/how-vention-is-cutting-factory-programming-from-weeks-to-minutes/",
+   "date": "2026-11-25",
+   "reason": "vendor feature article, no news event"
+  },
+  {
+   "id": "rss-how-darpa-challenged-teams-to-202",
+   "title": "How DARPA Challenged Teams to Bring Robots Into Disaster Triage",
+   "source_url": "https://spectrum.ieee.org/darpa-triage-challenge-final-robots",
+   "date": "2026-11-25",
+   "reason": "retrospective feature on a past DARPA challenge; body not readable to curl"
+  },
+  {
+   "id": "rss-galaxea-releases-g0-7-embodied-143",
+   "title": "Galaxea Releases G0.7 Embodied Foundation Model With Long Context and Fast Mode",
+   "source_url": "https://pandaily.com/galaxea-g07-embodied-foundation-model-wam-fast-mode",
+   "date": "2026-11-26",
+   "reason": "company-reported model figures only, Pandaily page unreadable to curl, and a same-day minor item would take the front-page lead; in backlog"
+  }
+ ],
+ "rewritten_as_curated": [],
+ "auto_pr": "auto/news-2026-11-25-201956 (all its candidates are in this list)"
+}
