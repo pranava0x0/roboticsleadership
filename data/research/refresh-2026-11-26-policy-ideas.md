@@ -1,0 +1,8 @@
+## Policy ideas / reframes
+
+1. USTR Section 301 excess-capacity action (item 1): add as a policy record plus a comment-window entry. Comments and requests to appear due 2027-01-05 (docket USTR-2026-0278 for comments, USTR-2026-0741 for requests to appear); public hearing 2027-01-25 at the ITC. Fits `comment_deadline` pattern (robotics is a named sector; China proposed up to 20% net, up to 10% on Annex A). Watch for the Federal Register publication date, which was not yet live when checked; the pre-publication PDFs are the source. Also relevant context for the 10-28 Section 232 robots proclamation (no tariff, negotiations) and the 11-10 extension of 178 Section 301 exclusions to Jan 9 (already tracked): this is a separate, new track that names robotics.
+2. Reframe for China page: the USTR report is a US government source on China's robotics industry (354,000 vs 38,000 installs, Chinese-brand share 53%, state VC fund). It is a US-agency claim, so label it as USTR's finding, not a neutral measure; compare with IFR (already tracked 11-12: US density 323, China 193) before reconciling the US 38,000 vs IFR figure.
+3. Turkey humanoid grant (item 3): deadline 2026-12-31; comparative industrial-policy reference (grant share 50%).
+4. DoD / automakers drone parts (item 5): no document yet; idea is a tracked "reported talks" status until a contract or announcement.
+5. Already-tracked windows re-confirmed: NIOSH RFI published in the Federal Register 2026-11-23 (doc 2026-23799); comments due 2027-02-22.
+6. USTR Section 301 sibling notices (14 economies) use the same dates; Vietnam up to 35% is the highest proposed rate.

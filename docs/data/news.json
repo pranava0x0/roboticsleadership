@@ -1,5 +1,216 @@
 [
   {
+    "id": "ustr-301-excess-capacity-robotics-2026-11",
+    "date": "2026-11-25",
+    "category": "Policy",
+    "sentiment": "Neutral",
+    "confidence": "High",
+    "title": "USTR finds China's excess capacity actionable under Section 301, names robotics, and proposes tariffs of up to 20%",
+    "source": "Office of the U.S. Trade Representative",
+    "source_type": "Primary",
+    "source_url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+    "summary": "USTR closed its Section 301 investigations into structural excess capacity, finding the practices of 14 economies, China included, unreasonable and a burden on U.S. commerce. For China it proposes tariffs of up to 20% (net of the forced-labor Section 301 rate) on goods outside the notice's annexes and up to 10% on Annex A goods, with Annex B exemptions. Robotics is one of the named sectors, and USTR's China report counts 354,000 industrial robot installations in China in 2025 against 38,000 in the United States. Comments are due January 5, 2027; hearings begin January 25.",
+    "themes": [
+      "policy-momentum",
+      "china-scale"
+    ],
+    "companies": [],
+    "policies": [
+      "ustr-301-excess-capacity-proposed-action-2026-11"
+    ],
+    "tags": [
+      "section-301",
+      "tariffs",
+      "ustr",
+      "excess-capacity",
+      "china"
+    ],
+    "sources": [
+      {
+        "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+        "label": "USTR press release"
+      },
+      {
+        "url": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/China%20FRN.pdf",
+        "label": "Proposed action notice (China)"
+      },
+      {
+        "url": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/SECP%20301%20China%20report.pdf",
+        "label": "USTR China report (robotics, PDF p. 373)"
+      }
+    ]
+  },
+  {
+    "id": "tesla-emag-machining-company-2026-11",
+    "date": "2026-11-25",
+    "category": "Supply Chain",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "title": "Tesla registers a German machining company at the headquarters of EMAG, a maker of the machines that cut humanoid robot gears",
+    "source": "Electrek",
+    "source_type": "Secondary",
+    "source_url": "https://electrek.co/2026/11/25/tesla-emag-germany-machining-company-optimus/",
+    "summary": "Germany's company register lists Tesla Machining Technologies Management SE (HRB 315756, Munich court, €120,000 share capital) at Austraße 24 in Salach, EMAG's headquarters; it began as an August shell company and was renamed this month. EMAG builds turning, grinding and gear-cutting machines, and markets equipment for strain-wave gear parts (flexsplines, wave generators) and planetary gears used in robot joints. Stuttgarter Zeitung reports that about 220 EMAG employees will move to Tesla and that the deal concerns humanoid robots. Neither company has confirmed a deal. EMAG lost €42 million on €496 million of revenue in 2024, per Business Insider.",
+    "themes": [
+      "us-supply-chain",
+      "industrial-deployments"
+    ],
+    "companies": [
+      "tesla-optimus"
+    ],
+    "policies": [],
+    "tags": [
+      "tesla",
+      "optimus",
+      "emag",
+      "strain-wave-gear",
+      "germany",
+      "actuators"
+    ],
+    "sources": [
+      {
+        "url": "https://electrek.co/2026/11/25/tesla-emag-germany-machining-company-optimus/",
+        "label": "Electrek"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/goeppingen/emag-in-salach-tesla-und-emag-offenbar-schon-laenger-partner-es-geht-um-humanoide-roboter-79782433.html",
+        "label": "Stuttgarter Zeitung"
+      }
+    ]
+  },
+  {
+    "id": "engineai-rmb1b-developer-fund-2026-11",
+    "date": "2026-11-25",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "EngineAI pledges at least RMB 1 billion, with industry funds, for partners building applications on its humanoids",
+    "source": "Global Times",
+    "source_type": "Secondary",
+    "source_url": "https://www.globaltimes.cn/page/202611/1375037.shtml",
+    "summary": "At its developer conference in Shenzhen, EngineAI CEO Zhao Tongyang said the company and industry funds will provide at least RMB 1 billion (about $140 million) to partners building commercial uses for its robots, with engineering help, robot access, data and compute. Examples given include traffic direction with Duolun Technology and a T800 humanoid taking orders and delivering materials in Luxshare Precision's Suzhou plant. The figure is a joint commitment, not EngineAI's own cash, and no fund names were given.",
+    "themes": [
+      "china-scale",
+      "industrial-deployments"
+    ],
+    "companies": [
+      "engineai"
+    ],
+    "policies": [],
+    "tags": [
+      "engineai",
+      "china",
+      "developer-fund",
+      "humanoid"
+    ],
+    "sources": [
+      {
+        "url": "https://www.globaltimes.cn/page/202611/1375037.shtml",
+        "label": "Global Times"
+      }
+    ]
+  },
+  {
+    "id": "lute-20m-seed-tactile-2026-11",
+    "date": "2026-11-25",
+    "category": "Funding",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "Lute raises $20M across pre-seed and seed for touch-based robot foundation models",
+    "source": "Unite.AI",
+    "source_type": "Secondary",
+    "source_url": "https://www.unite.ai/lute-raises-20m-across-pre-seed-and-seed-to-scale-physical-ai/",
+    "summary": "Lute, founded by PolyAI's former head of machine learning, raised $20 million across pre-seed and seed rounds; OTB Ventures and FORWARD.one co-led the seed, with Seedcamp, Credo Ventures, Naval Ravikant, Inovo, ff Venture Capital and Borusan Ventures. Lute builds skin-like touch sensors and foundation models that learn grip force and slip, which cameras miss. OTB says its first model, Lute-0, matched Pi0.5 on dexterous tasks after pre-training on about one-twentieth of the data.",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "funding",
+      "seed",
+      "tactile",
+      "europe",
+      "foundation-model"
+    ],
+    "sources": [
+      {
+        "url": "https://www.unite.ai/lute-raises-20m-across-pre-seed-and-seed-to-scale-physical-ai/",
+        "label": "Unite.AI (OTB Ventures announcement)"
+      }
+    ]
+  },
+  {
+    "id": "robocurve-six-easy-tasks-2026-11",
+    "date": "2026-11-25",
+    "category": "Research",
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "title": "Robocurve's new real-robot benchmark: humans complete all six tasks, frontier coding agents fail all 72 trials",
+    "source": "Robocurve (X)",
+    "source_type": "Primary",
+    "source_url": "https://x.com/robocurve/status/2125754721847988381",
+    "summary": "Robocurve, a public-benefit evaluation company, released Six Easy Tasks (SET), a benchmark run on real robot arms. It reports that GPT-6.2 Astra and Claude Fable 5.2, each run as a coding agent, failed all 72 trials, while human teleoperators completed all six tasks on the same arms. Two days earlier Robocurve retired its RoboDojo-RC Tier 1 benchmark after GPT-6.2 Astra scored 97% across 120 real-robot trials.",
+    "themes": [
+      "foundation-models",
+      "physical-ai"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "benchmark",
+      "evaluation",
+      "robocurve",
+      "frontier-models"
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/robocurve/status/2125754721847988381",
+        "label": "Robocurve: Six Easy Tasks"
+      },
+      {
+        "url": "https://x.com/robocurve/status/2125028977194786857",
+        "label": "Robocurve: RoboDojo-RC Tier 1 retired"
+      },
+      {
+        "url": "https://robocurve.org/",
+        "label": "Robocurve leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "volvo-hexagon-aeon-ghent-2026-11",
+    "date": "2026-11-25",
+    "category": "Deployment",
+    "sentiment": "Positive",
+    "confidence": "Medium",
+    "title": "Volvo Cars trains Hexagon's AEON humanoids at its Ghent plant, aiming for production use from mid-2027",
+    "source": "InsideEVs",
+    "source_type": "Secondary",
+    "source_url": "https://insideevs.com/news/816850/volvo-cars-humanoid-robots-training-factory/",
+    "summary": "Volvo Cars is training Hexagon AEON robots by imitation learning to pick components and place them in two fixtures at its Ghent, Belgium plant, with gradual use alongside workers planned from mid-2027. AEON is a wheeled humanoid from Hexagon, 1.65 m tall and 60 kg, with a 10 kg payload. Volvo's own announcement was not found; the details come from InsideEVs.",
+    "themes": [
+      "industrial-deployments"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "volvo",
+      "hexagon",
+      "aeon",
+      "automotive",
+      "europe",
+      "humanoid"
+    ],
+    "sources": [
+      {
+        "url": "https://insideevs.com/news/816850/volvo-cars-humanoid-robots-training-factory/",
+        "label": "InsideEVs"
+      }
+    ]
+  },
+  {
     "id": "xpeng-iron-production-jan-2027-2026-11",
     "date": "2026-11-25",
     "category": "Competitive",
@@ -100,6 +311,35 @@
       {
         "url": "https://www.yzwb.net/news/ch/202611/t20261125_415719.html",
         "label": "Yangtse Evening Post"
+      }
+    ]
+  },
+  {
+    "id": "cosine-robots-actuators-india-2026-11",
+    "date": "2026-11-24",
+    "category": "Supply Chain",
+    "sentiment": "Positive",
+    "confidence": "High",
+    "title": "Cosine Robots raises ₹22.36 crore (about $2.6M) to make robot joints and actuators in India",
+    "source": "Business Standard",
+    "source_type": "Secondary",
+    "source_url": "https://www.business-standard.com/companies/news/cosine-robots-raises-22-36-crore-to-manufacture-robotic-joints-in-india-126112400577_1.html",
+    "summary": "Bengaluru's Cosine Robots raised ₹22.36 crore led by Avaana Capital, with WEH Ventures and angels, for R&D and a production facility for actuators and motion systems used in robot arms and humanoids. Actuators are one of the components where U.S. and Indian humanoid makers depend most on Chinese and Japanese suppliers.",
+    "themes": [
+      "us-supply-chain"
+    ],
+    "companies": [],
+    "policies": [],
+    "tags": [
+      "india",
+      "actuators",
+      "funding",
+      "components"
+    ],
+    "sources": [
+      {
+        "url": "https://www.business-standard.com/companies/news/cosine-robots-raises-22-36-crore-to-manufacture-robotic-joints-in-india-126112400577_1.html",
+        "label": "Business Standard"
       }
     ]
   },

@@ -745,6 +745,53 @@
     ]
   },
   {
+    "id": "ustr-301-excess-capacity-proposed-action-2026-11",
+    "title": "USTR Section 301 excess-capacity determinations and proposed tariffs (14 economies, robotics a named sector)",
+    "type": "Regulation",
+    "level": "Federal",
+    "state": "N/A",
+    "introduced_date": "2026-11-25",
+    "status": "Draft",
+    "bill_number": "USTR-2026-0278",
+    "sponsor": "Office of the United States Trade Representative",
+    "summary": "USTR determined that the practices of 14 economies, China included, that contribute to structural excess capacity in manufacturing are unreasonable and burden U.S. commerce, closing the investigations opened March 11, 2026. For China it proposes tariffs of up to 20% (net of the forced-labor Section 301 rate) on goods not listed in the notice's annexes, up to 10% on Annex A goods, and exemptions for Annex B goods drawn from the U.S.-China Board of Trade \"30-for-30\" lists. Written comments and requests to appear are due January 5, 2027; hearings start January 25, 2027. The action is proposed, not final, and determinations for Mexico and Norway are pending.",
+    "full_text_url": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/China%20FRN.pdf",
+    "robotics_scope": "China's notice lists robotics among the sectors with structural excess capacity, and the supporting China report has a robotics chapter: by USTR's count China installed 354,000 industrial robots in 2025 against 38,000 in the United States and 208,000 in the rest of the world.",
+    "estimated_budget_usd": null,
+    "beneficiaries": [],
+    "agency_responsible": [],
+    "startup_eligible": false,
+    "application_url": null,
+    "archive_url": null,
+    "tags": [
+      "federal",
+      "tariffs",
+      "section-301",
+      "trade",
+      "proposed"
+    ],
+    "sources": [
+      {
+        "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+        "label": "USTR press release, Nov 25, 2026"
+      },
+      {
+        "url": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/China%20FRN.pdf",
+        "label": "USTR proposed action notice (China)"
+      },
+      {
+        "url": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/SECP%20301%20China%20report.pdf",
+        "label": "USTR China report, robotics chapter (PDF p. 373)"
+      }
+    ],
+    "last_updated": "2026-11-26",
+    "themes": [
+      "policy-momentum",
+      "china-scale"
+    ],
+    "comment_deadline": "2027-01-05"
+  },
+  {
     "id": "fr-initiation-of-section-301-investigations-acts-policies-and-practices-of-certain-economi",
     "title": "Initiation of Section 301 Investigations: Acts, Policies, and Practices of Certain Economies Relating to Structural Excess Capacity and Production in Manufacturing Sectors",
     "type": "Regulation",

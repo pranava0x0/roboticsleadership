@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-16",
+    "last_updated": "2026-11-26",
     "captured_at": "2026-06-12",
     "method": "Selected robot counts, reducers, lidar and Marion refinery records checked 2026-10-26 against IFR, manufacturers and company disclosures; other records retain earlier capture dates. Shares are estimates for their stated market and year."
   },
@@ -171,7 +171,8 @@
       "chokepoints": [
         { "text": "Strain-wave tooth-grinding know-how sits with HDSI (Japan) and a handful of Suzhou firms", "source": "https://www.intelmarketresearch.com/robot-harmonic-drive-reduction-gear-market-43594" },
         { "text": "Nabtesco is sole-source-class for large-joint cycloidal RV gears", "source": "https://www.businessresearchinsights.com/market-reports/rv-reducer-market-103381" },
-        { "text": "U.S. manufacturing exists, but the domestic capacity available for robotics is not quantified here", "source": "https://conedrive.com/harmonic-gearing-ring-series/" }
+        { "text": "U.S. manufacturing exists, but the domestic capacity available for robotics is not quantified here", "source": "https://conedrive.com/harmonic-gearing-ring-series/" },
+        { "text": "Tesla registered a machining company at the Salach headquarters of EMAG, which sells machines for strain-wave gear parts; neither company has confirmed a deal (Nov 2026)", "source": "https://electrek.co/2026/11/25/tesla-emag-germany-machining-company-optimus/" }
       ],
       "sources": [
         { "url": "https://www.thefai.org/posts/the-state-of-industrial-robotics", "label": "FAI — industrial robotics" },
