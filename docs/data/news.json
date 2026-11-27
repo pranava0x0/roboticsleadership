@@ -1,5 +1,224 @@
 [
   {
+    "id": "hn-50663842",
+    "title": "HumanFish: Predicting Who Wins a Human Chess Game",
+    "date": "2026-11-27",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://humanfish.vercel.app/methodology",
+    "summary": "HumanFish: Predicting Who Wins a Human Chess Game",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50659354",
+    "title": "Show HN: Play with VST/CLAP instruments and effects in the browser",
+    "date": "2026-11-26",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://vst.run/",
+    "summary": "For awhile now, I thought it'd be cool to be able to try out various instrument / effect plugins in the browser without having to download them and open up a DAW. I saw this as a challenge, ",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50660493",
+    "title": "Show HN: Shirudo.today: Virtual eBPF patching on stock Linux",
+    "date": "2026-11-26",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://shirudo.today/blog/launch.html",
+    "summary": "OpenAI's Shirudo needs kernel patches that still will take a couple more months, so we decided to make it available today. The threat model degrades to a compromised root, but makes the shirudo f",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50660560",
+    "title": "Show HN: Turkey Trot",
+    "date": "2026-11-26",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://turkey-trot.replit.app/",
+    "summary": "Show HN: Turkey Trot",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50661032",
+    "title": "OEMpocalypse Part 2: Rooting Samsung Flagships via Knox DualDAR",
+    "date": "2026-11-26",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://calif.io/research/oempocalypse-part-2",
+    "summary": "OEMpocalypse Part 2: Rooting Samsung Flagships via Knox DualDAR",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50665747",
+    "title": "A new form of memory helps robots learn complex skills",
+    "date": "2026-11-27",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.csail.mit.edu/news/new-form-memory-helps-robots-learn-complex-skills",
+    "summary": "A new form of memory helps robots learn complex skills",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50666349",
+    "title": "Tiny Hat – Linux distro for retro game development",
+    "date": "2026-11-27",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://roboticoverlords.org/tinyhat/",
+    "summary": "Tiny Hat – Linux distro for retro game development",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50666724",
+    "title": "Paolo Soleri built a utopian eco-city in the Arizona desert",
+    "date": "2026-11-27",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.worldofinteriors.com/story/paolo-soleri-arconsati-arizona",
+    "summary": "Paolo Soleri built a utopian eco-city in the Arizona desert",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50668024",
+    "title": "Show HN: Open-source ESP32 desk body for a local AI assistant",
+    "date": "2026-11-27",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.bobebot.com/body",
+    "summary": "Here is a fun project if you want to make an open-source Meta Muse Charm.It is a cheap ESP32-S3 talking toy from Shanghai talking to my Mac/Linux desktop app (BoBe), with zero API keys on the chi",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "hn-50669385",
+    "title": "Open Historical Map",
+    "date": "2026-11-27",
+    "source": "Hacker News",
+    "source_type": "Community",
+    "source_url": "https://www.openhistoricalmap.org/",
+    "summary": "Open Historical Map",
+    "category": "Competitive",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Low",
+    "tags": [
+      "hacker-news",
+      "community"
+    ],
+    "_requires_curator_review": true
+  },
+  {
+    "id": "rss-gxo-doubling-down-on-robotics-49",
+    "title": "GXO doubling down on robotics in 2027",
+    "date": "2026-11-27",
+    "source": "The Robot Report",
+    "source_type": "News",
+    "source_url": "https://www.therobotreport.com/gxo-doubling-down-on-robotics-in-2027/",
+    "summary": "GXO didn't disclose which providers it would increase deployments with, but let's take a look at the existing technologies in its portfolio.\nThe post GXO doubling down on robotics in 2027 appeared fir...",
+    "category": "Deployment",
+    "companies": [],
+    "policies": [],
+    "themes": [],
+    "sentiment": "Neutral",
+    "confidence": "Medium",
+    "tags": [
+      "rss-import"
+    ],
+    "_requires_curator_review": true
+  },
+  {
     "id": "hn-50654562",
     "title": "Show HN: 44% chance of a catastrophe that kills over 10% of humanity by 2100",
     "date": "2026-11-26",
